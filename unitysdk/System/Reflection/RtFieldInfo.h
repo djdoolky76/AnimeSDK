@@ -2,27 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/BindingFlags.h"
 #include "unitysdk/System/Reflection/RuntimeFieldInfo.h"
-
+#include "unitysdk/System/TypedReference.h"
 namespace System { class Object; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Reflection { class Binder; }
 
-#define SYSTEM_REFLECTION_RTFIELDINFO_CHECKCONSISTENCY_OFFSET UNITYSDK_OFFSET(0x1BDA32A0)
-#define SYSTEM_REFLECTION_RTFIELDINFO_SETVALUEDIRECT_OFFSET UNITYSDK_OFFSET(0x1BDA3620)
-#define SYSTEM_REFLECTION_RTFIELDINFO_UNSAFEGETVALUE_OFFSET UNITYSDK_OFFSET(0x1BDA3260)
-#define SYSTEM_REFLECTION_RTFIELDINFO_UNSAFESETVALUE_OFFSET UNITYSDK_OFFSET(0x1BDA3590)
-#define SYSTEM_REFLECTION_RTFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA3830)
+#define SYSTEM_REFLECTION_RTFIELDINFO_CHECKCONSISTENCY_OFFSET UNITYSDK_OFFSET(0x1C2AEEB0)
+#define SYSTEM_REFLECTION_RTFIELDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2AF440)
+#define SYSTEM_REFLECTION_RTFIELDINFO_SETVALUEDIRECT_OFFSET UNITYSDK_OFFSET(0x1C2AF230)
+#define SYSTEM_REFLECTION_RTFIELDINFO_UNSAFEGETVALUE_OFFSET UNITYSDK_OFFSET(0x1C2AEE70)
+#define SYSTEM_REFLECTION_RTFIELDINFO_UNSAFESETVALUE_OFFSET UNITYSDK_OFFSET(0x1C2AF1A0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int RtFieldInfo_TypeDefinitionIndex = 618;
-
 	class RtFieldInfo : public ::System::Reflection::RuntimeFieldInfo
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RTFIELDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RTFIELDINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Object* UnsafeGetValue(::System::Object* a1)
@@ -44,5 +42,6 @@ namespace System::Reflection
 		{
 			return ((::System::Void(*)(::PVOID, ::System::TypedReference, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_RTFIELDINFO_SETVALUEDIRECT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

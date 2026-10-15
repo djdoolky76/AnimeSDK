@@ -1,61 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class AkMusicSettings;
 
-#define AKMUSICSETTINGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1EEE0040)
-#define AKMUSICSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EEDFE50)
-#define AKMUSICSETTINGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1EEDFF70)
-#define AKMUSICSETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1EEDFDA0)
-#define AKMUSICSETTINGS_GET_FSTREAMINGLOOKAHEADRATIO_OFFSET UNITYSDK_OFFSET(0x1EEE02E0)
-#define AKMUSICSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1EEDFDF0)
-#define AKMUSICSETTINGS_SET_FSTREAMINGLOOKAHEADRATIO_OFFSET UNITYSDK_OFFSET(0x1EEE0220)
-#define AKMUSICSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDFD90)
+#define AKMUSICSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A7940)
+#define AKMUSICSETTINGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1F5A7BF0)
+#define AKMUSICSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F5A7A00)
+#define AKMUSICSETTINGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F5A7B20)
+#define AKMUSICSETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A7950)
+#define AKMUSICSETTINGS_GET_FSTREAMINGLOOKAHEADRATIO_OFFSET UNITYSDK_OFFSET(0x1F5A7E90)
+#define AKMUSICSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A79A0)
+#define AKMUSICSETTINGS_SET_FSTREAMINGLOOKAHEADRATIO_OFFSET UNITYSDK_OFFSET(0x1F5A7DD0)
 
-inline static constexpr unsigned int AkMusicSettings_TypeDefinitionIndex = 43576;
-
-class AkMusicSettings : public ::System::Object
-{
-public:
-	::System::IntPtr swigCPtr; // 0x10
-	::System::Boolean swigCMemOwn; // 0x18
-
-	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+	class AkMusicSettings : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS__CTOR_OFFSET))(this, a1, a2);
-	}
+	public:
+		::System::Boolean swigCMemOwn; // 0x10
+		::System::Byte _padding0[0x7];
+		::System::IntPtr swigCPtr; // 0x18
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_CTOR_OFFSET))(this, a1, a2);
+		}
 
-	static ::System::IntPtr getCPtr(::AkMusicSettings* a1)
-	{
-		return ((::System::IntPtr(*)(::AkMusicSettings*))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_GETCPTR_OFFSET))(a1);
-	}
+		static ::System::IntPtr getCPtr(::AkMusicSettings* a1)
+		{
+			return ((::System::IntPtr(*)(::AkMusicSettings*))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_GETCPTR_OFFSET))(a1);
+		}
 
-	::System::Void setCPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_SETCPTR_OFFSET))(this, a1);
-	}
+		::System::Void setCPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_SETCPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void Finalize()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_FINALIZE_OFFSET))(this);
-	}
+		::System::Void Finalize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_FINALIZE_OFFSET))(this);
+		}
 
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_DISPOSE_OFFSET))(this);
-	}
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_DISPOSE_OFFSET))(this);
+		}
 
-	::System::Void Dispose_1(::System::Boolean a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_DISPOSE_1_OFFSET))(this, a1);
-	}
+		::System::Void Dispose_1(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_DISPOSE_1_OFFSET))(this, a1);
+		}
 
-	::System::Void set_fStreamingLookAheadRatio(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_SET_FSTREAMINGLOOKAHEADRATIO_OFFSET))(this, a1);
-	}
+		::System::Void set_fStreamingLookAheadRatio(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_SET_FSTREAMINGLOOKAHEADRATIO_OFFSET))(this, a1);
+		}
 
-	::System::Single get_fStreamingLookAheadRatio()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_GET_FSTREAMINGLOOKAHEADRATIO_OFFSET))(this);
-	}
-};
+		::System::Single get_fStreamingLookAheadRatio()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMUSICSETTINGS_GET_FSTREAMINGLOOKAHEADRATIO_OFFSET))(this);
+		}
+
+	};

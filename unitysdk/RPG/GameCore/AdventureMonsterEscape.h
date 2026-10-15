@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureMonsterEscape; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVENTUREMONSTERESCAPE_METHOD_3_9EEBAE88E18FB2AF_OFFSET UNITYSDK_OFFSET(0x1CDF4730)
-#define RPG_GAMECORE_ADVENTUREMONSTERESCAPE_METHOD_3_CCAFF0B6DDAC0262_OFFSET UNITYSDK_OFFSET(0x1CDF4770)
-#define RPG_GAMECORE_ADVENTUREMONSTERESCAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF4760)
+#define RPG_GAMECORE_ADVENTUREMONSTERESCAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CA970)
+#define RPG_GAMECORE_ADVENTUREMONSTERESCAPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3CA980)
+#define RPG_GAMECORE_ADVENTUREMONSTERESCAPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CA940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMonsterEscape_TypeDefinitionIndex = 19983;
-
 	class AdventureMonsterEscape : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERESCAPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERESCAPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9EEBAE88E18FB2AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterEscape*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureMonsterEscape* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureMonsterEscape*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERESCAPE_METHOD_3_9EEBAE88E18FB2AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureMonsterEscape*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERESCAPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CCAFF0B6DDAC0262(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterEscape* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureMonsterEscape* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureMonsterEscape*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERESCAPE_METHOD_3_CCAFF0B6DDAC0262_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureMonsterEscape*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERESCAPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

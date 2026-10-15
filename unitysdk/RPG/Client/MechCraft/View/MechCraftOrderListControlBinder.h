@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
+namespace SuperScrollView { class LoopGridView; }
+namespace UnityEngine { class Camera; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD64EB80)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROLBINDER_GET_ORDERGRIDLIST_OFFSET UNITYSDK_OFFSET(0xD64E3D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROLBINDER_GET_PARTICLECAMERA_OFFSET UNITYSDK_OFFSET(0xD64E740)
+
+namespace RPG::Client::MechCraft::View
+{
+	class MechCraftOrderListControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROLBINDER_CTOR_OFFSET))(this);
+		}
+
+		::SuperScrollView::LoopGridView* get_OrderGridList()
+		{
+			return ((::SuperScrollView::LoopGridView*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROLBINDER_GET_ORDERGRIDLIST_OFFSET))(this);
+		}
+
+		::UnityEngine::Camera* get_ParticleCamera()
+		{
+			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROLBINDER_GET_PARTICLECAMERA_OFFSET))(this);
+		}
+
+	};
+}

@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDC90490)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS37_0__STARTSCALEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xDC90640)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD196A0)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS37_0__STARTSCALEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xDD19870)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleItem___c__DisplayClass37_0_TypeDefinitionIndex = 78190;
-
 	class JigsawPuzzleItem___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:
 		::System::Action* OnScaleDone; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS37_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS37_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _StartScaleAnimation_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS37_0__STARTSCALEANIMATION_B__0_OFFSET))(this);
 		}
+
 	};
 }

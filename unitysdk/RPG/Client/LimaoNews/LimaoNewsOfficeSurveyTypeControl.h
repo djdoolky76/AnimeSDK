@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyTypeData; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD476E90)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD476F60)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD476A60)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD4769C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3CBBA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3CBAA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3CB8F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3CB830)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsOfficeSurveyTypeControl_TypeDefinitionIndex = 79036;
-
 	class LimaoNewsOfficeSurveyTypeControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::Transform* _Node; // 0x38
-		::UnityEngine::UI::Image* _Icon; // 0x40
-		::UnityEngine::UI::Text* _Text; // 0x48
-
+		::UnityEngine::Transform* _Node; // 0x40
+		::UnityEngine::UI::Image* _Icon; // 0x48
+		::UnityEngine::UI::Text* _Text; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -42,5 +38,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyTypeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYTYPECONTROL_GET__VIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,34 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/CustomRP/BaseMsgCreator_1.h"
-
 namespace RPG::CustomRP { class DebugStrCb; }
-namespace RPG::CustomRP { class DebugStringMsg; }
 namespace RPG::CustomRP { class IRPMessage; }
 
-#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR_ONMSG_OFFSET UNITYSDK_OFFSET(0x1C6A5A20)
-#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6A5AA0)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2B860)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR_ONMSG_OFFSET UNITYSDK_OFFSET(0x1CC2B7E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugStringMsgCreator_TypeDefinitionIndex = 37058;
-
-	class DebugStringMsgCreator : public ::RPG::CustomRP::BaseMsgCreator_1<::RPG::CustomRP::DebugStringMsg*>
+	class DebugStringMsgCreator
 	{
 	public:
 		static ::RPG::CustomRP::DebugStrCb** StaticGet_strCb()
 		{
-			return (::RPG::CustomRP::DebugStrCb**)Il2CppClass::FromTypeDefinitionIndex(DebugStringMsgCreator_TypeDefinitionIndex)->GetStaticField(0x3AAC0);
+			return (::RPG::CustomRP::DebugStrCb**)UnitySDK::FromName("RPG.CustomRP", "DebugStringMsgCreator")->GetStaticField(0x31180);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnMsg(::RPG::CustomRP::IRPMessage* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::IRPMessage*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSTRINGMSGCREATOR_ONMSG_OFFSET))(this, a1);
 		}
+
 	};
 }

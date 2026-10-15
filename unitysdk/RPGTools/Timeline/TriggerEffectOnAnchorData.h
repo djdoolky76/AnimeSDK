@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class TriggerEffectOnAnchor; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_METHOD_1_07E2EFC50BA85CEB_OFFSET UNITYSDK_OFFSET(0xE8F8F80)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F9040)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_ADGHAIFHEFD_OFFSET UNITYSDK_OFFSET(0xE94E9E0)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE94EAA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectOnAnchorData_TypeDefinitionIndex = 48798;
-
 	class TriggerEffectOnAnchorData : public ::System::Object
 	{
 	public:
@@ -19,15 +16,15 @@ namespace RPGTools::Timeline
 		::System::String* AnchorName; // 0x18
 		::System::String* EffectPath; // 0x20
 		::System::String* UniqueEffectName; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::TriggerEffectOnAnchor* Method_1_07E2EFC50BA85CEB()
+		::RPG::GameCore::TriggerEffectOnAnchor* ADGHAIFHEFD()
 		{
-			return ((::RPG::GameCore::TriggerEffectOnAnchor*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_METHOD_1_07E2EFC50BA85CEB_OFFSET))(this);
+			return ((::RPG::GameCore::TriggerEffectOnAnchor*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORDATA_ADGHAIFHEFD_OFFSET))(this);
 		}
+
 	};
 }

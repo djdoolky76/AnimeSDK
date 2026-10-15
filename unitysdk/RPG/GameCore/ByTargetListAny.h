@@ -1,50 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByTargetListAny; }
+namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_0D131FF2AD00E1AC_OFFSET UNITYSDK_OFFSET(0x1CF63E20)
-#define RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_373CF37507C948F4_OFFSET UNITYSDK_OFFSET(0x1CF63C30)
-#define RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_639A97BE4716DAF1_OFFSET UNITYSDK_OFFSET(0x1CF63BF0)
-#define RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_CF27809E503167A2_OFFSET UNITYSDK_OFFSET(0x1CF63DF0)
-#define RPG_GAMECORE_BYTARGETLISTANY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF63C20)
+#define RPG_GAMECORE_BYTARGETLISTANY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53D5E0)
+#define RPG_GAMECORE_BYTARGETLISTANY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D53D7E0)
+#define RPG_GAMECORE_BYTARGETLISTANY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D53D7B0)
+#define RPG_GAMECORE_BYTARGETLISTANY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D53D5F0)
+#define RPG_GAMECORE_BYTARGETLISTANY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53D5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTargetListAny_TypeDefinitionIndex = 23524;
-
 	class ByTargetListAny : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::PredicateConfig* Predicate; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_639A97BE4716DAF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTargetListAny*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByTargetListAny* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTargetListAny*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_639A97BE4716DAF1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByTargetListAny*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_373CF37507C948F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTargetListAny* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByTargetListAny* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTargetListAny*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_373CF37507C948F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByTargetListAny*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_CF27809E503167A2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetListAny*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetListAny* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetListAny*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_CF27809E503167A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetListAny*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0D131FF2AD00E1AC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetListAny* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetListAny* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetListAny*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_METHOD_4_0D131FF2AD00E1AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetListAny*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLISTANY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,28 +3,26 @@
 #include "unitysdk/RPG/Client/CinemachineVirtualCameraBindingModeExt_BindingModeExt.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine { class CinemachineComposer; }
 namespace Cinemachine { class CinemachineTransposer; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_ACTIVE_OFFSET UNITYSDK_OFFSET(0xCC22690)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_DEACTIVE_OFFSET UNITYSDK_OFFSET(0xCC22730)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCC219A0)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_METHOD_5_0076C796B2045359_OFFSET UNITYSDK_OFFSET(0xCC21C20)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_REFRESHVCAM_OFFSET UNITYSDK_OFFSET(0xCC21A20)
-#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC22780)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_ACTIVE_OFFSET UNITYSDK_OFFSET(0xCB717B0)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xCB718A0)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_DEACTIVE_OFFSET UNITYSDK_OFFSET(0xCB71850)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_JEJLPHKIHLB_OFFSET UNITYSDK_OFFSET(0xCB70D40)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCB70AC0)
+#define RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_REFRESHVCAM_OFFSET UNITYSDK_OFFSET(0xCB70B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraBindingModeExt_TypeDefinitionIndex = 68292;
-
 	class CinemachineVirtualCameraBindingModeExt : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean isActive; // 0x18
+		::System::Byte _padding0[0x3];
 		::RPG::Client::CinemachineVirtualCameraBindingModeExt_BindingModeExt ExtBindingMode; // 0x1C
 		::UnityEngine::Vector3 FollowOffset; // 0x20
 		::UnityEngine::Vector3 CameraRotation; // 0x2C
@@ -35,6 +33,7 @@ namespace RPG::Client
 		::System::Single RuntimeCameraRotateOffset; // 0x58
 		::System::Single AnchorOffsetModifier; // 0x5C
 		::UnityEngine::Vector3 DBIHKHHFDGO; // 0x60
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* GAELCMCKBKO; // 0x70
 		::UnityEngine::Transform* EJCIMGEICHG; // 0x78
 		::UnityEngine::Transform* GMIHCNJFHKC; // 0x80
@@ -42,10 +41,9 @@ namespace RPG::Client
 		::Cinemachine::CinemachineTransposer* APNKLHBIEFF; // 0x90
 		::Cinemachine::CinemachineComposer* CEHOKINKPIM; // 0x98
 		::Cinemachine::CinemachineBrain* HKNDPKIJEDN; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void LateUpdate()
@@ -68,9 +66,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_REFRESHVCAM_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0076C796B2045359()
+		::System::Void JEJLPHKIHLB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_METHOD_5_0076C796B2045359_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CINEMACHINEVIRTUALCAMERABINDINGMODEEXT_JEJLPHKIHLB_OFFSET))(this);
 		}
+
 	};
 }

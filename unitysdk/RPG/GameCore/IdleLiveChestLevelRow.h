@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class IdleLiveChestLevelRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D19D6D0)
-#define RPG_GAMECORE_IDLELIVECHESTLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D19D7F0)
+#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7794F0)
+#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7793D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChestLevelRow_TypeDefinitionIndex = 11723;
-
 	class IdleLiveChestLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ExpUpLimit; // 0x10
-		::System::UInt32 Level; // 0x14
-
+		::System::UInt32 Level; // 0x10
+		::System::UInt32 ExpUpLimit; // 0x14
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveChestLevelRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::IdleLiveChestLevelRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveChestLevelRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::IdleLiveChestLevelRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackSecurity_CollisionResistantHasher_1.h"
-
-namespace MessagePack { template <typename T> class MessagePackSecurity_CollisionResistantHasherUnmanaged_1; }
+namespace System { class Object; }
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantHasherUnmanaged_1_TypeDefinitionIndex = 7149;
-
 	template <typename T>
-	class MessagePackSecurity_CollisionResistantHasherUnmanaged_1 : public ::MessagePack::MessagePackSecurity_CollisionResistantHasher_1<T>
+	class MessagePackSecurity_CollisionResistantHasherUnmanaged_1
 	{
 	public:
-		static ::MessagePack::MessagePackSecurity_CollisionResistantHasherUnmanaged_1<T>** StaticGet_Instance()
+		static ::System::Object** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackSecurity_CollisionResistantHasherUnmanaged_1<T>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_CollisionResistantHasherUnmanaged_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)UnitySDK::FromName("MessagePack", "CollisionResistantHasherUnmanaged`1")->GetStaticField(0x0);
 		}
+
 	};
 }

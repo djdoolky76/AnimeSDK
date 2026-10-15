@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightAugmentQuality_TypeDefinitionIndex = 10533;
-
 	enum class GridFightAugmentQuality : ::System::Int32
 	{
 		None = 0,

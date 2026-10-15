@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
+namespace System { class Object; }
 
-namespace RPG::Client { class MaterialSwitchBehavior; }
-namespace RPG::Client { class MaterialSwitchMonoPlugin_MatPathConfig; }
-namespace RPG::Client { class MaterialSwitchMonoPlugin_MaterialBlock; }
-
-#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xD686A10)
+#define RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E0490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialSwitchMonoPlugin_TypeDefinitionIndex = 70688;
-
-	class MaterialSwitchMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MaterialSwitchBehavior*>
+	class MaterialSwitchMonoPlugin
 	{
 	public:
 		::System::Int32 TargetMatBlockAmount; // 0x30
-		::Il2CppArray<::RPG::Client::MaterialSwitchMonoPlugin_MaterialBlock*>* TargetMatBlocks; // 0x38
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* TargetMatBlocks; // 0x38
 		::System::Int32 MatConfigAmount; // 0x40
-		::Il2CppArray<::RPG::Client::MaterialSwitchMonoPlugin_MatPathConfig*>* MatPathConfigs; // 0x48
-
+		::System::Byte _padding1[0x4];
+		::Il2CppArray<::System::Object*>* MatPathConfigs; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALSWITCHMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALSWITCHMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class OpenTrainPartyBuildUI; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define LCMKGMNPOMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB619090)
+#define LCMKGMNPOMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6190C0)
+
+	class LCMKGMNPOMB
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OpenTrainPartyBuildUI* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OpenTrainPartyBuildUI*))((::PBYTE)hIl2Cpp + LCMKGMNPOMB_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LCMKGMNPOMB_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

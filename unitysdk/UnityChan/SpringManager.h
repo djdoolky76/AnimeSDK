@@ -4,96 +4,87 @@
 #include "unitysdk/UnityChan/SpringManager_SpringBonePropertyType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_2FE2076DA950FCCD;
+class DJDBDBIIBNM;
 namespace RPG::Client { class SpringBoneCommonConfig; }
 namespace RPG::GameCore { class AdventureCharacterController; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityChan { class SpringBone; }
-namespace UnityChan { class SpringManager_Class_1_44494F1EF855DA72; }
 namespace UnityChan { class SpringManager_SpringBoneClass; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYCHAN_SPRINGMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE994200)
-#define UNITYCHAN_SPRINGMANAGER_BINDCONTROLLER_OFFSET UNITYSDK_OFFSET(0xE994470)
-#define UNITYCHAN_SPRINGMANAGER_COLLECTBONECHAIN_OFFSET UNITYSDK_OFFSET(0xE995B40)
-#define UNITYCHAN_SPRINGMANAGER_DISABLERESETALLPOSITION_OFFSET UNITYSDK_OFFSET(0xE995630)
-#define UNITYCHAN_SPRINGMANAGER_FINDINDEXINBONES_OFFSET UNITYSDK_OFFSET(0xE994630)
-#define UNITYCHAN_SPRINGMANAGER_GETRESETPOSITIONSTATE_OFFSET UNITYSDK_OFFSET(0xE995B30)
-#define UNITYCHAN_SPRINGMANAGER_GETTYPEWEIGHT_OFFSET UNITYSDK_OFFSET(0xE9953C0)
-#define UNITYCHAN_SPRINGMANAGER_GETVECTORSCALE_OFFSET UNITYSDK_OFFSET(0xE9946D0)
-#define UNITYCHAN_SPRINGMANAGER_GET_ALLOWMULTITHREAD_OFFSET UNITYSDK_OFFSET(0xE9945E0)
-#define UNITYCHAN_SPRINGMANAGER_GET_ALWAYSMODERATIO_OFFSET UNITYSDK_OFFSET(0xE992CF0)
-#define UNITYCHAN_SPRINGMANAGER_GET_COMMONCONFIG_OFFSET UNITYSDK_OFFSET(0xE992BF0)
-#define UNITYCHAN_SPRINGMANAGER_GET_DYNAMICRATIO_OFFSET UNITYSDK_OFFSET(0xE992CE0)
-#define UNITYCHAN_SPRINGMANAGER_GET_MOTIONTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE9933A0)
-#define UNITYCHAN_SPRINGMANAGER_GET_PASSIVEDELTAPOSITION_OFFSET UNITYSDK_OFFSET(0xE9933F0)
-#define UNITYCHAN_SPRINGMANAGER_INITCUSTOMTAGBLENDDATA_OFFSET UNITYSDK_OFFSET(0xE994230)
-#define UNITYCHAN_SPRINGMANAGER_ISSET_OFFSET UNITYSDK_OFFSET(0xE995690)
-#define UNITYCHAN_SPRINGMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE994D40)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0xE9938E0)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_19AF8B4A7850E7F2_OFFSET UNITYSDK_OFFSET(0xE993D70)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_26DEC114610F10A5_OFFSET UNITYSDK_OFFSET(0xE995750)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_7EDA82E1A56BE1B3_OFFSET UNITYSDK_OFFSET(0xE994D70)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_8013CD60ABB99387_OFFSET UNITYSDK_OFFSET(0xE995320)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_832295EC279E5994_OFFSET UNITYSDK_OFFSET(0xE993020)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_C706B1EC6D2E1C64_OFFSET UNITYSDK_OFFSET(0xE992D00)
-#define UNITYCHAN_SPRINGMANAGER_METHOD_5_C9D23F9BA824950F_OFFSET UNITYSDK_OFFSET(0xE993030)
-#define UNITYCHAN_SPRINGMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE994C60)
-#define UNITYCHAN_SPRINGMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE994A90)
-#define UNITYCHAN_SPRINGMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE9948A0)
-#define UNITYCHAN_SPRINGMANAGER_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xE994890)
-#define UNITYCHAN_SPRINGMANAGER_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xE994A80)
-#define UNITYCHAN_SPRINGMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0xE995670)
-#define UNITYCHAN_SPRINGMANAGER_REMOVETYPEWEIGHT_1_OFFSET UNITYSDK_OFFSET(0xE995AC0)
-#define UNITYCHAN_SPRINGMANAGER_REMOVETYPEWEIGHT_OFFSET UNITYSDK_OFFSET(0xE995A30)
-#define UNITYCHAN_SPRINGMANAGER_RESETALLDATA_OFFSET UNITYSDK_OFFSET(0xE9934A0)
-#define UNITYCHAN_SPRINGMANAGER_RESETALLPOSITION_OFFSET UNITYSDK_OFFSET(0xE9939E0)
-#define UNITYCHAN_SPRINGMANAGER_RESETALWAYSMODERATIO_OFFSET UNITYSDK_OFFSET(0xE995660)
-#define UNITYCHAN_SPRINGMANAGER_RESETDYNAMICRATIO_OFFSET UNITYSDK_OFFSET(0xE9939F0)
-#define UNITYCHAN_SPRINGMANAGER_RESETPASSIVEDELTAPOSITION_OFFSET UNITYSDK_OFFSET(0xE995640)
-#define UNITYCHAN_SPRINGMANAGER_RESETTURNRATIO_OFFSET UNITYSDK_OFFSET(0xE993520)
-#define UNITYCHAN_SPRINGMANAGER_RESETTYPEDICRATIO_OFFSET UNITYSDK_OFFSET(0xE993AD0)
-#define UNITYCHAN_SPRINGMANAGER_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xE994460)
-#define UNITYCHAN_SPRINGMANAGER_SETTYPEWEIGHT_1_OFFSET UNITYSDK_OFFSET(0xE9958E0)
-#define UNITYCHAN_SPRINGMANAGER_SETTYPEWEIGHT_OFFSET UNITYSDK_OFFSET(0xE9956A0)
-#define UNITYCHAN_SPRINGMANAGER_SETUPTURNRATIO_OFFSET UNITYSDK_OFFSET(0xE993430)
-#define UNITYCHAN_SPRINGMANAGER_SET_COMMONCONFIG_OFFSET UNITYSDK_OFFSET(0xE992C80)
-#define UNITYCHAN_SPRINGMANAGER_SET_MOTIONTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE9933E0)
-#define UNITYCHAN_SPRINGMANAGER_SET_PASSIVEDELTAPOSITION_OFFSET UNITYSDK_OFFSET(0xE993410)
-#define UNITYCHAN_SPRINGMANAGER_SYNCCONFIGTOMANAGEDCOMPONENTS_OFFSET UNITYSDK_OFFSET(0xE995680)
-#define UNITYCHAN_SPRINGMANAGER_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0xE995B50)
-#define UNITYCHAN_SPRINGMANAGER_UPDATEPARAMETER_OFFSET UNITYSDK_OFFSET(0xE995B60)
-#define UNITYCHAN_SPRINGMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE994430)
-#define UNITYCHAN_SPRINGMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE995CB0)
-#define UNITYCHAN_SPRINGMANAGER__CREATETHREADTASK_OFFSET UNITYSDK_OFFSET(0xE994530)
-#define UNITYCHAN_SPRINGMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xE995B70)
-#define UNITYCHAN_SPRINGMANAGER__DISPOSETHREADTASK_OFFSET UNITYSDK_OFFSET(0xE993770)
+#define UNITYCHAN_SPRINGMANAGER_ADDBLAKECHJ_OFFSET UNITYSDK_OFFSET(0xE9EADB0)
+#define UNITYCHAN_SPRINGMANAGER_AKHJLOEANDA_OFFSET UNITYSDK_OFFSET(0xE9EB1E0)
+#define UNITYCHAN_SPRINGMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE9E9C90)
+#define UNITYCHAN_SPRINGMANAGER_BINDCONTROLLER_OFFSET UNITYSDK_OFFSET(0xE9E9F00)
+#define UNITYCHAN_SPRINGMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9EB740)
+#define UNITYCHAN_SPRINGMANAGER_COLLECTBONECHAIN_OFFSET UNITYSDK_OFFSET(0xE9EB5D0)
+#define UNITYCHAN_SPRINGMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xE9EB600)
+#define UNITYCHAN_SPRINGMANAGER_DISABLERESETALLPOSITION_OFFSET UNITYSDK_OFFSET(0xE9EB0C0)
+#define UNITYCHAN_SPRINGMANAGER_FINDINDEXINBONES_OFFSET UNITYSDK_OFFSET(0xE9EA0C0)
+#define UNITYCHAN_SPRINGMANAGER_GABMKJHMDJG_OFFSET UNITYSDK_OFFSET(0xE9E8AE0)
+#define UNITYCHAN_SPRINGMANAGER_GETRESETPOSITIONSTATE_OFFSET UNITYSDK_OFFSET(0xE9EB5C0)
+#define UNITYCHAN_SPRINGMANAGER_GETTYPEWEIGHT_OFFSET UNITYSDK_OFFSET(0xE9EAE50)
+#define UNITYCHAN_SPRINGMANAGER_GETVECTORSCALE_OFFSET UNITYSDK_OFFSET(0xE9EA160)
+#define UNITYCHAN_SPRINGMANAGER_GET_ALLOWMULTITHREAD_OFFSET UNITYSDK_OFFSET(0xE9EA070)
+#define UNITYCHAN_SPRINGMANAGER_GET_ALWAYSMODERATIO_OFFSET UNITYSDK_OFFSET(0xE9E87A0)
+#define UNITYCHAN_SPRINGMANAGER_GET_COMMONCONFIG_OFFSET UNITYSDK_OFFSET(0xE9E86A0)
+#define UNITYCHAN_SPRINGMANAGER_GET_DYNAMICRATIO_OFFSET UNITYSDK_OFFSET(0xE9E8790)
+#define UNITYCHAN_SPRINGMANAGER_GET_MOTIONTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE9E8E50)
+#define UNITYCHAN_SPRINGMANAGER_GET_PASSIVEDELTAPOSITION_OFFSET UNITYSDK_OFFSET(0xE9E8EA0)
+#define UNITYCHAN_SPRINGMANAGER_INITCUSTOMTAGBLENDDATA_OFFSET UNITYSDK_OFFSET(0xE9E9CC0)
+#define UNITYCHAN_SPRINGMANAGER_ISSET_OFFSET UNITYSDK_OFFSET(0xE9EB120)
+#define UNITYCHAN_SPRINGMANAGER_JJFOGCHJHJO_OFFSET UNITYSDK_OFFSET(0xE9EA800)
+#define UNITYCHAN_SPRINGMANAGER_KGEHGFHADIP_OFFSET UNITYSDK_OFFSET(0xE9E9800)
+#define UNITYCHAN_SPRINGMANAGER_KJBBLBIHLGI_OFFSET UNITYSDK_OFFSET(0xE9E8AD0)
+#define UNITYCHAN_SPRINGMANAGER_KKDOOJBFDOF_OFFSET UNITYSDK_OFFSET(0xE9E87B0)
+#define UNITYCHAN_SPRINGMANAGER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE9EA7D0)
+#define UNITYCHAN_SPRINGMANAGER_MCGPPEMJIJP_OFFSET UNITYSDK_OFFSET(0xE9E9390)
+#define UNITYCHAN_SPRINGMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE9EA6F0)
+#define UNITYCHAN_SPRINGMANAGER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE9EA520)
+#define UNITYCHAN_SPRINGMANAGER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE9EA330)
+#define UNITYCHAN_SPRINGMANAGER_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xE9EA320)
+#define UNITYCHAN_SPRINGMANAGER_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xE9EA510)
+#define UNITYCHAN_SPRINGMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0xE9EB100)
+#define UNITYCHAN_SPRINGMANAGER_REMOVETYPEWEIGHT_1_OFFSET UNITYSDK_OFFSET(0xE9EB550)
+#define UNITYCHAN_SPRINGMANAGER_REMOVETYPEWEIGHT_OFFSET UNITYSDK_OFFSET(0xE9EB4C0)
+#define UNITYCHAN_SPRINGMANAGER_RESETALLDATA_OFFSET UNITYSDK_OFFSET(0xE9E8F50)
+#define UNITYCHAN_SPRINGMANAGER_RESETALLPOSITION_OFFSET UNITYSDK_OFFSET(0xE9E9470)
+#define UNITYCHAN_SPRINGMANAGER_RESETALWAYSMODERATIO_OFFSET UNITYSDK_OFFSET(0xE9EB0F0)
+#define UNITYCHAN_SPRINGMANAGER_RESETDYNAMICRATIO_OFFSET UNITYSDK_OFFSET(0xE9E9480)
+#define UNITYCHAN_SPRINGMANAGER_RESETPASSIVEDELTAPOSITION_OFFSET UNITYSDK_OFFSET(0xE9EB0D0)
+#define UNITYCHAN_SPRINGMANAGER_RESETTURNRATIO_OFFSET UNITYSDK_OFFSET(0xE9E8FD0)
+#define UNITYCHAN_SPRINGMANAGER_RESETTYPEDICRATIO_OFFSET UNITYSDK_OFFSET(0xE9E9560)
+#define UNITYCHAN_SPRINGMANAGER_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xE9E9EF0)
+#define UNITYCHAN_SPRINGMANAGER_SETTYPEWEIGHT_1_OFFSET UNITYSDK_OFFSET(0xE9EB370)
+#define UNITYCHAN_SPRINGMANAGER_SETTYPEWEIGHT_OFFSET UNITYSDK_OFFSET(0xE9EB130)
+#define UNITYCHAN_SPRINGMANAGER_SETUPTURNRATIO_OFFSET UNITYSDK_OFFSET(0xE9E8EE0)
+#define UNITYCHAN_SPRINGMANAGER_SET_COMMONCONFIG_OFFSET UNITYSDK_OFFSET(0xE9E8730)
+#define UNITYCHAN_SPRINGMANAGER_SET_MOTIONTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE9E8E90)
+#define UNITYCHAN_SPRINGMANAGER_SET_PASSIVEDELTAPOSITION_OFFSET UNITYSDK_OFFSET(0xE9E8EC0)
+#define UNITYCHAN_SPRINGMANAGER_SYNCCONFIGTOMANAGEDCOMPONENTS_OFFSET UNITYSDK_OFFSET(0xE9EB110)
+#define UNITYCHAN_SPRINGMANAGER_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0xE9EB5E0)
+#define UNITYCHAN_SPRINGMANAGER_UPDATEPARAMETER_OFFSET UNITYSDK_OFFSET(0xE9EB5F0)
+#define UNITYCHAN_SPRINGMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE9E9EC0)
+#define UNITYCHAN_SPRINGMANAGER__CREATETHREADTASK_OFFSET UNITYSDK_OFFSET(0xE9E9FC0)
+#define UNITYCHAN_SPRINGMANAGER__DISPOSETHREADTASK_OFFSET UNITYSDK_OFFSET(0xE9E9220)
 
 namespace UnityChan
 {
-	inline static constexpr unsigned int SpringManager_TypeDefinitionIndex = 48153;
-
 	class SpringManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet_QualitySettingEnabled()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SpringManager_TypeDefinitionIndex)->GetStaticField(0x7560);
-		}
-		static ::System::Int32* StaticGet_JobBatchSize()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(SpringManager_TypeDefinitionIndex)->GetStaticField(0x7564);
-		}
 		::System::Boolean bManualLateUpdate; // 0x18
 		::System::Boolean DisableSpringBone; // 0x19
 		::System::Boolean bUseSPMultiThread; // 0x1A
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Vector3 mLastRootPos; // 0x1C
 		::System::Boolean saveDuringPlay; // 0x28
+		::System::Byte _padding1[0x7];
 		::System::String* clonePrefabPath; // 0x30
 		::System::String* clonePrefabName; // 0x38
 		::System::Int32 clonePrefabRootUpIndex; // 0x40
@@ -102,42 +93,58 @@ namespace UnityChan
 		::System::Single decayRate; // 0x50
 		::System::Single TurnRatioKeepTime; // 0x54
 		::System::Boolean UseCustomLookAtTagBlend; // 0x58
+		::System::Byte _padding2[0x3];
 		::System::Single LookAtTagDecayRate; // 0x5C
 		::System::Single LookAtTagTurnRatioKeepTime; // 0x60
 		::System::Boolean OnlyEnableCollider; // 0x64
 		::System::Boolean AlwaysEnableSpringBone; // 0x65
 		::System::Boolean DisableCommonConfig; // 0x66
-		::Il2CppArray<::UnityChan::SpringManager_SpringBoneClass*>* TableList; // 0x68
+		::System::Byte _padding3[0x1];
+		::Il2CppArray<::System::Object*>* TableList; // 0x68
 		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* rootTransforms; // 0x70
 		::Il2CppArray<::UnityChan::SpringBone*>* springBones; // 0x78
-		::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* TypeRatioDic; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* TypeRatioDic; // 0x80
 		::System::Boolean IKAGGMEHKDM; // 0x88
+		::System::Byte _padding4[0x7];
 		::System::String* CAJPAGKBBML; // 0x90
 		::System::Single GIJJLFAMHCM; // 0x98
 		::System::Single IJMAIGHGBOG; // 0x9C
 		::System::Single CDLLOJBMGEH; // 0xA0
 		::System::Boolean CDEBEGFNCLH; // 0xA4
+		::System::Byte _padding5[0x3];
 		::System::Single BMBDFABILEH; // 0xA8
 		::System::Single HIJEFPILHIG; // 0xAC
 		::System::Single GNFHJJEELHI; // 0xB0
 		::System::Boolean LPJIKAIFDMJ; // 0xB4
+		::System::Byte _padding6[0x3];
 		::UnityEngine::GameObject* KEJEGBHKJOI; // 0xB8
 		::System::String* JAJKLEANJAP; // 0xC0
 		::System::Boolean IKCCHHCDBCO; // 0xC8
+		::System::Byte _padding7[0x7];
 		::UnityEngine::Transform* FNPEAHHCJIJ; // 0xD0
 		::UnityEngine::Vector3 DKJOOHNBHEN; // 0xD8
+		::System::Byte _padding8[0x4];
 		::RPG::GameCore::AdventureCharacterController* CPIIOIPAAKK; // 0xE8
-		::Class_2_2FE2076DA950FCCD* GDDBNMMBBMC; // 0xF0
+		::DJDBDBIIBNM* GDDBNMMBBMC; // 0xF0
 		::System::Boolean LGLHPNPJJKH; // 0xF8
+		static ::System::Int32* StaticGet_JobBatchSize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("UnityChan", "SpringManager")->GetStaticField(0x44F0);
+		}
+
+		static ::System::Boolean* StaticGet_QualitySettingEnabled()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("UnityChan", "SpringManager")->GetStaticField(0x44F4);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_CCTOR_OFFSET))();
 		}
 
 		::RPG::Client::SpringBoneCommonConfig* get_CommonConfig()
@@ -160,9 +167,9 @@ namespace UnityChan
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_GET_ALWAYSMODERATIO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C706B1EC6D2E1C64()
+		::System::Void KKDOOJBFDOF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_C706B1EC6D2E1C64_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_KKDOOJBFDOF_OFFSET))(this);
 		}
 
 		::UnityEngine::Transform* get_MotionTransform()
@@ -210,14 +217,14 @@ namespace UnityChan
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_RESETTYPEDICRATIO_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_C9D23F9BA824950F(::UnityChan::SpringBone* a1, ::System::Collections::Generic::List_1<::UnityChan::SpringBone*>*& a2, ::System::Boolean a3)
+		::System::Void GABMKJHMDJG(::UnityChan::SpringBone* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityChan::SpringBone*, ::System::Collections::Generic::List_1<::UnityChan::SpringBone*>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_C9D23F9BA824950F_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityChan::SpringBone*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_GABMKJHMDJG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_19AF8B4A7850E7F2(::UnityEngine::Transform* a1, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*& a2)
+		::System::Void KGEHGFHADIP(::UnityEngine::Transform* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*&))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_19AF8B4A7850E7F2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_KGEHGFHADIP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Awake()
@@ -250,9 +257,9 @@ namespace UnityChan
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_GET_ALLOWMULTITHREAD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0865E94460F11643()
+		::System::Void MCGPPEMJIJP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_0865E94460F11643_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_MCGPPEMJIJP_OFFSET))(this);
 		}
 
 		::System::Void _CreateThreadTask()
@@ -305,9 +312,9 @@ namespace UnityChan
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_LATEUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7EDA82E1A56BE1B3(::System::Single a1)
+		::System::Void JJFOGCHJHJO(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_7EDA82E1A56BE1B3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_JJFOGCHJHJO_OFFSET))(this, a1);
 		}
 
 		::System::Void OnValidate()
@@ -320,9 +327,9 @@ namespace UnityChan
 			return ((::System::Boolean(*)(::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_BoneTag))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_ISSET_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetTypeWeight(::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* a1, ::UnityChan::SpringManager_BoneTag a2, ::System::Single& a3, ::System::Boolean& a4)
+		static ::System::Boolean GetTypeWeight(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* a1, ::UnityChan::SpringManager_BoneTag a2, ::System::Single a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>*, ::UnityChan::SpringManager_BoneTag, ::System::Single&, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_GETTYPEWEIGHT_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*, ::UnityChan::SpringManager_BoneTag, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_GETTYPEWEIGHT_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void SetTypeWeight(::UnityChan::SpringManager_BoneTag a1, ::System::Single a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -330,9 +337,9 @@ namespace UnityChan
 			return ((::System::Void(*)(::PVOID, ::UnityChan::SpringManager_BoneTag, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_SETTYPEWEIGHT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetTypeWeight_1(::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* a1, ::UnityChan::SpringManager_BoneTag a2, ::System::Single a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6)
+		static ::System::Void SetTypeWeight_1(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* a1, ::UnityChan::SpringManager_BoneTag a2, ::System::Single a3, ::System::Single a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>*, ::UnityChan::SpringManager_BoneTag, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_SETTYPEWEIGHT_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*, ::UnityChan::SpringManager_BoneTag, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_SETTYPEWEIGHT_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void RemoveTypeWeight(::UnityChan::SpringManager_BoneTag a1)
@@ -365,9 +372,9 @@ namespace UnityChan
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_GETRESETPOSITIONSTATE_OFFSET))(this);
 		}
 
-		static ::System::Void RemoveTypeWeight_1(::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>* a1, ::UnityChan::SpringManager_BoneTag a2)
+		static ::System::Void RemoveTypeWeight_1(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* a1, ::UnityChan::SpringManager_BoneTag a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::UnityChan::SpringManager_BoneTag, ::UnityChan::SpringManager_Class_1_44494F1EF855DA72*>*, ::UnityChan::SpringManager_BoneTag))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_REMOVETYPEWEIGHT_1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*, ::UnityChan::SpringManager_BoneTag))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_REMOVETYPEWEIGHT_1_OFFSET))(a1, a2);
 		}
 
 		::System::Void SyncConfigToManagedComponents()
@@ -390,19 +397,20 @@ namespace UnityChan
 			return ((::System::Void(*)(::PVOID, ::UnityChan::SpringManager_SpringBonePropertyType, ::System::Single, ::UnityEngine::AnimationCurve*, ::UnityChan::SpringManager_SpringBoneClass*))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_UPDATEPARAMETER_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Single Method_5_26DEC114610F10A5(::UnityChan::SpringManager_BoneTag a1, ::System::Single a2)
+		::System::Single AKHJLOEANDA(::UnityChan::SpringManager_BoneTag a1, ::System::Single a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityChan::SpringManager_BoneTag, ::System::Single))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_26DEC114610F10A5_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::UnityChan::SpringManager_BoneTag, ::System::Single))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_AKHJLOEANDA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_832295EC279E5994()
+		::System::Void KJBBLBIHLGI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_832295EC279E5994_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_KJBBLBIHLGI_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_8013CD60ABB99387(::UnityChan::SpringBone* a1)
+		::System::Boolean ADDBLAKECHJ(::UnityChan::SpringBone* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityChan::SpringBone*))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_METHOD_5_8013CD60ABB99387_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityChan::SpringBone*))((::PBYTE)hIl2Cpp + UNITYCHAN_SPRINGMANAGER_ADDBLAKECHJ_OFFSET))(this, a1);
 		}
+
 	};
 }

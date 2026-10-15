@@ -1,0 +1,10 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class CHFDBMHCGFL_State : ::System::Int32
+	{
+		None = 0,
+		Demolishing = 1,
+		Throwing = 2,
+		Moving = 3,
+		Dead = 4,
+	};

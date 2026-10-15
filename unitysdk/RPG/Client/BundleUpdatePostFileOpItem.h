@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM_EXEC_OFFSET UNITYSDK_OFFSET(0xC97D5F0)
-#define RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM_GETSRCFULLPATH_OFFSET UNITYSDK_OFFSET(0xC97D5B0)
-#define RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC97D6E0)
+#define RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CBAC0)
+#define RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM_EXEC_OFFSET UNITYSDK_OFFSET(0xC8CB9D0)
+#define RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM_GETSRCFULLPATH_OFFSET UNITYSDK_OFFSET(0xC8CB990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BundleUpdatePostFileOpItem_TypeDefinitionIndex = 61319;
-
 	class BundleUpdatePostFileOpItem : public ::System::Object
 	{
 	public:
 		::System::String* SrcPath; // 0x10
 		::System::String* DestPath; // 0x18
 		::System::String* Action; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetSrcFullPath()
@@ -33,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUNDLEUPDATEPOSTFILEOPITEM_EXEC_OFFSET))(this);
 		}
+
 	};
 }

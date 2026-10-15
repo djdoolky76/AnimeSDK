@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameParentConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_METHOD_3_90010129E71B1FEC_OFFSET UNITYSDK_OFFSET(0x1D204F20)
-#define RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_METHOD_3_99DF50D858C26FD1_OFFSET UNITYSDK_OFFSET(0x1D204FD0)
-#define RPG_GAMECORE_LITTLEGAMEPARENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D204FC0)
+#define RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E54D0)
+#define RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7E54E0)
+#define RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E5430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameParentConfig_TypeDefinitionIndex = 18636;
-
 	class LittleGameParentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::UInt32 ParentID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEPARENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_90010129E71B1FEC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameParentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameParentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameParentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_METHOD_3_90010129E71B1FEC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameParentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_99DF50D858C26FD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameParentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameParentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameParentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_METHOD_3_99DF50D858C26FD1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameParentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEPARENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

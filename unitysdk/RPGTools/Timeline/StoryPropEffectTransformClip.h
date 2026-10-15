@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPG::GameCore { class TimelineOverrideEffectTransformOffsetParams; }
 namespace RPG::GameCore { class TimelineOverrideEffectTransformRotateParams; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8EF710)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8EF700)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8EF8A0)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE944B00)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE944C90)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE944AF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropEffectTransformClip_TypeDefinitionIndex = 48809;
-
 	class StoryPropEffectTransformClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
@@ -25,13 +22,14 @@ namespace RPGTools::Timeline
 		::System::Boolean Enable; // 0x20
 		::System::Boolean ResetToZero; // 0x21
 		::System::Boolean OverrideFloating; // 0x22
+		::System::Byte _padding0[0x5];
 		::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* OffsetParams; // 0x28
 		::System::Boolean OverrideRotating; // 0x30
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* RotateParams; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -43,5 +41,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

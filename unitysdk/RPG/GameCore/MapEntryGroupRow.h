@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MapEntryGroupRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MAPENTRYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2224B0)
-#define RPG_GAMECORE_MAPENTRYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D222B70)
+#define RPG_GAMECORE_MAPENTRYGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82BA80)
+#define RPG_GAMECORE_MAPENTRYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82B3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapEntryGroupRow_TypeDefinitionIndex = 13953;
-
 	class MapEntryGroupRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Type; // 0x10
-		::System::UInt32 MapGuideID; // 0x14
-		::System::UInt32 ID; // 0x18
-		::RPG::Client::TextID GroupName; // 0x20
-
+		::RPG::Client::TextID GroupName; // 0x10
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 Type; // 0x24
+		::System::UInt32 MapGuideID; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPENTRYGROUPROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPENTRYGROUPROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapEntryGroupRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapEntryGroupRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapEntryGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPENTRYGROUPROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapEntryGroupRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPENTRYGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

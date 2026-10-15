@@ -2,25 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/HarmonySyncMode.h"
 #include "unitysdk/RPG/Client/MusicVisualizeDataSourceType.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
 namespace RPG::Client { class StageHarmonyCurve; }
-namespace RPG::Client { class StageHarmonySignalControllerBehavior; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_PLAY_OFFSET UNITYSDK_OFFSET(0xE0D3230)
-#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_STOP_OFFSET UNITYSDK_OFFSET(0xE0D3300)
-#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE0D33D0)
+#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE114110)
+#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_PLAY_OFFSET UNITYSDK_OFFSET(0xE113F70)
+#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_STOP_OFFSET UNITYSDK_OFFSET(0xE114040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonySignalControllerMonoPlugin_TypeDefinitionIndex = 70953;
-
-	class StageHarmonySignalControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonySignalControllerBehavior*>
+	class StageHarmonySignalControllerMonoPlugin
 	{
 	public:
 		::System::Boolean EnableMusicSync; // 0x30
+		::System::Byte _padding0[0x3];
 		::RPG::Client::HarmonySyncMode SyncMode; // 0x34
 		::System::Int32 SyncCount; // 0x38
 		::RPG::Client::MusicVisualizeDataSourceType SourceType; // 0x3C
@@ -31,10 +27,9 @@ namespace RPG::Client
 		::System::String* Channle; // 0x50
 		::System::Collections::Generic::List_1<::RPG::Client::StageHarmonyCurve*>* ControlCurves; // 0x58
 		::System::Boolean ChannleNameInvalid; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Play()
@@ -46,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_STOP_OFFSET))(this);
 		}
+
 	};
 }

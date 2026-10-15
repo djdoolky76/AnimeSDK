@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackPhotoShotTargetResult_TypeDefinitionIndex = 61021;
-
 	enum class TrackPhotoShotTargetResult : ::System::Int32
 	{
 		Normal = 0,

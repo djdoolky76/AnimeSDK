@@ -1,40 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkManager; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B9B2510)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9B2680)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9B26E0)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B9B2690)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B9B2500)
-#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AE4C0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAE480)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BEB24C0)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB2630)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB2690)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BEB2640)
+#define MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BEB24B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Get_d__33_TypeDefinitionIndex = 8113;
-
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33>
 	class NetworkManager__Get_d__33 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::JSONObject* query; // 0x10
+		::System::Action* timeoutCallback; // 0x10
 		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
-		::System::Action* timeoutCallback; // 0x20
-		::System::String* requestUrl; // 0x28
-		::System::Action_1<::System::String*>* callback; // 0x30
-		::System::Object* __2__current; // 0x38
-		::System::String* _queryString_5__1; // 0x40
+		::System::String* _queryString_5__1; // 0x20
+		::System::Object* __2__current; // 0x28
+		::System::Action* callback; // 0x30
+		::System::String* requestUrl; // 0x38
+		::MiHoYo::SDK::JSONObject* query; // 0x40
 		::System::Boolean checkMD5; // 0x48
+		::System::Byte _padding0[0x3];
 		::System::Int32 __1__state; // 0x4C
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER__GET_D__33__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER__GET_D__33_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -61,5 +59,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER__GET_D__33_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Softness.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2DistanceJoint_TypeDefinitionIndex = 35971;
-
 	struct alignas(4) B2DistanceJoint
 	{
 		::System::Single length; // 0x10

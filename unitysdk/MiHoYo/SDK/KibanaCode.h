@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaCode_TypeDefinitionIndex = 7517;
-
 	enum class KibanaCode : ::System::Int32
 	{
 		CodeSuccess = 0,

@@ -4,18 +4,18 @@
 
 namespace System
 {
-	inline static constexpr unsigned int CompatibilitySwitches_TypeDefinitionIndex = 370;
-
 	class CompatibilitySwitches : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_IsAppEarlierThanWindowsPhone8()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3D10);
+			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3E50);
 		}
+
 		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CompatibilitySwitches_TypeDefinitionIndex)->GetStaticField(0x3D11);
+			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3E51);
 		}
+
 	};
 }

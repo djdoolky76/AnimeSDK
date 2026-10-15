@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimBaseEventAction.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimMoveToNextSplinePointAction; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_METHOD_3_99B4A8F5E2DB1A95_OFFSET UNITYSDK_OFFSET(0x1D0F5440)
-#define RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_METHOD_3_E8AF509602BC3F90_OFFSET UNITYSDK_OFFSET(0x1D0F54C0)
-#define RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F54B0)
+#define RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CD710)
+#define RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6CD720)
+#define RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6CD6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMoveToNextSplinePointAction_TypeDefinitionIndex = 18455;
-
 	class FiveDimMoveToNextSplinePointAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_99B4A8F5E2DB1A95(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_METHOD_3_99B4A8F5E2DB1A95_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E8AF509602BC3F90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_METHOD_3_E8AF509602BC3F90_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimMoveToNextSplinePointAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVETONEXTSPLINEPOINTACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

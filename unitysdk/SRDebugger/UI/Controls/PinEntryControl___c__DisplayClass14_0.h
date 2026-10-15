@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace SRDebugger::UI::Controls { class PinEntryControl; }
 
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__AWAKE_B__0_OFFSET UNITYSDK_OFFSET(0x1E693070)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E692A30)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5A6A0)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__AWAKE_B__0_OFFSET UNITYSDK_OFFSET(0x1ED5ACE0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int PinEntryControl___c__DisplayClass14_0_TypeDefinitionIndex = 37336;
-
 	class PinEntryControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
 		::SRDebugger::UI::Controls::PinEntryControl* __4__this; // 0x10
 		::System::Int32 number; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Awake_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROL___C__DISPLAYCLASS14_0__AWAKE_B__0_OFFSET))(this);
 		}
+
 	};
 }

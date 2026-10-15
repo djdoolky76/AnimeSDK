@@ -1,99 +1,100 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_RECT_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x3B99840)
-#define UNITYENGINE_RECT_CONTAINS_2_OFFSET UNITYSDK_OFFSET(0x3BBCA00)
-#define UNITYENGINE_RECT_CONTAINS_OFFSET UNITYSDK_OFFSET(0x3B99800)
-#define UNITYENGINE_RECT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BBCBB0)
-#define UNITYENGINE_RECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BBCAB0)
-#define UNITYENGINE_RECT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B99AE0)
-#define UNITYENGINE_RECT_GET_BOTTOM_OFFSET UNITYSDK_OFFSET(0x3B99CD0)
-#define UNITYENGINE_RECT_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3B996C0)
-#define UNITYENGINE_RECT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0xD510)
-#define UNITYENGINE_RECT_GET_LEFT_OFFSET UNITYSDK_OFFSET(0xD4B0)
-#define UNITYENGINE_RECT_GET_MAX_OFFSET UNITYSDK_OFFSET(0x3B99730)
-#define UNITYENGINE_RECT_GET_MIN_OFFSET UNITYSDK_OFFSET(0x5AB0)
-#define UNITYENGINE_RECT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x5AB0)
-#define UNITYENGINE_RECT_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x3B5C2B0)
-#define UNITYENGINE_RECT_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x6020)
-#define UNITYENGINE_RECT_GET_TOP_OFFSET UNITYSDK_OFFSET(0xD4D0)
-#define UNITYENGINE_RECT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0xD4F0)
-#define UNITYENGINE_RECT_GET_XMAX_OFFSET UNITYSDK_OFFSET(0x3B997C0)
-#define UNITYENGINE_RECT_GET_XMIN_OFFSET UNITYSDK_OFFSET(0xD4B0)
-#define UNITYENGINE_RECT_GET_X_OFFSET UNITYSDK_OFFSET(0xD4B0)
-#define UNITYENGINE_RECT_GET_YMAX_OFFSET UNITYSDK_OFFSET(0x3B997E0)
-#define UNITYENGINE_RECT_GET_YMIN_OFFSET UNITYSDK_OFFSET(0xD4D0)
-#define UNITYENGINE_RECT_GET_Y_OFFSET UNITYSDK_OFFSET(0xD4D0)
-#define UNITYENGINE_RECT_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1ED4AFF0)
-#define UNITYENGINE_RECT_MINMAXRECT_OFFSET UNITYSDK_OFFSET(0x1ED4B000)
-#define UNITYENGINE_RECT_NORMALIZEDTOPOINT_OFFSET UNITYSDK_OFFSET(0x1ED4B520)
-#define UNITYENGINE_RECT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1ED4B690)
-#define UNITYENGINE_RECT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1ED4B650)
-#define UNITYENGINE_RECT_ORDERMINMAX_OFFSET UNITYSDK_OFFSET(0x1ED4B3C0)
-#define UNITYENGINE_RECT_OVERLAPS_1_OFFSET UNITYSDK_OFFSET(0x3B99990)
-#define UNITYENGINE_RECT_OVERLAPS_OFFSET UNITYSDK_OFFSET(0x3B99940)
-#define UNITYENGINE_RECT_POINTTONORMALIZED_OFFSET UNITYSDK_OFFSET(0x1ED4B5B0)
-#define UNITYENGINE_RECT_SET_CENTER_OFFSET UNITYSDK_OFFSET(0x3B996F0)
-#define UNITYENGINE_RECT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0xD520)
-#define UNITYENGINE_RECT_SET_MAX_OFFSET UNITYSDK_OFFSET(0x3B99760)
-#define UNITYENGINE_RECT_SET_MIN_OFFSET UNITYSDK_OFFSET(0x3B99710)
-#define UNITYENGINE_RECT_SET_OFFSET UNITYSDK_OFFSET(0x25B40)
-#define UNITYENGINE_RECT_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xC610)
-#define UNITYENGINE_RECT_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x9500)
-#define UNITYENGINE_RECT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0xD500)
-#define UNITYENGINE_RECT_SET_XMAX_OFFSET UNITYSDK_OFFSET(0x3B997D0)
-#define UNITYENGINE_RECT_SET_XMIN_OFFSET UNITYSDK_OFFSET(0x3B99780)
-#define UNITYENGINE_RECT_SET_X_OFFSET UNITYSDK_OFFSET(0xD4C0)
-#define UNITYENGINE_RECT_SET_YMAX_OFFSET UNITYSDK_OFFSET(0x3B997F0)
-#define UNITYENGINE_RECT_SET_YMIN_OFFSET UNITYSDK_OFFSET(0x3B997A0)
-#define UNITYENGINE_RECT_SET_Y_OFFSET UNITYSDK_OFFSET(0xD4E0)
-#define UNITYENGINE_RECT_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3BBCCA0)
-#define UNITYENGINE_RECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BBCC90)
-#define UNITYENGINE_RECT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B996A0)
-#define UNITYENGINE_RECT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x2E50B00)
-#define UNITYENGINE_RECT__CTOR_OFFSET UNITYSDK_OFFSET(0x25B40)
+#define UNITYENGINE_RECT_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x3C4E750)
+#define UNITYENGINE_RECT_CONTAINS_2_OFFSET UNITYSDK_OFFSET(0x3C72600)
+#define UNITYENGINE_RECT_CONTAINS_OFFSET UNITYSDK_OFFSET(0x3C4E710)
+#define UNITYENGINE_RECT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C4E5B0)
+#define UNITYENGINE_RECT_CTOR_2_OFFSET UNITYSDK_OFFSET(0x2EDDF70)
+#define UNITYENGINE_RECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0)
+#define UNITYENGINE_RECT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C727B0)
+#define UNITYENGINE_RECT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C726B0)
+#define UNITYENGINE_RECT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C4E9F0)
+#define UNITYENGINE_RECT_GET_BOTTOM_OFFSET UNITYSDK_OFFSET(0x3C4EBE0)
+#define UNITYENGINE_RECT_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3C4E5D0)
+#define UNITYENGINE_RECT_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1C80)
+#define UNITYENGINE_RECT_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1D00)
+#define UNITYENGINE_RECT_GET_MAX_OFFSET UNITYSDK_OFFSET(0x3C4E640)
+#define UNITYENGINE_RECT_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define UNITYENGINE_RECT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define UNITYENGINE_RECT_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x3C112E0)
+#define UNITYENGINE_RECT_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1D40)
+#define UNITYENGINE_RECT_GET_TOP_OFFSET UNITYSDK_OFFSET(0x1D10)
+#define UNITYENGINE_RECT_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x1D20)
+#define UNITYENGINE_RECT_GET_XMAX_OFFSET UNITYSDK_OFFSET(0x3C4E6D0)
+#define UNITYENGINE_RECT_GET_XMIN_OFFSET UNITYSDK_OFFSET(0x1D00)
+#define UNITYENGINE_RECT_GET_X_OFFSET UNITYSDK_OFFSET(0x1D00)
+#define UNITYENGINE_RECT_GET_YMAX_OFFSET UNITYSDK_OFFSET(0x3C4E6F0)
+#define UNITYENGINE_RECT_GET_YMIN_OFFSET UNITYSDK_OFFSET(0x1D10)
+#define UNITYENGINE_RECT_GET_Y_OFFSET UNITYSDK_OFFSET(0x1D10)
+#define UNITYENGINE_RECT_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1F4131A0)
+#define UNITYENGINE_RECT_MINMAXRECT_OFFSET UNITYSDK_OFFSET(0x1F4131B0)
+#define UNITYENGINE_RECT_NORMALIZEDTOPOINT_OFFSET UNITYSDK_OFFSET(0x1F4136D0)
+#define UNITYENGINE_RECT_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F413840)
+#define UNITYENGINE_RECT_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1F413800)
+#define UNITYENGINE_RECT_ORDERMINMAX_OFFSET UNITYSDK_OFFSET(0x1F413570)
+#define UNITYENGINE_RECT_OVERLAPS_1_OFFSET UNITYSDK_OFFSET(0x3C4E8A0)
+#define UNITYENGINE_RECT_OVERLAPS_OFFSET UNITYSDK_OFFSET(0x3C4E850)
+#define UNITYENGINE_RECT_POINTTONORMALIZED_OFFSET UNITYSDK_OFFSET(0x1F413760)
+#define UNITYENGINE_RECT_SET_CENTER_OFFSET UNITYSDK_OFFSET(0x3C4E600)
+#define UNITYENGINE_RECT_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x1A780)
+#define UNITYENGINE_RECT_SET_MAX_OFFSET UNITYSDK_OFFSET(0x3C4E670)
+#define UNITYENGINE_RECT_SET_MIN_OFFSET UNITYSDK_OFFSET(0x3C4E620)
+#define UNITYENGINE_RECT_SET_OFFSET UNITYSDK_OFFSET(0x1CE0)
+#define UNITYENGINE_RECT_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define UNITYENGINE_RECT_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x94C0)
+#define UNITYENGINE_RECT_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0xEA780)
+#define UNITYENGINE_RECT_SET_XMAX_OFFSET UNITYSDK_OFFSET(0x3C4E6E0)
+#define UNITYENGINE_RECT_SET_XMIN_OFFSET UNITYSDK_OFFSET(0x3C4E690)
+#define UNITYENGINE_RECT_SET_X_OFFSET UNITYSDK_OFFSET(0x14EA0)
+#define UNITYENGINE_RECT_SET_YMAX_OFFSET UNITYSDK_OFFSET(0x3C4E700)
+#define UNITYENGINE_RECT_SET_YMIN_OFFSET UNITYSDK_OFFSET(0x3C4E6B0)
+#define UNITYENGINE_RECT_SET_Y_OFFSET UNITYSDK_OFFSET(0xEA770)
+#define UNITYENGINE_RECT_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C728A0)
+#define UNITYENGINE_RECT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C72890)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Rect_TypeDefinitionIndex = 4080;
-
 	struct alignas(4) Rect
 	{
 		::System::Single m_XMin; // 0x10
 		::System::Single m_YMin; // 0x14
 		::System::Single m_Width; // 0x18
 		::System::Single m_Height; // 0x1C
-
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void _ctor_1(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		/*
-		::System::Void _ctor_1(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
+		::System::Void _ctor_2(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_CTOR_2_OFFSET))(this, a1);
 		}
 		*/
 
-		::System::Void _ctor_2(::UnityEngine::Rect a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT__CTOR_2_OFFSET))(this, a1);
-		}
-
+		/*
 		static ::UnityEngine::Rect get_zero()
 		{
 			return ((::UnityEngine::Rect(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_GET_ZERO_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rect MinMaxRect(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
 			return ((::UnityEngine::Rect(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_MINMAXRECT_OFFSET))(a1, a2, a3, a4);
 		}
+		*/
 
 		::System::Void Set(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
@@ -120,61 +121,45 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_Y_OFFSET))(this, a1);
 		}
 
-		/*
 		::UnityEngine::Vector2 get_position()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_GET_POSITION_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::System::Void set_position(::UnityEngine::Vector2 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_POSITION_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 get_center()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_GET_CENTER_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::System::Void set_center(::UnityEngine::Vector2 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_CENTER_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 get_min()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_GET_MIN_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::System::Void set_min(::UnityEngine::Vector2 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_MIN_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector2 get_max()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_GET_MAX_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::System::Void set_max(::UnityEngine::Vector2 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_MAX_OFFSET))(this, a1);
 		}
-		*/
 
 		::System::Single get_width()
 		{
@@ -196,19 +181,15 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_HEIGHT_OFFSET))(this, a1);
 		}
 
-		/*
 		::UnityEngine::Vector2 get_size()
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_GET_SIZE_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::System::Void set_size(::UnityEngine::Vector2 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_SIZE_OFFSET))(this, a1);
 		}
-		*/
 
 		::System::Single get_xMin()
 		{
@@ -250,41 +231,41 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_SET_YMAX_OFFSET))(this, a1);
 		}
 
-		/*
 		::System::Boolean Contains(::UnityEngine::Vector2 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_CONTAINS_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::System::Boolean Contains_1(::UnityEngine::Vector3 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_CONTAINS_1_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::System::Boolean Contains_2(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_CONTAINS_2_OFFSET))(this, a1, a2);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::Rect OrderMinMax(::UnityEngine::Rect a1)
 		{
 			return ((::UnityEngine::Rect(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_ORDERMINMAX_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::System::Boolean Overlaps(::UnityEngine::Rect a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_OVERLAPS_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		::System::Boolean Overlaps_1(::UnityEngine::Rect a1, ::System::Boolean a2)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rect, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_OVERLAPS_1_OFFSET))(this, a1, a2);
 		}
+		*/
 
 		/*
 		static ::UnityEngine::Vector2 NormalizedToPoint(::UnityEngine::Rect a1, ::UnityEngine::Vector2 a2)
@@ -300,15 +281,19 @@ namespace UnityEngine
 		}
 		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnityEngine::Rect a1, ::UnityEngine::Rect a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rect, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Rect a1, ::UnityEngine::Rect a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rect, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
@@ -320,10 +305,12 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::Rect a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -354,5 +341,6 @@ namespace UnityEngine
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECT_GET_BOTTOM_OFFSET))(this);
 		}
+
 	};
 }

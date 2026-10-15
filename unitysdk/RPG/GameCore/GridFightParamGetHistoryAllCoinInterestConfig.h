@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightParamGetHistoryAllCoinInterestConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_METHOD_6_13900BD7D904D75B_OFFSET UNITYSDK_OFFSET(0x1D15D400)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_METHOD_6_AA46681BEB923BDF_OFFSET UNITYSDK_OFFSET(0x1D15D450)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15D440)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D738230)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D738240)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7381F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightParamGetHistoryAllCoinInterestConfig_TypeDefinitionIndex = 19313;
-
 	class GridFightParamGetHistoryAllCoinInterestConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_13900BD7D904D75B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_METHOD_6_13900BD7D904D75B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_AA46681BEB923BDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_METHOD_6_AA46681BEB923BDF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetHistoryAllCoinInterestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETHISTORYALLCOININTERESTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

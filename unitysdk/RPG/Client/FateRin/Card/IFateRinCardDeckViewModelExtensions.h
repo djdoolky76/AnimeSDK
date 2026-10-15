@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::FateRin::Card { class IFateRinCardDeckViewModel; }
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_FATERIN_CARD_IFATERINCARDDECKVIEWMODELEXTENSIONS_CONTAINSCARD_OFFSET UNITYSDK_OFFSET(0xCFEE930)
-#define RPG_CLIENT_FATERIN_CARD_IFATERINCARDDECKVIEWMODELEXTENSIONS_GETALLCARDSCOUNT_OFFSET UNITYSDK_OFFSET(0xCFF4540)
-#define RPG_CLIENT_FATERIN_CARD_IFATERINCARDDECKVIEWMODELEXTENSIONS_GETALLCARDSLIST_OFFSET UNITYSDK_OFFSET(0xCFF4380)
+#define RPG_CLIENT_FATERIN_CARD_IFATERINCARDDECKVIEWMODELEXTENSIONS_CONTAINSCARD_OFFSET UNITYSDK_OFFSET(0xCEF4460)
+#define RPG_CLIENT_FATERIN_CARD_IFATERINCARDDECKVIEWMODELEXTENSIONS_GETALLCARDSCOUNT_OFFSET UNITYSDK_OFFSET(0xCEFA780)
+#define RPG_CLIENT_FATERIN_CARD_IFATERINCARDDECKVIEWMODELEXTENSIONS_GETALLCARDSLIST_OFFSET UNITYSDK_OFFSET(0xCEFA5C0)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int IFateRinCardDeckViewModelExtensions_TypeDefinitionIndex = 79812;
-
 	class IFateRinCardDeckViewModelExtensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace RPG::Client::FateRin::Card
 		{
 			return ((::System::UInt32(*)(::RPG::Client::FateRin::Card::IFateRinCardDeckViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_IFATERINCARDDECKVIEWMODELEXTENSIONS_GETALLCARDSCOUNT_OFFSET))(a1);
 		}
+
 	};
 }

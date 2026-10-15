@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Camera_GateFitMode_TypeDefinitionIndex = 4040;
-
 	enum class Camera_GateFitMode : ::System::Int32
 	{
 		Vertical = 1,

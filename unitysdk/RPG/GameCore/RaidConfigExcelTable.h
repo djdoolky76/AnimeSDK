@@ -1,61 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
-#include "unitysdk/RPG/GameCore/RaidConfigExcelTable_IndexKey.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class RaidConfigRow; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D381190)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D381060)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D380D50)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D381000)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D3812B0)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D380DD0)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3812F0)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3814C0)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D382290)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D382750)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D381420)
-#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D381380)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9688D0)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D967310)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D9671E0)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D966ED0)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D967180)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D967430)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D966F50)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D967470)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D967640)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D968410)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D9675A0)
+#define RPG_GAMECORE_RAIDCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D967500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidConfigExcelTable_TypeDefinitionIndex = 14428;
-
 	class RaidConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RaidConfigExcelTable_IndexKey, ::RPG::GameCore::RaidConfigRow*>** StaticGet_dataDict_()
+		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RaidConfigExcelTable_IndexKey, ::RPG::GameCore::RaidConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(RaidConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x49D0);
+			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "RaidConfigExcelTable")->GetStaticField(0x4D430);
 		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RaidConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x49D8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "RaidConfigExcelTable")->GetStaticField(0x4D438);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::RaidConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RaidConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x49E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::RaidConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "RaidConfigExcelTable")->GetStaticField(0x4D440);
 		}
+
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RaidConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x16A0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "RaidConfigExcelTable")->GetStaticField(0x11C10);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE_CCTOR_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RaidConfigExcelTable_IndexKey, ::RPG::GameCore::RaidConfigRow*>* get_dataDict()
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::RaidConfigRow*>* get_dataDict()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RaidConfigExcelTable_IndexKey, ::RPG::GameCore::RaidConfigRow*>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GET_DATADICT_OFFSET))();
+			return ((::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::RaidConfigRow*>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GET_DATADICT_OFFSET))();
 		}
 
 		static ::System::Boolean IsDataEmpty()
@@ -63,9 +63,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET))();
 		}
 
-		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::RaidConfigExcelTable_IndexKey, ::RPG::GameCore::RaidConfigRow*> GetEnumerator()
+		static ::RPG::GameCore::FixEnumerator_2<::System::Object*, ::RPG::GameCore::RaidConfigRow*> GetEnumerator()
 		{
-			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::RaidConfigExcelTable_IndexKey, ::RPG::GameCore::RaidConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GETENUMERATOR_OFFSET))();
+			return ((::RPG::GameCore::FixEnumerator_2<::System::Object*, ::RPG::GameCore::RaidConfigRow*>(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE_GETENUMERATOR_OFFSET))();
 		}
 
 		static ::RPG::GameCore::RaidConfigRow* GetData(::System::UInt32 a1, ::System::UInt32 a2)
@@ -93,19 +93,20 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE__LOADDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean& a3)
+		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
+		static ::System::Void _AddItemFromBinary(::FCOEMCEDLNL* a1)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
 		}
 
 		static ::System::Void _AddItem(::RPG::GameCore::RaidConfigRow* a1)
 		{
 			return ((::System::Void(*)(::RPG::GameCore::RaidConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDCONFIGEXCELTABLE__ADDITEM_OFFSET))(a1);
 		}
+
 	};
 }

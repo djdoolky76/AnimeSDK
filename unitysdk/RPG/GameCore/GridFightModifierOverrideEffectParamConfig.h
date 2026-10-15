@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierOverrideEffectParamConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_METHOD_3_49F81602E5483B9E_OFFSET UNITYSDK_OFFSET(0x1D15A280)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_METHOD_3_C0AA406EDBFCE782_OFFSET UNITYSDK_OFFSET(0x1D15A230)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15A270)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D735060)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D735070)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D735020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierOverrideEffectParamConfig_TypeDefinitionIndex = 19228;
-
 	class GridFightModifierOverrideEffectParamConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C0AA406EDBFCE782(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_METHOD_3_C0AA406EDBFCE782_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_49F81602E5483B9E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_METHOD_3_49F81602E5483B9E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierOverrideEffectParamConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIEROVERRIDEEFFECTPARAMCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

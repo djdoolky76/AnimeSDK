@@ -5,29 +5,26 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class AUiLineRender; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_AUILINECTRL_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xC49BB40)
-#define RPG_CLIENT_AUILINECTRL_FRESHLINE_OFFSET UNITYSDK_OFFSET(0xC49B8B0)
-#define RPG_CLIENT_AUILINECTRL_GET_ANIMOD_OFFSET UNITYSDK_OFFSET(0xC49B7D0)
-#define RPG_CLIENT_AUILINECTRL_GET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC49B720)
-#define RPG_CLIENT_AUILINECTRL_GET_LINERCOLOR_OFFSET UNITYSDK_OFFSET(0xC49B480)
-#define RPG_CLIENT_AUILINECTRL_METHOD_5_6055A93732CC885D_OFFSET UNITYSDK_OFFSET(0xC49BBC0)
-#define RPG_CLIENT_AUILINECTRL_METHOD_5_E41B6A823556FEEA_OFFSET UNITYSDK_OFFSET(0xC49BE40)
-#define RPG_CLIENT_AUILINECTRL_SET_ANIMOD_OFFSET UNITYSDK_OFFSET(0xC49B810)
-#define RPG_CLIENT_AUILINECTRL_SET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC49B770)
-#define RPG_CLIENT_AUILINECTRL_SET_LINERCOLOR_OFFSET UNITYSDK_OFFSET(0xC49B4E0)
-#define RPG_CLIENT_AUILINECTRL_START_OFFSET UNITYSDK_OFFSET(0xC49B860)
-#define RPG_CLIENT_AUILINECTRL__CTOR_OFFSET UNITYSDK_OFFSET(0xC49BFE0)
+#define RPG_CLIENT_AUILINECTRL_CGEPGFHCEDD_OFFSET UNITYSDK_OFFSET(0xC3A3AB0)
+#define RPG_CLIENT_AUILINECTRL_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A3C50)
+#define RPG_CLIENT_AUILINECTRL_FEDNNLPLAMK_OFFSET UNITYSDK_OFFSET(0xC3A3830)
+#define RPG_CLIENT_AUILINECTRL_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xC3A37B0)
+#define RPG_CLIENT_AUILINECTRL_FRESHLINE_OFFSET UNITYSDK_OFFSET(0xC3A3520)
+#define RPG_CLIENT_AUILINECTRL_GET_ANIMOD_OFFSET UNITYSDK_OFFSET(0xC3A3440)
+#define RPG_CLIENT_AUILINECTRL_GET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC3A3390)
+#define RPG_CLIENT_AUILINECTRL_GET_LINERCOLOR_OFFSET UNITYSDK_OFFSET(0xC3A30F0)
+#define RPG_CLIENT_AUILINECTRL_SET_ANIMOD_OFFSET UNITYSDK_OFFSET(0xC3A3480)
+#define RPG_CLIENT_AUILINECTRL_SET_CURRENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC3A33E0)
+#define RPG_CLIENT_AUILINECTRL_SET_LINERCOLOR_OFFSET UNITYSDK_OFFSET(0xC3A3150)
+#define RPG_CLIENT_AUILINECTRL_START_OFFSET UNITYSDK_OFFSET(0xC3A34D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AUiLineCtrl_TypeDefinitionIndex = 72420;
-
 	class AUiLineCtrl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -38,24 +35,27 @@ namespace RPG::Client
 		::UnityEngine::Vector3 NEILHJBEEEJ; // 0x40
 		::UnityEngine::Vector3 GNOEGILFEMD; // 0x4C
 		::System::Single CMDFHCDKFII; // 0x58
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* HDNPKLFLJEK; // 0x60
 		::UnityEngine::GameObject* FPEMELBOFAD; // 0x68
 		::System::Single EMIDPIIOABF; // 0x70
 		::System::Boolean KJFNMEIPBBP; // 0x74
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Sprite* Sprite; // 0x78
 		::UnityEngine::Color LineColor; // 0x80
 		::System::Single LineSize; // 0x90
 		::System::Single CurveValue; // 0x94
 		::System::Int32 LineLevel; // 0x98
 		::System::Boolean AllDirty; // 0x9C
+		::System::Byte _padding2[0x3];
 		::RPG::Client::AULinePointMod PointModType; // 0xA0
+		::System::Byte _padding3[0x4];
 		::UnityEngine::GameObject* PointObj; // 0xA8
 		::UnityEngine::Vector2 ObjPoivt1; // 0xB0
 		::UnityEngine::Vector2 ObjPoivt2; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Color get_LineRColor()
@@ -98,19 +98,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL_FIXEDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E41B6A823556FEEA()
+		::System::Void CGEPGFHCEDD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL_METHOD_5_E41B6A823556FEEA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL_CGEPGFHCEDD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_6055A93732CC885D()
+		::System::Void FEDNNLPLAMK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL_METHOD_5_6055A93732CC885D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL_FEDNNLPLAMK_OFFSET))(this);
 		}
 
 		::System::Void FreshLine()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINECTRL_FRESHLINE_OFFSET))(this);
 		}
+
 	};
 }

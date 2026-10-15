@@ -2,39 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimBaseEventAction.h"
 #include "unitysdk/RPG/MColor.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_METHOD_3_2C861E88DD0A513D_OFFSET UNITYSDK_OFFSET(0x1D0FD490)
-#define RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_METHOD_3_A68665766385157C_OFFSET UNITYSDK_OFFSET(0x1D0FD4D0)
-#define RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FD4C0)
+#define RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D68B0)
+#define RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6D68C0)
+#define RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D6880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRIStateEmissionAction_TypeDefinitionIndex = 18485;
-
 	class FiveDimRIStateEmissionAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
 		::System::Boolean Enable; // 0x10
+		::System::Byte _padding0[0x3];
 		::RPG::MColor EmissionColor; // 0x14
 		::System::Single IntensityFrom; // 0x24
 		::System::Single IntensityTo; // 0x28
 		::System::Single Interval; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C861E88DD0A513D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRIStateEmissionAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimRIStateEmissionAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRIStateEmissionAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_METHOD_3_2C861E88DD0A513D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimRIStateEmissionAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A68665766385157C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRIStateEmissionAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimRIStateEmissionAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRIStateEmissionAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_METHOD_3_A68665766385157C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimRIStateEmissionAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRISTATEEMISSIONACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

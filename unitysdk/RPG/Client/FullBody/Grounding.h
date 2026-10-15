@@ -5,45 +5,42 @@
 #include "unitysdk/UnityEngine/LayerMask.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client::FullBody { class Grounding_Class_1_2B3895D93BBCAAD0; }
-namespace RPG::Client::FullBody { class Grounding_Class_1_BF264403995EDA8F; }
-namespace RPG::Client::FullBody { class Grounding_Class_3_25BFA3B13C8F2459; }
-namespace RPG::Client::FullBody { class Grounding_Class_3_443CA02E4E068003; }
-namespace RPG::Client::FullBody { class Grounding_Class_3_594C4D3848A7A3AB; }
-namespace RPG::Client::FullBody { class Grounding_Class_3_6D36CA8DB48257A4; }
+namespace RPG::Client::FullBody { class Grounding_BELNPMHCADA; }
+namespace RPG::Client::FullBody { class Grounding_FDIMCLFAMBM; }
+namespace RPG::Client::FullBody { class Grounding_JGJCNOBMEOJ; }
+namespace RPG::Client::FullBody { class Grounding_KEHPPILGEFG; }
+namespace RPG::Client::FullBody { class Grounding_PLHFOJLFMGK; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0xD0CC6B0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_LEGS_OFFSET UNITYSDK_OFFSET(0xD0CC670)
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_PELVIS_OFFSET UNITYSDK_OFFSET(0xD0CC690)
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ROOTGROUNDED_OFFSET UNITYSDK_OFFSET(0xD0CC750)
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0xD0CC6F0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ROOT_OFFSET UNITYSDK_OFFSET(0xD0CC6D0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_UP_OFFSET UNITYSDK_OFFSET(0xD0CCBD0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_GET_USEROOTROTATION_OFFSET UNITYSDK_OFFSET(0xD0CE930)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_050E70FEDB783306_OFFSET UNITYSDK_OFFSET(0xD0CD140)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_2BE9489A09D4AB3D_OFFSET UNITYSDK_OFFSET(0xD0C9000)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0xD0C8120)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_611142A6ECF0D805_OFFSET UNITYSDK_OFFSET(0xD0CCEB0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_753A3CECCA76D6CD_OFFSET UNITYSDK_OFFSET(0xD0CEB10)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_9317D1B3EB9B664A_OFFSET UNITYSDK_OFFSET(0xD0CC7B0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_96A53A17AC5D0E93_OFFSET UNITYSDK_OFFSET(0xD0CB0F0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_A1C464B05BB7A5C1_OFFSET UNITYSDK_OFFSET(0xD0CEF30)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_B81930E0C3DB546E_OFFSET UNITYSDK_OFFSET(0xD0CE3A0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_C1B25D3B3F94E126_OFFSET UNITYSDK_OFFSET(0xD0CEC90)
-#define RPG_CLIENT_FULLBODY_GROUNDING_SET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0xD0CC6C0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_SET_LEGS_OFFSET UNITYSDK_OFFSET(0xD0CC680)
-#define RPG_CLIENT_FULLBODY_GROUNDING_SET_PELVIS_OFFSET UNITYSDK_OFFSET(0xD0CC6A0)
-#define RPG_CLIENT_FULLBODY_GROUNDING_SET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0xD0CC720)
-#define RPG_CLIENT_FULLBODY_GROUNDING_SET_ROOT_OFFSET UNITYSDK_OFFSET(0xD0CC6E0)
-#define RPG_CLIENT_FULLBODY_GROUNDING__CTOR_OFFSET UNITYSDK_OFFSET(0xD0C7690)
+#define RPG_CLIENT_FULLBODY_GROUNDING_ACDPBPKPKGE_OFFSET UNITYSDK_OFFSET(0xD069430)
+#define RPG_CLIENT_FULLBODY_GROUNDING_AENJNFKJLBC_OFFSET UNITYSDK_OFFSET(0xD06F140)
+#define RPG_CLIENT_FULLBODY_GROUNDING_ANMLJPDPDJJ_OFFSET UNITYSDK_OFFSET(0xD06E830)
+#define RPG_CLIENT_FULLBODY_GROUNDING_APNGEFIOCEH_OFFSET UNITYSDK_OFFSET(0xD06EFC0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_CTOR_OFFSET UNITYSDK_OFFSET(0xD067AC0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0xD06CAF0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_LEGS_OFFSET UNITYSDK_OFFSET(0xD06CAB0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_PELVIS_OFFSET UNITYSDK_OFFSET(0xD06CAD0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ROOTGROUNDED_OFFSET UNITYSDK_OFFSET(0xD06CB90)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0xD06CB30)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_ROOT_OFFSET UNITYSDK_OFFSET(0xD06CB10)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_UP_OFFSET UNITYSDK_OFFSET(0xD06D010)
+#define RPG_CLIENT_FULLBODY_GROUNDING_GET_USEROOTROTATION_OFFSET UNITYSDK_OFFSET(0xD06EDE0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_JJHBHDFAPLP_OFFSET UNITYSDK_OFFSET(0xD06CBF0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xD068550)
+#define RPG_CLIENT_FULLBODY_GROUNDING_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xD06D2F0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_LFKJJELMNPK_OFFSET UNITYSDK_OFFSET(0xD06D590)
+#define RPG_CLIENT_FULLBODY_GROUNDING_NOIBBPDBKHA_OFFSET UNITYSDK_OFFSET(0xD06F3E0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xD06B520)
+#define RPG_CLIENT_FULLBODY_GROUNDING_SET_ISGROUNDED_OFFSET UNITYSDK_OFFSET(0xD06CB00)
+#define RPG_CLIENT_FULLBODY_GROUNDING_SET_LEGS_OFFSET UNITYSDK_OFFSET(0xD06CAC0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_SET_PELVIS_OFFSET UNITYSDK_OFFSET(0xD06CAE0)
+#define RPG_CLIENT_FULLBODY_GROUNDING_SET_ROOTHIT_OFFSET UNITYSDK_OFFSET(0xD06CB60)
+#define RPG_CLIENT_FULLBODY_GROUNDING_SET_ROOT_OFFSET UNITYSDK_OFFSET(0xD06CB20)
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int Grounding_TypeDefinitionIndex = 74139;
-
 	class Grounding : public ::System::Object
 	{
 	public:
@@ -59,48 +56,51 @@ namespace RPG::Client::FullBody
 		::System::Single footRotationSpeed; // 0x34
 		::System::Single maxFootRotationAngle; // 0x38
 		::System::Boolean rotateSolver; // 0x3C
+		::System::Byte _padding0[0x3];
 		::System::Single pelvisSpeed; // 0x40
 		::System::Single pelvisDamper; // 0x44
 		::System::Single lowerPelvisWeight; // 0x48
 		::System::Single liftPelvisWeight; // 0x4C
 		::System::Single rootSphereCastRadius; // 0x50
 		::System::Boolean overstepFallsDown; // 0x54
+		::System::Byte _padding1[0x3];
 		::RPG::Client::FullBody::Grounding_Quality quality; // 0x58
 		::System::Boolean forceUseWorldRotateUp; // 0x5C
-		::Il2CppArray<::RPG::Client::FullBody::Grounding_Class_1_BF264403995EDA8F*>* _legs_k__BackingField; // 0x60
-		::RPG::Client::FullBody::Grounding_Class_1_2B3895D93BBCAAD0* _pelvis_k__BackingField; // 0x68
+		::System::Byte _padding2[0x3];
+		::Il2CppArray<::System::Object*>* _legs_k__BackingField; // 0x60
+		::RPG::Client::FullBody::Grounding_JGJCNOBMEOJ* _pelvis_k__BackingField; // 0x68
 		::System::Boolean _isGrounded_k__BackingField; // 0x70
+		::System::Byte _padding3[0x7];
 		::UnityEngine::Transform* _root_k__BackingField; // 0x78
 		::UnityEngine::RaycastHit _rootHit_k__BackingField; // 0x80
-		::RPG::Client::FullBody::Grounding_Class_3_443CA02E4E068003* Raycast; // 0xB0
-		::RPG::Client::FullBody::Grounding_Class_3_594C4D3848A7A3AB* CapsuleCast; // 0xB8
-		::RPG::Client::FullBody::Grounding_Class_3_25BFA3B13C8F2459* SphereCast; // 0xC0
-		::RPG::Client::FullBody::Grounding_Class_3_6D36CA8DB48257A4* BoxCast; // 0xC8
+		::RPG::Client::FullBody::Grounding_BELNPMHCADA* Raycast; // 0xB0
+		::RPG::Client::FullBody::Grounding_PLHFOJLFMGK* CapsuleCast; // 0xB8
+		::RPG::Client::FullBody::Grounding_FDIMCLFAMBM* SphereCast; // 0xC0
+		::RPG::Client::FullBody::Grounding_KEHPPILGEFG* BoxCast; // 0xC8
 		::System::Boolean initiated; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_CTOR_OFFSET))(this);
 		}
 
-		::Il2CppArray<::RPG::Client::FullBody::Grounding_Class_1_BF264403995EDA8F*>* get_legs()
+		::Il2CppArray<::System::Object*>* get_legs()
 		{
-			return ((::Il2CppArray<::RPG::Client::FullBody::Grounding_Class_1_BF264403995EDA8F*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_GET_LEGS_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_GET_LEGS_OFFSET))(this);
 		}
 
-		::System::Void set_legs(::Il2CppArray<::RPG::Client::FullBody::Grounding_Class_1_BF264403995EDA8F*>* a1)
+		::System::Void set_legs(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::FullBody::Grounding_Class_1_BF264403995EDA8F*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_SET_LEGS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_SET_LEGS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::FullBody::Grounding_Class_1_2B3895D93BBCAAD0* get_pelvis()
+		::RPG::Client::FullBody::Grounding_JGJCNOBMEOJ* get_pelvis()
 		{
-			return ((::RPG::Client::FullBody::Grounding_Class_1_2B3895D93BBCAAD0*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_GET_PELVIS_OFFSET))(this);
+			return ((::RPG::Client::FullBody::Grounding_JGJCNOBMEOJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_GET_PELVIS_OFFSET))(this);
 		}
 
-		::System::Void set_pelvis(::RPG::Client::FullBody::Grounding_Class_1_2B3895D93BBCAAD0* a1)
+		::System::Void set_pelvis(::RPG::Client::FullBody::Grounding_JGJCNOBMEOJ* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::Grounding_Class_1_2B3895D93BBCAAD0*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_SET_PELVIS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FullBody::Grounding_JGJCNOBMEOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_SET_PELVIS_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_isGrounded()
@@ -138,39 +138,39 @@ namespace RPG::Client::FullBody
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_GET_ROOTGROUNDED_OFFSET))(this);
 		}
 
-		::UnityEngine::RaycastHit Method_1_9317D1B3EB9B664A(::System::Single a1)
+		::UnityEngine::RaycastHit JJHBHDFAPLP(::System::Single a1)
 		{
-			return ((::UnityEngine::RaycastHit(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_9317D1B3EB9B664A_OFFSET))(this, a1);
+			return ((::UnityEngine::RaycastHit(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_JJHBHDFAPLP_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_611142A6ECF0D805(::System::String*& a1)
+		::System::Boolean KKKIONIDKFA(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_611142A6ECF0D805_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_KKKIONIDKFA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_2BE9489A09D4AB3D(::UnityEngine::Transform* a1, ::Il2CppArray<::UnityEngine::Transform*>* a2)
+		::System::Void ACDPBPKPKGE(::UnityEngine::Transform* a1, ::Il2CppArray<::UnityEngine::Transform*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_2BE9489A09D4AB3D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_ACDPBPKPKGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_1_96A53A17AC5D0E93()
+		::System::Void PAGKOAEOLKA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_96A53A17AC5D0E93_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_PAGKOAEOLKA_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_1_B81930E0C3DB546E()
+		::UnityEngine::Vector3 ANMLJPDPDJJ()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_B81930E0C3DB546E_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_ANMLJPDPDJJ_OFFSET))(this);
 		}
 
-		::System::Void Method_1_4307B2A4B4A12C1A()
+		::System::Void KHGIKBFDLFB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_4307B2A4B4A12C1A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_KHGIKBFDLFB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_050E70FEDB783306(::System::String* a1)
+		::System::Void LFKJJELMNPK(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_050E70FEDB783306_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_LFKJJELMNPK_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get_up()
@@ -178,14 +178,14 @@ namespace RPG::Client::FullBody
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_GET_UP_OFFSET))(this);
 		}
 
-		::System::Single Method_1_753A3CECCA76D6CD(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
+		::System::Single APNGEFIOCEH(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_753A3CECCA76D6CD_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_APNGEFIOCEH_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector3 Method_1_C1B25D3B3F94E126(::UnityEngine::Vector3 a1)
+		::UnityEngine::Vector3 AENJNFKJLBC(::UnityEngine::Vector3 a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_C1B25D3B3F94E126_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_AENJNFKJLBC_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_useRootRotation()
@@ -193,9 +193,10 @@ namespace RPG::Client::FullBody
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_GET_USEROOTROTATION_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_1_A1C464B05BB7A5C1()
+		::UnityEngine::Vector3 NOIBBPDBKHA()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_METHOD_1_A1C464B05BB7A5C1_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODY_GROUNDING_NOIBBPDBKHA_OFFSET))(this);
 		}
+
 	};
 }

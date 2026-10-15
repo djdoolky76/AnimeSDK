@@ -1,36 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/MixBlend.h"
-#include "unitysdk/Spine/MixDirection.h"
 #include "unitysdk/System/Object.h"
-
-namespace Spine { class Event; }
-namespace Spine { class Skeleton; }
-namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_TIMELINE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1E622C80)
-#define SPINE_TIMELINE_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1E622BF0)
-#define SPINE_TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1E622BE0)
-#define SPINE_TIMELINE_GET_FRAMES_OFFSET UNITYSDK_OFFSET(0x1E622BD0)
-#define SPINE_TIMELINE_GET_PROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x1E622BC0)
-#define SPINE_TIMELINE_SEARCH_1_OFFSET UNITYSDK_OFFSET(0x1E622D70)
-#define SPINE_TIMELINE_SEARCH_OFFSET UNITYSDK_OFFSET(0x1E622D20)
-#define SPINE_TIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E622AE0)
+#define SPINE_TIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEAC60)
+#define SPINE_TIMELINE_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1ECEAE00)
+#define SPINE_TIMELINE_GET_FRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1ECEAD70)
+#define SPINE_TIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1ECEAD60)
+#define SPINE_TIMELINE_GET_FRAMES_OFFSET UNITYSDK_OFFSET(0x1ECEAD50)
+#define SPINE_TIMELINE_GET_PROPERTYIDS_OFFSET UNITYSDK_OFFSET(0x1ECEAD40)
+#define SPINE_TIMELINE_SEARCH_1_OFFSET UNITYSDK_OFFSET(0x1ECEAEF0)
+#define SPINE_TIMELINE_SEARCH_OFFSET UNITYSDK_OFFSET(0x1ECEAEA0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Timeline_TypeDefinitionIndex = 38300;
-
 	class Timeline : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* frames; // 0x10
 		::Il2CppArray<::System::String*>* propertyIds; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_TIMELINE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_TIMELINE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::String*>* get_PropertyIds()
@@ -67,5 +58,6 @@ namespace Spine
 		{
 			return ((::System::Int32(*)(::Il2CppArray<::System::Single>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_TIMELINE_SEARCH_1_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

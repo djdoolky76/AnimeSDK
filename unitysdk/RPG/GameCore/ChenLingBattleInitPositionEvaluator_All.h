@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleInitPositionEvaluator.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingBattleInitPositionEvaluator_All; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_METHOD_3_0E8DFDDB02A8F8EF_OFFSET UNITYSDK_OFFSET(0x1CFAAB10)
-#define RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_METHOD_3_AA84CF7CF03D37FE_OFFSET UNITYSDK_OFFSET(0x1CFAABB0)
-#define RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAABA0)
+#define RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D585D00)
+#define RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D585D10)
+#define RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D585C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleInitPositionEvaluator_All_TypeDefinitionIndex = 15583;
-
 	class ChenLingBattleInitPositionEvaluator_All : public ::RPG::GameCore::BaseChenLingBattleInitPositionEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0E8DFDDB02A8F8EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_METHOD_3_0E8DFDDB02A8F8EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AA84CF7CF03D37FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_METHOD_3_AA84CF7CF03D37FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleInitPositionEvaluator_All*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEINITPOSITIONEVALUATOR_ALL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

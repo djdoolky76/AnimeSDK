@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyEffectTriggerWayType_TypeDefinitionIndex = 66262;
-
 	enum class MonopolyEffectTriggerWayType : ::System::Int32
 	{
 		LevelGraph = 0,

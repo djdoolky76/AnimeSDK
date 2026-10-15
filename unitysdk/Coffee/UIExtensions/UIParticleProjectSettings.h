@@ -3,39 +3,39 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/HideFlags.h"
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_GET_GLOBALHIDEFLAGS_OFFSET UNITYSDK_OFFSET(0x16494370)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x164960B0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x164960A0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x166BCCE0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x166BCCD0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_GET_GLOBALHIDEFLAGS_OFFSET UNITYSDK_OFFSET(0x166BAFA0)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleProjectSettings_TypeDefinitionIndex = 43967;
-
 	class UIParticleProjectSettings : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_m_HideGeneratedObjects()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIParticleProjectSettings_TypeDefinitionIndex)->GetStaticField(0x890);
+			return (::System::Boolean*)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleProjectSettings")->GetStaticField(0x6D0);
 		}
+
 		static ::System::Boolean* StaticGet_forceLegacy()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIParticleProjectSettings_TypeDefinitionIndex)->GetStaticField(0x891);
+			return (::System::Boolean*)UnitySDK::FromName("Coffee.UIExtensions", "UIParticleProjectSettings")->GetStaticField(0x6D1);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_CCTOR_OFFSET))();
 		}
 
 		static ::UnityEngine::HideFlags get_globalHideFlags()
 		{
 			return ((::UnityEngine::HideFlags(*)())((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLEPROJECTSETTINGS_GET_GLOBALHIDEFLAGS_OFFSET))();
 		}
+
 	};
 }

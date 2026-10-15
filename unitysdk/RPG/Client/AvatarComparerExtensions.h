@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class IAvatarComparer; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS_SETLEVELRARITYISDESCENDING_OFFSET UNITYSDK_OFFSET(0xC800570)
-#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS_SETLEVELRARITYISLEVELFIRST_OFFSET UNITYSDK_OFFSET(0xC8004B0)
-#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS_SETPINNING_OFFSET UNITYSDK_OFFSET(0xC8003F0)
+#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS_SETLEVELRARITYISDESCENDING_OFFSET UNITYSDK_OFFSET(0xC6CD8D0)
+#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS_SETLEVELRARITYISLEVELFIRST_OFFSET UNITYSDK_OFFSET(0xC6CD810)
+#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS_SETPINNING_OFFSET UNITYSDK_OFFSET(0xC6CD750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparerExtensions_TypeDefinitionIndex = 62871;
-
 	class AvatarComparerExtensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::RPG::Client::IAvatarComparer*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPAREREXTENSIONS_SETLEVELRARITYISDESCENDING_OFFSET))(a1, a2);
 		}
+
 	};
 }

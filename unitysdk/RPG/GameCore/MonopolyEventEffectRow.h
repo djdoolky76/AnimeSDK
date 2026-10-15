@@ -3,32 +3,30 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/MonopolyEffectType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MonopolyEventEffectRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2BC9C0)
-#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BCBE0)
+#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89EE40)
+#define RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D89EC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyEventEffectRow_TypeDefinitionIndex = 11960;
-
 	class MonopolyEventEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TypeParam; // 0x10
-		::RPG::Client::TextID EffectContent; // 0x18
-		::RPG::GameCore::MonopolyEffectType Type; // 0x28
-		::System::UInt32 EffectID; // 0x2C
-
+		::System::UInt32 EffectID; // 0x18
+		::RPG::GameCore::MonopolyEffectType Type; // 0x1C
+		::RPG::Client::TextID EffectContent; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYEVENTEFFECTROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyEventEffectRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MonopolyEventEffectRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyEventEffectRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MonopolyEventEffectRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYEVENTEFFECTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

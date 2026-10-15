@@ -2,38 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IRI_BaseBuildingCustomData.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
 namespace System { class String; }
 
-#define IRI_DECALGROUPCUSTOMDATA_METHOD_6_A2846FC5EA0763C6_OFFSET UNITYSDK_OFFSET(0x161BB450)
-#define IRI_DECALGROUPCUSTOMDATA_METHOD_6_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0x161BB3D0)
-#define IRI_DECALGROUPCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x161BB470)
-#define IRI_DECALGROUPCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x161BB4B0)
+#define IRI_DECALGROUPCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16533840)
+#define IRI_DECALGROUPCUSTOMDATA_JFGCOBEMPGB_OFFSET UNITYSDK_OFFSET(0x165337E0)
+#define IRI_DECALGROUPCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16533800)
+#define IRI_DECALGROUPCUSTOMDATA_PHOLCMFCIBM_OFFSET UNITYSDK_OFFSET(0x16533760)
 
-inline static constexpr unsigned int IRI_DecalGroupCustomData_TypeDefinitionIndex = 47632;
-
-class IRI_DecalGroupCustomData : public ::IRI_BaseBuildingCustomData
-{
-public:
-	::System::String* Lod0Path; // 0x40
-
-	::System::Void _ctor()
+	class IRI_DecalGroupCustomData : public ::IRI_BaseBuildingCustomData
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::String* Lod0Path; // 0x40
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_CTOR_OFFSET))(this);
+		}
 
-	::System::Single Method_6_FF7B2911BBACA4A9()
-	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_METHOD_6_FF7B2911BBACA4A9_OFFSET))(this);
-	}
+		::System::Single PHOLCMFCIBM()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_PHOLCMFCIBM_OFFSET))(this);
+		}
 
-	::UnityEngine::Bounds Method_6_A2846FC5EA0763C6()
-	{
-		return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_METHOD_6_A2846FC5EA0763C6_OFFSET))(this);
-	}
+		::UnityEngine::Bounds JFGCOBEMPGB()
+		{
+			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_JFGCOBEMPGB_OFFSET))(this);
+		}
 
-	::System::Void OnEnable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_ONENABLE_OFFSET))(this);
-	}
-};
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_DECALGROUPCUSTOMDATA_ONENABLE_OFFSET))(this);
+		}
+
+	};

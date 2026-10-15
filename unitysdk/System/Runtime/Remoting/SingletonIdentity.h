@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/ServerIdentity.h"
-
 namespace System { class MarshalByRefObject; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -10,21 +9,19 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_ASYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDFE3C0)
-#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_GETSERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1BDFE070)
-#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_SYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDFE260)
-#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDFCF60)
+#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_ASYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C30A020)
+#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C308BC0)
+#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_GETSERVEROBJECT_OFFSET UNITYSDK_OFFSET(0x1C309CD0)
+#define SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_SYNCOBJECTPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C309EC0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int SingletonIdentity_TypeDefinitionIndex = 1222;
-
 	class SingletonIdentity : public ::System::Runtime::Remoting::ServerIdentity
 	{
 	public:
 		::System::Void _ctor(::System::String* a1, ::System::Runtime::Remoting::Contexts::Context* a2, ::System::Type* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::MarshalByRefObject* GetServerObject()
@@ -41,5 +38,6 @@ namespace System::Runtime::Remoting
 		{
 			return ((::System::Runtime::Remoting::Messaging::IMessageCtrl*(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_SINGLETONIDENTITY_ASYNCOBJECTPROCESSMESSAGE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

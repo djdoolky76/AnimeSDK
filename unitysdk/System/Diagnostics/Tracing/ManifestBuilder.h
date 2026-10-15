@@ -4,9 +4,8 @@
 #include "unitysdk/System/Diagnostics/Tracing/EventManifestOptions.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventOpcode.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventTask.h"
-#include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Guid.h"
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -17,56 +16,53 @@ namespace System::Globalization { class CultureInfo; }
 namespace System::Resources { class ResourceManager; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDEVENTPARAMETER_OFFSET UNITYSDK_OFFSET(0x1BCE1240)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDKEYWORD_OFFSET UNITYSDK_OFFSET(0x1BCE8110)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDOPCODE_OFFSET UNITYSDK_OFFSET(0x1BCE9F50)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x1BCE8890)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_CREATEMANIFESTSTRING_OFFSET UNITYSDK_OFFSET(0x1BCEF5E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_CREATEMANIFEST_OFFSET UNITYSDK_OFFSET(0x1BCE1EC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ENDEVENT_OFFSET UNITYSDK_OFFSET(0x1BCE1BC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1BCEDEA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETLEVELNAME_OFFSET UNITYSDK_OFFSET(0x1BCEDA50)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETLOCALIZEDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BCE9A60)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETOPCODENAME_OFFSET UNITYSDK_OFFSET(0x1BCEE1D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETSUPPORTEDCULTURES_OFFSET UNITYSDK_OFFSET(0x1BCF2420)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETTASKNAME_OFFSET UNITYSDK_OFFSET(0x1BCEE460)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x1BCEE5D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GET_ERRORS_OFFSET UNITYSDK_OFFSET(0x1BCF2380)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_MANIFESTERROR_OFFSET UNITYSDK_OFFSET(0x1BCE7360)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_STARTEVENT_OFFSET UNITYSDK_OFFSET(0x1BCE0FF0)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_TRANSLATEINDEXTOMANIFESTCONVENTION_OFFSET UNITYSDK_OFFSET(0x1BCF2900)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_TRANSLATETOMANIFESTCONVENTION_OFFSET UNITYSDK_OFFSET(0x1BCEEA20)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_UPDATESTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1BCF2840)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_WRITEMESSAGEATTRIB_OFFSET UNITYSDK_OFFSET(0x1BCEDB50)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_WRITENAMEANDMESSAGEATTRIBS_OFFSET UNITYSDK_OFFSET(0x1BCF2390)
-#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCE09D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDEVENTPARAMETER_OFFSET UNITYSDK_OFFSET(0x1C1ED2A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDKEYWORD_OFFSET UNITYSDK_OFFSET(0x1C1F4170)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDOPCODE_OFFSET UNITYSDK_OFFSET(0x1C1F5FB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x1C1F48F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_CREATEMANIFESTSTRING_OFFSET UNITYSDK_OFFSET(0x1C1FB610)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_CREATEMANIFEST_OFFSET UNITYSDK_OFFSET(0x1C1EDF20)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1ECA30)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_ENDEVENT_OFFSET UNITYSDK_OFFSET(0x1C1EDC20)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C1F9ED0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETLEVELNAME_OFFSET UNITYSDK_OFFSET(0x1C1F9AB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETLOCALIZEDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C1F5AC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETOPCODENAME_OFFSET UNITYSDK_OFFSET(0x1C1FA200)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETSUPPORTEDCULTURES_OFFSET UNITYSDK_OFFSET(0x1C1FE450)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETTASKNAME_OFFSET UNITYSDK_OFFSET(0x1C1FA490)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x1C1FA600)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GET_ERRORS_OFFSET UNITYSDK_OFFSET(0x1C1FE3B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_MANIFESTERROR_OFFSET UNITYSDK_OFFSET(0x1C1F33C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_STARTEVENT_OFFSET UNITYSDK_OFFSET(0x1C1ED050)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_TRANSLATEINDEXTOMANIFESTCONVENTION_OFFSET UNITYSDK_OFFSET(0x1C1FE930)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_TRANSLATETOMANIFESTCONVENTION_OFFSET UNITYSDK_OFFSET(0x1C1FAA50)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_UPDATESTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0x1C1FE870)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_WRITEMESSAGEATTRIB_OFFSET UNITYSDK_OFFSET(0x1C1F9BB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_WRITENAMEANDMESSAGEATTRIBS_OFFSET UNITYSDK_OFFSET(0x1C1FE3C0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ManifestBuilder_TypeDefinitionIndex = 1706;
-
 	class ManifestBuilder : public ::System::Object
 	{
 	public:
-		::System::Text::StringBuilder* events; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* opcodeTab; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>* keywordTab; // 0x20
-		::System::Text::StringBuilder* templates; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* perEventByteArrayArgIndices; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>* mapsTab; // 0x38
-		::System::String* eventName; // 0x40
-		::System::Collections::Generic::IList_1<::System::String*>* errors; // 0x48
-		::System::Text::StringBuilder* sb; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* stringTab; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* taskTab; // 0x60
-		::System::Resources::ResourceManager* resources; // 0x68
-		::System::Collections::Generic::List_1<::System::Int32>* byteArrArgIndices; // 0x70
+		::System::Resources::ResourceManager* resources; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>* keywordTab; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* opcodeTab; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* byteArrArgIndices; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* stringTab; // 0x30
+		::System::Text::StringBuilder* events; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* taskTab; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*>* perEventByteArrayArgIndices; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>* mapsTab; // 0x50
+		::System::Text::StringBuilder* templates; // 0x58
+		::System::Text::StringBuilder* sb; // 0x60
+		::System::Collections::Generic::IList_1<::System::String*>* errors; // 0x68
+		::System::String* eventName; // 0x70
 		::System::Int32 numParams; // 0x78
 		::System::Diagnostics::Tracing::EventManifestOptions flags; // 0x7C
-
 		::System::Void _ctor(::System::String* a1, ::System::Guid a2, ::System::String* a3, ::System::Resources::ResourceManager* a4, ::System::Diagnostics::Tracing::EventManifestOptions a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Guid, ::System::String*, ::System::Resources::ResourceManager*, ::System::Diagnostics::Tracing::EventManifestOptions))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Guid, ::System::String*, ::System::Resources::ResourceManager*, ::System::Diagnostics::Tracing::EventManifestOptions))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void AddOpcode(::System::String* a1, ::System::Int32 a2)
@@ -164,9 +160,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::String*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_GETTYPENAME_OFFSET))(this, a1);
 		}
 
-		static ::System::Void UpdateStringBuilder(::System::Text::StringBuilder*& a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4)
+		static ::System::Void UpdateStringBuilder(::System::Text::StringBuilder* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::Text::StringBuilder*&, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_UPDATESTRINGBUILDER_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_UPDATESTRINGBUILDER_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::String* TranslateToManifestConvention(::System::String* a1, ::System::String* a2)
@@ -178,5 +174,6 @@ namespace System::Diagnostics::Tracing
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_MANIFESTBUILDER_TRANSLATEINDEXTOMANIFESTCONVENTION_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

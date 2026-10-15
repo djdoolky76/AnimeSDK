@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class NNHBAOKEBJI : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		IFPCDBMEIAK = 7656,
+		OCKANPAJIMJ = 7681,
+		PJDFLECDOAA = 7679,
+		ENDFCJDJHEJ = 7670,
+		OCEMBBBNAGJ = 7682,
+		DCHBPOBFJJK = 7666,
+		FNAMLLEMAOK = 7661,
+		GFECMCBCMDM = 7684,
+	};

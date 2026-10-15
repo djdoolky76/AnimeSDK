@@ -2,60 +2,57 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/EnvType.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class LanguageManager; }
 namespace MiHoYo::SDK { class LanguageModel; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 
-#define MIHOYO_SDK_LANGUAGEMANAGER_GETLANGUAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1B98FAF0)
-#define MIHOYO_SDK_LANGUAGEMANAGER_GETLANGUAGESTRING_OFFSET UNITYSDK_OFFSET(0x1B98FCA0)
-#define MIHOYO_SDK_LANGUAGEMANAGER_GETLANGUAGEVERSION_OFFSET UNITYSDK_OFFSET(0x1B98FEF0)
-#define MIHOYO_SDK_LANGUAGEMANAGER_GETSTORAGELANGUAGE_OFFSET UNITYSDK_OFFSET(0x1B98F2B0)
-#define MIHOYO_SDK_LANGUAGEMANAGER_ISVALIDREQUEST_OFFSET UNITYSDK_OFFSET(0x1B990940)
-#define MIHOYO_SDK_LANGUAGEMANAGER_LOADLOCALLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1B98F880)
-#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETLANGUAGERESPONSE_OFFSET UNITYSDK_OFFSET(0x1B9909B0)
-#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETLANGUAGETIMEOUT_OFFSET UNITYSDK_OFFSET(0x1B990C90)
-#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETVERSIONTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1B9909A0)
-#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETVERSION_OFFSET UNITYSDK_OFFSET(0x1B990550)
-#define MIHOYO_SDK_LANGUAGEMANAGER_REQUESTLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1B990960)
-#define MIHOYO_SDK_LANGUAGEMANAGER_REQUESTVERSION_OFFSET UNITYSDK_OFFSET(0x1B98FC60)
-#define MIHOYO_SDK_LANGUAGEMANAGER_SETLANGUAGESTRING_OFFSET UNITYSDK_OFFSET(0x1B990340)
-#define MIHOYO_SDK_LANGUAGEMANAGER_SETLANGUAGEVERSION_OFFSET UNITYSDK_OFFSET(0x1B990120)
-#define MIHOYO_SDK_LANGUAGEMANAGER_SETLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1B98E4C0)
-#define MIHOYO_SDK_LANGUAGEMANAGER_UPDATELANGUAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1B98F520)
-#define MIHOYO_SDK_LANGUAGEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B990CD0)
-#define MIHOYO_SDK_LANGUAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B990CC0)
+#define MIHOYO_SDK_LANGUAGEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE90840)
+#define MIHOYO_SDK_LANGUAGEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE90830)
+#define MIHOYO_SDK_LANGUAGEMANAGER_GETLANGUAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1BE8F660)
+#define MIHOYO_SDK_LANGUAGEMANAGER_GETLANGUAGESTRING_OFFSET UNITYSDK_OFFSET(0x1BE8F810)
+#define MIHOYO_SDK_LANGUAGEMANAGER_GETLANGUAGEVERSION_OFFSET UNITYSDK_OFFSET(0x1BE8FA60)
+#define MIHOYO_SDK_LANGUAGEMANAGER_GETSTORAGELANGUAGE_OFFSET UNITYSDK_OFFSET(0x1BE8EE20)
+#define MIHOYO_SDK_LANGUAGEMANAGER_ISVALIDREQUEST_OFFSET UNITYSDK_OFFSET(0x1BE904B0)
+#define MIHOYO_SDK_LANGUAGEMANAGER_LOADLOCALLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1BE8F3F0)
+#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETLANGUAGERESPONSE_OFFSET UNITYSDK_OFFSET(0x1BE90520)
+#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETLANGUAGETIMEOUT_OFFSET UNITYSDK_OFFSET(0x1BE90800)
+#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETVERSIONTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1BE90510)
+#define MIHOYO_SDK_LANGUAGEMANAGER_ONGETVERSION_OFFSET UNITYSDK_OFFSET(0x1BE900C0)
+#define MIHOYO_SDK_LANGUAGEMANAGER_REQUESTLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1BE904D0)
+#define MIHOYO_SDK_LANGUAGEMANAGER_REQUESTVERSION_OFFSET UNITYSDK_OFFSET(0x1BE8F7D0)
+#define MIHOYO_SDK_LANGUAGEMANAGER_SETLANGUAGESTRING_OFFSET UNITYSDK_OFFSET(0x1BE8FEB0)
+#define MIHOYO_SDK_LANGUAGEMANAGER_SETLANGUAGEVERSION_OFFSET UNITYSDK_OFFSET(0x1BE8FC90)
+#define MIHOYO_SDK_LANGUAGEMANAGER_SETLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1BE8E030)
+#define MIHOYO_SDK_LANGUAGEMANAGER_UPDATELANGUAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1BE8F090)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageManager_TypeDefinitionIndex = 8028;
-
 	class LanguageManager : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::LanguageManager** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::LanguageManager**)Il2CppClass::FromTypeDefinitionIndex(LanguageManager_TypeDefinitionIndex)->GetStaticField(0xBC80);
-		}
-		// static const ::System::String* LANGUAGE_VERSION; // 0x0
-		// static const ::System::String* LANGUAGE_FILE; // 0x0
-		// static const ::System::String* LANGUAGE_KEY; // 0x0
-		// static const ::System::String* NOTICE_LANGUAGE_KEY; // 0x0
 		::System::String* currentLanguage; // 0x10
 		::System::Int32 newVersion; // 0x18
 		::MiHoYo::SDK::EnvType currentEnv; // 0x1C
 		::System::Boolean isRequest; // 0x20
+		static ::MiHoYo::SDK::LanguageManager** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::LanguageManager**)UnitySDK::FromName("MiHoYo.SDK", "LanguageManager")->GetStaticField(0x105E0);
+		}
 
+		// static const ::System::String* LANGUAGE_VERSION; // 0x0
+		// static const ::System::String* LANGUAGE_FILE; // 0x0
+		// static const ::System::String* LANGUAGE_KEY; // 0x0
+		// static const ::System::String* NOTICE_LANGUAGE_KEY; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Void SetLanguage(::System::String* a1)
@@ -128,14 +125,15 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER_ONGETLANGUAGETIMEOUT_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* RequestVersion(::System::Action_1<::System::String*>* a1, ::System::Action* a2)
+		::System::Collections::IEnumerator* RequestVersion(::System::Action* a1, ::System::Action* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER_REQUESTVERSION_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER_REQUESTVERSION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::IEnumerator* RequestLanguage(::System::Action_1<::System::String*>* a1, ::System::Action* a2)
+		::System::Collections::IEnumerator* RequestLanguage(::System::Action* a1, ::System::Action* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER_REQUESTLANGUAGE_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER_REQUESTLANGUAGE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

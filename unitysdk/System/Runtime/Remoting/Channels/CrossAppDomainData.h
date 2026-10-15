@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_DOMAINID_OFFSET UNITYSDK_OFFSET(0x1BDC91B0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_PROCESSID_OFFSET UNITYSDK_OFFSET(0x1BDC91C0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC8C70)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D4970)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_DOMAINID_OFFSET UNITYSDK_OFFSET(0x1C2D4EB0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_PROCESSID_OFFSET UNITYSDK_OFFSET(0x1C2D4EC0)
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int CrossAppDomainData_TypeDefinitionIndex = 1263;
-
 	class CrossAppDomainData : public ::System::Object
 	{
 	public:
 		::System::Object* _ContextID; // 0x10
 		::System::String* _processGuid; // 0x18
 		::System::Int32 _DomainID; // 0x20
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_DomainID()
@@ -33,5 +30,6 @@ namespace System::Runtime::Remoting::Channels
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_PROCESSID_OFFSET))(this);
 		}
+
 	};
 }

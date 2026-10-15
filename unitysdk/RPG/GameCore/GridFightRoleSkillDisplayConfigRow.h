@@ -4,34 +4,32 @@
 #include "unitysdk/RPG/GameCore/GridFightPreset.h"
 #include "unitysdk/RPG/GameCore/GridFightRoleSkillTag.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightRoleSkillDisplayConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1640B0)
-#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D164320)
+#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73F110)
+#define RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D73EEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleSkillDisplayConfigRow_TypeDefinitionIndex = 13416;
-
 	class GridFightRoleSkillDisplayConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::GridFightRoleSkillTag>* CategoryTagList; // 0x10
-		::System::String* IconPath; // 0x18
-		::System::UInt32 RoleID; // 0x20
-		::RPG::GameCore::GridFightPreset FrontBackType; // 0x24
-		::RPG::Client::TextID Name; // 0x28
-
+		::System::String* IconPath; // 0x10
+		::Il2CppArray<::RPG::GameCore::GridFightRoleSkillTag>* CategoryTagList; // 0x18
+		::RPG::Client::TextID Name; // 0x20
+		::System::UInt32 RoleID; // 0x30
+		::RPG::GameCore::GridFightPreset FrontBackType; // 0x34
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightRoleSkillDisplayConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightRoleSkillDisplayConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightRoleSkillDisplayConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightRoleSkillDisplayConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLESKILLDISPLAYCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

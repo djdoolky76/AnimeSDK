@@ -4,15 +4,12 @@
 #include "unitysdk/UnityEngine/Rendering/ColorWriteMask.h"
 #include "unitysdk/UnityEngine/Rendering/CompareFunction.h"
 #include "unitysdk/UnityEngine/Rendering/StencilOp.h"
-
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_UI_STENCILMATERIAL_MATENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8E650)
+#define UNITYENGINE_UI_STENCILMATERIAL_MATENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F556280)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int StencilMaterial_MatEntry_TypeDefinitionIndex = 6853;
-
 	class StencilMaterial_MatEntry : public ::System::Object
 	{
 	public:
@@ -25,11 +22,12 @@ namespace UnityEngine::UI
 		::System::Int32 readMask; // 0x30
 		::System::Int32 writeMask; // 0x34
 		::System::Boolean useAlphaClip; // 0x38
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Rendering::ColorWriteMask colorMask; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_STENCILMATERIAL_MATENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_STENCILMATERIAL_MATENTRY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

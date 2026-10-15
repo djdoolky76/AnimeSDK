@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValue.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueClientOnly; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_METHOD_5_16E55966966C442A_OFFSET UNITYSDK_OFFSET(0x1D4F9960)
-#define RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_METHOD_5_AE9168916630E401_OFFSET UNITYSDK_OFFSET(0x1D4EC370)
-#define RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4EC330)
+#define RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA0480)
+#define RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA04C0)
+#define RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAADA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueClientOnly_TypeDefinitionIndex = 23549;
-
 	class SetDynamicValueClientOnly : public ::RPG::GameCore::SetDynamicValue
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_16E55966966C442A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueClientOnly*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueClientOnly* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueClientOnly*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_METHOD_5_16E55966966C442A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_AE9168916630E401(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueClientOnly* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueClientOnly* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_METHOD_5_AE9168916630E401_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueClientOnly*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUECLIENTONLY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

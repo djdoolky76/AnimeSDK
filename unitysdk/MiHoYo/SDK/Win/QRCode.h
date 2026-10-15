@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+#include "unitysdk/UnityEngine/Color32.h"
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1B8DCF70)
-#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B8DCDB0)
-#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1B8DC800)
-#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x1B8DC6E0)
-#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B8DC7D0)
-#define MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DD080)
+#define MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BDDB0E0)
+#define MIHOYO_SDK_WIN_QRCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDB1F0)
+#define MIHOYO_SDK_WIN_QRCODE_ENCODE_OFFSET UNITYSDK_OFFSET(0x1BDDAF20)
+#define MIHOYO_SDK_WIN_QRCODE_GENERATEQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BDDA9C0)
+#define MIHOYO_SDK_WIN_QRCODE_START_OFFSET UNITYSDK_OFFSET(0x1BDDA8A0)
+#define MIHOYO_SDK_WIN_QRCODE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BDDA990)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int QRCode_TypeDefinitionIndex = 9486;
-
 	class QRCode : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -25,10 +22,9 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::RawImage* image; // 0x20
 		::UnityEngine::Texture2D* encoded; // 0x28
 		::System::String* strLevel; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -55,5 +51,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_QRCODE_CREATEQRCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

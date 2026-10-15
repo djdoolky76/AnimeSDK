@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HumanBodyBones_TypeDefinitionIndex = 5710;
-
 	enum class HumanBodyBones : ::System::Int32
 	{
 		Hips = 0,

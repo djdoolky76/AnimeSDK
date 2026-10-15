@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationSection.h"
-
 namespace System::Configuration { class ConfigurationElement; }
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E9589C0)
-#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_RESET_OFFSET UNITYSDK_OFFSET(0x1E958A00)
-#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E958980)
+#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0218E0)
+#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F021920)
+#define SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_RESET_OFFSET UNITYSDK_OFFSET(0x1F021960)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int DefaultProxySection_TypeDefinitionIndex = 3078;
-
 	class DefaultProxySection : public ::System::Configuration::ConfigurationSection
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Configuration::ConfigurationPropertyCollection* get_Properties()
@@ -30,5 +27,6 @@ namespace System::Net::Configuration
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Configuration::ConfigurationElement*))((::PBYTE)hIl2Cpp + SYSTEM_NET_CONFIGURATION_DEFAULTPROXYSECTION_RESET_OFFSET))(this, a1);
 		}
+
 	};
 }

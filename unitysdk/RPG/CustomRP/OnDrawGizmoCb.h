@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CUSTOMRP_ONDRAWGIZMOCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C6B4500)
-#define RPG_CUSTOMRP_ONDRAWGIZMOCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6B4530)
-#define RPG_CUSTOMRP_ONDRAWGIZMOCB_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6B44F0)
-#define RPG_CUSTOMRP_ONDRAWGIZMOCB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B4480)
+#define RPG_CUSTOMRP_ONDRAWGIZMOCB_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CC3A320)
+#define RPG_CUSTOMRP_ONDRAWGIZMOCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3A2A0)
+#define RPG_CUSTOMRP_ONDRAWGIZMOCB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CC3A350)
+#define RPG_CUSTOMRP_ONDRAWGIZMOCB_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC3A310)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int OnDrawGizmoCb_TypeDefinitionIndex = 37012;
-
 	class OnDrawGizmoCb : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_ONDRAWGIZMOCB__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_ONDRAWGIZMOCB_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_ONDRAWGIZMOCB_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

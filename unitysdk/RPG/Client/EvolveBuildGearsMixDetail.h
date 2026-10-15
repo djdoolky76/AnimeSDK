@@ -2,29 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EvolveBuildSeason.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class EvolveBuildGearDetail; }
 namespace RPG::Client { class EvolveBuildGearLevelData; }
+namespace RPG::Client { class EvolveBuildGearsMixDetail; }
 namespace RPG::Client { class EvolveBuildModule; }
 namespace RPG::Client { class EvolveBuildTypeGearsDetail; }
 namespace RPG::GameCore { class EvolveBuildGearManager; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_CREATE_OFFSET UNITYSDK_OFFSET(0xCED7ED0)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_GET_SEASON_OFFSET UNITYSDK_OFFSET(0xCED8960)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_GET__MODULE_OFFSET UNITYSDK_OFFSET(0xCED8980)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_SET_SEASON_OFFSET UNITYSDK_OFFSET(0xCED8970)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__CREATELEVELDATA_OFFSET UNITYSDK_OFFSET(0xCED8670)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xCED8020)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__REFRESHFORGEDETAILS_OFFSET UNITYSDK_OFFSET(0xCED80E0)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__REFRESHMIXDETAILS_OFFSET UNITYSDK_OFFSET(0xCED8280)
-#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__REFRESHWEAPONDETAILS_OFFSET UNITYSDK_OFFSET(0xCED8730)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_CREATE_OFFSET UNITYSDK_OFFSET(0xCE26950)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0xCE26AA0)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_GET_SEASON_OFFSET UNITYSDK_OFFSET(0xCE273E0)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_GET__MODULE_OFFSET UNITYSDK_OFFSET(0xCE27400)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_SET_SEASON_OFFSET UNITYSDK_OFFSET(0xCE273F0)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__CREATELEVELDATA_OFFSET UNITYSDK_OFFSET(0xCE270F0)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__REFRESHFORGEDETAILS_OFFSET UNITYSDK_OFFSET(0xCE26B60)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__REFRESHMIXDETAILS_OFFSET UNITYSDK_OFFSET(0xCE26D00)
+#define RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__REFRESHWEAPONDETAILS_OFFSET UNITYSDK_OFFSET(0xCE271B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildGearsMixDetail_TypeDefinitionIndex = 63841;
-
 	class EvolveBuildGearsMixDetail : public ::System::Object
 	{
 	public:
@@ -32,10 +30,9 @@ namespace RPG::Client
 		::RPG::GameCore::EvolveBuildGearManager* _Manager; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::EvolveBuildGearDetail*>* _ForgeDetails; // 0x20
 		::RPG::GameCore::EvolveBuildSeason _Season_k__BackingField; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::EvolveBuildGearsMixDetail* Create(::RPG::GameCore::EvolveBuildSeason a1)
@@ -77,5 +74,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::EvolveBuildModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDGEARSMIXDETAIL_GET__MODULE_OFFSET))(this);
 		}
+
 	};
 }

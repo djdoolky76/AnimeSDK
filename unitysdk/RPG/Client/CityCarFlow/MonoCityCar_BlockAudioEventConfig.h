@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCar_BlockAudioEventConfig_TypeDefinitionIndex = 80839;
-
 	struct alignas(8) MonoCityCar_BlockAudioEventConfig
 	{
 		::System::Int32 MinimalCarCount; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* BlockAudioEvent; // 0x18
 		::System::String* BlockAudioStopEvent; // 0x20
 		::System::String* EffectPrefabPath; // 0x28

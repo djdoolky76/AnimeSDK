@@ -2,16 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client::Prop { class AreaDoor; }
 namespace RPG::Client::Prop { class AreaEdge; }
 
-#define RPG_CLIENT_PROP_CHASEBAILUCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDBF8AC0)
+#define RPG_CLIENT_PROP_CHASEBAILUCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDC43530)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChaseBailuConfig_TypeDefinitionIndex = 77749;
-
 	class ChaseBailuConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -22,10 +19,10 @@ namespace RPG::Client::Prop
 		::System::Int32 EndPoint; // 0x34
 		::System::Single BackLaneFactor; // 0x38
 		::System::Boolean DrawGizmos; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEBAILUCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEBAILUCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

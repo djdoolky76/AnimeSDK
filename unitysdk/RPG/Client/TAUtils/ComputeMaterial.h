@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTextureSubElement.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-namespace RPG::Client::TAUtils { class ComputeMaterial_FloatProperty; }
-namespace RPG::Client::TAUtils { class ComputeMaterial_TextureProperty; }
-namespace RPG::Client::TAUtils { class ComputeMaterial_VectorProperty; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ComputeBuffer; }
@@ -15,251 +12,249 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_055B57D0803DA902_OFFSET UNITYSDK_OFFSET(0xE14B220)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_05903074FA8D7D0E_OFFSET UNITYSDK_OFFSET(0xE14A780)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_06AF7B1A8280FE42_OFFSET UNITYSDK_OFFSET(0xE14AFC0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_12419F56E798761A_OFFSET UNITYSDK_OFFSET(0xE14B310)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_1F62297D5DF54B30_OFFSET UNITYSDK_OFFSET(0xE14B7B0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_215094CBF7E59C93_OFFSET UNITYSDK_OFFSET(0xE14ADE0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_26607977B1AEDB16_OFFSET UNITYSDK_OFFSET(0xE14B610)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_29F27E8C5DCE54E0_OFFSET UNITYSDK_OFFSET(0xE14A800)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_35384A5071CCB96B_OFFSET UNITYSDK_OFFSET(0xE14A8C0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_419D6E7DF60B6F0B_OFFSET UNITYSDK_OFFSET(0xE14B4C0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_42988FE8E033FE1E_OFFSET UNITYSDK_OFFSET(0xE14A5D0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_5D9BA1D54A3CDB62_OFFSET UNITYSDK_OFFSET(0xE14A580)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_5E4EF3B56A795F4D_OFFSET UNITYSDK_OFFSET(0xE14AE70)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_5FF1E2B8FCD9B46C_OFFSET UNITYSDK_OFFSET(0xE14ACD0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_64629612F3646911_OFFSET UNITYSDK_OFFSET(0xE14A690)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_6CB5060D47BF8A1B_OFFSET UNITYSDK_OFFSET(0xE14A710)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_6DACC73747E6207C_OFFSET UNITYSDK_OFFSET(0xE14AD60)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_700FE3C732AA435C_OFFSET UNITYSDK_OFFSET(0xE14B6A0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_72E21666A5A5FB58_OFFSET UNITYSDK_OFFSET(0xE14B560)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_791E87BBA5976F0D_OFFSET UNITYSDK_OFFSET(0xE14A9A0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_7EB309CB8EB8090D_OFFSET UNITYSDK_OFFSET(0xE14B730)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_803418CD50931138_OFFSET UNITYSDK_OFFSET(0xE14B0C0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_859F5F716A958C95_OFFSET UNITYSDK_OFFSET(0xE14AC40)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_969EF16C38E0FD30_OFFSET UNITYSDK_OFFSET(0xE14AA30)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_A07C2061B55C1547_OFFSET UNITYSDK_OFFSET(0xE14A2B0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_A2B3632F424D6B51_OFFSET UNITYSDK_OFFSET(0xE14B1B0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_AEFAF1FAD171856E_OFFSET UNITYSDK_OFFSET(0xE14AF40)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_B377DFA91C103BC2_OFFSET UNITYSDK_OFFSET(0xE14B420)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C24D72355EC8903A_OFFSET UNITYSDK_OFFSET(0xE14B130)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C4D9B4D8C0CE03AD_OFFSET UNITYSDK_OFFSET(0xE14ABB0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C5D43255E85826E1_OFFSET UNITYSDK_OFFSET(0xE14B390)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C6E14CE377D03CE0_OFFSET UNITYSDK_OFFSET(0xE14A630)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C8F6DE35233C6A4C_OFFSET UNITYSDK_OFFSET(0xE14AB30)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_CEE72EAC18ECC163_OFFSET UNITYSDK_OFFSET(0xE14B2A0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_E192DE9421E8351F_OFFSET UNITYSDK_OFFSET(0xE14B040)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_EB206643D64D33FB_OFFSET UNITYSDK_OFFSET(0xE14AAB0)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_F0553A46AEC8DA0F_OFFSET UNITYSDK_OFFSET(0xE14A930)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0xE149E60)
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0xE14B820)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_AIJNIKOCOPJ_1_OFFSET UNITYSDK_OFFSET(0xE18C280)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_AIJNIKOCOPJ_OFFSET UNITYSDK_OFFSET(0xE18BC00)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_BEFODDDHPAL_OFFSET UNITYSDK_OFFSET(0xE18BEF0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_COFNEAPPCOA_1_OFFSET UNITYSDK_OFFSET(0xE18C400)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_COFNEAPPCOA_OFFSET UNITYSDK_OFFSET(0xE18C380)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xE18CB60)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_1_OFFSET UNITYSDK_OFFSET(0xE18C650)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_2_OFFSET UNITYSDK_OFFSET(0xE18C6D0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_3_OFFSET UNITYSDK_OFFSET(0xE18C760)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_4_OFFSET UNITYSDK_OFFSET(0xE18C800)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_5_OFFSET UNITYSDK_OFFSET(0xE18C8A0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_OFFSET UNITYSDK_OFFSET(0xE18BCE0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_EEOKJIPJLEL_OFFSET UNITYSDK_OFFSET(0xE18B910)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_EOBLBCJCCKL_OFFSET UNITYSDK_OFFSET(0xE18B970)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IEILKHEEJCH_1_OFFSET UNITYSDK_OFFSET(0xE18C120)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IEILKHEEJCH_OFFSET UNITYSDK_OFFSET(0xE18BAC0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IKAHNBNDHDL_OFFSET UNITYSDK_OFFSET(0xE18BF80)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IKMEMLEJMBL_1_OFFSET UNITYSDK_OFFSET(0xE18C0A0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IKMEMLEJMBL_OFFSET UNITYSDK_OFFSET(0xE18BA50)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JFFKOEGJODH_1_OFFSET UNITYSDK_OFFSET(0xE18C4F0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JFFKOEGJODH_OFFSET UNITYSDK_OFFSET(0xE18C470)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JNJJHKDKCHJ_1_OFFSET UNITYSDK_OFFSET(0xE18C010)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JNJJHKDKCHJ_OFFSET UNITYSDK_OFFSET(0xE18B9D0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JNMJCAECKEK_OFFSET UNITYSDK_OFFSET(0xE18BE70)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_KAFOBHKNMBE_1_OFFSET UNITYSDK_OFFSET(0xE18CAF0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_KAFOBHKNMBE_OFFSET UNITYSDK_OFFSET(0xE18CA70)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_KFCHBNAJAJI_OFFSET UNITYSDK_OFFSET(0xE18B8C0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LEONKJJGOGI_1_OFFSET UNITYSDK_OFFSET(0xE18C1B0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LEONKJJGOGI_OFFSET UNITYSDK_OFFSET(0xE18BB40)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LNFAEJEDBDD_1_OFFSET UNITYSDK_OFFSET(0xE18C300)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LNFAEJEDBDD_OFFSET UNITYSDK_OFFSET(0xE18BC70)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_NOOIPOGAGMG_1_OFFSET UNITYSDK_OFFSET(0xE18C9E0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_NOOIPOGAGMG_OFFSET UNITYSDK_OFFSET(0xE18BDF0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xE18B5F0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xE18B1A0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_PCKMCKBKKFF_1_OFFSET UNITYSDK_OFFSET(0xE18C5E0)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_PCKMCKBKKFF_OFFSET UNITYSDK_OFFSET(0xE18C560)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_POBLKHLHAKG_1_OFFSET UNITYSDK_OFFSET(0xE18C950)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_POBLKHLHAKG_OFFSET UNITYSDK_OFFSET(0xE18BD70)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int ComputeMaterial_TypeDefinitionIndex = 73503;
-
 	class ComputeMaterial : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::UnityEngine::ComputeShader* ComputeShader; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::TAUtils::ComputeMaterial_FloatProperty*>* FloatProperties; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::TAUtils::ComputeMaterial_VectorProperty*>* VectorProperties; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::TAUtils::ComputeMaterial_TextureProperty*>* TextureProperties; // 0x30
-
+		::System::Collections::Generic::List_1<::System::Object*>* FloatProperties; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* VectorProperties; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* TextureProperties; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_FD3B916300F77FDA()
+		::System::Void PAGKOAEOLKA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_FD3B916300F77FDA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_PAGKOAEOLKA_OFFSET))(this);
 		}
 
-		::System::Void Method_3_A07C2061B55C1547()
+		::System::Void OINBDMGFFJL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_A07C2061B55C1547_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_OINBDMGFFJL_OFFSET))(this);
 		}
 
-		::System::Void Method_3_5D9BA1D54A3CDB62()
+		::System::Void KFCHBNAJAJI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_5D9BA1D54A3CDB62_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_KFCHBNAJAJI_OFFSET))(this);
 		}
 
-		::System::Int32 Method_3_42988FE8E033FE1E(::System::String* a1)
+		::System::Int32 EEOKJIPJLEL(::System::String* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_42988FE8E033FE1E_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_EEOKJIPJLEL_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_C6E14CE377D03CE0(::System::String* a1)
+		::System::Boolean EOBLBCJCCKL(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C6E14CE377D03CE0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_EOBLBCJCCKL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_64629612F3646911(::System::Int32 a1, ::System::Single a2)
+		::System::Void JNJJHKDKCHJ(::System::Int32 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_64629612F3646911_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JNJJHKDKCHJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_6CB5060D47BF8A1B(::System::Int32 a1, ::System::Int32 a2)
+		::System::Void IKMEMLEJMBL(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_6CB5060D47BF8A1B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IKMEMLEJMBL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_05903074FA8D7D0E(::System::Int32 a1, ::UnityEngine::Vector4 a2)
+		::System::Void IEILKHEEJCH(::System::Int32 a1, ::UnityEngine::Vector4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_05903074FA8D7D0E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IEILKHEEJCH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_29F27E8C5DCE54E0(::System::Int32 a1, ::UnityEngine::Matrix4x4 a2)
+		::System::Void LEONKJJGOGI(::System::Int32 a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_29F27E8C5DCE54E0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LEONKJJGOGI_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_35384A5071CCB96B(::System::Int32 a1, ::Il2CppArray<::UnityEngine::Vector4>* a2)
+		::System::Void AIJNIKOCOPJ(::System::Int32 a1, ::Il2CppArray<::UnityEngine::Vector4>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_35384A5071CCB96B_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_AIJNIKOCOPJ_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_F0553A46AEC8DA0F(::System::Int32 a1, ::Il2CppArray<::UnityEngine::Matrix4x4>* a2)
+		::System::Void LNFAEJEDBDD(::System::Int32 a1, ::Il2CppArray<::UnityEngine::Matrix4x4>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::UnityEngine::Matrix4x4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_F0553A46AEC8DA0F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::UnityEngine::Matrix4x4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LNFAEJEDBDD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_791E87BBA5976F0D(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Texture* a3, ::System::Int32 a4)
+		::System::Void DLFKFJOLDCF(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Texture* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_791E87BBA5976F0D_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_3_969EF16C38E0FD30(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::Void POBLKHLHAKG(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_969EF16C38E0FD30_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_POBLKHLHAKG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_EB206643D64D33FB(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::ComputeBuffer* a3)
+		::System::Void NOOIPOGAGMG(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::ComputeBuffer* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_EB206643D64D33FB_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_NOOIPOGAGMG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_C8F6DE35233C6A4C(::System::Int32 a1, ::System::Int32 a2, ::System::UInt64 a3)
+		::System::Void JNMJCAECKEK(::System::Int32 a1, ::System::Int32 a2, ::System::UInt64 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C8F6DE35233C6A4C_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JNMJCAECKEK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_C4D9B4D8C0CE03AD(::System::Int32 a1, ::System::UInt32& a2, ::System::UInt32& a3, ::System::UInt32& a4)
+		::System::Void BEFODDDHPAL(::System::Int32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C4D9B4D8C0CE03AD_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_BEFODDDHPAL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_3_859F5F716A958C95(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::Void IKAHNBNDHDL(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_859F5F716A958C95_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IKAHNBNDHDL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_3_5FF1E2B8FCD9B46C(::System::String* a1, ::System::Single a2)
+		::System::Void JNJJHKDKCHJ_1(::System::String* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_5FF1E2B8FCD9B46C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JNJJHKDKCHJ_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_6DACC73747E6207C(::System::String* a1, ::System::Int32 a2)
+		::System::Void IKMEMLEJMBL_1(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_6DACC73747E6207C_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IKMEMLEJMBL_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_215094CBF7E59C93(::System::String* a1, ::UnityEngine::Vector4 a2)
+		::System::Void IEILKHEEJCH_1(::System::String* a1, ::UnityEngine::Vector4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_215094CBF7E59C93_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_IEILKHEEJCH_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_5E4EF3B56A795F4D(::System::String* a1, ::UnityEngine::Matrix4x4 a2)
+		::System::Void LEONKJJGOGI_1(::System::String* a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_5E4EF3B56A795F4D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LEONKJJGOGI_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_AEFAF1FAD171856E(::System::String* a1, ::Il2CppArray<::UnityEngine::Vector4>* a2)
+		::System::Void AIJNIKOCOPJ_1(::System::String* a1, ::Il2CppArray<::UnityEngine::Vector4>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_AEFAF1FAD171856E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_AIJNIKOCOPJ_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_06AF7B1A8280FE42(::System::String* a1, ::Il2CppArray<::UnityEngine::Matrix4x4>* a2)
+		::System::Void LNFAEJEDBDD_1(::System::String* a1, ::Il2CppArray<::UnityEngine::Matrix4x4>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::UnityEngine::Matrix4x4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_06AF7B1A8280FE42_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::UnityEngine::Matrix4x4>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_LNFAEJEDBDD_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_E192DE9421E8351F(::System::String* a1, ::Il2CppArray<::System::Single>* a2)
+		::System::Void COFNEAPPCOA(::System::String* a1, ::Il2CppArray<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_E192DE9421E8351F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_COFNEAPPCOA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_803418CD50931138(::System::Int32 a1, ::Il2CppArray<::System::Single>* a2)
+		::System::Void COFNEAPPCOA_1(::System::Int32 a1, ::Il2CppArray<::System::Single>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_803418CD50931138_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_COFNEAPPCOA_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_C24D72355EC8903A(::System::String* a1, ::Il2CppArray<::System::Int32>* a2)
+		::System::Void JFFKOEGJODH(::System::String* a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C24D72355EC8903A_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JFFKOEGJODH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_A2B3632F424D6B51(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2)
+		::System::Void JFFKOEGJODH_1(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_A2B3632F424D6B51_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_JFFKOEGJODH_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_055B57D0803DA902(::System::String* a1, ::System::Boolean a2)
+		::System::Void PCKMCKBKKFF(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_055B57D0803DA902_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_PCKMCKBKKFF_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_CEE72EAC18ECC163(::System::Int32 a1, ::System::Boolean a2)
+		::System::Void PCKMCKBKKFF_1(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_CEE72EAC18ECC163_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_PCKMCKBKKFF_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_3_12419F56E798761A(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Texture* a3)
+		::System::Void DLFKFJOLDCF_1(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::Texture* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_12419F56E798761A_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_C5D43255E85826E1(::System::Int32 a1, ::System::String* a2, ::UnityEngine::Texture* a3)
+		::System::Void DLFKFJOLDCF_2(::System::Int32 a1, ::System::String* a2, ::UnityEngine::Texture* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_C5D43255E85826E1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::Texture*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_B377DFA91C103BC2(::System::Int32 a1, ::System::String* a2, ::UnityEngine::Texture* a3, ::System::Int32 a4)
+		::System::Void DLFKFJOLDCF_3(::System::Int32 a1, ::System::String* a2, ::UnityEngine::Texture* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_B377DFA91C103BC2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::Texture*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_3_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_3_419D6E7DF60B6F0B(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::RenderTexture* a3, ::System::Int32 a4, ::UnityEngine::Rendering::RenderTextureSubElement a5)
+		::System::Void DLFKFJOLDCF_4(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::RenderTexture* a3, ::System::Int32 a4, ::UnityEngine::Rendering::RenderTextureSubElement a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::RenderTexture*, ::System::Int32, ::UnityEngine::Rendering::RenderTextureSubElement))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_419D6E7DF60B6F0B_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::UnityEngine::RenderTexture*, ::System::Int32, ::UnityEngine::Rendering::RenderTextureSubElement))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_4_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Method_3_72E21666A5A5FB58(::System::Int32 a1, ::System::String* a2, ::UnityEngine::RenderTexture* a3, ::System::Int32 a4, ::UnityEngine::Rendering::RenderTextureSubElement a5)
+		::System::Void DLFKFJOLDCF_5(::System::Int32 a1, ::System::String* a2, ::UnityEngine::RenderTexture* a3, ::System::Int32 a4, ::UnityEngine::Rendering::RenderTextureSubElement a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::RenderTexture*, ::System::Int32, ::UnityEngine::Rendering::RenderTextureSubElement))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_72E21666A5A5FB58_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::RenderTexture*, ::System::Int32, ::UnityEngine::Rendering::RenderTextureSubElement))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_DLFKFJOLDCF_5_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Method_3_26607977B1AEDB16(::System::Int32 a1, ::System::String* a2, ::System::String* a3)
+		::System::Void POBLKHLHAKG_1(::System::Int32 a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_26607977B1AEDB16_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_POBLKHLHAKG_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_700FE3C732AA435C(::System::Int32 a1, ::System::String* a2, ::UnityEngine::ComputeBuffer* a3)
+		::System::Void NOOIPOGAGMG_1(::System::Int32 a1, ::System::String* a2, ::UnityEngine::ComputeBuffer* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_700FE3C732AA435C_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_NOOIPOGAGMG_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_7EB309CB8EB8090D(::System::Int32 a1, ::UnityEngine::ComputeBuffer* a2, ::System::UInt32 a3)
+		::System::Void KAFOBHKNMBE(::System::Int32 a1, ::UnityEngine::ComputeBuffer* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::ComputeBuffer*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_7EB309CB8EB8090D_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::ComputeBuffer*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_KAFOBHKNMBE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_1F62297D5DF54B30(::System::Int32 a1, ::UnityEngine::ComputeBuffer* a2)
+		::System::Void KAFOBHKNMBE_1(::System::Int32 a1, ::UnityEngine::ComputeBuffer* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_METHOD_3_1F62297D5DF54B30_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::ComputeBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_KAFOBHKNMBE_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

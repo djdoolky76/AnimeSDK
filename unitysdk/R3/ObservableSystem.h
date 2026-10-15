@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace R3 { class FrameProvider; }
+namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class TimeProvider; }
-namespace System { template <typename T> class Action_1; }
 
-#define R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1BF17600)
-#define R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1BF175A0)
-#define R3_OBSERVABLESYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF176F0)
+#define R3_OBSERVABLESYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C423D40)
+#define R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1C423C50)
+#define R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET UNITYSDK_OFFSET(0x1C423BF0)
 
 namespace R3
 {
-	inline static constexpr unsigned int ObservableSystem_TypeDefinitionIndex = 35244;
-
 	class ObservableSystem : public ::System::Object
 	{
 	public:
-		static ::R3::FrameProvider** StaticGet_defaultFrameProvider()
+		static ::System::Action** StaticGet_unhandledException()
 		{
-			return (::R3::FrameProvider**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xD60);
+			return (::System::Action**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA40);
 		}
-		static ::System::Action_1<::System::Exception*>** StaticGet_unhandledException()
-		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xD68);
-		}
+
 		static ::System::TimeProvider** StaticGet_defaultTimeProvider()
 		{
-			return (::System::TimeProvider**)Il2CppClass::FromTypeDefinitionIndex(ObservableSystem_TypeDefinitionIndex)->GetStaticField(0xD70);
+			return (::System::TimeProvider**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA48);
+		}
+
+		static ::R3::FrameProvider** StaticGet_defaultFrameProvider()
+		{
+			return (::R3::FrameProvider**)UnitySDK::FromName("R3", "ObservableSystem")->GetStaticField(0xA50);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM_CCTOR_OFFSET))();
 		}
 
-		static ::System::Action_1<::System::Exception*>* GetUnhandledExceptionHandler()
+		static ::System::Action* GetUnhandledExceptionHandler()
 		{
-			return ((::System::Action_1<::System::Exception*>*(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET))();
+			return ((::System::Action*(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM_GETUNHANDLEDEXCEPTIONHANDLER_OFFSET))();
 		}
 
 		static ::System::Void DefaultUnhandledExceptionHandler(::System::Exception* a1)
 		{
 			return ((::System::Void(*)(::System::Exception*))((::PBYTE)hIl2Cpp + R3_OBSERVABLESYSTEM_DEFAULTUNHANDLEDEXCEPTIONHANDLER_OFFSET))(a1);
 		}
+
 	};
 }

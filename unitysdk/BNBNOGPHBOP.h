@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+#include "unitysdk/RPG/GameCore/AdvNavigationFailReason.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+class FOOIINCDBFA;
+namespace RPG::GameCore { class CharacterSteerTo; }
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class TransformComponent; }
+
+#define BNBNOGPHBOP_BFJBKDGAJMO_OFFSET UNITYSDK_OFFSET(0xBDC7520)
+#define BNBNOGPHBOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC6F00)
+#define BNBNOGPHBOP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDC7420)
+#define BNBNOGPHBOP_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0xBDC7740)
+#define BNBNOGPHBOP_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xBDC7660)
+#define BNBNOGPHBOP_ONSKIP_OFFSET UNITYSDK_OFFSET(0xBDC75C0)
+#define BNBNOGPHBOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDC6F10)
+#define BNBNOGPHBOP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDC7470)
+#define BNBNOGPHBOP_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xBDC7570)
+#define BNBNOGPHBOP_TICK_OFFSET UNITYSDK_OFFSET(0xBDC74C0)
+
+	class BNBNOGPHBOP : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::TransformComponent* NIDHDAOGNKO; // 0x18
+		::FOOIINCDBFA* AGJDABDMMEH; // 0x20
+		::RPG::GameCore::CharacterSteerTo* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::UnityEngine::Quaternion MBOJLOPIEEK; // 0x38
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterSteerTo* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterSteerTo*))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void BFJBKDGAJMO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_BFJBKDGAJMO_OFFSET))(this);
+		}
+
+		::System::Void OOGCMLCLMJF(::RPG::GameCore::AdvNavigationFailReason a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdvNavigationFailReason))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_OOGCMLCLMJF_OFFSET))(this, a1);
+		}
+
+		::System::Void OnSkip()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_ONSKIP_OFFSET))(this);
+		}
+
+		::System::Void OnFinishImmediatelyInPerformance(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_ONFINISHIMMEDIATELYINPERFORMANCE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_ForceSkip()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBNOGPHBOP_GET_FORCESKIP_OFFSET))(this);
+		}
+
+	};

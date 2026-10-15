@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ComplexSkillAISource.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAISourceCharacterID; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_METHOD_3_E18FC9A8CB182139_OFFSET UNITYSDK_OFFSET(0x1CFF3DA0)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_METHOD_3_F71DD5BD99087B23_OFFSET UNITYSDK_OFFSET(0x1CFF3E00)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF3DF0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CFB90)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CFBA0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CFB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISourceCharacterID_TypeDefinitionIndex = 15377;
-
 	class ComplexSkillAISourceCharacterID : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:
 		::System::Boolean IsTarget; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* CharacterIDGroup; // 0x18
 		::System::UInt32 CharacterID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E18FC9A8CB182139(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceCharacterID*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceCharacterID* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceCharacterID*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_METHOD_3_E18FC9A8CB182139_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceCharacterID*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F71DD5BD99087B23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceCharacterID* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceCharacterID* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceCharacterID*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_METHOD_3_F71DD5BD99087B23_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceCharacterID*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCECHARACTERID_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

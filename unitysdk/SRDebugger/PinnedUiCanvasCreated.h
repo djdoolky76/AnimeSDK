@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_PINNEDUICANVASCREATED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E674330)
-#define SRDEBUGGER_PINNEDUICANVASCREATED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E674360)
-#define SRDEBUGGER_PINNEDUICANVASCREATED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E674320)
-#define SRDEBUGGER_PINNEDUICANVASCREATED__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6742B0)
+#define SRDEBUGGER_PINNEDUICANVASCREATED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED3C270)
+#define SRDEBUGGER_PINNEDUICANVASCREATED_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3C1F0)
+#define SRDEBUGGER_PINNEDUICANVASCREATED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED3C2A0)
+#define SRDEBUGGER_PINNEDUICANVASCREATED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED3C260)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int PinnedUiCanvasCreated_TypeDefinitionIndex = 37274;
-
 	class PinnedUiCanvasCreated : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::RectTransform* a1)
@@ -38,5 +35,6 @@ namespace SRDebugger
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_PINNEDUICANVASCREATED_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

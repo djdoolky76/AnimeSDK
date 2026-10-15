@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class Web; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB133E0)
-#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB13420)
-#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB12AA0)
-#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB132F0)
+#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C01FDA0)
+#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01FCB0)
+#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C01FDE0)
+#define MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01F470)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Web_OnWebViewBeforeNavigationMessage_TypeDefinitionIndex = 8179;
-
 	class Web_OnWebViewBeforeNavigationMessage : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::Web* a1, ::System::String* a2)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEB_ONWEBVIEWBEFORENAVIGATIONMESSAGE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

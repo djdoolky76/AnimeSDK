@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IRogueTournGameLevelRoomCardLevel; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B1C440)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B1C470)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B1C430)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1C340)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DB0480)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB0380)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DB04B0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DB0470)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_3C45934C_TypeDefinitionIndex = 50495;
-
 	class InternalGlobals___GEN_DELEGATE_B00_3C45934C : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::RPG::Client::IRogueTournGameLevelRoomCardLevel* a1)
@@ -38,5 +35,6 @@ namespace XLua
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_3C45934C_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

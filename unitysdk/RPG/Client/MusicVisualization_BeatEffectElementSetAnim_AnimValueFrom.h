@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicVisualization_BeatEffectElementSetAnim_AnimValueFrom_TypeDefinitionIndex = 70781;
-
 	enum class MusicVisualization_BeatEffectElementSetAnim_AnimValueFrom : ::System::Int32
 	{
 		StateCurveValue = 0,

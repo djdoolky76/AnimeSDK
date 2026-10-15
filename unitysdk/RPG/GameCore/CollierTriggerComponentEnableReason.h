@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollierTriggerComponentEnableReason_TypeDefinitionIndex = 57660;
-
 	enum class CollierTriggerComponentEnableReason : ::System::Int32
 	{
 		Conflict = 0,

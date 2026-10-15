@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TargetFetchAvatarAssistant; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define NAIHAFHMPKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9C5F0)
+#define NAIHAFHMPKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA9C640)
+
+	class NAIHAFHMPKO
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TargetFetchAvatarAssistant* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchAvatarAssistant*))((::PBYTE)hIl2Cpp + NAIHAFHMPKO_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + NAIHAFHMPKO_EVALUATE_OFFSET))(this, a1, a2);
+		}
+
+	};

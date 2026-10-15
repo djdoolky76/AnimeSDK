@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class IPanel; }
 
-#define UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1EDE3DE0)
-#define UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1EDE3E40)
-#define UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE57C0)
+#define UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY_CANDISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1F4AD000)
+#define UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4AE9E0)
+#define UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET UNITYSDK_OFFSET(0x1F4AD060)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int CommandEventDispatchingStrategy_TypeDefinitionIndex = 5908;
-
 	class CommandEventDispatchingStrategy : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanDispatchEvent(::UnityEngine::UIElements::EventBase* a1)
@@ -30,5 +27,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_COMMANDEVENTDISPATCHINGSTRATEGY_DISPATCHEVENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

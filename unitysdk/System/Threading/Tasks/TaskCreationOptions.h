@@ -3,8 +3,6 @@
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskCreationOptions_TypeDefinitionIndex = 907;
-
 	enum class TaskCreationOptions : ::System::Int32
 	{
 		None = 0,

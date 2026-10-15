@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ProBuilder/Edge.h"
-#include "unitysdk/UnityEngine/ProBuilder/SimpleTuple_2.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_ALLTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1EB108C0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x1EB10330)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1EB102C0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETEDGEWITHSHAREDVERTEXHANDLES_OFFSET UNITYSDK_OFFSET(0x1EB0F9D0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETFACE_OFFSET UNITYSDK_OFFSET(0x1EB109F0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGES_OFFSET UNITYSDK_OFFSET(0x1EB0F610)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGE_OFFSET UNITYSDK_OFFSET(0x1EB0F6D0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1EB103C0)
-#define UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET UNITYSDK_OFFSET(0x1EB0FA60)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_ALLTRIANGLES_OFFSET UNITYSDK_OFFSET(0x1F1D8100)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_1_OFFSET UNITYSDK_OFFSET(0x1F1D7B70)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1F1D7B00)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETEDGEWITHSHAREDVERTEXHANDLES_OFFSET UNITYSDK_OFFSET(0x1F1D7230)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETFACE_OFFSET UNITYSDK_OFFSET(0x1F1D8230)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGES_OFFSET UNITYSDK_OFFSET(0x1F1D6E70)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_GETSHAREDVERTEXHANDLEEDGE_OFFSET UNITYSDK_OFFSET(0x1F1D6F30)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_INDEXOF_OFFSET UNITYSDK_OFFSET(0x1F1D7C00)
+#define UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET UNITYSDK_OFFSET(0x1F1D72C0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EdgeUtility_TypeDefinitionIndex = 43162;
-
 	class EdgeUtility : public ::System::Object
 	{
 	public:
@@ -41,9 +38,9 @@ namespace UnityEngine::ProBuilder
 			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETEDGEWITHSHAREDVERTEXHANDLES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ValidateEdge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>& a3)
+		static ::System::Boolean ValidateEdge(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::UnityEngine::ProBuilder::Edge a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_VALIDATEEDGE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Boolean Contains(::Il2CppArray<::UnityEngine::ProBuilder::Edge>* a1, ::UnityEngine::ProBuilder::Edge a2)
@@ -70,5 +67,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_EDGEUTILITY_GETFACE_OFFSET))(a1, a2);
 		}
+
 	};
 }

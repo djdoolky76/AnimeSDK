@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRTrackedCamera__AcquireVideoStreamingService; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRTrackedCamera__GetCameraErrorNameFromEnum; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRTrackedCamera__GetCameraFrameSize; }
@@ -17,8 +15,6 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRTrackedCamera__ReleaseVideoSt
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRTrackedCamera_TypeDefinitionIndex = 37642;
-
 	struct alignas(8) IVRTrackedCamera
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRTrackedCamera__GetCameraErrorNameFromEnum* GetCameraErrorNameFromEnum; // 0x10

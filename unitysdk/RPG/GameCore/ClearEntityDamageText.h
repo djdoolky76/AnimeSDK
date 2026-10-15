@@ -2,37 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/UIDamageTextType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClearEntityDamageText; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_146577BE06A515F2_OFFSET UNITYSDK_OFFSET(0x1CFDA1D0)
-#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_BE4910CD81A95D6D_OFFSET UNITYSDK_OFFSET(0x1CFDA190)
-#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFDA1C0)
+#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5E60)
+#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B5E70)
+#define RPG_GAMECORE_CLEARENTITYDAMAGETEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B5E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearEntityDamageText_TypeDefinitionIndex = 22951;
-
 	class ClearEntityDamageText : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::UIDamageTextType TextType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BE4910CD81A95D6D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityDamageText*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearEntityDamageText* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityDamageText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_BE4910CD81A95D6D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearEntityDamageText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_146577BE06A515F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearEntityDamageText* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearEntityDamageText* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearEntityDamageText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_METHOD_3_146577BE06A515F2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearEntityDamageText*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARENTITYDAMAGETEXT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,46 +3,45 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-namespace System { class String; }
-
-#define UNITYENGINE_PROBUILDER_PREFERENCEKEYS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB873F0)
+#define UNITYENGINE_PROBUILDER_PREFERENCEKEYS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24EB60)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int PreferenceKeys_TypeDefinitionIndex = 43194;
-
 	class PreferenceKeys : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Color* StaticGet_proBuilderLightGray()
-		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x135A0);
-		}
 		static ::UnityEngine::Color* StaticGet_proBuilderBlue()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x135B0);
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x12D40);
 		}
+
+		static ::UnityEngine::Color* StaticGet_proBuilderLightGray()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x12D50);
+		}
+
 		static ::UnityEngine::Color* StaticGet_proBuilderDarkGray()
 		{
-			return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(PreferenceKeys_TypeDefinitionIndex)->GetStaticField(0x135C0);
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x12D60);
 		}
+
 		// static const ::System::String* pluginTitle; // 0x0
-		// static const ::System::Single k_MaxPointDistanceFromControl; // 0x0
-		// static const ::System::Char DEGREE_SYMBOL; // 0x0
-		// static const ::System::Char CMD_SUPER; // 0x0
-		// static const ::System::Char CMD_SHIFT; // 0x0
-		// static const ::System::Char CMD_OPTION; // 0x0
-		// static const ::System::Char CMD_ALT; // 0x0
-		// static const ::System::Char CMD_DELETE; // 0x0
-		// static const ::System::Int32 menuEditor = 0x64; // 0x0
-		// static const ::System::Int32 menuSelection = 0xC8; // 0x0
-		// static const ::System::Int32 menuGeometry = 0xC8; // 0x0
-		// static const ::System::Int32 menuActions = 0x12C; // 0x0
-		// static const ::System::Int32 menuMaterialColors = 0x190; // 0x0
-		// static const ::System::Int32 menuVertexColors = 0x190; // 0x0
-		// static const ::System::Int32 menuRepair = 0x258; // 0x0
-		// static const ::System::Int32 menuMisc = 0x258; // 0x0
-		// static const ::System::Int32 menuExport = 0x320; // 0x0
+		// static const ::System::Object k_MaxPointDistanceFromControl; // 0x0
+		// static const ::System::Object DEGREE_SYMBOL; // 0x0
+		// static const ::System::Object CMD_SUPER; // 0x0
+		// static const ::System::Object CMD_SHIFT; // 0x0
+		// static const ::System::Object CMD_OPTION; // 0x0
+		// static const ::System::Object CMD_ALT; // 0x0
+		// static const ::System::Object CMD_DELETE; // 0x0
+		// static const ::System::Object menuEditor; // 0x0
+		// static const ::System::Object menuSelection; // 0x0
+		// static const ::System::Object menuGeometry; // 0x0
+		// static const ::System::Object menuActions; // 0x0
+		// static const ::System::Object menuMaterialColors; // 0x0
+		// static const ::System::Object menuVertexColors; // 0x0
+		// static const ::System::Object menuRepair; // 0x0
+		// static const ::System::Object menuMisc; // 0x0
+		// static const ::System::Object menuExport; // 0x0
 		// static const ::System::String* pbDefaultEditLevel; // 0x0
 		// static const ::System::String* pbDefaultSelectionMode; // 0x0
 		// static const ::System::String* pbHandleAlignment; // 0x0
@@ -127,10 +126,10 @@ namespace UnityEngine::ProBuilder
 		// static const ::System::String* pbShowTrigger; // 0x0
 		// static const ::System::String* pbShowNoDraw; // 0x0
 		// static const ::System::String* defaultUnwrapParameters; // 0x0
-
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PREFERENCEKEYS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_PREFERENCEKEYS_CCTOR_OFFSET))();
 		}
+
 	};
 }

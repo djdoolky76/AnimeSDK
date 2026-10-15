@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleScreenEffectType_TypeDefinitionIndex = 24446;
-
 	enum class BattleScreenEffectType : ::System::Int32
 	{
 		CinemaBlackScreen = 0,

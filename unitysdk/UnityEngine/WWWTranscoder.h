@@ -1,71 +1,76 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 
-#define UNITYENGINE_WWWTRANSCODER_BYTE2HEX_OFFSET UNITYSDK_OFFSET(0x1EEA1B20)
-#define UNITYENGINE_WWWTRANSCODER_BYTEARRAYCONTAINS_OFFSET UNITYSDK_OFFSET(0x1EEA2180)
-#define UNITYENGINE_WWWTRANSCODER_BYTESUBARRAYEQUALS_OFFSET UNITYSDK_OFFSET(0x1EEA27C0)
-#define UNITYENGINE_WWWTRANSCODER_DATAENCODE_OFFSET UNITYSDK_OFFSET(0x1EEA1A00)
-#define UNITYENGINE_WWWTRANSCODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1EEA21E0)
-#define UNITYENGINE_WWWTRANSCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EEA1B90)
-#define UNITYENGINE_WWWTRANSCODER_HEX2BYTE_OFFSET UNITYSDK_OFFSET(0x1EEA1A50)
-#define UNITYENGINE_WWWTRANSCODER_QPENCODE_OFFSET UNITYSDK_OFFSET(0x1EEA1820)
-#define UNITYENGINE_WWWTRANSCODER_SEVENBITCLEAN_1_OFFSET UNITYSDK_OFFSET(0x1EEA2850)
-#define UNITYENGINE_WWWTRANSCODER_SEVENBITCLEAN_OFFSET UNITYSDK_OFFSET(0x1EEA1710)
-#define UNITYENGINE_WWWTRANSCODER_URLDECODE_OFFSET UNITYSDK_OFFSET(0x1EEA0D40)
-#define UNITYENGINE_WWWTRANSCODER_URLENCODE_OFFSET UNITYSDK_OFFSET(0x1EEA0B20)
-#define UNITYENGINE_WWWTRANSCODER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEA28C0)
+#define UNITYENGINE_WWWTRANSCODER_BYTE2HEX_OFFSET UNITYSDK_OFFSET(0x1F5696D0)
+#define UNITYENGINE_WWWTRANSCODER_BYTEARRAYCONTAINS_OFFSET UNITYSDK_OFFSET(0x1F569D30)
+#define UNITYENGINE_WWWTRANSCODER_BYTESUBARRAYEQUALS_OFFSET UNITYSDK_OFFSET(0x1F56A370)
+#define UNITYENGINE_WWWTRANSCODER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F56A470)
+#define UNITYENGINE_WWWTRANSCODER_DATAENCODE_OFFSET UNITYSDK_OFFSET(0x1F5695B0)
+#define UNITYENGINE_WWWTRANSCODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1F569D90)
+#define UNITYENGINE_WWWTRANSCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F569740)
+#define UNITYENGINE_WWWTRANSCODER_HEX2BYTE_OFFSET UNITYSDK_OFFSET(0x1F569600)
+#define UNITYENGINE_WWWTRANSCODER_QPENCODE_OFFSET UNITYSDK_OFFSET(0x1F5693D0)
+#define UNITYENGINE_WWWTRANSCODER_SEVENBITCLEAN_1_OFFSET UNITYSDK_OFFSET(0x1F56A400)
+#define UNITYENGINE_WWWTRANSCODER_SEVENBITCLEAN_OFFSET UNITYSDK_OFFSET(0x1F5692C0)
+#define UNITYENGINE_WWWTRANSCODER_URLDECODE_OFFSET UNITYSDK_OFFSET(0x1F5688F0)
+#define UNITYENGINE_WWWTRANSCODER_URLENCODE_OFFSET UNITYSDK_OFFSET(0x1F5686D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WWWTranscoder_TypeDefinitionIndex = 5345;
-
 	class WWWTranscoder : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_urlForbidden()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x260);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x260);
 		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_urlSpace()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x268);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x268);
 		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_dataSpace()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x270);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x270);
 		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_ucHexChars()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x278);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x278);
 		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_qpForbidden()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x280);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x280);
 		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_lcHexChars()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x288);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x288);
 		}
+
 		static ::Il2CppArray<::System::Byte>** StaticGet_qpSpace()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x290);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x290);
 		}
+
 		static ::System::Byte* StaticGet_qpEscapeChar()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x1E0);
+			return (::System::Byte*)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x1E0);
 		}
+
 		static ::System::Byte* StaticGet_urlEscapeChar()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(WWWTranscoder_TypeDefinitionIndex)->GetStaticField(0x1E1);
+			return (::System::Byte*)UnitySDK::FromName("UnityEngine", "WWWTranscoder")->GetStaticField(0x1E1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_WWWTRANSCODER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_WWWTRANSCODER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Byte Hex2Byte(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
@@ -127,5 +132,6 @@ namespace UnityEngine
 		{
 			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_WWWTRANSCODER_SEVENBITCLEAN_1_OFFSET))(a1);
 		}
+
 	};
 }

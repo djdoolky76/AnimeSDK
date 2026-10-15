@@ -3,8 +3,6 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int HebrewNumber_HebrewToken_TypeDefinitionIndex = 756;
-
 	enum class HebrewNumber_HebrewToken : ::System::Int32
 	{
 		Invalid = -1,

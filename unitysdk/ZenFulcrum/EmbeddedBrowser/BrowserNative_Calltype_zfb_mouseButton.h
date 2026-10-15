@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/BrowserNative_MouseButton.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF89D20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF89DF0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF83830)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF89CB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F652240)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6521D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F652310)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F64B5D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_mouseButton_TypeDefinitionIndex = 38144;
-
 	class BrowserNative_Calltype_zfb_mouseButton : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_MouseButton a2, ::System::Boolean a3, ::System::Int32 a4)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_MOUSEBUTTON_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

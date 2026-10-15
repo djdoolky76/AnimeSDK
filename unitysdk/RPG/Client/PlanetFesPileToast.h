@@ -1,60 +1,57 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class PlanetFesToastItem; }
 namespace RPG::Client { class UIPrefabLoader; }
+namespace System { class Action; }
 namespace System { class Object; }
-namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_PLANETFESPILETOAST_HIDEALL_OFFSET UNITYSDK_OFFSET(0xDB7C8A0)
-#define RPG_CLIENT_PLANETFESPILETOAST_INIT_OFFSET UNITYSDK_OFFSET(0xDB7C620)
-#define RPG_CLIENT_PLANETFESPILETOAST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDB7CB00)
-#define RPG_CLIENT_PLANETFESPILETOAST_PILE_OFFSET UNITYSDK_OFFSET(0xDB7C490)
-#define RPG_CLIENT_PLANETFESPILETOAST_SETENABLE_OFFSET UNITYSDK_OFFSET(0xDB7C840)
-#define RPG_CLIENT_PLANETFESPILETOAST_SETPAUSE_OFFSET UNITYSDK_OFFSET(0xDB7C930)
-#define RPG_CLIENT_PLANETFESPILETOAST_UPDATE_OFFSET UNITYSDK_OFFSET(0xDB7CB50)
-#define RPG_CLIENT_PLANETFESPILETOAST__ADDTOPILE_OFFSET UNITYSDK_OFFSET(0xDB7C530)
-#define RPG_CLIENT_PLANETFESPILETOAST__APPLYLATENCYLAG_OFFSET UNITYSDK_OFFSET(0xDB7C9E0)
-#define RPG_CLIENT_PLANETFESPILETOAST__CTOR_OFFSET UNITYSDK_OFFSET(0xDB7DB40)
-#define RPG_CLIENT_PLANETFESPILETOAST__ENDMOVING_OFFSET UNITYSDK_OFFSET(0xDB7D320)
-#define RPG_CLIENT_PLANETFESPILETOAST__ENTERMOVING_OFFSET UNITYSDK_OFFSET(0xDB7D690)
-#define RPG_CLIENT_PLANETFESPILETOAST__FADEIN_OFFSET UNITYSDK_OFFSET(0xDB7CEA0)
-#define RPG_CLIENT_PLANETFESPILETOAST__FADEOUT_OFFSET UNITYSDK_OFFSET(0xDB7D130)
-#define RPG_CLIENT_PLANETFESPILETOAST__GETNEXTINDEX_OFFSET UNITYSDK_OFFSET(0xDB7D890)
-#define RPG_CLIENT_PLANETFESPILETOAST__ONITEMADDTOPILE_OFFSET UNITYSDK_OFFSET(0xDB7D590)
-#define RPG_CLIENT_PLANETFESPILETOAST__ONITEMHIDE_OFFSET UNITYSDK_OFFSET(0xDB7CA40)
-#define RPG_CLIENT_PLANETFESPILETOAST__SHOWING_OFFSET UNITYSDK_OFFSET(0xDB7CFD0)
+#define RPG_CLIENT_PLANETFESPILETOAST_CTOR_OFFSET UNITYSDK_OFFSET(0xDBC66B0)
+#define RPG_CLIENT_PLANETFESPILETOAST_HIDEALL_OFFSET UNITYSDK_OFFSET(0xDBC5410)
+#define RPG_CLIENT_PLANETFESPILETOAST_INIT_OFFSET UNITYSDK_OFFSET(0xDBC5190)
+#define RPG_CLIENT_PLANETFESPILETOAST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDBC5670)
+#define RPG_CLIENT_PLANETFESPILETOAST_PILE_OFFSET UNITYSDK_OFFSET(0xDBC5000)
+#define RPG_CLIENT_PLANETFESPILETOAST_SETENABLE_OFFSET UNITYSDK_OFFSET(0xDBC53B0)
+#define RPG_CLIENT_PLANETFESPILETOAST_SETPAUSE_OFFSET UNITYSDK_OFFSET(0xDBC54A0)
+#define RPG_CLIENT_PLANETFESPILETOAST_UPDATE_OFFSET UNITYSDK_OFFSET(0xDBC56C0)
+#define RPG_CLIENT_PLANETFESPILETOAST__ADDTOPILE_OFFSET UNITYSDK_OFFSET(0xDBC50A0)
+#define RPG_CLIENT_PLANETFESPILETOAST__APPLYLATENCYLAG_OFFSET UNITYSDK_OFFSET(0xDBC5550)
+#define RPG_CLIENT_PLANETFESPILETOAST__ENDMOVING_OFFSET UNITYSDK_OFFSET(0xDBC5E90)
+#define RPG_CLIENT_PLANETFESPILETOAST__ENTERMOVING_OFFSET UNITYSDK_OFFSET(0xDBC6200)
+#define RPG_CLIENT_PLANETFESPILETOAST__FADEIN_OFFSET UNITYSDK_OFFSET(0xDBC5A10)
+#define RPG_CLIENT_PLANETFESPILETOAST__FADEOUT_OFFSET UNITYSDK_OFFSET(0xDBC5CA0)
+#define RPG_CLIENT_PLANETFESPILETOAST__GETNEXTINDEX_OFFSET UNITYSDK_OFFSET(0xDBC6400)
+#define RPG_CLIENT_PLANETFESPILETOAST__ONITEMADDTOPILE_OFFSET UNITYSDK_OFFSET(0xDBC6100)
+#define RPG_CLIENT_PLANETFESPILETOAST__ONITEMHIDE_OFFSET UNITYSDK_OFFSET(0xDBC55B0)
+#define RPG_CLIENT_PLANETFESPILETOAST__SHOWING_OFFSET UNITYSDK_OFFSET(0xDBC5B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesPileToast_TypeDefinitionIndex = 66534;
-
 	class PlanetFesPileToast : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single MOVE_TIME; // 0x0
 		::UnityEngine::GameObject* ToastPrefab; // 0x18
 		::System::Int32 _MaxCount; // 0x20
 		::System::Boolean _Moving; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Single _MovingPoint; // 0x28
 		::System::UInt32 _Header; // 0x2C
 		::Il2CppArray<::RPG::Client::PlanetFesToastItem*>* _Items; // 0x30
 		::System::Collections::Generic::Queue_1<::System::Object*>* _Msgs; // 0x38
 		::System::Boolean _IsEnable; // 0x40
 		::System::Boolean _IsPaused; // 0x41
+		::System::Byte _padding1[0x6];
 		::RPG::Client::UIPrefabLoader* _PrefabLoader; // 0x48
-		::System::Action_3<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*, ::System::Object*>* _OnAddToPileDelegate; // 0x50
-		::System::Action_2<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*>* _OnItemHideDelegate; // 0x58
+		::System::Action* _OnAddToPileDelegate; // 0x50
+		::System::Action* _OnItemHideDelegate; // 0x58
 		::XLua::LuaTable* _LuaTable; // 0x60
-
+		// static const ::System::Object MOVE_TIME; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Pile(::System::Object* a1)
@@ -62,9 +59,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST_PILE_OFFSET))(this, a1);
 		}
 
-		::System::Void Init(::System::Int32 a1, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*, ::System::Object*>* a2, ::XLua::LuaTable* a3, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*>* a4)
+		::System::Void Init(::System::Int32 a1, ::System::Action* a2, ::XLua::LuaTable* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action_3<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*, ::System::Object*>*, ::XLua::LuaTable*, ::System::Action_2<::XLua::LuaTable*, ::RPG::Client::PlanetFesToastItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST_INIT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Action*, ::XLua::LuaTable*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST_INIT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void SetEnable(::System::Boolean a1)
@@ -141,5 +138,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PlanetFesToastItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESPILETOAST__ONITEMHIDE_OFFSET))(this, a1);
 		}
+
 	};
 }

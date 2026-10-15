@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareTurnActionEntityTeamType; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_05E2C1FFBABACDBF_OFFSET UNITYSDK_OFFSET(0x1CF09EE0)
-#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_2FFA64A91D228A20_OFFSET UNITYSDK_OFFSET(0x1CF09D20)
-#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_5374579D5AD86885_OFFSET UNITYSDK_OFFSET(0x1CF09D60)
-#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_EE350C9C1E23AFB8_OFFSET UNITYSDK_OFFSET(0x1CF09F10)
-#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF09D50)
+#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E2620)
+#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4E27E0)
+#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4E27B0)
+#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4E2630)
+#define RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4E25F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareTurnActionEntityTeamType_TypeDefinitionIndex = 23219;
-
 	class ByCompareTurnActionEntityTeamType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TeamType Team; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2FFA64A91D228A20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_2FFA64A91D228A20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5374579D5AD86885(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_5374579D5AD86885_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_05E2C1FFBABACDBF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_05E2C1FFBABACDBF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EE350C9C1E23AFB8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareTurnActionEntityTeamType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_METHOD_4_EE350C9C1E23AFB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareTurnActionEntityTeamType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARETURNACTIONENTITYTEAMTYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

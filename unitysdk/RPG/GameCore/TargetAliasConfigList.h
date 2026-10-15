@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetAliasConfigList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_4B1D2C5449EDC655_OFFSET UNITYSDK_OFFSET(0x1D5A2600)
-#define RPG_GAMECORE_TARGETALIASCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A26E0)
+#define RPG_GAMECORE_TARGETALIASCONFIGLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB59880)
+#define RPG_GAMECORE_TARGETALIASCONFIGLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB597A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetAliasConfigList_TypeDefinitionIndex = 23683;
-
 	class TargetAliasConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetEvaluator*>* AliasDict; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETALIASCONFIGLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETALIASCONFIGLIST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4B1D2C5449EDC655(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetAliasConfigList*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetAliasConfigList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetAliasConfigList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETALIASCONFIGLIST_METHOD_2_4B1D2C5449EDC655_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetAliasConfigList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETALIASCONFIGLIST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

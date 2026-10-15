@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SingleTimeRewindEntityAnimEventBaseConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SingleTimeRewindEntityAnimClipEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_METHOD_3_D3E6EDA78094F935_OFFSET UNITYSDK_OFFSET(0x1D536DD0)
-#define RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_METHOD_3_E356A74CF43AD3D8_OFFSET UNITYSDK_OFFSET(0x1D536E30)
-#define RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D536E20)
+#define RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEBA90)
+#define RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAEBAA0)
+#define RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEBA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleTimeRewindEntityAnimClipEventConfig_TypeDefinitionIndex = 16424;
-
 	class SingleTimeRewindEntityAnimClipEventConfig : public ::RPG::GameCore::SingleTimeRewindEntityAnimEventBaseConfig
 	{
 	public:
 		::System::String* AnimClipName; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D3E6EDA78094F935(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_METHOD_3_D3E6EDA78094F935_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E356A74CF43AD3D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_METHOD_3_E356A74CF43AD3D8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SingleTimeRewindEntityAnimClipEventConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SINGLETIMEREWINDENTITYANIMCLIPEVENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

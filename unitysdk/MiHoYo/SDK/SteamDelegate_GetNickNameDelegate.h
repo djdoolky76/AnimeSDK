@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD7080)
-#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD70B0)
-#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD7070)
-#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD7000)
+#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE1A00)
+#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE1980)
+#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE1A30)
+#define MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE19F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SteamDelegate_GetNickNameDelegate_TypeDefinitionIndex = 7645;
-
 	class SteamDelegate_GetNickNameDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_GETNICKNAMEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemCollisionType_TypeDefinitionIndex = 5257;
-
 	enum class ParticleSystemCollisionType : ::System::Int32
 	{
 		Planes = 0,

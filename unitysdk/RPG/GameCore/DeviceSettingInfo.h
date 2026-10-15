@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DeviceSettingInfo; }
 namespace RPG::GameCore { class FrameTimeBudgetInfo; }
 namespace RPG::GameCore { class GameObjectPoolSetting; }
 
-#define RPG_GAMECORE_DEVICESETTINGINFO_METHOD_2_BB2755C35E17CDD0_OFFSET UNITYSDK_OFFSET(0x1D0242D0)
-#define RPG_GAMECORE_DEVICESETTINGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0244D0)
+#define RPG_GAMECORE_DEVICESETTINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6009C0)
+#define RPG_GAMECORE_DEVICESETTINGINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6007C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceSettingInfo_TypeDefinitionIndex = 16292;
-
 	class DeviceSettingInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -20,15 +18,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FrameTimeBudgetInfo* FrameTimeBudget; // 0x18
 		::System::Boolean StreamingEnable; // 0x20
 		::System::Boolean ChessRogueEnterBattleUnloadMap; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BB2755C35E17CDD0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceSettingInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeviceSettingInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceSettingInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGINFO_METHOD_2_BB2755C35E17CDD0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeviceSettingInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICESETTINGINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

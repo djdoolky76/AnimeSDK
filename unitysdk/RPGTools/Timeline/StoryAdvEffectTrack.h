@@ -3,25 +3,22 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E7660)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E74A0)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E75F0)
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E7790)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE93CAE0)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE93C920)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE93CC10)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE93CA70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryAdvEffectTrack_TypeDefinitionIndex = 48778;
-
 	class StoryAdvEffectTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYADVEFFECTTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

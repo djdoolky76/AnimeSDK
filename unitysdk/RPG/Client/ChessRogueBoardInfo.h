@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_613C84C740D27CFD;
+class DPELLHBJGML;
 namespace RPG::Client { class ChessRogueBoardDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHESSROGUEBOARDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB9E360)
-#define RPG_CLIENT_CHESSROGUEBOARDINFO_GETBOARDDATAITEMBYBELONG_OFFSET UNITYSDK_OFFSET(0xCB98340)
-#define RPG_CLIENT_CHESSROGUEBOARDINFO_GETBOARDDATAITEMBYBOARDID_OFFSET UNITYSDK_OFFSET(0xCB994D0)
-#define RPG_CLIENT_CHESSROGUEBOARDINFO_QUITCHESSROGUE_OFFSET UNITYSDK_OFFSET(0xCB9E900)
-#define RPG_CLIENT_CHESSROGUEBOARDINFO_SYNCBOARDITEM_OFFSET UNITYSDK_OFFSET(0xCB9E4E0)
-#define RPG_CLIENT_CHESSROGUEBOARDINFO__ADDCHESSBOARDDATAITEM_OFFSET UNITYSDK_OFFSET(0xCB9E750)
-#define RPG_CLIENT_CHESSROGUEBOARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCB9E350)
+#define RPG_CLIENT_CHESSROGUEBOARDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCAED7A0)
+#define RPG_CLIENT_CHESSROGUEBOARDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCAED7B0)
+#define RPG_CLIENT_CHESSROGUEBOARDINFO_GETBOARDDATAITEMBYBELONG_OFFSET UNITYSDK_OFFSET(0xCAE7790)
+#define RPG_CLIENT_CHESSROGUEBOARDINFO_GETBOARDDATAITEMBYBOARDID_OFFSET UNITYSDK_OFFSET(0xCAE8920)
+#define RPG_CLIENT_CHESSROGUEBOARDINFO_QUITCHESSROGUE_OFFSET UNITYSDK_OFFSET(0xCAEDD50)
+#define RPG_CLIENT_CHESSROGUEBOARDINFO_SYNCBOARDITEM_OFFSET UNITYSDK_OFFSET(0xCAED930)
+#define RPG_CLIENT_CHESSROGUEBOARDINFO__ADDCHESSBOARDDATAITEM_OFFSET UNITYSDK_OFFSET(0xCAEDBA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueBoardInfo_TypeDefinitionIndex = 66926;
-
 	class ChessRogueBoardInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChessRogueBoardDataItem*>* _ChessBoardDataItems; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -33,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void SyncBoardItem(::Class_1_613C84C740D27CFD* a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		::System::Void SyncBoardItem(::DPELLHBJGML* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_613C84C740D27CFD*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO_SYNCBOARDITEM_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::DPELLHBJGML*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO_SYNCBOARDITEM_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void QuitChessRogue()
@@ -53,9 +49,10 @@ namespace RPG::Client
 			return ((::RPG::Client::ChessRogueBoardDataItem*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO_GETBOARDDATAITEMBYBELONG_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::ChessRogueBoardDataItem* _AddChessBoardDataItem(::Class_1_613C84C740D27CFD* a1)
+		::RPG::Client::ChessRogueBoardDataItem* _AddChessBoardDataItem(::DPELLHBJGML* a1)
 		{
-			return ((::RPG::Client::ChessRogueBoardDataItem*(*)(::PVOID, ::Class_1_613C84C740D27CFD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO__ADDCHESSBOARDDATAITEM_OFFSET))(this, a1);
+			return ((::RPG::Client::ChessRogueBoardDataItem*(*)(::PVOID, ::DPELLHBJGML*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEBOARDINFO__ADDCHESSBOARDDATAITEM_OFFSET))(this, a1);
 		}
+
 	};
 }

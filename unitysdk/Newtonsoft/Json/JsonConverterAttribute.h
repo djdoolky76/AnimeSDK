@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1BE8C170)
-#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERTYPE_OFFSET UNITYSDK_OFFSET(0x1BE8C160)
-#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8C180)
+#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C397DA0)
+#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1C397D90)
+#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERTYPE_OFFSET UNITYSDK_OFFSET(0x1C397D80)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConverterAttribute_TypeDefinitionIndex = 9543;
-
 	class JsonConverterAttribute : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::System::Object*>* _ConverterParameters_k__BackingField; // 0x10
-		::System::Type* _converterType; // 0x18
-
+		::System::Type* _converterType; // 0x10
+		::Il2CppArray<::System::Object*>* _ConverterParameters_k__BackingField; // 0x18
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_ConverterType()
@@ -33,5 +29,6 @@ namespace Newtonsoft::Json
 		{
 			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERPARAMETERS_OFFSET))(this);
 		}
+
 	};
 }

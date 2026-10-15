@@ -3,8 +3,6 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketOptionName_TypeDefinitionIndex = 2911;
-
 	enum class SocketOptionName : ::System::Int32
 	{
 		Debug = 1,

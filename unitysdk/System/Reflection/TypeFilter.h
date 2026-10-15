@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define SYSTEM_REFLECTION_TYPEFILTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA6230)
-#define SYSTEM_REFLECTION_TYPEFILTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA6270)
-#define SYSTEM_REFLECTION_TYPEFILTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA6220)
-#define SYSTEM_REFLECTION_TYPEFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA6130)
+#define SYSTEM_REFLECTION_TYPEFILTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C2B1E40)
+#define SYSTEM_REFLECTION_TYPEFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B1D40)
+#define SYSTEM_REFLECTION_TYPEFILTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C2B1E80)
+#define SYSTEM_REFLECTION_TYPEFILTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C2B1E30)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int TypeFilter_TypeDefinitionIndex = 591;
-
 	class TypeFilter : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TYPEFILTER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TYPEFILTER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::Type* a1, ::System::Object* a2)
@@ -38,5 +35,6 @@ namespace System::Reflection
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_TYPEFILTER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

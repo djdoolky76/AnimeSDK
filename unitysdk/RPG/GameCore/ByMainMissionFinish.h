@@ -1,48 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByMainMissionFinish; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_724AEBA713197D9D_OFFSET UNITYSDK_OFFSET(0x1CF523C0)
-#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_77CA0793CFBEA70E_OFFSET UNITYSDK_OFFSET(0x1CF52560)
-#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_D7464AD26ABF75E4_OFFSET UNITYSDK_OFFSET(0x1CF52380)
-#define RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_FAE11127B79763C1_OFFSET UNITYSDK_OFFSET(0x1CF52530)
-#define RPG_GAMECORE_BYMAINMISSIONFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF523B0)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D52BD40)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D52BEF0)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D52BEC0)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D52BD50)
+#define RPG_GAMECORE_BYMAINMISSIONFINISH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D52BD10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByMainMissionFinish_TypeDefinitionIndex = 20239;
-
 	class ByMainMissionFinish : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::UInt32 MainMissionID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D7464AD26ABF75E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByMainMissionFinish*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByMainMissionFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_D7464AD26ABF75E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_724AEBA713197D9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_724AEBA713197D9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FAE11127B79763C1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByMainMissionFinish*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByMainMissionFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_FAE11127B79763C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_77CA0793CFBEA70E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByMainMissionFinish* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_METHOD_4_77CA0793CFBEA70E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByMainMissionFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYMAINMISSIONFINISH_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RubikRotDirection.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class SelectRubikGroup; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_17479EAD79D609F3_OFFSET UNITYSDK_OFFSET(0x1D4D8CE0)
-#define RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_1BE59FE3D4E30449_OFFSET UNITYSDK_OFFSET(0x1D4D8D20)
-#define RPG_GAMECORE_SELECTRUBIKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D8D10)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8C640)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8C650)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8C610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectRubikGroup_TypeDefinitionIndex = 21896;
-
 	class SelectRubikGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::RubikRotDirection SelectFace; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicString* ParamSelectFace; // 0x28
 		::System::Boolean SelectAll; // 0x30
+		::System::Byte _padding1[0x7];
 		::System::String* CubeName; // 0x38
 		::System::Boolean IsSelect; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_17479EAD79D609F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectRubikGroup*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SelectRubikGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectRubikGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_17479EAD79D609F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SelectRubikGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1BE59FE3D4E30449(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectRubikGroup* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SelectRubikGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectRubikGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_1BE59FE3D4E30449_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SelectRubikGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

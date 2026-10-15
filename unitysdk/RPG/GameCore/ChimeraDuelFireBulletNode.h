@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelNode.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
+namespace RPG::GameCore { class ChimeraDuelFireBulletNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_279A175D2E344640_OFFSET UNITYSDK_OFFSET(0x1CFC6090)
-#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_8249B05689292CD5_OFFSET UNITYSDK_OFFSET(0x1CFC6190)
-#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC6130)
+#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A10E0)
+#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A1140)
+#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A1040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelFireBulletNode_TypeDefinitionIndex = 15792;
-
 	class ChimeraDuelFireBulletNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:
@@ -25,21 +23,22 @@ namespace RPG::GameCore
 		::System::String* StartAnchorName; // 0x30
 		::System::String* EndAnchorName; // 0x38
 		::System::Boolean IsRotate; // 0x40
+		::System::Byte _padding0[0x3];
 		::RPG::MVector3 Scale; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_279A175D2E344640(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelFireBulletNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_279A175D2E344640_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelFireBulletNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8249B05689292CD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelFireBulletNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_8249B05689292CD5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelFireBulletNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

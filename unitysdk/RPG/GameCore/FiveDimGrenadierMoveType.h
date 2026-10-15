@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierMoveType_TypeDefinitionIndex = 16527;
-
 	enum class FiveDimGrenadierMoveType : ::System::Int32
 	{
 		Patrol = 0,

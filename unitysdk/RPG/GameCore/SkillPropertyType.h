@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillPropertyType_TypeDefinitionIndex = 10398;
-
 	enum class SkillPropertyType : ::System::Int32
 	{
 		Unknown = 0,

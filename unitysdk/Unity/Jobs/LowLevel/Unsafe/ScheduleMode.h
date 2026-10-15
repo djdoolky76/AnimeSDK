@@ -3,8 +3,6 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int ScheduleMode_TypeDefinitionIndex = 3964;
-
 	enum class ScheduleMode : ::System::Int32
 	{
 		Run = 0,

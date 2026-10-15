@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDanmuContentData.h"
 #include "unitysdk/RPG/Client/TextID.h"
-
+namespace RPG::Client::ActivityIdleLive { class IdleLiveTextContentData; }
 namespace RPG::GameCore { class IdleLiveChatContentRow; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC5F2870)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC5F2850)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC5F2860)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F2920)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC50A270)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC50A320)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC50A250)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC50A260)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTextContentData_TypeDefinitionIndex = 75053;
-
 	class IdleLiveTextContentData : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData
 	{
 	public:
 		::RPG::Client::TextID _Content_k__BackingField; // 0x18
-
 		::System::Void _ctor(::RPG::GameCore::IdleLiveChatContentRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveChatContentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveChatContentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Content()
@@ -38,5 +35,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::RPG::Client::ActivityIdleLive::IdleLiveTextContentData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEXTCONTENTDATA_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

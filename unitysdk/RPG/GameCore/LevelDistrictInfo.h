@@ -4,31 +4,31 @@
 #include "unitysdk/RPG/GameCore/DistrictType.h"
 #include "unitysdk/RPG/GameCore/NamedLevelObjectInfo.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AudioStateConfig; }
 namespace RPG::GameCore { class DistrictAreaSoundConfig; }
 namespace RPG::GameCore { class DistrictAudioRTPCConfig; }
+namespace RPG::GameCore { class LevelDistrictInfo; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D1CE730)
-#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1CE6B0)
-#define RPG_GAMECORE_LEVELDISTRICTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CE700)
+#define RPG_GAMECORE_LEVELDISTRICTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AA610)
+#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7AA640)
+#define RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7AA5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDistrictInfo_TypeDefinitionIndex = 17070;
-
 	class LevelDistrictInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:
 		::System::Single RotX; // 0x38
 		::System::Single RotZ; // 0x3C
 		::RPG::MVector3 Scale; // 0x40
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::LevelTriggerInfo* Trigger; // 0x50
 		::System::Boolean LoadOnInitial; // 0x58
+		::System::Byte _padding1[0x7];
 		::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* OnEnterAudioState; // 0x60
 		::Il2CppArray<::RPG::GameCore::AudioStateConfig*>* OnExitAudioState; // 0x68
 		::Il2CppArray<::RPG::GameCore::DistrictAudioRTPCConfig*>* OnEnterRTPC; // 0x70
@@ -38,26 +38,28 @@ namespace RPG::GameCore
 		::RPG::GameCore::DistrictSoundUsage SoundUsage; // 0x90
 		::RPG::GameCore::DistrictType DistrictType; // 0x94
 		::System::Boolean CanTriggerByFakeAvatar; // 0x98
+		::System::Byte _padding2[0x7];
 		::System::String* RoomAuxBus; // 0xA0
 		::System::String* BGMEmotion; // 0xA8
 		::System::Boolean InRoomEmitter; // 0xB0
+		::System::Byte _padding3[0x3];
 		::System::Single NPCCrowdRadius; // 0xB4
 		::System::String* LevelGraph; // 0xB8
 		::RPG::GameCore::LevelGraphValueSource* ValueSource; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISTRICTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISTRICTINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelDistrictInfo*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelDistrictInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDistrictInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelDistrictInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelDistrictInfo* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelDistrictInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelDistrictInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelDistrictInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDISTRICTINFO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DDF20)
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8DDF10)
-#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DE0B0)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9332F0)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE933480)
+#define RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9332E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ScaleCharacterNodeClip_TypeDefinitionIndex = 48727;
-
 	class ScaleCharacterNodeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
@@ -24,10 +21,9 @@ namespace RPGTools::Timeline
 		::System::Collections::Generic::List_1<::System::String*>* NodeNames; // 0x20
 		::System::Single Scale; // 0x28
 		::System::Boolean ResetOnClipEnd; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -39,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SCALECHARACTERNODECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

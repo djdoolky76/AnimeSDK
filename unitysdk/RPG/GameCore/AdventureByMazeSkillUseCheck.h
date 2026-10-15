@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureByMazeSkillUseCheck; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_36FE640D24138C17_OFFSET UNITYSDK_OFFSET(0x1CDE9970)
-#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_3F21A508368587A6_OFFSET UNITYSDK_OFFSET(0x1CDE99B0)
-#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_A9588FD40DC8C97C_OFFSET UNITYSDK_OFFSET(0x1CDE9B60)
-#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_F6C6BDF8ACE1DC72_OFFSET UNITYSDK_OFFSET(0x1CDE9B30)
-#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE99A0)
+#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BF6E0)
+#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D3BF8A0)
+#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3BF870)
+#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3BF6F0)
+#define RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3BF6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByMazeSkillUseCheck_TypeDefinitionIndex = 19804;
-
 	class AdventureByMazeSkillUseCheck : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_36FE640D24138C17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_36FE640D24138C17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3F21A508368587A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_3F21A508368587A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F6C6BDF8ACE1DC72(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_F6C6BDF8ACE1DC72_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A9588FD40DC8C97C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByMazeSkillUseCheck* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_METHOD_4_A9588FD40DC8C97C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByMazeSkillUseCheck*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYMAZESKILLUSECHECK_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ExecutionContext_CaptureOptions_TypeDefinitionIndex = 834;
-
 	enum class ExecutionContext_CaptureOptions : ::System::Int32
 	{
 		None = 0,

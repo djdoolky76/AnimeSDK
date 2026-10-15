@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+class LMPPBDNFCJF;
+namespace System { class Object; }
 
-class Class_2_42AE0E6E31F59F96;
-namespace RPG::Client { class AnimatorClipOverride_AnimClipOverride; }
-
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0xC7655D0)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC7656F0)
-#define RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xC765750)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_AWAKE_OFFSET UNITYSDK_OFFSET(0xC683660)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6837E0)
+#define RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC683780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorClipOverride_TypeDefinitionIndex = 70318;
-
 	class AnimatorClipOverride : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::RPG::Client::AnimatorClipOverride_AnimClipOverride*>* AnimClipOverrides; // 0x18
-		::Class_2_42AE0E6E31F59F96* KADDKEGNCHE; // 0x20
-
+		::Il2CppArray<::System::Object*>* AnimClipOverrides; // 0x18
+		::LMPPBDNFCJF* KADDKEGNCHE; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORCLIPOVERRIDE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORCLIPOVERRIDE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -33,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORCLIPOVERRIDE_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

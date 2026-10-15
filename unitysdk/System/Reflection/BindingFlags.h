@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int BindingFlags_TypeDefinitionIndex = 557;
-
 	enum class BindingFlags : ::System::Int32
 	{
 		Default = 0,

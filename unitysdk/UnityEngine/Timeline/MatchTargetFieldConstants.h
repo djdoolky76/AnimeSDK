@@ -3,37 +3,38 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Timeline/MatchTargetFields.h"
 
-#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_HASANY_OFFSET UNITYSDK_OFFSET(0x1ECC5640)
-#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1ECC5680)
-#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECC5690)
+#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F38D360)
+#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_HASANY_OFFSET UNITYSDK_OFFSET(0x1F38D310)
+#define UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_TOGGLE_OFFSET UNITYSDK_OFFSET(0x1F38D350)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MatchTargetFieldConstants_TypeDefinitionIndex = 37482;
-
 	class MatchTargetFieldConstants : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_None()
-		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x11160);
-		}
-		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_All()
-		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x11164);
-		}
-		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_Position()
-		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x11168);
-		}
 		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_Rotation()
 		{
-			return (::UnityEngine::Timeline::MatchTargetFields*)Il2CppClass::FromTypeDefinitionIndex(MatchTargetFieldConstants_TypeDefinitionIndex)->GetStaticField(0x1116C);
+			return (::UnityEngine::Timeline::MatchTargetFields*)UnitySDK::FromName("UnityEngine.Timeline", "MatchTargetFieldConstants")->GetStaticField(0x11600);
+		}
+
+		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_Position()
+		{
+			return (::UnityEngine::Timeline::MatchTargetFields*)UnitySDK::FromName("UnityEngine.Timeline", "MatchTargetFieldConstants")->GetStaticField(0x11604);
+		}
+
+		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_All()
+		{
+			return (::UnityEngine::Timeline::MatchTargetFields*)UnitySDK::FromName("UnityEngine.Timeline", "MatchTargetFieldConstants")->GetStaticField(0x11608);
+		}
+
+		static ::UnityEngine::Timeline::MatchTargetFields* StaticGet_None()
+		{
+			return (::UnityEngine::Timeline::MatchTargetFields*)UnitySDK::FromName("UnityEngine.Timeline", "MatchTargetFieldConstants")->GetStaticField(0x1160C);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean HasAny(::UnityEngine::Timeline::MatchTargetFields a1, ::UnityEngine::Timeline::MatchTargetFields a2)
@@ -45,5 +46,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::UnityEngine::Timeline::MatchTargetFields(*)(::UnityEngine::Timeline::MatchTargetFields, ::UnityEngine::Timeline::MatchTargetFields))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_MATCHTARGETFIELDCONSTANTS_TOGGLE_OFFSET))(a1, a2);
 		}
+
 	};
 }

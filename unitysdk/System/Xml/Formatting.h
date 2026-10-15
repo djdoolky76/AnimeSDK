@@ -3,8 +3,6 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int Formatting_TypeDefinitionIndex = 1861;
-
 	enum class Formatting : ::System::Int32
 	{
 		None = 0,

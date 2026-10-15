@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicPatternEmitterBehavior_SimulationSpaceType_TypeDefinitionIndex = 70861;
-
 	enum class DynamicPatternEmitterBehavior_SimulationSpaceType : ::System::Int32
 	{
 		World = 0,

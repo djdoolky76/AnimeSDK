@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Numerics/Register.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System { class IFormatProvider; }
-namespace System { class Object; }
-namespace System { class String; }
+namespace System::Numerics { class Vector; }
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Vector_1_TypeDefinitionIndex = 3860;
-
 	template <typename T>
-	struct Vector_1
+	struct alignas(4) Vector_1
 	{
 		::System::Numerics::Register register_; // 0x0
 		static ::System::Int32* StaticGet_s_count()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Vector_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Int32*)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
-		static ::System::Numerics::Vector_1<T>* StaticGet_s_zero()
+
+		static ::System::Numerics::Vector** StaticGet_s_zero()
 		{
-			return (::System::Numerics::Vector_1<T>*)Il2CppClass::FromTypeDefinitionIndex(Vector_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Numerics::Vector**)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
-		static ::System::Numerics::Vector_1<T>* StaticGet_s_one()
+
+		static ::System::Numerics::Vector** StaticGet_s_one()
 		{
-			return (::System::Numerics::Vector_1<T>*)Il2CppClass::FromTypeDefinitionIndex(Vector_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Numerics::Vector**)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
-		static ::System::Numerics::Vector_1<T>* StaticGet_s_allOnes()
+
+		static ::System::Numerics::Vector** StaticGet_s_allOnes()
 		{
-			return (::System::Numerics::Vector_1<T>*)Il2CppClass::FromTypeDefinitionIndex(Vector_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Numerics::Vector**)UnitySDK::FromName("System.Numerics", "Vector`1")->GetStaticField(0x0);
 		}
+
 	};
 }

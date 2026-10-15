@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CreateMonsterInGroup; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CREATEMONSTERINGROUP_METHOD_3_12CAD4065D621362_OFFSET UNITYSDK_OFFSET(0x1D008380)
-#define RPG_GAMECORE_CREATEMONSTERINGROUP_METHOD_3_E50691D86145C3AF_OFFSET UNITYSDK_OFFSET(0x1D0083C0)
-#define RPG_GAMECORE_CREATEMONSTERINGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0083B0)
+#define RPG_GAMECORE_CREATEMONSTERINGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E3E30)
+#define RPG_GAMECORE_CREATEMONSTERINGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E3E40)
+#define RPG_GAMECORE_CREATEMONSTERINGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E3E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateMonsterInGroup_TypeDefinitionIndex = 20125;
-
 	class CreateMonsterInGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEMONSTERINGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEMONSTERINGROUP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_12CAD4065D621362(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateMonsterInGroup*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateMonsterInGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateMonsterInGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEMONSTERINGROUP_METHOD_3_12CAD4065D621362_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateMonsterInGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEMONSTERINGROUP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E50691D86145C3AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateMonsterInGroup* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateMonsterInGroup* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateMonsterInGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEMONSTERINGROUP_METHOD_3_E50691D86145C3AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateMonsterInGroup*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEMONSTERINGROUP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,28 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChimeraSettleCommandBase.h"
 
-namespace System { class String; }
-
-#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xCC09DA0)
-#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xCC0D0D0)
+#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xCB592A0)
+#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xCB5C590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleToGoalCommand_TypeDefinitionIndex = 63526;
-
 	class ChimeraSettleToGoalCommand : public ::RPG::Client::ChimeraSettleCommandBase
 	{
 	public:
 		// static const ::System::String* _GOAL_STATE_MAIN_PUZLLE_CUSTOM_STRING; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ExecuteImpl()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET))(this);
 		}
+
 	};
 }

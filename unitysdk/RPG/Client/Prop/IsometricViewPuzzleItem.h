@@ -3,25 +3,22 @@
 #include "unitysdk/RPG/Client/Prop/IsometricViewBox.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class BoxCollider; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_GETBOXTYPE_OFFSET UNITYSDK_OFFSET(0xDC80220)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_ISSIDE1_OFFSET UNITYSDK_OFFSET(0xDC80480)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_METHOD_5_0C5E7E6B860B221F_OFFSET UNITYSDK_OFFSET(0xDC7FB70)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_METHOD_5_1293CB739F1151A1_OFFSET UNITYSDK_OFFSET(0xDC7F2E0)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xDC80060)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_SETINISOMETRIC_OFFSET UNITYSDK_OFFSET(0xDC80000)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_SETINITSTATE_OFFSET UNITYSDK_OFFSET(0xDC7F8B0)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_SETLINKERENABLE_OFFSET UNITYSDK_OFFSET(0xDC801C0)
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDC804D0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CCMIKLANPPL_OFFSET UNITYSDK_OFFSET(0xDD08350)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CLAJCLDMBCA_OFFSET UNITYSDK_OFFSET(0xDD08BE0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDD09540)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_EODJIBEOKND_OFFSET UNITYSDK_OFFSET(0xDD090D0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_GETBOXTYPE_OFFSET UNITYSDK_OFFSET(0xDD09290)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_ISSIDE1_OFFSET UNITYSDK_OFFSET(0xDD094F0)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_SETINISOMETRIC_OFFSET UNITYSDK_OFFSET(0xDD09070)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_SETINITSTATE_OFFSET UNITYSDK_OFFSET(0xDD08920)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_SETLINKERENABLE_OFFSET UNITYSDK_OFFSET(0xDD09230)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int IsometricViewPuzzleItem_TypeDefinitionIndex = 78174;
-
 	class IsometricViewPuzzleItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -36,6 +33,7 @@ namespace RPG::Client::Prop
 		::System::String* ExceptOffsetKey; // 0x58
 		::System::String* ExceptScaleKey; // 0x60
 		::System::Boolean Enable; // 0x68
+		::System::Byte _padding0[0x7];
 		::UnityEngine::GameObject* Side1; // 0x70
 		::UnityEngine::GameObject* Side2; // 0x78
 		::UnityEngine::BoxCollider* Side1From; // 0x80
@@ -51,17 +49,18 @@ namespace RPG::Client::Prop
 		::System::Boolean LinkerEnable; // 0xC2
 		::System::Boolean DrawGizmos; // 0xC3
 		::System::Boolean EditorMode; // 0xC4
+		::System::Byte _padding1[0x3];
 		::System::UInt32 Priority; // 0xC8
+		::System::Byte _padding2[0x4];
 		::UnityEngine::GameObject* KEIPGIMKECE; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1293CB739F1151A1()
+		::System::Void CCMIKLANPPL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_METHOD_5_1293CB739F1151A1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CCMIKLANPPL_OFFSET))(this);
 		}
 
 		::System::Void SetInitState(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::UInt32 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6, ::System::Boolean a7, ::System::Boolean a8)
@@ -69,9 +68,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::UInt32, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_SETINITSTATE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		::System::Void Method_5_0C5E7E6B860B221F(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
+		::System::Void CLAJCLDMBCA(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_METHOD_5_0C5E7E6B860B221F_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CLAJCLDMBCA_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void SetInIsometric(::System::Boolean a1)
@@ -94,9 +93,10 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::IsometricViewBox))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_ISSIDE1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_97D83E4CB3B11935()
+		::System::Void EODJIBEOKND()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_METHOD_5_97D83E4CB3B11935_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_EODJIBEOKND_OFFSET))(this);
 		}
+
 	};
 }

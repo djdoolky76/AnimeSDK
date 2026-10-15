@@ -3,8 +3,6 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ImagePacking_TypeDefinitionIndex = 39182;
-
 	enum class HAPI_ImagePacking : ::System::Int32
 	{
 		HAPI_IMAGE_PACKING_UNKNOWN = -1,

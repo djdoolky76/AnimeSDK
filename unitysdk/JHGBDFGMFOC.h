@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+namespace RPG::GameCore { class ShowUINodes; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define JHGBDFGMFOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1B2D80)
+#define JHGBDFGMFOC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1B2D90)
+#define JHGBDFGMFOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1B2DD0)
+#define JHGBDFGMFOC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1B3080)
+#define JHGBDFGMFOC_TICK_OFFSET UNITYSDK_OFFSET(0xB1B30D0)
+
+	class JHGBDFGMFOC : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::ShowUINodes* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowUINodes* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowUINodes*))((::PBYTE)hIl2Cpp + JHGBDFGMFOC_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHGBDFGMFOC_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHGBDFGMFOC_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHGBDFGMFOC_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + JHGBDFGMFOC_TICK_OFFSET))(this, a1);
+		}
+
+	};

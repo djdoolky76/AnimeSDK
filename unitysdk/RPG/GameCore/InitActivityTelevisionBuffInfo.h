@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class InitActivityTelevisionBuffInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_1D204AA55EF0B322_OFFSET UNITYSDK_OFFSET(0x1D1AB7B0)
-#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_88B8A4C07C8BD7F7_OFFSET UNITYSDK_OFFSET(0x1D1AB7F0)
-#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AB7E0)
+#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D787520)
+#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D787530)
+#define RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7874F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InitActivityTelevisionBuffInfo_TypeDefinitionIndex = 22980;
-
 	class InitActivityTelevisionBuffInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::Client::TextID DescText; // 0x20
 		::RPG::GameCore::DynamicFloat* InitCount; // 0x30
 		::System::UInt32 TutorialGroupID; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D204AA55EF0B322(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitActivityTelevisionBuffInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::InitActivityTelevisionBuffInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitActivityTelevisionBuffInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_1D204AA55EF0B322_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::InitActivityTelevisionBuffInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_88B8A4C07C8BD7F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitActivityTelevisionBuffInfo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::InitActivityTelevisionBuffInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitActivityTelevisionBuffInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_METHOD_3_88B8A4C07C8BD7F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::InitActivityTelevisionBuffInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITACTIVITYTELEVISIONBUFFINFO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

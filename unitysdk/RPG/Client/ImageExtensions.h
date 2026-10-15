@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0xD3ED270)
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET UNITYSDK_OFFSET(0xD3ED3D0)
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET UNITYSDK_OFFSET(0xD3D8880)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0xD33DF90)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET UNITYSDK_OFFSET(0xD33E0F0)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET UNITYSDK_OFFSET(0xD32E140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ImageExtensions_TypeDefinitionIndex = 72699;
-
 	class ImageExtensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::UnityEngine::UI::Image*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

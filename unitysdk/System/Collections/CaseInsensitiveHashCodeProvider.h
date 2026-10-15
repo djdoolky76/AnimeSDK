@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
+namespace System::Collections { class CaseInsensitiveHashCodeProvider; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Globalization { class TextInfo; }
 
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBB2CA0)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1BBB2BE0)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBB2B00)
-#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB2A00)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0BEB60)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0BEA60)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C0BED00)
+#define SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1C0BEC40)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int CaseInsensitiveHashCodeProvider_TypeDefinitionIndex = 1466;
-
 	class CaseInsensitiveHashCodeProvider : public ::System::Object
 	{
 	public:
 		::System::Globalization::TextInfo* m_text; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Globalization::CultureInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Collections::CaseInsensitiveHashCodeProvider* get_Default()
@@ -38,5 +36,6 @@ namespace System::Collections
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_CASEINSENSITIVEHASHCODEPROVIDER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

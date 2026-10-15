@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MOIKMFOGHAO.h"
+#include "unitysdk/System/Object.h"
+class AIBOPLOBAFN;
+class HEKOMMJCPJF;
+class HLCPCNFMECN;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Action; }
+namespace System { class String; }
+
+#define IMENCDLHKAI_BFLENEMBIBM_OFFSET UNITYSDK_OFFSET(0x164D2890)
+#define IMENCDLHKAI_CTOR_OFFSET UNITYSDK_OFFSET(0x164D2B80)
+#define IMENCDLHKAI_EHGMEHPJPBD_OFFSET UNITYSDK_OFFSET(0x164D24D0)
+#define IMENCDLHKAI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x164D2430)
+#define IMENCDLHKAI_KCFDDCKPFPE_OFFSET UNITYSDK_OFFSET(0x164D27E0)
+#define IMENCDLHKAI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x164D2330)
+#define IMENCDLHKAI_LEHKGLNGAGF_OFFSET UNITYSDK_OFFSET(0x164D2B20)
+#define IMENCDLHKAI_LMLFAEBBMFA_OFFSET UNITYSDK_OFFSET(0x164D2930)
+
+	class IMENCDLHKAI : public ::System::Object
+	{
+	public:
+		::MOIKMFOGHAO GOPMOPPKFPH; // 0x10
+		::System::String* FJEJHABHCPH; // 0x30
+		::Il2CppArray<::HEKOMMJCPJF*>* EKONIPGDFNE; // 0x38
+		::HLCPCNFMECN* HNJMIKCEINB; // 0x40
+		::AIBOPLOBAFN* BHIBFLIGINF; // 0x48
+		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x50
+		::System::Int32 EMPOLDLHGPA; // 0x58
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMENCDLHKAI_CTOR_OFFSET))(this);
+		}
+
+		::System::Void KPJGDHLENIP(::RPG::GameCore::GameEntity* a1, ::Il2CppArray<::HEKOMMJCPJF*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::Il2CppArray<::HEKOMMJCPJF*>*))((::PBYTE)hIl2Cpp + IMENCDLHKAI_KPJGDHLENIP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void HADOHLNHHGB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMENCDLHKAI_HADOHLNHHGB_OFFSET))(this);
+		}
+
+		::System::Void KCFDDCKPFPE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMENCDLHKAI_KCFDDCKPFPE_OFFSET))(this);
+		}
+
+		::System::Void BFLENEMBIBM(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IMENCDLHKAI_BFLENEMBIBM_OFFSET))(this, a1);
+		}
+
+		::System::Void LMLFAEBBMFA(::System::Boolean a1, ::System::Action* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + IMENCDLHKAI_LMLFAEBBMFA_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void EHGMEHPJPBD(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IMENCDLHKAI_EHGMEHPJPBD_OFFSET))(this, a1);
+		}
+
+		::System::Boolean LEHKGLNGAGF()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IMENCDLHKAI_LEHKGLNGAGF_OFFSET))(this);
+		}
+
+	};

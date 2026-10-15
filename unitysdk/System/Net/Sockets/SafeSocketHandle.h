@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.h"
-
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class StackTrace; }
 namespace System::Threading { class Thread; }
 
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_REGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1E9B7000)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1E9B6830)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_UNREGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1E9B7430)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9B7670)
-#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B6710)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F07FB50)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07EC10)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_REGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1F07F4E0)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1F07ED30)
+#define SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_UNREGISTERFORBLOCKINGSYSCALL_OFFSET UNITYSDK_OFFSET(0x1F07F950)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SafeSocketHandle_TypeDefinitionIndex = 2917;
-
 	class SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
 	{
 	public:
+		::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces; // 0x28
+		::System::Boolean in_cleanup; // 0x30
 		static ::System::Boolean* StaticGet_THROW_ON_ABORT_RETRIES()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SafeSocketHandle_TypeDefinitionIndex)->GetStaticField(0xA800);
+			return (::System::Boolean*)UnitySDK::FromName("System.Net.Sockets", "SafeSocketHandle")->GetStaticField(0x8950);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces; // 0x20
-		::System::Collections::Generic::List_1<::System::Threading::Thread*>* blocking_threads; // 0x28
-		::System::Boolean in_cleanup; // 0x30
 
 		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean ReleaseHandle()
@@ -52,5 +49,6 @@ namespace System::Net::Sockets
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SAFESOCKETHANDLE_UNREGISTERFORBLOCKINGSYSCALL_OFFSET))(this);
 		}
+
 	};
 }

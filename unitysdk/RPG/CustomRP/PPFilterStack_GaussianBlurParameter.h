@@ -1,43 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/GaussianBlurGradual.h"
-#include "unitysdk/System/ValueType.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15B140)
-#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B0E0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4B90)
+#define RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF4B30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_GaussianBlurParameter_TypeDefinitionIndex = 52153;
-
 	struct alignas(4) PPFilterStack_GaussianBlurParameter
 	{
 		::System::Boolean GaussianBlurOverrideState; // 0x10
 		::System::Boolean GaussianBlurLightenoverrideState; // 0x11
+		::System::Byte _padding0[0x2];
 		::System::Single GaussianBlurLightenIntensity; // 0x14
 		::System::Boolean BlurScaleoverrideState; // 0x18
+		::System::Byte _padding1[0x3];
 		::System::Single BlurScale; // 0x1C
 		::System::Boolean GaussianBlurGradualParamoverrideState; // 0x20
+		::System::Byte _padding2[0x3];
 		::RPG::CustomRP::GaussianBlurGradual GaussianBlurGradualParam; // 0x24
 		::System::Boolean CenterXoverrideState; // 0x28
+		::System::Byte _padding3[0x3];
 		::System::Single CenterX; // 0x2C
 		::System::Boolean CenterYoverrideState; // 0x30
+		::System::Byte _padding4[0x3];
 		::System::Single CenterY; // 0x34
 		::System::Boolean StartRadiusoverrideState; // 0x38
+		::System::Byte _padding5[0x3];
 		::System::Single StartRadius; // 0x3C
 		::System::Boolean BlendRadiusoverrideState; // 0x40
+		::System::Byte _padding6[0x3];
 		::System::Single BlendRadius; // 0x44
 		::System::Boolean AngleoverrideState; // 0x48
+		::System::Byte _padding7[0x3];
 		::System::Single Angle; // 0x4C
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Void _ctor_1(::RPG::CustomRP::PPFilterStack_GaussianBlurParameter a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_GaussianBlurParameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_GaussianBlurParameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_GAUSSIANBLURPARAMETER_CTOR_1_OFFSET))(this, a1, a2);
 		}
+		*/
+
 	};
 }

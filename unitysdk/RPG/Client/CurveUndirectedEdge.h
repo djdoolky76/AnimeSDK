@@ -1,42 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/CurveEdgePoint.h"
 #include "unitysdk/RPG/Client/ECurveEdgePoint.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/Client/CurveEdgePoint.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
+namespace RPG::Client { class CurveUndirectedEdge; }
 namespace RPG::Client { class CurveUndirectedEdgeConnection; }
 namespace RPG::Client { class MonoCurveUndirectedGraph; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC8A730)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_CURVE_OFFSET UNITYSDK_OFFSET(0xCC89490)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0xCC894B0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_GRAPH_OFFSET UNITYSDK_OFFSET(0xCC89470)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_MATH_OFFSET UNITYSDK_OFFSET(0xCC894A0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCC89480)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_31661521E6BA1690_OFFSET UNITYSDK_OFFSET(0xCC8A0C0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_4ACC2F8684BE1D57_OFFSET UNITYSDK_OFFSET(0xCC89790)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_6D4EED649DB90654_OFFSET UNITYSDK_OFFSET(0xCC89C80)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_729D7865C768EDB3_OFFSET UNITYSDK_OFFSET(0xCC89820)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_7EEC86D7A31C7C87_OFFSET UNITYSDK_OFFSET(0xCC89E80)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_A1EB2E3ADE286198_OFFSET UNITYSDK_OFFSET(0xCC89D00)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_AED8C4825531973B_OFFSET UNITYSDK_OFFSET(0xCC89FB0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_AFC0AF10542FE0A9_OFFSET UNITYSDK_OFFSET(0xCC89AB0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_C73CBB2E1F3BBA7B_OFFSET UNITYSDK_OFFSET(0xCC89910)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_D3BDE5E15DE6058C_OFFSET UNITYSDK_OFFSET(0xCC89A20)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_D9E7614FB85246A5_OFFSET UNITYSDK_OFFSET(0xCC8A770)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCC8A6F0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC89510)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDCE00)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCBDDCB0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_FHOIHMAEIDN_OFFSET UNITYSDK_OFFSET(0xCBDDCF0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_FMPMJKOOMKL_OFFSET UNITYSDK_OFFSET(0xCBDD640)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_CURVE_OFFSET UNITYSDK_OFFSET(0xCBDCDE0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0xCBD7E20)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_GRAPH_OFFSET UNITYSDK_OFFSET(0xCBDCDC0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_MATH_OFFSET UNITYSDK_OFFSET(0xCBDCDF0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCBDCDD0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_IBIJFKIDBMK_OFFSET UNITYSDK_OFFSET(0xCBDD400)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_IEONPAOPNNF_OFFSET UNITYSDK_OFFSET(0xCBD77B0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_KBIIPCPEAIE_OFFSET UNITYSDK_OFFSET(0xCBD76C0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_LFLOBADPDIE_OFFSET UNITYSDK_OFFSET(0xCBDA6D0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_LNLFOJLNKCE_OFFSET UNITYSDK_OFFSET(0xCBDBBF0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_LPJOFJCLGMP_OFFSET UNITYSDK_OFFSET(0xCBDD170)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_MONJBPHFJKM_OFFSET UNITYSDK_OFFSET(0xCBDD080)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_PGKHLGOCIDL_OFFSET UNITYSDK_OFFSET(0xCBDD280)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_PJCCABMKDPE_OFFSET UNITYSDK_OFFSET(0xCBDD530)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCBDDC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedEdge_TypeDefinitionIndex = 68535;
-
 	class CurveUndirectedEdge : public ::System::Object
 	{
 	public:
@@ -45,10 +43,9 @@ namespace RPG::Client
 		::BansheeGz::BGSpline::Curve::BGCurve* _Curve_k__BackingField; // 0x20
 		::BansheeGz::BGSpline::Components::BGCcMath* _Math_k__BackingField; // 0x28
 		::Il2CppArray<::System::Collections::Generic::List_1<::RPG::Client::CurveUndirectedEdgeConnection*>*>* _Connections; // 0x30
-
 		::System::Void _ctor(::RPG::Client::MonoCurveUndirectedGraph* a1, ::System::String* a2, ::BansheeGz::BGSpline::Curve::BGCurve* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoCurveUndirectedGraph*, ::System::String*, ::BansheeGz::BGSpline::Curve::BGCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoCurveUndirectedGraph*, ::System::String*, ::BansheeGz::BGSpline::Curve::BGCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::MonoCurveUndirectedGraph* get_Graph()
@@ -76,54 +73,54 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_GET_DISTANCE_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_1_4ACC2F8684BE1D57(::System::Single a1)
+		::UnityEngine::Vector3 LNLFOJLNKCE(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_4ACC2F8684BE1D57_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_LNLFOJLNKCE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Quaternion Method_1_729D7865C768EDB3(::System::Single a1)
+		::UnityEngine::Quaternion MONJBPHFJKM(::System::Single a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_729D7865C768EDB3_OFFSET))(this, a1);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_MONJBPHFJKM_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_C73CBB2E1F3BBA7B(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Quaternion& a3)
+		::System::Void LPJOFJCLGMP(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_C73CBB2E1F3BBA7B_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_LPJOFJCLGMP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_D3BDE5E15DE6058C(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
+		::System::Void LFLOBADPDIE(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_D3BDE5E15DE6058C_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_LFLOBADPDIE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::CurveEdgePoint Method_1_AFC0AF10542FE0A9(::RPG::Client::ECurveEdgePoint a1)
+		::RPG::Client::CurveEdgePoint IEONPAOPNNF(::RPG::Client::ECurveEdgePoint a1)
 		{
-			return ((::RPG::Client::CurveEdgePoint(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_AFC0AF10542FE0A9_OFFSET))(this, a1);
+			return ((::RPG::Client::CurveEdgePoint(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_IEONPAOPNNF_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Method_1_6D4EED649DB90654(::RPG::Client::ECurveEdgePoint a1)
+		::System::Int32 KBIIPCPEAIE(::RPG::Client::ECurveEdgePoint a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_6D4EED649DB90654_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_KBIIPCPEAIE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_A1EB2E3ADE286198(::RPG::Client::ECurveEdgePoint a1, ::System::Boolean a2)
+		::System::Void PGKHLGOCIDL(::RPG::Client::ECurveEdgePoint a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_A1EB2E3ADE286198_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_PGKHLGOCIDL_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* Method_1_7EEC86D7A31C7C87(::RPG::Client::ECurveEdgePoint a1)
+		::System::String* IBIJFKIDBMK(::RPG::Client::ECurveEdgePoint a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_7EEC86D7A31C7C87_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_IBIJFKIDBMK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_AED8C4825531973B(::RPG::Client::ECurveEdgePoint a1)
+		::System::Void PJCCABMKDPE(::RPG::Client::ECurveEdgePoint a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_AED8C4825531973B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_PJCCABMKDPE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_31661521E6BA1690(::RPG::Client::ECurveEdgePoint a1, ::System::Int32 a2, ::System::Boolean a3)
+		::System::Void FMPMJKOOMKL(::RPG::Client::ECurveEdgePoint a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_31661521E6BA1690_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_FMPMJKOOMKL_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* ToString()
@@ -136,9 +133,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_D9E7614FB85246A5(::RPG::Client::ECurveEdgePoint a1, ::RPG::Client::ECurveEdgePoint a2, ::RPG::Client::CurveUndirectedEdge* a3)
+		::System::Void FHOIHMAEIDN(::RPG::Client::ECurveEdgePoint a1, ::RPG::Client::ECurveEdgePoint a2, ::RPG::Client::CurveUndirectedEdge* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint, ::RPG::Client::ECurveEdgePoint, ::RPG::Client::CurveUndirectedEdge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_METHOD_1_D9E7614FB85246A5_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ECurveEdgePoint, ::RPG::Client::ECurveEdgePoint, ::RPG::Client::CurveUndirectedEdge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE_FHOIHMAEIDN_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

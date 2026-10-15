@@ -3,8 +3,6 @@
 
 namespace RPG::Client::Multithread
 {
-	inline static constexpr unsigned int NodeState_TypeDefinitionIndex = 42183;
-
 	enum class NodeState : ::System::Int32
 	{
 		WAITTING = 0,

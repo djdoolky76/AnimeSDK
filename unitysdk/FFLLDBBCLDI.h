@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/IGKFNIEJGLM.h"
+class EANJILGOKBE;
+class FDOICPJGACI;
+class PIHHLBIOOKE;
+
+#define FFLLDBBCLDI_AJLLGKOHKPG_OFFSET UNITYSDK_OFFSET(0x15745A30)
+#define FFLLDBBCLDI_CTOR_OFFSET UNITYSDK_OFFSET(0x15745CB0)
+#define FFLLDBBCLDI_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x157457F0)
+#define FFLLDBBCLDI_FDFIBKPPJDK_OFFSET UNITYSDK_OFFSET(0x15745A90)
+#define FFLLDBBCLDI_GEEEGLNKJCC_OFFSET UNITYSDK_OFFSET(0x15745850)
+#define FFLLDBBCLDI_ICPBEMGMKHJ_OFFSET UNITYSDK_OFFSET(0x15745C50)
+#define FFLLDBBCLDI_KKNDDKNGEMK_OFFSET UNITYSDK_OFFSET(0x15745940)
+#define FFLLDBBCLDI_NKAPEDLNHMG_OFFSET UNITYSDK_OFFSET(0x157458F0)
+
+	class FFLLDBBCLDI : public ::FMPCODLIOLG
+	{
+	public:
+		::FDOICPJGACI* HBKCICMELMM; // 0x60
+		::PIHHLBIOOKE* POIPFGFDNAG; // 0x68
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_CTOR_OFFSET))(this);
+		}
+
+		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_DHHDFAAJMMC_OFFSET))(this, a1);
+		}
+
+		::System::Void GEEEGLNKJCC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_GEEEGLNKJCC_OFFSET))(this);
+		}
+
+		::System::Void AJLLGKOHKPG()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_AJLLGKOHKPG_OFFSET))(this);
+		}
+
+		::System::Void NKAPEDLNHMG()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_NKAPEDLNHMG_OFFSET))(this);
+		}
+
+		::System::Void KKNDDKNGEMK(::EANJILGOKBE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EANJILGOKBE*))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_KKNDDKNGEMK_OFFSET))(this, a1);
+		}
+
+		::FDOICPJGACI* FDFIBKPPJDK(::EANJILGOKBE* a1)
+		{
+			return ((::FDOICPJGACI*(*)(::PVOID, ::EANJILGOKBE*))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_FDFIBKPPJDK_OFFSET))(this, a1);
+		}
+
+		::System::Void ICPBEMGMKHJ(::FDOICPJGACI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FDOICPJGACI*))((::PBYTE)hIl2Cpp + FFLLDBBCLDI_ICPBEMGMKHJ_OFFSET))(this, a1);
+		}
+
+	};

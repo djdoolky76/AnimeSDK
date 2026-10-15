@@ -2,40 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EntityTag.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ModifyAiVisionExcludeTagRuntime; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_63A50D62F8406B77_OFFSET UNITYSDK_OFFSET(0x1D2AEB20)
-#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_FA28B6C6F056AAEE_OFFSET UNITYSDK_OFFSET(0x1D2AEB70)
-#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AEB60)
+#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D890C10)
+#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D890C20)
+#define RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D890BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAiVisionExcludeTagRuntime_TypeDefinitionIndex = 21499;
-
 	class ModifyAiVisionExcludeTagRuntime : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* Target; // 0x18
 		::System::String* VisionID; // 0x20
 		::System::Boolean IsAdd; // 0x28
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::RPG::GameCore::EntityTag>* ModifyTag; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_63A50D62F8406B77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_63A50D62F8406B77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FA28B6C6F056AAEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_METHOD_3_FA28B6C6F056AAEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVISIONEXCLUDETAGRUNTIME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

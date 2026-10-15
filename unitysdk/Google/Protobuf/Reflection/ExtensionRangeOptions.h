@@ -1,71 +1,71 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class ExtensionSet; }
+namespace Google::Protobuf { class FieldCodec; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class ExtensionSet_1; }
-namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace Google::Protobuf::Reflection { class ExtensionRangeOptions; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class UninterpretedOption; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B375990)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1B366510)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B375690)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B375460)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B366C00)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B375150)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B3750F0)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B375A40)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B367430)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B375330)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B375860)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B3758C0)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B375C20)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B375390)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3673E0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B877700)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B877990)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1B868280)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B877100)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B869150)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B877400)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B8771D0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B868970)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B876EC0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B876E60)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B8777B0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B8691A0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B8770A0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B8775D0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B877630)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionRangeOptions_TypeDefinitionIndex = 5461;
-
 	class ExtensionRangeOptions : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ExtensionRangeOptions*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ExtensionRangeOptions*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRangeOptions_TypeDefinitionIndex)->GetStaticField(0x1EA70);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>** StaticGet__repeated_uninterpretedOption_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>**)Il2CppClass::FromTypeDefinitionIndex(ExtensionRangeOptions_TypeDefinitionIndex)->GetStaticField(0x1EA78);
-		}
-		::Google::Protobuf::ExtensionSet_1<::Google::Protobuf::Reflection::ExtensionRangeOptions*>* _extensions; // 0x10
+		::Google::Protobuf::ExtensionSet* _extensions; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x18
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
+		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_uninterpretedOption_codec()
+		{
+			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "ExtensionRangeOptions")->GetStaticField(0x1CBD0);
+		}
+
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.Reflection", "ExtensionRangeOptions")->GetStaticField(0x1CBD8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Google::Protobuf::Reflection::ExtensionRangeOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::ExtensionRangeOptions*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::ExtensionRangeOptions*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ExtensionRangeOptions*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::ExtensionRangeOptions*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -122,5 +122,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_EXTENSIONRANGEOPTIONS_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

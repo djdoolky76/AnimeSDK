@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetStageItemState; }
 namespace RPG::GameCore { class StageItemAlias; }
 
-#define RPG_GAMECORE_SETSTAGEITEMSTATE_METHOD_3_76A48D2CB3079269_OFFSET UNITYSDK_OFFSET(0x1D50E5B0)
-#define RPG_GAMECORE_SETSTAGEITEMSTATE_METHOD_3_A32D50BB152E2BA6_OFFSET UNITYSDK_OFFSET(0x1D50E570)
-#define RPG_GAMECORE_SETSTAGEITEMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D50E5A0)
+#define RPG_GAMECORE_SETSTAGEITEMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC2A80)
+#define RPG_GAMECORE_SETSTAGEITEMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC2A90)
+#define RPG_GAMECORE_SETSTAGEITEMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC2A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetStageItemState_TypeDefinitionIndex = 22004;
-
 	class SetStageItemState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::StageItemAlias*>* ItemList; // 0x18
 		::System::Boolean EnableState; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEITEMSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEITEMSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A32D50BB152E2BA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetStageItemState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetStageItemState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetStageItemState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEITEMSTATE_METHOD_3_A32D50BB152E2BA6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetStageItemState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEITEMSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_76A48D2CB3079269(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetStageItemState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetStageItemState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetStageItemState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEITEMSTATE_METHOD_3_76A48D2CB3079269_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetStageItemState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTAGEITEMSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

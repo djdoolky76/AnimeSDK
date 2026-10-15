@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RemoveAssistAvatar; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_REMOVEASSISTAVATAR_METHOD_3_4091A4A4C0EF7798_OFFSET UNITYSDK_OFFSET(0x1D39DA10)
-#define RPG_GAMECORE_REMOVEASSISTAVATAR_METHOD_3_F63A31B6F5BE6DD5_OFFSET UNITYSDK_OFFSET(0x1D39DAE0)
-#define RPG_GAMECORE_REMOVEASSISTAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D39DAD0)
+#define RPG_GAMECORE_REMOVEASSISTAVATAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D983F50)
+#define RPG_GAMECORE_REMOVEASSISTAVATAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D983F60)
+#define RPG_GAMECORE_REMOVEASSISTAVATAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D983E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveAssistAvatar_TypeDefinitionIndex = 20305;
-
 	class RemoveAssistAvatar : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEASSISTAVATAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEASSISTAVATAR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4091A4A4C0EF7798(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveAssistAvatar*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RemoveAssistAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveAssistAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEASSISTAVATAR_METHOD_3_4091A4A4C0EF7798_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RemoveAssistAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEASSISTAVATAR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F63A31B6F5BE6DD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveAssistAvatar* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RemoveAssistAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveAssistAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEASSISTAVATAR_METHOD_3_F63A31B6F5BE6DD5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RemoveAssistAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEASSISTAVATAR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

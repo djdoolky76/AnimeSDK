@@ -3,8 +3,6 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Image_OriginHorizontal_TypeDefinitionIndex = 6722;
-
 	enum class Image_OriginHorizontal : ::System::Int32
 	{
 		Left = 0,

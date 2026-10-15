@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFD1080)
-#define RPG_GAMECORE_CHIMERAEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD11B0)
+#define RPG_GAMECORE_CHIMERAEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ACA10)
+#define RPG_GAMECORE_CHIMERAEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5AC8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEmojiRow_TypeDefinitionIndex = 12940;
-
 	class ChimeraEmojiRow : public ::System::Object
 	{
 	public:
 		::System::String* EmojiPath; // 0x10
 		::System::UInt32 EmojiID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEMOJIROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEMOJIROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraEmojiRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraEmojiRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraEmojiRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraEmojiRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERAEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

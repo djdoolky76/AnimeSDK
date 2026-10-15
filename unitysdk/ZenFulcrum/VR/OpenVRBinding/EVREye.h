@@ -3,8 +3,6 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVREye_TypeDefinitionIndex = 37917;
-
 	enum class EVREye : ::System::Int32
 	{
 		Eye_Left = 0,

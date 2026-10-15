@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UIElements/PointerCaptureEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREOUTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF57F0)
+#define UNITYENGINE_UIELEMENTS_POINTERCAPTUREOUTEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4BEA10)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerCaptureOutEvent_TypeDefinitionIndex = 5903;
-
-	class PointerCaptureOutEvent : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<::UnityEngine::UIElements::PointerCaptureOutEvent*>
+	class PointerCaptureOutEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERCAPTUREOUTEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTERCAPTUREOUTEVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

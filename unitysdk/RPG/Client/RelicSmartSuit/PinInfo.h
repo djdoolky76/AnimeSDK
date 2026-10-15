@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_18C00C8FB77B0B39_2;
-class Class_1_455008579EB95638_9;
+class CABBOOKAODO;
+class ONFLANPGHHL;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client::RelicSmartSuit { class PinData; }
 namespace RPG::Client::RelicSmartSuit { class PinDataKey; }
+namespace RPG::Client::RelicSmartSuit { class PinInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_CREATE_OFFSET UNITYSDK_OFFSET(0xDE3CD20)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_1_OFFSET UNITYSDK_OFFSET(0xDE3D2E0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_2_OFFSET UNITYSDK_OFFSET(0xDE3D390)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_OFFSET UNITYSDK_OFFSET(0xDE3D1F0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_GETPINDATA_OFFSET UNITYSDK_OFFSET(0xDE3CEC0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xDE3CBE0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_GET_PINDATAKEYS_OFFSET UNITYSDK_OFFSET(0xDE3CC00)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0xDE3CBF0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_1_OFFSET UNITYSDK_OFFSET(0xDE3D010)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_OFFSET UNITYSDK_OFFSET(0xDE3CFA0)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDE3CE30)
-#define RPG_CLIENT_RELICSMARTSUIT_PININFO__GETORCREATEPINDATA_OFFSET UNITYSDK_OFFSET(0xDE3D090)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_CREATE_OFFSET UNITYSDK_OFFSET(0xDE8B450)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDE8B560)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_1_OFFSET UNITYSDK_OFFSET(0xDE8BA10)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_2_OFFSET UNITYSDK_OFFSET(0xDE8BAC0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_OFFSET UNITYSDK_OFFSET(0xDE8B920)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_GETPINDATA_OFFSET UNITYSDK_OFFSET(0xDE8B5F0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xDE8B310)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_GET_PINDATAKEYS_OFFSET UNITYSDK_OFFSET(0xDE8B330)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0xDE8B320)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_1_OFFSET UNITYSDK_OFFSET(0xDE8B740)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_OFFSET UNITYSDK_OFFSET(0xDE8B6D0)
+#define RPG_CLIENT_RELICSMARTSUIT_PININFO__GETORCREATEPINDATA_OFFSET UNITYSDK_OFFSET(0xDE8B7C0)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int PinInfo_TypeDefinitionIndex = 74313;
-
 	class PinInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::RelicSmartSuit::PinDataKey*, ::RPG::Client::RelicSmartSuit::PinData*>* _PinDatas; // 0x10
 		::System::UInt32 _AvatarID_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_AvatarID()
@@ -63,24 +60,24 @@ namespace RPG::Client::RelicSmartSuit
 			return ((::RPG::Client::RelicSmartSuit::PinData*(*)(::PVOID, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_GETPINDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncPinData(::Class_1_455008579EB95638_9* a1)
+		::System::Void SyncPinData(::CABBOOKAODO* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_455008579EB95638_9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CABBOOKAODO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncPinData_1(::Class_1_18C00C8FB77B0B39_2* a1, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* a2)
+		::System::Void SyncPinData_1(::ONFLANPGHHL* a1, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_18C00C8FB77B0B39_2*, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::ONFLANPGHHL*, ::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_SYNCPINDATA_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void DeletePinData(::Class_1_455008579EB95638_9* a1)
+		::System::Void DeletePinData(::CABBOOKAODO* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_455008579EB95638_9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CABBOOKAODO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_OFFSET))(this, a1);
 		}
 
-		::System::Void DeletePinData_1(::Class_1_18C00C8FB77B0B39_2* a1)
+		::System::Void DeletePinData_1(::ONFLANPGHHL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_18C00C8FB77B0B39_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::ONFLANPGHHL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO_DELETEPINDATA_1_OFFSET))(this, a1);
 		}
 
 		::System::Void DeletePinData_2(::RPG::Client::RelicSmartSuit::PinDataKey* a1)
@@ -92,5 +89,6 @@ namespace RPG::Client::RelicSmartSuit
 		{
 			return ((::RPG::Client::RelicSmartSuit::PinData*(*)(::PVOID, ::RPG::Client::RelicSmartSuit::PinDataKey*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICSMARTSUIT_PININFO__GETORCREATEPINDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

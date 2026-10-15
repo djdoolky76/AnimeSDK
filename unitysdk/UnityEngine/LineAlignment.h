@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LineAlignment_TypeDefinitionIndex = 4182;
-
 	enum class LineAlignment : ::System::Int32
 	{
 		View = 0,

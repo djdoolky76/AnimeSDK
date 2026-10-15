@@ -4,44 +4,39 @@
 #include "unitysdk/RPG/Client/EAirlineMoorState.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_083521F7486609FD;
-class Class_1_5F439A66B759DFD0;
+class DBCCLMILLOB;
+class NBJNPBNNLBH;
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIRLINESTATION_AWAKE_OFFSET UNITYSDK_OFFSET(0xC721F40)
-#define RPG_CLIENT_AIRLINESTATION_GETCURRENTTRANSITIONPOSITION_OFFSET UNITYSDK_OFFSET(0xC721E40)
-#define RPG_CLIENT_AIRLINESTATION_GET_AIRSHIP_OFFSET UNITYSDK_OFFSET(0xC71FDE0)
-#define RPG_CLIENT_AIRLINESTATION_GET_ISMOOREDSTATE_OFFSET UNITYSDK_OFFSET(0xC720180)
-#define RPG_CLIENT_AIRLINESTATION_GET_ISMOORINGTRANSITION_OFFSET UNITYSDK_OFFSET(0xC71FDF0)
-#define RPG_CLIENT_AIRLINESTATION_GET_MOORENTERPOINT_OFFSET UNITYSDK_OFFSET(0xC71FF70)
-#define RPG_CLIENT_AIRLINESTATION_GET_MOOREXITPOINT_OFFSET UNITYSDK_OFFSET(0xC720010)
-#define RPG_CLIENT_AIRLINESTATION_GET_REQUESTBACK_OFFSET UNITYSDK_OFFSET(0xC720110)
-#define RPG_CLIENT_AIRLINESTATION_GET_REQUESTMOOR_OFFSET UNITYSDK_OFFSET(0xC7200B0)
-#define RPG_CLIENT_AIRLINESTATION_INIT_OFFSET UNITYSDK_OFFSET(0xC7201D0)
-#define RPG_CLIENT_AIRLINESTATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC722320)
-#define RPG_CLIENT_AIRLINESTATION_SETAIRSHIP_OFFSET UNITYSDK_OFFSET(0xC720250)
-#define RPG_CLIENT_AIRLINESTATION_TICK_OFFSET UNITYSDK_OFFSET(0xC720360)
-#define RPG_CLIENT_AIRLINESTATION__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7224E0)
-#define RPG_CLIENT_AIRLINESTATION__CTOR_OFFSET UNITYSDK_OFFSET(0xC722380)
+#define RPG_CLIENT_AIRLINESTATION_AWAKE_OFFSET UNITYSDK_OFFSET(0xC640140)
+#define RPG_CLIENT_AIRLINESTATION_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6406E0)
+#define RPG_CLIENT_AIRLINESTATION_CTOR_OFFSET UNITYSDK_OFFSET(0xC640580)
+#define RPG_CLIENT_AIRLINESTATION_GETCURRENTTRANSITIONPOSITION_OFFSET UNITYSDK_OFFSET(0xC640040)
+#define RPG_CLIENT_AIRLINESTATION_GET_AIRSHIP_OFFSET UNITYSDK_OFFSET(0xC63DFE0)
+#define RPG_CLIENT_AIRLINESTATION_GET_ISMOOREDSTATE_OFFSET UNITYSDK_OFFSET(0xC63E380)
+#define RPG_CLIENT_AIRLINESTATION_GET_ISMOORINGTRANSITION_OFFSET UNITYSDK_OFFSET(0xC63DFF0)
+#define RPG_CLIENT_AIRLINESTATION_GET_MOORENTERPOINT_OFFSET UNITYSDK_OFFSET(0xC63E170)
+#define RPG_CLIENT_AIRLINESTATION_GET_MOOREXITPOINT_OFFSET UNITYSDK_OFFSET(0xC63E210)
+#define RPG_CLIENT_AIRLINESTATION_GET_REQUESTBACK_OFFSET UNITYSDK_OFFSET(0xC63E310)
+#define RPG_CLIENT_AIRLINESTATION_GET_REQUESTMOOR_OFFSET UNITYSDK_OFFSET(0xC63E2B0)
+#define RPG_CLIENT_AIRLINESTATION_INIT_OFFSET UNITYSDK_OFFSET(0xC63E3D0)
+#define RPG_CLIENT_AIRLINESTATION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC640520)
+#define RPG_CLIENT_AIRLINESTATION_SETAIRSHIP_OFFSET UNITYSDK_OFFSET(0xC63E450)
+#define RPG_CLIENT_AIRLINESTATION_TICK_OFFSET UNITYSDK_OFFSET(0xC63E560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineStation_TypeDefinitionIndex = 59904;
-
 	class AirlineStation : public ::RPG::Client::Airline
 	{
 	public:
-		static ::UnityEngine::AnimationCurve** StaticGet_LerpCurve()
-		{
-			return (::UnityEngine::AnimationCurve**)Il2CppClass::FromTypeDefinitionIndex(AirlineStation_TypeDefinitionIndex)->GetStaticField(0x651C0);
-		}
 		::System::Boolean isMoorHorizontal; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Int32 moorEnterPointIndex; // 0x34
 		::System::Int32 moorTransitionEnterPointIndex; // 0x38
 		::System::Int32 moorExitPointIndex; // 0x3C
 		::System::Int32 moorTransitionExitPointIndex; // 0x40
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* mooredToStationTiltCurve; // 0x48
 		::UnityEngine::AnimationCurve* enterStationVerticalTiltCurve; // 0x50
 		::UnityEngine::AnimationCurve* exitStationVerticalTiltCurve; // 0x58
@@ -49,31 +44,36 @@ namespace RPG::Client
 		::System::Single mooredToStationDuration; // 0x68
 		::System::Single stationWaitDuration; // 0x6C
 		::System::Single mooredStopEventNormalizedTime; // 0x70
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* mooredEnterStationCurve; // 0x78
 		::UnityEngine::AnimationCurve* mooredExitStationCurve; // 0x80
 		::UnityEngine::Vector2 mooringRequestTimeRange; // 0x88
-		::Class_1_083521F7486609FD* JFJPIBHCGNK; // 0x90
+		::DBCCLMILLOB* JFJPIBHCGNK; // 0x90
 		::System::Single LBBIIBDKOKI; // 0x98
 		::System::Single EKBLJDFIHAC; // 0x9C
 		::System::Single ANCCFCLMLKH; // 0xA0
 		::RPG::Client::EAirlineMoorState FPGLMKDOPPG; // 0xA4
-		::Class_1_5F439A66B759DFD0* EHHCPMFKNKP; // 0xA8
+		::NBJNPBNNLBH* EHHCPMFKNKP; // 0xA8
 		::System::Single EHKCBIBNLHK; // 0xB0
 		::System::Single FBMHAAKGMPJ; // 0xB4
+		static ::UnityEngine::AnimationCurve** StaticGet_LerpCurve()
+		{
+			return (::UnityEngine::AnimationCurve**)UnitySDK::FromName("RPG.Client", "AirlineStation")->GetStaticField(0x504F0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_CCTOR_OFFSET))();
 		}
 
-		::Class_1_5F439A66B759DFD0* get_Airship()
+		::NBJNPBNNLBH* get_Airship()
 		{
-			return ((::Class_1_5F439A66B759DFD0*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_GET_AIRSHIP_OFFSET))(this);
+			return ((::NBJNPBNNLBH*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_GET_AIRSHIP_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsMooringTransition()
@@ -106,14 +106,14 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_GET_ISMOOREDSTATE_OFFSET))(this);
 		}
 
-		::System::Void Init(::Class_1_083521F7486609FD* a1, ::System::Single a2, ::System::Single a3)
+		::System::Void Init(::DBCCLMILLOB* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_083521F7486609FD*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_INIT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::DBCCLMILLOB*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void SetAirship(::Class_1_5F439A66B759DFD0* a1, ::System::Single a2)
+		::System::Void SetAirship(::NBJNPBNNLBH* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5F439A66B759DFD0*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_SETAIRSHIP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::NBJNPBNNLBH*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_SETAIRSHIP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Tick(::System::Single a1)
@@ -135,5 +135,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINESTATION_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

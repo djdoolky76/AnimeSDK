@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int POSMType_TypeDefinitionIndex = 36991;
-
 	enum class POSMType : ::System::Int32
 	{
 		None = -1,

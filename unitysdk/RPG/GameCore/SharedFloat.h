@@ -2,44 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SharedValue.h"
 #include "unitysdk/RPG/GameCore/SharedValueType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SharedFloat; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_SHAREDFLOAT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D51BF90)
-#define RPG_GAMECORE_SHAREDFLOAT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D51BFE0)
-#define RPG_GAMECORE_SHAREDFLOAT_METHOD_3_85D22C255258C41D_OFFSET UNITYSDK_OFFSET(0x1D51BF80)
-#define RPG_GAMECORE_SHAREDFLOAT_METHOD_3_CCD85D2FF35B1913_OFFSET UNITYSDK_OFFSET(0x1D51BE90)
-#define RPG_GAMECORE_SHAREDFLOAT_METHOD_3_D87B231C96B37D4C_OFFSET UNITYSDK_OFFSET(0x1D51BE50)
-#define RPG_GAMECORE_SHAREDFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D51BE80)
+#define RPG_GAMECORE_SHAREDFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD0680)
+#define RPG_GAMECORE_SHAREDFLOAT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DAD0790)
+#define RPG_GAMECORE_SHAREDFLOAT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DAD07E0)
+#define RPG_GAMECORE_SHAREDFLOAT_IMGLGAIIPCA_OFFSET UNITYSDK_OFFSET(0x1DAD0780)
+#define RPG_GAMECORE_SHAREDFLOAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD0690)
+#define RPG_GAMECORE_SHAREDFLOAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD0650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SharedFloat_TypeDefinitionIndex = 18088;
-
 	class SharedFloat : public ::RPG::GameCore::SharedValue
 	{
 	public:
 		::System::Single Value; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D87B231C96B37D4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SharedFloat*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SharedFloat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SharedFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_METHOD_3_D87B231C96B37D4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SharedFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CCD85D2FF35B1913(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SharedFloat* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SharedFloat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SharedFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_METHOD_3_CCD85D2FF35B1913_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SharedFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		::RPG::GameCore::SharedValueType Method_3_85D22C255258C41D()
+		::RPG::GameCore::SharedValueType IMGLGAIIPCA()
 		{
-			return ((::RPG::GameCore::SharedValueType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_METHOD_3_85D22C255258C41D_OFFSET))(this);
+			return ((::RPG::GameCore::SharedValueType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_IMGLGAIIPCA_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -51,5 +48,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREDFLOAT_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,34 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/IdleLiveFuncUnlockType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_B18A907A8E4C5C9C;
+class IONGFDBBCIF;
 namespace RPG::Client::ActivityIdleLive { class FuncUnlockUiData; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5B94A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_REGISTERFUNCUNLOCKDEST_OFFSET UNITYSDK_OFFSET(0xC5B9000)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_REGISTERROOT_OFFSET UNITYSDK_OFFSET(0xC5B8F10)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_SHOWFUNCUNLOCKFLY_OFFSET UNITYSDK_OFFSET(0xC5B90C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B94E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0xC4D1200)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4D11C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_REGISTERFUNCUNLOCKDEST_OFFSET UNITYSDK_OFFSET(0xC4D0D20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_REGISTERROOT_OFFSET UNITYSDK_OFFSET(0xC4D0C30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_SHOWFUNCUNLOCKFLY_OFFSET UNITYSDK_OFFSET(0xC4D0DE0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService_TypeDefinitionIndex = 74993;
-
 	class IdleLiveFuncUnlockFlyService : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::IdleLiveFuncUnlockType, ::UnityEngine::Transform*>* _FuncUnlockDestinations; // 0x10
+		::IONGFDBBCIF* _PoolMgr; // 0x18
 		// static const ::System::String* FUNC_UNLOCK_FLY_PREFAB_PATH; // 0x0
 		// static const ::System::String* FUNC_UNLOCK_ADD_PREFAB_PATH; // 0x0
-		::Class_1_B18A907A8E4C5C9C* _PoolMgr; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::IdleLiveFuncUnlockType, ::UnityEngine::Transform*>* _FuncUnlockDestinations; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void RegisterRoot(::UnityEngine::Transform* a1)
@@ -51,5 +46,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEFUNCUNLOCKFLYSERVICE_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

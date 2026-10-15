@@ -3,8 +3,6 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int PivotPoint_TypeDefinitionIndex = 43190;
-
 	enum class PivotPoint : ::System::Int32
 	{
 		Center = 0,

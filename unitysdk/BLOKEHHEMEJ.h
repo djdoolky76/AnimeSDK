@@ -1,0 +1,127 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GameObjectSpawnPriority.h"
+#include "unitysdk/System/Object.h"
+class AIBOPLOBAFN;
+class BLOKEHHEMEJ;
+class LEKNHIPIKCF;
+namespace UnityEngine { class Transform; }
+
+#define BLOKEHHEMEJ_ABICMAAGMHA_OFFSET UNITYSDK_OFFSET(0xBA82270)
+#define BLOKEHHEMEJ_BHHKPJJPKJE_OFFSET UNITYSDK_OFFSET(0xBA828B0)
+#define BLOKEHHEMEJ_BMCPIEBMHNL_OFFSET UNITYSDK_OFFSET(0xBA82870)
+#define BLOKEHHEMEJ_CIBMGBECLIJ_OFFSET UNITYSDK_OFFSET(0xBA82140)
+#define BLOKEHHEMEJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xBA82530)
+#define BLOKEHHEMEJ_COKMDIMBLHN_OFFSET UNITYSDK_OFFSET(0xBA81DA0)
+#define BLOKEHHEMEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBA828D0)
+#define BLOKEHHEMEJ_EJJCDIBFIHC_OFFSET UNITYSDK_OFFSET(0xBA824C0)
+#define BLOKEHHEMEJ_FGHGFOIBGBB_OFFSET UNITYSDK_OFFSET(0xBA82850)
+#define BLOKEHHEMEJ_FGIEAIPDGKF_OFFSET UNITYSDK_OFFSET(0xBA82410)
+#define BLOKEHHEMEJ_JAJHBMPLEPJ_OFFSET UNITYSDK_OFFSET(0xBA828A0)
+#define BLOKEHHEMEJ_JKEONEEPIHH_OFFSET UNITYSDK_OFFSET(0xBA82890)
+#define BLOKEHHEMEJ_OKDDMOKIIAL_OFFSET UNITYSDK_OFFSET(0xBA82200)
+#define BLOKEHHEMEJ_OMNKIBGJAEE_OFFSET UNITYSDK_OFFSET(0xBA827B0)
+#define BLOKEHHEMEJ_PEGNNGHPLLG_OFFSET UNITYSDK_OFFSET(0xBA82860)
+#define BLOKEHHEMEJ_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0xBA828C0)
+#define BLOKEHHEMEJ_PPAMJNOKPLO_OFFSET UNITYSDK_OFFSET(0xBA82880)
+
+	class BLOKEHHEMEJ : public ::System::Object
+	{
+	public:
+		::BLOKEHHEMEJ* CNBOIIKOJGM; // 0x10
+		::AIBOPLOBAFN* BEHHICMOFIE; // 0x18
+		::UnityEngine::Transform* KJMDDAHEODL; // 0x20
+		::BLOKEHHEMEJ* FHDMPOEAADH; // 0x28
+		::BLOKEHHEMEJ* JHMICIDBPLO; // 0x30
+		::BLOKEHHEMEJ* GPCCGEAODJF; // 0x38
+		::LEKNHIPIKCF* MPKAFEJFNKN; // 0x40
+		::System::Boolean FMNEEONAMNO; // 0x48
+		::System::Byte _padding0[0x3];
+		::RPG::Client::GameObjectSpawnPriority BOCOKNFLKID; // 0x4C
+		::System::Single CNGBCLOBGPD; // 0x50
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_CTOR_OFFSET))(this);
+		}
+
+		static ::BLOKEHHEMEJ* COKMDIMBLHN(::AIBOPLOBAFN* a1, ::LEKNHIPIKCF* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4)
+		{
+			return ((::BLOKEHHEMEJ*(*)(::AIBOPLOBAFN*, ::LEKNHIPIKCF*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_COKMDIMBLHN_OFFSET))(a1, a2, a3, a4);
+		}
+
+		::System::Void ABICMAAGMHA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_ABICMAAGMHA_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_CLEAR_OFFSET))(this);
+		}
+
+		::System::Void CIBMGBECLIJ(::BLOKEHHEMEJ* a1, ::BLOKEHHEMEJ* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BLOKEHHEMEJ*, ::BLOKEHHEMEJ*))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_CIBMGBECLIJ_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OKDDMOKIIAL(::BLOKEHHEMEJ* a1, ::BLOKEHHEMEJ* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BLOKEHHEMEJ*, ::BLOKEHHEMEJ*))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_OKDDMOKIIAL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void EJJCDIBFIHC(::BLOKEHHEMEJ* a1, ::BLOKEHHEMEJ* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BLOKEHHEMEJ*, ::BLOKEHHEMEJ*))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_EJJCDIBFIHC_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OMNKIBGJAEE(::BLOKEHHEMEJ* a1, ::BLOKEHHEMEJ* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BLOKEHHEMEJ*, ::BLOKEHHEMEJ*))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_OMNKIBGJAEE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void FGIEAIPDGKF(::BLOKEHHEMEJ* a1, ::BLOKEHHEMEJ* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BLOKEHHEMEJ*, ::BLOKEHHEMEJ*))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_FGIEAIPDGKF_OFFSET))(this, a1, a2);
+		}
+
+		::System::Single FGHGFOIBGBB()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_FGHGFOIBGBB_OFFSET))(this);
+		}
+
+		::AIBOPLOBAFN* PEGNNGHPLLG()
+		{
+			return ((::AIBOPLOBAFN*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_PEGNNGHPLLG_OFFSET))(this);
+		}
+
+		::LEKNHIPIKCF* BMCPIEBMHNL()
+		{
+			return ((::LEKNHIPIKCF*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_BMCPIEBMHNL_OFFSET))(this);
+		}
+
+		::UnityEngine::Transform* PPAMJNOKPLO()
+		{
+			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_PPAMJNOKPLO_OFFSET))(this);
+		}
+
+		::System::Boolean JKEONEEPIHH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_JKEONEEPIHH_OFFSET))(this);
+		}
+
+		::BLOKEHHEMEJ* JAJHBMPLEPJ()
+		{
+			return ((::BLOKEHHEMEJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_JAJHBMPLEPJ_OFFSET))(this);
+		}
+
+		::BLOKEHHEMEJ* BHHKPJJPKJE()
+		{
+			return ((::BLOKEHHEMEJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_BHHKPJJPKJE_OFFSET))(this);
+		}
+
+		::RPG::Client::GameObjectSpawnPriority PLNCKLJOJME()
+		{
+			return ((::RPG::Client::GameObjectSpawnPriority(*)(::PVOID))((::PBYTE)hIl2Cpp + BLOKEHHEMEJ_PLNCKLJOJME_OFFSET))(this);
+		}
+
+	};

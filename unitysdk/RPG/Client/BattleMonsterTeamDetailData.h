@@ -1,45 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class BattleMonsterTeamDetailData; }
 namespace RPG::Client { class BattleMonsterTeamDetailSkillData; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class MonsterDataComponent; }
 namespace RPG::GameCore { class MonsterRowData; }
 namespace RPG::GameCore { class MonsterSkillRowData; }
+namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_CREATEFROMID_OFFSET UNITYSDK_OFFSET(0xC9209A0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC920480)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GETALLPHASESKILLS_OFFSET UNITYSDK_OFFSET(0xC920C10)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GETDEFAULTPHASEID_OFFSET UNITYSDK_OFFSET(0xC920B40)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GET_CONTAINSMULTIFORMTAG_OFFSET UNITYSDK_OFFSET(0xC921650)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GET__SKILLHIDEINFONAMES_OFFSET UNITYSDK_OFFSET(0xC9211E0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__ADDSKILLTOPHASE_OFFSET UNITYSDK_OFFSET(0xC921300)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9205E0)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__DISPATCHSKILLTOPHASE_OFFSET UNITYSDK_OFFSET(0xC920E80)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__REFRESHSKILLS_OFFSET UNITYSDK_OFFSET(0xC920670)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_CREATEFROMID_OFFSET UNITYSDK_OFFSET(0xC845380)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC844E50)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC844FB0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GETALLPHASESKILLS_OFFSET UNITYSDK_OFFSET(0xC8455F0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GETDEFAULTPHASEID_OFFSET UNITYSDK_OFFSET(0xC845520)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GET_CONTAINSMULTIFORMTAG_OFFSET UNITYSDK_OFFSET(0xC846040)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GET__SKILLHIDEINFONAMES_OFFSET UNITYSDK_OFFSET(0xC845BD0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__ADDSKILLTOPHASE_OFFSET UNITYSDK_OFFSET(0xC845CF0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__DISPATCHSKILLTOPHASE_OFFSET UNITYSDK_OFFSET(0xC845860)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__REFRESHSKILLS_OFFSET UNITYSDK_OFFSET(0xC845040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleMonsterTeamDetailData_TypeDefinitionIndex = 71969;
-
 	class BattleMonsterTeamDetailData : public ::System::Object
 	{
 	public:
-		// static const ::System::String* _MultiFormTag; // 0x0
-		// static const ::System::UInt32 _DefaultPhaseID = 0x1; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::BattleMonsterTeamDetailSkillData*>* _PhaseSkills; // 0x10
 		::RPG::GameCore::MonsterDataComponent* _MonsterDataComponent; // 0x18
 		::RPG::GameCore::MonsterRowData* _MonsterRowData; // 0x20
-
+		// static const ::System::String* _MultiFormTag; // 0x0
+		// static const ::System::Object _DefaultPhaseID; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::BattleMonsterTeamDetailData* Create(::RPG::GameCore::MonsterDataComponent* a1)
@@ -67,9 +64,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__REFRESHSKILLS_OFFSET))(this);
 		}
 
-		::System::Void _DispatchSkillToPhase(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* a1, ::System::Nullable_1<::System::UInt32> a2)
+		::System::Void _DispatchSkillToPhase(::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>* a1, ::System::Nullable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__DISPATCHSKILLTOPHASE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::ICharacterSkillRowData*>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA__DISPATCHSKILLTOPHASE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _AddSkillToPhase(::RPG::GameCore::MonsterSkillRowData* a1, ::System::UInt32 a2)
@@ -86,5 +83,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::HashSet_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA_GET__SKILLHIDEINFONAMES_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureShowReading; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_9DEEDA39FF9C3752_OFFSET UNITYSDK_OFFSET(0x1CDF7170)
-#define RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_A0AFDBD98A1DC40B_OFFSET UNITYSDK_OFFSET(0x1CDF7120)
-#define RPG_GAMECORE_ADVENTURESHOWREADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF7160)
+#define RPG_GAMECORE_ADVENTURESHOWREADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CD330)
+#define RPG_GAMECORE_ADVENTURESHOWREADING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3CD340)
+#define RPG_GAMECORE_ADVENTURESHOWREADING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CD2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureShowReading_TypeDefinitionIndex = 20653;
-
 	class AdventureShowReading : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* BookID; // 0x18
 		::System::Boolean WaitForExit; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0AFDBD98A1DC40B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureShowReading*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureShowReading* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureShowReading*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_A0AFDBD98A1DC40B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureShowReading*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9DEEDA39FF9C3752(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureShowReading* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureShowReading* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureShowReading*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_9DEEDA39FF9C3752_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureShowReading*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

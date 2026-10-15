@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class QTEData; }
 namespace RPGTools::Timeline { class QTEMixer; }
 
-#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE8DA360)
-#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_GET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8DA380)
-#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8DA3A0)
-#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE8DA370)
-#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_SET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8DA390)
-#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DA690)
+#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE92FE40)
+#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE92FB10)
+#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_GET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE92FB30)
+#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE92FB50)
+#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE92FB20)
+#define RPGTOOLS_TIMELINE_QTEBEHAVIOUR_SET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE92FB40)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEBehaviour_TypeDefinitionIndex = 48718;
-
 	class QTEBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::QTEData* _Config_k__BackingField; // 0x10
 		::RPGTools::Timeline::QTEMixer* _TrackMixer_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::QTEData* get_Config()
@@ -53,5 +49,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

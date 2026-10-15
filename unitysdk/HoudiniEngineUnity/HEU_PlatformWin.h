@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_PlatformWin_RegSAM.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETAPPLICATIONPATH_OFFSET UNITYSDK_OFFSET(0x1B46F4C0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETREGISTRYKEYVALUE_OFFSET UNITYSDK_OFFSET(0x1B46F0F0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETREGISTRYKEYVALUE_X64_OFFSET UNITYSDK_OFFSET(0x1B46F450)
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETREGISTRYKEYVALUE_X86_OFFSET UNITYSDK_OFFSET(0x1B46F3E0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGCLOSEKEY_OFFSET UNITYSDK_OFFSET(0x1B46F070)
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGOPENKEYEX_OFFSET UNITYSDK_OFFSET(0x1B46EEB0)
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGQUERYVALUEEX_OFFSET UNITYSDK_OFFSET(0x1B46EF70)
-#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B46F860)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B971AA0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETAPPLICATIONPATH_OFFSET UNITYSDK_OFFSET(0x1B971700)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETREGISTRYKEYVALUE_OFFSET UNITYSDK_OFFSET(0x1B971330)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETREGISTRYKEYVALUE_X64_OFFSET UNITYSDK_OFFSET(0x1B971690)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETREGISTRYKEYVALUE_X86_OFFSET UNITYSDK_OFFSET(0x1B971620)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGCLOSEKEY_OFFSET UNITYSDK_OFFSET(0x1B9712B0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGOPENKEYEX_OFFSET UNITYSDK_OFFSET(0x1B9710F0)
+#define HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGQUERYVALUEEX_OFFSET UNITYSDK_OFFSET(0x1B9711B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PlatformWin_TypeDefinitionIndex = 39140;
-
 	class HEU_PlatformWin : public ::System::Object
 	{
 	public:
-		static ::System::UIntPtr* StaticGet_HKEY_CURRENT_USER()
-		{
-			return (::System::UIntPtr*)Il2CppClass::FromTypeDefinitionIndex(HEU_PlatformWin_TypeDefinitionIndex)->GetStaticField(0x13F20);
-		}
 		static ::System::UIntPtr* StaticGet_HKEY_LOCAL_MACHINE()
 		{
-			return (::System::UIntPtr*)Il2CppClass::FromTypeDefinitionIndex(HEU_PlatformWin_TypeDefinitionIndex)->GetStaticField(0x13F28);
+			return (::System::UIntPtr*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_PlatformWin")->GetStaticField(0x12E00);
+		}
+
+		static ::System::UIntPtr* StaticGet_HKEY_CURRENT_USER()
+		{
+			return (::System::UIntPtr*)UnitySDK::FromName("HoudiniEngineUnity", "HEU_PlatformWin")->GetStaticField(0x12E08);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORMWIN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORMWIN_CCTOR_OFFSET))();
 		}
 
-		static ::System::UInt32 RegOpenKeyEx(::System::UIntPtr a1, ::System::String* a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32& a5)
+		static ::System::UInt32 RegOpenKeyEx(::System::UIntPtr a1, ::System::String* a2, ::System::UInt32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::UInt32(*)(::System::UIntPtr, ::System::String*, ::System::UInt32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGOPENKEYEX_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::UInt32(*)(::System::UIntPtr, ::System::String*, ::System::UInt32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGOPENKEYEX_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 RegQueryValueEx(::System::Int32 a1, ::System::String* a2, ::System::Int32 a3, ::System::UInt32& a4, ::System::Text::StringBuilder* a5, ::System::UInt32& a6)
+		static ::System::Int32 RegQueryValueEx(::System::Int32 a1, ::System::String* a2, ::System::Int32 a3, ::System::UInt32 a4, ::System::Text::StringBuilder* a5, ::System::UInt32 a6)
 		{
-			return ((::System::Int32(*)(::System::Int32, ::System::String*, ::System::Int32, ::System::UInt32&, ::System::Text::StringBuilder*, ::System::UInt32&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGQUERYVALUEEX_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Int32(*)(::System::Int32, ::System::String*, ::System::Int32, ::System::UInt32, ::System::Text::StringBuilder*, ::System::UInt32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORMWIN_REGQUERYVALUEEX_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::UInt32 RegCloseKey(::System::Int32 a1)
@@ -70,5 +68,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PLATFORMWIN_GETAPPLICATIONPATH_OFFSET))(a1);
 		}
+
 	};
 }

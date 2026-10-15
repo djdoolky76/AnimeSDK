@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PARSEURLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xDA3B8F0)
-#define RPG_CLIENT_PARSEURLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xDA3B920)
-#define RPG_CLIENT_PARSEURLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xDA3B8E0)
-#define RPG_CLIENT_PARSEURLCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xDA3B870)
+#define RPG_CLIENT_PARSEURLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xDA87C20)
+#define RPG_CLIENT_PARSEURLCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xDA87BA0)
+#define RPG_CLIENT_PARSEURLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xDA87C50)
+#define RPG_CLIENT_PARSEURLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xDA87C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParseUrlCallBack_TypeDefinitionIndex = 59452;
-
 	class ParseUrlCallBack : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARSEURLCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARSEURLCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARSEURLCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,68 +1,64 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/BindManagerPS.h"
-
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::PS { class UserGameServerInfo; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_BINDEMAIL_OFFSET UNITYSDK_OFFSET(0x1BA40F60)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GETCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BA40530)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GETUSERGAMESERVERLIST_OFFSET UNITYSDK_OFFSET(0x1BA40D50)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GET_APPID_OFFSET UNITYSDK_OFFSET(0x1BA3FC60)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GET_RSAKEY_OFFSET UNITYSDK_OFFSET(0x1BA3FCF0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x1BA40730)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_QUERYWEBBINDINGRESULT_OFFSET UNITYSDK_OFFSET(0x1BA402A0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BA40AE0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTACTIONTICKET_OFFSET UNITYSDK_OFFSET(0x1BA401E0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTBINDTHIRDPARTY_OFFSET UNITYSDK_OFFSET(0x1BA41A60)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETACTIONTICKETINFO_OFFSET UNITYSDK_OFFSET(0x1BA40340)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETSERVERBYREGIONCODE_OFFSET UNITYSDK_OFFSET(0x1BA41520)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTLOGINBYACTIONTICKET_OFFSET UNITYSDK_OFFSET(0x1BA41380)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTMAILCAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BA41190)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTREACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BA40BB0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTUSERSERVERLIST_OFFSET UNITYSDK_OFFSET(0x1BA417A0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTVERIFYCAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BA40890)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_SHOWACCOUNTINFODIALOG_OFFSET UNITYSDK_OFFSET(0x1BA3FDB0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_UPDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BA40030)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA391E0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__GETCAPTCHACODE_B__23_0_OFFSET UNITYSDK_OFFSET(0x1BA42F60)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__QUERYWEBBINDINGRESULT_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BA42440)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__REACTIVATEACCOUNT_B__25_0_OFFSET UNITYSDK_OFFSET(0x1BA435C0)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__SHOWACCOUNTINFODIALOG_B__20_0_OFFSET UNITYSDK_OFFSET(0x1BA41C80)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__SHOWACCOUNTINFODIALOG_B__20_1_OFFSET UNITYSDK_OFFSET(0x1BA41D60)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__UPDATEQRCODE_B__21_0_OFFSET UNITYSDK_OFFSET(0x1BA41DE0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_BINDEMAIL_OFFSET UNITYSDK_OFFSET(0x1BF4A9F0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42C70)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GETCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BF49FC0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GETUSERGAMESERVERLIST_OFFSET UNITYSDK_OFFSET(0x1BF4A7E0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GET_APPID_OFFSET UNITYSDK_OFFSET(0x1BF496F0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_GET_RSAKEY_OFFSET UNITYSDK_OFFSET(0x1BF49780)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x1BF4A1C0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_QUERYWEBBINDINGRESULT_OFFSET UNITYSDK_OFFSET(0x1BF49D30)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BF4A570)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTACTIONTICKET_OFFSET UNITYSDK_OFFSET(0x1BF49C70)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTBINDTHIRDPARTY_OFFSET UNITYSDK_OFFSET(0x1BF4B4F0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETACTIONTICKETINFO_OFFSET UNITYSDK_OFFSET(0x1BF49DD0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETSERVERBYREGIONCODE_OFFSET UNITYSDK_OFFSET(0x1BF4AFB0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTLOGINBYACTIONTICKET_OFFSET UNITYSDK_OFFSET(0x1BF4AE10)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTMAILCAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BF4AC20)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTREACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BF4A640)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTUSERSERVERLIST_OFFSET UNITYSDK_OFFSET(0x1BF4B230)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTVERIFYCAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BF4A320)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_SHOWACCOUNTINFODIALOG_OFFSET UNITYSDK_OFFSET(0x1BF49840)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS_UPDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BF49AC0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__GETCAPTCHACODE_B__23_0_OFFSET UNITYSDK_OFFSET(0x1BF4C9F0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__QUERYWEBBINDINGRESULT_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BF4BED0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__REACTIVATEACCOUNT_B__25_0_OFFSET UNITYSDK_OFFSET(0x1BF4D050)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__SHOWACCOUNTINFODIALOG_B__20_0_OFFSET UNITYSDK_OFFSET(0x1BF4B710)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__SHOWACCOUNTINFODIALOG_B__20_1_OFFSET UNITYSDK_OFFSET(0x1BF4B7F0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSOS__UPDATEQRCODE_B__21_0_OFFSET UNITYSDK_OFFSET(0x1BF4B870)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int BindingManagerPSOS_TypeDefinitionIndex = 8839;
-
 	class BindingManagerPSOS : public ::MiHoYo::SDK::PS::BindManagerPS
 	{
 	public:
+		::System::String* WebTicket; // 0x30
+		::System::String* LoginTicket; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Headers; // 0x40
+		::MiHoYo::SDK::JSONObject* CaptchaVerifyCombination; // 0x48
+		::System::String* ReactivateTicket; // 0x50
+		::System::String* SToken; // 0x58
+		::System::String* UserEmail; // 0x60
+		::System::String* UserId; // 0x68
+		::System::String* PSNAccountName; // 0x70
+		::System::String* PSNAccountServer; // 0x78
 		// static const ::System::String* WEB_APP_ID_TEST; // 0x0
 		// static const ::System::String* WEB_APP_ID; // 0x0
 		// static const ::System::String* ACTION_TYPE_LOGINBYEMAIL; // 0x0
 		// static const ::System::String* ACTION_TYPE_BINDTHIRDPARTY; // 0x0
-		// static const ::System::Int32 ACTION_TICKET_EXPIRED = 0xFFFFF445; // 0x0
-		::System::String* PSNAccountServer; // 0x30
-		::System::String* UserEmail; // 0x38
-		::MiHoYo::SDK::JSONObject* CaptchaVerifyCombination; // 0x40
-		::System::String* PSNAccountName; // 0x48
-		::System::String* WebTicket; // 0x50
-		::System::String* LoginTicket; // 0x58
-		::System::String* SToken; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Headers; // 0x68
-		::System::String* ReactivateTicket; // 0x70
-		::System::String* UserId; // 0x78
-
+		// static const ::System::Object ACTION_TICKET_EXPIRED; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::String* get_AppID()
@@ -115,49 +111,49 @@ namespace MiHoYo::SDK::PS
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_BINDEMAIL_OFFSET))(this);
 		}
 
-		::System::Void RequestActionTicket(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
+		::System::Void RequestActionTicket(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTACTIONTICKET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTACTIONTICKET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestGetActionTicketInfo(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void RequestGetActionTicketInfo(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETACTIONTICKETINFO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETACTIONTICKETINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestMailCaptcha(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void RequestMailCaptcha(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTMAILCAPTCHA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTMAILCAPTCHA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestVerifyCaptcha(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
+		::System::Void RequestVerifyCaptcha(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTVERIFYCAPTCHA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTVERIFYCAPTCHA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestLoginByActionTicket(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void RequestLoginByActionTicket(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTLOGINBYACTIONTICKET_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTLOGINBYACTIONTICKET_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestReactivateAccount(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void RequestReactivateAccount(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTREACTIVATEACCOUNT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTREACTIVATEACCOUNT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestGetServerByRegionCode(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1)
+		::System::Void RequestGetServerByRegionCode(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETSERVERBYREGIONCODE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTGETSERVERBYREGIONCODE_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestUserServerList(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void RequestUserServerList(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTUSERSERVERLIST_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTUSERSERVERLIST_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void RequestBindThirdparty(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void RequestBindThirdparty(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTBINDTHIRDPARTY_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS_REQUESTBINDTHIRDPARTY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ShowAccountInfoDialog_b__20_0()
@@ -189,5 +185,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_BINDINGMANAGERPSOS__REACTIVATEACCOUNT_B__25_0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchSpriteShape_TypeDefinitionIndex = 39595;
-
 	enum class TouchSpriteShape : ::System::Int32
 	{
 		Oval = 0,

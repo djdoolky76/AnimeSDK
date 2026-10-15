@@ -1,28 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/RPG/Client/TAUtils/SimpleTransform.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-namespace RPG::Client { class Effect_KaleidoscopeAnimatorBehavior; }
-namespace RPG::Client { class Effect_KaleidoscopeAnimatorBehavior_ParticleData; }
 namespace RPG::Client::TAUtils { class Vector3AnimationCurve; }
 namespace RPG::Client::TAUtils { class Vector4AnimationCurve; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_ANGLEMINMAXRADIUS_OFFSET UNITYSDK_OFFSET(0xCDF0480)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_TWISTANGLERADIUS_OFFSET UNITYSDK_OFFSET(0xCDF04F0)
-#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF0DF0)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD41650)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_ANGLEMINMAXRADIUS_OFFSET UNITYSDK_OFFSET(0xCD40CE0)
+#define RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_TWISTANGLERADIUS_OFFSET UNITYSDK_OFFSET(0xCD40D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_KaleidoscopeAnimatorMonoPlugin_TypeDefinitionIndex = 70460;
-
-	class Effect_KaleidoscopeAnimatorMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_KaleidoscopeAnimatorBehavior*>
+	class Effect_KaleidoscopeAnimatorMonoPlugin
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::Effect_KaleidoscopeAnimatorBehavior_ParticleData*>* ParticleDatas; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* ParticleDatas; // 0x30
 		::System::Single Height; // 0x38
 		::System::Single BottomRadius; // 0x3C
 		::System::Single BottomThickness; // 0x40
@@ -32,6 +27,7 @@ namespace RPG::Client
 		::System::Single TwistAngle; // 0x54
 		::System::Boolean FittingSurface; // 0x58
 		::System::Boolean FollowTwist; // 0x59
+		::System::Byte _padding0[0x2];
 		::RPG::Client::TAUtils::SimpleTransform RelativeTransform; // 0x5C
 		::RPG::Client::TAUtils::SimpleTransform DisorderTransformRange; // 0x80
 		::System::Single DisorderTransformWeight; // 0xA4
@@ -51,10 +47,9 @@ namespace RPG::Client
 		::System::Single RadiusDensity; // 0x110
 		::System::Int32 MaxInstanceCount; // 0x114
 		::System::Int32 EBJKGILBDML; // 0x118
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector2 get_AngleMinMaxRadius()
@@ -66,5 +61,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_KALEIDOSCOPEANIMATORMONOPLUGIN_GET_TWISTANGLERADIUS_OFFSET))(this);
 		}
+
 	};
 }

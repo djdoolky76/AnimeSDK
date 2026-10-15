@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CRPRectShadowSerialize_TypeDefinitionIndex = 4257;
-
 	struct alignas(4) CRPRectShadowSerialize
 	{
 		::UnityEngine::Vector3 localnormal; // 0x10

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x164653C0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x164653F0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16463600)
-#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16465350)
+#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1668C0C0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1668C050)
+#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1668C0F0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1668A330)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFreeLook_DestroyRigDelegate_TypeDefinitionIndex = 38444;
-
 	class CinemachineFreeLook_DestroyRigDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +35,6 @@ namespace Cinemachine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_DESTROYRIGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

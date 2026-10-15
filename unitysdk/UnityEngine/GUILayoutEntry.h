@@ -2,45 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rect.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GUILayoutOption; }
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUILAYOUTENTRY_APPLYOPTIONS_OFFSET UNITYSDK_OFFSET(0x1ED8AEA0)
-#define UNITYENGINE_GUILAYOUTENTRY_APPLYSTYLESETTINGS_OFFSET UNITYSDK_OFFSET(0x1ED8AE20)
-#define UNITYENGINE_GUILAYOUTENTRY_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1ED8EA10)
-#define UNITYENGINE_GUILAYOUTENTRY_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1ED8EA00)
-#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINBOTTOM_OFFSET UNITYSDK_OFFSET(0x1ED8E590)
-#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1ED8E5F0)
-#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINLEFT_OFFSET UNITYSDK_OFFSET(0x1ED8E470)
-#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINRIGHT_OFFSET UNITYSDK_OFFSET(0x1ED8E4D0)
-#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINTOP_OFFSET UNITYSDK_OFFSET(0x1ED8E530)
-#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINVERTICAL_OFFSET UNITYSDK_OFFSET(0x1ED8E6E0)
-#define UNITYENGINE_GUILAYOUTENTRY_GET_STYLE_OFFSET UNITYSDK_OFFSET(0x1ED8E3D0)
-#define UNITYENGINE_GUILAYOUTENTRY_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1ED8EA20)
-#define UNITYENGINE_GUILAYOUTENTRY_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1ED8EA30)
-#define UNITYENGINE_GUILAYOUTENTRY_SET_STYLE_OFFSET UNITYSDK_OFFSET(0x1ED8E3E0)
-#define UNITYENGINE_GUILAYOUTENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ED8EA60)
-#define UNITYENGINE_GUILAYOUTENTRY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED8EF60)
-#define UNITYENGINE_GUILAYOUTENTRY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED8E7D0)
-#define UNITYENGINE_GUILAYOUTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED8ABC0)
+#define UNITYENGINE_GUILAYOUTENTRY_APPLYOPTIONS_OFFSET UNITYSDK_OFFSET(0x1F453810)
+#define UNITYENGINE_GUILAYOUTENTRY_APPLYSTYLESETTINGS_OFFSET UNITYSDK_OFFSET(0x1F453790)
+#define UNITYENGINE_GUILAYOUTENTRY_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F4571F0)
+#define UNITYENGINE_GUILAYOUTENTRY_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1F4571E0)
+#define UNITYENGINE_GUILAYOUTENTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F457740)
+#define UNITYENGINE_GUILAYOUTENTRY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F456FB0)
+#define UNITYENGINE_GUILAYOUTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F453530)
+#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINBOTTOM_OFFSET UNITYSDK_OFFSET(0x1F456D70)
+#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1F456DD0)
+#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINLEFT_OFFSET UNITYSDK_OFFSET(0x1F456C50)
+#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINRIGHT_OFFSET UNITYSDK_OFFSET(0x1F456CB0)
+#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINTOP_OFFSET UNITYSDK_OFFSET(0x1F456D10)
+#define UNITYENGINE_GUILAYOUTENTRY_GET_MARGINVERTICAL_OFFSET UNITYSDK_OFFSET(0x1F456EC0)
+#define UNITYENGINE_GUILAYOUTENTRY_GET_STYLE_OFFSET UNITYSDK_OFFSET(0x1F456BB0)
+#define UNITYENGINE_GUILAYOUTENTRY_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1F457200)
+#define UNITYENGINE_GUILAYOUTENTRY_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1F457210)
+#define UNITYENGINE_GUILAYOUTENTRY_SET_STYLE_OFFSET UNITYSDK_OFFSET(0x1F456BC0)
+#define UNITYENGINE_GUILAYOUTENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F457240)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUILayoutEntry_TypeDefinitionIndex = 5182;
-
 	class GUILayoutEntry : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_indent()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(GUILayoutEntry_TypeDefinitionIndex)->GetStaticField(0x8C40);
-		}
-		static ::UnityEngine::Rect* StaticGet_kDummyRect()
-		{
-			return (::UnityEngine::Rect*)Il2CppClass::FromTypeDefinitionIndex(GUILayoutEntry_TypeDefinitionIndex)->GetStaticField(0x8C44);
-		}
 		::System::Single minWidth; // 0x10
 		::System::Single maxWidth; // 0x14
 		::System::Single minHeight; // 0x18
@@ -49,21 +38,31 @@ namespace UnityEngine
 		::System::Int32 stretchWidth; // 0x30
 		::System::Int32 stretchHeight; // 0x34
 		::System::Boolean consideredForMargin; // 0x38
+		::System::Byte _padding0[0x7];
 		::UnityEngine::GUIStyle* m_Style; // 0x40
+		static ::System::Int32* StaticGet_indent()
+		{
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "GUILayoutEntry")->GetStaticField(0x44B0);
+		}
+
+		static ::UnityEngine::Rect* StaticGet_kDummyRect()
+		{
+			return (::UnityEngine::Rect*)UnitySDK::FromName("UnityEngine", "GUILayoutEntry")->GetStaticField(0x44B4);
+		}
 
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::GUIStyle* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTENTRY__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::GUIStyle*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTENTRY_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void _ctor_1(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::GUIStyle* a5, ::Il2CppArray<::UnityEngine::GUILayoutOption*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::GUIStyle*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTENTRY__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::GUIStyle*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTENTRY_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTENTRY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTENTRY_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::GUIStyle* get_style()
@@ -140,5 +139,6 @@ namespace UnityEngine
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTENTRY_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/LightmapBakeType.h"
 #include "unitysdk/UnityEngine/MixedLightingMode.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightBakingOutput_TypeDefinitionIndex = 4142;
-
 	struct alignas(4) LightBakingOutput
 	{
 		::System::Int32 probeOcclusionLightIndex; // 0x10

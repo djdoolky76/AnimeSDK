@@ -1,70 +1,69 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
-namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2_Codec; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Google::Protobuf::WellKnownTypes { class Struct; }
 namespace Google::Protobuf::WellKnownTypes { class Value; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B3AFD90)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CLONE_OFFSET UNITYSDK_OFFSET(0x1B3AF910)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B3AFAF0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B3AF970)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B3AFC10)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B3AF500)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_FIELDS_OFFSET UNITYSDK_OFFSET(0x1B3AF960)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B3AF4A0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B3AFF60)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B3AFE30)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B3AF6E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B3AFC80)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B3AFCE0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3B0120)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3AF790)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3AF740)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B8B1BE0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8B1F70)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CLONE_OFFSET UNITYSDK_OFFSET(0x1B8B1760)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B8B15E0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B1590)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B8B1940)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B8B17C0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B8B1A60)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B8B1350)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_FIELDS_OFFSET UNITYSDK_OFFSET(0x1B8B17B0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B8B12F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B8B1DB0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B8B1C80)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B8B1530)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B8B1AD0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B8B1B30)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Struct_TypeDefinitionIndex = 5424;
-
 	class Struct : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Struct*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Struct*>**)Il2CppClass::FromTypeDefinitionIndex(Struct_TypeDefinitionIndex)->GetStaticField(0x169B0);
-		}
-		static ::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::Google::Protobuf::WellKnownTypes::Value*>** StaticGet__map_fields_codec()
-		{
-			return (::Google::Protobuf::Collections::MapField_2_Codec<::System::String*, ::Google::Protobuf::WellKnownTypes::Value*>**)Il2CppClass::FromTypeDefinitionIndex(Struct_TypeDefinitionIndex)->GetStaticField(0x169B8);
-		}
 		::Google::Protobuf::Collections::MapField_2<::System::String*, ::Google::Protobuf::WellKnownTypes::Value*>* fields_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		static ::System::Object** StaticGet__map_fields_codec()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Struct")->GetStaticField(0x1ABA0);
+		}
+
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "Struct")->GetStaticField(0x1ABA8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Google::Protobuf::WellKnownTypes::Struct* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Struct*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::Struct*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Struct*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::Struct*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -126,5 +125,6 @@ namespace Google::Protobuf::WellKnownTypes
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_STRUCT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

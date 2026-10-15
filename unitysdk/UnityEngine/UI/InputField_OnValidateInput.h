@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EE58240)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EE582C0)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EE46CA0)
-#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE581C0)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F520A20)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5209A0)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F520AA0)
+#define UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F50F990)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_OnValidateInput_TypeDefinitionIndex = 6735;
-
 	class InputField_OnValidateInput : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Char Invoke(::System::String* a1, ::System::Int32 a2, ::System::Char a3)
@@ -38,5 +35,6 @@ namespace UnityEngine::UI
 		{
 			return ((::System::Char(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_INPUTFIELD_ONVALIDATEINPUT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniMapIconOrientationType_TypeDefinitionIndex = 12458;
-
 	enum class MiniMapIconOrientationType : ::System::Int32
 	{
 		Static = 0,

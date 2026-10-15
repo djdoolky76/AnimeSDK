@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DOBOKPCPHCF;
+namespace System { class String; }
+
+#define RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC558450)
+#define RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC5584B0)
+#define RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0xC558490)
+#define RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_SET_ID_OFFSET UNITYSDK_OFFSET(0xC5584A0)
+
+namespace RPG::Client::ActivityMarble
+{
+	class PetMarbleSkillInfo : public ::System::Object
+	{
+	public:
+		::DOBOKPCPHCF* _Row; // 0x10
+		::System::UInt32 _ID_k__BackingField; // 0x18
+		::System::Void _ctor(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_GET_ID_OFFSET))(this);
+		}
+
+		::System::Void set_ID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_SET_ID_OFFSET))(this, a1);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYMARBLE_PETMARBLESKILLINFO_GET_DESC_OFFSET))(this);
+		}
+
+	};
+}

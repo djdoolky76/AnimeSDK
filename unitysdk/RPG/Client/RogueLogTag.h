@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueLogTag_TypeDefinitionIndex = 67489;
-
 	enum class RogueLogTag : ::System::Int32
 	{
 		None = 0,

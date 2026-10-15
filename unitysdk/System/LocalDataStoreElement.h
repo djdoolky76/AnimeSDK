@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define SYSTEM_LOCALDATASTOREELEMENT_GET_COOKIE_OFFSET UNITYSDK_OFFSET(0x1BD6E230)
-#define SYSTEM_LOCALDATASTOREELEMENT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BD6E210)
-#define SYSTEM_LOCALDATASTOREELEMENT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BD6E220)
-#define SYSTEM_LOCALDATASTOREELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6E200)
+#define SYSTEM_LOCALDATASTOREELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C279FD0)
+#define SYSTEM_LOCALDATASTOREELEMENT_GET_COOKIE_OFFSET UNITYSDK_OFFSET(0x1C27A000)
+#define SYSTEM_LOCALDATASTOREELEMENT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C279FE0)
+#define SYSTEM_LOCALDATASTOREELEMENT_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C279FF0)
 
 namespace System
 {
-	inline static constexpr unsigned int LocalDataStoreElement_TypeDefinitionIndex = 164;
-
 	class LocalDataStoreElement : public ::System::Object
 	{
 	public:
 		::System::Object* m_value; // 0x10
 		::System::Int64 m_cookie; // 0x18
-
 		::System::Void _ctor(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREELEMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREELEMENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_Value()
@@ -36,5 +34,6 @@ namespace System
 		{
 			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREELEMENT_GET_COOKIE_OFFSET))(this);
 		}
+
 	};
 }

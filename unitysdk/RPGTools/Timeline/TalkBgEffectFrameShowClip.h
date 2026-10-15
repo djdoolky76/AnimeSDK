@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F3780)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F3770)
-#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F3910)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9496D0)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE949860)
+#define RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9496C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkBgEffectFrameShowClip_TypeDefinitionIndex = 48834;
-
 	class TalkBgEffectFrameShowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* EffectFrameType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBGEFFECTFRAMESHOWCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ElfBehaviorData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ELFBEHAVIORINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE34C10)
-#define RPG_CLIENT_ELFBEHAVIORINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCE34910)
-#define RPG_CLIENT_ELFBEHAVIORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCE34CB0)
-#define RPG_CLIENT_ELFBEHAVIORINFO__INITBEHAVIORDATA_OFFSET UNITYSDK_OFFSET(0xCE34960)
+#define RPG_CLIENT_ELFBEHAVIORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCD85580)
+#define RPG_CLIENT_ELFBEHAVIORINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD854E0)
+#define RPG_CLIENT_ELFBEHAVIORINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCD851E0)
+#define RPG_CLIENT_ELFBEHAVIORINFO__INITBEHAVIORDATA_OFFSET UNITYSDK_OFFSET(0xCD85230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfBehaviorInfo_TypeDefinitionIndex = 63718;
-
 	class ElfBehaviorInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ElfBehaviorData*>* _BehaviorDataDict; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFBEHAVIORINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFBEHAVIORINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -38,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFBEHAVIORINFO__INITBEHAVIORDATA_OFFSET))(this);
 		}
+
 	};
 }

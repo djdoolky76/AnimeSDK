@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowShop; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWSHOP_METHOD_3_3FD73AA13C61C8EF_OFFSET UNITYSDK_OFFSET(0x1D52FC60)
-#define RPG_GAMECORE_SHOWSHOP_METHOD_3_5A68765A63B10E53_OFFSET UNITYSDK_OFFSET(0x1D52FC20)
-#define RPG_GAMECORE_SHOWSHOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D52FC50)
+#define RPG_GAMECORE_SHOWSHOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE4660)
+#define RPG_GAMECORE_SHOWSHOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE4670)
+#define RPG_GAMECORE_SHOWSHOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE4630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowShop_TypeDefinitionIndex = 20658;
-
 	class ShowShop : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -20,20 +18,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::Int32>* TaskID; // 0x20
 		::System::Boolean IsActiveMonitor; // 0x28
 		::System::Boolean DisableBoughtHint; // 0x29
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSHOP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSHOP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5A68765A63B10E53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowShop*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowShop* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowShop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSHOP_METHOD_3_5A68765A63B10E53_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowShop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSHOP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3FD73AA13C61C8EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowShop* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowShop* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowShop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSHOP_METHOD_3_3FD73AA13C61C8EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowShop*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSHOP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

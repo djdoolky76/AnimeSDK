@@ -2,41 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurveBaseMath_Fields.h"
 #include "unitysdk/System/Object.h"
-
+namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_Config; }
 namespace System { class EventHandler; }
+namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_ADD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C0050D0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C00CDF0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C00CDB0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_FIREUPDATE_OFFSET UNITYSDK_OFFSET(0x1BFE2A30)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C00CE90)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_REMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C005070)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BFE1320)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C00CDA0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_ADD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C5122A0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C4EE5E0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C519F40)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C519F90)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C519F50)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_FIREUPDATE_OFFSET UNITYSDK_OFFSET(0x1C4EFCF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C51A030)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_REMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C512240)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveBaseMath_Config_TypeDefinitionIndex = 35313;
-
 	class BGCurveBaseMath_Config : public ::System::Object
 	{
 	public:
-		::System::Func_1<::System::Boolean>* ShouldUpdate; // 0x10
-		::System::EventHandler* Update; // 0x18
-		::System::Boolean UsePointPositionsToCalcTangents; // 0x20
-		::System::Boolean OptimizeStraightLines; // 0x21
-		::System::Int32 Parts; // 0x24
-		::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Fields Fields; // 0x28
-
+		::System::EventHandler* Update; // 0x10
+		::System::Func_1<::System::Boolean>* ShouldUpdate; // 0x18
+		::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Fields Fields; // 0x20
+		::System::Boolean OptimizeStraightLines; // 0x24
+		::System::Boolean UsePointPositionsToCalcTangents; // 0x25
+		::System::Byte _padding0[0x2];
+		::System::Int32 Parts; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Fields a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Fields))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Fields))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void add_Update(::System::EventHandler* a1)
@@ -68,5 +67,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEBASEMATH_CONFIG_FIREUPDATE_OFFSET))(this);
 		}
+
 	};
 }

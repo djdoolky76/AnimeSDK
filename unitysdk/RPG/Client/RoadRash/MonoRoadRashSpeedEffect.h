@@ -3,24 +3,21 @@
 #include "unitysdk/RPG/Client/RoadRash/SpeedEffectPartOffset.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0xDE955D0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_GET_CURRENTPARTID_OFFSET UNITYSDK_OFFSET(0xDE955B0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xDE95660)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_55115737568B83DF_OFFSET UNITYSDK_OFFSET(0xDE95A80)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_A3C92D6EE04B1B9D_OFFSET UNITYSDK_OFFSET(0xDE959A0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_EE117CB5227B61F7_OFFSET UNITYSDK_OFFSET(0xDE958D0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_SETPARTID_OFFSET UNITYSDK_OFFSET(0xDE956D0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_SET_CURRENTPARTID_OFFSET UNITYSDK_OFFSET(0xDE955C0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xDE95C60)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_ACJAIGBLMIJ_OFFSET UNITYSDK_OFFSET(0xDEE5FE0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_AWAKE_OFFSET UNITYSDK_OFFSET(0xDEE5C10)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE62A0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_GET_CURRENTPARTID_OFFSET UNITYSDK_OFFSET(0xDEE5BF0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_KICLKPBDGOJ_OFFSET UNITYSDK_OFFSET(0xDEE60C0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_MOABFOBEODB_OFFSET UNITYSDK_OFFSET(0xDEE5CA0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_NIAEFEOCEAB_OFFSET UNITYSDK_OFFSET(0xDEE5F10)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_SETPARTID_OFFSET UNITYSDK_OFFSET(0xDEE5D10)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_SET_CURRENTPARTID_OFFSET UNITYSDK_OFFSET(0xDEE5C00)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashSpeedEffect_TypeDefinitionIndex = 75468;
-
 	class MonoRoadRashSpeedEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -28,13 +25,13 @@ namespace RPG::Client::RoadRash
 		::Il2CppArray<::UnityEngine::Transform*>* RightChildTransformArray; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::RoadRash::SpeedEffectPartOffset>* PartOffsetConfigs; // 0x28
 		::System::UInt32 _CurrentPartID_k__BackingField; // 0x30
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::Vector3>* IGJGCGKLIAM; // 0x38
 		::Il2CppArray<::UnityEngine::Vector3>* HFJICPICEBD; // 0x40
 		::System::Boolean PFABONEPECF; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_CurrentPartID()
@@ -57,24 +54,25 @@ namespace RPG::Client::RoadRash
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_SETPARTID_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_4343F372F34C05BF()
+		::System::Void MOABFOBEODB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_MOABFOBEODB_OFFSET))(this);
 		}
 
-		static ::Il2CppArray<::UnityEngine::Vector3>* Method_5_55115737568B83DF(::Il2CppArray<::UnityEngine::Transform*>* a1)
+		static ::Il2CppArray<::UnityEngine::Vector3>* KICLKPBDGOJ(::Il2CppArray<::UnityEngine::Transform*>* a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::Il2CppArray<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_55115737568B83DF_OFFSET))(a1);
+			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::Il2CppArray<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_KICLKPBDGOJ_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_5_EE117CB5227B61F7(::Il2CppArray<::UnityEngine::Transform*>* a1, ::UnityEngine::Vector3 a2)
+		static ::System::Void NIAEFEOCEAB(::Il2CppArray<::UnityEngine::Transform*>* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Transform*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_EE117CB5227B61F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Transform*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_NIAEFEOCEAB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_A3C92D6EE04B1B9D(::Il2CppArray<::UnityEngine::Transform*>* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2)
+		static ::System::Void ACJAIGBLMIJ(::Il2CppArray<::UnityEngine::Transform*>* a1, ::Il2CppArray<::UnityEngine::Vector3>* a2)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Transform*>*, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_METHOD_5_A3C92D6EE04B1B9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Il2CppArray<::UnityEngine::Transform*>*, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHSPEEDEFFECT_ACJAIGBLMIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

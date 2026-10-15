@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int XRGraphics_StereoRenderingMode_TypeDefinitionIndex = 34844;
-
 	enum class XRGraphics_StereoRenderingMode : ::System::Int32
 	{
 		MultiPass = 0,

@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES_GET_DISABLED_OFFSET UNITYSDK_OFFSET(0x1C01BED0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01B970)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C529AD0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES_GET_DISABLED_OFFSET UNITYSDK_OFFSET(0x1C52A030)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveSettings_SettingsForHandles_TypeDefinitionIndex = 35342;
-
 	class BGCurveSettings_SettingsForHandles : public ::System::Object
 	{
 	public:
@@ -18,18 +16,19 @@ namespace BansheeGz::BGSpline::Curve
 		::System::Boolean RemoveXZ; // 0x13
 		::System::Boolean RemoveXY; // 0x14
 		::System::Boolean RemoveYZ; // 0x15
+		::System::Byte _padding0[0x2];
 		::System::Single AxisScale; // 0x18
 		::System::Single PlanesScale; // 0x1C
 		::System::Single Alpha; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_Disabled()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVESETTINGS_SETTINGSFORHANDLES_GET_DISABLED_OFFSET))(this);
 		}
+
 	};
 }

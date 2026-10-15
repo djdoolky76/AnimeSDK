@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class RPGQualitySettingsModel; }
 namespace RPG::Client { class RPGQualitySettingsPerPlatform; }
 namespace RPG::Client { class RPGQualitySettingsPresetDetail; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xDDDC5E0)
+#define RPG_CLIENT_RPGQUALITYSETTINGSPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0xDE2A960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsPreset_TypeDefinitionIndex = 67939;
-
 	class RPGQualitySettingsPreset : public ::System::Object
 	{
 	public:
@@ -22,10 +19,10 @@ namespace RPG::Client
 		::RPG::Client::RPGQualitySettingsModel* Low; // 0x30
 		::RPG::Client::RPGQualitySettingsModel* VeryLow; // 0x38
 		::RPG::Client::RPGQualitySettingsPresetDetail* Details; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGSPRESET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGSPRESET_CTOR_OFFSET))(this);
 		}
+
 	};
 }

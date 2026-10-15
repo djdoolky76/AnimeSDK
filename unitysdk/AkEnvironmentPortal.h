@@ -2,42 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 class AkEnvironment;
 namespace UnityEngine { class BoxCollider; }
 
-#define AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET UNITYSDK_OFFSET(0x1EEC7F40)
-#define AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1EEC7D60)
-#define AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET UNITYSDK_OFFSET(0x1EEC7E10)
-#define AKENVIRONMENTPORTAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC8460)
+#define AKENVIRONMENTPORTAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F590010)
+#define AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET UNITYSDK_OFFSET(0x1F58FAF0)
+#define AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1F58F910)
+#define AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET UNITYSDK_OFFSET(0x1F58F9C0)
 
-inline static constexpr unsigned int AkEnvironmentPortal_TypeDefinitionIndex = 43728;
-
-class AkEnvironmentPortal : public ::UnityEngine::MonoBehaviour
-{
-public:
-	// static const ::System::Int32 MAX_ENVIRONMENTS_PER_PORTAL = 0x2; // 0x0
-	::UnityEngine::Vector3 axis; // 0x18
-	::Il2CppArray<::AkEnvironment*>* environments; // 0x28
-	::UnityEngine::BoxCollider* m_BoxCollider; // 0x30
-
-	::System::Void _ctor()
+	class AkEnvironmentPortal : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::Vector3 axis; // 0x18
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::AkEnvironment*>* environments; // 0x28
+		::UnityEngine::BoxCollider* m_BoxCollider; // 0x30
+		// static const ::System::Object MAX_ENVIRONMENTS_PER_PORTAL; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_CTOR_OFFSET))(this);
+		}
 
-	::UnityEngine::BoxCollider* get_BoxCollider()
-	{
-		return ((::UnityEngine::BoxCollider*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET))(this);
-	}
+		::UnityEngine::BoxCollider* get_BoxCollider()
+		{
+			return ((::UnityEngine::BoxCollider*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GET_BOXCOLLIDER_OFFSET))(this);
+		}
 
-	::System::Boolean get_EnvironmentsShareAuxBus()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET))(this);
-	}
+		::System::Boolean get_EnvironmentsShareAuxBus()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GET_ENVIRONMENTSSHAREAUXBUS_OFFSET))(this);
+		}
 
-	::System::Single GetAuxSendValueForPosition(::UnityEngine::Vector3 a1, ::System::Int32 a2)
-	{
-		return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET))(this, a1, a2);
-	}
-};
+		::System::Single GetAuxSendValueForPosition(::UnityEngine::Vector3 a1, ::System::Int32 a2)
+		{
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + AKENVIRONMENTPORTAL_GETAUXSENDVALUEFORPOSITION_OFFSET))(this, a1, a2);
+		}
+
+	};

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapperUnsafe_RaycastHitInfo_TypeDefinitionIndex = 47491;
-
 	struct alignas(4) EmbreeWrapperUnsafe_RaycastHitInfo
 	{
 		::UnityEngine::Vector3 point; // 0x10

@@ -1,34 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/OS/BindManager.h"
-
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1B7BAC90)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x1B7BAFF0)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x1B7BAE90)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B7BB360)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7BAAD0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBA090)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BCBA250)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x1BCBA5B0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x1BCBA450)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BCBA920)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManagerCX_TypeDefinitionIndex = 9012;
-
 	class BindManagerCX : public ::MiHoYo::SDK::Console::OS::BindManager
 	{
 	public:
 		// static const ::System::String* XTOKEN_URL; // 0x0
 		// static const ::System::String* PlatformTag; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_CTOR_OFFSET))(this);
 		}
 
-		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
+		::System::Void GenerateAccessToken(::System::Action* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PerformBindingFlow(::System::String* a1)
@@ -45,5 +41,6 @@ namespace MiHoYo::SDK::Console::OS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX_REACTIVATEACCOUNT_OFFSET))(this);
 		}
+
 	};
 }

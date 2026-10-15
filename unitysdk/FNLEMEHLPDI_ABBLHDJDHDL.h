@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FNLEMEHLPDI_MOBLFLGJMFM.h"
+class DBMDNNBIOAI;
+class FNLEMEHLPDI;
+
+#define FNLEMEHLPDI_ABBLHDJDHDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1587A9B0)
+#define FNLEMEHLPDI_ABBLHDJDHDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1587E9B0)
+#define FNLEMEHLPDI_ABBLHDJDHDL_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x1587E4D0)
+#define FNLEMEHLPDI_ABBLHDJDHDL_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x1587E6E0)
+
+	class FNLEMEHLPDI_ABBLHDJDHDL : public ::FNLEMEHLPDI_MOBLFLGJMFM
+	{
+	public:
+		::Il2CppArray<::DBMDNNBIOAI*>* LBNBPMIFDHI; // 0x18
+		::System::Void _ctor(::FNLEMEHLPDI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FNLEMEHLPDI*))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_ABBLHDJDHDL_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void KIGBILLGNOH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_ABBLHDJDHDL_KIGBILLGNOH_OFFSET))(this);
+		}
+
+		::System::Void OPCKNBHNBOA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_ABBLHDJDHDL_OPCKNBHNBOA_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_ABBLHDJDHDL_DISPOSE_OFFSET))(this);
+		}
+
+	};

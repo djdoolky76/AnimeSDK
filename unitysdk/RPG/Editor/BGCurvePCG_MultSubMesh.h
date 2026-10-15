@@ -4,7 +4,6 @@
 #include "unitysdk/RPG/Editor/BGCurvePCG_MeshGeneratorBase_UVMode.h"
 #include "unitysdk/RPG/Editor/BGCurvePCG_MultSubMesh_GeometrySetting.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 class BGCurveExtention;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -12,21 +11,19 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_2B9D478141E0F891_OFFSET UNITYSDK_OFFSET(0xE460DA0)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_630EDA686801A28F_OFFSET UNITYSDK_OFFSET(0xE45FC20)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_9216B801ACD0B564_OFFSET UNITYSDK_OFFSET(0xE460E60)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_929ED164DF433778_OFFSET UNITYSDK_OFFSET(0xE460EB0)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_93E6B8A6D29521ED_OFFSET UNITYSDK_OFFSET(0xE45FDC0)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_B917C58B4E14AC1B_OFFSET UNITYSDK_OFFSET(0xE460310)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE460E20)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_E6D3C4C666E119D9_OFFSET UNITYSDK_OFFSET(0xE45FE30)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_F0F8DE036FE283F6_OFFSET UNITYSDK_OFFSET(0xE4602A0)
-#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0xE460FC0)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_AIBFNLFNFEE_OFFSET UNITYSDK_OFFSET(0xE4A88B0)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_ALGEAIFNEDA_OFFSET UNITYSDK_OFFSET(0xE4A7880)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_BGFPOHBKNOJ_OFFSET UNITYSDK_OFFSET(0xE4A7D60)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A8A10)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_FHPAOJGFHHE_OFFSET UNITYSDK_OFFSET(0xE4A8870)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_GJBDGBBCAEJ_OFFSET UNITYSDK_OFFSET(0xE4A8900)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_HOEKDHBPGAI_OFFSET UNITYSDK_OFFSET(0xE4A7810)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_JBBFLNDCNFG_OFFSET UNITYSDK_OFFSET(0xE4A87F0)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE4A7670)
+#define RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_MPNEPIGKJOG_OFFSET UNITYSDK_OFFSET(0xE4A7CF0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_MultSubMesh_TypeDefinitionIndex = 52318;
-
 	class BGCurvePCG_MultSubMesh : public ::RPG::Editor::BGCurvePCG_MeshGeneratorBase
 	{
 	public:
@@ -37,55 +34,55 @@ namespace RPG::Editor
 		::RPG::Editor::BGCurvePCG_MultSubMesh_GeometrySetting Setting; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* _MeshList; // 0x80
 		::RPG::Editor::BGCurvePCG_MeshGeneratorBase_UVMode _UVType; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_630EDA686801A28F(::BGCurveExtention* a1, ::UnityEngine::Transform* a2)
+		::System::Void KPJGDHLENIP(::BGCurveExtention* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_630EDA686801A28F_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_KPJGDHLENIP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_93E6B8A6D29521ED()
+		::System::Void HOEKDHBPGAI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_93E6B8A6D29521ED_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_HOEKDHBPGAI_OFFSET))(this);
 		}
 
-		::System::Void Method_2_F0F8DE036FE283F6()
+		::System::Void MPNEPIGKJOG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_F0F8DE036FE283F6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_MPNEPIGKJOG_OFFSET))(this);
 		}
 
-		::System::Void Method_2_2B9D478141E0F891()
+		::System::Void JBBFLNDCNFG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_2B9D478141E0F891_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_JBBFLNDCNFG_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::System::Void FHPAOJGFHHE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_FHPAOJGFHHE_OFFSET))(this);
 		}
 
-		::System::Void Method_2_9216B801ACD0B564()
+		::System::Void AIBFNLFNFEE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_9216B801ACD0B564_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_AIBFNLFNFEE_OFFSET))(this);
 		}
 
-		::System::Void Method_2_E6D3C4C666E119D9()
+		::System::Void ALGEAIFNEDA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_E6D3C4C666E119D9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_ALGEAIFNEDA_OFFSET))(this);
 		}
 
-		::UnityEngine::Mesh* Method_2_929ED164DF433778(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
+		::UnityEngine::Mesh* GJBDGBBCAEJ(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
 		{
-			return ((::UnityEngine::Mesh*(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_929ED164DF433778_OFFSET))(this, a1, a2, a3);
+			return ((::UnityEngine::Mesh*(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_GJBDGBBCAEJ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_B917C58B4E14AC1B()
+		::System::Void BGFPOHBKNOJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_METHOD_2_B917C58B4E14AC1B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_MULTSUBMESH_BGFPOHBKNOJ_OFFSET))(this);
 		}
+
 	};
 }

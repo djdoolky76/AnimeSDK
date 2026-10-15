@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAIMapper; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_COMPLEXSKILLAIMAPPER_METHOD_2_20B55D848AFD9974_OFFSET UNITYSDK_OFFSET(0x1CFF1AD0)
-#define RPG_GAMECORE_COMPLEXSKILLAIMAPPER_METHOD_2_593DECD717905B51_OFFSET UNITYSDK_OFFSET(0x1CFF2F60)
-#define RPG_GAMECORE_COMPLEXSKILLAIMAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF2FC0)
+#define RPG_GAMECORE_COMPLEXSKILLAIMAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CED60)
+#define RPG_GAMECORE_COMPLEXSKILLAIMAPPER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CED00)
+#define RPG_GAMECORE_COMPLEXSKILLAIMAPPER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CD880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIMapper_TypeDefinitionIndex = 15383;
-
 	class ComplexSkillAIMapper : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIMAPPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIMAPPER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_20B55D848AFD9974(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIMapper*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAIMapper* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIMapper*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIMAPPER_METHOD_2_20B55D848AFD9974_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAIMapper*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIMAPPER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_593DECD717905B51(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIMapper* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAIMapper* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIMapper*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIMAPPER_METHOD_2_593DECD717905B51_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAIMapper*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIMAPPER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

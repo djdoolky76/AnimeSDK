@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Reflection { class ExceptionHandlingClause; }
 namespace System::Reflection { class LocalVariableInfo; }
 
-#define SYSTEM_REFLECTION_METHODBODY_GETILASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1BD9A3E0)
-#define SYSTEM_REFLECTION_METHODBODY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD9A3D0)
+#define SYSTEM_REFLECTION_METHODBODY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A5FE0)
+#define SYSTEM_REFLECTION_METHODBODY_GETILASBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1C2A5FF0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MethodBody_TypeDefinitionIndex = 609;
-
 	class MethodBody : public ::System::Object
 	{
 	public:
@@ -19,17 +16,18 @@ namespace System::Reflection
 		::Il2CppArray<::System::Reflection::LocalVariableInfo*>* locals; // 0x18
 		::Il2CppArray<::System::Byte>* il; // 0x20
 		::System::Boolean init_locals; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Int32 sig_token; // 0x2C
 		::System::Int32 max_stack; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODBODY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODBODY_CTOR_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::Byte>* GetILAsByteArray()
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_METHODBODY_GETILASBYTEARRAY_OFFSET))(this);
 		}
+
 	};
 }

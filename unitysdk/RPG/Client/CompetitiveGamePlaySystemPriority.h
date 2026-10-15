@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CompetitiveGamePlaySystemPriority_TypeDefinitionIndex = 60733;
-
 	enum class CompetitiveGamePlaySystemPriority : ::System::Int32
 	{
 		None = 0,

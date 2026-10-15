@@ -3,12 +3,10 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterForceVisibleReason_TypeDefinitionIndex = 57389;
-
 	enum class CharacterForceVisibleReason : ::System::Byte
 	{
-		Default = 0x0,
-		ViewMode = 0x1,
-		Task = 0x2,
+		Default = 0,
+		ViewMode = 1,
+		Task = 2,
 	};
 }

@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_VALUETYPE_DEFAULTEQUALS_OFFSET UNITYSDK_OFFSET(0x1BC82810)
-#define SYSTEM_VALUETYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC82A40)
-#define SYSTEM_VALUETYPE_GETHASHCODEOFPTR_OFFSET UNITYSDK_OFFSET(0x1BC82B60)
-#define SYSTEM_VALUETYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC82A60)
-#define SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET UNITYSDK_OFFSET(0x1BC82800)
-#define SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC82A50)
-#define SYSTEM_VALUETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC82BC0)
-#define SYSTEM_VALUETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC827F0)
+#define SYSTEM_VALUETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C18E750)
+#define SYSTEM_VALUETYPE_DEFAULTEQUALS_OFFSET UNITYSDK_OFFSET(0x1C18E770)
+#define SYSTEM_VALUETYPE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C18E9A0)
+#define SYSTEM_VALUETYPE_GETHASHCODEOFPTR_OFFSET UNITYSDK_OFFSET(0x1C18EAC0)
+#define SYSTEM_VALUETYPE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C18E9C0)
+#define SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET UNITYSDK_OFFSET(0x1C18E760)
+#define SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C18E9B0)
+#define SYSTEM_VALUETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C18EB20)
 
 namespace System
 {
-	inline static constexpr unsigned int ValueType_TypeDefinitionIndex = 450;
-
 	class ValueType : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean InternalEquals(::System::Object* a1, ::System::Object* a2, ::Il2CppArray<::System::Object*>*& a3)
+		static ::System::Boolean InternalEquals(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::System::Object*, ::System::Object*, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALEQUALS_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Boolean DefaultEquals(::System::Object* a1, ::System::Object* a2)
@@ -40,9 +38,9 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::System::Int32 InternalGetHashCode(::System::Object* a1, ::Il2CppArray<::System::Object*>*& a2)
+		static ::System::Int32 InternalGetHashCode(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Int32(*)(::System::Object*, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_INTERNALGETHASHCODE_OFFSET))(a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -59,5 +57,6 @@ namespace System
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VALUETYPE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

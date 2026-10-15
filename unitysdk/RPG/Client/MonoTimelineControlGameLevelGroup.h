@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/ETimelineControlGameLevelRotation.h"
-#include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelGroup.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
-
-class Class_2_F9A00379C2678C49;
+#include "unitysdk/RPG/Client/LittleGame/TimelineControlGameWorld_LevelGroup.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class NPLOEOLJEKI;
 namespace RPG::Client { class MonoTimelineControlGameLevelCell; }
-namespace RPG::Client { class MonoTimelineControlGameLevelGroup_TriggerConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_CREATEGAMEWORLDLEVELGROUP_OFFSET UNITYSDK_OFFSET(0xD86A450)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GETCELLCENTER_OFFSET UNITYSDK_OFFSET(0xD86CA10)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GETCELLCOUNT_OFFSET UNITYSDK_OFFSET(0xD86D450)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GET_CELLLENGTH_OFFSET UNITYSDK_OFFSET(0xD86CA00)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0xD86CFE0)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xD86C300)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_REFRESHPOSITION_OFFSET UNITYSDK_OFFSET(0xD86D4A0)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD86DA60)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_CREATEGAMEWORLDLEVELGROUP_OFFSET UNITYSDK_OFFSET(0xD86AD10)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xD86E320)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GETCELLCENTER_OFFSET UNITYSDK_OFFSET(0xD86D2D0)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GETCELLCOUNT_OFFSET UNITYSDK_OFFSET(0xD86DD10)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GET_CELLLENGTH_OFFSET UNITYSDK_OFFSET(0xD86D2C0)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GET_VECTOR_OFFSET UNITYSDK_OFFSET(0xD86D8A0)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xD86CBC0)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_REFRESHPOSITION_OFFSET UNITYSDK_OFFSET(0xD86DD60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TypeDefinitionIndex = 60544;
-
 	class MonoTimelineControlGameLevelGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -32,12 +29,11 @@ namespace RPG::Client
 		::RPG::Client::LittleGame::ETimelineControlGameLevelRotation rotation; // 0x24
 		::System::String* uniqueName; // 0x28
 		::UnityEngine::Transform* origin; // 0x30
-		::Il2CppArray<::RPG::Client::MonoTimelineControlGameLevelGroup_TriggerConfig*>* triggerConfigs; // 0x38
+		::Il2CppArray<::System::Object*>* triggerConfigs; // 0x38
 		::Il2CppArray<::RPG::Client::MonoTimelineControlGameLevelCell*>* cells; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDrawGizmos()
@@ -60,9 +56,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_REFRESHPOSITION_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroup CreateGameWorldLevelGroup(::Class_2_F9A00379C2678C49* a1)
+		::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroup CreateGameWorldLevelGroup(::NPLOEOLJEKI* a1)
 		{
-			return ((::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroup(*)(::PVOID, ::Class_2_F9A00379C2678C49*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_CREATEGAMEWORLDLEVELGROUP_OFFSET))(this, a1);
+			return ((::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroup(*)(::PVOID, ::NPLOEOLJEKI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_CREATEGAMEWORLDLEVELGROUP_OFFSET))(this, a1);
 		}
 
 		::System::Single get_CellLength()
@@ -74,5 +70,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_GET_VECTOR_OFFSET))(this);
 		}
+
 	};
 }

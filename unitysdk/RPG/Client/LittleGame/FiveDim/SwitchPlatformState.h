@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int SwitchPlatformState_TypeDefinitionIndex = 41823;
-
 	enum class SwitchPlatformState : ::System::Int32
 	{
 		Inactive = 0,

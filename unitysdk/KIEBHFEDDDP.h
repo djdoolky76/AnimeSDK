@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CKFDNGOHNPC.h"
+
+#define KIEBHFEDDDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C900EC0)
+#define KIEBHFEDDDP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C900ED0)
+
+	class KIEBHFEDDDP : public ::CKFDNGOHNPC
+	{
+	public:
+		::System::Single PGMIOKKLHIE; // 0x18
+		::System::Single HBDJCFFDGDD; // 0x1C
+		::System::Void _ctor(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KIEBHFEDDDP_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void PAGKOAEOLKA(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KIEBHFEDDDP_PAGKOAEOLKA_OFFSET))(this, a1);
+		}
+
+	};

@@ -2,13 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MESHPARTIDMASK_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD6982D0)
-#define RPG_CLIENT_MESHPARTIDMASK__CTOR_OFFSET UNITYSDK_OFFSET(0xD698380)
+#define RPG_CLIENT_MESHPARTIDMASK_CTOR_OFFSET UNITYSDK_OFFSET(0xD695430)
+#define RPG_CLIENT_MESHPARTIDMASK_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xD695380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MeshPartIDMask_TypeDefinitionIndex = 69722;
-
 	class MeshPartIDMask : public ::System::Object
 	{
 	public:
@@ -21,15 +19,15 @@ namespace RPG::Client
 		::System::Boolean Part7; // 0x16
 		::System::Boolean Part8; // 0x17
 		::System::Int32 ShowPartID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESHPARTIDMASK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESHPARTIDMASK_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void LJBCDJNNBJH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESHPARTIDMASK_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESHPARTIDMASK_LJBCDJNNBJH_OFFSET))(this);
 		}
+
 	};
 }

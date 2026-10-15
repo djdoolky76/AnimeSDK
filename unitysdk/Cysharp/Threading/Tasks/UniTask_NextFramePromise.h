@@ -2,63 +2,63 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/Cysharp/Threading/Tasks/PlayerLoopTiming.h"
-#include "unitysdk/Cysharp/Threading/Tasks/TaskPool_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskCompletionSourceCore_1.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 #include "unitysdk/System/Threading/CancellationTokenRegistration.h"
-
+#include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
-namespace System { template <typename T> class Action_1; }
+namespace Cysharp::Threading::Tasks { class TaskPool; }
+namespace Cysharp::Threading::Tasks { class UniTask_NextFramePromise; }
+namespace System { class Action; }
+namespace System { class Object; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EA787C0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1EA82A20)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA82BD0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1EA82900)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EA82CF0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EA82CD0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1EA82B40)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA82C80)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA82910)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA82A10)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14A010)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F13FF30)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14A110)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F14A120)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F14A2D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F14A000)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F14A3F0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F14A3D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F14A240)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F14A380)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_NextFramePromise_TypeDefinitionIndex = 42645;
-
 	class UniTask_NextFramePromise : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_NextFramePromise*>* StaticGet_pool()
-		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::Cysharp::Threading::Tasks::UniTask_NextFramePromise*>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_NextFramePromise_TypeDefinitionIndex)->GetStaticField(0x59070);
-		}
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x10
-		::System::Threading::CancellationToken cancellationToken; // 0x28
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x30
+		::System::Threading::CancellationToken cancellationToken; // 0x10
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x18
+		::System::Byte _padding0[0x18];
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x38
 		::Cysharp::Threading::Tasks::UniTask_NextFramePromise* nextNode; // 0x50
 		::System::Int32 frameCount; // 0x58
 		::System::Boolean cancelImmediately; // 0x5C
+		static ::Cysharp::Threading::Tasks::TaskPool** StaticGet_pool()
+		{
+			return (::Cysharp::Threading::Tasks::TaskPool**)UnitySDK::FromName("Cysharp.Threading.Tasks", "NextFramePromise")->GetStaticField(0x46E40);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CTOR_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_NextFramePromise*& get_NextNode()
+		::Cysharp::Threading::Tasks::UniTask_NextFramePromise* get_NextNode()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_NextFramePromise*&(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GET_NEXTNODE_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask_NextFramePromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GET_NEXTNODE_OFFSET))(this);
 		}
 
-		static ::Cysharp::Threading::Tasks::IUniTaskSource* Create(::Cysharp::Threading::Tasks::PlayerLoopTiming a1, ::System::Threading::CancellationToken a2, ::System::Boolean a3, ::System::Int16& a4)
+		static ::Cysharp::Threading::Tasks::IUniTaskSource* Create(::Cysharp::Threading::Tasks::PlayerLoopTiming a1, ::System::Threading::CancellationToken a2, ::System::Boolean a3, ::System::Int16 a4)
 		{
-			return ((::Cysharp::Threading::Tasks::IUniTaskSource*(*)(::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Boolean, ::System::Int16&))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CREATE_OFFSET))(a1, a2, a3, a4);
+			return ((::Cysharp::Threading::Tasks::IUniTaskSource*(*)(::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Boolean, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CREATE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void GetResult(::System::Int16 a1)
@@ -76,9 +76,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET))(this);
 		}
 
-		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean MoveNext()
@@ -90,5 +90,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_TRYRETURN_OFFSET))(this);
 		}
+
 	};
 }

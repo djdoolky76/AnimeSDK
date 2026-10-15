@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SettingManager_HoekeySettingType_TypeDefinitionIndex = 68278;
-
 	enum class SettingManager_HoekeySettingType : ::System::Int32
 	{
 		KeyboradOnley = 0,

@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::LittleGame { class PlacementConfig; }
 
-#define RPG_CLIENT_LITTLEGAME_SHOOTINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C49A1F0)
+#define RPG_CLIENT_LITTLEGAME_SHOOTINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA09740)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ShootingConfig_TypeDefinitionIndex = 41036;
-
 	class ShootingConfig : public ::System::Object
 	{
 	public:
@@ -17,6 +14,7 @@ namespace RPG::Client::LittleGame
 		::System::Single PlayerShootingCD; // 0x18
 		::System::Single PlayerAttackCD; // 0x1C
 		::System::Single DistanceToLayerBoundToDestroy; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::Client::LittleGame::PlacementConfig* EnemyBulletConfig; // 0x28
 		::System::Single ShootTimeInterval; // 0x30
 		::System::Single ShootRangeNear; // 0x34
@@ -24,16 +22,19 @@ namespace RPG::Client::LittleGame
 		::System::Single ShootProbability; // 0x3C
 		::RPG::Client::LittleGame::PlacementConfig* AttackEffect; // 0x40
 		::System::Single AttackEffectTime; // 0x48
+		::System::Byte _padding1[0x4];
 		::RPG::Client::LittleGame::PlacementConfig* EnemyHitEffect; // 0x50
 		::System::Single EnemyHitEffectTime; // 0x58
+		::System::Byte _padding2[0x4];
 		::RPG::Client::LittleGame::PlacementConfig* EnemyBulletHitEffect; // 0x60
 		::System::Single EnemyBulletHitEffectTime; // 0x68
+		::System::Byte _padding3[0x4];
 		::RPG::Client::LittleGame::PlacementConfig* PropHitEffect; // 0x70
 		::System::Single PropHitEffectTime; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_SHOOTINGCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_SHOOTINGCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

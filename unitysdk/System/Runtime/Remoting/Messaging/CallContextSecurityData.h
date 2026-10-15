@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Security::Principal { class IPrincipal; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x1BDDB5D0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA_GET_HASINFO_OFFSET UNITYSDK_OFFSET(0x1BDDB5C0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDB630)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x1C2E72B0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E7310)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA_GET_HASINFO_OFFSET UNITYSDK_OFFSET(0x1C2E72A0)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int CallContextSecurityData_TypeDefinitionIndex = 1294;
-
 	class CallContextSecurityData : public ::System::Object
 	{
 	public:
 		::System::Security::Principal::IPrincipal* _principal; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_HasInfo()
@@ -31,5 +28,6 @@ namespace System::Runtime::Remoting::Messaging
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_CALLCONTEXTSECURITYDATA_CLONE_OFFSET))(this);
 		}
+
 	};
 }

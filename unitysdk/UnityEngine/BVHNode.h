@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/BVHData.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BVHNode_TypeDefinitionIndex = 4101;
-
 	struct alignas(8) BVHNode
 	{
 		::Il2CppArray<::UnityEngine::BVHData>* ChildDatas; // 0x10

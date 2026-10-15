@@ -2,29 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Unity/BoneFollower_AxisOrientation.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine { class Bone; }
 namespace Spine::Unity { class SkeletonGraphic; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E63A120)
-#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_GET_SKELETONGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1E639F10)
-#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E639F30)
-#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1E63A140)
-#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_SETBONE_OFFSET UNITYSDK_OFFSET(0x1E639FF0)
-#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_SET_SKELETONGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1E639F20)
-#define SPINE_UNITY_BONEFOLLOWERGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1E63AA30)
+#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ED022A0)
+#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED02BB0)
+#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_GET_SKELETONGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1ED02090)
+#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ED020B0)
+#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1ED022C0)
+#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_SETBONE_OFFSET UNITYSDK_OFFSET(0x1ED02170)
+#define SPINE_UNITY_BONEFOLLOWERGRAPHIC_SET_SKELETONGRAPHIC_OFFSET UNITYSDK_OFFSET(0x1ED020A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BoneFollowerGraphic_TypeDefinitionIndex = 43823;
-
 	class BoneFollowerGraphic : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Spine::Unity::SkeletonGraphic* skeletonGraphic; // 0x18
 		::System::Boolean initializeOnAwake; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::String* boneName; // 0x28
 		::System::Boolean followBoneRotation; // 0x30
 		::System::Boolean followSkeletonFlip; // 0x31
@@ -32,15 +30,16 @@ namespace Spine::Unity
 		::System::Boolean followParentWorldScale; // 0x33
 		::System::Boolean followXYPosition; // 0x34
 		::System::Boolean followZPosition; // 0x35
+		::System::Byte _padding1[0x2];
 		::Spine::Unity::BoneFollower_AxisOrientation maintainedAxisOrientation; // 0x38
+		::System::Byte _padding2[0x4];
 		::Spine::Bone* bone; // 0x40
 		::UnityEngine::Transform* skeletonTransform; // 0x48
 		::System::Boolean skeletonTransformIsParent; // 0x50
 		::System::Boolean valid; // 0x51
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWERGRAPHIC__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWERGRAPHIC_CTOR_OFFSET))(this);
 		}
 
 		::Spine::Unity::SkeletonGraphic* get_SkeletonGraphic()
@@ -72,5 +71,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BONEFOLLOWERGRAPHIC_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

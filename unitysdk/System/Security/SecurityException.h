@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Security/Permissions/SecurityAction.h"
 #include "unitysdk/System/Security/SecurityZone.h"
 #include "unitysdk/System/SystemException.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -14,17 +13,15 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security { class IPermission; }
 
-#define SYSTEM_SECURITY_SECURITYEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BBE7C60)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BBE7DA0)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBE29F0)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBE7940)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1BBE7B80)
-#define SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE7830)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0EEB50)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C0F3A50)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C0F3CA0)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F3940)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C0F3D80)
+#define SYSTEM_SECURITY_SECURITYEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0F3EC0)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityException_TypeDefinitionIndex = 952;
-
 	class SecurityException : public ::System::SystemException
 	{
 	public:
@@ -41,25 +38,24 @@ namespace System::Security
 		::System::Object* _demanded; // 0xD8
 		::System::Security::SecurityZone _zone; // 0xE0
 		::System::Security::Permissions::SecurityAction _action; // 0xE4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
@@ -71,5 +67,6 @@ namespace System::Security
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYEXCEPTION_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

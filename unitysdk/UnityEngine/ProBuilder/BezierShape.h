@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/ProBuilder/BezierPoint.h"
-
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1EACC3C0)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1EACC3E0)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_INIT_OFFSET UNITYSDK_OFFSET(0x1EACC4A0)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1EACC630)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1EACC3D0)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_MESH_OFFSET UNITYSDK_OFFSET(0x1EACC490)
-#define UNITYENGINE_PROBUILDER_BEZIERSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EACCA10)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F194270)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1F193C20)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_GET_MESH_OFFSET UNITYSDK_OFFSET(0x1F193C40)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_INIT_OFFSET UNITYSDK_OFFSET(0x1F193D00)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1F193E90)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_ISEDITING_OFFSET UNITYSDK_OFFSET(0x1F193C30)
+#define UNITYENGINE_PROBUILDER_BEZIERSHAPE_SET_MESH_OFFSET UNITYSDK_OFFSET(0x1F193CF0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int BezierShape_TypeDefinitionIndex = 43146;
-
 	class BezierShape : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* points; // 0x18
 		::System::Boolean closeLoop; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single radius; // 0x24
 		::System::Int32 rows; // 0x28
 		::System::Int32 columns; // 0x2C
 		::System::Boolean smooth; // 0x30
 		::System::Boolean m_IsEditing; // 0x31
+		::System::Byte _padding1[0x6];
 		::UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_isEditing()
@@ -64,5 +62,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_BEZIERSHAPE_REFRESH_OFFSET))(this);
 		}
+
 	};
 }

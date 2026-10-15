@@ -1,37 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
+#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/ExposedReference_1.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamPlayer; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class IPropertyCollector; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1EAB7890)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EAB7A00)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1EAB79D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1EAB7870)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1EAB7880)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1EAB7860)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB7A90)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F17F0F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F17F2F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F17F260)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1F17F230)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1F17F0D0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1F17F0E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F17F0C0)
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
-	inline static constexpr unsigned int AlembicShotAsset_TypeDefinitionIndex = 44613;
-
 	class AlembicShotAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer* m_stream; // 0x18
 		::UnityEngine::ExposedReference_1<::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer*> streamPlayer; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps UnityEngine_Timeline_ITimelineClipAsset_get_clipCaps()
@@ -63,5 +59,6 @@ namespace UnityEngine::Formats::Alembic::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTASSET_GATHERPROPERTIES_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

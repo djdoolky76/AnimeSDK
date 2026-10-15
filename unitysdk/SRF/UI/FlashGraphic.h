@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Graphic; }
 
-#define SRF_UI_FLASHGRAPHIC_FLASHANDHOLDUNTILNEXTPRESS_OFFSET UNITYSDK_OFFSET(0x1E6B4440)
-#define SRF_UI_FLASHGRAPHIC_FLASH_OFFSET UNITYSDK_OFFSET(0x1E6B42C0)
-#define SRF_UI_FLASHGRAPHIC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E6B4200)
-#define SRF_UI_FLASHGRAPHIC_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1E6B4070)
-#define SRF_UI_FLASHGRAPHIC_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1E6B4130)
-#define SRF_UI_FLASHGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B4500)
+#define SRF_UI_FLASHGRAPHIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED7BDC0)
+#define SRF_UI_FLASHGRAPHIC_FLASHANDHOLDUNTILNEXTPRESS_OFFSET UNITYSDK_OFFSET(0x1ED7BD00)
+#define SRF_UI_FLASHGRAPHIC_FLASH_OFFSET UNITYSDK_OFFSET(0x1ED7BB80)
+#define SRF_UI_FLASHGRAPHIC_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED7BAC0)
+#define SRF_UI_FLASHGRAPHIC_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x1ED7B930)
+#define SRF_UI_FLASHGRAPHIC_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0x1ED7B9F0)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int FlashGraphic_TypeDefinitionIndex = 34711;
-
 	class FlashGraphic : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
 		::System::Single DecayTime; // 0x18
 		::UnityEngine::Color DefaultColor; // 0x1C
 		::UnityEngine::Color FlashColor; // 0x2C
+		::System::Byte _padding0[0x4];
 		::UnityEngine::UI::Graphic* Target; // 0x40
 		::System::Boolean _isHoldingUntilNextPress; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -55,5 +52,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_FLASHGRAPHIC_FLASHANDHOLDUNTILNEXTPRESS_OFFSET))(this);
 		}
+
 	};
 }

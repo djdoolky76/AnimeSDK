@@ -2,52 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareAliveEnemyNumber; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_03E30B7BF3CC5907_OFFSET UNITYSDK_OFFSET(0x1CEB1380)
-#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_6BE9488387CCC58A_OFFSET UNITYSDK_OFFSET(0x1CEB13C0)
-#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_80689759B120E29C_OFFSET UNITYSDK_OFFSET(0x1CEB1620)
-#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_FA8322BB85B9FC12_OFFSET UNITYSDK_OFFSET(0x1CEB15F0)
-#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEB13B0)
+#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D49AA00)
+#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D49AC70)
+#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D49AC40)
+#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D49AA10)
+#define RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D49A9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareAliveEnemyNumber_TypeDefinitionIndex = 22729;
-
 	class ByCompareAliveEnemyNumber : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::CompareType CompareType; // 0x28
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* CompareValue; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_03E30B7BF3CC5907(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareAliveEnemyNumber*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_03E30B7BF3CC5907_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareAliveEnemyNumber*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6BE9488387CCC58A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareAliveEnemyNumber*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_6BE9488387CCC58A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareAliveEnemyNumber*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FA8322BB85B9FC12(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareAliveEnemyNumber*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_FA8322BB85B9FC12_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareAliveEnemyNumber*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_80689759B120E29C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareAliveEnemyNumber* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareAliveEnemyNumber*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_METHOD_4_80689759B120E29C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareAliveEnemyNumber*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREALIVEENEMYNUMBER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class CRPCameraSplitScreenTemplateClip; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE824280)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8242A0)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE824290)
-#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE824500)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C2180)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8C1F00)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8C1F20)
+#define RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8C1F10)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSplitScreenTemplateBehaviour_TypeDefinitionIndex = 48372;
-
 	class CRPCameraSplitScreenTemplateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::CRPCameraSplitScreenTemplateClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::CRPCameraSplitScreenTemplateClip* get_Clip()
@@ -39,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASPLITSCREENTEMPLATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

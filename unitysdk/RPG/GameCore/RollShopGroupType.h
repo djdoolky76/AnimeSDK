@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RollShopGroupType_TypeDefinitionIndex = 10613;
-
 	enum class RollShopGroupType : ::System::Int32
 	{
 		None = 0,

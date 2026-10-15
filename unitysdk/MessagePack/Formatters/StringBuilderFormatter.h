@@ -1,48 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
-
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
+namespace MessagePack::Formatters { class IMessagePackFormatter; }
 namespace System::Text { class StringBuilder; }
 
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B681650)
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B681610)
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B681750)
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B681600)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB80040)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7FEF0)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB7FF40)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB7FF00)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int StringBuilderFormatter_TypeDefinitionIndex = 7439;
-
 	class StringBuilderFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Text::StringBuilder*>** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderFormatter_TypeDefinitionIndex)->GetStaticField(0x2A950);
+			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "StringBuilderFormatter")->GetStaticField(0x25510);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_CCTOR_OFFSET))();
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::System::Text::StringBuilder* a2, ::MessagePack::MessagePackSerializerOptions* a3)
+		::System::Void Serialize(::MessagePack::MessagePackWriter a1, ::System::Text::StringBuilder* a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::System::Text::StringBuilder*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter, ::System::Text::StringBuilder*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Text::StringBuilder* Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
+		::System::Text::StringBuilder* Deserialize(::MessagePack::MessagePackReader a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::System::Text::StringBuilder*(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
+			return ((::System::Text::StringBuilder*(*)(::PVOID, ::MessagePack::MessagePackReader, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

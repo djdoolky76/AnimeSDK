@@ -4,64 +4,45 @@
 #include "unitysdk/RPG/CustomRP/DefaultMatType.h"
 #include "unitysdk/RPG/CustomRP/FlagMask.h"
 #include "unitysdk/RPG/CustomRP/PipelineMat.h"
-#include "unitysdk/UnityEngine/PassTagID.h"
 #include "unitysdk/UnityEngine/Rendering/CRPPassStencil.h"
 #include "unitysdk/UnityEngine/Rendering/CRPPreConfig.h"
-
+#include "unitysdk/UnityEngine/PassTagID.h"
 namespace RPG::CustomRP { class CRPRendererData_CRPComputeResources; }
 namespace RPG::CustomRP { class CRPRendererData_CRPDebugResources; }
 namespace RPG::CustomRP { class CRPRendererData_CRPShaderResources; }
 namespace RPG::CustomRP { class CRPRendererData_CRPTextureResources; }
 namespace RPG::CustomRP { class DebugRTName; }
 namespace System { class Action; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C681A40)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x1C681BC0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x1C6750D0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x1C681970)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x1C66D500)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x1C681BE0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_OVERRIDEDEFERLIGHTINGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1C6819A0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x1C681710)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x1C6722F0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x1C681730)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C681D80)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C681CE0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC080E0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC08040)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CC07DA0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x1CC07F20)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x1CBFB550)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x1CC07CD0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x1CBF3830)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x1CC07F40)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_OVERRIDEDEFERLIGHTINGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CC07D00)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x1CC07A70)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x1CBF87A0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x1CC07A90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 37175;
-
 	class CRPRendererData : public ::RPG::CustomRP::CRPRendererDataBase
 	{
 	public:
-		static ::System::UInt32* StaticGet_Flag_ShadowHalfRes()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB30);
-		}
-		static ::System::UInt32* StaticGet_Flag_StencilDebug()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB34);
-		}
-		static ::System::UInt32* StaticGet_Flag_PreLightMRTPass()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB38);
-		}
-		static ::System::UInt32* StaticGet_Flag_PreAOPass()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0xDB3C);
-		}
-		::System::Action_1<::UnityEngine::Material*>* _onDeferLightingMaterialOverride; // 0x28
+		::System::Action* _onDeferLightingMaterialOverride; // 0x28
 		::System::Action* _onDeferLightingMaterialRestore; // 0x30
 		::RPG::CustomRP::CRPRendererData_CRPShaderResources* shaders; // 0x38
 		::RPG::CustomRP::CRPRendererData_CRPComputeResources* computes; // 0x40
 		::RPG::CustomRP::CRPRendererData_CRPDebugResources* debugs; // 0x48
 		::RPG::CustomRP::CRPRendererData_CRPTextureResources* textures; // 0x50
 		::RPG::CustomRP::FlagMask flag; // 0x58
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::RPG::CustomRP::DebugRTName*>* debugRTs; // 0x60
 		::UnityEngine::Rendering::CRPPreConfig PreConfig; // 0x68
 		::UnityEngine::Material* CharDummyMat; // 0x90
@@ -74,15 +55,34 @@ namespace RPG::CustomRP
 		::UnityEngine::Material* UIDefaultMaterial; // 0x140
 		::UnityEngine::Material* EmptyDefaultMat; // 0x148
 		::UnityEngine::Material* GLESDummyDepth; // 0x150
+		static ::System::UInt32* StaticGet_Flag_ShadowHalfRes()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "CRPRendererData")->GetStaticField(0x9630);
+		}
+
+		static ::System::UInt32* StaticGet_Flag_StencilDebug()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "CRPRendererData")->GetStaticField(0x9634);
+		}
+
+		static ::System::UInt32* StaticGet_Flag_PreAOPass()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "CRPRendererData")->GetStaticField(0x9638);
+		}
+
+		static ::System::UInt32* StaticGet_Flag_PreLightMRTPass()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "CRPRendererData")->GetStaticField(0x963C);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_CCTOR_OFFSET))();
 		}
 
 		::System::Void ReloadRes()
@@ -134,5 +134,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET))(this);
 		}
+
 	};
 }

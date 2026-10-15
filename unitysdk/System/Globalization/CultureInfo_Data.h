@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int CultureInfo_Data_TypeDefinitionIndex = 791;
-
 	struct alignas(4) CultureInfo_Data
 	{
 		::System::Int32 ansi; // 0x10

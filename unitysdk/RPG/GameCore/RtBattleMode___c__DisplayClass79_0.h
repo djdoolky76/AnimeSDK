@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class AENGOKAEEOA;
+class ANGGDDJJBKO;
 
-class Class_1_0E0403D2B5AD79E8;
-class Class_1_E754E66360B8422F;
-
-#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE6E3800)
-#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0___INITTEAMCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0xE6E52C0)
+#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE73EEF0)
+#define RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0___INITTEAMCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0xE740960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleMode___c__DisplayClass79_0_TypeDefinitionIndex = 54485;
-
 	class RtBattleMode___c__DisplayClass79_0 : public ::System::Object
 	{
 	public:
-		::Class_1_E754E66360B8422F* data; // 0x10
-
+		::AENGOKAEEOA* data; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __InitTeamCharacters_b__0(::Class_1_0E0403D2B5AD79E8* a1)
+		::System::Boolean __InitTeamCharacters_b__0(::ANGGDDJJBKO* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_0E0403D2B5AD79E8*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0___INITTEAMCHARACTERS_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::ANGGDDJJBKO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLEMODE___C__DISPLAYCLASS79_0___INITTEAMCHARACTERS_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

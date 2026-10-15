@@ -5,7 +5,6 @@
 #include "unitysdk/UnityEngine/ProBuilder/PickerOptions.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -13,15 +12,13 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKEDGESINRECT_OFFSET UNITYSDK_OFFSET(0x1EB9EC00)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKFACESINRECT_OFFSET UNITYSDK_OFFSET(0x1EB9CD70)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKFACE_OFFSET UNITYSDK_OFFSET(0x1EB9FE00)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKVERTICESINRECT_OFFSET UNITYSDK_OFFSET(0x1EB9B990)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKEDGESINRECT_OFFSET UNITYSDK_OFFSET(0x1F2665D0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKFACESINRECT_OFFSET UNITYSDK_OFFSET(0x1F264740)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKFACE_OFFSET UNITYSDK_OFFSET(0x1F2677D0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKVERTICESINRECT_OFFSET UNITYSDK_OFFSET(0x1F263360)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPicker_TypeDefinitionIndex = 43226;
-
 	class SelectionPicker : public ::System::Object
 	{
 	public:
@@ -44,5 +41,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::UnityEngine::ProBuilder::Face*(*)(::UnityEngine::Camera*, ::UnityEngine::Vector3, ::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SELECTIONPICKER_PICKFACE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

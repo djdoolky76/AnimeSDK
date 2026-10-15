@@ -3,39 +3,36 @@
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/MixDirection.h"
 #include "unitysdk/Spine/Timeline.h"
-
 namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_DRAWORDERTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1E5DAEE0)
-#define SPINE_DRAWORDERTIMELINE_GET_DRAWORDERS_OFFSET UNITYSDK_OFFSET(0x1E5DAE30)
-#define SPINE_DRAWORDERTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5DAE40)
-#define SPINE_DRAWORDERTIMELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5DB170)
-#define SPINE_DRAWORDERTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DADD0)
+#define SPINE_DRAWORDERTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECA3080)
+#define SPINE_DRAWORDERTIMELINE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECA3310)
+#define SPINE_DRAWORDERTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA2F70)
+#define SPINE_DRAWORDERTIMELINE_GET_DRAWORDERS_OFFSET UNITYSDK_OFFSET(0x1ECA2FD0)
+#define SPINE_DRAWORDERTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECA2FE0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int DrawOrderTimeline_TypeDefinitionIndex = 38324;
-
 	class DrawOrderTimeline : public ::Spine::Timeline
 	{
 	public:
+		::Il2CppArray<::Il2CppArray<::System::Int32>*>* drawOrders; // 0x20
 		static ::Il2CppArray<::System::String*>** StaticGet_propertyIds()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DrawOrderTimeline_TypeDefinitionIndex)->GetStaticField(0x46370);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("Spine", "DrawOrderTimeline")->GetStaticField(0x4BCB0);
 		}
-		::Il2CppArray<::Il2CppArray<::System::Int32>*>* drawOrders; // 0x20
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_DRAWORDERTIMELINE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_DRAWORDERTIMELINE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_DRAWORDERTIMELINE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_DRAWORDERTIMELINE_CCTOR_OFFSET))();
 		}
 
 		::Il2CppArray<::Il2CppArray<::System::Int32>*>* get_DrawOrders()
@@ -52,5 +49,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_DRAWORDERTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

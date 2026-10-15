@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSADJUSTLEVELPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x15E1D0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSADJUSTLEVELPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF7DC0)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnvSysAdjustLevelParam_TypeDefinitionIndex = 49087;
-
 	struct alignas(4) EnvSysAdjustLevelParam
 	{
 		::System::Boolean AdjustLevelOn; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color LevelSkinColor; // 0x14
 		::UnityEngine::Color LevelSkinShadowColor; // 0x24
 		::UnityEngine::Color LevelHighLightColor; // 0x34
@@ -19,10 +17,10 @@ namespace RPGTools::Timeline::EnvironmentSyetem
 		::System::Single LevelShadow; // 0x54
 		::System::Single LevelMid; // 0x58
 		::System::Single LevelLight; // 0x5C
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSADJUSTLEVELPARAM__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSADJUSTLEVELPARAM_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class MonoBehaviour; }
 
 namespace UnityEngine::UI::CoroutineTween
 {
-	inline static constexpr unsigned int TweenRunner_1_TypeDefinitionIndex = 6892;
-
 	template <typename T>
 	class TweenRunner_1 : public ::System::Object
 	{

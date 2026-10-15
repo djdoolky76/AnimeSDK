@@ -2,44 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaValidity.h"
 #include "unitysdk/System/Xml/XmlName.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml { class XmlDocument; }
+namespace System::Xml { class XmlName; }
 namespace System::Xml::Schema { class IXmlSchemaInfo; }
 namespace System::Xml::Schema { class XmlSchemaAttribute; }
 namespace System::Xml::Schema { class XmlSchemaElement; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_XMLNAMEEX_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E8B1F30)
-#define SYSTEM_XML_XMLNAMEEX_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1E8B1DF0)
-#define SYSTEM_XML_XMLNAMEEX_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x1E8B1E00)
-#define SYSTEM_XML_XMLNAMEEX_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1E8B1E10)
-#define SYSTEM_XML_XMLNAMEEX_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E8B1EB0)
-#define SYSTEM_XML_XMLNAMEEX_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x1E8B1E30)
-#define SYSTEM_XML_XMLNAMEEX_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1E8B1E20)
-#define SYSTEM_XML_XMLNAMEEX_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x1E8B1DC0)
-#define SYSTEM_XML_XMLNAMEEX_SETISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1E8B1DA0)
-#define SYSTEM_XML_XMLNAMEEX_SETISNIL_OFFSET UNITYSDK_OFFSET(0x1E8B1DB0)
-#define SYSTEM_XML_XMLNAMEEX_SETVALIDITY_OFFSET UNITYSDK_OFFSET(0x1E8B1D90)
-#define SYSTEM_XML_XMLNAMEEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B14F0)
+#define SYSTEM_XML_XMLNAMEEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF79F70)
+#define SYSTEM_XML_XMLNAMEEX_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EF7A9B0)
+#define SYSTEM_XML_XMLNAMEEX_GET_ISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1EF7A870)
+#define SYSTEM_XML_XMLNAMEEX_GET_ISNIL_OFFSET UNITYSDK_OFFSET(0x1EF7A880)
+#define SYSTEM_XML_XMLNAMEEX_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1EF7A890)
+#define SYSTEM_XML_XMLNAMEEX_GET_SCHEMAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EF7A930)
+#define SYSTEM_XML_XMLNAMEEX_GET_SCHEMAELEMENT_OFFSET UNITYSDK_OFFSET(0x1EF7A8B0)
+#define SYSTEM_XML_XMLNAMEEX_GET_SCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1EF7A8A0)
+#define SYSTEM_XML_XMLNAMEEX_GET_VALIDITY_OFFSET UNITYSDK_OFFSET(0x1EF7A840)
+#define SYSTEM_XML_XMLNAMEEX_SETISDEFAULT_OFFSET UNITYSDK_OFFSET(0x1EF7A820)
+#define SYSTEM_XML_XMLNAMEEX_SETISNIL_OFFSET UNITYSDK_OFFSET(0x1EF7A830)
+#define SYSTEM_XML_XMLNAMEEX_SETVALIDITY_OFFSET UNITYSDK_OFFSET(0x1EF7A810)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNameEx_TypeDefinitionIndex = 1910;
-
 	class XmlNameEx : public ::System::Xml::XmlName
 	{
 	public:
-		::System::Object* decl; // 0x48
+		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x48
 		::System::Xml::Schema::XmlSchemaSimpleType* memberType; // 0x50
-		::System::Xml::Schema::XmlSchemaType* schemaType; // 0x58
+		::System::Object* decl; // 0x58
 		::System::Byte flags; // 0x60
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4, ::System::Xml::XmlDocument* a5, ::System::Xml::XmlName* a6, ::System::Xml::Schema::IXmlSchemaInfo* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Xml::XmlDocument*, ::System::Xml::XmlName*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMEEX__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Xml::XmlDocument*, ::System::Xml::XmlName*, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMEEX_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Xml::Schema::XmlSchemaValidity get_Validity()
@@ -96,5 +93,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Xml::Schema::IXmlSchemaInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNAMEEX_EQUALS_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureByCheckMoveInput; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_0D1B265559100449_OFFSET UNITYSDK_OFFSET(0x1CDE1CA0)
-#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_6C650B4435E54EA6_OFFSET UNITYSDK_OFFSET(0x1CDE1E10)
-#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_90640F4DAA0343F3_OFFSET UNITYSDK_OFFSET(0x1CDE1DE0)
-#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_DB43D42584C348C2_OFFSET UNITYSDK_OFFSET(0x1CDE1C60)
-#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE1C90)
+#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B78B0)
+#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D3B7A30)
+#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3B7A00)
+#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B78C0)
+#define RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B7880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByCheckMoveInput_TypeDefinitionIndex = 20004;
-
 	class AdventureByCheckMoveInput : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DB43D42584C348C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByCheckMoveInput*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByCheckMoveInput* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByCheckMoveInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_DB43D42584C348C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByCheckMoveInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0D1B265559100449(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByCheckMoveInput* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByCheckMoveInput* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByCheckMoveInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_0D1B265559100449_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByCheckMoveInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_90640F4DAA0343F3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByCheckMoveInput*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByCheckMoveInput* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByCheckMoveInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_90640F4DAA0343F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByCheckMoveInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6C650B4435E54EA6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByCheckMoveInput* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByCheckMoveInput* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByCheckMoveInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_METHOD_4_6C650B4435E54EA6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByCheckMoveInput*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYCHECKMOVEINPUT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

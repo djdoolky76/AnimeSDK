@@ -1,62 +1,60 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class AnimationState; }
 namespace Spine { class Event; }
 namespace Spine { class EventData; }
 namespace Spine { class TrackEntry; }
 namespace Spine::Unity { class SkeletonAnimation; }
+namespace Spine::Unity { class WaitForSpineEvent; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SPINE_UNITY_WAITFORSPINEEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E66DC40)
-#define SPINE_UNITY_WAITFORSPINEEVENT_GET_WILLUNSUBSCRIBEAFTERFIRING_OFFSET UNITYSDK_OFFSET(0x1E66DB00)
-#define SPINE_UNITY_WAITFORSPINEEVENT_HANDLEANIMATIONSTATEEVENTBYNAME_OFFSET UNITYSDK_OFFSET(0x1E66D8B0)
-#define SPINE_UNITY_WAITFORSPINEEVENT_HANDLEANIMATIONSTATEEVENT_OFFSET UNITYSDK_OFFSET(0x1E66D9F0)
-#define SPINE_UNITY_WAITFORSPINEEVENT_NOWWAITFOR_1_OFFSET UNITYSDK_OFFSET(0x1E66DD90)
-#define SPINE_UNITY_WAITFORSPINEEVENT_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x1E66DB20)
-#define SPINE_UNITY_WAITFORSPINEEVENT_SET_WILLUNSUBSCRIBEAFTERFIRING_OFFSET UNITYSDK_OFFSET(0x1E66DB10)
-#define SPINE_UNITY_WAITFORSPINEEVENT_SUBSCRIBEBYNAME_OFFSET UNITYSDK_OFFSET(0x1E66D660)
-#define SPINE_UNITY_WAITFORSPINEEVENT_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1E66D480)
-#define SPINE_UNITY_WAITFORSPINEEVENT_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E66DFD0)
-#define SPINE_UNITY_WAITFORSPINEEVENT_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E66DEB0)
-#define SPINE_UNITY_WAITFORSPINEEVENT_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E66DFC0)
-#define SPINE_UNITY_WAITFORSPINEEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E66D860)
-#define SPINE_UNITY_WAITFORSPINEEVENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E66D880)
-#define SPINE_UNITY_WAITFORSPINEEVENT__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E66D890)
-#define SPINE_UNITY_WAITFORSPINEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66D850)
+#define SPINE_UNITY_WAITFORSPINEEVENT_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ED35BA0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED357C0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1ED357E0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1ED357F0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED357B0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_GET_WILLUNSUBSCRIBEAFTERFIRING_OFFSET UNITYSDK_OFFSET(0x1ED35A60)
+#define SPINE_UNITY_WAITFORSPINEEVENT_HANDLEANIMATIONSTATEEVENTBYNAME_OFFSET UNITYSDK_OFFSET(0x1ED35810)
+#define SPINE_UNITY_WAITFORSPINEEVENT_HANDLEANIMATIONSTATEEVENT_OFFSET UNITYSDK_OFFSET(0x1ED35950)
+#define SPINE_UNITY_WAITFORSPINEEVENT_NOWWAITFOR_1_OFFSET UNITYSDK_OFFSET(0x1ED35CF0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x1ED35A80)
+#define SPINE_UNITY_WAITFORSPINEEVENT_SET_WILLUNSUBSCRIBEAFTERFIRING_OFFSET UNITYSDK_OFFSET(0x1ED35A70)
+#define SPINE_UNITY_WAITFORSPINEEVENT_SUBSCRIBEBYNAME_OFFSET UNITYSDK_OFFSET(0x1ED355C0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_SUBSCRIBE_OFFSET UNITYSDK_OFFSET(0x1ED353E0)
+#define SPINE_UNITY_WAITFORSPINEEVENT_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ED35F30)
+#define SPINE_UNITY_WAITFORSPINEEVENT_SYSTEM_COLLECTIONS_IENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1ED35E10)
+#define SPINE_UNITY_WAITFORSPINEEVENT_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1ED35F20)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int WaitForSpineEvent_TypeDefinitionIndex = 43917;
-
 	class WaitForSpineEvent : public ::System::Object
 	{
 	public:
 		::System::String* m_EventName; // 0x10
-		::Spine::AnimationState* m_AnimationState; // 0x18
-		::Spine::EventData* m_TargetEvent; // 0x20
+		::Spine::EventData* m_TargetEvent; // 0x18
+		::Spine::AnimationState* m_AnimationState; // 0x20
 		::System::Boolean m_WasFired; // 0x28
 		::System::Boolean m_unsubscribeAfterFiring; // 0x29
-
 		::System::Void _ctor(::Spine::AnimationState* a1, ::Spine::EventData* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*, ::Spine::EventData*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*, ::Spine::EventData*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::Spine::Unity::SkeletonAnimation* a1, ::Spine::EventData* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonAnimation*, ::Spine::EventData*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonAnimation*, ::Spine::EventData*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_2(::Spine::AnimationState* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT__CTOR_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Spine::AnimationState*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT_CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_3(::Spine::Unity::SkeletonAnimation* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonAnimation*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT__CTOR_3_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SkeletonAnimation*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT_CTOR_3_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Subscribe(::Spine::AnimationState* a1, ::Spine::EventData* a2, ::System::Boolean a3)
@@ -118,5 +116,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_WAITFORSPINEEVENT_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

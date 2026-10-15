@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightShadows_TypeDefinitionIndex = 4157;
-
 	enum class LightShadows : ::System::Int32
 	{
 		None = 0,

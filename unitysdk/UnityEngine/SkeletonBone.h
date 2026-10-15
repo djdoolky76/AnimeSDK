@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SkeletonBone_TypeDefinitionIndex = 5712;
-
 	struct alignas(8) SkeletonBone
 	{
 		::System::String* name; // 0x10

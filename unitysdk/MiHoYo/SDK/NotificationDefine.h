@@ -2,14 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
-#define MIHOYO_SDK_NOTIFICATIONDEFINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B63C0)
+#define MIHOYO_SDK_NOTIFICATIONDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB6330)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NotificationDefine_TypeDefinitionIndex = 7532;
-
 	class NotificationDefine : public ::System::Object
 	{
 	public:
@@ -50,10 +46,10 @@ namespace MiHoYo::SDK
 		// static const ::System::String* PAY_XBOX_IS_STORE_USER; // 0x0
 		// static const ::System::String* TYPE; // 0x0
 		// static const ::System::String* STATUS; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NOTIFICATIONDEFINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NOTIFICATIONDEFINE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB1A61F0)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB1A6290)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_INVOKE_OFFSET UNITYSDK_OFFSET(0xB1A61C0)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A6150)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF505D0)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_CTOR_OFFSET UNITYSDK_OFFSET(0xAF50530)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF50670)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF505A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogAttachmentUploaded_TypeDefinitionIndex = 46959;
-
 	class APMC_LOGBACK_LogAttachmentUploaded : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::Boolean a2, ::System::String* a3, ::System::String* a4)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGATTACHMENTUPLOADED_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

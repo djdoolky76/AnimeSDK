@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/BossHeadEffType.h"
+#include "unitysdk/System/Object.h"
+class NNAFEEPMIGK;
+namespace System { class String; }
+
+#define NNAFEEPMIGK_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBC9A840)
+#define NNAFEEPMIGK_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC9A930)
+#define NNAFEEPMIGK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9A920)
+
+	class NNAFEEPMIGK : public ::System::Object
+	{
+	public:
+		::System::String* INJJNCAGKKG; // 0x10
+		::System::String* BDACPPLKLGL; // 0x18
+		static ::NNAFEEPMIGK** StaticGet_IBHILJLAEDC()
+		{
+			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x52550);
+		}
+
+		static ::NNAFEEPMIGK** StaticGet_NGFGMAKPKPD()
+		{
+			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x52558);
+		}
+
+		static ::NNAFEEPMIGK** StaticGet_MOKKBFKOBFH()
+		{
+			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x52560);
+		}
+
+		::System::Void _ctor(::System::String* a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NNAFEEPMIGK_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NNAFEEPMIGK_CCTOR_OFFSET))();
+		}
+
+		static ::NNAFEEPMIGK* ACMKLFOMPFC(::RPG::GameCore::BossHeadEffType a1)
+		{
+			return ((::NNAFEEPMIGK*(*)(::RPG::GameCore::BossHeadEffType))((::PBYTE)hIl2Cpp + NNAFEEPMIGK_ACMKLFOMPFC_OFFSET))(a1);
+		}
+
+	};

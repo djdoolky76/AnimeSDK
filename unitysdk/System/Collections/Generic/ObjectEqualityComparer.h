@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
+namespace System::Collections::Generic { class ObjectEqualityComparer; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BBB7C20)
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBB7B80)
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB7CD0)
-#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB7B70)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0C3CF0)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C3B90)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C0C3C40)
+#define SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C0C3BA0)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int ObjectEqualityComparer_TypeDefinitionIndex = 1543;
-
 	class ObjectEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::ObjectEqualityComparer** StaticGet_Default()
 		{
-			return (::System::Collections::Generic::ObjectEqualityComparer**)Il2CppClass::FromTypeDefinitionIndex(ObjectEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x7940);
+			return (::System::Collections::Generic::ObjectEqualityComparer**)UnitySDK::FromName("System.Collections.Generic", "ObjectEqualityComparer")->GetStaticField(0xFD90);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 System_Collections_IEqualityComparer_GetHashCode(::System::Object* a1)
@@ -38,5 +38,6 @@ namespace System::Collections::Generic
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_OBJECTEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

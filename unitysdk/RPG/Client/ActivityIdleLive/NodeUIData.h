@@ -3,36 +3,34 @@
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
+namespace RPG::Client::ActivityIdleLive { class NodeUIData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC5DF030)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_GETFULLNODEPROGRESSTEXT_OFFSET UNITYSDK_OFFSET(0xC5F87A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_GETNODEROMANNUMBER_OFFSET UNITYSDK_OFFSET(0xC5F8690)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_GET_SUGGESTPOWER_OFFSET UNITYSDK_OFFSET(0xC5F8650)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_SET_SUGGESTPOWER_OFFSET UNITYSDK_OFFSET(0xC5F8670)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_SHOWRECOMMENDPOWER_OFFSET UNITYSDK_OFFSET(0xC5F8860)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F8680)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC4F6AC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC510080)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_GETFULLNODEPROGRESSTEXT_OFFSET UNITYSDK_OFFSET(0xC5101A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_GETNODEROMANNUMBER_OFFSET UNITYSDK_OFFSET(0xC510090)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_GET_SUGGESTPOWER_OFFSET UNITYSDK_OFFSET(0xC510050)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_SET_SUGGESTPOWER_OFFSET UNITYSDK_OFFSET(0xC510070)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_SHOWRECOMMENDPOWER_OFFSET UNITYSDK_OFFSET(0xC510260)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int NodeUIData_TypeDefinitionIndex = 75129;
-
 	class NodeUIData : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::RPG::Client::ActivityIdleLive::IdleLiveDecimal _SuggestPower_k__BackingField; // 0x18
-		::RPG::Client::TextID _ChapterRomanNumber; // 0x30
-		::System::UInt32 _Index; // 0x40
-		::System::Boolean IsFinished; // 0x44
+		::RPG::Client::ActivityIdleLive::IdleLiveDecimal _SuggestPower_k__BackingField; // 0x10
+		::System::String* IconPath; // 0x28
+		::System::Boolean IsFinished; // 0x30
+		::System::Byte _padding0[0x7];
+		::RPG::Client::TextID _ChapterRomanNumber; // 0x38
 		::RPG::Client::TextID _ChapterTitle; // 0x48
-		::System::UInt32 NodeType; // 0x58
-
+		::System::UInt32 _Index; // 0x58
+		::System::UInt32 NodeType; // 0x5C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::ActivityIdleLive::IdleLiveDecimal get_SuggestPower()
@@ -64,5 +62,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_NODEUIDATA_SHOWRECOMMENDPOWER_OFFSET))(this);
 		}
+
 	};
 }

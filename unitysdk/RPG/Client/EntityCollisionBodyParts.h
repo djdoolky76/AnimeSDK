@@ -1,43 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class EntityCollisionBodyParts_CollisionBodyPart; }
 namespace RPG::GameCore { class AdventureCharacterController; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_COMPAREBYPRIORITY_OFFSET UNITYSDK_OFFSET(0xCEA1850)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_FINDBODYPARTANCHORHITPOSITION_OFFSET UNITYSDK_OFFSET(0xCEA1E80)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_FINDBODYPARTANCHORMODEL_OFFSET UNITYSDK_OFFSET(0xCEA1D20)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_FINDBODYPARTINDEX_OFFSET UNITYSDK_OFFSET(0xCEA2000)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_METHOD_5_5F32FD20E92D0466_OFFSET UNITYSDK_OFFSET(0xCEA23A0)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_SETUPPARTSMAPPING_OFFSET UNITYSDK_OFFSET(0xCEA1AD0)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_TRIGGERBODYPARTHITANIMSTATE_OFFSET UNITYSDK_OFFSET(0xCEA2150)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_UPDATE_OFFSET UNITYSDK_OFFSET(0xCEA2830)
-#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS__CTOR_OFFSET UNITYSDK_OFFSET(0xCEA2930)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_COMPAREBYPRIORITY_OFFSET UNITYSDK_OFFSET(0xCDF0CF0)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF1DD0)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_FINDBODYPARTANCHORHITPOSITION_OFFSET UNITYSDK_OFFSET(0xCDF1320)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_FINDBODYPARTANCHORMODEL_OFFSET UNITYSDK_OFFSET(0xCDF11C0)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_FINDBODYPARTINDEX_OFFSET UNITYSDK_OFFSET(0xCDF14A0)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_GNMCPIJOHDD_OFFSET UNITYSDK_OFFSET(0xCDF1840)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_SETUPPARTSMAPPING_OFFSET UNITYSDK_OFFSET(0xCDF0F70)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_TRIGGERBODYPARTHITANIMSTATE_OFFSET UNITYSDK_OFFSET(0xCDF15F0)
+#define RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_UPDATE_OFFSET UNITYSDK_OFFSET(0xCDF1CD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityCollisionBodyParts_TypeDefinitionIndex = 68381;
-
 	class EntityCollisionBodyParts : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::EntityCollisionBodyParts_CollisionBodyPart*>* BodyParts; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* BodyParts; // 0x18
 		::UnityEngine::Animator* MainBodyAnimatorRef; // 0x20
 		::RPG::GameCore::AdventureCharacterController* OwnerControllerRef; // 0x28
 		::System::Int32 MPNKEHFMANP; // 0x30
 		::System::Single DINAMODHLAF; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYCOLLISIONBODYPARTS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 CompareByPriority(::UnityEngine::Collider* a1, ::UnityEngine::Collider* a2)
@@ -75,9 +71,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_UPDATE_OFFSET))(this);
 		}
 
-		::System::Single Method_5_5F32FD20E92D0466(::UnityEngine::Transform* a1, ::RPG::MVector3 a2)
+		::System::Single GNMCPIJOHDD(::UnityEngine::Transform* a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_METHOD_5_5F32FD20E92D0466_OFFSET))(this, a1, a2);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENTITYCOLLISIONBODYPARTS_GNMCPIJOHDD_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

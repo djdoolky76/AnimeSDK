@@ -2,21 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::AI { class NavMeshAgent; }
 
-#define RPG_CLIENT_FIRSTVIEWCAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0xD067FA0)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_SETDESTINATION_OFFSET UNITYSDK_OFFSET(0xD067F20)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_SETTARGETCAMERA_OFFSET UNITYSDK_OFFSET(0xD067ED0)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_START_OFFSET UNITYSDK_OFFSET(0xD068030)
-#define RPG_CLIENT_FIRSTVIEWCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0xD0680C0)
-#define RPG_CLIENT_FIRSTVIEWCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xD068910)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_AWAKE_OFFSET UNITYSDK_OFFSET(0xD007520)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xD007E90)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_SETDESTINATION_OFFSET UNITYSDK_OFFSET(0xD0074A0)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_SETTARGETCAMERA_OFFSET UNITYSDK_OFFSET(0xD007450)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_START_OFFSET UNITYSDK_OFFSET(0xD0075B0)
+#define RPG_CLIENT_FIRSTVIEWCAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0xD007640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FirstViewCamera_TypeDefinitionIndex = 60203;
-
 	class FirstViewCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -27,17 +24,20 @@ namespace RPG::Client
 		::System::Single EFCLPPHFEGN; // 0x28
 		::System::Boolean MoveSwtichOn; // 0x2C
 		::System::Boolean RotationSwtichOn; // 0x2D
+		::System::Byte _padding0[0x2];
 		::UnityEngine::AI::NavMeshAgent* AgentPlayer; // 0x30
 		::System::Single MoveSpeed; // 0x38
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* TargetPosition; // 0x40
 		::System::Boolean HILIFDNEHGG; // 0x48
+		::System::Byte _padding2[0x3];
 		::System::Single BBABAMDIFKJ; // 0x4C
 		::System::Single CAMIAKJJLDD; // 0x50
+		::System::Byte _padding3[0x4];
 		::UnityEngine::Transform* CPBAACCBCMI; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIRSTVIEWCAMERA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIRSTVIEWCAMERA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetTargetCamera(::UnityEngine::Transform* a1)
@@ -64,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIRSTVIEWCAMERA_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

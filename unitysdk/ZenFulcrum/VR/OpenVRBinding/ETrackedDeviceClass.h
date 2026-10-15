@@ -3,8 +3,6 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ETrackedDeviceClass_TypeDefinitionIndex = 37921;
-
 	enum class ETrackedDeviceClass : ::System::Int32
 	{
 		Invalid = 0,

@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class TriggerCustomString; }
+
+#define HFIIEDMBIBC_CHBJPMFMCIO_OFFSET UNITYSDK_OFFSET(0x15C7AEB0)
+#define HFIIEDMBIBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7ADF0)
+#define HFIIEDMBIBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C7AE00)
+#define HFIIEDMBIBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C7AE40)
+#define HFIIEDMBIBC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C7B050)
+#define HFIIEDMBIBC_TICK_OFFSET UNITYSDK_OFFSET(0x15C7B0A0)
+
+	class HFIIEDMBIBC : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerCustomString* OFKGLJOAMLD; // 0x20
+		::System::Int32 GAHGABBBDFF; // 0x28
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerCustomString* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerCustomString*))((::PBYTE)hIl2Cpp + HFIIEDMBIBC_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFIIEDMBIBC_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFIIEDMBIBC_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFIIEDMBIBC_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void CHBJPMFMCIO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFIIEDMBIBC_CHBJPMFMCIO_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + HFIIEDMBIBC_TICK_OFFSET))(this, a1);
+		}
+
+	};

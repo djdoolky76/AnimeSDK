@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x3BA4240)
+#define SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET UNITYSDK_OFFSET(0x3C59600)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextWriter_Namespace_TypeDefinitionIndex = 1865;
-
 	struct alignas(8) XmlTextWriter_Namespace
 	{
 		::System::String* prefix; // 0x10
 		::System::String* ns; // 0x18
 		::System::Boolean declared; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 prevNsIndex; // 0x24
-
 		::System::Void Set(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTWRITER_NAMESPACE_SET_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

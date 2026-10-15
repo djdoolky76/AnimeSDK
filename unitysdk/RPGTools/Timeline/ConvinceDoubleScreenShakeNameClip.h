@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE837700)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8376F0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE837890)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D5480)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D5610)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D5470)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceDoubleScreenShakeNameClip_TypeDefinitionIndex = 48499;
-
 	class ConvinceDoubleScreenShakeNameClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* ShakeConfigName; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKENAMECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

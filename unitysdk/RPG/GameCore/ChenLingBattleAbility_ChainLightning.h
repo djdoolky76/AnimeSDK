@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleAbilityNodeConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
+namespace RPG::GameCore { class ChenLingBattleAbility_ChainLightning; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 namespace RPG::GameCore { class ChenLingBattleResource_OnHit; }
 namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_METHOD_3_E258C0C9AF29E3E4_OFFSET UNITYSDK_OFFSET(0x1CFA4980)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_METHOD_3_FA6C927D298F0C0E_OFFSET UNITYSDK_OFFSET(0x1CFA4920)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA4970)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57F590)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57F5A0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57F540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_ChainLightning_TypeDefinitionIndex = 15561;
-
 	class ChenLingBattleAbility_ChainLightning : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:
@@ -28,20 +26,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::ChenLingBattleEffectConfig* EffectConfig; // 0x38
 		::RPG::GameCore::ChenLingBattleResource_OnHit* OnHitResource; // 0x40
 		::RPG::GameCore::ChenLingBattleTriggerCallback* OnHitCallback; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FA6C927D298F0C0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_METHOD_3_FA6C927D298F0C0E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E258C0C9AF29E3E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_METHOD_3_E258C0C9AF29E3E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbility_ChainLightning*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CHAINLIGHTNING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

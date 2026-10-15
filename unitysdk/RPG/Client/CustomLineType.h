@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomLineType_TypeDefinitionIndex = 70363;
-
 	enum class CustomLineType : ::System::Int32
 	{
 		BrokenLine = 0,

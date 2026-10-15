@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEffectItem; }
+namespace RPG::GameCore { class FiveDimPlayerEffectConfig; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_METHOD_2_941D29298E462398_OFFSET UNITYSDK_OFFSET(0x1D0F8A90)
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F9350)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D23C0)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D1B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerEffectConfig_TypeDefinitionIndex = 16488;
-
 	class FiveDimPlayerEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -39,15 +37,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MascotEffects; // 0xB8
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MusicFallEffects; // 0xC0
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectItem*>* MascotMusicFallEffects; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_941D29298E462398(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPlayerEffectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimPlayerEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPlayerEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_METHOD_2_941D29298E462398_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimPlayerEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

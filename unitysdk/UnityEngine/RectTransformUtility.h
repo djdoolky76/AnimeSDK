@@ -1,59 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_RECTTRANSFORMUTILITY_CALCULATERELATIVERECTTRANSFORMBOUNDS_1_OFFSET UNITYSDK_OFFSET(0x1EE04DC0)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_CALCULATERELATIVERECTTRANSFORMBOUNDS_OFFSET UNITYSDK_OFFSET(0x1EE04520)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_FLIPLAYOUTAXES_OFFSET UNITYSDK_OFFSET(0x1EE05130)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_FLIPLAYOUTONAXIS_OFFSET UNITYSDK_OFFSET(0x1EE04E20)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_GETTRANSPOSED_OFFSET UNITYSDK_OFFSET(0x1EE05320)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTPOINT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE03B90)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTPOINT_OFFSET UNITYSDK_OFFSET(0x1EE03B30)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTRECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE03C00)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTRECT_OFFSET UNITYSDK_OFFSET(0x1EE03BA0)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_POINTINRECTANGLE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EE03C60)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_POINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1EE03C10)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_RECTANGLECONTAINSSCREENPOINT_1_OFFSET UNITYSDK_OFFSET(0x1EE03D60)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_RECTANGLECONTAINSSCREENPOINT_2_OFFSET UNITYSDK_OFFSET(0x1EE03E10)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_RECTANGLECONTAINSSCREENPOINT_OFFSET UNITYSDK_OFFSET(0x1EE03C80)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOLOCALPOINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1EE043F0)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTORAY_OFFSET UNITYSDK_OFFSET(0x1EE042D0)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1EE03EA0)
-#define UNITYENGINE_RECTTRANSFORMUTILITY_WORLDTOSCREENPOINT_OFFSET UNITYSDK_OFFSET(0x1EE044B0)
-#define UNITYENGINE_RECTTRANSFORMUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE05330)
-#define UNITYENGINE_RECTTRANSFORMUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE03C70)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_CALCULATERELATIVERECTTRANSFORMBOUNDS_1_OFFSET UNITYSDK_OFFSET(0x1F4CE040)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_CALCULATERELATIVERECTTRANSFORMBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F4CD770)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4CE5B0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CCEC0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_FLIPLAYOUTAXES_OFFSET UNITYSDK_OFFSET(0x1F4CE3B0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_FLIPLAYOUTONAXIS_OFFSET UNITYSDK_OFFSET(0x1F4CE0A0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_GETTRANSPOSED_OFFSET UNITYSDK_OFFSET(0x1F4CE5A0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTPOINT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4CCDE0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTPOINT_OFFSET UNITYSDK_OFFSET(0x1F4CCD80)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTRECT_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4CCE50)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTRECT_OFFSET UNITYSDK_OFFSET(0x1F4CCDF0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_POINTINRECTANGLE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4CCEB0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_POINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1F4CCE60)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_RECTANGLECONTAINSSCREENPOINT_1_OFFSET UNITYSDK_OFFSET(0x1F4CCFB0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_RECTANGLECONTAINSSCREENPOINT_2_OFFSET UNITYSDK_OFFSET(0x1F4CD060)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_RECTANGLECONTAINSSCREENPOINT_OFFSET UNITYSDK_OFFSET(0x1F4CCED0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOLOCALPOINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1F4CD640)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTORAY_OFFSET UNITYSDK_OFFSET(0x1F4CD520)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1F4CD0F0)
+#define UNITYENGINE_RECTTRANSFORMUTILITY_WORLDTOSCREENPOINT_OFFSET UNITYSDK_OFFSET(0x1F4CD700)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RectTransformUtility_TypeDefinitionIndex = 6015;
-
 	class RectTransformUtility : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_Corners()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(RectTransformUtility_TypeDefinitionIndex)->GetStaticField(0x440);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine", "RectTransformUtility")->GetStaticField(0x440);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_CCTOR_OFFSET))();
 		}
 
 		static ::UnityEngine::Vector2 PixelAdjustPoint(::UnityEngine::Vector2 a1, ::UnityEngine::Transform* a2, ::UnityEngine::Canvas* a3)
@@ -86,14 +83,14 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_RECTANGLECONTAINSSCREENPOINT_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ScreenPointToWorldPointInRectangle(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Camera* a3, ::UnityEngine::Vector3& a4)
+		static ::System::Boolean ScreenPointToWorldPointInRectangle(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Camera* a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOWORLDPOINTINRECTANGLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ScreenPointToLocalPointInRectangle(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Camera* a3, ::UnityEngine::Vector2& a4)
+		static ::System::Boolean ScreenPointToLocalPointInRectangle(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Camera* a3, ::UnityEngine::Vector2 a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOLOCALPOINTINRECTANGLE_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_SCREENPOINTTOLOCALPOINTINRECTANGLE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Camera* a1, ::UnityEngine::Vector2 a2)
@@ -131,19 +128,20 @@ namespace UnityEngine
 			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_GETTRANSPOSED_OFFSET))(a1);
 		}
 
-		static ::System::Void PixelAdjustPoint_Injected(::UnityEngine::Vector2& a1, ::UnityEngine::Transform* a2, ::UnityEngine::Canvas* a3, ::UnityEngine::Vector2& a4)
+		static ::System::Void PixelAdjustPoint_Injected(::UnityEngine::Vector2 a1, ::UnityEngine::Transform* a2, ::UnityEngine::Canvas* a3, ::UnityEngine::Vector2 a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector2&, ::UnityEngine::Transform*, ::UnityEngine::Canvas*, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTPOINT_INJECTED_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::UnityEngine::Vector2, ::UnityEngine::Transform*, ::UnityEngine::Canvas*, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTPOINT_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void PixelAdjustRect_Injected(::UnityEngine::RectTransform* a1, ::UnityEngine::Canvas* a2, ::UnityEngine::Rect& a3)
+		static ::System::Void PixelAdjustRect_Injected(::UnityEngine::RectTransform* a1, ::UnityEngine::Canvas* a2, ::UnityEngine::Rect a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Canvas*, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTRECT_INJECTED_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::RectTransform*, ::UnityEngine::Canvas*, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_PIXELADJUSTRECT_INJECTED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean PointInRectangle_Injected(::UnityEngine::Vector2& a1, ::UnityEngine::RectTransform* a2, ::UnityEngine::Camera* a3, ::UnityEngine::Vector4& a4)
+		static ::System::Boolean PointInRectangle_Injected(::UnityEngine::Vector2 a1, ::UnityEngine::RectTransform* a2, ::UnityEngine::Camera* a3, ::UnityEngine::Vector4 a4)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector2&, ::UnityEngine::RectTransform*, ::UnityEngine::Camera*, ::UnityEngine::Vector4&))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_POINTINRECTANGLE_INJECTED_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::UnityEngine::Vector2, ::UnityEngine::RectTransform*, ::UnityEngine::Camera*, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORMUTILITY_POINTINRECTANGLE_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

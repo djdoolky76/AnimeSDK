@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRelationMemberType_TypeDefinitionIndex = 24384;
-
 	enum class EntityRelationMemberType : ::System::Int32
 	{
 		None = 0,

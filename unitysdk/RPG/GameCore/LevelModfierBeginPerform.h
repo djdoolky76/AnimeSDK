@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
+namespace RPG::GameCore { class LevelModfierBeginPerform; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_CLEAR_OFFSET UNITYSDK_OFFSET(0xE698C80)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE698D20)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE698CD0)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_INIT_OFFSET UNITYSDK_OFFSET(0xE698C30)
-#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xE698D70)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6F4040)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F4130)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F40E0)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F4090)
+#define RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_INIT_OFFSET UNITYSDK_OFFSET(0xE6F3FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelModfierBeginPerform_TypeDefinitionIndex = 56959;
-
-	class LevelModfierBeginPerform : public ::Class_1_BF7A075734D15E98
+	class LevelModfierBeginPerform : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::TurnBasedModifierInstance* ModifierInstance; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODFIERBEGINPERFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelModfierBeginPerform* Init(::RPG::GameCore::TurnBasedModifierInstance* a1)
@@ -44,5 +41,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMODFIERBEGINPERFORM_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

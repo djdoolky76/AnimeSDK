@@ -3,8 +3,6 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTwist_ActionTiggering_TypeDefinitionIndex = 38985;
-
 	enum class QuickTwist_ActionTiggering : ::System::Int32
 	{
 		InProgress = 0,

@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_Scroll_t_TypeDefinitionIndex = 37987;
-
 	struct alignas(4) VREvent_Scroll_t
 	{
 		::System::Single xdelta; // 0x10

@@ -3,8 +3,6 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTrackedDolly_CameraUpMode_TypeDefinitionIndex = 38493;
-
 	enum class CinemachineTrackedDolly_CameraUpMode : ::System::Int32
 	{
 		Default = 0,

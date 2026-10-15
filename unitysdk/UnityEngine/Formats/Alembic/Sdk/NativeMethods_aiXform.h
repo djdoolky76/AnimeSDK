@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiXformSample.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIXFORM_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EAB5650)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIXFORM_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1F17CEB0)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiXform_TypeDefinitionIndex = 44655;
-
-	struct alignas(1) NativeMethods_aiXform
+	struct alignas(4) NativeMethods_aiXform
 	{
-		/*
 		static ::UnityEngine::Formats::Alembic::Sdk::aiXformSample aiSchemaGetSample(::System::IntPtr a1)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aiXformSample(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIXFORM_AISCHEMAGETSAMPLE_OFFSET))(a1);
 		}
-		*/
+
 	};
 }

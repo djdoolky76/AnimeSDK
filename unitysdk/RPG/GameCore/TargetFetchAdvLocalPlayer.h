@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchAdvLocalPlayer; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_5452A5AA1A24CE2E_OFFSET UNITYSDK_OFFSET(0x1D5A4100)
-#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_94EE3D875163987A_OFFSET UNITYSDK_OFFSET(0x1D5A3F50)
-#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_B682CCB2ACDD8A3B_OFFSET UNITYSDK_OFFSET(0x1D5A40D0)
-#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_DCE672916A3BF661_OFFSET UNITYSDK_OFFSET(0x1D5A3F90)
-#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A3F80)
+#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5B0E0)
+#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB5B260)
+#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB5B230)
+#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB5B0F0)
+#define RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5B0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvLocalPlayer_TypeDefinitionIndex = 23589;
-
 	class TargetFetchAdvLocalPlayer : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Boolean IncludeStoryPlayer; // 0x10
 		::System::Boolean FetchLatestTeamLeader; // 0x11
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_94EE3D875163987A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_94EE3D875163987A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DCE672916A3BF661(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_DCE672916A3BF661_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B682CCB2ACDD8A3B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_B682CCB2ACDD8A3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5452A5AA1A24CE2E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvLocalPlayer* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_METHOD_4_5452A5AA1A24CE2E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvLocalPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVLOCALPLAYER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

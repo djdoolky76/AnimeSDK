@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define MICROSOFT_WIN32_REGISTRYKEYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BB48930)
-#define MICROSOFT_WIN32_REGISTRYKEYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BB48A10)
-#define MICROSOFT_WIN32_REGISTRYKEYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB41130)
+#define MICROSOFT_WIN32_REGISTRYKEYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C04D3A0)
+#define MICROSOFT_WIN32_REGISTRYKEYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C054BA0)
+#define MICROSOFT_WIN32_REGISTRYKEYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C054C80)
 
 namespace Microsoft::Win32
 {
-	inline static constexpr unsigned int RegistryKeyComparer_TypeDefinitionIndex = 108;
-
 	class RegistryKeyComparer : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_REGISTRYKEYCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_REGISTRYKEYCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1, ::System::Object* a2)
@@ -27,5 +26,6 @@ namespace Microsoft::Win32
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MICROSOFT_WIN32_REGISTRYKEYCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

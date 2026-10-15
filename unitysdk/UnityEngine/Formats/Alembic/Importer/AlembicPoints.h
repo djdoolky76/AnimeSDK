@@ -1,38 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Importer/AlembicElement.h"
-#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiObject.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPoints.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPointsData.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPointsSampleSummary.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPointsSummary.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiObject.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSchema.h"
-
 namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedList_1; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCPREPARESAMPLE_OFFSET UNITYSDK_OFFSET(0x1EAA6160)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1EAA6040)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCSYNCDATABEGIN_OFFSET UNITYSDK_OFFSET(0x1EAA64B0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1EAA6C00)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1EAA5FF0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1EAA6000)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA7020)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCPREPARESAMPLE_OFFSET UNITYSDK_OFFSET(0x1F16D990)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1F16D870)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCSYNCDATABEGIN_OFFSET UNITYSDK_OFFSET(0x1F16DCE0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1F16E430)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F16E850)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1F16D820)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1F16D830)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicPoints_TypeDefinitionIndex = 44720;
-
 	class AlembicPoints : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:
 		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Formats::Alembic::Sdk::aiPointsData>* m_abcData; // 0x28
 		::UnityEngine::Formats::Alembic::Sdk::aiPoints m_abcSchema; // 0x30
-		::UnityEngine::Formats::Alembic::Sdk::aiPointsSummary m_summary; // 0x38
-		::UnityEngine::Formats::Alembic::Sdk::aiPointsSampleSummary m_sampleSummary; // 0x40
-
+		::UnityEngine::Formats::Alembic::Sdk::aiPointsSampleSummary m_sampleSummary; // 0x38
+		::UnityEngine::Formats::Alembic::Sdk::aiPointsSummary m_summary; // 0x3C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::aiSchema get_abcSchema()
@@ -64,5 +60,6 @@ namespace UnityEngine::Formats::Alembic::Importer
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTS_ABCSYNCDATAEND_OFFSET))(this);
 		}
+
 	};
 }

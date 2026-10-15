@@ -1,10 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-
-inline static constexpr unsigned int HEU_ScriptMeshInputUVLayoutExample_OutputMode_TypeDefinitionIndex = 39055;
-
-enum class HEU_ScriptMeshInputUVLayoutExample_OutputMode : ::System::Int32
-{
-	COPY = 0,
-	REPLACE = 1,
-};
+	enum class HEU_ScriptMeshInputUVLayoutExample_OutputMode : ::System::Int32
+	{
+		COPY = 0,
+		REPLACE = 1,
+	};

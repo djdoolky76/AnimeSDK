@@ -2,28 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraTalkConditionType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChimeraData; }
 namespace RPG::Client { class ChimeraPeriodRandomTalkData; }
 namespace RPG::Client { class ChimeraTalkData; }
 namespace RPG::GameCore { class ChimeraTalk; }
 
-#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETIDLETALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCC15E40)
-#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETTALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCC15A00)
-#define RPG_CLIENT_CHIMERATALKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC15F30)
-#define RPG_CLIENT_CHIMERATALKMANAGER__ISTALKCONDITIONVALID_OFFSET UNITYSDK_OFFSET(0xCC15D90)
-#define RPG_CLIENT_CHIMERATALKMANAGER__TRYGETBUBBLETALK_OFFSET UNITYSDK_OFFSET(0xCC15AD0)
+#define RPG_CLIENT_CHIMERATALKMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xCB64F70)
+#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETIDLETALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCB64E80)
+#define RPG_CLIENT_CHIMERATALKMANAGER_TRYGETTALKCONTENT_OFFSET UNITYSDK_OFFSET(0xCB64A40)
+#define RPG_CLIENT_CHIMERATALKMANAGER__ISTALKCONDITIONVALID_OFFSET UNITYSDK_OFFSET(0xCB64DD0)
+#define RPG_CLIENT_CHIMERATALKMANAGER__TRYGETBUBBLETALK_OFFSET UNITYSDK_OFFSET(0xCB64B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTalkManager_TypeDefinitionIndex = 63561;
-
 	class ChimeraTalkManager : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::ChimeraTalkData* TryGetTalkContent(::RPG::Client::ChimeraData* a1, ::RPG::GameCore::ChimeraTalkConditionType a2)
@@ -45,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::ChimeraPeriodRandomTalkData*(*)(::PVOID, ::RPG::Client::ChimeraData*, ::RPG::GameCore::ChimeraTalkConditionType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERATALKMANAGER_TRYGETIDLETALKCONTENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

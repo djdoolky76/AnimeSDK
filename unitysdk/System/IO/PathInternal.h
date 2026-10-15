@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_IO_PATHINTERNAL_HASILLEGALCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1BD5A300)
-#define SYSTEM_IO_PATHINTERNAL_ISPARTIALLYQUALIFIED_OFFSET UNITYSDK_OFFSET(0x1BD5A570)
+#define SYSTEM_IO_PATHINTERNAL_HASILLEGALCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1C2661A0)
+#define SYSTEM_IO_PATHINTERNAL_ISPARTIALLYQUALIFIED_OFFSET UNITYSDK_OFFSET(0x1C266410)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int PathInternal_TypeDefinitionIndex = 707;
-
 	class PathInternal : public ::System::Object
 	{
 	public:
@@ -23,5 +20,6 @@ namespace System::IO
 		{
 			return ((::System::Boolean(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_PATHINTERNAL_HASILLEGALCHARACTERS_OFFSET))(a1, a2);
 		}
+
 	};
 }

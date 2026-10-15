@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetUltraSkillInnerPieProgress; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_METHOD_3_4F6E4EE958DBAD6D_OFFSET UNITYSDK_OFFSET(0x1D514890)
-#define RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_METHOD_3_A8672192B956908A_OFFSET UNITYSDK_OFFSET(0x1D514930)
-#define RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5148F0)
+#define RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC9040)
+#define RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC9080)
+#define RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC8FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetUltraSkillInnerPieProgress_TypeDefinitionIndex = 22883;
-
 	class SetUltraSkillInnerPieProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::DynamicFloat* CurrentCount; // 0x20
 		::RPG::GameCore::DynamicFloat* MaxCount; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4F6E4EE958DBAD6D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUltraSkillInnerPieProgress*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetUltraSkillInnerPieProgress* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetUltraSkillInnerPieProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_METHOD_3_4F6E4EE958DBAD6D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetUltraSkillInnerPieProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A8672192B956908A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUltraSkillInnerPieProgress* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetUltraSkillInnerPieProgress* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetUltraSkillInnerPieProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_METHOD_3_A8672192B956908A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetUltraSkillInnerPieProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETULTRASKILLINNERPIEPROGRESS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

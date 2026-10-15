@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::UI::Internal::OS { class AccountList; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAF5ED0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF5F10)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BAF5F20)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0020C0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C002100)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x1C002110)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int AccountList___c_TypeDefinitionIndex = 8391;
-
 	class AccountList___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountList*>** StaticGet___9__43_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountList*>**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x285A0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x183D0);
 		}
-		static ::MiHoYo::SDK::UI::Internal::OS::AccountList___c** StaticGet___9()
+
+		static ::System::Action** StaticGet___9__43_0()
 		{
-			return (::MiHoYo::SDK::UI::Internal::OS::AccountList___c**)Il2CppClass::FromTypeDefinitionIndex(AccountList___c_TypeDefinitionIndex)->GetStaticField(0x285A8);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x183D8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Show_b__43_0(::MiHoYo::SDK::UI::Internal::OS::AccountList* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::Internal::OS::AccountList*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLIST___C__SHOW_B__43_0_OFFSET))(this, a1);
 		}
+
 	};
 }

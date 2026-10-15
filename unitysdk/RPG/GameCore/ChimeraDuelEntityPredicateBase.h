@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraDuelEntityPredicateBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_METHOD_2_7E908F261CE5CEF1_OFFSET UNITYSDK_OFFSET(0x1CFBFD10)
-#define RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_METHOD_2_BBBCA82BCC0BD503_OFFSET UNITYSDK_OFFSET(0x1CFC52B0)
-#define RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC4AD0)
+#define RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59FA80)
+#define RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A0260)
+#define RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59B060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEntityPredicateBase_TypeDefinitionIndex = 15745;
-
 	class ChimeraDuelEntityPredicateBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7E908F261CE5CEF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntityPredicateBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelEntityPredicateBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntityPredicateBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_METHOD_2_7E908F261CE5CEF1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelEntityPredicateBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_BBBCA82BCC0BD503(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntityPredicateBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelEntityPredicateBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntityPredicateBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_METHOD_2_BBBCA82BCC0BD503_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelEntityPredicateBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYPREDICATEBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

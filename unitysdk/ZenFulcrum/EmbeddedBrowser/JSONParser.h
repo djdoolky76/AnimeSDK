@@ -1,65 +1,63 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Text { class StringBuilder; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_CONVERTFROMUTF32_OFFSET UNITYSDK_OFFSET(0x1EF9A7D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_EATWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1EF9A730)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_ESCAPETOJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1EF98890)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_GETLASTINDEXOFNUMBER_OFFSET UNITYSDK_OFFSET(0x1EF9A9D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_LOOKAHEAD_OFFSET UNITYSDK_OFFSET(0x1EF995E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_NEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1EF99260)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEARRAY_OFFSET UNITYSDK_OFFSET(0x1EF9A220)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1EF9A520)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EF98F10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSESTRING_OFFSET UNITYSDK_OFFSET(0x1EF99650)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EF98500)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1EF982C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0x1EF9BD40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZENUMBER_OFFSET UNITYSDK_OFFSET(0x1EF9C280)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EF9B5E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x1EF9AEF0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x1EF9AA70)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EF98000)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_TRYDESERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EF98420)
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF981C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6608B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_CONVERTFROMUTF32_OFFSET UNITYSDK_OFFSET(0x1F662D60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_EATWHITESPACE_OFFSET UNITYSDK_OFFSET(0x1F662CC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_ESCAPETOJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1F660E20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_GETLASTINDEXOFNUMBER_OFFSET UNITYSDK_OFFSET(0x1F662F60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_LOOKAHEAD_OFFSET UNITYSDK_OFFSET(0x1F661B70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_NEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1F6617F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEARRAY_OFFSET UNITYSDK_OFFSET(0x1F6627B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1F662AB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F6614A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSESTRING_OFFSET UNITYSDK_OFFSET(0x1F661BE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1F660A90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x1F65F980)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0x1F6642D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZENUMBER_OFFSET UNITYSDK_OFFSET(0x1F664810)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F663B70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZESTRING_OFFSET UNITYSDK_OFFSET(0x1F663480)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZEVALUE_OFFSET UNITYSDK_OFFSET(0x1F663000)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1F6606F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_TRYDESERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F6609B0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int JSONParser_TypeDefinitionIndex = 38214;
-
 	class JSONParser : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_EscapeCharacters()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JSONParser_TypeDefinitionIndex)->GetStaticField(0x3E2A0);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "JSONParser")->GetStaticField(0x46190);
 		}
+
 		static ::Il2CppArray<::System::Char>** StaticGet_EscapeTable()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JSONParser_TypeDefinitionIndex)->GetStaticField(0x3E2A8);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "JSONParser")->GetStaticField(0x46198);
 		}
-		// static const ::System::Int32 TOKEN_NONE = 0x0; // 0x0
-		// static const ::System::Int32 TOKEN_CURLY_OPEN = 0x1; // 0x0
-		// static const ::System::Int32 TOKEN_CURLY_CLOSE = 0x2; // 0x0
-		// static const ::System::Int32 TOKEN_SQUARED_OPEN = 0x3; // 0x0
-		// static const ::System::Int32 TOKEN_SQUARED_CLOSE = 0x4; // 0x0
-		// static const ::System::Int32 TOKEN_COLON = 0x5; // 0x0
-		// static const ::System::Int32 TOKEN_COMMA = 0x6; // 0x0
-		// static const ::System::Int32 TOKEN_STRING = 0x7; // 0x0
-		// static const ::System::Int32 TOKEN_NUMBER = 0x8; // 0x0
-		// static const ::System::Int32 TOKEN_TRUE = 0x9; // 0x0
-		// static const ::System::Int32 TOKEN_FALSE = 0xA; // 0x0
-		// static const ::System::Int32 TOKEN_NULL = 0xB; // 0x0
-		// static const ::System::Int32 BUILDER_CAPACITY = 0x7D0; // 0x0
 
+		// static const ::System::Object TOKEN_NONE; // 0x0
+		// static const ::System::Object TOKEN_CURLY_OPEN; // 0x0
+		// static const ::System::Object TOKEN_CURLY_CLOSE; // 0x0
+		// static const ::System::Object TOKEN_SQUARED_OPEN; // 0x0
+		// static const ::System::Object TOKEN_SQUARED_CLOSE; // 0x0
+		// static const ::System::Object TOKEN_COLON; // 0x0
+		// static const ::System::Object TOKEN_COMMA; // 0x0
+		// static const ::System::Object TOKEN_STRING; // 0x0
+		// static const ::System::Object TOKEN_NUMBER; // 0x0
+		// static const ::System::Object TOKEN_TRUE; // 0x0
+		// static const ::System::Object TOKEN_FALSE; // 0x0
+		// static const ::System::Object TOKEN_NULL; // 0x0
+		// static const ::System::Object BUILDER_CAPACITY; // 0x0
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_CCTOR_OFFSET))();
 		}
 
 		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* Parse(::System::String* a1)
@@ -67,9 +65,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryDeserializeObject(::System::String* a1, ::ZenFulcrum::EmbeddedBrowser::JSONNode*& a2)
+		static ::System::Boolean TryDeserializeObject(::System::String* a1, ::ZenFulcrum::EmbeddedBrowser::JSONNode* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::ZenFulcrum::EmbeddedBrowser::JSONNode*&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_TRYDESERIALIZEOBJECT_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::ZenFulcrum::EmbeddedBrowser::JSONNode*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_TRYDESERIALIZEOBJECT_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* EscapeToJavascriptString(::System::String* a1)
@@ -77,24 +75,24 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_ESCAPETOJAVASCRIPTSTRING_OFFSET))(a1);
 		}
 
-		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseObject(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2, ::System::Boolean& a3)
+		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseObject(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEOBJECT_OFFSET))(a1, a2, a3);
+			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEOBJECT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseArray(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2, ::System::Boolean& a3)
+		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseArray(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEARRAY_OFFSET))(a1, a2, a3);
+			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEARRAY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseValue(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2, ::System::Boolean& a3)
+		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseValue(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEVALUE_OFFSET))(a1, a2, a3);
+			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSEVALUE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseString(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2, ::System::Boolean& a3)
+		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseString(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSESTRING_OFFSET))(a1, a2, a3);
+			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSESTRING_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::String* ConvertFromUtf32(::System::Int32 a1)
@@ -102,9 +100,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_CONVERTFROMUTF32_OFFSET))(a1);
 		}
 
-		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseNumber(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2, ::System::Boolean& a3)
+		static ::ZenFulcrum::EmbeddedBrowser::JSONNode* ParseNumber(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSENUMBER_OFFSET))(a1, a2, a3);
+			return ((::ZenFulcrum::EmbeddedBrowser::JSONNode*(*)(::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_PARSENUMBER_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Int32 GetLastIndexOfNumber(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2)
@@ -112,9 +110,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Int32(*)(::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_GETLASTINDEXOFNUMBER_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void EatWhitespace(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2)
+		static ::System::Void EatWhitespace(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Char>*, ::System::Int32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_EATWHITESPACE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_EATWHITESPACE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 LookAhead(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2)
@@ -122,9 +120,9 @@ namespace ZenFulcrum::EmbeddedBrowser
 			return ((::System::Int32(*)(::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_LOOKAHEAD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 NextToken(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2)
+		static ::System::Int32 NextToken(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::System::Char>*, ::System::Int32&))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_NEXTTOKEN_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_NEXTTOKEN_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* Serialize(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
@@ -156,5 +154,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Boolean(*)(::System::Double, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_JSONPARSER_SERIALIZENUMBER_OFFSET))(a1, a2);
 		}
+
 	};
 }

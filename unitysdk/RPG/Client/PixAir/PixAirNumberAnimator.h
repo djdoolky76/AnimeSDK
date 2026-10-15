@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUEIMMEDIATE_OFFSET UNITYSDK_OFFSET(0xDB1A4F0)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0xDB1A460)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xDB1A680)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__APPLYTEXT_OFFSET UNITYSDK_OFFSET(0xDB1A560)
-#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDB1A810)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDB63190)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUEIMMEDIATE_OFFSET UNITYSDK_OFFSET(0xDB62E70)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0xDB62DE0)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xDB63000)
+#define RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__APPLYTEXT_OFFSET UNITYSDK_OFFSET(0xDB62EE0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirNumberAnimator_TypeDefinitionIndex = 78910;
-
 	class PixAirNumberAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -26,10 +23,9 @@ namespace RPG::Client::PixAir
 		::System::Single _StartValue; // 0x34
 		::System::Single _ElapsedTime; // 0x38
 		::System::Boolean _IsAnimating; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetValue(::System::Single a1)
@@ -51,5 +47,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRNUMBERANIMATOR__APPLYTEXT_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace PlayGoSample
 {
-	inline static constexpr unsigned int PS5PlayGoInitState_TypeDefinitionIndex = 50081;
-
 	enum class PS5PlayGoInitState : ::System::Int32
 	{
 		NullState = 0,

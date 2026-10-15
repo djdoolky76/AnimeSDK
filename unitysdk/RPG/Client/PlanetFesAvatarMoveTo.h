@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class PlanetFesAvatarMoveTo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_139032C3E1ED3D8A_OFFSET UNITYSDK_OFFSET(0x1CD557A0)
-#define RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_C6A7ED31A42B57FD_OFFSET UNITYSDK_OFFSET(0x1CD557E0)
-#define RPG_CLIENT_PLANETFESAVATARMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD557D0)
+#define RPG_CLIENT_PLANETFESAVATARMOVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D328FF0)
+#define RPG_CLIENT_PLANETFESAVATARMOVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D329000)
+#define RPG_CLIENT_PLANETFESAVATARMOVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D328FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarMoveTo_TypeDefinitionIndex = 10267;
-
 	class PlanetFesAvatarMoveTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Single Position; // 0x18
 		::System::Single Duration; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_139032C3E1ED3D8A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::PlanetFesAvatarMoveTo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::PlanetFesAvatarMoveTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::PlanetFesAvatarMoveTo*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_139032C3E1ED3D8A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::PlanetFesAvatarMoveTo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C6A7ED31A42B57FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::PlanetFesAvatarMoveTo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::PlanetFesAvatarMoveTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::PlanetFesAvatarMoveTo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_C6A7ED31A42B57FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::PlanetFesAvatarMoveTo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByEntityOriginalEraConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_1765F9201E875351_OFFSET UNITYSDK_OFFSET(0x1CF19BD0)
-#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_4CB63D77556D47EB_OFFSET UNITYSDK_OFFSET(0x1CF19D50)
-#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_81F18523203E6084_OFFSET UNITYSDK_OFFSET(0x1CF19D80)
-#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_AD264757BE844D14_OFFSET UNITYSDK_OFFSET(0x1CF19B90)
-#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF19BC0)
+#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F2490)
+#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4F2650)
+#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4F2620)
+#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4F24A0)
+#define RPG_GAMECORE_BYENTITYORIGINALERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4F2460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByEntityOriginalEraConfig_TypeDefinitionIndex = 22086;
-
 	class ByEntityOriginalEraConfig : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::EraStateType EaraState; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_AD264757BE844D14(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByEntityOriginalEraConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByEntityOriginalEraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByEntityOriginalEraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_AD264757BE844D14_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByEntityOriginalEraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1765F9201E875351(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByEntityOriginalEraConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByEntityOriginalEraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByEntityOriginalEraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_1765F9201E875351_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByEntityOriginalEraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4CB63D77556D47EB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityOriginalEraConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityOriginalEraConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityOriginalEraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_4CB63D77556D47EB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityOriginalEraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_81F18523203E6084(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityOriginalEraConfig* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEntityOriginalEraConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityOriginalEraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_METHOD_4_81F18523203E6084_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEntityOriginalEraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENTITYORIGINALERACONFIG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

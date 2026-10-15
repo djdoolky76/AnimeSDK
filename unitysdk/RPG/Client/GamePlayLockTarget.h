@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePlayLockTarget_TypeDefinitionIndex = 10166;
-
 	enum class GamePlayLockTarget : ::System::Int32
 	{
 		None = 0,
@@ -38,5 +36,6 @@ namespace RPG::Client
 		GhostTriggerBanMazeSkill = 28,
 		PropInteractMuteInputAction = 29,
 		FormationMoveStream = 30,
+		MazeCharacterVO = 31,
 	};
 }

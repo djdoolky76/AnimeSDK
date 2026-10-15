@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class AtlasPage; }
 namespace Spine::Unity { class SpineAtlasAsset; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SPINE_UNITY_MATERIALSTEXTURELOADER_LOAD_OFFSET UNITYSDK_OFFSET(0x1E63EFF0)
-#define SPINE_UNITY_MATERIALSTEXTURELOADER_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1E63F440)
-#define SPINE_UNITY_MATERIALSTEXTURELOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E63EFE0)
+#define SPINE_UNITY_MATERIALSTEXTURELOADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED07160)
+#define SPINE_UNITY_MATERIALSTEXTURELOADER_LOAD_OFFSET UNITYSDK_OFFSET(0x1ED07170)
+#define SPINE_UNITY_MATERIALSTEXTURELOADER_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1ED075C0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MaterialsTextureLoader_TypeDefinitionIndex = 43818;
-
 	class MaterialsTextureLoader : public ::System::Object
 	{
 	public:
 		::Spine::Unity::SpineAtlasAsset* atlasAsset; // 0x10
-
 		::System::Void _ctor(::Spine::Unity::SpineAtlasAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SpineAtlasAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATERIALSTEXTURELOADER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::Unity::SpineAtlasAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATERIALSTEXTURELOADER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Load(::Spine::AtlasPage* a1, ::System::String* a2)
@@ -33,5 +30,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MATERIALSTEXTURELOADER_UNLOAD_OFFSET))(this, a1);
 		}
+
 	};
 }

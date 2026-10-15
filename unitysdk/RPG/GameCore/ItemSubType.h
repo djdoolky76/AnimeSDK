@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemSubType_TypeDefinitionIndex = 13742;
-
 	enum class ItemSubType : ::System::Int32
 	{
 		Unknown = 0,
@@ -33,6 +31,7 @@ namespace RPG::GameCore
 		PlayerOutfit = 518,
 		HeadIconFrame = 519,
 		PlatformBoundGift = 520,
+		Badge = 521,
 		Material = 601,
 		Eidolon = 602,
 		MuseumExhibit = 603,
@@ -62,5 +61,6 @@ namespace RPG::GameCore
 		RelicSetShowOnly = 801,
 		RelicRarityShowOnly = 802,
 		NormalPet = 901,
+		BlindBoxPet = 902,
 	};
 }

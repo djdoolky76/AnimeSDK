@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightFrontSpecialSPDisplayType_TypeDefinitionIndex = 13439;
-
 	enum class GridFightFrontSpecialSPDisplayType : ::System::Int32
 	{
 		None = 0,

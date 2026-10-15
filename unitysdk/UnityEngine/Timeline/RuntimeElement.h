@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
 
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_GET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x1ECC89E0)
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_RESET_OFFSET UNITYSDK_OFFSET(0x1ECC8A00)
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_SET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x1ECC89F0)
-#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC40D0)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F38BDA0)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_GET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x1F3906C0)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_RESET_OFFSET UNITYSDK_OFFSET(0x1F3906E0)
+#define UNITYENGINE_TIMELINE_RUNTIMEELEMENT_SET_INTERVALBIT_OFFSET UNITYSDK_OFFSET(0x1F3906D0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int RuntimeElement_TypeDefinitionIndex = 37527;
-
 	class RuntimeElement : public ::System::Object
 	{
 	public:
 		::System::Int32 _intervalBit_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_RUNTIMEELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_RUNTIMEELEMENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_intervalBit()
@@ -36,5 +32,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_RUNTIMEELEMENT_RESET_OFFSET))(this);
 		}
+
 	};
 }

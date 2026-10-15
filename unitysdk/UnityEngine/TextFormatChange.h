@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/TextFormat.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextFormatChange_TypeDefinitionIndex = 5050;
-
 	struct alignas(4) TextFormatChange
 	{
 		::System::Int32 startPosition; // 0x10

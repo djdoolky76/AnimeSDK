@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VirtualCameraCmd_TypeDefinitionIndex = 37000;
-
 	enum class VirtualCameraCmd : ::System::Int32
 	{
 		VCCmdBeforeTransparent = 0,

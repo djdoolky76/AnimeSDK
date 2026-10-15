@@ -1,32 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Xml { class SecureStringHasher_HashCodeOfStringDelegate; }
 
-#define SYSTEM_XML_SECURESTRINGHASHER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E82A5F0)
-#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1E82A680)
-#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEOFSTRING_OFFSET UNITYSDK_OFFSET(0x1E82A7C0)
-#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E82A610)
-#define SYSTEM_XML_SECURESTRINGHASHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E82A5A0)
+#define SYSTEM_XML_SECURESTRINGHASHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF3220)
+#define SYSTEM_XML_SECURESTRINGHASHER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EEF3270)
+#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1EEF3300)
+#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEOFSTRING_OFFSET UNITYSDK_OFFSET(0x1EEF3440)
+#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EEF3290)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int SecureStringHasher_TypeDefinitionIndex = 1826;
-
 	class SecureStringHasher : public ::System::Object
 	{
 	public:
+		::System::Int32 hashCodeRandomizer; // 0x10
 		static ::System::Xml::SecureStringHasher_HashCodeOfStringDelegate** StaticGet_hashCodeDelegate()
 		{
-			return (::System::Xml::SecureStringHasher_HashCodeOfStringDelegate**)Il2CppClass::FromTypeDefinitionIndex(SecureStringHasher_TypeDefinitionIndex)->GetStaticField(0x1C5A0);
+			return (::System::Xml::SecureStringHasher_HashCodeOfStringDelegate**)UnitySDK::FromName("System.Xml", "SecureStringHasher")->GetStaticField(0x25B00);
 		}
-		::System::Int32 hashCodeRandomizer; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SECURESTRINGHASHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SECURESTRINGHASHER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::String* a1, ::System::String* a2)
@@ -48,5 +45,6 @@ namespace System::Xml
 		{
 			return ((::System::Xml::SecureStringHasher_HashCodeOfStringDelegate*(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEDELEGATE_OFFSET))();
 		}
+
 	};
 }

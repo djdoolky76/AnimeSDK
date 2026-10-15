@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ModifyAiVisionExcludeTagRuntime; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define KLHONDCNGCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB5282B0)
+#define KLHONDCNGCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5282E0)
+
+	class KLHONDCNGCF
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyAiVisionExcludeTagRuntime*))((::PBYTE)hIl2Cpp + KLHONDCNGCF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KLHONDCNGCF_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

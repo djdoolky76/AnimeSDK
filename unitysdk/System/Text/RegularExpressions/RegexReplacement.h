@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -11,29 +10,26 @@ namespace System::Text::RegularExpressions { class MatchEvaluator; }
 namespace System::Text::RegularExpressions { class Regex; }
 namespace System::Text::RegularExpressions { class RegexNode; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_GET_PATTERN_OFFSET UNITYSDK_OFFSET(0x1EA10420)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPLRTL_OFFSET UNITYSDK_OFFSET(0x1EA10070)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPL_OFFSET UNITYSDK_OFFSET(0x1EA0FD20)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENT_OFFSET UNITYSDK_OFFSET(0x1E9F0DC0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_1_OFFSET UNITYSDK_OFFSET(0x1E9F50A0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_OFFSET UNITYSDK_OFFSET(0x1E9F4980)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_SPLIT_OFFSET UNITYSDK_OFFSET(0x1E9F5880)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA095A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D0DE0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_GET_PATTERN_OFFSET UNITYSDK_OFFSET(0x1F0D7BD0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPLRTL_OFFSET UNITYSDK_OFFSET(0x1F0D7820)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENTIMPL_OFFSET UNITYSDK_OFFSET(0x1F0D74D0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACEMENT_OFFSET UNITYSDK_OFFSET(0x1F0B8960)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_1_OFFSET UNITYSDK_OFFSET(0x1F0BCB60)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_REPLACE_OFFSET UNITYSDK_OFFSET(0x1F0BC430)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_SPLIT_OFFSET UNITYSDK_OFFSET(0x1F0BD360)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexReplacement_TypeDefinitionIndex = 2526;
-
 	class RegexReplacement : public ::System::Object
 	{
 	public:
 		::System::String* _rep; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* _strings; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* _rules; // 0x20
-
+		::System::Collections::Generic::List_1<::System::Int32>* _rules; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* _strings; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::Text::RegularExpressions::RegexNode* a2, ::System::Collections::Hashtable* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ReplacementImpl(::System::Text::StringBuilder* a1, ::System::Text::RegularExpressions::Match* a2)
@@ -70,5 +66,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::Il2CppArray<::System::String*>*(*)(::System::Text::RegularExpressions::Regex*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_REGEXREPLACEMENT_SPLIT_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

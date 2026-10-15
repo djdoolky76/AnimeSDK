@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD32DF60)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD32DF00)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD32DEC0)
-#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD32DFB0)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD287450)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD287400)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD2873A0)
+#define RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD287360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStageChangeCollector_TypeDefinitionIndex = 64627;
-
 	class GridFightStageChangeCollector : public ::System::Object
 	{
 	public:
 		::System::Boolean IsDirty; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGECHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
-#include "unitysdk/Struct_2_F01DF3CDCF3FD7AC.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/ANMMOFEEPEP.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_0_16E4307DCC419505_116;
-class Class_1_4393199F378B6118;
-class Class_1_A1EDFD8801F68886;
-class Class_1_EBB880A8D2C9B0D4;
-class Class_2_B9E8C2EEAA5C96EC;
+class EHLMPJIELJF;
+class GLAKFODMCPH;
+class HIOEAKHGILF;
+class JHGAJMAOPJE;
+class PLEODCMINJF;
 namespace RPG::Client { class FiveDimGameInstance; }
 namespace RPG::Client { class FiveDimManager; }
 namespace RPG::Client { class MapDef; }
@@ -29,94 +27,94 @@ namespace RPG::GameCore { class LevelLittleGameInfo; }
 namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace RPG::GameCore { class PropButtonConfig; }
 namespace RPG::GameCore { class TaskContext; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FIVEDIMUTILS_EVALUATEID_OFFSET UNITYSDK_OFFSET(0xD0977E0)
-#define RPG_CLIENT_FIVEDIMUTILS_GETBAKEDLEVELCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xD097780)
-#define RPG_CLIENT_FIVEDIMUTILS_GETBAKEDPRESETCONFIG_OFFSET UNITYSDK_OFFSET(0xD07CB60)
-#define RPG_CLIENT_FIVEDIMUTILS_GETENTITYNAVNODEINFO_OFFSET UNITYSDK_OFFSET(0xD098520)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYBYENTITYID_OFFSET UNITYSDK_OFFSET(0xD097CF0)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_1_OFFSET UNITYSDK_OFFSET(0xD098340)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_OFFSET UNITYSDK_OFFSET(0xD098140)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCONFIGWORLDPOSITIONBYENTITYID_OFFSET UNITYSDK_OFFSET(0xD098280)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYWORLDPOSITIONBYENTITYID_OFFSET UNITYSDK_OFFSET(0xD098030)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTRANCELIST_OFFSET UNITYSDK_OFFSET(0xD099BB0)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_1_OFFSET UNITYSDK_OFFSET(0xD098F90)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_OFFSET UNITYSDK_OFFSET(0xD098E80)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xD097540)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELUINTLENGTH_OFFSET UNITYSDK_OFFSET(0xD099020)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMMANAGER_OFFSET UNITYSDK_OFFSET(0xD097190)
-#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMPLAYERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xD098870)
-#define RPG_CLIENT_FIVEDIMUTILS_GETGRAVITYWALKBOARDBASICINFO_OFFSET UNITYSDK_OFFSET(0xD09AAA0)
-#define RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_1_OFFSET UNITYSDK_OFFSET(0xD0855D0)
-#define RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_2_OFFSET UNITYSDK_OFFSET(0xD097400)
-#define RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0xD097230)
-#define RPG_CLIENT_FIVEDIMUTILS_GETLITTLEGAMELEVELINFO_OFFSET UNITYSDK_OFFSET(0xD085930)
-#define RPG_CLIENT_FIVEDIMUTILS_GETLOCALPLAYERNAVNODEINFO_OFFSET UNITYSDK_OFFSET(0xD098A00)
-#define RPG_CLIENT_FIVEDIMUTILS_GETPLAYER3DTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD088A10)
-#define RPG_CLIENT_FIVEDIMUTILS_GETPLAYERWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xD098750)
-#define RPG_CLIENT_FIVEDIMUTILS_GETPROPMOVECONFIG_OFFSET UNITYSDK_OFFSET(0xD09A880)
-#define RPG_CLIENT_FIVEDIMUTILS_HASGAMEPLAYMODE_OFFSET UNITYSDK_OFFSET(0xD097A50)
-#define RPG_CLIENT_FIVEDIMUTILS_HIDEALLHOYOGROUPBYFIVEDIM_OFFSET UNITYSDK_OFFSET(0xD07FC60)
-#define RPG_CLIENT_FIVEDIMUTILS_ISEXCLUSIVEGAME_OFFSET UNITYSDK_OFFSET(0xD07FBF0)
-#define RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_1_OFFSET UNITYSDK_OFFSET(0xD099B40)
-#define RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_2_OFFSET UNITYSDK_OFFSET(0xD0999E0)
-#define RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_OFFSET UNITYSDK_OFFSET(0xD0998A0)
-#define RPG_CLIENT_FIVEDIMUTILS_ISLOCALPLAYERFIVEDIMNOWAYPOINT_OFFSET UNITYSDK_OFFSET(0xD0993E0)
-#define RPG_CLIENT_FIVEDIMUTILS_ISPLAYERINFOVALID_OFFSET UNITYSDK_OFFSET(0xD085790)
-#define RPG_CLIENT_FIVEDIMUTILS_OBBFULLYCONTAINSOBB_OFFSET UNITYSDK_OFFSET(0xD09AC80)
-#define RPG_CLIENT_FIVEDIMUTILS_OBBINTERSECTSNOALLOC_OFFSET UNITYSDK_OFFSET(0xD09B5B0)
-#define RPG_CLIENT_FIVEDIMUTILS_PREPAREFIVEDIMMISSIONDATA_1_OFFSET UNITYSDK_OFFSET(0xD0992A0)
-#define RPG_CLIENT_FIVEDIMUTILS_PREPAREFIVEDIMMISSIONDATA_OFFSET UNITYSDK_OFFSET(0xD099160)
-#define RPG_CLIENT_FIVEDIMUTILS_RECOVERSHOWALLHOYOGROUPBYFIVEDIM_OFFSET UNITYSDK_OFFSET(0xD07FF90)
-#define RPG_CLIENT_FIVEDIMUTILS_SETFIVEDIMTELEPORTLOCK_OFFSET UNITYSDK_OFFSET(0xD097C30)
-#define RPG_CLIENT_FIVEDIMUTILS_SHOULDSAVEGAMESTATEONSERVER_OFFSET UNITYSDK_OFFSET(0xD078F10)
-#define RPG_CLIENT_FIVEDIMUTILS_SHOULDSTOPMOVEMENTSYNC_OFFSET UNITYSDK_OFFSET(0xD0978B0)
-#define RPG_CLIENT_FIVEDIMUTILS_SHOWGAMEMAINPAGE_1_OFFSET UNITYSDK_OFFSET(0xD0817A0)
-#define RPG_CLIENT_FIVEDIMUTILS_SHOWGAMEMAINPAGE_OFFSET UNITYSDK_OFFSET(0xD093EE0)
-#define RPG_CLIENT_FIVEDIMUTILS_TOHORIZONTALFOV_OFFSET UNITYSDK_OFFSET(0xD0979A0)
-#define RPG_CLIENT_FIVEDIMUTILS_TOLITTLEGAMERUNTIMEBUTTON_OFFSET UNITYSDK_OFFSET(0xD0983E0)
-#define RPG_CLIENT_FIVEDIMUTILS_TRYGETENTITYCONFIGIDBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xD097E60)
-#define RPG_CLIENT_FIVEDIMUTILS_TRYGETINSTANCE_OFFSET UNITYSDK_OFFSET(0xD0972D0)
-#define RPG_CLIENT_FIVEDIMUTILS_TRYPARSECONTAINERIDANDFDENTITYID_OFFSET UNITYSDK_OFFSET(0xD09A720)
-#define RPG_CLIENT_FIVEDIMUTILS_TRYPARSETASKCONTAINERTARGET_OFFSET UNITYSDK_OFFSET(0xD09A5C0)
-#define RPG_CLIENT_FIVEDIMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD09C2B0)
-#define RPG_CLIENT_FIVEDIMUTILS__ISFIVEDIMNOWAYPOINT_OFFSET UNITYSDK_OFFSET(0xD0995F0)
-#define RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYDATA_OFFSET UNITYSDK_OFFSET(0xD099FB0)
-#define RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYRUNTIME_OFFSET UNITYSDK_OFFSET(0xD09A420)
-#define RPG_CLIENT_FIVEDIMUTILS__SHOWGAMEUI_OFFSET UNITYSDK_OFFSET(0xD097AA0)
+#define RPG_CLIENT_FIVEDIMUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD03CD10)
+#define RPG_CLIENT_FIVEDIMUTILS_EVALUATEID_OFFSET UNITYSDK_OFFSET(0xD038130)
+#define RPG_CLIENT_FIVEDIMUTILS_GETBAKEDLEVELCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xD0380D0)
+#define RPG_CLIENT_FIVEDIMUTILS_GETBAKEDPRESETCONFIG_OFFSET UNITYSDK_OFFSET(0xD01D500)
+#define RPG_CLIENT_FIVEDIMUTILS_GETENTITYNAVNODEINFO_OFFSET UNITYSDK_OFFSET(0xD038E70)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYBYENTITYID_OFFSET UNITYSDK_OFFSET(0xD038640)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_1_OFFSET UNITYSDK_OFFSET(0xD038C90)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_OFFSET UNITYSDK_OFFSET(0xD038A90)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCONFIGWORLDPOSITIONBYENTITYID_OFFSET UNITYSDK_OFFSET(0xD038BD0)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYWORLDPOSITIONBYENTITYID_OFFSET UNITYSDK_OFFSET(0xD038980)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTRANCELIST_OFFSET UNITYSDK_OFFSET(0xD03A5E0)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_1_OFFSET UNITYSDK_OFFSET(0xD039900)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_OFFSET UNITYSDK_OFFSET(0xD0397F0)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xD037E90)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELUINTLENGTH_OFFSET UNITYSDK_OFFSET(0xD039990)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMMANAGER_OFFSET UNITYSDK_OFFSET(0xD019010)
+#define RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMPLAYERGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xD0391E0)
+#define RPG_CLIENT_FIVEDIMUTILS_GETGRAVITYWALKBOARDBASICINFO_OFFSET UNITYSDK_OFFSET(0xD03B500)
+#define RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_1_OFFSET UNITYSDK_OFFSET(0xD026070)
+#define RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_2_OFFSET UNITYSDK_OFFSET(0xD037D50)
+#define RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0xD037B70)
+#define RPG_CLIENT_FIVEDIMUTILS_GETLITTLEGAMELEVELINFO_OFFSET UNITYSDK_OFFSET(0xD0263D0)
+#define RPG_CLIENT_FIVEDIMUTILS_GETLOCALPLAYERNAVNODEINFO_OFFSET UNITYSDK_OFFSET(0xD039370)
+#define RPG_CLIENT_FIVEDIMUTILS_GETPLAYER3DTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD029530)
+#define RPG_CLIENT_FIVEDIMUTILS_GETPLAYERWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xD0390C0)
+#define RPG_CLIENT_FIVEDIMUTILS_GETPROPMOVECONFIG_OFFSET UNITYSDK_OFFSET(0xD03B2E0)
+#define RPG_CLIENT_FIVEDIMUTILS_HASGAMEPLAYMODE_OFFSET UNITYSDK_OFFSET(0xD0383A0)
+#define RPG_CLIENT_FIVEDIMUTILS_HIDEALLHOYOGROUPBYFIVEDIM_OFFSET UNITYSDK_OFFSET(0xD020390)
+#define RPG_CLIENT_FIVEDIMUTILS_ISEXCLUSIVEGAME_OFFSET UNITYSDK_OFFSET(0xD020320)
+#define RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_1_OFFSET UNITYSDK_OFFSET(0xD03A570)
+#define RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_2_OFFSET UNITYSDK_OFFSET(0xD03A410)
+#define RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_OFFSET UNITYSDK_OFFSET(0xD03A2D0)
+#define RPG_CLIENT_FIVEDIMUTILS_ISLOCALPLAYERFIVEDIMNOWAYPOINT_OFFSET UNITYSDK_OFFSET(0xD039D50)
+#define RPG_CLIENT_FIVEDIMUTILS_ISPLAYERINFOVALID_OFFSET UNITYSDK_OFFSET(0xD026230)
+#define RPG_CLIENT_FIVEDIMUTILS_OBBFULLYCONTAINSOBB_OFFSET UNITYSDK_OFFSET(0xD03B6E0)
+#define RPG_CLIENT_FIVEDIMUTILS_OBBINTERSECTSNOALLOC_OFFSET UNITYSDK_OFFSET(0xD03C010)
+#define RPG_CLIENT_FIVEDIMUTILS_PREPAREFIVEDIMMISSIONDATA_1_OFFSET UNITYSDK_OFFSET(0xD039C10)
+#define RPG_CLIENT_FIVEDIMUTILS_PREPAREFIVEDIMMISSIONDATA_OFFSET UNITYSDK_OFFSET(0xD039AD0)
+#define RPG_CLIENT_FIVEDIMUTILS_RECOVERSHOWALLHOYOGROUPBYFIVEDIM_OFFSET UNITYSDK_OFFSET(0xD0206C0)
+#define RPG_CLIENT_FIVEDIMUTILS_SETFIVEDIMTELEPORTLOCK_OFFSET UNITYSDK_OFFSET(0xD038580)
+#define RPG_CLIENT_FIVEDIMUTILS_SHOULDSAVEGAMESTATEONSERVER_OFFSET UNITYSDK_OFFSET(0xD0190B0)
+#define RPG_CLIENT_FIVEDIMUTILS_SHOULDSTOPMOVEMENTSYNC_OFFSET UNITYSDK_OFFSET(0xD038200)
+#define RPG_CLIENT_FIVEDIMUTILS_SHOWGAMEMAINPAGE_1_OFFSET UNITYSDK_OFFSET(0xD022280)
+#define RPG_CLIENT_FIVEDIMUTILS_SHOWGAMEMAINPAGE_OFFSET UNITYSDK_OFFSET(0xD034870)
+#define RPG_CLIENT_FIVEDIMUTILS_TOHORIZONTALFOV_OFFSET UNITYSDK_OFFSET(0xD0382F0)
+#define RPG_CLIENT_FIVEDIMUTILS_TOLITTLEGAMERUNTIMEBUTTON_OFFSET UNITYSDK_OFFSET(0xD038D30)
+#define RPG_CLIENT_FIVEDIMUTILS_TRYGETENTITYCONFIGIDBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xD0387B0)
+#define RPG_CLIENT_FIVEDIMUTILS_TRYGETINSTANCE_OFFSET UNITYSDK_OFFSET(0xD037C20)
+#define RPG_CLIENT_FIVEDIMUTILS_TRYPARSECONTAINERIDANDFDENTITYID_OFFSET UNITYSDK_OFFSET(0xD03B180)
+#define RPG_CLIENT_FIVEDIMUTILS_TRYPARSETASKCONTAINERTARGET_OFFSET UNITYSDK_OFFSET(0xD03B020)
+#define RPG_CLIENT_FIVEDIMUTILS__ISFIVEDIMNOWAYPOINT_OFFSET UNITYSDK_OFFSET(0xD03A020)
+#define RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYDATA_OFFSET UNITYSDK_OFFSET(0xD03A9E0)
+#define RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYRUNTIME_OFFSET UNITYSDK_OFFSET(0xD03AE80)
+#define RPG_CLIENT_FIVEDIMUTILS__SHOWGAMEUI_OFFSET UNITYSDK_OFFSET(0xD0383F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimUtils_TypeDefinitionIndex = 60508;
-
 	class FiveDimUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FiveDimGameplayMode, ::System::String*>** StaticGet__GamePageMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FiveDimGameplayMode, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimUtils_TypeDefinitionIndex)->GetStaticField(0x13930);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FiveDimPropMoveConfig*>** StaticGet__PropMoveConfigMap()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FiveDimPropMoveConfig*>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimUtils_TypeDefinitionIndex)->GetStaticField(0x13938);
-		}
 		static ::RPG::GameCore::FiveDimBakedPresetConfig** StaticGet__BakedPresetConfig()
 		{
-			return (::RPG::GameCore::FiveDimBakedPresetConfig**)Il2CppClass::FromTypeDefinitionIndex(FiveDimUtils_TypeDefinitionIndex)->GetStaticField(0x13940);
+			return (::RPG::GameCore::FiveDimBakedPresetConfig**)UnitySDK::FromName("RPG.Client", "FiveDimUtils")->GetStaticField(0x26B00);
 		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FiveDimGameplayMode, ::System::String*>** StaticGet__GamePageMap()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FiveDimGameplayMode, ::System::String*>**)UnitySDK::FromName("RPG.Client", "FiveDimUtils")->GetStaticField(0x26B08);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FiveDimPropMoveConfig*>** StaticGet__PropMoveConfigMap()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::FiveDimPropMoveConfig*>**)UnitySDK::FromName("RPG.Client", "FiveDimUtils")->GetStaticField(0x26B10);
+		}
+
 		// static const ::System::String* LEVEL_ROOT_DIR; // 0x0
 		// static const ::System::String* LEVEL_BAKED_DIR; // 0x0
 		// static const ::System::String* PROP_MOVE_CONFIG_DIR; // 0x0
-		// static const ::RPG::GameCore::FiveDimGameplayMode _CLIENT_GAME_PLAY_MODE; // 0x0
+		// static const ::System::Object _CLIENT_GAME_PLAY_MODE; // 0x0
 		// static const ::System::String* NoWayPointTag; // 0x0
-
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::FiveDimManager* GetFiveDimManager()
@@ -124,34 +122,34 @@ namespace RPG::Client
 			return ((::RPG::Client::FiveDimManager*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMMANAGER_OFFSET))();
 		}
 
-		static ::System::Boolean GetInstance(::RPG::GameCore::TaskContext* a1, ::RPG::Client::FiveDimGameInstance*& a2, ::System::Boolean a3)
+		static ::System::Boolean GetInstance(::RPG::GameCore::TaskContext* a1, ::RPG::Client::FiveDimGameInstance* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::RPG::Client::FiveDimGameInstance*&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::RPG::Client::FiveDimGameInstance*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetInstance_1(::RPG::Client::FiveDimGameInstance*& a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
+		static ::System::Boolean GetInstance_1(::RPG::Client::FiveDimGameInstance* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::FiveDimGameInstance*&, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::RPG::Client::FiveDimGameInstance*, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::RPG::Client::FiveDimGameInstance* GetInstance_2(::Class_0_16E4307DCC419505_116* a1)
+		static ::RPG::Client::FiveDimGameInstance* GetInstance_2(::GLAKFODMCPH* a1)
 		{
-			return ((::RPG::Client::FiveDimGameInstance*(*)(::Class_0_16E4307DCC419505_116*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_2_OFFSET))(a1);
+			return ((::RPG::Client::FiveDimGameInstance*(*)(::GLAKFODMCPH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETINSTANCE_2_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryGetInstance(::RPG::GameCore::TaskContext* a1, ::RPG::Client::FiveDimGameInstance*& a2)
+		static ::System::Boolean TryGetInstance(::RPG::GameCore::TaskContext* a1, ::RPG::Client::FiveDimGameInstance* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::RPG::Client::FiveDimGameInstance*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYGETINSTANCE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::RPG::Client::FiveDimGameInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYGETINSTANCE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetLittleGameLevelInfo(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LevelLittleGameInfo*& a3, ::RPG::GameCore::LittleGameLevelConfig*& a4)
+		static ::System::Boolean GetLittleGameLevelInfo(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LevelLittleGameInfo* a3, ::RPG::GameCore::LittleGameLevelConfig* a4)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*&, ::RPG::GameCore::LittleGameLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETLITTLEGAMELEVELINFO_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*, ::RPG::GameCore::LittleGameLevelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETLITTLEGAMELEVELINFO_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetFiveDimLevelConfig(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameLevelConfig*& a3, ::RPG::GameCore::FiveDimBakedLevelConfig*& a4)
+		static ::System::Boolean GetFiveDimLevelConfig(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameLevelConfig* a3, ::RPG::GameCore::FiveDimBakedLevelConfig* a4)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameLevelConfig*&, ::RPG::GameCore::FiveDimBakedLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCONFIG_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameLevelConfig*, ::RPG::GameCore::FiveDimBakedLevelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCONFIG_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::String* GetBakedLevelConfigPath(::System::String* a1)
@@ -174,9 +172,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::RPG::GameCore::LittleGameLevelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_SHOULDSAVEGAMESTATEONSERVER_OFFSET))(a1);
 		}
 
-		static ::System::Boolean IsExclusiveGame(::RPG::GameCore::LevelLittleGameInfo* a1, ::System::Boolean& a2)
+		static ::System::Boolean IsExclusiveGame(::RPG::GameCore::LevelLittleGameInfo* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LevelLittleGameInfo*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_ISEXCLUSIVEGAME_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelLittleGameInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_ISEXCLUSIVEGAME_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void HideAllHoyoGroupByFiveDim(::RPG::Client::FiveDimGameInstance* a1, ::System::Boolean a2)
@@ -189,9 +187,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_RECOVERSHOWALLHOYOGROUPBYFIVEDIM_OFFSET))();
 		}
 
-		static ::System::Boolean GetPlayer3DTransform(::UnityEngine::Vector3& a1, ::UnityEngine::Quaternion& a2)
+		static ::System::Boolean GetPlayer3DTransform(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETPLAYER3DTRANSFORM_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETPLAYER3DTRANSFORM_OFFSET))(a1, a2);
 		}
 
 		static ::System::Single ToHorizontalFOV(::System::Single a1)
@@ -229,24 +227,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::RPG::GameCore::FiveDimGameplayMode, ::RPG::GameCore::FiveDimGameplayMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_HASGAMEPLAYMODE_OFFSET))(a1, a2);
 		}
 
-		static ::Class_2_B9E8C2EEAA5C96EC* GetFiveDimEntityByEntityID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
+		static ::HIOEAKHGILF* GetFiveDimEntityByEntityID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
-			return ((::Class_2_B9E8C2EEAA5C96EC*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYBYENTITYID_OFFSET))(a1, a2, a3, a4);
+			return ((::HIOEAKHGILF*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYBYENTITYID_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TryGetEntityConfigIDByRuntimeID(::System::UInt32 a1, ::System::UInt32 a2, ::System::Int32 a3, ::System::UInt32& a4)
+		static ::System::Boolean TryGetEntityConfigIDByRuntimeID(::System::UInt32 a1, ::System::UInt32 a2, ::System::Int32 a3, ::System::UInt32 a4)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::Int32, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYGETENTITYCONFIGIDBYRUNTIMEID_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYGETENTITYCONFIGIDBYRUNTIMEID_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetFiveDimEntityWorldPositionByEntityID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::UnityEngine::Vector3& a4)
+		static ::System::Boolean GetFiveDimEntityWorldPositionByEntityID(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYWORLDPOSITIONBYENTITYID_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYWORLDPOSITIONBYENTITYID_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetFiveDimEntityConfigWorldPositionByEntityID(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::UnityEngine::Vector3& a5)
+		static ::System::Boolean GetFiveDimEntityConfigWorldPositionByEntityID(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCONFIGWORLDPOSITIONBYENTITYID_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCONFIGWORLDPOSITIONBYENTITYID_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::RPG::Client::LittleGame::LittleGameRuntimeButton* ToLittleGameRuntimeButton(::RPG::GameCore::PropButtonConfig* a1)
@@ -254,9 +252,9 @@ namespace RPG::Client
 			return ((::RPG::Client::LittleGame::LittleGameRuntimeButton*(*)(::RPG::GameCore::PropButtonConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TOLITTLEGAMERUNTIMEBUTTON_OFFSET))(a1);
 		}
 
-		static ::Class_1_4393199F378B6118* GetEntityNavNodeInfo(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		static ::JHGAJMAOPJE* GetEntityNavNodeInfo(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::Class_1_4393199F378B6118*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETENTITYNAVNODEINFO_OFFSET))(a1, a2, a3, a4);
+			return ((::JHGAJMAOPJE*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETENTITYNAVNODEINFO_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::UnityEngine::Vector3 GetPlayerWorldPosition()
@@ -269,29 +267,29 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMPLAYERGAMEOBJECT_OFFSET))();
 		}
 
-		static ::Class_1_4393199F378B6118* GetLocalPlayerNavNodeInfo()
+		static ::JHGAJMAOPJE* GetLocalPlayerNavNodeInfo()
 		{
-			return ((::Class_1_4393199F378B6118*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETLOCALPLAYERNAVNODEINFO_OFFSET))();
+			return ((::JHGAJMAOPJE*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETLOCALPLAYERNAVNODEINFO_OFFSET))();
 		}
 
-		static ::Class_1_EBB880A8D2C9B0D4* GetFiveDimLevelCheatSheet(::System::UInt32 a1, ::System::UInt32 a2)
+		static ::PLEODCMINJF* GetFiveDimLevelCheatSheet(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::Class_1_EBB880A8D2C9B0D4*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_OFFSET))(a1, a2);
+			return ((::PLEODCMINJF*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_OFFSET))(a1, a2);
 		}
 
-		static ::Class_1_EBB880A8D2C9B0D4* GetFiveDimLevelCheatSheet_1(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		static ::PLEODCMINJF* GetFiveDimLevelCheatSheet_1(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::Class_1_EBB880A8D2C9B0D4*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_1_OFFSET))(a1, a2, a3);
+			return ((::PLEODCMINJF*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMLEVELCHEATSHEET_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Class_1_A1EDFD8801F68886* GetFiveDimEntityCheatSheet(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
+		static ::EHLMPJIELJF* GetFiveDimEntityCheatSheet(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::Class_1_A1EDFD8801F68886*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_OFFSET))(a1, a2, a3);
+			return ((::EHLMPJIELJF*(*)(::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Class_1_A1EDFD8801F68886* GetFiveDimEntityCheatSheet_1(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		static ::EHLMPJIELJF* GetFiveDimEntityCheatSheet_1(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
-			return ((::Class_1_A1EDFD8801F68886*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_1_OFFSET))(a1, a2, a3, a4);
+			return ((::EHLMPJIELJF*(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTITYCHEATSHEET_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Single GetFiveDimLevelUintLength(::System::UInt32 a1, ::System::UInt32 a2)
@@ -324,9 +322,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean IsFiveDimLevelNoWayPoint_2(::Class_1_EBB880A8D2C9B0D4* a1)
+		static ::System::Boolean IsFiveDimLevelNoWayPoint_2(::PLEODCMINJF* a1)
 		{
-			return ((::System::Boolean(*)(::Class_1_EBB880A8D2C9B0D4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_2_OFFSET))(a1);
+			return ((::System::Boolean(*)(::PLEODCMINJF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_ISFIVEDIMLEVELNOWAYPOINT_2_OFFSET))(a1);
 		}
 
 		static ::System::Boolean _IsFiveDimNoWayPoint(::RPG::GameCore::FiveDimGameplayMode a1, ::RPG::GameCore::HoyoTagContainer* a2)
@@ -334,24 +332,24 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::RPG::GameCore::FiveDimGameplayMode, ::RPG::GameCore::HoyoTagContainer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS__ISFIVEDIMNOWAYPOINT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean GetFiveDimEntranceList(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*& a4)
+		static ::System::Boolean GetFiveDimEntranceList(::RPG::Client::NavMap::IMapDataSource* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Object* a4)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTRANCELIST_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::RPG::Client::NavMap::IMapDataSource*, ::System::UInt32, ::System::UInt32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETFIVEDIMENTRANCELIST_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean IsPlayerInfoValid(::Struct_2_F01DF3CDCF3FD7AC a1, ::System::String*& a2)
+		static ::System::Boolean IsPlayerInfoValid(::ANMMOFEEPEP a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::Struct_2_F01DF3CDCF3FD7AC, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_ISPLAYERINFOVALID_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::ANMMOFEEPEP, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_ISPLAYERINFOVALID_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParseTaskContainerTarget(::System::UInt32& a1, ::System::UInt32& a2, ::System::String* a3)
+		static ::System::Boolean TryParseTaskContainerTarget(::System::UInt32 a1, ::System::UInt32 a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32&, ::System::UInt32&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYPARSETASKCONTAINERTARGET_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYPARSETASKCONTAINERTARGET_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseContainerIDAndFDEntityID(::System::UInt32& a1, ::System::UInt32& a2, ::System::String* a3)
+		static ::System::Boolean TryParseContainerIDAndFDEntityID(::System::UInt32 a1, ::System::UInt32 a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32&, ::System::UInt32&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYPARSECONTAINERIDANDFDENTITYID_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_TRYPARSECONTAINERIDANDFDENTITYID_OFFSET))(a1, a2, a3);
 		}
 
 		static ::RPG::GameCore::FiveDimPropMoveConfig* GetPropMoveConfig(::System::UInt32 a1)
@@ -359,19 +357,19 @@ namespace RPG::Client
 			return ((::RPG::GameCore::FiveDimPropMoveConfig*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETPROPMOVECONFIG_OFFSET))(a1);
 		}
 
-		static ::System::Boolean _IsPlayerInfoValidByRuntime(::Struct_2_F01DF3CDCF3FD7AC a1, ::RPG::Client::FiveDimGameInstance* a2, ::System::String*& a3)
+		static ::System::Boolean _IsPlayerInfoValidByRuntime(::ANMMOFEEPEP a1, ::RPG::Client::FiveDimGameInstance* a2, ::System::String* a3)
 		{
-			return ((::System::Boolean(*)(::Struct_2_F01DF3CDCF3FD7AC, ::RPG::Client::FiveDimGameInstance*, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYRUNTIME_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::ANMMOFEEPEP, ::RPG::Client::FiveDimGameInstance*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYRUNTIME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean _IsPlayerInfoValidByData(::Struct_2_F01DF3CDCF3FD7AC a1, ::System::String*& a2)
+		static ::System::Boolean _IsPlayerInfoValidByData(::ANMMOFEEPEP a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::Struct_2_F01DF3CDCF3FD7AC, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYDATA_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::ANMMOFEEPEP, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS__ISPLAYERINFOVALIDBYDATA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void GetGravityWalkBoardBasicInfo(::RPG::GameCore::FiveDimGravityWalkBoardConfig* a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3, ::System::Single& a4)
+		static ::System::Void GetGravityWalkBoardBasicInfo(::RPG::GameCore::FiveDimGravityWalkBoardConfig* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::FiveDimGravityWalkBoardConfig*, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETGRAVITYWALKBOARDBASICINFO_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::RPG::GameCore::FiveDimGravityWalkBoardConfig*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_GETGRAVITYWALKBOARDBASICINFO_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean OBBFullyContainsOBB(::UnityEngine::Bounds a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::UnityEngine::Bounds a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Quaternion a6)
@@ -383,5 +381,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Bounds, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::Il2CppArray<::UnityEngine::Vector3>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMUTILS_OBBINTERSECTSNOALLOC_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

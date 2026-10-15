@@ -2,47 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngineInternal/Input/NativeInputUpdateType.h"
-
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngineInternal::Input { class NativeUpdateCallback; }
 
-#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_NOTIFYBEFOREUPDATE_OFFSET UNITYSDK_OFFSET(0x1EDA8F00)
-#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_NOTIFYDEVICEDISCOVERED_OFFSET UNITYSDK_OFFSET(0x1EDA8FF0)
-#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_NOTIFYUPDATE_OFFSET UNITYSDK_OFFSET(0x1EDA8F60)
-#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_SET_HASDEVICEDISCOVEREDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EDA8EF0)
-#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_SHOULDRUNUPDATE_OFFSET UNITYSDK_OFFSET(0x1EDA9060)
-#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDA8EE0)
+#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F471690)
+#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_NOTIFYBEFOREUPDATE_OFFSET UNITYSDK_OFFSET(0x1F4716B0)
+#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_NOTIFYDEVICEDISCOVERED_OFFSET UNITYSDK_OFFSET(0x1F4717A0)
+#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_NOTIFYUPDATE_OFFSET UNITYSDK_OFFSET(0x1F471710)
+#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_SET_HASDEVICEDISCOVEREDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F4716A0)
+#define UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_SHOULDRUNUPDATE_OFFSET UNITYSDK_OFFSET(0x1F471810)
 
 namespace UnityEngineInternal::Input
 {
-	inline static constexpr unsigned int NativeInputSystem_TypeDefinitionIndex = 5787;
-
 	class NativeInputSystem : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::System::Int32, ::System::String*>** StaticGet_s_OnDeviceDiscoveredCallback()
+		static ::System::Action** StaticGet_s_OnDeviceDiscoveredCallback()
 		{
-			return (::System::Action_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputSystem_TypeDefinitionIndex)->GetStaticField(0x380);
+			return (::System::Action**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x380);
 		}
-		static ::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>** StaticGet_onBeforeUpdate()
+
+		static ::System::Action** StaticGet_onBeforeUpdate()
 		{
-			return (::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputSystem_TypeDefinitionIndex)->GetStaticField(0x388);
+			return (::System::Action**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x388);
 		}
+
 		static ::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, ::System::Boolean>** StaticGet_onShouldRunUpdate()
 		{
-			return (::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputSystem_TypeDefinitionIndex)->GetStaticField(0x390);
+			return (::System::Func_2<::UnityEngineInternal::Input::NativeInputUpdateType, ::System::Boolean>**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x390);
 		}
+
 		static ::UnityEngineInternal::Input::NativeUpdateCallback** StaticGet_onUpdate()
 		{
-			return (::UnityEngineInternal::Input::NativeUpdateCallback**)Il2CppClass::FromTypeDefinitionIndex(NativeInputSystem_TypeDefinitionIndex)->GetStaticField(0x398);
+			return (::UnityEngineInternal::Input::NativeUpdateCallback**)UnitySDK::FromName("UnityEngineInternal.Input", "NativeInputSystem")->GetStaticField(0x398);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void NotifyBeforeUpdate(::UnityEngineInternal::Input::NativeInputUpdateType a1)
@@ -60,14 +59,15 @@ namespace UnityEngineInternal::Input
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_NOTIFYDEVICEDISCOVERED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType a1, ::System::Boolean& a2)
+		static ::System::Void ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::System::Boolean&))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_SHOULDRUNUPDATE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_SHOULDRUNUPDATE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void set_hasDeviceDiscoveredCallback(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINEINTERNAL_INPUT_NATIVEINPUTSYSTEM_SET_HASDEVICEDISCOVEREDCALLBACK_OFFSET))(a1);
 		}
+
 	};
 }

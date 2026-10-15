@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class FFLFKJJLJEJ;
+
+#define FFLFKJJLJEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15745520)
+#define FFLFKJJLJEJ_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0x157454A0)
+
+	class FFLFKJJLJEJ : public ::System::Object
+	{
+	public:
+		::System::UInt32 PHFMCACHFIJ; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFLFKJJLJEJ_CTOR_OFFSET))(this);
+		}
+
+		::FFLFKJJLJEJ* MJEODHKPKEB()
+		{
+			return ((::FFLFKJJLJEJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + FFLFKJJLJEJ_MJEODHKPKEB_OFFSET))(this);
+		}
+
+	};

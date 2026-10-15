@@ -3,8 +3,6 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int NumberStyles_TypeDefinitionIndex = 761;
-
 	enum class NumberStyles : ::System::Int32
 	{
 		None = 0,

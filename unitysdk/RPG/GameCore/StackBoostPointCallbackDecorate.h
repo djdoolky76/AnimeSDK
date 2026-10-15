@@ -2,40 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BPDecorateType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class StackBoostPointCallbackDecorate; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_4A4FC28829399DF9_OFFSET UNITYSDK_OFFSET(0x1D54D800)
-#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_D95A4DA784187914_OFFSET UNITYSDK_OFFSET(0x1D54D850)
-#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D54D840)
+#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB02760)
+#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB02770)
+#define RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB02720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackBoostPointCallbackDecorate_TypeDefinitionIndex = 23287;
-
 	class StackBoostPointCallbackDecorate : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Int32 Count; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* SourceTargetType; // 0x20
 		::RPG::GameCore::DynamicFloat* Delta; // 0x28
 		::RPG::GameCore::BPDecorateType Type; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4A4FC28829399DF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackBoostPointCallbackDecorate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_4A4FC28829399DF9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StackBoostPointCallbackDecorate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D95A4DA784187914(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackBoostPointCallbackDecorate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_METHOD_3_D95A4DA784187914_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StackBoostPointCallbackDecorate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKBOOSTPOINTCALLBACKDECORATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

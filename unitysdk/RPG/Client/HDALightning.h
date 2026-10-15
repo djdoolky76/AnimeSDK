@@ -2,19 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_HDALIGHTNING_AWAKE_OFFSET UNITYSDK_OFFSET(0xD38BB10)
-#define RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET UNITYSDK_OFFSET(0xD38BD00)
-#define RPG_CLIENT_HDALIGHTNING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD38BC70)
-#define RPG_CLIENT_HDALIGHTNING_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD38BBE0)
-#define RPG_CLIENT_HDALIGHTNING__CTOR_OFFSET UNITYSDK_OFFSET(0xD38BF30)
+#define RPG_CLIENT_HDALIGHTNING_AWAKE_OFFSET UNITYSDK_OFFSET(0xD2E4E70)
+#define RPG_CLIENT_HDALIGHTNING_CTOR_OFFSET UNITYSDK_OFFSET(0xD2E5290)
+#define RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET UNITYSDK_OFFSET(0xD2E5060)
+#define RPG_CLIENT_HDALIGHTNING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD2E4FD0)
+#define RPG_CLIENT_HDALIGHTNING_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD2E4F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HDALightning_TypeDefinitionIndex = 70571;
-
 	class HDALightning : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -22,15 +19,16 @@ namespace RPG::Client
 		::UnityEngine::Color BloomColor; // 0x28
 		::System::Single BloomIntensity; // 0x38
 		::System::Boolean UseDissolve; // 0x3C
+		::System::Byte _padding0[0x3];
 		::System::Single DissolveValue; // 0x40
 		::System::Boolean Show; // 0x44
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Material* IMOHCDHKBAJ; // 0x48
 		::System::Boolean NIJFGCPDBIC; // 0x50
 		::System::Boolean CCLHPIFFMCP; // 0x51
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HDALIGHTNING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HDALIGHTNING_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -52,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_HDALIGHTNING_LATETICK_OFFSET))(this, a1);
 		}
+
 	};
 }

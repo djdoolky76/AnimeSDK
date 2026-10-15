@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleAbilityConditionChecker.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
+namespace RPG::GameCore { class ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_METHOD_3_11AEA74022F404D2_OFFSET UNITYSDK_OFFSET(0x1CFA3D10)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_METHOD_3_1D8997D9A6962766_OFFSET UNITYSDK_OFFSET(0x1CFA3C40)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA3D00)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57E920)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57E930)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57E860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability_TypeDefinitionIndex = 15549;
-
 	class ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability : public ::RPG::GameCore::BaseChenLingBattleAbilityConditionChecker
 	{
 	public:
 		::RPG::GameCore::BaseChenLingBattleValueGetter* Probability; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D8997D9A6962766(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_METHOD_3_1D8997D9A6962766_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_11AEA74022F404D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_METHOD_3_11AEA74022F404D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbilityConditionChecker_OnSelfAttackWithProbability*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITYCONDITIONCHECKER_ONSELFATTACKWITHPROBABILITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

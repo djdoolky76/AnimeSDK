@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/EventSystems/PointerEventData_FramePressState.h"
-
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA_PRESSEDTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1EE0F8F0)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA_RELEASEDTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1EE0F900)
-#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE0F910)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D8B80)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA_PRESSEDTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1F4D8B60)
+#define UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA_RELEASEDTHISFRAME_OFFSET UNITYSDK_OFFSET(0x1F4D8B70)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int PointerInputModule_MouseButtonEventData_TypeDefinitionIndex = 6934;
-
 	class PointerInputModule_MouseButtonEventData : public ::System::Object
 	{
 	public:
 		::UnityEngine::EventSystems::PointerEventData_FramePressState buttonState; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::EventSystems::PointerEventData* buttonData; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean PressedThisFrame()
@@ -33,5 +30,6 @@ namespace UnityEngine::EventSystems
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_POINTERINPUTMODULE_MOUSEBUTTONEVENTDATA_RELEASEDTHISFRAME_OFFSET))(this);
 		}
+
 	};
 }

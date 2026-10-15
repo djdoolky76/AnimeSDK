@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class PPELMHMMCHP;
+namespace System { class Object; }
+
+#define PPELMHMMCHP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFD6360)
+#define PPELMHMMCHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFD6390)
+#define PPELMHMMCHP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFD63A0)
+
+	class PPELMHMMCHP___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x436C0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PPELMHMMCHP___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PPELMHMMCHP___C_CTOR_OFFSET))(this);
+		}
+
+		::PPELMHMMCHP* __cctor_b__28_0()
+		{
+			return ((::PPELMHMMCHP*(*)(::PVOID))((::PBYTE)hIl2Cpp + PPELMHMMCHP___C___CCTOR_B__28_0_OFFSET))(this);
+		}
+
+	};

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildPropertyType_TypeDefinitionIndex = 24411;
-
 	enum class EvolveBuildPropertyType : ::System::Int32
 	{
 		Coin = 0,

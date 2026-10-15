@@ -3,14 +3,12 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupUnit_CustomRuleType_TypeDefinitionIndex = 62144;
-
 	enum class RuntimeGroupManager_HoYoGroupUnit_CustomRuleType : ::System::UInt32
 	{
-		RotatablePose = 0x0,
-		RotatableRegion = 0x1,
-		WolfBro = 0x2,
-		FiveDim = 0x3,
-		PlatformQuality = 0x4,
+		RotatablePose = 0,
+		RotatableRegion = 1,
+		WolfBro = 2,
+		FiveDim = 3,
+		PlatformQuality = 4,
 	};
 }

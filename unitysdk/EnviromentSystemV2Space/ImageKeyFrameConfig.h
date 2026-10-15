@@ -2,28 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Texture; }
 
-#define ENVIROMENTSYSTEMV2SPACE_IMAGEKEYFRAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15364850)
+#define ENVIROMENTSYSTEMV2SPACE_IMAGEKEYFRAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15653D40)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ImageKeyFrameConfig_TypeDefinitionIndex = 49908;
-
 	class ImageKeyFrameConfig : public ::System::Object
 	{
 	public:
 		::System::Single time; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* resourcePath; // 0x18
 		::UnityEngine::Texture* thumbnail; // 0x20
 		::System::String* thumbnailPath; // 0x28
 		::UnityEngine::Vector2Int fullSize; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_IMAGEKEYFRAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_IMAGEKEYFRAMECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

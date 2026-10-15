@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetAdvEffectForceField; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_METHOD_3_4A168ECCCCF5D209_OFFSET UNITYSDK_OFFSET(0x1D4DF630)
-#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_METHOD_3_C7A7ECF5F8192DE8_OFFSET UNITYSDK_OFFSET(0x1D4DF670)
-#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DF660)
+#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA933A0)
+#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA933B0)
+#define RPG_GAMECORE_SETADVEFFECTFORCEFIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA93370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAdvEffectForceField_TypeDefinitionIndex = 22074;
-
 	class SetAdvEffectForceField : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -21,20 +19,20 @@ namespace RPG::GameCore
 		::System::String* EmitterConfigName; // 0x20
 		::RPG::GameCore::TargetEvaluator* ForceFieldTargetType; // 0x28
 		::System::String* ForceFieldConfigName; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVEFFECTFORCEFIELD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVEFFECTFORCEFIELD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4A168ECCCCF5D209(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvEffectForceField*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetAdvEffectForceField* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAdvEffectForceField*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVEFFECTFORCEFIELD_METHOD_3_4A168ECCCCF5D209_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetAdvEffectForceField*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVEFFECTFORCEFIELD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C7A7ECF5F8192DE8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAdvEffectForceField* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetAdvEffectForceField* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAdvEffectForceField*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVEFFECTFORCEFIELD_METHOD_3_C7A7ECF5F8192DE8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetAdvEffectForceField*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETADVEFFECTFORCEFIELD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

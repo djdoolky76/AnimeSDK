@@ -3,8 +3,6 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ConformanceLevel_TypeDefinitionIndex = 1798;
-
 	enum class ConformanceLevel : ::System::Int32
 	{
 		Auto = 0,

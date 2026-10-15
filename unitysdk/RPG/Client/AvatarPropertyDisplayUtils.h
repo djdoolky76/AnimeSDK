@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_AVATARPROPERTYDISPLAYUTILS_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xC83BF10)
+#define RPG_CLIENT_AVATARPROPERTYDISPLAYUTILS_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xC709E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPropertyDisplayUtils_TypeDefinitionIndex = 62938;
-
 	class AvatarPropertyDisplayUtils : public ::System::Object
 	{
 	public:
@@ -19,5 +16,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPROPERTYDISPLAYUTILS_FORMATDISPLAYDATABYTYPE_OFFSET))(a1, a2);
 		}
+
 	};
 }

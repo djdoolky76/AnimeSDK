@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoadSavedEnvProfile; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOADSAVEDENVPROFILE_METHOD_3_78176027C15C82C8_OFFSET UNITYSDK_OFFSET(0x1D209C50)
-#define RPG_GAMECORE_LOADSAVEDENVPROFILE_METHOD_3_C427026CEE25D545_OFFSET UNITYSDK_OFFSET(0x1D209B80)
-#define RPG_GAMECORE_LOADSAVEDENVPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D209C40)
+#define RPG_GAMECORE_LOADSAVEDENVPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7EA4F0)
+#define RPG_GAMECORE_LOADSAVEDENVPROFILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7EA500)
+#define RPG_GAMECORE_LOADSAVEDENVPROFILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7EA430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadSavedEnvProfile_TypeDefinitionIndex = 20516;
-
 	class LoadSavedEnvProfile : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADSAVEDENVPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADSAVEDENVPROFILE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C427026CEE25D545(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadSavedEnvProfile*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoadSavedEnvProfile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadSavedEnvProfile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADSAVEDENVPROFILE_METHOD_3_C427026CEE25D545_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoadSavedEnvProfile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADSAVEDENVPROFILE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_78176027C15C82C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadSavedEnvProfile* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoadSavedEnvProfile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadSavedEnvProfile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADSAVEDENVPROFILE_METHOD_3_78176027C15C82C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoadSavedEnvProfile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADSAVEDENVPROFILE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

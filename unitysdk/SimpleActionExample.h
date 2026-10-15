@@ -2,65 +2,62 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class String; }
 namespace UnityEngine { class TextMesh; }
 
-#define SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET UNITYSDK_OFFSET(0x16531320)
-#define SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET UNITYSDK_OFFSET(0x16531740)
-#define SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET UNITYSDK_OFFSET(0x16531530)
-#define SIMPLEACTIONEXAMPLE_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0x16531330)
-#define SIMPLEACTIONEXAMPLE_RESETSCALE_OFFSET UNITYSDK_OFFSET(0x16531770)
-#define SIMPLEACTIONEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x16531290)
-#define SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET UNITYSDK_OFFSET(0x16531490)
-#define SIMPLEACTIONEXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x165317B0)
+#define SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET UNITYSDK_OFFSET(0x16758100)
+#define SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET UNITYSDK_OFFSET(0x16758520)
+#define SIMPLEACTIONEXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x16758590)
+#define SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET UNITYSDK_OFFSET(0x16758310)
+#define SIMPLEACTIONEXAMPLE_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0x16758110)
+#define SIMPLEACTIONEXAMPLE_RESETSCALE_OFFSET UNITYSDK_OFFSET(0x16758550)
+#define SIMPLEACTIONEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x16758070)
+#define SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET UNITYSDK_OFFSET(0x16758270)
 
-inline static constexpr unsigned int SimpleActionExample_TypeDefinitionIndex = 38946;
-
-class SimpleActionExample : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::UnityEngine::TextMesh* textMesh; // 0x18
-	::UnityEngine::Vector3 startScale; // 0x20
-
-	::System::Void _ctor()
+	class SimpleActionExample : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::TextMesh* textMesh; // 0x18
+		::UnityEngine::Vector3 startScale; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Start()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_START_OFFSET))(this);
-	}
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_START_OFFSET))(this);
+		}
 
-	::System::Void ChangeColor(::HedgehogTeam::EasyTouch::Gesture* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET))(this, a1);
-	}
+		::System::Void ChangeColor(::HedgehogTeam::EasyTouch::Gesture* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGECOLOR_OFFSET))(this, a1);
+		}
 
-	::System::Void TimePressed(::HedgehogTeam::EasyTouch::Gesture* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET))(this, a1);
-	}
+		::System::Void TimePressed(::HedgehogTeam::EasyTouch::Gesture* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET))(this, a1);
+		}
 
-	::System::Void DisplaySwipeAngle(::HedgehogTeam::EasyTouch::Gesture* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET))(this, a1);
-	}
+		::System::Void DisplaySwipeAngle(::HedgehogTeam::EasyTouch::Gesture* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_DISPLAYSWIPEANGLE_OFFSET))(this, a1);
+		}
 
-	::System::Void ChangeText(::System::String* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET))(this, a1);
-	}
+		::System::Void ChangeText(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_CHANGETEXT_OFFSET))(this, a1);
+		}
 
-	::System::Void ResetScale()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_RESETSCALE_OFFSET))(this);
-	}
+		::System::Void ResetScale()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_RESETSCALE_OFFSET))(this);
+		}
 
-	::System::Void RandomColor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_RANDOMCOLOR_OFFSET))(this);
-	}
-};
+		::System::Void RandomColor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SIMPLEACTIONEXAMPLE_RANDOMCOLOR_OFFSET))(this);
+		}
+
+	};

@@ -1,21 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventFieldFormat.h"
-#include "unitysdk/System/Diagnostics/Tracing/TraceLoggingTypeInfo_1.h"
-
-namespace System { class String; }
-namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
-namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
-namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggingTypeInfo_1; }
+namespace System { class Object; }
+namespace System::Diagnostics::Tracing { class TraceLoggingTypeInfo; }
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EnumerableTypeInfo_2_TypeDefinitionIndex = 1596;
-
-	template <typename IterableType, typename ElementType>
-	class EnumerableTypeInfo_2 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<IterableType>
+	template <typename T1, typename T2>
+	class EnumerableTypeInfo_2
 	{
 	public:
-		::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ElementType>* elementInfo; // 0x0
+		::System::Diagnostics::Tracing::TraceLoggingTypeInfo* elementInfo; // 0x0
 	};
 }

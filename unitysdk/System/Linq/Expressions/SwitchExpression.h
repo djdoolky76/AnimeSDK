@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Expression.h"
-
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
+namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class SwitchCase; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1E76B880)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1E76B8A0)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1E76B890)
-#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1E76B870)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_CASES_OFFSET UNITYSDK_OFFSET(0x1EE344D0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET UNITYSDK_OFFSET(0x1EE344F0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_DEFAULTBODY_OFFSET UNITYSDK_OFFSET(0x1EE344E0)
+#define SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET UNITYSDK_OFFSET(0x1EE344C0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int SwitchExpression_TypeDefinitionIndex = 3276;
-
 	class SwitchExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField; // 0x10
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x18
-		::System::Reflection::MethodInfo* _Comparison_k__BackingField; // 0x20
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* _Cases_k__BackingField; // 0x10
+		::System::Reflection::MethodInfo* _Comparison_k__BackingField; // 0x18
+		::System::Linq::Expressions::Expression* _SwitchValue_k__BackingField; // 0x20
 		::System::Linq::Expressions::Expression* _DefaultBody_k__BackingField; // 0x28
-
 		::System::Linq::Expressions::Expression* get_SwitchValue()
 		{
 			return ((::System::Linq::Expressions::Expression*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_SWITCHVALUE_OFFSET))(this);
@@ -42,5 +39,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SWITCHEXPRESSION_GET_COMPARISON_OFFSET))(this);
 		}
+
 	};
 }

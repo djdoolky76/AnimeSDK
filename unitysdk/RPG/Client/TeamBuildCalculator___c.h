@@ -1,55 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_185A388C9275732B;
-class Class_1_93D6797E7CD6923E;
+class LLCICCEMLIO;
+class MDNBBCOBGPH;
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE187910)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE187950)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__GETTEAMBUILDSYNOPSIS_B__25_1_OFFSET UNITYSDK_OFFSET(0xE187980)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C___FILLWITHMAINAVATARS_B__20_0_OFFSET UNITYSDK_OFFSET(0xE187960)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1C9FA0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C9FE0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__GETTEAMBUILDSYNOPSIS_B__25_1_OFFSET UNITYSDK_OFFSET(0xE1CA010)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C___FILLWITHMAINAVATARS_B__20_0_OFFSET UNITYSDK_OFFSET(0xE1C9FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildCalculator___c_TypeDefinitionIndex = 68083;
-
 	class TeamBuildCalculator___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_93D6797E7CD6923E*, ::System::Boolean>** StaticGet___9__25_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_93D6797E7CD6923E*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildCalculator___c_TypeDefinitionIndex)->GetStaticField(0x42DB0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5A0);
 		}
-		static ::RPG::Client::TeamBuildCalculator___c** StaticGet___9()
+
+		static ::System::Action** StaticGet___9__20_0()
 		{
-			return (::RPG::Client::TeamBuildCalculator___c**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildCalculator___c_TypeDefinitionIndex)->GetStaticField(0x42DB8);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5A8);
 		}
-		static ::System::Action_1<::Class_1_185A388C9275732B*>** StaticGet___9__20_0()
+
+		static ::System::Func_2<::LLCICCEMLIO*, ::System::Boolean>** StaticGet___9__25_1()
 		{
-			return (::System::Action_1<::Class_1_185A388C9275732B*>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildCalculator___c_TypeDefinitionIndex)->GetStaticField(0x42DC0);
+			return (::System::Func_2<::LLCICCEMLIO*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Void __FillWithMainAvatars_b__20_0(::Class_1_185A388C9275732B* a1)
+		::System::Void __FillWithMainAvatars_b__20_0(::MDNBBCOBGPH* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_185A388C9275732B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C___FILLWITHMAINAVATARS_B__20_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MDNBBCOBGPH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C___FILLWITHMAINAVATARS_B__20_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetTeamBuildSynopsis_b__25_1(::Class_1_93D6797E7CD6923E* a1)
+		::System::Boolean _GetTeamBuildSynopsis_b__25_1(::LLCICCEMLIO* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_93D6797E7CD6923E*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C__GETTEAMBUILDSYNOPSIS_B__25_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::LLCICCEMLIO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___C__GETTEAMBUILDSYNOPSIS_B__25_1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B1D770)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B1D7E0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B1D760)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1D6F0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DB2520)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB24A0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DB2590)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DB2510)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_90661A88_TypeDefinitionIndex = 50515;
-
 	class InternalGlobals___GEN_DELEGATE_B00_90661A88 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::GameCore::CakeRaceCellType a1)
@@ -38,5 +35,6 @@ namespace XLua
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_90661A88_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

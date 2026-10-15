@@ -3,8 +3,6 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Permissions_TypeDefinitionIndex = 39157;
-
 	enum class HAPI_Permissions : ::System::Int32
 	{
 		HAPI_PERMISSIONS_NON_APPLICABLE = 0,

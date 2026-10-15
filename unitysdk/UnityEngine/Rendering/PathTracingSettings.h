@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/PathTracingDebugMode.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PathTracingSettings_TypeDefinitionIndex = 4821;
-
 	struct alignas(4) PathTracingSettings
 	{
 		::System::Boolean Enable; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single SkyIndirectBoost; // 0x14
 		::System::Single EmissionIndirectBoost; // 0x18
 		::System::Single MainLightIndirectBoost; // 0x1C

@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_PROGRESSBAR_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xDBC3720)
-#define RPG_CLIENT_PROGRESSBAR_SET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xDBC3770)
-#define RPG_CLIENT_PROGRESSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0xDBC3880)
-#define RPG_CLIENT_PROGRESSBAR__SETBAR_OFFSET UNITYSDK_OFFSET(0xDBC34A0)
-#define RPG_CLIENT_PROGRESSBAR__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xDBC33C0)
-#define RPG_CLIENT_PROGRESSBAR__SETMARKROTATION_OFFSET UNITYSDK_OFFSET(0xDBC3640)
-#define RPG_CLIENT_PROGRESSBAR__SETMARK_OFFSET UNITYSDK_OFFSET(0xDBC3520)
+#define RPG_CLIENT_PROGRESSBAR_CTOR_OFFSET UNITYSDK_OFFSET(0xDC0DFF0)
+#define RPG_CLIENT_PROGRESSBAR_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xDC0DE90)
+#define RPG_CLIENT_PROGRESSBAR_SET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xDC0DEE0)
+#define RPG_CLIENT_PROGRESSBAR__SETBAR_OFFSET UNITYSDK_OFFSET(0xDC0DC10)
+#define RPG_CLIENT_PROGRESSBAR__SETFILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xDC0DB30)
+#define RPG_CLIENT_PROGRESSBAR__SETMARKROTATION_OFFSET UNITYSDK_OFFSET(0xDC0DDB0)
+#define RPG_CLIENT_PROGRESSBAR__SETMARK_OFFSET UNITYSDK_OFFSET(0xDC0DC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProgressBar_TypeDefinitionIndex = 72558;
-
 	class ProgressBar : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -24,10 +21,9 @@ namespace RPG::Client
 		::UnityEngine::RectTransform* _CurrentMark; // 0x20
 		::System::Boolean _HideMarkWhenZero; // 0x28
 		::System::Boolean _HideMarkWhenMax; // 0x29
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROGRESSBAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROGRESSBAR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _SetFillAmount(::System::Single a1)
@@ -59,5 +55,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROGRESSBAR_SET_FILLAMOUNT_OFFSET))(this, a1);
 		}
+
 	};
 }

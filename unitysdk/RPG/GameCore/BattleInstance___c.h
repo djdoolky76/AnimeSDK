@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_64F26B9ED0181D80.h"
+#include "unitysdk/PKFBNIHNLGG.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_BATTLEINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE533FA0)
-#define RPG_GAMECORE_BATTLEINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE533FD0)
-#define RPG_GAMECORE_BATTLEINSTANCE___C__GENERATETURNSNAPSHOT_B__8_0_OFFSET UNITYSDK_OFFSET(0xE533FE0)
+#define RPG_GAMECORE_BATTLEINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5C63D0)
+#define RPG_GAMECORE_BATTLEINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C6400)
+#define RPG_GAMECORE_BATTLEINSTANCE___C__GENERATETURNSNAPSHOT_B__8_0_OFFSET UNITYSDK_OFFSET(0xE5C6410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleInstance___c_TypeDefinitionIndex = 56226;
-
 	class BattleInstance___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::Struct_2_64F26B9ED0181D80>** StaticGet___9__8_0()
+		static ::System::Comparison_1<::PKFBNIHNLGG>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::Struct_2_64F26B9ED0181D80>**)Il2CppClass::FromTypeDefinitionIndex(BattleInstance___c_TypeDefinitionIndex)->GetStaticField(0x66B00);
+			return (::System::Comparison_1<::PKFBNIHNLGG>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x57220);
 		}
-		static ::RPG::GameCore::BattleInstance___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::GameCore::BattleInstance___c**)Il2CppClass::FromTypeDefinitionIndex(BattleInstance___c_TypeDefinitionIndex)->GetStaticField(0x66B08);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x57228);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEINSTANCE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEINSTANCE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEINSTANCE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEINSTANCE___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GenerateTurnSnapshot_b__8_0(::Struct_2_64F26B9ED0181D80 a1, ::Struct_2_64F26B9ED0181D80 a2)
+		::System::Int32 _GenerateTurnSnapshot_b__8_0(::PKFBNIHNLGG a1, ::PKFBNIHNLGG a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Struct_2_64F26B9ED0181D80, ::Struct_2_64F26B9ED0181D80))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEINSTANCE___C__GENERATETURNSNAPSHOT_B__8_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::PKFBNIHNLGG, ::PKFBNIHNLGG))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEINSTANCE___C__GENERATETURNSNAPSHOT_B__8_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

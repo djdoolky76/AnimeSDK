@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B940CA0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B940CD0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B940C90)
-#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B940C20)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE41050)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE40FD0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE41080)
+#define MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE41040)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_UpdateAchievementDelegate_TypeDefinitionIndex = 7586;
-
 	class ConsoleDelegate_UpdateAchievementDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_UPDATEACHIEVEMENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

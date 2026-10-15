@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelPrivilegeParams; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelPrivilegeResult; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA1E960)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA1E990)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA0F580)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1E870)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF22B50)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF22A60)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF22B80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF13580)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_CheckPrivilegeDelegate_TypeDefinitionIndex = 8494;
-
 	class HoYoChannelDelegate_CheckPrivilegeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult* Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeParams* a1)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelPrivilegeResult*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CHECKPRIVILEGEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

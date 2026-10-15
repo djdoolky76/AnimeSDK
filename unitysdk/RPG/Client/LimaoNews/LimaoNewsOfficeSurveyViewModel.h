@@ -1,45 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_4608E37A1B3D374A_21.h"
-#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/NMCBKMBDILL.h"
 #include "unitysdk/RPG/GameCore/LimaoNewsOfficeSurveyType.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client::LimaoNews { class LimaoNewsLocationData; }
 namespace RPG::Client::LimaoNews { class LimaoNewsModule; }
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyItem; }
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyTypeData; }
-namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { class Tuple; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_FIXCOMPLETEOFFICESURVEYLIST_OFFSET UNITYSDK_OFFSET(0xD477F20)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERLOCATIONDATAS_OFFSET UNITYSDK_OFFSET(0xD4779A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSTATES_OFFSET UNITYSDK_OFFSET(0xD477C40)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSURVEYTYPEDATAS_OFFSET UNITYSDK_OFFSET(0xD477770)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETSHOWITEMS_OFFSET UNITYSDK_OFFSET(0xD477300)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETTOTALSHOWCOUNT_OFFSET UNITYSDK_OFFSET(0xD477470)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GET_RECOMMENDSERVICEID_OFFSET UNITYSDK_OFFSET(0xD477F80)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_ISANYSURVEYCANSHOW_OFFSET UNITYSDK_OFFSET(0xD4773E0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_ISFINISHEDALLSURVEY_OFFSET UNITYSDK_OFFSET(0xD477380)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_REFRESHOFFICESURVEYBYFILTER_OFFSET UNITYSDK_OFFSET(0xD477700)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_REFRESHSELECTEDFILTER_OFFSET UNITYSDK_OFFSET(0xD4774D0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD4771D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3CBE30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_FIXCOMPLETEOFFICESURVEYLIST_OFFSET UNITYSDK_OFFSET(0xD3CCB10)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERLOCATIONDATAS_OFFSET UNITYSDK_OFFSET(0xD3CC600)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSTATES_OFFSET UNITYSDK_OFFSET(0xD3CC830)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSURVEYTYPEDATAS_OFFSET UNITYSDK_OFFSET(0xD3CC3D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETSHOWITEMS_OFFSET UNITYSDK_OFFSET(0xD3CBF60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETTOTALSHOWCOUNT_OFFSET UNITYSDK_OFFSET(0xD3CC0D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GET_RECOMMENDSERVICEID_OFFSET UNITYSDK_OFFSET(0xD3CCB70)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_ISANYSURVEYCANSHOW_OFFSET UNITYSDK_OFFSET(0xD3CC040)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_ISFINISHEDALLSURVEY_OFFSET UNITYSDK_OFFSET(0xD3CBFE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_REFRESHOFFICESURVEYBYFILTER_OFFSET UNITYSDK_OFFSET(0xD3CC360)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_REFRESHSELECTEDFILTER_OFFSET UNITYSDK_OFFSET(0xD3CC130)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsOfficeSurveyViewModel_TypeDefinitionIndex = 79116;
-
 	class LimaoNewsOfficeSurveyViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _SelectedLocationIDs; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* _SelectedSurveyTypes; // 0x28
-		::System::Collections::Generic::List_1<::Enum_3_4608E37A1B3D374A_21>* _SelectedStates; // 0x30
+		::System::Collections::Generic::List_1<::NMCBKMBDILL>* _SelectedStates; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* _SelectedLocationIDs; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* _SelectedSurveyTypes; // 0x30
 		::RPG::Client::LimaoNews::LimaoNewsModule* _Module; // 0x38
-
 		::System::Void _ctor(::RPG::Client::LimaoNews::LimaoNewsModule* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::LimaoNews::LimaoNewsModule*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LimaoNews::LimaoNewsModule*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsOfficeSurveyItem*>* GetShowItems()
@@ -62,9 +58,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETTOTALSHOWCOUNT_OFFSET))(this);
 		}
 
-		::System::Void RefreshSelectedFilter(::System::Collections::Generic::List_1<::RPG::GameCore::LimaoNewsOfficeSurveyType>* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::Enum_3_4608E37A1B3D374A_21>* a3)
+		::System::Void RefreshSelectedFilter(::System::Collections::Generic::List_1<::RPG::GameCore::LimaoNewsOfficeSurveyType>* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::NMCBKMBDILL>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::LimaoNewsOfficeSurveyType>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::Enum_3_4608E37A1B3D374A_21>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_REFRESHSELECTEDFILTER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::LimaoNewsOfficeSurveyType>*, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::NMCBKMBDILL>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_REFRESHSELECTEDFILTER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void RefreshOfficeSurveyByFilter()
@@ -82,9 +78,9 @@ namespace RPG::Client::LimaoNews
 			return ((::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsLocationData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERLOCATIONDATAS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::Tuple_2<::Enum_3_4608E37A1B3D374A_21, ::RPG::Client::TextID>*>* GetFilterStates()
+		::System::Collections::Generic::List_1<::System::Tuple*>* GetFilterStates()
 		{
-			return ((::System::Collections::Generic::List_1<::System::Tuple_2<::Enum_3_4608E37A1B3D374A_21, ::RPG::Client::TextID>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSTATES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Tuple*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GETFILTERSTATES_OFFSET))(this);
 		}
 
 		::System::Void FixCompleteOfficeSurveyList()
@@ -96,5 +92,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYVIEWMODEL_GET_RECOMMENDSERVICEID_OFFSET))(this);
 		}
+
 	};
 }

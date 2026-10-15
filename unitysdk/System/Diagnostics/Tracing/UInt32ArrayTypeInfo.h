@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventFieldFormat.h"
-#include "unitysdk/System/Diagnostics/Tracing/TraceLoggingTypeInfo_1.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1BCF7550)
-#define SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x1BCF7470)
-#define SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF7630)
+#define SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C203690)
+#define SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1C2035B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x1C2034D0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int UInt32ArrayTypeInfo_TypeDefinitionIndex = 1634;
-
-	class UInt32ArrayTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Il2CppArray<::System::UInt32>*>
+	class UInt32ArrayTypeInfo
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void WriteMetadata(::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* a1, ::System::String* a2, ::System::Diagnostics::Tracing::EventFieldFormat a3)
@@ -28,9 +25,10 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, ::System::String*, ::System::Diagnostics::Tracing::EventFieldFormat))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_WRITEMETADATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteData(::System::Diagnostics::Tracing::TraceLoggingDataCollector* a1, ::Il2CppArray<::System::UInt32>*& a2)
+		::System::Void WriteData(::System::Diagnostics::Tracing::TraceLoggingDataCollector* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingDataCollector*, ::Il2CppArray<::System::UInt32>*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_WRITEDATA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingDataCollector*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINT32ARRAYTYPEINFO_WRITEDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

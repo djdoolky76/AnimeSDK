@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Net::Http::Headers { class ContentDispositionHeaderValue; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E784740)
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E784860)
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1E784690)
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7846F0)
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E784950)
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E784980)
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7843E0)
-#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7843D0)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE4D050)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4D040)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE4D3B0)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE4D4D0)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x1EE4D300)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE4D360)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE4D5C0)
+#define SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE4D5F0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int ContentDispositionHeaderValue_TypeDefinitionIndex = 3781;
-
 	class ContentDispositionHeaderValue : public ::System::Object
 	{
 	public:
-		::System::String* dispositionType; // 0x10
-		::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters; // 0x18
-
+		::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* parameters; // 0x10
+		::System::String* dispositionType; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Net::Http::Headers::ContentDispositionHeaderValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::ContentDispositionHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::ContentDispositionHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters()
@@ -61,9 +59,10 @@ namespace System::Net::Http::Headers
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::ContentDispositionHeaderValue*& a2)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::ContentDispositionHeaderValue* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::ContentDispositionHeaderValue*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::ContentDispositionHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_CONTENTDISPOSITIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
 		}
+
 	};
 }

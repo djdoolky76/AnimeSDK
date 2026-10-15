@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Xml::Serialization { class XmlSerializationWriterInterpreter; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEENUM_OFFSET UNITYSDK_OFFSET(0x1E86F9E0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEOBJECT_OFFSET UNITYSDK_OFFSET(0x1E86F900)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8685E0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF31270)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEENUM_OFFSET UNITYSDK_OFFSET(0x1EF38670)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EF38590)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationWriterInterpreter_CallbackInfo_TypeDefinitionIndex = 2039;
-
 	class XmlSerializationWriterInterpreter_CallbackInfo : public ::System::Object
 	{
 	public:
-		::System::Xml::Serialization::XmlSerializationWriterInterpreter* _swi; // 0x10
-		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x18
-
+		::System::Xml::Serialization::XmlTypeMapping* _typeMap; // 0x10
+		::System::Xml::Serialization::XmlSerializationWriterInterpreter* _swi; // 0x18
 		::System::Void _ctor(::System::Xml::Serialization::XmlSerializationWriterInterpreter* a1, ::System::Xml::Serialization::XmlTypeMapping* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlSerializationWriterInterpreter*, ::System::Xml::Serialization::XmlTypeMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Serialization::XmlSerializationWriterInterpreter*, ::System::Xml::Serialization::XmlTypeMapping*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void WriteObject(::System::Object* a1)
@@ -33,5 +30,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITERINTERPRETER_CALLBACKINFO_WRITEENUM_OFFSET))(this, a1);
 		}
+
 	};
 }

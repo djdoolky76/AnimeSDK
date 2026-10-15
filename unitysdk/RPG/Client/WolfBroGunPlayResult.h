@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayResult_TypeDefinitionIndex = 68707;
-
 	struct alignas(4) WolfBroGunPlayResult
 	{
 		::System::Int32 SpawnTargetCount; // 0x10
@@ -18,6 +15,7 @@ namespace RPG::Client
 		::System::Single Score; // 0x2C
 		::System::Int32 ScoreRank; // 0x30
 		::System::Boolean IsSuccess; // 0x34
+		::System::Byte _padding0[0x3];
 		::System::UInt32 GroupID; // 0x38
 		::System::UInt32 SerialNumber; // 0x3C
 		::System::UInt32 ContinueTime; // 0x40

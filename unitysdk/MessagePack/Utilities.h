@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/Utilities_NonGenericDictionaryEnumerable.h"
 #include "unitysdk/System/Memory_1.h"
-#include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 namespace System::Collections { class IDictionary; }
 
-#define MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B6DAC30)
-#define MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET UNITYSDK_OFFSET(0x1B6DA890)
-#define MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET UNITYSDK_OFFSET(0x1B6DABE0)
+#define MESSAGEPACK_UTILITIES_GETENTRYENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BBD88B0)
+#define MESSAGEPACK_UTILITIES_GETMEMORYCHECKRESULT_OFFSET UNITYSDK_OFFSET(0x1BBD8540)
+#define MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET UNITYSDK_OFFSET(0x1BBD8860)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 7193;
-
 	class Utilities : public ::System::Object
 	{
 	public:
@@ -33,5 +30,6 @@ namespace MessagePack
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MESSAGEPACK_UTILITIES__GETMEMORYCHECKRESULT_G__THROWINVALIDOPERATIONEXCEPTION_2_0_OFFSET))(a1);
 		}
+
 	};
 }

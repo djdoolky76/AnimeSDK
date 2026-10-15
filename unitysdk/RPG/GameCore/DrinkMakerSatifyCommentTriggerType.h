@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerSatifyCommentTriggerType_TypeDefinitionIndex = 13088;
-
 	enum class DrinkMakerSatifyCommentTriggerType : ::System::Int32
 	{
 		None = 0,

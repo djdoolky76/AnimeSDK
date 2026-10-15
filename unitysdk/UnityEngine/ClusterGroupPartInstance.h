@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/MinMaxAABB.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ClusterGroupPartInstance_TypeDefinitionIndex = 4103;
-
 	struct alignas(4) ClusterGroupPartInstance
 	{
 		::System::UInt32 PartIndex; // 0x10

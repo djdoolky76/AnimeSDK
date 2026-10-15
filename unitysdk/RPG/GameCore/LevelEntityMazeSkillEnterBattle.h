@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelEntityMazeSkillEnterBattle; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE691DF0)
-#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE691E90)
-#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE691E40)
-#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_INIT_OFFSET UNITYSDK_OFFSET(0xE691D80)
-#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE691EE0)
+#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6ECFF0)
+#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6ED0E0)
+#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6ED090)
+#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6ED040)
+#define RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_INIT_OFFSET UNITYSDK_OFFSET(0xE6ECF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityMazeSkillEnterBattle_TypeDefinitionIndex = 56940;
-
-	class LevelEntityMazeSkillEnterBattle : public ::Class_1_BF7A075734D15E98
+	class LevelEntityMazeSkillEnterBattle : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x18
-		::RPG::GameCore::TurnBasedModifierInstance* ModifierInstance; // 0x20
+		::RPG::GameCore::TurnBasedModifierInstance* ModifierInstance; // 0x18
+		::RPG::GameCore::GameEntity* Target; // 0x20
 		::System::Boolean Precall; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelEntityMazeSkillEnterBattle* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TurnBasedModifierInstance* a2, ::System::Boolean a3)
@@ -47,5 +44,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYMAZESKILLENTERBATTLE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

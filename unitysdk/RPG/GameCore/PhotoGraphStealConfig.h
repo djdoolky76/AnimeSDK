@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PhotoGraphStealConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_METHOD_2_4F6517BBFF4D83D1_OFFSET UNITYSDK_OFFSET(0x1D32DA60)
-#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D32E610)
+#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9137A0)
+#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D912BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphStealConfig_TypeDefinitionIndex = 18833;
-
 	class PhotoGraphStealConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -18,15 +16,15 @@ namespace RPG::GameCore
 		::System::Single MaxDistance; // 0x14
 		::System::Single MinSizeScale; // 0x18
 		::System::Single MaxSizeScale; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4F6517BBFF4D83D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphStealConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphStealConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphStealConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_METHOD_2_4F6517BBFF4D83D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphStealConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

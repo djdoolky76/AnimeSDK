@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14D80)
-#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14DC0)
-#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB123D0)
-#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB14C90)
+#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C021740)
+#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C021650)
+#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C021780)
+#define MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01EDE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_LoadDelegate_TypeDefinitionIndex = 7778;
-
 	class WebDelegate_LoadDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::String* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_LOADDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

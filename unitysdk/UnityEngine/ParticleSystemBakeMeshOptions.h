@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemBakeMeshOptions_TypeDefinitionIndex = 5280;
-
 	enum class ParticleSystemBakeMeshOptions : ::System::Int32
 	{
 		BakeRotationAndScale = 1,

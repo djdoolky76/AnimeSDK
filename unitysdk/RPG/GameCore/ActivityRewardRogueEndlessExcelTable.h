@@ -1,60 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
-#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRewardRogueEndlessRow; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CDA8320)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CDA81F0)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CDA7EE0)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CDA8190)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CDA84B0)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDA7F60)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDA84F0)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CDA86C0)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CDA88E0)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDA8C00)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CDA8620)
-#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CDA8580)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D37DCF0)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D37D410)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D37D2E0)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D37CFD0)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D37D280)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D37D5A0)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D37D050)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D37D5E0)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D37D7B0)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D37D9D0)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D37D710)
+#define RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D37D670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRewardRogueEndlessExcelTable_TypeDefinitionIndex = 12254;
-
 	class ActivityRewardRogueEndlessExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardRogueEndlessExcelTable_TypeDefinitionIndex)->GetStaticField(0x17F40);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardRogueEndlessExcelTable_TypeDefinitionIndex)->GetStaticField(0x17F48);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRewardRogueEndlessRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRewardRogueEndlessRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardRogueEndlessExcelTable_TypeDefinitionIndex)->GetStaticField(0x17F50);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRewardRogueEndlessRow*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRewardRogueEndlessExcelTable")->GetStaticField(0x425C0);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+
+		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardRogueEndlessExcelTable_TypeDefinitionIndex)->GetStaticField(0x8EC0);
+			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "ActivityRewardRogueEndlessExcelTable")->GetStaticField(0x425C8);
 		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActivityRewardRogueEndlessExcelTable")->GetStaticField(0x425D0);
+		}
+
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityRewardRogueEndlessExcelTable_TypeDefinitionIndex)->GetStaticField(0x8EC1);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActivityRewardRogueEndlessExcelTable")->GetStaticField(0x10040);
+		}
+
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActivityRewardRogueEndlessExcelTable")->GetStaticField(0x10041);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE_CCTOR_OFFSET))();
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRewardRogueEndlessRow*>* get_dataDict()
@@ -97,19 +98,20 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__LOADDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean& a3)
+		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
+		static ::System::Void _AddItemFromBinary(::FCOEMCEDLNL* a1)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
 		}
 
 		static ::System::Void _AddItem(::RPG::GameCore::ActivityRewardRogueEndlessRow* a1)
 		{
 			return ((::System::Void(*)(::RPG::GameCore::ActivityRewardRogueEndlessRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREWARDROGUEENDLESSEXCELTABLE__ADDITEM_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChangeMusicVisualBeatEffectState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_METHOD_3_3F1B006580294301_OFFSET UNITYSDK_OFFSET(0x1CF8DBF0)
-#define RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_METHOD_3_6448A72B4E662F11_OFFSET UNITYSDK_OFFSET(0x1CF8DB70)
-#define RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF8DBC0)
+#define RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D567D50)
+#define RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D567D80)
+#define RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D567D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeMusicVisualBeatEffectState_TypeDefinitionIndex = 22061;
-
 	class ChangeMusicVisualBeatEffectState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Int32 InStateID; // 0x18
 		::System::Boolean IsImmediate; // 0x1C
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6448A72B4E662F11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeMusicVisualBeatEffectState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeMusicVisualBeatEffectState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeMusicVisualBeatEffectState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_METHOD_3_6448A72B4E662F11_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeMusicVisualBeatEffectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3F1B006580294301(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeMusicVisualBeatEffectState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeMusicVisualBeatEffectState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeMusicVisualBeatEffectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_METHOD_3_3F1B006580294301_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeMusicVisualBeatEffectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMUSICVISUALBEATEFFECTSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

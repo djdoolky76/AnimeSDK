@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindControlManagerActiveReason_TypeDefinitionIndex = 60930;
-
 	enum class TimeRewindControlManagerActiveReason : ::System::Int32
 	{
 		FakeAvatar = 0,

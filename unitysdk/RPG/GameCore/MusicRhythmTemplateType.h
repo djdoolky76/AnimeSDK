@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmTemplateType_TypeDefinitionIndex = 16751;
-
 	enum class MusicRhythmTemplateType : ::System::Int32
 	{
 		Unknown = 0,

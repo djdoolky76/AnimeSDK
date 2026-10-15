@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CameraClearFlags_TypeDefinitionIndex = 4161;
-
 	enum class CameraClearFlags : ::System::Int32
 	{
 		Skybox = 1,

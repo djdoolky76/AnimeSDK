@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ServerEvent_TypeDefinitionIndex = 46849;
-
 	enum class SecurityTunnel_ServerEvent : ::System::Int32
 	{
 		Login = 57345,

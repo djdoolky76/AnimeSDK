@@ -3,8 +3,6 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchControl_ButtonTarget_TypeDefinitionIndex = 39586;
-
 	enum class TouchControl_ButtonTarget : ::System::Int32
 	{
 		None = 0,

@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdventureAbilityProperty.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::GameCore { class AdventureAbilityComponent; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierInstance_StackPropertySlot_TypeDefinitionIndex = 54625;
-
 	struct alignas(8) AdventureModifierInstance_StackPropertySlot
 	{
 		::System::Int32 Index; // 0x10

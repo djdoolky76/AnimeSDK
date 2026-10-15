@@ -1,0 +1,107 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class ILCPGLAAADL;
+namespace Google::Protobuf { class CodedInputStream; }
+namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class MessageParser; }
+namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define ILCPGLAAADL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E6AA470)
+#define ILCPGLAAADL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6AA510)
+#define ILCPGLAAADL_CLONE_OFFSET UNITYSDK_OFFSET(0x1E6AA160)
+#define ILCPGLAAADL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E6AA130)
+#define ILCPGLAAADL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6AA120)
+#define ILCPGLAAADL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E6AA270)
+#define ILCPGLAAADL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E6AA1A0)
+#define ILCPGLAAADL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E6AA3D0)
+#define ILCPGLAAADL_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E6AA0E0)
+#define ILCPGLAAADL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E6AA4C0)
+#define ILCPGLAAADL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E6AA490)
+#define ILCPGLAAADL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E6AA110)
+#define ILCPGLAAADL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6AA400)
+#define ILCPGLAAADL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6AA460)
+
+	class ILCPGLAAADL : public ::System::Object
+	{
+	public:
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
+		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "ILCPGLAAADL")->GetStaticField(0x56040);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILCPGLAAADL_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::ILCPGLAAADL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::ILCPGLAAADL*))((::PBYTE)hIl2Cpp + ILCPGLAAADL_CTOR_1_OFFSET))(this, a1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ILCPGLAAADL_CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		{
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + ILCPGLAAADL_JJGHOBBFNJD_OFFSET))();
+		}
+
+		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
+		{
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILCPGLAAADL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
+		}
+
+		::ILCPGLAAADL* Clone()
+		{
+			return ((::ILCPGLAAADL*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILCPGLAAADL_CLONE_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + ILCPGLAAADL_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::ILCPGLAAADL* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::ILCPGLAAADL*))((::PBYTE)hIl2Cpp + ILCPGLAAADL_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ILCPGLAAADL_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ILCPGLAAADL_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + ILCPGLAAADL_WRITETO_OFFSET))(this, a1);
+		}
+
+		::System::Int32 CalculateSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ILCPGLAAADL_CALCULATESIZE_OFFSET))(this);
+		}
+
+		::System::Void MergeFrom(::ILCPGLAAADL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::ILCPGLAAADL*))((::PBYTE)hIl2Cpp + ILCPGLAAADL_MERGEFROM_OFFSET))(this, a1);
+		}
+
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + ILCPGLAAADL_MERGEFROM_1_OFFSET))(this, a1);
+		}
+
+	};

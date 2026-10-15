@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8C6D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8C720)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF80D40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8C660)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F654BF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F654B80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F654C40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F648AE0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_ReadyFunc_TypeDefinitionIndex = 38077;
-
 	class BrowserNative_ReadyFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +34,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_READYFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

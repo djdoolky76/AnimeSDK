@@ -1,72 +1,71 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameLevelCurveInfo.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelBaseCurvePointInfo; }
 namespace RPG::GameCore { class LevelCirclePointInfo; }
 namespace RPG::GameCore { class LevelCurvePointInfo; }
 namespace RPG::GameCore { class LittleGameBezierCurveInfo; }
+namespace RPG::GameCore { class LittleGameCircleCurveInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_0E866F175D4ABE34_OFFSET UNITYSDK_OFFSET(0x1D200060)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_5BA71826636BA9C3_OFFSET UNITYSDK_OFFSET(0x1D1FFE10)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_823B0920A1E5575C_OFFSET UNITYSDK_OFFSET(0x1D1FFDC0)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_8B071BD4E0283A69_OFFSET UNITYSDK_OFFSET(0x1D1FFF90)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_978C9496D0413FBC_OFFSET UNITYSDK_OFFSET(0x1D1FFFC0)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_97A366DE298E597F_OFFSET UNITYSDK_OFFSET(0x1D200390)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_D978819B0A4871A0_OFFSET UNITYSDK_OFFSET(0x1D1FFF80)
-#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FFE00)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_CGLDFOMHJCK_1_OFFSET UNITYSDK_OFFSET(0x1D7DECD0)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_CGLDFOMHJCK_OFFSET UNITYSDK_OFFSET(0x1D7DEC30)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DEA70)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_DAAANAKDIKM_OFFSET UNITYSDK_OFFSET(0x1D7DEBF0)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_GEECOCHOCCL_OFFSET UNITYSDK_OFFSET(0x1D7DF000)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DEA80)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DEA30)
+#define RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_PBDAGAPHDPD_OFFSET UNITYSDK_OFFSET(0x1D7DEC00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameCircleCurveInfo_TypeDefinitionIndex = 18642;
-
 	class LittleGameCircleCurveInfo : public ::RPG::GameCore::LittleGameLevelCurveInfo
 	{
 	public:
-		// static const ::System::Int32 CONTROL_TYPE_BEZIER_INDEPENDANT = 0x2; // 0x0
 		::System::Single Radius; // 0x18
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::LevelCirclePointInfo*>* PointList; // 0x20
-
+		// static const ::System::Object CONTROL_TYPE_BEZIER_INDEPENDANT; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_823B0920A1E5575C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameCircleCurveInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameCircleCurveInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameCircleCurveInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_823B0920A1E5575C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameCircleCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5BA71826636BA9C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameCircleCurveInfo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameCircleCurveInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameCircleCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_5BA71826636BA9C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameCircleCurveInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		::System::UInt32 Method_3_D978819B0A4871A0()
+		::System::UInt32 DAAANAKDIKM()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_D978819B0A4871A0_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_DAAANAKDIKM_OFFSET))(this);
 		}
 
-		::RPG::GameCore::LevelBaseCurvePointInfo* Method_3_8B071BD4E0283A69(::System::UInt32 a1)
+		::RPG::GameCore::LevelBaseCurvePointInfo* PBDAGAPHDPD(::System::UInt32 a1)
 		{
-			return ((::RPG::GameCore::LevelBaseCurvePointInfo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_8B071BD4E0283A69_OFFSET))(this, a1);
+			return ((::RPG::GameCore::LevelBaseCurvePointInfo*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_PBDAGAPHDPD_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::LittleGameBezierCurveInfo* Method_3_978C9496D0413FBC()
+		::RPG::GameCore::LittleGameBezierCurveInfo* CGLDFOMHJCK()
 		{
-			return ((::RPG::GameCore::LittleGameBezierCurveInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_978C9496D0413FBC_OFFSET))(this);
+			return ((::RPG::GameCore::LittleGameBezierCurveInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_CGLDFOMHJCK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_0E866F175D4ABE34(::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a1)
+		::System::Void CGLDFOMHJCK_1(::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_0E866F175D4ABE34_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_CGLDFOMHJCK_1_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_97A366DE298E597F(::System::Single& a1, ::System::Single a2, ::System::Single a3, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a4, ::RPG::GameCore::LevelCurvePointInfo*& a5)
+		::System::Void GEECOCHOCCL(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>* a4, ::RPG::GameCore::LevelCurvePointInfo* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single, ::System::Single, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*, ::RPG::GameCore::LevelCurvePointInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_METHOD_3_97A366DE298E597F_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelCurvePointInfo*>*, ::RPG::GameCore::LevelCurvePointInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMECIRCLECURVEINFO_GEECOCHOCCL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

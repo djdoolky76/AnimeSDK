@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/CurveTimeline.h"
-
 namespace System { class String; }
 
-#define SPINE_CURVETIMELINE2_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1E5D9650)
-#define SPINE_CURVETIMELINE2_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5D9660)
-#define SPINE_CURVETIMELINE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D9530)
+#define SPINE_CURVETIMELINE2_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA16D0)
+#define SPINE_CURVETIMELINE2_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1ECA17F0)
+#define SPINE_CURVETIMELINE2_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECA1800)
 
 namespace Spine
 {
-	inline static constexpr unsigned int CurveTimeline2_TypeDefinitionIndex = 38305;
-
 	class CurveTimeline2 : public ::Spine::CurveTimeline
 	{
 	public:
-		// static const ::System::Int32 ENTRIES = 0x3; // 0x0
-		// static const ::System::Int32 VALUE1 = 0x1; // 0x0
-		// static const ::System::Int32 VALUE2 = 0x2; // 0x0
-
+		// static const ::System::Object ENTRIES; // 0x0
+		// static const ::System::Object VALUE1; // 0x0
+		// static const ::System::Object VALUE2; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_CURVETIMELINE2__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_CURVETIMELINE2_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_FrameEntries()
@@ -33,5 +29,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_CURVETIMELINE2_SETFRAME_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

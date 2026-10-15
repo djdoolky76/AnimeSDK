@@ -1,51 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AssistWayPointCondition.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AssistWayPointPropEraFlipShowCondition; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_36F2B33413CF97C8_OFFSET UNITYSDK_OFFSET(0x1CE24C10)
-#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_4B5AEDA150124F72_OFFSET UNITYSDK_OFFSET(0x1CE28AC0)
-#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_8E2251DA07BECCFE_OFFSET UNITYSDK_OFFSET(0x1CE25F80)
-#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_C1C0B574A95D2C90_OFFSET UNITYSDK_OFFSET(0x1CE28AF0)
-#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE24C00)
+#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FACE0)
+#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D3FEE60)
+#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3FC090)
+#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3FACF0)
+#define RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3FEE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointPropEraFlipShowCondition_TypeDefinitionIndex = 18776;
-
 	class AssistWayPointPropEraFlipShowCondition : public ::RPG::GameCore::AssistWayPointCondition
 	{
 	public:
 		::System::Boolean TargetPropEraFlipShow; // 0x18
 		::System::Boolean UseLogicProp; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::UInt32 LogicWayPointGroupID; // 0x1C
 		::System::UInt32 LogicWayPointEntityID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B5AEDA150124F72(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_4B5AEDA150124F72_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_36F2B33413CF97C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_36F2B33413CF97C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8E2251DA07BECCFE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_8E2251DA07BECCFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C1C0B574A95D2C90(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_METHOD_3_C1C0B574A95D2C90_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AssistWayPointPropEraFlipShowCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ASSISTWAYPOINTPROPERAFLIPSHOWCONDITION_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

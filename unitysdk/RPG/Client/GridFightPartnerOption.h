@@ -1,35 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::Client { class GridFightTraitConfig; }
 namespace RPG::Client { class GridFightTraitSubTraitConfig; }
 namespace RPG::GameCore { class GridFightRoleChooseRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_GET_CHOOSEDESC_OFFSET UNITYSDK_OFFSET(0xD22CDB0)
-#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_GET_SHOWTRAITS_OFFSET UNITYSDK_OFFSET(0xD22CE20)
-#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_GET_SUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD22CD90)
-#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_SET_SUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD22CDA0)
-#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION__CTOR_OFFSET UNITYSDK_OFFSET(0xD22D040)
-#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION__GETSHOWTRAITCONFIGS_OFFSET UNITYSDK_OFFSET(0xD22CE70)
+#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD1CE860)
+#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_GET_CHOOSEDESC_OFFSET UNITYSDK_OFFSET(0xD1CE5D0)
+#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_GET_SHOWTRAITS_OFFSET UNITYSDK_OFFSET(0xD1CE640)
+#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_GET_SUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD1CE5B0)
+#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION_SET_SUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD1CE5C0)
+#define RPG_CLIENT_GRIDFIGHTPARTNEROPTION__GETSHOWTRAITCONFIGS_OFFSET UNITYSDK_OFFSET(0xD1CE690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPartnerOption_TypeDefinitionIndex = 65463;
-
 	class GridFightPartnerOption : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GridFightRoleChooseRow* _ConfigRow; // 0x10
 		::RPG::Client::GridFightTraitSubTraitConfig* _SubTraitConfig_k__BackingField; // 0x18
 		::RPG::Client::GridFightRole* OptionRole; // 0x20
-
 		::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNEROPTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNEROPTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightTraitSubTraitConfig* get_SubTraitConfig()
@@ -56,5 +52,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNEROPTION__GETSHOWTRAITCONFIGS_OFFSET))(this);
 		}
+
 	};
 }

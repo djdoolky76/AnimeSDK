@@ -3,8 +3,6 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EditLevel_TypeDefinitionIndex = 43197;
-
 	enum class EditLevel : ::System::Int32
 	{
 		Top = 0,

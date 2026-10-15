@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByTurnOwnerActionPhaseEnd; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_31DCD7724FE9141B_OFFSET UNITYSDK_OFFSET(0x1CF684C0)
-#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_98BB681ACB64367E_OFFSET UNITYSDK_OFFSET(0x1CF68640)
-#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_B97FC72BF527FB78_OFFSET UNITYSDK_OFFSET(0x1CF68500)
-#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_FD0646149EEB0A93_OFFSET UNITYSDK_OFFSET(0x1CF68670)
-#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF684F0)
+#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D541EB0)
+#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D542030)
+#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D542000)
+#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D541EC0)
+#define RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D541E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTurnOwnerActionPhaseEnd_TypeDefinitionIndex = 23216;
-
 	class ByTurnOwnerActionPhaseEnd : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_31DCD7724FE9141B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_31DCD7724FE9141B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B97FC72BF527FB78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_B97FC72BF527FB78_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_98BB681ACB64367E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_98BB681ACB64367E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FD0646149EEB0A93(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_METHOD_4_FD0646149EEB0A93_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTurnOwnerActionPhaseEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTURNOWNERACTIONPHASEEND_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

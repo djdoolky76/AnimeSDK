@@ -1,53 +1,51 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E791850)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7918F0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_FROM_OFFSET UNITYSDK_OFFSET(0x1E791770)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_TO_OFFSET UNITYSDK_OFFSET(0x1E791790)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_FROM_OFFSET UNITYSDK_OFFSET(0x1E791780)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_TO_OFFSET UNITYSDK_OFFSET(0x1E7917A0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7917B0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E791930)
-#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E791300)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE59FF0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE5A540)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE5A5E0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_FROM_OFFSET UNITYSDK_OFFSET(0x1EE5A460)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_TO_OFFSET UNITYSDK_OFFSET(0x1EE5A480)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_FROM_OFFSET UNITYSDK_OFFSET(0x1EE5A470)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_TO_OFFSET UNITYSDK_OFFSET(0x1EE5A490)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE5A4A0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE5A620)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int RangeItemHeaderValue_TypeDefinitionIndex = 3823;
-
 	class RangeItemHeaderValue : public ::System::Object
 	{
 	public:
-		::System::Nullable_1<::System::Int64> _From_k__BackingField; // 0x10
-		::System::Nullable_1<::System::Int64> _To_k__BackingField; // 0x20
-
-		::System::Void _ctor(::System::Nullable_1<::System::Int64> a1, ::System::Nullable_1<::System::Int64> a2)
+		::System::Nullable* _To_k__BackingField; // 0x10
+		::System::Byte _padding0[0x8];
+		::System::Nullable* _From_k__BackingField; // 0x20
+		::System::Void _ctor(::System::Nullable* a1, ::System::Nullable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int64>, ::System::Nullable_1<::System::Int64>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Nullable_1<::System::Int64> get_From()
+		::System::Nullable* get_From()
 		{
-			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_FROM_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_FROM_OFFSET))(this);
 		}
 
-		::System::Void set_From(::System::Nullable_1<::System::Int64> a1)
+		::System::Void set_From(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int64>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_FROM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_FROM_OFFSET))(this, a1);
 		}
 
-		::System::Nullable_1<::System::Int64> get_To()
+		::System::Nullable* get_To()
 		{
-			return ((::System::Nullable_1<::System::Int64>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_TO_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_GET_TO_OFFSET))(this);
 		}
 
-		::System::Void set_To(::System::Nullable_1<::System::Int64> a1)
+		::System::Void set_To(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Int64>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_TO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_SET_TO_OFFSET))(this, a1);
 		}
 
 		::System::Object* System_ICloneable_Clone()
@@ -69,5 +67,6 @@ namespace System::Net::Http::Headers
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGEITEMHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

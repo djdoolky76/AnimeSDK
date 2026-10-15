@@ -3,8 +3,6 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventManifestOptions_TypeDefinitionIndex = 1705;
-
 	enum class EventManifestOptions : ::System::Int32
 	{
 		None = 0,

@@ -1,54 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaPoolConfig; }
+namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaPoolData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC5BA990)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GETCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xC5BCA60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xC5BCF80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_CURCOUNT_OFFSET UNITYSDK_OFFSET(0xC5BCEF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC5BCEA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_NEXTUPGRADECOUNT_OFFSET UNITYSDK_OFFSET(0xC5BCF10)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_PREUPGRADECOUNT_OFFSET UNITYSDK_OFFSET(0xC5BCF30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_INIT_OFFSET UNITYSDK_OFFSET(0xC5BCBD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xC5BCF90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_SET_CURCOUNT_OFFSET UNITYSDK_OFFSET(0xC5BCF00)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_SET_NEXTUPGRADECOUNT_OFFSET UNITYSDK_OFFSET(0xC5BCF20)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_UPDATE_OFFSET UNITYSDK_OFFSET(0xC5BAF60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5BCFA0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5BC9B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4D4CC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC4D26B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4D46D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GETCONFIGLIST_OFFSET UNITYSDK_OFFSET(0xC4D4780)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xC4D4CA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_CURCOUNT_OFFSET UNITYSDK_OFFSET(0xC4D4C10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xC4D4BC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_NEXTUPGRADECOUNT_OFFSET UNITYSDK_OFFSET(0xC4D4C30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_GET_PREUPGRADECOUNT_OFFSET UNITYSDK_OFFSET(0xC4D4C50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_INIT_OFFSET UNITYSDK_OFFSET(0xC4D48F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xC4D4CB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_SET_CURCOUNT_OFFSET UNITYSDK_OFFSET(0xC4D4C20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_SET_NEXTUPGRADECOUNT_OFFSET UNITYSDK_OFFSET(0xC4D4C40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_UPDATE_OFFSET UNITYSDK_OFFSET(0xC4D2C80)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGachaPoolData_TypeDefinitionIndex = 74954;
-
 	class IdleLiveGachaPoolData : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig*>** StaticGet__GachaConfigDic()
-		{
-			return (::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaPoolData_TypeDefinitionIndex)->GetStaticField(0x5CD10);
-		}
+		::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig* _Config_k__BackingField; // 0x10
+		::System::UInt32 _NextUpgradeCount_k__BackingField; // 0x18
+		::System::UInt32 _CurCount_k__BackingField; // 0x1C
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>** StaticGet__GachaNextUpgradeCountDic()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveGachaPoolData_TypeDefinitionIndex)->GetStaticField(0x5CD18);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "IdleLiveGachaPoolData")->GetStaticField(0x25840);
 		}
-		::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig* _Config_k__BackingField; // 0x10
-		::System::UInt32 _CurCount_k__BackingField; // 0x18
-		::System::UInt32 _NextUpgradeCount_k__BackingField; // 0x1C
+
+		static ::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig*>** StaticGet__GachaConfigDic()
+		{
+			return (::System::Collections::Generic::SortedDictionary_2<::System::UInt32, ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "IdleLiveGachaPoolData")->GetStaticField(0x25848);
+		}
 
 		::System::Void _ctor(::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolData* Create(::System::UInt32 a1)
@@ -110,5 +109,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveGachaPoolConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHAPOOLDATA_SET_CONFIG_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,45 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/InvalidOperationException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_OBJECTDISPOSEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BD821C0)
-#define SYSTEM_OBJECTDISPOSEDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1BD81F30)
-#define SYSTEM_OBJECTDISPOSEDEXCEPTION_GET_OBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1BD82100)
-#define SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD81EB0)
-#define SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD81E40)
-#define SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1BD82130)
-#define SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD81DC0)
+#define SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C28DB60)
+#define SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C28DAF0)
+#define SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C28DDE0)
+#define SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C28DA70)
+#define SYSTEM_OBJECTDISPOSEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C28DE70)
+#define SYSTEM_OBJECTDISPOSEDEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C28DBE0)
+#define SYSTEM_OBJECTDISPOSEDEXCEPTION_GET_OBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1C28DDB0)
 
 namespace System
 {
-	inline static constexpr unsigned int ObjectDisposedException_TypeDefinitionIndex = 309;
-
 	class ObjectDisposedException : public ::System::InvalidOperationException
 	{
 	public:
 		::System::String* objectName; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()
@@ -57,5 +53,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_OBJECTDISPOSEDEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

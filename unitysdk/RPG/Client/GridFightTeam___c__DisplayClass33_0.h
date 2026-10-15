@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightGridMember; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD333AB0)
-#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS33_0__GETMEMBERSBYTRAITID_B__1_OFFSET UNITYSDK_OFFSET(0xD3416E0)
+#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD28D010)
+#define RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS33_0__GETMEMBERSBYTRAITID_B__1_OFFSET UNITYSDK_OFFSET(0xD29AEA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam___c__DisplayClass33_0_TypeDefinitionIndex = 65231;
-
 	class GridFightTeam___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 traitID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS33_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS33_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetMembersByTraitID_b__1(::RPG::Client::GridFightGridMember* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAM___C__DISPLAYCLASS33_0__GETMEMBERSBYTRAITID_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

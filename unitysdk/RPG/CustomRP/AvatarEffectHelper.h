@@ -1,48 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/CustomRP/AvatarEffectHelper_DrawCmd.h"
 #include "unitysdk/RPG/CustomRP/AvatarEffectInfo_EExecutionOrder.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::CustomRP { class AvatarEffectInfo; }
 namespace RPG::CustomRP { class AvatarEffectInfo_EffectMaterialGroup; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6679A0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER_HASEFFECT_OFFSET UNITYSDK_OFFSET(0x1C667930)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C668D70)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6678A0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C667BF0)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET UNITYSDK_OFFSET(0x1C668950)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET UNITYSDK_OFFSET(0x1C668A10)
-#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET UNITYSDK_OFFSET(0x1C668710)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBEF090)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBEDBC0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CBEDCC0)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER_HASEFFECT_OFFSET UNITYSDK_OFFSET(0x1CBEDC50)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CBEDF10)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__ISRENDERINVALID_OFFSET UNITYSDK_OFFSET(0x1CBEEC70)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDEREFFECT_OFFSET UNITYSDK_OFFSET(0x1CBEED30)
+#define RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET UNITYSDK_OFFSET(0x1CBEEA30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectHelper_TypeDefinitionIndex = 36904;
-
 	class AvatarEffectHelper : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_PassTagIDs()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectHelper_TypeDefinitionIndex)->GetStaticField(0x2F750);
-		}
-		::System::Collections::Generic::List_1<::RPG::CustomRP::AvatarEffectHelper_DrawCmd>* _DrawByLightModeCmds; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* _DrawByLightModeCmds; // 0x10
 		::System::UInt32 _RenderLayerMask; // 0x18
 		::System::Boolean _AfterTransparent; // 0x1C
+		static ::Il2CppArray<::System::Int32>** StaticGet_PassTagIDs()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.CustomRP", "AvatarEffectHelper")->GetStaticField(0x2C670);
+		}
 
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean HasEffect()
@@ -74,5 +71,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Renderer*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::UInt32, ::System::Boolean, ::RPG::CustomRP::AvatarEffectInfo_EffectMaterialGroup*, ::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTHELPER__RENDERMATGROUP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
+
 	};
 }

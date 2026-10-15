@@ -2,22 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CHOOSEDELIVERYGROUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0xCC1F030)
-#define RPG_CLIENT_CHOOSEDELIVERYGROUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xCC1F040)
-#define RPG_CLIENT_CHOOSEDELIVERYGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xCC1F050)
+#define RPG_CLIENT_CHOOSEDELIVERYGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6E0A0)
+#define RPG_CLIENT_CHOOSEDELIVERYGROUP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0xCB6E080)
+#define RPG_CLIENT_CHOOSEDELIVERYGROUP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xCB6E090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryGroup_TypeDefinitionIndex = 63582;
-
 	class ChooseDeliveryGroup : public ::System::Object
 	{
 	public:
 		::System::UInt32 _GroupID_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYGROUP_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_GroupID()
@@ -29,5 +26,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYGROUP_SET_GROUPID_OFFSET))(this, a1);
 		}
+
 	};
 }

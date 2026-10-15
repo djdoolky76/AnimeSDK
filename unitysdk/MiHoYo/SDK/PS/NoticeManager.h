@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
+namespace MiHoYo::SDK::PS { class NoticeManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PS_NOTICEMANAGER_CHECKPOPNOTICE_OFFSET UNITYSDK_OFFSET(0x1BA51820)
-#define MIHOYO_SDK_PS_NOTICEMANAGER_GETNOTICEURL_OFFSET UNITYSDK_OFFSET(0x1BA55760)
-#define MIHOYO_SDK_PS_NOTICEMANAGER_GETURLSTRING_OFFSET UNITYSDK_OFFSET(0x1BA54A60)
-#define MIHOYO_SDK_PS_NOTICEMANAGER_ONGETCHECKPOPNOTICE_OFFSET UNITYSDK_OFFSET(0x1BA56330)
-#define MIHOYO_SDK_PS_NOTICEMANAGER_SHOWNOTICE_OFFSET UNITYSDK_OFFSET(0x1BA50F50)
-#define MIHOYO_SDK_PS_NOTICEMANAGER_SHOWPOPNOTICE_OFFSET UNITYSDK_OFFSET(0x1BA51290)
-#define MIHOYO_SDK_PS_NOTICEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA56B30)
-#define MIHOYO_SDK_PS_NOTICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA56B20)
-#define MIHOYO_SDK_PS_NOTICEMANAGER__SHOWNOTICE_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BA56B80)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF60630)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_CHECKPOPNOTICE_OFFSET UNITYSDK_OFFSET(0x1BF5B3B0)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF60620)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_GETNOTICEURL_OFFSET UNITYSDK_OFFSET(0x1BF5F260)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_GETURLSTRING_OFFSET UNITYSDK_OFFSET(0x1BF5E560)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_ONGETCHECKPOPNOTICE_OFFSET UNITYSDK_OFFSET(0x1BF5FE30)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_SHOWNOTICE_OFFSET UNITYSDK_OFFSET(0x1BF5AAE0)
+#define MIHOYO_SDK_PS_NOTICEMANAGER_SHOWPOPNOTICE_OFFSET UNITYSDK_OFFSET(0x1BF5AE20)
+#define MIHOYO_SDK_PS_NOTICEMANAGER__SHOWNOTICE_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BF60680)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int NoticeManager_TypeDefinitionIndex = 8851;
-
 	class NoticeManager : public ::System::Object
 	{
 	public:
+		::System::Boolean isFirstCheck; // 0x10
 		static ::MiHoYo::SDK::PS::NoticeManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::NoticeManager**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_TypeDefinitionIndex)->GetStaticField(0x22060);
+			return (::MiHoYo::SDK::PS::NoticeManager**)UnitySDK::FromName("MiHoYo.SDK.PS", "NoticeManager")->GetStaticField(0x18360);
 		}
+
 		static ::System::Boolean* StaticGet_isShowPopNotice()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_TypeDefinitionIndex)->GetStaticField(0xAE10);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK.PS", "NoticeManager")->GetStaticField(0x5A00);
 		}
-		::System::Boolean isFirstCheck; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_NOTICEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_NOTICEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_NOTICEMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_NOTICEMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::String* ShowPopNotice()
@@ -77,5 +76,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_NOTICEMANAGER__SHOWNOTICE_B__4_0_OFFSET))(this);
 		}
+
 	};
 }

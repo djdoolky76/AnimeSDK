@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_REPORTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAB8330)
+#define MIHOYO_SDK_REPORTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC2E50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportInfo_TypeDefinitionIndex = 7834;
-
 	class ReportInfo : public ::System::Object
 	{
 	public:
 		::System::Int32 applicationId; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* applicationName; // 0x18
 		::System::String* ip; // 0x20
 		::System::String* client_version; // 0x28
@@ -24,10 +22,10 @@ namespace MiHoYo::SDK
 		::System::String* tag; // 0x50
 		::System::String* uapc; // 0x58
 		::System::String* platform_type; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

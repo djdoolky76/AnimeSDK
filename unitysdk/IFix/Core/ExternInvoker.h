@@ -1,43 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/IFix/Core/Call.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
+#include "unitysdk/IFix/Core/Call.h"
 namespace IFix::Core { class VirtualMachine; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define IFIX_CORE_EXTERNINVOKER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4BA830)
-#define IFIX_CORE_EXTERNINVOKER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4BA8D0)
-#define IFIX_CORE_EXTERNINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4BA810)
-#define IFIX_CORE_EXTERNINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BA720)
+#define IFIX_CORE_EXTERNINVOKER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9BC950)
+#define IFIX_CORE_EXTERNINVOKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BC840)
+#define IFIX_CORE_EXTERNINVOKER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9BC9F0)
+#define IFIX_CORE_EXTERNINVOKER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9BC930)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ExternInvoker_TypeDefinitionIndex = 10071;
-
 	class ExternInvoker : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::IFix::Core::VirtualMachine* a1, ::IFix::Core::Call& a2, ::System::Boolean a3)
+		::System::Void Invoke(::IFix::Core::VirtualMachine* a1, ::IFix::Core::Call a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::IFix::Core::VirtualMachine*, ::IFix::Core::Call&, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER_INVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::IFix::Core::VirtualMachine*, ::IFix::Core::Call, ::System::Boolean))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::IFix::Core::VirtualMachine* a1, ::IFix::Core::Call& a2, ::System::Boolean a3, ::System::AsyncCallback* a4, ::System::Object* a5)
+		::System::IAsyncResult* BeginInvoke(::IFix::Core::VirtualMachine* a1, ::IFix::Core::Call a2, ::System::Boolean a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::IFix::Core::VirtualMachine*, ::IFix::Core::Call&, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::IFix::Core::VirtualMachine*, ::IFix::Core::Call, ::System::Boolean, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void EndInvoke(::IFix::Core::Call& a1, ::System::IAsyncResult* a2)
+		::System::Void EndInvoke(::IFix::Core::Call a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::IFix::Core::Call&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER_ENDINVOKE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::IFix::Core::Call, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + IFIX_CORE_EXTERNINVOKER_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

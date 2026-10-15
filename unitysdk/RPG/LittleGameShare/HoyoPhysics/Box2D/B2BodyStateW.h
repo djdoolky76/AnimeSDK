@@ -3,12 +3,9 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2FloatW.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2RotW.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2W.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyStateW_TypeDefinitionIndex = 35912;
-
 	struct alignas(4) B2BodyStateW
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2W v; // 0x10

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleConnectionPointType_TypeDefinitionIndex = 18746;
-
 	enum class ChronicleConnectionPointType : ::System::Int32
 	{
 		Right = 0,

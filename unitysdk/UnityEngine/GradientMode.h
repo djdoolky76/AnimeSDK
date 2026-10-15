@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GradientMode_TypeDefinitionIndex = 4221;
-
 	enum class GradientMode : ::System::Int32
 	{
 		Blend = 0,

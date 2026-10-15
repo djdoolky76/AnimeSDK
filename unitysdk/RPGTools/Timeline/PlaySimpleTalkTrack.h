@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C20E0)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8C2480)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_METHOD_5_F9F9B43450663CAC_OFFSET UNITYSDK_OFFSET(0xE8C2B30)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE8C3150)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C3190)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9178A0)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE917C40)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE918950)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_FDEIKACGJPF_OFFSET UNITYSDK_OFFSET(0xE9182F0)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE918910)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaySimpleTalkTrack_TypeDefinitionIndex = 48689;
-
 	class PlaySimpleTalkTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Boolean AutoEnd; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -37,14 +33,15 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>* Method_5_F9F9B43450663CAC()
+		::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>* FDEIKACGJPF()
 		{
-			return ((::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_METHOD_5_F9F9B43450663CAC_OFFSET))(this);
+			return ((::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_FDEIKACGJPF_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKTRACK_ONENABLE_OFFSET))(this);
 		}
+
 	};
 }

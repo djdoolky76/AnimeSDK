@@ -2,33 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/CFObject.h"
 
-#define MONO_NET_CFARRAY_CFARRAYGETCOUNT_OFFSET UNITYSDK_OFFSET(0x1E8F22C0)
-#define MONO_NET_CFARRAY_CFARRAYGETVALUEATINDEX_OFFSET UNITYSDK_OFFSET(0x1E8F2420)
-#define MONO_NET_CFARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1E8F2340)
-#define MONO_NET_CFARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E8F24B0)
-#define MONO_NET_CFARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F1ED0)
-#define MONO_NET_CFARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F1DB0)
+#define MONO_NET_CFARRAY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFBAF50)
+#define MONO_NET_CFARRAY_CFARRAYGETCOUNT_OFFSET UNITYSDK_OFFSET(0x1EFBB340)
+#define MONO_NET_CFARRAY_CFARRAYGETVALUEATINDEX_OFFSET UNITYSDK_OFFSET(0x1EFBB4A0)
+#define MONO_NET_CFARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBAE30)
+#define MONO_NET_CFARRAY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1EFBB3C0)
+#define MONO_NET_CFARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EFBB530)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFArray_TypeDefinitionIndex = 2406;
-
 	class CFArray : public ::Mono::Net::CFObject
 	{
 	public:
 		static ::System::IntPtr* StaticGet_kCFTypeArrayCallbacks()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(CFArray_TypeDefinitionIndex)->GetStaticField(0xCC40);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFArray")->GetStaticField(0xB7F0);
 		}
 
 		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFARRAY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_CFARRAY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_NET_CFARRAY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_NET_CFARRAY_CCTOR_OFFSET))();
 		}
 
 		static ::System::IntPtr CFArrayGetCount(::System::IntPtr a1)
@@ -50,5 +48,6 @@ namespace Mono::Net
 		{
 			return ((::System::IntPtr(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_CFARRAY_GET_ITEM_OFFSET))(this, a1);
 		}
+
 	};
 }

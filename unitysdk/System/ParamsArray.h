@@ -1,64 +1,62 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
-#define SYSTEM_PARAMSARRAY_GETATSLOW_OFFSET UNITYSDK_OFFSET(0x3B6E5D0)
-#define SYSTEM_PARAMSARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3B6E560)
-#define SYSTEM_PARAMSARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x3B6E540)
-#define SYSTEM_PARAMSARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD84FB0)
-#define SYSTEM_PARAMSARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B6E490)
-#define SYSTEM_PARAMSARRAY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3B6E4C0)
-#define SYSTEM_PARAMSARRAY__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3B6E4E0)
-#define SYSTEM_PARAMSARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x3B6E470)
+#define SYSTEM_PARAMSARRAY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C290C40)
+#define SYSTEM_PARAMSARRAY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C22DB0)
+#define SYSTEM_PARAMSARRAY_CTOR_2_OFFSET UNITYSDK_OFFSET(0x3C22DE0)
+#define SYSTEM_PARAMSARRAY_CTOR_3_OFFSET UNITYSDK_OFFSET(0x3C22E00)
+#define SYSTEM_PARAMSARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C22D90)
+#define SYSTEM_PARAMSARRAY_GETATSLOW_OFFSET UNITYSDK_OFFSET(0x3C22EF0)
+#define SYSTEM_PARAMSARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C22E80)
+#define SYSTEM_PARAMSARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x3C22E60)
 
 namespace System
 {
-	inline static constexpr unsigned int ParamsArray_TypeDefinitionIndex = 315;
-
 	struct alignas(8) ParamsArray
 	{
-		static ::Il2CppArray<::System::Object*>** StaticGet_threeArgArray()
-		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0xEB70);
-		}
-		static ::Il2CppArray<::System::Object*>** StaticGet_oneArgArray()
-		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0xEB78);
-		}
-		static ::Il2CppArray<::System::Object*>** StaticGet_twoArgArray()
-		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0xEB80);
-		}
 		::System::Object* arg0; // 0x10
 		::System::Object* arg1; // 0x18
 		::System::Object* arg2; // 0x20
 		::Il2CppArray<::System::Object*>* args; // 0x28
+		static ::Il2CppArray<::System::Object*>** StaticGet_oneArgArray()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x12C00);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_twoArgArray()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x12C08);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_threeArgArray()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x12C10);
+		}
 
 		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::Object* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY__CTOR_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY_CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_3(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY__CTOR_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY_CTOR_3_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_Length()
@@ -75,5 +73,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARAMSARRAY_GETATSLOW_OFFSET))(this, a1);
 		}
+
 	};
 }

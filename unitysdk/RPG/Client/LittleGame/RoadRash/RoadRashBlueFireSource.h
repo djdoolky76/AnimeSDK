@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int RoadRashBlueFireSource_TypeDefinitionIndex = 41293;
-
 	enum class RoadRashBlueFireSource : ::System::Int32
 	{
 		None = 0,

@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int FormatUsage_TypeDefinitionIndex = 4935;
-
 	enum class FormatUsage : ::System::Int32
 	{
 		Sample = 0,

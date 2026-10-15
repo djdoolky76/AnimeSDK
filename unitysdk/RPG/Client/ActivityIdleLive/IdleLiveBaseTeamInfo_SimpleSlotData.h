@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo_SimpleSlotData_TypeDefinitionIndex = 74793;
-
 	struct alignas(4) IdleLiveBaseTeamInfo_SimpleSlotData
 	{
 		::System::UInt32 SlotID; // 0x10

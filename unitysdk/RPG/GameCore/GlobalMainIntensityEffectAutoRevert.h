@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GlobalMainIntensityEffectAutoRevert; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_METHOD_3_7509843B9E2FC3CA_OFFSET UNITYSDK_OFFSET(0x1D144B90)
-#define RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_METHOD_3_F5823287AD12521F_OFFSET UNITYSDK_OFFSET(0x1D144BE0)
-#define RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D144BD0)
+#define RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71E870)
+#define RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D71E880)
+#define RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71E830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalMainIntensityEffectAutoRevert_TypeDefinitionIndex = 22254;
-
 	class GlobalMainIntensityEffectAutoRevert : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -20,20 +18,20 @@ namespace RPG::GameCore
 		::System::Single Duration; // 0x20
 		::System::Single TargetIntensity; // 0x24
 		::System::Boolean ByEntity; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7509843B9E2FC3CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_METHOD_3_7509843B9E2FC3CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F5823287AD12521F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_METHOD_3_F5823287AD12521F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GlobalMainIntensityEffectAutoRevert*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMAININTENSITYEFFECTAUTOREVERT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

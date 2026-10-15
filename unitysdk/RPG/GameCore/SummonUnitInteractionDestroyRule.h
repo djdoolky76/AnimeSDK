@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PropType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SummonUnitInteractionDestroyRule; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_METHOD_2_1C57303BF95FDC05_OFFSET UNITYSDK_OFFSET(0x1D587AB0)
-#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D587CC0)
+#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3E970)
+#define RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB3E760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitInteractionDestroyRule_TypeDefinitionIndex = 17394;
-
 	class SummonUnitInteractionDestroyRule : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -19,15 +17,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* IDList; // 0x18
 		::System::Boolean Destroy; // 0x20
 		::System::Boolean Immediately; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1C57303BF95FDC05(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonUnitInteractionDestroyRule*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SummonUnitInteractionDestroyRule* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonUnitInteractionDestroyRule*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_METHOD_2_1C57303BF95FDC05_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SummonUnitInteractionDestroyRule*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONUNITINTERACTIONDESTROYRULE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

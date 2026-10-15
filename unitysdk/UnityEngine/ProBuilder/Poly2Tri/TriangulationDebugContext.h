@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationContext; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int TriangulationDebugContext_TypeDefinitionIndex = 37456;
-
 	class TriangulationDebugContext : public ::System::Object
 	{
 	public:

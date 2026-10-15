@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD3EC660)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xD3EC590)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD3ECD40)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD3ED050)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD3ED0B0)
-#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xD3ED100)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xD33DE20)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD33D490)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xD33D3E0)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD33DA90)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD33DD70)
+#define RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD33DDD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ImageColorGradingScanline_TypeDefinitionIndex = 71012;
-
 	class ImageColorGradingScanline : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
@@ -39,6 +36,7 @@ namespace RPG::Client
 		::System::Int32 BPNJEBGHBEE; // 0x48
 		::System::Int32 CJENCHINABE; // 0x4C
 		::System::Int32 JKIDIJOJBKC; // 0x50
+		::System::Byte _padding0[0x4];
 		::UnityEngine::UI::Image* JGPEHEDMCMJ; // 0x58
 		::UnityEngine::Material* FAALBBDOFIL; // 0x60
 		::UnityEngine::Material* KLAEOKPPDHD; // 0x68
@@ -47,6 +45,7 @@ namespace RPG::Client
 		::System::Single Brightness; // 0x7C
 		::System::Single Contrast; // 0x80
 		::UnityEngine::Color TintGrading; // 0x84
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Texture2D* ScanlineTex; // 0x98
 		::UnityEngine::Color ScanlineTint; // 0xA0
 		::UnityEngine::Vector4 ScanlineTexST; // 0xB0
@@ -57,11 +56,11 @@ namespace RPG::Client
 		::System::Int32 ScanlineClipType; // 0xE0
 		::System::Single ScanlineClipAlpha; // 0xE4
 		::System::Single ScanlineRemainAlpha; // 0xE8
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Material* defaultMaterial; // 0xF0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGECOLORGRADINGSCANLINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::UI::Image* get_image()
@@ -88,5 +87,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGECOLORGRADINGSCANLINE_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

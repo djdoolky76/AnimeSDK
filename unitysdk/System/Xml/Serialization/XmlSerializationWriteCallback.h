@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E862330)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E862360)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E862320)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E862230)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF2AF90)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF2AE90)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF2AFC0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF2AF80)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationWriteCallback_TypeDefinitionIndex = 2035;
-
 	class XmlSerializationWriteCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +34,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONWRITECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 class AkCallbackManager_BGMCallback;
+namespace System { class Object; }
 
-#define AKCALLBACKMANAGER_BGMCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB76F0)
+#define AKCALLBACKMANAGER_BGMCALLBACKPACKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57F2A0)
 
-inline static constexpr unsigned int AkCallbackManager_BGMCallbackPackage_TypeDefinitionIndex = 43637;
-
-class AkCallbackManager_BGMCallbackPackage : public ::System::Object
-{
-public:
-	::AkCallbackManager_BGMCallback* m_Callback; // 0x10
-	::System::Object* m_Cookie; // 0x18
-
-	::System::Void _ctor()
+	class AkCallbackManager_BGMCallbackPackage : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCALLBACKMANAGER_BGMCALLBACKPACKAGE__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Object* m_Cookie; // 0x10
+		::AkCallbackManager_BGMCallback* m_Callback; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCALLBACKMANAGER_BGMCALLBACKPACKAGE_CTOR_OFFSET))(this);
+		}
+
+	};

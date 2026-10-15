@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityDataType_TypeDefinitionIndex = 15899;
-
 	enum class EntityDataType : ::System::Int32
 	{
 		MaxHP = 0,

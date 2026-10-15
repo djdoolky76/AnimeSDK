@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Cinemachine { class CinemachineFreeLook; }
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace System { class AsyncCallback; }
@@ -9,21 +8,19 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16465300)
-#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16465340)
-#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16463BA0)
-#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x16465210)
+#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1668C000)
+#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1668BF10)
+#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1668C040)
+#define CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1668A8D0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFreeLook_CreateRigDelegate_TypeDefinitionIndex = 38443;
-
 	class CinemachineFreeLook_CreateRigDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Cinemachine::CinemachineVirtualCamera* Invoke(::Cinemachine::CinemachineFreeLook* a1, ::System::String* a2, ::Cinemachine::CinemachineVirtualCamera* a3)
@@ -40,5 +37,6 @@ namespace Cinemachine
 		{
 			return ((::Cinemachine::CinemachineVirtualCamera*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFREELOOK_CREATERIGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

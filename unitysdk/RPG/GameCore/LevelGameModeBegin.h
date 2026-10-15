@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class LevelGameModeBegin; }
 
-#define RPG_GAMECORE_LEVELGAMEMODEBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE693AB0)
-#define RPG_GAMECORE_LEVELGAMEMODEBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE693A60)
-#define RPG_GAMECORE_LEVELGAMEMODEBEGIN_INIT_OFFSET UNITYSDK_OFFSET(0xE693A20)
-#define RPG_GAMECORE_LEVELGAMEMODEBEGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE693B00)
+#define RPG_GAMECORE_LEVELGAMEMODEBEGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EEEC0)
+#define RPG_GAMECORE_LEVELGAMEMODEBEGIN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EEE70)
+#define RPG_GAMECORE_LEVELGAMEMODEBEGIN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EEE20)
+#define RPG_GAMECORE_LEVELGAMEMODEBEGIN_INIT_OFFSET UNITYSDK_OFFSET(0xE6EEDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGameModeBegin_TypeDefinitionIndex = 56876;
-
-	class LevelGameModeBegin : public ::Class_1_BF7A075734D15E98
+	class LevelGameModeBegin : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODEBEGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODEBEGIN_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelGameModeBegin* Init()
@@ -34,5 +33,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGAMEMODEBEGIN_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

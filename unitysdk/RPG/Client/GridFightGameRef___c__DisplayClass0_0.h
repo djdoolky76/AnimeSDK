@@ -1,59 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_296A7AC90F028539;
-class Class_1_89740498BBACFF75;
-class Class_1_AC6C63F15E9794D3;
-class Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D;
+class ADHIHGCOHME;
+class GHHJNCOAIJF;
+class GHHJNCOAIJF_KKHGKLOBDFN;
+class IHGIENOHBMJ;
 namespace RPG::Client { class GridFightGameRef; }
 namespace RPG::Client { class GridFightGameRefData; }
 namespace RPG::Client { template <typename T> class GridFightGameRefHttpRspBody_1; }
-namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
-namespace System { template <typename T> class Action_1; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1B9880)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD1C4CD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD1C4D00)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD1C4DC0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__3_OFFSET UNITYSDK_OFFSET(0xD1C4E00)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15A2B0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD164E50)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD164E80)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD164F40)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__3_OFFSET UNITYSDK_OFFSET(0xD164F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass0_0_TypeDefinitionIndex = 64762;
-
 	class GridFightGameRef___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::Class_1_AC6C63F15E9794D3_Class_1_084C324841B5505D* sendParams; // 0x10
-		::RPG::Client::GridFightGameRef* __4__this; // 0x18
-		::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightGameRefData*>*>* callback; // 0x20
-		::Class_1_AC6C63F15E9794D3* req; // 0x28
-
+		::GHHJNCOAIJF* req; // 0x10
+		::System::Action* callback; // 0x18
+		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x20
+		::RPG::Client::GridFightGameRef* __4__this; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>* _SendGridFightGetFavourListGameRefReq_b__0()
+		::RPG::Client::Promises::IPromise* _SendGridFightGetFavourListGameRefReq_b__0()
 		{
-			return ((::RPG::Client::Promises::IPromise_1<::Class_1_296A7AC90F028539*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET))(this);
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__0_OFFSET))(this);
 		}
 
-		::RPG::Client::GridFightGameRefHttpRspBody_1<::Class_1_89740498BBACFF75*>* _SendGridFightGetFavourListGameRefReq_b__1(::Class_1_296A7AC90F028539* a1)
+		::RPG::Client::GridFightGameRefHttpRspBody_1<::ADHIHGCOHME*>* _SendGridFightGetFavourListGameRefReq_b__1(::IHGIENOHBMJ* a1)
 		{
-			return ((::RPG::Client::GridFightGameRefHttpRspBody_1<::Class_1_89740498BBACFF75*>*(*)(::PVOID, ::Class_1_296A7AC90F028539*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__1_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightGameRefHttpRspBody_1<::ADHIHGCOHME*>*(*)(::PVOID, ::IHGIENOHBMJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__1_OFFSET))(this, a1);
 		}
 
-		::System::Void _SendGridFightGetFavourListGameRefReq_b__2(::RPG::Client::GridFightGameRefHttpRspBody_1<::Class_1_89740498BBACFF75*>* a1)
+		::System::Void _SendGridFightGetFavourListGameRefReq_b__2(::RPG::Client::GridFightGameRefHttpRspBody_1<::ADHIHGCOHME*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameRefHttpRspBody_1<::Class_1_89740498BBACFF75*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightGameRefHttpRspBody_1<::ADHIHGCOHME*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__2_OFFSET))(this, a1);
 		}
 
 		::System::Void _SendGridFightGetFavourListGameRefReq_b__3()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS0_0__SENDGRIDFIGHTGETFAVOURLISTGAMEREFREQ_B__3_OFFSET))(this);
 		}
+
 	};
 }

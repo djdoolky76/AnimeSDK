@@ -1,43 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/StateParamTransition_Duration.h"
-
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_METHOD_2_0724EFB1A18E7075_OFFSET UNITYSDK_OFFSET(0xE0EE690)
-#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_METHOD_2_BF302FCDF545D0AF_OFFSET UNITYSDK_OFFSET(0xE0EE950)
-#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_METHOD_2_E968CB1D462997C6_OFFSET UNITYSDK_OFFSET(0xE0EE560)
-#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0xE0EEA20)
+#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0xE12F690)
+#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xE12F1D0)
+#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_LPPIHKNHFGF_OFFSET UNITYSDK_OFFSET(0xE12F5C0)
+#define RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE12F300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateParamTransition_Float_TypeDefinitionIndex = 68803;
-
 	class StateParamTransition_Float : public ::RPG::Client::StateParamTransition_Duration
 	{
 	public:
 		::System::Single value; // 0x20
 		::System::Single _time; // 0x24
 		::System::Single _startValue; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_E968CB1D462997C6(::UnityEngine::Animator* a1)
+		::System::Void KHGIKBFDLFB(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_METHOD_2_E968CB1D462997C6_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_KHGIKBFDLFB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_0724EFB1A18E7075(::UnityEngine::Animator* a1)
+		::System::Void PKADDEPKJFN(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_METHOD_2_0724EFB1A18E7075_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_PKADDEPKJFN_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_BF302FCDF545D0AF(::UnityEngine::Animator* a1)
+		::System::Void LPPIHKNHFGF(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_METHOD_2_BF302FCDF545D0AF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEPARAMTRANSITION_FLOAT_LPPIHKNHFGF_OFFSET))(this, a1);
 		}
+
 	};
 }

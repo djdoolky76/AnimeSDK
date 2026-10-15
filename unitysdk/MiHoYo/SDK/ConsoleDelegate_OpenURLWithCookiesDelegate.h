@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F1E0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F220)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B93C920)
-#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93F160)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3F590)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3F510)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3F5D0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3CCD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_OpenURLWithCookiesDelegate_TypeDefinitionIndex = 7609;
-
 	class ConsoleDelegate_OpenURLWithCookiesDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::System::Action* a2)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_OPENURLWITHCOOKIESDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

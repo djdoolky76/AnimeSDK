@@ -2,31 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HedgehogTeam/EasyTouch/QuickBase.h"
 #include "unitysdk/HedgehogTeam/EasyTouch/QuickTouch_ActionTriggering.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace HedgehogTeam::EasyTouch { class QuickTouch_OnTouch; }
 namespace HedgehogTeam::EasyTouch { class QuickTouch_OnTouchNotOverMe; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_DOACTION_OFFSET UNITYSDK_OFFSET(0x16530200)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ISOVERME_OFFSET UNITYSDK_OFFSET(0x16530080)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_UPDATE_OFFSET UNITYSDK_OFFSET(0x1652FC60)
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1652FBD0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_CTOR_OFFSET UNITYSDK_OFFSET(0x167569B0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_DOACTION_OFFSET UNITYSDK_OFFSET(0x16756FE0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ISOVERME_OFFSET UNITYSDK_OFFSET(0x16756E60)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_UPDATE_OFFSET UNITYSDK_OFFSET(0x16756A40)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTouch_TypeDefinitionIndex = 38979;
-
 	class QuickTouch : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
 	public:
 		::HedgehogTeam::EasyTouch::QuickTouch_OnTouch* onTouch; // 0x70
 		::HedgehogTeam::EasyTouch::QuickTouch_OnTouchNotOverMe* onTouchNotOverMe; // 0x78
 		::HedgehogTeam::EasyTouch::QuickTouch_ActionTriggering actionTriggering; // 0x80
+		::System::Byte _padding0[0x4];
 		::HedgehogTeam::EasyTouch::Gesture* currentGesture; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -43,5 +40,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HedgehogTeam::EasyTouch::Gesture*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ISOVERME_OFFSET))(this, a1);
 		}
+
 	};
 }

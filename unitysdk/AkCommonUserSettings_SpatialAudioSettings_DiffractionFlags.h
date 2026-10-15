@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-
-inline static constexpr unsigned int AkCommonUserSettings_SpatialAudioSettings_DiffractionFlags_TypeDefinitionIndex = 43647;
-
-enum class AkCommonUserSettings_SpatialAudioSettings_DiffractionFlags : ::System::Int32
-{
-	UseBuiltInParam = 1,
-	UseObstruction = 2,
-	CalcEmitterVirtualPosition = 8,
-};
+	enum class AkCommonUserSettings_SpatialAudioSettings_DiffractionFlags : ::System::Int32
+	{
+		UseBuiltInParam = 1,
+		UseObstruction = 2,
+		CalcEmitterVirtualPosition = 8,
+	};

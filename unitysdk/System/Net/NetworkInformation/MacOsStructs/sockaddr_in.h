@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
-	inline static constexpr unsigned int sockaddr_in_TypeDefinitionIndex = 2972;
-
 	struct alignas(4) sockaddr_in
 	{
 		::System::Byte sin_len; // 0x10

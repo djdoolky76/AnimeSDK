@@ -1,39 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace SRDebugger { class OptionDefinition; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADDOPTION_OFFSET UNITYSDK_OFFSET(0x1E66E8A0)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONADDED_OFFSET UNITYSDK_OFFSET(0x1E66E9C0)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONREMOVED_OFFSET UNITYSDK_OFFSET(0x1E66EA80)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_GET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1E66E9B0)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1E66E7D0)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVEOPTION_OFFSET UNITYSDK_OFFSET(0x1E66E950)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONADDED_OFFSET UNITYSDK_OFFSET(0x1E66EA20)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONREMOVED_OFFSET UNITYSDK_OFFSET(0x1E66EAE0)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_SRDEBUGGER_IOPTIONCONTAINER_GETOPTIONS_OFFSET UNITYSDK_OFFSET(0x1E66E9A0)
-#define SRDEBUGGER_DYNAMICOPTIONCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66E7E0)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADDOPTION_OFFSET UNITYSDK_OFFSET(0x1ED36800)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONADDED_OFFSET UNITYSDK_OFFSET(0x1ED36920)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONREMOVED_OFFSET UNITYSDK_OFFSET(0x1ED369E0)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED36740)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_GET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1ED36910)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1ED36730)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVEOPTION_OFFSET UNITYSDK_OFFSET(0x1ED368B0)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONADDED_OFFSET UNITYSDK_OFFSET(0x1ED36980)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONREMOVED_OFFSET UNITYSDK_OFFSET(0x1ED36A40)
+#define SRDEBUGGER_DYNAMICOPTIONCONTAINER_SRDEBUGGER_IOPTIONCONTAINER_GETOPTIONS_OFFSET UNITYSDK_OFFSET(0x1ED36900)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int DynamicOptionContainer_TypeDefinitionIndex = 37257;
-
 	class DynamicOptionContainer : public ::System::Object
 	{
 	public:
-		::System::Action_1<::SRDebugger::OptionDefinition*>* OptionRemoved; // 0x10
-		::System::Collections::Generic::List_1<::SRDebugger::OptionDefinition*>* _options; // 0x18
-		::System::Action_1<::SRDebugger::OptionDefinition*>* OptionAdded; // 0x20
-		::System::Collections::Generic::IList_1<::SRDebugger::OptionDefinition*>* _optionsReadOnly; // 0x28
-
+		::System::Action* OptionRemoved; // 0x10
+		::System::Action* OptionAdded; // 0x18
+		::System::Collections::Generic::IList_1<::SRDebugger::OptionDefinition*>* _optionsReadOnly; // 0x20
+		::System::Collections::Generic::List_1<::SRDebugger::OptionDefinition*>* _options; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::IList_1<::SRDebugger::OptionDefinition*>* get_Options()
@@ -61,24 +57,25 @@ namespace SRDebugger
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_GET_ISDYNAMIC_OFFSET))(this);
 		}
 
-		::System::Void add_OptionAdded(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
+		::System::Void add_OptionAdded(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONADDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionAdded(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
+		::System::Void remove_OptionAdded(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONADDED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONADDED_OFFSET))(this, a1);
 		}
 
-		::System::Void add_OptionRemoved(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
+		::System::Void add_OptionRemoved(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_ADD_OPTIONREMOVED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_OptionRemoved(::System::Action_1<::SRDebugger::OptionDefinition*>* a1)
+		::System::Void remove_OptionRemoved(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::SRDebugger::OptionDefinition*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONREMOVED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_DYNAMICOPTIONCONTAINER_REMOVE_OPTIONREMOVED_OFFSET))(this, a1);
 		}
+
 	};
 }

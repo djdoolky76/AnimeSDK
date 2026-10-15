@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Interface/AlertDescription.h"
-#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 #include "unitysdk/Mono/Unity/UnityTls_unitytls_x509verify_result.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/Mono/Unity/UnityTls_unitytls_errorstate.h"
 namespace System { class String; }
 
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1E9053E0)
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1E905360)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1EFCE2A0)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1EFCE220)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2348;
-
 	class Debug : public ::System::Object
 	{
 	public:
@@ -26,5 +23,6 @@ namespace Mono::Unity
 		{
 			return ((::System::Void(*)(::Mono::Unity::UnityTls_unitytls_errorstate, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::System::String*, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

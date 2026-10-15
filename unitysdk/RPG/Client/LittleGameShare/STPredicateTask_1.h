@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_0597192E98B9E538.h"
-
-class Class_1_D93F8AE271D8A728;
+#include "unitysdk/DJPBAKPBELL.h"
+class PAPOPANPGIJ;
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int STPredicateTask_1_TypeDefinitionIndex = 36283;
-
-	template <typename TConfig>
-	class STPredicateTask_1 : public ::Class_1_0597192E98B9E538
+	template <typename T>
+	class STPredicateTask_1 : public ::DJPBAKPBELL
 	{
 	public:
-		::Class_1_D93F8AE271D8A728* _TaskContext; // 0x0
-		TConfig _ConfigRef; // 0x0
+		::PAPOPANPGIJ* _TaskContext; // 0x0
+		T _ConfigRef; // 0x0
 	};
 }

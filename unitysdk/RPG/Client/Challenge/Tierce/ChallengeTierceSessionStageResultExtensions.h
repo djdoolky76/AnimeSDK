@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultBase; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultOfBoss; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultOfMemory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResultOfStory; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTEXTENSIONS_OFBOSS_OFFSET UNITYSDK_OFFSET(0xC9FAD80)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTEXTENSIONS_OFMEMORY_OFFSET UNITYSDK_OFFSET(0xC9FAA60)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTEXTENSIONS_OFSTORY_OFFSET UNITYSDK_OFFSET(0xC9FACE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTEXTENSIONS_OFBOSS_OFFSET UNITYSDK_OFFSET(0xC949430)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTEXTENSIONS_OFMEMORY_OFFSET UNITYSDK_OFFSET(0xC949110)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTEXTENSIONS_OFSTORY_OFFSET UNITYSDK_OFFSET(0xC949390)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceSessionStageResultExtensions_TypeDefinitionIndex = 80159;
-
 	class ChallengeTierceSessionStageResultExtensions : public ::System::Object
 	{
 	public:
@@ -32,5 +29,6 @@ namespace RPG::Client::Challenge::Tierce
 		{
 			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultOfBoss*(*)(::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESESSIONSTAGERESULTEXTENSIONS_OFBOSS_OFFSET))(a1);
 		}
+
 	};
 }

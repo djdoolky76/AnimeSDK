@@ -3,8 +3,6 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SmoothMask_SoftRangeType_TypeDefinitionIndex = 6840;
-
 	enum class SmoothMask_SoftRangeType : ::System::Int32
 	{
 		Relative = 0,

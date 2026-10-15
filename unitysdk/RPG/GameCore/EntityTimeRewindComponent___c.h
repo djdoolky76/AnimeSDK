@@ -1,44 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace System { class Action; }
-namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { class Object; }
 
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE61FCF0)
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE61FD30)
-#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__MANUALSNAPLOOPREWINDRATIO_B__269_0_OFFSET UNITYSDK_OFFSET(0xE61FD40)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE6776B0)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE6776F0)
+#define RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__MANUALSNAPLOOPREWINDRATIO_B__269_0_OFFSET UNITYSDK_OFFSET(0xE677700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTimeRewindComponent___c_TypeDefinitionIndex = 57626;
-
 	class EntityTimeRewindComponent___c : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::EntityTimeRewindComponent___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::GameCore::EntityTimeRewindComponent___c**)Il2CppClass::FromTypeDefinitionIndex(EntityTimeRewindComponent___c_TypeDefinitionIndex)->GetStaticField(0x673C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x5E0B0);
 		}
-		static ::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>** StaticGet___9__269_0()
+
+		static ::System::Action** StaticGet___9__269_0()
 		{
-			return (::System::Action_2<::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(EntityTimeRewindComponent___c_TypeDefinitionIndex)->GetStaticField(0x673C8);
+			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x5E0B8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ManualSnapLoopRewindRatio_b__269_0(::RPG::GameCore::EntityTimeRewindComponent* a1, ::System::Action* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EntityTimeRewindComponent*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYTIMEREWINDCOMPONENT___C__MANUALSNAPLOOPREWINDRATIO_B__269_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,20 +3,18 @@
 #include "unitysdk/RPG/Client/ElectricChainV2/Sampler.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xCE34240)
-#define RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER_GET_VECTOR2VALUE_OFFSET UNITYSDK_OFFSET(0xCE34250)
-#define RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0xCE342C0)
+#define RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD84B90)
+#define RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xCD84B10)
+#define RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER_GET_VECTOR2VALUE_OFFSET UNITYSDK_OFFSET(0xCD84B20)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int UniformSampler_TypeDefinitionIndex = 73485;
-
 	class UniformSampler : public ::RPG::Client::ElectricChainV2::Sampler
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_value()
@@ -28,5 +26,6 @@ namespace RPG::Client::ElectricChainV2
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_UNIFORMSAMPLER_GET_VECTOR2VALUE_OFFSET))(this);
 		}
+
 	};
 }

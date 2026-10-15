@@ -2,36 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Expression.h"
 #include "unitysdk/System/Linq/Expressions/ExpressionType.h"
-
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ExpressionVisitor; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1E70D410)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E6D5E00)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E6D5CD0)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_INDEXER_OFFSET UNITYSDK_OFFSET(0x1E70D400)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E70D260)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1E70D3F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E70D270)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E70C1B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F5020)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1EDD6060)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDBD500)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1ED9DFB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1ED9DE80)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_INDEXER_OFFSET UNITYSDK_OFFSET(0x1EDD6050)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EDD5EB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_OBJECT_OFFSET UNITYSDK_OFFSET(0x1EDD6040)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EDD5EC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EDD4E00)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int IndexExpression_TypeDefinitionIndex = 3224;
-
 	class IndexExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Reflection::PropertyInfo* _Indexer_k__BackingField; // 0x10
+		::System::Linq::Expressions::Expression* _Object_k__BackingField; // 0x10
 		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments; // 0x18
-		::System::Linq::Expressions::Expression* _Object_k__BackingField; // 0x20
-
+		::System::Reflection::PropertyInfo* _Indexer_k__BackingField; // 0x20
 		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Reflection::PropertyInfo* a2, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Linq::Expressions::ExpressionType get_NodeType()
@@ -73,5 +70,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::Il2CppArray<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INDEXEXPRESSION_REWRITE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

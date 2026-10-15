@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16521E60)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16521E90)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1651E040)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16521D70)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16748C50)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x16748B60)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16748C80)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16744E00)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_Drag2FingersHandler_TypeDefinitionIndex = 39023;
-
 	class EasyTouch_Drag2FingersHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +35,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_DRAG2FINGERSHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

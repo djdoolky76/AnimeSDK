@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MLinkedListNode_1.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MHashLinkedListNode_2_TypeDefinitionIndex = 34580;
-
-	template <typename TKey, typename TValue>
-	class MHashLinkedListNode_2 : public ::RPG::Client::MLinkedListNode_1<TValue>
+	template <typename T1, typename T2>
+	class MHashLinkedListNode_2
 	{
 	public:
-		TKey NodeKey; // 0x0
+		T1 NodeKey; // 0x0
 	};
 }

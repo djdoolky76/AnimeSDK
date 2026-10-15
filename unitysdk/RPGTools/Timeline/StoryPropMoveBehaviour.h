@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace RPGTools::Timeline { class StoryPropMoveClip; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8EFBF0)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8F0020)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8EFC10)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8F02C0)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8EFC00)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F07A0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE945BA0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE944FE0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE945420)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE945000)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE9456C0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE944FF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropMoveBehaviour_TypeDefinitionIndex = 48815;
-
 	class StoryPropMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::StoryPropMoveClip* _Clip_k__BackingField; // 0x10
 		::System::Boolean _IsPlaying; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::GameEntity* _Entity; // 0x20
 		::UnityEngine::Vector3 _StartPosition; // 0x28
 		::UnityEngine::Vector3 _StartScale; // 0x34
@@ -38,11 +36,11 @@ namespace RPGTools::Timeline
 		::System::Single _Timer; // 0x7C
 		::System::Single _PathTotalLength; // 0x80
 		::System::Boolean _UseBezierPath; // 0x84
+		::System::Byte _padding1[0x3];
 		::System::Collections::Generic::List_1<::System::Single>* _BezierSegmentLengths; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::StoryPropMoveClip* get_Clip()
@@ -69,5 +67,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

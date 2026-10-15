@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class FateStatisticsMasterInfoItem; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xD037E20)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xD039E30)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0xD039D80)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0xD039DF0)
-#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD039D50)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xCFD72E0)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCFD9230)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET UNITYSDK_OFFSET(0xCFD9310)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_MASTERROUNDICONPATH_OFFSET UNITYSDK_OFFSET(0xCFD9260)
+#define RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_RANKING_OFFSET UNITYSDK_OFFSET(0xCFD92D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 64196;
-
 	class FateStatisticsMasterInfoItem : public ::System::Object
 	{
 	public:
 		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x10
-		::System::UInt32 _Ranking; // 0x18
-		::System::Boolean _IsPlayer; // 0x1C
-		::System::UInt32 _AvatarRealID; // 0x20
-
+		::System::UInt32 _AvatarRealID; // 0x18
+		::System::UInt32 _Ranking; // 0x1C
+		::System::Boolean _IsPlayer; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::RPG::Client::FateStatisticsMasterInfoItem* Create(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
@@ -47,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESTATISTICSMASTERINFOITEM_GET_ISPLAYER_OFFSET))(this);
 		}
+
 	};
 }

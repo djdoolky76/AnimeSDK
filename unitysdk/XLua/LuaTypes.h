@@ -3,8 +3,6 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaTypes_TypeDefinitionIndex = 50577;
-
 	enum class LuaTypes : ::System::Int32
 	{
 		LUA_TNONE = -1,

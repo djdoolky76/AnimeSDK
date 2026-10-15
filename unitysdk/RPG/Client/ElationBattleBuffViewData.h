@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BattleBuffViewData.h"
-
+namespace RPG::Client { class ElationBattleBuffViewData; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCE29040)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_GET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0xCE292F0)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_SET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0xCE29300)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE291C0)
-#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__GETELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0xCE29270)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCD793D0)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD796C0)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_GET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0xCD797F0)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_SET_ELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0xCD79800)
+#define RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__GETELATIONECHOPOINT_OFFSET UNITYSDK_OFFSET(0xCD79770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBattleBuffViewData_TypeDefinitionIndex = 71474;
-
 	class ElationBattleBuffViewData : public ::RPG::Client::BattleBuffViewData
 	{
 	public:
 		::System::Single _ElationEchoPoint_k__BackingField; // 0x38
-
 		::System::Void _ctor(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::ElationBattleBuffViewData* Create(::RPG::GameCore::TurnBasedModifierInstance* a1)
@@ -43,5 +40,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELATIONBATTLEBUFFVIEWDATA_SET_ELATIONECHOPOINT_OFFSET))(this, a1);
 		}
+
 	};
 }

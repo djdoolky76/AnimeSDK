@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x151698A0)
-#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15169930)
-#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x15169870)
-#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x15169800)
+#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x153BC7A0)
+#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x153BC700)
+#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x153BC830)
+#define XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x153BC770)
 
 namespace XLua
 {
-	inline static constexpr unsigned int StaticLuaCallbacks_ArrayIndexGetter_TypeDefinitionIndex = 50591;
-
 	class StaticLuaCallbacks_ArrayIndexGetter : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::XLua::ObjectTranslator* a2, ::System::Object* a3, ::System::Int32 a4)
@@ -38,5 +35,6 @@ namespace XLua
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_STATICLUACALLBACKS_ARRAYINDEXGETTER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

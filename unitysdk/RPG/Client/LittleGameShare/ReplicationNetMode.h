@@ -3,14 +3,12 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicationNetMode_TypeDefinitionIndex = 36196;
-
 	enum class ReplicationNetMode : ::System::Byte
 	{
-		Standalone = 0x0,
-		DedicatedServer = 0x1,
-		ListenServer = 0x2,
-		Client = 0x3,
-		Max = 0x4,
+		Standalone = 0,
+		DedicatedServer = 1,
+		ListenServer = 2,
+		Client = 3,
+		Max = 4,
 	};
 }

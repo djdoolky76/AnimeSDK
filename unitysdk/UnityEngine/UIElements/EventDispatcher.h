@@ -2,9 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/UIElements/DispatchMode.h"
-#include "unitysdk/UnityEngine/UIElements/EventDispatcher_DispatchContext.h"
-#include "unitysdk/UnityEngine/UIElements/EventDispatcher_EventRecord.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
@@ -14,43 +12,42 @@ namespace UnityEngine::UIElements { class IPanel; }
 namespace UnityEngine::UIElements { class PointerDispatchState; }
 namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET UNITYSDK_OFFSET(0x1EDEA9E0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CLOSEGATE_OFFSET UNITYSDK_OFFSET(0x1EDEA4E0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1EDE11D0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_DISPATCHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1EDE9E90)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_POINTERSTATE_OFFSET UNITYSDK_OFFSET(0x1EDE9860)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_OPENGATE_OFFSET UNITYSDK_OFFSET(0x1EDEA4F0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENTQUEUE_OFFSET UNITYSDK_OFFSET(0x1EDEA5A0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x1EDE9EB0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDEADE0)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE9870)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET UNITYSDK_OFFSET(0x1F4B3C00)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4B4000)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CLOSEGATE_OFFSET UNITYSDK_OFFSET(0x1F4B3700)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B2A90)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_DISPATCH_OFFSET UNITYSDK_OFFSET(0x1F4AA3F0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_DISPATCHIMMEDIATELY_OFFSET UNITYSDK_OFFSET(0x1F4B30B0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_GET_POINTERSTATE_OFFSET UNITYSDK_OFFSET(0x1F4B2A80)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_OPENGATE_OFFSET UNITYSDK_OFFSET(0x1F4B3710)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENTQUEUE_OFFSET UNITYSDK_OFFSET(0x1F4B37C0)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x1F4B30D0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDispatcher_TypeDefinitionIndex = 5864;
-
 	class EventDispatcher : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>** StaticGet_k_EventQueuePool()
-		{
-			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>*>**)Il2CppClass::FromTypeDefinitionIndex(EventDispatcher_TypeDefinitionIndex)->GetStaticField(0x18680);
-		}
 		::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* m_DispatchingStrategies; // 0x10
-		::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventDispatcher_EventRecord>* m_Queue; // 0x18
+		::System::Collections::Generic::Queue_1<::System::Object*>* m_Queue; // 0x18
 		::UnityEngine::UIElements::PointerDispatchState* _pointerState_k__BackingField; // 0x20
 		::System::UInt32 m_GateCount; // 0x28
-		::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventDispatcher_DispatchContext>* m_DispatchContexts; // 0x30
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::Stack_1<::System::Object*>* m_DispatchContexts; // 0x30
 		::System::Boolean m_Immediate; // 0x38
+		static ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::System::Object*>*>** StaticGet_k_EventQueuePool()
+		{
+			return (::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::System::Object*>*>**)UnitySDK::FromName("UnityEngine.UIElements", "EventDispatcher")->GetStaticField(0x1D6B0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::UIElements::PointerDispatchState* get_pointerState()
@@ -92,5 +89,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHER_APPLYDISPATCHINGSTRATEGIES_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

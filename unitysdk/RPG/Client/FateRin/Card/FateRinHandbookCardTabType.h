@@ -3,8 +3,6 @@
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinHandbookCardTabType_TypeDefinitionIndex = 79857;
-
 	enum class FateRinHandbookCardTabType : ::System::Int32
 	{
 		None = 0,

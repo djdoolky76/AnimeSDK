@@ -3,8 +3,6 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int TextureWrap_TypeDefinitionIndex = 38348;
-
 	enum class TextureWrap : ::System::Int32
 	{
 		MirroredRepeat = 0,

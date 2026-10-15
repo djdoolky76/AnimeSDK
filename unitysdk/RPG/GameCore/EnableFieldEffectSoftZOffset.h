@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EnableFieldEffectSoftZOffset; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_METHOD_3_A79C49A2B34A4330_OFFSET UNITYSDK_OFFSET(0x1D062540)
-#define RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_METHOD_3_F8667EEA6F863A43_OFFSET UNITYSDK_OFFSET(0x1D062580)
-#define RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D062570)
+#define RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63ED40)
+#define RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D63ED50)
+#define RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D63ED10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableFieldEffectSoftZOffset_TypeDefinitionIndex = 22454;
-
 	class EnableFieldEffectSoftZOffset : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Enable; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A79C49A2B34A4330(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableFieldEffectSoftZOffset*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnableFieldEffectSoftZOffset* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableFieldEffectSoftZOffset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_METHOD_3_A79C49A2B34A4330_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnableFieldEffectSoftZOffset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F8667EEA6F863A43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableFieldEffectSoftZOffset* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnableFieldEffectSoftZOffset* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableFieldEffectSoftZOffset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_METHOD_3_F8667EEA6F863A43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnableFieldEffectSoftZOffset*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFIELDEFFECTSOFTZOFFSET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

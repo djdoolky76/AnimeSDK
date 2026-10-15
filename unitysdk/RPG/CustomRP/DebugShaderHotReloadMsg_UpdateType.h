@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugShaderHotReloadMsg_UpdateType_TypeDefinitionIndex = 37063;
-
 	enum class DebugShaderHotReloadMsg_UpdateType : ::System::Int32
 	{
 		Shader = 0,

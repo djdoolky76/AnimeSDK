@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::ComponentModel { class RefreshEventArgs; }
 
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E92E640)
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E92E670)
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E92E630)
-#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E92E540)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFF73A0)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF72A0)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFF73D0)
+#define SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFF7390)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int RefreshEventHandler_TypeDefinitionIndex = 2624;
-
 	class RefreshEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::ComponentModel::RefreshEventArgs* a1)
@@ -38,5 +35,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFRESHEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

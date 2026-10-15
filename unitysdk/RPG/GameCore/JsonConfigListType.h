@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonConfigListType_TypeDefinitionIndex = 56693;
-
 	enum class JsonConfigListType : ::System::Int32
 	{
 		AdventureAbilityConfig = 0,
@@ -15,13 +13,14 @@ namespace RPG::GameCore
 		BattleLineupMazeBuffConfig = 5,
 		BattleLineupSkillTreePresetConfig = 6,
 		BattleLineupCEPresetConfig = 7,
-		GlobalModifierConfig = 8,
-		AdventureModifierConfig = 9,
-		GlobalRtModifierConfig = 10,
-		ComplexSkillAIGlobalGroupConfig = 11,
-		GlobalTaskTemplate = 12,
-		CommonSkillPoolConfig = 13,
-		GlobalFormationAsset = 14,
-		Count = 15,
+		BattleLineupDevPresetConfig = 8,
+		GlobalModifierConfig = 9,
+		AdventureModifierConfig = 10,
+		GlobalRtModifierConfig = 11,
+		ComplexSkillAIGlobalGroupConfig = 12,
+		GlobalTaskTemplate = 13,
+		CommonSkillPoolConfig = 14,
+		GlobalFormationAsset = 15,
+		Count = 16,
 	};
 }

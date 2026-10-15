@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUILISTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xB28AA40)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUILISTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB0294A0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKBridgeUIListItem_TypeDefinitionIndex = 47250;
-
 	class MiHoYoSDKBridgeUIListItem : public ::System::Object
 	{
 	public:
 		::System::Int32 action_index; // 0x10
 		::System::Int32 delete_action_index; // 0x14
 		::System::Boolean is_selected; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* item_data; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUILISTITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_MIHOYOSDKBRIDGEUILISTITEM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

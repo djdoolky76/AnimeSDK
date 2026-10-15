@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActivityVoracityInvasionProgressBuffRow; }
+
+#define RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D384BB0)
+#define RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D384A40)
+
+namespace RPG::GameCore
+{
+	class ActivityVoracityInvasionProgressBuffRow : public ::System::Object
+	{
+	public:
+		::System::Double ProgressPercent; // 0x10
+		::System::UInt32 BuffLevel; // 0x18
+		::System::UInt32 BuffID; // 0x1C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActivityVoracityInvasionProgressBuffRow* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActivityVoracityInvasionProgressBuffRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYVORACITYINVASIONPROGRESSBUFFROW_FROMBINARY_OFFSET))(a1, a2);
+		}
+
+	};
+}

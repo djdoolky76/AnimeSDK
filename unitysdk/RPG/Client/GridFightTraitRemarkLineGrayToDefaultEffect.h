@@ -2,25 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightTraitRemarkLineColorType.h"
 #include "unitysdk/RPG/Client/GridFightTraitRemarkLineEffectBase.h"
-
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xD367690)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xD367820)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xD3677E0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD366C60)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD2BFAC0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xD2C04F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xD2C0680)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xD2C0640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineGrayToDefaultEffect_TypeDefinitionIndex = 65529;
-
 	class GridFightTraitRemarkLineGrayToDefaultEffect : public ::RPG::Client::GridFightTraitRemarkLineEffectBase
 	{
 	public:
 		::System::Void _ctor(::RPG::Client::GridFightTrait* a1, ::RPG::GameCore::GridFightTraitRemarkRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::GridFightTraitRemarkLineColorType get_CurrentColorType()
@@ -37,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEGRAYTODEFAULTEFFECT_GET_ISHIGHLIGHT_OFFSET))(this);
 		}
+
 	};
 }

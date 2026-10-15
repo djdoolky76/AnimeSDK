@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class IPAddress; }
 namespace System::Net { class IPHostEntry; }
 
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E96E600)
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E96D0C0)
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E96E5F0)
-#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E96E500)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F0371C0)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0370C0)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F035ED0)
+#define SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F0371B0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Dns_GetHostEntryIPCallback_TypeDefinitionIndex = 2834;
-
 	class Dns_GetHostEntryIPCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::IPHostEntry* Invoke(::System::Net::IPAddress* a1)
@@ -39,5 +36,6 @@ namespace System::Net
 		{
 			return ((::System::Net::IPHostEntry*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_DNS_GETHOSTENTRYIPCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

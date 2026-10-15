@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MFEAIMEDPNF.h"
+class CENEFPOMFKG;
+class KKAOOEJHHHE;
+
+#define FLMFFAFMAON_CLEAR_OFFSET UNITYSDK_OFFSET(0x1583F550)
+#define FLMFFAFMAON_COIEFOLMLFO_OFFSET UNITYSDK_OFFSET(0x1583F4A0)
+#define FLMFFAFMAON_CTOR_OFFSET UNITYSDK_OFFSET(0x1583F5D0)
+
+	class FLMFFAFMAON : public ::MFEAIMEDPNF
+	{
+	public:
+		::CENEFPOMFKG* IJGAPCNDIAG; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLMFFAFMAON_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Boolean COIEFOLMLFO(::KKAOOEJHHHE* a1, ::CENEFPOMFKG* a2)
+		{
+			return ((::System::Boolean(*)(::KKAOOEJHHHE*, ::CENEFPOMFKG*))((::PBYTE)hIl2Cpp + FLMFFAFMAON_COIEFOLMLFO_OFFSET))(a1, a2);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FLMFFAFMAON_CLEAR_OFFSET))(this);
+		}
+
+	};

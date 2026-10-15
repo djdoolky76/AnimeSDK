@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/UI/ResponsiveEnable_Modes.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Behaviour; }
 namespace UnityEngine { class GameObject; }
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveEnable_Entry_TypeDefinitionIndex = 34717;
-
 	struct alignas(8) ResponsiveEnable_Entry
 	{
 		::Il2CppArray<::UnityEngine::Behaviour*>* Components; // 0x10

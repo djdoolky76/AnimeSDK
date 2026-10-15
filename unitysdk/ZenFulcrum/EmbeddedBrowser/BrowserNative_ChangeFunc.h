@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/BrowserNative_ChangeType.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8BBC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8BC60)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8BBA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8BB30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6540E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F654050)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F654180)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6540C0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_ChangeFunc_TypeDefinitionIndex = 38081;
-
 	class BrowserNative_ChangeFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeType a2, ::System::String* a3)
@@ -39,5 +36,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CHANGEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

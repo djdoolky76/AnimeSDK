@@ -3,37 +3,35 @@
 #include "unitysdk/Mono/Security/Protocol/Ntlm/NtlmFlags.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_CHECKHEADER_OFFSET UNITYSDK_OFFSET(0x1BB2BF50)
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_DECODE_OFFSET UNITYSDK_OFFSET(0x1BB2BE10)
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1BB2BD10)
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1BB2BD30)
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_PREPAREMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BB2BD40)
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1BB2BD20)
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB2C0D0)
-#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB2BD00)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C038590)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_CHECKHEADER_OFFSET UNITYSDK_OFFSET(0x1C038410)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0381C0)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_DECODE_OFFSET UNITYSDK_OFFSET(0x1C0382D0)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1C0381D0)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C0381F0)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_PREPAREMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C038200)
+#define MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1C0381E0)
 
 namespace Mono::Security::Protocol::Ntlm
 {
-	inline static constexpr unsigned int MessageBase_TypeDefinitionIndex = 2274;
-
 	class MessageBase : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_header()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MessageBase_TypeDefinitionIndex)->GetStaticField(0x2C090);
-		}
 		::System::Int32 _type; // 0x10
 		::Mono::Security::Protocol::Ntlm::NtlmFlags _flags; // 0x14
+		static ::Il2CppArray<::System::Byte>** StaticGet_header()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Protocol.Ntlm", "MessageBase")->GetStaticField(0x35480);
+		}
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_CCTOR_OFFSET))();
 		}
 
 		::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags()
@@ -65,5 +63,6 @@ namespace Mono::Security::Protocol::Ntlm
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PROTOCOL_NTLM_MESSAGEBASE_CHECKHEADER_OFFSET))(this, a1);
 		}
+
 	};
 }

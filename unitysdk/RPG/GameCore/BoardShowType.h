@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoardShowType_TypeDefinitionIndex = 10448;
-
 	enum class BoardShowType : ::System::Int32
 	{
 		Perspective = 0,

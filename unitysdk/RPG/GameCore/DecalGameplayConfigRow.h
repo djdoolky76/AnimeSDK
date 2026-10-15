@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DecalGameplayConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D01C3D0)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01CA50)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F8F40)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F8D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalGameplayConfigRow_TypeDefinitionIndex = 13021;
-
 	class DecalGameplayConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::System::String* TextureMapPath; // 0x18
-		::System::UInt32 RequiredItemID; // 0x20
-		::System::UInt32 DecalID; // 0x24
-
+		::System::UInt32 DecalID; // 0x20
+		::System::UInt32 RequiredItemID; // 0x24
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALGAMEPLAYCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DecalGameplayConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::DecalGameplayConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DecalGameplayConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DecalGameplayConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

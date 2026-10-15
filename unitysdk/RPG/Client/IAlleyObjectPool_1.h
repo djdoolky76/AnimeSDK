@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAlleyObjectPool_1_TypeDefinitionIndex = 62430;
-
 	template <typename T>
 	class IAlleyObjectPool_1
 	{

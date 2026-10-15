@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class WaitPropPuzzleLoadingFinish; }
 
-#define RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_METHOD_3_D8CF9AFD4DD342D9_OFFSET UNITYSDK_OFFSET(0x1D6A9E40)
-#define RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_METHOD_3_DA48FD4D5B8290D2_OFFSET UNITYSDK_OFFSET(0x1D6A9E00)
-#define RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9E30)
+#define RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9EFE0)
+#define RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9EFF0)
+#define RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9EFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropPuzzleLoadingFinish_TypeDefinitionIndex = 21921;
-
 	class WaitPropPuzzleLoadingFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetEntity; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DA48FD4D5B8290D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropPuzzleLoadingFinish*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPropPuzzleLoadingFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropPuzzleLoadingFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_METHOD_3_DA48FD4D5B8290D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPropPuzzleLoadingFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D8CF9AFD4DD342D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropPuzzleLoadingFinish* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPropPuzzleLoadingFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropPuzzleLoadingFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_METHOD_3_D8CF9AFD4DD342D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPropPuzzleLoadingFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPPUZZLELOADINGFINISH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

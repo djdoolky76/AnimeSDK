@@ -2,28 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Utilities/PrimitiveTypeCode.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BF11CF0)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1BF11CD0)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1BF11D00)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1BF11CE0)
-#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF11D10)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41E150)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1C41E130)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C41E110)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1C41E140)
+#define NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C41E120)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 9597;
-
 	class TypeInformation : public ::System::Object
 	{
 	public:
 		::System::Type* _Type_k__BackingField; // 0x10
 		::Newtonsoft::Json::Utilities::PrimitiveTypeCode _TypeCode_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_CTOR_OFFSET))(this);
 		}
 
 		::System::Type* get_Type()
@@ -45,5 +41,6 @@ namespace Newtonsoft::Json::Utilities
 		{
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_TYPEINFORMATION_SET_TYPECODE_OFFSET))(this, a1);
 		}
+
 	};
 }

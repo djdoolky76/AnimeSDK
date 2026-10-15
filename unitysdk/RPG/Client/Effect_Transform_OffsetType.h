@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_Transform_OffsetType_TypeDefinitionIndex = 70534;
-
 	enum class Effect_Transform_OffsetType : ::System::Int32
 	{
 		SinWave = 0,

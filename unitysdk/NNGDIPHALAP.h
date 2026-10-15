@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+class KFELGAIGHAP;
+namespace RPG::Client { class LuaUIController; }
+namespace RPG::GameCore { class ActivityRaidAlleyPlacingShowUI; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define NNGDIPHALAP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA81E0)
+#define NNGDIPHALAP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCA8310)
+#define NNGDIPHALAP_JNIKOAEAEHB_OFFSET UNITYSDK_OFFSET(0xBCA8790)
+#define NNGDIPHALAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCA83E0)
+#define NNGDIPHALAP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCA82C0)
+#define NNGDIPHALAP_PHJJMJHMKJI_OFFSET UNITYSDK_OFFSET(0xBCA8430)
+#define NNGDIPHALAP_TICK_OFFSET UNITYSDK_OFFSET(0xBCA8260)
+
+	class NNGDIPHALAP : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ActivityRaidAlleyPlacingShowUI* JKJPFJALGKO; // 0x20
+		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x28
+		::KFELGAIGHAP* GGGKNHKPGHP; // 0x30
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ActivityRaidAlleyPlacingShowUI* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ActivityRaidAlleyPlacingShowUI*))((::PBYTE)hIl2Cpp + NNGDIPHALAP_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NNGDIPHALAP_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGDIPHALAP_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGDIPHALAP_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGDIPHALAP_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void PHJJMJHMKJI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGDIPHALAP_PHJJMJHMKJI_OFFSET))(this);
+		}
+
+		::System::Void JNIKOAEAEHB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGDIPHALAP_JNIKOAEAEHB_OFFSET))(this);
+		}
+
+	};

@@ -2,15 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace System { class AsyncCallback; }
-namespace System { class IAsyncResult; }
-namespace System { class Object; }
-
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ConditionalWeakTable_2_CreateValueCallback_TypeDefinitionIndex = 1400;
-
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class ConditionalWeakTable_2_CreateValueCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class GameObject; }
+namespace UnityEngine::Playables { class PlayableAsset; }
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1ED43510)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1ED43550)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1ED43580)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_GETPLAYABLEASSETDURATION_OFFSET UNITYSDK_OFFSET(0x1ED436A0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED43730)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F40B510)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x1F40B2F0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1F40B330)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1F40B360)
+#define UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_GETPLAYABLEASSETDURATION_OFFSET UNITYSDK_OFFSET(0x1F40B480)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableAsset_TypeDefinitionIndex = 4906;
-
 	class PlayableAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEASSET_CTOR_OFFSET))(this);
 		}
 
 		::System::Double get_duration()
@@ -45,5 +42,6 @@ namespace UnityEngine::Playables
 		{
 			return ((::System::Void(*)(::UnityEngine::Playables::PlayableAsset*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEASSET_INTERNAL_GETPLAYABLEASSETDURATION_OFFSET))(a1, a2);
 		}
+
 	};
 }

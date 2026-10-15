@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightEvent_TypeDefinitionIndex = 4699;
-
 	enum class LightEvent : ::System::Int32
 	{
 		BeforeShadowMap = 0,

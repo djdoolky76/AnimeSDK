@@ -2,46 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Hdg/rdtDebug_LogLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define HDG_RDTDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0xB190930)
-#define HDG_RDTDEBUG_DEBUG_1_OFFSET UNITYSDK_OFFSET(0xB18E450)
-#define HDG_RDTDEBUG_DEBUG_OFFSET UNITYSDK_OFFSET(0xB180F40)
-#define HDG_RDTDEBUG_ERROR_1_OFFSET UNITYSDK_OFFSET(0xB182B80)
-#define HDG_RDTDEBUG_ERROR_2_OFFSET UNITYSDK_OFFSET(0xB18F020)
-#define HDG_RDTDEBUG_ERROR_OFFSET UNITYSDK_OFFSET(0xB1907D0)
-#define HDG_RDTDEBUG_INFO_1_OFFSET UNITYSDK_OFFSET(0xB190620)
-#define HDG_RDTDEBUG_INFO_OFFSET UNITYSDK_OFFSET(0xB1905D0)
-#define HDG_RDTDEBUG_LOG_1_OFFSET UNITYSDK_OFFSET(0xB190090)
-#define HDG_RDTDEBUG_LOG_2_OFFSET UNITYSDK_OFFSET(0xB190390)
-#define HDG_RDTDEBUG_LOG_OFFSET UNITYSDK_OFFSET(0xB18FDC0)
-#define HDG_RDTDEBUG_WARNING_1_OFFSET UNITYSDK_OFFSET(0xB190780)
-#define HDG_RDTDEBUG_WARNING_OFFSET UNITYSDK_OFFSET(0xB181F80)
-#define HDG_RDTDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1909F0)
-#define HDG_RDTDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0xB1909E0)
+#define HDG_RDTDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0xAF3B380)
+#define HDG_RDTDEBUG_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF3B440)
+#define HDG_RDTDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0xAF3B430)
+#define HDG_RDTDEBUG_DEBUG_1_OFFSET UNITYSDK_OFFSET(0xAF395E0)
+#define HDG_RDTDEBUG_DEBUG_OFFSET UNITYSDK_OFFSET(0xAF29A60)
+#define HDG_RDTDEBUG_ERROR_1_OFFSET UNITYSDK_OFFSET(0xAF2A7F0)
+#define HDG_RDTDEBUG_ERROR_2_OFFSET UNITYSDK_OFFSET(0xAF2AB00)
+#define HDG_RDTDEBUG_ERROR_OFFSET UNITYSDK_OFFSET(0xAF3B2C0)
+#define HDG_RDTDEBUG_INFO_1_OFFSET UNITYSDK_OFFSET(0xAF3B1A0)
+#define HDG_RDTDEBUG_INFO_OFFSET UNITYSDK_OFFSET(0xAF3B150)
+#define HDG_RDTDEBUG_LOG_1_OFFSET UNITYSDK_OFFSET(0xAF3AD10)
+#define HDG_RDTDEBUG_LOG_2_OFFSET UNITYSDK_OFFSET(0xAF3AF90)
+#define HDG_RDTDEBUG_LOG_OFFSET UNITYSDK_OFFSET(0xAF2A840)
+#define HDG_RDTDEBUG_WARNING_1_OFFSET UNITYSDK_OFFSET(0xAF3B270)
+#define HDG_RDTDEBUG_WARNING_OFFSET UNITYSDK_OFFSET(0xAF2E960)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtDebug_TypeDefinitionIndex = 47409;
-
 	class rdtDebug : public ::System::Object
 	{
 	public:
 		static ::Hdg::rdtDebug_LogLevel* StaticGet_s_logLevel()
 		{
-			return (::Hdg::rdtDebug_LogLevel*)Il2CppClass::FromTypeDefinitionIndex(rdtDebug_TypeDefinitionIndex)->GetStaticField(0xF1B0);
+			return (::Hdg::rdtDebug_LogLevel*)UnitySDK::FromName("Hdg", "rdtDebug")->GetStaticField(0x63C0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTDEBUG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTDEBUG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDG_RDTDEBUG__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDG_RDTDEBUG_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void Debug(::System::Object* a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
@@ -108,5 +106,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + HDG_RDTDEBUG_ASSERT_OFFSET))(a1);
 		}
+
 	};
 }

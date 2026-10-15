@@ -3,8 +3,6 @@
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int UnicodeEncodingConformance_TypeDefinitionIndex = 2978;
-
 	enum class UnicodeEncodingConformance : ::System::Int32
 	{
 		Auto = 0,

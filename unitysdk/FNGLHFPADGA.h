@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class TaskContext; }
+namespace RPG::GameCore { class TriggerHitTarget; }
+
+#define FNGLHFPADGA_CTOR_OFFSET UNITYSDK_OFFSET(0x158709D0)
+#define FNGLHFPADGA_NICNFGOAOHI_OFFSET UNITYSDK_OFFSET(0x15870A50)
+#define FNGLHFPADGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15870A00)
+
+	class FNGLHFPADGA
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerHitTarget* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerHitTarget*))((::PBYTE)hIl2Cpp + FNGLHFPADGA_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNGLHFPADGA_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void NICNFGOAOHI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNGLHFPADGA_NICNFGOAOHI_OFFSET))(this);
+		}
+
+	};

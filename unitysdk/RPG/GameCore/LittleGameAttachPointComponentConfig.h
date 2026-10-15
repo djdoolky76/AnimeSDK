@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameAttachPointComponentConfig; }
 namespace RPG::GameCore { class LittleGameAttachPointConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_METHOD_3_CF0697026BA8C28D_OFFSET UNITYSDK_OFFSET(0x1D1FEC20)
-#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_METHOD_3_FD4698318389A24E_OFFSET UNITYSDK_OFFSET(0x1D1FEC60)
-#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FEC50)
+#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DD2B0)
+#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DD2C0)
+#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DD280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAttachPointComponentConfig_TypeDefinitionIndex = 18646;
-
 	class LittleGameAttachPointComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean HasAttachPoint; // 0x10
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::LittleGameAttachPointConfig* Config; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CF0697026BA8C28D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAttachPointComponentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAttachPointComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAttachPointComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_METHOD_3_CF0697026BA8C28D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAttachPointComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FD4698318389A24E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAttachPointComponentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAttachPointComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAttachPointComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_METHOD_3_FD4698318389A24E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAttachPointComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEATTACHPOINTCOMPONENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

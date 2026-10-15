@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateConditionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateCondFalseConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATECONDFALSECONFIG_METHOD_6_1EA27EE7E56C79BF_OFFSET UNITYSDK_OFFSET(0x1D08C9F0)
-#define RPG_GAMECORE_FATECONDFALSECONFIG_METHOD_6_7FC60ACD1E8DE5C3_OFFSET UNITYSDK_OFFSET(0x1D08CA40)
-#define RPG_GAMECORE_FATECONDFALSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D08CA30)
+#define RPG_GAMECORE_FATECONDFALSECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69AA60)
+#define RPG_GAMECORE_FATECONDFALSECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D69AA70)
+#define RPG_GAMECORE_FATECONDFALSECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69AA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateCondFalseConfig_TypeDefinitionIndex = 19019;
-
 	class FateCondFalseConfig : public ::RPG::GameCore::FateConditionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDFALSECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDFALSECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_1EA27EE7E56C79BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondFalseConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateCondFalseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondFalseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDFALSECONFIG_METHOD_6_1EA27EE7E56C79BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDFALSECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_7FC60ACD1E8DE5C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateCondFalseConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateCondFalseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDFALSECONFIG_METHOD_6_7FC60ACD1E8DE5C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATECONDFALSECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

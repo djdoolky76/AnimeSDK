@@ -2,42 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
-
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONOCURVESCALE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD743060)
-#define RPG_CLIENT_MONOCURVESCALE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD7430A0)
-#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_0_OFFSET UNITYSDK_OFFSET(0xD7430B0)
-#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_1_OFFSET UNITYSDK_OFFSET(0xD743110)
+#define RPG_CLIENT_MONOCURVESCALE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD742440)
+#define RPG_CLIENT_MONOCURVESCALE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD742480)
+#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_0_OFFSET UNITYSDK_OFFSET(0xD742490)
+#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_1_OFFSET UNITYSDK_OFFSET(0xD7424F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveScale___c_TypeDefinitionIndex = 71016;
-
 	class MonoCurveScale___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Comparison_1<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x6BA0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B580);
 		}
+
 		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::Keyframe>**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x6BA8);
+			return (::System::Comparison_1<::UnityEngine::Keyframe>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B588);
 		}
-		static ::RPG::Client::MonoCurveScale___c** StaticGet___9()
+
+		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_1()
 		{
-			return (::RPG::Client::MonoCurveScale___c**)Il2CppClass::FromTypeDefinitionIndex(MonoCurveScale___c_TypeDefinitionIndex)->GetStaticField(0x6BB0);
+			return (::System::Comparison_1<::UnityEngine::Keyframe>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B590);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVESCALE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVESCALE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVESCALE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVESCALE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 _GenerateReverseCurve_b__10_0(::UnityEngine::Keyframe a1, ::UnityEngine::Keyframe a2)
@@ -49,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID, ::UnityEngine::Keyframe, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravitySwitchLineJumpEnergyMode_TypeDefinitionIndex = 18379;
-
 	enum class GravitySwitchLineJumpEnergyMode : ::System::Int32
 	{
 		NoEffect = 0,

@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightEquipCraftCombination; }
 namespace RPG::Client { class GridFightEquipCraftRecipe; }
 namespace RPG::Client { class GridFightEquipCraftRecipeCollection; }
@@ -10,17 +9,15 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_1_OFFSET UNITYSDK_OFFSET(0xD171B60)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD171980)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFT_OFFSET UNITYSDK_OFFSET(0xD171760)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__FINDCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD172170)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONSHELPER_OFFSET UNITYSDK_OFFSET(0xD172F60)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD172E90)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_1_OFFSET UNITYSDK_OFFSET(0xD111A50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_GETALLAVAILABLECRAFTCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD111870)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS_ISRECIPECANCRAFT_OFFSET UNITYSDK_OFFSET(0xD111650)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__FINDCOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD112060)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONSHELPER_OFFSET UNITYSDK_OFFSET(0xD112E50)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONS_OFFSET UNITYSDK_OFFSET(0xD112D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftUtils_TypeDefinitionIndex = 65010;
-
 	class GridFightEquipCraftUtils : public ::System::Object
 	{
 	public:
@@ -53,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemData*>*, ::System::UInt32, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemData*>*, ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemData*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTUTILS__GENERATECOMBINATIONSHELPER_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

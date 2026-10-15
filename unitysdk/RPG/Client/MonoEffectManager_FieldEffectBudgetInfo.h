@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client { class TriggerEffectParams; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectManager_FieldEffectBudgetInfo_TypeDefinitionIndex = 69818;
-
 	struct alignas(8) MonoEffectManager_FieldEffectBudgetInfo
 	{
 		::RPG::Client::TriggerEffectParams* TriggerEffectParams; // 0x10

@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::UI { class AccountBinding; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS82_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1BADB7E0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS82_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BADF760)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS82_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE61F0)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS82_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BFEA630)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AccountBinding___c__DisplayClass82_0_TypeDefinitionIndex = 8331;
-
 	class AccountBinding___c__DisplayClass82_0 : public ::System::Object
 	{
 	public:
 		::System::String* gamertag; // 0x10
 		::System::Boolean showAgreement; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS82_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS82_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Show_b__0(::MiHoYo::SDK::UI::AccountBinding* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::AccountBinding*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS82_0__SHOW_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

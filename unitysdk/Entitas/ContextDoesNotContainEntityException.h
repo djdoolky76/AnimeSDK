@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/EntitasException.h"
-
 namespace System { class String; }
 
-#define ENTITAS_CONTEXTDOESNOTCONTAINENTITYEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x16531C50)
+#define ENTITAS_CONTEXTDOESNOTCONTAINENTITYEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x16758A30)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextDoesNotContainEntityException_TypeDefinitionIndex = 9931;
-
 	class ContextDoesNotContainEntityException : public ::Entitas::EntitasException
 	{
 	public:
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTDOESNOTCONTAINENTITYEXCEPTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + ENTITAS_CONTEXTDOESNOTCONTAINENTITYEXCEPTION_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

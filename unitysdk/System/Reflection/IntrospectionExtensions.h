@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 namespace System::Reflection { class TypeInfo; }
 
-#define SYSTEM_REFLECTION_INTROSPECTIONEXTENSIONS_GETTYPEINFO_OFFSET UNITYSDK_OFFSET(0x1BD97350)
+#define SYSTEM_REFLECTION_INTROSPECTIONEXTENSIONS_GETTYPEINFO_OFFSET UNITYSDK_OFFSET(0x1C2A3050)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int IntrospectionExtensions_TypeDefinitionIndex = 565;
-
 	class IntrospectionExtensions : public ::System::Object
 	{
 	public:
@@ -18,5 +15,6 @@ namespace System::Reflection
 		{
 			return ((::System::Reflection::TypeInfo*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_INTROSPECTIONEXTENSIONS_GETTYPEINFO_OFFSET))(a1);
 		}
+
 	};
 }

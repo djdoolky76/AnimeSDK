@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBF500)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBF570)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBF4D0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBF450)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F687A70)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6879C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F687AE0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F687A40)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRResources__GetResourceFullPath_TypeDefinitionIndex = 37888;
-
 	class IVRResources__GetResourceFullPath : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::UInt32 a4)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRESOURCES__GETRESOURCEFULLPATH_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

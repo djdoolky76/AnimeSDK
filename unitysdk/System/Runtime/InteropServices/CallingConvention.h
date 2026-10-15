@@ -3,8 +3,6 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CallingConvention_TypeDefinitionIndex = 1425;
-
 	enum class CallingConvention : ::System::Int32
 	{
 		Winapi = 1,

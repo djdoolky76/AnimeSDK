@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_0D004210BAA09704_OFFSET UNITYSDK_OFFSET(0x15D410)
-#define RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_1C8EA29F932BA1DA_OFFSET UNITYSDK_OFFSET(0x15D4B0)
-#define RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0x15D530)
-#define RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_56CE4AFC5339F746_OFFSET UNITYSDK_OFFSET(0x15D5A0)
-#define RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_C21A7AC6282FB0D0_OFFSET UNITYSDK_OFFSET(0x15D4C0)
-#define RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_FDF65392AA9DFE9F_OFFSET UNITYSDK_OFFSET(0xE7E7B00)
+#define RPG_RENDERING_SDFATLASLAYOUT_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE882D60)
+#define RPG_RENDERING_SDFATLASLAYOUT_COAMHPGKHMK_OFFSET UNITYSDK_OFFSET(0xF7190)
+#define RPG_RENDERING_SDFATLASLAYOUT_GEMDKBPJPOH_OFFSET UNITYSDK_OFFSET(0xF70B0)
+#define RPG_RENDERING_SDFATLASLAYOUT_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xF7120)
+#define RPG_RENDERING_SDFATLASLAYOUT_OAJJNBLABOI_OFFSET UNITYSDK_OFFSET(0xF7000)
+#define RPG_RENDERING_SDFATLASLAYOUT_PAIBKLIKMGF_OFFSET UNITYSDK_OFFSET(0xF70A0)
 
 namespace RPG::Rendering
 {
-	inline static constexpr unsigned int SDFAtlasLayout_TypeDefinitionIndex = 52088;
-
 	struct alignas(4) SDFAtlasLayout
 	{
 		::System::Int32 sliceWidth; // 0x10
@@ -22,41 +21,37 @@ namespace RPG::Rendering
 		::System::Int32 tilesPerColumn; // 0x20
 		::System::Int32 atlasWidth; // 0x24
 		::System::Int32 atlasHeight; // 0x28
-
-		static ::RPG::Rendering::SDFAtlasLayout Method_2_FDF65392AA9DFE9F(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
-		{
-			return ((::RPG::Rendering::SDFAtlasLayout(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_FDF65392AA9DFE9F_OFFSET))(a1, a2, a3);
-		}
-
 		/*
-		::UnityEngine::Vector2Int Method_2_0D004210BAA09704(::System::Int32 a1)
+		static ::RPG::Rendering::SDFAtlasLayout BPLPBPMEODA(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_0D004210BAA09704_OFFSET))(this, a1);
+			return ((::RPG::Rendering::SDFAtlasLayout(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_BPLPBPMEODA_OFFSET))(a1, a2, a3);
 		}
 		*/
 
-		/*
-		::UnityEngine::Vector2 Method_2_1C8EA29F932BA1DA(::System::Int32 a1)
+		::UnityEngine::Vector2Int OAJJNBLABOI(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_1C8EA29F932BA1DA_OFFSET))(this, a1);
-		}
-		*/
-
-		/*
-		::UnityEngine::Vector2 Method_2_C21A7AC6282FB0D0()
-		{
-			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_C21A7AC6282FB0D0_OFFSET))(this);
-		}
-		*/
-
-		::System::Boolean Method_2_568AE7A1499723FD()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_568AE7A1499723FD_OFFSET))(this);
+			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_OAJJNBLABOI_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_56CE4AFC5339F746()
+		::UnityEngine::Vector2 PAIBKLIKMGF(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_METHOD_2_56CE4AFC5339F746_OFFSET))(this);
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_PAIBKLIKMGF_OFFSET))(this, a1);
 		}
+
+		::UnityEngine::Vector2 GEMDKBPJPOH()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_GEMDKBPJPOH_OFFSET))(this);
+		}
+
+		::System::Boolean KKKIONIDKFA()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_KKKIONIDKFA_OFFSET))(this);
+		}
+
+		::System::Void COAMHPGKHMK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFATLASLAYOUT_COAMHPGKHMK_OFFSET))(this);
+		}
+
 	};
 }

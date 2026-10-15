@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/EzySlice/TextureRegion.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/EzySlice/TextureRegion.h"
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 
-#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_1_OFFSET UNITYSDK_OFFSET(0xB17E270)
-#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_OFFSET UNITYSDK_OFFSET(0xB17E1D0)
+#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_1_OFFSET UNITYSDK_OFFSET(0xAF28AF0)
+#define EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_OFFSET UNITYSDK_OFFSET(0xAF28A50)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int TextureRegionExtension_TypeDefinitionIndex = 47460;
-
 	class TextureRegionExtension : public ::System::Object
 	{
 	public:
@@ -25,5 +22,6 @@ namespace EzySlice
 		{
 			return ((::EzySlice::TextureRegion(*)(::UnityEngine::Texture*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + EZYSLICE_TEXTUREREGIONEXTENSION_GETTEXTUREREGION_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

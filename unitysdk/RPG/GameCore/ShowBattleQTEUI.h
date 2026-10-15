@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleQTEUIConfig; }
+namespace RPG::GameCore { class ShowBattleQTEUI; }
 
-#define RPG_GAMECORE_SHOWBATTLEQTEUI_METHOD_3_8FCEA4907556CB0A_OFFSET UNITYSDK_OFFSET(0x1D5239C0)
-#define RPG_GAMECORE_SHOWBATTLEQTEUI_METHOD_3_D2E6C1926BC054B1_OFFSET UNITYSDK_OFFSET(0x1D523A00)
-#define RPG_GAMECORE_SHOWBATTLEQTEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5239F0)
+#define RPG_GAMECORE_SHOWBATTLEQTEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD8340)
+#define RPG_GAMECORE_SHOWBATTLEQTEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD8350)
+#define RPG_GAMECORE_SHOWBATTLEQTEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD8310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleQTEUI_TypeDefinitionIndex = 23081;
-
 	class ShowBattleQTEUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::BattleQTEUIConfig* UIConfig; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEQTEUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEQTEUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8FCEA4907556CB0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleQTEUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowBattleQTEUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleQTEUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEQTEUI_METHOD_3_8FCEA4907556CB0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowBattleQTEUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEQTEUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D2E6C1926BC054B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleQTEUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowBattleQTEUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleQTEUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEQTEUI_METHOD_3_D2E6C1926BC054B1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowBattleQTEUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEQTEUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/ETrackingUniverseOrigin.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6720)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6790)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6710)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB66A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67EC90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67EC10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67ED00)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F67EC80)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__SetTrackingSpace_TypeDefinitionIndex = 37718;
-
 	class IVRCompositor__SetTrackingSpace : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::ZenFulcrum::VR::OpenVRBinding::ETrackingUniverseOrigin a1)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SETTRACKINGSPACE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

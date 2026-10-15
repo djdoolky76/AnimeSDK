@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AbilityProperty.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/ValueTuple.h"
+namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::GameCore { class ServantRowData; }
+namespace System { class String; }
+
+#define MGHEJOGLOCN_BOEILPIJLJJ_1_OFFSET UNITYSDK_OFFSET(0xB91D4D0)
+#define MGHEJOGLOCN_BOEILPIJLJJ_2_OFFSET UNITYSDK_OFFSET(0xB91DA30)
+#define MGHEJOGLOCN_BOEILPIJLJJ_3_OFFSET UNITYSDK_OFFSET(0xB91DBD0)
+#define MGHEJOGLOCN_BOEILPIJLJJ_OFFSET UNITYSDK_OFFSET(0xB91D090)
+#define MGHEJOGLOCN_CCTOR_OFFSET UNITYSDK_OFFSET(0xB91DD40)
+#define MGHEJOGLOCN_CTOR_OFFSET UNITYSDK_OFFSET(0xB91DD30)
+#define MGHEJOGLOCN_NLFGNGMEMGF_OFFSET UNITYSDK_OFFSET(0xB91D220)
+#define MGHEJOGLOCN_PFAHDIJMFNG_OFFSET UNITYSDK_OFFSET(0xB91D920)
+
+	class MGHEJOGLOCN : public ::System::Object
+	{
+	public:
+		static ::Il2CppArray<::RPG::GameCore::AbilityProperty>** StaticGet_PGPNFONAIBC()
+		{
+			return (::Il2CppArray<::RPG::GameCore::AbilityProperty>**)UnitySDK::FromName("", "MGHEJOGLOCN")->GetStaticField(0x5D1C0);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MGHEJOGLOCN_CCTOR_OFFSET))();
+		}
+
+		static ::System::ValueTuple BOEILPIJLJJ(::System::String* a1, ::System::String* a2, ::Il2CppArray<::RPG::GameCore::FixPoint>* a3)
+		{
+			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::ValueTuple BOEILPIJLJJ_1(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::GameCore::ServantRowData* a4)
+		{
+			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::GameCore::ServantRowData*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_1_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::ValueTuple BOEILPIJLJJ_2(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::RPG::AvatarSystem::IAvatar* a4)
+		{
+			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::System::UInt32, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_2_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::ValueTuple BOEILPIJLJJ_3(::System::String* a1, ::System::String* a2, ::System::UInt32 a3, ::System::UInt32 a4)
+		{
+			return ((::System::ValueTuple(*)(::System::String*, ::System::String*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_BOEILPIJLJJ_3_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::UInt32 PFAHDIJMFNG(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::UInt32(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_PFAHDIJMFNG_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void NLFGNGMEMGF(::System::String* a1, ::System::Int32 a2, ::RPG::GameCore::FixPoint a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Int32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + MGHEJOGLOCN_NLFGNGMEMGF_OFFSET))(a1, a2, a3);
+		}
+
+	};

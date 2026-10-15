@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class EventTimelineBehaviour; }
 namespace RPGTools::Timeline { class TimelineEventArgument; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_AWAKE_OFFSET UNITYSDK_OFFSET(0xE85C1A0)
-#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE85C1E0)
-#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE85C180)
-#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE85C190)
-#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE85C380)
+#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_AWAKE_OFFSET UNITYSDK_OFFSET(0xE8FA0E0)
+#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8FA120)
+#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8FA2C0)
+#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8FA0C0)
+#define RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE8FA0D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EventTimelineClip_TypeDefinitionIndex = 48888;
-
 	class EventTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::EventTimelineBehaviour* Template; // 0x18
 		::RPGTools::Timeline::TimelineEventArgument* Argument; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EVENTTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -49,5 +45,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EVENTTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

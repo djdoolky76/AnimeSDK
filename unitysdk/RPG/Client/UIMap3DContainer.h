@@ -1,69 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/UnityEngine/BoundingSphere.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/System/ValueTuple.h"
+#include "unitysdk/UnityEngine/BoundingSphere.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_1F91F923AA05A3FA;
+class BPNMJLEMOMK;
 namespace RPG::Client { class UIMap3DContainerConfig; }
 namespace RPG::Client { class UIMap3DContainer_IPoseTransformProvider; }
+namespace System { class Nullable; }
 namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIMAP3DCONTAINER_GETMAPBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0xE3804D0)
-#define RPG_CLIENT_UIMAP3DCONTAINER_GETMAPBOUNDINGSPHERE_OFFSET UNITYSDK_OFFSET(0xE381890)
-#define RPG_CLIENT_UIMAP3DCONTAINER_GETMAPROTATION_OFFSET UNITYSDK_OFFSET(0xE380380)
-#define RPG_CLIENT_UIMAP3DCONTAINER_GET_VIEWMODELROTATION_OFFSET UNITYSDK_OFFSET(0xE37F8F0)
-#define RPG_CLIENT_UIMAP3DCONTAINER_GET__CURRENTMODELUP_OFFSET UNITYSDK_OFFSET(0xE383620)
-#define RPG_CLIENT_UIMAP3DCONTAINER_GET__INITMODELUP_OFFSET UNITYSDK_OFFSET(0xE385E70)
-#define RPG_CLIENT_UIMAP3DCONTAINER_GET__MAPMODELTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE37F890)
-#define RPG_CLIENT_UIMAP3DCONTAINER_GET__POSETRANSFORMS_OFFSET UNITYSDK_OFFSET(0xE381760)
-#define RPG_CLIENT_UIMAP3DCONTAINER_INIT_OFFSET UNITYSDK_OFFSET(0xE37F3A0)
-#define RPG_CLIENT_UIMAP3DCONTAINER_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xE382960)
-#define RPG_CLIENT_UIMAP3DCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE3831B0)
-#define RPG_CLIENT_UIMAP3DCONTAINER_RESET_OFFSET UNITYSDK_OFFSET(0xE3826F0)
-#define RPG_CLIENT_UIMAP3DCONTAINER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE382680)
-#define RPG_CLIENT_UIMAP3DCONTAINER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE386160)
-#define RPG_CLIENT_UIMAP3DCONTAINER__CLAMPPITCH_OFFSET UNITYSDK_OFFSET(0xE3856D0)
-#define RPG_CLIENT_UIMAP3DCONTAINER__CLEARDAMPINGRECOVERSTATES_OFFSET UNITYSDK_OFFSET(0xE382770)
-#define RPG_CLIENT_UIMAP3DCONTAINER__CLEARROTATELOCK_OFFSET UNITYSDK_OFFSET(0xE3834B0)
-#define RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEPITCHOUTRATIO_OFFSET UNITYSDK_OFFSET(0xE384250)
-#define RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDAMPING_OFFSET UNITYSDK_OFFSET(0xE383500)
-#define RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDEFAULT_OFFSET UNITYSDK_OFFSET(0xE383360)
-#define RPG_CLIENT_UIMAP3DCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0xE386050)
-#define RPG_CLIENT_UIMAP3DCONTAINER__FETCHROTATEINPUT_OFFSET UNITYSDK_OFFSET(0xE383F10)
-#define RPG_CLIENT_UIMAP3DCONTAINER__INITPOSETRANSPROVIDER_OFFSET UNITYSDK_OFFSET(0xE37FB50)
-#define RPG_CLIENT_UIMAP3DCONTAINER__INITUNWALKABLE_OFFSET UNITYSDK_OFFSET(0xE380130)
-#define RPG_CLIENT_UIMAP3DCONTAINER__ONMAP3DTOUCHENABLED_OFFSET UNITYSDK_OFFSET(0xE385670)
-#define RPG_CLIENT_UIMAP3DCONTAINER__RECOVERPITCH_OFFSET UNITYSDK_OFFSET(0xE383830)
-#define RPG_CLIENT_UIMAP3DCONTAINER__ROTATEMODEL_OFFSET UNITYSDK_OFFSET(0xE382CB0)
-#define RPG_CLIENT_UIMAP3DCONTAINER__SETLAYERRECURSIVELY_OFFSET UNITYSDK_OFFSET(0xE37FEA0)
-#define RPG_CLIENT_UIMAP3DCONTAINER__STARTRESETROTATION_OFFSET UNITYSDK_OFFSET(0xE3827C0)
-#define RPG_CLIENT_UIMAP3DCONTAINER__SYNCMAPTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE37FFA0)
-#define RPG_CLIENT_UIMAP3DCONTAINER__UPDATEMAPTRANSPARENCY_OFFSET UNITYSDK_OFFSET(0xE3849B0)
-#define RPG_CLIENT_UIMAP3DCONTAINER__UPDATERESET_OFFSET UNITYSDK_OFFSET(0xE382A00)
+#define RPG_CLIENT_UIMAP3DCONTAINER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3C7EA0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0xE3C7D90)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GETMAPBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0xE3C21B0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GETMAPBOUNDINGSPHERE_OFFSET UNITYSDK_OFFSET(0xE3C3590)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GETMAPROTATION_OFFSET UNITYSDK_OFFSET(0xE3C2060)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GET_VIEWMODELROTATION_OFFSET UNITYSDK_OFFSET(0xE3C1530)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GET__CURRENTMODELUP_OFFSET UNITYSDK_OFFSET(0xE3C5340)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GET__INITMODELUP_OFFSET UNITYSDK_OFFSET(0xE3C7BB0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GET__MAPMODELTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE3C14D0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_GET__POSETRANSFORMS_OFFSET UNITYSDK_OFFSET(0xE3C3440)
+#define RPG_CLIENT_UIMAP3DCONTAINER_INIT_OFFSET UNITYSDK_OFFSET(0xE3C0FB0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xE3C4660)
+#define RPG_CLIENT_UIMAP3DCONTAINER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE3C4EB0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_RESET_OFFSET UNITYSDK_OFFSET(0xE3C43F0)
+#define RPG_CLIENT_UIMAP3DCONTAINER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE3C4380)
+#define RPG_CLIENT_UIMAP3DCONTAINER__CLAMPPITCH_OFFSET UNITYSDK_OFFSET(0xE3C7410)
+#define RPG_CLIENT_UIMAP3DCONTAINER__CLEARDAMPINGRECOVERSTATES_OFFSET UNITYSDK_OFFSET(0xE3C4470)
+#define RPG_CLIENT_UIMAP3DCONTAINER__CLEARROTATELOCK_OFFSET UNITYSDK_OFFSET(0xE3C51E0)
+#define RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEPITCHOUTRATIO_OFFSET UNITYSDK_OFFSET(0xE3C5F70)
+#define RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDAMPING_OFFSET UNITYSDK_OFFSET(0xE3C5230)
+#define RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDEFAULT_OFFSET UNITYSDK_OFFSET(0xE3C5090)
+#define RPG_CLIENT_UIMAP3DCONTAINER__FETCHROTATEINPUT_OFFSET UNITYSDK_OFFSET(0xE3C5C30)
+#define RPG_CLIENT_UIMAP3DCONTAINER__INITPOSETRANSPROVIDER_OFFSET UNITYSDK_OFFSET(0xE3C1790)
+#define RPG_CLIENT_UIMAP3DCONTAINER__INITUNWALKABLE_OFFSET UNITYSDK_OFFSET(0xE3C1DB0)
+#define RPG_CLIENT_UIMAP3DCONTAINER__ONMAP3DTOUCHENABLED_OFFSET UNITYSDK_OFFSET(0xE3C73B0)
+#define RPG_CLIENT_UIMAP3DCONTAINER__RECOVERPITCH_OFFSET UNITYSDK_OFFSET(0xE3C5550)
+#define RPG_CLIENT_UIMAP3DCONTAINER__ROTATEMODEL_OFFSET UNITYSDK_OFFSET(0xE3C49B0)
+#define RPG_CLIENT_UIMAP3DCONTAINER__SETLAYERRECURSIVELY_OFFSET UNITYSDK_OFFSET(0xE3C1B10)
+#define RPG_CLIENT_UIMAP3DCONTAINER__STARTRESETROTATION_OFFSET UNITYSDK_OFFSET(0xE3C44C0)
+#define RPG_CLIENT_UIMAP3DCONTAINER__SYNCMAPTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE3C1C20)
+#define RPG_CLIENT_UIMAP3DCONTAINER__UPDATEMAPTRANSPARENCY_OFFSET UNITYSDK_OFFSET(0xE3C66D0)
+#define RPG_CLIENT_UIMAP3DCONTAINER__UPDATERESET_OFFSET UNITYSDK_OFFSET(0xE3C4700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIMap3DContainer_TypeDefinitionIndex = 69018;
-
 	class UIMap3DContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_s_Color()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMap3DContainer_TypeDefinitionIndex)->GetStaticField(0x14380);
-		}
-		static ::System::Int32* StaticGet_s_Opacity()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UIMap3DContainer_TypeDefinitionIndex)->GetStaticField(0x14384);
-		}
 		::UnityEngine::Transform* MapIconContainer; // 0x18
 		::System::Single ViewModelRotationY; // 0x20
 		::System::Single ViewModelRotationX; // 0x24
@@ -75,6 +64,7 @@ namespace RPG::Client
 		::System::Single ControllerRotationRatioX; // 0x3C
 		::System::Single ControllerRotationRatioY; // 0x40
 		::System::Boolean EnableRotateAxisLock; // 0x44
+		::System::Byte _padding0[0x3];
 		::System::Single RotateAxisLockDuration; // 0x48
 		::System::Single MaxPitch; // 0x4C
 		::System::Single MinPitch; // 0x50
@@ -97,27 +87,40 @@ namespace RPG::Client
 		::Il2CppArray<::System::Single>* PoseAlphas; // 0x98
 		::RPG::Client::UIMap3DContainer_IPoseTransformProvider* _PoseTransformProvider; // 0xA0
 		::System::Boolean _Initialized; // 0xA8
-		::Class_1_1F91F923AA05A3FA* _InputController; // 0xB0
+		::System::Byte _padding1[0x7];
+		::BPNMJLEMOMK* _InputController; // 0xB0
 		::RPG::Client::UIMap3DContainerConfig* _Config; // 0xB8
 		::System::Boolean _LockYRotate; // 0xC0
 		::System::Boolean _LockXRotate; // 0xC1
+		::System::Byte _padding2[0x2];
 		::System::Single _LockRotateAxisBeginTime; // 0xC4
 		::System::Single _RotationVelocityX; // 0xC8
 		::System::Single _PitchRecoverVelocity; // 0xCC
 		::System::Boolean _ShouldNotifyMap3DColliderUpdate; // 0xD0
 		::System::Boolean _IsReseting; // 0xD1
-		::System::Nullable_1<::UnityEngine::Quaternion> _InitRotation; // 0xD4
+		::System::Byte _padding3[0x2];
+		::System::Nullable* _InitRotation; // 0xD4
+		::System::Byte _padding4[0xC];
 		::UnityEngine::Quaternion _ResetStartRotation; // 0xE8
 		::System::Single _CurrentCenteringTime; // 0xF8
+		static ::System::Int32* StaticGet_s_Opacity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "UIMap3DContainer")->GetStaticField(0xC820);
+		}
+
+		static ::System::Int32* StaticGet_s_Color()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "UIMap3DContainer")->GetStaticField(0xC824);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Init(::RPG::Client::UIMap3DContainerConfig* a1)
@@ -165,14 +168,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__ROTATEMODEL_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::System::Single, ::System::Single> _ComputeRotateSpeedDefault()
+		::System::ValueTuple _ComputeRotateSpeedDefault()
 		{
-			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDEFAULT_OFFSET))(this);
+			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDEFAULT_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::System::Single, ::System::Single> _ComputeRotateSpeedDamping()
+		::System::ValueTuple _ComputeRotateSpeedDamping()
 		{
-			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDAMPING_OFFSET))(this);
+			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEROTATESPEEDDAMPING_OFFSET))(this);
 		}
 
 		::System::Void _ClearRotateLock()
@@ -210,9 +213,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__ONMAP3DTOUCHENABLED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _ComputePitchOutRatio(::System::Single a1, ::System::Single& a2)
+		::System::Boolean _ComputePitchOutRatio(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEPITCHOUTRATIO_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__COMPUTEPITCHOUTRATIO_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ClampPitch()
@@ -225,9 +228,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__RECOVERPITCH_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::System::Single, ::System::Single> _FetchRotateInput()
+		::System::ValueTuple _FetchRotateInput()
 		{
-			return ((::System::ValueTuple_2<::System::Single, ::System::Single>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__FETCHROTATEINPUT_OFFSET))(this);
+			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER__FETCHROTATEINPUT_OFFSET))(this);
 		}
 
 		::System::Void _StartResetRotation()
@@ -269,5 +272,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIMAP3DCONTAINER_GET__CURRENTMODELUP_OFFSET))(this);
 		}
+
 	};
 }

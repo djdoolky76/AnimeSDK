@@ -1,54 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK { class AlertWithTitle; }
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_ALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B7308C0)
-#define MIHOYO_SDK_ALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1B731120)
-#define MIHOYO_SDK_ALERTWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1B731160)
-#define MIHOYO_SDK_ALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1B730F10)
-#define MIHOYO_SDK_ALERTWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1B730D50)
-#define MIHOYO_SDK_ALERTWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7311C0)
+#define MIHOYO_SDK_ALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC2E5C0)
+#define MIHOYO_SDK_ALERTWITHTITLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2EF70)
+#define MIHOYO_SDK_ALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC2EED0)
+#define MIHOYO_SDK_ALERTWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1BC2EF10)
+#define MIHOYO_SDK_ALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC2ECC0)
+#define MIHOYO_SDK_ALERTWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1BC2EB00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AlertWithTitle_TypeDefinitionIndex = 7952;
-
 	class AlertWithTitle : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::System::String* strTitleText; // 0x58
+		::System::String* strContent; // 0x60
+		::System::String* strConfirmBtnText; // 0x68
+		::System::Action* OnConfirm; // 0x70
+		::System::Boolean m_bAutoHide; // 0x78
+		::System::Byte _padding0[0x7];
+		::UnityEngine::UI::Text* titleText; // 0x80
+		::UnityEngine::UI::Text* contentText; // 0x88
+		::UnityEngine::UI::Button* confirmButton; // 0x90
+		::UnityEngine::UI::Text* confirmText; // 0x98
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(AlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x3D20);
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "AlertWithTitle")->GetStaticField(0x2FB30);
 		}
+
 		static ::MiHoYo::SDK::AlertWithTitle** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::AlertWithTitle**)Il2CppClass::FromTypeDefinitionIndex(AlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x3D28);
+			return (::MiHoYo::SDK::AlertWithTitle**)UnitySDK::FromName("MiHoYo.SDK", "AlertWithTitle")->GetStaticField(0x2FB38);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* DialogPath; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* ContentTextPath; // 0x0
 		// static const ::System::String* ConfirmBtnPath; // 0x0
 		// static const ::System::String* ConfirmBtnTextPath; // 0x0
-		::System::String* strTitleText; // 0x58
-		::System::String* strContent; // 0x60
-		::System::String* strConfirmBtnText; // 0x68
-		::System::Action* OnConfirm; // 0x70
-		::System::Boolean m_bAutoHide; // 0x78
-		::UnityEngine::UI::Text* titleText; // 0x80
-		::UnityEngine::UI::Text* contentText; // 0x88
-		::UnityEngine::UI::Button* confirmButton; // 0x90
-		::UnityEngine::UI::Text* confirmText; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTWITHTITLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTWITHTITLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -75,5 +75,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ALERTWITHTITLE_ONTAPCONFIRM_OFFSET))(this);
 		}
+
 	};
 }

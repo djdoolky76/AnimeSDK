@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/NPCBodySize.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class NpcBodyEyeConfig_EyeTransform; }
+namespace System { class Object; }
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcBodyEyeConfig_TypeDefinitionIndex = 60188;
-
 	struct alignas(8) NpcBodyEyeConfig
 	{
 		::RPG::GameCore::NPCBodySize bodySize; // 0x10
-		::Il2CppArray<::RPG::Client::NpcBodyEyeConfig_EyeTransform*>* transforms; // 0x18
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::System::Object*>* transforms; // 0x18
 		::UnityEngine::Vector3 eyeBlinkRotateAxis; // 0x20
 		::System::Single eyeBlinkRotateAngle; // 0x2C
 		::System::String* lookAtOriginPath; // 0x30

@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_LogLevel_TypeDefinitionIndex = 46551;
-
 	enum class HoYoSDKHttpDnsService_LogLevel : ::System::Int32
 	{
 		Debug = 0,

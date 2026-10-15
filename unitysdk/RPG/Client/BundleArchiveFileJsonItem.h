@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class BundleArchiveFileJsonItem; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_METHOD_1_0B1752331DB70EFD_OFFSET UNITYSDK_OFFSET(0xC97D4F0)
-#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC97D5A0)
+#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CB980)
+#define RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xC8CB8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BundleArchiveFileJsonItem_TypeDefinitionIndex = 61303;
-
 	class BundleArchiveFileJsonItem : public ::System::Object
 	{
 	public:
@@ -23,15 +21,15 @@ namespace RPG::Client
 		::System::Int64 TimeStamp; // 0x30
 		::System::String* FileName; // 0x38
 		::System::String* BaseAssetsDownloadUrl; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::BundleArchiveFileJsonItem* Method_1_0B1752331DB70EFD()
+		::RPG::Client::BundleArchiveFileJsonItem* NBHCPBBGAKA()
 		{
-			return ((::RPG::Client::BundleArchiveFileJsonItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_METHOD_1_0B1752331DB70EFD_OFFSET))(this);
+			return ((::RPG::Client::BundleArchiveFileJsonItem*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUNDLEARCHIVEFILEJSONITEM_NBHCPBBGAKA_OFFSET))(this);
 		}
+
 	};
 }

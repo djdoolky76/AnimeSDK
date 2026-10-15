@@ -1,62 +1,64 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/VisualDebugging/Unity/EntityBehaviour.h"
-
-class Class_1_A4633252561E9217;
-class Class_2_B9E8C2EEAA5C96EC;
-class Class_2_F47F7A3F5E97970D;
+class EFODGECFLLC;
+class HIOEAKHGILF;
+class IJHPDDHMEHA;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
+namespace Entitas::VisualDebugging::Unity { class EntityBehaviour; }
+namespace RPG::Client::LittleGame::FiveDim { class FiveDimEntityBehaviour; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0xD4DB710)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0xD4DC570)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_2D1F4D53DA59F649_OFFSET UNITYSDK_OFFSET(0xD4DCC20)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_4EC4B6C876972CA7_OFFSET UNITYSDK_OFFSET(0xD4DC720)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_5C4B7FC969B96152_OFFSET UNITYSDK_OFFSET(0xD4DCE20)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_5F08B426ADF31FF5_OFFSET UNITYSDK_OFFSET(0xD4DC150)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_DF3C54A5ADEABAF1_OFFSET UNITYSDK_OFFSET(0xD4DBBE0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD4DCA60)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0xD4DC8B0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_SETQUERYENTITYBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0xD4DB910)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0xD4DB960)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD4DD060)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_CLIDFBKPBDI_OFFSET UNITYSDK_OFFSET(0xD432F70)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xD433E80)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_DAANFKBGCCA_OFFSET UNITYSDK_OFFSET(0xD433540)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_HJAGKGDHELE_OFFSET UNITYSDK_OFFSET(0xD433A40)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_INIT_OFFSET UNITYSDK_OFFSET(0xD432530)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_KFLJFLFFLAP_OFFSET UNITYSDK_OFFSET(0xD433390)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_NPONPKJEJAO_OFFSET UNITYSDK_OFFSET(0xD433C40)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_OHCFJMEEDMO_OFFSET UNITYSDK_OFFSET(0xD432A00)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD433880)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_ONENTITYRELEASED_OFFSET UNITYSDK_OFFSET(0xD4336D0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_SETQUERYENTITYBEHAVIOUR_OFFSET UNITYSDK_OFFSET(0xD432730)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0xD432780)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimEntityBehaviour_TypeDefinitionIndex = 76393;
-
 	class FiveDimEntityBehaviour : public ::Entitas::VisualDebugging::Unity::EntityBehaviour
 	{
 	public:
+		::HIOEAKHGILF* KAKEIDJDNHJ; // 0x38
+		::EFODGECFLLC* EEFMDEHLLFI; // 0x40
+		::IJHPDDHMEHA* DODNHKCLIGO; // 0x48
+		::System::Func_2<::Entitas::IEntity*, ::RPG::Client::LittleGame::FiveDim::FiveDimEntityBehaviour*>* BIDDMADPNJB; // 0x50
 		static ::System::Boolean* StaticGet_s_ShowBriefBillboard()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FiveDimEntityBehaviour_TypeDefinitionIndex)->GetStaticField(0x14320);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "FiveDimEntityBehaviour")->GetStaticField(0xA110);
 		}
+
 		static ::System::Boolean* StaticGet_s_ShowDebugBillBoard()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FiveDimEntityBehaviour_TypeDefinitionIndex)->GetStaticField(0x14321);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "FiveDimEntityBehaviour")->GetStaticField(0xA111);
 		}
+
 		static ::System::Boolean* StaticGet_s_ShowDebugSurface()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FiveDimEntityBehaviour_TypeDefinitionIndex)->GetStaticField(0x14322);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "FiveDimEntityBehaviour")->GetStaticField(0xA112);
 		}
+
 		static ::System::Boolean* StaticGet_s_ShowDebugFollowCameraBounds()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FiveDimEntityBehaviour_TypeDefinitionIndex)->GetStaticField(0x14323);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "FiveDimEntityBehaviour")->GetStaticField(0xA113);
 		}
-		// static const ::System::Single DFOHPAMBNFF; // 0x0
-		::Class_2_B9E8C2EEAA5C96EC* KAKEIDJDNHJ; // 0x38
-		::Class_2_F47F7A3F5E97970D* EEFMDEHLLFI; // 0x40
-		::Class_1_A4633252561E9217* DODNHKCLIGO; // 0x48
-		::System::Func_2<::Entitas::IEntity*, ::RPG::Client::LittleGame::FiveDim::FiveDimEntityBehaviour*>* BIDDMADPNJB; // 0x50
 
+		// static const ::System::Object DFOHPAMBNFF; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::Entitas::IContext* a1, ::Entitas::IEntity* a2, ::System::Collections::Generic::Stack_1<::Entitas::VisualDebugging::Unity::EntityBehaviour*>* a3)
@@ -74,24 +76,24 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_DF3C54A5ADEABAF1()
+		::System::Void OHCFJMEEDMO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_DF3C54A5ADEABAF1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_OHCFJMEEDMO_OFFSET))(this);
 		}
 
-		::System::Void Method_6_5F08B426ADF31FF5()
+		::System::Void CLIDFBKPBDI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_5F08B426ADF31FF5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_CLIDFBKPBDI_OFFSET))(this);
 		}
 
-		::System::Void Method_6_06330CD58CB602B6()
+		::System::Void KFLJFLFFLAP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_KFLJFLFFLAP_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_4EC4B6C876972CA7(::System::UInt32& a1, ::System::String*& a2)
+		::System::Boolean DAANFKBGCCA(::System::UInt32 a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_4EC4B6C876972CA7_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_DAANFKBGCCA_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void onEntityReleased(::Entitas::IEntity* a1)
@@ -104,14 +106,15 @@ namespace RPG::Client::LittleGame::FiveDim
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_6_2D1F4D53DA59F649(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
+		::System::Void HJAGKGDHELE(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_2D1F4D53DA59F649_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_HJAGKGDHELE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_6_5C4B7FC969B96152(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
+		::System::Void NPONPKJEJAO(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_METHOD_6_5C4B7FC969B96152_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMENTITYBEHAVIOUR_NPONPKJEJAO_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -17,24 +17,22 @@
 #include "unitysdk/UnityEngine/RuntimeAreaLightShapeType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace ScenenLightManager { class EngineLight_ExportData_StencilDelegateExportData; }
 namespace ScenenLightManager { class EngineVolumetricLight_ExportData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90E270)
+#define SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE963D60)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EngineLight_ExportData_TypeDefinitionIndex = 49525;
-
 	class EngineLight_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:
 		::System::Single shadowNearPlane; // 0x10
 		::System::Boolean enabled; // 0x14
+		::System::Byte _padding0[0x3];
 		::UnityEngine::LightType type; // 0x18
 		::UnityEngine::Color color; // 0x1C
 		::System::Single intensity; // 0x2C
@@ -48,33 +46,42 @@ namespace ScenenLightManager
 		::System::Single shadowNormalBias; // 0x4C
 		::System::Boolean bakedShadowMapEnabled; // 0x50
 		::System::Boolean bakedShadowMapHighQuality; // 0x51
+		::System::Byte _padding1[0x6];
 		::System::String* bakedShadowMap; // 0x58
 		::System::Boolean bakedHybirdDynamicShadow; // 0x60
+		::System::Byte _padding2[0x3];
 		::System::Int32 bakedDesiredShadowmapResolution; // 0x64
 		::System::String* cookie; // 0x68
 		::System::Int32 cullingMask; // 0x70
 		::System::Int32 renderingLayerMask; // 0x74
 		::System::String* spotIESTex; // 0x78
 		::UnityEngine::RuntimeAreaLightShapeType runtimeAreaLightShape; // 0x80
+		::System::Byte _padding3[0x4];
 		::System::String* areaLightTex; // 0x88
 		::System::Boolean enableAreaLightFalloff; // 0x90
+		::System::Byte _padding4[0x3];
 		::System::Single lineRadius; // 0x94
 		::System::Int32 numLinePoints; // 0x98
+		::System::Byte _padding5[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* LinePoints; // 0xA0
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* LineDirections; // 0xA8
 		::System::Single CharIntensity; // 0xB0
 		::UnityEngine::Color CharColor; // 0xB4
 		::System::Boolean useBoundsRender; // 0xC4
+		::System::Byte _padding6[0x3];
 		::RPG::CustomRP::POSMType posmType; // 0xC8
 		::UnityEngine::Bounds _Bounds; // 0xCC
 		::UnityEngine::Quaternion _BoundsRotation; // 0xE4
 		::System::Boolean _OverrideBounds; // 0xF4
+		::System::Byte _padding7[0x3];
 		::UnityEngine::Vector3 LocalLightVolumeOffset; // 0xF8
 		::UnityEngine::Quaternion LocalLightVolume_Rot; // 0x104
 		::RPG::CustomRP::CRPLightType InternalLightType; // 0x114
 		::System::Boolean legecyFalloff; // 0x118
+		::System::Byte _padding8[0x3];
 		::System::Single falloffExp; // 0x11C
 		::System::Boolean useDirectionalAttenuation; // 0x120
+		::System::Byte _padding9[0x3];
 		::UnityEngine::Vector2 DirectionalBS; // 0x124
 		::UnityEngine::Vector2 CharacterLightFix; // 0x12C
 		::UnityEngine::Vector2 SceneLightFix; // 0x134
@@ -83,6 +90,7 @@ namespace ScenenLightManager
 		::System::Single CharacterAffectRatio; // 0x144
 		::System::Boolean CastVolumetricShadow; // 0x148
 		::System::Boolean EnableVolumetricScattering; // 0x149
+		::System::Byte _padding10[0x2];
 		::System::Single FogScatteringIntensity; // 0x14C
 		::System::Single LimitRotRange; // 0x150
 		::RPG::CustomRP::CustomAdditionalLightData_LocalLightParam OverlayColor; // 0x154
@@ -103,11 +111,13 @@ namespace ScenenLightManager
 		::RPG::CustomRP::CustomLightQualityFilter customLightQualityFilter; // 0x21C
 		::System::Single RangeCut; // 0x220
 		::System::Boolean ColorCookie; // 0x224
+		::System::Byte _padding11[0x3];
 		::System::Single SpotLightScale; // 0x228
 		::System::Single CookieAtten; // 0x22C
 		::System::Single CookieHeight; // 0x230
 		::UnityEngine::Vector2 areaSize; // 0x234
-		::System::Collections::Generic::List_1<::ScenenLightManager::EngineLight_ExportData_StencilDelegateExportData*>* stencilDelegates; // 0x240
+		::System::Byte _padding12[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* stencilDelegates; // 0x240
 		::RPG::CustomRP::CustomAdditionalLightData_AreaLightDelegateShapeType AreaLightDelegateShape; // 0x248
 		::UnityEngine::Vector3 BoxDelegateSize; // 0x24C
 		::UnityEngine::Vector3 BoxDelegateOffset; // 0x258
@@ -115,11 +125,12 @@ namespace ScenenLightManager
 		::System::UInt32 _Flag; // 0x268
 		::System::Boolean UsePipelineSettings; // 0x26C
 		::System::Boolean EnableVLight; // 0x26D
+		::System::Byte _padding13[0x2];
 		::ScenenLightManager::EngineVolumetricLight_ExportData* vlightData; // 0x270
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_ENGINELIGHT_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

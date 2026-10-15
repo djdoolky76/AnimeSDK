@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_IO_TEXTREADER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD64300)
-#define SYSTEM_IO_TEXTREADER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD64330)
-#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BD64340)
-#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_1_OFFSET UNITYSDK_OFFSET(0x1BD64400)
+#define SYSTEM_IO_TEXTREADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2700C0)
+#define SYSTEM_IO_TEXTREADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2700F0)
+#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_0_OFFSET UNITYSDK_OFFSET(0x1C270100)
+#define SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_1_OFFSET UNITYSDK_OFFSET(0x1C2701C0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int TextReader___c_TypeDefinitionIndex = 700;
-
 	class TextReader___c : public ::System::Object
 	{
 	public:
-		static ::System::IO::TextReader___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::IO::TextReader___c**)Il2CppClass::FromTypeDefinitionIndex(TextReader___c_TypeDefinitionIndex)->GetStaticField(0xCD50);
+			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15F30);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::String* __cctor_b__22_0(::System::Object* a1)
@@ -40,5 +38,6 @@ namespace System::IO
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTREADER___C___CCTOR_B__22_1_OFFSET))(this, a1);
 		}
+
 	};
 }

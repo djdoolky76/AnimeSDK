@@ -2,59 +2,57 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+namespace System { class Action; }
 namespace System { class Object; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UIDRAGGABLE_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0xE35A200)
-#define RPG_CLIENT_UIDRAGGABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE359640)
-#define RPG_CLIENT_UIDRAGGABLE_CLEAROBSTACLE_OFFSET UNITYSDK_OFFSET(0xE35A2F0)
-#define RPG_CLIENT_UIDRAGGABLE_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xE359730)
-#define RPG_CLIENT_UIDRAGGABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE359A60)
-#define RPG_CLIENT_UIDRAGGABLE_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xE359ED0)
-#define RPG_CLIENT_UIDRAGGABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xE359F60)
-#define RPG_CLIENT_UIDRAGGABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xE359FF0)
-#define RPG_CLIENT_UIDRAGGABLE_SETBEGINDRAGCALLBACK_OFFSET UNITYSDK_OFFSET(0xE35A080)
-#define RPG_CLIENT_UIDRAGGABLE_SETENDDRAGCALLBACK_OFFSET UNITYSDK_OFFSET(0xE35A0E0)
-#define RPG_CLIENT_UIDRAGGABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xE35A140)
-#define RPG_CLIENT_UIDRAGGABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xE35A1A0)
-#define RPG_CLIENT_UIDRAGGABLE_SIMULATEDRAG_OFFSET UNITYSDK_OFFSET(0xE35A360)
-#define RPG_CLIENT_UIDRAGGABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE35A8B0)
-#define RPG_CLIENT_UIDRAGGABLE__ISINOBSTACLERECTS_OFFSET UNITYSDK_OFFSET(0xE35A660)
-#define RPG_CLIENT_UIDRAGGABLE__TRYSETPOSITION_OFFSET UNITYSDK_OFFSET(0xE359CB0)
-#define RPG_CLIENT_UIDRAGGABLE__UPDATELIMITATION_OFFSET UNITYSDK_OFFSET(0xE3599B0)
+#define RPG_CLIENT_UIDRAGGABLE_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0xE39B870)
+#define RPG_CLIENT_UIDRAGGABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE39ACE0)
+#define RPG_CLIENT_UIDRAGGABLE_CLEAROBSTACLE_OFFSET UNITYSDK_OFFSET(0xE39B960)
+#define RPG_CLIENT_UIDRAGGABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE39BF20)
+#define RPG_CLIENT_UIDRAGGABLE_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xE39ADA0)
+#define RPG_CLIENT_UIDRAGGABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE39B0D0)
+#define RPG_CLIENT_UIDRAGGABLE_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xE39B540)
+#define RPG_CLIENT_UIDRAGGABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xE39B5D0)
+#define RPG_CLIENT_UIDRAGGABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xE39B660)
+#define RPG_CLIENT_UIDRAGGABLE_SETBEGINDRAGCALLBACK_OFFSET UNITYSDK_OFFSET(0xE39B6F0)
+#define RPG_CLIENT_UIDRAGGABLE_SETENDDRAGCALLBACK_OFFSET UNITYSDK_OFFSET(0xE39B750)
+#define RPG_CLIENT_UIDRAGGABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xE39B7B0)
+#define RPG_CLIENT_UIDRAGGABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xE39B810)
+#define RPG_CLIENT_UIDRAGGABLE_SIMULATEDRAG_OFFSET UNITYSDK_OFFSET(0xE39B9D0)
+#define RPG_CLIENT_UIDRAGGABLE__ISINOBSTACLERECTS_OFFSET UNITYSDK_OFFSET(0xE39BCD0)
+#define RPG_CLIENT_UIDRAGGABLE__TRYSETPOSITION_OFFSET UNITYSDK_OFFSET(0xE39B320)
+#define RPG_CLIENT_UIDRAGGABLE__UPDATELIMITATION_OFFSET UNITYSDK_OFFSET(0xE39B020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggable_TypeDefinitionIndex = 69048;
-
 	class UIDraggable : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean IsLimitedInContainer; // 0x18
 		::System::Boolean UseMouseLeftOnly; // 0x19
+		::System::Byte _padding0[0x6];
 		::UnityEngine::RectTransform* _Root; // 0x20
 		::UnityEngine::Vector2 _BeginRootLocalPosition; // 0x28
 		::UnityEngine::Vector2 _BeginDragLocalPosition; // 0x30
 		::UnityEngine::Vector2 _MinPosition; // 0x38
 		::UnityEngine::Vector2 _MaxPosition; // 0x40
 		::System::Single _ContainerOffset; // 0x48
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _ObstacleRects; // 0x50
-		::System::Action_1<::System::Object*>* _BeginDragCallback; // 0x58
+		::System::Action* _BeginDragCallback; // 0x58
 		::System::Object* _BeginDragCallbackParam; // 0x60
-		::System::Action_1<::System::Object*>* _EndDragCallback; // 0x68
+		::System::Action* _EndDragCallback; // 0x68
 		::System::Object* _EndDragCallbackParam; // 0x70
-		::System::Action_1<::System::Object*>* _PointerDownCallback; // 0x78
+		::System::Action* _PointerDownCallback; // 0x78
 		::System::Object* _PointerDownCallbackParam; // 0x80
-		::System::Action_1<::System::Object*>* _PointerUpCallback; // 0x88
+		::System::Action* _PointerUpCallback; // 0x88
 		::System::Object* _PointerUpCallbackParam; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -87,24 +85,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBeginDragCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		::System::Void SetBeginDragCallback(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETBEGINDRAGCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETBEGINDRAGCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetEndDragCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		::System::Void SetEndDragCallback(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETENDDRAGCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETENDDRAGCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPointerDownCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		::System::Void SetPointerDownCallback(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPointerUpCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		::System::Void SetPointerUpCallback(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AddObstacle(::UnityEngine::RectTransform* a1)
@@ -136,5 +134,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIDRAGGABLE__TRYSETPOSITION_OFFSET))(this, a1);
 		}
+
 	};
 }

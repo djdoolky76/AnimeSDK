@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class AutoMappingAttachPoint; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define ILLIEABHAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x164C4BA0)
+#define ILLIEABHAIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164C4BD0)
+
+	class ILLIEABHAIN
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AutoMappingAttachPoint* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AutoMappingAttachPoint*))((::PBYTE)hIl2Cpp + ILLIEABHAIN_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILLIEABHAIN_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

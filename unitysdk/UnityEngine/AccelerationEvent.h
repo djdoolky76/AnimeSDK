@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AccelerationEvent_TypeDefinitionIndex = 5775;
-
 	struct alignas(4) AccelerationEvent
 	{
 		::System::Single x; // 0x10

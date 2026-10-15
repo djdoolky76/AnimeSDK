@@ -3,8 +3,6 @@
 
 namespace System::Security::Util
 {
-	inline static constexpr unsigned int Tokenizer_TokenSource_TypeDefinitionIndex = 976;
-
 	enum class Tokenizer_TokenSource : ::System::Int32
 	{
 		UnicodeByteArray = 0,

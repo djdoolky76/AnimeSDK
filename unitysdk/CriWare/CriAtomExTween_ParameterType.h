@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExTween_ParameterType_TypeDefinitionIndex = 38770;
-
 	enum class CriAtomExTween_ParameterType : ::System::Int32
 	{
 		Basic = 0,

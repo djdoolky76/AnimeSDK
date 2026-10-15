@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_TargetPointType_TypeDefinitionIndex = 24186;
-
 	enum class ST_TargetPointType : ::System::Int32
 	{
 		LocalPlayer = 0,

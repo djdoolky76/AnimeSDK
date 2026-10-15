@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE80E0E0)
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE80E1E0)
-#define RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE80E250)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8AB9F0)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ABB60)
+#define RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8ABAF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AmbientTextTrack_TypeDefinitionIndex = 48307;
-
 	class AmbientTextTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +29,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AMBIENTTEXTTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class SimpleText; }
 namespace System { class Action; }
@@ -12,28 +11,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD650500)
-#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD650540)
-#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_PLAY_1_OFFSET UNITYSDK_OFFSET(0xD650BD0)
-#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_PLAY_OFFSET UNITYSDK_OFFSET(0xD650770)
-#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_SETSIZE_OFFSET UNITYSDK_OFFSET(0xD6506F0)
-#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD6504C0)
-#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD650D30)
+#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_CTOR_OFFSET UNITYSDK_OFFSET(0xD5AAF70)
+#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD5AA740)
+#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD5AA780)
+#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_PLAY_1_OFFSET UNITYSDK_OFFSET(0xD5AAE10)
+#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_PLAY_OFFSET UNITYSDK_OFFSET(0xD5AA9B0)
+#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_SETSIZE_OFFSET UNITYSDK_OFFSET(0xD5AA930)
+#define RPG_CLIENT_MATCHTHREEPOWERCOUNTER_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD5AA700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreePowerCounter_TypeDefinitionIndex = 66007;
-
 	class MatchThreePowerCounter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::MatchThreeBoard* MIPPNCGOJNM; // 0x18
 		::RPG::Client::SimpleText* GEPFFDDHPAI; // 0x20
 		::UnityEngine::Animation* PMOJILOJEPE; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPOWERCOUNTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPOWERCOUNTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -65,5 +61,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEPOWERCOUNTER_PLAY_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

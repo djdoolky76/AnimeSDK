@@ -2,43 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SpritePresetStrategyType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_1036;
+class BCCNOOJJPCD;
 namespace System { class String; }
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_SPRITEPRESETAPPLIER_GET_PRESETNAME_OFFSET UNITYSDK_OFFSET(0xE0C1C00)
-#define RPG_CLIENT_SPRITEPRESETAPPLIER_METHOD_1_016E85CEDEE00FF4_OFFSET UNITYSDK_OFFSET(0xE0C1940)
-#define RPG_CLIENT_SPRITEPRESETAPPLIER_METHOD_1_2F2F7924D292824D_1_OFFSET UNITYSDK_OFFSET(0xE0C19D0)
-#define RPG_CLIENT_SPRITEPRESETAPPLIER_METHOD_1_2F2F7924D292824D_OFFSET UNITYSDK_OFFSET(0xE0C16D0)
-#define RPG_CLIENT_SPRITEPRESETAPPLIER_SET_PRESETNAME_OFFSET UNITYSDK_OFFSET(0xE0C1C10)
-#define RPG_CLIENT_SPRITEPRESETAPPLIER__CTOR_OFFSET UNITYSDK_OFFSET(0xE0C1C20)
+#define RPG_CLIENT_SPRITEPRESETAPPLIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE102940)
+#define RPG_CLIENT_SPRITEPRESETAPPLIER_GET_PRESETNAME_OFFSET UNITYSDK_OFFSET(0xE102920)
+#define RPG_CLIENT_SPRITEPRESETAPPLIER_GLCGLICFJAK_OFFSET UNITYSDK_OFFSET(0xE102660)
+#define RPG_CLIENT_SPRITEPRESETAPPLIER_IPPIHFPKBOC_OFFSET UNITYSDK_OFFSET(0xE1026F0)
+#define RPG_CLIENT_SPRITEPRESETAPPLIER_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE1023F0)
+#define RPG_CLIENT_SPRITEPRESETAPPLIER_SET_PRESETNAME_OFFSET UNITYSDK_OFFSET(0xE102930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpritePresetApplier_TypeDefinitionIndex = 68990;
-
 	class SpritePresetApplier : public ::System::Object
 	{
 	public:
 		::UnityEngine::Component* _ComponentRef; // 0x10
 		::System::String* _PresetName; // 0x18
 		::RPG::GameCore::SpritePresetStrategyType _StrategyType; // 0x20
-		::Class_0_16E4307DCC419505_1036* _StrategyCache; // 0x28
-
+		::System::Byte _padding0[0x4];
+		::BCCNOOJJPCD* _StrategyCache; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_2F2F7924D292824D(::System::String* a1)
+		::System::Void PKADDEPKJFN(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_METHOD_1_2F2F7924D292824D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_PKADDEPKJFN_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_2F2F7924D292824D_1(::System::String* a1)
+		::System::Void IPPIHFPKBOC(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_METHOD_1_2F2F7924D292824D_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_IPPIHFPKBOC_OFFSET))(this, a1);
 		}
 
 		::System::String* get_PresetName()
@@ -51,9 +48,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_SET_PRESETNAME_OFFSET))(this, a1);
 		}
 
-		::Class_0_16E4307DCC419505_1036* Method_1_016E85CEDEE00FF4()
+		::BCCNOOJJPCD* GLCGLICFJAK()
 		{
-			return ((::Class_0_16E4307DCC419505_1036*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_METHOD_1_016E85CEDEE00FF4_OFFSET))(this);
+			return ((::BCCNOOJJPCD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SPRITEPRESETAPPLIER_GLCGLICFJAK_OFFSET))(this);
 		}
+
 	};
 }

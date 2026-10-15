@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AlleyEventInfo.h"
 #include "unitysdk/RPG/GameCore/AlleyPackGoodsTypeEnum.h"
 #include "unitysdk/RPG/GameCore/EventTypeEnum.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/AlleyEventInfo.h"
 namespace RPG::Client { class LuaUIController; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODANCHORCOUNTBYGOODID_OFFSET UNITYSDK_OFFSET(0xC75C200)
-#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODTYPEBYGOODID_OFFSET UNITYSDK_OFFSET(0xC75C340)
-#define RPG_CLIENT_ALLEYUTILS_ISEXISTINGURGENTEVENTMISSION_OFFSET UNITYSDK_OFFSET(0xC75BFF0)
-#define RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET UNITYSDK_OFFSET(0xC75BE90)
+#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODANCHORCOUNTBYGOODID_OFFSET UNITYSDK_OFFSET(0xC67A370)
+#define RPG_CLIENT_ALLEYUTILS_GETALLEYGOODTYPEBYGOODID_OFFSET UNITYSDK_OFFSET(0xC67A4B0)
+#define RPG_CLIENT_ALLEYUTILS_ISEXISTINGURGENTEVENTMISSION_OFFSET UNITYSDK_OFFSET(0xC67A160)
+#define RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET UNITYSDK_OFFSET(0xC67A000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyUtils_TypeDefinitionIndex = 62354;
-
 	class AlleyUtils : public ::System::Object
 	{
 	public:
-		static ::System::Void ShowAlleyMainEntrancePage(::System::Action_1<::RPG::Client::LuaUIController*>* a1)
+		static ::System::Void ShowAlleyMainEntrancePage(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::System::Action_1<::RPG::Client::LuaUIController*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYUTILS_SHOWALLEYMAINENTRANCEPAGE_OFFSET))(a1);
 		}
 
 		static ::System::Boolean IsExistingUrgentEventMission(::System::Collections::Generic::List_1<::RPG::Client::AlleyEventInfo>* a1, ::RPG::GameCore::EventTypeEnum a2)
@@ -40,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::AlleyPackGoodsTypeEnum(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYUTILS_GETALLEYGOODTYPEBYGOODID_OFFSET))(a1);
 		}
+
 	};
 }

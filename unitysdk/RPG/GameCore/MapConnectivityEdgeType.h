@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapConnectivityEdgeType_TypeDefinitionIndex = 17184;
-
 	enum class MapConnectivityEdgeType : ::System::Int32
 	{
 		Default = 0,

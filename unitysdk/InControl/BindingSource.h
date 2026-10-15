@@ -1,37 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/InControl/BindingSourceType.h"
-#include "unitysdk/InControl/InputDeviceClass.h"
-#include "unitysdk/InControl/InputDeviceStyle.h"
 #include "unitysdk/System/Object.h"
-
-namespace InControl { class InputDevice; }
+namespace InControl { class BindingSource; }
 namespace InControl { class PlayerAction; }
-namespace System { class String; }
-namespace System::IO { class BinaryReader; }
-namespace System::IO { class BinaryWriter; }
+namespace System { class Object; }
 
-#define INCONTROL_BINDINGSOURCE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B4E79F0)
-#define INCONTROL_BINDINGSOURCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B4E7AE0)
-#define INCONTROL_BINDINGSOURCE_GET_BOUNDTO_OFFSET UNITYSDK_OFFSET(0x1B4E7AF0)
-#define INCONTROL_BINDINGSOURCE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B4E7B10)
-#define INCONTROL_BINDINGSOURCE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B4E7840)
-#define INCONTROL_BINDINGSOURCE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B4E79E0)
-#define INCONTROL_BINDINGSOURCE_SET_BOUNDTO_OFFSET UNITYSDK_OFFSET(0x1B4E7B00)
-#define INCONTROL_BINDINGSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E7B20)
+#define INCONTROL_BINDINGSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E64A0)
+#define INCONTROL_BINDINGSOURCE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B9E6370)
+#define INCONTROL_BINDINGSOURCE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B9E6460)
+#define INCONTROL_BINDINGSOURCE_GET_BOUNDTO_OFFSET UNITYSDK_OFFSET(0x1B9E6470)
+#define INCONTROL_BINDINGSOURCE_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1B9E6490)
+#define INCONTROL_BINDINGSOURCE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B9E61C0)
+#define INCONTROL_BINDINGSOURCE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B9E6360)
+#define INCONTROL_BINDINGSOURCE_SET_BOUNDTO_OFFSET UNITYSDK_OFFSET(0x1B9E6480)
 
 namespace InControl
 {
-	inline static constexpr unsigned int BindingSource_TypeDefinitionIndex = 39496;
-
 	class BindingSource : public ::System::Object
 	{
 	public:
 		::InControl::PlayerAction* _BoundTo_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_BINDINGSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_BINDINGSOURCE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean op_Equality(::InControl::BindingSource* a1, ::InControl::BindingSource* a2)
@@ -44,9 +35,9 @@ namespace InControl
 			return ((::System::Boolean(*)(::InControl::BindingSource*, ::InControl::BindingSource*))((::PBYTE)hIl2Cpp + INCONTROL_BINDINGSOURCE_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Equals(::System::Object* a1)
+		::System::Boolean Equals_1(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_BINDINGSOURCE_EQUALS_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + INCONTROL_BINDINGSOURCE_EQUALS_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
@@ -68,5 +59,6 @@ namespace InControl
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_BINDINGSOURCE_GET_ISVALID_OFFSET))(this);
 		}
+
 	};
 }

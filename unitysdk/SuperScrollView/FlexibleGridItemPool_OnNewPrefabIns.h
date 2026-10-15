@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE945F60)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE945F90)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_INVOKE_OFFSET UNITYSDK_OFFSET(0xE945B00)
-#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS__CTOR_OFFSET UNITYSDK_OFFSET(0xE945EF0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE99B4E0)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_CTOR_OFFSET UNITYSDK_OFFSET(0xE99B470)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE99B510)
+#define SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_INVOKE_OFFSET UNITYSDK_OFFSET(0xE99B050)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int FlexibleGridItemPool_OnNewPrefabIns_TypeDefinitionIndex = 48101;
-
 	class FlexibleGridItemPool_OnNewPrefabIns : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +35,6 @@ namespace SuperScrollView
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_FLEXIBLEGRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ComInterfaceType_TypeDefinitionIndex = 1405;
-
 	enum class ComInterfaceType : ::System::Int32
 	{
 		InterfaceIsDual = 0,

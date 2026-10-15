@@ -1,8 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -12,63 +12,62 @@ namespace System::Runtime::Serialization { class ISerializationSurrogate; }
 namespace System::Runtime::Serialization { class ISurrogateSelector; }
 namespace System::Runtime::Serialization { class ObjectManager; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
+namespace System::Runtime::Serialization::Formatters::Binary { class ReadObjectInfo; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SerObjectInfoCache; }
 namespace System::Runtime::Serialization::Formatters::Binary { class SerObjectInfoInit; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1BE142A0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1BE105D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x1BE104F0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x1BE14680)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPES_OFFSET UNITYSDK_OFFSET(0x1BE0E5B0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1BE1A300)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x1BE19890)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1BE14160)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET UNITYSDK_OFFSET(0x1BE0F430)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x1BE19F10)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITNOMEMBERS_OFFSET UNITYSDK_OFFSET(0x1BE19DA0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITREADCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1BE19930)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITSIREAD_OFFSET UNITYSDK_OFFSET(0x1BE19E60)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_1_OFFSET UNITYSDK_OFFSET(0x1BE19D10)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1BE198E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_OBJECTEND_OFFSET UNITYSDK_OFFSET(0x1BE12F50)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POPULATEOBJECTMEMBERS_OFFSET UNITYSDK_OFFSET(0x1BE12AA0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POSITION_OFFSET UNITYSDK_OFFSET(0x1BE1A4D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_PREPAREFORREUSE_OFFSET UNITYSDK_OFFSET(0x1BE0F4E0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_RECORDFIXUP_OFFSET UNITYSDK_OFFSET(0x1BE143C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE19880)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1C31FD90)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1C31C120)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0x1C31C040)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3253D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x1C320170)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPES_OFFSET UNITYSDK_OFFSET(0x1C31A1F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETMEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1C325E50)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETOBJECTINFO_OFFSET UNITYSDK_OFFSET(0x1C3253E0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1C31FC50)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET UNITYSDK_OFFSET(0x1C31B000)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITMEMBERINFO_OFFSET UNITYSDK_OFFSET(0x1C325A60)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITNOMEMBERS_OFFSET UNITYSDK_OFFSET(0x1C3258F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITREADCONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1C325480)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITSIREAD_OFFSET UNITYSDK_OFFSET(0x1C3259B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_1_OFFSET UNITYSDK_OFFSET(0x1C325860)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1C325430)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_OBJECTEND_OFFSET UNITYSDK_OFFSET(0x1C31EA60)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POPULATEOBJECTMEMBERS_OFFSET UNITYSDK_OFFSET(0x1C31E5B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_POSITION_OFFSET UNITYSDK_OFFSET(0x1C326020)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_PREPAREFORREUSE_OFFSET UNITYSDK_OFFSET(0x1C31B0B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_RECORDFIXUP_OFFSET UNITYSDK_OFFSET(0x1C31FEB0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ReadObjectInfo_TypeDefinitionIndex = 1183;
-
 	class ReadObjectInfo : public ::System::Object
 	{
 	public:
+		::Il2CppArray<::System::String*>* wireMemberNames; // 0x10
+		::System::Runtime::Serialization::IFormatterConverter* formatterConverter; // 0x18
+		::System::Runtime::Serialization::ObjectManager* objectManager; // 0x20
+		::Il2CppArray<::System::Type*>* wireMemberTypes; // 0x28
+		::System::Collections::Generic::List_1<::System::Type*>* memberTypesList; // 0x30
+		::System::Runtime::Serialization::StreamingContext context; // 0x38
+		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit; // 0x48
+		::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate; // 0x50
+		::System::Type* objectType; // 0x58
+		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache; // 0x60
+		::System::Int32 objectInfoId; // 0x68
+		::System::Int32 lastPosition; // 0x6C
+		::System::Int32 count; // 0x70
+		::System::Boolean isTyped; // 0x74
+		::System::Boolean isNamed; // 0x75
+		::System::Boolean bSimpleAssembly; // 0x76
+		::System::Boolean isSi; // 0x77
 		static ::System::Int32* StaticGet_readObjectInfoCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ReadObjectInfo_TypeDefinitionIndex)->GetStaticField(0x8420);
+			return (::System::Int32*)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "ReadObjectInfo")->GetStaticField(0x5FD0);
 		}
-		::Il2CppArray<::System::String*>* wireMemberNames; // 0x10
-		::System::Collections::Generic::List_1<::System::Type*>* memberTypesList; // 0x18
-		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache; // 0x20
-		::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit; // 0x28
-		::System::Runtime::Serialization::StreamingContext context; // 0x30
-		::System::Runtime::Serialization::IFormatterConverter* formatterConverter; // 0x40
-		::System::Type* objectType; // 0x48
-		::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate; // 0x50
-		::Il2CppArray<::System::Type*>* wireMemberTypes; // 0x58
-		::System::Runtime::Serialization::ObjectManager* objectManager; // 0x60
-		::System::Int32 lastPosition; // 0x68
-		::System::Boolean isNamed; // 0x6C
-		::System::Boolean isTyped; // 0x6D
-		::System::Boolean isSi; // 0x6E
-		::System::Boolean bSimpleAssembly; // 0x6F
-		::System::Int32 objectInfoId; // 0x70
-		::System::Int32 count; // 0x74
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ObjectEnd()
@@ -131,14 +130,14 @@ namespace System::Runtime::Serialization::Formatters::Binary
 			return ((::System::Type*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddValue(::System::String* a1, ::System::Object* a2, ::System::Runtime::Serialization::SerializationInfo*& a3, ::Il2CppArray<::System::Object*>*& a4)
+		::System::Void AddValue(::System::String* a1, ::System::Object* a2, ::System::Runtime::Serialization::SerializationInfo* a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_ADDVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void InitDataStore(::System::Runtime::Serialization::SerializationInfo*& a1, ::Il2CppArray<::System::Object*>*& a2)
+		::System::Void InitDataStore(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_INITDATASTORE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RecordFixup(::System::Int64 a1, ::System::String* a2, ::System::Int64 a3)
@@ -170,5 +169,6 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return ((::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*(*)(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_READOBJECTINFO_GETOBJECTINFO_OFFSET))(a1);
 		}
+
 	};
 }

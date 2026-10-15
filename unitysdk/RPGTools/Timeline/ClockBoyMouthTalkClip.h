@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE836240)
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE836230)
-#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8363D0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D3FC0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D4150)
+#define RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D3FB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ClockBoyMouthTalkClip_TypeDefinitionIndex = 48494;
-
 	class ClockBoyMouthTalkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYMOUTHTALKCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

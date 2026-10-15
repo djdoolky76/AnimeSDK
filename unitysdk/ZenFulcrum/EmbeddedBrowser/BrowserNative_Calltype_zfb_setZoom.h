@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8B790)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8B800)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF79DE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8B720)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F653CB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F653C40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F653D20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F641C40)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setZoom_TypeDefinitionIndex = 38139;
-
 	class BrowserNative_Calltype_zfb_setZoom : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Double a2)
@@ -37,5 +34,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETZOOM_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

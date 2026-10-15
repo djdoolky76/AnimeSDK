@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System { class Version; }
@@ -12,70 +11,69 @@ namespace System::Net { class HttpListenerContext; }
 namespace System::Net { class IPEndPoint; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_HTTPLISTENERREQUEST_ADDHEADER_OFFSET UNITYSDK_OFFSET(0x1E988020)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_CREATEQUERYSTRING_OFFSET UNITYSDK_OFFSET(0x1E98E170)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_FINISHINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x1E9865E0)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_FLUSHINPUT_OFFSET UNITYSDK_OFFSET(0x1E9898B0)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_HASENTITYBODY_OFFSET UNITYSDK_OFFSET(0x1E98EC60)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1E98ED00)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_HTTPMETHOD_OFFSET UNITYSDK_OFFSET(0x1E98ED10)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_INPUTSTREAM_OFFSET UNITYSDK_OFFSET(0x1E98EC80)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_ISSECURECONNECTION_OFFSET UNITYSDK_OFFSET(0x1E98E9F0)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_KEEPALIVE_OFFSET UNITYSDK_OFFSET(0x1E989610)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x1E98EA20)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_PROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x1E98ED20)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_QUERYSTRING_OFFSET UNITYSDK_OFFSET(0x1E98ED30)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_URL_OFFSET UNITYSDK_OFFSET(0x1E98ED40)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_USERHOSTADDRESS_OFFSET UNITYSDK_OFFSET(0x1E98E950)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_USERHOSTNAME_OFFSET UNITYSDK_OFFSET(0x1E98E8B0)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_ISPREDEFINEDSCHEME_OFFSET UNITYSDK_OFFSET(0x1E98E6E0)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_MAYBEURI_OFFSET UNITYSDK_OFFSET(0x1E98E650)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_SETREQUESTLINE_OFFSET UNITYSDK_OFFSET(0x1E987B70)
-#define SYSTEM_NET_HTTPLISTENERREQUEST_UNQUOTE_OFFSET UNITYSDK_OFFSET(0x1E98EBE0)
-#define SYSTEM_NET_HTTPLISTENERREQUEST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E98ED50)
-#define SYSTEM_NET_HTTPLISTENERREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E98D2F0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_ADDHEADER_OFFSET UNITYSDK_OFFSET(0x1F050B50)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0579A0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_CREATEQUERYSTRING_OFFSET UNITYSDK_OFFSET(0x1F056DC0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F055E90)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_FINISHINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x1F04F110)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_FLUSHINPUT_OFFSET UNITYSDK_OFFSET(0x1F0523E0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_HASENTITYBODY_OFFSET UNITYSDK_OFFSET(0x1F0578B0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1F057950)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_HTTPMETHOD_OFFSET UNITYSDK_OFFSET(0x1F057960)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_INPUTSTREAM_OFFSET UNITYSDK_OFFSET(0x1F0578D0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_ISSECURECONNECTION_OFFSET UNITYSDK_OFFSET(0x1F057640)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_KEEPALIVE_OFFSET UNITYSDK_OFFSET(0x1F052140)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x1F057670)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_PROTOCOLVERSION_OFFSET UNITYSDK_OFFSET(0x1F057970)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_QUERYSTRING_OFFSET UNITYSDK_OFFSET(0x1F057980)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_URL_OFFSET UNITYSDK_OFFSET(0x1F057990)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_USERHOSTADDRESS_OFFSET UNITYSDK_OFFSET(0x1F0575A0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_GET_USERHOSTNAME_OFFSET UNITYSDK_OFFSET(0x1F057500)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_ISPREDEFINEDSCHEME_OFFSET UNITYSDK_OFFSET(0x1F057330)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_MAYBEURI_OFFSET UNITYSDK_OFFSET(0x1F0572A0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_SETREQUESTLINE_OFFSET UNITYSDK_OFFSET(0x1F0506A0)
+#define SYSTEM_NET_HTTPLISTENERREQUEST_UNQUOTE_OFFSET UNITYSDK_OFFSET(0x1F057830)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpListenerRequest_TypeDefinitionIndex = 2853;
-
 	class HttpListenerRequest : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet__100continue()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequest_TypeDefinitionIndex)->GetStaticField(0x1BAB0);
-		}
+		::System::Uri* referrer; // 0x10
+		::System::String* raw_url; // 0x18
+		::System::Net::HttpListenerContext* context; // 0x20
+		::System::Net::CookieCollection* cookies; // 0x28
+		::Il2CppArray<::System::String*>* accept_types; // 0x30
+		::System::Net::WebHeaderCollection* headers; // 0x38
+		::Il2CppArray<::System::String*>* user_languages; // 0x40
+		::System::Collections::Specialized::NameValueCollection* query_string; // 0x48
+		::System::Uri* url; // 0x50
+		::System::IO::Stream* input_stream; // 0x58
+		::System::String* method; // 0x60
+		::System::Version* version; // 0x68
+		::System::Int64 content_length; // 0x70
+		::System::Boolean cl_set; // 0x78
+		::System::Boolean keep_alive; // 0x79
+		::System::Boolean is_chunked; // 0x7A
+		::System::Boolean ka_set; // 0x7B
 		static ::Il2CppArray<::System::Char>** StaticGet_separators()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequest_TypeDefinitionIndex)->GetStaticField(0x1BAB8);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "HttpListenerRequest")->GetStaticField(0x25C50);
 		}
-		::System::String* method; // 0x10
-		::System::String* raw_url; // 0x18
-		::System::Uri* url; // 0x20
-		::System::Net::WebHeaderCollection* headers; // 0x28
-		::System::Net::HttpListenerContext* context; // 0x30
-		::System::Collections::Specialized::NameValueCollection* query_string; // 0x38
-		::System::Version* version; // 0x40
-		::System::Uri* referrer; // 0x48
-		::System::IO::Stream* input_stream; // 0x50
-		::Il2CppArray<::System::String*>* accept_types; // 0x58
-		::Il2CppArray<::System::String*>* user_languages; // 0x60
-		::System::Net::CookieCollection* cookies; // 0x68
-		::System::Boolean is_chunked; // 0x70
-		::System::Boolean cl_set; // 0x71
-		::System::Boolean ka_set; // 0x72
-		::System::Boolean keep_alive; // 0x73
-		::System::Int64 content_length; // 0x78
+
+		static ::Il2CppArray<::System::Byte>** StaticGet__100continue()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Net", "HttpListenerRequest")->GetStaticField(0x25C58);
+		}
 
 		::System::Void _ctor(::System::Net::HttpListenerContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerContext*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUEST__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpListenerContext*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUEST_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUEST__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUEST_CCTOR_OFFSET))();
 		}
 
 		::System::Void SetRequestLine(::System::String* a1)
@@ -177,5 +175,6 @@ namespace System::Net
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUEST_GET_USERHOSTNAME_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PSCommerceDialogCheckoutResult.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B93D000)
-#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B93D090)
-#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B93CFF0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93CF80)
+#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3D3B0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3D330)
+#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3D440)
+#define MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3D3A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_CommerceCheckoutCallback_TypeDefinitionIndex = 7594;
-
 	class ConsoleDelegate_CommerceCheckoutCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PSCommerceDialogCheckoutResult a1, ::System::Int32 a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_COMMERCECHECKOUTCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

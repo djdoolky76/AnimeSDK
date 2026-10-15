@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingBattleBulletTypeExtraConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_METHOD_2_06EECDD6DF72445D_OFFSET UNITYSDK_OFFSET(0x1CFA8540)
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_METHOD_2_624A70F1B52DB429_OFFSET UNITYSDK_OFFSET(0x1CFA8740)
-#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA8360)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D582FF0)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5833D0)
+#define RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5831D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleBulletTypeExtraConfig_TypeDefinitionIndex = 15541;
-
 	class ChenLingBattleBulletTypeExtraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_06EECDD6DF72445D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_METHOD_2_06EECDD6DF72445D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_624A70F1B52DB429(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_METHOD_2_624A70F1B52DB429_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleBulletTypeExtraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEBULLETTYPEEXTRACONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

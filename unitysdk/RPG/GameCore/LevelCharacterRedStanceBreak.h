@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelCharacterRedStanceBreak; }
 
-#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_CLEAR_OFFSET UNITYSDK_OFFSET(0xE687DE0)
-#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE687E80)
-#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE687E30)
-#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_INIT_OFFSET UNITYSDK_OFFSET(0xE687D80)
-#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0xE687ED0)
+#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E35C0)
+#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E36B0)
+#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E3660)
+#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E3610)
+#define RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_INIT_OFFSET UNITYSDK_OFFSET(0xE6E3560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterRedStanceBreak_TypeDefinitionIndex = 56981;
-
-	class LevelCharacterRedStanceBreak : public ::Class_1_BF7A075734D15E98
+	class LevelCharacterRedStanceBreak : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* AttackerEntity; // 0x18
-		::RPG::GameCore::GameEntity* Entity; // 0x20
-
+		::RPG::GameCore::GameEntity* Entity; // 0x18
+		::RPG::GameCore::GameEntity* AttackerEntity; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelCharacterRedStanceBreak* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
@@ -45,5 +42,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERREDSTANCEBREAK_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

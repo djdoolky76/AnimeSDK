@@ -3,23 +3,22 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SimplexCache.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2COLLISIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2BAA00)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2COLLISIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C80ABC0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Collisions_TypeDefinitionIndex = 35926;
-
 	class B2Collisions : public ::System::Object
 	{
 	public:
 		static ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache* StaticGet_b2_emptySimplexCache()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache*)Il2CppClass::FromTypeDefinitionIndex(B2Collisions_TypeDefinitionIndex)->GetStaticField(0xB810);
+			return (::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SimplexCache*)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "B2Collisions")->GetStaticField(0x7240);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2COLLISIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2COLLISIONS_CCTOR_OFFSET))();
 		}
+
 	};
 }

@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class AttackData; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define DJEDIOOMGCE_CTOR_OFFSET UNITYSDK_OFFSET(0xF22EFC0)
+#define DJEDIOOMGCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF22F030)
+
+	class DJEDIOOMGCE : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::AttackData* FHEPHLNLKJL; // 0x10
+		::RPG::GameCore::AttackDamageType ECBKGBGGLEO; // 0x18
+		::RPG::GameCore::AttackDamageType MFLCOOMNPLA; // 0x1C
+		::System::Void _ctor(::RPG::GameCore::AttackData* a1, ::RPG::GameCore::TaskContext* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackData*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + DJEDIOOMGCE_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJEDIOOMGCE_DISPOSE_OFFSET))(this);
+		}
+
+	};

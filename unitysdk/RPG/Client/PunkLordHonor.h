@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class PunkLordHonorRow; }
 
-#define RPG_CLIENT_PUNKLORDHONOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDDB04B0)
-#define RPG_CLIENT_PUNKLORDHONOR_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xDDB0520)
-#define RPG_CLIENT_PUNKLORDHONOR_GET_ROW_OFFSET UNITYSDK_OFFSET(0xDDB0490)
-#define RPG_CLIENT_PUNKLORDHONOR_SET_ROW_OFFSET UNITYSDK_OFFSET(0xDDB04A0)
-#define RPG_CLIENT_PUNKLORDHONOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDDB0450)
+#define RPG_CLIENT_PUNKLORDHONOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDDFE6C0)
+#define RPG_CLIENT_PUNKLORDHONOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDDFE720)
+#define RPG_CLIENT_PUNKLORDHONOR_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xDDFE790)
+#define RPG_CLIENT_PUNKLORDHONOR_GET_ROW_OFFSET UNITYSDK_OFFSET(0xDDFE700)
+#define RPG_CLIENT_PUNKLORDHONOR_SET_ROW_OFFSET UNITYSDK_OFFSET(0xDDFE710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PunkLordHonor_TypeDefinitionIndex = 66752;
-
 	class PunkLordHonor : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::PunkLordHonorRow* _Row_k__BackingField; // 0x10
 		::System::UInt32 UID; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::PunkLordHonorRow* get_Row()
@@ -45,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PUNKLORDHONOR_GET_PRIORITY_OFFSET))(this);
 		}
+
 	};
 }

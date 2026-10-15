@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SwitchRefBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SWITCHREFBASE_METHOD_2_2FCA7736F13237C5_OFFSET UNITYSDK_OFFSET(0x1D58EA30)
-#define RPG_GAMECORE_SWITCHREFBASE_METHOD_2_38696A2313BF856F_OFFSET UNITYSDK_OFFSET(0x1D58FB30)
-#define RPG_GAMECORE_SWITCHREFBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58FB90)
+#define RPG_GAMECORE_SWITCHREFBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB46760)
+#define RPG_GAMECORE_SWITCHREFBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB46700)
+#define RPG_GAMECORE_SWITCHREFBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB45600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchRefBase_TypeDefinitionIndex = 23494;
-
 	class SwitchRefBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_2FCA7736F13237C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchRefBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchRefBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchRefBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE_METHOD_2_2FCA7736F13237C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchRefBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_38696A2313BF856F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchRefBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchRefBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchRefBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE_METHOD_2_38696A2313BF856F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchRefBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

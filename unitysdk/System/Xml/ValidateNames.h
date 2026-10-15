@@ -1,38 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XmlCharType.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define SYSTEM_XML_VALIDATENAMES_GETINVALIDNAMEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E876A90)
-#define SYSTEM_XML_VALIDATENAMES_ISNAMENONAMESPACES_OFFSET UNITYSDK_OFFSET(0x1E876300)
-#define SYSTEM_XML_VALIDATENAMES_PARSENAMENONAMESPACES_OFFSET UNITYSDK_OFFSET(0x1E8760E0)
-#define SYSTEM_XML_VALIDATENAMES_PARSENCNAME_1_OFFSET UNITYSDK_OFFSET(0x1E876520)
-#define SYSTEM_XML_VALIDATENAMES_PARSENCNAME_OFFSET UNITYSDK_OFFSET(0x1E876380)
-#define SYSTEM_XML_VALIDATENAMES_PARSENMTOKENNONAMESPACES_OFFSET UNITYSDK_OFFSET(0x1E875F70)
-#define SYSTEM_XML_VALIDATENAMES_PARSENMTOKEN_OFFSET UNITYSDK_OFFSET(0x1E875E10)
-#define SYSTEM_XML_VALIDATENAMES_PARSEQNAMETHROW_OFFSET UNITYSDK_OFFSET(0x1E876690)
-#define SYSTEM_XML_VALIDATENAMES_PARSEQNAME_OFFSET UNITYSDK_OFFSET(0x1E876580)
-#define SYSTEM_XML_VALIDATENAMES_THROWINVALIDNAME_OFFSET UNITYSDK_OFFSET(0x1E8767E0)
-#define SYSTEM_XML_VALIDATENAMES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E876D70)
+#define SYSTEM_XML_VALIDATENAMES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF3F9D0)
+#define SYSTEM_XML_VALIDATENAMES_GETINVALIDNAMEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EF3F6F0)
+#define SYSTEM_XML_VALIDATENAMES_ISNAMENONAMESPACES_OFFSET UNITYSDK_OFFSET(0x1EF3EF60)
+#define SYSTEM_XML_VALIDATENAMES_PARSENAMENONAMESPACES_OFFSET UNITYSDK_OFFSET(0x1EF3ED40)
+#define SYSTEM_XML_VALIDATENAMES_PARSENCNAME_1_OFFSET UNITYSDK_OFFSET(0x1EF3F180)
+#define SYSTEM_XML_VALIDATENAMES_PARSENCNAME_OFFSET UNITYSDK_OFFSET(0x1EF3EFE0)
+#define SYSTEM_XML_VALIDATENAMES_PARSENMTOKENNONAMESPACES_OFFSET UNITYSDK_OFFSET(0x1EF3EBD0)
+#define SYSTEM_XML_VALIDATENAMES_PARSENMTOKEN_OFFSET UNITYSDK_OFFSET(0x1EF3EA70)
+#define SYSTEM_XML_VALIDATENAMES_PARSEQNAMETHROW_OFFSET UNITYSDK_OFFSET(0x1EF3F2F0)
+#define SYSTEM_XML_VALIDATENAMES_PARSEQNAME_OFFSET UNITYSDK_OFFSET(0x1EF3F1E0)
+#define SYSTEM_XML_VALIDATENAMES_THROWINVALIDNAME_OFFSET UNITYSDK_OFFSET(0x1EF3F440)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ValidateNames_TypeDefinitionIndex = 1938;
-
 	class ValidateNames : public ::System::Object
 	{
 	public:
 		static ::System::Xml::XmlCharType* StaticGet_xmlCharType()
 		{
-			return (::System::Xml::XmlCharType*)Il2CppClass::FromTypeDefinitionIndex(ValidateNames_TypeDefinitionIndex)->GetStaticField(0x1F8F0);
+			return (::System::Xml::XmlCharType*)UnitySDK::FromName("System.Xml", "ValidateNames")->GetStaticField(0x2C9E0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int32 ParseNmtoken(::System::String* a1, ::System::Int32 a2)
@@ -65,14 +62,14 @@ namespace System::Xml
 			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES_PARSENCNAME_1_OFFSET))(a1);
 		}
 
-		static ::System::Int32 ParseQName(::System::String* a1, ::System::Int32 a2, ::System::Int32& a3)
+		static ::System::Int32 ParseQName(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES_PARSEQNAME_OFFSET))(a1, a2, a3);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES_PARSEQNAME_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void ParseQNameThrow(::System::String* a1, ::System::String*& a2, ::System::String*& a3)
+		static ::System::Void ParseQNameThrow(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES_PARSEQNAMETHROW_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES_PARSEQNAMETHROW_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void ThrowInvalidName(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -84,5 +81,6 @@ namespace System::Xml
 		{
 			return ((::System::Exception*(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_VALIDATENAMES_GETINVALIDNAMEEXCEPTION_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class ChimeraGalleryStateController_ActConfig; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDC2EE50)
-#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDC2EE90)
-#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C___INIT_B__10_0_OFFSET UNITYSDK_OFFSET(0xDC2EEA0)
+#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC79930)
+#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC79970)
+#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C___INIT_B__10_0_OFFSET UNITYSDK_OFFSET(0xDC79980)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraGalleryStateController___c_TypeDefinitionIndex = 78025;
-
 	class ChimeraGalleryStateController___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::Prop::ChimeraGalleryStateController___c** StaticGet___9()
+		static ::System::Func_2<::System::Object*, ::System::UInt32>** StaticGet___9__10_0()
 		{
-			return (::RPG::Client::Prop::ChimeraGalleryStateController___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryStateController___c_TypeDefinitionIndex)->GetStaticField(0x64320);
+			return (::System::Func_2<::System::Object*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x50140);
 		}
-		static ::System::Func_2<::RPG::Client::Prop::ChimeraGalleryStateController_ActConfig*, ::System::UInt32>** StaticGet___9__10_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraGalleryStateController_ActConfig*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraGalleryStateController___c_TypeDefinitionIndex)->GetStaticField(0x64328);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x50148);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 __Init_b__10_0(::RPG::Client::Prop::ChimeraGalleryStateController_ActConfig* a1)
 		{
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::Prop::ChimeraGalleryStateController_ActConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER___C___INIT_B__10_0_OFFSET))(this, a1);
 		}
+
 	};
 }

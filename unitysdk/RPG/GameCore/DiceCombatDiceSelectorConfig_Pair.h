@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatDiceSelectorConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Pair; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_METHOD_3_6BA16AC62CF3E988_OFFSET UNITYSDK_OFFSET(0x1D02BD10)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_METHOD_3_D0ECFDC65937983A_OFFSET UNITYSDK_OFFSET(0x1D02CAB0)
-#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02BCB0)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6081E0)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D608240)
+#define RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D608FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Pair_TypeDefinitionIndex = 15968;
-
 	class DiceCombatDiceSelectorConfig_Pair : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* AtLeastPairCount; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D0ECFDC65937983A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_METHOD_3_D0ECFDC65937983A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6BA16AC62CF3E988(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_METHOD_3_6BA16AC62CF3E988_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatDiceSelectorConfig_Pair*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATDICESELECTORCONFIG_PAIR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

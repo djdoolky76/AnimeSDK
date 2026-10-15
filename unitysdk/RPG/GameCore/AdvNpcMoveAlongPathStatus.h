@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcMoveAlongPathStatus_TypeDefinitionIndex = 52728;
-
 	enum class AdvNpcMoveAlongPathStatus : ::System::Int32
 	{
 		Moving = 0,

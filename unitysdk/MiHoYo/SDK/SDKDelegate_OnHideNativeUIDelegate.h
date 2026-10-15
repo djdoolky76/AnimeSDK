@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC9590)
-#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC95D0)
-#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC9580)
-#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC9500)
+#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD40A0)
+#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD4010)
+#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD40E0)
+#define MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD4090)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_OnHideNativeUIDelegate_TypeDefinitionIndex = 7761;
-
 	class SDKDelegate_OnHideNativeUIDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::String* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONHIDENATIVEUIDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

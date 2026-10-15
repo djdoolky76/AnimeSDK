@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IRI2/MeshClusterInfo.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace IRI2
 {
-	inline static constexpr unsigned int ClusterMeshLodInfo_TypeDefinitionIndex = 50089;
-
 	struct alignas(8) ClusterMeshLodInfo
 	{
 		::System::UInt64 MeshHash; // 0x10

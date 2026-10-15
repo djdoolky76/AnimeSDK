@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueTournCollectionLoadedPostProcess; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_METHOD_3_1758A5885AA5FDB8_OFFSET UNITYSDK_OFFSET(0x1D417C00)
-#define RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_METHOD_3_8D7E59336DEE8CF5_OFFSET UNITYSDK_OFFSET(0x1D417CD0)
-#define RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D417CC0)
+#define RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA35980)
+#define RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA35990)
+#define RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA358C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournCollectionLoadedPostProcess_TypeDefinitionIndex = 21867;
-
 	class RogueTournCollectionLoadedPostProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1758A5885AA5FDB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_METHOD_3_1758A5885AA5FDB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8D7E59336DEE8CF5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_METHOD_3_8D7E59336DEE8CF5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTournCollectionLoadedPostProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNCOLLECTIONLOADEDPOSTPROCESS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

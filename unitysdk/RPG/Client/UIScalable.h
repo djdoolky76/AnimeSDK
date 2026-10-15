@@ -3,50 +3,48 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace System { class Action; }
 namespace System { class Object; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_UISCALABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE3B4BE0)
-#define RPG_CLIENT_UISCALABLE_GET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xE3B5750)
-#define RPG_CLIENT_UISCALABLE_GET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xE3B5770)
-#define RPG_CLIENT_UISCALABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE3B50C0)
-#define RPG_CLIENT_UISCALABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xE3B4D00)
-#define RPG_CLIENT_UISCALABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xE3B5480)
-#define RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xE3B5500)
-#define RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xE3B5560)
-#define RPG_CLIENT_UISCALABLE_SET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xE3B5760)
-#define RPG_CLIENT_UISCALABLE_SET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xE3B5780)
-#define RPG_CLIENT_UISCALABLE_SIMULATESCALE_OFFSET UNITYSDK_OFFSET(0xE3B55C0)
-#define RPG_CLIENT_UISCALABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE3B5790)
-#define RPG_CLIENT_UISCALABLE__INITBEGINDATA_OFFSET UNITYSDK_OFFSET(0xE3B4F90)
-#define RPG_CLIENT_UISCALABLE__TRYSETSCALE_OFFSET UNITYSDK_OFFSET(0xE3B5640)
+#define RPG_CLIENT_UISCALABLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE3F5DD0)
+#define RPG_CLIENT_UISCALABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE3F6950)
+#define RPG_CLIENT_UISCALABLE_GET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xE3F6910)
+#define RPG_CLIENT_UISCALABLE_GET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xE3F6930)
+#define RPG_CLIENT_UISCALABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xE3F6280)
+#define RPG_CLIENT_UISCALABLE_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xE3F5EC0)
+#define RPG_CLIENT_UISCALABLE_ONPOINTERUP_OFFSET UNITYSDK_OFFSET(0xE3F6640)
+#define RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET UNITYSDK_OFFSET(0xE3F66C0)
+#define RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xE3F6720)
+#define RPG_CLIENT_UISCALABLE_SET_MAXSCALE_OFFSET UNITYSDK_OFFSET(0xE3F6920)
+#define RPG_CLIENT_UISCALABLE_SET_MINSCALE_OFFSET UNITYSDK_OFFSET(0xE3F6940)
+#define RPG_CLIENT_UISCALABLE_SIMULATESCALE_OFFSET UNITYSDK_OFFSET(0xE3F6780)
+#define RPG_CLIENT_UISCALABLE__INITBEGINDATA_OFFSET UNITYSDK_OFFSET(0xE3F6150)
+#define RPG_CLIENT_UISCALABLE__TRYSETSCALE_OFFSET UNITYSDK_OFFSET(0xE3F6800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIScalable_TypeDefinitionIndex = 69077;
-
 	class UIScalable : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::RectTransform* _Root; // 0x18
 		::System::Boolean _UseSize; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single _MaxScale; // 0x24
 		::System::Single _MinScale; // 0x28
 		::System::Single _BeginDistance; // 0x2C
 		::UnityEngine::Vector3 _BeginScale; // 0x30
 		::UnityEngine::Vector2 _OriginSize; // 0x3C
 		::UnityEngine::Vector2 _BeginSize; // 0x44
-		::System::Action_1<::System::Object*>* _PointerDownCallback; // 0x50
+		::System::Byte _padding1[0x4];
+		::System::Action* _PointerDownCallback; // 0x50
 		::System::Object* _PointerDownCallbackParam; // 0x58
-		::System::Action_1<::System::Object*>* _PointerUpCallback; // 0x60
+		::System::Action* _PointerUpCallback; // 0x60
 		::System::Object* _PointerUpCallbackParam; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -69,14 +67,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_ONPOINTERUP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPointerDownCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		::System::Void SetPointerDownCallback(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERDOWNCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetPointerUpCallback(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		::System::Void SetPointerUpCallback(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SETPOINTERUPCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void SimulateScale(::System::Single a1)
@@ -113,5 +111,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UISCALABLE_SET_MINSCALE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_SCALEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EC02B70)
-#define UNITYENGINE_RENDERING_SCALEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EC02BC0)
-#define UNITYENGINE_RENDERING_SCALEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EBFF930)
-#define UNITYENGINE_RENDERING_SCALEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC02B00)
+#define UNITYENGINE_RENDERING_SCALEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F2CA4A0)
+#define UNITYENGINE_RENDERING_SCALEFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2CA430)
+#define UNITYENGINE_RENDERING_SCALEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F2CA4F0)
+#define UNITYENGINE_RENDERING_SCALEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F2C7240)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ScaleFunc_TypeDefinitionIndex = 34913;
-
 	class ScaleFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCALEFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCALEFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector2Int Invoke(::UnityEngine::Vector2Int a1)
@@ -38,5 +35,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::UnityEngine::Vector2Int(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SCALEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

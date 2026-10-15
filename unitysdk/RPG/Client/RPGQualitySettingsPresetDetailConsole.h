@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CRPCharacterSettings; }
 namespace RPG::Client { class CRPEnvDetailSettings; }
 namespace RPG::Client { class CRPLightSettings; }
@@ -9,12 +8,10 @@ namespace RPG::Client { class CRPReflectionSettings; }
 namespace RPG::Client { class CRPSFXSettings; }
 namespace RPG::Client { class CRPShadowSettings; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSPRESETDETAILCONSOLE__CTOR_OFFSET UNITYSDK_OFFSET(0xDDDC600)
+#define RPG_CLIENT_RPGQUALITYSETTINGSPRESETDETAILCONSOLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE2A980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsPresetDetailConsole_TypeDefinitionIndex = 67940;
-
 	class RPGQualitySettingsPresetDetailConsole : public ::System::Object
 	{
 	public:
@@ -24,10 +21,10 @@ namespace RPG::Client
 		::RPG::Client::CRPEnvDetailSettings* Env_High; // 0x28
 		::RPG::Client::CRPReflectionSettings* Reflection_High; // 0x30
 		::RPG::Client::CRPSFXSettings* SFX_High; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGSPRESETDETAILCONSOLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGQUALITYSETTINGSPRESETDETAILCONSOLE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarblePhaseType_TypeDefinitionIndex = 11854;
-
 	enum class MarblePhaseType : ::System::Int32
 	{
 		None = 0,

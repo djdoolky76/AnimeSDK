@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RogueTournPersonaLegendRowType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class RogueTournPersonaLegendAttributeRow; }
 namespace RPG::Client { class RogueTournPersonaRoomAttributeData; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CREATE_OFFSET UNITYSDK_OFFSET(0xDF8C060)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ATTRIBUTEDATA_OFFSET UNITYSDK_OFFSET(0xDF8BF70)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ROWTYPE_OFFSET UNITYSDK_OFFSET(0xDF8BF20)
-#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0xDF8C0E0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CREATE_OFFSET UNITYSDK_OFFSET(0xE022FC0)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CTOR_OFFSET UNITYSDK_OFFSET(0xE023040)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ATTRIBUTEDATA_OFFSET UNITYSDK_OFFSET(0xE022F60)
+#define RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_GET_ROWTYPE_OFFSET UNITYSDK_OFFSET(0xE022F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaLegendAttributeRow_TypeDefinitionIndex = 72823;
-
 	class RogueTournPersonaLegendAttributeRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 _AttributeID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::RogueTournPersonaLegendRowType get_RowType()
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::RogueTournPersonaLegendAttributeRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONALEGENDATTRIBUTEROW_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

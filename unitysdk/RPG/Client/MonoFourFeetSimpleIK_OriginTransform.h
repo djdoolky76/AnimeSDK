@@ -3,18 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xD82FAE0)
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xD82FB80)
-#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xD82FC10)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xD830540)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xD830410)
+#define RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0xD8304B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoFourFeetSimpleIK_OriginTransform_TypeDefinitionIndex = 68558;
-
 	class MonoFourFeetSimpleIK_OriginTransform : public ::System::Object
 	{
 	public:
@@ -22,10 +19,9 @@ namespace RPG::Client
 		::System::Int32 spineNum; // 0x18
 		::System::Single defaultWeight; // 0x1C
 		::UnityEngine::AnimationCurve* weightCurve; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_Position()
@@ -37,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOFOURFEETSIMPLEIK_ORIGINTRANSFORM_GET_ROTATION_OFFSET))(this);
 		}
+
 	};
 }

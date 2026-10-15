@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E693190)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E6931F0)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E692F70)
-#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6930A0)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED5AE00)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5AD10)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED5AE60)
+#define SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED5ABE0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int PinEntryControlCallback_TypeDefinitionIndex = 37334;
-
 	class PinEntryControlCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Collections::Generic::IList_1<::System::Int32>* a1, ::System::Boolean a2)
@@ -38,5 +35,6 @@ namespace SRDebugger::UI::Controls
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PINENTRYCONTROLCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

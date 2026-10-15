@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialNodeCheckType_TypeDefinitionIndex = 68210;
-
 	enum class TutorialNodeCheckType : ::System::Int32
 	{
 		Active = 1,

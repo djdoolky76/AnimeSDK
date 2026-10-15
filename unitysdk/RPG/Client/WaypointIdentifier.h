@@ -2,46 +2,45 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WaypointIdentifierType.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class WaypointIdentifier; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET UNITYSDK_OFFSET(0xE41BDC0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xE41C040)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET UNITYSDK_OFFSET(0xE41BFC0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET UNITYSDK_OFFSET(0xE41BF60)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE41C160)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0xE41C0C0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE41C1F0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xE41C260)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xE41C2C0)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE41C320)
-#define RPG_CLIENT_WAYPOINTIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xE41C030)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE464120)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYENTITY_OFFSET UNITYSDK_OFFSET(0xE463BC0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xE463E40)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYMAZEENTITY_OFFSET UNITYSDK_OFFSET(0xE463DC0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CREATEBYRUNTIMEENTITY_OFFSET UNITYSDK_OFFSET(0xE463D60)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE463E30)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE463F60)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_EQUALS_OFFSET UNITYSDK_OFFSET(0xE463EC0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE463FF0)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xE464060)
+#define RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xE4640C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaypointIdentifier_TypeDefinitionIndex = 69035;
-
 	class WaypointIdentifier : public ::System::Object
 	{
 	public:
+		::System::UInt32 InstanceID; // 0x10
+		::System::UInt32 LittleGameEntityID; // 0x14
+		::System::UInt32 GroupID; // 0x18
+		::System::UInt32 RuntimeID; // 0x1C
+		::RPG::Client::WaypointIdentifierType Type; // 0x20
 		static ::RPG::Client::WaypointIdentifier** StaticGet_Invalid()
 		{
-			return (::RPG::Client::WaypointIdentifier**)Il2CppClass::FromTypeDefinitionIndex(WaypointIdentifier_TypeDefinitionIndex)->GetStaticField(0x11FA0);
+			return (::RPG::Client::WaypointIdentifier**)UnitySDK::FromName("RPG.Client", "WaypointIdentifier")->GetStaticField(0x4C560);
 		}
-		::System::UInt32 InstanceID; // 0x10
-		::RPG::Client::WaypointIdentifierType Type; // 0x14
-		::System::UInt32 RuntimeID; // 0x18
-		::System::UInt32 GroupID; // 0x1C
-		::System::UInt32 LittleGameEntityID; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::WaypointIdentifier* CreateByEntity(::RPG::GameCore::GameEntity* a1)
@@ -88,5 +87,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::RPG::Client::WaypointIdentifier*, ::RPG::Client::WaypointIdentifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAYPOINTIDENTIFIER_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+
 	};
 }

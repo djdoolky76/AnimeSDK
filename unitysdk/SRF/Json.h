@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SRF_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E6AA3B0)
-#define SRF_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1E6AA520)
+#define SRF_JSON_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ED71C70)
+#define SRF_JSON_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1ED71DE0)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Json_TypeDefinitionIndex = 34686;
-
 	class Json : public ::System::Object
 	{
 	public:
@@ -23,5 +21,6 @@ namespace SRF
 		{
 			return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + SRF_JSON_SERIALIZE_OFFSET))(a1);
 		}
+
 	};
 }

@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GravityBallControlMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class GravityBallPuzzleControllerInit; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_METHOD_3_43EFD85F0B9AE6FA_OFFSET UNITYSDK_OFFSET(0x1D1488D0)
-#define RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_METHOD_3_BA0119C547A2AF99_OFFSET UNITYSDK_OFFSET(0x1D1489D0)
-#define RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D148960)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D723400)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D723470)
+#define RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D723370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravityBallPuzzleControllerInit_TypeDefinitionIndex = 20140;
-
 	class GravityBallPuzzleControllerInit : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -25,20 +23,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::GravityBallControlMode ControlMode; // 0x38
 		::System::Single FinishProtectTime; // 0x3C
 		::RPG::GameCore::DynamicFloat* RelativeSwitchHandPuzzleID; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_43EFD85F0B9AE6FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GravityBallPuzzleControllerInit*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GravityBallPuzzleControllerInit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GravityBallPuzzleControllerInit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_METHOD_3_43EFD85F0B9AE6FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GravityBallPuzzleControllerInit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BA0119C547A2AF99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GravityBallPuzzleControllerInit* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GravityBallPuzzleControllerInit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GravityBallPuzzleControllerInit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_METHOD_3_BA0119C547A2AF99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GravityBallPuzzleControllerInit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRAVITYBALLPUZZLECONTROLLERINIT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PlayNPCBubbleTalk; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_METHOD_5_755870B55A8B3AFF_OFFSET UNITYSDK_OFFSET(0xDD00960)
-#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDD00A90)
-#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_SETBELONGENTITY_OFFSET UNITYSDK_OFFSET(0xDD00AF0)
-#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_START_OFFSET UNITYSDK_OFFSET(0xDD007E0)
-#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD00870)
-#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0xDD00B40)
+#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0xDD89450)
+#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_OHIMHELMOID_OFFSET UNITYSDK_OFFSET(0xDD89270)
+#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDD893A0)
+#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_SETBELONGENTITY_OFFSET UNITYSDK_OFFSET(0xDD89400)
+#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_START_OFFSET UNITYSDK_OFFSET(0xDD890F0)
+#define RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD89180)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueCollectionBubbleTalk_TypeDefinitionIndex = 78476;
-
 	class RogueCollectionBubbleTalk : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* JPJAMENFBKD; // 0x0
 		::RPG::GameCore::PlayNPCBubbleTalk* PlayNPCBubbleTalk; // 0x18
 		::System::String* TriggerBubbleStateName; // 0x20
 		::System::Int32 TriggerBubbleStateLayer; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Animator* FDEHOEKKPLA; // 0x30
 		::RPG::GameCore::GameEntity* DFPKPHCMLNN; // 0x38
 		::System::Boolean IPDAPEPFILI; // 0x40
-
+		// static const ::System::String* JPJAMENFBKD; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -54,9 +51,10 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_SETBELONGENTITY_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_755870B55A8B3AFF()
+		::System::Void OHIMHELMOID()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_METHOD_5_755870B55A8B3AFF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROGUECOLLECTIONBUBBLETALK_OHIMHELMOID_OFFSET))(this);
 		}
+
 	};
 }

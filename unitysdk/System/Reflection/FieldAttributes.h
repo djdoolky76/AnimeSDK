@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int FieldAttributes_TypeDefinitionIndex = 561;
-
 	enum class FieldAttributes : ::System::Int32
 	{
 		FieldAccessMask = 7,

@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Entitas { class IEntity; }
 namespace Entitas::Unity { class EntityLink; }
 namespace UnityEngine { class GameObject; }
 
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET UNITYSDK_OFFSET(0x16537BF0)
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET UNITYSDK_OFFSET(0x16537C90)
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET UNITYSDK_OFFSET(0x16537DB0)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET UNITYSDK_OFFSET(0x1675E9C0)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET UNITYSDK_OFFSET(0x1675EA60)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET UNITYSDK_OFFSET(0x1675EB80)
 
 namespace Entitas::Unity
 {
-	inline static constexpr unsigned int EntityLinkExtension_TypeDefinitionIndex = 10010;
-
 	class EntityLinkExtension : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace Entitas::Unity
 		{
 			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET))(a1);
 		}
+
 	};
 }

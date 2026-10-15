@@ -3,26 +3,23 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVREye.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HmdMatrix44_t.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2D80)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2E30)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2D40)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC2CD0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F68B2F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_CTOR_OFFSET UNITYSDK_OFFSET(0x1F68B240)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F68B3A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F68B2B0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetProjectionMatrix_TypeDefinitionIndex = 37594;
-
 	class IVRSystem__GetProjectionMatrix : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t Invoke(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::System::Single a2, ::System::Single a3)
@@ -39,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::HmdMatrix44_t(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETPROJECTIONMATRIX_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

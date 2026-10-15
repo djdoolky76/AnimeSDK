@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15A6B0)
-#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15A660)
+#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4100)
+#define RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF40B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_BlinkParameter_TypeDefinitionIndex = 52151;
-
 	struct alignas(4) PPFilterStack_BlinkParameter
 	{
 		::System::Boolean BlinkOverrideState; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single BlinkDuration; // 0x14
 		::System::Single BlinkOffset; // 0x18
 		::UnityEngine::Color BlinkMaskColor; // 0x1C
@@ -27,6 +25,7 @@ namespace RPG::CustomRP
 		::System::Single DistortFreq; // 0x4C
 		::System::Boolean BlinkReverse; // 0x50
 		::System::Boolean EnableBlinkSpeedline; // 0x51
+		::System::Byte _padding1[0x2];
 		::System::Single BlinkSpeedlineSpeed; // 0x54
 		::System::Single BlinkSpeedlineRange; // 0x58
 		::System::Single BlinkSpeedlineLength; // 0x5C
@@ -49,15 +48,17 @@ namespace RPG::CustomRP
 		::System::Boolean BlinkSpeedlineRangeOverrideState; // 0x73
 		::System::Boolean BlinkSpeedlineLengthOverrideState; // 0x74
 		::System::Boolean BlinkSpeedlineWidthOverrideState; // 0x75
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER_CTOR_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Void _ctor_1(::RPG::CustomRP::PPFilterStack_BlinkParameter a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_BlinkParameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_BlinkParameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_BLINKPARAMETER_CTOR_1_OFFSET))(this, a1, a2);
 		}
+		*/
+
 	};
 }

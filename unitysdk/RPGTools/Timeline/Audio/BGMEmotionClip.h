@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CustomEventClip.h"
+#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
 namespace RPGTools::Timeline::Audio { class BGMEmotionBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE814A90)
-#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE814A80)
-#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE814C00)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B2380)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B24F0)
+#define RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B2370)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int BGMEmotionClip_TypeDefinitionIndex = 49281;
-
 	class BGMEmotionClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:
 		::RPGTools::Timeline::Audio::BGMEmotionBehaviour* template_; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps UnityEngine_Timeline_ITimelineClipAsset_get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline::Audio
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_BGMEMOTIONCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

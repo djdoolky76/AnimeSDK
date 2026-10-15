@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomEx_CharacterEncoding.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfo_TypeDefinitionIndex = 38895;
-
 	struct alignas(8) CriAtomExAcbDebug_AcbInfo
 	{
 		::System::String* name; // 0x10

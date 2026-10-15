@@ -3,7 +3,6 @@
 #include "unitysdk/System/Net/HttpStatusCode.h"
 #include "unitysdk/System/Net/WebResponse.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System { class Version; }
@@ -14,58 +13,56 @@ namespace System::Net { class WebConnectionData; }
 namespace System::Net { class WebHeaderCollection; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_HTTPWEBRESPONSE_CHECKDISPOSED_OFFSET UNITYSDK_OFFSET(0x1E99D950)
-#define SYSTEM_NET_HTTPWEBRESPONSE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1E996C80)
-#define SYSTEM_NET_HTTPWEBRESPONSE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E99DF20)
-#define SYSTEM_NET_HTTPWEBRESPONSE_FILLCOOKIES_OFFSET UNITYSDK_OFFSET(0x1E99D480)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E99DB30)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GETRESPONSEHEADER_OFFSET UNITYSDK_OFFSET(0x1E99DA30)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GETRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x1E99A6C0)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x1E99D8C0)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1E99D8D0)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GET_RESPONSEURI_OFFSET UNITYSDK_OFFSET(0x1E99D8E0)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x1E99D9B0)
-#define SYSTEM_NET_HTTPWEBRESPONSE_GET_STATUSDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1E99D9C0)
-#define SYSTEM_NET_HTTPWEBRESPONSE_READALL_OFFSET UNITYSDK_OFFSET(0x1E99A320)
-#define SYSTEM_NET_HTTPWEBRESPONSE_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E99DE70)
-#define SYSTEM_NET_HTTPWEBRESPONSE_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E99DB20)
-#define SYSTEM_NET_HTTPWEBRESPONSE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E99D660)
-#define SYSTEM_NET_HTTPWEBRESPONSE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E99DFD0)
-#define SYSTEM_NET_HTTPWEBRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E99B460)
+#define SYSTEM_NET_HTTPWEBRESPONSE_CHECKDISPOSED_OFFSET UNITYSDK_OFFSET(0x1F066480)
+#define SYSTEM_NET_HTTPWEBRESPONSE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1F05F7B0)
+#define SYSTEM_NET_HTTPWEBRESPONSE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F066190)
+#define SYSTEM_NET_HTTPWEBRESPONSE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F066B00)
+#define SYSTEM_NET_HTTPWEBRESPONSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F063FC0)
+#define SYSTEM_NET_HTTPWEBRESPONSE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F066A50)
+#define SYSTEM_NET_HTTPWEBRESPONSE_FILLCOOKIES_OFFSET UNITYSDK_OFFSET(0x1F065FB0)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F066660)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GETRESPONSEHEADER_OFFSET UNITYSDK_OFFSET(0x1F066560)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GETRESPONSESTREAM_OFFSET UNITYSDK_OFFSET(0x1F063200)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GET_CONTENTLENGTH_OFFSET UNITYSDK_OFFSET(0x1F0663F0)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1F066400)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GET_RESPONSEURI_OFFSET UNITYSDK_OFFSET(0x1F066410)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0x1F0664E0)
+#define SYSTEM_NET_HTTPWEBRESPONSE_GET_STATUSDESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1F0664F0)
+#define SYSTEM_NET_HTTPWEBRESPONSE_READALL_OFFSET UNITYSDK_OFFSET(0x1F062E40)
+#define SYSTEM_NET_HTTPWEBRESPONSE_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F0669A0)
+#define SYSTEM_NET_HTTPWEBRESPONSE_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F066650)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpWebResponse_TypeDefinitionIndex = 2861;
-
 	class HttpWebResponse : public ::System::Net::WebResponse
 	{
 	public:
 		::System::String* statusDescription; // 0x20
 		::System::Net::WebHeaderCollection* webHeaders; // 0x28
-		::System::IO::Stream* stream; // 0x30
-		::System::Uri* uri; // 0x38
-		::System::Version* version; // 0x40
-		::System::String* contentType; // 0x48
-		::System::String* method; // 0x50
-		::System::Net::CookieCollection* cookieCollection; // 0x58
-		::System::Net::CookieContainer* cookie_container; // 0x60
-		::System::Boolean disposed; // 0x68
-		::System::Net::HttpStatusCode statusCode; // 0x6C
+		::System::Net::CookieCollection* cookieCollection; // 0x30
+		::System::String* method; // 0x38
+		::System::String* contentType; // 0x40
+		::System::Version* version; // 0x48
+		::System::Net::CookieContainer* cookie_container; // 0x50
+		::System::IO::Stream* stream; // 0x58
+		::System::Uri* uri; // 0x60
+		::System::Net::HttpStatusCode statusCode; // 0x68
+		::System::Boolean disposed; // 0x6C
+		::System::Byte _padding0[0x3];
 		::System::Int64 contentLength; // 0x70
-
 		::System::Void _ctor(::System::Uri* a1, ::System::String* a2, ::System::Net::WebConnectionData* a3, ::System::Net::CookieContainer* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Net::WebConnectionData*, ::System::Net::CookieContainer*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBRESPONSE__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Net::WebConnectionData*, ::System::Net::CookieContainer*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBRESPONSE_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBRESPONSE__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBRESPONSE_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBRESPONSE__CTOR_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBRESPONSE_CTOR_2_OFFSET))(this);
 		}
 
 		::System::Int64 get_ContentLength()
@@ -142,5 +139,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPWEBRESPONSE_FILLCOOKIES_OFFSET))(this);
 		}
+
 	};
 }

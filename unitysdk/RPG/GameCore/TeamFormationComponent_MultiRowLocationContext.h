@@ -3,47 +3,44 @@
 #include "unitysdk/RPG/MQuaternion.h"
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
-
-class Class_2_BF927CBEA754F6BE;
+class CJEEJFDPPNG;
 namespace RPG::GameCore { class DarkTeamFightFormationConfig; }
 namespace RPG::GameCore { class TeamFormationComponent_RowFormationLocationData; }
 namespace RPG::GameCore { class TeamFormationComponent_RowFormationRefreshGroup; }
-namespace System { template <typename T1, typename T2> class Tuple_2; }
+namespace System { class Object; }
+namespace System { class Tuple; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETFORMATIONBYINDEX_OFFSET UNITYSDK_OFFSET(0xE747480)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETFORMATIONLENGTH_OFFSET UNITYSDK_OFFSET(0xE747440)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETINDEXBYFORMATION_OFFSET UNITYSDK_OFFSET(0xE747500)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GET_ISACTIVEMULTIROW_OFFSET UNITYSDK_OFFSET(0xE7473D0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GET_ISDATAMULTIROW_OFFSET UNITYSDK_OFFSET(0xE7473B0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GET_MAXROWMEMBER_OFFSET UNITYSDK_OFFSET(0xE747340)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_PREPARE_OFFSET UNITYSDK_OFFSET(0xE745220)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE747C20)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__INSERTROWSCOPETOTARGETBOUNARY_OFFSET UNITYSDK_OFFSET(0xE747730)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__POSTINIT_OFFSET UNITYSDK_OFFSET(0xE747900)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xE78DA60)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETFORMATIONBYINDEX_OFFSET UNITYSDK_OFFSET(0xE78B3E0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETFORMATIONLENGTH_OFFSET UNITYSDK_OFFSET(0xE78B340)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETINDEXBYFORMATION_OFFSET UNITYSDK_OFFSET(0xE78C5A0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GET_ISACTIVEMULTIROW_OFFSET UNITYSDK_OFFSET(0xE78D360)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GET_ISDATAMULTIROW_OFFSET UNITYSDK_OFFSET(0xE78D5E0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GET_MAXROWMEMBER_OFFSET UNITYSDK_OFFSET(0xE7A5750)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_PREPARE_OFFSET UNITYSDK_OFFSET(0xE7A4430)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__INSERTROWSCOPETOTARGETBOUNARY_OFFSET UNITYSDK_OFFSET(0xE7A5920)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__POSTINIT_OFFSET UNITYSDK_OFFSET(0xE7A5AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_MultiRowLocationContext_TypeDefinitionIndex = 57861;
-
 	class TeamFormationComponent_MultiRowLocationContext : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::TeamFormationComponent_RowFormationRefreshGroup* _Row1; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::TeamFormationComponent_RowFormationLocationData*>* _TargetFormationList; // 0x18
-		::RPG::GameCore::TeamFormationComponent_RowFormationRefreshGroup* _Row0; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::TeamFormationComponent_RowFormationLocationData*>* _MergeLogicFormationList; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* _TargetFormationList; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* _MergeLogicFormationList; // 0x20
+		::RPG::GameCore::TeamFormationComponent_RowFormationRefreshGroup* _Row0; // 0x28
 		::System::Single DiffRowWidthGlobalRatio; // 0x30
 		::System::Int32 _TargetFormationLength; // 0x34
 		::RPG::MQuaternion Quaternion; // 0x38
-		::System::Single MultiRowZOffsetApplyRaido; // 0x48
-		::RPG::MVector3 MultiRowApplyOffset; // 0x4C
-		::System::Single RowZOffset; // 0x58
-		::System::Single RowXOffset; // 0x5C
-
+		::System::Single RowXOffset; // 0x48
+		::System::Single RowZOffset; // 0x4C
+		::System::Single MultiRowZOffsetApplyRaido; // 0x50
+		::RPG::MVector3 MultiRowApplyOffset; // 0x54
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_MaxRowMember()
@@ -71,24 +68,25 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::TeamFormationComponent_RowFormationLocationData*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETFORMATIONBYINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Int32 GetIndexByFormation(::Class_2_BF927CBEA754F6BE* a1)
+		::System::Int32 GetIndexByFormation(::CJEEJFDPPNG* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Class_2_BF927CBEA754F6BE*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETINDEXBYFORMATION_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::CJEEJFDPPNG*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_GETINDEXBYFORMATION_OFFSET))(this, a1);
 		}
 
-		::System::Void Prepare(::System::Collections::Generic::List_1<::Class_2_BF927CBEA754F6BE*>* a1, ::RPG::MQuaternion a2, ::RPG::GameCore::DarkTeamFightFormationConfig* a3)
+		::System::Void Prepare(::System::Collections::Generic::List_1<::CJEEJFDPPNG*>* a1, ::RPG::MQuaternion a2, ::RPG::GameCore::DarkTeamFightFormationConfig* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_2_BF927CBEA754F6BE*>*, ::RPG::MQuaternion, ::RPG::GameCore::DarkTeamFightFormationConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_PREPARE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::CJEEJFDPPNG*>*, ::RPG::MQuaternion, ::RPG::GameCore::DarkTeamFightFormationConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT_PREPARE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean _InsertRowScopeToTargetBounary(::System::Collections::Generic::List_1<::RPG::GameCore::TeamFormationComponent_RowFormationLocationData*>* a1, ::RPG::GameCore::TeamFormationComponent_RowFormationRefreshGroup* a2, ::System::Tuple_2<::System::Int32, ::System::Int32>* a3)
+		::System::Boolean _InsertRowScopeToTargetBounary(::System::Collections::Generic::List_1<::System::Object*>* a1, ::RPG::GameCore::TeamFormationComponent_RowFormationRefreshGroup* a2, ::System::Tuple* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::TeamFormationComponent_RowFormationLocationData*>*, ::RPG::GameCore::TeamFormationComponent_RowFormationRefreshGroup*, ::System::Tuple_2<::System::Int32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__INSERTROWSCOPETOTARGETBOUNARY_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::RPG::GameCore::TeamFormationComponent_RowFormationRefreshGroup*, ::System::Tuple*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__INSERTROWSCOPETOTARGETBOUNARY_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _PostInit(::System::Int32 a1, ::RPG::GameCore::DarkTeamFightFormationConfig* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::DarkTeamFightFormationConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWLOCATIONCONTEXT__POSTINIT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

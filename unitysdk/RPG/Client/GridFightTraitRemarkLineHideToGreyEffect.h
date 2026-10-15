@@ -2,25 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightTraitRemarkLineColorType.h"
 #include "unitysdk/RPG/Client/GridFightTraitRemarkLineEffectBase.h"
-
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xD368300)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xD3682C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xD368170)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD366BD0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD2BFA30)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_GET_CURRENTCOLORTYPE_OFFSET UNITYSDK_OFFSET(0xD2C1160)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_GET_ISHIGHLIGHT_OFFSET UNITYSDK_OFFSET(0xD2C1120)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_GET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xD2C0FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineHideToGreyEffect_TypeDefinitionIndex = 65536;
-
 	class GridFightTraitRemarkLineHideToGreyEffect : public ::RPG::Client::GridFightTraitRemarkLineEffectBase
 	{
 	public:
 		::System::Void _ctor(::RPG::Client::GridFightTrait* a1, ::RPG::GameCore::GridFightTraitRemarkRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsShow()
@@ -37,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::GridFightTraitRemarkLineColorType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEHIDETOGREYEFFECT_GET_CURRENTCOLORTYPE_OFFSET))(this);
 		}
+
 	};
 }

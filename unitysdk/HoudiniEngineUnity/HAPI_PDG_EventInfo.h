@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PDG_EventInfo_TypeDefinitionIndex = 39221;
-
 	struct alignas(4) HAPI_PDG_EventInfo
 	{
 		::System::Int32 nodeId; // 0x10

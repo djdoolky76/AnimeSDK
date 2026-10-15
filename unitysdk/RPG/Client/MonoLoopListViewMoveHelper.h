@@ -2,38 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace SuperScrollView { class LoopListView2; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET UNITYSDK_OFFSET(0xD8468F0)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET UNITYSDK_OFFSET(0xD846B30)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8466A0)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xD846C00)
-#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__ENDPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xD846880)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xD847620)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET UNITYSDK_OFFSET(0xD847310)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET UNITYSDK_OFFSET(0xD847550)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8470C0)
+#define RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__ENDPERFORMANCE_OFFSET UNITYSDK_OFFSET(0xD8472A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoopListViewMoveHelper_TypeDefinitionIndex = 72510;
-
 	class MonoLoopListViewMoveHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action_1<::XLua::LuaTable*>* _OnPerformFinished; // 0x18
+		::System::Action* _OnPerformFinished; // 0x18
 		::XLua::LuaTable* _CallbackOwner; // 0x20
 		::System::Single _CurTime; // 0x28
 		::System::Boolean _PauseTick; // 0x2C
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 _StartPosition; // 0x30
 		::UnityEngine::Vector3 _EndPosition; // 0x3C
 		::SuperScrollView::LoopListView2* LLV2Ref; // 0x48
 		::UnityEngine::UI::ScrollRect* ScrollRectRef; // 0x50
 		::System::Single TotalTime; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -51,9 +48,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVEPANELTOITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void MoveToBottom(::System::Action_1<::XLua::LuaTable*>* a1, ::XLua::LuaTable* a2)
+		::System::Void MoveToBottom(::System::Action* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPLISTVIEWMOVEHELPER_MOVETOBOTTOM_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

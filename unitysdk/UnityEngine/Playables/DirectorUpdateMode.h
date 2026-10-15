@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int DirectorUpdateMode_TypeDefinitionIndex = 4912;
-
 	enum class DirectorUpdateMode : ::System::Int32
 	{
 		DSPClock = 0,

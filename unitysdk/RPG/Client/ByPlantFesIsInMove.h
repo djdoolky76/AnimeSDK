@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class ByPlantFesIsInMove; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_663A643FC4520AD4_OFFSET UNITYSDK_OFFSET(0x1CD4B290)
-#define RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_7847F8D4053CB17C_OFFSET UNITYSDK_OFFSET(0x1CD4B440)
-#define RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_8922315BEA21C8EF_OFFSET UNITYSDK_OFFSET(0x1CD4B2D0)
-#define RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_B1E69E7E59345385_OFFSET UNITYSDK_OFFSET(0x1CD4B410)
-#define RPG_CLIENT_BYPLANTFESISINMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4B2C0)
+#define RPG_CLIENT_BYPLANTFESISINMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31EE30)
+#define RPG_CLIENT_BYPLANTFESISINMOVE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D31EFB0)
+#define RPG_CLIENT_BYPLANTFESISINMOVE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D31EF80)
+#define RPG_CLIENT_BYPLANTFESISINMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31EE40)
+#define RPG_CLIENT_BYPLANTFESISINMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31EE00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ByPlantFesIsInMove_TypeDefinitionIndex = 10269;
-
 	class ByPlantFesIsInMove : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_663A643FC4520AD4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ByPlantFesIsInMove*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::ByPlantFesIsInMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ByPlantFesIsInMove*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_663A643FC4520AD4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::ByPlantFesIsInMove*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8922315BEA21C8EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ByPlantFesIsInMove* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::ByPlantFesIsInMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ByPlantFesIsInMove*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_8922315BEA21C8EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::ByPlantFesIsInMove*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B1E69E7E59345385(::SimpleJSON::JSONNode* a1, ::RPG::Client::ByPlantFesIsInMove*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::Client::ByPlantFesIsInMove* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ByPlantFesIsInMove*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_B1E69E7E59345385_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ByPlantFesIsInMove*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7847F8D4053CB17C(::SimpleJSON::JSONNode* a1, ::RPG::Client::ByPlantFesIsInMove* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::Client::ByPlantFesIsInMove* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ByPlantFesIsInMove*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_METHOD_4_7847F8D4053CB17C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ByPlantFesIsInMove*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BYPLANTFESISINMOVE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

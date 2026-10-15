@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BadgeChallengeType_TypeDefinitionIndex = 12848;
-
 	enum class BadgeChallengeType : ::System::Int32
 	{
 		None = 0,

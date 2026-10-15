@@ -5,21 +5,20 @@
 #include "unitysdk/RPG/GameCore/PhotoGraphSettingDisplayOptionType.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphSettingItemType.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphSettingOptionType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PhotoGraphSettingDataConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_METHOD_2_B4BF48389A9A941B_OFFSET UNITYSDK_OFFSET(0x1D32DC10)
-#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D32E050)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9131E0)
+#define RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D912DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphSettingDataConfig_TypeDefinitionIndex = 18834;
-
 	class PhotoGraphSettingDataConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::PhotoGraphSettingItemType SettingType; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Name; // 0x18
 		::RPG::GameCore::PhotoGraphSettingOptionType OptionType; // 0x28
 		::RPG::GameCore::PhotoGraphSettingDisplayOptionType DisplayOptionType; // 0x2C
@@ -29,15 +28,15 @@ namespace RPG::GameCore
 		::System::Boolean SaveToLocal; // 0x48
 		::System::Boolean AutoReset; // 0x49
 		::System::Boolean AutoSwitchApply; // 0x4A
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B4BF48389A9A941B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphSettingDataConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphSettingDataConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphSettingDataConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_METHOD_2_B4BF48389A9A941B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphSettingDataConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHSETTINGDATACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

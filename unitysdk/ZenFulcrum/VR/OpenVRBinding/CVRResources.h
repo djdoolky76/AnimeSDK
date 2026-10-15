@@ -2,25 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/IVRResources.h"
-
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES_GETRESOURCEFULLPATH_OFFSET UNITYSDK_OFFSET(0x1EFAE970)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES_LOADSHAREDRESOURCE_OFFSET UNITYSDK_OFFSET(0x1EFAE940)
-#define ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFAE870)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F676DC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES_GETRESOURCEFULLPATH_OFFSET UNITYSDK_OFFSET(0x1F676EC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES_LOADSHAREDRESOURCE_OFFSET UNITYSDK_OFFSET(0x1F676E90)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRResources_TypeDefinitionIndex = 37914;
-
 	class CVRResources : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::VR::OpenVRBinding::IVRResources FnTable; // 0x10
-
 		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 LoadSharedResource(::System::String* a1, ::System::String* a2, ::System::UInt32 a3)
@@ -32,5 +28,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_CVRRESOURCES_GETRESOURCEFULLPATH_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

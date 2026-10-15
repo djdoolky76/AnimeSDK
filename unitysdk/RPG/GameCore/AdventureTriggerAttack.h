@@ -3,28 +3,28 @@
 #include "unitysdk/RPG/GameCore/AdvEnterBattleSelectTargetType.h"
 #include "unitysdk/RPG/GameCore/CostMpPhase.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureAttackDetectShapeConfig; }
 namespace RPG::GameCore { class AdventureAttackDetectSummonUnitTriggerConfig; }
 namespace RPG::GameCore { class AdventureHitConfig; }
+namespace RPG::GameCore { class AdventureTriggerAttack; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_BEC7A67BA5D23890_OFFSET UNITYSDK_OFFSET(0x1CDF85E0)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_CB228066AF4616E5_OFFSET UNITYSDK_OFFSET(0x1CDF8380)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF8580)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CE750)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3CE7B0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CE550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 19970;
-
 	class AdventureTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* AttackTargetType; // 0x18
 		::RPG::GameCore::TargetEvaluator* AttackRootTargetType; // 0x20
 		::System::Boolean TriggerBattle; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Single TriggerBattleDelay; // 0x2C
 		::RPG::GameCore::AdventureAttackDetectSummonUnitTriggerConfig* SummonUnitTriggerAttackDetectConfig; // 0x30
 		::RPG::GameCore::AdventureAttackDetectShapeConfig* AttackDetectConfig; // 0x38
@@ -39,23 +39,24 @@ namespace RPG::GameCore
 		::System::Boolean TriggerBattleByAllHitTarget; // 0x72
 		::System::Boolean AttackDetectCollision; // 0x73
 		::System::Boolean FilterAllHitTargetByCurrentMP; // 0x74
+		::System::Byte _padding1[0x3];
 		::RPG::GameCore::AdvEnterBattleSelectTargetType EnterBattleSelectTargetType; // 0x78
 		::System::UInt32 CostMP; // 0x7C
 		::RPG::GameCore::CostMpPhase CostMpPhaseType; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CB228066AF4616E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAttack*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureTriggerAttack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAttack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_CB228066AF4616E5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureTriggerAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BEC7A67BA5D23890(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerAttack* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureTriggerAttack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_BEC7A67BA5D23890_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureTriggerAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERATTACK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

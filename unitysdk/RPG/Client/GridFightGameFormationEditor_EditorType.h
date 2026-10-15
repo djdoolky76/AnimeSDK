@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_EditorType_TypeDefinitionIndex = 64713;
-
 	enum class GridFightGameFormationEditor_EditorType : ::System::Int32
 	{
 		Early = 0,

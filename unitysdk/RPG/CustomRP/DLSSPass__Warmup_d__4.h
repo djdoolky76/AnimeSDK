@@ -2,23 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/CompilerServices/AsyncVoidMethodBuilder.h"
 #include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B7F7B0)
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2E6E260)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C34570)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 36877;
-
-	struct alignas(8) DLSSPass__Warmup_d__4
+	template <typename T1, typename T2, typename T3, typename T4>
+	struct alignas(4) DLSSPass__Warmup_d__4
 	{
-		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x10
-		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x18
+		::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder; // 0x10
+		::System::Runtime::CompilerServices::TaskAwaiter __u__1; // 0x30
 		::System::Int32 __1__state; // 0x38
-
 		::System::Void MoveNext()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET))(this);
@@ -28,5 +24,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::CompilerServices::IAsyncStateMachine*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET))(this, a1);
 		}
+
 	};
 }

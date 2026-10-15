@@ -1,18 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_460;
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubModeEventHandler_1_TypeDefinitionIndex = 56214;
-
 	template <typename T>
 	class SubModeEventHandler_1 : public ::System::Object
 	{
 	public:
-		::System::Action_1<T>* _handler; // 0x0
+		::System::Action* _handler; // 0x0
 	};
 }

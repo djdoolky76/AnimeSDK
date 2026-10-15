@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Collider2D.h"
 
-#define UNITYENGINE_CIRCLECOLLIDER2D_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1EDB6830)
-#define UNITYENGINE_CIRCLECOLLIDER2D_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1EDB6840)
-#define UNITYENGINE_CIRCLECOLLIDER2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDB6850)
+#define UNITYENGINE_CIRCLECOLLIDER2D_CTOR_OFFSET UNITYSDK_OFFSET(0x1F47F000)
+#define UNITYENGINE_CIRCLECOLLIDER2D_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1F47EFE0)
+#define UNITYENGINE_CIRCLECOLLIDER2D_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1F47EFF0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CircleCollider2D_TypeDefinitionIndex = 5806;
-
 	class CircleCollider2D : public ::UnityEngine::Collider2D
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CIRCLECOLLIDER2D__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CIRCLECOLLIDER2D_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_radius()
@@ -27,5 +25,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CIRCLECOLLIDER2D_SET_RADIUS_OFFSET))(this, a1);
 		}
+
 	};
 }

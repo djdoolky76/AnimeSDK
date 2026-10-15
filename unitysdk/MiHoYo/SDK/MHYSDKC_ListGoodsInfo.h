@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ListGoodsInfo_TypeDefinitionIndex = 46682;
-
 	class MHYSDKC_ListGoodsInfo : public ::System::Object
 	{
 	public:
@@ -21,5 +17,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* GOODS_TYPE_BP; // 0x0
 		// static const ::System::String* GOODS_TYPE_PERMANENT_ITEM; // 0x0
 		// static const ::System::String* GOODS_TYPE_BUNDLE; // 0x0
+		// static const ::System::String* GOODS_TYPE_CONSUMABLE; // 0x0
 	};
 }

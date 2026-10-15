@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageShowInUIType_TypeDefinitionIndex = 66122;
-
 	enum class MessageShowInUIType : ::System::Int32
 	{
 		All = 0,

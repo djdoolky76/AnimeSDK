@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FightFestShowCutIn; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTSHOWCUTIN_METHOD_3_B7A4C1B23694B4EA_OFFSET UNITYSDK_OFFSET(0x1D097F30)
-#define RPG_GAMECORE_FIGHTFESTSHOWCUTIN_METHOD_3_E851689F1FD33449_OFFSET UNITYSDK_OFFSET(0x1D097F70)
-#define RPG_GAMECORE_FIGHTFESTSHOWCUTIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D097F60)
+#define RPG_GAMECORE_FIGHTFESTSHOWCUTIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A5EF0)
+#define RPG_GAMECORE_FIGHTFESTSHOWCUTIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6A5F00)
+#define RPG_GAMECORE_FIGHTFESTSHOWCUTIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A5EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestShowCutIn_TypeDefinitionIndex = 22969;
-
 	class FightFestShowCutIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -21,21 +19,22 @@ namespace RPG::GameCore
 		::System::Single Duration; // 0x20
 		::System::Boolean WaitForFinish; // 0x24
 		::System::Boolean IsOverrideDesc; // 0x25
+		::System::Byte _padding0[0x2];
 		::RPG::Client::TextID TargetDesc; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSHOWCUTIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSHOWCUTIN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B7A4C1B23694B4EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FightFestShowCutIn*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FightFestShowCutIn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FightFestShowCutIn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSHOWCUTIN_METHOD_3_B7A4C1B23694B4EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FightFestShowCutIn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSHOWCUTIN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E851689F1FD33449(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FightFestShowCutIn* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FightFestShowCutIn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FightFestShowCutIn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSHOWCUTIN_METHOD_3_E851689F1FD33449_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FightFestShowCutIn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTSHOWCUTIN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

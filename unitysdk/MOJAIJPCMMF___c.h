@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class MOJAIJPCMMF;
+namespace System { class Action; }
+namespace System { class Object; }
+
+#define MOJAIJPCMMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA32760)
+#define MOJAIJPCMMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA327A0)
+#define MOJAIJPCMMF___C__GET__FIXEDUPDATEACTION_B__29_0_OFFSET UNITYSDK_OFFSET(0xBA327B0)
+#define MOJAIJPCMMF___C__GET__LATEFIXEDUPDATEACTION_B__31_0_OFFSET UNITYSDK_OFFSET(0xBA327D0)
+
+	class MOJAIJPCMMF___c : public ::System::Object
+	{
+	public:
+		static ::System::Action** StaticGet___9__31_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15570);
+		}
+
+		static ::System::Action** StaticGet___9__29_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15578);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15580);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MOJAIJPCMMF___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOJAIJPCMMF___C_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _get__FixedUpdateAction_b__29_0(::MOJAIJPCMMF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MOJAIJPCMMF*))((::PBYTE)hIl2Cpp + MOJAIJPCMMF___C__GET__FIXEDUPDATEACTION_B__29_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _get__LateFixedUpdateAction_b__31_0(::MOJAIJPCMMF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MOJAIJPCMMF*))((::PBYTE)hIl2Cpp + MOJAIJPCMMF___C__GET__LATEFIXEDUPDATEACTION_B__31_0_OFFSET))(this, a1);
+		}
+
+	};

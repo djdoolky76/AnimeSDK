@@ -4,22 +4,23 @@
 
 namespace System
 {
-	inline static constexpr unsigned int AppContextSwitches_TypeDefinitionIndex = 156;
-
 	class AppContextSwitches : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_ThrowExceptionIfDisposedCancellationTokenSource()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2920);
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x3E10);
 		}
+
 		static ::System::Boolean* StaticGet_PreserveEventListnerObjectIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2921);
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x3E11);
 		}
+
 		static ::System::Boolean* StaticGet_SetActorAsReferenceWhenCopyingClaimsIdentity()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x2922);
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContextSwitches")->GetStaticField(0x3E12);
 		}
+
 	};
 }

@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameConstConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingFesGameConfig; }
 namespace RPG::GameCore { class ChenLingFesVCameraConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_METHOD_3_71567336DD5FB76E_OFFSET UNITYSDK_OFFSET(0x1CFB2830)
-#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_METHOD_3_CEBD39260D75E547_OFFSET UNITYSDK_OFFSET(0x1CFB2870)
-#define RPG_GAMECORE_CHENLINGFESGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB2860)
+#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58DC60)
+#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D58DC70)
+#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D58DC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesGameConfig_TypeDefinitionIndex = 18212;
-
 	class ChenLingFesGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:
@@ -25,26 +23,28 @@ namespace RPG::GameCore
 		::System::UInt32 FeverActiveValue; // 0x24
 		::Il2CppArray<::System::UInt32>* FeverAddValue; // 0x28
 		::System::UInt32 FeverLevelAbilityID; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FloatCurve* ChenLingMoveCurve; // 0x38
 		::System::Boolean AutoAbsorbSwitch; // 0x40
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::ChenLingFesVCameraConfig* BuildCameraConfig16x9; // 0x48
 		::RPG::GameCore::ChenLingFesVCameraConfig* GameCameraConfig16x9; // 0x50
 		::RPG::GameCore::ChenLingFesVCameraConfig* BuildCameraConfig4x3; // 0x58
 		::RPG::GameCore::ChenLingFesVCameraConfig* GameCameraConfig4x3; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_71567336DD5FB76E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesGameConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESGAMECONFIG_METHOD_3_71567336DD5FB76E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESGAMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CEBD39260D75E547(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesGameConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESGAMECONFIG_METHOD_3_CEBD39260D75E547_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESGAMECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

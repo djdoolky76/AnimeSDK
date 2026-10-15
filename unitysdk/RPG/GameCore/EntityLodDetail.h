@@ -2,27 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimLoadMode.h"
 #include "unitysdk/RPG/GameCore/LodDetail.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EntityLodDetail; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_E76D05529CFD88F3_OFFSET UNITYSDK_OFFSET(0x1D069A30)
-#define RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_F3FEA28E85EB8189_OFFSET UNITYSDK_OFFSET(0x1D0699A0)
-#define RPG_GAMECORE_ENTITYLODDETAIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D06A0C0)
-#define RPG_GAMECORE_ENTITYLODDETAIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D069A10)
+#define RPG_GAMECORE_ENTITYLODDETAIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6469C0)
+#define RPG_GAMECORE_ENTITYLODDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D646310)
+#define RPG_GAMECORE_ENTITYLODDETAIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D646330)
+#define RPG_GAMECORE_ENTITYLODDETAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6462A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodDetail_TypeDefinitionIndex = 18982;
-
 	class EntityLodDetail : public ::RPG::GameCore::LodDetail
 	{
 	public:
-		static ::RPG::GameCore::EntityLodDetail** StaticGet_InvisibleLodDetail()
-		{
-			return (::RPG::GameCore::EntityLodDetail**)Il2CppClass::FromTypeDefinitionIndex(EntityLodDetail_TypeDefinitionIndex)->GetStaticField(0x171F0);
-		}
 		::System::Boolean Render; // 0x30
 		::System::Boolean Shadow; // 0x31
+		::System::Byte _padding0[0x2];
 		::System::Int32 POSMPriority; // 0x34
 		::System::Boolean Animation; // 0x38
 		::System::Boolean ParticleSystem; // 0x39
@@ -31,26 +26,32 @@ namespace RPG::GameCore
 		::System::Boolean Effect; // 0x3C
 		::System::Boolean SoundEvent; // 0x3D
 		::System::Boolean Puzzle; // 0x3E
+		::System::Byte _padding1[0x1];
 		::RPG::GameCore::FiveDimLoadMode FiveDimLoadMode; // 0x40
+		static ::RPG::GameCore::EntityLodDetail** StaticGet_InvisibleLodDetail()
+		{
+			return (::RPG::GameCore::EntityLodDetail**)UnitySDK::FromName("RPG.GameCore", "EntityLodDetail")->GetStaticField(0x24680);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL_CCTOR_OFFSET))();
 		}
 
-		static ::System::Void Method_3_F3FEA28E85EB8189(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodDetail*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EntityLodDetail* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodDetail*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_F3FEA28E85EB8189_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EntityLodDetail*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E76D05529CFD88F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityLodDetail* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EntityLodDetail* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityLodDetail*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL_METHOD_3_E76D05529CFD88F3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EntityLodDetail*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYLODDETAIL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

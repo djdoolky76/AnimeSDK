@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::ParkourGame { class MonoParkourRoad; }
 namespace RPG::Client::ParkourGame { class MonoParkourRoadMap; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_GET_CURPARKOURROADMAP_OFFSET UNITYSDK_OFFSET(0xDA307B0)
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_METHOD_5_D02B3014C645DD1B_OFFSET UNITYSDK_OFFSET(0xDA30A20)
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xDA30890)
-#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xDA30B20)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA7CDD0)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_GDNLDLHEIHM_OFFSET UNITYSDK_OFFSET(0xDA7CCD0)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_GET_CURPARKOURROADMAP_OFFSET UNITYSDK_OFFSET(0xDA7CA60)
+#define RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xDA7CB40)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourRoadDesignTool_TypeDefinitionIndex = 74120;
-
 	class ParkourRoadDesignTool : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -22,11 +19,11 @@ namespace RPG::Client::ParkourGame
 		::System::Single RoadMinDistance; // 0x20
 		::System::Single RoadMaxDistance; // 0x24
 		::System::Boolean Update; // 0x28
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::RPG::Client::ParkourGame::MonoParkourRoad*>* HAEBADKILLO; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::ParkourGame::MonoParkourRoadMap* get_CurParkourRoadMap()
@@ -39,9 +36,10 @@ namespace RPG::Client::ParkourGame
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_ONDRAWGIZMOSSELECTED_OFFSET))(this);
 		}
 
-		::RPG::Client::ParkourGame::MonoParkourRoad* Method_5_D02B3014C645DD1B(::System::String* a1)
+		::RPG::Client::ParkourGame::MonoParkourRoad* GDNLDLHEIHM(::System::String* a1)
 		{
-			return ((::RPG::Client::ParkourGame::MonoParkourRoad*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_METHOD_5_D02B3014C645DD1B_OFFSET))(this, a1);
+			return ((::RPG::Client::ParkourGame::MonoParkourRoad*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_PARKOURROADDESIGNTOOL_GDNLDLHEIHM_OFFSET))(this, a1);
 		}
+
 	};
 }

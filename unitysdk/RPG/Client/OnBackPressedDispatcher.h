@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class OnBackPressedCallback; }
 namespace RPG::Client { class OnBackPressedDispatcher_CallbackEntry; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0xD9E2610)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_DISPATCHONBACKPRESSED_OFFSET UNITYSDK_OFFSET(0xD9E24A0)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xD9E1FF0)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xD9E22B0)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER__ADDENTRY_OFFSET UNITYSDK_OFFSET(0xD9E21C0)
-#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xD9E2680)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0xD9E5110)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xD9E5180)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_DISPATCHONBACKPRESSED_OFFSET UNITYSDK_OFFSET(0xD9E4FA0)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_REGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xD9E4AF0)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER_UNREGISTERCALLBACK_OFFSET UNITYSDK_OFFSET(0xD9E4DB0)
+#define RPG_CLIENT_ONBACKPRESSEDDISPATCHER__ADDENTRY_OFFSET UNITYSDK_OFFSET(0xD9E4CC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnBackPressedDispatcher_TypeDefinitionIndex = 71308;
-
 	class OnBackPressedDispatcher : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 PRIORITY_DEFAULT = 0x0; // 0x0
-		// static const ::System::Int32 PRIORITY_BACK_ZONE = 0xFFFFFFFF; // 0x0
-		// static const ::System::Int32 PRIORITY_CONTROLLER_EXIT = 0xFFFFFFFE; // 0x0
-		::System::Collections::Generic::List_1<::RPG::Client::OnBackPressedDispatcher_CallbackEntry*>* _CallbackEntries; // 0x10
-
+		::System::Collections::Generic::List_1<::System::Object*>* _CallbackEntries; // 0x10
+		// static const ::System::Object PRIORITY_DEFAULT; // 0x0
+		// static const ::System::Object PRIORITY_BACK_ZONE; // 0x0
+		// static const ::System::Object PRIORITY_CONTROLLER_EXIT; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void RegisterCallback(::System::Int32 a1, ::RPG::Client::OnBackPressedCallback* a2)
@@ -54,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::OnBackPressedDispatcher_CallbackEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONBACKPRESSEDDISPATCHER__ADDENTRY_OFFSET))(this, a1);
 		}
+
 	};
 }

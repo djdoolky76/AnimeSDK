@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemRare_TypeDefinitionIndex = 11080;
-
 	enum class ChenLingFesItemRare : ::System::Int32
 	{
 		Unknown = 0,

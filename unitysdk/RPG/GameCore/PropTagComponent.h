@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class HoyoTag; }
+namespace RPG::GameCore { class PropTagComponent; }
 
-#define RPG_GAMECORE_PROPTAGCOMPONENT_METHOD_2_40545298EF9C5F67_OFFSET UNITYSDK_OFFSET(0x1D374390)
-#define RPG_GAMECORE_PROPTAGCOMPONENT_METHOD_2_C6CC1D298EF0A2CA_OFFSET UNITYSDK_OFFSET(0x1D374630)
-#define RPG_GAMECORE_PROPTAGCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D371B00)
+#define RPG_GAMECORE_PROPTAGCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957760)
+#define RPG_GAMECORE_PROPTAGCOMPONENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95A650)
+#define RPG_GAMECORE_PROPTAGCOMPONENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95A380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTagComponent_TypeDefinitionIndex = 17353;
-
 	class PropTagComponent : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::HoyoTag* Tag; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGCOMPONENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGCOMPONENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_40545298EF9C5F67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTagComponent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropTagComponent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTagComponent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGCOMPONENT_METHOD_2_40545298EF9C5F67_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropTagComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGCOMPONENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_C6CC1D298EF0A2CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTagComponent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropTagComponent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTagComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGCOMPONENT_METHOD_2_C6CC1D298EF0A2CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropTagComponent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTAGCOMPONENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

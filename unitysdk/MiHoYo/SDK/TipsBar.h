@@ -1,44 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class String; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_TIPSBAR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAD8850)
-#define MIHOYO_SDK_TIPSBAR_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x1BAD9670)
-#define MIHOYO_SDK_TIPSBAR_HIDE_OFFSET UNITYSDK_OFFSET(0x1BAD9580)
-#define MIHOYO_SDK_TIPSBAR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BAD9740)
-#define MIHOYO_SDK_TIPSBAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BAD95B0)
-#define MIHOYO_SDK_TIPSBAR_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BAD8BE0)
-#define MIHOYO_SDK_TIPSBAR_SHOW_OFFSET UNITYSDK_OFFSET(0x1BAD93E0)
-#define MIHOYO_SDK_TIPSBAR_START_OFFSET UNITYSDK_OFFSET(0x1BAD8A80)
-#define MIHOYO_SDK_TIPSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD97E0)
+#define MIHOYO_SDK_TIPSBAR_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFE3190)
+#define MIHOYO_SDK_TIPSBAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE4170)
+#define MIHOYO_SDK_TIPSBAR_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x1BFE4000)
+#define MIHOYO_SDK_TIPSBAR_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFE3F10)
+#define MIHOYO_SDK_TIPSBAR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BFE40D0)
+#define MIHOYO_SDK_TIPSBAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BFE3F40)
+#define MIHOYO_SDK_TIPSBAR_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BFE3570)
+#define MIHOYO_SDK_TIPSBAR_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFE3D70)
+#define MIHOYO_SDK_TIPSBAR_START_OFFSET UNITYSDK_OFFSET(0x1BFE3410)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TipsBar_TypeDefinitionIndex = 8188;
-
 	class TipsBar : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(TipsBar_TypeDefinitionIndex)->GetStaticField(0x26AE0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
 		::System::String* imageName; // 0x58
 		::System::String* content; // 0x60
 		::UnityEngine::Coroutine* hideCoroutine; // 0x68
 		::UnityEngine::UI::Image* image; // 0x70
 		::UnityEngine::UI::Text* contentText; // 0x78
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "TipsBar")->GetStaticField(0x20050);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TIPSBAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TIPSBAR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -80,5 +77,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TIPSBAR_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

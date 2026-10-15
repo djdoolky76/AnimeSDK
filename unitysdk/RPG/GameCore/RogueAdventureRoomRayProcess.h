@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class RogueAdventureRoomRayProcess; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_1BA60A4C034DB41C_OFFSET UNITYSDK_OFFSET(0x1D3BD4E0)
-#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_ADF004088BF565EC_OFFSET UNITYSDK_OFFSET(0x1D3BD590)
-#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BD550)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A3CE0)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9A3D20)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9A3C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureRoomRayProcess_TypeDefinitionIndex = 22033;
-
 	class RogueAdventureRoomRayProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -36,21 +34,22 @@ namespace RPG::GameCore
 		::System::UInt32 HomeingTime; // 0x88
 		::System::Single EffectWidthMultiplier; // 0x8C
 		::System::Single EffectTimeScale; // 0x90
+		::System::Byte _padding0[0x4];
 		::System::String* EffectPath; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1BA60A4C034DB41C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureRoomRayProcess*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_1BA60A4C034DB41C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureRoomRayProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ADF004088BF565EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureRoomRayProcess* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureRoomRayProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_METHOD_3_ADF004088BF565EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureRoomRayProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMRAYPROCESS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

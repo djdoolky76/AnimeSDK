@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
-
-class Class_2_357697286CC86F68;
-namespace RPG::Client { class MonoEffectPluginNumber_SingleDigitData; }
+class PGAMAPPLPKF;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C08C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C09F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C0880)
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD7C0AB0)
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C0820)
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C0AC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD8028D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_CTOR_OFFSET UNITYSDK_OFFSET(0xD802AD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xD802A00)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD802890)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD802AC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD802830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginNumber_TypeDefinitionIndex = 70047;
-
 	class MonoEffectPluginNumber : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
-		// static const ::System::Int32 LBHPFHJNMJE = 0xA; // 0x0
-		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginNumber_SingleDigitData*>* DigitDatas; // 0x28
-		::Class_2_357697286CC86F68* KADDKEGNCHE; // 0x30
-
+		::System::Collections::Generic::List_1<::System::Object*>* DigitDatas; // 0x28
+		::PGAMAPPLPKF* KADDKEGNCHE; // 0x30
+		// static const ::System::Object LBHPFHJNMJE; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINNUMBER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINNUMBER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetPlugin()
@@ -49,9 +45,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINNUMBER_DESTROYPLUGIN_OFFSET))(this);
 		}
 
-		::Class_2_357697286CC86F68* get_Behavior()
+		::PGAMAPPLPKF* get_Behavior()
 		{
-			return ((::Class_2_357697286CC86F68*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINNUMBER_GET_BEHAVIOR_OFFSET))(this);
+			return ((::PGAMAPPLPKF*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINNUMBER_GET_BEHAVIOR_OFFSET))(this);
 		}
+
 	};
 }

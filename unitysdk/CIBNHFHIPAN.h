@@ -1,0 +1,78 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CMPGEAFHHDC.h"
+#include "unitysdk/RPG/GameCore/EraStateType.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+class CIBNHFHIPAN;
+namespace RPG::GameCore { class GameEntity; }
+
+#define CIBNHFHIPAN_CTOR_OFFSET UNITYSDK_OFFSET(0xCF65440)
+#define CIBNHFHIPAN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCF653F0)
+#define CIBNHFHIPAN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCF653A0)
+#define CIBNHFHIPAN_GET_BYDEVICESPOTCHANGE_OFFSET UNITYSDK_OFFSET(0xCF65380)
+#define CIBNHFHIPAN_GET_STATETYPE_OFFSET UNITYSDK_OFFSET(0xCF65340)
+#define CIBNHFHIPAN_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0xCF65360)
+#define CIBNHFHIPAN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF652E0)
+#define CIBNHFHIPAN_SET_BYDEVICESPOTCHANGE_OFFSET UNITYSDK_OFFSET(0xCF65390)
+#define CIBNHFHIPAN_SET_STATETYPE_OFFSET UNITYSDK_OFFSET(0xCF65350)
+#define CIBNHFHIPAN_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0xCF65370)
+
+	class CIBNHFHIPAN : public ::CMPGEAFHHDC
+	{
+	public:
+		::RPG::GameCore::GameEntity* OFHDAHHPNPJ; // 0x18
+		::System::Boolean _Visible_k__BackingField; // 0x20
+		::System::Boolean _ByDeviceSpotChange_k__BackingField; // 0x21
+		::System::Byte _padding0[0x2];
+		::RPG::GameCore::EraStateType _StateType_k__BackingField; // 0x24
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_CTOR_OFFSET))(this);
+		}
+
+		::CIBNHFHIPAN* KPJGDHLENIP(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::EraStateType a2, ::System::Boolean a3)
+		{
+			return ((::CIBNHFHIPAN*(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::EraStateType, ::System::Boolean))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_KPJGDHLENIP_OFFSET))(this, a1, a2, a3);
+		}
+
+		::RPG::GameCore::EraStateType get_StateType()
+		{
+			return ((::RPG::GameCore::EraStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_GET_STATETYPE_OFFSET))(this);
+		}
+
+		::System::Void set_StateType(::RPG::GameCore::EraStateType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EraStateType))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_SET_STATETYPE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_Visible()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_GET_VISIBLE_OFFSET))(this);
+		}
+
+		::System::Void set_Visible(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_SET_VISIBLE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_ByDeviceSpotChange()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_GET_BYDEVICESPOTCHANGE_OFFSET))(this);
+		}
+
+		::System::Void set_ByDeviceSpotChange(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_SET_BYDEVICESPOTCHANGE_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + CIBNHFHIPAN_GETEVENTTYPE_OFFSET))(this);
+		}
+
+	};

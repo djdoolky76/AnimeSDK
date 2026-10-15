@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCRay_TypeDefinitionIndex = 47486;
-
 	struct alignas(4) EmbreeWrapperUnsafe_RTCRay
 	{
 		::System::Single org_x; // 0x10

@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Sprite; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_DefaultControls_Resources_TypeDefinitionIndex = 43367;
-
 	struct alignas(8) TMP_DefaultControls_Resources
 	{
 		::UnityEngine::Sprite* standard; // 0x10

@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerMazeMiniMapUI; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_METHOD_3_533F0C261A55C3FA_OFFSET UNITYSDK_OFFSET(0x1D601040)
-#define RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_METHOD_3_A9F1C8E8A4AF1357_OFFSET UNITYSDK_OFFSET(0x1D601110)
-#define RPG_GAMECORE_TRIGGERMAZEMINIMAPUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D601100)
+#define RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC550C0)
+#define RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC550D0)
+#define RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC55000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerMazeMiniMapUI_TypeDefinitionIndex = 21831;
-
 	class TriggerMazeMiniMapUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEMINIMAPUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_533F0C261A55C3FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeMiniMapUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerMazeMiniMapUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeMiniMapUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_METHOD_3_533F0C261A55C3FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerMazeMiniMapUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A9F1C8E8A4AF1357(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerMazeMiniMapUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerMazeMiniMapUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerMazeMiniMapUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_METHOD_3_A9F1C8E8A4AF1357_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerMazeMiniMapUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMAZEMINIMAPUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

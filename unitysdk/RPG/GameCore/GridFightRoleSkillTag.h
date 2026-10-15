@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleSkillTag_TypeDefinitionIndex = 10542;
-
 	enum class GridFightRoleSkillTag : ::System::Int32
 	{
 		Unknow = 0,

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int STSpecialEventType_TypeDefinitionIndex = 24198;
-
 	enum class STSpecialEventType : ::System::Int32
 	{
 		ZhangZhangArrive = 0,

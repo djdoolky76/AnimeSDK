@@ -2,21 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/CNPayPlatType.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Win { class MerchantInfoModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL_GETPAYPLATTYPE_OFFSET UNITYSDK_OFFSET(0x1B8D8E70)
-#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D9030)
+#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD7210)
+#define MIHOYO_SDK_WIN_PAYPLATINFOMODEL_GETPAYPLATTYPE_OFFSET UNITYSDK_OFFSET(0x1BDD7050)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayPlatInfoModel_TypeDefinitionIndex = 9200;
-
 	class PayPlatInfoModel : public ::System::Object
 	{
 	public:
 		::System::Boolean is_recommend; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* market_word; // 0x18
 		::MiHoYo::SDK::Win::MerchantInfoModel* merchant_info; // 0x20
 		::System::String* pay_plat; // 0x28
@@ -25,16 +23,17 @@ namespace MiHoYo::SDK::Win
 		::System::String* market_id; // 0x40
 		::System::Boolean use_market; // 0x48
 		::System::Boolean use_official_qrcode; // 0x49
+		::System::Byte _padding1[0x6];
 		::System::String* real_cashier_id; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYPLATINFOMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYPLATINFOMODEL_CTOR_OFFSET))(this);
 		}
 
 		::MiHoYo::SDK::CNPayPlatType GetPayPlatType()
 		{
 			return ((::MiHoYo::SDK::CNPayPlatType(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYPLATINFOMODEL_GETPAYPLATTYPE_OFFSET))(this);
 		}
+
 	};
 }

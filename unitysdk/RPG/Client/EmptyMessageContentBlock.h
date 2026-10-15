@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
+namespace RPG::Client { class MessageContentBlock; }
 
-#define RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xCE9BCE0)
-#define RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCE9BCA0)
-#define RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xCE9BD70)
+#define RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xCDEB1A0)
+#define RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xCDEB110)
+#define RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCDEB0D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmptyMessageContentBlock_TypeDefinitionIndex = 63302;
-
 	class EmptyMessageContentBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -28,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMPTYMESSAGECONTENTBLOCK_EQUALS_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,31 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Security/SslPolicyErrors.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Security::Interface { class MonoRemoteCertificateValidationCallback; }
+namespace System { class Object; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9045A0)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS5_0__MONOTOPUBLIC_B__0_OFFSET UNITYSDK_OFFSET(0x1E904600)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCD440)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS5_0__MONOTOPUBLIC_B__0_OFFSET UNITYSDK_OFFSET(0x1EFCD4A0)
 
 namespace Mono::Net::Security::Private
 {
-	inline static constexpr unsigned int CallbackHelpers___c__DisplayClass5_0_TypeDefinitionIndex = 2450;
-
 	class CallbackHelpers___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _MonoToPublic_b__0(::System::Object* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::System::Net::Security::SslPolicyErrors a4)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS___C__DISPLAYCLASS5_0__MONOTOPUBLIC_B__0_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

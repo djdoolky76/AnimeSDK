@@ -1,41 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/CullingResults.h"
 #include "unitysdk/UnityEngine/Rendering/DrawingSettings.h"
 #include "unitysdk/UnityEngine/Rendering/FilteringSettings.h"
 #include "unitysdk/UnityEngine/Rendering/RenderStateBlock.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
+#include "unitysdk/UnityEngine/Experimental/Rendering/RendererListDesc.h"
+namespace System { class Nullable; }
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1EBDC7C0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2FC10)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0x14E860)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBDDF70)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A5CB0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1F2A4500)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC200)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xE7630)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 34775;
-
 	struct alignas(8) RendererList
 	{
-		static ::UnityEngine::Experimental::Rendering::RendererList* StaticGet_nullRendererList()
-		{
-			return (::UnityEngine::Experimental::Rendering::RendererList*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x13760);
-		}
-		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
-		{
-			return (::UnityEngine::Rendering::ShaderTagId*)Il2CppClass::FromTypeDefinitionIndex(RendererList_TypeDefinitionIndex)->GetStaticField(0x13990);
-		}
 		::System::Boolean _isValid_k__BackingField; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Rendering::CullingResults cullingResult; // 0x18
 		::UnityEngine::Rendering::DrawingSettings drawSettings; // 0x28
 		::UnityEngine::Rendering::FilteringSettings filteringSettings; // 0x1A4
-		::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock; // 0x1CC
+		::System::Nullable* stateBlock; // 0x1CC
+		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
+		{
+			return (::UnityEngine::Rendering::ShaderTagId*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x107F0);
+		}
+
+		static ::UnityEngine::Experimental::Rendering::RendererList* StaticGet_nullRendererList()
+		{
+			return (::UnityEngine::Experimental::Rendering::RendererList*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x107F8);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_isValid()
@@ -49,10 +49,11 @@ namespace UnityEngine::Experimental::Rendering
 		}
 
 		/*
-		static ::UnityEngine::Experimental::Rendering::RendererList Create(::UnityEngine::Experimental::Rendering::RendererListDesc& a1)
+		static ::UnityEngine::Experimental::Rendering::RendererList Create(::UnityEngine::Experimental::Rendering::RendererListDesc a1)
 		{
-			return ((::UnityEngine::Experimental::Rendering::RendererList(*)(::UnityEngine::Experimental::Rendering::RendererListDesc&))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET))(a1);
+			return ((::UnityEngine::Experimental::Rendering::RendererList(*)(::UnityEngine::Experimental::Rendering::RendererListDesc))((::PBYTE)hIl2Cpp + UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET))(a1);
 		}
 		*/
+
 	};
 }

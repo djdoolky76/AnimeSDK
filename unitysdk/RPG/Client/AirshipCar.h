@@ -2,53 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class AirshipCarAudio; }
 namespace RPG::Client { class AirshipCarCollision; }
 namespace RPG::Client { class AirshipCarDetectAccelTrigger; }
 namespace RPG::Client { class AirshipCarDetectAvoidTrigger; }
-namespace RPG::Client { class Airship_AirshipEffectConfig; }
 namespace RPG::Client { class Stage; }
 namespace RPG::Client { class TiltCommonConfig; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIRSHIPCAR_AWAKE_OFFSET UNITYSDK_OFFSET(0xC72F6A0)
-#define RPG_CLIENT_AIRSHIPCAR_GET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0xC72F660)
-#define RPG_CLIENT_AIRSHIPCAR_GET_AUDIO_OFFSET UNITYSDK_OFFSET(0xC72F620)
-#define RPG_CLIENT_AIRSHIPCAR_GET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0xC72F640)
-#define RPG_CLIENT_AIRSHIPCAR_GET_COLLISION_OFFSET UNITYSDK_OFFSET(0xC72F680)
-#define RPG_CLIENT_AIRSHIPCAR_METHOD_5_72B900547A7C8BB8_OFFSET UNITYSDK_OFFSET(0xC730090)
-#define RPG_CLIENT_AIRSHIPCAR_METHOD_5_AA8FCAC1710D8628_OFFSET UNITYSDK_OFFSET(0xC730370)
-#define RPG_CLIENT_AIRSHIPCAR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC72FA70)
-#define RPG_CLIENT_AIRSHIPCAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC72F970)
-#define RPG_CLIENT_AIRSHIPCAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC72F850)
-#define RPG_CLIENT_AIRSHIPCAR_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0xC72FB80)
-#define RPG_CLIENT_AIRSHIPCAR_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0xC730000)
-#define RPG_CLIENT_AIRSHIPCAR_SETUP_OFFSET UNITYSDK_OFFSET(0xC72FD40)
-#define RPG_CLIENT_AIRSHIPCAR_SET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0xC72F670)
-#define RPG_CLIENT_AIRSHIPCAR_SET_AUDIO_OFFSET UNITYSDK_OFFSET(0xC72F630)
-#define RPG_CLIENT_AIRSHIPCAR_SET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0xC72F650)
-#define RPG_CLIENT_AIRSHIPCAR_SET_COLLISION_OFFSET UNITYSDK_OFFSET(0xC72F690)
-#define RPG_CLIENT_AIRSHIPCAR__CTOR_OFFSET UNITYSDK_OFFSET(0xC7304C0)
-#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_0_OFFSET UNITYSDK_OFFSET(0xC730510)
-#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_1_OFFSET UNITYSDK_OFFSET(0xC730520)
+#define RPG_CLIENT_AIRSHIPCAR_AANLCPCOMDL_OFFSET UNITYSDK_OFFSET(0xC64E1D0)
+#define RPG_CLIENT_AIRSHIPCAR_AWAKE_OFFSET UNITYSDK_OFFSET(0xC64D7E0)
+#define RPG_CLIENT_AIRSHIPCAR_CTOR_OFFSET UNITYSDK_OFFSET(0xC64E600)
+#define RPG_CLIENT_AIRSHIPCAR_FCLNNMANAMH_OFFSET UNITYSDK_OFFSET(0xC64E4B0)
+#define RPG_CLIENT_AIRSHIPCAR_GET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0xC64D7A0)
+#define RPG_CLIENT_AIRSHIPCAR_GET_AUDIO_OFFSET UNITYSDK_OFFSET(0xC64D760)
+#define RPG_CLIENT_AIRSHIPCAR_GET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0xC64D780)
+#define RPG_CLIENT_AIRSHIPCAR_GET_COLLISION_OFFSET UNITYSDK_OFFSET(0xC64D7C0)
+#define RPG_CLIENT_AIRSHIPCAR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC64DBB0)
+#define RPG_CLIENT_AIRSHIPCAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC64DAB0)
+#define RPG_CLIENT_AIRSHIPCAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC64D990)
+#define RPG_CLIENT_AIRSHIPCAR_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0xC64DCC0)
+#define RPG_CLIENT_AIRSHIPCAR_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0xC64E140)
+#define RPG_CLIENT_AIRSHIPCAR_SETUP_OFFSET UNITYSDK_OFFSET(0xC64DE80)
+#define RPG_CLIENT_AIRSHIPCAR_SET_ACCELTRIGGER_OFFSET UNITYSDK_OFFSET(0xC64D7B0)
+#define RPG_CLIENT_AIRSHIPCAR_SET_AUDIO_OFFSET UNITYSDK_OFFSET(0xC64D770)
+#define RPG_CLIENT_AIRSHIPCAR_SET_AVOIDTRIGGER_OFFSET UNITYSDK_OFFSET(0xC64D790)
+#define RPG_CLIENT_AIRSHIPCAR_SET_COLLISION_OFFSET UNITYSDK_OFFSET(0xC64D7D0)
+#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_0_OFFSET UNITYSDK_OFFSET(0xC64E650)
+#define RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_1_OFFSET UNITYSDK_OFFSET(0xC64E660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirshipCar_TypeDefinitionIndex = 59945;
-
 	class AirshipCar : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* prefabPath; // 0x18
 		::UnityEngine::Vector3 prefabPositionOffset; // 0x20
 		::UnityEngine::Vector3 prefabRotationOffset; // 0x2C
-		::Il2CppArray<::RPG::Client::Airship_AirshipEffectConfig*>* residentEffectConfigs; // 0x38
+		::Il2CppArray<::System::Object*>* residentEffectConfigs; // 0x38
 		::System::Single maxMoveSpeed; // 0x40
 		::System::Single moveAccelSpeed; // 0x44
 		::System::Single moveDecelSpeed; // 0x48
@@ -74,11 +71,11 @@ namespace RPG::Client
 		::RPG::Client::OpenWorld::StreamingItemData* MMCJCMGNOFG; // 0xB8
 		::RPG::Client::Stage* PKLNPNKEJOO; // 0xC0
 		::System::Single ALLMMMCIHNO; // 0xC8
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Animator* APPGGMLEPLN; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::AirshipCarAudio* get_Audio()
@@ -156,14 +153,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR_SETTIMESCALE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_72B900547A7C8BB8(::UnityEngine::GameObject* a1)
+		::System::Void AANLCPCOMDL(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR_METHOD_5_72B900547A7C8BB8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR_AANLCPCOMDL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_AA8FCAC1710D8628(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
+		::System::Void FCLNNMANAMH(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR_METHOD_5_AA8FCAC1710D8628_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR_FCLNNMANAMH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _Setup_b__46_0(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
@@ -175,5 +172,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRSHIPCAR__SETUP_B__46_1_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

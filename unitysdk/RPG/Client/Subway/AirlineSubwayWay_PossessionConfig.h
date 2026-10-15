@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_PossessionConfig_TypeDefinitionIndex = 80819;
-
 	struct alignas(8) AirlineSubwayWay_PossessionConfig
 	{
 		::System::String* AnimName; // 0x10

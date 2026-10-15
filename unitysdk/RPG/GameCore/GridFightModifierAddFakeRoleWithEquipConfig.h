@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierAddFakeRoleWithEquipConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_METHOD_3_8F937604F58041EC_OFFSET UNITYSDK_OFFSET(0x1D157E30)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_METHOD_3_E7A3E25A14FF2FF0_OFFSET UNITYSDK_OFFSET(0x1D157DE0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D157E20)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D732C10)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D732C20)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D732BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierAddFakeRoleWithEquipConfig_TypeDefinitionIndex = 19141;
-
 	class GridFightModifierAddFakeRoleWithEquipConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E7A3E25A14FF2FF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_METHOD_3_E7A3E25A14FF2FF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8F937604F58041EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_METHOD_3_8F937604F58041EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierAddFakeRoleWithEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDFAKEROLEWITHEQUIPCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

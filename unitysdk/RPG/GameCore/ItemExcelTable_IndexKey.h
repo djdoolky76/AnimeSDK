@@ -1,25 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x2E960)
-#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B81680)
-#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x2E950)
+#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
+#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xAF50)
+#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE620)
+#define RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C36440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemExcelTable_IndexKey_TypeDefinitionIndex = 13756;
-
 	struct alignas(4) ItemExcelTable_IndexKey
 	{
 		::System::UInt32 ID; // 0x10
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* ToString()
@@ -27,14 +22,17 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::RPG::GameCore::ItemExcelTable_IndexKey a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemExcelTable_IndexKey))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMEXCELTABLE_INDEXKEY_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

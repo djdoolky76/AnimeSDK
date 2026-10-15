@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StageBaseConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StageConfig; }
 namespace RPG::GameCore { class StageVolumeConfig; }
 namespace RPG::GameCore { class SubStageMetaData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_1D8D7CF0E0C08194_OFFSET UNITYSDK_OFFSET(0x1D553D90)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_91FDC1F48573E730_OFFSET UNITYSDK_OFFSET(0x1D553DD0)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_AA3609C16455CCFE_OFFSET UNITYSDK_OFFSET(0x1D550BC0)
-#define RPG_GAMECORE_STAGECONFIG_METHOD_3_DC865226D321D99E_OFFSET UNITYSDK_OFFSET(0x1D553020)
-#define RPG_GAMECORE_STAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D550BB0)
+#define RPG_GAMECORE_STAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB05AD0)
+#define RPG_GAMECORE_STAGECONFIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB09010)
+#define RPG_GAMECORE_STAGECONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB08020)
+#define RPG_GAMECORE_STAGECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB05AE0)
+#define RPG_GAMECORE_STAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB08FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageConfig_TypeDefinitionIndex = 18913;
-
 	class StageConfig : public ::RPG::GameCore::StageBaseConfig
 	{
 	public:
@@ -25,30 +23,30 @@ namespace RPG::GameCore
 		::System::Boolean PVSEnableRegionFilter; // 0xD0
 		::System::Boolean EnableNormDistanceLodTemplate; // 0xD1
 		::System::Boolean EnableAudioGroundVoxel; // 0xD2
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D8D7CF0E0C08194(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_METHOD_3_1D8D7CF0E0C08194_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AA3609C16455CCFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_METHOD_3_AA3609C16455CCFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DC865226D321D99E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_METHOD_3_DC865226D321D99E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_91FDC1F48573E730(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageConfig* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_METHOD_3_91FDC1F48573E730_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGECONFIG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

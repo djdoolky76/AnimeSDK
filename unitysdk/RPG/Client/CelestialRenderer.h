@@ -3,47 +3,44 @@
 #include "unitysdk/CelestialBodyType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 class CelestialBodyData;
-class Class_1_535E4088B549C341;
-class Class_1_C7C4EDD02A4426B2;
+class HGEGFCADEEC;
 class OrbitData;
-namespace UnityEngine::Rendering { class CommandBuffer; }
+class PEKCKMDIAFL;
 
-#define RPG_CLIENT_CELESTIALRENDERER_BINDTOSOLARSYSTEM_OFFSET UNITYSDK_OFFSET(0xC9EE020)
-#define RPG_CLIENT_CELESTIALRENDERER_GET_BODYTYPE_OFFSET UNITYSDK_OFFSET(0xC9EE000)
-#define RPG_CLIENT_CELESTIALRENDERER_GET_SOLARSYSTEM_OFFSET UNITYSDK_OFFSET(0xC9EDFE0)
-#define RPG_CLIENT_CELESTIALRENDERER_SET_BODYTYPE_OFFSET UNITYSDK_OFFSET(0xC9EE010)
-#define RPG_CLIENT_CELESTIALRENDERER_SET_SOLARSYSTEM_OFFSET UNITYSDK_OFFSET(0xC9EDFF0)
-#define RPG_CLIENT_CELESTIALRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EE170)
+#define RPG_CLIENT_CELESTIALRENDERER_BINDTOSOLARSYSTEM_OFFSET UNITYSDK_OFFSET(0xC93C780)
+#define RPG_CLIENT_CELESTIALRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xC93C8D0)
+#define RPG_CLIENT_CELESTIALRENDERER_GET_BODYTYPE_OFFSET UNITYSDK_OFFSET(0xC93C760)
+#define RPG_CLIENT_CELESTIALRENDERER_GET_SOLARSYSTEM_OFFSET UNITYSDK_OFFSET(0xC93C740)
+#define RPG_CLIENT_CELESTIALRENDERER_SET_BODYTYPE_OFFSET UNITYSDK_OFFSET(0xC93C770)
+#define RPG_CLIENT_CELESTIALRENDERER_SET_SOLARSYSTEM_OFFSET UNITYSDK_OFFSET(0xC93C750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CelestialRenderer_TypeDefinitionIndex = 69758;
-
 	class CelestialRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Vector3 BFJPDKHLGOF; // 0x18
-		::Class_1_C7C4EDD02A4426B2* EKNJLLJKOIH; // 0x28
-		::Class_1_535E4088B549C341* _SolarSystem_k__BackingField; // 0x30
+		::System::Byte _padding0[0x4];
+		::HGEGFCADEEC* EKNJLLJKOIH; // 0x28
+		::PEKCKMDIAFL* _SolarSystem_k__BackingField; // 0x30
 		::CelestialBodyType _BodyType_k__BackingField; // 0x38
+		::System::Byte _padding1[0x4];
 		::OrbitData* KDKDPCOAPHD; // 0x40
 		::CelestialBodyData* LLLAGFNLJFF; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_535E4088B549C341* get_SolarSystem()
+		::PEKCKMDIAFL* get_SolarSystem()
 		{
-			return ((::Class_1_535E4088B549C341*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_GET_SOLARSYSTEM_OFFSET))(this);
+			return ((::PEKCKMDIAFL*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_GET_SOLARSYSTEM_OFFSET))(this);
 		}
 
-		::System::Void set_SolarSystem(::Class_1_535E4088B549C341* a1)
+		::System::Void set_SolarSystem(::PEKCKMDIAFL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_535E4088B549C341*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_SET_SOLARSYSTEM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PEKCKMDIAFL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_SET_SOLARSYSTEM_OFFSET))(this, a1);
 		}
 
 		::CelestialBodyType get_BodyType()
@@ -56,9 +53,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::CelestialBodyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_SET_BODYTYPE_OFFSET))(this, a1);
 		}
 
-		::System::Void BindToSolarSystem(::Class_1_535E4088B549C341* a1, ::CelestialBodyType a2)
+		::System::Void BindToSolarSystem(::PEKCKMDIAFL* a1, ::CelestialBodyType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_535E4088B549C341*, ::CelestialBodyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_BINDTOSOLARSYSTEM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::PEKCKMDIAFL*, ::CelestialBodyType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CELESTIALRENDERER_BINDTOSOLARSYSTEM_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

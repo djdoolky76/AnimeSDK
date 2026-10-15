@@ -3,15 +3,12 @@
 #include "unitysdk/ScenenLightManager/BaseComponentExportData.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90E210)
+#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE963D00)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int CharacterLineLightGroup_ExportData_TypeDefinitionIndex = 49532;
-
 	class CharacterLineLightGroup_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:
@@ -21,10 +18,10 @@ namespace ScenenLightManager
 		::System::Collections::Generic::List_1<::System::Single>* Point_Intensity; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* Line_P1; // 0x30
 		::System::Collections::Generic::List_1<::System::Int32>* Line_P2; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

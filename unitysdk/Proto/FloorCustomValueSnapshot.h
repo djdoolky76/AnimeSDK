@@ -1,81 +1,81 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_22.h"
+#include "unitysdk/EGMOEMCIINO.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class FloorCustomValueSnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D95C3C0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1D95BAC0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D95BCD0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D95BC70)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D95BEB0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_BOOLVAL_OFFSET UNITYSDK_OFFSET(0x1D95BBD0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_FLOATVAL_OFFSET UNITYSDK_OFFSET(0x1D95BBF0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D95BB50)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D95B9D0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_STRVAL_OFFSET UNITYSDK_OFFSET(0x1D95BC10)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D95BBB0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D95C5C0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D95C540)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D95BA30)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_BOOLVAL_OFFSET UNITYSDK_OFFSET(0x1D95BBE0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_FLOATVAL_OFFSET UNITYSDK_OFFSET(0x1D95BC00)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1D95BB60)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_STRVAL_OFFSET UNITYSDK_OFFSET(0x1D95BC20)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D95BBC0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D95C0E0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D95C140)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D95C6F0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D95BA60)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95BA40)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFF3C50)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF3F80)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFF3350)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFF32F0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF32D0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFF3560)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFF3500)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFF3740)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_BOOLVAL_OFFSET UNITYSDK_OFFSET(0x1DFF3460)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_FLOATVAL_OFFSET UNITYSDK_OFFSET(0x1DFF3480)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1DFF33E0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFF3260)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_STRVAL_OFFSET UNITYSDK_OFFSET(0x1DFF34A0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DFF3440)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFF3E50)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFF3DD0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFF32C0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_BOOLVAL_OFFSET UNITYSDK_OFFSET(0x1DFF3470)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_FLOATVAL_OFFSET UNITYSDK_OFFSET(0x1DFF3490)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1DFF33F0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_STRVAL_OFFSET UNITYSDK_OFFSET(0x1DFF34B0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1DFF3450)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFF3970)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFF39D0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int FloorCustomValueSnapshot_TypeDefinitionIndex = 25474;
-
 	class FloorCustomValueSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(FloorCustomValueSnapshot_TypeDefinitionIndex)->GetStaticField(0x58D60);
-		}
-		// static const ::System::Int32 NameFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 TypeFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 BoolValFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 FloatValFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 StrValFieldNumber = 0x5; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::System::String* name_; // 0x18
-		::System::String* strVal_; // 0x20
+		::System::String* strVal_; // 0x18
+		::System::String* name_; // 0x20
 		::System::Boolean boolVal_; // 0x28
-		::System::Single floatVal_; // 0x2C
-		::Enum_3_0A3761FE34514D6C_22 type_; // 0x30
+		::System::Byte _padding0[0x3];
+		::EGMOEMCIINO type_; // 0x2C
+		::System::Single floatVal_; // 0x30
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "FloorCustomValueSnapshot")->GetStaticField(0x43B30);
+		}
 
+		// static const ::System::Object NameFieldNumber; // 0x0
+		// static const ::System::Object TypeFieldNumber; // 0x0
+		// static const ::System::Object BoolValFieldNumber; // 0x0
+		// static const ::System::Object FloatValFieldNumber; // 0x0
+		// static const ::System::Object StrValFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::FloorCustomValueSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::FloorCustomValueSnapshot*))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::FloorCustomValueSnapshot*))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Proto::FloorCustomValueSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
@@ -98,14 +98,14 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_NAME_OFFSET))(this, a1);
 		}
 
-		::Enum_3_0A3761FE34514D6C_22 get_Type()
+		::EGMOEMCIINO get_Type()
 		{
-			return ((::Enum_3_0A3761FE34514D6C_22(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_TYPE_OFFSET))(this);
+			return ((::EGMOEMCIINO(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_GET_TYPE_OFFSET))(this);
 		}
 
-		::System::Void set_Type(::Enum_3_0A3761FE34514D6C_22 a1)
+		::System::Void set_Type(::EGMOEMCIINO a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_22))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_TYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EGMOEMCIINO))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_SET_TYPE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_BoolVal()
@@ -177,5 +177,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_MessageFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8B370)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8B3A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF859C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8B300)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F653890)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F653820)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6538C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F64DE80)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setDebugFunc_TypeDefinitionIndex = 38110;
-
 	class BrowserNative_Calltype_zfb_setDebugFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc* a1)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_SETDEBUGFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

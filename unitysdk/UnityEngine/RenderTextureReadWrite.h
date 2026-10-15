@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderTextureReadWrite_TypeDefinitionIndex = 4176;
-
 	enum class RenderTextureReadWrite : ::System::Int32
 	{
 		Default = 0,

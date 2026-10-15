@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8622C0)
-#define RPGTOOLS_TIMELINE_HIDEPROMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE862810)
+#define RPGTOOLS_TIMELINE_HIDEPROMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE900A80)
+#define RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE900530)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideProMixer_TypeDefinitionIndex = 48599;
-
 	class HideProMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean PropStateInLevel; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROMIXER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROMIXER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

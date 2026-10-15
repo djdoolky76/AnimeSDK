@@ -1,42 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class UIManager; }
+namespace MiHoYo::SDK { class UIManagerFacade; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MIHOYO_SDK_UIMANAGERFACADE_DESTROYALLUI_OFFSET UNITYSDK_OFFSET(0x1BB08860)
-#define MIHOYO_SDK_UIMANAGERFACADE_ENABLEUITRACKING_OFFSET UNITYSDK_OFFSET(0x1BB08840)
-#define MIHOYO_SDK_UIMANAGERFACADE_GET_INSATANCE_OFFSET UNITYSDK_OFFSET(0x1BB07610)
-#define MIHOYO_SDK_UIMANAGERFACADE_ISENABLEUITRACKING_OFFSET UNITYSDK_OFFSET(0x1BB08850)
-#define MIHOYO_SDK_UIMANAGERFACADE_POPUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1BB07CD0)
-#define MIHOYO_SDK_UIMANAGERFACADE_PUSHUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1BB077A0)
-#define MIHOYO_SDK_UIMANAGERFACADE_SET_INSATANCE_OFFSET UNITYSDK_OFFSET(0x1BB087E0)
-#define MIHOYO_SDK_UIMANAGERFACADE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB08B70)
-#define MIHOYO_SDK_UIMANAGERFACADE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB08710)
+#define MIHOYO_SDK_UIMANAGERFACADE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C015600)
+#define MIHOYO_SDK_UIMANAGERFACADE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0151A0)
+#define MIHOYO_SDK_UIMANAGERFACADE_DESTROYALLUI_OFFSET UNITYSDK_OFFSET(0x1C0152F0)
+#define MIHOYO_SDK_UIMANAGERFACADE_ENABLEUITRACKING_OFFSET UNITYSDK_OFFSET(0x1C0152D0)
+#define MIHOYO_SDK_UIMANAGERFACADE_GET_INSATANCE_OFFSET UNITYSDK_OFFSET(0x1C014000)
+#define MIHOYO_SDK_UIMANAGERFACADE_ISENABLEUITRACKING_OFFSET UNITYSDK_OFFSET(0x1C0152E0)
+#define MIHOYO_SDK_UIMANAGERFACADE_POPUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1C0146C0)
+#define MIHOYO_SDK_UIMANAGERFACADE_PUSHUIMANAGER_OFFSET UNITYSDK_OFFSET(0x1C014190)
+#define MIHOYO_SDK_UIMANAGERFACADE_SET_INSATANCE_OFFSET UNITYSDK_OFFSET(0x1C015270)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UIManagerFacade_TypeDefinitionIndex = 8220;
-
 	class UIManagerFacade : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::UIManagerFacade** StaticGet_sm_instance()
-		{
-			return (::MiHoYo::SDK::UIManagerFacade**)Il2CppClass::FromTypeDefinitionIndex(UIManagerFacade_TypeDefinitionIndex)->GetStaticField(0x299B0);
-		}
 		::System::Collections::Generic::HashSet_1<::MiHoYo::SDK::UIManager*>* m_setUIManager; // 0x10
 		::System::Boolean m_bEnableUITracking; // 0x18
+		static ::MiHoYo::SDK::UIManagerFacade** StaticGet_sm_instance()
+		{
+			return (::MiHoYo::SDK::UIManagerFacade**)UnitySDK::FromName("MiHoYo.SDK", "UIManagerFacade")->GetStaticField(0x184D0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIMANAGERFACADE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIMANAGERFACADE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIMANAGERFACADE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIMANAGERFACADE_CCTOR_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::UIManagerFacade* get_Insatance()
@@ -73,5 +71,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UIManager*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UIMANAGERFACADE_POPUIMANAGER_OFFSET))(this, a1);
 		}
+
 	};
 }

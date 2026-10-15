@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GHMGGIHEHJE;
+class JIJBCGDANLJ;
+class KPDKCEAFBHI;
+class LKNHOMGIMDE;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define ACBMLKEJELG_CTOR_OFFSET UNITYSDK_OFFSET(0xB116960)
+#define ACBMLKEJELG_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB116A10)
+
+	class ACBMLKEJELG : public ::System::Object
+	{
+	public:
+		::JIJBCGDANLJ* EEFMDEHLLFI; // 0x10
+		::System::Collections::Generic::List_1<::LKNHOMGIMDE*>* LKNIHOLPBEP; // 0x18
+		::KPDKCEAFBHI* PDENFEFCAGN; // 0x20
+		::System::Collections::Generic::List_1<::GHMGGIHEHJE*>* MIOCFEDKPLK; // 0x28
+		::System::Collections::Generic::List_1<::GHMGGIHEHJE*>* ANKHLHPPJKP; // 0x30
+		::System::Void _ctor(::JIJBCGDANLJ* a1, ::KPDKCEAFBHI* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::JIJBCGDANLJ*, ::KPDKCEAFBHI*))((::PBYTE)hIl2Cpp + ACBMLKEJELG_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Execute()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACBMLKEJELG_EXECUTE_OFFSET))(this);
+		}
+
+	};

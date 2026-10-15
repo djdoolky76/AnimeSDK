@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PlayerHitReason_TypeDefinitionIndex = 41071;
-
 	enum class PlayerHitReason : ::System::Int32
 	{
 		Enemy = 0,

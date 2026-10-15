@@ -1,34 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/KeyedHashAlgorithm.h"
-
 namespace System::Security::Cryptography { class CryptoStream; }
 namespace System::Security::Cryptography { class ICryptoTransform; }
 namespace System::Security::Cryptography { class TailStream; }
 namespace System::Security::Cryptography { class TripleDES; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BE59E10)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1BE599E0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1BE59C00)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BE599D0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4DA00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3595F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C365930)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1C365500)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1C365720)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C3654F0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int MACTripleDES_TypeDefinitionIndex = 1033;
-
 	class MACTripleDES : public ::System::Security::Cryptography::KeyedHashAlgorithm
 	{
 	public:
-		::System::Security::Cryptography::TripleDES* des; // 0x30
+		::System::Security::Cryptography::TailStream* _ts; // 0x30
 		::System::Security::Cryptography::ICryptoTransform* m_encryptor; // 0x38
 		::System::Security::Cryptography::CryptoStream* _cs; // 0x40
-		::System::Security::Cryptography::TailStream* _ts; // 0x48
+		::System::Security::Cryptography::TripleDES* des; // 0x48
 		::System::Int32 m_bytesPerBlock; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Initialize()
@@ -50,5 +46,6 @@ namespace System::Security::Cryptography
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_MACTRIPLEDES_DISPOSE_OFFSET))(this, a1);
 		}
+
 	};
 }

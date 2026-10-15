@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistantRuleType_TypeDefinitionIndex = 12583;
-
 	enum class AssistantRuleType : ::System::Int32
 	{
 		Unknown = 0,

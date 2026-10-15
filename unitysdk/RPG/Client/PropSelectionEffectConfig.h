@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class PropSelectionStateConfig; }
 
-#define RPG_CLIENT_PROPSELECTIONEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDD72500)
+#define RPG_CLIENT_PROPSELECTIONEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDDFABC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropSelectionEffectConfig_TypeDefinitionIndex = 60368;
-
 	class PropSelectionEffectConfig : public ::System::Object
 	{
 	public:
@@ -18,10 +15,10 @@ namespace RPG::Client
 		::RPG::Client::PropSelectionStateConfig* DisableState; // 0x20
 		::System::Single FadeInTime; // 0x28
 		::System::Single FadeOutTime; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPSELECTIONEFFECTCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

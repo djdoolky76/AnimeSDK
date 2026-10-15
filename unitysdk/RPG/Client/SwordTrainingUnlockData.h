@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
+namespace RPG::Client { class SwordTrainingUnlockData; }
 namespace RPG::GameCore { class SwordTrainingUnlockRow; }
 
-#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE141700)
-#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_GET_FINISHWAYID_OFFSET UNITYSDK_OFFSET(0xE1420B0)
-#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_GET_UNLOCKDESC_OFFSET UNITYSDK_OFFSET(0xE141950)
-#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xE142150)
-#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE1420A0)
+#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE179AB0)
+#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE182DD0)
+#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_GET_FINISHWAYID_OFFSET UNITYSDK_OFFSET(0xE182DE0)
+#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_GET_UNLOCKDESC_OFFSET UNITYSDK_OFFSET(0xE182680)
+#define RPG_CLIENT_SWORDTRAININGUNLOCKDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xE182E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingUnlockData_TypeDefinitionIndex = 62078;
-
 	class SwordTrainingUnlockData : public ::System::Object
 	{
 	public:
 		::System::UInt32 UnlockID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGUNLOCKDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGUNLOCKDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::SwordTrainingUnlockData* Create(::System::UInt32 a1)
@@ -44,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::SwordTrainingUnlockRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGUNLOCKDATA_GET__ROW_OFFSET))(this);
 		}
+
 	};
 }

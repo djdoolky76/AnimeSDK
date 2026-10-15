@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExAcf_AcfAisacType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2DFF330)
+#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8B210)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 38735;
-
 	struct alignas(8) CriAtomExAcf_GlobalAisacInfo
 	{
 		::System::String* name; // 0x10
@@ -20,10 +16,10 @@ namespace CriWare
 		::System::Single randomRange; // 0x20
 		::System::UInt16 controlId; // 0x24
 		::System::UInt16 dummy; // 0x26
-
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_GLOBALAISACINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACF_GLOBALAISACINFO_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

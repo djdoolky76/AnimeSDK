@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Converters/XObjectWrapper.h"
-
 namespace Newtonsoft::Json::Converters { class IXmlNode; }
 namespace System { class String; }
 namespace System::Xml::Linq { class XComment; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1BE76980)
-#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1BE76830)
-#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BE76900)
-#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE768A0)
+#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C382550)
+#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_GET_PARENTNODE_OFFSET UNITYSDK_OFFSET(0x1C382630)
+#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1C3824E0)
+#define NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C3825B0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int XCommentWrapper_TypeDefinitionIndex = 9781;
-
 	class XCommentWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper
 	{
 	public:
 		::System::Void _ctor(::System::Xml::Linq::XComment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XComment*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XComment*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Xml::Linq::XComment* get_Text()
@@ -37,5 +34,6 @@ namespace Newtonsoft::Json::Converters
 		{
 			return ((::Newtonsoft::Json::Converters::IXmlNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_XCOMMENTWRAPPER_GET_PARENTNODE_OFFSET))(this);
 		}
+
 	};
 }

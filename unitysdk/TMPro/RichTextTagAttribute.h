@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/TagUnitType.h"
 #include "unitysdk/TMPro/TagValueType.h"
 
 namespace TMPro
 {
-	inline static constexpr unsigned int RichTextTagAttribute_TypeDefinitionIndex = 43498;
-
 	struct alignas(4) RichTextTagAttribute
 	{
 		::System::Int32 nameHashCode; // 0x10

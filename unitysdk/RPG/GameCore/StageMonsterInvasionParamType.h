@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageMonsterInvasionParamType_TypeDefinitionIndex = 56365;
-
 	enum class StageMonsterInvasionParamType : ::System::Int32
 	{
 		KillThresh = 0,

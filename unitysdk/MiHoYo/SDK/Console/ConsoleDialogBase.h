@@ -1,49 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK::Console { class SDKUIController; }
 namespace MiHoYo::SDK::Console { class SDKUIDialog; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x1B78F1A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B785540)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_CANCELBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1B78F5C0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_CONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1B78F6A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_GET_CANCELBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1B78EF90)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_GET_CONFIRMBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1B78EE40)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_HIGHLIGHTEDCHANGED_OFFSET UNITYSDK_OFFSET(0x1B78F780)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_ISFOCUS_OFFSET UNITYSDK_OFFSET(0x1B78F7A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B7863B0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_REGISTERINPUTFIELDTOUCHHANDLER_OFFSET UNITYSDK_OFFSET(0x1B78F7C0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_REVERTPS4BUTTONIMAGES_OFFSET UNITYSDK_OFFSET(0x1B78F0E0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_SETHIGHLIGHTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1B781460)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_SET_CANCELBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1B785B70)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_SET_CONFIRMBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1B785A20)
-#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B788C70)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_ADJUSTBUTTONSIZEONXCLOUD_OFFSET UNITYSDK_OFFSET(0x1BC8DDE0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC83A20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_CANCELBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BC8E200)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_CONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BC8E2E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC87290)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_GET_CANCELBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1BC8DBD0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_GET_CONFIRMBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1BC8DA80)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_HIGHLIGHTEDCHANGED_OFFSET UNITYSDK_OFFSET(0x1BC8E3C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_ISFOCUS_OFFSET UNITYSDK_OFFSET(0x1BC8E3E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC84A00)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_REGISTERINPUTFIELDTOUCHHANDLER_OFFSET UNITYSDK_OFFSET(0x1BC8E400)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_REVERTPS4BUTTONIMAGES_OFFSET UNITYSDK_OFFSET(0x1BC8DD20)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_SETHIGHLIGHTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1BC7F450)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_SET_CANCELBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1BC841C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_SET_CONFIRMBUTTONTEXT_OFFSET UNITYSDK_OFFSET(0x1BC84070)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleDialogBase_TypeDefinitionIndex = 8943;
-
 	class ConsoleDialogBase : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		// static const ::System::String* AgreeButtonPath; // 0x0
-		// static const ::System::String* AgreeTextPath; // 0x0
-		// static const ::System::String* AgreeImagePath; // 0x0
-		// static const ::System::String* AgreeRevertedImagePath; // 0x0
-		// static const ::System::String* RefuseButtonPath; // 0x0
-		// static const ::System::String* RefuseTextPath; // 0x0
-		// static const ::System::String* RefuseImagePath; // 0x0
-		// static const ::System::String* RefuseRevertedImagePath; // 0x0
-		// static const ::System::Int32 xcloud_button_width = 0x2C; // 0x0
 		::System::Action* OnDialogConfirmed; // 0x58
 		::System::Action* OnDialogCanceled; // 0x60
-		::System::Action_1<::UnityEngine::GameObject*>* OnDialogHighlightedChanged; // 0x68
+		::System::Action* OnDialogHighlightedChanged; // 0x68
 		::UnityEngine::GameObject* ConfirmButtonObject; // 0x70
 		::UnityEngine::GameObject* CancelButtonObject; // 0x78
 		::MiHoYo::SDK::Console::SDKUIController* controller; // 0x80
@@ -54,10 +41,18 @@ namespace MiHoYo::SDK::Console
 		::UnityEngine::GameObject* CancelButtonTextObj; // 0xA8
 		::UnityEngine::GameObject* CancelButtonImageObj; // 0xB0
 		::UnityEngine::GameObject* CancelButtonRevertedImageObj; // 0xB8
-
+		// static const ::System::String* AgreeButtonPath; // 0x0
+		// static const ::System::String* AgreeTextPath; // 0x0
+		// static const ::System::String* AgreeImagePath; // 0x0
+		// static const ::System::String* AgreeRevertedImagePath; // 0x0
+		// static const ::System::String* RefuseButtonPath; // 0x0
+		// static const ::System::String* RefuseTextPath; // 0x0
+		// static const ::System::String* RefuseImagePath; // 0x0
+		// static const ::System::String* RefuseRevertedImagePath; // 0x0
+		// static const ::System::Object xcloud_button_width; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_ConfirmButtonText(::System::String* a1)
@@ -129,5 +124,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_REGISTERINPUTFIELDTOUCHHANDLER_OFFSET))(this, a1);
 		}
+
 	};
 }

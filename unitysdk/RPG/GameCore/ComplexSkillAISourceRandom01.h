@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ComplexSkillAISource.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAISourceRandom01; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_METHOD_3_63DD53EA7040E979_OFFSET UNITYSDK_OFFSET(0x1CFF5D30)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_METHOD_3_66250C00B692A47C_OFFSET UNITYSDK_OFFSET(0x1CFF5C50)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF5D20)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D1AE0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5D1AF0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D1A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISourceRandom01_TypeDefinitionIndex = 15380;
-
 	class ComplexSkillAISourceRandom01 : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:
 		::System::Boolean FromRecord; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_66250C00B692A47C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceRandom01*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceRandom01* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceRandom01*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_METHOD_3_66250C00B692A47C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceRandom01*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_63DD53EA7040E979(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceRandom01* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceRandom01* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceRandom01*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_METHOD_3_63DD53EA7040E979_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceRandom01*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCERANDOM01_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

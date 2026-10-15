@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
@@ -9,21 +8,19 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture; }
 
-#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E653970)
-#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E6539B0)
-#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E653210)
-#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6538F0)
+#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED1B7E0)
+#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED1B760)
+#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED1B820)
+#define SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED1B0B0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonGraphic_MeshAssignmentDelegateSingle_TypeDefinitionIndex = 43837;
-
 	class SkeletonGraphic_MeshAssignmentDelegateSingle : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Mesh* a1, ::UnityEngine::Material* a2, ::UnityEngine::Texture* a3)
@@ -40,5 +37,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHIC_MESHASSIGNMENTDELEGATESINGLE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

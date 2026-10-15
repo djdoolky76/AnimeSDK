@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int AcquireFiveDimPlayerBeatBackReason_TypeDefinitionIndex = 41792;
-
 	enum class AcquireFiveDimPlayerBeatBackReason : ::System::Int32
 	{
 		None = 0,

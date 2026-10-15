@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MeshColliderCookingOptions_TypeDefinitionIndex = 5295;
-
 	enum class MeshColliderCookingOptions : ::System::Int32
 	{
 		None = 0,

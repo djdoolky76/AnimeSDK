@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByHaveSkillPointEntity; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_42472F1B67E5D096_OFFSET UNITYSDK_OFFSET(0x1CF28530)
-#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_71244D5E64B31995_OFFSET UNITYSDK_OFFSET(0x1CF284F0)
-#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_E335C01BB59BE080_OFFSET UNITYSDK_OFFSET(0x1CF28670)
-#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_E7C82CAB250C19A1_OFFSET UNITYSDK_OFFSET(0x1CF286A0)
-#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF28520)
+#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D500DF0)
+#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D500F70)
+#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D500F40)
+#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D500E00)
+#define RPG_GAMECORE_BYHAVESKILLPOINTENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D500DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHaveSkillPointEntity_TypeDefinitionIndex = 22174;
-
 	class ByHaveSkillPointEntity : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_71244D5E64B31995(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveSkillPointEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHaveSkillPointEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveSkillPointEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_71244D5E64B31995_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHaveSkillPointEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_42472F1B67E5D096(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveSkillPointEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHaveSkillPointEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveSkillPointEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_42472F1B67E5D096_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHaveSkillPointEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E335C01BB59BE080(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveSkillPointEntity*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveSkillPointEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveSkillPointEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_E335C01BB59BE080_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveSkillPointEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E7C82CAB250C19A1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveSkillPointEntity* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveSkillPointEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveSkillPointEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_METHOD_4_E7C82CAB250C19A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveSkillPointEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVESKILLPOINTENTITY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

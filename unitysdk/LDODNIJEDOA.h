@@ -1,0 +1,188 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/KJFIKOKBCCA.h"
+#include "unitysdk/LDODNIJEDOA_GJMGCDBHLOH.h"
+class HIOEAKHGILF;
+class LDODNIJEDOA;
+class NDDFLGNNMDK;
+class PEEDLCHFAFL;
+namespace Entitas { class IGroup; }
+namespace RPG::GameCore { class LittleGameEvent; }
+
+#define LDODNIJEDOA_AICPIOCNPKN_OFFSET UNITYSDK_OFFSET(0xB640D70)
+#define LDODNIJEDOA_AKBIKOKKBFI_OFFSET UNITYSDK_OFFSET(0xB63FB60)
+#define LDODNIJEDOA_BADJCIBELAP_OFFSET UNITYSDK_OFFSET(0xB640A50)
+#define LDODNIJEDOA_BECJFFBMHFO_OFFSET UNITYSDK_OFFSET(0xB641BE0)
+#define LDODNIJEDOA_BEHACMMHFNN_OFFSET UNITYSDK_OFFSET(0xB641AB0)
+#define LDODNIJEDOA_BKJKNAKDDOF_OFFSET UNITYSDK_OFFSET(0xB6403E0)
+#define LDODNIJEDOA_BLCOICFDDAG_OFFSET UNITYSDK_OFFSET(0xB6408C0)
+#define LDODNIJEDOA_BNLPMEMODPH_OFFSET UNITYSDK_OFFSET(0xB63F390)
+#define LDODNIJEDOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB63F2B0)
+#define LDODNIJEDOA_DMPIOGFBBBF_OFFSET UNITYSDK_OFFSET(0xB6407F0)
+#define LDODNIJEDOA_HACHPFMJNDG_OFFSET UNITYSDK_OFFSET(0xB640310)
+#define LDODNIJEDOA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB63F2C0)
+#define LDODNIJEDOA_JINJBLHGAKK_OFFSET UNITYSDK_OFFSET(0xB640F00)
+#define LDODNIJEDOA_LFEPPDKCONA_OFFSET UNITYSDK_OFFSET(0xB640720)
+#define LDODNIJEDOA_LLNHEHGABKE_OFFSET UNITYSDK_OFFSET(0xB641220)
+#define LDODNIJEDOA_LMBCLGHAEAA_OFFSET UNITYSDK_OFFSET(0xB640BE0)
+#define LDODNIJEDOA_MGEEODJNLGN_OFFSET UNITYSDK_OFFSET(0xB640580)
+#define LDODNIJEDOA_NENFNPDIKJJ_OFFSET UNITYSDK_OFFSET(0xB640650)
+#define LDODNIJEDOA_OCDFNGBBHAJ_OFFSET UNITYSDK_OFFSET(0xB641090)
+#define LDODNIJEDOA_OHPKJBGGHLD_OFFSET UNITYSDK_OFFSET(0xB6404B0)
+#define LDODNIJEDOA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB63FB10)
+#define LDODNIJEDOA__GET__ONPLAYERBEATBACKCLOSURE_B__28_0_OFFSET UNITYSDK_OFFSET(0xB641CC0)
+#define LDODNIJEDOA__GET__ONPLAYERDEADCLOSURE_B__26_0_OFFSET UNITYSDK_OFFSET(0xB641CB0)
+#define LDODNIJEDOA__GET__ONPLAYERJUMPCLOSURE_B__22_0_OFFSET UNITYSDK_OFFSET(0xB641C90)
+#define LDODNIJEDOA__GET__ONPLAYERLANDCLOSURE_B__24_0_OFFSET UNITYSDK_OFFSET(0xB641CA0)
+#define LDODNIJEDOA__GET__ONPLAYERPLAYFLUTECLOSURE_B__18_0_OFFSET UNITYSDK_OFFSET(0xB641C70)
+#define LDODNIJEDOA__GET__ONPLAYERUPDATEINPUTCLOSURE_B__16_0_OFFSET UNITYSDK_OFFSET(0xB641C60)
+#define LDODNIJEDOA__GET__ONPLAYERUSESKILLCLOSURE_B__20_0_OFFSET UNITYSDK_OFFSET(0xB641C80)
+
+	class LDODNIJEDOA : public ::System::Object
+	{
+	public:
+		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
+		::Entitas::IGroup* EHEJBEEHABG; // 0x18
+		::NDDFLGNNMDK* FKINCGODJEP; // 0x20
+		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::NDDFLGNNMDK*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + LDODNIJEDOA_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Initialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_INITIALIZE_OFFSET))(this);
+		}
+
+		::System::Void TearDown()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_TEARDOWN_OFFSET))(this);
+		}
+
+		::System::Void BNLPMEMODPH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_BNLPMEMODPH_OFFSET))(this);
+		}
+
+		::System::Void AKBIKOKKBFI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_AKBIKOKKBFI_OFFSET))(this);
+		}
+
+		::System::Void BLCOICFDDAG()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_BLCOICFDDAG_OFFSET))(this);
+		}
+
+		::System::Void BADJCIBELAP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_BADJCIBELAP_OFFSET))(this);
+		}
+
+		::System::Void LMBCLGHAEAA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_LMBCLGHAEAA_OFFSET))(this);
+		}
+
+		::System::Void AICPIOCNPKN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_AICPIOCNPKN_OFFSET))(this);
+		}
+
+		::System::Void JINJBLHGAKK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_JINJBLHGAKK_OFFSET))(this);
+		}
+
+		::System::Void OCDFNGBBHAJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_OCDFNGBBHAJ_OFFSET))(this);
+		}
+
+		::System::Void LLNHEHGABKE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_LLNHEHGABKE_OFFSET))(this);
+		}
+
+		static ::LDODNIJEDOA_GJMGCDBHLOH BEHACMMHFNN(::System::Single a1, ::System::Single a2)
+		{
+			return ((::LDODNIJEDOA_GJMGCDBHLOH(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + LDODNIJEDOA_BEHACMMHFNN_OFFSET))(a1, a2);
+		}
+
+		::System::Void BECJFFBMHFO(::HIOEAKHGILF* a1, ::System::Boolean a2, ::RPG::GameCore::LittleGameEvent* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*, ::System::Boolean, ::RPG::GameCore::LittleGameEvent*))((::PBYTE)hIl2Cpp + LDODNIJEDOA_BECJFFBMHFO_OFFSET))(this, a1, a2, a3);
+		}
+
+		::KJFIKOKBCCA DMPIOGFBBBF()
+		{
+			return ((::KJFIKOKBCCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_DMPIOGFBBBF_OFFSET))(this);
+		}
+
+		::KJFIKOKBCCA LFEPPDKCONA()
+		{
+			return ((::KJFIKOKBCCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_LFEPPDKCONA_OFFSET))(this);
+		}
+
+		::KJFIKOKBCCA MGEEODJNLGN()
+		{
+			return ((::KJFIKOKBCCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_MGEEODJNLGN_OFFSET))(this);
+		}
+
+		::KJFIKOKBCCA NENFNPDIKJJ()
+		{
+			return ((::KJFIKOKBCCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_NENFNPDIKJJ_OFFSET))(this);
+		}
+
+		::KJFIKOKBCCA HACHPFMJNDG()
+		{
+			return ((::KJFIKOKBCCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_HACHPFMJNDG_OFFSET))(this);
+		}
+
+		::KJFIKOKBCCA BKJKNAKDDOF()
+		{
+			return ((::KJFIKOKBCCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_BKJKNAKDDOF_OFFSET))(this);
+		}
+
+		::KJFIKOKBCCA OHPKJBGGHLD()
+		{
+			return ((::KJFIKOKBCCA(*)(::PVOID))((::PBYTE)hIl2Cpp + LDODNIJEDOA_OHPKJBGGHLD_OFFSET))(this);
+		}
+
+		::System::Void _get__OnPlayerUpdateInputClosure_b__16_0(::LDODNIJEDOA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LDODNIJEDOA*))((::PBYTE)hIl2Cpp + LDODNIJEDOA__GET__ONPLAYERUPDATEINPUTCLOSURE_B__16_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _get__OnPlayerPlayFluteClosure_b__18_0(::LDODNIJEDOA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LDODNIJEDOA*))((::PBYTE)hIl2Cpp + LDODNIJEDOA__GET__ONPLAYERPLAYFLUTECLOSURE_B__18_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _get__OnPlayerUseSkillClosure_b__20_0(::LDODNIJEDOA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LDODNIJEDOA*))((::PBYTE)hIl2Cpp + LDODNIJEDOA__GET__ONPLAYERUSESKILLCLOSURE_B__20_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _get__OnPlayerJumpClosure_b__22_0(::LDODNIJEDOA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LDODNIJEDOA*))((::PBYTE)hIl2Cpp + LDODNIJEDOA__GET__ONPLAYERJUMPCLOSURE_B__22_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _get__OnPlayerLandClosure_b__24_0(::LDODNIJEDOA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LDODNIJEDOA*))((::PBYTE)hIl2Cpp + LDODNIJEDOA__GET__ONPLAYERLANDCLOSURE_B__24_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _get__OnPlayerDeadClosure_b__26_0(::LDODNIJEDOA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LDODNIJEDOA*))((::PBYTE)hIl2Cpp + LDODNIJEDOA__GET__ONPLAYERDEADCLOSURE_B__26_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _get__OnPlayerBeatBackClosure_b__28_0(::LDODNIJEDOA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LDODNIJEDOA*))((::PBYTE)hIl2Cpp + LDODNIJEDOA__GET__ONPLAYERBEATBACKCLOSURE_B__28_0_OFFSET))(this, a1);
+		}
+
+	};

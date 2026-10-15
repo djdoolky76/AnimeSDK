@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialBlockEffectPropertyType_TypeDefinitionIndex = 70616;
-
 	enum class MaterialBlockEffectPropertyType : ::System::Int32
 	{
 		FClipKeyWord = 0,

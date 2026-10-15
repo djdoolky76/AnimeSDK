@@ -1,35 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Security { class ASN1; }
 namespace Mono::Security { class PKCS7_ContentInfo; }
 
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTEDCONTENT_OFFSET UNITYSDK_OFFSET(0x1BB28530)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTIONALGORITHM_OFFSET UNITYSDK_OFFSET(0x1BB28520)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BB28180)
-#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB28170)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C080340)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C080330)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTEDCONTENT_OFFSET UNITYSDK_OFFSET(0x1C0806F0)
+#define MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTIONALGORITHM_OFFSET UNITYSDK_OFFSET(0x1C0806E0)
 
 namespace Mono::Security
 {
-	inline static constexpr unsigned int PKCS7_EncryptedData_TypeDefinitionIndex = 2262;
-
 	class PKCS7_EncryptedData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* _encrypted; // 0x10
-		::Mono::Security::PKCS7_ContentInfo* _encryptionAlgorithm; // 0x18
-		::Mono::Security::PKCS7_ContentInfo* _content; // 0x20
+		::Mono::Security::PKCS7_ContentInfo* _content; // 0x18
+		::Mono::Security::PKCS7_ContentInfo* _encryptionAlgorithm; // 0x20
 		::System::Byte _version; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Mono::Security::ASN1* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Mono::Security::PKCS7_ContentInfo* get_EncryptionAlgorithm()
@@ -41,5 +37,6 @@ namespace Mono::Security
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_PKCS7_ENCRYPTEDDATA_GET_ENCRYPTEDCONTENT_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,23 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1E9B4310)
-#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_LINGERTIME_OFFSET UNITYSDK_OFFSET(0x1E9B4320)
-#define SYSTEM_NET_SOCKETS_LINGEROPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B4300)
+#define SYSTEM_NET_SOCKETS_LINGEROPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07CB00)
+#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1F07CB10)
+#define SYSTEM_NET_SOCKETS_LINGEROPTION_SET_LINGERTIME_OFFSET UNITYSDK_OFFSET(0x1F07CB20)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int LingerOption_TypeDefinitionIndex = 2897;
-
 	class LingerOption : public ::System::Object
 	{
 	public:
 		::System::Int32 lingerTime; // 0x10
 		::System::Boolean enabled; // 0x14
-
 		::System::Void _ctor(::System::Boolean a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_LINGEROPTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_LINGEROPTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void set_Enabled(::System::Boolean a1)
@@ -30,5 +27,6 @@ namespace System::Net::Sockets
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_LINGEROPTION_SET_LINGERTIME_OFFSET))(this, a1);
 		}
+
 	};
 }

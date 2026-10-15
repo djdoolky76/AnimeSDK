@@ -3,79 +3,51 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
 #include "unitysdk/MiHoYo/SDK/Console/PS4BindEmailDialog_HighlightableObject.h"
 #include "unitysdk/UnityEngine/Color.h"
-
+namespace MiHoYo::SDK::Console { class PS4BindEmailDialog; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B7D52F0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1B918880)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CAPTCHACODEVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B7D7A00)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B918180)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1B7C9C50)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1B917640)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x1B7D72E0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_MAILINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1B7D7990)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONBINDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1B918710)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONCAPTCHARESENDCOUNTDOWNEND_OFFSET UNITYSDK_OFFSET(0x1B918520)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B7D7970)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B7D7360)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONGETCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1B918200)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONHIGHLIGHTEDOBJECTCHANGED_OFFSET UNITYSDK_OFFSET(0x1B9189D0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONRFEFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1B918620)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETHIGHLIGHTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1B7D7380)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1B7C80C0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1B7C8C20)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETSENDCAPTCHABUTTONENABLE_OFFSET UNITYSDK_OFFSET(0x1B917A10)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1B7C7CD0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_STARTCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B9176C0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1B7D75F0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_UPDATECAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B9183A0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_UPDATESKIPBTN_OFFSET UNITYSDK_OFFSET(0x1B9181D0)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B7D7710)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B918C70)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BCD4780)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BE17A90)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CAPTCHACODEVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BE16CB0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BE17390)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE17E80)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BCC90E0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_INVALIDATEQRCODE_OFFSET UNITYSDK_OFFSET(0x1BE16FC0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_LOADINGQRCODE_OFFSET UNITYSDK_OFFSET(0x1BE16E70)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_MAILINPUTVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1BE164D0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONBINDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BE17920)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONCAPTCHARESENDCOUNTDOWNEND_OFFSET UNITYSDK_OFFSET(0x1BE17730)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BCD70B0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BCD6AA0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONGETCAPTCHACODE_OFFSET UNITYSDK_OFFSET(0x1BE17410)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONHIGHLIGHTEDOBJECTCHANGED_OFFSET UNITYSDK_OFFSET(0x1BE17BE0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONRFEFRESHQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BE17830)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETHIGHLIGHTEDOBJECT_OFFSET UNITYSDK_OFFSET(0x1BCD6AC0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BE16E40)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETQRIMAGE_OFFSET UNITYSDK_OFFSET(0x1BE16EF0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SETSENDCAPTCHABUTTONENABLE_OFFSET UNITYSDK_OFFSET(0x1BE16540)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BCC7260)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_STARTCAPTCHACOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BE17040)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BCD6D30)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_UPDATECAPTCHARESENDCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BE175B0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_UPDATESKIPBTN_OFFSET UNITYSDK_OFFSET(0x1BE173E0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BCD6E50)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int PS4BindEmailDialog_TypeDefinitionIndex = 8956;
-
 	class PS4BindEmailDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::Console::PS4BindEmailDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Console::PS4BindEmailDialog**)Il2CppClass::FromTypeDefinitionIndex(PS4BindEmailDialog_TypeDefinitionIndex)->GetStaticField(0xD1E0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::Int32 CAPTCHA_RESEND_SECONDS = 0x3C; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescTextPath; // 0x0
-		// static const ::System::String* ManualBindTitleTextPath; // 0x0
-		// static const ::System::String* MailInputPath; // 0x0
-		// static const ::System::String* CodeInputPath; // 0x0
-		// static const ::System::String* CaptchaCountdownTextPath; // 0x0
-		// static const ::System::String* CaptchaCountdownImagePath; // 0x0
-		// static const ::System::String* BindButtonPath; // 0x0
-		// static const ::System::String* BindButtonTextPath; // 0x0
-		// static const ::System::String* BindButtonOutlinePath; // 0x0
-		// static const ::System::String* QRBindTitleTextPath; // 0x0
-		// static const ::System::String* QRImagePath; // 0x0
-		// static const ::System::String* QRLoadingPanelPath; // 0x0
-		// static const ::System::String* QRExpiredPanelPath; // 0x0
-		// static const ::System::String* QRRefreshTipsTextPath; // 0x0
-		// static const ::System::String* ScanInstructionTextPath; // 0x0
-		// static const ::System::String* SendCaptchaBtnTextPath; // 0x0
-		// static const ::System::String* SendCaptchaBtnImagePath; // 0x0
 		::UnityEngine::Color ENABLED_COLOR; // 0xC0
 		::UnityEngine::Color DISABLED_COLOR; // 0xD0
 		::System::Action* OnRefreshQRCodeClicked; // 0xE0
-		::System::Action_1<::System::String*>* OnGetCaptchaClicked; // 0xE8
-		::System::Action_2<::System::String*, ::System::String*>* OnBindButtonClicked; // 0xF0
+		::System::Action* OnGetCaptchaClicked; // 0xE8
+		::System::Action* OnBindButtonClicked; // 0xF0
 		::System::Action* OnBindingSkip; // 0xF8
 		::UnityEngine::GameObject* MailInputObj; // 0x100
 		::UnityEngine::GameObject* CaptchaInputObj; // 0x108
@@ -94,12 +66,37 @@ namespace MiHoYo::SDK::Console
 		::System::Boolean SendCaptchaBtnEnabled; // 0x16C
 		::System::Boolean Interactable; // 0x16D
 		::System::Boolean IsQRCodeExpired; // 0x16E
+		::System::Byte _padding0[0x1];
 		::UnityEngine::Coroutine* CaptchaCountdownCoroutine; // 0x170
 		::System::String* cachedEmail; // 0x178
+		static ::MiHoYo::SDK::Console::PS4BindEmailDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Console::PS4BindEmailDialog**)UnitySDK::FromName("MiHoYo.SDK.Console", "PS4BindEmailDialog")->GetStaticField(0x12B0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::Object CAPTCHA_RESEND_SECONDS; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescTextPath; // 0x0
+		// static const ::System::String* ManualBindTitleTextPath; // 0x0
+		// static const ::System::String* MailInputPath; // 0x0
+		// static const ::System::String* CodeInputPath; // 0x0
+		// static const ::System::String* CaptchaCountdownTextPath; // 0x0
+		// static const ::System::String* CaptchaCountdownImagePath; // 0x0
+		// static const ::System::String* BindButtonPath; // 0x0
+		// static const ::System::String* BindButtonTextPath; // 0x0
+		// static const ::System::String* BindButtonOutlinePath; // 0x0
+		// static const ::System::String* QRBindTitleTextPath; // 0x0
+		// static const ::System::String* QRImagePath; // 0x0
+		// static const ::System::String* QRLoadingPanelPath; // 0x0
+		// static const ::System::String* QRExpiredPanelPath; // 0x0
+		// static const ::System::String* QRRefreshTipsTextPath; // 0x0
+		// static const ::System::String* ScanInstructionTextPath; // 0x0
+		// static const ::System::String* SendCaptchaBtnTextPath; // 0x0
+		// static const ::System::String* SendCaptchaBtnImagePath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -226,5 +223,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG_ONHIGHLIGHTEDOBJECTCHANGED_OFFSET))(this, a1);
 		}
+
 	};
 }

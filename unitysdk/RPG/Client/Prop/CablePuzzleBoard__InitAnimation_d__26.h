@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client::Prop { class CablePuzzleBoard; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDBF58E0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDBF63C0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDBF6420)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDBF63D0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDBF58D0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26__CTOR_OFFSET UNITYSDK_OFFSET(0xDBF4160)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_CTOR_OFFSET UNITYSDK_OFFSET(0xDC3EBD0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDC40350)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC40E20)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC40E80)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDC40E30)
+#define RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC40340)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CablePuzzleBoard__InitAnimation_d__26_TypeDefinitionIndex = 78134;
-
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26>
 	class CablePuzzleBoard__InitAnimation_d__26 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::CablePuzzleBoard* __4__this; // 0x10
-		::System::Object* __2__current; // 0x18
+		::System::Object* __2__current; // 0x10
+		::RPG::Client::Prop::CablePuzzleBoard* __4__this; // 0x18
 		::System::Int32 __1__state; // 0x20
-		::UnityEngine::Vector3 _centerPosition_5__3; // 0x24
-		::System::Single _currentTime_5__2; // 0x30
-
+		::System::Single _currentTime_5__2; // 0x24
+		::UnityEngine::Vector3 _centerPosition_5__3; // 0x28
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -54,5 +52,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CABLEPUZZLEBOARD__INITANIMATION_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

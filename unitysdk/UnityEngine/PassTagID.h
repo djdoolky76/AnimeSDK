@@ -1,25 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_PASSTAGID_INITPASSTAG_1_OFFSET UNITYSDK_OFFSET(0x1ED42A50)
-#define UNITYENGINE_PASSTAGID_INITPASSTAG_OFFSET UNITYSDK_OFFSET(0x3BBA780)
-#define UNITYENGINE_PASSTAGID__CTOR_OFFSET UNITYSDK_OFFSET(0x7E340)
+#define UNITYENGINE_PASSTAGID_CTOR_OFFSET UNITYSDK_OFFSET(0x14190)
+#define UNITYENGINE_PASSTAGID_INITPASSTAG_1_OFFSET UNITYSDK_OFFSET(0x1F40A830)
+#define UNITYENGINE_PASSTAGID_INITPASSTAG_OFFSET UNITYSDK_OFFSET(0x3C700F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PassTagID_TypeDefinitionIndex = 4254;
-
 	struct alignas(8) PassTagID
 	{
 		::System::String* name; // 0x10
 		::System::Int32 id; // 0x18
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void InitPassTag()
@@ -31,5 +26,6 @@ namespace UnityEngine
 		{
 			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PASSTAGID_INITPASSTAG_1_OFFSET))(a1);
 		}
+
 	};
 }

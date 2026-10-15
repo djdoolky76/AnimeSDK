@@ -1,16 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
-
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class PinnedArray_1; }
+#include "unitysdk/System/Object.h"
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int PinnedArray_1_TypeDefinitionIndex = 44704;
-
 	template <typename T>
 	class PinnedArray_1 : public ::System::Object
 	{

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IsometricNotifyType_TypeDefinitionIndex = 24331;
-
 	enum class IsometricNotifyType : ::System::Int32
 	{
 		ReportStartIsometric = 0,

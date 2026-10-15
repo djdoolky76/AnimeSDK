@@ -3,8 +3,6 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int ActiveSkillDescShowMode_TypeDefinitionIndex = 80655;
-
 	enum class ActiveSkillDescShowMode : ::System::Int32
 	{
 		Normal = 0,

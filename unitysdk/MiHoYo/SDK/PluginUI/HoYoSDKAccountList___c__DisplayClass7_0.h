@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB277C70)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__REGISTERDELEGATE_B__6_OFFSET UNITYSDK_OFFSET(0xB277DC0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB0166B0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__REGISTERDELEGATE_B__6_OFFSET UNITYSDK_OFFSET(0xB016800)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKAccountList___c__DisplayClass7_0_TypeDefinitionIndex = 47199;
-
 	class HoYoSDKAccountList___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Int32>* deleteCallback; // 0x10
+		::System::Action* deleteCallback; // 0x10
 		::System::Int32 nItemIndex; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _RegisterDelegate_b__6(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKACCOUNTLIST___C__DISPLAYCLASS7_0__REGISTERDELEGATE_B__6_OFFSET))(this, a1);
 		}
+
 	};
 }

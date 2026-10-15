@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/HipplenPickingGoodsDisplayType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HipplenRequireGoodsConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_METHOD_2_A8D2C20A094D37C6_OFFSET UNITYSDK_OFFSET(0x1D193FA0)
-#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D194160)
+#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76F810)
+#define RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76F650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenRequireGoodsConfig_TypeDefinitionIndex = 16621;
-
 	class HipplenRequireGoodsConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -19,15 +17,15 @@ namespace RPG::GameCore
 		::System::Single DisplayParam; // 0x14
 		::System::UInt32 GoodsID; // 0x18
 		::System::UInt32 Amount; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A8D2C20A094D37C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenRequireGoodsConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HipplenRequireGoodsConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenRequireGoodsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_METHOD_2_A8D2C20A094D37C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HipplenRequireGoodsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENREQUIREGOODSCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

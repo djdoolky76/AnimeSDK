@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int PlayerFlipState_TypeDefinitionIndex = 41051;
-
 	enum class PlayerFlipState : ::System::Int32
 	{
 		Finish = 0,

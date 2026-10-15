@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterChangeModel; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_5D13EEFD07512A98_OFFSET UNITYSDK_OFFSET(0x1CF907C0)
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_82B9821EC0976EF7_OFFSET UNITYSDK_OFFSET(0x1CF90720)
-#define RPG_GAMECORE_CHARACTERCHANGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF90780)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56A910)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56A950)
+#define RPG_GAMECORE_CHARACTERCHANGEMODEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56A8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterChangeModel_TypeDefinitionIndex = 22937;
-
 	class CharacterChangeModel : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -21,20 +20,20 @@ namespace RPG::GameCore
 		::System::String* PrefabPath; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSuccess; // 0x28
 		::System::Boolean IsAsyncLoad; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_82B9821EC0976EF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangeModel*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterChangeModel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangeModel*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_82B9821EC0976EF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterChangeModel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5D13EEFD07512A98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangeModel* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterChangeModel* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangeModel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_METHOD_3_5D13EEFD07512A98_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterChangeModel*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEMODEL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

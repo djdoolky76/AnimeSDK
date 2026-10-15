@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DawnsEyeWeatherUIType_TypeDefinitionIndex = 55582;
-
 	enum class DawnsEyeWeatherUIType : ::System::Int32
 	{
 		None = 0,

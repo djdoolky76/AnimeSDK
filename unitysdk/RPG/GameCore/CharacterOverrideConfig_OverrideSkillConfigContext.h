@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::GameCore { class SkillAbilityConfig; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOverrideConfig_OverrideSkillConfigContext_TypeDefinitionIndex = 16346;
-
 	struct alignas(8) CharacterOverrideConfig_OverrideSkillConfigContext
 	{
 		::Il2CppArray<::System::String*>* InheritSkillList; // 0x10

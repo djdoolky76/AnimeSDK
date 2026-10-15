@@ -1,41 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Keyframe.h"
 #include "unitysdk/UnityEngine/TextureFormat.h"
+#include "unitysdk/UnityEngine/Keyframe.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_RENDERING_TEXTURECURVE_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1EC03470)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC02E60)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1EC03200)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1EC02E50)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1EC02ED0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC02F10)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EC02C90)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1EC02C70)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET UNITYSDK_OFFSET(0x1EC034A0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EC02E70)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x1EC034F0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1EC02EC0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1EC02C80)
-#define UNITYENGINE_RENDERING_TEXTURECURVE_SMOOTHTANGENTS_OFFSET UNITYSDK_OFFSET(0x1EC03520)
-#define UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC02DA0)
-#define UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC02CE0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_ADDKEY_OFFSET UNITYSDK_OFFSET(0x1F2CADA0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2CA6D0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2CA610)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F2CA790)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1F2CAB30)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F2CA780)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x1F2CA800)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F2CA840)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F2CA5C0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1F2CA5A0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET UNITYSDK_OFFSET(0x1F2CADD0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F2CA7A0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x1F2CAE20)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_SETDIRTY_OFFSET UNITYSDK_OFFSET(0x1F2CA7F0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1F2CA5B0)
+#define UNITYENGINE_RENDERING_TEXTURECURVE_SMOOTHTANGENTS_OFFSET UNITYSDK_OFFSET(0x1F2CAE50)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureCurve_TypeDefinitionIndex = 34941;
-
 	class TextureCurve : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 k_Precision = 0x80; // 0x0
-		// static const ::System::Single k_Step; // 0x0
 		::System::Int32 _length_k__BackingField; // 0x10
 		::System::Boolean m_Loop; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Single m_ZeroValue; // 0x18
 		::System::Single m_Range; // 0x1C
 		::UnityEngine::AnimationCurve* m_Curve; // 0x20
@@ -43,15 +39,16 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Texture2D* m_Texture; // 0x30
 		::System::Boolean m_IsCurveDirty; // 0x38
 		::System::Boolean m_IsTextureDirty; // 0x39
-
-		::System::Void _ctor(::UnityEngine::AnimationCurve* a1, ::System::Single a2, ::System::Boolean a3, ::UnityEngine::Vector2& a4)
+		// static const ::System::Object k_Precision; // 0x0
+		// static const ::System::Object k_Step; // 0x0
+		::System::Void _ctor(::UnityEngine::AnimationCurve* a1, ::System::Single a2, ::System::Boolean a3, ::UnityEngine::Vector2 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void _ctor_1(::Il2CppArray<::UnityEngine::Keyframe>* a1, ::System::Single a2, ::System::Boolean a3, ::UnityEngine::Vector2& a4)
+		::System::Void _ctor_1(::Il2CppArray<::UnityEngine::Keyframe>* a1, ::System::Single a2, ::System::Boolean a3, ::UnityEngine::Vector2 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Keyframe>*, ::System::Single, ::System::Boolean, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_length()
@@ -109,9 +106,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_ADDKEY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 MoveKey(::System::Int32 a1, ::UnityEngine::Keyframe& a2)
+		::System::Int32 MoveKey(::System::Int32 a1, ::UnityEngine::Keyframe a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_MOVEKEY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RemoveKey(::System::Int32 a1)
@@ -123,5 +120,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_TEXTURECURVE_SMOOTHTANGENTS_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

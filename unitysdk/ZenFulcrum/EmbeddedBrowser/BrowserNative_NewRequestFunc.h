@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8C4C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8C520)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8C4B0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8C440)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6549E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F654960)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F654A40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6549D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_NewRequestFunc_TypeDefinitionIndex = 38076;
-
 	class BrowserNative_NewRequestFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NEWREQUESTFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

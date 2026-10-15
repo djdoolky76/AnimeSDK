@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UIElements/MouseEventBase_1.h"
-
 namespace UnityEngine::UIElements { class IPointerEvent; }
+namespace UnityEngine::UIElements { class MouseDownEvent; }
 namespace UnityEngine::UIElements { class PointerDownEvent; }
 namespace UnityEngine::UIElements { class PointerMoveEvent; }
 
-#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_GETPOOLED_1_OFFSET UNITYSDK_OFFSET(0x1EDF1310)
-#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1EDF1300)
-#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_MAKEFROMPOINTEREVENT_OFFSET UNITYSDK_OFFSET(0x1EDF1080)
-#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF1320)
+#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4BA540)
+#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_GETPOOLED_1_OFFSET UNITYSDK_OFFSET(0x1F4BA530)
+#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1F4BA520)
+#define UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_MAKEFROMPOINTEREVENT_OFFSET UNITYSDK_OFFSET(0x1F4BA2A0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseDownEvent_TypeDefinitionIndex = 5952;
-
-	class MouseDownEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseDownEvent*>
+	class MouseDownEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_CTOR_OFFSET))(this);
 		}
 
 		static ::UnityEngine::UIElements::MouseDownEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* a1)
@@ -37,5 +34,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::UnityEngine::UIElements::MouseDownEvent*(*)(::UnityEngine::UIElements::PointerMoveEvent*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_MOUSEDOWNEVENT_GETPOOLED_1_OFFSET))(a1);
 		}
+
 	};
 }

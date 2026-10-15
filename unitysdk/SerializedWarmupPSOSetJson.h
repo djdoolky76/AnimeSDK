@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 class SerializedWarmupPSO;
 
-#define SERIALIZEDWARMUPPSOSETJSON__CTOR_OFFSET UNITYSDK_OFFSET(0xE912F30)
+#define SERIALIZEDWARMUPPSOSETJSON_CTOR_OFFSET UNITYSDK_OFFSET(0xE968A90)
 
-inline static constexpr unsigned int SerializedWarmupPSOSetJson_TypeDefinitionIndex = 47882;
-
-class SerializedWarmupPSOSetJson : public ::System::Object
-{
-public:
-	::Il2CppArray<::SerializedWarmupPSO*>* psos; // 0x10
-
-	::System::Void _ctor()
+	class SerializedWarmupPSOSetJson : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SERIALIZEDWARMUPPSOSETJSON__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::Il2CppArray<::SerializedWarmupPSO*>* psos; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SERIALIZEDWARMUPPSOSETJSON_CTOR_OFFSET))(this);
+		}
+
+	};

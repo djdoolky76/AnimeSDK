@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class AspectRatioFitter; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_MONOPERFORMANCEBGIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xD855EB0)
+#define RPG_CLIENT_MONOPERFORMANCEBGIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD856970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPerformanceBgImage_TypeDefinitionIndex = 72517;
-
 	class MonoPerformanceBgImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -23,10 +20,10 @@ namespace RPG::Client
 		::UnityEngine::UI::AspectRatioFitter* Image1RatioFitter; // 0x38
 		::UnityEngine::Animation* AnimationComponent; // 0x40
 		::System::String* SwitchImageClipName; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEBGIMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPERFORMANCEBGIMAGE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,30 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_VECTOR2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3B9FDA0)
-#define SYSTEM_NUMERICS_VECTOR2_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B9FC80)
-#define SYSTEM_NUMERICS_VECTOR2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B9FBF0)
-#define SYSTEM_NUMERICS_VECTOR2_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3B9FD90)
-#define SYSTEM_NUMERICS_VECTOR2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B9FD00)
-#define SYSTEM_NUMERICS_VECTOR2__CTOR_OFFSET UNITYSDK_OFFSET(0x2F440)
+#define SYSTEM_NUMERICS_VECTOR2_CTOR_OFFSET UNITYSDK_OFFSET(0xBA30)
+#define SYSTEM_NUMERICS_VECTOR2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C55220)
+#define SYSTEM_NUMERICS_VECTOR2_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C55100)
+#define SYSTEM_NUMERICS_VECTOR2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C55070)
+#define SYSTEM_NUMERICS_VECTOR2_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C55210)
+#define SYSTEM_NUMERICS_VECTOR2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C55180)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Vector2_TypeDefinitionIndex = 3863;
-
 	struct alignas(4) Vector2
 	{
 		::System::Single X; // 0x10
 		::System::Single Y; // 0x14
-
 		::System::Void _ctor(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR2__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR2_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -47,9 +42,12 @@ namespace System::Numerics
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR2_TOSTRING_1_OFFSET))(this, a1, a2);
 		}
 
+		/*
 		::System::Boolean Equals_1(::System::Numerics::Vector2 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Vector2))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_VECTOR2_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
+
 	};
 }

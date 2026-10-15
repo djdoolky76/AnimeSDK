@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/CustomRP/FramePassCaptureData.h"
-#include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/RPG/CustomRP/FramePassCaptureData.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURESCENEOUTPUT_OFFSET UNITYSDK_OFFSET(0x1C68A670)
-#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1C689B30)
-#define RPG_CUSTOMRP_CAPTURESCENE_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1C68A6C0)
-#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURESCENEOUTPUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1C68A610)
-#define RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET UNITYSDK_OFFSET(0x1C689E90)
-#define RPG_CUSTOMRP_CAPTURESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C68A770)
-#define RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET UNITYSDK_OFFSET(0x1C689D20)
-#define RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1C68A710)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURESCENEOUTPUT_OFFSET UNITYSDK_OFFSET(0x1CC10A10)
+#define RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1CC0FEA0)
+#define RPG_CUSTOMRP_CAPTURESCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC10B10)
+#define RPG_CUSTOMRP_CAPTURESCENE_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1CC10A60)
+#define RPG_CUSTOMRP_CAPTURESCENE__CAPTURESCENEOUTPUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1CC109B0)
+#define RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET UNITYSDK_OFFSET(0x1CC10200)
+#define RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET UNITYSDK_OFFSET(0x1CC10090)
+#define RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1CC10AB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene_TypeDefinitionIndex = 36914;
-
 	class CaptureScene : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -33,15 +30,15 @@ namespace RPG::CustomRP
 		::System::Boolean needPostProcess; // 0x34
 		::System::Boolean orthographic; // 0x35
 		::System::Boolean debugCapture; // 0x36
+		::System::Byte _padding0[0x1];
 		::System::String* QACaptureJson1; // 0x38
 		::System::String* QACaptureJson2; // 0x40
 		::UnityEngine::Vector3 posBackup; // 0x48
 		::UnityEngine::Quaternion rotBackup; // 0x54
 		::System::Single farPlaneBackup; // 0x64
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Capture()
@@ -49,14 +46,14 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE_CAPTURE_OFFSET))(this);
 		}
 
-		::System::String* _DumpParams(::RPG::CustomRP::FramePassCaptureData& a1)
+		::System::String* _DumpParams(::RPG::CustomRP::FramePassCaptureData a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::RPG::CustomRP::FramePassCaptureData))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__DUMPPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void _CbScene(::Unity::Collections::NativeArray_1<::System::Byte>& a1)
+		::System::Void _CbScene(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__CBSCENE_OFFSET))(this, a1);
 		}
 
 		::System::Collections::IEnumerator* _CaptureSceneOutputCoroutine()
@@ -78,5 +75,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE__QACAPTUREALL_OFFSET))(this);
 		}
+
 	};
 }

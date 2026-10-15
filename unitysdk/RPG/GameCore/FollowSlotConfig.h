@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FollowSideType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FollowSlotConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FOLLOWSLOTCONFIG_METHOD_2_6C2DAC714A993A1D_OFFSET UNITYSDK_OFFSET(0x1D10E110)
-#define RPG_GAMECORE_FOLLOWSLOTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10E2D0)
+#define RPG_GAMECORE_FOLLOWSLOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E79F0)
+#define RPG_GAMECORE_FOLLOWSLOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E7830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FollowSlotConfig_TypeDefinitionIndex = 15444;
-
 	class FollowSlotConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -19,15 +17,15 @@ namespace RPG::GameCore
 		::System::Single Distance; // 0x14
 		::RPG::GameCore::FollowSideType Side; // 0x18
 		::System::Int32 ID; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6C2DAC714A993A1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FollowSlotConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FollowSlotConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FollowSlotConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONFIG_METHOD_2_6C2DAC714A993A1D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FollowSlotConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOLLOWSLOTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

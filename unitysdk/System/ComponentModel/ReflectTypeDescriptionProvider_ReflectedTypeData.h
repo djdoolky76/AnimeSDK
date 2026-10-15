@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::ComponentModel { class AttributeCollection; }
@@ -9,32 +9,29 @@ namespace System::ComponentModel { class EventDescriptorCollection; }
 namespace System::ComponentModel { class PropertyDescriptorCollection; }
 namespace System::ComponentModel { class TypeConverter; }
 
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1E92AE50)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1E92BF10)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1E92E350)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GET_ISPOPULATED_OFFSET UNITYSDK_OFFSET(0x1E92C640)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E92CD70)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E92C5F0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF5350)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1EFF3BB0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1EFF4C70)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GETTYPEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1EFF70B0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_GET_ISPOPULATED_OFFSET UNITYSDK_OFFSET(0x1EFF53A0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_REFRESH_OFFSET UNITYSDK_OFFSET(0x1EFF5AD0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ReflectTypeDescriptionProvider_ReflectedTypeData_TypeDefinitionIndex = 2622;
-
 	class ReflectTypeDescriptionProvider_ReflectedTypeData : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Object*>* _editors; // 0x10
-		::System::Type* _type; // 0x18
-		::System::ComponentModel::TypeConverter* _converter; // 0x20
-		::System::ComponentModel::PropertyDescriptorCollection* _properties; // 0x28
+		::System::ComponentModel::PropertyDescriptorCollection* _properties; // 0x10
+		::System::ComponentModel::TypeConverter* _converter; // 0x18
+		::System::Type* _type; // 0x20
+		::Il2CppArray<::System::Object*>* _editors; // 0x28
 		::System::ComponentModel::EventDescriptorCollection* _events; // 0x30
-		::System::ComponentModel::AttributeCollection* _attributes; // 0x38
-		::Il2CppArray<::System::Type*>* _editorTypes; // 0x40
+		::Il2CppArray<::System::Type*>* _editorTypes; // 0x38
+		::System::ComponentModel::AttributeCollection* _attributes; // 0x40
 		::System::Int32 _editorCount; // 0x48
-
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsPopulated()
@@ -61,5 +58,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTEDTYPEDATA_REFRESH_OFFSET))(this);
 		}
+
 	};
 }

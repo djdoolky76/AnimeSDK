@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ValuePostProcessConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_0ACC4AC96C3EFE2D_OFFSET UNITYSDK_OFFSET(0x1D698080)
-#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_52442D60C7824A6E_OFFSET UNITYSDK_OFFSET(0x1D6980E0)
-#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_AD9F627D77468A29_OFFSET UNITYSDK_OFFSET(0x1D698830)
-#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_BC56F9321F1A2BDF_OFFSET UNITYSDK_OFFSET(0x1D697840)
-#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D694200)
+#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8DA20)
+#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC8DA10)
+#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC8D2C0)
+#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC8D260)
+#define RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC8CCE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ValuePostProcessConfig_TypeDefinitionIndex = 23761;
-
 	class ValuePostProcessConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BC56F9321F1A2BDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ValuePostProcessConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ValuePostProcessConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ValuePostProcessConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_BC56F9321F1A2BDF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ValuePostProcessConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_0ACC4AC96C3EFE2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ValuePostProcessConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ValuePostProcessConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ValuePostProcessConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_0ACC4AC96C3EFE2D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ValuePostProcessConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_52442D60C7824A6E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ValuePostProcessConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ValuePostProcessConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ValuePostProcessConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_52442D60C7824A6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ValuePostProcessConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_AD9F627D77468A29(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ValuePostProcessConfig* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ValuePostProcessConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ValuePostProcessConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_METHOD_2_AD9F627D77468A29_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ValuePostProcessConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VALUEPOSTPROCESSCONFIG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

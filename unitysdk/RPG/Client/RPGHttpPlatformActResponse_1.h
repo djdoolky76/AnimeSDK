@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_D8AE373904B194A5.h"
+#include "unitysdk/HKNBPHAJEJF.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGHttpPlatformActResponse_1_TypeDefinitionIndex = 59457;
-
-	template <typename TData>
-	class RPGHttpPlatformActResponse_1 : public ::Class_1_D8AE373904B194A5
+	template <typename T>
+	class RPGHttpPlatformActResponse_1 : public ::HKNBPHAJEJF
 	{
 	public:
-		TData Data; // 0x0
+		T Data; // 0x0
 	};
 }

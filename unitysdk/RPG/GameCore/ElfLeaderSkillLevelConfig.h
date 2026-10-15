@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ElfLeaderSkillLevelConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG_METHOD_2_164F0CB4CFB31A99_OFFSET UNITYSDK_OFFSET(0x1D059E60)
-#define RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D05A050)
+#define RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D636B10)
+#define RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D636920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfLeaderSkillLevelConfig_TypeDefinitionIndex = 18248;
-
 	class ElfLeaderSkillLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -19,15 +17,15 @@ namespace RPG::GameCore
 		::System::Single Duration; // 0x18
 		::System::Single CD; // 0x1C
 		::System::UInt32 AbilityID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_164F0CB4CFB31A99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfLeaderSkillLevelConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfLeaderSkillLevelConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfLeaderSkillLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG_METHOD_2_164F0CB4CFB31A99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfLeaderSkillLevelConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFLEADERSKILLLEVELCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

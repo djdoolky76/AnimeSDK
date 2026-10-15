@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client::Introduce { class IntroduceViewModel; }
 
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD406760)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD4067A0)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_TRYSETCONTENTBYINTROID_OFFSET UNITYSDK_OFFSET(0xD406940)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD406C00)
-#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0xD406800)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD357520)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD357080)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xD3570C0)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_TRYSETCONTENTBYINTROID_OFFSET UNITYSDK_OFFSET(0xD357260)
+#define RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0xD357120)
 
 namespace RPG::Client::Introduce
 {
-	inline static constexpr unsigned int IntroduceTextsControl_TypeDefinitionIndex = 79157;
-
 	class IntroduceTextsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::Introduce::IntroduceViewModel* _Content; // 0x18
 		::RPG::Client::LocalizedText* _TextTitle; // 0x20
 		::RPG::Client::LocalizedText* _TextDesc; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::Introduce::IntroduceViewModel* get_Content()
@@ -46,5 +42,6 @@ namespace RPG::Client::Introduce
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Introduce::IntroduceViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCETEXTSCONTROL__REFRESH_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,71 +3,71 @@
 #include "unitysdk/RPG/Client/Subway/AirlineSubwayWay_DoorSide.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class Airship_AirshipEffectConfig; }
 namespace RPG::Client { class Stage; }
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0xE10A670)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_METHOD_5_AF01F8739A3CF255_OFFSET UNITYSDK_OFFSET(0xE10B500)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_METHOD_5_F5C0805039071E2D_OFFSET UNITYSDK_OFFSET(0xE10B640)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE10A820)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0xE10AAF0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETDOORSTATE_OFFSET UNITYSDK_OFFSET(0xE10AFD0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETMOVESTATE_OFFSET UNITYSDK_OFFSET(0xE10B200)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0xE10B2D0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETUP_OFFSET UNITYSDK_OFFSET(0xE10ACF0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_TRIGGERARRIVEDEFFECTS_OFFSET UNITYSDK_OFFSET(0xE10B3A0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_TRIGGERSTARTUPEFFECT_OFFSET UNITYSDK_OFFSET(0xE10B450)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__CCTOR_OFFSET UNITYSDK_OFFSET(0xE10B7C0)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__CTOR_OFFSET UNITYSDK_OFFSET(0xE10B760)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__SETUP_B__17_0_OFFSET UNITYSDK_OFFSET(0xE10B820)
-#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__SETUP_B__17_1_OFFSET UNITYSDK_OFFSET(0xE10B830)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_AANLCPCOMDL_OFFSET UNITYSDK_OFFSET(0xE14C080)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0xE14B1F0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_CCTOR_OFFSET UNITYSDK_OFFSET(0xE14C340)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_CTOR_OFFSET UNITYSDK_OFFSET(0xE14C2E0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_FCLNNMANAMH_OFFSET UNITYSDK_OFFSET(0xE14C1C0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE14B3A0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_RELEASEARTMODEL_OFFSET UNITYSDK_OFFSET(0xE14B670)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETDOORSTATE_OFFSET UNITYSDK_OFFSET(0xE14BB50)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETMOVESTATE_OFFSET UNITYSDK_OFFSET(0xE14BD80)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETTIMESCALE_OFFSET UNITYSDK_OFFSET(0xE14BE50)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_SETUP_OFFSET UNITYSDK_OFFSET(0xE14B870)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_TRIGGERARRIVEDEFFECTS_OFFSET UNITYSDK_OFFSET(0xE14BF20)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_TRIGGERSTARTUPEFFECT_OFFSET UNITYSDK_OFFSET(0xE14BFD0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__SETUP_B__17_0_OFFSET UNITYSDK_OFFSET(0xE14C3A0)
+#define RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__SETUP_B__17_1_OFFSET UNITYSDK_OFFSET(0xE14C3B0)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirshipSubway_TypeDefinitionIndex = 80820;
-
 	class AirshipSubway : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_LCOJCBNILNL()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AirshipSubway_TypeDefinitionIndex)->GetStaticField(0xDA70);
-		}
-		static ::System::Int32* StaticGet_KLDIJBMOGPC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AirshipSubway_TypeDefinitionIndex)->GetStaticField(0xDA74);
-		}
-		static ::System::Int32* StaticGet_NPDNEEPHEKN()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AirshipSubway_TypeDefinitionIndex)->GetStaticField(0xDA78);
-		}
 		::System::String* prefabPath; // 0x18
 		::UnityEngine::Vector3 prefabPositionOffset; // 0x20
 		::UnityEngine::Vector3 prefabRotationOffset; // 0x2C
-		::Il2CppArray<::RPG::Client::Airship_AirshipEffectConfig*>* initEffectConfigs; // 0x38
-		::Il2CppArray<::RPG::Client::Airship_AirshipEffectConfig*>* startupEffectConfigs; // 0x40
-		::Il2CppArray<::RPG::Client::Airship_AirshipEffectConfig*>* arrivedEffectConfigs; // 0x48
+		::Il2CppArray<::System::Object*>* initEffectConfigs; // 0x38
+		::Il2CppArray<::System::Object*>* startupEffectConfigs; // 0x40
+		::Il2CppArray<::System::Object*>* arrivedEffectConfigs; // 0x48
 		::System::Collections::Generic::List_1<::UnityEngine::Animator*>* OKDDLBMAMDJ; // 0x50
 		::UnityEngine::GameObject* GKNBCPMJHMN; // 0x58
 		::RPG::Client::OpenWorld::StreamingItemData* AMHMBBBIEIM; // 0x60
 		::RPG::Client::Stage* PKLNPNKEJOO; // 0x68
 		::System::Boolean CLDFKDDMFOC; // 0x70
+		::System::Byte _padding0[0x3];
 		::RPG::Client::Subway::AirlineSubwayWay_DoorSide LGLGGNNGDBM; // 0x74
+		static ::System::Int32* StaticGet_NPDNEEPHEKN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Subway", "AirshipSubway")->GetStaticField(0x159A0);
+		}
+
+		static ::System::Int32* StaticGet_LCOJCBNILNL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Subway", "AirshipSubway")->GetStaticField(0x159A4);
+		}
+
+		static ::System::Int32* StaticGet_KLDIJBMOGPC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Subway", "AirshipSubway")->GetStaticField(0x159A8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -115,14 +115,14 @@ namespace RPG::Client::Subway
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_TRIGGERSTARTUPEFFECT_OFFSET))(this);
 		}
 
-		::System::Void Method_5_AF01F8739A3CF255(::UnityEngine::GameObject* a1)
+		::System::Void AANLCPCOMDL(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_METHOD_5_AF01F8739A3CF255_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_AANLCPCOMDL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_F5C0805039071E2D(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
+		::System::Void FCLNNMANAMH(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_METHOD_5_F5C0805039071E2D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY_FCLNNMANAMH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _Setup_b__17_0(::UnityEngine::GameObject* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2)
@@ -134,5 +134,6 @@ namespace RPG::Client::Subway
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRSHIPSUBWAY__SETUP_B__17_1_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

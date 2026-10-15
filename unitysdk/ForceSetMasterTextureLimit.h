@@ -2,21 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define FORCESETMASTERTEXTURELIMIT_METHOD_5_ADF4AD3331B4D7AD_OFFSET UNITYSDK_OFFSET(0x15616FB0)
-#define FORCESETMASTERTEXTURELIMIT__CTOR_OFFSET UNITYSDK_OFFSET(0x15617000)
+#define FORCESETMASTERTEXTURELIMIT_CTOR_OFFSET UNITYSDK_OFFSET(0x15933DA0)
+#define FORCESETMASTERTEXTURELIMIT_GIFENDBHOIH_OFFSET UNITYSDK_OFFSET(0x15933D50)
 
-inline static constexpr unsigned int ForceSetMasterTextureLimit_TypeDefinitionIndex = 48049;
-
-class ForceSetMasterTextureLimit : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::System::Void _ctor()
+	class ForceSetMasterTextureLimit : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FORCESETMASTERTEXTURELIMIT__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FORCESETMASTERTEXTURELIMIT_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Method_5_ADF4AD3331B4D7AD(::System::Int32 a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FORCESETMASTERTEXTURELIMIT_METHOD_5_ADF4AD3331B4D7AD_OFFSET))(this, a1);
-	}
-};
+		::System::Void GIFENDBHOIH(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + FORCESETMASTERTEXTURELIMIT_GIFENDBHOIH_OFFSET))(this, a1);
+		}
+
+	};

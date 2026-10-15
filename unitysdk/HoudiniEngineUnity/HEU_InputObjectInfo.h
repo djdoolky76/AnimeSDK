@@ -3,22 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 class HEU_BoundingVolume;
+namespace HoudiniEngineUnity { class HEU_InputObjectInfo; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Terrain; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B440660)
-#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B442B60)
-#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_SETREFERENCESFROMGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B441210)
-#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B440590)
+#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B941AF0)
+#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B941A20)
+#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B943F90)
+#define HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_SETREFERENCESFROMGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B942630)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputObjectInfo_TypeDefinitionIndex = 39110;
-
 	class HEU_InputObjectInfo : public ::System::Object
 	{
 	public:
@@ -28,14 +26,14 @@ namespace HoudiniEngineUnity
 		::UnityEngine::Matrix4x4 _syncdTransform; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* _syncdChildTransforms; // 0x68
 		::System::Boolean _useTransformOffset; // 0x70
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 _translateOffset; // 0x74
 		::UnityEngine::Vector3 _rotateOffset; // 0x80
 		::UnityEngine::Vector3 _scaleOffset; // 0x8C
 		::System::Type* _inputInterfaceType; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* a1)
@@ -52,5 +50,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_InputObjectInfo*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_INPUTOBJECTINFO_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

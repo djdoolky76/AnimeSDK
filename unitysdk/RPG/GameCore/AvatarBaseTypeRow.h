@@ -3,41 +3,40 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AvatarBaseTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE36590)
-#define RPG_GAMECORE_AVATARBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE36E70)
+#define RPG_GAMECORE_AVATARBASETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40D210)
+#define RPG_GAMECORE_AVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D40C930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarBaseTypeRow_TypeDefinitionIndex = 12659;
-
 	class AvatarBaseTypeRow : public ::System::Object
 	{
 	public:
-		::System::String* EquipmentLightMatPath; // 0x10
-		::System::String* BaseTypeIcon; // 0x18
-		::System::String* BgPath; // 0x20
-		::System::String* BaseTypeIconMiddle; // 0x28
-		::System::String* BaseTypeIconPathTalk; // 0x30
-		::System::String* LightConeCardBackImagePath; // 0x38
-		::System::String* Equipment3DTgaPath; // 0x40
-		::System::String* BaseTypeIconSmall; // 0x48
-		::System::String* FirstWordText; // 0x50
+		::System::String* BaseTypeIconMiddle; // 0x10
+		::System::String* Equipment3DTgaPath; // 0x18
+		::System::String* BaseTypeIconPathTalk; // 0x20
+		::System::String* FirstWordText; // 0x28
+		::System::String* EquipmentLightMatPath; // 0x30
+		::System::String* BgPath; // 0x38
+		::System::String* BaseTypeIcon; // 0x40
+		::System::String* LightConeCardBackImagePath; // 0x48
+		::System::String* BaseTypeIconSmall; // 0x50
 		::RPG::Client::TextID BaseTypeText; // 0x58
 		::RPG::GameCore::AvatarBaseType ID; // 0x68
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID BaseTypeDesc; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPEROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPEROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarBaseTypeRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::AvatarBaseTypeRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarBaseTypeRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPEROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AvatarBaseTypeRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBASETYPEROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

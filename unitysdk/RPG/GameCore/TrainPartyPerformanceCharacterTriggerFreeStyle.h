@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TrainPartyPerformanceCharacterTriggerFreeStyle; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_METHOD_3_2E2157B1CEA273BC_OFFSET UNITYSDK_OFFSET(0x1D5E05D0)
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_METHOD_3_E3C90E06E9C824C9_OFFSET UNITYSDK_OFFSET(0x1D5E0590)
-#define RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E05C0)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC33F90)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC33FA0)
+#define RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC33F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPerformanceCharacterTriggerFreeStyle_TypeDefinitionIndex = 22105;
-
 	class TrainPartyPerformanceCharacterTriggerFreeStyle : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::String* ActionName; // 0x20
 		::System::Single NormalizedTimeWait; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E3C90E06E9C824C9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_METHOD_3_E3C90E06E9C824C9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2E2157B1CEA273BC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_METHOD_3_2E2157B1CEA273BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPERFORMANCECHARACTERTRIGGERFREESTYLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

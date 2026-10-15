@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace ScenenLightManager { class LightControlDataPair; }
 namespace ScenenLightManager { class LightSetExportData; }
 namespace ScenenLightManager { class LightSetExportDataLong; }
@@ -11,12 +10,10 @@ namespace ScenenLightManager { class Tup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATAHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0xE90DFD0)
+#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATAHEADER_CTOR_OFFSET UNITYSDK_OFFSET(0xE963AC0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BlockEnvExportDataHeader_TypeDefinitionIndex = 49471;
-
 	class BlockEnvExportDataHeader : public ::UnityEngine::ScriptableObject
 	{
 	public:
@@ -35,10 +32,10 @@ namespace ScenenLightManager
 		::System::Collections::Generic::List_1<::System::Int32>* allLights; // 0x78
 		::System::Collections::Generic::List_1<::ScenenLightManager::LightControlDataPair*>* allControlDataPairs; // 0x80
 		::System::Collections::Generic::List_1<::System::String*>* subHeaders; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATAHEADER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_BLOCKENVEXPORTDATAHEADER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

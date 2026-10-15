@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace SRF::Service { class SRServiceManager_ServiceStub; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B2160)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B21A0)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__UPDATESTUBS_B__21_0_OFFSET UNITYSDK_OFFSET(0x1E6B21B0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED79B50)
+#define SRF_SERVICE_SRSERVICEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED79B90)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__UPDATESTUBS_B__21_0_OFFSET UNITYSDK_OFFSET(0x1ED79BA0)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager___c_TypeDefinitionIndex = 34750;
-
 	class SRServiceManager___c : public ::System::Object
 	{
 	public:
-		static ::SRF::Service::SRServiceManager___c** StaticGet___9()
+		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__21_0()
 		{
-			return (::SRF::Service::SRServiceManager___c**)Il2CppClass::FromTypeDefinitionIndex(SRServiceManager___c_TypeDefinitionIndex)->GetStaticField(0x5F2A0);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("SRF.Service", "<>c")->GetStaticField(0x48750);
 		}
-		static ::System::Func_2<::SRF::Service::SRServiceManager_ServiceStub*, ::System::String*>** StaticGet___9__21_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::SRF::Service::SRServiceManager_ServiceStub*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SRServiceManager___c_TypeDefinitionIndex)->GetStaticField(0x5F2A8);
+			return (::System::Object**)UnitySDK::FromName("SRF.Service", "<>c")->GetStaticField(0x48758);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::String* _UpdateStubs_b__21_0(::SRF::Service::SRServiceManager_ServiceStub* a1)
 		{
 			return ((::System::String*(*)(::PVOID, ::SRF::Service::SRServiceManager_ServiceStub*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SRSERVICEMANAGER___C__UPDATESTUBS_B__21_0_OFFSET))(this, a1);
 		}
+
 	};
 }

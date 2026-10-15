@@ -2,42 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace RPG::Client { class MapProp; }
 namespace RPG::Client { class MiniMapManager; }
 namespace RPG::Client { class SubMissionData; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_CLEAR_OFFSET UNITYSDK_OFFSET(0xD6C4600)
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_EXECUTEFORASSISTWAYPOINTREFRESHEDIMPL_OFFSET UNITYSDK_OFFSET(0xD6C4500)
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_EXECUTEFORMISSIONREFRESHEDIMPL_OFFSET UNITYSDK_OFFSET(0xD6C4250)
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORASSISTWAYPOINTREFRESHED_OFFSET UNITYSDK_OFFSET(0xD6C3560)
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORMISSIONREFRESHED_OFFSET UNITYSDK_OFFSET(0xD6C3370)
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_INIT_1_OFFSET UNITYSDK_OFFSET(0xD6C3500)
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_INIT_OFFSET UNITYSDK_OFFSET(0xD6C3260)
-#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE__CTOR_OFFSET UNITYSDK_OFFSET(0xD6C4660)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_CLEAR_OFFSET UNITYSDK_OFFSET(0xD6C1E00)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C1E60)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_EXECUTEFORASSISTWAYPOINTREFRESHEDIMPL_OFFSET UNITYSDK_OFFSET(0xD6C1D00)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_EXECUTEFORMISSIONREFRESHEDIMPL_OFFSET UNITYSDK_OFFSET(0xD6C1A50)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORASSISTWAYPOINTREFRESHED_OFFSET UNITYSDK_OFFSET(0xD6C1090)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORMISSIONREFRESHED_OFFSET UNITYSDK_OFFSET(0xD6C0F80)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_INIT_1_OFFSET UNITYSDK_OFFSET(0xD6C1030)
+#define RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_INIT_OFFSET UNITYSDK_OFFSET(0xD6C0E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MiniMapManager_PropDeferLoadCallbackClosure_TypeDefinitionIndex = 60757;
-
 	class MiniMapManager_PropDeferLoadCallbackClosure : public ::System::Object
 	{
 	public:
-		::RPG::Client::MiniMapManager* _context; // 0x10
-		::RPG::Client::SubMissionData* subMission; // 0x18
-		::System::Action_1<::RPG::Client::MapProp*>* _executeCallback; // 0x20
-		::System::Action_1<::RPG::Client::MapProp*>* _execute2Callback; // 0x28
-		::System::Single fWayPointShowRangeMin; // 0x30
+		::RPG::Client::SubMissionData* subMission; // 0x10
+		::System::Action* _executeCallback; // 0x18
+		::System::Action* _execute2Callback; // 0x20
+		::RPG::Client::MiniMapManager* _context; // 0x28
+		::System::Single fWayPointShowRangeMax; // 0x30
 		::System::Single fShowRangeRadius; // 0x34
-		::System::Boolean bIsTrackingMission; // 0x38
-		::System::UInt32 nIconID; // 0x3C
-		::UnityEngine::Color circleColor; // 0x40
-		::System::Single fWayPointShowRangeMax; // 0x50
-
+		::UnityEngine::Color circleColor; // 0x38
+		::System::Single fWayPointShowRangeMin; // 0x48
+		::System::UInt32 nIconID; // 0x4C
+		::System::Boolean bIsTrackingMission; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::Client::MiniMapManager* a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Single a4, ::RPG::Client::SubMissionData* a5, ::System::Single a6, ::System::Single a7, ::UnityEngine::Color a8)
@@ -50,14 +46,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MiniMapManager*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_INIT_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action_1<::RPG::Client::MapProp*>* get_ExecuteForMissionRefreshed()
+		::System::Action* get_ExecuteForMissionRefreshed()
 		{
-			return ((::System::Action_1<::RPG::Client::MapProp*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORMISSIONREFRESHED_OFFSET))(this);
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORMISSIONREFRESHED_OFFSET))(this);
 		}
 
-		::System::Action_1<::RPG::Client::MapProp*>* get_ExecuteForAssistWaypointRefreshed()
+		::System::Action* get_ExecuteForAssistWaypointRefreshed()
 		{
-			return ((::System::Action_1<::RPG::Client::MapProp*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORASSISTWAYPOINTREFRESHED_OFFSET))(this);
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_GET_EXECUTEFORASSISTWAYPOINTREFRESHED_OFFSET))(this);
 		}
 
 		::System::Void ExecuteForMissionRefreshedImpl(::RPG::Client::MapProp* a1)
@@ -74,5 +70,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPMANAGER_PROPDEFERLOADCALLBACKCLOSURE_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

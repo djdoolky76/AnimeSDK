@@ -3,8 +3,6 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int ClearFlag_TypeDefinitionIndex = 5664;
-
 	enum class ClearFlag : ::System::Int32
 	{
 		Agent = 1,

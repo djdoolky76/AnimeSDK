@@ -1,28 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Resources/ResourceTypeCode.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
-#define SYSTEM_RESOURCES_RESOURCELOCATOR_CANCACHE_OFFSET UNITYSDK_OFFSET(0x1BDAC280)
-#define SYSTEM_RESOURCES_RESOURCELOCATOR_GET_DATAPOSITION_OFFSET UNITYSDK_OFFSET(0xDAB0)
-#define SYSTEM_RESOURCES_RESOURCELOCATOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x5AB0)
-#define SYSTEM_RESOURCES_RESOURCELOCATOR_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xC610)
-#define SYSTEM_RESOURCES_RESOURCELOCATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x2EF7750)
+#define SYSTEM_RESOURCES_RESOURCELOCATOR_CANCACHE_OFFSET UNITYSDK_OFFSET(0x1C2B7E50)
+#define SYSTEM_RESOURCES_RESOURCELOCATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x2F6D780)
+#define SYSTEM_RESOURCES_RESOURCELOCATOR_GET_DATAPOSITION_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define SYSTEM_RESOURCES_RESOURCELOCATOR_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define SYSTEM_RESOURCES_RESOURCELOCATOR_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x94B0)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int ResourceLocator_TypeDefinitionIndex = 529;
-
 	struct alignas(8) ResourceLocator
 	{
 		::System::Object* _value; // 0x10
 		::System::Int32 _dataPos; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCELOCATOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCELOCATOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_DataPosition()
@@ -44,5 +39,6 @@ namespace System::Resources
 		{
 			return ((::System::Boolean(*)(::System::Resources::ResourceTypeCode))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_RESOURCELOCATOR_CANCACHE_OFFSET))(a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace System
 {
-	inline static constexpr unsigned int Handles_TypeDefinitionIndex = 461;
-
 	enum class Handles : ::System::Int32
 	{
 		STD_INPUT = -10,

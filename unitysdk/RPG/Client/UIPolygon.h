@@ -1,61 +1,60 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/UIPolygon_VertexAttribute.h"
 #include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::Client { class UILineRenderer; }
+namespace System { class Object; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UIPOLYGON_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE3A31D0)
-#define RPG_CLIENT_UIPOLYGON_GETPOLYGONRECT_OFFSET UNITYSDK_OFFSET(0xE3A38F0)
-#define RPG_CLIENT_UIPOLYGON_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE3A3B00)
-#define RPG_CLIENT_UIPOLYGON_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE3A32A0)
-#define RPG_CLIENT_UIPOLYGON_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3A3DB0)
-#define RPG_CLIENT_UIPOLYGON__CCTOR_OFFSET UNITYSDK_OFFSET(0xE3A4160)
-#define RPG_CLIENT_UIPOLYGON__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A3F30)
+#define RPG_CLIENT_UIPOLYGON_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3E5690)
+#define RPG_CLIENT_UIPOLYGON_CTOR_OFFSET UNITYSDK_OFFSET(0xE3E5460)
+#define RPG_CLIENT_UIPOLYGON_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE3E4700)
+#define RPG_CLIENT_UIPOLYGON_GETPOLYGONRECT_OFFSET UNITYSDK_OFFSET(0xE3E4E20)
+#define RPG_CLIENT_UIPOLYGON_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE3E5030)
+#define RPG_CLIENT_UIPOLYGON_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE3E47D0)
+#define RPG_CLIENT_UIPOLYGON_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3E52E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPolygon_TypeDefinitionIndex = 72621;
-
 	class UIPolygon : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		static ::UnityEngine::Vector4* StaticGet_UITangent()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIPolygon_TypeDefinitionIndex)->GetStaticField(0x14510);
-		}
-		static ::UnityEngine::Vector3* StaticGet_UINormal()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIPolygon_TypeDefinitionIndex)->GetStaticField(0x14520);
-		}
 		::UnityEngine::Sprite* sprite; // 0xF0
 		::System::Single StartValue; // 0xF8
 		::System::Single EndValue; // 0xFC
 		::System::Single antiAliasing; // 0x100
+		::System::Byte _padding0[0x4];
 		::RPG::Client::UILineRenderer* lineRenderer; // 0x108
-		::Il2CppArray<::RPG::Client::UIPolygon_VertexAttribute>* vertexArray; // 0x110
+		::Il2CppArray<::System::Object*>* vertexArray; // 0x110
 		::UnityEngine::Vector4 projectorOffset; // 0x118
-		::Il2CppArray<::RPG::Client::UIPolygon_VertexAttribute>* projectorArray; // 0x128
+		::Il2CppArray<::System::Object*>* projectorArray; // 0x128
 		::System::Single xmin; // 0x130
 		::System::Single xmax; // 0x134
 		::System::Single ymin; // 0x138
 		::System::Single ymax; // 0x13C
 		::System::Single width; // 0x140
 		::System::Single height; // 0x144
+		static ::UnityEngine::Vector3* StaticGet_UINormal()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "UIPolygon")->GetStaticField(0xBF50);
+		}
+
+		static ::UnityEngine::Vector4* StaticGet_UITangent()
+		{
+			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.Client", "UIPolygon")->GetStaticField(0xBF5C);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPOLYGON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPOLYGON_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPOLYGON__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPOLYGON_CCTOR_OFFSET))();
 		}
 
 		::System::Void ForceMeshUpdate()
@@ -82,5 +81,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPOLYGON_SETPROGRESS_OFFSET))(this, a1);
 		}
+
 	};
 }

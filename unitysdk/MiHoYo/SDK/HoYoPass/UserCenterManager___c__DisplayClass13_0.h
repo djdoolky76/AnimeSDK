@@ -2,30 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/HoYoPass/HoYoPassSDK_ErrorCode.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::HoYoPass { class UserCenterManager; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B979020)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1B97A9A0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__3_OFFSET UNITYSDK_OFFSET(0x1B97AA90)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE78980)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__0_OFFSET UNITYSDK_OFFSET(0x1BE7A2F0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__3_OFFSET UNITYSDK_OFFSET(0x1BE7A3E0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager___c__DisplayClass13_0_TypeDefinitionIndex = 8233;
-
 	class UserCenterManager___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* __9__3; // 0x10
+		::MiHoYo::SDK::AccountModel* currentAccount; // 0x10
 		::MiHoYo::SDK::HoYoPass::UserCenterManager* __4__this; // 0x18
-		::MiHoYo::SDK::AccountModel* currentAccount; // 0x20
-
+		::System::Action* __9__3; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Open_b__0(::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode a1, ::System::String* a2)
@@ -37,5 +33,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER___C__DISPLAYCLASS13_0__OPEN_B__3_OFFSET))(this, a1);
 		}
+
 	};
 }

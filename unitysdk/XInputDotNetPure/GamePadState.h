@@ -1,38 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/XInputDotNetPure/GamePadButtons.h"
 #include "unitysdk/XInputDotNetPure/GamePadDPad.h"
 #include "unitysdk/XInputDotNetPure/GamePadThumbSticks.h"
 #include "unitysdk/XInputDotNetPure/GamePadTriggers.h"
+#include "unitysdk/XInputDotNetPure/GamePadState_RawState.h"
 
-#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_BUTTONS_OFFSET UNITYSDK_OFFSET(0x2E25B70)
-#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_DPAD_OFFSET UNITYSDK_OFFSET(0x2F77750)
-#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x2FC10)
-#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_PACKETNUMBER_OFFSET UNITYSDK_OFFSET(0x1E120)
-#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_THUMBSTICKS_OFFSET UNITYSDK_OFFSET(0x3B58A80)
-#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_TRIGGERS_OFFSET UNITYSDK_OFFSET(0x3DDD0)
-#define XINPUTDOTNETPURE_GAMEPADSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x3B58A50)
+#define XINPUTDOTNETPURE_GAMEPADSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C0D330)
+#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_BUTTONS_OFFSET UNITYSDK_OFFSET(0x2EB2710)
+#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_DPAD_OFFSET UNITYSDK_OFFSET(0x2FEED20)
+#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xC200)
+#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_PACKETNUMBER_OFFSET UNITYSDK_OFFSET(0xFE70)
+#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_THUMBSTICKS_OFFSET UNITYSDK_OFFSET(0x3C0D360)
+#define XINPUTDOTNETPURE_GAMEPADSTATE_GET_TRIGGERS_OFFSET UNITYSDK_OFFSET(0x202EB30)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadState_TypeDefinitionIndex = 39489;
-
 	struct alignas(4) GamePadState
 	{
 		::System::Boolean isConnected; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 packetNumber; // 0x14
 		::XInputDotNetPure::GamePadButtons buttons; // 0x18
 		::XInputDotNetPure::GamePadDPad dPad; // 0x40
 		::XInputDotNetPure::GamePadThumbSticks thumbSticks; // 0x50
 		::XInputDotNetPure::GamePadTriggers triggers; // 0x60
-
-		/*
 		::System::Void _ctor(::System::Boolean a1, ::XInputDotNetPure::GamePadState_RawState a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::XInputDotNetPure::GamePadState_RawState))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADSTATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::XInputDotNetPure::GamePadState_RawState))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADSTATE_CTOR_OFFSET))(this, a1, a2);
 		}
-		*/
 
 		::System::UInt32 get_PacketNumber()
 		{
@@ -63,5 +59,6 @@ namespace XInputDotNetPure
 		{
 			return ((::XInputDotNetPure::GamePadThumbSticks(*)(::PVOID))((::PBYTE)hIl2Cpp + XINPUTDOTNETPURE_GAMEPADSTATE_GET_THUMBSTICKS_OFFSET))(this);
 		}
+
 	};
 }

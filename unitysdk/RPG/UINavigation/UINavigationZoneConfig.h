@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MonoInControlButton; }
 
-#define RPG_UINAVIGATION_UINAVIGATIONZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE800F30)
+#define RPG_UINAVIGATION_UINAVIGATIONZONECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE89C9D0)
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationZoneConfig_TypeDefinitionIndex = 52031;
-
 	class UINavigationZoneConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean EnterOnEnable; // 0x10
+		::System::Byte _padding0[0x7];
 		::RPG::Client::MonoInControlButton* EnterOnInControlButtonClick; // 0x18
 		::System::Boolean GamepadZone; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONZONECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONZONECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

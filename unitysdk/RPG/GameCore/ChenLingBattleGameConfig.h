@@ -4,21 +4,19 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingBattleAIConfig; }
 namespace RPG::GameCore { class ChenLingBattleAnimationConfig; }
+namespace RPG::GameCore { class ChenLingBattleGameConfig; }
 namespace RPG::GameCore { class ChenLingBattleScoreSoldierConfig; }
 namespace RPG::GameCore { class ChenLingDeathEffectConfig; }
 namespace RPG::GameCore { class ChenLingRageModeConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_METHOD_2_30EE7D2A2FE8B411_OFFSET UNITYSDK_OFFSET(0x1CFA99E0)
-#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAA170)
+#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D584FC0)
+#define RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D584680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleGameConfig_TypeDefinitionIndex = 15513;
-
 	class ChenLingBattleGameConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -43,15 +41,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint SeperationForceDuration; // 0x98
 		::RPG::GameCore::ChenLingBattleAIConfig* AIConfig; // 0xA0
 		::RPG::GameCore::ChenLingRageModeConfig* RageModeConfig; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_30EE7D2A2FE8B411(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleGameConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_METHOD_2_30EE7D2A2FE8B411_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEGAMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

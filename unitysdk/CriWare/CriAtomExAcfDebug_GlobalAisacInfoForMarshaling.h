@@ -1,14 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/CriWare/CriAtomExAcfDebug_GlobalAisacInfo.h"
 
-#define CRIWARE_CRIATOMEXACFDEBUG_GLOBALAISACINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2DFFC90)
+#define CRIWARE_CRIATOMEXACFDEBUG_GLOBALAISACINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2E8BB70)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_GlobalAisacInfoForMarshaling_TypeDefinitionIndex = 38891;
-
-	struct alignas(8) CriAtomExAcfDebug_GlobalAisacInfoForMarshaling
+	struct alignas(4) CriAtomExAcfDebug_GlobalAisacInfoForMarshaling
 	{
 		::System::IntPtr namePtr; // 0x10
 		::System::UInt16 index; // 0x18
@@ -17,12 +15,10 @@ namespace CriWare
 		::System::Single randomRange; // 0x20
 		::System::UInt16 controlId; // 0x24
 		::System::UInt16 dummy; // 0x26
-
-		/*
-		::System::Void Convert(::CriWare::CriAtomExAcfDebug_GlobalAisacInfo& a1)
+		::System::Void Convert(::CriWare::CriAtomExAcfDebug_GlobalAisacInfo a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_GlobalAisacInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_GLOBALAISACINFOFORMARSHALING_CONVERT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_GlobalAisacInfo))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_GLOBALAISACINFOFORMARSHALING_CONVERT_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

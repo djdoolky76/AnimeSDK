@@ -3,16 +3,15 @@
 #include "unitysdk/RPG/Client/CameraFightStateCommonConfig.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_CAMERAFIGHTSTATESELECTDARKTEAMENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E8A90)
+#define RPG_CLIENT_CAMERAFIGHTSTATESELECTDARKTEAMENTITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC9368B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateSelectDarkTeamEntityConfig_TypeDefinitionIndex = 69547;
-
 	class CameraFightStateSelectDarkTeamEntityConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{
 	public:
 		::System::Boolean CommonConfigAlwaysOverride; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single ChooseEnemyTargetLookAtWeight; // 0x24
 		::System::Single ChooseEnemyTargetDisToCenterWeight; // 0x28
 		::System::Single ChooseEnemyTargetDisToCenterImpairment; // 0x2C
@@ -27,10 +26,10 @@ namespace RPG::Client
 		::System::Single AimDampY; // 0x58
 		::System::Single NamedOrSomatoDynamicAnchorOffsetScale; // 0x5C
 		::System::Single NamedOrSomatoDynamicAimOffsetScale; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATESELECTDARKTEAMENTITYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATESELECTDARKTEAMENTITYCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

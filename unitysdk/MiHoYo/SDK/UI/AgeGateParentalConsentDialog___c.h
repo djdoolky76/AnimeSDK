@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::UI { class AgeGateParentalConsentDialog; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAE3A70)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE3AB0)
-#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x1BAE3AC0)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFEED50)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFEED90)
+#define MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__41_0_OFFSET UNITYSDK_OFFSET(0x1BFEEDA0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AgeGateParentalConsentDialog___c_TypeDefinitionIndex = 8336;
-
 	class AgeGateParentalConsentDialog___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c** StaticGet___9()
+		static ::System::Action** StaticGet___9__41_0()
 		{
-			return (::MiHoYo::SDK::UI::AgeGateParentalConsentDialog___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0x276A0);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.UI", "<>c")->GetStaticField(0x207C0);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>** StaticGet___9__45_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateParentalConsentDialog___c_TypeDefinitionIndex)->GetStaticField(0x276A8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI", "<>c")->GetStaticField(0x207C8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _Show_b__45_0(::MiHoYo::SDK::UI::AgeGateParentalConsentDialog* a1)
+		::System::Void _Show_b__41_0(::MiHoYo::SDK::UI::AgeGateParentalConsentDialog* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__45_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::AgeGateParentalConsentDialog*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_AGEGATEPARENTALCONSENTDIALOG___C__SHOW_B__41_0_OFFSET))(this, a1);
 		}
+
 	};
 }

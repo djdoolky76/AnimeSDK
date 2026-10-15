@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameTemplateConfigs; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS_METHOD_2_513DF7E17444C5D7_OFFSET UNITYSDK_OFFSET(0x1D206920)
-#define RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D206960)
+#define RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E7090)
+#define RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E7050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameTemplateConfigs_TypeDefinitionIndex = 18694;
-
 	class LittleGameTemplateConfigs : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_513DF7E17444C5D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameTemplateConfigs*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameTemplateConfigs* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameTemplateConfigs*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS_METHOD_2_513DF7E17444C5D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameTemplateConfigs*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMETEMPLATECONFIGS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByHasInsertAbilityExecutingDuringGameModePause; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_0556FB87F5A04D5D_OFFSET UNITYSDK_OFFSET(0x1CF1FB50)
-#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_1E1F8C666E62A2AA_OFFSET UNITYSDK_OFFSET(0x1CF1FCC0)
-#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_808C74966782A85E_OFFSET UNITYSDK_OFFSET(0x1CF1FB10)
-#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_E38DE6B41912F457_OFFSET UNITYSDK_OFFSET(0x1CF1FC90)
-#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF1FB40)
+#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F8410)
+#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4F8590)
+#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4F8560)
+#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4F8420)
+#define RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4F83E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHasInsertAbilityExecutingDuringGameModePause_TypeDefinitionIndex = 23268;
-
 	class ByHasInsertAbilityExecutingDuringGameModePause : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_808C74966782A85E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_808C74966782A85E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0556FB87F5A04D5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_0556FB87F5A04D5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E38DE6B41912F457(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_E38DE6B41912F457_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1E1F8C666E62A2AA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_METHOD_4_1E1F8C666E62A2AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHasInsertAbilityExecutingDuringGameModePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHASINSERTABILITYEXECUTINGDURINGGAMEMODEPAUSE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

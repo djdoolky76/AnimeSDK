@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB27F170)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB27F1B0)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C__SHOW_B__4_1_OFFSET UNITYSDK_OFFSET(0xB27F1C0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB01DBB0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB01DBF0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C__SHOW_B__4_1_OFFSET UNITYSDK_OFFSET(0xB01DC00)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKPhoneLogin___c_TypeDefinitionIndex = 47221;
-
 	class HoYoSDKPhoneLogin___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::String*>** StaticGet___9__4_1()
+		static ::System::Action** StaticGet___9__4_1()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HoYoSDKPhoneLogin___c_TypeDefinitionIndex)->GetStaticField(0x576E0);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30BC0);
 		}
-		static ::MiHoYo::SDK::PluginUI::HoYoSDKPhoneLogin___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::PluginUI::HoYoSDKPhoneLogin___c**)Il2CppClass::FromTypeDefinitionIndex(HoYoSDKPhoneLogin___c_TypeDefinitionIndex)->GetStaticField(0x576E8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x30BC8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Show_b__4_1(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_HOYOSDKPHONELOGIN___C__SHOW_B__4_1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BodyType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2MoveResult; }
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2QueryPairContext_TypeDefinitionIndex = 36047;
-
 	struct alignas(8) B2QueryPairContext
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* world; // 0x10

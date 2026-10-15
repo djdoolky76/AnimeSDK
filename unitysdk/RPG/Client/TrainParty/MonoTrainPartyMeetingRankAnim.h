@@ -1,44 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client::TrainParty { class TrainPartyMeetingRankInfo; }
 namespace System { class Action; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Slider; }
 
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_PLAY_OFFSET UNITYSDK_OFFSET(0xE242FD0)
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xE242EE0)
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETRANKUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xE242F30)
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETRANKUPSLIDER_OFFSET UNITYSDK_OFFSET(0xE242F80)
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xE242B40)
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xE2431E0)
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM__ONPLAYINGFINISH_OFFSET UNITYSDK_OFFSET(0xE242E70)
-#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM__ONPROGRESS_OFFSET UNITYSDK_OFFSET(0xE242C30)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_CTOR_OFFSET UNITYSDK_OFFSET(0xE2C8D30)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_PLAY_OFFSET UNITYSDK_OFFSET(0xE2C8C80)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xE2C8B90)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETRANKUPCALLBACK_OFFSET UNITYSDK_OFFSET(0xE2C8BE0)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETRANKUPSLIDER_OFFSET UNITYSDK_OFFSET(0xE2C8C30)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_UPDATE_OFFSET UNITYSDK_OFFSET(0xE2C87F0)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM__ONPLAYINGFINISH_OFFSET UNITYSDK_OFFSET(0xE2C8B20)
+#define RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM__ONPROGRESS_OFFSET UNITYSDK_OFFSET(0xE2C88E0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int MonoTrainPartyMeetingRankAnim_TypeDefinitionIndex = 74178;
-
 	class MonoTrainPartyMeetingRankAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Single Duration; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::Client::LocalizedText* _TotalScoreText; // 0x20
 		::RPG::Client::LocalizedText* _CurScoreText; // 0x28
 		::UnityEngine::UI::Slider* _RankUpSlider; // 0x30
 		::System::UInt32 _CurScore; // 0x38
 		::System::UInt32 _TotalScore; // 0x3C
 		::System::Boolean _IsPlaying; // 0x40
+		::System::Byte _padding1[0x7];
 		::RPG::Client::TrainParty::TrainPartyMeetingRankInfo* _RankInfo; // 0x48
 		::System::Single _CumulativeTime; // 0x50
-		::System::Action_1<::RPG::Client::TrainParty::TrainPartyMeetingRankInfo*>* _OnRankUpgrade; // 0x58
+		::System::Byte _padding2[0x4];
+		::System::Action* _OnRankUpgrade; // 0x58
 		::System::Action* _OnFinish; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -51,9 +49,9 @@ namespace RPG::Client::TrainParty
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void SetRankUpCallback(::System::Action_1<::RPG::Client::TrainParty::TrainPartyMeetingRankInfo*>* a1)
+		::System::Void SetRankUpCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::TrainParty::TrainPartyMeetingRankInfo*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETRANKUPCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM_SETRANKUPCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void SetRankUpSlider(::UnityEngine::UI::Slider* a1)
@@ -75,5 +73,6 @@ namespace RPG::Client::TrainParty
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_MONOTRAINPARTYMEETINGRANKANIM__ONPLAYINGFINISH_OFFSET))(this);
 		}
+
 	};
 }

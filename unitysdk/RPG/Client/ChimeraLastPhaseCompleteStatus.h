@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraLastPhaseCompleteStatus_TypeDefinitionIndex = 63493;
-
 	enum class ChimeraLastPhaseCompleteStatus : ::System::Int32
 	{
 		None = 0,

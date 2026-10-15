@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PopupDialog_SelectedResult.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAA1FE0)
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAA2050)
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAA1D60)
-#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA1F70)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFAC550)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFAC4E0)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFAC5C0)
+#define MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFAC2F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopupDialog_OnSelectedDelegate_TypeDefinitionIndex = 7967;
-
 	class PopupDialog_OnSelectedDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PopupDialog_SelectedResult a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPUPDIALOG_ONSELECTEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

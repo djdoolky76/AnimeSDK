@@ -1,36 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7C0BC0)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7C0C00)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__OPENUSERCENTER_G__CALLBACK_20_2_OFFSET UNITYSDK_OFFSET(0x1B7C0C10)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCC0150)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC0190)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__OPENUSERCENTER_G__CALLBACK_20_2_OFFSET UNITYSDK_OFFSET(0x1BCC01A0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManager___c_TypeDefinitionIndex = 9019;
-
 	class LoginManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Console::OS::LoginManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::OS::LoginManager___c**)Il2CppClass::FromTypeDefinitionIndex(LoginManager___c_TypeDefinitionIndex)->GetStaticField(0xCFC0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x399D0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OpenUserCenter_g__callback_20_2()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGER___C__OPENUSERCENTER_G__CALLBACK_20_2_OFFSET))(this);
 		}
+
 	};
 }

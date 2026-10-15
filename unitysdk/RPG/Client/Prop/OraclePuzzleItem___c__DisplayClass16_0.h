@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class OraclePuzzleItem; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDCD0450)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__MOVETOTARGETPOSPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xDCD0770)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__MOVETOTARGETPOSPERFORM_B__1_OFFSET UNITYSDK_OFFSET(0xDCD0890)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__MOVETOTARGETPOSPERFORM_B__2_OFFSET UNITYSDK_OFFSET(0xDCD09F0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD5A1D0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__MOVETOTARGETPOSPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xDD5A500)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__MOVETOTARGETPOSPERFORM_B__1_OFFSET UNITYSDK_OFFSET(0xDD5A620)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__MOVETOTARGETPOSPERFORM_B__2_OFFSET UNITYSDK_OFFSET(0xDD5A780)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzleItem___c__DisplayClass16_0_TypeDefinitionIndex = 78262;
-
 	class OraclePuzzleItem___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::OraclePuzzleItem* __4__this; // 0x10
-		::System::Action* __9__2; // 0x18
-		::System::Action* __9__1; // 0x20
-		::System::Action* OnPerformDone; // 0x28
-
+		::System::Action* __9__2; // 0x10
+		::RPG::Client::Prop::OraclePuzzleItem* __4__this; // 0x18
+		::System::Action* OnPerformDone; // 0x20
+		::System::Action* __9__1; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _MoveToTargetPosPerform_b__0()
@@ -41,5 +37,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ORACLEPUZZLEITEM___C__DISPLAYCLASS16_0__MOVETOTARGETPOSPERFORM_B__2_OFFSET))(this);
 		}
+
 	};
 }

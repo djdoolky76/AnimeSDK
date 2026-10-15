@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB4920)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB49A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB4910)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB48A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67CE90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67CE10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67CF10)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F67CE80)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__FadeGrid_TypeDefinitionIndex = 37732;
-
 	class IVRCompositor__FadeGrid : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Single a1, ::System::Boolean a2)
@@ -37,5 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__FADEGRID_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

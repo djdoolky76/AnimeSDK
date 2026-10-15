@@ -3,27 +3,24 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Playables/PlayableOutput.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED43A80)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED43AE0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED43930)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED43A10)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F40B860)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F40B7F0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F40B8C0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F40B710)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableBinding_CreateOutputMethod_TypeDefinitionIndex = 4909;
-
 	class PlayableBinding_CreateOutputMethod : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Playables::PlayableOutput Invoke(::UnityEngine::Playables::PlayableGraph a1, ::System::String* a2)
@@ -40,5 +37,6 @@ namespace UnityEngine::Playables
 		{
 			return ((::UnityEngine::Playables::PlayableOutput(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUTMETHOD_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

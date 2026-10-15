@@ -3,19 +3,17 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTypeMask_TypeDefinitionIndex = 10488;
-
 	enum class TeamTypeMask : ::System::UInt16
 	{
-		None = 0x0,
-		All = 0xFFFF,
-		TeamUnknow = 0x1,
-		TeamLight = 0x2,
-		TeamDark = 0x4,
-		TeamNeutral = 0x8,
-		TeamNPC = 0x10,
-		SelfTeam = 0x20,
-		EnemyTeam = 0x40,
-		Mask_LightDark = 0x6,
+		None = 0,
+		All = 65535,
+		TeamUnknow = 1,
+		TeamLight = 2,
+		TeamDark = 4,
+		TeamNeutral = 8,
+		TeamNPC = 16,
+		SelfTeam = 32,
+		EnemyTeam = 64,
+		Mask_LightDark = 6,
 	};
 }

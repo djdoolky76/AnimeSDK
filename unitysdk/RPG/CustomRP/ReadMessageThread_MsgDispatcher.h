@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C6E5770)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1C6E5B30)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C6E5680)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E5620)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CC6BD70)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC6BC20)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_ENQUEUE_OFFSET UNITYSDK_OFFSET(0x1CC6C130)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC6BC80)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReadMessageThread_MsgDispatcher_TypeDefinitionIndex = 37219;
-
 	class ReadMessageThread_MsgDispatcher : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Queue_1<::System::Action*>* _callbacks; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Clear()
@@ -38,5 +34,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_READMESSAGETHREAD_MSGDISPATCHER_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

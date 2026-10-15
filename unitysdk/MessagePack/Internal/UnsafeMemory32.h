@@ -4,8 +4,6 @@
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int UnsafeMemory32_TypeDefinitionIndex = 7249;
-
 	class UnsafeMemory32 : public ::System::Object
 	{
 	public:

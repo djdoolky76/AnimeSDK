@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParameterCondition_TypeDefinitionIndex = 70556;
-
-	struct alignas(1) ParameterCondition
+	struct alignas(4) ParameterCondition
 	{
 		::System::Boolean ModifyEmissionRateOverTime; // 0x10
 		::System::Boolean ModifyShapeSpread; // 0x11

@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CakeRacePauseGame; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_8FA2B43F087AB73E_OFFSET UNITYSDK_OFFSET(0x1CF78250)
-#define RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_B9D688A87F80A3BD_OFFSET UNITYSDK_OFFSET(0x1CF78290)
-#define RPG_GAMECORE_CAKERACEPAUSEGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF78280)
+#define RPG_GAMECORE_CAKERACEPAUSEGAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D551CB0)
+#define RPG_GAMECORE_CAKERACEPAUSEGAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D551CC0)
+#define RPG_GAMECORE_CAKERACEPAUSEGAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D551C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRacePauseGame_TypeDefinitionIndex = 24021;
-
 	class CakeRacePauseGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsPause; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8FA2B43F087AB73E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePauseGame*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRacePauseGame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePauseGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_8FA2B43F087AB73E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRacePauseGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B9D688A87F80A3BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePauseGame* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRacePauseGame* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePauseGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_B9D688A87F80A3BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRacePauseGame*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

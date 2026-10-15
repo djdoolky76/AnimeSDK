@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class Test_BoxCollider; }
 namespace UnityEngine { class BoxCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B4AD4B0)
-#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B4AD490)
-#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AD480)
+#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AF4B0)
+#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9AF4E0)
+#define HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9AF4C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_BoxCollider_TypeDefinitionIndex = 39425;
-
 	class Test_BoxCollider : public ::System::Object
 	{
 	public:
 		::UnityEngine::BoxCollider* self; // 0x10
-
 		::System::Void _ctor(::UnityEngine::BoxCollider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::BoxCollider*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_BOXCOLLIDER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::BoxCollider*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNull()
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_BoxCollider*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_BOXCOLLIDER_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

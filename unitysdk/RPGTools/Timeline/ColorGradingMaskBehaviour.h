@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class ColorGradingMaskClip; }
 
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE836600)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE836620)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE836850)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE836610)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8369E0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D4760)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8D4380)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8D43A0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE8D45D0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8D4390)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskBehaviour_TypeDefinitionIndex = 48922;
-
 	class ColorGradingMaskBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::ColorGradingMaskClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::ColorGradingMaskClip* get_Clip()
@@ -45,5 +41,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
+
 	};
 }

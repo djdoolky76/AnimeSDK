@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ParticleSystemSimulationSpace.h"
-#include "unitysdk/UnityEngine/ParticleSystem_Particle.h"
-
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
@@ -13,40 +12,38 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Transform; }
 
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CANBAKEMESH_OFFSET UNITYSDK_OFFSET(0x1649A830)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET UNITYSDK_OFFSET(0x1648FC40)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETACTUALSIMULATIONSPACE_OFFSET UNITYSDK_OFFSET(0x1649C180)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1649EF70)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETMAINEMITTER_OFFSET UNITYSDK_OFFSET(0x16492760)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET UNITYSDK_OFFSET(0x164956F0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETTEXTUREFORSPRITE_OFFSET UNITYSDK_OFFSET(0x164961A0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISLOCALSPACE_OFFSET UNITYSDK_OFFSET(0x16495FA0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISSUBEMITTEROF_OFFSET UNITYSDK_OFFSET(0x1649F280)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x1649C1D0)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_SORTFORRENDERING_OFFSET UNITYSDK_OFFSET(0x1649EE50)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_VALIDATESHAPE_OFFSET UNITYSDK_OFFSET(0x1649A880)
-#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1649F310)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CANBAKEMESH_OFFSET UNITYSDK_OFFSET(0x166C1460)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x166C5F40)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET UNITYSDK_OFFSET(0x166B68C0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETACTUALSIMULATIONSPACE_OFFSET UNITYSDK_OFFSET(0x166C2DB0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETINDEX_OFFSET UNITYSDK_OFFSET(0x166C5BA0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETMAINEMITTER_OFFSET UNITYSDK_OFFSET(0x166B93C0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET UNITYSDK_OFFSET(0x166BC320)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETTEXTUREFORSPRITE_OFFSET UNITYSDK_OFFSET(0x166BCDD0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISLOCALSPACE_OFFSET UNITYSDK_OFFSET(0x166BCBD0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISSUBEMITTEROF_OFFSET UNITYSDK_OFFSET(0x166C5EB0)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISWORLDSPACE_OFFSET UNITYSDK_OFFSET(0x166C2E00)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_SORTFORRENDERING_OFFSET UNITYSDK_OFFSET(0x166C5A80)
+#define COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_VALIDATESHAPE_OFFSET UNITYSDK_OFFSET(0x166C14B0)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ParticleSystemExtensions_TypeDefinitionIndex = 43954;
-
 	class ParticleSystemExtensions : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>** StaticGet_s_TmpParticles()
+		static ::Il2CppArray<::System::Object*>** StaticGet_s_TmpParticles()
 		{
-			return (::Il2CppArray<::UnityEngine::ParticleSystem_Particle>**)Il2CppClass::FromTypeDefinitionIndex(ParticleSystemExtensions_TypeDefinitionIndex)->GetStaticField(0x1380);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("Coffee.UIParticleInternal", "ParticleSystemExtensions")->GetStaticField(0x10E0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_CCTOR_OFFSET))();
 		}
 
-		static ::Il2CppArray<::UnityEngine::ParticleSystem_Particle>* GetParticleArray(::System::Int32 a1)
+		static ::Il2CppArray<::System::Object*>* GetParticleArray(::System::Int32 a1)
 		{
-			return ((::Il2CppArray<::UnityEngine::ParticleSystem_Particle>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET))(a1);
+			return ((::Il2CppArray<::System::Object*>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETPARTICLEARRAY_OFFSET))(a1);
 		}
 
 		static ::System::Void ValidateShape(::UnityEngine::ParticleSystem* a1)
@@ -89,9 +86,9 @@ namespace Coffee::UIParticleInternal
 			return ((::UnityEngine::Texture2D*(*)(::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_GETTEXTUREFORSPRITE_OFFSET))(a1);
 		}
 
-		static ::System::Void Exec(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* a1, ::System::Action_1<::UnityEngine::ParticleSystem*>* a2)
+		static ::System::Void Exec(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*, ::System::Action_1<::UnityEngine::ParticleSystem*>*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>*, ::System::Action*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_EXEC_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::ParticleSystem* GetMainEmitter(::UnityEngine::ParticleSystem* a1, ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* a2)
@@ -103,5 +100,6 @@ namespace Coffee::UIParticleInternal
 		{
 			return ((::System::Boolean(*)(::UnityEngine::ParticleSystem*, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_PARTICLESYSTEMEXTENSIONS_ISSUBEMITTEROF_OFFSET))(a1, a2);
 		}
+
 	};
 }

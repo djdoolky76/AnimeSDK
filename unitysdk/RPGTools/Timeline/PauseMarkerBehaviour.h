@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8BE000)
-#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8BDF80)
-#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE8BDEA0)
-#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8BE080)
-#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BE250)
+#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE913A10)
+#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE9137C0)
+#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE913740)
+#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE913660)
+#define RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE913840)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PauseMarkerBehaviour_TypeDefinitionIndex = 48680;
-
 	class PauseMarkerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean _FirstFrame; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Playables::PlayableDirector* _Director; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnPlayableCreate(::UnityEngine::Playables::Playable a1)
@@ -47,5 +44,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PAUSEMARKERBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

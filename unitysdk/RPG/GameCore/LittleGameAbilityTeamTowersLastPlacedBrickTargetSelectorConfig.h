@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTargetSelectorConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
+namespace RPG::GameCore { class LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_METHOD_3_4F4174095DC65DA2_OFFSET UNITYSDK_OFFSET(0x1D1FD5F0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_METHOD_3_D5B2BA0762306E6E_OFFSET UNITYSDK_OFFSET(0x1D1FD6C0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FD6B0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DBCB0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DBCC0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DBBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig_TypeDefinitionIndex = 21172;
-
 	class LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:
 		::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig* Count; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4F4174095DC65DA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_METHOD_3_4F4174095DC65DA2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D5B2BA0762306E6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_METHOD_3_D5B2BA0762306E6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTeamTowersLastPlacedBrickTargetSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSLASTPLACEDBRICKTARGETSELECTORCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

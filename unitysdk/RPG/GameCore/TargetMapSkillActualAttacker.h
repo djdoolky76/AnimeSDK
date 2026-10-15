@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetMapSkillActualAttacker; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_5E3D6A511F215349_OFFSET UNITYSDK_OFFSET(0x1D5B4A20)
-#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_619A10B54563F4CF_OFFSET UNITYSDK_OFFSET(0x1D5B49A0)
-#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_982571D8808CBC5E_OFFSET UNITYSDK_OFFSET(0x1D5B4920)
-#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_9EC02CF9D492E87C_OFFSET UNITYSDK_OFFSET(0x1D5B4A00)
-#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B4990)
+#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB6BFA0)
+#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB6C030)
+#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB6C010)
+#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB6BFB0)
+#define RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB6BF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapSkillActualAttacker_TypeDefinitionIndex = 23676;
-
 	class TargetMapSkillActualAttacker : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_982571D8808CBC5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapSkillActualAttacker*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapSkillActualAttacker* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapSkillActualAttacker*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_982571D8808CBC5E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapSkillActualAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_619A10B54563F4CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapSkillActualAttacker* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapSkillActualAttacker* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapSkillActualAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_619A10B54563F4CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapSkillActualAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9EC02CF9D492E87C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSkillActualAttacker*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSkillActualAttacker* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSkillActualAttacker*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_9EC02CF9D492E87C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSkillActualAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5E3D6A511F215349(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSkillActualAttacker* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapSkillActualAttacker* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSkillActualAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_METHOD_3_5E3D6A511F215349_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapSkillActualAttacker*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPSKILLACTUALATTACKER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

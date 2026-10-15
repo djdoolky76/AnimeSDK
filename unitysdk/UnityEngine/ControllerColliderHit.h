@@ -2,14 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class CharacterController; }
 namespace UnityEngine { class Collider; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ControllerColliderHit_TypeDefinitionIndex = 5297;
-
 	class ControllerColliderHit : public ::System::Object
 	{
 	public:

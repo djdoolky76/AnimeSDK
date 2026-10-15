@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class KDFFHMDFALG;
+
+#define IAENOIGPEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E03D30)
+#define IAENOIGPEBK_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x15E03D40)
+
+	class IAENOIGPEBK : public ::System::Object
+	{
+	public:
+		::KDFFHMDFALG* KGCNPIEDOCA; // 0x10
+		::System::Void _ctor(::KDFFHMDFALG* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KDFFHMDFALG*))((::PBYTE)hIl2Cpp + IAENOIGPEBK_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Boolean KEOKEELBKHI()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IAENOIGPEBK_KEOKEELBKHI_OFFSET))(this);
+		}
+
+	};

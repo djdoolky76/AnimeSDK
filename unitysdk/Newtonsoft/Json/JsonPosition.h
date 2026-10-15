@@ -1,44 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonContainerType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace Newtonsoft::Json { class IJsonLineInfo; }
+namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x1BE8C840)
-#define NEWTONSOFT_JSON_JSONPOSITION_CALCULATELENGTH_OFFSET UNITYSDK_OFFSET(0x3B70D00)
-#define NEWTONSOFT_JSON_JSONPOSITION_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BE8CAB0)
-#define NEWTONSOFT_JSON_JSONPOSITION_TYPEHASINDEX_OFFSET UNITYSDK_OFFSET(0x1BE8C460)
-#define NEWTONSOFT_JSON_JSONPOSITION_WRITETO_OFFSET UNITYSDK_OFFSET(0x3B70D10)
-#define NEWTONSOFT_JSON_JSONPOSITION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE8CF10)
-#define NEWTONSOFT_JSON_JSONPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x3B70CB0)
+#define NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x1C398460)
+#define NEWTONSOFT_JSON_JSONPOSITION_CALCULATELENGTH_OFFSET UNITYSDK_OFFSET(0x3C25620)
+#define NEWTONSOFT_JSON_JSONPOSITION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C398B30)
+#define NEWTONSOFT_JSON_JSONPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x3C255D0)
+#define NEWTONSOFT_JSON_JSONPOSITION_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C3986D0)
+#define NEWTONSOFT_JSON_JSONPOSITION_TYPEHASINDEX_OFFSET UNITYSDK_OFFSET(0x1C398080)
+#define NEWTONSOFT_JSON_JSONPOSITION_WRITETO_OFFSET UNITYSDK_OFFSET(0x3C25630)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonPosition_TypeDefinitionIndex = 9533;
-
 	struct alignas(8) JsonPosition
 	{
-		static ::Il2CppArray<::System::Char>** StaticGet_SpecialCharacters()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(JsonPosition_TypeDefinitionIndex)->GetStaticField(0x3A260);
-		}
 		::Newtonsoft::Json::JsonContainerType Type; // 0x10
 		::System::Int32 Position; // 0x14
 		::System::String* PropertyName; // 0x18
 		::System::Boolean HasIndex; // 0x20
+		static ::Il2CppArray<::System::Char>** StaticGet_SpecialCharacters()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("Newtonsoft.Json", "JsonPosition")->GetStaticField(0x2C300);
+		}
 
 		::System::Void _ctor(::Newtonsoft::Json::JsonContainerType a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonContainerType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonContainerType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 CalculateLength()
@@ -57,9 +54,9 @@ namespace Newtonsoft::Json
 		}
 
 		/*
-		static ::System::String* BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* a1, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition> a2)
+		static ::System::String* BuildPath(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* a1, ::System::Nullable* a2)
 		{
-			return ((::System::String*(*)(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*, ::System::Nullable_1<::Newtonsoft::Json::JsonPosition>))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*, ::System::Nullable*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET))(a1, a2);
 		}
 		*/
 
@@ -67,5 +64,6 @@ namespace Newtonsoft::Json
 		{
 			return ((::System::String*(*)(::Newtonsoft::Json::IJsonLineInfo*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONPOSITION_FORMATMESSAGE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

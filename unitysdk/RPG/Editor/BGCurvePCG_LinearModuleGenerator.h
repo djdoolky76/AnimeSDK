@@ -4,37 +4,33 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 class BGCurveExtention;
-class Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963;
 namespace RPG::Client { class LinearModuleRendererMonoPlugin; }
 namespace RPG::Editor { class BGCurvePCG_LinearModuleGenerator_ItemData; }
 namespace RPG::Editor { class BGCurvePCG_LinearModuleGenerator_ModuleData; }
-namespace RPG::Editor { class BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_13F0FEDB1C58AAEC_OFFSET UNITYSDK_OFFSET(0xE45F850)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_19E6130E11DE9B10_OFFSET UNITYSDK_OFFSET(0xE45B3B0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_3E6AC14EE28F55D4_OFFSET UNITYSDK_OFFSET(0xE45B490)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_738344B708B7B678_OFFSET UNITYSDK_OFFSET(0xE45DCC0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_75A9B927F52C4894_OFFSET UNITYSDK_OFFSET(0xE45E660)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_796376D4C7B57B85_OFFSET UNITYSDK_OFFSET(0xE45F2F0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_8EE45C9ADEDB0506_OFFSET UNITYSDK_OFFSET(0xE45F120)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_B2C52ACF9D9B435B_OFFSET UNITYSDK_OFFSET(0xE45D4F0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_B3E571562CE5C70B_OFFSET UNITYSDK_OFFSET(0xE45BAC0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xE45F0B0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE45DC80)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_DC4DC6EABAAA4D92_OFFSET UNITYSDK_OFFSET(0xE45B5E0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_EF2E74CEEC4FEFA5_OFFSET UNITYSDK_OFFSET(0xE45B2D0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_F496458A8038CA66_OFFSET UNITYSDK_OFFSET(0xE45F8F0)
-#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE45F970)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_BGFPOHBKNOJ_OFFSET UNITYSDK_OFFSET(0xE4A5710)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A7400)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_DDOIACBMHCL_OFFSET UNITYSDK_OFFSET(0xE4A6BB0)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_FHPAOJGFHHE_OFFSET UNITYSDK_OFFSET(0xE4A6B40)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_FMJAACKGFKJ_OFFSET UNITYSDK_OFFSET(0xE4A7380)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_HNJEHJDMJKG_OFFSET UNITYSDK_OFFSET(0xE4A2F20)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_IIDAMBPJIFG_OFFSET UNITYSDK_OFFSET(0xE4A72E0)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_JEDFPCFKOJH_OFFSET UNITYSDK_OFFSET(0xE4A3070)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_KFOKBOEIJIK_OFFSET UNITYSDK_OFFSET(0xE4A3550)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_KPJGDHLENIP_1_OFFSET UNITYSDK_OFFSET(0xE4A2E40)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE4A2D60)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_MBJOPKPFDIP_OFFSET UNITYSDK_OFFSET(0xE4A6D80)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_MPNEPIGKJOG_OFFSET UNITYSDK_OFFSET(0xE4A4F80)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_NAIJGAMNJIE_OFFSET UNITYSDK_OFFSET(0xE4A5750)
+#define RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_NJJIELIDCCB_OFFSET UNITYSDK_OFFSET(0xE4A60F0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_LinearModuleGenerator_TypeDefinitionIndex = 52312;
-
 	class BGCurvePCG_LinearModuleGenerator : public ::RPG::Editor::BGCurvePCG_MeshGeneratorBase
 	{
 	public:
@@ -42,83 +38,84 @@ namespace RPG::Editor
 		::UnityEngine::Vector2 ControlPointDistRange; // 0x38
 		::System::Single Tolerance; // 0x40
 		::System::Boolean IfGenerateDebugObject; // 0x44
-		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData*>* ModuleDatas; // 0x48
+		::System::Byte _padding0[0x3];
+		::System::Collections::Generic::List_1<::System::Object*>* ModuleDatas; // 0x48
 		::RPG::Client::LinearModuleRendererMonoPlugin* _RendererPlugin; // 0x50
 		::System::Int32 _GroupID; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_EF2E74CEEC4FEFA5(::BGCurveExtention* a1, ::UnityEngine::Transform* a2)
+		::System::Void KPJGDHLENIP(::BGCurveExtention* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_EF2E74CEEC4FEFA5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_KPJGDHLENIP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_19E6130E11DE9B10(::BGCurveExtention* a1, ::UnityEngine::Transform* a2, ::System::Int32 a3)
+		::System::Void KPJGDHLENIP_1(::BGCurveExtention* a1, ::UnityEngine::Transform* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_19E6130E11DE9B10_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_KPJGDHLENIP_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_3E6AC14EE28F55D4()
+		::System::Void HNJEHJDMJKG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_3E6AC14EE28F55D4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_HNJEHJDMJKG_OFFSET))(this);
 		}
 
-		::System::Void Method_2_B2C52ACF9D9B435B()
+		::System::Void MPNEPIGKJOG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_B2C52ACF9D9B435B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_MPNEPIGKJOG_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::System::Void BGFPOHBKNOJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_BGFPOHBKNOJ_OFFSET))(this);
 		}
 
-		::System::Void Method_2_DC4DC6EABAAA4D92(::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData* a1)
+		::System::Void JEDFPCFKOJH(::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_DC4DC6EABAAA4D92_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_JEDFPCFKOJH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598_1()
+		::System::Void FHPAOJGFHHE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_FHPAOJGFHHE_OFFSET))(this);
 		}
 
-		::System::Void Method_2_B3E571562CE5C70B(::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData* a1)
+		::System::Void KFOKBOEIJIK(::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_B3E571562CE5C70B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ModuleData*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_KFOKBOEIJIK_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963*>* Method_2_738344B708B7B678(::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a1, ::UnityEngine::Vector3 a2)
+		::System::Collections::Generic::List_1<::System::Object*>* NAIJGAMNJIE(::System::Collections::Generic::List_1<::System::Object*>* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_738344B708B7B678_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_NAIJGAMNJIE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ItemData*>* Method_2_75A9B927F52C4894(::System::Collections::Generic::List_1<::Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963*>* a1, ::UnityEngine::Vector3 a2)
+		::System::Collections::Generic::List_1<::System::Object*>* NJJIELIDCCB(::System::Collections::Generic::List_1<::System::Object*>* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ItemData*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_F0BC55524B5D6A07_Class_1_E7B1DF5735A03963*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_75A9B927F52C4894_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_NJJIELIDCCB_OFFSET))(this, a1, a2);
 		}
 
-		::UnityEngine::Vector4 Method_2_796376D4C7B57B85(::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ItemData* a1)
+		::UnityEngine::Vector4 MBJOPKPFDIP(::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ItemData* a1)
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID, ::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ItemData*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_796376D4C7B57B85_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector4(*)(::PVOID, ::RPG::Editor::BGCurvePCG_LinearModuleGenerator_ItemData*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_MBJOPKPFDIP_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_2_F496458A8038CA66(::System::UInt32 a1)
+		::System::Single FMJAACKGFKJ(::System::UInt32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_F496458A8038CA66_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_FMJAACKGFKJ_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 Method_2_13F0FEDB1C58AAEC(::System::Single a1)
+		::System::UInt32 IIDAMBPJIFG(::System::Single a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_13F0FEDB1C58AAEC_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_IIDAMBPJIFG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_2_8EE45C9ADEDB0506(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
+		::System::Boolean DDOIACBMHCL(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_METHOD_2_8EE45C9ADEDB0506_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_LINEARMODULEGENERATOR_DDOIACBMHCL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

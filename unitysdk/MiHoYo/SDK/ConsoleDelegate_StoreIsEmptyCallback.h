@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9406C0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B940730)
-#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9406B0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B940640)
+#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE40A70)
+#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE409F0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE40AE0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE40A60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_StoreIsEmptyCallback_TypeDefinitionIndex = 7561;
-
 	class ConsoleDelegate_StoreIsEmptyCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Boolean a2)
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_STOREISEMPTYCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

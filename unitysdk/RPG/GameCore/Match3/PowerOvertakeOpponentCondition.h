@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/Match3/Match3ConditionBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore::Match3 { class PowerOvertakeOpponentCondition; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_METHOD_5_13B315FFD2698E93_OFFSET UNITYSDK_OFFSET(0x1D242AB0)
-#define RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_METHOD_5_BFA935BC71029A3F_OFFSET UNITYSDK_OFFSET(0x1D245500)
-#define RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D242AA0)
+#define RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84D550)
+#define RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D84D560)
+#define RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D84FA30)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int PowerOvertakeOpponentCondition_TypeDefinitionIndex = 24609;
-
 	class PowerOvertakeOpponentCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_BFA935BC71029A3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_METHOD_5_BFA935BC71029A3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_13B315FFD2698E93(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_METHOD_5_13B315FFD2698E93_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Match3::PowerOvertakeOpponentCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_POWEROVERTAKEOPPONENTCONDITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD45A050)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD459F80)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD459F00)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3B11B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3B10E0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3B1060)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsInterviewImgControl_TypeDefinitionIndex = 79054;
-
 	class LimaoNewsInterviewImgControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Image* _Image; // 0x38
-
+		::UnityEngine::UI::Image* _Image; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -31,5 +27,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSINTERVIEWIMGCONTROL__ONBINDVIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

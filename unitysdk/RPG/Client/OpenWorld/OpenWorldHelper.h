@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GraphicQuality.h"
-#include "unitysdk/Struct_2_A77148D52D516E55.h"
-#include "unitysdk/Struct_2_CC45B4503679E14E.h"
-#include "unitysdk/Struct_2_CC45B4503679E14E_5.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/GEEOPFIMJEM.h"
+#include "unitysdk/IAJPMNLEFLJ.h"
+#include "unitysdk/OKLBEPJCBJG.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_0_16E4307DCC419505_1064;
-class Class_1_53BE720C46D20BF8;
-class Class_1_64EA8B4AB59D91C7;
-class Class_1_76597B0FC8DCAD88;
-class Class_1_D70A30D666F20D90;
-class Class_2_250DE1D032671F25;
+class BJBDLDCDDJH;
+class CHLIAIJFBJF;
+class DBMBGHNGDCG;
+class ENLBPLPOGMF;
+class LJFHKAJPFNE;
+class LPBNBKGHOGA;
 namespace RPG::Client::OpenWorld { class StreamingLayerSetting; }
 namespace RPG::GameCore { class BlockNodeConfig; }
 namespace RPG::GameCore { class LodConfig; }
 namespace RPG::GameCore { class LodTemplate; }
 namespace RPG::GameCore { class MeshBound; }
 namespace RPG::GameCore { class StageLodMapConfig; }
+namespace System { class Action; }
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
@@ -41,546 +41,652 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADDTAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xD9FE4D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORMINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0xD9FBAA0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xD9F8EF0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xD9FAA10)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xD9FAD50)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xD9FB370)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_5_OFFSET UNITYSDK_OFFSET(0xD9FB470)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_6_OFFSET UNITYSDK_OFFSET(0xD9FB6F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_7_OFFSET UNITYSDK_OFFSET(0xD9FB9C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD9F8DF0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSCONTAIN_OFFSET UNITYSDK_OFFSET(0xD9F7340)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSPROJECTTOXZPLANE_OFFSET UNITYSDK_OFFSET(0xD9F70A0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xD9FE5F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CHECKSTREAMINGRECTSIMILAR_OFFSET UNITYSDK_OFFSET(0xD9F5600)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CLOSEIRIHIZTEST_OFFSET UNITYSDK_OFFSET(0xDA00390)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_COPYANIMATOR_OFFSET UNITYSDK_OFFSET(0xD9F8530)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CREATERECTBYCENTERANDSIZE_OFFSET UNITYSDK_OFFSET(0xD9F6FF0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0xD9FC4F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GAMEOBJECTHIERARCHYPATH_OFFSET UNITYSDK_OFFSET(0xD9FC160)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETCELLFILTER_OFFSET UNITYSDK_OFFSET(0xD9FFDF0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET UNITYSDK_OFFSET(0xD9FFF00)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHTEXTASSET_OFFSET UNITYSDK_OFFSET(0xD9FFFF0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETLODLEVELBYDISTANCE_OFFSET UNITYSDK_OFFSET(0xD9FE370)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETMINLODLEVEL_OFFSET UNITYSDK_OFFSET(0xD9FE140)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xD9FBFA0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xD9F9480)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xD9F9B00)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xD9FA180)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xD9FA350)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD9F9380)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEDIR_OFFSET UNITYSDK_OFFSET(0xD9FBD90)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xD9FBF30)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETVECTOR3S_OFFSET UNITYSDK_OFFSET(0xD9F5510)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ASYNCLOADPERSISTENTASSET_OFFSET UNITYSDK_OFFSET(0xDA00200)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xDA00210)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xDA001A0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODCONFIG_OFFSET UNITYSDK_OFFSET(0xDA00260)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xD9FFC30)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_GROUPLODCONFIG_OFFSET UNITYSDK_OFFSET(0xDA002D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_QUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xD9FF5F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xDA00400)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xDA00050)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGLAYERSETTING_OFFSET UNITYSDK_OFFSET(0xD9F6F70)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xDA00120)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCROOMCACHE_OFFSET UNITYSDK_OFFSET(0xD9FD6C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCSPROOMCACHE_OFFSET UNITYSDK_OFFSET(0xD9FD650)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GIZMODRAWRECT_OFFSET UNITYSDK_OFFSET(0xD9F7490)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORMANDCANFORCECHOOSEPLATFORM_OFFSET UNITYSDK_OFFSET(0xD9FFD30)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORM_OFFSET UNITYSDK_OFFSET(0xD9FFCE0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISCOLLIDERGO_OFFSET UNITYSDK_OFFSET(0xD9FF1C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_1_OFFSET UNITYSDK_OFFSET(0xD9F5A10)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_2_OFFSET UNITYSDK_OFFSET(0xD9F65B0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_OFFSET UNITYSDK_OFFSET(0xD9F56E0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_OPENHIZTEST_OFFSET UNITYSDK_OFFSET(0xDA00340)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_PROJECTPOINT_OFFSET UNITYSDK_OFFSET(0xD9FC380)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTCONTAIN_OFFSET UNITYSDK_OFFSET(0xD9F7140)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTOVERLAY_OFFSET UNITYSDK_OFFSET(0xD9F7210)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REMOVETAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xD9F80D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REPLACELODCONFIGLAYER_OFFSET UNITYSDK_OFFSET(0xD9FD500)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RETURNVECTOR3S_OFFSET UNITYSDK_OFFSET(0xD9F5590)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RUNTIMECALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xD9FE710)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_1_OFFSET UNITYSDK_OFFSET(0xD9FF460)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_OFFSET UNITYSDK_OFFSET(0xD9FF330)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xD9FC570)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETSTREAMINGGRASSFASTMODE_OFFSET UNITYSDK_OFFSET(0xD9FF590)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_1_OFFSET UNITYSDK_OFFSET(0xD9FD7D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_OFFSET UNITYSDK_OFFSET(0xD9FD6D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xDA00220)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xDA001F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xDA00450)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xDA00060)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xDA00190)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SHRINKOPENWORLDIRIBYTEARRAYCACHE_OFFSET UNITYSDK_OFFSET(0xD9FFE80)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_STREAMINGDESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0xD9F7650)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TRANSFORMMESHBOUND_OFFSET UNITYSDK_OFFSET(0xD9F8BB0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TREEDEPTHTOCOLOR_OFFSET UNITYSDK_OFFSET(0xD9F7410)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_UPDATEGRAPHICQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xD9FF640)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA00470)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xDA00460)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADDTAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xDA08810)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORMINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0xDA05D20)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xDA03130)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xDA04C50)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xDA04F90)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xDA055D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_5_OFFSET UNITYSDK_OFFSET(0xDA056D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_6_OFFSET UNITYSDK_OFFSET(0xDA05970)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_7_OFFSET UNITYSDK_OFFSET(0xDA05C40)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA03030)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSCONTAIN_OFFSET UNITYSDK_OFFSET(0xDA01570)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSPROJECTTOXZPLANE_OFFSET UNITYSDK_OFFSET(0xDA012D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xDA08930)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA0A740)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CHECKSTREAMINGRECTSIMILAR_OFFSET UNITYSDK_OFFSET(0xD9FF830)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CLOSEIRIHIZTEST_OFFSET UNITYSDK_OFFSET(0xDA0A660)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_COPYANIMATOR_OFFSET UNITYSDK_OFFSET(0xDA02770)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CREATERECTBYCENTERANDSIZE_OFFSET UNITYSDK_OFFSET(0xDA01220)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0A730)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0xDA06830)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GAMEOBJECTHIERARCHYPATH_OFFSET UNITYSDK_OFFSET(0xDA063E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETCELLFILTER_OFFSET UNITYSDK_OFFSET(0xDA0A0C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET UNITYSDK_OFFSET(0xDA0A1D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHTEXTASSET_OFFSET UNITYSDK_OFFSET(0xDA0A2C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETLODLEVELBYDISTANCE_OFFSET UNITYSDK_OFFSET(0xDA086B0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETMINLODLEVEL_OFFSET UNITYSDK_OFFSET(0xDA08480)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xDA06220)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xDA036C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xDA03D40)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xDA043C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xDA04590)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA035C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEDIR_OFFSET UNITYSDK_OFFSET(0xDA06010)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xDA061B0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETVECTOR3S_OFFSET UNITYSDK_OFFSET(0xD9FF740)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ASYNCLOADPERSISTENTASSET_OFFSET UNITYSDK_OFFSET(0xDA0A4D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xDA0A4E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xDA0A470)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODCONFIG_OFFSET UNITYSDK_OFFSET(0xDA0A530)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xDA09F50)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_GROUPLODCONFIG_OFFSET UNITYSDK_OFFSET(0xDA0A5A0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_QUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xDA09950)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xDA0A6D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A320)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGLAYERSETTING_OFFSET UNITYSDK_OFFSET(0xDA011A0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A3F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCROOMCACHE_OFFSET UNITYSDK_OFFSET(0xDA079E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCSPROOMCACHE_OFFSET UNITYSDK_OFFSET(0xDA07970)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GIZMODRAWRECT_OFFSET UNITYSDK_OFFSET(0xDA016C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORMANDCANFORCECHOOSEPLATFORM_OFFSET UNITYSDK_OFFSET(0xDA0A000)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORM_OFFSET UNITYSDK_OFFSET(0xDA09FB0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISCOLLIDERGO_OFFSET UNITYSDK_OFFSET(0xDA09500)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_1_OFFSET UNITYSDK_OFFSET(0xD9FFC40)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_2_OFFSET UNITYSDK_OFFSET(0xDA007E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_OFFSET UNITYSDK_OFFSET(0xD9FF910)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_OPENHIZTEST_OFFSET UNITYSDK_OFFSET(0xDA0A610)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_PROJECTPOINT_OFFSET UNITYSDK_OFFSET(0xDA066C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTCONTAIN_OFFSET UNITYSDK_OFFSET(0xDA01370)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTOVERLAY_OFFSET UNITYSDK_OFFSET(0xDA01440)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REMOVETAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xDA02310)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REPLACELODCONFIGLAYER_OFFSET UNITYSDK_OFFSET(0xDA07860)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RETURNVECTOR3S_OFFSET UNITYSDK_OFFSET(0xD9FF7C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RUNTIMECALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xDA08A50)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_1_OFFSET UNITYSDK_OFFSET(0xDA097B0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_OFFSET UNITYSDK_OFFSET(0xDA09670)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xDA068B0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETSTREAMINGGRASSFASTMODE_OFFSET UNITYSDK_OFFSET(0xDA098F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_1_OFFSET UNITYSDK_OFFSET(0xDA07AF0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_OFFSET UNITYSDK_OFFSET(0xDA079F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xDA0A4F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xDA0A4C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xDA0A720)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A330)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A460)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SHRINKOPENWORLDIRIBYTEARRAYCACHE_OFFSET UNITYSDK_OFFSET(0xDA0A150)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_STREAMINGDESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0xDA01880)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TRANSFORMMESHBOUND_OFFSET UNITYSDK_OFFSET(0xDA02DF0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TREEDEPTHTOCOLOR_OFFSET UNITYSDK_OFFSET(0xDA01640)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_UPDATEGRAPHICQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xDA099A0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OpenWorldHelper_TypeDefinitionIndex = 73767;
-
 	class OpenWorldHelper : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_StageCapturedPropCommonJson()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x66F0);
-		}
-		static ::System::String** StaticGet_EntityLodSettingTemplate()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x66F8);
-		}
-		static ::System::String** StaticGet_GroupDefaultStreamingTemplateName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6700);
-		}
-		static ::System::String** StaticGet_SceneItemHLODStreamingLayerName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6708);
-		}
-		static ::System::String** StaticGet_GameplayLodSettingTemplate()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6710);
-		}
-		static ::System::String** StaticGet_StreamingLayerSettingAssetPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6718);
-		}
-		static ::System::String** StaticGet_GroupLodSettingTemplate()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6720);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>** StaticGet__AnimatorParaList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6728);
-		}
-		static ::System::String** StaticGet_VariantMDVItemStreamingLayerName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6730);
-		}
-		static ::RPG::Client::OpenWorld::StreamingLayerSetting** StaticGet__StreamingLayerSetting()
-		{
-			return (::RPG::Client::OpenWorld::StreamingLayerSetting**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6738);
-		}
-		static ::System::String** StaticGet_MonoEffectLodSettingTemplate()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6740);
-		}
-		static ::System::String** StaticGet_TAMonoTickLodSettingTemplateAssetPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6748);
-		}
 		static ::RPG::GameCore::LodConfig** StaticGet__GroupLodConfig()
 		{
-			return (::RPG::GameCore::LodConfig**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6750);
+			return (::RPG::GameCore::LodConfig**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB350);
 		}
-		static ::System::String** StaticGet_TSCOverrideLayer()
+
+		static ::System::String** StaticGet_MonoEffectLodSettingTemplate()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6758);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB358);
 		}
-		static ::UnityEngine::GameObject** StaticGet_TransformTool()
-		{
-			return (::UnityEngine::GameObject**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6760);
-		}
-		static ::System::String** StaticGet_HeightBlendTexSuffix()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6768);
-		}
+
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__RendererList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6770);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB360);
 		}
+
 		static ::System::String** StaticGet_FadingTraceTarget()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6778);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB368);
 		}
-		static ::RPG::GameCore::LodConfig** StaticGet__entityLodConfig()
-		{
-			return (::RPG::GameCore::LodConfig**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6780);
-		}
-		static ::UnityEngine::MaterialPropertyBlock** StaticGet__EmptyMatPropertyBlock()
-		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6788);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_OpenWorldByteArrayCache()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6790);
-		}
-		static ::System::String** StaticGet_GroupNoStreamingTemplateName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x6798);
-		}
-		static ::System::String** StaticGet_SceneConstValueConfigAssetPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x67A0);
-		}
+
 		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet__CachedRendererMats()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x67A8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB370);
 		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Animator*>** StaticGet__AnimatorList()
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>** StaticGet__AnimatorParaList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Animator*>**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x67B0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB378);
 		}
-		static ::System::String** StaticGet_EntityStreamingLayerName()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x67B8);
-		}
+
 		static ::System::Collections::Generic::Queue_1<::Il2CppArray<::UnityEngine::Vector3>*>** StaticGet__vectorsPool()
 		{
-			return (::System::Collections::Generic::Queue_1<::Il2CppArray<::UnityEngine::Vector3>*>**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x67C0);
+			return (::System::Collections::Generic::Queue_1<::Il2CppArray<::UnityEngine::Vector3>*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB380);
 		}
-		static ::System::String** StaticGet_NormDistanceLodSettingTemplateAssetPath()
+
+		static ::System::String** StaticGet_SceneItemHLODStreamingLayerName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x67C8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB388);
 		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Animator*>** StaticGet__AnimatorList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Animator*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB390);
+		}
+
+		static ::UnityEngine::GameObject** StaticGet_TransformTool()
+		{
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB398);
+		}
+
+		static ::UnityEngine::MaterialPropertyBlock** StaticGet__EmptyMatPropertyBlock()
+		{
+			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3A0);
+		}
+
+		static ::System::String** StaticGet_SceneConstValueConfigAssetPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3A8);
+		}
+
 		static ::System::String** StaticGet_LodSettingTemplateAssetPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x67D0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3B0);
 		}
-		static ::System::Boolean* StaticGet_DEBUG_SKIP_ITEM()
+
+		static ::System::String** StaticGet_StreamingLayerSettingAssetPath()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D00);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3B8);
 		}
-		static ::System::Boolean* StaticGet_UsingStreamingGrass()
+
+		static ::System::String** StaticGet_GroupDefaultStreamingTemplateName()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D01);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3C0);
 		}
-		static ::System::Boolean* StaticGet_InStageConfigV2Mode()
+
+		static ::System::String** StaticGet_TSCOverrideLayer()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D02);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3C8);
 		}
-		static ::System::Boolean* StaticGet_EnableFadingTraceLog()
+
+		static ::RPG::Client::OpenWorld::StreamingLayerSetting** StaticGet__StreamingLayerSetting()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D03);
+			return (::RPG::Client::OpenWorld::StreamingLayerSetting**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3D0);
 		}
-		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_LOAD_DELTA_R()
+
+		static ::System::String** StaticGet_VariantMDVItemStreamingLayerName()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D04);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3D8);
 		}
-		static ::System::Int32* StaticGet__ES_HeightMap()
+
+		static ::System::String** StaticGet_TAMonoTickLodSettingTemplateAssetPath()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D08);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3E0);
 		}
-		static ::RPG::GameCore::GraphicQuality* StaticGet_CacheLodGraphicQuality()
+
+		static ::RPG::GameCore::LodConfig** StaticGet__entityLodConfig()
 		{
-			return (::RPG::GameCore::GraphicQuality*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D0C);
+			return (::RPG::GameCore::LodConfig**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3E8);
 		}
-		static ::System::Single* StaticGet_SchedulerFadingFramingLimitStandard()
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_OpenWorldByteArrayCache()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D10);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3F0);
 		}
-		static ::System::Boolean* StaticGet_EnableTimeoutPromote()
+
+		static ::System::String** StaticGet_GroupLodSettingTemplate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D14);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3F8);
 		}
-		static ::System::Boolean* StaticGet_UseBunchItem()
+
+		static ::System::String** StaticGet_EntityStreamingLayerName()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D15);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB400);
 		}
-		static ::System::Boolean* StaticGet_IsBaselineMode()
+
+		static ::System::String** StaticGet_HeightBlendTexSuffix()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D16);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB408);
 		}
-		static ::System::Boolean* StaticGet_EntityStreaming()
+
+		static ::System::String** StaticGet_GameplayLodSettingTemplate()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D17);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB410);
 		}
-		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_UNLOAD_DELTA_R()
+
+		static ::System::String** StaticGet_StageCapturedPropCommonJson()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D18);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB418);
 		}
-		static ::System::Single* StaticGet_s_VisionSimilarValue()
+
+		static ::System::String** StaticGet_GroupNoStreamingTemplateName()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D1C);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB420);
 		}
-		static ::System::Single* StaticGet_SchedulerFadingFramingLimitDelta()
+
+		static ::System::String** StaticGet_NormDistanceLodSettingTemplateAssetPath()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D20);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB428);
 		}
-		static ::System::Int32* StaticGet__ES_BlockBboxBase()
+
+		static ::System::String** StaticGet_EntityLodSettingTemplate()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D24);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB430);
 		}
-		static ::System::Int32* StaticGet__Block_Bbox_Base()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D28);
-		}
-		static ::System::Int32* StaticGet_CLOSE_HIZ_TEST()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D2C);
-		}
-		static ::System::Int32* StaticGet__Block_Bbox_Range()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D30);
-		}
-		static ::System::Int32* StaticGet__Block_Albedo_Height_Map()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D34);
-		}
-		static ::System::Boolean* StaticGet_ENABLE_ANIMATOR_URO()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D38);
-		}
-		static ::System::Boolean* StaticGet_IRI_FALLBACK()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D39);
-		}
-		static ::System::Boolean* StaticGet__StreamingVisibleEnalbe()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D3A);
-		}
-		static ::System::Boolean* StaticGet_EnableCameraOcculuder()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D3B);
-		}
-		static ::System::Int32* StaticGet_RegionDecEntityLodQualityRef()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D3C);
-		}
-		static ::System::Single* StaticGet_SchedulerFadingFramingLimit()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D40);
-		}
-		static ::System::Single* StaticGet_HLODSwitchDelay()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D44);
-		}
-		static ::System::Boolean* StaticGet_UsingStreamingInstanceStub()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D48);
-		}
-		static ::System::Boolean* StaticGet_SpaceFoldHideInvalidItem()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D49);
-		}
-		static ::System::Boolean* StaticGet_EnableLowTailSweep()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D4A);
-		}
-		static ::System::Boolean* StaticGet_RegionUpdateBlockVisibleInDisableStreaming()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D4B);
-		}
-		static ::System::Int32* StaticGet__TerrainCoverageParamsId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D4C);
-		}
-		static ::System::Single* StaticGet_MainSourceAttachPlayerThresholdDist()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D50);
-		}
-		static ::System::Int32* StaticGet__Blend_Base_Range()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D54);
-		}
-		static ::System::Int32* StaticGet__ES_BlockBboxRange()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D58);
-		}
-		static ::System::Boolean* StaticGet_SwitchQualityAndReloadPersistent()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D5C);
-		}
-		static ::System::Boolean* StaticGet_EnableBacklogWatchdog()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D5D);
-		}
-		static ::System::Boolean* StaticGet_GraphicSettingDirty()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D5E);
-		}
-		static ::System::Boolean* StaticGet_ForbidCityAtmosphereStreaming()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D5F);
-		}
-		static ::System::UInt32* StaticGet_SUB_STAGE_ISLAND_ID_OFFSET()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D60);
-		}
-		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomEntityLodGraphicQuality()
-		{
-			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D64);
-		}
-		static ::System::Single* StaticGet_OutvisiontToInvisioinLimitDist()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D6C);
-		}
-		static ::System::Boolean* StaticGet_STREAMING_CHECK_LOADING_TIMEOUT()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D70);
-		}
-		static ::System::Boolean* StaticGet_RenderDebugLodEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D71);
-		}
-		static ::System::Boolean* StaticGet_GRASS_FORCE_REFRESH_CULLING_ON_PERFORMANCE()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D72);
-		}
-		static ::System::Boolean* StaticGet_IRI_FORCE_LOW_GRAPHIC()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D73);
-		}
-		static ::System::Boolean* StaticGet__StreamingEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D74);
-		}
-		static ::System::Boolean* StaticGet_EnableStreamingJobSystem()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D75);
-		}
-		static ::System::Boolean* StaticGet_EnableRegionOverrideMaxPerObjectShadowCount()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D76);
-		}
-		static ::System::Boolean* StaticGet_StreamingGrassFastMode()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D77);
-		}
-		static ::System::Boolean* StaticGet_IRI_CLOSE_UPDATE_HIZ()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D78);
-		}
-		static ::System::Boolean* StaticGet_RuntimeStreamingEnable()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D79);
-		}
-		static ::System::Boolean* StaticGet_EnableStreamingVolumeThreadTask()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D7A);
-		}
-		static ::System::Boolean* StaticGet_StreamingItemUsingObjectPool()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D7B);
-		}
-		static ::System::Int32* StaticGet__Block_Normal_Detail_Map()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D7C);
-		}
-		static ::System::Boolean* StaticGet_StreamingDebugScriptOpen()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D80);
-		}
-		static ::System::Boolean* StaticGet_EnableRenderItemShadowCastingModeBugFix()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D81);
-		}
-		static ::System::Boolean* StaticGet_UseNewStageCaptureProp()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D82);
-		}
-		static ::System::Boolean* StaticGet_UseSystemScheduler()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D83);
-		}
-		static ::System::Boolean* StaticGet__EnableUsingSyncLoad()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D84);
-		}
-		static ::System::Boolean* StaticGet_EnableSceneItemHLOD()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D85);
-		}
-		static ::System::Boolean* StaticGet_UseLodShakeThreshold()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D86);
-		}
-		static ::System::Boolean* StaticGet_PVS_USE_BINARY_DATA()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D87);
-		}
+
 		static ::System::Boolean* StaticGet_EnableImmediateFinishResolver()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D88);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2670);
 		}
-		static ::System::Boolean* StaticGet_LOW_IPHONE_STREAMING_FEATURE()
+
+		static ::System::Boolean* StaticGet__StreamingEnable()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D89);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2671);
 		}
-		static ::System::Boolean* StaticGet_ForbidInstantiatePrefabWhenUseBunchItem()
+
+		static ::System::Boolean* StaticGet_EnableTimeoutPromote()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D8A);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2672);
 		}
-		static ::System::Boolean* StaticGet_EnableVolumeHLODHide()
+
+		static ::System::Boolean* StaticGet_GraphicSettingDirty()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D8B);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2673);
 		}
-		static ::System::Boolean* StaticGet_EnableMaintenanceSweep()
+
+		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_LOAD_DELTA_R()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D8C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2674);
 		}
-		static ::System::Boolean* StaticGet_UseLodCulling()
+
+		static ::System::Int32* StaticGet__Block_Normal_Detail_Map()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D8D);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2678);
 		}
-		static ::System::Boolean* StaticGet_FORCE_DRAW_IRI()
+
+		static ::System::Int32* StaticGet__Block_Bbox_Range()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D8E);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x267C);
 		}
+
+		static ::System::Int32* StaticGet__Block_Albedo_Height_Map()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2680);
+		}
+
+		static ::System::Single* StaticGet_HLODSwitchDelay()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2684);
+		}
+
+		static ::System::Single* StaticGet_SchedulerFadingFramingLimitDelta()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2688);
+		}
+
+		static ::System::Boolean* StaticGet_EnableCameraOcculuder()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268C);
+		}
+
+		static ::System::Boolean* StaticGet_ENABLE_ANIMATOR_URO()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268D);
+		}
+
+		static ::System::Boolean* StaticGet_StreamingDebugScriptOpen()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268E);
+		}
+
 		static ::System::Boolean* StaticGet_IRI_USE_BINARY_DATA()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D8F);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268F);
 		}
-		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomLodGraphicQuality()
+
+		static ::System::Int32* StaticGet__TerrainCoverageParamsId()
 		{
-			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D90);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2690);
 		}
+
+		static ::System::Nullable** StaticGet_CustomLodGraphicQuality()
+		{
+			return (::System::Nullable**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2694);
+		}
+
 		static ::System::Boolean* StaticGet_EnableGrass()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D98);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269C);
 		}
+
+		static ::System::Boolean* StaticGet_UsingStreamingInstanceStub()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269D);
+		}
+
 		static ::System::Boolean* StaticGet_LevelEditorStageStreaming()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D99);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269E);
 		}
+
+		static ::System::Boolean* StaticGet_UseBunchItem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269F);
+		}
+
 		static ::System::Int32* StaticGet__RegionOverrideMaxPerObjectShadowCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1D9C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A0);
 		}
-		static ::System::Boolean* StaticGet_UsePriorityScheduler()
+
+		static ::System::Single* StaticGet_OutvisiontToInvisioinLimitDist()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1DA0);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A4);
 		}
+
+		static ::System::Boolean* StaticGet_EnableBacklogWatchdog()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A8);
+		}
+
+		static ::System::Boolean* StaticGet_UseLodCulling()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A9);
+		}
+
+		static ::System::Boolean* StaticGet_IRI_FALLBACK()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26AA);
+		}
+
 		static ::System::Boolean* StaticGet_UseStageConfigV2()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1DA1);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26AB);
 		}
-		static ::System::Boolean* StaticGet_RadicalCulling()
+
+		static ::System::Int32* StaticGet_CLOSE_HIZ_TEST()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1DA2);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26AC);
 		}
+
+		static ::System::Int32* StaticGet__Blend_Base_Range()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B0);
+		}
+
+		static ::System::UInt32* StaticGet_SUB_STAGE_ISLAND_ID_OFFSET()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B4);
+		}
+
+		static ::System::Boolean* StaticGet_PVS_USE_BINARY_DATA()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B8);
+		}
+
 		static ::System::Boolean* StaticGet_COLLIDER_STREAMING_DEBUG()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1DA3);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B9);
 		}
+
+		static ::System::Boolean* StaticGet_UseLodShakeThreshold()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BA);
+		}
+
+		static ::System::Boolean* StaticGet__StreamingVisibleEnalbe()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BB);
+		}
+
+		static ::System::Boolean* StaticGet_UsePriorityScheduler()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BC);
+		}
+
+		static ::System::Boolean* StaticGet_ForbidInstantiatePrefabWhenUseBunchItem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BD);
+		}
+
+		static ::System::Boolean* StaticGet_EnableRenderItemShadowCastingModeBugFix()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BE);
+		}
+
+		static ::System::Boolean* StaticGet_InStageConfigV2Mode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BF);
+		}
+
+		static ::System::Int32* StaticGet__ES_BlockBboxRange()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C0);
+		}
+
+		static ::System::Boolean* StaticGet_EntityStreaming()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C4);
+		}
+
+		static ::System::Boolean* StaticGet_EnableFadingTraceLog()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C5);
+		}
+
+		static ::System::Boolean* StaticGet_IsBaselineMode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C6);
+		}
+
+		static ::System::Boolean* StaticGet_LOW_IPHONE_STREAMING_FEATURE()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C7);
+		}
+
+		static ::System::Int32* StaticGet_RegionDecEntityLodQualityRef()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C8);
+		}
+
+		static ::System::Boolean* StaticGet_UseSystemScheduler()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26CC);
+		}
+
+		static ::System::Boolean* StaticGet_FORCE_DRAW_IRI()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26CD);
+		}
+
+		static ::RPG::GameCore::GraphicQuality* StaticGet_CacheLodGraphicQuality()
+		{
+			return (::RPG::GameCore::GraphicQuality*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D0);
+		}
+
+		static ::System::Boolean* StaticGet_IRI_CLOSE_UPDATE_HIZ()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D4);
+		}
+
+		static ::System::Boolean* StaticGet_EnableVolumeHLODHide()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D5);
+		}
+
+		static ::System::Boolean* StaticGet_EnableSceneItemHLOD()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D6);
+		}
+
+		static ::System::Boolean* StaticGet_EnableRegionOverrideMaxPerObjectShadowCount()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D7);
+		}
+
+		static ::System::Boolean* StaticGet_SpaceFoldHideInvalidItem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D8);
+		}
+
+		static ::System::Boolean* StaticGet_DEBUG_SKIP_ITEM()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D9);
+		}
+
+		static ::System::Boolean* StaticGet_UseNewStageCaptureProp()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26DA);
+		}
+
+		static ::System::Boolean* StaticGet_EnableStreamingVolumeThreadTask()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26DB);
+		}
+
+		static ::System::Single* StaticGet_MainSourceAttachPlayerThresholdDist()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26DC);
+		}
+
+		static ::System::Boolean* StaticGet_RadicalCulling()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E0);
+		}
+
+		static ::System::Boolean* StaticGet_IRI_FORCE_LOW_GRAPHIC()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E1);
+		}
+
+		static ::System::Boolean* StaticGet_ForbidCityAtmosphereStreaming()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E2);
+		}
+
+		static ::System::Boolean* StaticGet_RenderDebugLodEnable()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E3);
+		}
+
+		static ::System::Single* StaticGet_SchedulerFadingFramingLimitStandard()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E4);
+		}
+
+		static ::System::Single* StaticGet_s_VisionSimilarValue()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E8);
+		}
+
+		static ::System::Boolean* StaticGet_StreamingItemUsingObjectPool()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26EC);
+		}
+
+		static ::System::Boolean* StaticGet_UsingStreamingGrass()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26ED);
+		}
+
+		static ::System::Boolean* StaticGet_STREAMING_CHECK_LOADING_TIMEOUT()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26EE);
+		}
+
+		static ::System::Boolean* StaticGet_EnableStreamingJobSystem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26EF);
+		}
+
 		static ::System::Single* StaticGet_s_CenterSimilarValue()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpenWorldHelper_TypeDefinitionIndex)->GetStaticField(0x1DA4);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F0);
 		}
-		// static const ::System::Int32 OpenWorldByteArrayIncreaseSize = 0x80000; // 0x0
+
+		static ::System::Boolean* StaticGet_SwitchQualityAndReloadPersistent()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F4);
+		}
+
+		static ::System::Boolean* StaticGet_RuntimeStreamingEnable()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F5);
+		}
+
+		static ::System::Boolean* StaticGet_EnableMaintenanceSweep()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F6);
+		}
+
+		static ::System::Boolean* StaticGet_GRASS_FORCE_REFRESH_CULLING_ON_PERFORMANCE()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F7);
+		}
+
+		static ::System::Int32* StaticGet__Block_Bbox_Base()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F8);
+		}
+
+		static ::System::Int32* StaticGet__ES_HeightMap()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26FC);
+		}
+
+		static ::System::Nullable** StaticGet_CustomEntityLodGraphicQuality()
+		{
+			return (::System::Nullable**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2700);
+		}
+
+		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_UNLOAD_DELTA_R()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2708);
+		}
+
+		static ::System::Single* StaticGet_SchedulerFadingFramingLimit()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x270C);
+		}
+
+		static ::System::Int32* StaticGet__ES_BlockBboxBase()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2710);
+		}
+
+		static ::System::Boolean* StaticGet_EnableLowTailSweep()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2714);
+		}
+
+		static ::System::Boolean* StaticGet_RegionUpdateBlockVisibleInDisableStreaming()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2715);
+		}
+
+		static ::System::Boolean* StaticGet_StreamingGrassFastMode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2716);
+		}
+
+		static ::System::Boolean* StaticGet__EnableUsingSyncLoad()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2717);
+		}
+
+		// static const ::System::Object OpenWorldByteArrayIncreaseSize; // 0x0
 		// static const ::System::String* DynamicItemLayer; // 0x0
 		// static const ::System::String* DynamicLargeItemLayer; // 0x0
-		// static const ::System::Single DefaultHLODSwitchDelay; // 0x0
-		// static const ::System::Single TransitionLimitTime; // 0x0
-		// static const ::System::Single LevelGridSize; // 0x0
-		// static const ::System::Single BaselineModeTickInterval; // 0x0
+		// static const ::System::Object DefaultHLODSwitchDelay; // 0x0
+		// static const ::System::Object TransitionLimitTime; // 0x0
+		// static const ::System::Object LevelGridSize; // 0x0
+		// static const ::System::Object BaselineModeTickInterval; // 0x0
 		// static const ::System::String* TransformFindSelfStr; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CCTOR_OFFSET))();
 		}
 
 		static ::Il2CppArray<::UnityEngine::Vector3>* GetVector3s()
@@ -653,9 +759,9 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Void(*)(::UnityEngine::Rect))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GIZMODRAWRECT_OFFSET))(a1);
 		}
 
-		static ::System::Void StreamingDestroyInstance(::UnityEngine::GameObject* a1, ::Class_2_250DE1D032671F25* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::UInt32>* a3, ::System::Boolean a4, ::System::Boolean a5)
+		static ::System::Void StreamingDestroyInstance(::UnityEngine::GameObject* a1, ::CHLIAIJFBJF* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::UInt32>* a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::Class_2_250DE1D032671F25*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::UInt32>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_STREAMINGDESTROYINSTANCE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::CHLIAIJFBJF*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::UInt32>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_STREAMINGDESTROYINSTANCE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void CopyAnimator(::UnityEngine::Animator* a1, ::UnityEngine::Animator* a2, ::System::Boolean a3)
@@ -668,39 +774,39 @@ namespace RPG::Client::OpenWorld
 			return ((::UnityEngine::Bounds(*)(::RPG::GameCore::BlockNodeConfig*, ::RPG::GameCore::MeshBound*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TRANSFORMMESHBOUND_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AdjustTransform(::RPG::GameCore::BlockNodeConfig* a1, ::Struct_2_CC45B4503679E14E_5 a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
+		static ::System::Void AdjustTransform(::RPG::GameCore::BlockNodeConfig* a1, ::OKLBEPJCBJG a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::Struct_2_CC45B4503679E14E_5, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::OKLBEPJCBJG, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AdjustTransform_1(::RPG::GameCore::BlockNodeConfig* a1, ::Struct_2_A77148D52D516E55 a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
+		static ::System::Void AdjustTransform_1(::RPG::GameCore::BlockNodeConfig* a1, ::GEEOPFIMJEM a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::Struct_2_A77148D52D516E55, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::GEEOPFIMJEM, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void GetStreamingItemTransform(::RPG::GameCore::BlockNodeConfig* a1, ::Struct_2_CC45B4503679E14E_5 a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Vector3& a4)
+		static ::System::Void GetStreamingItemTransform(::RPG::GameCore::BlockNodeConfig* a1, ::OKLBEPJCBJG a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::Struct_2_CC45B4503679E14E_5, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::OKLBEPJCBJG, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void GetStreamingItemTransform_1(::RPG::GameCore::BlockNodeConfig* a1, ::Struct_2_A77148D52D516E55 a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Vector3& a4)
+		static ::System::Void GetStreamingItemTransform_1(::RPG::GameCore::BlockNodeConfig* a1, ::GEEOPFIMJEM a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::Struct_2_A77148D52D516E55, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::GEEOPFIMJEM, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_1_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void GetStreamingItemTransform_2(::RPG::GameCore::BlockNodeConfig* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3& a5, ::UnityEngine::Vector3& a6)
+		static ::System::Void GetStreamingItemTransform_2(::RPG::GameCore::BlockNodeConfig* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_2_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_2_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void GetStreamingItemTransform_3(::Struct_2_CC45B4503679E14E_5 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3& a5, ::UnityEngine::Vector3& a6)
+		static ::System::Void GetStreamingItemTransform_3(::OKLBEPJCBJG a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6)
 		{
-			return ((::System::Void(*)(::Struct_2_CC45B4503679E14E_5, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_3_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::OKLBEPJCBJG, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_3_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void GetStreamingItemTransform_4(::Struct_2_A77148D52D516E55 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3& a5, ::UnityEngine::Vector3& a6)
+		static ::System::Void GetStreamingItemTransform_4(::GEEOPFIMJEM a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::UnityEngine::Vector3 a6)
 		{
-			return ((::System::Void(*)(::Struct_2_A77148D52D516E55, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_4_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::GEEOPFIMJEM, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_4_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::UnityEngine::Matrix4x4 AdjustTransform_2(::RPG::GameCore::BlockNodeConfig* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4)
@@ -708,34 +814,34 @@ namespace RPG::Client::OpenWorld
 			return ((::UnityEngine::Matrix4x4(*)(::RPG::GameCore::BlockNodeConfig*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AdjustTransform_3(::RPG::GameCore::BlockNodeConfig* a1, ::Class_1_64EA8B4AB59D91C7* a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
+		static ::System::Void AdjustTransform_3(::RPG::GameCore::BlockNodeConfig* a1, ::BJBDLDCDDJH* a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::Class_1_64EA8B4AB59D91C7*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_3_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::RPG::GameCore::BlockNodeConfig*, ::BJBDLDCDDJH*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_3_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AdjustTransform_4(::Struct_2_CC45B4503679E14E_5 a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4)
+		static ::System::Void AdjustTransform_4(::OKLBEPJCBJG a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::Struct_2_CC45B4503679E14E_5, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_4_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::OKLBEPJCBJG, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_4_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AdjustTransform_5(::Struct_2_A77148D52D516E55 a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4)
+		static ::System::Void AdjustTransform_5(::GEEOPFIMJEM a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::Struct_2_A77148D52D516E55, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_5_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::GEEOPFIMJEM, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_5_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AdjustTransform_6(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3& a4, ::UnityEngine::Vector3& a5)
+		static ::System::Void AdjustTransform_6(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_6_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_6_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void AdjustTransform_7(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3& a4, ::UnityEngine::Vector3& a5)
+		static ::System::Void AdjustTransform_7(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_7_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_7_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void AdjustTransformInWorldSpace(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3& a4, ::UnityEngine::Vector3& a5)
+		static ::System::Void AdjustTransformInWorldSpace(::UnityEngine::GameObject* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORMINWORLDSPACE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORMINWORLDSPACE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::String* GetSubStageDir(::System::String* a1, ::System::String* a2)
@@ -768,14 +874,14 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Void(*)(::UnityEngine::Renderer*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ENABLEKEYWORD_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetHeightBlend(::Class_1_D70A30D666F20D90* a1, ::Class_1_53BE720C46D20BF8* a2, ::UnityEngine::MaterialPropertyBlock* a3, ::UnityEngine::GameObject* a4)
+		static ::System::Void SetHeightBlend(::LJFHKAJPFNE* a1, ::LPBNBKGHOGA* a2, ::UnityEngine::MaterialPropertyBlock* a3, ::UnityEngine::GameObject* a4)
 		{
-			return ((::System::Void(*)(::Class_1_D70A30D666F20D90*, ::Class_1_53BE720C46D20BF8*, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETHEIGHTBLEND_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::LJFHKAJPFNE*, ::LPBNBKGHOGA*, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETHEIGHTBLEND_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ReplaceLodConfigLayer(::System::String* a1, ::System::String*& a2)
+		static ::System::Boolean ReplaceLodConfigLayer(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REPLACELODCONFIGLAYER_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REPLACELODCONFIGLAYER_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean get_TSCSPRoomCache()
@@ -788,14 +894,14 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCROOMCACHE_OFFSET))();
 		}
 
-		static ::System::Void SetTerrainTex(::Class_1_D70A30D666F20D90* a1, ::Class_1_53BE720C46D20BF8* a2, ::Struct_2_CC45B4503679E14E_5 a3, ::UnityEngine::GameObject* a4)
+		static ::System::Void SetTerrainTex(::LJFHKAJPFNE* a1, ::LPBNBKGHOGA* a2, ::OKLBEPJCBJG a3, ::UnityEngine::GameObject* a4)
 		{
-			return ((::System::Void(*)(::Class_1_D70A30D666F20D90*, ::Class_1_53BE720C46D20BF8*, ::Struct_2_CC45B4503679E14E_5, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::LJFHKAJPFNE*, ::LPBNBKGHOGA*, ::OKLBEPJCBJG, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetTerrainTex_1(::Class_1_D70A30D666F20D90* a1, ::Class_1_53BE720C46D20BF8* a2, ::Struct_2_A77148D52D516E55 a3, ::UnityEngine::GameObject* a4)
+		static ::System::Void SetTerrainTex_1(::LJFHKAJPFNE* a1, ::LPBNBKGHOGA* a2, ::GEEOPFIMJEM a3, ::UnityEngine::GameObject* a4)
 		{
-			return ((::System::Void(*)(::Class_1_D70A30D666F20D90*, ::Class_1_53BE720C46D20BF8*, ::Struct_2_A77148D52D516E55, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::LJFHKAJPFNE*, ::LPBNBKGHOGA*, ::GEEOPFIMJEM, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Int32 GetMinLODLevel(::RPG::GameCore::LodTemplate* a1, ::System::Int32 a2, ::RPG::GameCore::GraphicQuality a3)
@@ -808,9 +914,9 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Int32(*)(::System::Single, ::RPG::GameCore::LodTemplate*, ::System::Int32, ::RPG::GameCore::GraphicQuality))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETLODLEVELBYDISTANCE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AddTAMonoTickEntry(::Class_1_D70A30D666F20D90* a1, ::UnityEngine::GameObject* a2, ::Class_0_16E4307DCC419505_1064* a3, ::System::Single a4)
+		static ::System::Void AddTAMonoTickEntry(::LJFHKAJPFNE* a1, ::UnityEngine::GameObject* a2, ::ENLBPLPOGMF* a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::Class_1_D70A30D666F20D90*, ::UnityEngine::GameObject*, ::Class_0_16E4307DCC419505_1064*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADDTAMONOTICKENTRY_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::LJFHKAJPFNE*, ::UnityEngine::GameObject*, ::ENLBPLPOGMF*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADDTAMONOTICKENTRY_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void RemoveTAMonoTickEntry(::UnityEngine::GameObject* a1)
@@ -833,14 +939,14 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Boolean(*)(::UnityEngine::GameObject*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISCOLLIDERGO_OFFSET))(a1, a2);
 		}
 
-		static ::Class_1_76597B0FC8DCAD88* SetBlockGrass(::UnityEngine::GameObject* a1, ::UnityEngine::RPGPointCloudGrassBlockData* a2, ::RPG::GameCore::LodConfig* a3, ::RPG::GameCore::StageLodMapConfig* a4)
+		static ::DBMBGHNGDCG* SetBlockGrass(::UnityEngine::GameObject* a1, ::UnityEngine::RPGPointCloudGrassBlockData* a2, ::RPG::GameCore::LodConfig* a3, ::RPG::GameCore::StageLodMapConfig* a4)
 		{
-			return ((::Class_1_76597B0FC8DCAD88*(*)(::UnityEngine::GameObject*, ::UnityEngine::RPGPointCloudGrassBlockData*, ::RPG::GameCore::LodConfig*, ::RPG::GameCore::StageLodMapConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_OFFSET))(a1, a2, a3, a4);
+			return ((::DBMBGHNGDCG*(*)(::UnityEngine::GameObject*, ::UnityEngine::RPGPointCloudGrassBlockData*, ::RPG::GameCore::LodConfig*, ::RPG::GameCore::StageLodMapConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Class_1_76597B0FC8DCAD88* SetBlockGrass_1(::UnityEngine::GameObject* a1, ::UnityEngine::RPGDensityMapGrassBlockData* a2, ::RPG::GameCore::LodConfig* a3, ::RPG::GameCore::StageLodMapConfig* a4)
+		static ::DBMBGHNGDCG* SetBlockGrass_1(::UnityEngine::GameObject* a1, ::UnityEngine::RPGDensityMapGrassBlockData* a2, ::RPG::GameCore::LodConfig* a3, ::RPG::GameCore::StageLodMapConfig* a4)
 		{
-			return ((::Class_1_76597B0FC8DCAD88*(*)(::UnityEngine::GameObject*, ::UnityEngine::RPGDensityMapGrassBlockData*, ::RPG::GameCore::LodConfig*, ::RPG::GameCore::StageLodMapConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_1_OFFSET))(a1, a2, a3, a4);
+			return ((::DBMBGHNGDCG*(*)(::UnityEngine::GameObject*, ::UnityEngine::RPGDensityMapGrassBlockData*, ::RPG::GameCore::LodConfig*, ::RPG::GameCore::StageLodMapConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void SetStreamingGrassFastMode(::System::Boolean a1)
@@ -883,14 +989,14 @@ namespace RPG::Client::OpenWorld
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SHRINKOPENWORLDIRIBYTEARRAYCACHE_OFFSET))();
 		}
 
-		static ::Struct_2_CC45B4503679E14E GetIRIBuildingRendererListWithConfigDataPool(::System::String* a1, ::System::Action_2<::Struct_2_CC45B4503679E14E, ::System::Object*>* a2, ::System::Object* a3)
+		static ::IAJPMNLEFLJ GetIRIBuildingRendererListWithConfigDataPool(::System::String* a1, ::System::Action* a2, ::System::Object* a3)
 		{
-			return ((::Struct_2_CC45B4503679E14E(*)(::System::String*, ::System::Action_2<::Struct_2_CC45B4503679E14E, ::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET))(a1, a2, a3);
+			return ((::IAJPMNLEFLJ(*)(::System::String*, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::Struct_2_CC45B4503679E14E GetIRIBuildingRendererListWithTextAsset(::UnityEngine::TextAsset* a1)
+		static ::IAJPMNLEFLJ GetIRIBuildingRendererListWithTextAsset(::UnityEngine::TextAsset* a1)
 		{
-			return ((::Struct_2_CC45B4503679E14E(*)(::UnityEngine::TextAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHTEXTASSET_OFFSET))(a1);
+			return ((::IAJPMNLEFLJ(*)(::UnityEngine::TextAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHTEXTASSET_OFFSET))(a1);
 		}
 
 		static ::System::Boolean get_StreamingEnable()
@@ -967,5 +1073,6 @@ namespace RPG::Client::OpenWorld
 		{
 			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET))(a1);
 		}
+
 	};
 }

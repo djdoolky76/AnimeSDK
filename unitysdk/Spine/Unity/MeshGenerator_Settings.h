@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define SPINE_UNITY_MESHGENERATOR_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1E63F7E0)
+#define SPINE_UNITY_MESHGENERATOR_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1ED07960)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshGenerator_Settings_TypeDefinitionIndex = 43890;
-
 	struct alignas(4) MeshGenerator_Settings
 	{
 		::System::Boolean useClipping; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single zSpacing; // 0x14
 		::System::Boolean pmaVertexColors; // 0x18
 		::System::Boolean tintBlack; // 0x19
@@ -18,10 +16,12 @@ namespace Spine::Unity
 		::System::Boolean calculateTangents; // 0x1B
 		::System::Boolean addNormals; // 0x1C
 		::System::Boolean immutableTriangles; // 0x1D
-
+		/*
 		static ::Spine::Unity::MeshGenerator_Settings get_Default()
 		{
 			return ((::Spine::Unity::MeshGenerator_Settings(*)())((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATOR_SETTINGS_GET_DEFAULT_OFFSET))();
 		}
+		*/
+
 	};
 }

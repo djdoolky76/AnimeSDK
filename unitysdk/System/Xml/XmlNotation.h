@@ -2,35 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/XmlNode.h"
 #include "unitysdk/System/Xml/XmlNodeType.h"
-
 namespace System { class String; }
 namespace System::Xml { class XmlDocument; }
+namespace System::Xml { class XmlNode; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLNOTATION_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1E8B8820)
-#define SYSTEM_XML_XMLNOTATION_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1E8B8880)
-#define SYSTEM_XML_XMLNOTATION_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1E8B8800)
-#define SYSTEM_XML_XMLNOTATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E8B87F0)
-#define SYSTEM_XML_XMLNOTATION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E8B8810)
-#define SYSTEM_XML_XMLNOTATION_SET_INNERXML_OFFSET UNITYSDK_OFFSET(0x1E8B8890)
-#define SYSTEM_XML_XMLNOTATION_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1E8B8900)
-#define SYSTEM_XML_XMLNOTATION_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B88F0)
-#define SYSTEM_XML_XMLNOTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AE830)
+#define SYSTEM_XML_XMLNOTATION_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1EF81270)
+#define SYSTEM_XML_XMLNOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF77230)
+#define SYSTEM_XML_XMLNOTATION_GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1EF812D0)
+#define SYSTEM_XML_XMLNOTATION_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1EF81250)
+#define SYSTEM_XML_XMLNOTATION_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EF81240)
+#define SYSTEM_XML_XMLNOTATION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EF81260)
+#define SYSTEM_XML_XMLNOTATION_SET_INNERXML_OFFSET UNITYSDK_OFFSET(0x1EF812E0)
+#define SYSTEM_XML_XMLNOTATION_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1EF81350)
+#define SYSTEM_XML_XMLNOTATION_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EF81340)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlNotation_TypeDefinitionIndex = 1918;
-
 	class XmlNotation : public ::System::Xml::XmlNode
 	{
 	public:
-		::System::String* name; // 0x18
-		::System::String* publicId; // 0x20
+		::System::String* publicId; // 0x18
+		::System::String* name; // 0x20
 		::System::String* systemId; // 0x28
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Xml::XmlDocument* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNOTATION__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNOTATION_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* get_Name()
@@ -72,5 +69,6 @@ namespace System::Xml
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLNOTATION_WRITECONTENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

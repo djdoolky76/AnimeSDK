@@ -2,42 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB92C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB9380)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB9290)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB9220)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F681830)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1F681790)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6818F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F681800)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__GetOverlayName_TypeDefinitionIndex = 37768;
-
 	class IVROverlay__GetOverlayName : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::UInt32 Invoke(::System::UInt64 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError& a4)
+		::System::UInt32 Invoke(::System::UInt64 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError a4)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::UInt64, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_INVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt64, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_INVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError& a4, ::System::AsyncCallback* a5, ::System::Object* a6)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError a4, ::System::AsyncCallback* a5, ::System::Object* a6)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::System::Text::StringBuilder*, ::System::UInt32, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::UInt32 EndInvoke(::ZenFulcrum::VR::OpenVRBinding::EVROverlayError& a1, ::System::IAsyncResult* a2)
+		::System::UInt32 EndInvoke(::ZenFulcrum::VR::OpenVRBinding::EVROverlayError a1, ::System::IAsyncResult* a2)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_ENDINVOKE_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::EVROverlayError, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__GETOVERLAYNAME_ENDINVOKE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

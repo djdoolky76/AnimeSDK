@@ -2,41 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SwitchCaseByDynamicValue; }
 namespace RPG::GameCore { class SwitchCaseTaskList; }
+namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_METHOD_3_8FC90175993C3AA1_OFFSET UNITYSDK_OFFSET(0x1D5893A0)
-#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_METHOD_3_A87107A0FA55E078_OFFSET UNITYSDK_OFFSET(0x1D589350)
-#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D589390)
+#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB40170)
+#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB40180)
+#define RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB40130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCaseByDynamicValue_TypeDefinitionIndex = 23498;
-
 	class SwitchCaseByDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* Switch; // 0x18
 		::RPG::GameCore::CompareType CompareType; // 0x20
 		::System::Boolean WithBreak; // 0x24
+		::System::Byte _padding0[0x3];
 		::Il2CppArray<::RPG::GameCore::SwitchCaseTaskList*>* CaseTaskList; // 0x28
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DefaultTaskList; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A87107A0FA55E078(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCaseByDynamicValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchCaseByDynamicValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCaseByDynamicValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_METHOD_3_A87107A0FA55E078_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchCaseByDynamicValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8FC90175993C3AA1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCaseByDynamicValue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchCaseByDynamicValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCaseByDynamicValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_METHOD_3_8FC90175993C3AA1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchCaseByDynamicValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCASEBYDYNAMICVALUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,88 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DPBMNEMLMBI;
+class GJNEHIMBFMC;
+class LFKNBJPPOGC;
+class PMEMIDKDAFG;
+class POLMJOOOBNK;
+namespace System { class Action; }
+namespace System { class Object; }
+
+#define KMOKCHFNKAH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB56BE80)
+#define KMOKCHFNKAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB56BEC0)
+#define KMOKCHFNKAH___C__ACTIVEEIDOLON_B__16_0_OFFSET UNITYSDK_OFFSET(0xB56C340)
+#define KMOKCHFNKAH___C__LEVELUPAVATAR_B__7_0_OFFSET UNITYSDK_OFFSET(0xB56BED0)
+#define KMOKCHFNKAH___C__PROMOTEAVATAR_B__10_0_OFFSET UNITYSDK_OFFSET(0xB56C0C0)
+#define KMOKCHFNKAH___C__QUICKGROWAVATAR_B__11_0_OFFSET UNITYSDK_OFFSET(0xB56C0D0)
+#define KMOKCHFNKAH___C__UNLOCKTRACENODE_B__15_0_OFFSET UNITYSDK_OFFSET(0xB56C2C0)
+
+	class KMOKCHFNKAH___c : public ::System::Object
+	{
+	public:
+		static ::System::Action** StaticGet___9__7_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60890);
+		}
+
+		static ::System::Action** StaticGet___9__15_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60898);
+		}
+
+		static ::System::Action** StaticGet___9__16_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608A0);
+		}
+
+		static ::System::Action** StaticGet___9__11_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608A8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608B0);
+		}
+
+		static ::System::Action** StaticGet___9__10_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608B8);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _LevelUpAvatar_b__7_0(::DPBMNEMLMBI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DPBMNEMLMBI*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C__LEVELUPAVATAR_B__7_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _PromoteAvatar_b__10_0(::LFKNBJPPOGC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LFKNBJPPOGC*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C__PROMOTEAVATAR_B__10_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _QuickGrowAvatar_b__11_0(::PMEMIDKDAFG* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PMEMIDKDAFG*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C__QUICKGROWAVATAR_B__11_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _UnlockTraceNode_b__15_0(::POLMJOOOBNK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::POLMJOOOBNK*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C__UNLOCKTRACENODE_B__15_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _ActiveEidolon_b__16_0(::GJNEHIMBFMC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GJNEHIMBFMC*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C__ACTIVEEIDOLON_B__16_0_OFFSET))(this, a1);
+		}
+
+	};

@@ -3,18 +3,14 @@
 #include "unitysdk/RPG/GameCore/LittleGameType.h"
 #include "unitysdk/RPG/GameCore/LogicOperationType.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_EVALUATEOPERATION_OFFSET UNITYSDK_OFFSET(0x1C2A7D30)
-#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_1_OFFSET UNITYSDK_OFFSET(0x1C2A7C80)
-#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_OFFSET UNITYSDK_OFFSET(0x1C2A7B90)
+#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_EVALUATEOPERATION_OFFSET UNITYSDK_OFFSET(0x1C7F7DA0)
+#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_1_OFFSET UNITYSDK_OFFSET(0x1C7F7CF0)
+#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_GETGAMECONFIGPATH_OFFSET UNITYSDK_OFFSET(0x1C7F7C00)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int LittleGameShareUtils_TypeDefinitionIndex = 36372;
-
 	class LittleGameShareUtils : public ::System::Object
 	{
 	public:
@@ -32,5 +28,6 @@ namespace RPG::Client::LittleGameShare
 		{
 			return ((::System::Boolean(*)(::System::Boolean, ::System::Boolean, ::RPG::GameCore::LogicOperationType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMESHAREUTILS_EVALUATEOPERATION_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

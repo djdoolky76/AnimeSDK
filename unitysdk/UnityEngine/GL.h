@@ -4,18 +4,16 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define UNITYENGINE_GL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ED26BC0)
-#define UNITYENGINE_GL_GETGPUPROJECTIONMATRIX_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED26B00)
-#define UNITYENGINE_GL_GETGPUPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1ED26AA0)
-#define UNITYENGINE_GL_GLCLEAR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED26BB0)
-#define UNITYENGINE_GL_GLCLEAR_OFFSET UNITYSDK_OFFSET(0x1ED26BA0)
-#define UNITYENGINE_GL_GLISSUEPLUGINEVENT_OFFSET UNITYSDK_OFFSET(0x1ED26B10)
-#define UNITYENGINE_GL_ISSUEPLUGINEVENT_OFFSET UNITYSDK_OFFSET(0x1ED26B20)
+#define UNITYENGINE_GL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F3EE750)
+#define UNITYENGINE_GL_GETGPUPROJECTIONMATRIX_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3EE690)
+#define UNITYENGINE_GL_GETGPUPROJECTIONMATRIX_OFFSET UNITYSDK_OFFSET(0x1F3EE630)
+#define UNITYENGINE_GL_GLCLEAR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3EE740)
+#define UNITYENGINE_GL_GLCLEAR_OFFSET UNITYSDK_OFFSET(0x1F3EE730)
+#define UNITYENGINE_GL_GLISSUEPLUGINEVENT_OFFSET UNITYSDK_OFFSET(0x1F3EE6A0)
+#define UNITYENGINE_GL_ISSUEPLUGINEVENT_OFFSET UNITYSDK_OFFSET(0x1F3EE6B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GL_TypeDefinitionIndex = 4122;
-
 	class GL : public ::System::Object
 	{
 	public:
@@ -44,14 +42,15 @@ namespace UnityEngine
 			return ((::System::Void(*)(::System::Boolean, ::System::Boolean, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_GL_CLEAR_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void GetGPUProjectionMatrix_Injected(::UnityEngine::Matrix4x4& a1, ::System::Boolean a2, ::UnityEngine::Matrix4x4& a3)
+		static ::System::Void GetGPUProjectionMatrix_Injected(::UnityEngine::Matrix4x4 a1, ::System::Boolean a2, ::UnityEngine::Matrix4x4 a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::System::Boolean, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_GL_GETGPUPROJECTIONMATRIX_INJECTED_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4, ::System::Boolean, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_GL_GETGPUPROJECTIONMATRIX_INJECTED_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void GLClear_Injected(::System::Boolean a1, ::System::Boolean a2, ::UnityEngine::Color& a3, ::System::Single a4)
+		static ::System::Void GLClear_Injected(::System::Boolean a1, ::System::Boolean a2, ::UnityEngine::Color a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::Boolean, ::UnityEngine::Color&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GL_GLCLEAR_INJECTED_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::Boolean, ::System::Boolean, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_GL_GLCLEAR_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x1E671150)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x1E6711F0)
-#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6712E0)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET UNITYSDK_OFFSET(0x1ED390B0)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED39240)
+#define SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET UNITYSDK_OFFSET(0x1ED39150)
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int InternalOptionsRegistry_TypeDefinitionIndex = 37409;
-
 	class InternalOptionsRegistry : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Object*>* _handler; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* _registeredContainers; // 0x18
-
+		::System::Collections::Generic::List_1<::System::Object*>* _registeredContainers; // 0x10
+		::System::Action* _handler; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void AddOptionContainer(::System::Object* a1)
@@ -29,9 +26,10 @@ namespace SRDebugger::Internal
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_ADDOPTIONCONTAINER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetHandler(::System::Action_1<::System::Object*>* a1)
+		::System::Void SetHandler(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + SRDEBUGGER_INTERNAL_INTERNALOPTIONSREGISTRY_SETHANDLER_OFFSET))(this, a1);
 		}
+
 	};
 }

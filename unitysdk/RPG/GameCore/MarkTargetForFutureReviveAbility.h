@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MarkTargetForFutureReviveAbility; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_METHOD_3_7973221F4DB92A3F_OFFSET UNITYSDK_OFFSET(0x1D23EFF0)
-#define RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_METHOD_3_B1EE42A8BC4B9824_OFFSET UNITYSDK_OFFSET(0x1D23EFB0)
-#define RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D23EFE0)
+#define RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D849A90)
+#define RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D849AA0)
+#define RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D849A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarkTargetForFutureReviveAbility_TypeDefinitionIndex = 23443;
-
 	class MarkTargetForFutureReviveAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B1EE42A8BC4B9824(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarkTargetForFutureReviveAbility*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarkTargetForFutureReviveAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarkTargetForFutureReviveAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_METHOD_3_B1EE42A8BC4B9824_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarkTargetForFutureReviveAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7973221F4DB92A3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarkTargetForFutureReviveAbility* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarkTargetForFutureReviveAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarkTargetForFutureReviveAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_METHOD_3_7973221F4DB92A3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarkTargetForFutureReviveAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARKTARGETFORFUTUREREVIVEABILITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

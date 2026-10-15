@@ -3,8 +3,6 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskStatus_TypeDefinitionIndex = 42584;
-
 	enum class UniTaskStatus : ::System::Int32
 	{
 		Pending = 0,

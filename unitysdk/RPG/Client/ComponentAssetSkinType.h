@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentAssetSkinType_TypeDefinitionIndex = 68368;
-
 	enum class ComponentAssetSkinType : ::System::Int32
 	{
 		Character = 0,

@@ -4,7 +4,6 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
@@ -12,20 +11,18 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDDD980)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_04F02FC65FAA2E0C_OFFSET UNITYSDK_OFFSET(0xCDDDA70)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0xCDDE3B0)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0xCDDD9E0)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDDD8F0)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDDD860)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONINVISIBLE_OFFSET UNITYSDK_OFFSET(0xCDDD820)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0xCDDD7E0)
-#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION__CTOR_OFFSET UNITYSDK_OFFSET(0xCDDE650)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0xCD2ED50)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_FHPLHKAFCOE_OFFSET UNITYSDK_OFFSET(0xCD2E220)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_JEDCEEHIBMC_OFFSET UNITYSDK_OFFSET(0xCD2E190)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_KLMLOPLHAIP_OFFSET UNITYSDK_OFFSET(0xCD2EAB0)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_LATETICK_OFFSET UNITYSDK_OFFSET(0xCD2E130)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD2E0A0)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD2E010)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONINVISIBLE_OFFSET UNITYSDK_OFFSET(0xCD2DFD0)
+#define RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_ONVISIBLE_OFFSET UNITYSDK_OFFSET(0xCD2DF90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_GPUGlowstickAnimation_TypeDefinitionIndex = 70446;
-
 	class Effect_GPUGlowstickAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -45,18 +42,19 @@ namespace RPG::Client
 		::UnityEngine::AnimationCurve* HeightDistribution; // 0x70
 		::System::Boolean DBAHJNANIOG; // 0x78
 		::System::Boolean OEMHEMIBLMD; // 0x79
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Matrix4x4 ALJKADCBJPD; // 0x7C
 		::UnityEngine::Matrix4x4 ODJKHDABIIJ; // 0xBC
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* NBCPJLJKEHD; // 0x100
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* DEOMNJNDJLP; // 0x108
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* JOGHPPKKBMD; // 0x110
 		::System::Collections::Generic::List_1<::System::Single>* HLBEGNDPKMN; // 0x118
 		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x120
 		::UnityEngine::Mesh* FHFGJNPCACB; // 0x128
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnVisible()
@@ -84,19 +82,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_LATETICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_C1E0405EEC95DC65()
+		::System::Void JEDCEEHIBMC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_C1E0405EEC95DC65_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_JEDCEEHIBMC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B29205EE7F7B640C()
+		::System::Void KLMLOPLHAIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_B29205EE7F7B640C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_KLMLOPLHAIP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_04F02FC65FAA2E0C()
+		::System::Void FHPLHKAFCOE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_METHOD_5_04F02FC65FAA2E0C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_GPUGLOWSTICKANIMATION_FHPLHKAFCOE_OFFSET))(this);
 		}
+
 	};
 }

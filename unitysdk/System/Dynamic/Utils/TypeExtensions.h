@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TypeCode.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Dynamic::Utils { template <typename T1, typename T2> class CacheDict_2; }
@@ -10,27 +9,25 @@ namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETANYSTATICMETHODVALIDATED_OFFSET UNITYSDK_OFFSET(0x1E6C8800)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETPARAMETERSCACHED_OFFSET UNITYSDK_OFFSET(0x1E6C77A0)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x1E6C89E0)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_MATCHESARGUMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1E6C8870)
-#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C8D60)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED90CD0)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETANYSTATICMETHODVALIDATED_OFFSET UNITYSDK_OFFSET(0x1ED90710)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETPARAMETERSCACHED_OFFSET UNITYSDK_OFFSET(0x1ED8F680)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETTYPECODE_OFFSET UNITYSDK_OFFSET(0x1ED90950)
+#define SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_MATCHESARGUMENTTYPES_OFFSET UNITYSDK_OFFSET(0x1ED907B0)
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 3689;
-
 	class TypeExtensions : public ::System::Object
 	{
 	public:
 		static ::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*>** StaticGet_s_paramInfoCache()
 		{
-			return (::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*>**)Il2CppClass::FromTypeDefinitionIndex(TypeExtensions_TypeDefinitionIndex)->GetStaticField(0x29EE0);
+			return (::System::Dynamic::Utils::CacheDict_2<::System::Reflection::MethodBase*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*>**)UnitySDK::FromName("System.Dynamic.Utils", "TypeExtensions")->GetStaticField(0x34CE0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Reflection::MethodInfo* GetAnyStaticMethodValidated(::System::Type* a1, ::System::String* a2, ::Il2CppArray<::System::Type*>* a3)
@@ -52,5 +49,6 @@ namespace System::Dynamic::Utils
 		{
 			return ((::Il2CppArray<::System::Reflection::ParameterInfo*>*(*)(::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_UTILS_TYPEEXTENSIONS_GETPARAMETERSCACHED_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,48 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MessagePack/MessagePackReader.h"
 #include "unitysdk/MessagePack/MessagePackWriter.h"
-#include "unitysdk/System/Object.h"
-
 namespace MessagePack { class MessagePackSerializerOptions; }
-namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
+namespace MessagePack::Formatters { class IMessagePackFormatter; }
 namespace System::Collections { class ICollection; }
 
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B679B30)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1B6793E0)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B679F70)
-#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6793D0)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB78AB0)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB77F10)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB78670)
+#define MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB77F20)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NonGenericInterfaceCollectionFormatter_TypeDefinitionIndex = 7347;
-
 	class NonGenericInterfaceCollectionFormatter : public ::System::Object
 	{
 	public:
-		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::ICollection*>** StaticGet_Instance()
+		static ::MessagePack::Formatters::IMessagePackFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::ICollection*>**)Il2CppClass::FromTypeDefinitionIndex(NonGenericInterfaceCollectionFormatter_TypeDefinitionIndex)->GetStaticField(0x2A390);
+			return (::MessagePack::Formatters::IMessagePackFormatter**)UnitySDK::FromName("MessagePack.Formatters", "NonGenericInterfaceCollectionFormatter")->GetStaticField(0x251D0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_CCTOR_OFFSET))();
 		}
 
-		::System::Void Serialize(::MessagePack::MessagePackWriter& a1, ::System::Collections::ICollection* a2, ::MessagePack::MessagePackSerializerOptions* a3)
+		::System::Void Serialize(::MessagePack::MessagePackWriter a1, ::System::Collections::ICollection* a2, ::MessagePack::MessagePackSerializerOptions* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter&, ::System::Collections::ICollection*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackWriter, ::System::Collections::ICollection*, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_SERIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::ICollection* Deserialize(::MessagePack::MessagePackReader& a1, ::MessagePack::MessagePackSerializerOptions* a2)
+		::System::Collections::ICollection* Deserialize(::MessagePack::MessagePackReader a1, ::MessagePack::MessagePackSerializerOptions* a2)
 		{
-			return ((::System::Collections::ICollection*(*)(::PVOID, ::MessagePack::MessagePackReader&, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
+			return ((::System::Collections::ICollection*(*)(::PVOID, ::MessagePack::MessagePackReader, ::MessagePack::MessagePackSerializerOptions*))((::PBYTE)hIl2Cpp + MESSAGEPACK_FORMATTERS_NONGENERICINTERFACECOLLECTIONFORMATTER_DESERIALIZE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

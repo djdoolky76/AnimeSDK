@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE82DC10)
-#define RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE82DDE0)
-#define RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE82DDF0)
+#define RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8CBA10)
+#define RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CBBD0)
+#define RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8CBBC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterSetSkirtIKClip_TypeDefinitionIndex = 48444;
-
 	class CharacterSetSkirtIKClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
@@ -24,18 +21,19 @@ namespace RPGTools::Timeline
 		::System::String* CharacterUniqueName; // 0x28
 		::System::Boolean EnableHair; // 0x30
 		::System::Boolean EnableSkirt; // 0x31
+		::System::Byte _padding0[0x2];
 		::System::Single HairOffset_X; // 0x34
 		::System::Single HairOffset_Y; // 0x38
 		::System::Single Hair_Duration; // 0x3C
 		::System::String* Hair_CurveName; // 0x40
 		::System::Single HairErrTolerRate; // 0x48
 		::System::Boolean DisableHairRestrict; // 0x4C
+		::System::Byte _padding1[0x3];
 		::System::Single HairMaxRestrict; // 0x50
 		::UnityEngine::Timeline::ClipCaps _clipCaps_k__BackingField; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -47,5 +45,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSETSKIRTIKCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

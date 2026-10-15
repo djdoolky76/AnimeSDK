@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_PerformanceAnalyticsUpdate_TypeDefinitionIndex = 4578;
-
-	struct alignas(1) EarlyUpdate_PerformanceAnalyticsUpdate
+	struct alignas(4) EarlyUpdate_PerformanceAnalyticsUpdate
 	{
 	};
 }

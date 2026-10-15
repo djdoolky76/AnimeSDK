@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Protobuf::Reflection { class EnumOptions; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6FB7E0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6FB820)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0x1B6FB830)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF9400)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF9440)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0x1BBF9450)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumOptions___c_TypeDefinitionIndex = 35129;
-
 	class EnumOptions___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Protobuf::Reflection::EnumOptions___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::EnumOptions___c**)Il2CppClass::FromTypeDefinitionIndex(EnumOptions___c_TypeDefinitionIndex)->GetStaticField(0x62460);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x4E010);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C_CTOR_OFFSET))(this);
 		}
 
 		::MiHoYo::SDK::Protobuf::Reflection::EnumOptions* __cctor_b__34_0()
 		{
 			return ((::MiHoYo::SDK::Protobuf::Reflection::EnumOptions*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMOPTIONS___C___CCTOR_B__34_0_OFFSET))(this);
 		}
+
 	};
 }

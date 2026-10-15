@@ -3,8 +3,6 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int AttachmentType_TypeDefinitionIndex = 38355;
-
 	enum class AttachmentType : ::System::Int32
 	{
 		Region = 0,

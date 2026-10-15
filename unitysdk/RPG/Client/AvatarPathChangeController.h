@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class AvatarPathChangeCameraController; }
 namespace RPG::GameCore { class AvatarPathChangeConfig; }
 namespace RPG::GameCore { class AvatarPathChangeToTargetConfig; }
 namespace RPG::GameCore { class FreeStyleComponent; }
-namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { class Action; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_ADDTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC839780)
-#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_CHECKFREESTYLEANIMFINISH_OFFSET UNITYSDK_OFFSET(0xC8397E0)
-#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_CLEARTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC839860)
-#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC8398B0)
-#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC839920)
+#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_ADDTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC707680)
+#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_CHECKFREESTYLEANIMFINISH_OFFSET UNITYSDK_OFFSET(0xC7076E0)
+#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_CLEARTICKCALLBACK_OFFSET UNITYSDK_OFFSET(0xC707760)
+#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC707820)
+#define RPG_CLIENT_AVATARPATHCHANGECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC7077B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeController_TypeDefinitionIndex = 71300;
-
 	class AvatarPathChangeController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -27,17 +24,16 @@ namespace RPG::Client
 		::System::Single StartAnimTime; // 0x24
 		::RPG::GameCore::AvatarPathChangeConfig* _AvatarPathChangeConfig; // 0x28
 		::RPG::GameCore::AvatarPathChangeToTargetConfig* _SwitchConfig; // 0x30
-		::System::Action_2<::XLua::LuaTable*, ::System::Single>* _TickCallback; // 0x38
+		::System::Action* _TickCallback; // 0x38
 		::XLua::LuaTable* _LuaSelf; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void AddTickCallback(::System::Action_2<::XLua::LuaTable*, ::System::Single>* a1, ::XLua::LuaTable* a2)
+		::System::Void AddTickCallback(::System::Action* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Single>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER_ADDTICKCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER_ADDTICKCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean CheckFreeStyleAnimFinish(::RPG::GameCore::FreeStyleComponent* a1)
@@ -54,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECONTROLLER_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

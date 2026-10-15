@@ -3,26 +3,23 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRCompositorError.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/TrackedDevicePose_t.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6E30)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6EC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6E00)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB6D80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67F3A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67F2F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67F430)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F67F370)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__WaitGetPoses_TypeDefinitionIndex = 37720;
-
 	class IVRCompositor__WaitGetPoses : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError Invoke(::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* a1, ::System::UInt32 a2, ::Il2CppArray<::ZenFulcrum::VR::OpenVRBinding::TrackedDevicePose_t>* a3, ::System::UInt32 a4)
@@ -39,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRCompositorError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__WAITGETPOSES_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
+namespace RPG::GameCore { class LevelRoundLeftCountChange; }
 
-#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE699CE0)
-#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE699C90)
-#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE699C30)
-#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE699D30)
+#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F5100)
+#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F50B0)
+#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F5060)
+#define RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE6F5000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRoundLeftCountChange_TypeDefinitionIndex = 56994;
-
-	class LevelRoundLeftCountChange : public ::Class_1_BF7A075734D15E98
+	class LevelRoundLeftCountChange : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::UInt32 OldRoundCntLeft; // 0x18
 		::System::UInt32 NewRoundCntLeft; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelRoundLeftCountChange* Init(::System::UInt32 a1, ::System::UInt32 a2)
@@ -37,5 +35,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROUNDLEFTCOUNTCHANGE_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

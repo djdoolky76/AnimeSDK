@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityValueGetterConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameAbilityPixAirExcelValueGetterConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_METHOD_3_6975B5BB7736B947_OFFSET UNITYSDK_OFFSET(0x1D1FB5A0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_METHOD_3_A78F92FEEC981253_OFFSET UNITYSDK_OFFSET(0x1D1FB6A0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FB690)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9B10)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D9B20)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D9A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityPixAirExcelValueGetterConfig_TypeDefinitionIndex = 21145;
-
 	class LittleGameAbilityPixAirExcelValueGetterConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:
 		::System::Int32 ParamIndex; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6975B5BB7736B947(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_METHOD_3_6975B5BB7736B947_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A78F92FEEC981253(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_METHOD_3_A78F92FEEC981253_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityPixAirExcelValueGetterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIREXCELVALUEGETTERCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,42 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCBBF650)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCBBF680)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___FILTERARRANGEMENTBYDEATH_B__55_0_OFFSET UNITYSDK_OFFSET(0xCBBF6A0)
-#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___SYNCARRANGEDCOMMON_B__50_0_OFFSET UNITYSDK_OFFSET(0xCBBF690)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB0EBC0)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB0EBF0)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___FILTERARRANGEMENTBYDEATH_B__55_0_OFFSET UNITYSDK_OFFSET(0xCB0EC10)
+#define RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___SYNCARRANGEDCOMMON_B__50_0_OFFSET UNITYSDK_OFFSET(0xCB0EC00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraArrangementInfo___c_TypeDefinitionIndex = 63466;
-
 	class ChimeraArrangementInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChimeraArrangementInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::ChimeraArrangementInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0x41160);
-		}
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__55_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0x41168);
-		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__50_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___c_TypeDefinitionIndex)->GetStaticField(0x41170);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE770);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__55_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE778);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE780);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAARRANGEMENTINFO___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAARRANGEMENTINFO___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __SyncArrangedCommon_b__50_0(::System::UInt32 a1)
@@ -48,5 +48,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAARRANGEMENTINFO___C___FILTERARRANGEMENTBYDEATH_B__55_0_OFFSET))(this, a1);
 		}
+
 	};
 }

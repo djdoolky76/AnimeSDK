@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
@@ -10,49 +10,51 @@ namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF0FA10)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0FA40)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETCHILDPRIVATEFIELDS_B__39_0_OFFSET UNITYSDK_OFFSET(0x1BF0FC30)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETDEFAULTCONSTRUCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x1BF0FA50)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETFIELDSANDPROPERTIES_B__29_0_OFFSET UNITYSDK_OFFSET(0x1BF0FB10)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETMEMBERINFOFROMTYPE_B__37_0_OFFSET UNITYSDK_OFFSET(0x1BF0FBA0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C41BDB0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41BDE0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETCHILDPRIVATEFIELDS_B__39_0_OFFSET UNITYSDK_OFFSET(0x1C41BFD0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETDEFAULTCONSTRUCTOR_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C41BDF0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETFIELDSANDPROPERTIES_B__29_0_OFFSET UNITYSDK_OFFSET(0x1C41BEB0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETMEMBERINFOFROMTYPE_B__37_0_OFFSET UNITYSDK_OFFSET(0x1C41BF40)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionUtils___c_TypeDefinitionIndex = 9622;
-
 	class ReflectionUtils___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x560);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x670);
 		}
+
 		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x568);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x678);
 		}
-		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__37_0()
-		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x570);
-		}
+
 		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x578);
+			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x680);
 		}
-		static ::Newtonsoft::Json::Utilities::ReflectionUtils___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Newtonsoft::Json::Utilities::ReflectionUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtils___c_TypeDefinitionIndex)->GetStaticField(0x580);
+			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x688);
+		}
+
+		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>** StaticGet___9__37_0()
+		{
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x690);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetDefaultConstructor_b__10_0(::System::Reflection::ConstructorInfo* a1)
@@ -74,5 +76,6 @@ namespace Newtonsoft::Json::Utilities
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONUTILS___C__GETCHILDPRIVATEFIELDS_B__39_0_OFFSET))(this, a1);
 		}
+
 	};
 }

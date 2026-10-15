@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEmoPlayableGraph_EyeState_TypeDefinitionIndex = 71124;
-
 	enum class MonoEmoPlayableGraph_EyeState : ::System::Int32
 	{
 		Unknown = 0,

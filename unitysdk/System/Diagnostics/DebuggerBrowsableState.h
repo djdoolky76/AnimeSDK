@@ -3,8 +3,6 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggerBrowsableState_TypeDefinitionIndex = 1578;
-
 	enum class DebuggerBrowsableState : ::System::Int32
 	{
 		Never = 0,

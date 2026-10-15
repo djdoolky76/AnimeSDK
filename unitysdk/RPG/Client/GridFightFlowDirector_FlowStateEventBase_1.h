@@ -4,15 +4,14 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_FlowStateEventBase_1_TypeDefinitionIndex = 64637;
-
 	template <typename T>
 	class GridFightFlowDirector_FlowStateEventBase_1 : public ::System::Object
 	{
 	public:
 		static T* StaticGet__Instance()
 		{
-			return (T*)Il2CppClass::FromTypeDefinitionIndex(GridFightFlowDirector_FlowStateEventBase_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (T*)UnitySDK::FromName("RPG.Client", "FlowStateEventBase`1")->GetStaticField(0x0);
 		}
+
 	};
 }

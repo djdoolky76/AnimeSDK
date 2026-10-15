@@ -2,29 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Linq/SaveOptions.h"
 #include "unitysdk/System/Xml/Linq/XObject.h"
-
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
-namespace System::Xml { class XmlWriter; }
+namespace System::Xml::Linq { class XNode; }
 
-#define SYSTEM_XML_LINQ_XNODE_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1E7C6D70)
-#define SYSTEM_XML_LINQ_XNODE_GETXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C68B0)
-#define SYSTEM_XML_LINQ_XNODE_REMOVE_OFFSET UNITYSDK_OFFSET(0x1E7C6710)
-#define SYSTEM_XML_LINQ_XNODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C6790)
-#define SYSTEM_XML_LINQ_XNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BBA10)
+#define SYSTEM_XML_LINQ_XNODE_APPENDTEXT_OFFSET UNITYSDK_OFFSET(0x1EE8FA90)
+#define SYSTEM_XML_LINQ_XNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE84730)
+#define SYSTEM_XML_LINQ_XNODE_GETXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1EE8F5D0)
+#define SYSTEM_XML_LINQ_XNODE_REMOVE_OFFSET UNITYSDK_OFFSET(0x1EE8F430)
+#define SYSTEM_XML_LINQ_XNODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE8F4B0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XNode_TypeDefinitionIndex = 3889;
-
 	class XNode : public ::System::Xml::Linq::XObject
 	{
 	public:
 		::System::Xml::Linq::XNode* next; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Remove()
@@ -46,5 +42,6 @@ namespace System::Xml::Linq
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Xml::Linq::SaveOptions))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XNODE_GETXMLSTRING_OFFSET))(this, a1);
 		}
+
 	};
 }

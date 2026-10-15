@@ -3,8 +3,6 @@
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int SerializationFormat_TypeDefinitionIndex = 2014;
-
 	enum class SerializationFormat : ::System::Int32
 	{
 		Encoded = 0,

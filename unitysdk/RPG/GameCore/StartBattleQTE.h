@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleQTEBaseConfig; }
+namespace RPG::GameCore { class StartBattleQTE; }
 
-#define RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_12A599AF9BEE099F_OFFSET UNITYSDK_OFFSET(0x1D5668D0)
-#define RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_4967394980B0C4C4_OFFSET UNITYSDK_OFFSET(0x1D566910)
-#define RPG_GAMECORE_STARTBATTLEQTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D566900)
+#define RPG_GAMECORE_STARTBATTLEQTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1C160)
+#define RPG_GAMECORE_STARTBATTLEQTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1C170)
+#define RPG_GAMECORE_STARTBATTLEQTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1C130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartBattleQTE_TypeDefinitionIndex = 23077;
-
 	class StartBattleQTE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::BattleQTEBaseConfig* QTEConfig; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_12A599AF9BEE099F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleQTE*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartBattleQTE* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleQTE*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_12A599AF9BEE099F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartBattleQTE*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4967394980B0C4C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartBattleQTE* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartBattleQTE* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartBattleQTE*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE_METHOD_3_4967394980B0C4C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartBattleQTE*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTBATTLEQTE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_METHOD_1_0B1EB5C9B94BAB66_OFFSET UNITYSDK_OFFSET(0xD86ECB0)
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD86EDF0)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD86F6B0)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_DPEPECGKHDK_OFFSET UNITYSDK_OFFSET(0xD86F570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItem_SlotExtInfo_TypeDefinitionIndex = 68842;
-
 	class MonoTrainPartyBuildItem_SlotExtInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* anchor; // 0x10
 		::System::UInt32 dynamicID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_0B1EB5C9B94BAB66()
+		::System::Boolean DPEPECGKHDK()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_METHOD_1_0B1EB5C9B94BAB66_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTRAINPARTYBUILDITEM_SLOTEXTINFO_DPEPECGKHDK_OFFSET))(this);
 		}
+
 	};
 }

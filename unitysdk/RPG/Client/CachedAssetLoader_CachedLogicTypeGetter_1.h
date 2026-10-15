@@ -5,15 +5,14 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CachedAssetLoader_CachedLogicTypeGetter_1_TypeDefinitionIndex = 59582;
-
-	template <typename TObject>
+	template <typename T>
 	class CachedAssetLoader_CachedLogicTypeGetter_1 : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::CachedAssetLogicType* StaticGet_Default()
 		{
-			return (::RPG::Client::CachedAssetLogicType*)Il2CppClass::FromTypeDefinitionIndex(CachedAssetLoader_CachedLogicTypeGetter_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::RPG::Client::CachedAssetLogicType*)UnitySDK::FromName("RPG.Client", "CachedLogicTypeGetter`1")->GetStaticField(0x0);
 		}
+
 	};
 }

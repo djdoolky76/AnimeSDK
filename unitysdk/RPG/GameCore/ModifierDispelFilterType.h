@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierDispelFilterType_TypeDefinitionIndex = 24402;
-
 	enum class ModifierDispelFilterType : ::System::Int32
 	{
 		OnlyDispel = 0,

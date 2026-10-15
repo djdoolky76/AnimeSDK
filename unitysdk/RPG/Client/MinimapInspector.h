@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_5878A2422EE7CDFB;
+class MADBGHENHAF;
 namespace RPG::GameCore { class LevelMinimapVolume; }
 
-#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0xD6C8630)
-#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0xD6C8640)
-#define RPG_CLIENT_MINIMAPINSPECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD6C8650)
+#define RPG_CLIENT_MINIMAPINSPECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C6400)
+#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0xD6C63E0)
+#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0xD6C63F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 68474;
-
 	class MinimapInspector : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean DrawGizmos; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::LevelMinimapVolume* Data; // 0x20
-		::Class_1_5878A2422EE7CDFB* _Handle_k__BackingField; // 0x28
-
+		::MADBGHENHAF* _Handle_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_5878A2422EE7CDFB* get_Handle()
+		::MADBGHENHAF* get_Handle()
 		{
-			return ((::Class_1_5878A2422EE7CDFB*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET))(this);
+			return ((::MADBGHENHAF*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET))(this);
 		}
 
-		::System::Void set_Handle(::Class_1_5878A2422EE7CDFB* a1)
+		::System::Void set_Handle(::MADBGHENHAF* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_5878A2422EE7CDFB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MADBGHENHAF*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET))(this, a1);
 		}
+
 	};
 }

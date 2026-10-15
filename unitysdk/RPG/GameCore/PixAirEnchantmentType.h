@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEnchantmentType_TypeDefinitionIndex = 10383;
-
 	enum class PixAirEnchantmentType : ::System::Int32
 	{
 		None = 0,

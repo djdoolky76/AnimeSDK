@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/TutorialPlatformType.h"
+#include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+class MDPJLLMJGEC;
+namespace System { class String; }
+
+#define MDPJLLMJGEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D14D120)
+#define MDPJLLMJGEC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D14CF10)
+
+	class MDPJLLMJGEC : public ::System::Object
+	{
+	public:
+		::System::String* FBKAMIHGLFK; // 0x10
+		::RPG::Client::TextID PJHMJKEIGOA; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x28
+		::RPG::GameCore::TutorialPlatformType FLEADHOPGGN; // 0x2C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDPJLLMJGEC_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::MDPJLLMJGEC* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::MDPJLLMJGEC*))((::PBYTE)hIl2Cpp + MDPJLLMJGEC_OJNNBEJLDIJ_OFFSET))(a1, a2);
+		}
+
+	};

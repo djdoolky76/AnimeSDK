@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChunkedStructList_1_TypeDefinitionIndex = 34536;
-
 	template <typename T>
 	class ChunkedStructList_1 : public ::System::Object
 	{

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoastinfoWaveMonoPlugin_TileMappingClipmapRings_TypeDefinitionIndex = 70897;
-
 	enum class CoastinfoWaveMonoPlugin_TileMappingClipmapRings : ::System::Int32
 	{
 		Rings1 = 1,

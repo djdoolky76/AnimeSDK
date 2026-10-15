@@ -2,54 +2,54 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_CARTOONTRANSFER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC9ECD00)
-#define RPG_CLIENT_CARTOONTRANSFER_PLAY_OFFSET UNITYSDK_OFFSET(0xC9ECCB0)
-#define RPG_CLIENT_CARTOONTRANSFER_SETCENTER_OFFSET UNITYSDK_OFFSET(0xC9ECA80)
-#define RPG_CLIENT_CARTOONTRANSFER_SETDURATION_OFFSET UNITYSDK_OFFSET(0xC9ECBB0)
-#define RPG_CLIENT_CARTOONTRANSFER_SETFINISHACTION_OFFSET UNITYSDK_OFFSET(0xC9ECC60)
-#define RPG_CLIENT_CARTOONTRANSFER_SETRADIUSCURVE_OFFSET UNITYSDK_OFFSET(0xC9ECC10)
-#define RPG_CLIENT_CARTOONTRANSFER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC9ECDE0)
-#define RPG_CLIENT_CARTOONTRANSFER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9ED080)
-#define RPG_CLIENT_CARTOONTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0xC9ECFE0)
-#define RPG_CLIENT_CARTOONTRANSFER__END_OFFSET UNITYSDK_OFFSET(0xC9ECEC0)
-#define RPG_CLIENT_CARTOONTRANSFER__SETCENTERTOSHADER_OFFSET UNITYSDK_OFFSET(0xC9ECAF0)
-#define RPG_CLIENT_CARTOONTRANSFER__SETRADIUSTOSHADER_OFFSET UNITYSDK_OFFSET(0xC9ECF20)
+#define RPG_CLIENT_CARTOONTRANSFER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC93B410)
+#define RPG_CLIENT_CARTOONTRANSFER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC93B760)
+#define RPG_CLIENT_CARTOONTRANSFER_CTOR_OFFSET UNITYSDK_OFFSET(0xC93B6C0)
+#define RPG_CLIENT_CARTOONTRANSFER_PLAY_OFFSET UNITYSDK_OFFSET(0xC93B3C0)
+#define RPG_CLIENT_CARTOONTRANSFER_SETCENTER_OFFSET UNITYSDK_OFFSET(0xC93B190)
+#define RPG_CLIENT_CARTOONTRANSFER_SETDURATION_OFFSET UNITYSDK_OFFSET(0xC93B2C0)
+#define RPG_CLIENT_CARTOONTRANSFER_SETFINISHACTION_OFFSET UNITYSDK_OFFSET(0xC93B370)
+#define RPG_CLIENT_CARTOONTRANSFER_SETRADIUSCURVE_OFFSET UNITYSDK_OFFSET(0xC93B320)
+#define RPG_CLIENT_CARTOONTRANSFER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC93B4C0)
+#define RPG_CLIENT_CARTOONTRANSFER__END_OFFSET UNITYSDK_OFFSET(0xC93B5A0)
+#define RPG_CLIENT_CARTOONTRANSFER__SETCENTERTOSHADER_OFFSET UNITYSDK_OFFSET(0xC93B200)
+#define RPG_CLIENT_CARTOONTRANSFER__SETRADIUSTOSHADER_OFFSET UNITYSDK_OFFSET(0xC93B600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CartoonTransfer_TypeDefinitionIndex = 72441;
-
 	class CartoonTransfer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet__Center()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CartoonTransfer_TypeDefinitionIndex)->GetStaticField(0x9BE0);
-		}
-		static ::System::Int32* StaticGet__Radius()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CartoonTransfer_TypeDefinitionIndex)->GetStaticField(0x9BE4);
-		}
 		::System::Action* _FinishAction; // 0x18
 		::System::Boolean _IsPlaying; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single _Elapsed; // 0x24
 		::System::Single _Duration; // 0x28
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Material* _Material; // 0x30
 		::UnityEngine::AnimationCurve* _Curve; // 0x38
+		static ::System::Int32* StaticGet__Center()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CartoonTransfer")->GetStaticField(0x14F90);
+		}
+
+		static ::System::Int32* StaticGet__Radius()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "CartoonTransfer")->GetStaticField(0x14F94);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CARTOONTRANSFER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CARTOONTRANSFER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CARTOONTRANSFER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CARTOONTRANSFER_CCTOR_OFFSET))();
 		}
 
 		::System::Void SetCenter(::UnityEngine::Vector2 a1)
@@ -101,5 +101,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_CARTOONTRANSFER__SETCENTERTOSHADER_OFFSET))(this, a1);
 		}
+
 	};
 }

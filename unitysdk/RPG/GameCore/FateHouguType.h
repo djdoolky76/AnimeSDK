@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateHouguType_TypeDefinitionIndex = 10373;
-
 	enum class FateHouguType : ::System::Int32
 	{
 		Fake = 1,

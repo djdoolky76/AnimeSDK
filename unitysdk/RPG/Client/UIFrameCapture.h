@@ -1,36 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class FrameCaptureManager; }
 namespace RPG::Client { class UIFrameCaptureParam; }
 namespace RPG::Client { class UIFramePostProcessParam; }
-namespace RPG::Client::Promises { template <typename T> class Promise_1; }
+namespace RPG::Client::Promises { class Promise; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0xE360FD0)
-#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xE360A80)
-#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREMANAGER_OFFSET UNITYSDK_OFFSET(0xE360CC0)
-#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xE3612C0)
-#define RPG_CLIENT_UIFRAMECAPTURE_GET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xE3612E0)
-#define RPG_CLIENT_UIFRAMECAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0xE354E00)
-#define RPG_CLIENT_UIFRAMECAPTURE_SET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xE3612D0)
-#define RPG_CLIENT_UIFRAMECAPTURE_SET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xE3612F0)
-#define RPG_CLIENT_UIFRAMECAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0xE34BF50)
+#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0xE3A3050)
+#define RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xE3A2A70)
+#define RPG_CLIENT_UIFRAMECAPTURE_CTOR_OFFSET UNITYSDK_OFFSET(0xE3A3300)
+#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREMANAGER_OFFSET UNITYSDK_OFFSET(0xE3A2CB0)
+#define RPG_CLIENT_UIFRAMECAPTURE_GET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xE3A32C0)
+#define RPG_CLIENT_UIFRAMECAPTURE_GET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xE3A32E0)
+#define RPG_CLIENT_UIFRAMECAPTURE_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0xE3A2F20)
+#define RPG_CLIENT_UIFRAMECAPTURE_SET_CAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0xE3A32D0)
+#define RPG_CLIENT_UIFRAMECAPTURE_SET_POSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xE3A32F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFrameCapture_TypeDefinitionIndex = 72976;
-
 	class UIFrameCapture : public ::System::Object
 	{
 	public:
-		::RPG::Client::UIFramePostProcessParam* _PostProcessParam_k__BackingField; // 0x10
-		::RPG::Client::UIFrameCaptureParam* _CaptureParam_k__BackingField; // 0x18
-
+		::RPG::Client::UIFrameCaptureParam* _CaptureParam_k__BackingField; // 0x10
+		::RPG::Client::UIFramePostProcessParam* _PostProcessParam_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Texture* CaptureFrame(::RPG::Client::UIFrameCaptureParam* a1)
@@ -38,9 +34,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Texture*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAME_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>* CaptureFrameWithPostProcess(::RPG::Client::UIFrameCaptureParam* a1, ::RPG::Client::UIFramePostProcessParam* a2)
+		::RPG::Client::Promises::Promise* CaptureFrameWithPostProcess(::RPG::Client::UIFrameCaptureParam* a1, ::RPG::Client::UIFramePostProcessParam* a2)
 		{
-			return ((::RPG::Client::Promises::Promise_1<::UnityEngine::Texture*>*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::RPG::Client::UIFrameCaptureParam*, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_CAPTUREFRAMEWITHPOSTPROCESS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ReleaseCapture()
@@ -72,5 +68,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMECAPTURE_SET_POSTPROCESSPARAM_OFFSET))(this, a1);
 		}
+
 	};
 }

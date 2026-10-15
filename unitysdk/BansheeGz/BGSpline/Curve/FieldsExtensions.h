@@ -3,12 +3,10 @@
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurveBaseMath_Fields.h"
 #include "unitysdk/System/Object.h"
 
-#define BANSHEEGZ_BGSPLINE_CURVE_FIELDSEXTENSIONS_VAL_OFFSET UNITYSDK_OFFSET(0x1C01C1A0)
+#define BANSHEEGZ_BGSPLINE_CURVE_FIELDSEXTENSIONS_VAL_OFFSET UNITYSDK_OFFSET(0x1C52A300)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int FieldsExtensions_TypeDefinitionIndex = 35317;
-
 	class FieldsExtensions : public ::System::Object
 	{
 	public:
@@ -16,5 +14,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::System::Int32(*)(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Fields))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_FIELDSEXTENSIONS_VAL_OFFSET))(a1);
 		}
+
 	};
 }

@@ -3,49 +3,48 @@
 #include "unitysdk/RPG/GameCore/EntityTypeMask.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/TeamTypeMask.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByHaveDyingEntity; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_7743318207EC27E6_OFFSET UNITYSDK_OFFSET(0x1CF26210)
-#define RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_B3D3175C9CCDA94F_OFFSET UNITYSDK_OFFSET(0x1CF26270)
-#define RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_BD2A907436997C3C_OFFSET UNITYSDK_OFFSET(0x1CF26480)
-#define RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_FC416085DCCB796A_OFFSET UNITYSDK_OFFSET(0x1CF26440)
-#define RPG_GAMECORE_BYHAVEDYINGENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF26250)
+#define RPG_GAMECORE_BYHAVEDYINGENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4FEB20)
+#define RPG_GAMECORE_BYHAVEDYINGENTITY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4FED50)
+#define RPG_GAMECORE_BYHAVEDYINGENTITY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4FED10)
+#define RPG_GAMECORE_BYHAVEDYINGENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4FEB40)
+#define RPG_GAMECORE_BYHAVEDYINGENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4FEAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHaveDyingEntity_TypeDefinitionIndex = 22807;
-
 	class ByHaveDyingEntity : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TeamTypeMask TeamTypeMask; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::EntityTypeMask EntityTypeMask; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7743318207EC27E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveDyingEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHaveDyingEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveDyingEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_7743318207EC27E6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHaveDyingEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B3D3175C9CCDA94F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveDyingEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHaveDyingEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveDyingEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_B3D3175C9CCDA94F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHaveDyingEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FC416085DCCB796A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveDyingEntity*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveDyingEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveDyingEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_FC416085DCCB796A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveDyingEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BD2A907436997C3C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveDyingEntity* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveDyingEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveDyingEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_METHOD_4_BD2A907436997C3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveDyingEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEDYINGENTITY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

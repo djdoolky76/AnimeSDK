@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED883C0)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED883B0)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_ISMARKED_OFFSET UNITYSDK_OFFSET(0x1ED88440)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_MARKBIT_OFFSET UNITYSDK_OFFSET(0x1ED883D0)
+#define SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_TOINTARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1ED884B0)
+
+namespace System::Collections::Generic
+{
+	class BitHelper_76DB113F5ADB00E8 : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::System::Int32>* _array; // 0x10
+		::PVOID _arrayPtr; // 0x18
+		::System::Boolean _useStackAlloc; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Int32 _length; // 0x24
+		::System::Void _ctor(::PVOID a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _ctor_1(::Il2CppArray<::System::Int32>* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_CTOR_1_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void MarkBit(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_MARKBIT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsMarked(::System::Int32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_ISMARKED_OFFSET))(this, a1);
+		}
+
+		static ::System::Int32 ToIntArrayLength(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_BITHELPER_76DB113F5ADB00E8_TOINTARRAYLENGTH_OFFSET))(a1);
+		}
+
+	};
+}

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISourceRetargetType_TypeDefinitionIndex = 15367;
-
 	enum class AISourceRetargetType : ::System::Int32
 	{
 		TopActionDelay = 0,

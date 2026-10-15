@@ -3,18 +3,16 @@
 #include "unitysdk/RPG/GameCore/MonsterViewPhaseType.h"
 #include "unitysdk/RPG/GameCore/NumberSetMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetMonsterViewPhase; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_0B568452227DE65F_OFFSET UNITYSDK_OFFSET(0x1D5088E0)
-#define RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_1E701FAEFBCCA000_OFFSET UNITYSDK_OFFSET(0x1D508980)
-#define RPG_GAMECORE_SETMONSTERVIEWPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D508940)
+#define RPG_GAMECORE_SETMONSTERVIEWPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABCC10)
+#define RPG_GAMECORE_SETMONSTERVIEWPHASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABCC50)
+#define RPG_GAMECORE_SETMONSTERVIEWPHASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABCBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterViewPhase_TypeDefinitionIndex = 22476;
-
 	class SetMonsterViewPhase : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::MonsterViewPhaseType PhaseType; // 0x20
 		::RPG::GameCore::NumberSetMode SetMode; // 0x24
 		::System::UInt32 PhaseNum; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0B568452227DE65F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterViewPhase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetMonsterViewPhase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterViewPhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_0B568452227DE65F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetMonsterViewPhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1E701FAEFBCCA000(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterViewPhase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetMonsterViewPhase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterViewPhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE_METHOD_3_1E701FAEFBCCA000_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetMonsterViewPhase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERVIEWPHASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

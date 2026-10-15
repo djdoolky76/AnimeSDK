@@ -3,8 +3,6 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Slider_Direction_TypeDefinitionIndex = 6835;
-
 	enum class Slider_Direction : ::System::Int32
 	{
 		LeftToRight = 0,

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogicOperation_TypeDefinitionIndex = 10411;
-
 	enum class LogicOperation : ::System::Int32
 	{
 		None = 0,

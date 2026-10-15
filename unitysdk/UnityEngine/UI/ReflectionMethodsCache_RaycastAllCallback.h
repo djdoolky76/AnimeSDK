@@ -3,26 +3,23 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/RaycastHit.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EE71370)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EE71420)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EE71330)
-#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE712C0)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F5397A0)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5396F0)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F539850)
+#define UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F539760)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ReflectionMethodsCache_RaycastAllCallback_TypeDefinitionIndex = 6872;
-
 	class ReflectionMethodsCache_RaycastAllCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::UnityEngine::RaycastHit>* Invoke(::UnityEngine::Ray a1, ::System::Single a2, ::System::Int32 a3)
@@ -39,5 +36,6 @@ namespace UnityEngine::UI
 		{
 			return ((::Il2CppArray<::UnityEngine::RaycastHit>*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_REFLECTIONMETHODSCACHE_RAYCASTALLCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

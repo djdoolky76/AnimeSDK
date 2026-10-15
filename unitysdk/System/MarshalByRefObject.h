@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Runtime::Remoting { class ObjRef; }
 namespace System::Runtime::Remoting { class ServerIdentity; }
 
-#define SYSTEM_MARSHALBYREFOBJECT_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1BD6EE60)
-#define SYSTEM_MARSHALBYREFOBJECT_GET_OBJECTIDENTITY_OFFSET UNITYSDK_OFFSET(0x1BD6ED20)
-#define SYSTEM_MARSHALBYREFOBJECT_INITIALIZELIFETIMESERVICE_OFFSET UNITYSDK_OFFSET(0x1BD6EEB0)
-#define SYSTEM_MARSHALBYREFOBJECT_SET_OBJECTIDENTITY_OFFSET UNITYSDK_OFFSET(0x1BD6EE10)
-#define SYSTEM_MARSHALBYREFOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD53090)
+#define SYSTEM_MARSHALBYREFOBJECT_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1C27AC30)
+#define SYSTEM_MARSHALBYREFOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25EFC0)
+#define SYSTEM_MARSHALBYREFOBJECT_GET_OBJECTIDENTITY_OFFSET UNITYSDK_OFFSET(0x1C27AAF0)
+#define SYSTEM_MARSHALBYREFOBJECT_INITIALIZELIFETIMESERVICE_OFFSET UNITYSDK_OFFSET(0x1C27AC80)
+#define SYSTEM_MARSHALBYREFOBJECT_SET_OBJECTIDENTITY_OFFSET UNITYSDK_OFFSET(0x1C27ABE0)
 
 namespace System
 {
-	inline static constexpr unsigned int MarshalByRefObject_TypeDefinitionIndex = 404;
-
 	class MarshalByRefObject : public ::System::Object
 	{
 	public:
 		::System::Object* _identity; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MARSHALBYREFOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MARSHALBYREFOBJECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity()
@@ -45,5 +42,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MARSHALBYREFOBJECT_INITIALIZELIFETIMESERVICE_OFFSET))(this);
 		}
+
 	};
 }

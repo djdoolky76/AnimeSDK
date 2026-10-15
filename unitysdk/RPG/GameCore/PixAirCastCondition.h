@@ -2,33 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PixAirEventType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
+namespace RPG::GameCore { class PixAirCastCondition; }
 
-#define RPG_GAMECORE_PIXAIRCASTCONDITION_METHOD_2_BE7E5A314C5AC875_OFFSET UNITYSDK_OFFSET(0x1D3341F0)
-#define RPG_GAMECORE_PIXAIRCASTCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D334370)
+#define RPG_GAMECORE_PIXAIRCASTCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D919500)
+#define RPG_GAMECORE_PIXAIRCASTCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D919380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirCastCondition_TypeDefinitionIndex = 16076;
-
 	class PixAirCastCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::PixAirEventType Event; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig*>* Params; // 0x18
 		::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* EventCaster; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRCASTCONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRCASTCONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BE7E5A314C5AC875(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PixAirCastCondition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PixAirCastCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PixAirCastCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRCASTCONDITION_METHOD_2_BE7E5A314C5AC875_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PixAirCastCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRCASTCONDITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

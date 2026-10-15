@@ -2,21 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xD04FA70)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xD04FAD0)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xD04FBD0)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xD04FC20)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONSCROLL_OFFSET UNITYSDK_OFFSET(0xD04FC80)
-#define RPG_CLIENT_FIGHTFESTINPUTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xD04FD10)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xCFEF040)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xCFEEDA0)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONDRAG_OFFSET UNITYSDK_OFFSET(0xCFEEE00)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xCFEEF00)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xCFEEF50)
+#define RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONSCROLL_OFFSET UNITYSDK_OFFSET(0xCFEEFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightFestInputHandler_TypeDefinitionIndex = 64248;
-
 	class FightFestInputHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -30,10 +27,9 @@ namespace RPG::Client
 		::UnityEngine::Events::UnityEvent* OnScrollUp; // 0x48
 		::UnityEngine::Events::UnityEvent* OnScrollDown; // 0x50
 		::UnityEngine::Vector2 _BeginPos; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -60,5 +56,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTFESTINPUTHANDLER_ONSCROLL_OFFSET))(this, a1);
 		}
+
 	};
 }

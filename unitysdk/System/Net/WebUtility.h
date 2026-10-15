@@ -3,44 +3,44 @@
 #include "unitysdk/System/Net/Configuration/UnicodeDecodingConformance.h"
 #include "unitysdk/System/Net/Configuration/UnicodeEncodingConformance.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::IO { class TextWriter; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_NET_WEBUTILITY_GETNEXTUNICODESCALARVALUEFROMUTF16SURROGATE_OFFSET UNITYSDK_OFFSET(0x1E9DE730)
-#define SYSTEM_NET_WEBUTILITY_GET_HTMLENCODECONFORMANCE_OFFSET UNITYSDK_OFFSET(0x1E9DE660)
-#define SYSTEM_NET_WEBUTILITY_HEXTOINT_OFFSET UNITYSDK_OFFSET(0x1E9DEB40)
-#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_1_OFFSET UNITYSDK_OFFSET(0x1E9DDFF0)
-#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_OFFSET UNITYSDK_OFFSET(0x1E9DDDA0)
-#define SYSTEM_NET_WEBUTILITY_INDEXOFHTMLENCODINGCHARS_OFFSET UNITYSDK_OFFSET(0x1E9DDE90)
-#define SYSTEM_NET_WEBUTILITY_URLDECODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E9DE790)
-#define SYSTEM_NET_WEBUTILITY_URLDECODE_OFFSET UNITYSDK_OFFSET(0x1E9DEC80)
-#define SYSTEM_NET_WEBUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9DECF0)
+#define SYSTEM_NET_WEBUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0A6870)
+#define SYSTEM_NET_WEBUTILITY_GETNEXTUNICODESCALARVALUEFROMUTF16SURROGATE_OFFSET UNITYSDK_OFFSET(0x1F0A62B0)
+#define SYSTEM_NET_WEBUTILITY_GET_HTMLENCODECONFORMANCE_OFFSET UNITYSDK_OFFSET(0x1F0A61E0)
+#define SYSTEM_NET_WEBUTILITY_HEXTOINT_OFFSET UNITYSDK_OFFSET(0x1F0A66C0)
+#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F0A5B70)
+#define SYSTEM_NET_WEBUTILITY_HTMLENCODE_OFFSET UNITYSDK_OFFSET(0x1F0A5920)
+#define SYSTEM_NET_WEBUTILITY_INDEXOFHTMLENCODINGCHARS_OFFSET UNITYSDK_OFFSET(0x1F0A5A10)
+#define SYSTEM_NET_WEBUTILITY_URLDECODEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F0A6310)
+#define SYSTEM_NET_WEBUTILITY_URLDECODE_OFFSET UNITYSDK_OFFSET(0x1F0A6800)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebUtility_TypeDefinitionIndex = 2773;
-
 	class WebUtility : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet__htmlEntityEndingChars()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(WebUtility_TypeDefinitionIndex)->GetStaticField(0x21580);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0x2ED40);
 		}
+
 		static ::System::Net::Configuration::UnicodeEncodingConformance* StaticGet__htmlEncodeConformance()
 		{
-			return (::System::Net::Configuration::UnicodeEncodingConformance*)Il2CppClass::FromTypeDefinitionIndex(WebUtility_TypeDefinitionIndex)->GetStaticField(0xABB0);
+			return (::System::Net::Configuration::UnicodeEncodingConformance*)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0x9B60);
 		}
+
 		static ::System::Net::Configuration::UnicodeDecodingConformance* StaticGet__htmlDecodeConformance()
 		{
-			return (::System::Net::Configuration::UnicodeDecodingConformance*)Il2CppClass::FromTypeDefinitionIndex(WebUtility_TypeDefinitionIndex)->GetStaticField(0xABB4);
+			return (::System::Net::Configuration::UnicodeDecodingConformance*)UnitySDK::FromName("System.Net", "WebUtility")->GetStaticField(0x9B64);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* HtmlEncode(::System::String* a1)
@@ -73,14 +73,15 @@ namespace System::Net
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_URLDECODE_OFFSET))(a1);
 		}
 
-		static ::System::Int32 GetNextUnicodeScalarValueFromUtf16Surrogate(::System::Char*& a1, ::System::Int32& a2)
+		static ::System::Int32 GetNextUnicodeScalarValueFromUtf16Surrogate(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Int32(*)(::System::Char*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_GETNEXTUNICODESCALARVALUEFROMUTF16SURROGATE_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_GETNEXTUNICODESCALARVALUEFROMUTF16SURROGATE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 HexToInt(::System::Char a1)
 		{
 			return ((::System::Int32(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBUTILITY_HEXTOINT_OFFSET))(a1);
 		}
+
 	};
 }

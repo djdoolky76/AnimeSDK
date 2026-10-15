@@ -5,7 +5,6 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointComponent; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointGO; }
@@ -14,12 +13,10 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDSVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C00EDD0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDSVALUES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C51BF70)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurvePoint_FieldsValues_TypeDefinitionIndex = 35329;
-
 	class BGCurvePoint_FieldsValues : public ::System::Object
 	{
 	public:
@@ -37,10 +34,10 @@ namespace BansheeGz::BGSpline::Curve
 		::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurve*>* bgCurveValues; // 0x68
 		::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePointComponent*>* bgCurvePointComponentValues; // 0x70
 		::Il2CppArray<::BansheeGz::BGSpline::Curve::BGCurvePointGO*>* bgCurvePointGOValues; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDSVALUES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDSVALUES_CTOR_OFFSET))(this);
 		}
+
 	};
 }

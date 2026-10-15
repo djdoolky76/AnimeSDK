@@ -3,20 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ContactPoint2D.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class Collider2D; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Rigidbody2D; }
 
-#define UNITYENGINE_COLLISION2D_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1EDB68D0)
-#define UNITYENGINE_COLLISION2D_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1EDB69C0)
-#define UNITYENGINE_COLLISION2D_GET_RELATIVEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1EDB6B00)
-#define UNITYENGINE_COLLISION2D_GET_RIGIDBODY_OFFSET UNITYSDK_OFFSET(0x1EDB6960)
+#define UNITYENGINE_COLLISION2D_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x1F47F080)
+#define UNITYENGINE_COLLISION2D_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1F47F170)
+#define UNITYENGINE_COLLISION2D_GET_RELATIVEVELOCITY_OFFSET UNITYSDK_OFFSET(0x1F47F2B0)
+#define UNITYENGINE_COLLISION2D_GET_RIGIDBODY_OFFSET UNITYSDK_OFFSET(0x1F47F110)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Collision2D_TypeDefinitionIndex = 5801;
-
 	class Collision2D : public ::System::Object
 	{
 	public:
@@ -29,7 +26,6 @@ namespace UnityEngine
 		::System::Int32 m_ContactCount; // 0x2C
 		::Il2CppArray<::UnityEngine::ContactPoint2D>* m_ReusedContacts; // 0x30
 		::Il2CppArray<::UnityEngine::ContactPoint2D>* m_LegacyContacts; // 0x38
-
 		::UnityEngine::Collider2D* get_collider()
 		{
 			return ((::UnityEngine::Collider2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLISION2D_GET_COLLIDER_OFFSET))(this);
@@ -49,5 +45,6 @@ namespace UnityEngine
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLISION2D_GET_RELATIVEVELOCITY_OFFSET))(this);
 		}
+
 	};
 }

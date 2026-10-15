@@ -1,37 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/RuntimeEventHandle.h"
 #include "unitysdk/System/Reflection/MemberInfo.h"
 #include "unitysdk/System/Reflection/MemberTypes.h"
+#include "unitysdk/Mono/RuntimeEventHandle.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
+namespace System::Reflection { class EventInfo; }
 namespace System::Reflection { class EventInfo_AddEventAdapter; }
-namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_REFLECTION_EVENTINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BD960E0)
-#define SYSTEM_REFLECTION_EVENTINFO_GETEVENTFROMHANDLE_OFFSET UNITYSDK_OFFSET(0x1BD961E0)
-#define SYSTEM_REFLECTION_EVENTINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BD960F0)
-#define SYSTEM_REFLECTION_EVENTINFO_GET_EVENTHANDLERTYPE_OFFSET UNITYSDK_OFFSET(0x1BD95E90)
-#define SYSTEM_REFLECTION_EVENTINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1BD960B0)
-#define SYSTEM_REFLECTION_EVENTINFO_INTERNAL_FROM_HANDLE_TYPE_OFFSET UNITYSDK_OFFSET(0x1BD96170)
-#define SYSTEM_REFLECTION_EVENTINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BD96110)
-#define SYSTEM_REFLECTION_EVENTINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1BD96140)
-#define SYSTEM_REFLECTION_EVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD960C0)
+#define SYSTEM_REFLECTION_EVENTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A1D50)
+#define SYSTEM_REFLECTION_EVENTINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C2A1D70)
+#define SYSTEM_REFLECTION_EVENTINFO_GETEVENTFROMHANDLE_OFFSET UNITYSDK_OFFSET(0x1C2A1E70)
+#define SYSTEM_REFLECTION_EVENTINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C2A1D80)
+#define SYSTEM_REFLECTION_EVENTINFO_GET_EVENTHANDLERTYPE_OFFSET UNITYSDK_OFFSET(0x1C2A1B20)
+#define SYSTEM_REFLECTION_EVENTINFO_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1C2A1D40)
+#define SYSTEM_REFLECTION_EVENTINFO_INTERNAL_FROM_HANDLE_TYPE_OFFSET UNITYSDK_OFFSET(0x1C2A1E00)
+#define SYSTEM_REFLECTION_EVENTINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C2A1DA0)
+#define SYSTEM_REFLECTION_EVENTINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C2A1DD0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int EventInfo_TypeDefinitionIndex = 604;
-
 	class EventInfo : public ::System::Reflection::MemberInfo
 	{
 	public:
 		::System::Reflection::EventInfo_AddEventAdapter* cached_add_event; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Type* get_EventHandlerType()
@@ -73,5 +69,6 @@ namespace System::Reflection
 		{
 			return ((::System::Reflection::EventInfo*(*)(::Mono::RuntimeEventHandle, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_GETEVENTFROMHANDLE_OFFSET))(a1, a2);
 		}
+
 	};
 }

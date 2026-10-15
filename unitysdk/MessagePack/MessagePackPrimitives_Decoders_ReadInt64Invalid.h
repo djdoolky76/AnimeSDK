@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/MessagePackPrimitives_DecodeResult.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
+#include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
+namespace MessagePack { class MessagePackPrimitives_Decoders_ReadInt64Invalid; }
 
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_READ_OFFSET UNITYSDK_OFFSET(0x1B6B91E0)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6B9200)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6B91D0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB7790)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB7760)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_READ_OFFSET UNITYSDK_OFFSET(0x1BBB7770)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadInt64Invalid_TypeDefinitionIndex = 7123;
-
 	class MessagePackPrimitives_Decoders_ReadInt64Invalid : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackPrimitives_Decoders_ReadInt64Invalid** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackPrimitives_Decoders_ReadInt64Invalid**)Il2CppClass::FromTypeDefinitionIndex(MessagePackPrimitives_Decoders_ReadInt64Invalid_TypeDefinitionIndex)->GetStaticField(0x2CEF0);
+			return (::MessagePack::MessagePackPrimitives_Decoders_ReadInt64Invalid**)UnitySDK::FromName("MessagePack", "ReadInt64Invalid")->GetStaticField(0x268D0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_CCTOR_OFFSET))();
 		}
 
-		::MessagePack::MessagePackPrimitives_DecodeResult Read(::System::ReadOnlySpan_1<::System::Byte> a1, ::System::Int64& a2, ::System::Int32& a3)
+		::MessagePack::MessagePackPrimitives_DecodeResult Read(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1, ::System::Int64 a2, ::System::Int32 a3)
 		{
-			return ((::MessagePack::MessagePackPrimitives_DecodeResult(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>, ::System::Int64&, ::System::Int32&))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_READ_OFFSET))(this, a1, a2, a3);
+			return ((::MessagePack::MessagePackPrimitives_DecodeResult(*)(::PVOID, ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READINT64INVALID_READ_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ReflectionProbe_ReflectionProbeEvent_TypeDefinitionIndex = 4052;
-
 	enum class ReflectionProbe_ReflectionProbeEvent : ::System::Int32
 	{
 		ReflectionProbeAdded = 0,

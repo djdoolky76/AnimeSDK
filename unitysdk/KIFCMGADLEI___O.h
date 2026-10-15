@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class JsonConfig; }
+namespace System { class String; }
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+	class KIFCMGADLEI___O : public ::System::Object
+	{
+	public:
+		static ::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>** StaticGet__0___LoadChimeraDuelNodeContainer()
+		{
+			return (::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55ED0);
+		}
+
+		static ::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>** StaticGet__3___LoadChimeraDuelBubbleEventListener()
+		{
+			return (::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55ED8);
+		}
+
+		static ::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>** StaticGet__2___LoadChimeraDuelEventListener()
+		{
+			return (::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55EE0);
+		}
+
+		static ::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>** StaticGet__1___LoadChimeraDuelConditionConfig()
+		{
+			return (::System::Func_2<::System::String*, ::RPG::GameCore::JsonConfig*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x55EE8);
+		}
+
+	};

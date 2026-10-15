@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPG::Client { class EnvironmentSystem; }
 
-#define RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xE8F26F0)
-#define RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8F2650)
-#define RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F2780)
+#define RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9486D0)
+#define RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_IGHMIDNKOEM_OFFSET UNITYSDK_OFFSET(0xE948640)
+#define RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE9485A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SyncShadowAndSceneLightDirBehaviour_TypeDefinitionIndex = 48807;
-
 	class SyncShadowAndSceneLightDirBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean IsSync; // 0x10
+		::System::Byte _padding0[0x7];
 		::RPG::Client::EnvironmentSystem* _EnvSystem; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -30,9 +27,10 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_9681042564541CD6()
+		::System::Void IGHMIDNKOEM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_METHOD_2_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SYNCSHADOWANDSCENELIGHTDIRBEHAVIOUR_IGHMIDNKOEM_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicMode_TypeDefinitionIndex = 14464;
-
 	enum class RelicMode : ::System::Int32
 	{
 		INVALID = 0,

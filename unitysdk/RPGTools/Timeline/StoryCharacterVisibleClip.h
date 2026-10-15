@@ -1,40 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StoryCharacterApperMode.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class StoryCharacterVisibleBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E7D80)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E7D70)
-#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E7F10)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE93D200)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE93D370)
+#define RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE93D1F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryCharacterVisibleClip_TypeDefinitionIndex = 48783;
-
 	class StoryCharacterVisibleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::System::Boolean Show; // 0x20
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::StoryCharacterApperMode Mode; // 0x24
 		::System::Boolean EnableDither; // 0x28
+		::System::Byte _padding1[0x7];
 		::System::String* FadeEffectPath; // 0x30
 		::System::String* FadeInEffect; // 0x38
 		::System::String* FadeOutEffect; // 0x40
 		::System::Single FadeOutEffectTime; // 0x48
 		::System::Boolean LoadEffectAysnc; // 0x4C
+		::System::Byte _padding2[0x3];
 		::RPGTools::Timeline::StoryCharacterVisibleBehaviour* Template; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -46,5 +45,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYCHARACTERVISIBLECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

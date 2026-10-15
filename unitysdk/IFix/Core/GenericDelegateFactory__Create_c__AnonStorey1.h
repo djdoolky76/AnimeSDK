@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace IFix::Core { class GenericDelegate; }
-namespace IFix::Core { class GenericDelegateFactory__Create_c__AnonStorey0; }
 namespace System { class Delegate; }
+namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BBCA0)
-#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY1___M__0_OFFSET UNITYSDK_OFFSET(0x1B4BC2D0)
+#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY1_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BDDC0)
+#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY1___M__0_OFFSET UNITYSDK_OFFSET(0x1B9BE400)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey1_TypeDefinitionIndex = 10053;
-
 	class GenericDelegateFactory__Create_c__AnonStorey1 : public ::System::Object
 	{
 	public:
-		::IFix::Core::GenericDelegateFactory__Create_c__AnonStorey0* __f__ref_0; // 0x10
+		::System::Object* __f__ref_0; // 0x10
 		::System::Reflection::MethodInfo* methodInfo; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY1_CTOR_OFFSET))(this);
 		}
 
 		::System::Delegate* __m__0(::IFix::Core::GenericDelegate* a1)
 		{
 			return ((::System::Delegate*(*)(::PVOID, ::IFix::Core::GenericDelegate*))((::PBYTE)hIl2Cpp + IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY1___M__0_OFFSET))(this, a1);
 		}
+
 	};
 }

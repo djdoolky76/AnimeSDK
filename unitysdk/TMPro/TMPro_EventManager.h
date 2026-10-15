@@ -1,89 +1,95 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace TMPro { class Compute_DT_EventArgs; }
 namespace TMPro { class FastAction; }
-namespace TMPro { template <typename T1, typename T2, typename T3> class FastAction_3; }
-namespace TMPro { template <typename T1, typename T2> class FastAction_2; }
-namespace TMPro { template <typename T> class FastAction_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Object; }
 
-#define TMPRO_TMPRO_EVENTMANAGER_ON_COLOR_GRADIENT_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC87580)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_COMPUTE_DT_EVENT_OFFSET UNITYSDK_OFFSET(0x1EC87940)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_DRAG_AND_DROP_MATERIAL_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC873D0)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_FONT_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC870D0)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_MATERIAL_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC86FD0)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_RESOURCES_LOADED_OFFSET UNITYSDK_OFFSET(0x1EC87790)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_SPRITE_ASSET_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC871D0)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXTMESHPRO_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC872D0)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC87840)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXT_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC87630)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXT_STYLE_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC874D0)
-#define TMPRO_TMPRO_EVENTMANAGER_ON_TMP_SETTINGS_CHANGED_OFFSET UNITYSDK_OFFSET(0x1EC876E0)
-#define TMPRO_TMPRO_EVENTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC87A40)
+#define TMPRO_TMPRO_EVENTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F34F8A0)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_COLOR_GRADIENT_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F3E0)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_COMPUTE_DT_EVENT_OFFSET UNITYSDK_OFFSET(0x1F34F7A0)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_DRAG_AND_DROP_MATERIAL_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F230)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_FONT_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34EF30)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_MATERIAL_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34EE30)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_RESOURCES_LOADED_OFFSET UNITYSDK_OFFSET(0x1F34F5F0)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_SPRITE_ASSET_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F030)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXTMESHPRO_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F130)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F6A0)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXT_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F490)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_TEXT_STYLE_PROPERTY_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F330)
+#define TMPRO_TMPRO_EVENTMANAGER_ON_TMP_SETTINGS_CHANGED_OFFSET UNITYSDK_OFFSET(0x1F34F540)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMPro_EventManager_TypeDefinitionIndex = 43484;
-
 	class TMPro_EventManager : public ::System::Object
 	{
 	public:
-		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_FONT_PROPERTY_EVENT()
+		static ::TMPro::FastAction** StaticGet_SPRITE_ASSET_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x4590);
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D80);
 		}
-		static ::TMPro::FastAction_2<::System::Object*, ::TMPro::Compute_DT_EventArgs*>** StaticGet_COMPUTE_DT_EVENT()
+
+		static ::TMPro::FastAction** StaticGet_TEXT_CHANGED_EVENT()
 		{
-			return (::TMPro::FastAction_2<::System::Object*, ::TMPro::Compute_DT_EventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x4598);
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D88);
 		}
-		static ::TMPro::FastAction_1<::System::Boolean>** StaticGet_TEXT_STYLE_PROPERTY_EVENT()
-		{
-			return (::TMPro::FastAction_1<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45A0);
-		}
-		static ::TMPro::FastAction_3<::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*>** StaticGet_DRAG_AND_DROP_MATERIAL_EVENT()
-		{
-			return (::TMPro::FastAction_3<::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45A8);
-		}
-		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_TEXTMESHPRO_PROPERTY_EVENT()
-		{
-			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45B0);
-		}
-		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_SPRITE_ASSET_PROPERTY_EVENT()
-		{
-			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45B8);
-		}
-		static ::TMPro::FastAction_1<::UnityEngine::Object*>** StaticGet_COLOR_GRADIENT_PROPERTY_EVENT()
-		{
-			return (::TMPro::FastAction_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45C0);
-		}
+
 		static ::TMPro::FastAction** StaticGet_RESOURCE_LOAD_EVENT()
 		{
-			return (::TMPro::FastAction**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45C8);
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D90);
 		}
-		static ::TMPro::FastAction_1<::UnityEngine::Object*>** StaticGet_TEXT_CHANGED_EVENT()
+
+		static ::TMPro::FastAction** StaticGet_MATERIAL_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction_1<::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45D0);
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52D98);
 		}
-		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>** StaticGet_TEXTMESHPRO_UGUI_PROPERTY_EVENT()
+
+		static ::TMPro::FastAction** StaticGet_TEXTMESHPRO_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45D8);
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DA0);
 		}
-		static ::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Material*>** StaticGet_MATERIAL_PROPERTY_EVENT()
+
+		static ::TMPro::FastAction** StaticGet_COLOR_GRADIENT_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction_2<::System::Boolean, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45E0);
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DA8);
 		}
+
+		static ::TMPro::FastAction** StaticGet_DRAG_AND_DROP_MATERIAL_EVENT()
+		{
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DB0);
+		}
+
 		static ::TMPro::FastAction** StaticGet_TMP_SETTINGS_PROPERTY_EVENT()
 		{
-			return (::TMPro::FastAction**)Il2CppClass::FromTypeDefinitionIndex(TMPro_EventManager_TypeDefinitionIndex)->GetStaticField(0x45E8);
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DB8);
+		}
+
+		static ::TMPro::FastAction** StaticGet_TEXTMESHPRO_UGUI_PROPERTY_EVENT()
+		{
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DC0);
+		}
+
+		static ::TMPro::FastAction** StaticGet_COMPUTE_DT_EVENT()
+		{
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DC8);
+		}
+
+		static ::TMPro::FastAction** StaticGet_FONT_PROPERTY_EVENT()
+		{
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DD0);
+		}
+
+		static ::TMPro::FastAction** StaticGet_TEXT_STYLE_PROPERTY_EVENT()
+		{
+			return (::TMPro::FastAction**)UnitySDK::FromName("TMPro", "TMPro_EventManager")->GetStaticField(0x52DD8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMPRO_EVENTMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMPRO_EVENTMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void ON_MATERIAL_PROPERTY_CHANGED(::System::Boolean a1, ::UnityEngine::Material* a2)
@@ -145,5 +151,6 @@ namespace TMPro
 		{
 			return ((::System::Void(*)(::System::Object*, ::TMPro::Compute_DT_EventArgs*))((::PBYTE)hIl2Cpp + TMPRO_TMPRO_EVENTMANAGER_ON_COMPUTE_DT_EVENT_OFFSET))(a1, a2);
 		}
+
 	};
 }

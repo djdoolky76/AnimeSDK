@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimPlayerInteractType_TypeDefinitionIndex = 41919;
-
 	enum class FiveDimPlayerInteractType : ::System::Int32
 	{
 		LeverSwitch = 1,

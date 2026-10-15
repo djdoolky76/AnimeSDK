@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class SetBattleTargetMultiTargetSwitch; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define EDCKPCPPCKO_CTOR_OFFSET UNITYSDK_OFFSET(0x13310100)
+#define EDCKPCPPCKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13310130)
+
+	class EDCKPCPPCKO
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetBattleTargetMultiTargetSwitch* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetBattleTargetMultiTargetSwitch*))((::PBYTE)hIl2Cpp + EDCKPCPPCKO_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCKPCPPCKO_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

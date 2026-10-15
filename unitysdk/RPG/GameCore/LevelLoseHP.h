@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelLoseHP; }
 
-#define RPG_GAMECORE_LEVELLOSEHP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE698870)
-#define RPG_GAMECORE_LEVELLOSEHP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE698820)
-#define RPG_GAMECORE_LEVELLOSEHP_INIT_OFFSET UNITYSDK_OFFSET(0xE6987B0)
-#define RPG_GAMECORE_LEVELLOSEHP__CTOR_OFFSET UNITYSDK_OFFSET(0xE6988C0)
+#define RPG_GAMECORE_LEVELLOSEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F3C80)
+#define RPG_GAMECORE_LEVELLOSEHP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F3C30)
+#define RPG_GAMECORE_LEVELLOSEHP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F3BE0)
+#define RPG_GAMECORE_LEVELLOSEHP_INIT_OFFSET UNITYSDK_OFFSET(0xE6F3B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLoseHP_TypeDefinitionIndex = 56968;
-
-	class LevelLoseHP : public ::Class_1_BF7A075734D15E98
+	class LevelLoseHP : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* Target; // 0x18
 		::RPG::GameCore::GameEntity* Attacker; // 0x20
 		::RPG::GameCore::FixPoint Damage; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOSEHP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOSEHP_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelLoseHP* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixPoint a3)
@@ -41,5 +38,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLOSEHP_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,34 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Client::FullBody { class Grounding_Class_3_25BFA3B13C8F2459; }
-namespace RPG::Client::FullBody { class Grounding_Class_3_443CA02E4E068003; }
-namespace RPG::Client::FullBody { class Grounding_Class_3_594C4D3848A7A3AB; }
-namespace RPG::Client::FullBody { class Grounding_Class_3_6D36CA8DB48257A4; }
+namespace RPG::Client::FullBody { class Grounding_BELNPMHCADA; }
+namespace RPG::Client::FullBody { class Grounding_FDIMCLFAMBM; }
+namespace RPG::Client::FullBody { class Grounding_KEHPPILGEFG; }
+namespace RPG::Client::FullBody { class Grounding_PLHFOJLFMGK; }
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int Grounding___O_TypeDefinitionIndex = 74147;
-
 	class Grounding___O : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FullBody::Grounding_Class_3_6D36CA8DB48257A4** StaticGet__3___BoxCast()
+		static ::RPG::Client::FullBody::Grounding_PLHFOJLFMGK** StaticGet__1___CapsuleCast()
 		{
-			return (::RPG::Client::FullBody::Grounding_Class_3_6D36CA8DB48257A4**)Il2CppClass::FromTypeDefinitionIndex(Grounding___O_TypeDefinitionIndex)->GetStaticField(0x19580);
+			return (::RPG::Client::FullBody::Grounding_PLHFOJLFMGK**)UnitySDK::FromName("RPG.Client.FullBody", "<>O")->GetStaticField(0x5EDA0);
 		}
-		static ::RPG::Client::FullBody::Grounding_Class_3_25BFA3B13C8F2459** StaticGet__2___SphereCast()
+
+		static ::RPG::Client::FullBody::Grounding_BELNPMHCADA** StaticGet__0___Raycast()
 		{
-			return (::RPG::Client::FullBody::Grounding_Class_3_25BFA3B13C8F2459**)Il2CppClass::FromTypeDefinitionIndex(Grounding___O_TypeDefinitionIndex)->GetStaticField(0x19588);
+			return (::RPG::Client::FullBody::Grounding_BELNPMHCADA**)UnitySDK::FromName("RPG.Client.FullBody", "<>O")->GetStaticField(0x5EDA8);
 		}
-		static ::RPG::Client::FullBody::Grounding_Class_3_443CA02E4E068003** StaticGet__0___Raycast()
+
+		static ::RPG::Client::FullBody::Grounding_KEHPPILGEFG** StaticGet__3___BoxCast()
 		{
-			return (::RPG::Client::FullBody::Grounding_Class_3_443CA02E4E068003**)Il2CppClass::FromTypeDefinitionIndex(Grounding___O_TypeDefinitionIndex)->GetStaticField(0x19590);
+			return (::RPG::Client::FullBody::Grounding_KEHPPILGEFG**)UnitySDK::FromName("RPG.Client.FullBody", "<>O")->GetStaticField(0x5EDB0);
 		}
-		static ::RPG::Client::FullBody::Grounding_Class_3_594C4D3848A7A3AB** StaticGet__1___CapsuleCast()
+
+		static ::RPG::Client::FullBody::Grounding_FDIMCLFAMBM** StaticGet__2___SphereCast()
 		{
-			return (::RPG::Client::FullBody::Grounding_Class_3_594C4D3848A7A3AB**)Il2CppClass::FromTypeDefinitionIndex(Grounding___O_TypeDefinitionIndex)->GetStaticField(0x19598);
+			return (::RPG::Client::FullBody::Grounding_FDIMCLFAMBM**)UnitySDK::FromName("RPG.Client.FullBody", "<>O")->GetStaticField(0x5EDB8);
 		}
+
 	};
 }

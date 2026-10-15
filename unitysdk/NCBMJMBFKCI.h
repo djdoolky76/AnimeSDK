@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class BDOGIDPIEGG;
+class DIBPAJHLFIF;
+class FAHGGJLFFJO;
+class OJMONJELOAF;
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class Action; }
+
+#define NCBMJMBFKCI_BDPMCLOCAPN_OFFSET UNITYSDK_OFFSET(0xBAF76D0)
+#define NCBMJMBFKCI_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF7260)
+#define NCBMJMBFKCI_DCGCDGLOMAG_OFFSET UNITYSDK_OFFSET(0xBAF7460)
+#define NCBMJMBFKCI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAF75A0)
+#define NCBMJMBFKCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAF7290)
+#define NCBMJMBFKCI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAF7670)
+#define NCBMJMBFKCI_TICK_OFFSET UNITYSDK_OFFSET(0xBAF75F0)
+
+	class NCBMJMBFKCI
+	{
+	public:
+		::System::Action* AGGBMLBJFLK; // 0x28
+		::OJMONJELOAF* KADDKEGNCHE; // 0x30
+		::BDOGIDPIEGG* NILDKJKBHHG; // 0x38
+		::System::Boolean PCFNEKEPDIE; // 0x40
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::FAHGGJLFFJO* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::FAHGGJLFFJO*))((::PBYTE)hIl2Cpp + NCBMJMBFKCI_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCBMJMBFKCI_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCBMJMBFKCI_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + NCBMJMBFKCI_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCBMJMBFKCI_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void BDPMCLOCAPN(::DIBPAJHLFIF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DIBPAJHLFIF*))((::PBYTE)hIl2Cpp + NCBMJMBFKCI_BDPMCLOCAPN_OFFSET))(this, a1);
+		}
+
+		::System::Void DCGCDGLOMAG(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NCBMJMBFKCI_DCGCDGLOMAG_OFFSET))(this, a1);
+		}
+
+	};

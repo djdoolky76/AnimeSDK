@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ForceRefreshCamera; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FORCEREFRESHCAMERA_METHOD_3_4BEC53BBE4ACAEDB_OFFSET UNITYSDK_OFFSET(0x1D1100A0)
-#define RPG_GAMECORE_FORCEREFRESHCAMERA_METHOD_3_6B3017EF27EE23DE_OFFSET UNITYSDK_OFFSET(0x1D110170)
-#define RPG_GAMECORE_FORCEREFRESHCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D110160)
+#define RPG_GAMECORE_FORCEREFRESHCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E9B20)
+#define RPG_GAMECORE_FORCEREFRESHCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6E9B30)
+#define RPG_GAMECORE_FORCEREFRESHCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E9A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceRefreshCamera_TypeDefinitionIndex = 20584;
-
 	class ForceRefreshCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEREFRESHCAMERA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEREFRESHCAMERA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4BEC53BBE4ACAEDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceRefreshCamera*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ForceRefreshCamera* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceRefreshCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEREFRESHCAMERA_METHOD_3_4BEC53BBE4ACAEDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ForceRefreshCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEREFRESHCAMERA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6B3017EF27EE23DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceRefreshCamera* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ForceRefreshCamera* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceRefreshCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEREFRESHCAMERA_METHOD_3_6B3017EF27EE23DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ForceRefreshCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEREFRESHCAMERA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

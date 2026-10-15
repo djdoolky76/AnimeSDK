@@ -2,36 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LockSource.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class AdventureGameplayLock; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_METHOD_3_1251ABBEE9F4DFE8_OFFSET UNITYSDK_OFFSET(0x1CD48E50)
-#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_METHOD_3_6704C83E8C4AC8B9_OFFSET UNITYSDK_OFFSET(0x1CD48CF0)
-#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD48E40)
+#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31C9B0)
+#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31C9C0)
+#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31C860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureGameplayLock_TypeDefinitionIndex = 10305;
-
 	class AdventureGameplayLock : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean IsLock; // 0x18
+		::System::Byte _padding0[0x3];
 		::RPG::Client::LockSource LockSource; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6704C83E8C4AC8B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::AdventureGameplayLock*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::AdventureGameplayLock* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::AdventureGameplayLock*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_METHOD_3_6704C83E8C4AC8B9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::AdventureGameplayLock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1251ABBEE9F4DFE8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::AdventureGameplayLock* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::AdventureGameplayLock* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::AdventureGameplayLock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_METHOD_3_1251ABBEE9F4DFE8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::AdventureGameplayLock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

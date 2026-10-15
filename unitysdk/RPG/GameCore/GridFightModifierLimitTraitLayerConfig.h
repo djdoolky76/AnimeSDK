@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierLimitTraitLayerConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_METHOD_3_5BDE582E8D7923EA_OFFSET UNITYSDK_OFFSET(0x1D159E80)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_METHOD_3_6896955A23187E46_OFFSET UNITYSDK_OFFSET(0x1D159ED0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D159EC0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D734CB0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D734CC0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D734C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierLimitTraitLayerConfig_TypeDefinitionIndex = 19130;
-
 	class GridFightModifierLimitTraitLayerConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5BDE582E8D7923EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_METHOD_3_5BDE582E8D7923EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6896955A23187E46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_METHOD_3_6896955A23187E46_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierLimitTraitLayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERLIMITTRAITLAYERCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

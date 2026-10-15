@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class AJHEPIMIGBG;
+class LPNPMKNMMOK;
+class PGOOHIHKHNJ;
+
+#define CGPKPJNOPBG_OCPKONNGOFA_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC8E930)
+#define CGPKPJNOPBG_OCPKONNGOFA_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8E9B0)
+
+	class CGPKPJNOPBG_OCPKONNGOFA : public ::System::Object
+	{
+	public:
+		::AJHEPIMIGBG* BJLFPOKNIEL; // 0x10
+		::LPNPMKNMMOK* CKOLMLLMABE; // 0x18
+		::PGOOHIHKHNJ* FOOCPPAJOED; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CGPKPJNOPBG_OCPKONNGOFA_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CGPKPJNOPBG_OCPKONNGOFA_CLEAR_OFFSET))(this);
+		}
+
+	};

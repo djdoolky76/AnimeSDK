@@ -3,8 +3,6 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzlePillarStatus_TypeDefinitionIndex = 78406;
-
 	enum class StableSystemPuzzlePillarStatus : ::System::Int32
 	{
 		Empty = 0,

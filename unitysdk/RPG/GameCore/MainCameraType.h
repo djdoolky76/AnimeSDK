@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainCameraType_TypeDefinitionIndex = 24459;
-
 	enum class MainCameraType : ::System::Int32
 	{
 		MainCamera = 0,

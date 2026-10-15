@@ -4,8 +4,6 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int XLuaLogging_TypeDefinitionIndex = 50611;
-
 	class XLuaLogging : public ::System::Object
 	{
 	public:

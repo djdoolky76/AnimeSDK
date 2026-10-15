@@ -2,43 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/EventSystems/EventTriggerType.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
-namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+namespace UnityEngine::Events { class UnityAction; }
 
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_ADDTRIGGER_OFFSET UNITYSDK_OFFSET(0xD102940)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_DESTROYCHILDRENIMMEDIATE_OFFSET UNITYSDK_OFFSET(0xD102DF0)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_DESTROYCHILDREN_OFFSET UNITYSDK_OFFSET(0xD102D40)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTCHILDSWITHNAMES_OFFSET UNITYSDK_OFFSET(0xD103D80)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTCHILDWITHNAME_1_OFFSET UNITYSDK_OFFSET(0xD1032F0)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTCHILDWITHNAME_OFFSET UNITYSDK_OFFSET(0xD102EA0)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTRENDERCHILDWITHNAME_OFFSET UNITYSDK_OFFSET(0xD1036E0)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_REMOVEALLTRIGGER_OFFSET UNITYSDK_OFFSET(0xD102BC0)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_SAFESETACTIVEBYSCALE_OFFSET UNITYSDK_OFFSET(0xD102730)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0xD1025F0)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_SAFESETLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0xD102690)
-#define RPG_CLIENT_GAMEOBJECTEXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD104260)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_ADDTRIGGER_OFFSET UNITYSDK_OFFSET(0xD0A2C90)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0A4520)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_DESTROYCHILDRENIMMEDIATE_OFFSET UNITYSDK_OFFSET(0xD0A30E0)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_DESTROYCHILDREN_OFFSET UNITYSDK_OFFSET(0xD0A3030)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTCHILDSWITHNAMES_OFFSET UNITYSDK_OFFSET(0xD0A4070)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTCHILDWITHNAME_1_OFFSET UNITYSDK_OFFSET(0xD0A35E0)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTCHILDWITHNAME_OFFSET UNITYSDK_OFFSET(0xD0A3190)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTRENDERCHILDWITHNAME_OFFSET UNITYSDK_OFFSET(0xD0A39D0)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_REMOVEALLTRIGGER_OFFSET UNITYSDK_OFFSET(0xD0A2EE0)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_SAFESETACTIVEBYSCALE_OFFSET UNITYSDK_OFFSET(0xD0A2A80)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0xD0A2940)
+#define RPG_CLIENT_GAMEOBJECTEXTENSIONS_SAFESETLIGHTWEIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0xD0A29E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameObjectExtensions_TypeDefinitionIndex = 72698;
-
 	class GameObjectExtensions : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>** StaticGet__transformCache()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)Il2CppClass::FromTypeDefinitionIndex(GameObjectExtensions_TypeDefinitionIndex)->GetStaticField(0x1C4F0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)UnitySDK::FromName("RPG.Client", "GameObjectExtensions")->GetStaticField(0x60710);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEOBJECTEXTENSIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEOBJECTEXTENSIONS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void SafeSetActive(::UnityEngine::GameObject* a1, ::System::Boolean a2, ::System::Boolean a3)
@@ -56,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEOBJECTEXTENSIONS_SAFESETACTIVEBYSCALE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AddTrigger(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::EventTriggerType a2, ::UnityEngine::Events::UnityAction_1<::UnityEngine::EventSystems::BaseEventData*>* a3)
+		static ::System::Void AddTrigger(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::EventTriggerType a2, ::UnityEngine::Events::UnityAction* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::EventSystems::EventTriggerType, ::UnityEngine::Events::UnityAction_1<::UnityEngine::EventSystems::BaseEventData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEOBJECTEXTENSIONS_ADDTRIGGER_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::UnityEngine::EventSystems::EventTriggerType, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEOBJECTEXTENSIONS_ADDTRIGGER_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void RemoveAllTrigger(::UnityEngine::GameObject* a1)
@@ -95,5 +92,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEOBJECTEXTENSIONS_FINDFIRSTCHILDSWITHNAMES_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_PopupDialogElements_TypeDefinitionIndex = 47260;
-
 	class UIConstants_PopupDialogElements : public ::System::Object
 	{
 	public:

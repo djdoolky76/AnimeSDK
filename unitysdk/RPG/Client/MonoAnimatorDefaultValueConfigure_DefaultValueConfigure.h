@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoAnimatorDefaultValueConfigure_EDefaultValueFlag.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_DefaultValueConfigure_TypeDefinitionIndex = 68481;
-
 	struct alignas(8) MonoAnimatorDefaultValueConfigure_DefaultValueConfigure
 	{
 		::UnityEngine::Transform* transform; // 0x10

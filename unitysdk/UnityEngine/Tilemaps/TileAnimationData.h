@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::Tilemaps
 {
-	inline static constexpr unsigned int TileAnimationData_TypeDefinitionIndex = 5854;
-
 	struct alignas(8) TileAnimationData
 	{
 		::Il2CppArray<::UnityEngine::Sprite*>* m_AnimatedSprites; // 0x10

@@ -2,34 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/Datatype_nonNegativeInteger.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
-
 namespace System::Xml::Schema { class FacetsChecker; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1E7F27E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7F2840)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7F2850)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E7000)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEBB530)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAFCE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EEBB4C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEBB520)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_positiveInteger_TypeDefinitionIndex = 2145;
-
 	class Datatype_positiveInteger : public ::System::Xml::Schema::Datatype_nonNegativeInteger
 	{
 	public:
 		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)Il2CppClass::FromTypeDefinitionIndex(Datatype_positiveInteger_TypeDefinitionIndex)->GetStaticField(0x198A0);
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "Datatype_positiveInteger")->GetStaticField(0x22960);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CCTOR_OFFSET))();
 		}
 
 		::System::Xml::Schema::FacetsChecker* get_FacetsChecker()
@@ -41,5 +38,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Xml::Schema::XmlTypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_TYPECODE_OFFSET))(this);
 		}
+
 	};
 }

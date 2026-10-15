@@ -1,51 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class StaticListViewItem; }
-namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_CLIENT_STATICLISTVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE0FD770)
-#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_0_OFFSET UNITYSDK_OFFSET(0xE0FD7B0)
-#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_1_OFFSET UNITYSDK_OFFSET(0xE0FD820)
-#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_2_OFFSET UNITYSDK_OFFSET(0xE0FDB10)
-#define RPG_CLIENT_STATICLISTVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE0FD7A0)
+#define RPG_CLIENT_STATICLISTVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE13DD40)
+#define RPG_CLIENT_STATICLISTVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE13DD70)
+#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_0_OFFSET UNITYSDK_OFFSET(0xE13DD80)
+#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_1_OFFSET UNITYSDK_OFFSET(0xE13DDF0)
+#define RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_2_OFFSET UNITYSDK_OFFSET(0xE13E0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StaticListView___c_TypeDefinitionIndex = 72583;
-
 	class StaticListView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::System::Collections::Generic::List_1<::RPG::Client::StaticListViewItem*>*, ::System::Collections::Generic::Queue_1<::RPG::Client::StaticListViewItem*>*>** StaticGet___9__49_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_2<::System::Collections::Generic::List_1<::RPG::Client::StaticListViewItem*>*, ::System::Collections::Generic::Queue_1<::RPG::Client::StaticListViewItem*>*>**)Il2CppClass::FromTypeDefinitionIndex(StaticListView___c_TypeDefinitionIndex)->GetStaticField(0x2D3C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F6E0);
 		}
-		static ::System::Comparison_1<::RPG::Client::StaticListViewItem*>** StaticGet___9__49_0()
+
+		static ::System::Action** StaticGet___9__49_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)Il2CppClass::FromTypeDefinitionIndex(StaticListView___c_TypeDefinitionIndex)->GetStaticField(0x2D3C8);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F6E8);
 		}
+
 		static ::System::Comparison_1<::RPG::Client::StaticListViewItem*>** StaticGet___9__49_2()
 		{
-			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)Il2CppClass::FromTypeDefinitionIndex(StaticListView___c_TypeDefinitionIndex)->GetStaticField(0x2D3D0);
+			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F6F0);
 		}
-		static ::RPG::Client::StaticListView___c** StaticGet___9()
+
+		static ::System::Comparison_1<::RPG::Client::StaticListViewItem*>** StaticGet___9__49_0()
 		{
-			return (::RPG::Client::StaticListView___c**)Il2CppClass::FromTypeDefinitionIndex(StaticListView___c_TypeDefinitionIndex)->GetStaticField(0x2D3D8);
+			return (::System::Comparison_1<::RPG::Client::StaticListViewItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F6F8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_STATICLISTVIEW___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_STATICLISTVIEW___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATICLISTVIEW___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATICLISTVIEW___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 _Clear_b__49_0(::RPG::Client::StaticListViewItem* a1, ::RPG::Client::StaticListViewItem* a2)
@@ -62,5 +63,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::StaticListViewItem*, ::RPG::Client::StaticListViewItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATICLISTVIEW___C__CLEAR_B__49_2_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

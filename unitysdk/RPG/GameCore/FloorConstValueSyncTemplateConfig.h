@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FloorConstValueSyncTemplateConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG_METHOD_2_9FD804C90432C869_OFFSET UNITYSDK_OFFSET(0x1D10B7F0)
-#define RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10B830)
+#define RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E4F50)
+#define RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E4F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorConstValueSyncTemplateConfig_TypeDefinitionIndex = 17212;
-
 	class FloorConstValueSyncTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9FD804C90432C869(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloorConstValueSyncTemplateConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FloorConstValueSyncTemplateConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloorConstValueSyncTemplateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG_METHOD_2_9FD804C90432C869_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FloorConstValueSyncTemplateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUESYNCTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-class Class_1_43BD383C98B4C0C5_3;
+#include "unitysdk/RPG/GameCore/ConfigDataPoolListPoolMember_1.h"
+#include "unitysdk/RPG/GameCore/LevelNavNodeInfo.h"
+class LELCKJPOPAO;
 namespace System { class Object; }
 
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3B78740)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3B8A4B0)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x2F10A00)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2F3A950)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2F3A750)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_NAVNODELIST_OFFSET UNITYSDK_OFFSET(0x3B8A4C0)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0xDAB0)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_POOL_OFFSET UNITYSDK_OFFSET(0x5AB0)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_INIT_OFFSET UNITYSDK_OFFSET(0x8EB60)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D1DBB40)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D1DBE90)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1D1DBC30)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_LOGICALNOT_OFFSET UNITYSDK_OFFSET(0x1D1DBF40)
-#define RPG_GAMECORE_LEVELNAVGRAPHINFO_SET_NAVNODELIST_OFFSET UNITYSDK_OFFSET(0x3B8A4E0)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x3C2D5A0)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C3F170)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x2F86B50)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2FB1140)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x2FB0F40)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_NAVNODELIST_OFFSET UNITYSDK_OFFSET(0x3C3F180)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0xACE0)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_POOL_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_INIT_OFFSET UNITYSDK_OFFSET(0x14160)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D7B8F40)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D7B9290)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1D7B9030)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_LOGICALNOT_OFFSET UNITYSDK_OFFSET(0x1D7B9340)
+#define RPG_GAMECORE_LEVELNAVGRAPHINFO_SET_NAVNODELIST_OFFSET UNITYSDK_OFFSET(0x3C3F1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavGraphInfo_TypeDefinitionIndex = 10700;
-
 	struct alignas(8) LevelNavGraphInfo
 	{
-		::Class_1_43BD383C98B4C0C5_3* _Pool; // 0x10
+		::LELCKJPOPAO* _Pool; // 0x10
 		::System::UInt32 _Offset; // 0x18
-
-		::System::Void Init(::Class_1_43BD383C98B4C0C5_3* a1, ::System::UInt32 a2)
+		::System::Void Init(::LELCKJPOPAO* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_3*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_INIT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::LELCKJPOPAO*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_INIT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsValid()
@@ -44,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_OFFSET_OFFSET))(this);
 		}
 
-		::Class_1_43BD383C98B4C0C5_3* get_Pool()
+		::LELCKJPOPAO* get_Pool()
 		{
-			return ((::Class_1_43BD383C98B4C0C5_3*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_POOL_OFFSET))(this);
+			return ((::LELCKJPOPAO*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_POOL_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -54,20 +51,26 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_DISPOSE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::RPG::GameCore::LevelNavGraphInfo a1, ::System::Object* a2)
 		{
 			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavGraphInfo, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::RPG::GameCore::LevelNavGraphInfo a1, ::System::Object* a2)
 		{
 			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavGraphInfo, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::RPG::GameCore::LevelNavGraphInfo a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNavGraphInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -79,28 +82,29 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Implicit(::RPG::GameCore::LevelNavGraphInfo a1)
 		{
 			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavGraphInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_LogicalNot(::RPG::GameCore::LevelNavGraphInfo a1)
 		{
 			return ((::System::Boolean(*)(::RPG::GameCore::LevelNavGraphInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_OP_LOGICALNOT_OFFSET))(a1);
 		}
+		*/
 
-		/*
 		::RPG::GameCore::ConfigDataPoolListPoolMember_1<::RPG::GameCore::LevelNavNodeInfo> get_NavNodeList()
 		{
 			return ((::RPG::GameCore::ConfigDataPoolListPoolMember_1<::RPG::GameCore::LevelNavNodeInfo>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_GET_NAVNODELIST_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::System::Void set_NavNodeList(::RPG::GameCore::ConfigDataPoolListPoolMember_1<::RPG::GameCore::LevelNavNodeInfo> a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConfigDataPoolListPoolMember_1<::RPG::GameCore::LevelNavNodeInfo>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELNAVGRAPHINFO_SET_NAVNODELIST_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

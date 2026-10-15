@@ -5,21 +5,20 @@
 #include "unitysdk/RPG/GameCore/MonsterRank.h"
 #include "unitysdk/RPG/GameCore/WaveMonsterTiming.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class MonsterConfig; }
 
-#define RPG_GAMECORE_MONSTERCONFIG_METHOD_2_E3691C839A6162DE_OFFSET UNITYSDK_OFFSET(0x1D2CC620)
-#define RPG_GAMECORE_MONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CCBB0)
+#define RPG_GAMECORE_MONSTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AF1C0)
+#define RPG_GAMECORE_MONSTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8AEAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterConfig_TypeDefinitionIndex = 16343;
-
 	class MonsterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::WaveMonsterTiming CreateTiming; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* InitHPValue; // 0x18
 		::RPG::GameCore::DynamicFloat* InitHPRatio; // 0x20
 		::System::Single MultiHitAmplitudeNormalize; // 0x28
@@ -34,15 +33,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::MonsterRank ShowHpWidthRank; // 0x64
 		::System::Boolean AddToTeamFormation; // 0x68
 		::System::Boolean InheritEliteGroupForBodyPart; // 0x69
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E3691C839A6162DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MonsterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERCONFIG_METHOD_2_E3691C839A6162DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MonsterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

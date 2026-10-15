@@ -2,30 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GameLevelHeartDialPerformance; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE_METHOD_2_B71925988E489AC3_OFFSET UNITYSDK_OFFSET(0x1D13D320)
-#define RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13D570)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D716FC0)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D716D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameLevelHeartDialPerformance_TypeDefinitionIndex = 17222;
-
 	class GameLevelHeartDialPerformance : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x10
 		::System::UInt32 PerformanceID; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B71925988E489AC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameLevelHeartDialPerformance*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GameLevelHeartDialPerformance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameLevelHeartDialPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE_METHOD_2_B71925988E489AC3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GameLevelHeartDialPerformance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMELEVELHEARTDIALPERFORMANCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

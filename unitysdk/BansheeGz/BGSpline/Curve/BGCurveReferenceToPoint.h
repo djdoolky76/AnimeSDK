@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointComponent; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointGO; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
+namespace BansheeGz::BGSpline::Curve { class BGCurveReferenceToPoint; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GETREFERENCETOPOINT_OFFSET UNITYSDK_OFFSET(0x1C000870)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x1C01B230)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_SET_POINT_OFFSET UNITYSDK_OFFSET(0x1C000B60)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C01B260)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5293C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GETREFERENCETOPOINT_OFFSET UNITYSDK_OFFSET(0x1C50DA60)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x1C529390)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_SET_POINT_OFFSET UNITYSDK_OFFSET(0x1C50DD50)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveReferenceToPoint_TypeDefinitionIndex = 35337;
-
 	class BGCurveReferenceToPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::BansheeGz::BGSpline::Curve::BGCurvePointComponent* pointComponent; // 0x18
 		::BansheeGz::BGSpline::Curve::BGCurvePointGO* pointGo; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_CTOR_OFFSET))(this);
 		}
 
 		::BansheeGz::BGSpline::Curve::BGCurvePointI* get_Point()
@@ -40,5 +37,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::BansheeGz::BGSpline::Curve::BGCurveReferenceToPoint*(*)(::BansheeGz::BGSpline::Curve::BGCurvePointI*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEREFERENCETOPOINT_GETREFERENCETOPOINT_OFFSET))(a1);
 		}
+
 	};
 }

@@ -3,24 +3,21 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE835B20)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE835C60)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE835EA0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D38A0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D3C20)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8D39E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ClockBoyEmotionTrack_TypeDefinitionIndex = 48493;
-
 	class ClockBoyEmotionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +29,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

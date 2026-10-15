@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatModifierFlag_TypeDefinitionIndex = 15886;
-
 	enum class DiceCombatModifierFlag : ::System::Int32
 	{
 		WeatherEffect = 1,

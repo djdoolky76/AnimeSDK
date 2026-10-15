@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CollectHeartDialCameraIndex; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_METHOD_3_368FF1C91661B4DB_OFFSET UNITYSDK_OFFSET(0x1CFEE490)
-#define RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_METHOD_3_55D3B5FC59A329DE_OFFSET UNITYSDK_OFFSET(0x1CFEE560)
-#define RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFEE550)
+#define RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CA220)
+#define RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CA230)
+#define RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CA160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollectHeartDialCameraIndex_TypeDefinitionIndex = 20860;
-
 	class CollectHeartDialCameraIndex : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_368FF1C91661B4DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectHeartDialCameraIndex*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CollectHeartDialCameraIndex* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectHeartDialCameraIndex*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_METHOD_3_368FF1C91661B4DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CollectHeartDialCameraIndex*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_55D3B5FC59A329DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectHeartDialCameraIndex* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CollectHeartDialCameraIndex* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectHeartDialCameraIndex*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_METHOD_3_55D3B5FC59A329DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CollectHeartDialCameraIndex*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTHEARTDIALCAMERAINDEX_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

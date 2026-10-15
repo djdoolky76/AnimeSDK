@@ -1,21 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/RogueTournHandbookDataCollection_2.h"
 
-namespace RPG::Client { class RogueTournHandbookPersonaStyleGiftDataItem; }
-
-#define RPG_CLIENT_ROGUETOURNHANDBOOKPERSONASTYLEGIFTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDF5A8E0)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKPERSONASTYLEGIFTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDFF13D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookPersonaStyleGiftCollection_TypeDefinitionIndex = 67659;
-
-	class RogueTournHandbookPersonaStyleGiftCollection : public ::RPG::Client::RogueTournHandbookDataCollection_2<::System::UInt32, ::RPG::Client::RogueTournHandbookPersonaStyleGiftDataItem*>
+	class RogueTournHandbookPersonaStyleGiftCollection
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKPERSONASTYLEGIFTCOLLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNHANDBOOKPERSONASTYLEGIFTCOLLECTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

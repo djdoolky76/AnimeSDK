@@ -1,47 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client::B51Racing { class LuaControllerHandle; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0xC861590)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC8615B0)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC861890)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0xC8615A0)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC8615C0)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__BINDBUTTON_OFFSET UNITYSDK_OFFSET(0xC861CD0)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC861F60)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__GETBRIDGEHANDLE_OFFSET UNITYSDK_OFFSET(0xC861E60)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC8615D0)
-#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__ONITEMCLICK_OFFSET UNITYSDK_OFFSET(0xC861F00)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC72FA20)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0xC72F040)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC72F060)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC72F340)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ITEMINDEX_OFFSET UNITYSDK_OFFSET(0xC72F050)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC72F070)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__BINDBUTTON_OFFSET UNITYSDK_OFFSET(0xC72F790)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__GETBRIDGEHANDLE_OFFSET UNITYSDK_OFFSET(0xC72F920)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC72F080)
+#define RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__ONITEMCLICK_OFFSET UNITYSDK_OFFSET(0xC72F9C0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingChallengeMatchItemControl_TypeDefinitionIndex = 80501;
-
 	class B51RacingChallengeMatchItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::System::Int32 _ItemIndex_k__BackingField; // 0x38
-		::System::Action_1<::System::Int32>* _OnSelectCallback_k__BackingField; // 0x40
-		::UnityEngine::UI::Image* _MapImage; // 0x48
-		::RPG::Client::LocalizedText* _NameText; // 0x50
-		::RPG::Client::LocalizedText* _TimeText; // 0x58
-		::RPG::Client::AnimatorButton* _RootBtn; // 0x60
-		::UnityEngine::GameObject* _SelectedGo; // 0x68
-		::UnityEngine::GameObject* _TimePanelGo; // 0x70
-		::UnityEngine::GameObject* _HintPanelGo; // 0x78
-		::UnityEngine::GameObject* _CompletedGo; // 0x80
-		::System::Boolean _buttonBound; // 0x88
-
+		::System::Int32 _ItemIndex_k__BackingField; // 0x40
+		::System::Byte _padding0[0x4];
+		::System::Action* _OnSelectCallback_k__BackingField; // 0x48
+		::UnityEngine::UI::Image* _MapImage; // 0x50
+		::RPG::Client::LocalizedText* _NameText; // 0x58
+		::RPG::Client::LocalizedText* _TimeText; // 0x60
+		::RPG::Client::AnimatorButton* _RootBtn; // 0x68
+		::UnityEngine::GameObject* _SelectedGo; // 0x70
+		::UnityEngine::GameObject* _TimePanelGo; // 0x78
+		::UnityEngine::GameObject* _HintPanelGo; // 0x80
+		::UnityEngine::GameObject* _CompletedGo; // 0x88
+		::System::Boolean _buttonBound; // 0x90
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_ItemIndex()
@@ -54,14 +51,14 @@ namespace RPG::Client::B51Racing
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ITEMINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Action_1<::System::Int32>* get_OnSelectCallback()
+		::System::Action* get_OnSelectCallback()
 		{
-			return ((::System::Action_1<::System::Int32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET))(this);
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_GET_ONSELECTCALLBACK_OFFSET))(this);
 		}
 
-		::System::Void set_OnSelectCallback(::System::Action_1<::System::Int32>* a1)
+		::System::Void set_OnSelectCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL_SET_ONSELECTCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -88,5 +85,6 @@ namespace RPG::Client::B51Racing
 		{
 			return ((::RPG::Client::B51Racing::LuaControllerHandle*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCHALLENGEMATCHITEMCONTROL__GETBRIDGEHANDLE_OFFSET))(this);
 		}
+
 	};
 }

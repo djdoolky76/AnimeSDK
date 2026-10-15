@@ -1,35 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_FC8BF52F067E8047;
+class NKDNFDCFNCP;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Proto { class PileItem; }
+namespace RPG::Client { class ItemAutoConversionMapping; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_CREATE_OFFSET UNITYSDK_OFFSET(0xD4259D0)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_GET_SOURCEITEM_OFFSET UNITYSDK_OFFSET(0xD425950)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_GET_TARGETITEMS_OFFSET UNITYSDK_OFFSET(0xD425990)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_ISTARGETITEMSCONTAINCONVERSIONED_OFFSET UNITYSDK_OFFSET(0xD426010)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING__CREATESOURCEITEM_OFFSET UNITYSDK_OFFSET(0xD425AD0)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING__CREATETARGETITEMS_OFFSET UNITYSDK_OFFSET(0xD425B60)
-#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xD425A90)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_CREATE_OFFSET UNITYSDK_OFFSET(0xD37ACA0)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0xD37AD60)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_GET_SOURCEITEM_OFFSET UNITYSDK_OFFSET(0xD37AC20)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_GET_TARGETITEMS_OFFSET UNITYSDK_OFFSET(0xD37AC60)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_ISTARGETITEMSCONTAINCONVERSIONED_OFFSET UNITYSDK_OFFSET(0xD37B2E0)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING__CREATESOURCEITEM_OFFSET UNITYSDK_OFFSET(0xD37ADA0)
+#define RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING__CREATETARGETITEMS_OFFSET UNITYSDK_OFFSET(0xD37AE30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemAutoConversionMapping_TypeDefinitionIndex = 65756;
-
 	class ItemAutoConversionMapping : public ::System::Object
 	{
 	public:
 		::RPG::Client::ItemDisplayData* _SourceItem; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _TargetItems; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::ItemDisplayData* get_SourceItem()
@@ -42,9 +39,9 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_GET_TARGETITEMS_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ItemAutoConversionMapping* Create(::Class_1_FC8BF52F067E8047* a1)
+		static ::RPG::Client::ItemAutoConversionMapping* Create(::NKDNFDCFNCP* a1)
 		{
-			return ((::RPG::Client::ItemAutoConversionMapping*(*)(::Class_1_FC8BF52F067E8047*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::ItemAutoConversionMapping*(*)(::NKDNFDCFNCP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_CREATE_OFFSET))(a1);
 		}
 
 		::System::Void _CreateSourceItem(::Proto::PileItem* a1)
@@ -61,5 +58,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMAUTOCONVERSIONMAPPING_ISTARGETITEMSCONTAINCONVERSIONED_OFFSET))(this);
 		}
+
 	};
 }

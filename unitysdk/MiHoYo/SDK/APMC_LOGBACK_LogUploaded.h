@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB1A6530)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB1A65B0)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_INVOKE_OFFSET UNITYSDK_OFFSET(0xB1A6510)
-#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED__CTOR_OFFSET UNITYSDK_OFFSET(0xB1A64A0)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF50910)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_CTOR_OFFSET UNITYSDK_OFFSET(0xAF50880)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF50990)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF508F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogUploaded_TypeDefinitionIndex = 46958;
-
 	class APMC_LOGBACK_LogUploaded : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::Boolean a2, ::System::String* a3)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_LOGUPLOADED_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

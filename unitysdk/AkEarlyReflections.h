@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace AK::Wwise { class AuxBus; }
 
-#define AKEARLYREFLECTIONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EEC7090)
-#define AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET UNITYSDK_OFFSET(0x1EEC7160)
-#define AKEARLYREFLECTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC7200)
+#define AKEARLYREFLECTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58EDB0)
+#define AKEARLYREFLECTIONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F58EC40)
+#define AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET UNITYSDK_OFFSET(0x1F58ED10)
 
-inline static constexpr unsigned int AkEarlyReflections_TypeDefinitionIndex = 43723;
-
-class AkEarlyReflections : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::AK::Wwise::AuxBus* reflectionsAuxBus; // 0x18
-	::System::Single reflectionsVolume; // 0x20
-
-	::System::Void _ctor()
+	class AkEarlyReflections : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS__CTOR_OFFSET))(this);
-	}
+	public:
+		::AK::Wwise::AuxBus* reflectionsAuxBus; // 0x18
+		::System::Single reflectionsVolume; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_CTOR_OFFSET))(this);
+		}
 
-	::System::Void OnEnable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_ONENABLE_OFFSET))(this);
-	}
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_ONENABLE_OFFSET))(this);
+		}
 
-	::System::Void SetEarlyReflectionsVolume(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET))(this, a1);
-	}
-};
+		::System::Void SetEarlyReflectionsVolume(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AKEARLYREFLECTIONS_SETEARLYREFLECTIONSVOLUME_OFFSET))(this, a1);
+		}
+
+	};

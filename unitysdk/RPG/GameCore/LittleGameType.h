@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameType_TypeDefinitionIndex = 18626;
-
 	enum class LittleGameType : ::System::Int32
 	{
 		TimeRelayFlame = 301,
@@ -22,5 +20,6 @@ namespace RPG::GameCore
 		ChenLingFes = 431,
 		TeamTowers = 441,
 		RoadRash = 461,
+		MarbleCoopBoss = 462,
 	};
 }

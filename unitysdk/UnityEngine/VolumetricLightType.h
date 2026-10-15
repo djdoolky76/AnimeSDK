@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VolumetricLightType_TypeDefinitionIndex = 4270;
-
 	enum class VolumetricLightType : ::System::Int32
 	{
 		DirectionalVolume = 0,

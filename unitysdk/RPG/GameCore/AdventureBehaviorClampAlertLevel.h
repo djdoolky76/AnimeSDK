@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBehaviorClampAlertLevel_TypeDefinitionIndex = 17419;
-
 	enum class AdventureBehaviorClampAlertLevel : ::System::Int32
 	{
 		None = 0,

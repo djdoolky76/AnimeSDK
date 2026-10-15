@@ -1,114 +1,115 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/JJAABNBJMEH.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/Struct_2_1958EDD0843A6E37.h"
-#include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/System/Decimal.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICFLOAT_GET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D04B310)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_0854E9454645D1B7_OFFSET UNITYSDK_OFFSET(0x1D04B2F0)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_1DCC0C7F8AC23022_OFFSET UNITYSDK_OFFSET(0x1D04B380)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_28C8D0626FC9B6CE_OFFSET UNITYSDK_OFFSET(0x1D04B700)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_3067CA610DDF54A5_OFFSET UNITYSDK_OFFSET(0x1D04AFD0)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_489E71857D4AA76C_OFFSET UNITYSDK_OFFSET(0x1D0348F0)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_5E7F0F255B1949DC_OFFSET UNITYSDK_OFFSET(0x1D04B100)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_681969B4CEFE2E05_OFFSET UNITYSDK_OFFSET(0x1D04B050)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_83E0EBB29FC64260_OFFSET UNITYSDK_OFFSET(0x1D04B320)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_85C6A441D4AD49B0_OFFSET UNITYSDK_OFFSET(0x1D04B1A0)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_A218C1184B27468C_OFFSET UNITYSDK_OFFSET(0x1D04B420)
-#define RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_F7097473EC9DE578_OFFSET UNITYSDK_OFFSET(0x1D04BE80)
-#define RPG_GAMECORE_DYNAMICFLOAT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D04BD90)
-#define RPG_GAMECORE_DYNAMICFLOAT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D04C2C0)
-#define RPG_GAMECORE_DYNAMICFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D04B370)
+#define RPG_GAMECORE_DYNAMICFLOAT_ADCALIBAAIJ_OFFSET UNITYSDK_OFFSET(0x1D627CF0)
+#define RPG_GAMECORE_DYNAMICFLOAT_BBNJCKPKPDN_1_OFFSET UNITYSDK_OFFSET(0x1D627640)
+#define RPG_GAMECORE_DYNAMICFLOAT_BBNJCKPKPDN_2_OFFSET UNITYSDK_OFFSET(0x1D6276F0)
+#define RPG_GAMECORE_DYNAMICFLOAT_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0x1D627500)
+#define RPG_GAMECORE_DYNAMICFLOAT_BIIMDAFMJNF_OFFSET UNITYSDK_OFFSET(0x1D627790)
+#define RPG_GAMECORE_DYNAMICFLOAT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6288B0)
+#define RPG_GAMECORE_DYNAMICFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D627960)
+#define RPG_GAMECORE_DYNAMICFLOAT_DLDBLNNPHKE_OFFSET UNITYSDK_OFFSET(0x1D627910)
+#define RPG_GAMECORE_DYNAMICFLOAT_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1D6278E0)
+#define RPG_GAMECORE_DYNAMICFLOAT_GET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1D627900)
+#define RPG_GAMECORE_DYNAMICFLOAT_GFLDBPJEKND_OFFSET UNITYSDK_OFFSET(0x1D628470)
+#define RPG_GAMECORE_DYNAMICFLOAT_JEBMBDHBFHK_OFFSET UNITYSDK_OFFSET(0x1D627970)
+#define RPG_GAMECORE_DYNAMICFLOAT_LMCBMPMLKNG_OFFSET UNITYSDK_OFFSET(0x1D627A10)
+#define RPG_GAMECORE_DYNAMICFLOAT_PFJHPMGIAOH_OFFSET UNITYSDK_OFFSET(0x1D6275C0)
+#define RPG_GAMECORE_DYNAMICFLOAT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D628380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicFloat_TypeDefinitionIndex = 10820;
-
 	class DynamicFloat : public ::System::Object
 	{
 	public:
+		::RPG::GameCore::FixPoint fixedValue; // 0x10
+		::JJAABNBJMEH postfixExpr; // 0x18
 		static ::RPG::GameCore::DynamicFloat** StaticGet_ONE()
 		{
-			return (::RPG::GameCore::DynamicFloat**)Il2CppClass::FromTypeDefinitionIndex(DynamicFloat_TypeDefinitionIndex)->GetStaticField(0x25850);
+			return (::RPG::GameCore::DynamicFloat**)UnitySDK::FromName("RPG.GameCore", "DynamicFloat")->GetStaticField(0x22380);
 		}
-		static ::RPG::GameCore::DynamicFloat** StaticGet_ONEHUNDRED()
-		{
-			return (::RPG::GameCore::DynamicFloat**)Il2CppClass::FromTypeDefinitionIndex(DynamicFloat_TypeDefinitionIndex)->GetStaticField(0x25858);
-		}
-		static ::RPG::GameCore::DynamicFloat** StaticGet_THREESIXZERO()
-		{
-			return (::RPG::GameCore::DynamicFloat**)Il2CppClass::FromTypeDefinitionIndex(DynamicFloat_TypeDefinitionIndex)->GetStaticField(0x25860);
-		}
+
 		static ::RPG::GameCore::DynamicFloat** StaticGet_ZERO()
 		{
-			return (::RPG::GameCore::DynamicFloat**)Il2CppClass::FromTypeDefinitionIndex(DynamicFloat_TypeDefinitionIndex)->GetStaticField(0x25868);
+			return (::RPG::GameCore::DynamicFloat**)UnitySDK::FromName("RPG.GameCore", "DynamicFloat")->GetStaticField(0x22388);
 		}
-		::RPG::GameCore::FixPoint fixedValue; // 0x10
-		::Struct_2_1958EDD0843A6E37 postfixExpr; // 0x18
+
+		static ::RPG::GameCore::DynamicFloat** StaticGet_ONEHUNDRED()
+		{
+			return (::RPG::GameCore::DynamicFloat**)UnitySDK::FromName("RPG.GameCore", "DynamicFloat")->GetStaticField(0x22390);
+		}
+
+		static ::RPG::GameCore::DynamicFloat** StaticGet_THREESIXZERO()
+		{
+			return (::RPG::GameCore::DynamicFloat**)UnitySDK::FromName("RPG.GameCore", "DynamicFloat")->GetStaticField(0x22398);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_CCTOR_OFFSET))();
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_489E71857D4AA76C(::System::Int32 a1)
+		static ::RPG::GameCore::DynamicFloat* BBNJCKPKPDN(::System::Int32 a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_489E71857D4AA76C_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_BBNJCKPKPDN_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_681969B4CEFE2E05(::System::Decimal a1)
+		static ::RPG::GameCore::DynamicFloat* BBNJCKPKPDN_1(::System::Decimal a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::System::Decimal))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_681969B4CEFE2E05_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::System::Decimal))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_BBNJCKPKPDN_1_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_5E7F0F255B1949DC(::RPG::GameCore::FixPoint a1)
+		static ::RPG::GameCore::DynamicFloat* BBNJCKPKPDN_2(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_5E7F0F255B1949DC_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_BBNJCKPKPDN_2_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_85C6A441D4AD49B0(::System::Single a1)
+		static ::RPG::GameCore::DynamicFloat* BIIMDAFMJNF(::System::Single a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_85C6A441D4AD49B0_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_BIIMDAFMJNF_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_0854E9454645D1B7(::RPG::GameCore::DynamicFloat* a1, ::RPG::GameCore::FixPoint a2)
+		static ::System::Boolean FEIIDFFOICL(::RPG::GameCore::DynamicFloat* a1, ::RPG::GameCore::FixPoint a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::DynamicFloat*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_0854E9454645D1B7_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::DynamicFloat*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_FEIIDFFOICL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean Method_1_83E0EBB29FC64260(::RPG::GameCore::DynamicFloat* a1, ::RPG::GameCore::FixPoint a2)
+		static ::System::Boolean DLDBLNNPHKE(::RPG::GameCore::DynamicFloat* a1, ::RPG::GameCore::FixPoint a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::DynamicFloat*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_83E0EBB29FC64260_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::DynamicFloat*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_DLDBLNNPHKE_OFFSET))(a1, a2);
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_3067CA610DDF54A5(::RPG::GameCore::FixPoint a1)
+		static ::RPG::GameCore::DynamicFloat* PFJHPMGIAOH(::RPG::GameCore::FixPoint a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_3067CA610DDF54A5_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_PFJHPMGIAOH_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_1DCC0C7F8AC23022(::System::String* a1)
+		static ::RPG::GameCore::DynamicFloat* JEBMBDHBFHK(::System::String* a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_1DCC0C7F8AC23022_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_JEBMBDHBFHK_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_A218C1184B27468C(::SimpleJSON::JSONNode* a1)
+		static ::RPG::GameCore::DynamicFloat* LMCBMPMLKNG(::SimpleJSON::JSONNode* a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_A218C1184B27468C_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::SimpleJSON::JSONNode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_LMCBMPMLKNG_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::DynamicFloat* Method_1_28C8D0626FC9B6CE(::Class_1_7A22A3DBEEDD1F80* a1)
+		static ::RPG::GameCore::DynamicFloat* ADCALIBAAIJ(::FCOEMCEDLNL* a1)
 		{
-			return ((::RPG::GameCore::DynamicFloat*(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_28C8D0626FC9B6CE_OFFSET))(a1);
+			return ((::RPG::GameCore::DynamicFloat*(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_ADCALIBAAIJ_OFFSET))(a1);
 		}
 
 		::System::String* ToString()
@@ -116,14 +117,15 @@ namespace RPG::GameCore
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void Method_1_F7097473EC9DE578(::Class_1_7A22A3DBEEDD1F80* a1)
+		::System::Void GFLDBPJEKND(::FCOEMCEDLNL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_METHOD_1_F7097473EC9DE578_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_GFLDBPJEKND_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsDynamic()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICFLOAT_GET_ISDYNAMIC_OFFSET))(this);
 		}
+
 	};
 }

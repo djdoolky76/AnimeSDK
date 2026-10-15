@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC4780)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC4810)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC4760)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC46F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F68CCF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F68CC60)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F68CD80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F68CCD0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__TriggerHapticPulse_TypeDefinitionIndex = 37628;
-
 	class IVRSystem__TriggerHapticPulse : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::UInt32 a1, ::System::UInt32 a2, ::System::Char a3)
@@ -37,5 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__TRIGGERHAPTICPULSE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

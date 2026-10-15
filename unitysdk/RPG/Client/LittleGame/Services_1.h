@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_47EE63CB5C4DC8FC_5.h"
-
+#include "unitysdk/EMJIDLCDFMI.h"
 namespace RPG::Client::LittleGame { template <typename T> class IBillBoardService_1; }
 namespace RPG::Client::LittleGame { template <typename T> class ICameraService_1; }
 namespace RPG::Client::LittleGame { template <typename T> class ICurveService_1; }
@@ -19,25 +18,23 @@ namespace RPG::Client::LittleGame { template <typename T> class ITriggerService_
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int Services_1_TypeDefinitionIndex = 41137;
-
-	template <typename TEntity>
-	class Services_1 : public ::Class_1_47EE63CB5C4DC8FC_5
+	template <typename T>
+	class Services_1 : public ::EMJIDLCDFMI
 	{
 	public:
-		::RPG::Client::LittleGame::IGenericViewService_1<TEntity>* GenericViewService; // 0x0
-		::RPG::Client::LittleGame::ICameraService_1<TEntity>* CameraService; // 0x0
-		::RPG::Client::LittleGame::ITriggerService_1<TEntity>* TriggerService; // 0x0
-		::RPG::Client::LittleGame::IStateTreeService_1<TEntity>* StateTreeService; // 0x0
-		::RPG::Client::LittleGame::INavigationService_1<TEntity>* NavService; // 0x0
-		::RPG::Client::LittleGame::IGenericEventService_1<TEntity>* EventService; // 0x0
-		::RPG::Client::LittleGame::ILevelGraphService_1<TEntity>* LevelGraphService; // 0x0
-		::RPG::Client::LittleGame::IHoYoTagService_1<TEntity>* HoYoTagService; // 0x0
-		::RPG::Client::LittleGame::ICurveService_1<TEntity>* CurveService; // 0x0
-		::RPG::Client::LittleGame::ILevelVariableService_1<TEntity>* LevelVarService; // 0x0
-		::RPG::Client::LittleGame::IEffectService_1<TEntity>* EffectService; // 0x0
-		::RPG::Client::LittleGame::IEntityScaledTimeService_1<TEntity>* EntityScaledTimeService; // 0x0
-		::RPG::Client::LittleGame::IBillBoardService_1<TEntity>* BillBoardService; // 0x0
-		::RPG::Client::LittleGame::IMissionService_1<TEntity>* MissionService; // 0x0
+		::RPG::Client::LittleGame::IGenericViewService_1<T>* GenericViewService; // 0x0
+		::RPG::Client::LittleGame::ICameraService_1<T>* CameraService; // 0x0
+		::RPG::Client::LittleGame::ITriggerService_1<T>* TriggerService; // 0x0
+		::RPG::Client::LittleGame::IStateTreeService_1<T>* StateTreeService; // 0x0
+		::RPG::Client::LittleGame::INavigationService_1<T>* NavService; // 0x0
+		::RPG::Client::LittleGame::IGenericEventService_1<T>* EventService; // 0x0
+		::RPG::Client::LittleGame::ILevelGraphService_1<T>* LevelGraphService; // 0x0
+		::RPG::Client::LittleGame::IHoYoTagService_1<T>* HoYoTagService; // 0x0
+		::RPG::Client::LittleGame::ICurveService_1<T>* CurveService; // 0x0
+		::RPG::Client::LittleGame::ILevelVariableService_1<T>* LevelVarService; // 0x0
+		::RPG::Client::LittleGame::IEffectService_1<T>* EffectService; // 0x0
+		::RPG::Client::LittleGame::IEntityScaledTimeService_1<T>* EntityScaledTimeService; // 0x0
+		::RPG::Client::LittleGame::IBillBoardService_1<T>* BillBoardService; // 0x0
+		::RPG::Client::LittleGame::IMissionService_1<T>* MissionService; // 0x0
 	};
 }

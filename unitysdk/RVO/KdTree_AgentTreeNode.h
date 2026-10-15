@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RVO
 {
-	inline static constexpr unsigned int KdTree_AgentTreeNode_TypeDefinitionIndex = 44889;
-
 	struct alignas(4) KdTree_AgentTreeNode
 	{
 		::System::Int32 begin_; // 0x10

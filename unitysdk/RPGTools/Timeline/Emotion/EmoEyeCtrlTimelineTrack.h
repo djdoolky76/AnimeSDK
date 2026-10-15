@@ -3,25 +3,22 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/BaseEmoTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE851260)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE851B80)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE851980)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE851B90)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8EF410)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EFD40)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE8EFD30)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8EFB30)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoEyeCtrlTimelineTrack_TypeDefinitionIndex = 49230;
-
 	class EmoEyeCtrlTimelineTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +35,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOEYECTRLTIMELINETRACK_GET_USEUNIQUECHARACTERNAME_OFFSET))(this);
 		}
+
 	};
 }

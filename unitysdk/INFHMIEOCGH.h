@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class SetEffectAnimatorSyncWithTimeLine; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define INFHMIEOCGH_CTOR_OFFSET UNITYSDK_OFFSET(0x164EC6A0)
+#define INFHMIEOCGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164EC6D0)
+
+	class INFHMIEOCGH
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetEffectAnimatorSyncWithTimeLine*))((::PBYTE)hIl2Cpp + INFHMIEOCGH_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INFHMIEOCGH_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

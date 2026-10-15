@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CustomEventClip.h"
+#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
 namespace RPGTools::Timeline { class TalkBackgroundCGBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F2A20)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F2A10)
-#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F2B90)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE948970)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE948AE0)
+#define RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE948960)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkBackgroundCGClip_TypeDefinitionIndex = 48827;
-
 	class TalkBackgroundCGClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:
 		::RPGTools::Timeline::TalkBackgroundCGBehaviour* template_; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKBACKGROUNDCGCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

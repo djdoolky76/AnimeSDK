@@ -1,31 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ServerPrefsData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SERVERPREFSDATA_METHOD_2_DF08BE0ED7138082_OFFSET UNITYSDK_OFFSET(0x1D4DE000)
-#define RPG_GAMECORE_SERVERPREFSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DE100)
+#define RPG_GAMECORE_SERVERPREFSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA91E70)
+#define RPG_GAMECORE_SERVERPREFSDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA91D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsData_TypeDefinitionIndex = 24137;
-
 	class ServerPrefsData : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 MaxLength; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* ValueType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERPREFSDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERPREFSDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DF08BE0ED7138082(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ServerPrefsData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ServerPrefsData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ServerPrefsData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERPREFSDATA_METHOD_2_DF08BE0ED7138082_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ServerPrefsData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SERVERPREFSDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

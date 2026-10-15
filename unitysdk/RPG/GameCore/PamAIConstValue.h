@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PamAIConstValue; }
 namespace RPG::GameCore { class PamLevelInfo; }
 
-#define RPG_GAMECORE_PAMAICONSTVALUE_METHOD_2_A7028302576522C5_OFFSET UNITYSDK_OFFSET(0x1D307300)
-#define RPG_GAMECORE_PAMAICONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3076A0)
+#define RPG_GAMECORE_PAMAICONSTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EB390)
+#define RPG_GAMECORE_PAMAICONSTVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8EAFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamAIConstValue_TypeDefinitionIndex = 15450;
-
 	class PamAIConstValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -25,16 +23,17 @@ namespace RPG::GameCore
 		::System::UInt32 MoodBuffTurnNumberMax; // 0x2C
 		::System::Single MoodBuffCorrection; // 0x30
 		::System::Boolean AllowMoodCorretClamp; // 0x34
+		::System::Byte _padding0[0x3];
 		::Il2CppArray<::RPG::GameCore::PamLevelInfo*>* PamLevelInfoList; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMAICONSTVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMAICONSTVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A7028302576522C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PamAIConstValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PamAIConstValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PamAIConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMAICONSTVALUE_METHOD_2_A7028302576522C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PamAIConstValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMAICONSTVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

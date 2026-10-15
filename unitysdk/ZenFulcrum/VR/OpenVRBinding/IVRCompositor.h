@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRCompositor__CanRenderScene; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRCompositor__ClearLastSubmittedFrame; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRCompositor__ClearSkyboxOverride; }
@@ -48,8 +46,6 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRCompositor__WaitGetPoses; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor_TypeDefinitionIndex = 37717;
-
 	struct alignas(8) IVRCompositor
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRCompositor__SetTrackingSpace* SetTrackingSpace; // 0x10

@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/CXHandheld/BindManagerHandheld.h"
-
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1B9D3C20)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x1B9D4160)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x1B9D3330)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B9D2CB0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9D0AB0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED1F40)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BED5260)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_GETBINDINGWEBURL_OFFSET UNITYSDK_OFFSET(0x1BED57A0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_PERFORMBINDINGFLOW_OFFSET UNITYSDK_OFFSET(0x1BED4960)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_REACTIVATEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BED42E0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int BindManagerCXHandheld_TypeDefinitionIndex = 8681;
-
 	class BindManagerCXHandheld : public ::MiHoYo::SDK::PC::OS::CXHandheld::BindManagerHandheld
 	{
 	public:
 		// static const ::System::String* PlatformTag; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_CTOR_OFFSET))(this);
 		}
 
-		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
+		::System::Void GenerateAccessToken(::System::Action* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PerformBindingFlow(::System::String* a1)
@@ -44,5 +40,6 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERCXHANDHELD_REACTIVATEACCOUNT_OFFSET))(this);
 		}
+
 	};
 }

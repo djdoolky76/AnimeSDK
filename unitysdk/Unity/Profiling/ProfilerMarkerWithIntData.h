@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define UNITY_PROFILING_PROFILERMARKERWITHINTDATA_BEGIN_OFFSET UNITYSDK_OFFSET(0x3BB5BC0)
-#define UNITY_PROFILING_PROFILERMARKERWITHINTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1ED04C50)
-#define UNITY_PROFILING_PROFILERMARKERWITHINTDATA_END_OFFSET UNITYSDK_OFFSET(0x3BB5BA0)
+#define UNITY_PROFILING_PROFILERMARKERWITHINTDATA_BEGIN_OFFSET UNITYSDK_OFFSET(0x3C6AFE0)
+#define UNITY_PROFILING_PROFILERMARKERWITHINTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1F3CC9F0)
+#define UNITY_PROFILING_PROFILERMARKERWITHINTDATA_END_OFFSET UNITYSDK_OFFSET(0x3C6AFC0)
 
 namespace Unity::Profiling
 {
-	inline static constexpr unsigned int ProfilerMarkerWithIntData_TypeDefinitionIndex = 3948;
-
-	struct alignas(8) ProfilerMarkerWithIntData
+	struct alignas(4) ProfilerMarkerWithIntData
 	{
 		::System::IntPtr _marker; // 0x10
 		::System::Int32 _metadataCount; // 0x18
-
+		/*
 		static ::Unity::Profiling::ProfilerMarkerWithIntData Create(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
 			return ((::Unity::Profiling::ProfilerMarkerWithIntData(*)(::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITY_PROFILING_PROFILERMARKERWITHINTDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
+		*/
 
 		::System::Void End()
 		{
@@ -31,5 +28,6 @@ namespace Unity::Profiling
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_PROFILING_PROFILERMARKERWITHINTDATA_BEGIN_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

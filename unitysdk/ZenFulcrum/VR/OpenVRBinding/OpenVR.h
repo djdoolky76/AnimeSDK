@@ -3,7 +3,6 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRApplicationType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRInitError.h"
-
 namespace System { class String; }
 namespace ZenFulcrum::VR::OpenVRBinding { class CVRApplications; }
 namespace ZenFulcrum::VR::OpenVRBinding { class CVRChaperone; }
@@ -18,85 +17,85 @@ namespace ZenFulcrum::VR::OpenVRBinding { class CVRSystem; }
 namespace ZenFulcrum::VR::OpenVRBinding { class CVRTrackedCamera; }
 namespace ZenFulcrum::VR::OpenVRBinding { class OpenVR_COpenVRContext; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1EFC5FF0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETINITTOKEN_OFFSET UNITYSDK_OFFSET(0x1EFC6270)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETSTRINGFORHMDERROR_OFFSET UNITYSDK_OFFSET(0x1EFC5EC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_APPLICATIONS_OFFSET UNITYSDK_OFFSET(0x1EFC7B40)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_CHAPERONESETUP_OFFSET UNITYSDK_OFFSET(0x1EFC6A00)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_CHAPERONE_OFFSET UNITYSDK_OFFSET(0x1EFC6720)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_COMPOSITOR_OFFSET UNITYSDK_OFFSET(0x1EFC6CE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_EXTENDEDDISPLAY_OFFSET UNITYSDK_OFFSET(0x1EFC7580)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_OPENVRINTERNAL_MODULECONTEXT_OFFSET UNITYSDK_OFFSET(0x1EFC6390)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_OVERLAY_OFFSET UNITYSDK_OFFSET(0x1EFC6FC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_RENDERMODELS_OFFSET UNITYSDK_OFFSET(0x1EFC72A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_SCREENSHOTS_OFFSET UNITYSDK_OFFSET(0x1EFC7E20)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1EFC7860)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1EFC6440)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_TRACKEDCAMERA_OFFSET UNITYSDK_OFFSET(0x1EFC8100)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_VRTOKEN_OFFSET UNITYSDK_OFFSET(0x1EFC6370)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EFC5AA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INIT_OFFSET UNITYSDK_OFFSET(0x1EFC83E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_ISHMDPRESENT_OFFSET UNITYSDK_OFFSET(0x1EFC5CC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_ISINTERFACEVERSIONVALID_OFFSET UNITYSDK_OFFSET(0x1EFC6130)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_ISRUNTIMEINSTALLED_OFFSET UNITYSDK_OFFSET(0x1EFC5DC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_SET_VRTOKEN_OFFSET UNITYSDK_OFFSET(0x1EFC6380)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_SHUTDOWNINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EFC5BC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1EFC8700)
-#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC8780)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F690CF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETGENERICINTERFACE_OFFSET UNITYSDK_OFFSET(0x1F68E560)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETINITTOKEN_OFFSET UNITYSDK_OFFSET(0x1F68E7E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETSTRINGFORHMDERROR_OFFSET UNITYSDK_OFFSET(0x1F68E430)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_APPLICATIONS_OFFSET UNITYSDK_OFFSET(0x1F6900B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_CHAPERONESETUP_OFFSET UNITYSDK_OFFSET(0x1F68EF70)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_CHAPERONE_OFFSET UNITYSDK_OFFSET(0x1F68EC90)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_COMPOSITOR_OFFSET UNITYSDK_OFFSET(0x1F68F250)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_EXTENDEDDISPLAY_OFFSET UNITYSDK_OFFSET(0x1F68FAF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_OPENVRINTERNAL_MODULECONTEXT_OFFSET UNITYSDK_OFFSET(0x1F68E900)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_OVERLAY_OFFSET UNITYSDK_OFFSET(0x1F68F530)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_RENDERMODELS_OFFSET UNITYSDK_OFFSET(0x1F68F810)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_SCREENSHOTS_OFFSET UNITYSDK_OFFSET(0x1F690390)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1F68FDD0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_SYSTEM_OFFSET UNITYSDK_OFFSET(0x1F68E9B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_TRACKEDCAMERA_OFFSET UNITYSDK_OFFSET(0x1F690670)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_VRTOKEN_OFFSET UNITYSDK_OFFSET(0x1F68E8E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F68E010)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INIT_OFFSET UNITYSDK_OFFSET(0x1F690950)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_ISHMDPRESENT_OFFSET UNITYSDK_OFFSET(0x1F68E230)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_ISINTERFACEVERSIONVALID_OFFSET UNITYSDK_OFFSET(0x1F68E6A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_ISRUNTIMEINSTALLED_OFFSET UNITYSDK_OFFSET(0x1F68E330)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_SET_VRTOKEN_OFFSET UNITYSDK_OFFSET(0x1F68E8F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_SHUTDOWNINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F68E130)
+#define ZENFULCRUM_VR_OPENVRBINDING_OPENVR_SHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1F690C70)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int OpenVR_TypeDefinitionIndex = 38030;
-
 	class OpenVR : public ::System::Object
 	{
 	public:
 		static ::ZenFulcrum::VR::OpenVRBinding::OpenVR_COpenVRContext** StaticGet__OpenVRInternal_ModuleContext()
 		{
-			return (::ZenFulcrum::VR::OpenVRBinding::OpenVR_COpenVRContext**)Il2CppClass::FromTypeDefinitionIndex(OpenVR_TypeDefinitionIndex)->GetStaticField(0xDE0);
+			return (::ZenFulcrum::VR::OpenVRBinding::OpenVR_COpenVRContext**)UnitySDK::FromName("ZenFulcrum.VR.OpenVRBinding", "OpenVR")->GetStaticField(0xAC0);
 		}
+
 		static ::System::UInt32* StaticGet__VRToken_k__BackingField()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(OpenVR_TypeDefinitionIndex)->GetStaticField(0x730);
+			return (::System::UInt32*)UnitySDK::FromName("ZenFulcrum.VR.OpenVRBinding", "OpenVR")->GetStaticField(0x570);
 		}
-		// static const ::System::UInt32 k_nDriverNone = 0xFFFFFFFF; // 0x0
-		// static const ::System::UInt32 k_unMaxDriverDebugResponseSize = 0x8000; // 0x0
-		// static const ::System::UInt32 k_unTrackedDeviceIndex_Hmd = 0x0; // 0x0
-		// static const ::System::UInt32 k_unMaxTrackedDeviceCount = 0x10; // 0x0
-		// static const ::System::UInt32 k_unTrackedDeviceIndexOther = 0xFFFFFFFE; // 0x0
-		// static const ::System::UInt32 k_unTrackedDeviceIndexInvalid = 0xFFFFFFFF; // 0x0
-		// static const ::System::UInt64 k_ulInvalidPropertyContainer = 0x0; // 0x0
-		// static const ::System::UInt32 k_unInvalidPropertyTag = 0x0; // 0x0
-		// static const ::System::UInt32 k_unFloatPropertyTag = 0x1; // 0x0
-		// static const ::System::UInt32 k_unInt32PropertyTag = 0x2; // 0x0
-		// static const ::System::UInt32 k_unUint64PropertyTag = 0x3; // 0x0
-		// static const ::System::UInt32 k_unBoolPropertyTag = 0x4; // 0x0
-		// static const ::System::UInt32 k_unStringPropertyTag = 0x5; // 0x0
-		// static const ::System::UInt32 k_unHmdMatrix34PropertyTag = 0x14; // 0x0
-		// static const ::System::UInt32 k_unHmdMatrix44PropertyTag = 0x15; // 0x0
-		// static const ::System::UInt32 k_unHmdVector3PropertyTag = 0x16; // 0x0
-		// static const ::System::UInt32 k_unHmdVector4PropertyTag = 0x17; // 0x0
-		// static const ::System::UInt32 k_unHiddenAreaPropertyTag = 0x1E; // 0x0
-		// static const ::System::UInt32 k_unOpenVRInternalReserved_Start = 0x3E8; // 0x0
-		// static const ::System::UInt32 k_unOpenVRInternalReserved_End = 0x2710; // 0x0
-		// static const ::System::UInt32 k_unMaxPropertyStringSize = 0x8000; // 0x0
-		// static const ::System::UInt32 k_unControllerStateAxisCount = 0x5; // 0x0
-		// static const ::System::UInt64 k_ulOverlayHandleInvalid = 0x0; // 0x0
-		// static const ::System::UInt32 k_unScreenshotHandleInvalid = 0x0; // 0x0
+
+		// static const ::System::Object k_nDriverNone; // 0x0
+		// static const ::System::Object k_unMaxDriverDebugResponseSize; // 0x0
+		// static const ::System::Object k_unTrackedDeviceIndex_Hmd; // 0x0
+		// static const ::System::Object k_unMaxTrackedDeviceCount; // 0x0
+		// static const ::System::Object k_unTrackedDeviceIndexOther; // 0x0
+		// static const ::System::Object k_unTrackedDeviceIndexInvalid; // 0x0
+		// static const ::System::Object k_ulInvalidPropertyContainer; // 0x0
+		// static const ::System::Object k_unInvalidPropertyTag; // 0x0
+		// static const ::System::Object k_unFloatPropertyTag; // 0x0
+		// static const ::System::Object k_unInt32PropertyTag; // 0x0
+		// static const ::System::Object k_unUint64PropertyTag; // 0x0
+		// static const ::System::Object k_unBoolPropertyTag; // 0x0
+		// static const ::System::Object k_unStringPropertyTag; // 0x0
+		// static const ::System::Object k_unHmdMatrix34PropertyTag; // 0x0
+		// static const ::System::Object k_unHmdMatrix44PropertyTag; // 0x0
+		// static const ::System::Object k_unHmdVector3PropertyTag; // 0x0
+		// static const ::System::Object k_unHmdVector4PropertyTag; // 0x0
+		// static const ::System::Object k_unHiddenAreaPropertyTag; // 0x0
+		// static const ::System::Object k_unOpenVRInternalReserved_Start; // 0x0
+		// static const ::System::Object k_unOpenVRInternalReserved_End; // 0x0
+		// static const ::System::Object k_unMaxPropertyStringSize; // 0x0
+		// static const ::System::Object k_unControllerStateAxisCount; // 0x0
+		// static const ::System::Object k_ulOverlayHandleInvalid; // 0x0
+		// static const ::System::Object k_unScreenshotHandleInvalid; // 0x0
 		// static const ::System::String* IVRSystem_Version; // 0x0
 		// static const ::System::String* IVRExtendedDisplay_Version; // 0x0
 		// static const ::System::String* IVRTrackedCamera_Version; // 0x0
-		// static const ::System::UInt32 k_unMaxApplicationKeyLength = 0x80; // 0x0
+		// static const ::System::Object k_unMaxApplicationKeyLength; // 0x0
 		// static const ::System::String* k_pch_MimeType_HomeApp; // 0x0
 		// static const ::System::String* k_pch_MimeType_GameTheater; // 0x0
 		// static const ::System::String* IVRApplications_Version; // 0x0
 		// static const ::System::String* IVRChaperone_Version; // 0x0
 		// static const ::System::String* IVRChaperoneSetup_Version; // 0x0
 		// static const ::System::String* IVRCompositor_Version; // 0x0
-		// static const ::System::UInt32 k_unVROverlayMaxKeyLength = 0x80; // 0x0
-		// static const ::System::UInt32 k_unVROverlayMaxNameLength = 0x80; // 0x0
-		// static const ::System::UInt32 k_unMaxOverlayCount = 0x40; // 0x0
-		// static const ::System::UInt32 k_unMaxOverlayIntersectionMaskPrimitivesCount = 0x20; // 0x0
+		// static const ::System::Object k_unVROverlayMaxKeyLength; // 0x0
+		// static const ::System::Object k_unVROverlayMaxNameLength; // 0x0
+		// static const ::System::Object k_unMaxOverlayCount; // 0x0
+		// static const ::System::Object k_unMaxOverlayIntersectionMaskPrimitivesCount; // 0x0
 		// static const ::System::String* IVROverlay_Version; // 0x0
 		// static const ::System::String* k_pch_Controller_Component_GDC2015; // 0x0
 		// static const ::System::String* k_pch_Controller_Component_Base; // 0x0
@@ -104,9 +103,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		// static const ::System::String* k_pch_Controller_Component_HandGrip; // 0x0
 		// static const ::System::String* k_pch_Controller_Component_Status; // 0x0
 		// static const ::System::String* IVRRenderModels_Version; // 0x0
-		// static const ::System::UInt32 k_unNotificationTextMaxSize = 0x100; // 0x0
+		// static const ::System::Object k_unNotificationTextMaxSize; // 0x0
 		// static const ::System::String* IVRNotifications_Version; // 0x0
-		// static const ::System::UInt32 k_unMaxSettingsKeyLength = 0x80; // 0x0
+		// static const ::System::Object k_unMaxSettingsKeyLength; // 0x0
 		// static const ::System::String* IVRSettings_Version; // 0x0
 		// static const ::System::String* k_pch_SteamVR_Section; // 0x0
 		// static const ::System::String* k_pch_SteamVR_RequireHmd_String; // 0x0
@@ -235,15 +234,14 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		// static const ::System::String* IVRResources_Version; // 0x0
 		// static const ::System::String* IVRDriverManager_Version; // 0x0
 		// static const ::System::String* FnTable_Prefix; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::UInt32 InitInternal(::ZenFulcrum::VR::OpenVRBinding::EVRInitError& a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType a2)
+		static ::System::UInt32 InitInternal(::ZenFulcrum::VR::OpenVRBinding::EVRInitError a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType a2)
 		{
-			return ((::System::UInt32(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError&, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INITINTERNAL_OFFSET))(a1, a2);
+			return ((::System::UInt32(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INITINTERNAL_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void ShutdownInternal()
@@ -266,9 +264,9 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::System::String*(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETSTRINGFORHMDERROR_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr GetGenericInterface(::System::String* a1, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError& a2)
+		static ::System::IntPtr GetGenericInterface(::System::String* a1, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError a2)
 		{
-			return ((::System::IntPtr(*)(::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETGENERICINTERFACE_OFFSET))(a1, a2);
+			return ((::System::IntPtr(*)(::System::String*, ::ZenFulcrum::VR::OpenVRBinding::EVRInitError))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GETGENERICINTERFACE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean IsInterfaceVersionValid(::System::String* a1)
@@ -351,14 +349,15 @@ namespace ZenFulcrum::VR::OpenVRBinding
 			return ((::ZenFulcrum::VR::OpenVRBinding::CVRTrackedCamera*(*)())((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_GET_TRACKEDCAMERA_OFFSET))();
 		}
 
-		static ::ZenFulcrum::VR::OpenVRBinding::CVRSystem* Init(::ZenFulcrum::VR::OpenVRBinding::EVRInitError& a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType a2)
+		static ::ZenFulcrum::VR::OpenVRBinding::CVRSystem* Init(::ZenFulcrum::VR::OpenVRBinding::EVRInitError a1, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType a2)
 		{
-			return ((::ZenFulcrum::VR::OpenVRBinding::CVRSystem*(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError&, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INIT_OFFSET))(a1, a2);
+			return ((::ZenFulcrum::VR::OpenVRBinding::CVRSystem*(*)(::ZenFulcrum::VR::OpenVRBinding::EVRInitError, ::ZenFulcrum::VR::OpenVRBinding::EVRApplicationType))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_INIT_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Shutdown()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_OPENVR_SHUTDOWN_OFFSET))();
 		}
+
 	};
 }

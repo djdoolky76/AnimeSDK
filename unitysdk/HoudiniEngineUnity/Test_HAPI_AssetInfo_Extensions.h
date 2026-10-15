@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HoudiniEngineUnity/HAPI_AssetInfo.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/HoudiniEngineUnity/HAPI_AssetInfo.h"
 namespace HoudiniEngineUnity { class Test_HAPI_AssetInfo; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_ASSETINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4AF1D0)
+#define HOUDINIENGINEUNITY_TEST_HAPI_ASSETINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B1200)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_AssetInfo_Extensions_TypeDefinitionIndex = 39398;
-
 	class Test_HAPI_AssetInfo_Extensions : public ::System::Object
 	{
 	public:
@@ -18,5 +15,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::HoudiniEngineUnity::Test_HAPI_AssetInfo*(*)(::HoudiniEngineUnity::HAPI_AssetInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_HAPI_ASSETINFO_EXTENSIONS_TOTESTOBJECT_OFFSET))(a1);
 		}
+
 	};
 }

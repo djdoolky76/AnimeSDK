@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_FollowMode_TypeDefinitionIndex = 24197;
-
 	enum class ST_FollowMode : ::System::Int32
 	{
 		DefaultNpc = 0,

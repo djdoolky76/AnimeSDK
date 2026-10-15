@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/Rendering/TextureDimension.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AstraFXResource_TextureInfo_TypeDefinitionIndex = 4089;
-
 	struct alignas(4) AstraFXResource_TextureInfo
 	{
 		::UnityEngine::Rendering::TextureDimension dim; // 0x10

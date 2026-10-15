@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DrinkMakerDayRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D040F40)
-#define RPG_GAMECORE_DRINKMAKERDAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D041560)
+#define RPG_GAMECORE_DRINKMAKERDAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D61DB90)
+#define RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D61D570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerDayRow_TypeDefinitionIndex = 13072;
-
 	class DrinkMakerDayRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FinishDaySubMissionIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* GuestSequenceList; // 0x18
-		::System::UInt32 CanStartSubMissionID; // 0x20
-		::System::UInt32 DayID; // 0x24
-
+		::System::UInt32 DayID; // 0x20
+		::System::UInt32 CanStartSubMissionID; // 0x24
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERDAYROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERDAYROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DrinkMakerDayRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::DrinkMakerDayRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DrinkMakerDayRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DrinkMakerDayRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRINKMAKERDAYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

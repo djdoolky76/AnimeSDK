@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ElfTableConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ELFTABLECONFIG_METHOD_3_DAF835FE23AA7DA0_OFFSET UNITYSDK_OFFSET(0x1D05CE50)
-#define RPG_GAMECORE_ELFTABLECONFIG_METHOD_3_E2427A7A11C26BEC_OFFSET UNITYSDK_OFFSET(0x1D05CD80)
-#define RPG_GAMECORE_ELFTABLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D05CE40)
+#define RPG_GAMECORE_ELFTABLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6399D0)
+#define RPG_GAMECORE_ELFTABLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6399E0)
+#define RPG_GAMECORE_ELFTABLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D639910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfTableConfig_TypeDefinitionIndex = 18266;
-
 	class ElfTableConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::UInt32 Level; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTABLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTABLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E2427A7A11C26BEC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfTableConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfTableConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfTableConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTABLECONFIG_METHOD_3_E2427A7A11C26BEC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfTableConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTABLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DAF835FE23AA7DA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfTableConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfTableConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfTableConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTABLECONFIG_METHOD_3_DAF835FE23AA7DA0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfTableConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTABLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

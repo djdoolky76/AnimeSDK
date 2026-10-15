@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CakeRaceBattleItemUIHandler_MouseCornerPositionType.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC9BB4C0)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC9BB550)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xC9BA730)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BB450)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC908DA0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xC908D30)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC908E30)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xC908010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_DragCornerDelegate_TypeDefinitionIndex = 63073;
-
 	class CakeRaceBattleItemUIHandler_DragCornerDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::RPG::Client::CakeRaceBattleItemUIHandler_MouseCornerPositionType a1, ::System::Boolean a2)
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGCORNERDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

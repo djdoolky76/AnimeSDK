@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
 namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig_TypeDefinitionIndex = 75482;
-
 	struct alignas(8) RoadRashGameSettingsConfigure_BoundaryImpactEffectConfig
 	{
 		::System::String* VisualEffectPath; // 0x10

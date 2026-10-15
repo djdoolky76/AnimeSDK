@@ -2,29 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/ReporterUtil/ReporterDataItem_ItemField.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataItem; }
 
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xB291EA0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_GET_ACSEND_OFFSET UNITYSDK_OFFSET(0xB291E50)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_GET_FIELD_OFFSET UNITYSDK_OFFSET(0xB291E70)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_SET_ACSEND_OFFSET UNITYSDK_OFFSET(0xB291E60)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_SET_FIELD_OFFSET UNITYSDK_OFFSET(0xB291E80)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xB291E90)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xB030BC0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xB030BB0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_GET_ACSEND_OFFSET UNITYSDK_OFFSET(0xB030B70)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_GET_FIELD_OFFSET UNITYSDK_OFFSET(0xB030B90)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_SET_ACSEND_OFFSET UNITYSDK_OFFSET(0xB030B80)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_SET_FIELD_OFFSET UNITYSDK_OFFSET(0xB030BA0)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int ReporterDataItem_ItemComparer_TypeDefinitionIndex = 47106;
-
 	class ReporterDataItem_ItemComparer : public ::System::Object
 	{
 	public:
-		::System::Boolean _Acsend_k__BackingField; // 0x10
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField _Field_k__BackingField; // 0x14
-
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField _Field_k__BackingField; // 0x10
+		::System::Boolean _Acsend_k__BackingField; // 0x14
 		::System::Void _ctor(::System::Boolean a1, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem_ItemField))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_Acsend()
@@ -51,5 +47,6 @@ namespace MiHoYo::SDK::ReporterUtil
 		{
 			return ((::System::Int32(*)(::PVOID, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem*, ::MiHoYo::SDK::ReporterUtil::ReporterDataItem*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERDATAITEM_ITEMCOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

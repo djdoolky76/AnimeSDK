@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRNotifications__CreateNotification; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRNotifications__RemoveNotification; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRNotifications_TypeDefinitionIndex = 37862;
-
 	struct alignas(8) IVRNotifications
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRNotifications__CreateNotification* CreateNotification; // 0x10

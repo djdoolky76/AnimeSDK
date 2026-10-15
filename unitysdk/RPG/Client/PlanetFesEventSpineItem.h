@@ -2,42 +2,40 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PlanetFesEventSpineItemType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine::Unity { class SkeletonGraphic; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_ISFADEANIMPLAYING_OFFSET UNITYSDK_OFFSET(0xDB46D10)
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWFADEIN_OFFSET UNITYSDK_OFFSET(0xDB46FE0)
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWFADEOUT_OFFSET UNITYSDK_OFFSET(0xDB473C0)
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWRANDOMSPINEANIM_OFFSET UNITYSDK_OFFSET(0xDB469C0)
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWSPINEANIM_OFFSET UNITYSDK_OFFSET(0xDB46C70)
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDB47610)
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM__ISTIMELINEPLAYING_OFFSET UNITYSDK_OFFSET(0xDB46F40)
-#define RPG_CLIENT_PLANETFESEVENTSPINEITEM__STOPALLTIMELINE_OFFSET UNITYSDK_OFFSET(0xDB472E0)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDB8FCD0)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_ISFADEANIMPLAYING_OFFSET UNITYSDK_OFFSET(0xDB8F3D0)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWFADEIN_OFFSET UNITYSDK_OFFSET(0xDB8F6A0)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWFADEOUT_OFFSET UNITYSDK_OFFSET(0xDB8FA80)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWRANDOMSPINEANIM_OFFSET UNITYSDK_OFFSET(0xDB8F080)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM_SHOWSPINEANIM_OFFSET UNITYSDK_OFFSET(0xDB8F330)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM__ISTIMELINEPLAYING_OFFSET UNITYSDK_OFFSET(0xDB8F600)
+#define RPG_CLIENT_PLANETFESEVENTSPINEITEM__STOPALLTIMELINE_OFFSET UNITYSDK_OFFSET(0xDB8F9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesEventSpineItem_TypeDefinitionIndex = 66514;
-
 	class PlanetFesEventSpineItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single _Epsilon; // 0x0
 		::RPG::Client::PlanetFesEventSpineItemType ItemType; // 0x18
+		::System::Byte _padding0[0x4];
 		::Spine::Unity::SkeletonGraphic* SpineTarget; // 0x20
 		::System::Boolean SpineAnimLoop; // 0x28
+		::System::Byte _padding1[0x3];
 		::System::Single FadeOutWaitTime; // 0x2C
 		::UnityEngine::Animation* Animation; // 0x30
 		::Il2CppArray<::System::String*>* FadeInAnimations; // 0x38
 		::Il2CppArray<::System::String*>* FadeOutAnimations; // 0x40
 		::Il2CppArray<::UnityEngine::Playables::PlayableDirector*>* FadeInDirectors; // 0x48
 		::Il2CppArray<::UnityEngine::Playables::PlayableDirector*>* FadeOutDirectors; // 0x50
-
+		// static const ::System::Object _Epsilon; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTSPINEITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTSPINEITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ShowRandomSpineAnim()
@@ -74,5 +72,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESEVENTSPINEITEM__ISTIMELINEPLAYING_OFFSET))(this, a1);
 		}
+
 	};
 }

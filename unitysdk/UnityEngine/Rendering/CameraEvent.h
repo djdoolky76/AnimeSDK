@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraEvent_TypeDefinitionIndex = 4697;
-
 	enum class CameraEvent : ::System::Int32
 	{
 		BeforeDepthTexture = 0,

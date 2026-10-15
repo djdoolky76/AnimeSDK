@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VibrationConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VIBRATIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D699900)
-#define RPG_GAMECORE_VIBRATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D699B30)
+#define RPG_GAMECORE_VIBRATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8ED20)
+#define RPG_GAMECORE_VIBRATIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC8EAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VibrationConfig_TypeDefinitionIndex = 16230;
-
 	class VibrationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -21,15 +19,15 @@ namespace RPG::GameCore
 		::System::String* MotionLevelStateA; // 0x28
 		::System::String* MotionLevelStateC; // 0x30
 		::Il2CppArray<::System::UInt32>* MotionLevelAWhiteList; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIBRATIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIBRATIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VibrationConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::VibrationConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VibrationConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIBRATIONCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VibrationConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIBRATIONCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

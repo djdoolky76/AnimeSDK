@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_POINT_TypeDefinitionIndex = 47074;
-
 	struct alignas(4) BrowserWin32Helper_POINT
 	{
 		::System::Int32 x; // 0x10

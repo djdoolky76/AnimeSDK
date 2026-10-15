@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/ETrackingUniverseOrigin.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HmdVector3_t.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VROverlayIntersectionParams_t_TypeDefinitionIndex = 38016;
-
 	struct alignas(4) VROverlayIntersectionParams_t
 	{
 		::ZenFulcrum::VR::OpenVRBinding::HmdVector3_t vSource; // 0x10

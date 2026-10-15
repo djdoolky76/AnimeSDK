@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/NetworkInformation/NetworkInterfaceType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_MIB_IFROW_TypeDefinitionIndex = 2967;
-
 	struct alignas(8) Win32_MIB_IFROW
 	{
 		::Il2CppArray<::System::Char>* Name; // 0x10
@@ -15,6 +12,7 @@ namespace System::Net::NetworkInformation
 		::System::Int32 Mtu; // 0x20
 		::System::UInt32 Speed; // 0x24
 		::System::Int32 PhysAddrLen; // 0x28
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Byte>* PhysAddr; // 0x30
 		::System::UInt32 AdminStatus; // 0x38
 		::System::UInt32 OperStatus; // 0x3C

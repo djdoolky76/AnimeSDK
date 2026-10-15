@@ -3,44 +3,44 @@
 #include "unitysdk/RPG/Client/BattleViewModeLightInitData_TabType.h"
 #include "unitysdk/RPG/GameCore/AttackType.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client { class BattleViewModeLightInitData; }
 
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CREATEDEFAULT_OFFSET UNITYSDK_OFFSET(0xC946DA0)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CREATESKILLTAB_OFFSET UNITYSDK_OFFSET(0xC947330)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC947190)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_GET_INITATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xC947460)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_GET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0xC947440)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_SET_INITATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xC947470)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_SET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0xC947450)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xC947480)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA__CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0xC9472A0)
-#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC947430)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC86F560)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CREATEDEFAULT_OFFSET UNITYSDK_OFFSET(0xC86EE80)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CREATESKILLTAB_OFFSET UNITYSDK_OFFSET(0xC86F410)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC86F270)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC86F510)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_GET_INITATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xC86F540)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_GET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0xC86F520)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_SET_INITATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xC86F550)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_SET_INITTABTYPE_OFFSET UNITYSDK_OFFSET(0xC86F530)
+#define RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA__CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0xC86F380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleViewModeLightInitData_TypeDefinitionIndex = 72017;
-
 	class BattleViewModeLightInitData : public ::System::Object
 	{
 	public:
+		::RPG::GameCore::AttackType _InitAttackType_k__BackingField; // 0x10
+		::RPG::Client::BattleViewModeLightInitData_TabType _InitTabType_k__BackingField; // 0x14
 		static ::RPG::GameCore::AttackType* StaticGet_DefaultAttackType()
 		{
-			return (::RPG::GameCore::AttackType*)Il2CppClass::FromTypeDefinitionIndex(BattleViewModeLightInitData_TypeDefinitionIndex)->GetStaticField(0x7700);
+			return (::RPG::GameCore::AttackType*)UnitySDK::FromName("RPG.Client", "BattleViewModeLightInitData")->GetStaticField(0x11BC0);
 		}
+
 		static ::RPG::Client::BattleViewModeLightInitData_TabType* StaticGet_DefaultTabType()
 		{
-			return (::RPG::Client::BattleViewModeLightInitData_TabType*)Il2CppClass::FromTypeDefinitionIndex(BattleViewModeLightInitData_TypeDefinitionIndex)->GetStaticField(0x7704);
+			return (::RPG::Client::BattleViewModeLightInitData_TabType*)UnitySDK::FromName("RPG.Client", "BattleViewModeLightInitData")->GetStaticField(0x11BC4);
 		}
-		::RPG::Client::BattleViewModeLightInitData_TabType _InitTabType_k__BackingField; // 0x10
-		::RPG::GameCore::AttackType _InitAttackType_k__BackingField; // 0x14
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::BattleViewModeLightInitData* Create(::RPG::Client::BattleViewModeLightInitData_TabType a1)
@@ -82,5 +82,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackType))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEVIEWMODELIGHTINITDATA_SET_INITATTACKTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

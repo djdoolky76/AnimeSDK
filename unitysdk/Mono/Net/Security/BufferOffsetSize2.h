@@ -2,23 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Net/Security/BufferOffsetSize.h"
 
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_APPENDDATA_OFFSET UNITYSDK_OFFSET(0x1E8FB0D0)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_MAKEROOM_OFFSET UNITYSDK_OFFSET(0x1E8FB040)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_RESET_OFFSET UNITYSDK_OFFSET(0x1E8FAFE0)
-#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FAFA0)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_APPENDDATA_OFFSET UNITYSDK_OFFSET(0x1EFC41E0)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC40B0)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_MAKEROOM_OFFSET UNITYSDK_OFFSET(0x1EFC4150)
+#define MONO_NET_SECURITY_BUFFEROFFSETSIZE2_RESET_OFFSET UNITYSDK_OFFSET(0x1EFC40F0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int BufferOffsetSize2_TypeDefinitionIndex = 2423;
-
 	class BufferOffsetSize2 : public ::Mono::Net::Security::BufferOffsetSize
 	{
 	public:
 		::System::Int32 InitialSize; // 0x28
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -35,5 +32,6 @@ namespace Mono::Net::Security
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_BUFFEROFFSETSIZE2_APPENDDATA_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

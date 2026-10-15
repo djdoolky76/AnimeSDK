@@ -1,35 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ADAPT_OFFSET UNITYSDK_OFFSET(0x1BD03810)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODEDIGIT_OFFSET UNITYSDK_OFFSET(0x1BD03890)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODE_OFFSET UNITYSDK_OFFSET(0x1BD038C0)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODEDIGIT_OFFSET UNITYSDK_OFFSET(0x1BD03800)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODE_OFFSET UNITYSDK_OFFSET(0x1BD02EE0)
-#define SYSTEM_GLOBALIZATION_BOOTSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD02EA0)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ADAPT_OFFSET UNITYSDK_OFFSET(0x1C20F870)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C20EF00)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODEDIGIT_OFFSET UNITYSDK_OFFSET(0x1C20F8F0)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_DECODE_OFFSET UNITYSDK_OFFSET(0x1C20F920)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODEDIGIT_OFFSET UNITYSDK_OFFSET(0x1C20F860)
+#define SYSTEM_GLOBALIZATION_BOOTSTRING_ENCODE_OFFSET UNITYSDK_OFFSET(0x1C20EF40)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int Bootstring_TypeDefinitionIndex = 793;
-
 	class Bootstring : public ::System::Object
 	{
 	public:
-		::System::Int32 initial_bias; // 0x10
-		::System::Int32 tmin; // 0x14
+		::System::Int32 tmin; // 0x10
+		::System::Int32 tmax; // 0x14
 		::System::Char delimiter; // 0x18
-		::System::Int32 damp; // 0x1C
-		::System::Int32 initial_n; // 0x20
+		::System::Byte _padding0[0x2];
+		::System::Int32 initial_n; // 0x1C
+		::System::Int32 skew; // 0x20
 		::System::Int32 base_num; // 0x24
-		::System::Int32 tmax; // 0x28
-		::System::Int32 skew; // 0x2C
-
+		::System::Int32 initial_bias; // 0x28
+		::System::Int32 damp; // 0x2C
 		::System::Void _ctor(::System::Char a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_BOOTSTRING__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Char, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_BOOTSTRING_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::String* Encode(::System::String* a1, ::System::Int32 a2)
@@ -56,5 +53,6 @@ namespace System::Globalization
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_BOOTSTRING_DECODE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

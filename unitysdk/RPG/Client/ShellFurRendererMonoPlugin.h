@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-namespace RPG::Client { class ShellFurRendererBehavior; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_SHELLFURRENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE080970)
+#define RPG_CLIENT_SHELLFURRENDERERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE0BB450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShellFurRendererMonoPlugin_TypeDefinitionIndex = 70919;
-
-	class ShellFurRendererMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ShellFurRendererBehavior*>
+	class ShellFurRendererMonoPlugin
 	{
 	public:
 		::System::Int32 ExampleProperty; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* Target; // 0x38
 		::System::Collections::Generic::List_1<::System::Int32>* RendererSubMesh; // 0x40
 		::System::Int32 LayerCount; // 0x48
@@ -27,6 +23,7 @@ namespace RPG::Client
 		::System::Single DitherStrength; // 0x50
 		::System::Boolean UseVertexWind; // 0x54
 		::System::Boolean FollowTransformPerFrame; // 0x55
+		::System::Byte _padding1[0x2];
 		::UnityEngine::Vector4 WindDir; // 0x58
 		::UnityEngine::Vector2 WindScale; // 0x68
 		::UnityEngine::Vector2 WindSpeed; // 0x70
@@ -40,10 +37,10 @@ namespace RPG::Client
 		::UnityEngine::Color RootColor; // 0xD0
 		::System::Single Smoothness; // 0xE0
 		::System::Single RootSmoothnessScale; // 0xE4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHELLFURRENDERERMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

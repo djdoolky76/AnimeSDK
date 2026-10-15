@@ -3,8 +3,6 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int Property_TypeDefinitionIndex = 38299;
-
 	enum class Property : ::System::Int32
 	{
 		Rotate = 0,

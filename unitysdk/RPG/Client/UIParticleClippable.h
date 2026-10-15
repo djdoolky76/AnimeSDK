@@ -1,30 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-
-class Class_3_3E954775CE333A0E;
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UIPARTICLECLIPPABLE_DELAYTICK_OFFSET UNITYSDK_OFFSET(0xE3A2FF0)
-#define RPG_CLIENT_UIPARTICLECLIPPABLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE3A2FA0)
-#define RPG_CLIENT_UIPARTICLECLIPPABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A3140)
-#define RPG_CLIENT_UIPARTICLECLIPPABLE__DELAYTICK_B__4_0_OFFSET UNITYSDK_OFFSET(0xE3A3150)
+#define RPG_CLIENT_UIPARTICLECLIPPABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE3E4670)
+#define RPG_CLIENT_UIPARTICLECLIPPABLE_DELAYTICK_OFFSET UNITYSDK_OFFSET(0xE3E45B0)
+#define RPG_CLIENT_UIPARTICLECLIPPABLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE3E4560)
+#define RPG_CLIENT_UIPARTICLECLIPPABLE__DELAYTICK_B__4_0_OFFSET UNITYSDK_OFFSET(0xE3E4680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIParticleClippable_TypeDefinitionIndex = 71029;
-
-	class UIParticleClippable : public ::RPG::Client::TAMonoPlugin_1<::Class_3_3E954775CE333A0E*>
+	class UIParticleClippable
 	{
 	public:
 		::UnityEngine::RectTransform* Rect; // 0x30
 		::System::Boolean UpdateAlways; // 0x38
 		::System::Boolean IncludeInactiveRenderers; // 0x39
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARTICLECLIPPABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARTICLECLIPPABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::String* GetTickLodTemplateName()
@@ -41,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPARTICLECLIPPABLE__DELAYTICK_B__4_0_OFFSET))(this);
 		}
+
 	};
 }

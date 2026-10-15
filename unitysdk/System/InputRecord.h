@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System
 {
-	inline static constexpr unsigned int InputRecord_TypeDefinitionIndex = 457;
-
 	struct alignas(4) InputRecord
 	{
 		::System::Int16 EventType; // 0x10
 		::System::Boolean KeyDown; // 0x12
+		::System::Byte _padding0[0x1];
 		::System::Int16 RepeatCount; // 0x14
 		::System::Int16 VirtualKeyCode; // 0x16
 		::System::Int16 VirtualScanCode; // 0x18

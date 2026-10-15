@@ -1,34 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightEquipItemData; }
+namespace RPG::Client { class GridFightGameRefEquipRecommend; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD1D1490)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND__CTOR_OFFSET UNITYSDK_OFFSET(0xD1CE930)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_COMPARETO_OFFSET UNITYSDK_OFFSET(0xD171550)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_CTOR_OFFSET UNITYSDK_OFFSET(0xD16EA40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefEquipRecommend_TypeDefinitionIndex = 64803;
-
 	class GridFightGameRefEquipRecommend : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightRole* Role; // 0x10
-		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* PrimaryEquips; // 0x18
-		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* SecondaryEquips; // 0x20
+		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* SecondaryEquips; // 0x18
+		::Il2CppArray<::RPG::Client::GridFightEquipItemData*>* PrimaryEquips; // 0x20
 		::System::Boolean IsMain; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Int32 Index; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 CompareTo(::RPG::Client::GridFightGameRefEquipRecommend* a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightGameRefEquipRecommend*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFEQUIPRECOMMEND_COMPARETO_OFFSET))(this, a1);
 		}
+
 	};
 }

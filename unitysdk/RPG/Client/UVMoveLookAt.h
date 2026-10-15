@@ -2,29 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class UVMoveLookAtSolver; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UVMOVELOOKAT_RESET_OFFSET UNITYSDK_OFFSET(0xE3CAE90)
-#define RPG_CLIENT_UVMOVELOOKAT_SOLVE_OFFSET UNITYSDK_OFFSET(0xE3CAAE0)
-#define RPG_CLIENT_UVMOVELOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0xE3CB010)
+#define RPG_CLIENT_UVMOVELOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0xE40D210)
+#define RPG_CLIENT_UVMOVELOOKAT_RESET_OFFSET UNITYSDK_OFFSET(0xE40D090)
+#define RPG_CLIENT_UVMOVELOOKAT_SOLVE_OFFSET UNITYSDK_OFFSET(0xE40CCE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UVMoveLookAt_TypeDefinitionIndex = 70240;
-
 	class UVMoveLookAt : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean ShowGizmos; // 0x18
 		::System::Boolean ShowEyeRange; // 0x19
 		::System::Boolean ShowEyeRay; // 0x1A
+		::System::Byte _padding0[0x5];
 		::System::Collections::Generic::List_1<::RPG::Client::UVMoveLookAtSolver*>* EyeSolvers; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UVMOVELOOKAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UVMOVELOOKAT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Solve(::System::Single a1, ::UnityEngine::Vector3 a2)
@@ -36,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UVMOVELOOKAT_RESET_OFFSET))(this);
 		}
+
 	};
 }

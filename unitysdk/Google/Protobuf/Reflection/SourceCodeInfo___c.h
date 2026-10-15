@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf::Reflection { class SourceCodeInfo; }
+namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B39B900)
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B39B940)
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C___CCTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0x1B39B950)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B89D7F0)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B89D830)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C___CCTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0x1B89D840)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SourceCodeInfo___c_TypeDefinitionIndex = 5513;
-
 	class SourceCodeInfo___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::Reflection::SourceCodeInfo___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::SourceCodeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SourceCodeInfo___c_TypeDefinitionIndex)->GetStaticField(0x16780);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x18D60);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C_CTOR_OFFSET))(this);
 		}
 
 		::Google::Protobuf::Reflection::SourceCodeInfo* __cctor_b__26_0()
 		{
 			return ((::Google::Protobuf::Reflection::SourceCodeInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO___C___CCTOR_B__26_0_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define SPINE_SKIN_SKINKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3B9D9D0)
+#define SPINE_SKIN_SKINKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C52E50)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Skin_SkinKey_TypeDefinitionIndex = 38401;
-
 	struct alignas(8) Skin_SkinKey
 	{
 		::System::Int32 slotIndex; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* name; // 0x18
 		::System::Int32 hashCode; // 0x20
-
 		::System::Void _ctor(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_SKIN_SKINKEY_CTOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

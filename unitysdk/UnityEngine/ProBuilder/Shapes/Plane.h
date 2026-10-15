@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/ProBuilder/Shapes/Shape.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
+namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1EBB7430)
-#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1EBB74D0)
-#define UNITYENGINE_PROBUILDER_SHAPES_PLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB7780)
+#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F27EF30)
+#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F27F280)
+#define UNITYENGINE_PROBUILDER_SHAPES_PLANE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F27EFD0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 43272;
-
 	class Plane : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
-		::System::Int32 m_HeightSegments; // 0x10
-		::System::Int32 m_WidthSegments; // 0x14
-
+		::System::Int32 m_WidthSegments; // 0x10
+		::System::Int32 m_HeightSegments; // 0x14
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_PLANE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_PLANE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* a1)
@@ -35,5 +32,6 @@ namespace UnityEngine::ProBuilder::Shapes
 		{
 			return ((::UnityEngine::Bounds(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_PLANE_REBUILDMESH_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

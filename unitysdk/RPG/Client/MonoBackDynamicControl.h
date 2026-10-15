@@ -2,22 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_B49063F7086F3D85;
+class CFLFKJHJONN;
 namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD7317F0)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD731930)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD731860)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_SETBOARDSCRIPT_OFFSET UNITYSDK_OFFSET(0xD7319C0)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7318C0)
-#define RPG_CLIENT_MONOBACKDYNAMICCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD731A20)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD730B90)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD730DC0)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD730CD0)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD730C00)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_SETBOARDSCRIPT_OFFSET UNITYSDK_OFFSET(0xD730D60)
+#define RPG_CLIENT_MONOBACKDYNAMICCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD730C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBackDynamicControl_TypeDefinitionIndex = 70691;
-
 	class MonoBackDynamicControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -30,11 +27,11 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::Vector3>* mainRootAspectScale; // 0x48
 		::RPG::Client::Prop::OpticalIllusionPuzzleBoard* pzzuleBoard; // 0x50
 		::System::Single orthographicSizeCorection; // 0x58
-		::Class_2_B49063F7086F3D85* _Behavior; // 0x60
-
+		::System::Byte _padding0[0x4];
+		::CFLFKJHJONN* _Behavior; // 0x60
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBACKDYNAMICCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBACKDYNAMICCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -61,5 +58,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::OpticalIllusionPuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBACKDYNAMICCONTROL_SETBOARDSCRIPT_OFFSET))(this, a1);
 		}
+
 	};
 }

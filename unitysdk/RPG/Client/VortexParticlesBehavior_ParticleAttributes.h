@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VortexParticlesBehavior_ParticleAttributes_TypeDefinitionIndex = 70349;
-
 	struct alignas(4) VortexParticlesBehavior_ParticleAttributes
 	{
 		::System::Single age; // 0x10

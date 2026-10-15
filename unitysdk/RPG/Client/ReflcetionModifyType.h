@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReflcetionModifyType_TypeDefinitionIndex = 69977;
-
 	enum class ReflcetionModifyType : ::System::Int32
 	{
 		TeamLight = 0,

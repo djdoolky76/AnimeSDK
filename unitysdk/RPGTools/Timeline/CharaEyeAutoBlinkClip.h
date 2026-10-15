@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CharaEyeAutoBlinkClip_BlinkType.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE826DB0)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE826DA0)
-#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE826F40)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C4A30)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C4BC0)
+#define RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8C4A20)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharaEyeAutoBlinkClip_TypeDefinitionIndex = 48386;
-
 	class CharaEyeAutoBlinkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::RPGTools::Timeline::CharaEyeAutoBlinkClip_BlinkType EyeBlinkType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYEAUTOBLINKCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

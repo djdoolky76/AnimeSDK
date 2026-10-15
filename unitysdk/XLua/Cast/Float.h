@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/XLua/Cast/Any_1.h"
 
-#define XLUA_CAST_FLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x14A34B80)
+#define XLUA_CAST_FLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x14CBFDA0)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int Float_TypeDefinitionIndex = 50632;
-
-	class Float : public ::XLua::Cast::Any_1<::System::Single>
+	class Float
 	{
 	public:
 		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + XLUA_CAST_FLOAT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + XLUA_CAST_FLOAT_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

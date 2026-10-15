@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAnimatorListenType_TypeDefinitionIndex = 18434;
-
 	enum class FiveDimAnimatorListenType : ::System::Int32
 	{
 		Enter = 0,

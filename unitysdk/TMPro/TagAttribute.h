@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TagAttribute_TypeDefinitionIndex = 43497;
-
 	struct alignas(4) TagAttribute
 	{
 		::System::Int32 startIndex; // 0x10

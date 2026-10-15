@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CreateBattleEventQTEUI; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_METHOD_3_C5189D5A751560E2_OFFSET UNITYSDK_OFFSET(0x1D006B00)
-#define RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_METHOD_3_C6CFF2C372B32B5B_OFFSET UNITYSDK_OFFSET(0x1D006B50)
-#define RPG_GAMECORE_CREATEBATTLEEVENTQTEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D006B40)
+#define RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E23F0)
+#define RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E2400)
+#define RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E23B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateBattleEventQTEUI_TypeDefinitionIndex = 23076;
-
 	class CreateBattleEventQTEUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* EventID; // 0x18
 		::System::Boolean IsShow; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTQTEUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C5189D5A751560E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleEventQTEUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateBattleEventQTEUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleEventQTEUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_METHOD_3_C5189D5A751560E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateBattleEventQTEUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C6CFF2C372B32B5B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateBattleEventQTEUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateBattleEventQTEUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateBattleEventQTEUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_METHOD_3_C6CFF2C372B32B5B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateBattleEventQTEUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEBATTLEEVENTQTEUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

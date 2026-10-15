@@ -4,46 +4,44 @@
 #include "unitysdk/RPG/GameCore/EnumStatusTag.h"
 #include "unitysdk/RPG/GameCore/EnumStatusType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/System/ValueTuple.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtStatusRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1D4B28C0)
-#define RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D4B1EE0)
-#define RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4B23A0)
-#define RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D4B1E60)
-#define RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D4B1EC0)
-#define RPG_GAMECORE_RTSTATUSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B28B0)
+#define RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0x1DA65D30)
+#define RPG_GAMECORE_RTSTATUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA65D20)
+#define RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1DA65350)
+#define RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA65810)
+#define RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DA652C0)
+#define RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET UNITYSDK_OFFSET(0x1DA65320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStatusRow_TypeDefinitionIndex = 14917;
-
 	class RtStatusRow : public ::System::Object
 	{
 	public:
-		::System::String* ModifierName; // 0x10
-		::Il2CppArray<::RPG::GameCore::EnumStatusTag>* TagList; // 0x18
+		::Il2CppArray<::System::String*>* ReadParamList; // 0x10
+		::System::String* ModifierName; // 0x18
 		::System::String* StatusIconPathHighSize; // 0x20
-		::System::String* StatusIconPath; // 0x28
-		::Il2CppArray<::System::String*>* ReadParamList; // 0x30
-		::System::Boolean CanDispel; // 0x38
-		::RPG::GameCore::EnumStatusType StatusType; // 0x3C
-		::RPG::Client::TextID StatusName; // 0x40
-		::RPG::Client::TextID StatusDesc; // 0x50
-		::System::UInt32 DisplayPriority; // 0x60
-		::System::UInt32 ID; // 0x64
+		::Il2CppArray<::RPG::GameCore::EnumStatusTag>* TagList; // 0x28
+		::System::String* StatusIconPath; // 0x30
+		::System::UInt32 DisplayPriority; // 0x38
+		::System::UInt32 ID; // 0x3C
+		::System::Boolean CanDispel; // 0x40
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::EnumStatusType StatusType; // 0x44
+		::RPG::Client::TextID StatusDesc; // 0x48
+		::RPG::Client::TextID StatusName; // 0x58
 		::RPG::Client::TextID StatusEffect; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
+		::System::Void FromTableOffset(::System::ValueTuple a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -51,19 +49,20 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStatusRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtStatusRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtStatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStatusRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtStatusRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStatusRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtStatusRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean ContainsTag(::RPG::GameCore::EnumStatusTag a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EnumStatusTag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTATUSROW_CONTAINSTAG_OFFSET))(this, a1);
 		}
+
 	};
 }

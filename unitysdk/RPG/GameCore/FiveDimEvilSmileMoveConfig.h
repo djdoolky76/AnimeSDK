@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimPropMoveConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimEvilSmileMoveConfig; }
 namespace RPG::GameCore { class FiveDimEvilSmileStateConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_METHOD_3_0457A4B52FE555F8_OFFSET UNITYSDK_OFFSET(0x1D0E4410)
-#define RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_METHOD_3_8BD71A83C733D1DA_OFFSET UNITYSDK_OFFSET(0x1D0E43C0)
-#define RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E4400)
+#define RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BC8F0)
+#define RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6BC900)
+#define RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BC8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileMoveConfig_TypeDefinitionIndex = 16525;
-
 	class FiveDimEvilSmileMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
 	public:
@@ -30,21 +28,22 @@ namespace RPG::GameCore
 		::System::Single MoveTeleportDistance; // 0x80
 		::System::Boolean IsIgnoreTeleportOnTrace; // 0x84
 		::System::Boolean IsAdvanceStateConfig; // 0x85
+		::System::Byte _padding0[0x2];
 		::Il2CppArray<::RPG::GameCore::FiveDimEvilSmileStateConfig*>* StateConfigList; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8BD71A83C733D1DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileMoveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimEvilSmileMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_METHOD_3_8BD71A83C733D1DA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimEvilSmileMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0457A4B52FE555F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEvilSmileMoveConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimEvilSmileMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEvilSmileMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_METHOD_3_0457A4B52FE555F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimEvilSmileMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVILSMILEMOVECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

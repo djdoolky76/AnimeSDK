@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_170.h"
+#include "unitysdk/EBMFAGKJIIM.h"
 #include "unitysdk/RPG/Client/GridFightGridEffectType.h"
-
 namespace RPG::Client { class GridFightGameSession; }
 namespace RPG::Client { class GridFightGridData; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0xD1F11A0)
-#define RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD1F1150)
-#define RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F1340)
+#define RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT_CANCASTER_OFFSET UNITYSDK_OFFSET(0xD191C50)
+#define RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD191E00)
+#define RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD191C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridElationEffect_TypeDefinitionIndex = 64900;
-
-	class GridFightGridElationEffect : public ::Class_1_43BD383C98B4C0C5_170
+	class GridFightGridElationEffect : public ::EBMFAGKJIIM
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::GridFightGridEffectType get_Type()
@@ -31,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGameSession*, ::RPG::Client::GridFightGridData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDELATIONEFFECT_CANCASTER_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,51 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Net/Http/Headers/Token.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Net/Http/Headers/Token.h"
+namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net::Http::Headers { class Lexer; }
+namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CREATE_OFFSET UNITYSDK_OFFSET(0x1E7838D0)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E78DCD0)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E78DB80)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E78DB20)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E78DB40)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1E78DB30)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E784100)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E78DB50)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E78DE10)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1E78DE40)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1E784AB0)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPRAGMA_OFFSET UNITYSDK_OFFSET(0x1E78DD70)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7846D0)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E78DB10)
-#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E784230)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EE4C540)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE4D340)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EE56800)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4CEA0)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE569C0)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE56870)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EE56810)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE56830)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1EE56820)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE4CD70)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE56840)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE56B00)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEELEMENT_OFFSET UNITYSDK_OFFSET(0x1EE56B30)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1EE4D720)
+#define SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPRAGMA_OFFSET UNITYSDK_OFFSET(0x1EE56A60)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int NameValueHeaderValue_TypeDefinitionIndex = 3805;
-
 	class NameValueHeaderValue : public ::System::Object
 	{
 	public:
-		::System::String* _Name_k__BackingField; // 0x10
-		::System::String* value; // 0x18
-
+		::System::String* value; // 0x10
+		::System::String* _Name_k__BackingField; // 0x18
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Net::Http::Headers::NameValueHeaderValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::NameValueHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::NameValueHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE__CTOR_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_CTOR_2_OFFSET))(this);
 		}
 
 		::System::String* get_Name()
@@ -88,14 +85,14 @@ namespace System::Net::Http::Headers
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean TryParsePragma(::System::String* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& a3)
+		static ::System::Boolean TryParsePragma(::System::String* a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPRAGMA_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPRAGMA_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseParameters(::System::Net::Http::Headers::Lexer* a1, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& a2, ::System::Net::Http::Headers::Token& a3)
+		static ::System::Boolean TryParseParameters(::System::Net::Http::Headers::Lexer* a1, ::System::Object* a2, ::System::Net::Http::Headers::Token a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPARAMETERS_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Object*, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEPARAMETERS_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* ToString()
@@ -103,9 +100,10 @@ namespace System::Net::Http::Headers
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::NameValueHeaderValue*& a2, ::System::Net::Http::Headers::Token& a3)
+		static ::System::Boolean TryParseElement(::System::Net::Http::Headers::Lexer* a1, ::System::Net::Http::Headers::NameValueHeaderValue* a2, ::System::Net::Http::Headers::Token a3)
 		{
-			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::NameValueHeaderValue*&, ::System::Net::Http::Headers::Token&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Net::Http::Headers::Lexer*, ::System::Net::Http::Headers::NameValueHeaderValue*, ::System::Net::Http::Headers::Token))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_NAMEVALUEHEADERVALUE_TRYPARSEELEMENT_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

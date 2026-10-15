@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class WaitPlanetFesGetUseItemFirstTime; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_METHOD_3_0CE1FC8757E09E2B_OFFSET UNITYSDK_OFFSET(0x1CD63EA0)
-#define RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_METHOD_3_1B6B1FE3D3DE58AE_OFFSET UNITYSDK_OFFSET(0x1CD63DD0)
-#define RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD63E90)
+#define RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3376B0)
+#define RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3376C0)
+#define RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3375F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaitPlanetFesGetUseItemFirstTime_TypeDefinitionIndex = 10263;
-
 	class WaitPlanetFesGetUseItemFirstTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1B6B1FE3D3DE58AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_METHOD_3_1B6B1FE3D3DE58AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0CE1FC8757E09E2B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_METHOD_3_0CE1FC8757E09E2B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::WaitPlanetFesGetUseItemFirstTime*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITPLANETFESGETUSEITEMFIRSTTIME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_THREADING_THREADABORTEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC53F60)
-#define SYSTEM_THREADING_THREADABORTEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC53ED0)
+#define SYSTEM_THREADING_THREADABORTEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C15FFF0)
+#define SYSTEM_THREADING_THREADABORTEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C15FF60)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ThreadAbortException_TypeDefinitionIndex = 852;
-
 	class ThreadAbortException : public ::System::SystemException
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADABORTEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADABORTEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADABORTEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_THREADABORTEXCEPTION_CTOR_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

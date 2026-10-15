@@ -5,19 +5,17 @@
 #include "unitysdk/RPG/GameCore/ModifierDispelFilterType.h"
 #include "unitysdk/RPG/GameCore/ModifierInfectType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class InfectModifier; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_INFECTMODIFIER_METHOD_3_755720E9CF1AA95B_OFFSET UNITYSDK_OFFSET(0x1D1AA7A0)
-#define RPG_GAMECORE_INFECTMODIFIER_METHOD_3_CBF8DF90BE5DD2D5_OFFSET UNITYSDK_OFFSET(0x1D1AA6C0)
-#define RPG_GAMECORE_INFECTMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AA740)
+#define RPG_GAMECORE_INFECTMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D786480)
+#define RPG_GAMECORE_INFECTMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7864E0)
+#define RPG_GAMECORE_INFECTMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D786400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfectModifier_TypeDefinitionIndex = 22810;
-
 	class InfectModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -26,28 +24,30 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* BehaviorFlagFilter; // 0x28
 		::Il2CppArray<::RPG::GameCore::EnumStatusType>* StatusTypeListFilter; // 0x30
 		::RPG::GameCore::ModifierDispelFilterType StatusDispelFilter; // 0x38
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* ModifierCasterFilter; // 0x40
 		::System::Boolean OnlyGlobalModifier; // 0x48
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::DynamicFloat* InfectChance; // 0x50
 		::RPG::GameCore::ModifierInfectType InfectType; // 0x58
 		::System::Boolean DisableFloatingMessage; // 0x5C
 		::System::Boolean Silence; // 0x5D
 		::System::Boolean UseParamModifierToInfect; // 0x5E
 		::System::Boolean AutoRemoveFromSource; // 0x5F
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CBF8DF90BE5DD2D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfectModifier*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::InfectModifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfectModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_METHOD_3_CBF8DF90BE5DD2D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::InfectModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_755720E9CF1AA95B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfectModifier* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::InfectModifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfectModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_METHOD_3_755720E9CF1AA95B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::InfectModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFECTMODIFIER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

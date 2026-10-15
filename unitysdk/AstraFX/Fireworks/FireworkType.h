@@ -3,16 +3,13 @@
 #include "unitysdk/AstraFX/Fireworks/RibbonPatternChannel.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define ASTRAFX_FIREWORKS_FIREWORKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x15971C50)
+#define ASTRAFX_FIREWORKS_FIREWORKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCB950)
 
 namespace AstraFX::Fireworks
 {
-	inline static constexpr unsigned int FireworkType_TypeDefinitionIndex = 49455;
-
 	class FireworkType : public ::System::Object
 	{
 	public:
@@ -28,6 +25,7 @@ namespace AstraFX::Fireworks
 		::System::Single particleLifetimeRandom; // 0x38
 		::System::Single hueShiftRange; // 0x3C
 		::System::Single debrisHdrIntensity; // 0x40
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Gradient* particleColorOverLifetime; // 0x48
 		::AstraFX::Fireworks::RibbonPatternChannel ribbonChannel; // 0x50
 		::System::Single ribbonBaseWidth; // 0x54
@@ -36,12 +34,13 @@ namespace AstraFX::Fireworks
 		::UnityEngine::Vector2 ribbonPatternUVScale; // 0x64
 		::System::Single ribbonHdrIntensity; // 0x6C
 		::System::Single ribbonLengthScale; // 0x70
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Gradient* ribbonColorOverLifetime; // 0x78
 		::System::Single launchSpeed; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_FIREWORKTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ASTRAFX_FIREWORKS_FIREWORKTYPE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

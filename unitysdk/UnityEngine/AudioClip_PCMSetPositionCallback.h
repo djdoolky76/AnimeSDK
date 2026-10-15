@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ECFB330)
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ECFB380)
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ECFB200)
-#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFB2C0)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3C30D0)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C3060)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3C3120)
+#define UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3C2FA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AudioClip_PCMSetPositionCallback_TypeDefinitionIndex = 5139;
-
 	class AudioClip_PCMSetPositionCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +34,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIOCLIP_PCMSETPOSITIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

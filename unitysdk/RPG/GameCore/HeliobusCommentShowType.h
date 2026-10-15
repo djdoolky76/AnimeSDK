@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusCommentShowType_TypeDefinitionIndex = 13628;
-
 	enum class HeliobusCommentShowType : ::System::Int32
 	{
 		Unknown = 0,

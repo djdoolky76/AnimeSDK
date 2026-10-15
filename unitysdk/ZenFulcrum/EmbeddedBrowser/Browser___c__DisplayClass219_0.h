@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
+namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
+namespace ZenFulcrum::EmbeddedBrowser { class Promise; }
+
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS219_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F642660)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS219_0__EVALJSDIRECTLY_B__0_OFFSET UNITYSDK_OFFSET(0x1F6476B0)
+
+namespace ZenFulcrum::EmbeddedBrowser
+{
+	class Browser___c__DisplayClass219_0 : public ::System::Object
+	{
+	public:
+		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::Promise* promise; // 0x18
+		::System::Int32 id; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS219_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _EvalJSDirectly_b__0(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::JSONNode*, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS219_0__EVALJSDIRECTLY_B__0_OFFSET))(this, a1, a2);
+		}
+
+	};
+}

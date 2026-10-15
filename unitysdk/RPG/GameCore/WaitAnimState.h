@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class WaitAnimState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITANIMSTATE_METHOD_3_41CF56D5635BB8FE_OFFSET UNITYSDK_OFFSET(0x1D69E5D0)
-#define RPG_GAMECORE_WAITANIMSTATE_METHOD_3_CF43FB2AE5BA5005_OFFSET UNITYSDK_OFFSET(0x1D69E6B0)
-#define RPG_GAMECORE_WAITANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69E650)
+#define RPG_GAMECORE_WAITANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC93830)
+#define RPG_GAMECORE_WAITANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC93890)
+#define RPG_GAMECORE_WAITANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC937B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitAnimState_TypeDefinitionIndex = 22619;
-
 	class WaitAnimState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -25,20 +23,20 @@ namespace RPG::GameCore
 		::System::Boolean IgnoreStateChangeCheck; // 0x31
 		::System::Boolean WaitForFrameEnd; // 0x32
 		::System::Boolean SyncVCameraTime; // 0x33
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITANIMSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITANIMSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_41CF56D5635BB8FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitAnimState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITANIMSTATE_METHOD_3_41CF56D5635BB8FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITANIMSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CF43FB2AE5BA5005(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitAnimState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITANIMSTATE_METHOD_3_CF43FB2AE5BA5005_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITANIMSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

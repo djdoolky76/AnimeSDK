@@ -5,28 +5,19 @@
 #include "unitysdk/UnityEngine/UIElements/StyleFloat.h"
 #include "unitysdk/UnityEngine/UIElements/StyleInt.h"
 #include "unitysdk/UnityEngine/UIElements/StyleLength.h"
-
 namespace UnityEngine::UIElements::StyleSheets { class StyleValuePropertyReader; }
+namespace UnityEngine::UIElements::StyleSheets { class VisualElementStylesData; }
 
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDFCB00)
-#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFB620)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C5D50)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C4870)
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int VisualElementStylesData_TypeDefinitionIndex = 6009;
-
 	class VisualElementStylesData : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader** StaticGet_s_StyleValuePropertyReader()
-		{
-			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x1A4F0);
-		}
-		static ::UnityEngine::UIElements::StyleSheets::VisualElementStylesData** StaticGet_none()
-		{
-			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)Il2CppClass::FromTypeDefinitionIndex(VisualElementStylesData_TypeDefinitionIndex)->GetStaticField(0x1A4F8);
-		}
 		::System::Boolean isShared; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::UIElements::StyleLength width; // 0x14
 		::UnityEngine::UIElements::StyleLength height; // 0x24
 		::UnityEngine::UIElements::StyleLength maxWidth; // 0x34
@@ -54,15 +45,25 @@ namespace UnityEngine::UIElements::StyleSheets
 		::UnityEngine::UIElements::StyleInt visibility; // 0x1A8
 		::UnityEngine::UIElements::StyleInt display; // 0x1B4
 		::System::Single dpiScaling; // 0x1C0
+		static ::UnityEngine::UIElements::StyleSheets::VisualElementStylesData** StaticGet_none()
+		{
+			return (::UnityEngine::UIElements::StyleSheets::VisualElementStylesData**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "VisualElementStylesData")->GetStaticField(0x1F6D0);
+		}
+
+		static ::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader** StaticGet_s_StyleValuePropertyReader()
+		{
+			return (::UnityEngine::UIElements::StyleSheets::StyleValuePropertyReader**)UnitySDK::FromName("UnityEngine.UIElements.StyleSheets", "VisualElementStylesData")->GetStaticField(0x1F6D8);
+		}
 
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_VISUALELEMENTSTYLESDATA_CCTOR_OFFSET))();
 		}
+
 	};
 }

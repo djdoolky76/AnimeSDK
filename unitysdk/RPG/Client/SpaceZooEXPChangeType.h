@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpaceZooEXPChangeType_TypeDefinitionIndex = 67966;
-
 	enum class SpaceZooEXPChangeType : ::System::Int32
 	{
 		Invalid = 0,

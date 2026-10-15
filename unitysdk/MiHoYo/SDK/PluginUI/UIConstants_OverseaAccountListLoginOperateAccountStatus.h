@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaAccountListLoginOperateAccountStatus_TypeDefinitionIndex = 47330;
-
 	class UIConstants_OverseaAccountListLoginOperateAccountStatus : public ::System::Object
 	{
 	public:

@@ -2,42 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetSummonUnitAttach; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_9B602724071F6F7D_OFFSET UNITYSDK_OFFSET(0x1D50EE40)
-#define RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_EC47FBCF11C53EDE_OFFSET UNITYSDK_OFFSET(0x1D50EDE0)
-#define RPG_GAMECORE_SETSUMMONUNITATTACH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D50EE20)
+#define RPG_GAMECORE_SETSUMMONUNITATTACH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC3300)
+#define RPG_GAMECORE_SETSUMMONUNITATTACH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC3320)
+#define RPG_GAMECORE_SETSUMMONUNITATTACH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC32C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSummonUnitAttach_TypeDefinitionIndex = 19926;
-
 	class SetSummonUnitAttach : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* SummonUnit; // 0x18
 		::RPG::GameCore::TargetEvaluator* AttachTarget; // 0x20
 		::System::Boolean OverrideAttachConfig; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::String* AttachPoint; // 0x30
 		::RPG::MVector3 LocalPosition; // 0x38
 		::RPG::MVector3 LocalRotation; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EC47FBCF11C53EDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonUnitAttach*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSummonUnitAttach* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonUnitAttach*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_EC47FBCF11C53EDE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSummonUnitAttach*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9B602724071F6F7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonUnitAttach* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSummonUnitAttach* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonUnitAttach*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_9B602724071F6F7D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSummonUnitAttach*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

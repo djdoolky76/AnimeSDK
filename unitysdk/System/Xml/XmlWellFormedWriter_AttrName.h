@@ -1,23 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x3BA4540)
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x3BA4520)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET UNITYSDK_OFFSET(0x3C59900)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET UNITYSDK_OFFSET(0x3C598E0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_AttrName_TypeDefinitionIndex = 1878;
-
 	struct alignas(8) XmlWellFormedWriter_AttrName
 	{
 		::System::String* prefix; // 0x10
 		::System::String* namespaceUri; // 0x18
 		::System::String* localName; // 0x20
 		::System::Int32 prev; // 0x28
-
 		::System::Void Set(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_SET_OFFSET))(this, a1, a2, a3);
@@ -27,5 +22,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRNAME_ISDUPLICATE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,44 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Security/PermissionSet.h"
 #include "unitysdk/System/Security/Permissions/PermissionState.h"
-
+#include "unitysdk/System/Security/PermissionSet.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Security { class SecurityElement; }
 
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BBDECE0)
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBDF290)
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BBDE410)
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1BBDE2F0)
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_TOXML_OFFSET UNITYSDK_OFFSET(0x1BBDE420)
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBDE1E0)
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBDE400)
-#define SYSTEM_SECURITY_NAMEDPERMISSIONSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDE100)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0EA340)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C0EA560)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0EA260)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C0EAE40)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C0EB3F0)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C0EA570)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1C0EA450)
+#define SYSTEM_SECURITY_NAMEDPERMISSIONSET_TOXML_OFFSET UNITYSDK_OFFSET(0x1C0EA580)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int NamedPermissionSet_TypeDefinitionIndex = 945;
-
 	class NamedPermissionSet : public ::System::Security::PermissionSet
 	{
 	public:
-		::System::String* name; // 0x30
-		::System::String* description; // 0x38
-
+		::System::String* description; // 0x30
+		::System::String* name; // 0x38
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_NAMEDPERMISSIONSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_NAMEDPERMISSIONSET_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::Security::Permissions::PermissionState a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Security::Permissions::PermissionState))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_NAMEDPERMISSIONSET__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Security::Permissions::PermissionState))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_NAMEDPERMISSIONSET_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_NAMEDPERMISSIONSET__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_NAMEDPERMISSIONSET_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -65,5 +61,6 @@ namespace System::Security
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_NAMEDPERMISSIONSET_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

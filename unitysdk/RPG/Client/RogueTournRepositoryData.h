@@ -2,33 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueTournMode.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_FDFA365FE186E8F2_28;
+class GINKCKNPFDA;
 namespace RPG::Client { class RogueTournRepositoryFormulaStoryData; }
 namespace RPG::Client { class RogueTournRepositoryFormulaStoryDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDFA4F70)
-#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_GETALLFORMULASTORYDATAITEMS_OFFSET UNITYSDK_OFFSET(0xDFA5CC0)
-#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_GETFORMULASTORYDATA_OFFSET UNITYSDK_OFFSET(0xDFA5BF0)
-#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_INIT_OFFSET UNITYSDK_OFFSET(0xDFA4BA0)
-#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_ISSHOWNEWREDDOT_OFFSET UNITYSDK_OFFSET(0xDFA60A0)
-#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xDFA5230)
-#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDFA4810)
+#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE03B200)
+#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE03B960)
+#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_GETALLFORMULASTORYDATAITEMS_OFFSET UNITYSDK_OFFSET(0xE03C6B0)
+#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_GETFORMULASTORYDATA_OFFSET UNITYSDK_OFFSET(0xE03C5E0)
+#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_INIT_OFFSET UNITYSDK_OFFSET(0xE03B590)
+#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_ISSHOWNEWREDDOT_OFFSET UNITYSDK_OFFSET(0xE03CA90)
+#define RPG_CLIENT_ROGUETOURNREPOSITORYDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xE03BC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRepositoryData_TypeDefinitionIndex = 67773;
-
 	class RogueTournRepositoryData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTournMode, ::RPG::Client::RogueTournRepositoryFormulaStoryData*>* _FormulaStoryDatas; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNREPOSITORYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNREPOSITORYDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -41,9 +37,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNREPOSITORYDATA_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_FDFA365FE186E8F2_28* a1)
+		::System::Void Sync(::GINKCKNPFDA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FDFA365FE186E8F2_28*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNREPOSITORYDATA_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::GINKCKNPFDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNREPOSITORYDATA_SYNC_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::RogueTournRepositoryFormulaStoryData* GetFormulaStoryData(::RPG::GameCore::RogueTournMode a1)
@@ -60,5 +56,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNREPOSITORYDATA_ISSHOWNEWREDDOT_OFFSET))(this, a1);
 		}
+
 	};
 }

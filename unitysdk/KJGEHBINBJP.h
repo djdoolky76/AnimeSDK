@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RootMotion/IKJob/IKTransformRef.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace UnityEngine { class AnimationCurve; }
+
+	struct alignas(8) KJGEHBINBJP
+	{
+		::RootMotion::IKJob::IKTransformRef IFIPFPBJJBM; // 0x10
+		::UnityEngine::Quaternion LIBHAIADKPD; // 0x20
+		::UnityEngine::Vector3 IBGNPPGLPOP; // 0x30
+		::UnityEngine::Quaternion FEHPOGEELBK; // 0x3C
+		::UnityEngine::Vector3 HCHLJCNFMAP; // 0x4C
+		::System::Single ICGEFMFJHNP; // 0x58
+		::System::Byte _padding0[0x4];
+		::UnityEngine::AnimationCurve* CIFNCBBOHNG; // 0x60
+		::System::Boolean BBIGBBDILLG; // 0x68
+		::System::Boolean IODLHGBHHBE; // 0x69
+	};

@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define DOOMDABHOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF4730)
+
+	class DOOMDABHOJM : public ::System::Object
+	{
+	public:
+		::System::Boolean MOKNCFJICIC; // 0x10
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Vector3 DAPHJOGNFIM; // 0x14
+		::System::Single EPIMEPDEIPF; // 0x20
+		::UnityEngine::Vector3 MKDDBBMPIAL; // 0x24
+		::UnityEngine::Vector3 BFDDNMDHAAE; // 0x30
+		::System::Single MAFHOMBELKM; // 0x3C
+		::UnityEngine::Vector3 LPOKHIBICEO; // 0x40
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOOMDABHOJM_CTOR_OFFSET))(this);
+		}
+
+	};

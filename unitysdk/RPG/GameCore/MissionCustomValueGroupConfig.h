@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MissionCustomValueGroupConfig; }
 namespace RPG::GameCore { class MissionCustomValueTuple; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_902ABD68419940E8_OFFSET UNITYSDK_OFFSET(0x1D2A3260)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_B97B2F98E75BBCA9_OFFSET UNITYSDK_OFFSET(0x1D2A34D0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A33C0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D885210)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D885320)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8850B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueGroupConfig_TypeDefinitionIndex = 18769;
-
 	class MissionCustomValueGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -21,20 +19,20 @@ namespace RPG::GameCore
 		::System::UInt32 FloorID; // 0x18
 		::System::UInt32 GroupID; // 0x1C
 		::System::UInt32 StoryLineID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_902ABD68419940E8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionCustomValueGroupConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MissionCustomValueGroupConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValueGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_902ABD68419940E8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MissionCustomValueGroupConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_B97B2F98E75BBCA9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueGroupConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueGroupConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_B97B2F98E75BBCA9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueGroupConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
+
 	};
 }

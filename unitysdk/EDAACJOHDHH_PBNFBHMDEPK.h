@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FateRinKeywordEventType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/KBHPNKKKAAL.h"
+class BJHMBGLPOLB;
+class OOCCBMLAELL;
+
+#define EDAACJOHDHH_PBNFBHMDEPK_AGFNHKJAMAO_OFFSET UNITYSDK_OFFSET(0x1330EF20)
+#define EDAACJOHDHH_PBNFBHMDEPK_AMFNFMKJMOP_OFFSET UNITYSDK_OFFSET(0x1330F230)
+#define EDAACJOHDHH_PBNFBHMDEPK_CCIENMEIBMJ_OFFSET UNITYSDK_OFFSET(0x1330F050)
+#define EDAACJOHDHH_PBNFBHMDEPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1330F2A0)
+#define EDAACJOHDHH_PBNFBHMDEPK_EFEICJGGOKA_OFFSET UNITYSDK_OFFSET(0x1330F130)
+#define EDAACJOHDHH_PBNFBHMDEPK_FAIGMHLIEJC_OFFSET UNITYSDK_OFFSET(0x1330EEF0)
+#define EDAACJOHDHH_PBNFBHMDEPK_FFOKCGNFLJD_OFFSET UNITYSDK_OFFSET(0x1330F0B0)
+#define EDAACJOHDHH_PBNFBHMDEPK_GDIMLJDEDKH_OFFSET UNITYSDK_OFFSET(0x1330F1B0)
+#define EDAACJOHDHH_PBNFBHMDEPK_GET_EVENTMASK_OFFSET UNITYSDK_OFFSET(0x1330EF00)
+#define EDAACJOHDHH_PBNFBHMDEPK_MCOJDLAKCOI_OFFSET UNITYSDK_OFFSET(0x1330EF80)
+#define EDAACJOHDHH_PBNFBHMDEPK_SET_EVENTMASK_OFFSET UNITYSDK_OFFSET(0x1330EF10)
+
+	class EDAACJOHDHH_PBNFBHMDEPK : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::FateRinKeywordEventType _EventMask_k__BackingField; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_CTOR_OFFSET))(this);
+		}
+
+		::System::UInt32 FAIGMHLIEJC()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_FAIGMHLIEJC_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FateRinKeywordEventType get_EventMask()
+		{
+			return ((::RPG::GameCore::FateRinKeywordEventType(*)(::PVOID))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_GET_EVENTMASK_OFFSET))(this);
+		}
+
+		::System::Void set_EventMask(::RPG::GameCore::FateRinKeywordEventType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FateRinKeywordEventType))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_SET_EVENTMASK_OFFSET))(this, a1);
+		}
+
+		::System::Void AGFNHKJAMAO(::KBHPNKKKAAL a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KBHPNKKKAAL))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_AGFNHKJAMAO_OFFSET))(this, a1);
+		}
+
+		::System::Void CCIENMEIBMJ(::KBHPNKKKAAL a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KBHPNKKKAAL))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_CCIENMEIBMJ_OFFSET))(this, a1);
+		}
+
+		::System::Void FFOKCGNFLJD(::KBHPNKKKAAL a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KBHPNKKKAAL))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_FFOKCGNFLJD_OFFSET))(this, a1);
+		}
+
+		::System::Void EFEICJGGOKA(::KBHPNKKKAAL a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KBHPNKKKAAL))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_EFEICJGGOKA_OFFSET))(this, a1);
+		}
+
+		::System::Void GDIMLJDEDKH(::KBHPNKKKAAL a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KBHPNKKKAAL))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_GDIMLJDEDKH_OFFSET))(this, a1);
+		}
+
+		::System::Void AMFNFMKJMOP(::KBHPNKKKAAL a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KBHPNKKKAAL))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_AMFNFMKJMOP_OFFSET))(this, a1);
+		}
+
+		::System::Void MCOJDLAKCOI(::BJHMBGLPOLB* a1, ::OOCCBMLAELL* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BJHMBGLPOLB*, ::OOCCBMLAELL*))((::PBYTE)hIl2Cpp + EDAACJOHDHH_PBNFBHMDEPK_MCOJDLAKCOI_OFFSET))(this, a1, a2);
+		}
+
+	};

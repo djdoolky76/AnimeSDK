@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int DistortionCoordinates_t_TypeDefinitionIndex = 37978;
-
 	struct alignas(4) DistortionCoordinates_t
 	{
 		::System::Single rfRed0; // 0x10

@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 
-#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE693840)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6937F0)
-#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE693890)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EEC50)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EEC00)
+#define RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EEBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEvolveBuildSkip_TypeDefinitionIndex = 57005;
-
-	class LevelEvolveBuildSkip : public ::Class_1_BF7A075734D15E98
+	class LevelEvolveBuildSkip : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDSKIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -28,5 +26,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELEVOLVEBUILDSKIP_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

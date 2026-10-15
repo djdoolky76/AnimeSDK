@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebugLogLevel_TypeDefinitionIndex = 24499;
-
 	enum class DebugLogLevel : ::System::Int32
 	{
 		Info = 0,

@@ -1,48 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class EventTriggerListener; }
 namespace RPG::Client::Prop { class ChimeraDuelShopChimeraInstance; }
 namespace RPG::Client::Prop { class ChimeraDuelShopDraggedChimeraSlotView; }
 namespace RPG::Client::Prop { class ChimeraDuelShopTeamDragAreas; }
 namespace RPG::Client::Prop { class ChimeraDuelTeamMemberSlot; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Nullable; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_BINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xDC27A00)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_GET__DRAGHANDLERELATIVEPOSITION_OFFSET UNITYSDK_OFFSET(0xDC276A0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETCROSSSTALLDRAGAREALISTENER_OFFSET UNITYSDK_OFFSET(0xDC27BF0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETDRAGAREAS_OFFSET UNITYSDK_OFFSET(0xDC279B0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xDC27940)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SIMULATEDRAGOVERSLOT_OFFSET UNITYSDK_OFFSET(0xDC27C40)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_UNBINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xDC27B00)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xDC21170)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__MOVEINDRAGPLANE_OFFSET UNITYSDK_OFFSET(0xDC27E20)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__MOVEVIEW_OFFSET UNITYSDK_OFFSET(0xDC28010)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__ONDRAGEVENT_OFFSET UNITYSDK_OFFSET(0xDC27EF0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_BINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xDC72520)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6C400)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_GET__DRAGHANDLERELATIVEPOSITION_OFFSET UNITYSDK_OFFSET(0xDC721C0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETCROSSSTALLDRAGAREALISTENER_OFFSET UNITYSDK_OFFSET(0xDC72710)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETDRAGAREAS_OFFSET UNITYSDK_OFFSET(0xDC724D0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xDC72460)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SIMULATEDRAGOVERSLOT_OFFSET UNITYSDK_OFFSET(0xDC72760)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_UNBINDDRAGEVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0xDC72620)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__MOVEINDRAGPLANE_OFFSET UNITYSDK_OFFSET(0xDC72940)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__MOVEVIEW_OFFSET UNITYSDK_OFFSET(0xDC72B30)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__ONDRAGEVENT_OFFSET UNITYSDK_OFFSET(0xDC72A10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopDraggedChimeraSlot_TypeDefinitionIndex = 77886;
-
 	class ChimeraDuelShopDraggedChimeraSlot : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraDuelShopTeamDragAreas* _DragAreas; // 0x10
-		::System::Action_1<::System::Boolean>* _InStallDragAreaListener; // 0x18
-		::RPG::Client::Prop::ChimeraDuelShopChimeraInstance* Instance; // 0x20
-		::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView* _View; // 0x28
-		::RPG::Client::EventTriggerListener* _BoundEventTrigger; // 0x30
-		::System::Nullable_1<::System::Boolean> _WasInStallDragArea; // 0x38
-
+		::RPG::Client::EventTriggerListener* _BoundEventTrigger; // 0x10
+		::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView* _View; // 0x18
+		::System::Action* _InStallDragAreaListener; // 0x20
+		::RPG::Client::Prop::ChimeraDuelShopChimeraInstance* Instance; // 0x28
+		::RPG::Client::Prop::ChimeraDuelShopTeamDragAreas* _DragAreas; // 0x30
+		::System::Nullable* _WasInStallDragArea; // 0x38
 		::System::Void _ctor(::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelShopDraggedChimeraSlotView*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector3 get__DragHandleRelativePosition()
@@ -70,9 +66,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_UNBINDDRAGEVENTTRIGGER_OFFSET))(this);
 		}
 
-		::System::Void SetCrossStallDragAreaListener(::System::Action_1<::System::Boolean>* a1)
+		::System::Void SetCrossStallDragAreaListener(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Boolean>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETCROSSSTALLDRAGAREALISTENER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT_SETCROSSSTALLDRAGAREALISTENER_OFFSET))(this, a1);
 		}
 
 		::System::Void SimulateDragOverSlot(::RPG::Client::Prop::ChimeraDuelTeamMemberSlot* a1)
@@ -94,5 +90,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELSHOPDRAGGEDCHIMERASLOT__MOVEVIEW_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/TypeConverter.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_URITYPECONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1EA29CB0)
-#define SYSTEM_URITYPECONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x1EA29D70)
-#define SYSTEM_URITYPECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1EA29C40)
-#define SYSTEM_URITYPECONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1EA29DE0)
-#define SYSTEM_URITYPECONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1EA29F80)
-#define SYSTEM_URITYPECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA29C30)
+#define SYSTEM_URITYPECONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1F0F1510)
+#define SYSTEM_URITYPECONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x1F0F15D0)
+#define SYSTEM_URITYPECONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1F0F14A0)
+#define SYSTEM_URITYPECONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1F0F1640)
+#define SYSTEM_URITYPECONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1F0F17E0)
+#define SYSTEM_URITYPECONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F1490)
 
 namespace System
 {
-	inline static constexpr unsigned int UriTypeConverter_TypeDefinitionIndex = 2492;
-
 	class UriTypeConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URITYPECONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URITYPECONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanConvert(::System::Type* a1)
@@ -50,5 +47,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_URITYPECONVERTER_CONVERTTO_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

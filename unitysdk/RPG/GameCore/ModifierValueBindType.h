@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierValueBindType_TypeDefinitionIndex = 18017;
-
 	enum class ModifierValueBindType : ::System::Int32
 	{
 		Layer = 0,

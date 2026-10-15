@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class AudioClip; }
@@ -14,24 +13,21 @@ namespace UnityEngine::Timeline { class RuntimeElement; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { template <typename T> class IntervalTree_1; }
 
-#define UNITYENGINE_TIMELINE_AUDIOTRACK_COMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x1ECBADC0)
-#define UNITYENGINE_TIMELINE_AUDIOTRACK_CREATECLIP_OFFSET UNITYSDK_OFFSET(0x1ECBA820)
-#define UNITYENGINE_TIMELINE_AUDIOTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1ECBBC60)
-#define UNITYENGINE_TIMELINE_AUDIOTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1ECBBCE0)
-#define UNITYENGINE_TIMELINE_AUDIOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECBBD60)
+#define UNITYENGINE_TIMELINE_AUDIOTRACK_COMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x1F382AA0)
+#define UNITYENGINE_TIMELINE_AUDIOTRACK_CREATECLIP_OFFSET UNITYSDK_OFFSET(0x1F382500)
+#define UNITYENGINE_TIMELINE_AUDIOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F383A30)
+#define UNITYENGINE_TIMELINE_AUDIOTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1F383930)
+#define UNITYENGINE_TIMELINE_AUDIOTRACK_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F3839B0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AudioTrack_TypeDefinitionIndex = 37512;
-
 	class AudioTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::TimelineClip* CreateClip(::UnityEngine::AudioClip* a1)
@@ -53,5 +49,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_AUDIOTRACK_ONVALIDATE_OFFSET))(this);
 		}
+
 	};
 }

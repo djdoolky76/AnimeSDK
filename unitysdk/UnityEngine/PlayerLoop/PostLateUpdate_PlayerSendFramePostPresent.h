@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_PlayerSendFramePostPresent_TypeDefinitionIndex = 4663;
-
-	struct alignas(1) PostLateUpdate_PlayerSendFramePostPresent
+	struct alignas(4) PostLateUpdate_PlayerSendFramePostPresent
 	{
 	};
 }

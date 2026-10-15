@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class Object; }
 namespace UnityEngine { class AnimationClip; }
 
-#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8DDA10)
-#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8DDA90)
-#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DDC70)
+#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE933040)
+#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE932DE0)
+#define RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE932E60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SampleAnimationBehaviour_TypeDefinitionIndex = 48319;
-
 	class SampleAnimationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::UnityEngine::AnimationClip* SampleAnimationClip; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -34,5 +30,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SAMPLEANIMATIONBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

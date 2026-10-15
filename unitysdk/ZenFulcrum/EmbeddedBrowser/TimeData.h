@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 38238;
-
 	struct alignas(4) TimeData
 	{
 		::System::Single elapsedTime; // 0x10

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidLimitType_TypeDefinitionIndex = 14419;
-
 	enum class RaidLimitType : ::System::Int32
 	{
 		Unknown = 0,

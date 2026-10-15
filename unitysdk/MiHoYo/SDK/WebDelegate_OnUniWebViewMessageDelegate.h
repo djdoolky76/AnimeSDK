@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14EC0)
-#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14EF0)
-#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB119E0)
-#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB14DD0)
+#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C021880)
+#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C021790)
+#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C0218B0)
+#define MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01E3F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_OnUniWebViewMessageDelegate_TypeDefinitionIndex = 7769;
-
 	class WebDelegate_OnUniWebViewMessageDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONUNIWEBVIEWMESSAGEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,21 +3,19 @@
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/RogueMagicScepterPropertyType.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByScepterProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D4F6450)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_METHOD_4_639A51CCF6998DA8_OFFSET UNITYSDK_OFFSET(0x1D4F61F0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_METHOD_4_F167C60CACD40235_OFFSET UNITYSDK_OFFSET(0x1D4F6230)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F6220)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAA340)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DAAA570)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAAA350)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAAA310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByScepterProperty_TypeDefinitionIndex = 22846;
-
 	class SetDynamicValueByScepterProperty : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
@@ -25,25 +23,25 @@ namespace RPG::GameCore
 		::System::String* DynamicKey; // 0x20
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x28
 		::RPG::GameCore::RogueMagicScepterPropertyType Value; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_639A51CCF6998DA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByScepterProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByScepterProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByScepterProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_METHOD_4_639A51CCF6998DA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByScepterProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F167C60CACD40235(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByScepterProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByScepterProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByScepterProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_METHOD_4_F167C60CACD40235_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByScepterProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYSCEPTERPROPERTY_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

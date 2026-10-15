@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BKABEBEPPJK.h"
+class JMOHKKCNCMA;
+namespace RPG::GameCore { class MarbleAbsorbTeammates; }
+
+#define JOHIFMHFMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7820)
+#define JOHIFMHFMPL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CBA7830)
+
+	class JOHIFMHFMPL : public ::BKABEBEPPJK
+	{
+	public:
+		::RPG::GameCore::MarbleAbsorbTeammates* IGHAHBNLIJA; // 0x18
+		::System::Void _ctor(::RPG::GameCore::MarbleAbsorbTeammates* a1, ::JMOHKKCNCMA* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MarbleAbsorbTeammates*, ::JMOHKKCNCMA*))((::PBYTE)hIl2Cpp + JOHIFMHFMPL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean KDNAAOHECPD()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JOHIFMHFMPL_KDNAAOHECPD_OFFSET))(this);
+		}
+
+	};

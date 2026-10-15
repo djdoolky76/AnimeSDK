@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
 namespace InControl::Internal
 {
-	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 39626;
-
 	template <typename T>
 	class RingBuffer_1 : public ::System::Object
 	{

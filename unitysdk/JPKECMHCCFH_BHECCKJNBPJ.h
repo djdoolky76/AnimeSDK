@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FMPCODLIOLG.h"
+#include "unitysdk/IGKFNIEJGLM.h"
+class CKMNJCKACJB;
+class FLFFOGEGIDK;
+class OMMAEOLAAPD;
+class OMMAEOLAAPD_FEGNKCMCKME;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Action; }
+namespace System { class String; }
+
+#define JPKECMHCCFH_BHECCKJNBPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C6580)
+#define JPKECMHCCFH_BHECCKJNBPJ_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xB2C6160)
+#define JPKECMHCCFH_BHECCKJNBPJ_ECEACGGFAOP_OFFSET UNITYSDK_OFFSET(0xB2C6400)
+#define JPKECMHCCFH_BHECCKJNBPJ_GET_PANEL_OFFSET UNITYSDK_OFFSET(0xB2C6560)
+#define JPKECMHCCFH_BHECCKJNBPJ_GET_TOSTSTYLE_OFFSET UNITYSDK_OFFSET(0xB2C6540)
+#define JPKECMHCCFH_BHECCKJNBPJ_KLGGNBKDKCF_OFFSET UNITYSDK_OFFSET(0xB2C61C0)
+#define JPKECMHCCFH_BHECCKJNBPJ_LEEIHAAIGCB_OFFSET UNITYSDK_OFFSET(0xB2C60D0)
+#define JPKECMHCCFH_BHECCKJNBPJ_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB2C5E60)
+#define JPKECMHCCFH_BHECCKJNBPJ_PODMDJECIHD_OFFSET UNITYSDK_OFFSET(0xB2C62A0)
+#define JPKECMHCCFH_BHECCKJNBPJ_SET_PANEL_OFFSET UNITYSDK_OFFSET(0xB2C6570)
+#define JPKECMHCCFH_BHECCKJNBPJ_SET_TOSTSTYLE_OFFSET UNITYSDK_OFFSET(0xB2C6550)
+
+	class JPKECMHCCFH_BHECCKJNBPJ : public ::FMPCODLIOLG
+	{
+	public:
+		::FLFFOGEGIDK* _TostStyle_k__BackingField; // 0x60
+		::OMMAEOLAAPD* _Panel_k__BackingField; // 0x68
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_CTOR_OFFSET))(this);
+		}
+
+		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_DHHDFAAJMMC_OFFSET))(this, a1);
+		}
+
+		::System::Void NKPPGDENJAE(::CKMNJCKACJB* a1, ::System::Action* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::CKMNJCKACJB*, ::System::Action*))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_NKPPGDENJAE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void LEEIHAAIGCB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_LEEIHAAIGCB_OFFSET))(this);
+		}
+
+		::System::Void PODMDJECIHD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_PODMDJECIHD_OFFSET))(this);
+		}
+
+		::OMMAEOLAAPD_FEGNKCMCKME* KLGGNBKDKCF(::CKMNJCKACJB* a1, ::System::Action* a2)
+		{
+			return ((::OMMAEOLAAPD_FEGNKCMCKME*(*)(::PVOID, ::CKMNJCKACJB*, ::System::Action*))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_KLGGNBKDKCF_OFFSET))(this, a1, a2);
+		}
+
+		::System::String* ECEACGGFAOP(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_ECEACGGFAOP_OFFSET))(this, a1);
+		}
+
+		::FLFFOGEGIDK* get_TostStyle()
+		{
+			return ((::FLFFOGEGIDK*(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_GET_TOSTSTYLE_OFFSET))(this);
+		}
+
+		::System::Void set_TostStyle(::FLFFOGEGIDK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FLFFOGEGIDK*))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_SET_TOSTSTYLE_OFFSET))(this, a1);
+		}
+
+		::OMMAEOLAAPD* get_Panel()
+		{
+			return ((::OMMAEOLAAPD*(*)(::PVOID))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_GET_PANEL_OFFSET))(this);
+		}
+
+		::System::Void set_Panel(::OMMAEOLAAPD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OMMAEOLAAPD*))((::PBYTE)hIl2Cpp + JPKECMHCCFH_BHECCKJNBPJ_SET_PANEL_OFFSET))(this, a1);
+		}
+
+	};

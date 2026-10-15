@@ -1,50 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Cryptography/X509Certificates/X509RevocationFlag.h"
 #include "unitysdk/System/Security/Cryptography/X509Certificates/X509RevocationMode.h"
 #include "unitysdk/System/Security/Cryptography/X509Certificates/X509VerificationFlags.h"
+#include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-
 namespace System::Security::Cryptography { class OidCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate2Collection; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY_RESET_OFFSET UNITYSDK_OFFSET(0x1E9EB9F0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9EBB60)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EB830)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0B36F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B33C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY_RESET_OFFSET UNITYSDK_OFFSET(0x1F0B3580)
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509ChainPolicy_TypeDefinitionIndex = 2704;
-
 	class X509ChainPolicy : public ::System::Object
 	{
 	public:
-		::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2; // 0x10
-		::System::Security::Cryptography::OidCollection* cert; // 0x18
+		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* store; // 0x10
+		::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2; // 0x18
 		::System::Security::Cryptography::OidCollection* apps; // 0x20
-		::System::Security::Cryptography::X509Certificates::X509CertificateCollection* store; // 0x28
+		::System::Security::Cryptography::OidCollection* cert; // 0x28
 		::System::Security::Cryptography::X509Certificates::X509RevocationMode mode; // 0x30
-		::System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags; // 0x34
-		::System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag; // 0x38
-		::System::TimeSpan timeout; // 0x40
-		::System::DateTime vtime; // 0x48
-
+		::System::Byte _padding0[0x4];
+		::System::DateTime vtime; // 0x38
+		::System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag; // 0x40
+		::System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags; // 0x44
+		::System::TimeSpan timeout; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509CHAINPOLICY_RESET_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/InstanceMethodCallExpression.h"
-
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class MethodCallExpression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E70DF80)
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E70E0B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E70E1E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6FC7D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC5060)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1EDD6BC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDD6CF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EDD6E20)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int InstanceMethodCallExpressionN_TypeDefinitionIndex = 3252;
-
 	class InstanceMethodCallExpressionN : public ::System::Linq::Expressions::InstanceMethodCallExpression
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments; // 0x20
-
 		::System::Void _ctor(::System::Reflection::MethodInfo* a1, ::System::Linq::Expressions::Expression* a2, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Linq::Expressions::Expression* GetArgument(::System::Int32 a1)
@@ -40,5 +36,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::MethodCallExpression*(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSIONN_REWRITE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AddCmdType_TypeDefinitionIndex = 4810;
-
 	enum class AddCmdType : ::System::Int32
 	{
 		kAddCmdBefore = 0,

@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CakeRaceMoveState.h"
+#include "unitysdk/System/Object.h"
+class DAKDIABDGKN;
+class OODEOHIDMEG;
+
+#define BJIHHDAGFOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB9B0)
+
+	class BJIHHDAGFOP : public ::System::Object
+	{
+	public:
+		::OODEOHIDMEG* EJJOKPFJBDE; // 0x10
+		::DAKDIABDGKN* FKIBGPJNCIJ; // 0x18
+		::RPG::GameCore::CakeRaceMoveState NPDNEEPHEKN; // 0x20
+		::RPG::GameCore::CakeRaceMoveState LMEFGJFMCIF; // 0x24
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BJIHHDAGFOP_CTOR_OFFSET))(this);
+		}
+
+	};

@@ -1,34 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
-namespace RPG::Client { class AvatarEffectRendererBehavior; }
-namespace RPG::Client { class AvatarEffectRendererBehavior_AvatarEffectMat; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_BOUNDS_OFFSET UNITYSDK_OFFSET(0xC803C30)
-#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0xC803880)
-#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0xC803A00)
-#define RPG_CLIENT_AVATAREFFECTRENDERER_SETOVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0xC803CC0)
-#define RPG_CLIENT_AVATAREFFECTRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xC803D80)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xC6D10F0)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_BOUNDS_OFFSET UNITYSDK_OFFSET(0xC6D0FA0)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0xC6D0BF0)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_GET_RENDERERS_OFFSET UNITYSDK_OFFSET(0xC6D0D70)
+#define RPG_CLIENT_AVATAREFFECTRENDERER_SETOVERRIDEBOUNDS_OFFSET UNITYSDK_OFFSET(0xC6D1030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEffectRenderer_TypeDefinitionIndex = 70209;
-
-	class AvatarEffectRenderer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::AvatarEffectRendererBehavior*>
+	class AvatarEffectRenderer
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::AvatarEffectRendererBehavior_AvatarEffectMat*>* AvatarEffectMats; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* AvatarEffectMats; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* MOLNPPOAHNO; // 0x38
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* ECHBGJAGJJK; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREFFECTRENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREFFECTRENDERER_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* get_materials()
@@ -50,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAREFFECTRENDERER_SETOVERRIDEBOUNDS_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

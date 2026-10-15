@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERMESH_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xB19B130)
-#define HDG_RDTSERIALIZERMESH_READ_OFFSET UNITYSDK_OFFSET(0xB19B1E0)
-#define HDG_RDTSERIALIZERMESH_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xB19B090)
-#define HDG_RDTSERIALIZERMESH_WRITE_OFFSET UNITYSDK_OFFSET(0xB19B140)
-#define HDG_RDTSERIALIZERMESH__CTOR_OFFSET UNITYSDK_OFFSET(0xB19B120)
+#define HDG_RDTSERIALIZERMESH_CTOR_OFFSET UNITYSDK_OFFSET(0xAF455C0)
+#define HDG_RDTSERIALIZERMESH_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF455D0)
+#define HDG_RDTSERIALIZERMESH_READ_OFFSET UNITYSDK_OFFSET(0xAF45680)
+#define HDG_RDTSERIALIZERMESH_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF45530)
+#define HDG_RDTSERIALIZERMESH_WRITE_OFFSET UNITYSDK_OFFSET(0xAF455E0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerMesh_TypeDefinitionIndex = 47423;
-
 	class rdtSerializerMesh : public ::System::Object
 	{
 	public:
 		::System::String* meshName; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMESH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMESH_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Object* Serialize(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
@@ -46,5 +43,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMESH_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

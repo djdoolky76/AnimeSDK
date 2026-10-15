@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace RPG::Client { class Effect_AbyssShineControl_ShineControlStruct; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_CREATECONTROLPOINT_OFFSET UNITYSDK_OFFSET(0xCDCA1B0)
-#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDCA9A0)
-#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xCDCAD00)
-#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_SETDISTANCE_OFFSET UNITYSDK_OFFSET(0xCDCA6C0)
-#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCDCAF30)
+#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_CREATECONTROLPOINT_OFFSET UNITYSDK_OFFSET(0xCD1A950)
+#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCD1B6D0)
+#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCD1B140)
+#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xCD1B4A0)
+#define RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_SETDISTANCE_OFFSET UNITYSDK_OFFSET(0xCD1AE60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AbyssShineControl_TypeDefinitionIndex = 70388;
-
 	class Effect_AbyssShineControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* ShineTrans; // 0x18
 		::System::Single MainDistance; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::Effect_AbyssShineControl_ShineControlStruct*>* ControlList; // 0x28
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* ControlList; // 0x28
 		::UnityEngine::AnimationCurve* WeightCurve; // 0x30
 		::System::Single PositionWeight; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSSHINECONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CreateControlPoint()
@@ -50,5 +47,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ABYSSSHINECONTROL_ONDRAWGIZMOS_OFFSET))(this);
 		}
+
 	};
 }

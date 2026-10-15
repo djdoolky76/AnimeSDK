@@ -3,8 +3,6 @@
 
 namespace System
 {
-	inline static constexpr unsigned int DateTimeParse_TM_TypeDefinitionIndex = 255;
-
 	enum class DateTimeParse_TM : ::System::Int32
 	{
 		NotSet = -1,

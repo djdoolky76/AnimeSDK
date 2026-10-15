@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ChenLingBattle { class GridIndex; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_ENTITYMOVEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCB07820)
+#define RPG_CLIENT_CHENLINGBATTLE_ENTITYMOVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCA56560)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int EntityMoveInfo_TypeDefinitionIndex = 75800;
-
 	class EntityMoveInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingBattle::GridIndex* Target; // 0x10
-		::RPG::Client::ChenLingBattle::GridIndex* Source; // 0x18
-
+		::RPG::Client::ChenLingBattle::GridIndex* Source; // 0x10
+		::RPG::Client::ChenLingBattle::GridIndex* Target; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ENTITYMOVEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_ENTITYMOVEINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

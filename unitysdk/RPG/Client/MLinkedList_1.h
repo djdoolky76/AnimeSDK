@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { template <typename T> class MLinkedListNode_1; }
-namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MLinkedList_1_TypeDefinitionIndex = 34581;
-
 	template <typename T>
 	class MLinkedList_1 : public ::System::Object
 	{

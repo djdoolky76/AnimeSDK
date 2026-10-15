@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::ComponentModel { class AddingNewEventArgs; }
 
-#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF11E30)
-#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF11E70)
-#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF11E20)
-#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF11D30)
+#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C41E270)
+#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41E170)
+#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C41E2B0)
+#define SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C41E260)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int AddingNewEventHandler_TypeDefinitionIndex = 9512;
-
 	class AddingNewEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::ComponentModel::AddingNewEventArgs* a2)
@@ -38,5 +35,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ADDINGNEWEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

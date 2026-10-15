@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace Mono::Math { class BigInteger_B63D07FB4865BEA1; }
+
+#define MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_BARRETTREDUCTION_OFFSET UNITYSDK_OFFSET(0x1C027BF0)
+#define MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0278A0)
+#define MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_DIFFERENCE_OFFSET UNITYSDK_OFFSET(0x1C027990)
+#define MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1C028100)
+#define MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_POW_1_OFFSET UNITYSDK_OFFSET(0x1C0284F0)
+#define MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_POW_OFFSET UNITYSDK_OFFSET(0x1C028360)
+
+namespace Mono::Math
+{
+	class BigInteger_B63D07FB4865BEA1_ModulusRing : public ::System::Object
+	{
+	public:
+		::Mono::Math::BigInteger_B63D07FB4865BEA1* constant; // 0x10
+		::Mono::Math::BigInteger_B63D07FB4865BEA1* mod; // 0x18
+		::System::Void _ctor(::Mono::Math::BigInteger_B63D07FB4865BEA1* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger_B63D07FB4865BEA1*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void BarrettReduction(::Mono::Math::BigInteger_B63D07FB4865BEA1* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Mono::Math::BigInteger_B63D07FB4865BEA1*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_BARRETTREDUCTION_OFFSET))(this, a1);
+		}
+
+		::Mono::Math::BigInteger_B63D07FB4865BEA1* Multiply(::Mono::Math::BigInteger_B63D07FB4865BEA1* a1, ::Mono::Math::BigInteger_B63D07FB4865BEA1* a2)
+		{
+			return ((::Mono::Math::BigInteger_B63D07FB4865BEA1*(*)(::PVOID, ::Mono::Math::BigInteger_B63D07FB4865BEA1*, ::Mono::Math::BigInteger_B63D07FB4865BEA1*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_MULTIPLY_OFFSET))(this, a1, a2);
+		}
+
+		::Mono::Math::BigInteger_B63D07FB4865BEA1* Difference(::Mono::Math::BigInteger_B63D07FB4865BEA1* a1, ::Mono::Math::BigInteger_B63D07FB4865BEA1* a2)
+		{
+			return ((::Mono::Math::BigInteger_B63D07FB4865BEA1*(*)(::PVOID, ::Mono::Math::BigInteger_B63D07FB4865BEA1*, ::Mono::Math::BigInteger_B63D07FB4865BEA1*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_DIFFERENCE_OFFSET))(this, a1, a2);
+		}
+
+		::Mono::Math::BigInteger_B63D07FB4865BEA1* Pow(::Mono::Math::BigInteger_B63D07FB4865BEA1* a1, ::Mono::Math::BigInteger_B63D07FB4865BEA1* a2)
+		{
+			return ((::Mono::Math::BigInteger_B63D07FB4865BEA1*(*)(::PVOID, ::Mono::Math::BigInteger_B63D07FB4865BEA1*, ::Mono::Math::BigInteger_B63D07FB4865BEA1*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_POW_OFFSET))(this, a1, a2);
+		}
+
+		::Mono::Math::BigInteger_B63D07FB4865BEA1* Pow_1(::System::UInt32 a1, ::Mono::Math::BigInteger_B63D07FB4865BEA1* a2)
+		{
+			return ((::Mono::Math::BigInteger_B63D07FB4865BEA1*(*)(::PVOID, ::System::UInt32, ::Mono::Math::BigInteger_B63D07FB4865BEA1*))((::PBYTE)hIl2Cpp + MONO_MATH_BIGINTEGER_B63D07FB4865BEA1_MODULUSRING_POW_1_OFFSET))(this, a1, a2);
+		}
+
+	};
+}

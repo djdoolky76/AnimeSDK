@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace DesperateDevs::Utils { class AttributeInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x16511140)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16511460)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x16511580)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x165112C0)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16510FA0)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16737F90)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x16737C70)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x16737E10)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x16738130)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x16738250)
 
 namespace DesperateDevs::Utils
 {
-	inline static constexpr unsigned int PublicMemberInfo_TypeDefinitionIndex = 7088;
-
 	class PublicMemberInfo : public ::System::Object
 	{
 	public:
@@ -26,15 +24,14 @@ namespace DesperateDevs::Utils
 		::Il2CppArray<::DesperateDevs::Utils::AttributeInfo*>* attributes; // 0x20
 		::System::Type* type; // 0x28
 		::System::String* name; // 0x30
-
 		::System::Void _ctor(::System::Reflection::FieldInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Reflection::PropertyInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + DESPERATEDEVS_UTILS_PUBLICMEMBERINFO__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::PropertyInfo*))((::PBYTE)hIl2Cpp + DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Object* GetValue(::System::Object* a1)
@@ -51,5 +48,6 @@ namespace DesperateDevs::Utils
 		{
 			return ((::Il2CppArray<::DesperateDevs::Utils::AttributeInfo*>*(*)(::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + DESPERATEDEVS_UTILS_PUBLICMEMBERINFO_GETATTRIBUTES_OFFSET))(a1);
 		}
+
 	};
 }

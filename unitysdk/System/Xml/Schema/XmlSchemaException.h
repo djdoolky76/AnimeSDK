@@ -1,78 +1,74 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Xml::Schema { class XmlSchemaObject; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CREATEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1E81F9F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E81FB10)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1E820140)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E81FDB0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E81FDD0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E81FF30)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1E81FDF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1E7FE480)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_6_OFFSET UNITYSDK_OFFSET(0x1E820030)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_7_OFFSET UNITYSDK_OFFSET(0x1E81FF50)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E81F5D0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CREATEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1EEE8660)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EEE8A20)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EEE8A40)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EEE8BB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1EEE8A60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_5_OFFSET UNITYSDK_OFFSET(0x1EEC7160)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_6_OFFSET UNITYSDK_OFFSET(0x1EEE8CB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_7_OFFSET UNITYSDK_OFFSET(0x1EEE8BD0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE8230)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1EEE8780)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1EEE8DC0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaException_TypeDefinitionIndex = 2196;
-
 	class XmlSchemaException : public ::System::SystemException
 	{
 	public:
-		::System::String* res; // 0x88
-		::Il2CppArray<::System::String*>* args; // 0x90
-		::System::String* message; // 0x98
-		::System::String* sourceUri; // 0xA0
+		::System::String* sourceUri; // 0x88
+		::System::String* res; // 0x90
+		::Il2CppArray<::System::String*>* args; // 0x98
+		::System::String* message; // 0xA0
 		::System::Xml::Schema::XmlSchemaObject* sourceSchemaObject; // 0xA8
-		::System::Int32 lineNumber; // 0xB0
-		::System::Int32 linePosition; // 0xB4
-
+		::System::Int32 linePosition; // 0xB0
+		::System::Int32 lineNumber; // 0xB4
 		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_1_OFFSET))(this);
 		}
 
 		::System::Void _ctor_2(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_3(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_4(::System::String* a1, ::System::Exception* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_4_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_4_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_5(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_5_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_6(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_6_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_6_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void _ctor_7(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::Exception* a3, ::System::String* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Xml::Schema::XmlSchemaObject* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::System::Exception*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Xml::Schema::XmlSchemaObject*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION__CTOR_7_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::String*>*, ::System::Exception*, ::System::String*, ::System::Int32, ::System::Int32, ::System::Xml::Schema::XmlSchemaObject*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_CTOR_7_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void GetObjectData(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
@@ -89,5 +85,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMAEXCEPTION_GET_MESSAGE_OFFSET))(this);
 		}
+
 	};
 }

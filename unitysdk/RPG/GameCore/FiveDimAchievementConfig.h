@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimAchievementConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_METHOD_2_18B0F1905E18CC4F_OFFSET UNITYSDK_OFFSET(0x1D09F2E0)
-#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09F690)
+#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AD5F0)
+#define RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AD240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAchievementConfig_TypeDefinitionIndex = 16493;
-
 	class FiveDimAchievementConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -24,15 +22,15 @@ namespace RPG::GameCore
 		::System::Single DashOrbBackForthTime; // 0x2C
 		::System::Int32 DashHitConsecutiveCount; // 0x30
 		::System::Single MiniGameWithoutCollectCoinTime; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_18B0F1905E18CC4F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAchievementConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimAchievementConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAchievementConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_METHOD_2_18B0F1905E18CC4F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimAchievementConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACHIEVEMENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

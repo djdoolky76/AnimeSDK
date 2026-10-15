@@ -3,8 +3,6 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UriSyntaxFlags_TypeDefinitionIndex = 2484;
-
 	enum class UriSyntaxFlags : ::System::Int32
 	{
 		None = 0,

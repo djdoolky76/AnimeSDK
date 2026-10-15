@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class NLKJJGNPCDE;
+
+#define NLKJJGNPCDE_NKDMOIIGLLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC89B30)
+#define NLKJJGNPCDE_NKDMOIIGLLP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC89D00)
+
+	class NLKJJGNPCDE_NKDMOIIGLLP : public ::System::Object
+	{
+	public:
+		::NLKJJGNPCDE* NPKHDOPHBEJ; // 0x10
+		::System::Void _ctor(::NLKJJGNPCDE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NLKJJGNPCDE*))((::PBYTE)hIl2Cpp + NLKJJGNPCDE_NKDMOIIGLLP_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLKJJGNPCDE_NKDMOIIGLLP_DISPOSE_OFFSET))(this);
+		}
+
+	};

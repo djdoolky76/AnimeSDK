@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DepthCopyFlag_TypeDefinitionIndex = 4809;
-
 	enum class DepthCopyFlag : ::System::Int32
 	{
 		kNone = 0,

@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RigidbodySleepMode2D_TypeDefinitionIndex = 5795;
-
 	enum class RigidbodySleepMode2D : ::System::Int32
 	{
 		NeverSleep = 0,

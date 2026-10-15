@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MusicRhythmTimelineConfig; }
 namespace RPG::GameCore { class NoteGroupConfig; }
 namespace RPG::GameCore { class NoteNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_DD3D10DA34D3B9A9_OFFSET UNITYSDK_OFFSET(0x1D2EC490)
-#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2ECAD0)
+#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CF440)
+#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8CEE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmTimelineConfig_TypeDefinitionIndex = 16753;
-
 	class MusicRhythmTimelineConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -29,20 +27,21 @@ namespace RPG::GameCore
 		::System::Boolean IsPuMan; // 0x39
 		::System::Boolean IsHanu; // 0x3A
 		::System::Boolean ShowCircle; // 0x3B
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::NoteNotifyConfig*>* InputNotifyList; // 0x40
 		::Il2CppArray<::RPG::GameCore::NoteNotifyConfig*>* InputUpNotifyList; // 0x48
 		::Il2CppArray<::RPG::GameCore::NoteNotifyConfig*>* ShortInputUpNotifyList; // 0x50
 		::Il2CppArray<::RPG::GameCore::NoteNotifyConfig*>* ExitNotifyList; // 0x58
 		::Il2CppArray<::RPG::GameCore::NoteGroupConfig*>* NoteGroupList; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DD3D10DA34D3B9A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MusicRhythmTimelineConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MusicRhythmTimelineConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MusicRhythmTimelineConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_DD3D10DA34D3B9A9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MusicRhythmTimelineConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

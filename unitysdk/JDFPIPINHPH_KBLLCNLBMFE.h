@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UIController.h"
+class JDFPIPINHPH_FEMFLGMEGNB;
+namespace System { class String; }
+
+#define JDFPIPINHPH_KBLLCNLBMFE_CTOR_OFFSET UNITYSDK_OFFSET(0x165C5DB0)
+#define JDFPIPINHPH_KBLLCNLBMFE_DKMLNKGGCOO_OFFSET UNITYSDK_OFFSET(0x165C5EC0)
+#define JDFPIPINHPH_KBLLCNLBMFE_DKOODCOCAOA_OFFSET UNITYSDK_OFFSET(0x165C6540)
+#define JDFPIPINHPH_KBLLCNLBMFE_ILAAHBICBHA_OFFSET UNITYSDK_OFFSET(0x165C5F60)
+#define JDFPIPINHPH_KBLLCNLBMFE_JFNDMGPKLOJ_OFFSET UNITYSDK_OFFSET(0x165C6000)
+#define JDFPIPINHPH_KBLLCNLBMFE_KGCGHCMOLLG_OFFSET UNITYSDK_OFFSET(0x165C6420)
+#define JDFPIPINHPH_KBLLCNLBMFE_OICGPNAMNAI_OFFSET UNITYSDK_OFFSET(0x165C63B0)
+#define JDFPIPINHPH_KBLLCNLBMFE__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0x165C65E0)
+#define JDFPIPINHPH_KBLLCNLBMFE__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x165C6680)
+
+	class JDFPIPINHPH_KBLLCNLBMFE : public ::RPG::Client::UIController
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE_CTOR_OFFSET))(this);
+		}
+
+		::System::Void DKMLNKGGCOO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE_DKMLNKGGCOO_OFFSET))(this);
+		}
+
+		::System::Void ILAAHBICBHA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE_ILAAHBICBHA_OFFSET))(this);
+		}
+
+		::System::Void JFNDMGPKLOJ(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE_JFNDMGPKLOJ_OFFSET))(this, a1);
+		}
+
+		::System::Void KGCGHCMOLLG(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE_KGCGHCMOLLG_OFFSET))(this, a1);
+		}
+
+		::System::Void DKOODCOCAOA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE_DKOODCOCAOA_OFFSET))(this);
+		}
+
+		::System::Void _CustomBindView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE__CUSTOMBINDVIEW_OFFSET))(this);
+		}
+
+		::System::Void _SetupView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE__SETUPVIEW_OFFSET))(this);
+		}
+
+		::JDFPIPINHPH_FEMFLGMEGNB* OICGPNAMNAI()
+		{
+			return ((::JDFPIPINHPH_FEMFLGMEGNB*(*)(::PVOID))((::PBYTE)hIl2Cpp + JDFPIPINHPH_KBLLCNLBMFE_OICGPNAMNAI_OFFSET))(this);
+		}
+
+	};

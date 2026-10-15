@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenOutfitType_TypeDefinitionIndex = 11604;
-
 	enum class HipplenOutfitType : ::System::Int32
 	{
 		Color = 0,

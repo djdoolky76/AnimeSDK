@@ -3,27 +3,23 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace RPGTools::Timeline { class OverrideTransformMixer; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F22D0)
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8F23F0)
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F2640)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE947810)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE947930)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE947B80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SwitchCharacterAnchorTrack_TypeDefinitionIndex = 48826;
-
 	class SwitchCharacterAnchorTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::RPGTools::Timeline::OverrideTransformMixer* _OverrideTransformMixer; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

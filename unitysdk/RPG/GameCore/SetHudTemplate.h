@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetHudTemplate; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_2783C47DAC898D42_OFFSET UNITYSDK_OFFSET(0x1D502240)
-#define RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_52F852A76155E5E9_OFFSET UNITYSDK_OFFSET(0x1D502200)
-#define RPG_GAMECORE_SETHUDTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D502230)
+#define RPG_GAMECORE_SETHUDTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB6450)
+#define RPG_GAMECORE_SETHUDTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB6460)
+#define RPG_GAMECORE_SETHUDTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB6420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetHudTemplate_TypeDefinitionIndex = 20663;
-
 	class SetHudTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 TemplateID; // 0x18
 		::System::Boolean EnableTemplate; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_52F852A76155E5E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHudTemplate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetHudTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetHudTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_52F852A76155E5E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetHudTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2783C47DAC898D42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHudTemplate* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetHudTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetHudTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_2783C47DAC898D42_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetHudTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

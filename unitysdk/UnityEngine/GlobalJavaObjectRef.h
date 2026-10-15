@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace UnityEngine { class GlobalJavaObjectRef; }
 
-#define UNITYENGINE_GLOBALJAVAOBJECTREF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ECE7E60)
-#define UNITYENGINE_GLOBALJAVAOBJECTREF_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1ECEB120)
-#define UNITYENGINE_GLOBALJAVAOBJECTREF_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ECE7BA0)
-#define UNITYENGINE_GLOBALJAVAOBJECTREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE7440)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3AF1E0)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F3AFC00)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F3B2EC0)
+#define UNITYENGINE_GLOBALJAVAOBJECTREF_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F3AF940)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GlobalJavaObjectRef_TypeDefinitionIndex = 5670;
-
 	class GlobalJavaObjectRef : public ::System::Object
 	{
 	public:
 		::System::Boolean m_disposed; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::IntPtr m_jobject; // 0x18
-
 		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_GLOBALJAVAOBJECTREF__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_GLOBALJAVAOBJECTREF_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -36,5 +35,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GLOBALJAVAOBJECTREF_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

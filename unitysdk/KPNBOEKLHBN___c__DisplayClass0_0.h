@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class MainMissionData; }
+
+#define KPNBOEKLHBN___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C28F0)
+#define KPNBOEKLHBN___C__DISPLAYCLASS0_0__TRYTRACKINGNEXTMISSION_B__1_OFFSET UNITYSDK_OFFSET(0xB5C2C50)
+
+	class KPNBOEKLHBN___c__DisplayClass0_0 : public ::System::Object
+	{
+	public:
+		::System::UInt32 maxWeight; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPNBOEKLHBN___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _TryTrackingNextMission_b__1(::RPG::Client::MainMissionData* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MainMissionData*))((::PBYTE)hIl2Cpp + KPNBOEKLHBN___C__DISPLAYCLASS0_0__TRYTRACKINGNEXTMISSION_B__1_OFFSET))(this, a1);
+		}
+
+	};

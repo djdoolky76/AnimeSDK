@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TargetSortByValueEvaluator; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define KNBCGEHJLHK_CTOR_OFFSET UNITYSDK_OFFSET(0xB577780)
+#define KNBCGEHJLHK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB5777A0)
+
+	class KNBCGEHJLHK
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TargetSortByValueEvaluator* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetSortByValueEvaluator*))((::PBYTE)hIl2Cpp + KNBCGEHJLHK_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Transform(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + KNBCGEHJLHK_TRANSFORM_OFFSET))(this, a1, a2);
+		}
+
+	};

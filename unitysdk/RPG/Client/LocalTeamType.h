@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LocalTeamType_TypeDefinitionIndex = 68128;
-
 	enum class LocalTeamType : ::System::Int32
 	{
 		Default = 0,

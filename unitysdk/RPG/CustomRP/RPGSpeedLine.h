@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class RPGSpeedLine_SpeedLineModeParameter; }
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 
-#define RPG_CUSTOMRP_RPGSPEEDLINE_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1C6DC5D0)
-#define RPG_CUSTOMRP_RPGSPEEDLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DC680)
+#define RPG_CUSTOMRP_RPGSPEEDLINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC62BD0)
+#define RPG_CUSTOMRP_RPGSPEEDLINE_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC62B20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSpeedLine_TypeDefinitionIndex = 37157;
-
 	class RPGSpeedLine : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
@@ -36,15 +33,15 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* LineBrightness; // 0xB0
 		::UnityEngine::Rendering::FloatParameter* SpeedlineEdgeSoft; // 0xB8
 		::UnityEngine::Rendering::FloatParameter* Rotation; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGSPEEDLINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGSPEEDLINE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsActiveImpl()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGSPEEDLINE_ISACTIVEIMPL_OFFSET))(this);
 		}
+
 	};
 }

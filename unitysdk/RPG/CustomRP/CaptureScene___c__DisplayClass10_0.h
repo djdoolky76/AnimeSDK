@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Collections/NativeArray_1.h"
-
 namespace RPG::CustomRP { class CaptureScene; }
+namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0x1C68A7A0)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1C68A960)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__2_OFFSET UNITYSDK_OFFSET(0x1C68AA70)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1C689D10)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC10080)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC10B40)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0x1CC10D00)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__2_OFFSET UNITYSDK_OFFSET(0x1CC10E10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene___c__DisplayClass10_0_TypeDefinitionIndex = 36915;
-
 	class CaptureScene___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* cameraTran; // 0x10
-		::RPG::CustomRP::CaptureScene* __4__this; // 0x18
-		::UnityEngine::Camera* camera; // 0x20
-
+		::RPG::CustomRP::CaptureScene* __4__this; // 0x10
+		::UnityEngine::Camera* camera; // 0x18
+		::UnityEngine::Transform* cameraTran; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Capture_b__0()
@@ -38,9 +34,10 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__1_OFFSET))(this);
 		}
 
-		::System::Void _Capture_b__2(::Unity::Collections::NativeArray_1<::System::Byte>& a1)
+		::System::Void _Capture_b__2(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::System::Byte>&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS10_0__CAPTURE_B__2_OFFSET))(this, a1);
 		}
+
 	};
 }

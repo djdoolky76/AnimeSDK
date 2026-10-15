@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PackingRules_TypeDefinitionIndex = 34902;
-
 	enum class PackingRules : ::System::Int32
 	{
 		Exact = 0,

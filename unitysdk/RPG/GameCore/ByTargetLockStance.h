@@ -1,51 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByTargetLockStance; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_4B899A9B80CAD443_OFFSET UNITYSDK_OFFSET(0x1CF65830)
-#define RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_7C298BF2F944EFD5_OFFSET UNITYSDK_OFFSET(0x1CF65860)
-#define RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_7DB2933E07769D56_OFFSET UNITYSDK_OFFSET(0x1CF65630)
-#define RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_D1C297B7355CB37F_OFFSET UNITYSDK_OFFSET(0x1CF65670)
-#define RPG_GAMECORE_BYTARGETLOCKSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF65660)
+#define RPG_GAMECORE_BYTARGETLOCKSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53F020)
+#define RPG_GAMECORE_BYTARGETLOCKSTANCE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D53F220)
+#define RPG_GAMECORE_BYTARGETLOCKSTANCE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D53F1F0)
+#define RPG_GAMECORE_BYTARGETLOCKSTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D53F030)
+#define RPG_GAMECORE_BYTARGETLOCKSTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D53EFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTargetLockStance_TypeDefinitionIndex = 23354;
-
 	class ByTargetLockStance : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::System::String* LockKey; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7DB2933E07769D56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTargetLockStance*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByTargetLockStance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTargetLockStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_7DB2933E07769D56_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByTargetLockStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D1C297B7355CB37F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTargetLockStance* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByTargetLockStance* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTargetLockStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_D1C297B7355CB37F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByTargetLockStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4B899A9B80CAD443(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetLockStance*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetLockStance* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetLockStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_4B899A9B80CAD443_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetLockStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7C298BF2F944EFD5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetLockStance* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTargetLockStance* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetLockStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_METHOD_4_7C298BF2F944EFD5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTargetLockStance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTARGETLOCKSTANCE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

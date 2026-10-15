@@ -3,28 +3,25 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Yoga/YogaMeasureMode.h"
 #include "unitysdk/UnityEngine/Yoga/YogaSize.h"
-
 namespace UnityEngine::Yoga { class BaselineFunction; }
 namespace UnityEngine::Yoga { class MeasureFunction; }
+namespace UnityEngine::Yoga { class YogaNode; }
 
-#define UNITYENGINE_YOGA_YOGANODE_BASELINEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EE01380)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EDFEC50)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTWIDTH_OFFSET UNITYSDK_OFFSET(0x1EDFEC40)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTX_OFFSET UNITYSDK_OFFSET(0x1EDFEC20)
-#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTY_OFFSET UNITYSDK_OFFSET(0x1EDFEC30)
-#define UNITYENGINE_YOGA_YOGANODE_MEASUREINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EE01210)
+#define UNITYENGINE_YOGA_YOGANODE_BASELINEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4CA5D0)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F4C7EA0)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTWIDTH_OFFSET UNITYSDK_OFFSET(0x1F4C7E90)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTX_OFFSET UNITYSDK_OFFSET(0x1F4C7E70)
+#define UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTY_OFFSET UNITYSDK_OFFSET(0x1F4C7E80)
+#define UNITYENGINE_YOGA_YOGANODE_MEASUREINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4CA460)
 
 namespace UnityEngine::Yoga
 {
-	inline static constexpr unsigned int YogaNode_TypeDefinitionIndex = 5860;
-
 	class YogaNode : public ::System::Object
 	{
 	public:
 		::System::IntPtr _ygNode; // 0x10
 		::UnityEngine::Yoga::MeasureFunction* _measureFunction; // 0x18
 		::UnityEngine::Yoga::BaselineFunction* _baselineFunction; // 0x20
-
 		::System::Single get_LayoutX()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_YOGANODE_GET_LAYOUTX_OFFSET))(this);
@@ -54,5 +51,6 @@ namespace UnityEngine::Yoga
 		{
 			return ((::System::Single(*)(::UnityEngine::Yoga::YogaNode*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_YOGANODE_BASELINEINTERNAL_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

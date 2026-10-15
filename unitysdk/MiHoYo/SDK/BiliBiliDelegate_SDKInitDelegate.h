@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class BiliBiliDelegate_InitCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D430)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D4E0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D3F0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73D370)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3BA60)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B9A0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3BB10)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3BA20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_SDKInitDelegate_TypeDefinitionIndex = 7552;
-
 	class BiliBiliDelegate_SDKInitDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::System::IntPtr a2, ::System::Boolean a3, ::System::Boolean a4, ::MiHoYo::SDK::BiliBiliDelegate_InitCallback* a5)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKINITDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfProperty_TypeDefinitionIndex = 18271;
-
 	enum class ElfProperty : ::System::Int32
 	{
 		PayDiscountRatio = 0,

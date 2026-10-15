@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System
+{
+	template <typename T>
+	class SpanHelpers_21321BB165CABDFE_PerTypeValues_1 : public ::System::Object
+	{
+	public:
+		static ::System::Boolean* StaticGet_IsReferenceOrContainsReferences()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "PerTypeValues`1")->GetStaticField(0x0);
+		}
+
+		static ::Il2CppArray<T>** StaticGet_EmptyArray()
+		{
+			return (::Il2CppArray<T>**)UnitySDK::FromName("System", "PerTypeValues`1")->GetStaticField(0x0);
+		}
+
+		static ::System::IntPtr* StaticGet_ArrayAdjustment()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("System", "PerTypeValues`1")->GetStaticField(0x0);
+		}
+
+	};
+}

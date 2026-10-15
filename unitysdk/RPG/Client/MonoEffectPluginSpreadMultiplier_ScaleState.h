@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginSpreadMultiplier_ScaleState_TypeDefinitionIndex = 70080;
-
 	enum class MonoEffectPluginSpreadMultiplier_ScaleState : ::System::Int32
 	{
 		Default = 0,

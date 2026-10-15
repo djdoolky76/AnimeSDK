@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class TriggerStoryAdvEffectClip; }
 
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8F9050)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8F9070)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8F9060)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F93C0)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE94EE20)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE94EAB0)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE94EAD0)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE94EAC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerStoryAdvEffectBehaviour_TypeDefinitionIndex = 48782;
-
 	class TriggerStoryAdvEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::TriggerStoryAdvEffectClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::TriggerStoryAdvEffectClip* get_Clip()
@@ -39,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelItemVendor_TypeDefinitionIndex = 11111;
-
 	enum class ChimeraDuelItemVendor : ::System::Int32
 	{
 		None = 0,

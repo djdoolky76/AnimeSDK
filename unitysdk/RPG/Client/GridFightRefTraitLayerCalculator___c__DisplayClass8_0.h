@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightGameRefTrait; }
 
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD2F7150)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS8_0__GETTRAIT_B__0_OFFSET UNITYSDK_OFFSET(0xD2F78E0)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1EE220)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS8_0__GETTRAIT_B__0_OFFSET UNITYSDK_OFFSET(0xD1EE9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass8_0_TypeDefinitionIndex = 64883;
-
 	class GridFightRefTraitLayerCalculator___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 traitID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetTrait_b__0(::RPG::Client::GridFightGameRefTrait* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGameRefTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS8_0__GETTRAIT_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

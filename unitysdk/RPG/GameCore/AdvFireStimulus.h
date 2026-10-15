@@ -3,19 +3,17 @@
 #include "unitysdk/RPG/GameCore/StimulusPositionType.h"
 #include "unitysdk/RPG/GameCore/StimulusTargetType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvFireStimulus; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVFIRESTIMULUS_METHOD_3_342F725528EE2359_OFFSET UNITYSDK_OFFSET(0x1CDC9530)
-#define RPG_GAMECORE_ADVFIRESTIMULUS_METHOD_3_D14A75997FE83DA1_OFFSET UNITYSDK_OFFSET(0x1CDC94F0)
-#define RPG_GAMECORE_ADVFIRESTIMULUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC9520)
+#define RPG_GAMECORE_ADVFIRESTIMULUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39EF30)
+#define RPG_GAMECORE_ADVFIRESTIMULUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39EF40)
+#define RPG_GAMECORE_ADVFIRESTIMULUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39EF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvFireStimulus_TypeDefinitionIndex = 20320;
-
 	class AdvFireStimulus : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -25,20 +23,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::StimulusTargetType AssignTarget; // 0x30
 		::RPG::GameCore::StimulusPositionType PositionType; // 0x34
 		::System::Single OverrideRange; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFIRESTIMULUS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFIRESTIMULUS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D14A75997FE83DA1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvFireStimulus*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvFireStimulus* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvFireStimulus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFIRESTIMULUS_METHOD_3_D14A75997FE83DA1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvFireStimulus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFIRESTIMULUS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_342F725528EE2359(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvFireStimulus* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvFireStimulus* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvFireStimulus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFIRESTIMULUS_METHOD_3_342F725528EE2359_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvFireStimulus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVFIRESTIMULUS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

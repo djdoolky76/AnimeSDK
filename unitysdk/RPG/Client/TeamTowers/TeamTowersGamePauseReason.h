@@ -3,8 +3,6 @@
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersGamePauseReason_TypeDefinitionIndex = 78634;
-
 	enum class TeamTowersGamePauseReason : ::System::Int32
 	{
 		None = 0,

@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/Booklet/ContainerAnchor.h"
 #include "unitysdk/RPG/GameCore/Booklet/ElementConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore::Booklet { class ContainerConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_18530C2DD9F0FDCF_OFFSET UNITYSDK_OFFSET(0x1CE8AFB0)
-#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_2C2C967AFE1F4B97_OFFSET UNITYSDK_OFFSET(0x1CE8AB10)
-#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8B2E0)
+#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D473570)
+#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D473240)
+#define RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D472DA0)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int ContainerConfig_TypeDefinitionIndex = 24687;
-
 	class ContainerConfig : public ::RPG::GameCore::Booklet::ElementConfig
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore::Booklet
 		::System::Int32 TopPadding; // 0x24
 		::System::Int32 BottomPadding; // 0x28
 		::System::Single Spacing; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C2C967AFE1F4B97(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::ContainerConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::Booklet::ContainerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::ContainerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_2C2C967AFE1F4B97_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Booklet::ContainerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_18530C2DD9F0FDCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Booklet::ContainerConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::Booklet::ContainerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Booklet::ContainerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_METHOD_3_18530C2DD9F0FDCF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::Booklet::ContainerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKLET_CONTAINERCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

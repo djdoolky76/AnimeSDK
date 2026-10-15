@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::EnvironmentSyetem { class EnviroSysAdjustLevelBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE855B40)
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE855C10)
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE855C20)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F3A80)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F3B60)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F3B50)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnviroSysAdjustLevelClip_TypeDefinitionIndex = 49089;
-
 	class EnviroSysAdjustLevelClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::EnvironmentSyetem::EnviroSysAdjustLevelBehaviour* template_; // 0x18
 		::UnityEngine::Timeline::ClipCaps _clipCaps_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -36,5 +32,6 @@ namespace RPGTools::Timeline::EnvironmentSyetem
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

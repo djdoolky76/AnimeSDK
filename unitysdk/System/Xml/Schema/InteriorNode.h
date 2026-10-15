@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/SyntaxTreeNode.h"
-
+namespace System::Xml::Schema { class InteriorNode; }
 namespace System::Xml::Schema { class Positions; }
 namespace System::Xml::Schema { class SymbolsDictionary; }
+namespace System::Xml::Schema { class SyntaxTreeNode; }
 
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREENORECURSIVE_OFFSET UNITYSDK_OFFSET(0x1E7DFF00)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1E7F6920)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_GET_LEFTCHILD_OFFSET UNITYSDK_OFFSET(0x1E7F68E0)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_GET_RIGHTCHILD_OFFSET UNITYSDK_OFFSET(0x1E7F6900)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_SET_LEFTCHILD_OFFSET UNITYSDK_OFFSET(0x1E7F68F0)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE_SET_RIGHTCHILD_OFFSET UNITYSDK_OFFSET(0x1E7F6910)
-#define SYSTEM_XML_SCHEMA_INTERIORNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E01A0)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA8E80)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREENORECURSIVE_OFFSET UNITYSDK_OFFSET(0x1EEA8BE0)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREE_OFFSET UNITYSDK_OFFSET(0x1EEBF600)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_GET_LEFTCHILD_OFFSET UNITYSDK_OFFSET(0x1EEBF5C0)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_GET_RIGHTCHILD_OFFSET UNITYSDK_OFFSET(0x1EEBF5E0)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_SET_LEFTCHILD_OFFSET UNITYSDK_OFFSET(0x1EEBF5D0)
+#define SYSTEM_XML_SCHEMA_INTERIORNODE_SET_RIGHTCHILD_OFFSET UNITYSDK_OFFSET(0x1EEBF5F0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int InteriorNode_TypeDefinitionIndex = 2071;
-
 	class InteriorNode : public ::System::Xml::Schema::SyntaxTreeNode
 	{
 	public:
 		::System::Xml::Schema::SyntaxTreeNode* leftChild; // 0x10
 		::System::Xml::Schema::SyntaxTreeNode* rightChild; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_INTERIORNODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_INTERIORNODE_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::SyntaxTreeNode* get_LeftChild()
@@ -57,5 +55,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_INTERIORNODE_EXPANDTREE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

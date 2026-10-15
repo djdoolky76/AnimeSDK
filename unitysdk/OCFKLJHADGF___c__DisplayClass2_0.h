@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class IdleLiveEventSentenceRow; }
+
+#define OCFKLJHADGF___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD60210)
+#define OCFKLJHADGF___C__DISPLAYCLASS2_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xBD60590)
+
+	class OCFKLJHADGF___c__DisplayClass2_0 : public ::System::Object
+	{
+	public:
+		::System::UInt32 sectionId; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OCFKLJHADGF___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _Create_b__0(::RPG::GameCore::IdleLiveEventSentenceRow* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::IdleLiveEventSentenceRow*))((::PBYTE)hIl2Cpp + OCFKLJHADGF___C__DISPLAYCLASS2_0__CREATE_B__0_OFFSET))(this, a1);
+		}
+
+	};

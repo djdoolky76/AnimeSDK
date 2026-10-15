@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierModifyAdventureRoomTimeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_METHOD_3_7A806B6CEDB90074_OFFSET UNITYSDK_OFFSET(0x1D3F9740)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_METHOD_3_85C42D865A7A8A70_OFFSET UNITYSDK_OFFSET(0x1D3F9790)
-#define RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F9780)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA175C0)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA175D0)
+#define RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA17580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierModifyAdventureRoomTimeConfig_TypeDefinitionIndex = 17756;
-
 	class RogueModifierModifyAdventureRoomTimeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7A806B6CEDB90074(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_METHOD_3_7A806B6CEDB90074_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_85C42D865A7A8A70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_METHOD_3_85C42D865A7A8A70_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierModifyAdventureRoomTimeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERMODIFYADVENTUREROOMTIMECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FarmTypeConfig_TypeDefinitionIndex = 12466;
-
 	enum class FarmTypeConfig : ::System::Int32
 	{
 		NONE = 0,

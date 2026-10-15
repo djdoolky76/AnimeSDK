@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/TypeConverter.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1E92EBE0)
-#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x1E92EC50)
-#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1E92ECC0)
-#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1E92EEE0)
-#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E92F1D0)
+#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CANCONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1EFF7940)
+#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CANCONVERTTO_OFFSET UNITYSDK_OFFSET(0x1EFF79B0)
+#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CONVERTFROM_OFFSET UNITYSDK_OFFSET(0x1EFF7A20)
+#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1EFF7C40)
+#define SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF7F30)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TimeSpanConverter_TypeDefinitionIndex = 2629;
-
 	class TimeSpanConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* a1, ::System::Type* a2)
@@ -44,5 +41,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TIMESPANCONVERTER_CONVERTTO_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

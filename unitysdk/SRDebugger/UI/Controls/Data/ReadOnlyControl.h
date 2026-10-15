@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/UI/Controls/DataBoundControl.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1E6905F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1E690210)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1E690550)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1E6901F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E690630)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1ED58230)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED58270)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1ED57E50)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1ED58190)
+#define SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1ED57E30)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int ReadOnlyControl_TypeDefinitionIndex = 37353;
-
 	class ReadOnlyControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:
 		::UnityEngine::UI::Text* ValueText; // 0x98
 		::UnityEngine::UI::Text* Title; // 0xA0
 		::UnityEngine::GameObject* ScrollContent; // 0xA8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -49,5 +45,6 @@ namespace SRDebugger::UI::Controls::Data
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_DATA_READONLYCONTROL_CANBIND_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

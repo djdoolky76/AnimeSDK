@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Google/Protobuf/Reflection/ReflectionUtil_SampleEnum.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class Extension; }
 namespace Google::Protobuf { class IMessage; }
 namespace Google::Protobuf::Reflection { class ReflectionUtil_IExtensionReflectionHelper; }
 namespace Google::Protobuf::Reflection { class ReflectionUtil_IReflectionHelper; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class Type; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CHECKCANCONVERTENUMFUNCTOINT32FUNC_OFFSET UNITYSDK_OFFSET(0x1B396070)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B396660)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B392A90)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEEXTENSIONHELPER_OFFSET UNITYSDK_OFFSET(0x1B396BB0)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEBOOL_OFFSET UNITYSDK_OFFSET(0x1B396960)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEINT32_OFFSET UNITYSDK_OFFSET(0x1B392840)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B396220)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_GETREFLECTIONHELPER_OFFSET UNITYSDK_OFFSET(0x1B396470)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_GET_CANCONVERTENUMFUNCTOINT32FUNC_OFFSET UNITYSDK_OFFSET(0x1B396ED0)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_SAMPLEENUMMETHOD_OFFSET UNITYSDK_OFFSET(0x1B396210)
-#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B395AD0)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8979C0)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CHECKCANCONVERTENUMFUNCTOINT32FUNC_OFFSET UNITYSDK_OFFSET(0x1B897F60)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B898550)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B894980)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEEXTENSIONHELPER_OFFSET UNITYSDK_OFFSET(0x1B898AA0)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEBOOL_OFFSET UNITYSDK_OFFSET(0x1B898850)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEINT32_OFFSET UNITYSDK_OFFSET(0x1B894730)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B898110)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_GETREFLECTIONHELPER_OFFSET UNITYSDK_OFFSET(0x1B898360)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_GET_CANCONVERTENUMFUNCTOINT32FUNC_OFFSET UNITYSDK_OFFSET(0x1B898DC0)
+#define GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_SAMPLEENUMMETHOD_OFFSET UNITYSDK_OFFSET(0x1B898100)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil_TypeDefinitionIndex = 5552;
-
 	class ReflectionUtil : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_EmptyTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtil_TypeDefinitionIndex)->GetStaticField(0x16700);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("Google.Protobuf.Reflection", "ReflectionUtil")->GetStaticField(0x189A0);
 		}
+
 		static ::System::Boolean* StaticGet__CanConvertEnumFuncToInt32Func_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReflectionUtil_TypeDefinitionIndex)->GetStaticField(0x88B0);
+			return (::System::Boolean*)UnitySDK::FromName("Google.Protobuf.Reflection", "ReflectionUtil")->GetStaticField(0x5AD0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CCTOR_OFFSET))();
 		}
 
 		static ::System::Func_2<::Google::Protobuf::IMessage*, ::System::Object*>* CreateFuncIMessageObject(::System::Reflection::MethodInfo* a1)
@@ -56,14 +54,14 @@ namespace Google::Protobuf::Reflection
 			return ((::System::Func_2<::Google::Protobuf::IMessage*, ::System::Int32>*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEFUNCIMESSAGEINT32_OFFSET))(a1);
 		}
 
-		static ::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>* CreateActionIMessageObject(::System::Reflection::MethodInfo* a1)
+		static ::System::Action* CreateActionIMessageObject(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET))(a1);
+			return ((::System::Action*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGEOBJECT_OFFSET))(a1);
 		}
 
-		static ::System::Action_1<::Google::Protobuf::IMessage*>* CreateActionIMessage(::System::Reflection::MethodInfo* a1)
+		static ::System::Action* CreateActionIMessage(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Action_1<::Google::Protobuf::IMessage*>*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET))(a1);
+			return ((::System::Action*(*)(::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_CREATEACTIONIMESSAGE_OFFSET))(a1);
 		}
 
 		static ::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>* CreateFuncIMessageBool(::System::Reflection::MethodInfo* a1)
@@ -95,5 +93,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::Google::Protobuf::Reflection::ReflectionUtil_SampleEnum(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_REFLECTIONUTIL_SAMPLEENUMMETHOD_OFFSET))();
 		}
+
 	};
 }

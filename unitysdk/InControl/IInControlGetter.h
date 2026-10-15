@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/EventSystems/MoveDirection.h"
 
 namespace InControl
 {
-	inline static constexpr unsigned int IInControlGetter_TypeDefinitionIndex = 39552;
-
 	class IInControlGetter
 	{
 	public:

@@ -4,33 +4,31 @@
 #include "unitysdk/UnityEngine/Rendering/ReloadAttribute_Package.h"
 #include "unitysdk/UnityEngine/Rendering/StripPlatform.h"
 #include "unitysdk/UnityEngine/Rendering/StripTarget.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC02980)
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EC02990)
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC02970)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2CA2B0)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F2CA2C0)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2CA2A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReloadAttribute_TypeDefinitionIndex = 34938;
-
 	class ReloadAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1, ::UnityEngine::Rendering::StripPlatform a2, ::UnityEngine::Rendering::StripTarget a3, ::UnityEngine::Rendering::ReloadAttribute_Package a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::UnityEngine::Rendering::StripPlatform a2, ::UnityEngine::Rendering::StripTarget a3, ::UnityEngine::Rendering::ReloadAttribute_Package a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Rendering::StripPlatform, ::UnityEngine::Rendering::StripTarget, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Rendering::ReloadAttribute_Package a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::UnityEngine::Rendering::ReloadAttribute_Package))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

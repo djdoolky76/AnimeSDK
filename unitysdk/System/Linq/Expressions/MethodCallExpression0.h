@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/MethodCallExpression.h"
-
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Linq::Expressions { class Expression; }
+namespace System::Linq::Expressions { class MethodCallExpression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E7655D0)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E765620)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E765630)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0__CTOR_OFFSET UNITYSDK_OFFSET(0x1E765570)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2E190)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1EE2E1F0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE2E240)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EE2E250)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MethodCallExpression0_TypeDefinitionIndex = 3253;
-
 	class MethodCallExpression0 : public ::System::Linq::Expressions::MethodCallExpression
 	{
 	public:
 		::System::Void _ctor(::System::Reflection::MethodInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Linq::Expressions::Expression* GetArgument(::System::Int32 a1)
@@ -37,5 +35,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::MethodCallExpression*(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION0_REWRITE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

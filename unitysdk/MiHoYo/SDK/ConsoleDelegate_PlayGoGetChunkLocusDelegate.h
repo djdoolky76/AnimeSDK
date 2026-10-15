@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F470)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F4A0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F460)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93F3F0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3F820)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3F7A0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3F850)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3F810)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_PlayGoGetChunkLocusDelegate_TypeDefinitionIndex = 7613;
-
 	class ConsoleDelegate_PlayGoGetChunkLocusDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_PLAYGOGETCHUNKLOCUSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

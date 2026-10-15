@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StoryLineDelTrialPlayer; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STORYLINEDELTRIALPLAYER_METHOD_3_8AD7516548FB60B6_OFFSET UNITYSDK_OFFSET(0x1D5720E0)
-#define RPG_GAMECORE_STORYLINEDELTRIALPLAYER_METHOD_3_FA0C5B097D17685A_OFFSET UNITYSDK_OFFSET(0x1D572090)
-#define RPG_GAMECORE_STORYLINEDELTRIALPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5720D0)
+#define RPG_GAMECORE_STORYLINEDELTRIALPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27B40)
+#define RPG_GAMECORE_STORYLINEDELTRIALPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB27B50)
+#define RPG_GAMECORE_STORYLINEDELTRIALPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB27B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryLineDelTrialPlayer_TypeDefinitionIndex = 21424;
-
 	class StoryLineDelTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYLINEDELTRIALPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYLINEDELTRIALPLAYER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FA0C5B097D17685A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StoryLineDelTrialPlayer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StoryLineDelTrialPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StoryLineDelTrialPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYLINEDELTRIALPLAYER_METHOD_3_FA0C5B097D17685A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StoryLineDelTrialPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYLINEDELTRIALPLAYER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8AD7516548FB60B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StoryLineDelTrialPlayer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StoryLineDelTrialPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StoryLineDelTrialPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYLINEDELTRIALPLAYER_METHOD_3_8AD7516548FB60B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StoryLineDelTrialPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYLINEDELTRIALPLAYER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

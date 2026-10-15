@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongSPSkillType_TypeDefinitionIndex = 16787;
-
 	enum class PingPongSPSkillType : ::System::Int32
 	{
 		None = 0,

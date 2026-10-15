@@ -2,67 +2,70 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/RubikCubeFrameFace.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client::Prop { class RubikCubePuzzleConditionObject; }
 namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0xDD1A7D0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD199C0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDD1A490)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_GET_MATCHEDANIMFINISH_OFFSET UNITYSDK_OFFSET(0xDD1ACE0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_INITCONDITIONGROUP_OFFSET UNITYSDK_OFFSET(0xDD14F20)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_INITPREVIEWCUBE_OFFSET UNITYSDK_OFFSET(0xDD19A00)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDD19F70)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0xDD1A0C0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_SETCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDD1A6C0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_SET_MATCHEDANIMFINISH_OFFSET UNITYSDK_OFFSET(0xDD1ACF0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD1AD50)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xDD1AD00)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDA2F20)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_CHECKBLOCK_OFFSET UNITYSDK_OFFSET(0xDDA29A0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xDDA2ED0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDDA1870)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDDA2660)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_GET_MATCHEDANIMFINISH_OFFSET UNITYSDK_OFFSET(0xDDA2EB0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_INITCONDITIONGROUP_OFFSET UNITYSDK_OFFSET(0xDDA20D0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_INITPREVIEWCUBE_OFFSET UNITYSDK_OFFSET(0xDDA18B0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDDA1E20)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_REFRESHSTATUS_OFFSET UNITYSDK_OFFSET(0xDDA2290)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_SETCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDDA2890)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_SET_MATCHEDANIMFINISH_OFFSET UNITYSDK_OFFSET(0xDDA2EC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleConditionGroup_TypeDefinitionIndex = 78350;
-
 	class RubikCubePuzzleConditionGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_NBPBPHICDAJ()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RubikCubePuzzleConditionGroup_TypeDefinitionIndex)->GetStaticField(0x65A60);
-		}
-		static ::System::String** StaticGet_GIMDMMDNPHO()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RubikCubePuzzleConditionGroup_TypeDefinitionIndex)->GetStaticField(0x65A68);
-		}
-		static ::System::Int32* StaticGet_CHBOPBBJNAK()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RubikCubePuzzleConditionGroup_TypeDefinitionIndex)->GetStaticField(0x14F50);
-		}
 		::System::Boolean _MatchedAnimFinish_k__BackingField; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FrameObj; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* TatumObj; // 0x28
 		::RPG::Client::Prop::RubikCubeFrameFace FaceGroup; // 0x30
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x38
 		::RPG::Client::Prop::RubikCubePuzzleCube* FNHJKBEIKOA; // 0x40
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x48
-		::Il2CppArray<::System::Int32>* LMNAODMFONI; // 0x50
+		::System::Object* LMNAODMFONI; // 0x50
 		::System::Boolean OJNMBKMGEOM; // 0x58
 		::System::Boolean PKEGAILBFBL; // 0x59
+		::System::Byte _padding2[0x6];
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleConditionObject*>* AKKEFNIDMJP; // 0x60
+		static ::System::String** StaticGet_GIMDMMDNPHO()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RubikCubePuzzleConditionGroup")->GetStaticField(0x5DC60);
+		}
+
+		static ::System::String** StaticGet_NBPBPHICDAJ()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RubikCubePuzzleConditionGroup")->GetStaticField(0x5DC68);
+		}
+
+		static ::System::Int32* StaticGet_CHBOPBBJNAK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "RubikCubePuzzleConditionGroup")->GetStaticField(0x14290);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_CCTOR_OFFSET))();
 		}
 
 		::System::Void Dispose()
@@ -114,5 +117,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECONDITIONGROUP_SET_MATCHEDANIMFINISH_OFFSET))(this, a1);
 		}
+
 	};
 }

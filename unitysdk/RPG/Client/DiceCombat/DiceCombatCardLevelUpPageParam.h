@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client::DiceCombat { class DiceCombatCardLevelUpPageParam; }
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCD20CC0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCD20D50)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_SET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCD20D60)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD20D40)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCC20BD0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC20C50)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCC20C60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_SET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCC20C70)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatCardLevelUpPageParam_TypeDefinitionIndex = 75642;
-
 	class DiceCombatCardLevelUpPageParam : public ::System::Object
 	{
 	public:
 		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _AvatarInfo_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::DiceCombat::DiceCombatCardLevelUpPageParam* Create(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a1)
@@ -37,5 +34,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCARDLEVELUPPAGEPARAM_SET_AVATARINFO_OFFSET))(this, a1);
 		}
+
 	};
 }

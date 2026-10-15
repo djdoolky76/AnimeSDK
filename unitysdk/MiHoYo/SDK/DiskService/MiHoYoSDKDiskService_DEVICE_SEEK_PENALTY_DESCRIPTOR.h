@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace MiHoYo::SDK::DiskService
 {
-	inline static constexpr unsigned int MiHoYoSDKDiskService_DEVICE_SEEK_PENALTY_DESCRIPTOR_TypeDefinitionIndex = 47135;
-
 	struct alignas(4) MiHoYoSDKDiskService_DEVICE_SEEK_PENALTY_DESCRIPTOR
 	{
 		::System::UInt32 Version; // 0x10

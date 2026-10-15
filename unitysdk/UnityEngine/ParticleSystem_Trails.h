@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_Trails_TypeDefinitionIndex = 5222;
-
 	struct alignas(8) ParticleSystem_Trails
 	{
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* positions; // 0x10

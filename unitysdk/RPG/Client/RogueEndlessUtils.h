@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Nullable; }
 
-#define RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET UNITYSDK_OFFSET(0xDEAD9C0)
-#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREAAVAILABLEREWARD_OFFSET UNITYSDK_OFFSET(0xDEAF650)
-#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREASEEN_OFFSET UNITYSDK_OFFSET(0xDEABC50)
-#define RPG_CLIENT_ROGUEENDLESSUTILS_RECORDAREASEEN_OFFSET UNITYSDK_OFFSET(0xDEAF580)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET UNITYSDK_OFFSET(0xDEFD210)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREAAVAILABLEREWARD_OFFSET UNITYSDK_OFFSET(0xDEFEEA0)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_ISAREASEEN_OFFSET UNITYSDK_OFFSET(0xDEFB4A0)
+#define RPG_CLIENT_ROGUEENDLESSUTILS_RECORDAREASEEN_OFFSET UNITYSDK_OFFSET(0xDEFEDA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueEndlessUtils_TypeDefinitionIndex = 67447;
-
 	class RogueEndlessUtils : public ::System::Object
 	{
 	public:
@@ -30,9 +28,10 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_ISAREAAVAILABLEREWARD_OFFSET))(a1);
 		}
 
-		static ::System::UInt32 GetRecommendLevel(::System::UInt32 a1, ::System::Nullable_1<::System::UInt32> a2)
+		static ::System::UInt32 GetRecommendLevel(::System::UInt32 a1, ::System::Nullable* a2)
 		{
-			return ((::System::UInt32(*)(::System::UInt32, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET))(a1, a2);
+			return ((::System::UInt32(*)(::System::UInt32, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEENDLESSUTILS_GETRECOMMENDLEVEL_OFFSET))(a1, a2);
 		}
+
 	};
 }

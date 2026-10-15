@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+namespace RPG::GameCore { class ShowGuideEvolveTalk; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define GDHDPPFPJFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1599C3C0)
+#define GDHDPPFPJFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1599C3D0)
+#define GDHDPPFPJFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1599C410)
+#define GDHDPPFPJFO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1599C5C0)
+#define GDHDPPFPJFO_TICK_OFFSET UNITYSDK_OFFSET(0x1599C610)
+#define GDHDPPFPJFO__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1599C670)
+
+	class GDHDPPFPJFO : public ::GELIALJDFBL
+	{
+	public:
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowGuideEvolveTalk* OFKGLJOAMLD; // 0x20
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowGuideEvolveTalk* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowGuideEvolveTalk*))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OnTaskReset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_ONTASKRESET_OFFSET))(this);
+		}
+
+		::System::Void Tick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GDHDPPFPJFO_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnTaskBegin_b__2_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHDPPFPJFO__ONTASKBEGIN_B__2_0_OFFSET))(this);
+		}
+
+	};

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class TimeRelayFlameEventListener; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_156433AD4EF73062_OFFSET UNITYSDK_OFFSET(0x1D5CD950)
-#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_E05EB60741EA6ED1_OFFSET UNITYSDK_OFFSET(0x1D5CD990)
-#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CD980)
+#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB85160)
+#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB85170)
+#define RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB85130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRelayFlameEventListener_TypeDefinitionIndex = 21790;
-
 	class TimeRelayFlameEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -31,20 +30,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* ClonePlayerTeleportFail; // 0x80
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* PlayerMove; // 0x88
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* Ignite; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_156433AD4EF73062(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameEventListener*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRelayFlameEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameEventListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_156433AD4EF73062_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRelayFlameEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E05EB60741EA6ED1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameEventListener* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRelayFlameEventListener* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_METHOD_3_E05EB60741EA6ED1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRelayFlameEventListener*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEEVENTLISTENER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

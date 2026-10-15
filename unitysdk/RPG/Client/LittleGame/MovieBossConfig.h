@@ -3,18 +3,15 @@
 #include "unitysdk/RPG/Client/LittleGame/BossPhase.h"
 #include "unitysdk/RPG/Client/LittleGame/MovieEnemyConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
 namespace RPG::Client::LittleGame { class ActionGroupConfig; }
 namespace RPG::Client::LittleGame { class PlacementConfig; }
 namespace RPG::Client::LittleGame { class PlacementGroupConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEBOSSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4996C0)
+#define RPG_CLIENT_LITTLEGAME_MOVIEBOSSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA08C20)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieBossConfig_TypeDefinitionIndex = 41030;
-
 	class MovieBossConfig : public ::RPG::Client::LittleGame::MovieEnemyConfig
 	{
 	public:
@@ -54,10 +51,10 @@ namespace RPG::Client::LittleGame
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ActionGroupConfig*>* ActionGroupPhase1List; // 0xE0
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ActionGroupConfig*>* ActionGroupPhase2List; // 0xE8
 		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::PlacementGroupConfig*>* EnemyGroupConfigList; // 0xF0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEBOSSCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_MOVIEBOSSCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

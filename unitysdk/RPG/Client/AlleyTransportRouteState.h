@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyTransportRouteState_TypeDefinitionIndex = 62373;
-
 	enum class AlleyTransportRouteState : ::System::Int32
 	{
 		Edit = 0,

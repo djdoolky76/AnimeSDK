@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class TeamData; }
+namespace RPG::Client { class UpgradeMainlineTeamListProvider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xE3D2FC0)
-#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0xE3D3030)
-#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xE3D2FB0)
+#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_CREATE_OFFSET UNITYSDK_OFFSET(0xE416170)
+#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE416160)
+#define RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET UNITYSDK_OFFSET(0xE4161E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UpgradeMainlineTeamListProvider_TypeDefinitionIndex = 68117;
-
 	class UpgradeMainlineTeamListProvider : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::UpgradeMainlineTeamListProvider* Create()
@@ -30,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TeamData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UPGRADEMAINLINETEAMLISTPROVIDER_GETTEAMS_OFFSET))(this);
 		}
+
 	};
 }

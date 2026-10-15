@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournCollectionExhibitionInteractingPropType_TypeDefinitionIndex = 67805;
-
 	enum class RogueTournCollectionExhibitionInteractingPropType : ::System::Int32
 	{
 		None = 0,

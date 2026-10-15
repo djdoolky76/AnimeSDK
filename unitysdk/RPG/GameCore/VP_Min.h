@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ValuePostProcessConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VP_Min; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VP_MIN_METHOD_3_354EE36AC864B94F_OFFSET UNITYSDK_OFFSET(0x1D6955E0)
-#define RPG_GAMECORE_VP_MIN_METHOD_3_430DF9969363B87E_OFFSET UNITYSDK_OFFSET(0x1D695740)
-#define RPG_GAMECORE_VP_MIN_METHOD_3_54992364255A3AD2_OFFSET UNITYSDK_OFFSET(0x1D695690)
-#define RPG_GAMECORE_VP_MIN_METHOD_3_BAFB2269FBAD5E02_OFFSET UNITYSDK_OFFSET(0x1D695710)
-#define RPG_GAMECORE_VP_MIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D695680)
+#define RPG_GAMECORE_VP_MIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC89CE0)
+#define RPG_GAMECORE_VP_MIN_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC89DA0)
+#define RPG_GAMECORE_VP_MIN_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC89D70)
+#define RPG_GAMECORE_VP_MIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC89CF0)
+#define RPG_GAMECORE_VP_MIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC89C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VP_Min_TypeDefinitionIndex = 23782;
-
 	class VP_Min : public ::RPG::GameCore::ValuePostProcessConfig
 	{
 	public:
 		::RPG::GameCore::ValueEvaluatorConfig* Value; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_354EE36AC864B94F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VP_Min*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VP_Min* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VP_Min*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_METHOD_3_354EE36AC864B94F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VP_Min*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_54992364255A3AD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VP_Min* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VP_Min* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VP_Min*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_METHOD_3_54992364255A3AD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VP_Min*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BAFB2269FBAD5E02(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Min*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Min* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Min*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_METHOD_3_BAFB2269FBAD5E02_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Min*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_430DF9969363B87E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Min* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VP_Min* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Min*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_METHOD_3_430DF9969363B87E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VP_Min*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VP_MIN_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

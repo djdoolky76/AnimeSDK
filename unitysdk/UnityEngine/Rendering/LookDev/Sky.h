@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Cubemap; }
 
 namespace UnityEngine::Rendering::LookDev
 {
-	inline static constexpr unsigned int Sky_TypeDefinitionIndex = 35001;
-
 	struct alignas(8) Sky
 	{
 		::UnityEngine::Cubemap* cubemap; // 0x10

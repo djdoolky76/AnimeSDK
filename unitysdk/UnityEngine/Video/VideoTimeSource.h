@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoTimeSource_TypeDefinitionIndex = 6044;
-
 	enum class VideoTimeSource : ::System::Int32
 	{
 		AudioDSPTimeSource = 0,

@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class HoyoTagContainer; }
-
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IHoYoTagService_1_TypeDefinitionIndex = 41121;
-
-	template <typename TEntity>
+	template <typename T>
 	class IHoYoTagService_1
 	{
 	public:

@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueFormulaConditionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueTournFormulaCondFilterTopKBuffTypeConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_METHOD_7_1F345A0C177339FA_OFFSET UNITYSDK_OFFSET(0x1D41BA40)
-#define RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_METHOD_7_69154F2F31660256_OFFSET UNITYSDK_OFFSET(0x1D41BA90)
-#define RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D41BA80)
+#define RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA39740)
+#define RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA39750)
+#define RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA39700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournFormulaCondFilterTopKBuffTypeConfig_TypeDefinitionIndex = 19342;
-
 	class RogueTournFormulaCondFilterTopKBuffTypeConfig : public ::RPG::GameCore::RogueFormulaConditionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_7_1F345A0C177339FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_METHOD_7_1F345A0C177339FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_7_69154F2F31660256(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_METHOD_7_69154F2F31660256_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueTournFormulaCondFilterTopKBuffTypeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNFORMULACONDFILTERTOPKBUFFTYPECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

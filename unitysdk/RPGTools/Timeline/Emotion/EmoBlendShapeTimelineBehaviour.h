@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace RPGTools::Timeline::Emotion { class EmoBlendShapeParam; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_C1B36272B6475D02_OFFSET UNITYSDK_OFFSET(0xE84DC00)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE84DEA0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EC1A0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xE8EBF00)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeTimelineBehaviour_TypeDefinitionIndex = 49189;
-
 	class EmoBlendShapeTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
@@ -25,15 +22,15 @@ namespace RPGTools::Timeline::Emotion
 		::System::Collections::Generic::List_1<::RPGTools::Timeline::Emotion::EmoBlendShapeParam*>* EmoParams; // 0x20
 		::RPG::Client::MonoEmoBlendShapesController* Controller; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* CurrentEmoParam; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_C1B36272B6475D02(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Single a3)
+		::System::Void PAGKOAEOLKA(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_C1B36272B6475D02_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_PAGKOAEOLKA_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpStatusCode_TypeDefinitionIndex = 2738;
-
 	enum class HttpStatusCode : ::System::Int32
 	{
 		Continue = 100,

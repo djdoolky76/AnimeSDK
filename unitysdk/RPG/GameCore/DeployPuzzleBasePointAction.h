@@ -2,37 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DeployPuzzleBasePointActionType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DeployPuzzleBasePointAction; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_METHOD_3_74798AE1655E0936_OFFSET UNITYSDK_OFFSET(0x1D01F110)
-#define RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_METHOD_3_76AF6D7E48E8CA10_OFFSET UNITYSDK_OFFSET(0x1D01F190)
-#define RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01F160)
+#define RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FB650)
+#define RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5FB680)
+#define RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FB600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeployPuzzleBasePointAction_TypeDefinitionIndex = 21731;
-
 	class DeployPuzzleBasePointAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::DeployPuzzleBasePointActionType TargetAction; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_74798AE1655E0936(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleBasePointAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeployPuzzleBasePointAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeployPuzzleBasePointAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_METHOD_3_74798AE1655E0936_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeployPuzzleBasePointAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_76AF6D7E48E8CA10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleBasePointAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeployPuzzleBasePointAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeployPuzzleBasePointAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_METHOD_3_76AF6D7E48E8CA10_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeployPuzzleBasePointAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEBASEPOINTACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

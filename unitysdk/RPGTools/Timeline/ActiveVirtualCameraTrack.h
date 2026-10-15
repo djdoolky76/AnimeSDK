@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE80D0F0)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE80D300)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE80D4E0)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8AAA00)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8AAC10)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8AADF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ActiveVirtualCameraTrack_TypeDefinitionIndex = 48275;
-
 	class ActiveVirtualCameraTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -32,5 +29,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

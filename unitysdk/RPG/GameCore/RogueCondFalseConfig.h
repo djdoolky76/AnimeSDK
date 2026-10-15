@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueConditionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueCondFalseConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUECONDFALSECONFIG_METHOD_6_57CD737F0E0206D7_OFFSET UNITYSDK_OFFSET(0x1D3CBA30)
-#define RPG_GAMECORE_ROGUECONDFALSECONFIG_METHOD_6_FC3BB185594E4BBB_OFFSET UNITYSDK_OFFSET(0x1D3CBA80)
-#define RPG_GAMECORE_ROGUECONDFALSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CBA70)
+#define RPG_GAMECORE_ROGUECONDFALSECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B2250)
+#define RPG_GAMECORE_ROGUECONDFALSECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9B2260)
+#define RPG_GAMECORE_ROGUECONDFALSECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9B2210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCondFalseConfig_TypeDefinitionIndex = 19570;
-
 	class RogueCondFalseConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDFALSECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDFALSECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_57CD737F0E0206D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondFalseConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueCondFalseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondFalseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDFALSECONFIG_METHOD_6_57CD737F0E0206D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDFALSECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_FC3BB185594E4BBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondFalseConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueCondFalseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDFALSECONFIG_METHOD_6_FC3BB185594E4BBB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueCondFalseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDFALSECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

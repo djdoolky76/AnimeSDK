@@ -1,19 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTOLOCAL_OFFSET UNITYSDK_OFFSET(0x2FD3B20)
-#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x2FD3A90)
-#define HOUDINIENGINEUNITY_TRANSFORMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x2FD3950)
+#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTOLOCAL_OFFSET UNITYSDK_OFFSET(0x304D5F0)
+#define HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0x304D560)
+#define HOUDINIENGINEUNITY_TRANSFORMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x304D420)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int TransformData_TypeDefinitionIndex = 39329;
-
 	struct alignas(8) TransformData
 	{
 		::UnityEngine::Vector3 position; // 0x10
@@ -21,11 +17,11 @@ namespace HoudiniEngineUnity
 		::UnityEngine::Vector3 localPosition; // 0x2C
 		::UnityEngine::Vector3 localScale; // 0x38
 		::UnityEngine::Quaternion localRotation; // 0x44
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* parent; // 0x58
-
 		::System::Void _ctor(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void CopyTo(::UnityEngine::Transform* a1, ::System::Boolean a2)
@@ -37,5 +33,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TRANSFORMDATA_COPYTOLOCAL_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

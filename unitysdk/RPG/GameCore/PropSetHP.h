@@ -2,38 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropSetHP; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSETHP_METHOD_3_A58FAB121CB1344B_OFFSET UNITYSDK_OFFSET(0x1D36E6E0)
-#define RPG_GAMECORE_PROPSETHP_METHOD_3_B7BB81CBBC4AE201_OFFSET UNITYSDK_OFFSET(0x1D36E650)
-#define RPG_GAMECORE_PROPSETHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D36E6B0)
+#define RPG_GAMECORE_PROPSETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9541D0)
+#define RPG_GAMECORE_PROPSETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D954200)
+#define RPG_GAMECORE_PROPSETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D954170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetHP_TypeDefinitionIndex = 21821;
-
 	class PropSetHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::FixPoint HP; // 0x20
 		::RPG::GameCore::FixPoint MaxHP; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B7BB81CBBC4AE201(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetHP*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropSetHP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP_METHOD_3_B7BB81CBBC4AE201_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropSetHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A58FAB121CB1344B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetHP* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropSetHP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP_METHOD_3_A58FAB121CB1344B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropSetHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

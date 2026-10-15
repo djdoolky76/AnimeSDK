@@ -3,56 +3,58 @@
 #include "unitysdk/System/Globalization/InternalCodePageDataItem.h"
 #include "unitysdk/System/Globalization/InternalEncodingDataItem.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Globalization { class CodePageDataItem; }
 namespace System::Text { class EncodingInfo; }
 
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_ENC_OFFSET UNITYSDK_OFFSET(0x1BD1D880)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1BD243F0)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1BD24190)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETENCODINGS_OFFSET UNITYSDK_OFFSET(0x1BD23E50)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETNUMENCODINGITEMS_OFFSET UNITYSDK_OFFSET(0x1BD1D830)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_INTERNALGETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1BD23BD0)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_MAPCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1BD1D8A0)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD1D8C0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2297C0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_ENC_OFFSET UNITYSDK_OFFSET(0x1C229780)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1C2302F0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C230090)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETENCODINGS_OFFSET UNITYSDK_OFFSET(0x1C22FD50)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETNUMENCODINGITEMS_OFFSET UNITYSDK_OFFSET(0x1C229730)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_INTERNALGETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C22FAD0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_MAPCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1C2297A0)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int EncodingTable_TypeDefinitionIndex = 785;
-
 	class EncodingTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Hashtable** StaticGet_hashByName()
-		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(EncodingTable_TypeDefinitionIndex)->GetStaticField(0x7A70);
-		}
-		static ::Il2CppArray<::System::Globalization::InternalEncodingDataItem>** StaticGet_encodingDataPtr()
-		{
-			return (::Il2CppArray<::System::Globalization::InternalEncodingDataItem>**)Il2CppClass::FromTypeDefinitionIndex(EncodingTable_TypeDefinitionIndex)->GetStaticField(0x7A78);
-		}
 		static ::System::Collections::Hashtable** StaticGet_hashByCodePage()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(EncodingTable_TypeDefinitionIndex)->GetStaticField(0x7A80);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124E0);
 		}
+
+		static ::Il2CppArray<::System::Globalization::InternalEncodingDataItem>** StaticGet_encodingDataPtr()
+		{
+			return (::Il2CppArray<::System::Globalization::InternalEncodingDataItem>**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124E8);
+		}
+
 		static ::Il2CppArray<::System::Globalization::InternalCodePageDataItem>** StaticGet_codePageDataPtr()
 		{
-			return (::Il2CppArray<::System::Globalization::InternalCodePageDataItem>**)Il2CppClass::FromTypeDefinitionIndex(EncodingTable_TypeDefinitionIndex)->GetStaticField(0x7A88);
+			return (::Il2CppArray<::System::Globalization::InternalCodePageDataItem>**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124F0);
 		}
+
+		static ::System::Collections::Hashtable** StaticGet_hashByName()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124F8);
+		}
+
 		static ::System::Int32* StaticGet_lastEncodingItem()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EncodingTable_TypeDefinitionIndex)->GetStaticField(0x20F0);
+			return (::System::Int32*)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x3F50);
 		}
+
 		static ::System::Int32* StaticGet_lastCodePageItem()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EncodingTable_TypeDefinitionIndex)->GetStaticField(0x20F4);
+			return (::System::Int32*)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x3F54);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_ENCODINGTABLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_ENCODINGTABLE_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int32 GetNumEncodingItems()
@@ -89,5 +91,6 @@ namespace System::Globalization
 		{
 			return ((::System::Globalization::CodePageDataItem*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEDATAITEM_OFFSET))(a1);
 		}
+
 	};
 }

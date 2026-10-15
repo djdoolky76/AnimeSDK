@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SystemLanguage_TypeDefinitionIndex = 4016;
-
 	enum class SystemLanguage : ::System::Int32
 	{
 		Afrikaans = 0,

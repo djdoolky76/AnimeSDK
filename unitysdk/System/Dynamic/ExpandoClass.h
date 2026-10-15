@@ -1,51 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Dynamic { class ExpandoClass; }
 namespace System::Dynamic { class ExpandoObject; }
 
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x1E6C08B0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x1E6C0E10)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1E6C1030)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x1E6C12B0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x1E6C0FA0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1E6C13C0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C13D0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E6C08A0)
-#define SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C0880)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED89010)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED884E0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED884C0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_FINDNEWCLASS_OFFSET UNITYSDK_OFFSET(0x1ED884F0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETTRANSITIONLIST_OFFSET UNITYSDK_OFFSET(0x1ED88A50)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1ED88C70)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEXCASESENSITIVE_OFFSET UNITYSDK_OFFSET(0x1ED88EF0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GETVALUEINDEX_OFFSET UNITYSDK_OFFSET(0x1ED88BE0)
+#define SYSTEM_DYNAMIC_EXPANDOCLASS_GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1ED89000)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoClass_TypeDefinitionIndex = 3674;
-
 	class ExpandoClass : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions; // 0x10
+		::Il2CppArray<::System::String*>* _keys; // 0x18
+		::System::Int32 _hashCode; // 0x20
 		static ::System::Dynamic::ExpandoClass** StaticGet_Empty()
 		{
-			return (::System::Dynamic::ExpandoClass**)Il2CppClass::FromTypeDefinitionIndex(ExpandoClass_TypeDefinitionIndex)->GetStaticField(0x29B30);
+			return (::System::Dynamic::ExpandoClass**)UnitySDK::FromName("System.Dynamic", "ExpandoClass")->GetStaticField(0x34890);
 		}
-		::Il2CppArray<::System::String*>* _keys; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* _transitions; // 0x18
-		::System::Int32 _hashCode; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Il2CppArray<::System::String*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_CCTOR_OFFSET))();
 		}
 
 		::System::Dynamic::ExpandoClass* FindNewClass(::System::String* a1)
@@ -77,5 +75,6 @@ namespace System::Dynamic
 		{
 			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOCLASS_GET_KEYS_OFFSET))(this);
 		}
+
 	};
 }

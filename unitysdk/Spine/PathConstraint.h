@@ -1,75 +1,73 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class Bone; }
 namespace Spine { class PathAttachment; }
+namespace Spine { class PathConstraint; }
 namespace Spine { class PathConstraintData; }
 namespace Spine { class Skeleton; }
 namespace Spine { class Slot; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_PATHCONSTRAINT_ADDAFTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1E5E2550)
-#define SPINE_PATHCONSTRAINT_ADDBEFOREPOSITION_OFFSET UNITYSDK_OFFSET(0x1E5E23C0)
-#define SPINE_PATHCONSTRAINT_ADDCURVEPOSITION_OFFSET UNITYSDK_OFFSET(0x1E5E26D0)
-#define SPINE_PATHCONSTRAINT_ARRAYSFILL_OFFSET UNITYSDK_OFFSET(0x1E5DF840)
-#define SPINE_PATHCONSTRAINT_COMPUTEWORLDPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1E5E0900)
-#define SPINE_PATHCONSTRAINT_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1E5E2A70)
-#define SPINE_PATHCONSTRAINT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1E5E2A40)
-#define SPINE_PATHCONSTRAINT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1E5E2A80)
-#define SPINE_PATHCONSTRAINT_GET_MIXROTATE_OFFSET UNITYSDK_OFFSET(0x1E5E29E0)
-#define SPINE_PATHCONSTRAINT_GET_MIXX_OFFSET UNITYSDK_OFFSET(0x1E5E2A00)
-#define SPINE_PATHCONSTRAINT_GET_MIXY_OFFSET UNITYSDK_OFFSET(0x1E5E2A20)
-#define SPINE_PATHCONSTRAINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1E5E29A0)
-#define SPINE_PATHCONSTRAINT_GET_SPACING_OFFSET UNITYSDK_OFFSET(0x1E5E29C0)
-#define SPINE_PATHCONSTRAINT_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1E5E2A50)
-#define SPINE_PATHCONSTRAINT_SET_MIXROTATE_OFFSET UNITYSDK_OFFSET(0x1E5E29F0)
-#define SPINE_PATHCONSTRAINT_SET_MIXX_OFFSET UNITYSDK_OFFSET(0x1E5E2A10)
-#define SPINE_PATHCONSTRAINT_SET_MIXY_OFFSET UNITYSDK_OFFSET(0x1E5E2A30)
-#define SPINE_PATHCONSTRAINT_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1E5E29B0)
-#define SPINE_PATHCONSTRAINT_SET_SPACING_OFFSET UNITYSDK_OFFSET(0x1E5E29D0)
-#define SPINE_PATHCONSTRAINT_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1E5E2A60)
-#define SPINE_PATHCONSTRAINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E2A90)
-#define SPINE_PATHCONSTRAINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E5DF910)
-#define SPINE_PATHCONSTRAINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E5DF400)
-#define SPINE_PATHCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DEFB0)
+#define SPINE_PATHCONSTRAINT_ADDAFTERPOSITION_OFFSET UNITYSDK_OFFSET(0x1ECAA6C0)
+#define SPINE_PATHCONSTRAINT_ADDBEFOREPOSITION_OFFSET UNITYSDK_OFFSET(0x1ECAA530)
+#define SPINE_PATHCONSTRAINT_ADDCURVEPOSITION_OFFSET UNITYSDK_OFFSET(0x1ECAA840)
+#define SPINE_PATHCONSTRAINT_ARRAYSFILL_OFFSET UNITYSDK_OFFSET(0x1ECA79A0)
+#define SPINE_PATHCONSTRAINT_COMPUTEWORLDPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1ECA8A70)
+#define SPINE_PATHCONSTRAINT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ECA7560)
+#define SPINE_PATHCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA7110)
+#define SPINE_PATHCONSTRAINT_GET_ACTIVE_OFFSET UNITYSDK_OFFSET(0x1ECAABE0)
+#define SPINE_PATHCONSTRAINT_GET_BONES_OFFSET UNITYSDK_OFFSET(0x1ECAABB0)
+#define SPINE_PATHCONSTRAINT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1ECAABF0)
+#define SPINE_PATHCONSTRAINT_GET_MIXROTATE_OFFSET UNITYSDK_OFFSET(0x1ECAAB50)
+#define SPINE_PATHCONSTRAINT_GET_MIXX_OFFSET UNITYSDK_OFFSET(0x1ECAAB70)
+#define SPINE_PATHCONSTRAINT_GET_MIXY_OFFSET UNITYSDK_OFFSET(0x1ECAAB90)
+#define SPINE_PATHCONSTRAINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1ECAAB10)
+#define SPINE_PATHCONSTRAINT_GET_SPACING_OFFSET UNITYSDK_OFFSET(0x1ECAAB30)
+#define SPINE_PATHCONSTRAINT_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1ECAABC0)
+#define SPINE_PATHCONSTRAINT_SET_MIXROTATE_OFFSET UNITYSDK_OFFSET(0x1ECAAB60)
+#define SPINE_PATHCONSTRAINT_SET_MIXX_OFFSET UNITYSDK_OFFSET(0x1ECAAB80)
+#define SPINE_PATHCONSTRAINT_SET_MIXY_OFFSET UNITYSDK_OFFSET(0x1ECAABA0)
+#define SPINE_PATHCONSTRAINT_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1ECAAB20)
+#define SPINE_PATHCONSTRAINT_SET_SPACING_OFFSET UNITYSDK_OFFSET(0x1ECAAB40)
+#define SPINE_PATHCONSTRAINT_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1ECAABD0)
+#define SPINE_PATHCONSTRAINT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ECAAC00)
+#define SPINE_PATHCONSTRAINT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ECA7A70)
 
 namespace Spine
 {
-	inline static constexpr unsigned int PathConstraint_TypeDefinitionIndex = 38383;
-
 	class PathConstraint : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 NONE = 0xFFFFFFFF; // 0x0
-		// static const ::System::Int32 BEFORE = 0xFFFFFFFE; // 0x0
-		// static const ::System::Int32 AFTER = 0xFFFFFFFD; // 0x0
-		// static const ::System::Single Epsilon; // 0x0
-		::Spine::ExposedList_1<::System::Single>* positions; // 0x10
-		::Spine::Slot* target; // 0x18
-		::Il2CppArray<::System::Single>* segments; // 0x20
-		::Spine::PathConstraintData* data; // 0x28
-		::Spine::ExposedList_1<::System::Single>* spaces; // 0x30
-		::Spine::ExposedList_1<::Spine::Bone*>* bones; // 0x38
-		::Spine::ExposedList_1<::System::Single>* lengths; // 0x40
-		::Spine::ExposedList_1<::System::Single>* curves; // 0x48
-		::Spine::ExposedList_1<::System::Single>* world; // 0x50
-		::System::Single mixRotate; // 0x58
-		::System::Single mixY; // 0x5C
-		::System::Single spacing; // 0x60
-		::System::Single mixX; // 0x64
-		::System::Boolean active; // 0x68
-		::System::Single position; // 0x6C
-
+		::Spine::ExposedList_1<::System::Single>* lengths; // 0x10
+		::Spine::ExposedList_1<::System::Single>* world; // 0x18
+		::Spine::ExposedList_1<::Spine::Bone*>* bones; // 0x20
+		::Spine::ExposedList_1<::System::Single>* spaces; // 0x28
+		::Spine::Slot* target; // 0x30
+		::Spine::PathConstraintData* data; // 0x38
+		::Spine::ExposedList_1<::System::Single>* positions; // 0x40
+		::Il2CppArray<::System::Single>* segments; // 0x48
+		::Spine::ExposedList_1<::System::Single>* curves; // 0x50
+		::System::Single position; // 0x58
+		::System::Boolean active; // 0x5C
+		::System::Byte _padding0[0x3];
+		::System::Single mixX; // 0x60
+		::System::Single mixY; // 0x64
+		::System::Single mixRotate; // 0x68
+		::System::Single spacing; // 0x6C
+		// static const ::System::Object NONE; // 0x0
+		// static const ::System::Object BEFORE; // 0x0
+		// static const ::System::Object AFTER; // 0x0
+		// static const ::System::Object Epsilon; // 0x0
 		::System::Void _ctor(::Spine::PathConstraintData* a1, ::Spine::Skeleton* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::PathConstraintData*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_PATHCONSTRAINT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Spine::PathConstraintData*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_PATHCONSTRAINT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::Spine::PathConstraint* a1, ::Spine::Skeleton* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::PathConstraint*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_PATHCONSTRAINT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Spine::PathConstraint*, ::Spine::Skeleton*))((::PBYTE)hIl2Cpp + SPINE_PATHCONSTRAINT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void ArraysFill(::Il2CppArray<::System::Single>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Single a4)
@@ -181,5 +179,6 @@ namespace Spine
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_PATHCONSTRAINT_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

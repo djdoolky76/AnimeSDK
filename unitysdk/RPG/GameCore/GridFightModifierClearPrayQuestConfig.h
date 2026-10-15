@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierClearPrayQuestConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_METHOD_3_0CA1A90903399673_OFFSET UNITYSDK_OFFSET(0x1D1589C0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_METHOD_3_C312A52EB9C3A4AF_OFFSET UNITYSDK_OFFSET(0x1D158970)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1589B0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7337A0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7337B0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D733760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierClearPrayQuestConfig_TypeDefinitionIndex = 19266;
-
 	class GridFightModifierClearPrayQuestConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C312A52EB9C3A4AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_METHOD_3_C312A52EB9C3A4AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0CA1A90903399673(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_METHOD_3_0CA1A90903399673_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierClearPrayQuestConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERCLEARPRAYQUESTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

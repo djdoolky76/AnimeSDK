@@ -1,40 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/TMPro/TMP_TextElement.h"
-
 namespace TMPro { class TMP_FontAsset; }
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define TMPRO_TMP_CHARACTER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC22D00)
-#define TMPRO_TMP_CHARACTER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EC22D40)
-#define TMPRO_TMP_CHARACTER__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EC22D80)
-#define TMPRO_TMP_CHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC22CF0)
+#define TMPRO_TMP_CHARACTER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2EA560)
+#define TMPRO_TMP_CHARACTER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F2EA5A0)
+#define TMPRO_TMP_CHARACTER_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F2EA5E0)
+#define TMPRO_TMP_CHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2EA550)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Character_TypeDefinitionIndex = 43349;
-
 	class TMP_Character : public ::TMPro::TMP_TextElement
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::UInt32 a1, ::UnityEngine::TextCore::Glyph* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::UInt32 a1, ::TMPro::TMP_FontAsset* a2, ::UnityEngine::TextCore::Glyph* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_FontAsset*, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_FontAsset*, ::UnityEngine::TextCore::Glyph*))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER_CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_3(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + TMPRO_TMP_CHARACTER_CTOR_3_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

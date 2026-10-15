@@ -4,8 +4,6 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int DoubleBuffered_1_TypeDefinitionIndex = 43886;
-
 	template <typename T>
 	class DoubleBuffered_1 : public ::System::Object
 	{

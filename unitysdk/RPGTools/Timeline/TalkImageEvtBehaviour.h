@@ -1,35 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
-
 namespace RPG::GameCore { class TalkImage; }
 
-#define RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_METHOD_3_69D3760F65546E50_OFFSET UNITYSDK_OFFSET(0xE8F4280)
-#define RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_METHOD_3_6AA4C5D006C4446D_OFFSET UNITYSDK_OFFSET(0xE8F44E0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F4550)
+#define RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE94A1D0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_COOLOEPLAPI_OFFSET UNITYSDK_OFFSET(0xE94A430)
+#define RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE94A4A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkImageEvtBehaviour_TypeDefinitionIndex = 48842;
-
 	class TalkImageEvtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:
 		::RPG::GameCore::TalkImage* config; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_69D3760F65546E50()
+		::System::Void CLJEBKODGHK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_METHOD_3_69D3760F65546E50_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_CLJEBKODGHK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_6AA4C5D006C4446D(::RPG::GameCore::TalkImage* a1)
+		::System::Void COOLOEPLAPI(::RPG::GameCore::TalkImage* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TalkImage*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_METHOD_3_6AA4C5D006C4446D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TalkImage*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEEVTBEHAVIOUR_COOLOEPLAPI_OFFSET))(this, a1);
 		}
+
 	};
 }

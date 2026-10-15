@@ -2,28 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/RPG/Client/SyncCheckItemBase.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_CHECKITEMFINISHQUEST_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xCAE7980)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCAE7AC0)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE7960)
-#define RPG_CLIENT_CHECKITEMFINISHQUEST__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCAE7A10)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0xCA364A0)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xCA364C0)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCA36600)
+#define RPG_CLIENT_CHECKITEMFINISHQUEST__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCA36550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CheckItemFinishQuest_TypeDefinitionIndex = 60017;
-
 	class CheckItemFinishQuest : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:
 		::System::UInt32 _TargetQuestID; // 0x10
-
 		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMFINISHQUEST__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMFINISHQUEST_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)
@@ -40,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMFINISHQUEST_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

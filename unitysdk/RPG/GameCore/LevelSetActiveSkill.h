@@ -2,27 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class SkillData; }
 
-#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE69A390)
-#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE69A340)
-#define RPG_GAMECORE_LEVELSETACTIVESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0xE69A3E0)
+#define RPG_GAMECORE_LEVELSETACTIVESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F57B0)
+#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F5760)
+#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F5710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSetActiveSkill_TypeDefinitionIndex = 57020;
-
 	class LevelSetActiveSkill : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::SkillData* ActiveSkillData; // 0x10
-		::RPG::GameCore::GameEntityList* SkillTargetCandidates; // 0x18
-
+		::RPG::GameCore::GameEntityList* SkillTargetCandidates; // 0x10
+		::RPG::GameCore::SkillData* ActiveSkillData; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSETACTIVESKILL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSETACTIVESKILL_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -34,5 +30,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELSETACTIVESKILL_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

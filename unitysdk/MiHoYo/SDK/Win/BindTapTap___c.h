@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Win { class BindTapTap; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_WIN_BINDTAPTAP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7FAAA0)
-#define MIHOYO_SDK_WIN_BINDTAPTAP___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FAAE0)
-#define MIHOYO_SDK_WIN_BINDTAPTAP___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x1B7FAAF0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCFADF0)
+#define MIHOYO_SDK_WIN_BINDTAPTAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCFAE30)
+#define MIHOYO_SDK_WIN_BINDTAPTAP___C__SHOW_B__14_0_OFFSET UNITYSDK_OFFSET(0x1BCFAE40)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindTapTap___c_TypeDefinitionIndex = 9451;
-
 	class BindTapTap___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::BindTapTap___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::BindTapTap___c**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap___c_TypeDefinitionIndex)->GetStaticField(0x26160);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1A910);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>** StaticGet___9__14_0()
+
+		static ::System::Action** StaticGet___9__14_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::BindTapTap*>**)Il2CppClass::FromTypeDefinitionIndex(BindTapTap___c_TypeDefinitionIndex)->GetStaticField(0x26168);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1A918);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Show_b__14_0(::MiHoYo::SDK::Win::BindTapTap* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Win::BindTapTap*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_BINDTAPTAP___C__SHOW_B__14_0_OFFSET))(this, a1);
 		}
+
 	};
 }

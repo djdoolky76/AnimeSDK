@@ -3,25 +3,22 @@
 #include "unitysdk/System/Xml/Schema/Datatype_anySimpleType.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaWhiteSpace.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
-
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1E7EC670)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1E7EC6D0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7EC6E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E7CC0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EEB5350)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB09A0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1EEB53B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB53C0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_anyAtomicType_TypeDefinitionIndex = 2094;
-
 	class Datatype_anyAtomicType : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
@@ -38,5 +35,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Xml::Schema::XmlTypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_ANYATOMICTYPE_GET_TYPECODE_OFFSET))(this);
 		}
+
 	};
 }

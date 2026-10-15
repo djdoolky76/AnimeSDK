@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeammateCountType_TypeDefinitionIndex = 18081;
-
 	enum class TeammateCountType : ::System::Int32
 	{
 		Empty = 0,

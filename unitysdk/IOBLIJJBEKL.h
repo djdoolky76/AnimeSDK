@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GDBHHBCMEFL.h"
+class PNPBCLAMINI;
+namespace RPG::GameCore { class TaskContext; }
+
+#define IOBLIJJBEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x164FDEA0)
+#define IOBLIJJBEKL_OMMGLEPFCMN_OFFSET UNITYSDK_OFFSET(0x164FE000)
+#define IOBLIJJBEKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164FDF50)
+
+	class IOBLIJJBEKL : public ::GDBHHBCMEFL
+	{
+	public:
+		::PNPBCLAMINI* IGHAHBNLIJA; // 0x28
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::PNPBCLAMINI* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::PNPBCLAMINI*))((::PBYTE)hIl2Cpp + IOBLIJJBEKL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IOBLIJJBEKL_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void OMMGLEPFCMN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IOBLIJJBEKL_OMMGLEPFCMN_OFFSET))(this);
+		}
+
+	};

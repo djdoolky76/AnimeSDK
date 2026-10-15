@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/ChaseNPCInfo.h"
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
-
 namespace RPG::Client::Prop { class ChasePuzzleArea; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropInitPuzzle; }
@@ -10,25 +9,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDBF9E90)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDBF9800)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_3CE8A1831DA14AB7_OFFSET UNITYSDK_OFFSET(0xDBF9B10)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0xDBF9BE0)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xDBF9E40)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_D06F23B2919326F8_OFFSET UNITYSDK_OFFSET(0xDBF9FC0)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xDBF9D20)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xDBF9A00)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_TRIGGERRUNAWAY_OFFSET UNITYSDK_OFFSET(0xDBF9200)
-#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xDBFA0D0)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_APIPLEOCGOO_OFFSET UNITYSDK_OFFSET(0xDC44A30)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDC44B40)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC44900)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_GIJHLGDLDMA_OFFSET UNITYSDK_OFFSET(0xDC44650)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDC44270)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_PDAOIJDLKEE_OFFSET UNITYSDK_OFFSET(0xDC448B0)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_POBBLJGIING_OFFSET UNITYSDK_OFFSET(0xDC44580)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xDC44790)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xDC44470)
+#define RPG_CLIENT_PROP_CHASEPUZZLEBOARD_TRIGGERRUNAWAY_OFFSET UNITYSDK_OFFSET(0xDC43C70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChasePuzzleBoard_TypeDefinitionIndex = 77754;
-
 	class ChasePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
 		::System::UInt32 groupID; // 0x48
+		::System::Byte _padding0[0x4];
 		::RPG::Client::Prop::ChaseNPCInfo mainNPCInfo; // 0x50
 		::System::String* initAreaName; // 0x60
 		::UnityEngine::Transform* initAnchor; // 0x68
@@ -41,10 +39,9 @@ namespace RPG::Client::Prop
 		::RPG::GameCore::GameEntity* HLGBNINJPBG; // 0xA0
 		::RPG::Client::Prop::ChasePuzzleArea* JBMEABBDLEA; // 0xA8
 		::Il2CppArray<::RPG::Client::Prop::ChasePuzzleArea*>* IHLBAMHPGFG; // 0xB0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitPuzzle(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::PropInitPuzzle* a3)
@@ -72,24 +69,25 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_TRIGGERRUNAWAY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_6_B09E78EE7EE4F8FA()
+		::System::Void GIJHLGDLDMA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_B09E78EE7EE4F8FA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_GIJHLGDLDMA_OFFSET))(this);
 		}
 
-		::System::Void Method_6_CA373AA1C7054598()
+		::System::Void PDAOIJDLKEE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_PDAOIJDLKEE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_3CE8A1831DA14AB7(::System::String* a1, ::System::String* a2)
+		::System::Void POBBLJGIING(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_3CE8A1831DA14AB7_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_POBBLJGIING_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::Prop::ChasePuzzleArea* Method_6_D06F23B2919326F8(::System::String* a1)
+		::RPG::Client::Prop::ChasePuzzleArea* APIPLEOCGOO(::System::String* a1)
 		{
-			return ((::RPG::Client::Prop::ChasePuzzleArea*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_METHOD_6_D06F23B2919326F8_OFFSET))(this, a1);
+			return ((::RPG::Client::Prop::ChasePuzzleArea*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHASEPUZZLEBOARD_APIPLEOCGOO_OFFSET))(this, a1);
 		}
+
 	};
 }

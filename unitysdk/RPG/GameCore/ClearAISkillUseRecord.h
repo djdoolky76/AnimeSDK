@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClearAISkillUseRecord; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CLEARAISKILLUSERECORD_METHOD_3_7C546D35A13FCD20_OFFSET UNITYSDK_OFFSET(0x1CFD9710)
-#define RPG_GAMECORE_CLEARAISKILLUSERECORD_METHOD_3_7EA3EC41D038F2DD_OFFSET UNITYSDK_OFFSET(0x1CFD97E0)
-#define RPG_GAMECORE_CLEARAISKILLUSERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD97D0)
+#define RPG_GAMECORE_CLEARAISKILLUSERECORD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5470)
+#define RPG_GAMECORE_CLEARAISKILLUSERECORD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B5480)
+#define RPG_GAMECORE_CLEARAISKILLUSERECORD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B53B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearAISkillUseRecord_TypeDefinitionIndex = 22190;
-
 	class ClearAISkillUseRecord : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARAISKILLUSERECORD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARAISKILLUSERECORD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7C546D35A13FCD20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearAISkillUseRecord*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearAISkillUseRecord* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearAISkillUseRecord*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARAISKILLUSERECORD_METHOD_3_7C546D35A13FCD20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearAISkillUseRecord*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARAISKILLUSERECORD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7EA3EC41D038F2DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearAISkillUseRecord* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearAISkillUseRecord* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearAISkillUseRecord*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARAISKILLUSERECORD_METHOD_3_7EA3EC41D038F2DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearAISkillUseRecord*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARAISKILLUSERECORD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

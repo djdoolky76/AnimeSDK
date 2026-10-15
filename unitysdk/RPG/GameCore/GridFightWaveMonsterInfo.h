@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightWaveMonsterEntry; }
+namespace RPG::GameCore { class GridFightWaveMonsterInfo; }
 
-#define RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO_METHOD_2_8F5B80DE79F17F9F_OFFSET UNITYSDK_OFFSET(0x1D16F290)
-#define RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16F4A0)
+#define RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74A310)
+#define RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D74A100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightWaveMonsterInfo_TypeDefinitionIndex = 17953;
-
 	class GridFightWaveMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -20,15 +18,15 @@ namespace RPG::GameCore
 		::System::UInt32 HardLevel; // 0x18
 		::System::UInt32 FormationWaveID; // 0x1C
 		::Il2CppArray<::RPG::GameCore::GridFightWaveMonsterEntry*>* MonsterList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8F5B80DE79F17F9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaveMonsterInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightWaveMonsterInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightWaveMonsterInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO_METHOD_2_8F5B80DE79F17F9F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightWaveMonsterInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAVEMONSTERINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

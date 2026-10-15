@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UI3D/UI3DVirtualCameraBase.h"
-
 namespace RPG::GameCore { class UI3DCameraState; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA_GET_CAMERASTATE_OFFSET UNITYSDK_OFFSET(0xE312240)
-#define RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA_RESOLVECAMERASTATETYPE_OFFSET UNITYSDK_OFFSET(0xE3122F0)
-#define RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xE312350)
+#define RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xE351A10)
+#define RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA_GET_CAMERASTATE_OFFSET UNITYSDK_OFFSET(0xE3518D0)
+#define RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA_RESOLVECAMERASTATETYPE_OFFSET UNITYSDK_OFFSET(0xE3519B0)
 
 namespace RPG::Client::UI3D
 {
-	inline static constexpr unsigned int UI3DVirtualCamera_TypeDefinitionIndex = 78519;
-
 	class UI3DVirtualCamera : public ::RPG::Client::UI3D::UI3DVirtualCameraBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::UI3DCameraState* get_CameraState()
@@ -30,5 +27,6 @@ namespace RPG::Client::UI3D
 		{
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3D_UI3DVIRTUALCAMERA_RESOLVECAMERASTATETYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class CameraShakeConfig; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8371C0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8371B0)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE837350)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D4F40)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D50D0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D4F30)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceDoubleScreenShakeClip_TypeDefinitionIndex = 48497;
-
 	class ConvinceDoubleScreenShakeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::CameraShakeConfig* ShakeConfig; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

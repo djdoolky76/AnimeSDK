@@ -2,45 +2,47 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/SendMouseEvents_HitInfo.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_SENDMOUSEEVENTS_DOSENDMOUSEEVENTS_OFFSET UNITYSDK_OFFSET(0x1EDA78F0)
-#define UNITYENGINE_SENDMOUSEEVENTS_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1EDA8500)
-#define UNITYENGINE_SENDMOUSEEVENTS_SETMOUSEMOVED_OFFSET UNITYSDK_OFFSET(0x1EDA78B0)
-#define UNITYENGINE_SENDMOUSEEVENTS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDA8D30)
+#define UNITYENGINE_SENDMOUSEEVENTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4714E0)
+#define UNITYENGINE_SENDMOUSEEVENTS_DOSENDMOUSEEVENTS_OFFSET UNITYSDK_OFFSET(0x1F4700A0)
+#define UNITYENGINE_SENDMOUSEEVENTS_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1F470CB0)
+#define UNITYENGINE_SENDMOUSEEVENTS_SETMOUSEMOVED_OFFSET UNITYSDK_OFFSET(0x1F470060)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SendMouseEvents_TypeDefinitionIndex = 5781;
-
 	class SendMouseEvents : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::SendMouseEvents_HitInfo>** StaticGet_m_CurrentHit()
+		static ::Il2CppArray<::System::Object*>** StaticGet_m_CurrentHit()
 		{
-			return (::Il2CppArray<::UnityEngine::SendMouseEvents_HitInfo>**)Il2CppClass::FromTypeDefinitionIndex(SendMouseEvents_TypeDefinitionIndex)->GetStaticField(0x340);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("UnityEngine", "SendMouseEvents")->GetStaticField(0x340);
 		}
-		static ::Il2CppArray<::UnityEngine::SendMouseEvents_HitInfo>** StaticGet_m_MouseDownHit()
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_m_MouseDownHit()
 		{
-			return (::Il2CppArray<::UnityEngine::SendMouseEvents_HitInfo>**)Il2CppClass::FromTypeDefinitionIndex(SendMouseEvents_TypeDefinitionIndex)->GetStaticField(0x348);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("UnityEngine", "SendMouseEvents")->GetStaticField(0x348);
 		}
-		static ::Il2CppArray<::UnityEngine::SendMouseEvents_HitInfo>** StaticGet_m_LastHit()
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_m_LastHit()
 		{
-			return (::Il2CppArray<::UnityEngine::SendMouseEvents_HitInfo>**)Il2CppClass::FromTypeDefinitionIndex(SendMouseEvents_TypeDefinitionIndex)->GetStaticField(0x350);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("UnityEngine", "SendMouseEvents")->GetStaticField(0x350);
 		}
+
 		static ::Il2CppArray<::UnityEngine::Camera*>** StaticGet_m_Cameras()
 		{
-			return (::Il2CppArray<::UnityEngine::Camera*>**)Il2CppClass::FromTypeDefinitionIndex(SendMouseEvents_TypeDefinitionIndex)->GetStaticField(0x358);
+			return (::Il2CppArray<::UnityEngine::Camera*>**)UnitySDK::FromName("UnityEngine", "SendMouseEvents")->GetStaticField(0x358);
 		}
+
 		static ::System::Boolean* StaticGet_s_MouseUsed()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SendMouseEvents_TypeDefinitionIndex)->GetStaticField(0x2A0);
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngine", "SendMouseEvents")->GetStaticField(0x2A0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void SetMouseMoved()
@@ -57,5 +59,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::System::Int32, ::UnityEngine::SendMouseEvents_HitInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_SENDMOUSEEVENTS_SENDEVENTS_OFFSET))(a1, a2);
 		}
+
 	};
 }

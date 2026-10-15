@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/MiHoYo/SDK/APMC_LOGBACK_LogInfo.h"
 #include "unitysdk/MiHoYo/SDK/APMC_LOGBACK_LogNativeProactiveUploadConfig.h"
 #include "unitysdk/MiHoYo/SDK/APMC_LOGBACK_LogNativeRetrieveConfig.h"
-#include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class APMC_LOGBACK_LogProactiveUploadConfig; }
 namespace MiHoYo::SDK { class APMC_LOGBACK_LogRetrieveConfig; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_LOGPLUGINSETUPLOADSEPERATECONFIG_OFFSET UNITYSDK_OFFSET(0xB1A5840)
-#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_DISABLECALLBACK_OFFSET UNITYSDK_OFFSET(0xB1A57C0)
-#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_FLUSH_OFFSET UNITYSDK_OFFSET(0xB1A5D90)
-#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_UPLOAD_OFFSET UNITYSDK_OFFSET(0xB1A5F60)
-#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_WRITE_OFFSET UNITYSDK_OFFSET(0xB1A59E0)
-#define MIHOYO_SDK_APMC_LOGBACK_CONFIG_OFFSET UNITYSDK_OFFSET(0xB1A5170)
-#define MIHOYO_SDK_APMC_LOGBACK_FLUSH_OFFSET UNITYSDK_OFFSET(0xB1A5C70)
-#define MIHOYO_SDK_APMC_LOGBACK_UPLOAD_OFFSET UNITYSDK_OFFSET(0xB1A5E10)
-#define MIHOYO_SDK_APMC_LOGBACK_WRITE_OFFSET UNITYSDK_OFFSET(0xB1A58C0)
+#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_LOGPLUGINSETUPLOADSEPERATECONFIG_OFFSET UNITYSDK_OFFSET(0xAF4FC20)
+#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_DISABLECALLBACK_OFFSET UNITYSDK_OFFSET(0xAF4FBA0)
+#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_FLUSH_OFFSET UNITYSDK_OFFSET(0xAF50170)
+#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_UPLOAD_OFFSET UNITYSDK_OFFSET(0xAF50340)
+#define MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_WRITE_OFFSET UNITYSDK_OFFSET(0xAF4FDC0)
+#define MIHOYO_SDK_APMC_LOGBACK_CONFIG_OFFSET UNITYSDK_OFFSET(0xAF4F550)
+#define MIHOYO_SDK_APMC_LOGBACK_FLUSH_OFFSET UNITYSDK_OFFSET(0xAF50050)
+#define MIHOYO_SDK_APMC_LOGBACK_UPLOAD_OFFSET UNITYSDK_OFFSET(0xAF501F0)
+#define MIHOYO_SDK_APMC_LOGBACK_WRITE_OFFSET UNITYSDK_OFFSET(0xAF4FCA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_TypeDefinitionIndex = 46955;
-
 	class APMC_LOGBACK : public ::System::Object
 	{
 	public:
@@ -32,7 +29,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* EXPIRED_DAYS; // 0x0
 		// static const ::System::String* MAX_CACHE_SIZE; // 0x0
 		// static const ::System::String* ENABLE_RETRIEVE; // 0x0
-
 		static ::System::Void Config(::MiHoYo::SDK::APMC_LOGBACK_LogProactiveUploadConfig* a1, ::MiHoYo::SDK::APMC_LOGBACK_LogRetrieveConfig* a2)
 		{
 			return ((::System::Void(*)(::MiHoYo::SDK::APMC_LOGBACK_LogProactiveUploadConfig*, ::MiHoYo::SDK::APMC_LOGBACK_LogRetrieveConfig*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_CONFIG_OFFSET))(a1, a2);
@@ -53,14 +49,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_UPLOAD_OFFSET))(a1);
 		}
 
-		static ::System::Void Astrolabe_LogPluginSetUploadSeperateConfig(::MiHoYo::SDK::APMC_LOGBACK_LogNativeProactiveUploadConfig& a1, ::MiHoYo::SDK::APMC_LOGBACK_LogNativeRetrieveConfig& a2)
+		static ::System::Void Astrolabe_LogPluginSetUploadSeperateConfig(::MiHoYo::SDK::APMC_LOGBACK_LogNativeProactiveUploadConfig a1, ::MiHoYo::SDK::APMC_LOGBACK_LogNativeRetrieveConfig a2)
 		{
-			return ((::System::Void(*)(::MiHoYo::SDK::APMC_LOGBACK_LogNativeProactiveUploadConfig&, ::MiHoYo::SDK::APMC_LOGBACK_LogNativeRetrieveConfig&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_LOGPLUGINSETUPLOADSEPERATECONFIG_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::MiHoYo::SDK::APMC_LOGBACK_LogNativeProactiveUploadConfig, ::MiHoYo::SDK::APMC_LOGBACK_LogNativeRetrieveConfig))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_LOGPLUGINSETUPLOADSEPERATECONFIG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Astrolabe_Native_Write(::MiHoYo::SDK::APMC_LOGBACK_LogInfo& a1)
+		static ::System::Int32 Astrolabe_Native_Write(::MiHoYo::SDK::APMC_LOGBACK_LogInfo a1)
 		{
-			return ((::System::Int32(*)(::MiHoYo::SDK::APMC_LOGBACK_LogInfo&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_WRITE_OFFSET))(a1);
+			return ((::System::Int32(*)(::MiHoYo::SDK::APMC_LOGBACK_LogInfo))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_WRITE_OFFSET))(a1);
 		}
 
 		static ::System::Void Astrolabe_Native_Flush()
@@ -77,5 +73,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_APMC_LOGBACK_ASTROLABE_NATIVE_UPLOAD_OFFSET))(a1);
 		}
+
 	};
 }

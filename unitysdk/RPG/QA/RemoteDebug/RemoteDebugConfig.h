@@ -4,19 +4,17 @@
 
 namespace RPG::QA::RemoteDebug
 {
-	inline static constexpr unsigned int RemoteDebugConfig_TypeDefinitionIndex = 52124;
-
 	class RemoteDebugConfig : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 kDefaultTcpPort = 0x6D72; // 0x0
-		// static const ::System::Int32 kDefaultUdpPort = 0x6D73; // 0x0
-		// static const ::System::UInt32 kDiscoveryMagic = 0x44475052; // 0x0
-		// static const ::System::Byte kProtocolVersion = 0x1; // 0x0
-		// static const ::System::Int32 kHeartbeatIntervalMs = 0xBB8; // 0x0
-		// static const ::System::Int32 kHeartbeatMissMax = 0x3; // 0x0
-		// static const ::System::Int32 kMaxFrameBytes = 0x800000; // 0x0
-		// static const ::System::Double kDiscoveryReplyTtlSeconds; // 0x0
-		// static const ::System::Int32 kDefaultManualPort = 0x6D72; // 0x0
+		// static const ::System::Object kDefaultTcpPort; // 0x0
+		// static const ::System::Object kDefaultUdpPort; // 0x0
+		// static const ::System::Object kDiscoveryMagic; // 0x0
+		// static const ::System::Object kProtocolVersion; // 0x0
+		// static const ::System::Object kHeartbeatIntervalMs; // 0x0
+		// static const ::System::Object kHeartbeatMissMax; // 0x0
+		// static const ::System::Object kMaxFrameBytes; // 0x0
+		// static const ::System::Object kDiscoveryReplyTtlSeconds; // 0x0
+		// static const ::System::Object kDefaultManualPort; // 0x0
 	};
 }

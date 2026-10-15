@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillEffect_TypeDefinitionIndex = 10397;
-
 	enum class SkillEffect : ::System::Int32
 	{
 		Unknown = 0,

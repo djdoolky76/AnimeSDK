@@ -3,8 +3,6 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineImpulseDefinition_RepeatMode_TypeDefinitionIndex = 38570;
-
 	enum class CinemachineImpulseDefinition_RepeatMode : ::System::Int32
 	{
 		Stretch = 0,

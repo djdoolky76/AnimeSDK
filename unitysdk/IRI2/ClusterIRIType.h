@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IRI2/ClusterMeshLodInfo.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Texture2D; }
 
 namespace IRI2
 {
-	inline static constexpr unsigned int ClusterIRIType_TypeDefinitionIndex = 50090;
-
 	struct alignas(8) ClusterIRIType
 	{
 		::System::UInt64 MaterialHash; // 0x10

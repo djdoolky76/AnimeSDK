@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Xml { class IDtdDefaultAttributeInfo; }
 namespace System::Xml { class XmlTextReaderImpl; }
 
-#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E8D83A0)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E8D83E0)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E8D6D70)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D82B0)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFA1400)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA1310)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFA1440)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF9FDB0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_OnDefaultAttributeUseDelegate_TypeDefinitionIndex = 1860;
-
 	class XmlTextReaderImpl_OnDefaultAttributeUseDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Xml::IDtdDefaultAttributeInfo* a1, ::System::Xml::XmlTextReaderImpl* a2)
@@ -39,5 +36,6 @@ namespace System::Xml
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTREADERIMPL_ONDEFAULTATTRIBUTEUSEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

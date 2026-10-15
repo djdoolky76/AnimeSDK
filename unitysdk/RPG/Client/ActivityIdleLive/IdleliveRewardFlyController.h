@@ -2,29 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+class IONGFDBBCIF;
 
-class Class_1_B18A907A8E4C5C9C;
-namespace System { class String; }
-
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xC5F6BD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_SHOWBOXFLY_OFFSET UNITYSDK_OFFSET(0xC5F6D40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC5F6EF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC50E8F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_INIT_OFFSET UNITYSDK_OFFSET(0xC50E5D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_SHOWBOXFLY_OFFSET UNITYSDK_OFFSET(0xC50E740)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleliveRewardFlyController_TypeDefinitionIndex = 74893;
-
 	class IdleliveRewardFlyController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		::IONGFDBBCIF* _PoolMgr; // 0x18
 		// static const ::System::String* BOX_FLY_PREFAB_PATH; // 0x0
 		// static const ::System::String* GEM_FLY_PREFAB_PATH; // 0x0
 		// static const ::System::String* TECH_POINT_FLY_PREFAB_PATH; // 0x0
-		::Class_1_B18A907A8E4C5C9C* _PoolMgr; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -36,5 +31,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER_SHOWBOXFLY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

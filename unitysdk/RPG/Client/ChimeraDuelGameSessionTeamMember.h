@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_CC757806132405E2_1;
+class NHDGNBKBNDB;
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
+namespace RPG::Client { class ChimeraDuelGameSessionTeamMember; }
 
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0xCBE1F00)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CREATE_OFFSET UNITYSDK_OFFSET(0xCBDF460)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_GET_CHIMERA_OFFSET UNITYSDK_OFFSET(0xCBE2830)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xCBDC6A0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0xCBE2840)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CREATEFAKE_OFFSET UNITYSDK_OFFSET(0xCB30770)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CREATE_OFFSET UNITYSDK_OFFSET(0xCB2DC70)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CTOR_OFFSET UNITYSDK_OFFSET(0xCB310B0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_GET_CHIMERA_OFFSET UNITYSDK_OFFSET(0xCB310A0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xCB2DCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameSessionTeamMember_TypeDefinitionIndex = 63397;
-
 	class ChimeraDuelGameSessionTeamMember : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChimeraDuelGameSessionChimera* _Chimera_k__BackingField; // 0x10
-
 		::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UniqueID()
@@ -35,14 +32,15 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelGameSessionChimera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_GET_CHIMERA_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChimeraDuelGameSessionTeamMember* Create(::Class_1_CC757806132405E2_1* a1)
+		static ::RPG::Client::ChimeraDuelGameSessionTeamMember* Create(::NHDGNBKBNDB* a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionTeamMember*(*)(::Class_1_CC757806132405E2_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::ChimeraDuelGameSessionTeamMember*(*)(::NHDGNBKBNDB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CREATE_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::ChimeraDuelGameSessionTeamMember* CreateFake(::RPG::Client::ChimeraDuelGameSessionChimera* a1)
 		{
 			return ((::RPG::Client::ChimeraDuelGameSessionTeamMember*(*)(::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONTEAMMEMBER_CREATEFAKE_OFFSET))(a1);
 		}
+
 	};
 }

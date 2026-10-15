@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/IndexedBranchInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
+namespace System::Linq::Expressions::Interpreter { class LeaveExceptionHandlerInstruction; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1E72D510)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E72F8C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E72F880)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E72F8D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E72F8E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E72F930)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E72F870)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDF8640)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1EDF6220)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF8580)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF85D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDF8590)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDF85E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDF85F0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LeaveExceptionHandlerInstruction_TypeDefinitionIndex = 3336;
-
 	class LeaveExceptionHandlerInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction
 	{
 	public:
+		::System::Boolean _hasValue; // 0x18
 		static ::Il2CppArray<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>** StaticGet_s_cache()
 		{
-			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>**)Il2CppClass::FromTypeDefinitionIndex(LeaveExceptionHandlerInstruction_TypeDefinitionIndex)->GetStaticField(0x2E360);
+			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "LeaveExceptionHandlerInstruction")->GetStaticField(0x3BB00);
 		}
-		::System::Boolean _hasValue; // 0x18
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_CCTOR_OFFSET))();
 		}
 
 		::System::String* get_InstructionName()
@@ -60,5 +58,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LEAVEEXCEPTIONHANDLERINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Microsoft::Win32 { class Win32Native_WIN32_FIND_DATA; }
 
-#define SYSTEM_IO_FILESYSTEMENUMERABLEHELPERS_ISDIR_OFFSET UNITYSDK_OFFSET(0x1BD52F70)
-#define SYSTEM_IO_FILESYSTEMENUMERABLEHELPERS_ISFILE_OFFSET UNITYSDK_OFFSET(0x1BD53050)
+#define SYSTEM_IO_FILESYSTEMENUMERABLEHELPERS_ISDIR_OFFSET UNITYSDK_OFFSET(0x1C25EEF0)
+#define SYSTEM_IO_FILESYSTEMENUMERABLEHELPERS_ISFILE_OFFSET UNITYSDK_OFFSET(0x1C25EF80)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileSystemEnumerableHelpers_TypeDefinitionIndex = 678;
-
 	class FileSystemEnumerableHelpers : public ::System::Object
 	{
 	public:
@@ -23,5 +20,6 @@ namespace System::IO
 		{
 			return ((::System::Boolean(*)(::Microsoft::Win32::Win32Native_WIN32_FIND_DATA*))((::PBYTE)hIl2Cpp + SYSTEM_IO_FILESYSTEMENUMERABLEHELPERS_ISFILE_OFFSET))(a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitboxEnableReason_TypeDefinitionIndex = 57387;
-
 	enum class HitboxEnableReason : ::System::Int32
 	{
 		Default = 0,

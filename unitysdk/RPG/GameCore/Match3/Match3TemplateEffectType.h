@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3TemplateEffectType_TypeDefinitionIndex = 24643;
-
 	enum class Match3TemplateEffectType : ::System::Int32
 	{
 		ChessBoardTemplate = 0,

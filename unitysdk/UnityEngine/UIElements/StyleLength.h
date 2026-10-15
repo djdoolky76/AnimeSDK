@@ -1,34 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/UIElements/Length.h"
 #include "unitysdk/UnityEngine/UIElements/StyleKeyword.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BD30F0)
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BD30C0)
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BD3160)
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3BD30A0)
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EDF8070)
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BD31A0)
-#define UNITYENGINE_UIELEMENTS_STYLELENGTH__CTOR_OFFSET UNITYSDK_OFFSET(0x3BD30B0)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_CTOR_OFFSET UNITYSDK_OFFSET(0x3C88E20)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C88E60)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C88E30)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C88ED0)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_GET_KEYWORD_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x3C88E10)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F4C12C0)
+#define UNITYENGINE_UIELEMENTS_STYLELENGTH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C88F10)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int StyleLength_TypeDefinitionIndex = 5996;
-
 	struct alignas(4) StyleLength
 	{
 		::UnityEngine::UIElements::StyleKeyword m_Keyword; // 0x10
 		::UnityEngine::UIElements::Length m_Value; // 0x14
 		::System::Int32 m_Specificity; // 0x1C
-
 		::System::Void _ctor(::UnityEngine::UIElements::Length a1, ::UnityEngine::UIElements::StyleKeyword a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLELENGTH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::StyleKeyword))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLELENGTH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::UIElements::Length get_value()
@@ -41,15 +36,19 @@ namespace UnityEngine::UIElements
 			return ((::UnityEngine::UIElements::StyleKeyword(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLELENGTH_GET_KEYWORD_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleLength a1, ::UnityEngine::UIElements::StyleLength a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleLength, ::UnityEngine::UIElements::StyleLength))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLELENGTH_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::UIElements::StyleLength a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleLength))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLELENGTH_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -65,5 +64,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLELENGTH_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

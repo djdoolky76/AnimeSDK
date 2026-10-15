@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::ReporterUtil { class ReporterTimer_MonoTimer; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterTimer_TimeoutHandler; }
+namespace System { class Object; }
 namespace System::Timers { class ElapsedEventArgs; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_ADD_TIMEOUT_OFFSET UNITYSDK_OFFSET(0xB2936A0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_FINALIZE_OFFSET UNITYSDK_OFFSET(0xB293FF0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_MONOTIMER_TIMEOUT_OFFSET UNITYSDK_OFFSET(0xB293DC0)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_REMOVE_TIMEOUT_OFFSET UNITYSDK_OFFSET(0xB293D60)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_START_OFFSET UNITYSDK_OFFSET(0xB293700)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_STOP_OFFSET UNITYSDK_OFFSET(0xB293720)
-#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xB293570)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_ADD_TIMEOUT_OFFSET UNITYSDK_OFFSET(0xB032410)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xB0322E0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_FINALIZE_OFFSET UNITYSDK_OFFSET(0xB032D60)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_MONOTIMER_TIMEOUT_OFFSET UNITYSDK_OFFSET(0xB032B30)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_REMOVE_TIMEOUT_OFFSET UNITYSDK_OFFSET(0xB032AD0)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_START_OFFSET UNITYSDK_OFFSET(0xB032470)
+#define MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_STOP_OFFSET UNITYSDK_OFFSET(0xB032490)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int ReporterTimer_TypeDefinitionIndex = 47114;
-
 	class ReporterTimer : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::ReporterUtil::ReporterTimer_MonoTimer* monoTimer; // 0x10
-		::UnityEngine::GameObject* monoTimerGameObj; // 0x18
-		::MiHoYo::SDK::ReporterUtil::ReporterTimer_TimeoutHandler* onTimeout; // 0x20
-
+		::MiHoYo::SDK::ReporterUtil::ReporterTimer_TimeoutHandler* onTimeout; // 0x10
+		::MiHoYo::SDK::ReporterUtil::ReporterTimer_MonoTimer* monoTimer; // 0x18
+		::UnityEngine::GameObject* monoTimerGameObj; // 0x20
 		::System::Void _ctor(::System::Int64 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void add_Timeout(::MiHoYo::SDK::ReporterUtil::ReporterTimer_TimeoutHandler* a1)
@@ -60,5 +57,6 @@ namespace MiHoYo::SDK::ReporterUtil
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_REPORTERTIMER_FINALIZE_OFFSET))(this);
 		}
+
 	};
 }

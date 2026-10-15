@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LoopExecuteTaskList.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoopExecuteTaskListWithInterval; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_METHOD_4_C1F9F3F396CF7BEE_OFFSET UNITYSDK_OFFSET(0x1D2151D0)
-#define RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_METHOD_4_C7045F89A40B83CD_OFFSET UNITYSDK_OFFSET(0x1D2153D0)
-#define RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D215160)
+#define RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F5B00)
+#define RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7F5B70)
+#define RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F5D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopExecuteTaskListWithInterval_TypeDefinitionIndex = 22224;
-
 	class LoopExecuteTaskListWithInterval : public ::RPG::GameCore::LoopExecuteTaskList
 	{
 	public:
 		::System::Boolean PreciseTime; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C7045F89A40B83CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopExecuteTaskListWithInterval*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopExecuteTaskListWithInterval* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopExecuteTaskListWithInterval*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_METHOD_4_C7045F89A40B83CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopExecuteTaskListWithInterval*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C1F9F3F396CF7BEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopExecuteTaskListWithInterval* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopExecuteTaskListWithInterval* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopExecuteTaskListWithInterval*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_METHOD_4_C1F9F3F396CF7BEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopExecuteTaskListWithInterval*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLISTWITHINTERVAL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

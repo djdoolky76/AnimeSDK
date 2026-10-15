@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class SkillRelatedAvatarData; }
+namespace RPG::Client { class SkillRelatedAvatarDataGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xE0A6700)
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_GETRELATEDAVATARCOUNT_OFFSET UNITYSDK_OFFSET(0xE0A6B90)
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_GETRELATEDAVATARDATA_OFFSET UNITYSDK_OFFSET(0xE0A6BE0)
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A67D0)
-#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP__INIT_OFFSET UNITYSDK_OFFSET(0xE0A6830)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xE0E5220)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xE0E52F0)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_GETRELATEDAVATARCOUNT_OFFSET UNITYSDK_OFFSET(0xE0E56B0)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_GETRELATEDAVATARDATA_OFFSET UNITYSDK_OFFSET(0xE0E5700)
+#define RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP__INIT_OFFSET UNITYSDK_OFFSET(0xE0E5350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillRelatedAvatarDataGroup_TypeDefinitionIndex = 62558;
-
 	class SkillRelatedAvatarDataGroup : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::SkillRelatedAvatarData*>* _AvatarDataList; // 0x10
 		::System::UInt32 _Level; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::SkillRelatedAvatarDataGroup* Create(::System::UInt32 a1)
@@ -45,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKILLRELATEDAVATARDATAGROUP__INIT_OFFSET))(this);
 		}
+
 	};
 }

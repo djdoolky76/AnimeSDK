@@ -2,34 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ViewCacheType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_321DAC1151B4F640;
-class Class_1_3A34A5229D2C5A1E;
+class AJEKOLJDHAK;
+class IKMOKCKMNMC;
 namespace RPG::Client { class UIPrefabLoader_LoadResult; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE3A9510)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__1_OFFSET UNITYSDK_OFFSET(0xE3A9550)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A7B00)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3E9030)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE3EA800)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__1_OFFSET UNITYSDK_OFFSET(0xE3EA840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass7_0_TypeDefinitionIndex = 73006;
-
 	class UIPrefabLoader___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::Class_1_3A34A5229D2C5A1E* viewCache; // 0x10
-		::System::Action_1<::UnityEngine::GameObject*>* callback; // 0x18
-		::Class_1_321DAC1151B4F640* cacheEntry; // 0x20
+		::IKMOKCKMNMC* cacheEntry; // 0x10
+		::AJEKOLJDHAK* viewCache; // 0x18
+		::System::Action* callback; // 0x20
 		::System::String* path; // 0x28
 		::RPG::Client::ViewCacheType cacheType; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _AsyncLoadViewPrefab_b__0(::RPG::Client::UIPrefabLoader_LoadResult* a1)
@@ -41,5 +37,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIPrefabLoader_LoadResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS7_0__ASYNCLOADVIEWPREFAB_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

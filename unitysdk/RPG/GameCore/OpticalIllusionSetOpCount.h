@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OpticalIllusionSetOpCount; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_METHOD_3_3DC6C91D5428A8AD_OFFSET UNITYSDK_OFFSET(0x1D300C20)
-#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_METHOD_3_DE3D846CEE925657_OFFSET UNITYSDK_OFFSET(0x1D300CA0)
-#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D300C70)
+#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E48A0)
+#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E48D0)
+#define RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E4850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpticalIllusionSetOpCount_TypeDefinitionIndex = 21972;
-
 	class OpticalIllusionSetOpCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::String* ParamName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3DC6C91D5428A8AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionSetOpCount*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpticalIllusionSetOpCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionSetOpCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_METHOD_3_3DC6C91D5428A8AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpticalIllusionSetOpCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DE3D846CEE925657(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpticalIllusionSetOpCount* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpticalIllusionSetOpCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpticalIllusionSetOpCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_METHOD_3_DE3D846CEE925657_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpticalIllusionSetOpCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPTICALILLUSIONSETOPCOUNT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

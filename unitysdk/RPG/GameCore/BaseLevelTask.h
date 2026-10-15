@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitMissionTalkFinish; }
 
-#define RPG_GAMECORE_BASELEVELTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5251E0)
-#define RPG_GAMECORE_BASELEVELTASK_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0xE5251D0)
-#define RPG_GAMECORE_BASELEVELTASK_ONSKIP_OFFSET UNITYSDK_OFFSET(0xE525220)
-#define RPG_GAMECORE_BASELEVELTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE525270)
-#define RPG_GAMECORE_BASELEVELTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE5252C0)
-#define RPG_GAMECORE_BASELEVELTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE525310)
-#define RPG_GAMECORE_BASELEVELTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE5251C0)
+#define RPG_GAMECORE_BASELEVELTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE5B7B40)
+#define RPG_GAMECORE_BASELEVELTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5B7B60)
+#define RPG_GAMECORE_BASELEVELTASK_GET_FORCESKIP_OFFSET UNITYSDK_OFFSET(0xE5B7B50)
+#define RPG_GAMECORE_BASELEVELTASK_ONSKIP_OFFSET UNITYSDK_OFFSET(0xE5B7BA0)
+#define RPG_GAMECORE_BASELEVELTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5B7BF0)
+#define RPG_GAMECORE_BASELEVELTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE5B7C40)
+#define RPG_GAMECORE_BASELEVELTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE5B7C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseLevelTask_TypeDefinitionIndex = 58097;
-
-	class BaseLevelTask : public ::Class_1_5F51D4049EA87B7B
+	class BaseLevelTask : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
-
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitMissionTalkFinish* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitMissionTalkFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASELEVELTASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitMissionTalkFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASELEVELTASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_ForceSkip()
@@ -56,5 +52,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASELEVELTASK_TICK_OFFSET))(this, a1);
 		}
+
 	};
 }

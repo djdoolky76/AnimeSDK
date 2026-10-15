@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ActionDelayEffectType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCheckActionDelayEffectType; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_565B5F070BF5A659_OFFSET UNITYSDK_OFFSET(0x1CEA2030)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_5F0F1B508C27EF76_OFFSET UNITYSDK_OFFSET(0x1CEA2060)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_9C73BCD71AD5456A_OFFSET UNITYSDK_OFFSET(0x1CEA1E70)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_C62852E63DF9B7E3_OFFSET UNITYSDK_OFFSET(0x1CEA1EB0)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA1EA0)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D48AEF0)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D48B0B0)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D48B080)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D48AF00)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D48AEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckActionDelayEffectType_TypeDefinitionIndex = 23210;
-
 	class ByCheckActionDelayEffectType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::ActionDelayEffectType EffectType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9C73BCD71AD5456A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckActionDelayEffectType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckActionDelayEffectType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckActionDelayEffectType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_9C73BCD71AD5456A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckActionDelayEffectType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C62852E63DF9B7E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckActionDelayEffectType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckActionDelayEffectType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckActionDelayEffectType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_C62852E63DF9B7E3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckActionDelayEffectType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_565B5F070BF5A659(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayEffectType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayEffectType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayEffectType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_565B5F070BF5A659_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayEffectType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5F0F1B508C27EF76(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayEffectType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayEffectType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayEffectType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_METHOD_4_5F0F1B508C27EF76_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayEffectType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYEFFECTTYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

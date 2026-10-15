@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
-class Class_3_1AFD510E315228F3;
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+class IBBIJEJAIGE;
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE86E820)
-#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE86E800)
-#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE86E810)
-#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE86E9B0)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE90C9B0)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE90CB40)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE90C990)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_SET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE90C9A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MainCameraRefAnimTimelineClip_TypeDefinitionIndex = 48900;
-
 	class MainCameraRefAnimTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::UnityEngine::Timeline::ClipCaps _clipCaps_k__BackingField; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationClip* clip; // 0x20
 		::System::Boolean ChangeNearClip; // 0x28
 		::System::Boolean changeNearClip; // 0x29
+		::System::Byte _padding1[0x2];
 		::System::Single nearClipDis; // 0x2C
 		::System::Single farClipDis; // 0x30
-		::Class_3_1AFD510E315228F3* template_; // 0x38
-
+		::System::Byte _padding2[0x4];
+		::IBBIJEJAIGE* template_; // 0x38
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -48,5 +47,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MAINCAMERAREFANIMTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

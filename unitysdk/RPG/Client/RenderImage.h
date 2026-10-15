@@ -2,32 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
-class Class_1_4D1B1009D34E8A43;
+class IBCIBKEIBOE;
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define RPG_CLIENT_RENDERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xDE4E820)
-#define RPG_CLIENT_RENDERIMAGE_INIT_OFFSET UNITYSDK_OFFSET(0xDE4E9C0)
-#define RPG_CLIENT_RENDERIMAGE_METHOD_5_41A63971A1741915_OFFSET UNITYSDK_OFFSET(0xDE4EC00)
-#define RPG_CLIENT_RENDERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDE4E920)
-#define RPG_CLIENT_RENDERIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xDE4EED0)
+#define RPG_CLIENT_RENDERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xDE9CF10)
+#define RPG_CLIENT_RENDERIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE9D550)
+#define RPG_CLIENT_RENDERIMAGE_EMFICDEKDBK_OFFSET UNITYSDK_OFFSET(0xDE9D2F0)
+#define RPG_CLIENT_RENDERIMAGE_INIT_OFFSET UNITYSDK_OFFSET(0xDE9D0B0)
+#define RPG_CLIENT_RENDERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDE9D010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderImage_TypeDefinitionIndex = 72565;
-
 	class RenderImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* RenderTextureName; // 0x18
 		::UnityEngine::UI::RawImage* JLNJJGLNDHI; // 0x20
-		::Class_1_4D1B1009D34E8A43* AMLPJLDKLEL; // 0x28
-
+		::IBCIBKEIBOE* AMLPJLDKLEL; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -45,9 +41,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE_INIT_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector2Int Method_5_41A63971A1741915()
+		::UnityEngine::Vector2Int EMFICDEKDBK()
 		{
-			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE_METHOD_5_41A63971A1741915_OFFSET))(this);
+			return ((::UnityEngine::Vector2Int(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RENDERIMAGE_EMFICDEKDBK_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,27 +3,23 @@
 #include "unitysdk/RPG/Client/MonoPhotoGraphAimInfo_KeyPointType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_GETCOLLIDERAIMPOS_OFFSET UNITYSDK_OFFSET(0xD856570)
-#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_ISBOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0xD8563F0)
-#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_ISCAPSULECOLLIDER_OFFSET UNITYSDK_OFFSET(0xD8564B0)
-#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD856600)
+#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD8570C0)
+#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_GETCOLLIDERAIMPOS_OFFSET UNITYSDK_OFFSET(0xD857030)
+#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_ISBOXCOLLIDER_OFFSET UNITYSDK_OFFSET(0xD856EB0)
+#define RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_ISCAPSULECOLLIDER_OFFSET UNITYSDK_OFFSET(0xD856F70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPhotoGraphAimInfo_TypeDefinitionIndex = 68581;
-
 	class MonoPhotoGraphAimInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Collider* Collider; // 0x18
 		::System::Boolean IsDynamic; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPHOTOGRAPHAIMINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsBoxCollider()
@@ -40,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::RPG::Client::MonoPhotoGraphAimInfo_KeyPointType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPHOTOGRAPHAIMINFO_GETCOLLIDERAIMPOS_OFFSET))(this, a1);
 		}
+
 	};
 }

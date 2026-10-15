@@ -3,8 +3,6 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int DateTimeFormatInfoScanner_FoundDatePattern_TypeDefinitionIndex = 747;
-
 	enum class DateTimeFormatInfoScanner_FoundDatePattern : ::System::Int32
 	{
 		None = 0,

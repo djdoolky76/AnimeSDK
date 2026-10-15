@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Unity/AtlasAssetBase.h"
-
 namespace Spine { class Atlas; }
 namespace Spine { class TextureLoader; }
+namespace Spine::Unity { class SpineAtlasAsset; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -13,23 +13,21 @@ namespace UnityEngine { class Shader; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Texture2D; }
 
-#define SPINE_UNITY_SPINEATLASASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E66AFD0)
-#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1E66A9F0)
-#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_2_OFFSET UNITYSDK_OFFSET(0x1E66AF40)
-#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1E66A580)
-#define SPINE_UNITY_SPINEATLASASSET_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x1E66AFE0)
-#define SPINE_UNITY_SPINEATLASASSET_GETATLAS_OFFSET UNITYSDK_OFFSET(0x1E66A630)
-#define SPINE_UNITY_SPINEATLASASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1E66A520)
-#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1E66A540)
-#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x1E66A530)
-#define SPINE_UNITY_SPINEATLASASSET_GET_PRIMARYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E66A550)
-#define SPINE_UNITY_SPINEATLASASSET_RESET_OFFSET UNITYSDK_OFFSET(0x1E66A620)
-#define SPINE_UNITY_SPINEATLASASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66B740)
+#define SPINE_UNITY_SPINEATLASASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ED32EA0)
+#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1ED328C0)
+#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_2_OFFSET UNITYSDK_OFFSET(0x1ED32E10)
+#define SPINE_UNITY_SPINEATLASASSET_CREATERUNTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1ED32450)
+#define SPINE_UNITY_SPINEATLASASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED33620)
+#define SPINE_UNITY_SPINEATLASASSET_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x1ED32EB0)
+#define SPINE_UNITY_SPINEATLASASSET_GETATLAS_OFFSET UNITYSDK_OFFSET(0x1ED32500)
+#define SPINE_UNITY_SPINEATLASASSET_GET_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1ED323F0)
+#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1ED32410)
+#define SPINE_UNITY_SPINEATLASASSET_GET_MATERIALS_OFFSET UNITYSDK_OFFSET(0x1ED32400)
+#define SPINE_UNITY_SPINEATLASASSET_GET_PRIMARYMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ED32420)
+#define SPINE_UNITY_SPINEATLASASSET_RESET_OFFSET UNITYSDK_OFFSET(0x1ED324F0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SpineAtlasAsset_TypeDefinitionIndex = 43816;
-
 	class SpineAtlasAsset : public ::Spine::Unity::AtlasAssetBase
 	{
 	public:
@@ -37,10 +35,9 @@ namespace Spine::Unity
 		::Il2CppArray<::UnityEngine::Material*>* materials; // 0x20
 		::Spine::TextureLoader* customTextureLoader; // 0x28
 		::Spine::Atlas* atlas; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsLoaded()
@@ -93,9 +90,10 @@ namespace Spine::Unity
 			return ((::Spine::Atlas*(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET_GETATLAS_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Mesh* GenerateMesh(::System::String* a1, ::UnityEngine::Mesh* a2, ::UnityEngine::Material*& a3, ::System::Single a4)
+		::UnityEngine::Mesh* GenerateMesh(::System::String* a1, ::UnityEngine::Mesh* a2, ::UnityEngine::Material* a3, ::System::Single a4)
 		{
-			return ((::UnityEngine::Mesh*(*)(::PVOID, ::System::String*, ::UnityEngine::Mesh*, ::UnityEngine::Material*&, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET_GENERATEMESH_OFFSET))(this, a1, a2, a3, a4);
+			return ((::UnityEngine::Mesh*(*)(::PVOID, ::System::String*, ::UnityEngine::Mesh*, ::UnityEngine::Material*, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_UNITY_SPINEATLASASSET_GENERATEMESH_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

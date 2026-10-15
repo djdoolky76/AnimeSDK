@@ -2,21 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_642A8A503A232FEE;
+class BBGGEMHCPHD;
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOLOOPEDROTAION_AWAKE_OFFSET UNITYSDK_OFFSET(0xD846C40)
-#define RPG_CLIENT_MONOLOOPEDROTAION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD846D60)
-#define RPG_CLIENT_MONOLOOPEDROTAION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD846C90)
-#define RPG_CLIENT_MONOLOOPEDROTAION_UPDATE_OFFSET UNITYSDK_OFFSET(0xD846CF0)
-#define RPG_CLIENT_MONOLOOPEDROTAION__CTOR_OFFSET UNITYSDK_OFFSET(0xD846DF0)
+#define RPG_CLIENT_MONOLOOPEDROTAION_AWAKE_OFFSET UNITYSDK_OFFSET(0xD847660)
+#define RPG_CLIENT_MONOLOOPEDROTAION_CTOR_OFFSET UNITYSDK_OFFSET(0xD847810)
+#define RPG_CLIENT_MONOLOOPEDROTAION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD847780)
+#define RPG_CLIENT_MONOLOOPEDROTAION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8476B0)
+#define RPG_CLIENT_MONOLOOPEDROTAION_UPDATE_OFFSET UNITYSDK_OFFSET(0xD847710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoopedRotaion_TypeDefinitionIndex = 70706;
-
 	class MonoLoopedRotaion : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -26,15 +23,16 @@ namespace RPG::Client
 		::UnityEngine::Vector3 rotationSpeed; // 0x30
 		::System::Single RoundTime; // 0x3C
 		::System::Boolean isGaped; // 0x40
+		::System::Byte _padding0[0x3];
 		::System::Single gapTime; // 0x44
 		::System::Boolean editorDebug; // 0x48
 		::System::Boolean usePattern; // 0x49
+		::System::Byte _padding1[0x6];
 		::UnityEngine::AnimationCurve* rotatePattern; // 0x50
-		::Class_2_642A8A503A232FEE* _Behavior; // 0x58
-
+		::BBGGEMHCPHD* _Behavior; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPEDROTAION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPEDROTAION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -56,5 +54,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOOPEDROTAION_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

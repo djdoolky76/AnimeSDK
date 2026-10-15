@@ -1,50 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Globalization::Unicode { class CodePointIndexer; }
 
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLEUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB4D8E0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLEUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C059B50)
 
 namespace Mono::Globalization::Unicode
 {
-	inline static constexpr unsigned int MSCompatUnicodeTableUtil_TypeDefinitionIndex = 37;
-
 	class MSCompatUnicodeTableUtil : public ::System::Object
 	{
 	public:
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_CjkCHS()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x2CC0);
-		}
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Cjk()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x2CC8);
-		}
-		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level2()
-		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x2CD0);
-		}
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Category()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x2CD8);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil")->GetStaticField(0x2980);
 		}
+
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level3()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x2CE0);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil")->GetStaticField(0x2988);
 		}
+
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level1()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x2CE8);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil")->GetStaticField(0x2990);
 		}
+
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Level2()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil")->GetStaticField(0x2998);
+		}
+
 		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Ignorable()
 		{
-			return (::Mono::Globalization::Unicode::CodePointIndexer**)Il2CppClass::FromTypeDefinitionIndex(MSCompatUnicodeTableUtil_TypeDefinitionIndex)->GetStaticField(0x2CF0);
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil")->GetStaticField(0x29A0);
+		}
+
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_CjkCHS()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil")->GetStaticField(0x29A8);
+		}
+
+		static ::Mono::Globalization::Unicode::CodePointIndexer** StaticGet_Cjk()
+		{
+			return (::Mono::Globalization::Unicode::CodePointIndexer**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTableUtil")->GetStaticField(0x29B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLEUTIL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLEUTIL_CCTOR_OFFSET))();
 		}
+
 	};
 }

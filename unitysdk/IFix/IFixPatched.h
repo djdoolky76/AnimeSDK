@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_IFIXPATCHED_ISPATCHED_OFFSET UNITYSDK_OFFSET(0x15B91D00)
-#define IFIX_IFIXPATCHED_SETPATCH_OFFSET UNITYSDK_OFFSET(0x15BC91D0)
-#define IFIX_IFIXPATCHED__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BC91C0)
+#define IFIX_IFIXPATCHED_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC1DA20)
+#define IFIX_IFIXPATCHED_ISPATCHED_OFFSET UNITYSDK_OFFSET(0x1EBEB5E0)
+#define IFIX_IFIXPATCHED_SETPATCH_OFFSET UNITYSDK_OFFSET(0x1EC1DA30)
 
 namespace IFix
 {
-	inline static constexpr unsigned int IFixPatched_TypeDefinitionIndex = 80952;
-
 	class IFixPatched : public ::System::Object
 	{
 	public:
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_IFIXPATCHED__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_IFIXPATCHED_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void SetPatch(::Il2CppArray<::System::Boolean>* a1)
@@ -27,5 +25,6 @@ namespace IFix
 		{
 			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + IFIX_IFIXPATCHED_ISPATCHED_OFFSET))(a1);
 		}
+
 	};
 }

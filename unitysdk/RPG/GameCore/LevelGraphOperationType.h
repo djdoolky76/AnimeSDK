@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGraphOperationType_TypeDefinitionIndex = 10484;
-
 	enum class LevelGraphOperationType : ::System::Int32
 	{
 		TriggerBattlePerform = 0,

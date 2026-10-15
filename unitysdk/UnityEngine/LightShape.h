@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int LightShape_TypeDefinitionIndex = 4155;
-
 	enum class LightShape : ::System::Int32
 	{
 		Cone = 0,

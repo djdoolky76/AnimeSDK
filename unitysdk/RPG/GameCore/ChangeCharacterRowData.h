@@ -3,20 +3,18 @@
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChangeCharacterRowData; }
 namespace RPG::GameCore { class ChangeCharacterSkillRowDataItem; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_D9589E00203CC88E_OFFSET UNITYSDK_OFFSET(0x1CF8B700)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_EB1A3F8516F4697A_OFFSET UNITYSDK_OFFSET(0x1CF8B640)
-#define RPG_GAMECORE_CHANGECHARACTERROWDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF8B6B0)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D565840)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D565880)
+#define RPG_GAMECORE_CHANGECHARACTERROWDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5657D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterRowData_TypeDefinitionIndex = 23405;
-
 	class ChangeCharacterRowData : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -24,23 +22,25 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* SPNeedSet; // 0x20
 		::RPG::GameCore::DynamicFloat* SPNeedAdd; // 0x28
 		::RPG::GameCore::AvatarBaseType MainAvatarBaseType; // 0x30
-		::RPG::GameCore::AvatarBaseType SubAvatarBaseType; // 0x34
-		::RPG::GameCore::AttackDamageType DamageType; // 0x38
-		::Il2CppArray<::RPG::GameCore::ChangeCharacterSkillRowDataItem*>* Skills; // 0x40
-
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* SubAvatarTypeList; // 0x38
+		::RPG::GameCore::AttackDamageType DamageType; // 0x40
+		::System::Byte _padding1[0x4];
+		::Il2CppArray<::RPG::GameCore::ChangeCharacterSkillRowDataItem*>* Skills; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EB1A3F8516F4697A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterRowData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeCharacterRowData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterRowData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_EB1A3F8516F4697A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeCharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D9589E00203CC88E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeCharacterRowData* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeCharacterRowData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeCharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_METHOD_3_D9589E00203CC88E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeCharacterRowData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGECHARACTERROWDATA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

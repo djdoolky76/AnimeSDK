@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace UnityEngine::Rendering { class BoolParameter; }
 
-#define RPG_CUSTOMRP_RPGFXAA_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1C6C5EF0)
-#define RPG_CUSTOMRP_RPGFXAA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6C5FD0)
+#define RPG_CUSTOMRP_RPGFXAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4C580)
+#define RPG_CUSTOMRP_RPGFXAA_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC4C4A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGFXAA_TypeDefinitionIndex = 37123;
-
 	class RPGFXAA : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
 		::UnityEngine::Rendering::BoolParameter* FastMode; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGFXAA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGFXAA_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsActiveImpl()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGFXAA_ISACTIVEIMPL_OFFSET))(this);
 		}
+
 	};
 }

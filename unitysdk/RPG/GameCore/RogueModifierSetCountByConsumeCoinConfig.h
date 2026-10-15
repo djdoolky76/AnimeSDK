@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierSetCountByConsumeCoinConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_METHOD_3_88AE5C2F1ACA6BE9_OFFSET UNITYSDK_OFFSET(0x1D3FC530)
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_METHOD_3_921DDD899213E36D_OFFSET UNITYSDK_OFFSET(0x1D3FC580)
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FC570)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A3B0)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA1A3C0)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1A370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierSetCountByConsumeCoinConfig_TypeDefinitionIndex = 17505;
-
 	class RogueModifierSetCountByConsumeCoinConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_88AE5C2F1ACA6BE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_METHOD_3_88AE5C2F1ACA6BE9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_921DDD899213E36D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_METHOD_3_921DDD899213E36D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierSetCountByConsumeCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYCONSUMECOINCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

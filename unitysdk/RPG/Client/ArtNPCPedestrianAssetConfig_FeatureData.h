@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Client { class ArtNPCPedestrianAssetConfig_ArtVariantInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_FEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC77BA80)
+#define RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_FEATUREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC699910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_FeatureData_TypeDefinitionIndex = 69194;
-
 	class ArtNPCPedestrianAssetConfig_FeatureData : public ::System::Object
 	{
 	public:
 		::System::String* FeatureID; // 0x10
 		::System::String* NPCName; // 0x18
-		::Il2CppArray<::RPG::Client::ArtNPCPedestrianAssetConfig_ArtVariantInfo*>* ArtVariants; // 0x20
-
+		::Il2CppArray<::System::Object*>* ArtVariants; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_FEATUREDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ARTNPCPEDESTRIANASSETCONFIG_FEATUREDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

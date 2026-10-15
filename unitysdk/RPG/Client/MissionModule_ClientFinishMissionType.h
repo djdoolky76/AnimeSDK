@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_ClientFinishMissionType_TypeDefinitionIndex = 66182;
-
 	enum class MissionModule_ClientFinishMissionType : ::System::Int32
 	{
 		ConsumeItem = 0,

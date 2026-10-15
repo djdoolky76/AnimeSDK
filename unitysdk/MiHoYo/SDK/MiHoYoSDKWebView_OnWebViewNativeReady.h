@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB2574E0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB257510)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_INVOKE_OFFSET UNITYSDK_OFFSET(0xB256800)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY__CTOR_OFFSET UNITYSDK_OFFSET(0xB2573F0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFECE10)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_CTOR_OFFSET UNITYSDK_OFFSET(0xAFECD20)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFECE40)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFEC130)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebView_OnWebViewNativeReady_TypeDefinitionIndex = 47058;
-
 	class MiHoYoSDKWebView_OnWebViewNativeReady : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEW_ONWEBVIEWNATIVEREADY_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

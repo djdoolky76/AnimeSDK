@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class AdventurePhase; }
+namespace RPG::Client { class MonoInControlCameraRotation; }
 namespace RPG::Client { class MonoInControlEvent; }
 namespace RPG::Client { class UIController; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD837450)
-#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_GET_OFFSET UNITYSDK_OFFSET(0xD8370F0)
-#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD8372F0)
-#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8371E0)
-#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD837340)
-#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8374A0)
-#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0xD837CE0)
+#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0xD838780)
+#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD837ED0)
+#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_GET_OFFSET UNITYSDK_OFFSET(0xD837B70)
+#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD837D70)
+#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD837C60)
+#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD837DC0)
+#define RPG_CLIENT_MONOINCONTROLCAMERAROTATION_UPDATE_OFFSET UNITYSDK_OFFSET(0xD837F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoInControlCameraRotation_TypeDefinitionIndex = 61435;
-
 	class MonoInControlCameraRotation : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::UInt32 _CameraRotationFPS; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::Client::MonoInControlEvent* _MonoInControlEvent; // 0x20
 		::RPG::Client::UIController* _Controller; // 0x28
 		::RPG::Client::AdventurePhase* _AdventurePhase; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCAMERAROTATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCAMERAROTATION_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::MonoInControlCameraRotation* Get(::UnityEngine::Transform* a1)
@@ -61,5 +59,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCAMERAROTATION_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

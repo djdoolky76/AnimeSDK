@@ -1,67 +1,66 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Security/Claims/ClaimsIdentity.h"
 #include "unitysdk/System/Security/Principal/WindowsAccountType.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
+namespace System::Security::Claims { class ClaimsIdentity; }
+namespace System::Security::Principal { class WindowsIdentity; }
 namespace System::Security::Principal { class WindowsImpersonationContext; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CLONEASBASE_OFFSET UNITYSDK_OFFSET(0x1BBE29A0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BBE2200)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETCURRENTTOKEN_OFFSET UNITYSDK_OFFSET(0x1BBE22C0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETCURRENT_OFFSET UNITYSDK_OFFSET(0x1BBE2210)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETTOKENINTERNAL_OFFSET UNITYSDK_OFFSET(0x1BBE29B0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETTOKENNAME_OFFSET UNITYSDK_OFFSET(0x1BBE23F0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1BBE2380)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BBE2390)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_IMPERSONATE_OFFSET UNITYSDK_OFFSET(0x1BBE22D0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_SETTOKEN_OFFSET UNITYSDK_OFFSET(0x1BBE20D0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1BBE2400)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BBE2750)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBE29C0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBE2190)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBE21D0)
-#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE2060)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0EEB20)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CLONEASBASE_OFFSET UNITYSDK_OFFSET(0x1C0EEB00)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0EE2F0)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C0EE330)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0EE1C0)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C0EE360)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETCURRENTTOKEN_OFFSET UNITYSDK_OFFSET(0x1C0EE420)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETCURRENT_OFFSET UNITYSDK_OFFSET(0x1C0EE370)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETTOKENINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C0EEB10)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETTOKENNAME_OFFSET UNITYSDK_OFFSET(0x1C0EE550)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1C0EE4E0)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C0EE4F0)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_IMPERSONATE_OFFSET UNITYSDK_OFFSET(0x1C0EE430)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_SETTOKEN_OFFSET UNITYSDK_OFFSET(0x1C0EE230)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1C0EE560)
+#define SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C0EE8B0)
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int WindowsIdentity_TypeDefinitionIndex = 989;
-
 	class WindowsIdentity : public ::System::Security::Claims::ClaimsIdentity
 	{
 	public:
-		static ::System::IntPtr* StaticGet_invalidWindows()
-		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(WindowsIdentity_TypeDefinitionIndex)->GetStaticField(0x47D0);
-		}
 		::System::String* _name; // 0x78
-		::System::Runtime::Serialization::SerializationInfo* _info; // 0x80
-		::System::String* _type; // 0x88
+		::System::String* _type; // 0x80
+		::System::Runtime::Serialization::SerializationInfo* _info; // 0x88
 		::System::IntPtr _token; // 0x90
 		::System::Security::Principal::WindowsAccountType _account; // 0x98
 		::System::Boolean _authenticated; // 0x9C
+		static ::System::IntPtr* StaticGet_invalidWindows()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("System.Security.Principal", "WindowsIdentity")->GetStaticField(0x5DD0);
+		}
 
 		::System::Void _ctor(::System::IntPtr a1, ::System::String* a2, ::System::Security::Principal::WindowsAccountType a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::String*, ::System::Security::Principal::WindowsAccountType, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::String*, ::System::Security::Principal::WindowsAccountType, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::Security::Claims::ClaimsIdentity* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Claims::ClaimsIdentity*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Claims::ClaimsIdentity*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_CCTOR_OFFSET))();
 		}
 
 		::System::Void Dispose()
@@ -123,5 +122,6 @@ namespace System::Security::Principal
 		{
 			return ((::System::String*(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_WINDOWSIDENTITY_GETTOKENNAME_OFFSET))(a1);
 		}
+
 	};
 }

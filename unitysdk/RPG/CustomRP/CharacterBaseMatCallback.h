@@ -4,116 +4,130 @@
 #include "unitysdk/RPG/CustomRP/MaterialIDLUTFloat.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_CREATELUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C68C8C0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_DEEPCOPYLUT_OFFSET UNITYSDK_OFFSET(0x1C68C890)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_DESTROYDEEPCOPYLUT_OFFSET UNITYSDK_OFFSET(0x1C68CBC0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_DESTROYLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C68CC00)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1C68DB60)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTCOLOR_OFFSET UNITYSDK_OFFSET(0x1C68D860)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTFLOAT_1_OFFSET UNITYSDK_OFFSET(0x1C68EA70)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTFLOAT_OFFSET UNITYSDK_OFFSET(0x1C68E5F0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1C68D0F0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTCOLOR_OFFSET UNITYSDK_OFFSET(0x1C68CF80)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTFLOAT_1_OFFSET UNITYSDK_OFFSET(0x1C68DE60)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTFLOAT_OFFSET UNITYSDK_OFFSET(0x1C68DCF0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_TRYCREATELUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C68CEB0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_UPDATEANDAPPLYLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1C68CDF0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C68FD20)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATEOUTLINEPACKLUT_OFFSET UNITYSDK_OFFSET(0x1C68F2D0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATERIMLIGHTPACKLUT_OFFSET UNITYSDK_OFFSET(0x1C68F510)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATERIMSHADOWPACKLUT_OFFSET UNITYSDK_OFFSET(0x1C68F8B0)
-#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATESPECULARPACKLUT_OFFSET UNITYSDK_OFFSET(0x1C68EBD0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC15EB0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_CREATELUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC12D10)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_DEEPCOPYLUT_OFFSET UNITYSDK_OFFSET(0x1CC12CE0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_DESTROYDEEPCOPYLUT_OFFSET UNITYSDK_OFFSET(0x1CC13010)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_DESTROYLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC13050)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1CC13EC0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTCOLOR_OFFSET UNITYSDK_OFFSET(0x1CC13BC0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTFLOAT_1_OFFSET UNITYSDK_OFFSET(0x1CC14DD0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_GETCHARLUTFLOAT_OFFSET UNITYSDK_OFFSET(0x1CC14950)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1CC13540)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTCOLOR_OFFSET UNITYSDK_OFFSET(0x1CC133D0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTFLOAT_1_OFFSET UNITYSDK_OFFSET(0x1CC141C0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_SETCHARLUTFLOAT_OFFSET UNITYSDK_OFFSET(0x1CC14050)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_TRYCREATELUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC13300)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_UPDATEANDAPPLYLUTTEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC13240)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATEOUTLINEPACKLUT_OFFSET UNITYSDK_OFFSET(0x1CC15570)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATERIMLIGHTPACKLUT_OFFSET UNITYSDK_OFFSET(0x1CC15790)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATERIMSHADOWPACKLUT_OFFSET UNITYSDK_OFFSET(0x1CC15AD0)
+#define RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATESPECULARPACKLUT_OFFSET UNITYSDK_OFFSET(0x1CC14F30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CharacterBaseMatCallback_TypeDefinitionIndex = 37192;
-
 	class CharacterBaseMatCallback : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_RimColor()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34DF0);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_OutlineColor()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34DF8);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_RimDark()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E00);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_RimShadowWidth()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E08);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_RimType()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E10);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_SpecularColor()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E18);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_CustomParamA()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E20);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E910);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_SpecularShininess()
+
+		static ::Il2CppArray<::System::String*>** StaticGet_OutlineColor()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E28);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E918);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_CustomParamB()
+
+		static ::Il2CppArray<::System::String*>** StaticGet_RimColor()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E30);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E920);
 		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_RimType()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E928);
+		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_SpecularRoughness()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E38);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E930);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_mBloomIntensity()
+
+		static ::Il2CppArray<::System::String*>** StaticGet_CustomParamB()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E40);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E938);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_RimShadowColor()
+
+		static ::Il2CppArray<::System::String*>** StaticGet_SpecularShininess()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E48);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E940);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_mBloomColor()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E50);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_SpecularIntensity()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E58);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_RimShadowFeather()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E60);
-		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_RimEdgeSoftness()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0x34E68);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E948);
 		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_mBloomColor()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E950);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_RimShadowColor()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E958);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_mBloomIntensity()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E960);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_SpecularColor()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E968);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_RimShadowFeather()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E970);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_RimDark()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E978);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_SpecularIntensity()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E980);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_RimShadowWidth()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x2E988);
+		}
+
 		static ::System::Int32* StaticGet_UseMaterialLUTProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0xDDC0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x99C0);
 		}
+
 		static ::System::Int32* StaticGet_MaterialLUTProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CharacterBaseMatCallback_TypeDefinitionIndex)->GetStaticField(0xDDC4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "CharacterBaseMatCallback")->GetStaticField(0x99C4);
 		}
-		// static const ::System::Int32 MaterialIDPackHeight = 0x8; // 0x0
-		// static const ::System::Int32 MaterialIDCount = 0x8; // 0x0
 
+		// static const ::System::Object MaterialIDPackHeight; // 0x0
+		// static const ::System::Object MaterialIDCount; // 0x0
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void DeepCopyLUT(::UnityEngine::Material* a1, ::UnityEngine::Material* a2)
@@ -205,5 +219,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::UnityEngine::Texture2D*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CHARACTERBASEMATCALLBACK__UPDATERIMSHADOWPACKLUT_OFFSET))(a1, a2);
 		}
+
 	};
 }

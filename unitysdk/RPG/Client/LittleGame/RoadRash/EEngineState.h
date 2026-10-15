@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int EEngineState_TypeDefinitionIndex = 41295;
-
 	enum class EEngineState : ::System::Int32
 	{
 		None = 0,

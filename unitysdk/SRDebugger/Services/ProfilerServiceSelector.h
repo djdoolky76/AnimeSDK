@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 
-#define SRDEBUGGER_SERVICES_PROFILERSERVICESELECTOR_GETPROFILERSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1E68B0A0)
+#define SRDEBUGGER_SERVICES_PROFILERSERVICESELECTOR_GETPROFILERSERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1ED52D20)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ProfilerServiceSelector_TypeDefinitionIndex = 37375;
-
 	class ProfilerServiceSelector : public ::System::Object
 	{
 	public:
@@ -17,5 +14,6 @@ namespace SRDebugger::Services
 		{
 			return ((::System::Type*(*)())((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_PROFILERSERVICESELECTOR_GETPROFILERSERVICETYPE_OFFSET))();
 		}
+
 	};
 }

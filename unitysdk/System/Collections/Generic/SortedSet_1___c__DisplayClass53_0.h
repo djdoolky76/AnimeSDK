@@ -4,8 +4,6 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1___c__DisplayClass53_0_TypeDefinitionIndex = 3047;
-
 	template <typename T>
 	class SortedSet_1___c__DisplayClass53_0 : public ::System::Object
 	{

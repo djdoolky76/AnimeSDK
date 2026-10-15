@@ -3,18 +3,16 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicationFlag_TypeDefinitionIndex = 36188;
-
 	enum class ReplicationFlag : ::System::Byte
 	{
-		None = 0x0,
-		Dirty = 0x1,
-		Initial = 0x2,
-		ToOwner = 0x4,
-		ToOther = 0x8,
-		SnapshotToOwner = 0x7,
-		SnapshotToOther = 0xB,
-		DeltaToOwner = 0x5,
-		DeltaToOther = 0x9,
+		None = 0,
+		Dirty = 1,
+		Initial = 2,
+		ToOwner = 4,
+		ToOther = 8,
+		SnapshotToOwner = 7,
+		SnapshotToOther = 11,
+		DeltaToOwner = 5,
+		DeltaToOther = 9,
 	};
 }

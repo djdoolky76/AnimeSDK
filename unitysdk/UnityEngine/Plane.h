@@ -1,40 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Ray.h"
 namespace System { class String; }
 
-#define UNITYENGINE_PLANE_CLOSESTPOINTONPLANE_OFFSET UNITYSDK_OFFSET(0x3B930C0)
-#define UNITYENGINE_PLANE_GETDISTANCETOPOINT_OFFSET UNITYSDK_OFFSET(0x3B93130)
-#define UNITYENGINE_PLANE_GETSIDE_OFFSET UNITYSDK_OFFSET(0x3B93160)
-#define UNITYENGINE_PLANE_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0xD510)
-#define UNITYENGINE_PLANE_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x254E0)
-#define UNITYENGINE_PLANE_RAYCAST_OFFSET UNITYSDK_OFFSET(0x3BBA990)
-#define UNITYENGINE_PLANE_SETNORMALANDPOSITION_OFFSET UNITYSDK_OFFSET(0x3BBA890)
-#define UNITYENGINE_PLANE_SET_DISTANCE_OFFSET UNITYSDK_OFFSET(0xD520)
-#define UNITYENGINE_PLANE_SET_NORMAL_OFFSET UNITYSDK_OFFSET(0x21254D0)
-#define UNITYENGINE_PLANE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BBAA50)
-#define UNITYENGINE_PLANE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x25580)
-#define UNITYENGINE_PLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x3BBA7A0)
+#define UNITYENGINE_PLANE_CLOSESTPOINTONPLANE_OFFSET UNITYSDK_OFFSET(0x3C47FD0)
+#define UNITYENGINE_PLANE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1710)
+#define UNITYENGINE_PLANE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C70110)
+#define UNITYENGINE_PLANE_GETDISTANCETOPOINT_OFFSET UNITYSDK_OFFSET(0x3C48040)
+#define UNITYENGINE_PLANE_GETSIDE_OFFSET UNITYSDK_OFFSET(0x3C48070)
+#define UNITYENGINE_PLANE_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x1C80)
+#define UNITYENGINE_PLANE_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x1670)
+#define UNITYENGINE_PLANE_RAYCAST_OFFSET UNITYSDK_OFFSET(0x3C70300)
+#define UNITYENGINE_PLANE_SETNORMALANDPOSITION_OFFSET UNITYSDK_OFFSET(0x3C70200)
+#define UNITYENGINE_PLANE_SET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x1A780)
+#define UNITYENGINE_PLANE_SET_NORMAL_OFFSET UNITYSDK_OFFSET(0x202EFC0)
+#define UNITYENGINE_PLANE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C703C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 4077;
-
 	struct alignas(4) Plane
 	{
 		::UnityEngine::Vector3 m_Normal; // 0x10
 		::System::Single m_Distance; // 0x1C
-
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 get_normal()
@@ -77,16 +73,15 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE_GETSIDE_OFFSET))(this, a1);
 		}
 
-		/*
-		::System::Boolean Raycast(::UnityEngine::Ray a1, ::System::Single& a2)
+		::System::Boolean Raycast(::UnityEngine::Ray a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Ray, ::System::Single&))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE_RAYCAST_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Ray, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE_RAYCAST_OFFSET))(this, a1, a2);
 		}
-		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PLANE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

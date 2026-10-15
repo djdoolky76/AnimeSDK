@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf::WellKnownTypes { class Type; }
+namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3B3900)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3B3940)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C___CCTOR_B__50_0_OFFSET UNITYSDK_OFFSET(0x1B3B3950)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8B5750)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B5790)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C___CCTOR_B__50_0_OFFSET UNITYSDK_OFFSET(0x1B8B57A0)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Type___c_TypeDefinitionIndex = 5437;
-
 	class Type___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::WellKnownTypes::Type___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Google::Protobuf::WellKnownTypes::Type___c**)Il2CppClass::FromTypeDefinitionIndex(Type___c_TypeDefinitionIndex)->GetStaticField(0x16A30);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x1B3F0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C_CTOR_OFFSET))(this);
 		}
 
 		::Google::Protobuf::WellKnownTypes::Type* __cctor_b__50_0()
 		{
 			return ((::Google::Protobuf::WellKnownTypes::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_TYPE___C___CCTOR_B__50_0_OFFSET))(this);
 		}
+
 	};
 }

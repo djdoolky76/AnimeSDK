@@ -3,8 +3,6 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_TwoFingerPickMethod_TypeDefinitionIndex = 39035;
-
 	enum class EasyTouch_TwoFingerPickMethod : ::System::Int32
 	{
 		Finger = 0,

@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobRanges_TypeDefinitionIndex = 3963;
-
-	struct alignas(8) JobRanges
+	struct alignas(4) JobRanges
 	{
 		::System::Int32 BatchSize; // 0x10
 		::System::Int32 NumJobs; // 0x14

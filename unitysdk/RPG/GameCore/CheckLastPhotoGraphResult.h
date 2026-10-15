@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CheckLastPhotoGraphResult; }
 namespace RPG::GameCore { class PhotoGraphResultContainer; }
+namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_METHOD_3_27CF7028948930D3_OFFSET UNITYSDK_OFFSET(0x1CFA11A0)
-#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_METHOD_3_B89D8985FDF8EF1E_OFFSET UNITYSDK_OFFSET(0x1CFA1160)
-#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA1190)
+#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57BDB0)
+#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57BDC0)
+#define RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57BD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckLastPhotoGraphResult_TypeDefinitionIndex = 21376;
-
 	class CheckLastPhotoGraphResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::PhotoGraphResultContainer* LastResultContainer; // 0x18
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSuccess; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnFail; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B89D8985FDF8EF1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckLastPhotoGraphResult*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CheckLastPhotoGraphResult* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckLastPhotoGraphResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_METHOD_3_B89D8985FDF8EF1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CheckLastPhotoGraphResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_27CF7028948930D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckLastPhotoGraphResult* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CheckLastPhotoGraphResult* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckLastPhotoGraphResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_METHOD_3_27CF7028948930D3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CheckLastPhotoGraphResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKLASTPHOTOGRAPHRESULT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

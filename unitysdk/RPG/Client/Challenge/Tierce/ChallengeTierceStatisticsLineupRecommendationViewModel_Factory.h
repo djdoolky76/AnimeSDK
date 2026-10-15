@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_06E38C65842C3B24;
+class CKCJOCJGHKC;
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStatisticsLineupRecommendationViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xCA1C4C0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xCA1C5A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC96ABB0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC96AC90)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStatisticsLineupRecommendationViewModel_Factory_TypeDefinitionIndex = 80276;
-
 	class ChallengeTierceStatisticsLineupRecommendationViewModel_Factory : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel* Create(::Class_1_06E38C65842C3B24* a1, ::RPG::Client::ChallengeGroupData* a2)
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel* Create(::CKCJOCJGHKC* a1, ::RPG::Client::ChallengeGroupData* a2)
 		{
-			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel*(*)(::PVOID, ::Class_1_06E38C65842C3B24*, ::RPG::Client::ChallengeGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CREATE_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceStatisticsLineupRecommendationViewModel*(*)(::PVOID, ::CKCJOCJGHKC*, ::RPG::Client::ChallengeGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTATISTICSLINEUPRECOMMENDATIONVIEWMODEL_FACTORY_CREATE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

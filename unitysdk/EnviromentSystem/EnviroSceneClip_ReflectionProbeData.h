@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Cubemap; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroSceneClip_ReflectionProbeData_TypeDefinitionIndex = 50004;
-
 	struct alignas(8) EnviroSceneClip_ReflectionProbeData
 	{
 		::UnityEngine::Cubemap* map; // 0x10

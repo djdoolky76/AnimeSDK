@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/ETrackingResult.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HmdMatrix34_t.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HmdVector3_t.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int TrackedDevicePose_t_TypeDefinitionIndex = 37980;
-
 	struct alignas(4) TrackedDevicePose_t
 	{
 		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t mDeviceToAbsoluteTracking; // 0x10

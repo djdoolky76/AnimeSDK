@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HimekoNovaAssistSkillUIConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG_METHOD_2_445C59CCF0200421_OFFSET UNITYSDK_OFFSET(0x1D18F140)
-#define RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18F1E0)
+#define RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76A600)
+#define RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76A560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HimekoNovaAssistSkillUIConfig_TypeDefinitionIndex = 17981;
-
 	class HimekoNovaAssistSkillUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 TrueSkillID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_445C59CCF0200421(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HimekoNovaAssistSkillUIConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HimekoNovaAssistSkillUIConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HimekoNovaAssistSkillUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG_METHOD_2_445C59CCF0200421_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HimekoNovaAssistSkillUIConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIMEKONOVAASSISTSKILLUICONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

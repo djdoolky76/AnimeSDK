@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpaceZooUtils_SpaceZooFeatureCombination_TypeDefinitionIndex = 67971;
-
 	struct alignas(4) SpaceZooUtils_SpaceZooFeatureCombination
 	{
 		::System::UInt32 BodyDecalFeatureID; // 0x10

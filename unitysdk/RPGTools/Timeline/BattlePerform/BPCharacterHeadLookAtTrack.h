@@ -1,33 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE81B1D0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE81B340)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE81B100)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE81B110)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE81B440)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B8810)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8B8980)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B8A80)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8B8750)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterHeadLookAtTrack_TypeDefinitionIndex = 49264;
-
-	class BPCharacterHeadLookAtTrack : public ::UnityEngine::Timeline::TrackAsset
+	class BPCharacterHeadLookAtTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK__CTOR_OFFSET))(this);
-		}
-
-		::System::Boolean get_UseUniqueCharacterName()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
@@ -44,5 +35,6 @@ namespace RPGTools::Timeline::BattlePerform
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADLOOKATTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

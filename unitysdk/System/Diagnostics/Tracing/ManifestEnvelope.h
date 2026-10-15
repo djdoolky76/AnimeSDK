@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Tracing/ManifestEnvelope_ManifestFormats.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ManifestEnvelope_TypeDefinitionIndex = 1709;
-
-	struct alignas(2) ManifestEnvelope
+	struct alignas(4) ManifestEnvelope
 	{
 		::System::Diagnostics::Tracing::ManifestEnvelope_ManifestFormats Format; // 0x10
 		::System::Byte MajorVersion; // 0x11

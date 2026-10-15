@@ -1,29 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace XLua { template <typename T> class CastToInt_1_CastToIntFunc; }
-namespace XLua { template <typename T> class ObjectTranslator_GetFunc_1; }
+namespace System { class Object; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int CastToInt_1_TypeDefinitionIndex = 50587;
-
-	template <typename S>
+	template <typename T>
 	class CastToInt_1 : public ::System::Object
 	{
 	public:
-		static ::XLua::CastToInt_1_CastToIntFunc<S>** StaticGet_caster()
+		static ::System::Object** StaticGet_caster()
 		{
-			return (::XLua::CastToInt_1_CastToIntFunc<S>**)Il2CppClass::FromTypeDefinitionIndex(CastToInt_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)UnitySDK::FromName("XLua", "CastToInt`1")->GetStaticField(0x0);
 		}
+
 		static ::System::Boolean* StaticGet_isEnum()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CastToInt_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Boolean*)UnitySDK::FromName("XLua", "CastToInt`1")->GetStaticField(0x0);
 		}
-		static ::XLua::ObjectTranslator_GetFunc_1<S>** StaticGet_getFunc()
+
+		static ::System::Object** StaticGet_getFunc()
 		{
-			return (::XLua::ObjectTranslator_GetFunc_1<S>**)Il2CppClass::FromTypeDefinitionIndex(CastToInt_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)UnitySDK::FromName("XLua", "CastToInt`1")->GetStaticField(0x0);
 		}
+
 	};
 }

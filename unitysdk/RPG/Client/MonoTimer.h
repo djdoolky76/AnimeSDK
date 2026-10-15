@@ -1,43 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { class Action; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOTIMER_CLEANTIMER_OFFSET UNITYSDK_OFFSET(0xD86DC90)
-#define RPG_CLIENT_MONOTIMER_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xD86DEF0)
-#define RPG_CLIENT_MONOTIMER_GET_ISPAUSE_OFFSET UNITYSDK_OFFSET(0xD86DF40)
-#define RPG_CLIENT_MONOTIMER_RESET_OFFSET UNITYSDK_OFFSET(0xD86DC40)
-#define RPG_CLIENT_MONOTIMER_SETTIMER_OFFSET UNITYSDK_OFFSET(0xD86DAF0)
-#define RPG_CLIENT_MONOTIMER_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xD86DBE0)
-#define RPG_CLIENT_MONOTIMER_SET_ISPAUSE_OFFSET UNITYSDK_OFFSET(0xD86DF50)
-#define RPG_CLIENT_MONOTIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD86DD00)
-#define RPG_CLIENT_MONOTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xD86DF60)
-#define RPG_CLIENT_MONOTIMER__SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xD86DE90)
+#define RPG_CLIENT_MONOTIMER_CLEANTIMER_OFFSET UNITYSDK_OFFSET(0xD86E550)
+#define RPG_CLIENT_MONOTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xD86E820)
+#define RPG_CLIENT_MONOTIMER_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xD86E7B0)
+#define RPG_CLIENT_MONOTIMER_GET_ISPAUSE_OFFSET UNITYSDK_OFFSET(0xD86E800)
+#define RPG_CLIENT_MONOTIMER_RESET_OFFSET UNITYSDK_OFFSET(0xD86E500)
+#define RPG_CLIENT_MONOTIMER_SETTIMER_OFFSET UNITYSDK_OFFSET(0xD86E3B0)
+#define RPG_CLIENT_MONOTIMER_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xD86E4A0)
+#define RPG_CLIENT_MONOTIMER_SET_ISPAUSE_OFFSET UNITYSDK_OFFSET(0xD86E810)
+#define RPG_CLIENT_MONOTIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD86E5C0)
+#define RPG_CLIENT_MONOTIMER__SHOULDTICK_OFFSET UNITYSDK_OFFSET(0xD86E750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimer_TypeDefinitionIndex = 72536;
-
 	class MonoTimer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean _IsPause_k__BackingField; // 0x18
-		::System::Action_2<::XLua::LuaTable*, ::System::Int32>* _TimerCallback; // 0x20
+		::System::Byte _padding0[0x7];
+		::System::Action* _TimerCallback; // 0x20
 		::XLua::LuaTable* _LuaSelf; // 0x28
 		::System::Single _Interval; // 0x30
 		::System::Single _CurrentTime; // 0x34
 		::System::Int32 _Count; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void SetTimer(::System::Action_2<::XLua::LuaTable*, ::System::Int32>* a1, ::XLua::LuaTable* a2, ::System::Single a3)
+		::System::Void SetTimer(::System::Action* a1, ::XLua::LuaTable* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::XLua::LuaTable*, ::System::Int32>*, ::XLua::LuaTable*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER_SETTIMER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER_SETTIMER_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CleanTimer()
@@ -79,5 +76,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOTIMER_SET_ISPAUSE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ST_Main_ElfCustomerEating; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_METHOD_4_AB110F2BA74A05AB_OFFSET UNITYSDK_OFFSET(0x1D4C86B0)
-#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_METHOD_4_B99A32882347C02E_OFFSET UNITYSDK_OFFSET(0x1D4C85E0)
-#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C86A0)
+#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7BAB0)
+#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7BAC0)
+#define RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7B9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_ElfCustomerEating_TypeDefinitionIndex = 21285;
-
 	class ST_Main_ElfCustomerEating : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B99A32882347C02E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfCustomerEating*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfCustomerEating* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfCustomerEating*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_METHOD_4_B99A32882347C02E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfCustomerEating*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AB110F2BA74A05AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfCustomerEating* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfCustomerEating* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfCustomerEating*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_METHOD_4_AB110F2BA74A05AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfCustomerEating*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFCUSTOMEREATING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

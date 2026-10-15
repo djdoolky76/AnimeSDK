@@ -1,82 +1,84 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Collections { class Hashtable; }
+namespace System::Security { class SecurityElement; }
 namespace System::Security { class SecurityElement_SecurityAttribute; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_SECURITY_SECURITYELEMENT_ADDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BBDEB00)
-#define SYSTEM_SECURITY_SECURITYELEMENT_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x1BBE0620)
-#define SYSTEM_SECURITY_SECURITYELEMENT_ESCAPE_OFFSET UNITYSDK_OFFSET(0x1BBE5670)
-#define SYSTEM_SECURITY_SECURITYELEMENT_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1BBE5900)
-#define SYSTEM_SECURITY_SECURITYELEMENT_GETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BBE4E50)
-#define SYSTEM_SECURITY_SECURITYELEMENT_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1BBE46A0)
-#define SYSTEM_SECURITY_SECURITYELEMENT_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1BBE4C60)
-#define SYSTEM_SECURITY_SECURITYELEMENT_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1BBE4C70)
-#define SYSTEM_SECURITY_SECURITYELEMENT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1BBE4C80)
-#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1BBE5B80)
-#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDATTRIBUTEVALUE_OFFSET UNITYSDK_OFFSET(0x1BBE5C00)
-#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDTAG_OFFSET UNITYSDK_OFFSET(0x1BBE4250)
-#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDTEXT_OFFSET UNITYSDK_OFFSET(0x1BBE4C90)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SEARCHFORCHILDBYTAG_OFFSET UNITYSDK_OFFSET(0x1BBE5C80)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SEARCHFORTEXTOFLOCALNAME_OFFSET UNITYSDK_OFFSET(0x1BBE6A40)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SET_M_STRTEXT_OFFSET UNITYSDK_OFFSET(0x1BBE6A30)
-#define SYSTEM_SECURITY_SECURITYELEMENT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1BBE4510)
-#define SYSTEM_SECURITY_SECURITYELEMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BBE0580)
-#define SYSTEM_SECURITY_SECURITYELEMENT_TOXML_OFFSET UNITYSDK_OFFSET(0x1BBE5F20)
-#define SYSTEM_SECURITY_SECURITYELEMENT_UNESCAPE_OFFSET UNITYSDK_OFFSET(0x1BBE4D10)
-#define SYSTEM_SECURITY_SECURITYELEMENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBE75E0)
-#define SYSTEM_SECURITY_SECURITYELEMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBE40F0)
-#define SYSTEM_SECURITY_SECURITYELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE0610)
+#define SYSTEM_SECURITY_SECURITYELEMENT_ADDATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C0EAC60)
+#define SYSTEM_SECURITY_SECURITYELEMENT_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x1C0EC780)
+#define SYSTEM_SECURITY_SECURITYELEMENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0F36F0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0F0250)
+#define SYSTEM_SECURITY_SECURITYELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0EC770)
+#define SYSTEM_SECURITY_SECURITYELEMENT_ESCAPE_OFFSET UNITYSDK_OFFSET(0x1C0F17D0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1C0F1A60)
+#define SYSTEM_SECURITY_SECURITYELEMENT_GETATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C0F0FB0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C0F0800)
+#define SYSTEM_SECURITY_SECURITYELEMENT_GET_CHILDREN_OFFSET UNITYSDK_OFFSET(0x1C0F0DC0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_GET_TAG_OFFSET UNITYSDK_OFFSET(0x1C0F0DD0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1C0F0DE0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDATTRIBUTENAME_OFFSET UNITYSDK_OFFSET(0x1C0F1CE0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDATTRIBUTEVALUE_OFFSET UNITYSDK_OFFSET(0x1C0F1D60)
+#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDTAG_OFFSET UNITYSDK_OFFSET(0x1C0F03B0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_ISVALIDTEXT_OFFSET UNITYSDK_OFFSET(0x1C0F0DF0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SEARCHFORCHILDBYTAG_OFFSET UNITYSDK_OFFSET(0x1C0F1DE0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SEARCHFORTEXTOFLOCALNAME_OFFSET UNITYSDK_OFFSET(0x1C0F2BA0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SET_M_STRTEXT_OFFSET UNITYSDK_OFFSET(0x1C0F2B90)
+#define SYSTEM_SECURITY_SECURITYELEMENT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1C0F0670)
+#define SYSTEM_SECURITY_SECURITYELEMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0EC6E0)
+#define SYSTEM_SECURITY_SECURITYELEMENT_TOXML_OFFSET UNITYSDK_OFFSET(0x1C0F2080)
+#define SYSTEM_SECURITY_SECURITYELEMENT_UNESCAPE_OFFSET UNITYSDK_OFFSET(0x1C0F0E70)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityElement_TypeDefinitionIndex = 950;
-
 	class SecurityElement : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_invalid_tag_chars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SecurityElement_TypeDefinitionIndex)->GetStaticField(0xEFB0);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_invalid_attr_value_chars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SecurityElement_TypeDefinitionIndex)->GetStaticField(0xEFB8);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_invalid_text_chars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SecurityElement_TypeDefinitionIndex)->GetStaticField(0xEFC0);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_invalid_chars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SecurityElement_TypeDefinitionIndex)->GetStaticField(0xEFC8);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_invalid_attr_name_chars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SecurityElement_TypeDefinitionIndex)->GetStaticField(0xEFD0);
-		}
 		::System::Collections::ArrayList* attributes; // 0x10
 		::System::String* text; // 0x18
-		::System::String* tag; // 0x20
-		::System::Collections::ArrayList* children; // 0x28
+		::System::Collections::ArrayList* children; // 0x20
+		::System::String* tag; // 0x28
+		static ::Il2CppArray<::System::Char>** StaticGet_invalid_chars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Security", "SecurityElement")->GetStaticField(0x1A010);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_invalid_attr_value_chars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Security", "SecurityElement")->GetStaticField(0x1A018);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_invalid_attr_name_chars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Security", "SecurityElement")->GetStaticField(0x1A020);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_invalid_tag_chars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Security", "SecurityElement")->GetStaticField(0x1A028);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_invalid_text_chars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Security", "SecurityElement")->GetStaticField(0x1A030);
+		}
 
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_CCTOR_OFFSET))();
 		}
 
 		::System::Collections::Hashtable* get_Attributes()
@@ -159,9 +161,9 @@ namespace System::Security
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void ToXml(::System::Text::StringBuilder*& a1, ::System::Int32 a2)
+		::System::Void ToXml(::System::Text::StringBuilder* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_TOXML_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_TOXML_OFFSET))(this, a1, a2);
 		}
 
 		::System::Security::SecurityElement_SecurityAttribute* GetAttribute(::System::String* a1)
@@ -178,5 +180,6 @@ namespace System::Security
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYELEMENT_SEARCHFORTEXTOFLOCALNAME_OFFSET))(this, a1);
 		}
+
 	};
 }

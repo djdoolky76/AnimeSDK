@@ -3,34 +3,29 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class MatchThreeBoard; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD635ED0)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD635F10)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_PLAY_OFFSET UNITYSDK_OFFSET(0xD630CF0)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SETSIZE_OFFSET UNITYSDK_OFFSET(0xD635FD0)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD635E90)
-#define RPG_CLIENT_MATCHTHREEEXTRASTEP__CTOR_OFFSET UNITYSDK_OFFSET(0xD636050)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_CTOR_OFFSET UNITYSDK_OFFSET(0xD58F760)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD58F5E0)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD58F620)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_PLAY_OFFSET UNITYSDK_OFFSET(0xD58A530)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SETSIZE_OFFSET UNITYSDK_OFFSET(0xD58F6E0)
+#define RPG_CLIENT_MATCHTHREEEXTRASTEP_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD58F5A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeExtraStep_TypeDefinitionIndex = 65979;
-
 	class MatchThreeExtraStep : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* ILKFAAGCMHG; // 0x0
 		::RPG::Client::MatchThreeBoard* MIPPNCGOJNM; // 0x18
 		::UnityEngine::Animation* PMOJILOJEPE; // 0x20
-
+		// static const ::System::String* ILKFAAGCMHG; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEEXTRASTEP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEEXTRASTEP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -57,5 +52,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEEXTRASTEP_PLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

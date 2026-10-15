@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HALHKJLBIKJ.h"
+class DBEILICHGCG;
+class FCDCGKBBAKD;
+class JBACCAGFHON;
+class JBFGHNLMEDI;
+
+#define FCDCGKBBAKD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x156B4090)
+#define FCDCGKBBAKD_CTOR_OFFSET UNITYSDK_OFFSET(0x156B4100)
+#define FCDCGKBBAKD_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x156B4110)
+
+	class FCDCGKBBAKD : public ::HALHKJLBIKJ
+	{
+	public:
+		::System::Void _ctor(::JBFGHNLMEDI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::JBFGHNLMEDI*))((::PBYTE)hIl2Cpp + FCDCGKBBAKD_CTOR_OFFSET))(this, a1);
+		}
+
+		static ::FCDCGKBBAKD* BPLPBPMEODA(::JBFGHNLMEDI* a1)
+		{
+			return ((::FCDCGKBBAKD*(*)(::JBFGHNLMEDI*))((::PBYTE)hIl2Cpp + FCDCGKBBAKD_BPLPBPMEODA_OFFSET))(a1);
+		}
+
+		::System::Boolean OKPLPEELPBC(::JBACCAGFHON* a1, ::DBEILICHGCG* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::JBACCAGFHON*, ::DBEILICHGCG*))((::PBYTE)hIl2Cpp + FCDCGKBBAKD_OKPLPEELPBC_OFFSET))(this, a1, a2);
+		}
+
+	};

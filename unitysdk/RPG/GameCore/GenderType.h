@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GenderType_TypeDefinitionIndex = 10562;
-
 	enum class GenderType : ::System::Int32
 	{
 		GENDER_NONE = 0,

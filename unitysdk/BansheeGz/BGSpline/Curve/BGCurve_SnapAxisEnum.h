@@ -3,8 +3,6 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurve_SnapAxisEnum_TypeDefinitionIndex = 35302;
-
 	enum class BGCurve_SnapAxisEnum : ::System::Int32
 	{
 		X = 0,

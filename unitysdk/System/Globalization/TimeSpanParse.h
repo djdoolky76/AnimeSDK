@@ -1,57 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanRawInfo.h"
-#include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanResult.h"
 #include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanStandardStyles.h"
 #include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanToken.h"
-#include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanTokenizer.h"
 #include "unitysdk/System/Globalization/TimeSpanStyles.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanRawInfo.h"
+#include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanResult.h"
+#include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanTokenizer.h"
 #include "unitysdk/System/TimeSpan.h"
-
 namespace System { class IFormatProvider; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_1_OFFSET UNITYSDK_OFFSET(0x1BD394E0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_OFFSET UNITYSDK_OFFSET(0x1BD39330)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTLITERAL_OFFSET UNITYSDK_OFFSET(0x1BD395F0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1BD32380)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1BD31F70)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSE_OFFSET UNITYSDK_OFFSET(0x1BD317E0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINALSTATE_OFFSET UNITYSDK_OFFSET(0x1BD32D50)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_DHMSF_OFFSET UNITYSDK_OFFSET(0x1BD36BF0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_D_OFFSET UNITYSDK_OFFSET(0x1BD32FC0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HMS_F_D_OFFSET UNITYSDK_OFFSET(0x1BD350C0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_OFFSET UNITYSDK_OFFSET(0x1BD334B0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_S_D_OFFSET UNITYSDK_OFFSET(0x1BD33980)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEBYFORMAT_OFFSET UNITYSDK_OFFSET(0x1BD38240)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLETIMESPAN_OFFSET UNITYSDK_OFFSET(0x1BD32430)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1BD327D0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1BD32020)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1BD322D0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPANCONSTANT_OFFSET UNITYSDK_OFFSET(0x1BD38210)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPAN_OFFSET UNITYSDK_OFFSET(0x1BD31890)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1BD31EE0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYTIMETOTICKS_OFFSET UNITYSDK_OFFSET(0x1BD315B0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_VALIDATESTYLES_OFFSET UNITYSDK_OFFSET(0x1BD31540)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD39C40)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C245B30)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_1_OFFSET UNITYSDK_OFFSET(0x1C2453D0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_OFFSET UNITYSDK_OFFSET(0x1C245220)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTLITERAL_OFFSET UNITYSDK_OFFSET(0x1C2454E0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1C23E270)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1C23DE60)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSE_OFFSET UNITYSDK_OFFSET(0x1C23D6D0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINALSTATE_OFFSET UNITYSDK_OFFSET(0x1C23EC40)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_DHMSF_OFFSET UNITYSDK_OFFSET(0x1C242AE0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_D_OFFSET UNITYSDK_OFFSET(0x1C23EEB0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HMS_F_D_OFFSET UNITYSDK_OFFSET(0x1C240FB0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_OFFSET UNITYSDK_OFFSET(0x1C23F3A0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_S_D_OFFSET UNITYSDK_OFFSET(0x1C23F870)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEBYFORMAT_OFFSET UNITYSDK_OFFSET(0x1C244130)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLETIMESPAN_OFFSET UNITYSDK_OFFSET(0x1C23E320)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLE_OFFSET UNITYSDK_OFFSET(0x1C23E6C0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTTIMESPAN_OFFSET UNITYSDK_OFFSET(0x1C23DF10)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1C23E1C0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPANCONSTANT_OFFSET UNITYSDK_OFFSET(0x1C244100)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPAN_OFFSET UNITYSDK_OFFSET(0x1C23D780)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1C23DDD0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYTIMETOTICKS_OFFSET UNITYSDK_OFFSET(0x1C23D4A0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_VALIDATESTYLES_OFFSET UNITYSDK_OFFSET(0x1C23D430)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanParse_TypeDefinitionIndex = 771;
-
 	class TimeSpanParse : public ::System::Object
 	{
 	public:
 		static ::System::Globalization::TimeSpanParse_TimeSpanToken* StaticGet_zero()
 		{
-			return (::System::Globalization::TimeSpanParse_TimeSpanToken*)Il2CppClass::FromTypeDefinitionIndex(TimeSpanParse_TypeDefinitionIndex)->GetStaticField(0xA8D0);
+			return (::System::Globalization::TimeSpanParse_TimeSpanToken*)UnitySDK::FromName("System.Globalization", "TimeSpanParse")->GetStaticField(0x13670);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void ValidateStyles(::System::Globalization::TimeSpanStyles a1, ::System::String* a2)
@@ -59,9 +56,9 @@ namespace System::Globalization
 			return ((::System::Void(*)(::System::Globalization::TimeSpanStyles, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_VALIDATESTYLES_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryTimeToTicks(::System::Boolean a1, ::System::Globalization::TimeSpanParse_TimeSpanToken a2, ::System::Globalization::TimeSpanParse_TimeSpanToken a3, ::System::Globalization::TimeSpanParse_TimeSpanToken a4, ::System::Globalization::TimeSpanParse_TimeSpanToken a5, ::System::Globalization::TimeSpanParse_TimeSpanToken a6, ::System::Int64& a7)
+		static ::System::Boolean TryTimeToTicks(::System::Boolean a1, ::System::Globalization::TimeSpanParse_TimeSpanToken a2, ::System::Globalization::TimeSpanParse_TimeSpanToken a3, ::System::Globalization::TimeSpanParse_TimeSpanToken a4, ::System::Globalization::TimeSpanParse_TimeSpanToken a5, ::System::Globalization::TimeSpanParse_TimeSpanToken a6, ::System::Int64 a7)
 		{
-			return ((::System::Boolean(*)(::System::Boolean, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Int64&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYTIMETOTICKS_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Boolean(*)(::System::Boolean, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYTIMETOTICKS_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::TimeSpan Parse(::System::String* a1, ::System::IFormatProvider* a2)
@@ -69,9 +66,9 @@ namespace System::Globalization
 			return ((::System::TimeSpan(*)(::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::IFormatProvider* a2, ::System::TimeSpan& a3)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::IFormatProvider* a2, ::System::TimeSpan a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::IFormatProvider*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::IFormatProvider*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::TimeSpan ParseExact(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4)
@@ -79,9 +76,9 @@ namespace System::Globalization
 			return ((::System::TimeSpan(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TryParseExact(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan& a5)
+		static ::System::Boolean TryParseExact(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACT_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::TimeSpan ParseExactMultiple(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4)
@@ -89,79 +86,80 @@ namespace System::Globalization
 			return ((::System::TimeSpan(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTMULTIPLE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean TryParseExactMultiple(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan& a5)
+		static ::System::Boolean TryParseExactMultiple(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParseTimeSpan(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanParse_TimeSpanResult& a4)
+		static ::System::Boolean TryParseTimeSpan(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanParse_TimeSpanResult a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::IFormatProvider*, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPAN_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::IFormatProvider*, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPAN_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ProcessTerminalState(::System::Globalization::TimeSpanParse_TimeSpanRawInfo& a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
+		static ::System::Boolean ProcessTerminalState(::System::Globalization::TimeSpanParse_TimeSpanRawInfo a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo&, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINALSTATE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINALSTATE_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ProcessTerminal_DHMSF(::System::Globalization::TimeSpanParse_TimeSpanRawInfo& a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
+		static ::System::Boolean ProcessTerminal_DHMSF(::System::Globalization::TimeSpanParse_TimeSpanRawInfo a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo&, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_DHMSF_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_DHMSF_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ProcessTerminal_HMS_F_D(::System::Globalization::TimeSpanParse_TimeSpanRawInfo& a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
+		static ::System::Boolean ProcessTerminal_HMS_F_D(::System::Globalization::TimeSpanParse_TimeSpanRawInfo a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo&, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HMS_F_D_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HMS_F_D_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ProcessTerminal_HM_S_D(::System::Globalization::TimeSpanParse_TimeSpanRawInfo& a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
+		static ::System::Boolean ProcessTerminal_HM_S_D(::System::Globalization::TimeSpanParse_TimeSpanRawInfo a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo&, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_S_D_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_S_D_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ProcessTerminal_HM(::System::Globalization::TimeSpanParse_TimeSpanRawInfo& a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
+		static ::System::Boolean ProcessTerminal_HM(::System::Globalization::TimeSpanParse_TimeSpanRawInfo a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo&, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_HM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ProcessTerminal_D(::System::Globalization::TimeSpanParse_TimeSpanRawInfo& a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult& a3)
+		static ::System::Boolean ProcessTerminal_D(::System::Globalization::TimeSpanParse_TimeSpanRawInfo a1, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles a2, ::System::Globalization::TimeSpanParse_TimeSpanResult a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo&, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_D_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanRawInfo, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PROCESSTERMINAL_D_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryParseExactTimeSpan(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::Globalization::TimeSpanParse_TimeSpanResult& a5)
+		static ::System::Boolean TryParseExactTimeSpan(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::Globalization::TimeSpanParse_TimeSpanResult a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTTIMESPAN_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTTIMESPAN_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean TryParseByFormat(::System::String* a1, ::System::String* a2, ::System::Globalization::TimeSpanStyles a3, ::System::Globalization::TimeSpanParse_TimeSpanResult& a4)
+		static ::System::Boolean TryParseByFormat(::System::String* a1, ::System::String* a2, ::System::Globalization::TimeSpanStyles a3, ::System::Globalization::TimeSpanParse_TimeSpanResult a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::TimeSpanStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEBYFORMAT_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Globalization::TimeSpanStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEBYFORMAT_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean ParseExactDigits(::System::Globalization::TimeSpanParse_TimeSpanTokenizer& a1, ::System::Int32 a2, ::System::Int32& a3)
+		static ::System::Boolean ParseExactDigits(::System::Globalization::TimeSpanParse_TimeSpanTokenizer a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanTokenizer&, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanTokenizer, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean ParseExactDigits_1(::System::Globalization::TimeSpanParse_TimeSpanTokenizer& a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4, ::System::Int32& a5)
+		static ::System::Boolean ParseExactDigits_1(::System::Globalization::TimeSpanParse_TimeSpanTokenizer a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanTokenizer&, ::System::Int32, ::System::Int32, ::System::Int32&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_1_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanTokenizer, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTDIGITS_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean ParseExactLiteral(::System::Globalization::TimeSpanParse_TimeSpanTokenizer& a1, ::System::Text::StringBuilder* a2)
+		static ::System::Boolean ParseExactLiteral(::System::Globalization::TimeSpanParse_TimeSpanTokenizer a1, ::System::Text::StringBuilder* a2)
 		{
-			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanTokenizer&, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTLITERAL_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::Globalization::TimeSpanParse_TimeSpanTokenizer, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_PARSEEXACTLITERAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParseTimeSpanConstant(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanResult& a2)
+		static ::System::Boolean TryParseTimeSpanConstant(::System::String* a1, ::System::Globalization::TimeSpanParse_TimeSpanResult a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPANCONSTANT_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSETIMESPANCONSTANT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParseExactMultipleTimeSpan(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::Globalization::TimeSpanParse_TimeSpanResult& a5)
+		static ::System::Boolean TryParseExactMultipleTimeSpan(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::Globalization::TimeSpanParse_TimeSpanResult a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLETIMESPAN_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::Globalization::TimeSpanParse_TimeSpanResult))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TRYPARSEEXACTMULTIPLETIMESPAN_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

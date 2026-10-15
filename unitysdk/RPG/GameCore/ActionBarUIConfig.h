@@ -2,31 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ActionBarCustomUIStyle.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActionBarUIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONBARUICONFIG_METHOD_2_5A4A19043813488A_OFFSET UNITYSDK_OFFSET(0x1CD6F840)
-#define RPG_GAMECORE_ACTIONBARUICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6F950)
+#define RPG_GAMECORE_ACTIONBARUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D343D30)
+#define RPG_GAMECORE_ACTIONBARUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D343C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarUIConfig_TypeDefinitionIndex = 22412;
-
 	class ActionBarUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::ActionBarCustomUIStyle CustomUIStyle; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* HeadIconPath; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARUICONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARUICONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5A4A19043813488A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionBarUIConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActionBarUIConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionBarUIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARUICONFIG_METHOD_2_5A4A19043813488A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActionBarUIConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONBARUICONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

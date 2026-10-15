@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformScreenAdapter_ScreenAdaptionTarget_TypeDefinitionIndex = 70308;
-
 	enum class TransformScreenAdapter_ScreenAdaptionTarget : ::System::Int32
 	{
 		None = 0,

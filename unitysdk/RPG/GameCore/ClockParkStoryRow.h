@@ -2,34 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClockParkStoryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFE9460)
-#define RPG_GAMECORE_CLOCKPARKSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE9BC0)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C57F0)
+#define RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C5090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryRow_TypeDefinitionIndex = 11162;
-
 	class ClockParkStoryRow : public ::System::Object
 	{
 	public:
-		::System::String* StoryJsonPath; // 0x10
-		::System::String* ImgPath; // 0x18
+		::System::String* ImgPath; // 0x10
+		::System::String* StoryJsonPath; // 0x18
 		::System::UInt32 StoryID; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID StoryDesc; // 0x28
 		::RPG::Client::TextID StoryTitle; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStoryRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClockParkStoryRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStoryRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClockParkStoryRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,64 +1,64 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class AggregateException; }
 namespace System { class EventArgs; }
 namespace System { class EventHandler; }
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_ADDFAULTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1BC4FF20)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_ADD_OFFSET UNITYSDK_OFFSET(0x1BC46CB0)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_APPDOMAINUNLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC4F420)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_CREATEEXCEPTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1BC46D90)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_ENSUREADUNLOADCALLBACKREGISTERED_OFFSET UNITYSDK_OFFSET(0x1BC4F220)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1BC4F480)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_GETCANCELLATIONEXCEPTIONDISPATCHINFO_OFFSET UNITYSDK_OFFSET(0x1BC50AD0)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_GETEXCEPTIONDISPATCHINFOS_OFFSET UNITYSDK_OFFSET(0x1BC47160)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_GET_CONTAINSFAULTLIST_OFFSET UNITYSDK_OFFSET(0x1BC461E0)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_MARKASHANDLED_OFFSET UNITYSDK_OFFSET(0x1BC46930)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_MARKASUNHANDLED_OFFSET UNITYSDK_OFFSET(0x1BC50A20)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_SETCANCELLATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1BC4FE20)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_SHOULDFAILFASTONUNOBSERVEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1BC4F410)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC50AE0)
-#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC46C50)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_ADDFAULTEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C15C060)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_ADD_OFFSET UNITYSDK_OFFSET(0x1C152E10)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_APPDOMAINUNLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C15B560)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C15CC20)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_CREATEEXCEPTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1C152EF0)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C152DB0)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_ENSUREADUNLOADCALLBACKREGISTERED_OFFSET UNITYSDK_OFFSET(0x1C15B360)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C15B5C0)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_GETCANCELLATIONEXCEPTIONDISPATCHINFO_OFFSET UNITYSDK_OFFSET(0x1C15CC10)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_GETEXCEPTIONDISPATCHINFOS_OFFSET UNITYSDK_OFFSET(0x1C1532C0)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_GET_CONTAINSFAULTLIST_OFFSET UNITYSDK_OFFSET(0x1C152340)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_MARKASHANDLED_OFFSET UNITYSDK_OFFSET(0x1C152A90)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_MARKASUNHANDLED_OFFSET UNITYSDK_OFFSET(0x1C15CB60)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_SETCANCELLATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C15BF60)
+#define SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_SHOULDFAILFASTONUNOBSERVEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C15B550)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskExceptionHolder_TypeDefinitionIndex = 927;
-
 	class TaskExceptionHolder : public ::System::Object
 	{
 	public:
+		::System::Threading::Tasks::Task* m_task; // 0x10
+		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_cancellationException; // 0x18
+		::System::Collections::Generic::List_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* m_faultExceptions; // 0x20
+		::System::Boolean m_isHandled; // 0x28
 		static ::System::EventHandler** StaticGet_s_adUnloadEventHandler()
 		{
-			return (::System::EventHandler**)Il2CppClass::FromTypeDefinitionIndex(TaskExceptionHolder_TypeDefinitionIndex)->GetStaticField(0x13A50);
+			return (::System::EventHandler**)UnitySDK::FromName("System.Threading.Tasks", "TaskExceptionHolder")->GetStaticField(0x20B60);
 		}
-		static ::System::Boolean* StaticGet_s_domainUnloadStarted()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TaskExceptionHolder_TypeDefinitionIndex)->GetStaticField(0x7E40);
-		}
+
 		static ::System::Boolean* StaticGet_s_failFastOnUnobservedException()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TaskExceptionHolder_TypeDefinitionIndex)->GetStaticField(0x7E41);
+			return (::System::Boolean*)UnitySDK::FromName("System.Threading.Tasks", "TaskExceptionHolder")->GetStaticField(0x76F0);
 		}
-		::System::Threading::Tasks::Task* m_task; // 0x10
-		::System::Collections::Generic::List_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* m_faultExceptions; // 0x18
-		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_cancellationException; // 0x20
-		::System::Boolean m_isHandled; // 0x28
+
+		static ::System::Boolean* StaticGet_s_domainUnloadStarted()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System.Threading.Tasks", "TaskExceptionHolder")->GetStaticField(0x76F1);
+		}
 
 		::System::Void _ctor(::System::Threading::Tasks::Task* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean ShouldFailFastOnUnobservedException()
@@ -125,5 +125,6 @@ namespace System::Threading::Tasks
 		{
 			return ((::System::Runtime::ExceptionServices::ExceptionDispatchInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKEXCEPTIONHOLDER_GETCANCELLATIONEXCEPTIONDISPATCHINFO_OFFSET))(this);
 		}
+
 	};
 }

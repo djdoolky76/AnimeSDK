@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x164E7830)
-#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x164E78C0)
-#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x164E7810)
-#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x164E77A0)
+#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1670E450)
+#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1670E3C0)
+#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1670E4E0)
+#define CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1670E430)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAudioReadStream_InternalDelegate_TypeDefinitionIndex = 38791;
-
 	class CriAudioReadStream_InternalDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::IntPtr a1, ::System::IntPtr a2, ::System::UInt32 a3)
@@ -37,5 +34,6 @@ namespace CriWare
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOREADSTREAM_INTERNALDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

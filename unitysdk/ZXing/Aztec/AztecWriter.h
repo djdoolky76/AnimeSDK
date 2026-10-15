@@ -3,39 +3,37 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
 #include "unitysdk/ZXing/EncodeHintType.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Text { class Encoding; }
 namespace ZXing::Aztec::Internal { class AztecCode; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_AZTEC_AZTECWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1EFD3000)
-#define ZXING_AZTEC_AZTECWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EFD2850)
-#define ZXING_AZTEC_AZTECWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1EFD4300)
-#define ZXING_AZTEC_AZTECWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD27A0)
-#define ZXING_AZTEC_AZTECWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD4770)
+#define ZXING_AZTEC_AZTECWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F69ACE0)
+#define ZXING_AZTEC_AZTECWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F69CD10)
+#define ZXING_AZTEC_AZTECWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F69B5A0)
+#define ZXING_AZTEC_AZTECWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F69ADC0)
+#define ZXING_AZTEC_AZTECWRITER_RENDERRESULT_OFFSET UNITYSDK_OFFSET(0x1F69C8A0)
 
 namespace ZXing::Aztec
 {
-	inline static constexpr unsigned int AztecWriter_TypeDefinitionIndex = 7030;
-
 	class AztecWriter : public ::System::Object
 	{
 	public:
 		static ::System::Text::Encoding** StaticGet_DEFAULT_CHARSET()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(AztecWriter_TypeDefinitionIndex)->GetStaticField(0x258D0);
+			return (::System::Text::Encoding**)UnitySDK::FromName("ZXing.Aztec", "AztecWriter")->GetStaticField(0x210B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_AZTEC_AZTECWRITER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_AZTEC_AZTECWRITER_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_AZTEC_AZTECWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_AZTEC_AZTECWRITER_CTOR_OFFSET))(this);
 		}
 
 		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
@@ -52,5 +50,6 @@ namespace ZXing::Aztec
 		{
 			return ((::ZXing::Common::BitMatrix*(*)(::ZXing::Aztec::Internal::AztecCode*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_AZTEC_AZTECWRITER_RENDERRESULT_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

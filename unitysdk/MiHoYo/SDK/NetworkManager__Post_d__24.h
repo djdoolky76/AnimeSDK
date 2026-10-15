@@ -1,45 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_KeyCollection_Enumerator.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class NetworkManager; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B9B4A60)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9B4E70)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9B4ED0)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B9B4E80)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B9B4A50)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9ADF60)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEADF20)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BEB49D0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB4DE0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB4E40)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BEB4DF0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BEB49C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Post_d__24_TypeDefinitionIndex = 8104;
-
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24>
 	class NetworkManager__Post_d__24 : public ::System::Object
 	{
 	public:
-		::System::String* requestUrl; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::Action* timeoutCallback; // 0x20
-		::System::String* _key_5__3; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0x30
-		::System::Action_1<::System::String*>* callback; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x40
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x48
-		::System::String* bodyString; // 0x50
-		::System::Collections::Generic::Dictionary_2_KeyCollection_Enumerator<::System::String*, ::System::String*> __s__2; // 0x58
-		::System::Single timeoutSecond; // 0x70
+		::System::String* _key_5__3; // 0x10
+		::System::Action* callback; // 0x18
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x20
+		::System::Object* __s__2; // 0x28
+		::System::Byte _padding0[0x10];
+		::System::Action* timeoutCallback; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* extHeaders; // 0x48
+		::System::String* requestUrl; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _newHeaders_5__1; // 0x58
+		::System::String* bodyString; // 0x60
+		::System::Object* __2__current; // 0x68
+		::System::Int32 retryTime; // 0x70
 		::System::Int32 __1__state; // 0x74
-		::System::Int32 retryTime; // 0x78
-
+		::System::Single timeoutSecond; // 0x78
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER__POST_D__24__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER__POST_D__24_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -66,5 +63,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER__POST_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

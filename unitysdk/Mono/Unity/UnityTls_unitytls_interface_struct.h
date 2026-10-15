@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Unity/UnityTls_unitytls_tlsctx_protocolrange.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_errorstate_create_t; }
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_errorstate_raise_error_t; }
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_key_free_t; }
@@ -34,12 +33,10 @@ namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_x509li
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_x509verify_default_ca_t; }
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_x509verify_explicit_ca_t; }
 
-#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E905970)
+#define MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCE830)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_TypeDefinitionIndex = 2370;
-
 	class UnityTls_unitytls_interface_struct : public ::System::Object
 	{
 	public:
@@ -76,10 +73,10 @@ namespace Mono::Unity
 		::Mono::Unity::UnityTls_unitytls_interface_struct_unitytls_tlsctx_notify_close_t* unitytls_tlsctx_notify_close; // 0x100
 		::Mono::Unity::UnityTls_unitytls_interface_struct_unitytls_tlsctx_free_t* unitytls_tlsctx_free; // 0x108
 		::Mono::Unity::UnityTls_unitytls_interface_struct_unitytls_random_generate_bytes_t* unitytls_random_generate_bytes; // 0x110
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_UNITY_UNITYTLS_UNITYTLS_INTERFACE_STRUCT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

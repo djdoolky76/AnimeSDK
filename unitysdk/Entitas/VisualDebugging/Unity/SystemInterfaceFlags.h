@@ -3,8 +3,6 @@
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int SystemInterfaceFlags_TypeDefinitionIndex = 10004;
-
 	enum class SystemInterfaceFlags : ::System::Int32
 	{
 		None = 0,

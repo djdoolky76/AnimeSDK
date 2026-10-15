@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChenLingBattleLaserSplitConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
+namespace RPG::GameCore { class ChenLingBattleLaserSplitWithTargetConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_METHOD_3_2846239C202E8DA4_OFFSET UNITYSDK_OFFSET(0x1CFAB3F0)
-#define RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_METHOD_3_9401E0EE7F1D86D1_OFFSET UNITYSDK_OFFSET(0x1CFAB6D0)
-#define RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAB3E0)
+#define RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5866A0)
+#define RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5866B0)
+#define RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D586A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleLaserSplitWithTargetConfig_TypeDefinitionIndex = 15570;
-
 	class ChenLingBattleLaserSplitWithTargetConfig : public ::RPG::GameCore::ChenLingBattleLaserSplitConfig
 	{
 	public:
 		::RPG::GameCore::BaseChenLingBattleTargetEvaluator* SplitTargets; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9401E0EE7F1D86D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_METHOD_3_9401E0EE7F1D86D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2846239C202E8DA4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_METHOD_3_2846239C202E8DA4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleLaserSplitWithTargetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLELASERSPLITWITHTARGETCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

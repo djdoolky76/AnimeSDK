@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RTHandleProperties_TypeDefinitionIndex = 34914;
-
 	struct alignas(4) RTHandleProperties
 	{
 		::UnityEngine::Vector2Int previousViewportSize; // 0x10

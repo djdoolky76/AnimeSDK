@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class H5logFilterConfig; }
 namespace MiHoYo::SDK { class HttpDnsBoxConfig; }
 namespace MiHoYo::SDK { class HttpDnsPlusBoxConfig; }
@@ -20,13 +19,11 @@ namespace MiHoYo::SDK { class WebViewRenderMethodBoxConfig; }
 namespace MiHoYo::SDK { class WebViewReportBoxConfig; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x1B740F30)
-#define MIHOYO_SDK_BOXMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73DA10)
+#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x1BC3F560)
+#define MIHOYO_SDK_BOXMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3C040)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 7885;
-
 	class BoxModel : public ::System::Object
 	{
 	public:
@@ -36,16 +33,19 @@ namespace MiHoYo::SDK
 		::System::Boolean noticePreloadDisable; // 0x16
 		::System::Boolean kcpEnable; // 0x17
 		::System::Boolean modifyRealNameOtherVerify; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* pay_payco_centered_host; // 0x20
 		::MiHoYo::SDK::KibanaNetBoxConfig* network_report_config; // 0x28
 		::MiHoYo::SDK::KibanaPCBoxConfig* kibana_pc_config; // 0x30
 		::MiHoYo::SDK::H5logFilterConfig* h5log_filter_config; // 0x38
 		::System::Boolean webviewTrackEnable; // 0x40
 		::System::Boolean enablelistPriceTierV2; // 0x41
+		::System::Byte _padding1[0x6];
 		::System::String* defaultOSPayDialogType; // 0x48
 		::MiHoYo::SDK::PaymentCNBoxConfig* payment_cn_config; // 0x50
 		::MiHoYo::SDK::TelemetryBoxConfig* telemetry_config; // 0x58
 		::System::Boolean enable_web_dpi; // 0x60
+		::System::Byte _padding2[0x7];
 		::MiHoYo::SDK::HttpDnsBoxConfig* httpdns_config; // 0x68
 		::MiHoYo::SDK::HttpDnsPlusBoxConfig* httpdns_plus_config; // 0x70
 		::System::String* hoyoplay_auth_login_ignore; // 0x78
@@ -56,9 +56,11 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::WebViewRenderMethodBoxConfig* webview_rendermethod_config; // 0x98
 		::System::String* webview_async_init; // 0xA0
 		::System::Boolean enable_webview_joypad; // 0xA8
+		::System::Byte _padding3[0x7];
 		::MiHoYo::SDK::LoginFlowNotificationBoxConfig* login_flow_notification; // 0xB0
 		::System::Boolean enable_register_autologin; // 0xB8
 		::System::Boolean enable_logout_ann_redpoint; // 0xB9
+		::System::Byte _padding4[0x6];
 		::MiHoYo::SDK::LoginRecordBoxConfig* login_record_config; // 0xC0
 		::System::Int32 launch_user_agreement_timeout; // 0xC8
 		::System::Int32 console_collectionsid_timeout; // 0xCC
@@ -67,22 +69,25 @@ namespace MiHoYo::SDK
 		::System::Boolean webview_module_fallback; // 0xDC
 		::System::Boolean enable_spint_prodqa_realname; // 0xDD
 		::System::Boolean webview_enable_delegate_esc; // 0xDE
+		::System::Byte _padding5[0x1];
 		::MiHoYo::SDK::PS4BindMobileConfig* ps4_bind_mobile_config; // 0xE0
 		::System::Boolean domain_region_enable; // 0xE8
+		::System::Byte _padding6[0x7];
 		::MiHoYo::SDK::NoticeNativeTaskConfig* notice_native_task_config; // 0xF0
 		::MiHoYo::SDK::ProtocolNativeTaskConfig* protocol_native_task_config; // 0xF8
 		::System::Boolean enable_separate_render_method; // 0x100
+		::System::Byte _padding7[0x7];
 		::System::String* vox_asr_config; // 0x108
 		::System::Boolean disable_device_limit; // 0x110
-
 		::System::Void _ctor(::MiHoYo::SDK::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BOXMODEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BOXMODEL_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Boolean CheckDivisorEnable(::System::Int32 a1)
 		{
 			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET))(a1);
 		}
+
 	};
 }

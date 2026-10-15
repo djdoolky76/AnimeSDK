@@ -3,27 +3,23 @@
 #include "unitysdk/System/Diagnostics/TraceEventType.h"
 #include "unitysdk/System/Diagnostics/TraceLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GETTRACEEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1BED2FD0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x1BED2FC0)
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_TRACE_OFFSET UNITYSDK_OFFSET(0x1BED3040)
-#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BED38D0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3DFCB0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GETTRACEEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1C3DF3B0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_GET_LEVELFILTER_OFFSET UNITYSDK_OFFSET(0x1C3DF3A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_TRACE_OFFSET UNITYSDK_OFFSET(0x1C3DF420)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DiagnosticsTraceWriter_TypeDefinitionIndex = 9630;
-
 	class DiagnosticsTraceWriter : public ::System::Object
 	{
 	public:
 		::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_CTOR_OFFSET))(this);
 		}
 
 		::System::Diagnostics::TraceLevel get_LevelFilter()
@@ -40,5 +36,6 @@ namespace Newtonsoft::Json::Serialization
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::TraceLevel, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_SERIALIZATION_DIAGNOSTICSTRACEWRITER_TRACE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

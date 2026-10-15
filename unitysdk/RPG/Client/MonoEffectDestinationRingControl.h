@@ -2,17 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD7652F0)
-#define RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD765680)
-#define RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD765A60)
+#define RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD7A6E30)
+#define RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD7A66C0)
+#define RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7A6A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectDestinationRingControl_TypeDefinitionIndex = 70696;
-
 	class MonoEffectDestinationRingControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -28,10 +25,9 @@ namespace RPG::Client
 		::System::Int32 EAECHKICCII; // 0x4C
 		::System::Single CIGENIIEMHD; // 0x50
 		::System::Int32 MNDGEILLLPL; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -43,5 +39,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTDESTINATIONRINGCONTROL_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

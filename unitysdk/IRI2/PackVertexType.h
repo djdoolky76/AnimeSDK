@@ -1,56 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
+namespace System { class Object; }
 
-#define IRI2_PACKVERTEXTYPE_METHOD_2_527DACE32CCDF759_OFFSET UNITYSDK_OFFSET(0x2DF5FF0)
-#define IRI2_PACKVERTEXTYPE_METHOD_2_62D3B1E102826B2F_OFFSET UNITYSDK_OFFSET(0x2DF6040)
-#define IRI2_PACKVERTEXTYPE_METHOD_2_85F1C287C26954B0_OFFSET UNITYSDK_OFFSET(0x2DF6060)
-#define IRI2_PACKVERTEXTYPE_METHOD_2_C68F979EE51FFD36_1_OFFSET UNITYSDK_OFFSET(0x161B0170)
-#define IRI2_PACKVERTEXTYPE_METHOD_2_C68F979EE51FFD36_OFFSET UNITYSDK_OFFSET(0x161B0160)
-#define IRI2_PACKVERTEXTYPE_METHOD_2_C74CF020AA42ED85_OFFSET UNITYSDK_OFFSET(0x161AFF60)
+#define IRI2_PACKVERTEXTYPE_AHPLJNOCMFN_OFFSET UNITYSDK_OFFSET(0x16527EB0)
+#define IRI2_PACKVERTEXTYPE_EPHPLJDKAPE_OFFSET UNITYSDK_OFFSET(0x2E842F0)
+#define IRI2_PACKVERTEXTYPE_FELJOCJOOHJ_1_OFFSET UNITYSDK_OFFSET(0x165280C0)
+#define IRI2_PACKVERTEXTYPE_FELJOCJOOHJ_OFFSET UNITYSDK_OFFSET(0x165280B0)
+#define IRI2_PACKVERTEXTYPE_NGFADEFHPAH_1_OFFSET UNITYSDK_OFFSET(0x2E842D0)
+#define IRI2_PACKVERTEXTYPE_NGFADEFHPAH_OFFSET UNITYSDK_OFFSET(0x2E84280)
 
 namespace IRI2
 {
-	inline static constexpr unsigned int PackVertexType_TypeDefinitionIndex = 50087;
-
 	struct alignas(4) PackVertexType
 	{
 		::UnityEngine::Vector3 Position; // 0x10
 		::System::UInt32 PackUV; // 0x1C
 		::UnityEngine::Vector4 Tangent; // 0x20
-
-		::System::Void Method_2_527DACE32CCDF759(::Il2CppArray<::UnityEngine::Vector4>* a1, ::System::Int32 a2)
+		::System::Void NGFADEFHPAH(::Il2CppArray<::UnityEngine::Vector4>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*, ::System::Int32))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_METHOD_2_527DACE32CCDF759_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*, ::System::Int32))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_NGFADEFHPAH_OFFSET))(this, a1, a2);
 		}
 
-		/*
-		::System::Void Method_2_62D3B1E102826B2F(::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>& a1, ::System::Int32 a2)
+		::System::Void NGFADEFHPAH_1(::System::Object* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>&, ::System::Int32))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_METHOD_2_62D3B1E102826B2F_OFFSET))(this, a1, a2);
-		}
-		*/
-
-		::System::Void Method_2_85F1C287C26954B0(::Il2CppArray<::UnityEngine::Vector4>* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_METHOD_2_85F1C287C26954B0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_NGFADEFHPAH_1_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Int32 Method_2_C74CF020AA42ED85()
+		::System::Void EPHPLJDKAPE(::Il2CppArray<::UnityEngine::Vector4>* a1)
 		{
-			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_METHOD_2_C74CF020AA42ED85_OFFSET))();
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector4>*))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_EPHPLJDKAPE_OFFSET))(this, a1);
 		}
 
-		static ::System::Single Method_2_C68F979EE51FFD36(::System::UInt32 a1)
+		static ::System::Int32 AHPLJNOCMFN()
 		{
-			return ((::System::Single(*)(::System::UInt32))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_METHOD_2_C68F979EE51FFD36_OFFSET))(a1);
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_AHPLJNOCMFN_OFFSET))();
 		}
 
-		static ::System::UInt32 Method_2_C68F979EE51FFD36_1(::System::Single a1)
+		static ::System::Single FELJOCJOOHJ(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::System::Single))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_METHOD_2_C68F979EE51FFD36_1_OFFSET))(a1);
+			return ((::System::Single(*)(::System::UInt32))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_FELJOCJOOHJ_OFFSET))(a1);
 		}
+
+		static ::System::UInt32 FELJOCJOOHJ_1(::System::Single a1)
+		{
+			return ((::System::UInt32(*)(::System::Single))((::PBYTE)hIl2Cpp + IRI2_PACKVERTEXTYPE_FELJOCJOOHJ_1_OFFSET))(a1);
+		}
+
 	};
 }

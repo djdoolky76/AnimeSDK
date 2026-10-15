@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/WolfBroGunPlayTargetActionConfig.h"
-
-class Class_1_482F3423DE650EAD;
+class JNKPPLPLFOM;
+namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_METHOD_2_47FCE72550F759BF_OFFSET UNITYSDK_OFFSET(0xE42DDA0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE__CTOR_OFFSET UNITYSDK_OFFSET(0xE42DE20)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_CTOR_OFFSET UNITYSDK_OFFSET(0xE475BB0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE475B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Die_TypeDefinitionIndex = 68677;
-
 	class WolfBroGunPlayTargetActionConfig_Die : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{
 	public:
 		::System::Boolean addScore; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* overrideAnim; // 0x20
 		::System::String* overrideFlipAnim; // 0x28
 		::Il2CppArray<::RPG::Client::WolfBroGunPlayTargetActionConfig*>* dieActions; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_CTOR_OFFSET))(this);
 		}
 
-		::Class_1_482F3423DE650EAD* Method_2_47FCE72550F759BF()
+		::JNKPPLPLFOM* EINKGFCBAJI()
 		{
-			return ((::Class_1_482F3423DE650EAD*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_METHOD_2_47FCE72550F759BF_OFFSET))(this);
+			return ((::JNKPPLPLFOM*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_DIE_EINKGFCBAJI_OFFSET))(this);
 		}
+
 	};
 }

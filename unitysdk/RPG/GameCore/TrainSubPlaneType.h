@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainSubPlaneType_TypeDefinitionIndex = 13936;
-
 	enum class TrainSubPlaneType : ::System::Int32
 	{
 		Unknown = 0,

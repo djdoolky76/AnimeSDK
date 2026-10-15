@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DelayNotifyTiming_TypeDefinitionIndex = 62279;
-
 	enum class DelayNotifyTiming : ::System::Int32
 	{
 		AdvEntered = 0,

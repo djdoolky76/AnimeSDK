@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 
-#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE281640)
-#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0__TRANSFERTOPLAYERROOM_B__0_OFFSET UNITYSDK_OFFSET(0xE282070)
-#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0__TRANSFERTOPLAYERROOM_B__1_OFFSET UNITYSDK_OFFSET(0xE282330)
+#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE307420)
+#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0__TRANSFERTOPLAYERROOM_B__0_OFFSET UNITYSDK_OFFSET(0xE307E60)
+#define RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0__TRANSFERTOPLAYERROOM_B__1_OFFSET UNITYSDK_OFFSET(0xE308120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyUtils___c__DisplayClass27_0_TypeDefinitionIndex = 68165;
-
 	class TrainPartyUtils___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
 		::System::Action* __9__1; // 0x10
 		::System::UInt32 subAreaID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _TransferToPlayerRoom_b__0()
@@ -32,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTYUTILS___C__DISPLAYCLASS27_0__TRANSFERTOPLAYERROOM_B__1_OFFSET))(this);
 		}
+
 	};
 }

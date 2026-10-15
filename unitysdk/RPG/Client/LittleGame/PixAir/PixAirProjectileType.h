@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirProjectileType_TypeDefinitionIndex = 42049;
-
 	enum class PixAirProjectileType : ::System::Int32
 	{
 		Invalid = 0,

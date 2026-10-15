@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class GridFightTraitRemarkLineEffectBase; }
 namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTFACTORY_CREATEEFFECT_OFFSET UNITYSDK_OFFSET(0xD366950)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTFACTORY_CREATEEFFECT_OFFSET UNITYSDK_OFFSET(0xD2BF7B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEffectFactory_TypeDefinitionIndex = 65534;
-
 	class GridFightTraitRemarkLineEffectFactory : public ::System::Object
 	{
 	public:
@@ -19,5 +16,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::GridFightTraitRemarkLineEffectBase*(*)(::RPG::Client::GridFightTrait*, ::RPG::GameCore::GridFightTraitRemarkRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEFFECTFACTORY_CREATEEFFECT_OFFSET))(a1, a2);
 		}
+
 	};
 }

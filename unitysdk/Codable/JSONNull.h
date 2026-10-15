@@ -2,51 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Codable/JSONNode.h"
 #include "unitysdk/Codable/JSONNodeType.h"
-#include "unitysdk/Codable/JSONNode_Enumerator.h"
 #include "unitysdk/Codable/JSONTextMode.h"
-
+#include "unitysdk/Codable/JSONNode_Enumerator.h"
+namespace Codable { class JSONNull; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define CODABLE_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0xB1055D0)
-#define CODABLE_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0xB10B8E0)
-#define CODABLE_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xB10B880)
-#define CODABLE_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB10B960)
-#define CODABLE_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xB10B8C0)
-#define CODABLE_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0xB10B870)
-#define CODABLE_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0xB10B860)
-#define CODABLE_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB10B8A0)
-#define CODABLE_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xB10B8D0)
-#define CODABLE_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB10B8B0)
-#define CODABLE_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0xB10B970)
-#define CODABLE_JSONNULL__CCTOR_OFFSET UNITYSDK_OFFSET(0xB10B9A0)
-#define CODABLE_JSONNULL__CTOR_OFFSET UNITYSDK_OFFSET(0xB10B850)
+#define CODABLE_JSONNULL_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF159A0)
+#define CODABLE_JSONNULL_CREATEORGET_OFFSET UNITYSDK_OFFSET(0xAF0F5D0)
+#define CODABLE_JSONNULL_CTOR_OFFSET UNITYSDK_OFFSET(0xAF15850)
+#define CODABLE_JSONNULL_EQUALS_OFFSET UNITYSDK_OFFSET(0xAF158E0)
+#define CODABLE_JSONNULL_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xAF15880)
+#define CODABLE_JSONNULL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xAF15960)
+#define CODABLE_JSONNULL_GET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xAF158C0)
+#define CODABLE_JSONNULL_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0xAF15870)
+#define CODABLE_JSONNULL_GET_TAG_OFFSET UNITYSDK_OFFSET(0xAF15860)
+#define CODABLE_JSONNULL_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xAF158A0)
+#define CODABLE_JSONNULL_SET_ASBOOL_OFFSET UNITYSDK_OFFSET(0xAF158D0)
+#define CODABLE_JSONNULL_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xAF158B0)
+#define CODABLE_JSONNULL_WRITETOSTRINGBUILDER_OFFSET UNITYSDK_OFFSET(0xAF15970)
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNull_TypeDefinitionIndex = 46532;
-
 	class JSONNull : public ::Codable::JSONNode
 	{
 	public:
 		static ::Codable::JSONNull** StaticGet_m_StaticInstance()
 		{
-			return (::Codable::JSONNull**)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0x1F960);
+			return (::Codable::JSONNull**)UnitySDK::FromName("Codable", "JSONNull")->GetStaticField(0x18DB0);
 		}
+
 		static ::System::Boolean* StaticGet_reuseSameInstance()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(JSONNull_TypeDefinitionIndex)->GetStaticField(0xA700);
+			return (::System::Boolean*)UnitySDK::FromName("Codable", "JSONNull")->GetStaticField(0x5B70);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CODABLE_JSONNULL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_CCTOR_OFFSET))();
 		}
 
 		static ::Codable::JSONNull* CreateOrGet()
@@ -103,5 +102,6 @@ namespace Codable
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Text::StringBuilder*, ::System::Int32, ::System::Int32, ::Codable::JSONTextMode))((::PBYTE)hIl2Cpp + CODABLE_JSONNULL_WRITETOSTRINGBUILDER_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

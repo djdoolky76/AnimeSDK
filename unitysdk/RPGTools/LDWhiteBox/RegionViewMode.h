@@ -3,8 +3,6 @@
 
 namespace RPGTools::LDWhiteBox
 {
-	inline static constexpr unsigned int RegionViewMode_TypeDefinitionIndex = 49386;
-
 	enum class RegionViewMode : ::System::Int32
 	{
 		Refine = 0,

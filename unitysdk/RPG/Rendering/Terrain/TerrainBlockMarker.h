@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Rendering::Terrain { class TerrainGridData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_COLLECTBLOCKAUTOTAGS_OFFSET UNITYSDK_OFFSET(0xE7E9130)
-#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_GET_TERRAINGRIDDATA_OFFSET UNITYSDK_OFFSET(0xE7E9210)
-#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xE7E9220)
+#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_COLLECTBLOCKAUTOTAGS_OFFSET UNITYSDK_OFFSET(0xE884390)
+#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xE884480)
+#define RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_GET_TERRAINGRIDDATA_OFFSET UNITYSDK_OFFSET(0xE884470)
 
 namespace RPG::Rendering::Terrain
 {
-	inline static constexpr unsigned int TerrainBlockMarker_TypeDefinitionIndex = 52092;
-
 	class TerrainBlockMarker : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Rendering::Terrain::TerrainGridData* terrainGridData; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CollectBlockAutoTags(::System::Collections::Generic::List_1<::System::String*>* a1)
@@ -33,5 +29,6 @@ namespace RPG::Rendering::Terrain
 		{
 			return ((::RPG::Rendering::Terrain::TerrainGridData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_TERRAIN_TERRAINBLOCKMARKER_GET_TERRAINGRIDDATA_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WarmupSubpass_TypeDefinitionIndex = 4378;
-
 	struct alignas(8) WarmupSubpass
 	{
 		::Il2CppArray<::System::Int32>* inputAttachments; // 0x10

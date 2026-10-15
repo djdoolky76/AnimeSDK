@@ -2,28 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE0ABFC0)
-#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE0AC060)
-#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE0AC1E0)
+#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE0EA130)
+#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE0EA350)
+#define RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE0EA1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkyboxFloorRotationAdapter_TypeDefinitionIndex = 72909;
-
 	class SkyboxFloorRotationAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean UseUI3DCamera; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* _CameraTrans; // 0x20
 		::UnityEngine::Vector3 AFMHBENIEPG; // 0x28
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* LKKDLDOCCFG; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -35,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SKYBOXFLOORROTATIONADAPTER_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

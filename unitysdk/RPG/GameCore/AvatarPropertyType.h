@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyType_TypeDefinitionIndex = 10437;
-
 	enum class AvatarPropertyType : ::System::Int32
 	{
 		Unknown = 0,

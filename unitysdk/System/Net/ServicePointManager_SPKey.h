@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class Uri; }
 
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E9B2040)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E9B1FC0)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GET_USESPROXY_OFFSET UNITYSDK_OFFSET(0x1E9B1F90)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B1960)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07A110)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F07A7C0)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F07A740)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GET_USESPROXY_OFFSET UNITYSDK_OFFSET(0x1F07A710)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ServicePointManager_SPKey_TypeDefinitionIndex = 2875;
-
 	class ServicePointManager_SPKey : public ::System::Object
 	{
 	public:
 		::System::Uri* uri; // 0x10
 		::System::Uri* proxy; // 0x18
 		::System::Boolean use_connect; // 0x20
-
 		::System::Void _ctor(::System::Uri* a1, ::System::Uri* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Uri*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Uri*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_UsesProxy()
@@ -39,5 +36,6 @@ namespace System::Net
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_EQUALS_OFFSET))(this, a1);
 		}
+
 	};
 }

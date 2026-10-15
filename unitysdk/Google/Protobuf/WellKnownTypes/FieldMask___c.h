@@ -1,40 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf::WellKnownTypes { class FieldMask; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3ABED0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3ABF10)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__27_0_OFFSET UNITYSDK_OFFSET(0x1B3ABF20)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1B3AC020)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8ADD20)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8ADD60)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__27_0_OFFSET UNITYSDK_OFFSET(0x1B8ADD70)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1B8ADE70)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 5418;
-
 	class FieldMask___c : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::WellKnownTypes::FieldMask___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Google::Protobuf::WellKnownTypes::FieldMask___c**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0x16920);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x1A640);
 		}
+
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FieldMask___c_TypeDefinitionIndex)->GetStaticField(0x16928);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x1A648);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _ToJson_b__27_0(::System::String* a1)
@@ -46,5 +45,6 @@ namespace Google::Protobuf::WellKnownTypes
 		{
 			return ((::Google::Protobuf::WellKnownTypes::FieldMask*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__45_0_OFFSET))(this);
 		}
+
 	};
 }

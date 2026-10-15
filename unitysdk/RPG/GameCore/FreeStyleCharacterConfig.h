@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FreeStyleCharacterConfig; }
 namespace RPG::GameCore { class FreeStyleCharacterExtendLayerConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_895F216600126C59_OFFSET UNITYSDK_OFFSET(0x1D119CB0)
-#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D119F50)
+#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F3BE0)
+#define RPG_GAMECORE_FREESTYLECHARACTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F3940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterConfig_TypeDefinitionIndex = 16137;
-
 	class FreeStyleCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -22,16 +20,17 @@ namespace RPG::GameCore
 		::System::String* FreeStyleStateConfigPath; // 0x28
 		::System::String* FreeStyleGraphConfigPath; // 0x30
 		::System::UInt32 FreeStyleStandByMotionID; // 0x38
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::FreeStyleCharacterExtendLayerConfig*>* ExtendLayerConfigs; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_895F216600126C59(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FreeStyleCharacterConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FreeStyleCharacterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FreeStyleCharacterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERCONFIG_METHOD_2_895F216600126C59_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FreeStyleCharacterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FREESTYLECHARACTERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

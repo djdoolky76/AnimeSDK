@@ -3,8 +3,6 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPMode_TypeDefinitionIndex = 75666;
-
 	enum class DiceCombatPVPMode : ::System::Int32
 	{
 		FreeMatch = 1,

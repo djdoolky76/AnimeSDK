@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureMinimap_SectionAnimInstance_TypeDefinitionIndex = 69031;
-
 	struct alignas(4) UIAdventureMinimap_SectionAnimInstance
 	{
 		::System::Single LifeTime; // 0x10

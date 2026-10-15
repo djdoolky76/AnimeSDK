@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace SRDebugger::Services { class IConsoleService; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E6784A0)
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E6784D0)
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E678490)
-#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6783A0)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED403A0)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED402A0)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED403D0)
+#define SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED40390)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ConsoleUpdatedEventHandler_TypeDefinitionIndex = 37361;
-
 	class ConsoleUpdatedEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::SRDebugger::Services::IConsoleService* a1)
@@ -38,5 +35,6 @@ namespace SRDebugger::Services
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_CONSOLEUPDATEDEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

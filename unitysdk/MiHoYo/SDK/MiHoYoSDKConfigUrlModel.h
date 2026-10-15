@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKCONFIGURLMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB223110)
+#define MIHOYO_SDK_MIHOYOSDKCONFIGURLMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xAFCA890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKConfigUrlModel_TypeDefinitionIndex = 46812;
-
 	class MiHoYoSDKConfigUrlModel : public ::System::Object
 	{
 	public:
@@ -131,10 +128,10 @@ namespace MiHoYo::SDK
 		::System::String* googleOAuthCallback; // 0x3A8
 		::System::String* googleQueryGoods; // 0x3B0
 		::System::String* googleOAuthHelp; // 0x3B8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKCONFIGURLMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKCONFIGURLMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

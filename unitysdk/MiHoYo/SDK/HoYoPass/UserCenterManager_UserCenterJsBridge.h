@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B97B730)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B97B790)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B979D00)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97B6C0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE7B080)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7B010)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE7B0E0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE79660)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager_UserCenterJsBridge_TypeDefinitionIndex = 8231;
-
 	class UserCenterManager_UserCenterJsBridge : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::MiHoYo::SDK::JSONNode* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_USERCENTERJSBRIDGE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,19 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_457;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifierProvider_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
 namespace RPG::AvatarSystem::Property
 {
-	inline static constexpr unsigned int PropertyContext_1_TypeDefinitionIndex = 52293;
-
-	template <typename TValue>
+	template <typename T>
 	class PropertyContext_1 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<TValue>*>* _ModifierProviders; // 0x0
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<T>*>* _ModifierProviders; // 0x0
 	};
 }

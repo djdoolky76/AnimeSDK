@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_HTTPCONTINUEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E98A0E0)
-#define SYSTEM_NET_HTTPCONTINUEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E98A140)
-#define SYSTEM_NET_HTTPCONTINUEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E98A0D0)
-#define SYSTEM_NET_HTTPCONTINUEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E98A060)
+#define SYSTEM_NET_HTTPCONTINUEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F052C20)
+#define SYSTEM_NET_HTTPCONTINUEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F052BA0)
+#define SYSTEM_NET_HTTPCONTINUEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F052C80)
+#define SYSTEM_NET_HTTPCONTINUEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F052C10)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpContinueDelegate_TypeDefinitionIndex = 2752;
-
 	class HttpContinueDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPCONTINUEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPCONTINUEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Net::WebHeaderCollection* a2)
@@ -38,5 +35,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPCONTINUEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

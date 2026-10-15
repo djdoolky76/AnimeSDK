@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC9BB3D0)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC9BB440)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xC9BA650)
-#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BB360)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xC908CB0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xC908C40)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC908D20)
+#define RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xC907F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_DragBeginDelegate_TypeDefinitionIndex = 63071;
-
 	class CakeRaceBattleItemUIHandler_DragBeginDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::UInt32 a1, ::UnityEngine::Vector2 a2)
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEBATTLEITEMUIHANDLER_DRAGBEGINDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

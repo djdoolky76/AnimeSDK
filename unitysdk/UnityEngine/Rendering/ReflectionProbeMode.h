@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionProbeMode_TypeDefinitionIndex = 4713;
-
 	enum class ReflectionProbeMode : ::System::Int32
 	{
 		Baked = 0,

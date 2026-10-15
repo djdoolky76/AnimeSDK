@@ -2,48 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x152F1500)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_INIT_OFFSET UNITYSDK_OFFSET(0x152F1140)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0x152F1B30)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_3E51EEFB06718274_OFFSET UNITYSDK_OFFSET(0x152F20C0)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_89914D30EBFCC9C6_OFFSET UNITYSDK_OFFSET(0x152F19A0)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_939383CFABF4988F_OFFSET UNITYSDK_OFFSET(0x152F1510)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x152F12F0)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x152F10E0)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_SETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0x152F1370)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_START_OFFSET UNITYSDK_OFFSET(0x152F1350)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x152F1360)
-#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x152F21C0)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x155E0BD0)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_EELEODGMPJH_OFFSET UNITYSDK_OFFSET(0x155DFF20)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0x155DFF10)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_FCKCHPNEEKB_OFFSET UNITYSDK_OFFSET(0x155E0540)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_FHMGIHIEMBO_OFFSET UNITYSDK_OFFSET(0x155E03B0)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_INIT_OFFSET UNITYSDK_OFFSET(0x155DFB50)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_JFHJMMGGNKL_OFFSET UNITYSDK_OFFSET(0x155E0AD0)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x155DFD00)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_ONENABLE_OFFSET UNITYSDK_OFFSET(0x155DFAF0)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_SETFOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0x155DFD80)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_START_OFFSET UNITYSDK_OFFSET(0x155DFD60)
+#define EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_UPDATE_OFFSET UNITYSDK_OFFSET(0x155DFD70)
 
 namespace EffectPlugin
 {
-	inline static constexpr unsigned int Effect_CustomFollowPlugin_TypeDefinitionIndex = 49444;
-
 	class Effect_CustomFollowPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* Target; // 0x18
 		::UnityEngine::Vector3 TargetPositionOffset; // 0x20
 		::System::Boolean TargetPositionLocalOffsetEnable; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::Single FollowPositionDampTime; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* SpeedOffsetCurve; // 0x38
 		::UnityEngine::AnimationCurve* UDCurve; // 0x40
 		::UnityEngine::AnimationCurve* LRCurve; // 0x48
 		::System::Single OffsetScaleFactor; // 0x50
 		::System::Single OffsetTime; // 0x54
 		::System::Boolean ContactStop; // 0x58
+		::System::Byte _padding2[0x3];
 		::System::Single ContactRadius; // 0x5C
 		::System::Boolean debug; // 0x60
 		::System::Boolean UpdateInLateTick; // 0x61
 		::System::Boolean FadeOut; // 0x62
+		::System::Byte _padding3[0x1];
 		::System::Single _Duration; // 0x64
 		::System::Boolean _ContactTarget; // 0x68
 		::System::Boolean ContactAttach; // 0x69
+		::System::Byte _padding4[0x6];
 		::System::Action* OnContactCallback; // 0x70
 		::UnityEngine::Vector3 HDNEMFNFBFA; // 0x78
 		::System::Single DPLPNACELOO; // 0x84
@@ -54,10 +56,9 @@ namespace EffectPlugin
 		::System::Single PNNPNNGNPKB; // 0xB4
 		::System::Boolean KDBBOFGPKKE; // 0xB8
 		::System::Boolean HINODOBKGKA; // 0xB9
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -95,24 +96,25 @@ namespace EffectPlugin
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_SETFOLLOWTARGET_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_89914D30EBFCC9C6(::UnityEngine::Transform* a1)
+		::System::Boolean FHMGIHIEMBO(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_89914D30EBFCC9C6_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_FHMGIHIEMBO_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_3E51EEFB06718274()
+		::System::Boolean JFHJMMGGNKL()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_3E51EEFB06718274_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_JFHJMMGGNKL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1290EA767C459179()
+		::System::Void FCKCHPNEEKB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_FCKCHPNEEKB_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_5_939383CFABF4988F()
+		::UnityEngine::Vector3 EELEODGMPJH()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_METHOD_5_939383CFABF4988F_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + EFFECTPLUGIN_EFFECT_CUSTOMFOLLOWPLUGIN_EELEODGMPJH_OFFSET))(this);
 		}
+
 	};
 }

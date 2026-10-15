@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StageObjectCapture; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEOBJECTCAPTURE_METHOD_2_842C42BE89DCA78E_OFFSET UNITYSDK_OFFSET(0x1D55A2B0)
-#define RPG_GAMECORE_STAGEOBJECTCAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55A4F0)
+#define RPG_GAMECORE_STAGEOBJECTCAPTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB11480)
+#define RPG_GAMECORE_STAGEOBJECTCAPTURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB11240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageObjectCapture_TypeDefinitionIndex = 17032;
-
 	class StageObjectCapture : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -20,15 +18,15 @@ namespace RPG::GameCore
 		::System::Boolean UseOverridePos; // 0x20
 		::System::Boolean ResetAnimatorWhenReload; // 0x21
 		::System::Boolean IsLightWeight; // 0x22
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEOBJECTCAPTURE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEOBJECTCAPTURE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_842C42BE89DCA78E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageObjectCapture*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageObjectCapture* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageObjectCapture*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEOBJECTCAPTURE_METHOD_2_842C42BE89DCA78E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageObjectCapture*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEOBJECTCAPTURE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

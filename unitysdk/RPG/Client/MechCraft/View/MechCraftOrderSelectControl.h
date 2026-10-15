@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+class HBDIGCKCAEB;
+namespace RPG::Client::MechCraft::View { class MechCraftOrderSelectControlBinder; }
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD652FB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_HEHMNGANAJO_OFFSET UNITYSDK_OFFSET(0xD651430)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xD651490)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_KCEDLPGDJLN_OFFSET UNITYSDK_OFFSET(0xD6513F0)
+
+namespace RPG::Client::MechCraft::View
+{
+	class MechCraftOrderSelectControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::HBDIGCKCAEB* LFGMLJCCPCH; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftOrderSelectControlBinder* _Binder; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_CTOR_OFFSET))(this);
+		}
+
+		::HBDIGCKCAEB* KCEDLPGDJLN()
+		{
+			return ((::HBDIGCKCAEB*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_KCEDLPGDJLN_OFFSET))(this);
+		}
+
+		::System::Void HEHMNGANAJO(::HBDIGCKCAEB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HBDIGCKCAEB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_HEHMNGANAJO_OFFSET))(this, a1);
+		}
+
+		::System::Void KANMCJHEFJJ(::HBDIGCKCAEB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HBDIGCKCAEB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERSELECTCONTROL_KANMCJHEFJJ_OFFSET))(this, a1);
+		}
+
+	};
+}

@@ -2,32 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightOrbType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightOrbServerData; }
+namespace RPG::Client { class GridFightOrbTypeData; }
 namespace RPG::GameCore { class GridFightOrbTypeRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD229C40)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xD22BC20)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD22BC80)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD22BC00)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xD22BC10)
-#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD22BBF0)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD1CB450)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD1CD390)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xD1CD3C0)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xD1CD420)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD1CD3A0)
+#define RPG_CLIENT_GRIDFIGHTORBTYPEDATA_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xD1CD3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbTypeData_TypeDefinitionIndex = 64508;
-
 	class GridFightOrbTypeData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GridFightOrbTypeRow* _row; // 0x10
 		::RPG::Client::GridFightOrbServerData* _ServerData; // 0x18
 		::RPG::GameCore::GridFightOrbType _Type_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::GridFightOrbTypeData* Create(::RPG::GameCore::GridFightOrbType a1)
@@ -54,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTORBTYPEDATA_GET_ICONPATH_OFFSET))(this);
 		}
+
 	};
 }

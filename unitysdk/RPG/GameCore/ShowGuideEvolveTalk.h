@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowGuideEvolveTalk; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_0914F65207660701_OFFSET UNITYSDK_OFFSET(0x1D529A10)
-#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_6C776FA3A13698A0_OFFSET UNITYSDK_OFFSET(0x1D529A50)
-#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D529A40)
+#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADE410)
+#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DADE420)
+#define RPG_GAMECORE_SHOWGUIDEEVOLVETALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DADE3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideEvolveTalk_TypeDefinitionIndex = 24050;
-
 	class ShowGuideEvolveTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TalkIDList; // 0x18
 		::System::UInt32 Season; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0914F65207660701(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideEvolveTalk*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowGuideEvolveTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideEvolveTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_0914F65207660701_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowGuideEvolveTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6C776FA3A13698A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideEvolveTalk* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowGuideEvolveTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideEvolveTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_METHOD_3_6C776FA3A13698A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowGuideEvolveTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEEVOLVETALK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

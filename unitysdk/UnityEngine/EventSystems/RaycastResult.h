@@ -1,23 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class BaseRaycaster; }
 
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3BD3F90)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x5AB0)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x3BD3F60)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xC610)
-#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BD3FE0)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C89D00)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x3C89CD0)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C89D50)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int RaycastResult_TypeDefinitionIndex = 6939;
-
 	struct alignas(8) RaycastResult
 	{
 		::UnityEngine::GameObject* m_GameObject; // 0x10
@@ -31,7 +27,6 @@ namespace UnityEngine::EventSystems
 		::UnityEngine::Vector3 worldNormal; // 0x40
 		::UnityEngine::Vector2 screenPosition; // 0x4C
 		::System::Int32 displayIndex; // 0x54
-
 		::UnityEngine::GameObject* get_gameObject()
 		{
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_GET_GAMEOBJECT_OFFSET))(this);
@@ -56,5 +51,6 @@ namespace UnityEngine::EventSystems
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTSYSTEMS_RAYCASTRESULT_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

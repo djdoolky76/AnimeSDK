@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/OOOIPIPFCDB.h"
+#include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
+class HFCPGANBGMI;
+
+#define EPJOIJOOCBI_CTOR_OFFSET UNITYSDK_OFFSET(0x155D5F90)
+#define EPJOIJOOCBI_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x155D5F80)
+#define EPJOIJOOCBI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x155D5EE0)
+
+	class EPJOIJOOCBI : public ::OOOIPIPFCDB
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPJOIJOOCBI_CTOR_OFFSET))(this);
+		}
+
+		::System::Void KPJGDHLENIP(::HFCPGANBGMI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HFCPGANBGMI*))((::PBYTE)hIl2Cpp + EPJOIJOOCBI_KPJGDHLENIP_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::LittleGame::Move::MoveState EPPAFNJFCMH()
+		{
+			return ((::RPG::Client::LittleGame::Move::MoveState(*)(::PVOID))((::PBYTE)hIl2Cpp + EPJOIJOOCBI_EPPAFNJFCMH_OFFSET))(this);
+		}
+
+	};

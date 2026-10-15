@@ -1,35 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System::Collections { class IEnumerable; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
-namespace System::Linq { template <typename T1, typename T2> class ILookup_2; }
-namespace System::Linq { template <typename T> class IOrderedEnumerable_1; }
 
-#define SYSTEM_LINQ_ENUMERABLE_AVERAGE_OFFSET UNITYSDK_OFFSET(0x1E6D16E0)
-#define SYSTEM_LINQ_ENUMERABLE_MAX_1_OFFSET UNITYSDK_OFFSET(0x1E6D0CE0)
-#define SYSTEM_LINQ_ENUMERABLE_MAX_2_OFFSET UNITYSDK_OFFSET(0x1E6D11F0)
-#define SYSTEM_LINQ_ENUMERABLE_MAX_OFFSET UNITYSDK_OFFSET(0x1E6D07F0)
-#define SYSTEM_LINQ_ENUMERABLE_MIN_OFFSET UNITYSDK_OFFSET(0x1E6D0270)
-#define SYSTEM_LINQ_ENUMERABLE_RANGEITERATOR_OFFSET UNITYSDK_OFFSET(0x1E6CEE40)
-#define SYSTEM_LINQ_ENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x1E6CECE0)
-#define SYSTEM_LINQ_ENUMERABLE_SUM_1_OFFSET UNITYSDK_OFFSET(0x1E6CF420)
-#define SYSTEM_LINQ_ENUMERABLE_SUM_2_OFFSET UNITYSDK_OFFSET(0x1E6CF910)
-#define SYSTEM_LINQ_ENUMERABLE_SUM_3_OFFSET UNITYSDK_OFFSET(0x1E6CFDC0)
-#define SYSTEM_LINQ_ENUMERABLE_SUM_OFFSET UNITYSDK_OFFSET(0x1E6CEEA0)
+#define SYSTEM_LINQ_ENUMERABLE_AVERAGE_OFFSET UNITYSDK_OFFSET(0x1ED997C0)
+#define SYSTEM_LINQ_ENUMERABLE_MAX_1_OFFSET UNITYSDK_OFFSET(0x1ED98DC0)
+#define SYSTEM_LINQ_ENUMERABLE_MAX_2_OFFSET UNITYSDK_OFFSET(0x1ED992D0)
+#define SYSTEM_LINQ_ENUMERABLE_MAX_OFFSET UNITYSDK_OFFSET(0x1ED988D0)
+#define SYSTEM_LINQ_ENUMERABLE_MIN_OFFSET UNITYSDK_OFFSET(0x1ED98350)
+#define SYSTEM_LINQ_ENUMERABLE_RANGEITERATOR_OFFSET UNITYSDK_OFFSET(0x1ED96F50)
+#define SYSTEM_LINQ_ENUMERABLE_RANGE_OFFSET UNITYSDK_OFFSET(0x1ED96E10)
+#define SYSTEM_LINQ_ENUMERABLE_SUM_1_OFFSET UNITYSDK_OFFSET(0x1ED97500)
+#define SYSTEM_LINQ_ENUMERABLE_SUM_2_OFFSET UNITYSDK_OFFSET(0x1ED979F0)
+#define SYSTEM_LINQ_ENUMERABLE_SUM_3_OFFSET UNITYSDK_OFFSET(0x1ED97EA0)
+#define SYSTEM_LINQ_ENUMERABLE_SUM_OFFSET UNITYSDK_OFFSET(0x1ED96FB0)
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable_TypeDefinitionIndex = 3133;
-
 	class Enumerable : public ::System::Object
 	{
 	public:
@@ -87,5 +74,6 @@ namespace System::Linq
 		{
 			return ((::System::Single(*)(::System::Collections::Generic::IEnumerable_1<::System::Single>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_ENUMERABLE_AVERAGE_OFFSET))(a1);
 		}
+
 	};
 }

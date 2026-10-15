@@ -1,40 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class RtOwnerEntityAddAbility; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_9FB20CD0F4F9A5F8_OFFSET UNITYSDK_OFFSET(0x1D4AF050)
-#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_D79532EBC8E4BF89_OFFSET UNITYSDK_OFFSET(0x1D4AF090)
-#define RPG_GAMECORE_RTOWNERENTITYADDABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AF080)
+#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA62450)
+#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA62460)
+#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA62420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtOwnerEntityAddAbility_TypeDefinitionIndex = 23807;
-
 	class RtOwnerEntityAddAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicString* AbilityName; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* DynamicValues; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9FB20CD0F4F9A5F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtOwnerEntityAddAbility*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtOwnerEntityAddAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtOwnerEntityAddAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_9FB20CD0F4F9A5F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtOwnerEntityAddAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D79532EBC8E4BF89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtOwnerEntityAddAbility* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtOwnerEntityAddAbility* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtOwnerEntityAddAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_D79532EBC8E4BF89_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtOwnerEntityAddAbility*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -4,20 +4,18 @@
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1E7EB880)
-#define SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7EB870)
-#define SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E6E00)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAFAE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB4560)
+#define SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB4550)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_NMTOKEN_TypeDefinitionIndex = 2126;
-
 	class Datatype_NMTOKEN : public ::System::Xml::Schema::Datatype_token
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::XmlTypeCode get_TypeCode()
@@ -29,5 +27,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Xml::XmlTokenizedType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_NMTOKEN_GET_TOKENIZEDTYPE_OFFSET))(this);
 		}
+
 	};
 }

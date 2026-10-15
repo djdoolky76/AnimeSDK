@@ -4,26 +4,25 @@
 #include "unitysdk/RPG/GameCore/CharacterFormationType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetCharacterFormation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_0C2FECA127A92F59_OFFSET UNITYSDK_OFFSET(0x1D4E6890)
-#define RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_CABA182431796E19_OFFSET UNITYSDK_OFFSET(0x1D4E6780)
-#define RPG_GAMECORE_SETCHARACTERFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E6820)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9A810)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9A880)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9A770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterFormation_TypeDefinitionIndex = 22390;
-
 	class SetCharacterFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Boolean IsActive; // 0x20
 		::System::Boolean UpdateInfo; // 0x21
+		::System::Byte _padding0[0x2];
 		::RPG::GameCore::CharacterFormationType Type; // 0x24
 		::RPG::MVector3 FixedPos; // 0x28
 		::System::Single FixedYawAngle; // 0x34
@@ -35,20 +34,20 @@ namespace RPG::GameCore
 		::System::Single FollowAngleOffset; // 0x64
 		::RPG::GameCore::CharacterFollowOffsetMode FollowOffsetMode; // 0x68
 		::System::Boolean DelyRefresh; // 0x6C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CABA182431796E19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterFormation*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCharacterFormation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_CABA182431796E19_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCharacterFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0C2FECA127A92F59(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterFormation* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCharacterFormation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_METHOD_3_0C2FECA127A92F59_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCharacterFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERFORMATION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

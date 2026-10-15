@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialAvatarType_TypeDefinitionIndex = 10389;
-
 	enum class SpecialAvatarType : ::System::Int32
 	{
 		TYPE_NONE = 0,
@@ -14,5 +12,6 @@ namespace RPG::GameCore
 		TYPE_PLOT = 4,
 		TYPE_ACTIVITY_SUMMON = 5,
 		TYPE_ACTIVITY_ELATION = 6,
+		TYPE_ACTIVITY_FINALITY = 7,
 	};
 }

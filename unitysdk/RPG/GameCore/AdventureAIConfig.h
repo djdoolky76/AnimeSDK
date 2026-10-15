@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureAIConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class VisionBaseConfig; }
 namespace RPG::GameCore { class VisionSetConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREAICONFIG_METHOD_2_9566F3591B542B38_OFFSET UNITYSDK_OFFSET(0x1CDDF4E0)
-#define RPG_GAMECORE_ADVENTUREAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDFC10)
+#define RPG_GAMECORE_ADVENTUREAICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B55A0)
+#define RPG_GAMECORE_ADVENTUREAICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B4E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAIConfig_TypeDefinitionIndex = 17233;
-
 	class AdventureAIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -25,9 +23,11 @@ namespace RPG::GameCore
 		::System::Single ChaseTolerance; // 0x1C
 		::System::Single ChaseAngleTolerance; // 0x20
 		::System::Boolean FourFeetMode; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::Single MaxChaseDistance; // 0x28
 		::System::Single AlertnessIncreaseRatio; // 0x2C
 		::System::Single LOSLoseTargetDelay; // 0x30
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::VisionSetConfig*>* VisionSetConfigs; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::VisionBaseConfig*>* OverrideVisionConfigs; // 0x40
 		::System::Single MinWalkScale; // 0x48
@@ -40,15 +40,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* AfterFollowTeleport; // 0x68
 		::Il2CppArray<::System::String*>* ReactionList; // 0x70
 		::System::Boolean RepathHighFrequency; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREAICONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREAICONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9566F3591B542B38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAIConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureAIConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREAICONFIG_METHOD_2_9566F3591B542B38_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureAIConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREAICONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

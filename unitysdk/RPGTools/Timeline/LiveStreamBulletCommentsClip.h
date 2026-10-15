@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class PerformanceLiveStreamBulletControlData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE86CE30)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE86CE20)
-#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE86CFC0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE90AFC0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE90B150)
+#define RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE90AFB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamBulletCommentsClip_TypeDefinitionIndex = 48631;
-
 	class LiveStreamBulletCommentsClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::PerformanceLiveStreamBulletControlData* BulletControlData; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMBULLETCOMMENTSCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

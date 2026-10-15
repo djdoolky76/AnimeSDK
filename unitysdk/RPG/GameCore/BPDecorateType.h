@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BPDecorateType_TypeDefinitionIndex = 24471;
-
 	enum class BPDecorateType : ::System::Int32
 	{
 		All = 0,

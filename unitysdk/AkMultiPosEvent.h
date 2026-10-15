@@ -2,28 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkCallbackType.h"
 #include "unitysdk/System/Object.h"
-
 class AkAmbient;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET UNITYSDK_OFFSET(0x1EEDF490)
-#define AKMULTIPOSEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDF4F0)
+#define AKMULTIPOSEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A70A0)
+#define AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET UNITYSDK_OFFSET(0x1F5A7040)
 
-inline static constexpr unsigned int AkMultiPosEvent_TypeDefinitionIndex = 43716;
-
-class AkMultiPosEvent : public ::System::Object
-{
-public:
-	::System::Collections::Generic::List_1<::AkAmbient*>* list; // 0x10
-	::System::Boolean eventIsPlaying; // 0x18
-
-	::System::Void _ctor()
+	class AkMultiPosEvent : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMULTIPOSEVENT__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Collections::Generic::List_1<::AkAmbient*>* list; // 0x10
+		::System::Boolean eventIsPlaying; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKMULTIPOSEVENT_CTOR_OFFSET))(this);
+		}
 
-	::System::Void FinishedPlaying(::System::Object* a1, ::AkCallbackType a2, ::System::Object* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Object*, ::AkCallbackType, ::System::Object*))((::PBYTE)hIl2Cpp + AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET))(this, a1, a2, a3);
-	}
-};
+		::System::Void FinishedPlaying(::System::Object* a1, ::AkCallbackType a2, ::System::Object* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::AkCallbackType, ::System::Object*))((::PBYTE)hIl2Cpp + AKMULTIPOSEVENT_FINISHEDPLAYING_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

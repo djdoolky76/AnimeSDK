@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Security/Cryptography/AsymmetricKeyExchangeFormatter.h"
-
+namespace System { class Nullable; }
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography { class RSA; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER_CREATEKEYEXCHANGE_OFFSET UNITYSDK_OFFSET(0x1BBC8B10)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER_GET_OVERRIDESENCRYPT_OFFSET UNITYSDK_OFFSET(0x1BBC8D80)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC64B0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER_CREATEKEYEXCHANGE_OFFSET UNITYSDK_OFFSET(0x1C0D4C20)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D25C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER_GET_OVERRIDESENCRYPT_OFFSET UNITYSDK_OFFSET(0x1C0D4E90)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAOAEPKeyExchangeFormatter_TypeDefinitionIndex = 1052;
-
 	class RSAOAEPKeyExchangeFormatter : public ::System::Security::Cryptography::AsymmetricKeyExchangeFormatter
 	{
 	public:
 		::System::Security::Cryptography::RSA* _rsaKey; // 0x10
-		::System::Nullable_1<::System::Boolean> _rsaOverridesEncrypt; // 0x18
-
+		::System::Nullable* _rsaOverridesEncrypt; // 0x18
 		::System::Void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsymmetricAlgorithm*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsymmetricAlgorithm*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER_CTOR_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Byte>* CreateKeyExchange(::Il2CppArray<::System::Byte>* a1)
@@ -34,5 +30,6 @@ namespace System::Security::Cryptography
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAOAEPKEYEXCHANGEFORMATTER_GET_OVERRIDESENCRYPT_OFFSET))(this);
 		}
+
 	};
 }

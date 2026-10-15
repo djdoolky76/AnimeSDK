@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchLatestEnterStageAvatar; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_10B38847DD6D6316_OFFSET UNITYSDK_OFFSET(0x1D5ABFD0)
-#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_C22345014B0CFA87_OFFSET UNITYSDK_OFFSET(0x1D5ABF50)
-#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_D6D5768343F25EB6_OFFSET UNITYSDK_OFFSET(0x1D5AC050)
-#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_EE3274AAE7868DA3_OFFSET UNITYSDK_OFFSET(0x1D5AC030)
-#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ABFC0)
+#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB63270)
+#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB63300)
+#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB632E0)
+#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB63280)
+#define RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB63200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchLatestEnterStageAvatar_TypeDefinitionIndex = 23697;
-
 	class TargetFetchLatestEnterStageAvatar : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C22345014B0CFA87(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_C22345014B0CFA87_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_10B38847DD6D6316(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_10B38847DD6D6316_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EE3274AAE7868DA3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_EE3274AAE7868DA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D6D5768343F25EB6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_METHOD_4_D6D5768343F25EB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchLatestEnterStageAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHLATESTENTERSTAGEAVATAR_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

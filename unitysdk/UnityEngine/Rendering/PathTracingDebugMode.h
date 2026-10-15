@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PathTracingDebugMode_TypeDefinitionIndex = 4820;
-
 	enum class PathTracingDebugMode : ::System::Int32
 	{
 		None = 0,

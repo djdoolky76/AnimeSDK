@@ -3,8 +3,6 @@
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketError_TypeDefinitionIndex = 2908;
-
 	enum class SocketError : ::System::Int32
 	{
 		Success = 0,

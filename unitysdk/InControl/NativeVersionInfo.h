@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeVersionInfo_TypeDefinitionIndex = 39575;
-
 	struct alignas(4) NativeVersionInfo
 	{
 		::System::UInt32 major; // 0x10

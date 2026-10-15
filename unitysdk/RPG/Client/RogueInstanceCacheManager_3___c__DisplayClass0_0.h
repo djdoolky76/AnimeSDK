@@ -1,18 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
-
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueInstanceCacheManager_3___c__DisplayClass0_0_TypeDefinitionIndex = 67380;
-
-	template <typename TKey1, typename TKey2, typename TInstance>
+	template <typename T1, typename T2, typename T3>
 	class RogueInstanceCacheManager_3___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Func_3<TKey1, TKey2, TInstance>* createInstanceImpl; // 0x0
+		::System::Func_3<T1, T2, T3>* createInstanceImpl; // 0x0
 	};
 }

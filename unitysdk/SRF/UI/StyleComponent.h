@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviour.h"
-
 namespace SRF::UI { class Style; }
 namespace SRF::UI { class StyleRoot; }
 namespace System { class String; }
@@ -9,20 +8,18 @@ namespace UnityEngine::UI { class Graphic; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define SRF_UI_STYLECOMPONENT_APPLYSTYLE_OFFSET UNITYSDK_OFFSET(0x1E6BA990)
-#define SRF_UI_STYLECOMPONENT_GETSTYLEROOT_OFFSET UNITYSDK_OFFSET(0x1E6BA720)
-#define SRF_UI_STYLECOMPONENT_GET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x1E6BA450)
-#define SRF_UI_STYLECOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E6BA710)
-#define SRF_UI_STYLECOMPONENT_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E6BA470)
-#define SRF_UI_STYLECOMPONENT_SET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x1E6BA460)
-#define SRF_UI_STYLECOMPONENT_SRSTYLEDIRTY_OFFSET UNITYSDK_OFFSET(0x1E6BADB0)
-#define SRF_UI_STYLECOMPONENT_START_OFFSET UNITYSDK_OFFSET(0x1E6BA6F0)
-#define SRF_UI_STYLECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BAE10)
+#define SRF_UI_STYLECOMPONENT_APPLYSTYLE_OFFSET UNITYSDK_OFFSET(0x1ED826B0)
+#define SRF_UI_STYLECOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED82B30)
+#define SRF_UI_STYLECOMPONENT_GETSTYLEROOT_OFFSET UNITYSDK_OFFSET(0x1ED82440)
+#define SRF_UI_STYLECOMPONENT_GET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x1ED82140)
+#define SRF_UI_STYLECOMPONENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED82430)
+#define SRF_UI_STYLECOMPONENT_REFRESH_OFFSET UNITYSDK_OFFSET(0x1ED82160)
+#define SRF_UI_STYLECOMPONENT_SET_STYLEKEY_OFFSET UNITYSDK_OFFSET(0x1ED82150)
+#define SRF_UI_STYLECOMPONENT_SRSTYLEDIRTY_OFFSET UNITYSDK_OFFSET(0x1ED82AD0)
+#define SRF_UI_STYLECOMPONENT_START_OFFSET UNITYSDK_OFFSET(0x1ED82410)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int StyleComponent_TypeDefinitionIndex = 34728;
-
 	class StyleComponent : public ::SRF::SRMonoBehaviour
 	{
 	public:
@@ -30,14 +27,14 @@ namespace SRF::UI
 		::SRF::UI::StyleRoot* _cachedRoot; // 0x50
 		::UnityEngine::UI::Graphic* _graphic; // 0x58
 		::System::Boolean _hasStarted; // 0x60
+		::System::Byte _padding0[0x7];
 		::UnityEngine::UI::Image* _image; // 0x68
 		::UnityEngine::UI::Selectable* _selectable; // 0x70
 		::System::String* _styleKey; // 0x78
 		::System::Boolean IgnoreImage; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_StyleKey()
@@ -79,5 +76,6 @@ namespace SRF::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_UI_STYLECOMPONENT_SRSTYLEDIRTY_OFFSET))(this);
 		}
+
 	};
 }

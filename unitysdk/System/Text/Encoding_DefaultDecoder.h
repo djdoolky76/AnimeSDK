@@ -1,41 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Text/Decoder.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System { class Object; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1BC142B0)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_2_OFFSET UNITYSDK_OFFSET(0x1BC14360)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1BC14200)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_1_OFFSET UNITYSDK_OFFSET(0x1BC144D0)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_2_OFFSET UNITYSDK_OFFSET(0x1BC145A0)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_OFFSET UNITYSDK_OFFSET(0x1BC14400)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1BC14090)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BC14140)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC13E90)
-#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC13250)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C120100)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C11F490)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1C120520)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_2_OFFSET UNITYSDK_OFFSET(0x1C1205D0)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1C120470)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_1_OFFSET UNITYSDK_OFFSET(0x1C120740)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_2_OFFSET UNITYSDK_OFFSET(0x1C120810)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_OFFSET UNITYSDK_OFFSET(0x1C120670)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETREALOBJECT_OFFSET UNITYSDK_OFFSET(0x1C120300)
+#define SYSTEM_TEXT_ENCODING_DEFAULTDECODER_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C1203B0)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int Encoding_DefaultDecoder_TypeDefinitionIndex = 491;
-
 	class Encoding_DefaultDecoder : public ::System::Text::Decoder
 	{
 	public:
 		::System::Text::Encoding* m_encoding; // 0x20
 		::System::Boolean m_hasInitializedEncoding; // 0x28
-
 		::System::Void _ctor(::System::Text::Encoding* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext a1)
@@ -58,9 +54,9 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Int32 GetCharCount_2(::System::Byte* a1, ::System::Int32 a2, ::System::Boolean a3)
+		::System::Int32 GetCharCount_2(::PVOID a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARCOUNT_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 GetChars(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Char>* a4, ::System::Int32 a5)
@@ -73,9 +69,10 @@ namespace System::Text
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Int32 GetChars_2(::System::Byte* a1, ::System::Int32 a2, ::System::Char* a3, ::System::Int32 a4, ::System::Boolean a5)
+		::System::Int32 GetChars_2(::PVOID a1, ::System::Int32 a2, ::PVOID a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Byte*, ::System::Int32, ::System::Char*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_2_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_DEFAULTDECODER_GETCHARS_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

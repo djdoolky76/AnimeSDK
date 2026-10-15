@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class RPGFadeAnimation; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSettleConfirmResultControl; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSettleConfirmViewModel; }
 namespace UnityEngine { class Animation; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xCA05AF0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0xCA05EF0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xCA05B30)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCA05F60)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0xCA05B90)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC954250)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC953DE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_PLAYANIMATION_OFFSET UNITYSDK_OFFSET(0xC9541E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_SET_CONTENT_OFFSET UNITYSDK_OFFSET(0xC953E20)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0xC953E80)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceSettleConfirmControl_TypeDefinitionIndex = 80216;
-
 	class ChallengeTierceSettleConfirmControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -28,10 +25,9 @@ namespace RPG::Client::Challenge::Tierce
 		::RPG::Client::Challenge::Tierce::ChallengeTierceSettleConfirmResultControl* _NewResult; // 0x38
 		::UnityEngine::Animation* _Animation; // 0x40
 		::RPG::Client::RPGFadeAnimation* _FadeAnimation; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::Challenge::Tierce::ChallengeTierceSettleConfirmViewModel* get_Content()
@@ -53,5 +49,6 @@ namespace RPG::Client::Challenge::Tierce
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESETTLECONFIRMCONTROL_PLAYANIMATION_OFFSET))(this);
 		}
+
 	};
 }

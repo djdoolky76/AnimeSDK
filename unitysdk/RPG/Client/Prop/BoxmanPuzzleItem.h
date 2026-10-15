@@ -4,60 +4,45 @@
 #include "unitysdk/RPG/Client/Prop/BoxmanDir.h"
 #include "unitysdk/RPG/Client/Prop/BoxmanItemType.h"
 #include "unitysdk/RPG/Client/Prop/ScenePuzzleItemBase.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_39DC98424E208118;
+class EKOJBGEHGDL;
 namespace RPG::Client::Prop { class BoxmanPuzzleBoard; }
 namespace RPG::Client::Prop { class BoxmanPuzzleItemBindProp; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Nullable; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0xDBE78C0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_CANBOXSELECT_OFFSET UNITYSDK_OFFSET(0xDBE4FB0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_DUMPPERSISTENTDATA_OFFSET UNITYSDK_OFFSET(0xDBE8C10)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0xDBE79F0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_INTERACT_OFFSET UNITYSDK_OFFSET(0xDBE82F0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_ISNORMALBOX_OFFSET UNITYSDK_OFFSET(0xDBE29A0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDBE7F40)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_LOADPERSISTENTDATA_OFFSET UNITYSDK_OFFSET(0xDBE3240)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_1920CD45C76CCBBB_OFFSET UNITYSDK_OFFSET(0xDBE85D0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_7DB49B5407C8FD68_OFFSET UNITYSDK_OFFSET(0xDBE8B40)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_8FA0679D147955F9_OFFSET UNITYSDK_OFFSET(0xDBE8260)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_9E49294C33DF47C3_OFFSET UNITYSDK_OFFSET(0xDBE8460)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_D17B49CABC597E3E_1_OFFSET UNITYSDK_OFFSET(0xDBE8530)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_D17B49CABC597E3E_OFFSET UNITYSDK_OFFSET(0xDBE83C0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_F9725EED05F07EC1_OFFSET UNITYSDK_OFFSET(0xDBE89F0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_MOVE_OFFSET UNITYSDK_OFFSET(0xDBE64F0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_ONSELECT_OFFSET UNITYSDK_OFFSET(0xDBE8930)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_REFERSHPOSITION_OFFSET UNITYSDK_OFFSET(0xDBE29F0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_RESET_OFFSET UNITYSDK_OFFSET(0xDBE72E0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_SETBOXSELECT_OFFSET UNITYSDK_OFFSET(0xDBE68A0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_SETFINISHSTATE_OFFSET UNITYSDK_OFFSET(0xDBE6740)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xDBE8CE0)
-#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDBE8C50)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_AAJGDIPMKKG_OFFSET UNITYSDK_OFFSET(0xDC32CD0)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_AJGHKBPIEKC_OFFSET UNITYSDK_OFFSET(0xDC335A0)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0xDC32330)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_CANBOXSELECT_OFFSET UNITYSDK_OFFSET(0xDC2FA20)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC33740)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDC336B0)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_DUMPPERSISTENTDATA_OFFSET UNITYSDK_OFFSET(0xDC33670)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_EBNOKKFPGMC_OFFSET UNITYSDK_OFFSET(0xDC32E30)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_FFGLFENEBPF_OFFSET UNITYSDK_OFFSET(0xDC32F90)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_FKDPAGBEHFD_OFFSET UNITYSDK_OFFSET(0xDC33030)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_HLDMOMAHOIH_OFFSET UNITYSDK_OFFSET(0xDC33450)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0xDC32460)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_INTERACT_OFFSET UNITYSDK_OFFSET(0xDC32D60)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_ISNORMALBOX_OFFSET UNITYSDK_OFFSET(0xDC2D410)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDC329B0)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_LOADPERSISTENTDATA_OFFSET UNITYSDK_OFFSET(0xDC2DCB0)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_MOVE_OFFSET UNITYSDK_OFFSET(0xDC30F60)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_NPBLGGGDOLB_OFFSET UNITYSDK_OFFSET(0xDC32ED0)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_ONSELECT_OFFSET UNITYSDK_OFFSET(0xDC33390)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_REFERSHPOSITION_OFFSET UNITYSDK_OFFSET(0xDC2D460)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_RESET_OFFSET UNITYSDK_OFFSET(0xDC31D50)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_SETBOXSELECT_OFFSET UNITYSDK_OFFSET(0xDC31310)
+#define RPG_CLIENT_PROP_BOXMANPUZZLEITEM_SETFINISHSTATE_OFFSET UNITYSDK_OFFSET(0xDC311B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BoxmanPuzzleItem_TypeDefinitionIndex = 78378;
-
 	class BoxmanPuzzleItem : public ::RPG::Client::Prop::ScenePuzzleItemBase
 	{
 	public:
-		static ::System::Int32* StaticGet_EPLIAANMJLL()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BoxmanPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14270);
-		}
-		static ::System::Int32* StaticGet_JLGAGGNJAHI()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BoxmanPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14274);
-		}
-		static ::System::Int32* StaticGet_NMGIHKOHOAI()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(BoxmanPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14278);
-		}
 		::RPG::Client::Prop::BoxmanPuzzleBoard* Board; // 0x20
 		::RPG::GameCore::GameEntity* AttachEntity; // 0x28
 		::RPG::Client::Prop::BoxmanCoord Coord; // 0x30
@@ -67,8 +52,9 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::BoxmanCoord ResetCoord; // 0x48
 		::System::Int32 BoxIndex; // 0x50
 		::System::Boolean TargetItemFinish; // 0x54
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 OODFLGPMAKO; // 0x58
-		::System::Nullable_1<::System::Boolean> PDAAPKHANNJ; // 0x64
+		::System::Nullable* PDAAPKHANNJ; // 0x64
 		::System::Single Speed; // 0x68
 		::System::UInt32 IdleMotionId; // 0x6C
 		::System::UInt32 InteractMotionId; // 0x70
@@ -83,18 +69,33 @@ namespace RPG::Client::Prop
 		::System::Boolean InteractOnRight; // 0xA1
 		::System::Boolean InteractOnUp; // 0xA2
 		::System::Boolean InteractOnBottom; // 0xA3
+		::System::Byte _padding1[0x4];
 		::RPG::Client::Prop::BoxmanPuzzleItemBindProp* BindProp; // 0xA8
 		::System::String* BoxStartMoveOverrideSound; // 0xB0
 		::System::String* BoxArriveTargetOverrideSound; // 0xB8
+		static ::System::Int32* StaticGet_JLGAGGNJAHI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "BoxmanPuzzleItem")->GetStaticField(0x11250);
+		}
+
+		static ::System::Int32* StaticGet_EPLIAANMJLL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "BoxmanPuzzleItem")->GetStaticField(0x11254);
+		}
+
+		static ::System::Int32* StaticGet_NMGIHKOHOAI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "BoxmanPuzzleItem")->GetStaticField(0x11258);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -122,24 +123,24 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_INTERACT_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_6_D17B49CABC597E3E(::System::Single a1)
+		::System::Collections::IEnumerator* EBNOKKFPGMC(::System::Single a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_D17B49CABC597E3E_OFFSET))(this, a1);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_EBNOKKFPGMC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_9E49294C33DF47C3(::System::Object* a1)
+		::System::Void NPBLGGGDOLB(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_9E49294C33DF47C3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_NPBLGGGDOLB_OFFSET))(this, a1);
 		}
 
-		::System::Collections::IEnumerator* Method_6_D17B49CABC597E3E_1(::System::Single a1)
+		::System::Collections::IEnumerator* FFGLFENEBPF(::System::Single a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_D17B49CABC597E3E_1_OFFSET))(this, a1);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_FFGLFENEBPF_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_1920CD45C76CCBBB(::System::Object* a1)
+		::System::Void FKDPAGBEHFD(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_1920CD45C76CCBBB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_FKDPAGBEHFD_OFFSET))(this, a1);
 		}
 
 		::System::Void OnSelect()
@@ -157,19 +158,19 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_CANBOXSELECT_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_F9725EED05F07EC1(::RPG::Client::Prop::BoxmanDir a1)
+		::System::Boolean HLDMOMAHOIH(::RPG::Client::Prop::BoxmanDir a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::BoxmanDir))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_F9725EED05F07EC1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::BoxmanDir))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_HLDMOMAHOIH_OFFSET))(this, a1);
 		}
 
-		::System::Collections::IEnumerator* Method_6_8FA0679D147955F9(::RPG::Client::Prop::BoxmanDir a1)
+		::System::Collections::IEnumerator* AAJGDIPMKKG(::RPG::Client::Prop::BoxmanDir a1)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::RPG::Client::Prop::BoxmanDir))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_8FA0679D147955F9_OFFSET))(this, a1);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::RPG::Client::Prop::BoxmanDir))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_AAJGDIPMKKG_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_7DB49B5407C8FD68()
+		::System::Void AJGHKBPIEKC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_METHOD_6_7DB49B5407C8FD68_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_AJGHKBPIEKC_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -177,9 +178,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_RESET_OFFSET))(this);
 		}
 
-		::System::Void LoadPersistentData(::Class_1_39DC98424E208118* a1)
+		::System::Void LoadPersistentData(::EKOJBGEHGDL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_39DC98424E208118*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_LOADPERSISTENTDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EKOJBGEHGDL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_LOADPERSISTENTDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void DumpPersistentData()
@@ -201,5 +202,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BOXMANPUZZLEITEM_ISNORMALBOX_OFFSET))(this);
 		}
+
 	};
 }

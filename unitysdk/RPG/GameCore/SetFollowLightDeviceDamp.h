@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetFollowLightDeviceDamp; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_METHOD_3_1620026A22D12DC9_OFFSET UNITYSDK_OFFSET(0x1D5001C0)
-#define RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_METHOD_3_E448B03A4E847242_OFFSET UNITYSDK_OFFSET(0x1D500170)
-#define RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5001B0)
+#define RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB43D0)
+#define RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB43E0)
+#define RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB4390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFollowLightDeviceDamp_TypeDefinitionIndex = 22092;
-
 	class SetFollowLightDeviceDamp : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean On; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E448B03A4E847242(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFollowLightDeviceDamp*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetFollowLightDeviceDamp* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFollowLightDeviceDamp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_METHOD_3_E448B03A4E847242_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetFollowLightDeviceDamp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1620026A22D12DC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFollowLightDeviceDamp* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetFollowLightDeviceDamp* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFollowLightDeviceDamp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_METHOD_3_1620026A22D12DC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetFollowLightDeviceDamp*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFOLLOWLIGHTDEVICEDAMP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

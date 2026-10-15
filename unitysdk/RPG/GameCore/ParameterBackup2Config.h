@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/MiParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ParameterBackup2Config; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PARAMETERBACKUP2CONFIG_METHOD_4_2123405F25550C05_OFFSET UNITYSDK_OFFSET(0x1D30B740)
-#define RPG_GAMECORE_PARAMETERBACKUP2CONFIG_METHOD_4_BE793D4672609589_OFFSET UNITYSDK_OFFSET(0x1D30B790)
-#define RPG_GAMECORE_PARAMETERBACKUP2CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D30B780)
+#define RPG_GAMECORE_PARAMETERBACKUP2CONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EE920)
+#define RPG_GAMECORE_PARAMETERBACKUP2CONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8EE930)
+#define RPG_GAMECORE_PARAMETERBACKUP2CONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8EE8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParameterBackup2Config_TypeDefinitionIndex = 16872;
-
 	class ParameterBackup2Config : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP2CONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP2CONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2123405F25550C05(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParameterBackup2Config*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ParameterBackup2Config* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParameterBackup2Config*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP2CONFIG_METHOD_4_2123405F25550C05_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ParameterBackup2Config*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP2CONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BE793D4672609589(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParameterBackup2Config* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ParameterBackup2Config* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParameterBackup2Config*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP2CONFIG_METHOD_4_BE793D4672609589_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ParameterBackup2Config*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP2CONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

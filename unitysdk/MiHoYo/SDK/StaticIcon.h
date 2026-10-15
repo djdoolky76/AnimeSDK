@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class RectTransform; }
@@ -11,43 +10,41 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define MIHOYO_SDK_STATICICON_DELAYEDACTION_OFFSET UNITYSDK_OFFSET(0x1BAD68A0)
-#define MIHOYO_SDK_STATICICON_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1BAD6460)
-#define MIHOYO_SDK_STATICICON_GET_IMAGEURL_OFFSET UNITYSDK_OFFSET(0x1BAD6480)
-#define MIHOYO_SDK_STATICICON_GET_TOOLTIPTEXT_OFFSET UNITYSDK_OFFSET(0x1BAD6440)
-#define MIHOYO_SDK_STATICICON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BAD6DE0)
-#define MIHOYO_SDK_STATICICON_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BAD6E10)
-#define MIHOYO_SDK_STATICICON_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x1BAD6B20)
-#define MIHOYO_SDK_STATICICON_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1BAD6C80)
-#define MIHOYO_SDK_STATICICON_POINTERENTER_OFFSET UNITYSDK_OFFSET(0x1BAD6910)
-#define MIHOYO_SDK_STATICICON_POINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1BAD6AB0)
-#define MIHOYO_SDK_STATICICON_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1BAD6470)
-#define MIHOYO_SDK_STATICICON_SET_IMAGEURL_OFFSET UNITYSDK_OFFSET(0x1BAD6490)
-#define MIHOYO_SDK_STATICICON_SET_TOOLTIPTEXT_OFFSET UNITYSDK_OFFSET(0x1BAD6450)
-#define MIHOYO_SDK_STATICICON_START_OFFSET UNITYSDK_OFFSET(0x1BAD6590)
-#define MIHOYO_SDK_STATICICON_UPDATEIMAGETEXTURE_OFFSET UNITYSDK_OFFSET(0x1BAD6E40)
-#define MIHOYO_SDK_STATICICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD6E70)
+#define MIHOYO_SDK_STATICICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE17F0)
+#define MIHOYO_SDK_STATICICON_DELAYEDACTION_OFFSET UNITYSDK_OFFSET(0x1BFE1220)
+#define MIHOYO_SDK_STATICICON_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1BFE0DE0)
+#define MIHOYO_SDK_STATICICON_GET_IMAGEURL_OFFSET UNITYSDK_OFFSET(0x1BFE0E00)
+#define MIHOYO_SDK_STATICICON_GET_TOOLTIPTEXT_OFFSET UNITYSDK_OFFSET(0x1BFE0DC0)
+#define MIHOYO_SDK_STATICICON_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BFE1760)
+#define MIHOYO_SDK_STATICICON_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BFE1790)
+#define MIHOYO_SDK_STATICICON_ONPOINTERENTER_OFFSET UNITYSDK_OFFSET(0x1BFE14A0)
+#define MIHOYO_SDK_STATICICON_ONPOINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1BFE1600)
+#define MIHOYO_SDK_STATICICON_POINTERENTER_OFFSET UNITYSDK_OFFSET(0x1BFE1290)
+#define MIHOYO_SDK_STATICICON_POINTEREXIT_OFFSET UNITYSDK_OFFSET(0x1BFE1430)
+#define MIHOYO_SDK_STATICICON_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0x1BFE0DF0)
+#define MIHOYO_SDK_STATICICON_SET_IMAGEURL_OFFSET UNITYSDK_OFFSET(0x1BFE0E10)
+#define MIHOYO_SDK_STATICICON_SET_TOOLTIPTEXT_OFFSET UNITYSDK_OFFSET(0x1BFE0DD0)
+#define MIHOYO_SDK_STATICICON_START_OFFSET UNITYSDK_OFFSET(0x1BFE0F10)
+#define MIHOYO_SDK_STATICICON_UPDATEIMAGETEXTURE_OFFSET UNITYSDK_OFFSET(0x1BFE17C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int StaticIcon_TypeDefinitionIndex = 7972;
-
 	class StaticIcon : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 ICON_SIZE = 0x24; // 0x0
 		::System::String* _ImageUrl; // 0x18
 		::UnityEngine::RectTransform* _RectTransform; // 0x20
 		::UnityEngine::UI::RawImage* _IconImage; // 0x28
 		::System::Boolean _IsTooltipVisible; // 0x30
+		::System::Byte _padding0[0x7];
 		::System::String* _TooltipText_k__BackingField; // 0x38
 		::System::String* _ImagePath_k__BackingField; // 0x40
 		::UnityEngine::Coroutine* exitRoutine; // 0x48
 		::UnityEngine::Coroutine* enterRoutine; // 0x50
-
+		// static const ::System::Object ICON_SIZE; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_TooltipText()
@@ -85,9 +82,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_START_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* DelayedAction(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
+		::System::Collections::IEnumerator* DelayedAction(::System::Action* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_DELAYEDACTION_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Action*, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_DELAYEDACTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void PointerEnter(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -124,5 +121,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STATICICON_UPDATEIMAGETEXTURE_OFFSET))(this, a1);
 		}
+
 	};
 }

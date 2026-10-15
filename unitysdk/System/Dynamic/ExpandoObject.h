@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::ComponentModel { class PropertyChangedEventHandler; }
@@ -12,88 +12,91 @@ namespace System::Dynamic { class ExpandoClass; }
 namespace System::Dynamic { class ExpandoObject_ExpandoData; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDOCONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x1E6C2A70)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_GETEXPANDOENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E6C3CB0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_GET_CLASS_OFFSET UNITYSDK_OFFSET(0x1E6C2580)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_ISDELETEDMEMBER_OFFSET UNITYSDK_OFFSET(0x1E6C1320)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_PROMOTECLASSCORE_OFFSET UNITYSDK_OFFSET(0x1E6C1E30)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_PROMOTECLASS_OFFSET UNITYSDK_OFFSET(0x1E6C2820)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___ADD_OFFSET UNITYSDK_OFFSET(0x1E6C31E0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___CLEAR_OFFSET UNITYSDK_OFFSET(0x1E6C3250)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___CONTAINS_OFFSET UNITYSDK_OFFSET(0x1E6C34E0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___COPYTO_OFFSET UNITYSDK_OFFSET(0x1E6C3670)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1E6C31C0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1E6C31D0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___REMOVE_OFFSET UNITYSDK_OFFSET(0x1E6C3C20)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__ADD_OFFSET UNITYSDK_OFFSET(0x1E6C2F30)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x1E6C2FA0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E6C2D60)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1E6C2B00)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1E6C2C30)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__REMOVE_OFFSET UNITYSDK_OFFSET(0x1E6C30E0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E6C2EC0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x1E6C3190)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E6C3C50)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E6C3D10)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COMPONENTMODEL_INOTIFYPROPERTYCHANGED_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E6C3D80)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COMPONENTMODEL_INOTIFYPROPERTYCHANGED_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1E6C3DC0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYADDMEMBER_OFFSET UNITYSDK_OFFSET(0x1E6C2990)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYDELETEVALUE_OFFSET UNITYSDK_OFFSET(0x1E6C1FE0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUEFORKEY_OFFSET UNITYSDK_OFFSET(0x1E6C2A40)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x1E6C14B0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYSETVALUE_OFFSET UNITYSDK_OFFSET(0x1E6C1740)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C3E00)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C1430)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED8BBB0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED89070)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDOCONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x1ED8A710)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_GETEXPANDOENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1ED8BA60)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_GET_CLASS_OFFSET UNITYSDK_OFFSET(0x1ED8A1C0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_ISDELETEDMEMBER_OFFSET UNITYSDK_OFFSET(0x1ED88F60)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_PROMOTECLASSCORE_OFFSET UNITYSDK_OFFSET(0x1ED89A70)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_PROMOTECLASS_OFFSET UNITYSDK_OFFSET(0x1ED8A460)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___ADD_OFFSET UNITYSDK_OFFSET(0x1ED8AF40)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___CLEAR_OFFSET UNITYSDK_OFFSET(0x1ED8AFE0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___CONTAINS_OFFSET UNITYSDK_OFFSET(0x1ED8B270)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___COPYTO_OFFSET UNITYSDK_OFFSET(0x1ED8B400)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1ED8AF20)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GET_ISREADONLY_OFFSET UNITYSDK_OFFSET(0x1ED8AF30)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___REMOVE_OFFSET UNITYSDK_OFFSET(0x1ED8B9D0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__ADD_OFFSET UNITYSDK_OFFSET(0x1ED8AC00)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x1ED8ACA0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED8AA00)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__GET_KEYS_OFFSET UNITYSDK_OFFSET(0x1ED8A7A0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1ED8A8D0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__REMOVE_OFFSET UNITYSDK_OFFSET(0x1ED8AE10)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED8AB60)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x1ED8AEF0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1ED8BA00)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1ED8BAC0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COMPONENTMODEL_INOTIFYPROPERTYCHANGED_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED8BB30)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COMPONENTMODEL_INOTIFYPROPERTYCHANGED_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0x1ED8BB70)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYADDMEMBER_OFFSET UNITYSDK_OFFSET(0x1ED8A5D0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYDELETEVALUE_OFFSET UNITYSDK_OFFSET(0x1ED89C20)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUEFORKEY_OFFSET UNITYSDK_OFFSET(0x1ED8A6E0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUE_OFFSET UNITYSDK_OFFSET(0x1ED890F0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYSETVALUE_OFFSET UNITYSDK_OFFSET(0x1ED89380)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoObject_TypeDefinitionIndex = 3675;
-
 	class ExpandoObject : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_ExpandoPromoteClass()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_TypeDefinitionIndex)->GetStaticField(0x41E0);
-		}
-		static ::System::Object** StaticGet_Uninitialized()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_TypeDefinitionIndex)->GetStaticField(0x41E8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_ExpandoTryDeleteValue()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_TypeDefinitionIndex)->GetStaticField(0x41F0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_ExpandoTrySetValue()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_TypeDefinitionIndex)->GetStaticField(0x41F8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_ExpandoCheckVersion()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_TypeDefinitionIndex)->GetStaticField(0x4200);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_ExpandoTryGetValue()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_TypeDefinitionIndex)->GetStaticField(0x4208);
-		}
 		::System::ComponentModel::PropertyChangedEventHandler* _propertyChanged; // 0x10
 		::System::Object* LockObject; // 0x18
 		::System::Dynamic::ExpandoObject_ExpandoData* _data; // 0x20
 		::System::Int32 _count; // 0x28
+		static ::System::Reflection::MethodInfo** StaticGet_ExpandoCheckVersion()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("System.Dynamic", "ExpandoObject")->GetStaticField(0x348B0);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ExpandoPromoteClass()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("System.Dynamic", "ExpandoObject")->GetStaticField(0x348B8);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ExpandoTrySetValue()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("System.Dynamic", "ExpandoObject")->GetStaticField(0x348C0);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ExpandoTryDeleteValue()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("System.Dynamic", "ExpandoObject")->GetStaticField(0x348C8);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ExpandoTryGetValue()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("System.Dynamic", "ExpandoObject")->GetStaticField(0x348D0);
+		}
+
+		static ::System::Object** StaticGet_Uninitialized()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Dynamic", "ExpandoObject")->GetStaticField(0x348D8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_CCTOR_OFFSET))();
 		}
 
-		::System::Boolean TryGetValue(::System::Object* a1, ::System::Int32 a2, ::System::String* a3, ::System::Boolean a4, ::System::Object*& a5)
+		::System::Boolean TryGetValue(::System::Object* a1, ::System::Int32 a2, ::System::String* a3, ::System::Boolean a4, ::System::Object* a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::String*, ::System::Boolean, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Int32, ::System::String*, ::System::Boolean, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void TrySetValue(::System::Object* a1, ::System::Int32 a2, ::System::Object* a3, ::System::String* a4, ::System::Boolean a5, ::System::Boolean a6)
@@ -131,9 +134,9 @@ namespace System::Dynamic
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYADDMEMBER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetValueForKey(::System::String* a1, ::System::Object*& a2)
+		::System::Boolean TryGetValueForKey(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUEFORKEY_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_TRYGETVALUEFORKEY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ExpandoContainsKey(::System::String* a1)
@@ -176,9 +179,9 @@ namespace System::Dynamic
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue(::System::String* a1, ::System::Object*& a2)
+		::System::Boolean System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__TRYGETVALUE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IDICTIONARY_SYSTEM_STRING_SYSTEM_OBJECT__TRYGETVALUE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count()
@@ -191,9 +194,9 @@ namespace System::Dynamic
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GET_ISREADONLY_OFFSET))(this);
 		}
 
-		::System::Void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
+		::System::Void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add(::System::Collections::Generic::KeyValuePair* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___ADD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___ADD_OFFSET))(this, a1);
 		}
 
 		::System::Void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear()
@@ -201,24 +204,24 @@ namespace System::Dynamic
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___CLEAR_OFFSET))(this);
 		}
 
-		::System::Boolean System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
+		::System::Boolean System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains(::System::Collections::Generic::KeyValuePair* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___CONTAINS_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___CONTAINS_OFFSET))(this, a1);
 		}
 
-		::System::Void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo(::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>* a1, ::System::Int32 a2)
+		::System::Void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo(::Il2CppArray<::System::Collections::Generic::KeyValuePair*>* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___COPYTO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Collections::Generic::KeyValuePair*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___COPYTO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove(::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*> a1)
+		::System::Boolean System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove(::System::Collections::Generic::KeyValuePair* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___REMOVE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::KeyValuePair*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_ICOLLECTION_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___REMOVE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>* System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_SYSTEM_STRING_SYSTEM_OBJECT___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
@@ -226,9 +229,9 @@ namespace System::Dynamic
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>* GetExpandoEnumerator(::System::Dynamic::ExpandoObject_ExpandoData* a1, ::System::Int32 a2)
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* GetExpandoEnumerator(::System::Dynamic::ExpandoObject_ExpandoData* a1, ::System::Int32 a2)
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>*(*)(::PVOID, ::System::Dynamic::ExpandoObject_ExpandoData*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_GETEXPANDOENUMERATOR_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID, ::System::Dynamic::ExpandoObject_ExpandoData*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_GETEXPANDOENUMERATOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void System_ComponentModel_INotifyPropertyChanged_add_PropertyChanged(::System::ComponentModel::PropertyChangedEventHandler* a1)
@@ -240,5 +243,6 @@ namespace System::Dynamic
 		{
 			return ((::System::Void(*)(::PVOID, ::System::ComponentModel::PropertyChangedEventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_SYSTEM_COMPONENTMODEL_INOTIFYPROPERTYCHANGED_REMOVE_PROPERTYCHANGED_OFFSET))(this, a1);
 		}
+
 	};
 }

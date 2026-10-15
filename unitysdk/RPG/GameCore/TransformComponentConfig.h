@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TransformComponentConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_METHOD_3_2C3CE1417EF56378_OFFSET UNITYSDK_OFFSET(0x1D5E4D00)
-#define RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_METHOD_3_D5D7832C6C8DCF5D_OFFSET UNITYSDK_OFFSET(0x1D5E4DA0)
-#define RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E4D90)
+#define RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC38760)
+#define RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC38770)
+#define RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC386D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TransformComponentConfig_TypeDefinitionIndex = 16385;
-
 	class TransformComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C3CE1417EF56378(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TransformComponentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TransformComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TransformComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_METHOD_3_2C3CE1417EF56378_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TransformComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D5D7832C6C8DCF5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TransformComponentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TransformComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TransformComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_METHOD_3_D5D7832C6C8DCF5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TransformComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSFORMCOMPONENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

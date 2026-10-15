@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/EngineData.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int Engine_TypeDefinitionIndex = 74033;
-
 	struct alignas(8) Engine
 	{
 		::System::Single Mass; // 0x10

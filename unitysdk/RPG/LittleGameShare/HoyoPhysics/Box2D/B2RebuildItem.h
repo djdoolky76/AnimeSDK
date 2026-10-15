@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2RebuildItem_TypeDefinitionIndex = 36050;
-
 	struct alignas(4) B2RebuildItem
 	{
 		::System::Int32 nodeIndex; // 0x10

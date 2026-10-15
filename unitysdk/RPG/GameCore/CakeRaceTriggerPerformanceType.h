@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTriggerPerformanceType_TypeDefinitionIndex = 11006;
-
 	enum class CakeRaceTriggerPerformanceType : ::System::Int32
 	{
 		RollingToast = 0,

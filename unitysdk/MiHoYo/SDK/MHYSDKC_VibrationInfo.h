@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VibrationInfo_TypeDefinitionIndex = 46622;
-
 	class MHYSDKC_VibrationInfo : public ::System::Object
 	{
 	public:

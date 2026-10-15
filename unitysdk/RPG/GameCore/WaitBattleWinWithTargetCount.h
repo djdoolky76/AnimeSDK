@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitBattleWinWithTargetCount; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_METHOD_3_177826B406D0AC33_OFFSET UNITYSDK_OFFSET(0x1D69FEF0)
-#define RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_METHOD_3_5070C73FCF241A86_OFFSET UNITYSDK_OFFSET(0x1D69FF30)
-#define RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69FF20)
+#define RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC95100)
+#define RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC95110)
+#define RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC950D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBattleWinWithTargetCount_TypeDefinitionIndex = 21021;
-
 	class WaitBattleWinWithTargetCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_177826B406D0AC33(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBattleWinWithTargetCount*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitBattleWinWithTargetCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBattleWinWithTargetCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_METHOD_3_177826B406D0AC33_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitBattleWinWithTargetCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5070C73FCF241A86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitBattleWinWithTargetCount* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitBattleWinWithTargetCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitBattleWinWithTargetCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_METHOD_3_5070C73FCF241A86_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitBattleWinWithTargetCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITBATTLEWINWITHTARGETCOUNT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

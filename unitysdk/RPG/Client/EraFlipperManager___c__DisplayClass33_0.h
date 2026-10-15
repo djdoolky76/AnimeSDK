@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_D8BCA6FA1DEB13B9;
+class KGDADKNPPOL;
 namespace RPG::GameCore { class EraRegion; }
 
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCECAC50)
-#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__ONREGIONVISUALSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xCECC260)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE19740)
+#define RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__ONREGIONVISUALSTATECHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xCE1AD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass33_0_TypeDefinitionIndex = 60610;
-
 	class EraFlipperManager___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:
-		::Class_1_D8BCA6FA1DEB13B9* arg1; // 0x10
-
+		::KGDADKNPPOL* arg1; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _OnRegionVisualStateChange_b__0(::RPG::GameCore::EraRegion* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::EraRegion*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERMANAGER___C__DISPLAYCLASS33_0__ONREGIONVISUALSTATECHANGE_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

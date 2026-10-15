@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ComplexSkillAISource.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAISourceMaxSkillTagWeight; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_METHOD_3_36F499EF44E21080_OFFSET UNITYSDK_OFFSET(0x1CFF4BB0)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_METHOD_3_CFC848DB616F8D0C_OFFSET UNITYSDK_OFFSET(0x1CFF4CB0)
-#define RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF4CA0)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D0A60)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5D0A70)
+#define RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D0970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISourceMaxSkillTagWeight_TypeDefinitionIndex = 15366;
-
 	class ComplexSkillAISourceMaxSkillTagWeight : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:
 		::System::Boolean IsTarget; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_36F499EF44E21080(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_METHOD_3_36F499EF44E21080_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CFC848DB616F8D0C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_METHOD_3_CFC848DB616F8D0C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAISourceMaxSkillTagWeight*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAISOURCEMAXSKILLTAGWEIGHT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesToastStyleType_TypeDefinitionIndex = 18220;
-
 	enum class ChenLingFesToastStyleType : ::System::Int32
 	{
 		None = 0,

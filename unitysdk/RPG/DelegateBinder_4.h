@@ -4,18 +4,17 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int DelegateBinder_4_TypeDefinitionIndex = 6333;
-
-	template <typename TType, typename TBind, typename TParam, typename TResult>
+	template <typename T1, typename T2, typename T3, typename T4>
 	class DelegateBinder_4 : public ::System::Object
 	{
 	public:
-		static TType* StaticGet__tempInst()
+		T2 _bindDelg; // 0x0
+		T3 _resultDelg; // 0x0
+		T4 _t; // 0x0
+		static T1* StaticGet__tempInst()
 		{
-			return (TType*)Il2CppClass::FromTypeDefinitionIndex(DelegateBinder_4_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (T1*)UnitySDK::FromName("RPG", "DelegateBinder`4")->GetStaticField(0x0);
 		}
-		TBind _bindDelg; // 0x0
-		TResult _resultDelg; // 0x0
-		TParam _t; // 0x0
+
 	};
 }

@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_GET_EXTRARATIO_OFFSET UNITYSDK_OFFSET(0x15BB20)
-#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_GET_ISOVERRIDE_OFFSET UNITYSDK_OFFSET(0x15BB30)
-#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15BC00)
-#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x15BAF0)
+#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xF5540)
+#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_GET_EXTRARATIO_OFFSET UNITYSDK_OFFSET(0xF5570)
+#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_GET_ISOVERRIDE_OFFSET UNITYSDK_OFFSET(0xF5580)
+#define RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xF5650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityLinearPropertyWithOverride_TypeDefinitionIndex = 54631;
-
-	struct alignas(8) AbilityLinearPropertyWithOverride
+	struct alignas(4) AbilityLinearPropertyWithOverride
 	{
 		::RPG::GameCore::FixPoint Base; // 0x10
 		::RPG::GameCore::FixPoint AddedRatio; // 0x18
@@ -24,10 +21,9 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint ExtraRatio3; // 0x48
 		::RPG::GameCore::FixPoint ExtraRatio4; // 0x50
 		::RPG::GameCore::FixPoint ExtraRatio5; // 0x58
-
 		::System::Void _ctor(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::RPG::GameCore::FixPoint get_ExtraRatio()
@@ -44,5 +40,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYLINEARPROPERTYWITHOVERRIDE_GET_VALUE_OFFSET))(this);
 		}
+
 	};
 }

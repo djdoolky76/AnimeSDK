@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int NativeOverlapped_TypeDefinitionIndex = 876;
-
-	struct alignas(8) NativeOverlapped
+	struct alignas(4) NativeOverlapped
 	{
 		::System::IntPtr InternalLow; // 0x10
 		::System::IntPtr InternalHigh; // 0x18

@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Security/Cryptography/OidGroup.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFOKEYFROMNAME_OFFSET UNITYSDK_OFFSET(0x1E9E14F0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFONAMEFROMKEY_OFFSET UNITYSDK_OFFSET(0x1E9E0E40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFOKEYFROMNAME_OFFSET UNITYSDK_OFFSET(0x1F0A9050)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFONAMEFROMKEY_OFFSET UNITYSDK_OFFSET(0x1F0A89A0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int CAPI_TypeDefinitionIndex = 2678;
-
 	class CAPI : public ::System::Object
 	{
 	public:
@@ -24,5 +21,6 @@ namespace System::Security::Cryptography
 		{
 			return ((::System::String*(*)(::System::String*, ::System::Security::Cryptography::OidGroup))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CAPI_CRYPTFINDOIDINFOKEYFROMNAME_OFFSET))(a1, a2);
 		}
+
 	};
 }

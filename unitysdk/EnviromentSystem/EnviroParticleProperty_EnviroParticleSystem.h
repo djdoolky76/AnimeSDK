@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnviromentSystem/EnviroParticleProperty_ParticleType.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
@@ -13,11 +11,10 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroParticleProperty_EnviroParticleSystem_TypeDefinitionIndex = 50034;
-
 	struct alignas(8) EnviroParticleProperty_EnviroParticleSystem
 	{
 		::EnviromentSystem::EnviroParticleProperty_ParticleType m_ParticleType; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* m_Name; // 0x18
 		::System::Int32 m_MaxParticle; // 0x20
 		::UnityEngine::Vector2 m_ParticleLifeTimeRange; // 0x24

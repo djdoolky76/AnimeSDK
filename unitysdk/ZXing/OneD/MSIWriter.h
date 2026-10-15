@@ -1,47 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
 #include "unitysdk/ZXing/EncodeHintType.h"
-#include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_MSIWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1EFFBDB0)
-#define ZXING_ONED_MSIWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EFFBD00)
-#define ZXING_ONED_MSIWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFFC500)
-#define ZXING_ONED_MSIWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEF090)
+#define ZXING_ONED_MSIWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C4A40)
+#define ZXING_ONED_MSIWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B7620)
+#define ZXING_ONED_MSIWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F6C42F0)
+#define ZXING_ONED_MSIWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6C4240)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIWriter_TypeDefinitionIndex = 7003;
-
 	class MSIWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0x275B0);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x22D90);
 		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_endWidths()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0x275B8);
-		}
+
 		static ::Il2CppArray<::System::Int32>** StaticGet_startWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(MSIWriter_TypeDefinitionIndex)->GetStaticField(0x275C0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x22D98);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_endWidths()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x22DA0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_ONED_MSIWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_ONED_MSIWRITER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_ONED_MSIWRITER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_ONED_MSIWRITER_CCTOR_OFFSET))();
 		}
 
 		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
@@ -53,5 +52,6 @@ namespace ZXing::OneD
 		{
 			return ((::Il2CppArray<::System::Boolean>*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ZXING_ONED_MSIWRITER_ENCODE_1_OFFSET))(this, a1);
 		}
+
 	};
 }

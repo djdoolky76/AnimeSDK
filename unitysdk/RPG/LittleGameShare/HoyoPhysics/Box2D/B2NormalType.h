@@ -3,8 +3,6 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2NormalType_TypeDefinitionIndex = 36036;
-
 	enum class B2NormalType : ::System::Int32
 	{
 		b2_normalSkip = 0,

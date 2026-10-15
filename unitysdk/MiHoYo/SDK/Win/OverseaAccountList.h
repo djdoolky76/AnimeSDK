@@ -3,11 +3,10 @@
 #include "unitysdk/MiHoYo/SDK/AuthTicketThirdParty.h"
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class OverseaAccountList; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
@@ -15,39 +14,60 @@ namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B8AA3D0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_CHECKACCOUNTLISTDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1B8AC9F0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B8ACBD0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_DELETEACCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1B88B6D0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_DELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B8AC5C0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_HIDE_OFFSET UNITYSDK_OFFSET(0x1B87C3E0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_LOADACCOUNTINFODATA_OFFSET UNITYSDK_OFFSET(0x1B8AB520)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_LOGINOTHERACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B8ACC20)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONACCOUNTSELECTED_OFFSET UNITYSDK_OFFSET(0x1B8AC0E0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONCOLLAPSELIST_OFFSET UNITYSDK_OFFSET(0x1B8AC010)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONCONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1B8ACBF0)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONDELETEBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1B8AC480)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B8ACC40)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONNOTICEEXPANDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1B8ABF40)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_SHOW_OFFSET UNITYSDK_OFFSET(0x1B871780)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_START_OFFSET UNITYSDK_OFFSET(0x1B8AB180)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_UPDATECURRENTACCOUNTICON_OFFSET UNITYSDK_OFFSET(0x1B8AC350)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_UPDATEDROPDOWNTITLE_OFFSET UNITYSDK_OFFSET(0x1B8ABD80)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B8AB360)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8ACC60)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST__ONDELETEBUTTONCLICKED_B__48_0_OFFSET UNITYSDK_OFFSET(0x1B8ACCA0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDA6440)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_CHECKACCOUNTLISTDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BDA8D00)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BDA8EE0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA8F70)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_DELETEACCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1BD87630)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_DELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BDA8940)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD783B0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_LOADACCOUNTINFODATA_OFFSET UNITYSDK_OFFSET(0x1BDA78A0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_LOGINOTHERACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BDA8F30)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONACCOUNTSELECTED_OFFSET UNITYSDK_OFFSET(0x1BDA8460)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONCOLLAPSELIST_OFFSET UNITYSDK_OFFSET(0x1BDA8390)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONCONFIRMBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BDA8F00)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONDELETEBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BDA8800)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDA8F50)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_ONNOTICEEXPANDDROPDOWN_OFFSET UNITYSDK_OFFSET(0x1BDA82C0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD6D760)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_START_OFFSET UNITYSDK_OFFSET(0x1BDA7470)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_UPDATECURRENTACCOUNTICON_OFFSET UNITYSDK_OFFSET(0x1BDA86D0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_UPDATEDROPDOWNTITLE_OFFSET UNITYSDK_OFFSET(0x1BDA8100)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BDA7650)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST__ONDELETEBUTTONCLICKED_B__48_0_OFFSET UNITYSDK_OFFSET(0x1BDA8FB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAccountList_TypeDefinitionIndex = 9243;
-
 	class OverseaAccountList : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::UnityEngine::UI::Button* closeButton; // 0x58
+		::UnityEngine::UI::Button* enterGameButton; // 0x60
+		::UnityEngine::UI::Text* enterGameButtonText; // 0x68
+		::UnityEngine::UI::Button* loginOtherAccountButton; // 0x70
+		::UnityEngine::UI::Text* loginOtherAccountButtonText; // 0x78
+		::UnityEngine::UI::Dropdown* accountListDropdown; // 0x80
+		::UnityEngine::UI::Text* showText; // 0x88
+		::UnityEngine::UI::Image* expandButtonImage; // 0x90
+		::UnityEngine::UI::Image* collapseButtonImage; // 0x98
+		::UnityEngine::UI::Image* expandBackgroundImage; // 0xA0
+		::UnityEngine::UI::Image* collapseBackgroundImage; // 0xA8
+		::UnityEngine::UI::Button* deleteButton; // 0xB0
+		::System::Action* OnClose; // 0xB8
+		::System::Action* OnConfirm; // 0xC0
+		::System::Action* OnLoginOtherAccount; // 0xC8
+		::System::Action* OnDeleteAccount; // 0xD0
+		::System::Action* OnDeleteAccountRecord; // 0xD8
+		::System::Action* OnSelectAccount; // 0xE0
+		::System::Action* OnClickLastButton; // 0xE8
+		::MiHoYo::SDK::AccountModel* currentAccount; // 0xF0
+		::UnityEngine::UI::Image* currentAccountIcon; // 0xF8
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::AccountModel*>* currentAccountList; // 0x100
 		static ::MiHoYo::SDK::Win::OverseaAccountList** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::OverseaAccountList**)Il2CppClass::FromTypeDefinitionIndex(OverseaAccountList_TypeDefinitionIndex)->GetStaticField(0x249C0);
+			return (::MiHoYo::SDK::Win::OverseaAccountList**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAccountList")->GetStaticField(0x18640);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* CloseButtonPath; // 0x0
 		// static const ::System::String* DropDownPath; // 0x0
@@ -63,32 +83,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* LoginButtonTextPath; // 0x0
 		// static const ::System::String* LoginOtherAccountButtonPath; // 0x0
 		// static const ::System::String* LoginAccountButtonTextPath; // 0x0
-		::UnityEngine::UI::Button* closeButton; // 0x58
-		::UnityEngine::UI::Button* enterGameButton; // 0x60
-		::UnityEngine::UI::Text* enterGameButtonText; // 0x68
-		::UnityEngine::UI::Button* loginOtherAccountButton; // 0x70
-		::UnityEngine::UI::Text* loginOtherAccountButtonText; // 0x78
-		::UnityEngine::UI::Dropdown* accountListDropdown; // 0x80
-		::UnityEngine::UI::Text* showText; // 0x88
-		::UnityEngine::UI::Image* expandButtonImage; // 0x90
-		::UnityEngine::UI::Image* collapseButtonImage; // 0x98
-		::UnityEngine::UI::Image* expandBackgroundImage; // 0xA0
-		::UnityEngine::UI::Image* collapseBackgroundImage; // 0xA8
-		::UnityEngine::UI::Button* deleteButton; // 0xB0
-		::System::Action* OnClose; // 0xB8
-		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnConfirm; // 0xC0
-		::System::Action* OnLoginOtherAccount; // 0xC8
-		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnDeleteAccount; // 0xD0
-		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnDeleteAccountRecord; // 0xD8
-		::System::Action_1<::MiHoYo::SDK::AccountModel*>* OnSelectAccount; // 0xE0
-		::System::Action* OnClickLastButton; // 0xE8
-		::MiHoYo::SDK::AccountModel* currentAccount; // 0xF0
-		::UnityEngine::UI::Image* currentAccountIcon; // 0xF8
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::AccountModel*>* currentAccountList; // 0x100
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -190,5 +187,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST__ONDELETEBUTTONCLICKED_B__48_0_OFFSET))(this, a1);
 		}
+
 	};
 }

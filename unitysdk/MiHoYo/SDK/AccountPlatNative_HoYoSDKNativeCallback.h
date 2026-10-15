@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB1AF970)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB1AF9D0)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xB1AF960)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB1AF8F0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF55D20)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xAF55CA0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF55D80)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF55D10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative_HoYoSDKNativeCallback_TypeDefinitionIndex = 46538;
-
 	class AccountPlatNative_HoYoSDKNativeCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNATIVECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

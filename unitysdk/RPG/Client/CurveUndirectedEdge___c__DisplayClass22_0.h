@@ -2,19 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ECurveEdgePoint.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CurveUndirectedEdge; }
 namespace RPG::Client { class CurveUndirectedEdgeConnection; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC89E70)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__0_OFFSET UNITYSDK_OFFSET(0xCC8ACE0)
-#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__1_OFFSET UNITYSDK_OFFSET(0xCC8B210)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDD3F0)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__0_OFFSET UNITYSDK_OFFSET(0xCBDE260)
+#define RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__1_OFFSET UNITYSDK_OFFSET(0xCBDE790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CurveUndirectedEdge___c__DisplayClass22_0_TypeDefinitionIndex = 68536;
-
 	class CurveUndirectedEdge___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
@@ -22,10 +19,9 @@ namespace RPG::Client
 		::RPG::Client::CurveUndirectedEdge* __4__this; // 0x18
 		::RPG::Client::ECurveEdgePoint point; // 0x20
 		::System::Boolean isConnect; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _SetAllConnection_b__0(::RPG::Client::CurveUndirectedEdgeConnection* a1)
@@ -37,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdgeConnection*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CURVEUNDIRECTEDEDGE___C__DISPLAYCLASS22_0__SETALLCONNECTION_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

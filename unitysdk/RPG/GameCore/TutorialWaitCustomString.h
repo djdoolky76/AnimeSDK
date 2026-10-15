@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/WaitCustomString.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TutorialWaitCustomString; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_METHOD_4_58A38EA2809AAAF4_OFFSET UNITYSDK_OFFSET(0x1D61A760)
-#define RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_METHOD_4_917E24E6B202F7F5_OFFSET UNITYSDK_OFFSET(0x1D61A7B0)
-#define RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61A7A0)
+#define RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6EA00)
+#define RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6EA10)
+#define RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6E9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialWaitCustomString_TypeDefinitionIndex = 24097;
-
 	class TutorialWaitCustomString : public ::RPG::GameCore::WaitCustomString
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_58A38EA2809AAAF4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialWaitCustomString*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialWaitCustomString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialWaitCustomString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_METHOD_4_58A38EA2809AAAF4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialWaitCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_917E24E6B202F7F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialWaitCustomString* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialWaitCustomString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialWaitCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_METHOD_4_917E24E6B202F7F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialWaitCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALWAITCUSTOMSTRING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/MiHoYoSDKUniWebViewMessage.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
+#include "unitysdk/MiHoYo/SDK/MiHoYoSDKUniWebViewMessage.h"
 namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xDDF1570)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xDDF15F0)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xDDEC140)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xDDF1480)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xDE3F740)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xDE3F650)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xDE3F7C0)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xDE3A350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager__BaseUniWebViewMessageHandler_TypeDefinitionIndex = 61182;
-
 	class RPGSDKAccountManager__BaseUniWebViewMessageHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::MiHoYoSDKWebView* a1, ::MiHoYo::SDK::MiHoYoSDKUniWebViewMessage a2)
@@ -39,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGSDKACCOUNTMANAGER__BASEUNIWEBVIEWMESSAGEHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

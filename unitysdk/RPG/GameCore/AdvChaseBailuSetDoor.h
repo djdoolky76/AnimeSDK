@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvChaseBailuSetDoor; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVCHASEBAILUSETDOOR_METHOD_3_2F085F441B4B7A18_OFFSET UNITYSDK_OFFSET(0x1CDC4BA0)
-#define RPG_GAMECORE_ADVCHASEBAILUSETDOOR_METHOD_3_607243DD6713F869_OFFSET UNITYSDK_OFFSET(0x1CDC4B60)
-#define RPG_GAMECORE_ADVCHASEBAILUSETDOOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC4B90)
+#define RPG_GAMECORE_ADVCHASEBAILUSETDOOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39A1D0)
+#define RPG_GAMECORE_ADVCHASEBAILUSETDOOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39A1E0)
+#define RPG_GAMECORE_ADVCHASEBAILUSETDOOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39A1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvChaseBailuSetDoor_TypeDefinitionIndex = 21981;
-
 	class AdvChaseBailuSetDoor : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Int32 DoorIndex; // 0x18
 		::System::Boolean Open; // 0x1C
 		::System::Boolean Inverse; // 0x1D
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILUSETDOOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILUSETDOOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_607243DD6713F869(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvChaseBailuSetDoor*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvChaseBailuSetDoor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvChaseBailuSetDoor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILUSETDOOR_METHOD_3_607243DD6713F869_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvChaseBailuSetDoor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILUSETDOOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2F085F441B4B7A18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvChaseBailuSetDoor* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvChaseBailuSetDoor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvChaseBailuSetDoor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILUSETDOOR_METHOD_3_2F085F441B4B7A18_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvChaseBailuSetDoor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILUSETDOOR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

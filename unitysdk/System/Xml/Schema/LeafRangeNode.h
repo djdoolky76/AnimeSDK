@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Xml/Schema/LeafNode.h"
-
+#include "unitysdk/System/Decimal.h"
 namespace System::Xml::Schema { class BitSet; }
 
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1E7F6AE0)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1E7F6AF0)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x1E7F6B00)
-#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x1E7F6B10)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1EEBF7C0)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1EEBF7D0)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x1EEBF7E0)
+#define SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET UNITYSDK_OFFSET(0x1EEBF7F0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int LeafRangeNode_TypeDefinitionIndex = 2078;
-
 	class LeafRangeNode : public ::System::Xml::Schema::LeafNode
 	{
 	public:
 		::System::Xml::Schema::BitSet* nextIteration; // 0x18
 		::System::Decimal max; // 0x20
 		::System::Decimal min; // 0x30
-
 		::System::Decimal get_Max()
 		{
 			return ((::System::Decimal(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_LEAFRANGENODE_GET_MAX_OFFSET))(this);
@@ -40,5 +36,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::BitSet*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_LEAFRANGENODE_SET_NEXTITERATION_OFFSET))(this, a1);
 		}
+
 	};
 }

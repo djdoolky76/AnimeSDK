@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Buffers/ReadOnlySequence_1.h"
-#include "unitysdk/System/ValueType.h"
+namespace System::Buffers { class ReadOnlySequence; }
 
-#define MESSAGEPACK_EXTENSIONRESULT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x2E245F0)
-#define MESSAGEPACK_EXTENSIONRESULT_SET_DATA_OFFSET UNITYSDK_OFFSET(0x3B58F20)
-#define MESSAGEPACK_EXTENSIONRESULT_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x14E860)
-#define MESSAGEPACK_EXTENSIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x3B58EF0)
+#define MESSAGEPACK_EXTENSIONRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C0D900)
+#define MESSAGEPACK_EXTENSIONRESULT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x2EB1120)
+#define MESSAGEPACK_EXTENSIONRESULT_SET_DATA_OFFSET UNITYSDK_OFFSET(0x3C0D930)
+#define MESSAGEPACK_EXTENSIONRESULT_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0xE7630)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int ExtensionResult_TypeDefinitionIndex = 7107;
-
 	struct alignas(8) ExtensionResult
 	{
 		::System::SByte _TypeCode_k__BackingField; // 0x10
-		::System::Buffers::ReadOnlySequence_1<::System::Byte> _Data_k__BackingField; // 0x18
-
-		::System::Void _ctor(::System::SByte a1, ::System::Buffers::ReadOnlySequence_1<::System::Byte> a2)
+		::System::Byte _padding0[0x7];
+		::System::Buffers::ReadOnlySequence* _Data_k__BackingField; // 0x18
+		::System::Void _ctor(::System::SByte a1, ::System::Buffers::ReadOnlySequence* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::SByte, ::System::Buffers::ReadOnlySequence_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_EXTENSIONRESULT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::SByte, ::System::Buffers::ReadOnlySequence*))((::PBYTE)hIl2Cpp + MESSAGEPACK_EXTENSIONRESULT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void set_TypeCode(::System::SByte a1)
@@ -27,14 +24,15 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID, ::System::SByte))((::PBYTE)hIl2Cpp + MESSAGEPACK_EXTENSIONRESULT_SET_TYPECODE_OFFSET))(this, a1);
 		}
 
-		::System::Buffers::ReadOnlySequence_1<::System::Byte> get_Data()
+		::System::Buffers::ReadOnlySequence* get_Data()
 		{
-			return ((::System::Buffers::ReadOnlySequence_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_EXTENSIONRESULT_GET_DATA_OFFSET))(this);
+			return ((::System::Buffers::ReadOnlySequence*(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_EXTENSIONRESULT_GET_DATA_OFFSET))(this);
 		}
 
-		::System::Void set_Data(::System::Buffers::ReadOnlySequence_1<::System::Byte> a1)
+		::System::Void set_Data(::System::Buffers::ReadOnlySequence* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Buffers::ReadOnlySequence_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_EXTENSIONRESULT_SET_DATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Buffers::ReadOnlySequence*))((::PBYTE)hIl2Cpp + MESSAGEPACK_EXTENSIONRESULT_SET_DATA_OFFSET))(this, a1);
 		}
+
 	};
 }

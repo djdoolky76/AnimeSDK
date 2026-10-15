@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_LODGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class LODGroup; }
 
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4B08A0)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4B09C0)
-#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B0860)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B28D0)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B29F0)
+#define HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B2890)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_LODGroup_Extensions_TypeDefinitionIndex = 39414;
-
 	class Test_LODGroup_Extensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_LODGroup*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::LODGroup*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_LODGROUP_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

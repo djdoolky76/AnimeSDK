@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class Test_Mesh; }
 namespace UnityEngine { class Mesh; }
 
-#define HOUDINIENGINEUNITY_TEST_MESH_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B4B11F0)
-#define HOUDINIENGINEUNITY_TEST_MESH_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B4B11D0)
-#define HOUDINIENGINEUNITY_TEST_MESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B11C0)
+#define HOUDINIENGINEUNITY_TEST_MESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B31F0)
+#define HOUDINIENGINEUNITY_TEST_MESH_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B3220)
+#define HOUDINIENGINEUNITY_TEST_MESH_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9B3200)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Mesh_TypeDefinitionIndex = 39437;
-
 	class Test_Mesh : public ::System::Object
 	{
 	public:
 		::UnityEngine::Mesh* self; // 0x10
-
 		::System::Void _ctor(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_MESH__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_MESH_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNull()
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_Mesh*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_MESH_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

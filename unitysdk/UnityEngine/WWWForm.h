@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class Encoding; }
 
-#define UNITYENGINE_WWWFORM_ADDBINARYDATA_1_OFFSET UNITYSDK_OFFSET(0x1EEA1430)
-#define UNITYENGINE_WWWFORM_ADDBINARYDATA_OFFSET UNITYSDK_OFFSET(0x1EEA1410)
-#define UNITYENGINE_WWWFORM_ADDFIELD_1_OFFSET UNITYSDK_OFFSET(0x1EEA10F0)
-#define UNITYENGINE_WWWFORM_ADDFIELD_OFFSET UNITYSDK_OFFSET(0x1EEA10C0)
-#define UNITYENGINE_WWWFORM_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1EE9D890)
-#define UNITYENGINE_WWWFORM_GET_DEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x1EEA0D90)
-#define UNITYENGINE_WWWFORM_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1EE9FC60)
-#define UNITYENGINE_WWWFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA0FA0)
+#define UNITYENGINE_WWWFORM_ADDBINARYDATA_1_OFFSET UNITYSDK_OFFSET(0x1F568FE0)
+#define UNITYENGINE_WWWFORM_ADDBINARYDATA_OFFSET UNITYSDK_OFFSET(0x1F568FC0)
+#define UNITYENGINE_WWWFORM_ADDFIELD_1_OFFSET UNITYSDK_OFFSET(0x1F568CA0)
+#define UNITYENGINE_WWWFORM_ADDFIELD_OFFSET UNITYSDK_OFFSET(0x1F568C70)
+#define UNITYENGINE_WWWFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F568B50)
+#define UNITYENGINE_WWWFORM_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1F565440)
+#define UNITYENGINE_WWWFORM_GET_DEFAULTENCODING_OFFSET UNITYSDK_OFFSET(0x1F568940)
+#define UNITYENGINE_WWWFORM_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1F567810)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WWWForm_TypeDefinitionIndex = 5344;
-
 	class WWWForm : public ::System::Object
 	{
 	public:
@@ -29,10 +26,9 @@ namespace UnityEngine
 		::System::Collections::Generic::List_1<::System::String*>* types; // 0x28
 		::Il2CppArray<::System::Byte>* boundary; // 0x30
 		::System::Boolean containsFiles; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_WWWFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_WWWFORM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Text::Encoding* get_DefaultEncoding()
@@ -69,5 +65,6 @@ namespace UnityEngine
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_WWWFORM_GET_DATA_OFFSET))(this);
 		}
+
 	};
 }

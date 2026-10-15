@@ -2,49 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Sockets/AddressFamily.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net { class IPAddress; }
 namespace System::Net { class IPEndPoint; }
 
-#define SYSTEM_NET_SOCKETADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E9B39F0)
-#define SYSTEM_NET_SOCKETADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E9B3AA0)
-#define SYSTEM_NET_SOCKETADDRESS_GETIPADDRESS_OFFSET UNITYSDK_OFFSET(0x1E9B36E0)
-#define SYSTEM_NET_SOCKETADDRESS_GETIPENDPOINT_OFFSET UNITYSDK_OFFSET(0x1E9B3980)
-#define SYSTEM_NET_SOCKETADDRESS_GET_FAMILY_OFFSET UNITYSDK_OFFSET(0x1E9B31B0)
-#define SYSTEM_NET_SOCKETADDRESS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E9B31F0)
-#define SYSTEM_NET_SOCKETADDRESS_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1E9B31E0)
-#define SYSTEM_NET_SOCKETADDRESS_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E9B3270)
-#define SYSTEM_NET_SOCKETADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B3E70)
-#define SYSTEM_NET_SOCKETADDRESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9B33A0)
-#define SYSTEM_NET_SOCKETADDRESS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E9B3690)
-#define SYSTEM_NET_SOCKETADDRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B3300)
+#define SYSTEM_NET_SOCKETADDRESS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F07BAE0)
+#define SYSTEM_NET_SOCKETADDRESS_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F07BDD0)
+#define SYSTEM_NET_SOCKETADDRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07BA40)
+#define SYSTEM_NET_SOCKETADDRESS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F07C1B0)
+#define SYSTEM_NET_SOCKETADDRESS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F07C2A0)
+#define SYSTEM_NET_SOCKETADDRESS_GETIPADDRESS_OFFSET UNITYSDK_OFFSET(0x1F07BE20)
+#define SYSTEM_NET_SOCKETADDRESS_GETIPENDPOINT_OFFSET UNITYSDK_OFFSET(0x1F07C140)
+#define SYSTEM_NET_SOCKETADDRESS_GET_FAMILY_OFFSET UNITYSDK_OFFSET(0x1F07B930)
+#define SYSTEM_NET_SOCKETADDRESS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F07B970)
+#define SYSTEM_NET_SOCKETADDRESS_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1F07B960)
+#define SYSTEM_NET_SOCKETADDRESS_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F07B9D0)
+#define SYSTEM_NET_SOCKETADDRESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F07C670)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int SocketAddress_TypeDefinitionIndex = 2756;
-
 	class SocketAddress : public ::System::Object
 	{
 	public:
 		::System::Int32 m_Size; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Byte>* m_Buffer; // 0x18
 		::System::Boolean m_changed; // 0x20
+		::System::Byte _padding1[0x3];
 		::System::Int32 m_hash; // 0x24
-
 		::System::Void _ctor(::System::Net::Sockets::AddressFamily a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::AddressFamily, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETADDRESS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::AddressFamily, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETADDRESS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Net::IPAddress* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETADDRESS__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETADDRESS_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Net::IPAddress* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETADDRESS__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETADDRESS_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::Sockets::AddressFamily get_Family()
@@ -91,5 +90,6 @@ namespace System::Net
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETADDRESS_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,25 +3,22 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE850DE0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE850EE0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE850D70)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE850FB0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8EEFC0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8EF0C0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EF190)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8EEF50)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionTimelineTrack_TypeDefinitionIndex = 49220;
-
 	class EmoDiscussionTimelineTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
@@ -38,5 +35,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONTIMELINETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

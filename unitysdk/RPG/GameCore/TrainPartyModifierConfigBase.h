@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyModifierConfigBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_METHOD_2_93C723EBE3F25975_OFFSET UNITYSDK_OFFSET(0x1D5DE690)
-#define RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_METHOD_2_A759DCDDDD025EAC_OFFSET UNITYSDK_OFFSET(0x1D5DEC10)
-#define RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DE440)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31E10)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC325E0)
+#define RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC32060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyModifierConfigBase_TypeDefinitionIndex = 17882;
-
 	class TrainPartyModifierConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_93C723EBE3F25975(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyModifierConfigBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyModifierConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyModifierConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_METHOD_2_93C723EBE3F25975_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyModifierConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_A759DCDDDD025EAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyModifierConfigBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyModifierConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyModifierConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_METHOD_2_A759DCDDDD025EAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyModifierConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMODIFIERCONFIGBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

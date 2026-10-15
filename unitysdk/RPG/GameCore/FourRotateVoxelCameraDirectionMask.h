@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelCameraDirectionMask_TypeDefinitionIndex = 16557;
-
 	enum class FourRotateVoxelCameraDirectionMask : ::System::Int32
 	{
 		None = 0,

@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC8550)
-#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC8580)
-#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC8540)
-#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC84D0)
+#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD3060)
+#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD2FE0)
+#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD3090)
+#define MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD3050)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_GetRamRemainDelegate_TypeDefinitionIndex = 7745;
-
 	class SDKDelegate_GetRamRemainDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Double Invoke()
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Double(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETRAMREMAINDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

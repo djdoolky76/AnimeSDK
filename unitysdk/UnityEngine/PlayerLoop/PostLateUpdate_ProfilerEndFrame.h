@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_ProfilerEndFrame_TypeDefinitionIndex = 4662;
-
-	struct alignas(1) PostLateUpdate_ProfilerEndFrame
+	struct alignas(4) PostLateUpdate_ProfilerEndFrame
 	{
 	};
 }

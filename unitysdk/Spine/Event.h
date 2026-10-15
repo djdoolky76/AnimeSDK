@@ -1,43 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class EventData; }
 namespace System { class String; }
 
-#define SPINE_EVENT_GET_BALANCE_OFFSET UNITYSDK_OFFSET(0x1E5DB270)
-#define SPINE_EVENT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1E5DB1D0)
-#define SPINE_EVENT_GET_FLOAT_OFFSET UNITYSDK_OFFSET(0x1E5DB210)
-#define SPINE_EVENT_GET_INT_OFFSET UNITYSDK_OFFSET(0x1E5DB1F0)
-#define SPINE_EVENT_GET_STRING_OFFSET UNITYSDK_OFFSET(0x1E5DB230)
-#define SPINE_EVENT_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1E5DB1E0)
-#define SPINE_EVENT_GET_VOLUME_OFFSET UNITYSDK_OFFSET(0x1E5DB250)
-#define SPINE_EVENT_SET_BALANCE_OFFSET UNITYSDK_OFFSET(0x1E5DB280)
-#define SPINE_EVENT_SET_FLOAT_OFFSET UNITYSDK_OFFSET(0x1E5DB220)
-#define SPINE_EVENT_SET_INT_OFFSET UNITYSDK_OFFSET(0x1E5DB200)
-#define SPINE_EVENT_SET_STRING_OFFSET UNITYSDK_OFFSET(0x1E5DB240)
-#define SPINE_EVENT_SET_VOLUME_OFFSET UNITYSDK_OFFSET(0x1E5DB260)
-#define SPINE_EVENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5DB320)
-#define SPINE_EVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DB290)
+#define SPINE_EVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA3430)
+#define SPINE_EVENT_GET_BALANCE_OFFSET UNITYSDK_OFFSET(0x1ECA3410)
+#define SPINE_EVENT_GET_DATA_OFFSET UNITYSDK_OFFSET(0x1ECA3370)
+#define SPINE_EVENT_GET_FLOAT_OFFSET UNITYSDK_OFFSET(0x1ECA33B0)
+#define SPINE_EVENT_GET_INT_OFFSET UNITYSDK_OFFSET(0x1ECA3390)
+#define SPINE_EVENT_GET_STRING_OFFSET UNITYSDK_OFFSET(0x1ECA33D0)
+#define SPINE_EVENT_GET_TIME_OFFSET UNITYSDK_OFFSET(0x1ECA3380)
+#define SPINE_EVENT_GET_VOLUME_OFFSET UNITYSDK_OFFSET(0x1ECA33F0)
+#define SPINE_EVENT_SET_BALANCE_OFFSET UNITYSDK_OFFSET(0x1ECA3420)
+#define SPINE_EVENT_SET_FLOAT_OFFSET UNITYSDK_OFFSET(0x1ECA33C0)
+#define SPINE_EVENT_SET_INT_OFFSET UNITYSDK_OFFSET(0x1ECA33A0)
+#define SPINE_EVENT_SET_STRING_OFFSET UNITYSDK_OFFSET(0x1ECA33E0)
+#define SPINE_EVENT_SET_VOLUME_OFFSET UNITYSDK_OFFSET(0x1ECA3400)
+#define SPINE_EVENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ECA34C0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Event_TypeDefinitionIndex = 38371;
-
 	class Event : public ::System::Object
 	{
 	public:
-		::Spine::EventData* data; // 0x10
-		::System::String* stringValue; // 0x18
+		::System::String* stringValue; // 0x10
+		::Spine::EventData* data; // 0x18
 		::System::Int32 intValue; // 0x20
 		::System::Single time; // 0x24
-		::System::Single volume; // 0x28
-		::System::Single balance; // 0x2C
+		::System::Single balance; // 0x28
+		::System::Single volume; // 0x2C
 		::System::Single floatValue; // 0x30
-
 		::System::Void _ctor(::System::Single a1, ::Spine::EventData* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::Spine::EventData*))((::PBYTE)hIl2Cpp + SPINE_EVENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::Spine::EventData*))((::PBYTE)hIl2Cpp + SPINE_EVENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Spine::EventData* get_Data()
@@ -104,5 +100,6 @@ namespace Spine
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_EVENT_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9744E0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B974510)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B95AEE0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B974470)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE73E70)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE73E00)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE73EA0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE5A870)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager_HoYoPassEventHandler_TypeDefinitionIndex = 8260;
-
 	class LoginManager_HoYoPassEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

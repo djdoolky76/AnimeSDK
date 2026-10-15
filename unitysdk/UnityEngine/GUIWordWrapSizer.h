@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/GUILayoutEntry.h"
-
 namespace UnityEngine { class GUIContent; }
 namespace UnityEngine { class GUILayoutOption; }
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUIWORDWRAPSIZER_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1ED9A630)
-#define UNITYENGINE_GUIWORDWRAPSIZER_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1ED9A580)
-#define UNITYENGINE_GUIWORDWRAPSIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED948D0)
+#define UNITYENGINE_GUIWORDWRAPSIZER_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F462DE0)
+#define UNITYENGINE_GUIWORDWRAPSIZER_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1F462D30)
+#define UNITYENGINE_GUIWORDWRAPSIZER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F45D0B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIWordWrapSizer_TypeDefinitionIndex = 5184;
-
 	class GUIWordWrapSizer : public ::UnityEngine::GUILayoutEntry
 	{
 	public:
 		::UnityEngine::GUIContent* m_Content; // 0x48
 		::System::Single m_ForcedMinHeight; // 0x50
 		::System::Single m_ForcedMaxHeight; // 0x54
-
 		::System::Void _ctor(::UnityEngine::GUIStyle* a1, ::UnityEngine::GUIContent* a2, ::Il2CppArray<::UnityEngine::GUILayoutOption*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIContent*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUIWORDWRAPSIZER__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GUIStyle*, ::UnityEngine::GUIContent*, ::Il2CppArray<::UnityEngine::GUILayoutOption*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_GUIWORDWRAPSIZER_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void CalcWidth()
@@ -35,5 +31,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUIWORDWRAPSIZER_CALCHEIGHT_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightManager_GridFightCustomValue_ValueClassify_TypeDefinitionIndex = 56361;
-
 	enum class GridFightManager_GridFightCustomValue_ValueClassify : ::System::Int32
 	{
 		Default = 0,

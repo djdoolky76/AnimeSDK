@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityVisibleReason_TypeDefinitionIndex = 24242;
-
 	enum class EntityVisibleReason : ::System::Int32
 	{
 		Task = 0,

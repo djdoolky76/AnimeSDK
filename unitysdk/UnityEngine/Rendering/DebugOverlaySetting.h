@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/EDebugRT.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugOverlaySetting_TypeDefinitionIndex = 4815;
-
 	struct alignas(4) DebugOverlaySetting
 	{
 		::UnityEngine::Rendering::EDebugRT debugID; // 0x10

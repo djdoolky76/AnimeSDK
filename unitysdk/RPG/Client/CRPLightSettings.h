@@ -3,15 +3,12 @@
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CRPSSGIQualitySettings; }
 
-#define RPG_CLIENT_CRPLIGHTSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC97F7C0)
+#define RPG_CLIENT_CRPLIGHTSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CDB90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPLightSettings_TypeDefinitionIndex = 67926;
-
 	class CRPLightSettings : public ::System::Object
 	{
 	public:
@@ -20,13 +17,15 @@ namespace RPG::Client
 		::System::Int32 MaxLightCountForEngine; // 0x18
 		::System::Int32 MaxLightCountForScript; // 0x1C
 		::System::Boolean UseAO; // 0x20
+		::System::Byte _padding0[0x3];
 		::RPG::CustomRP::Quality AOQuality; // 0x24
 		::System::Boolean EnableHalfAmbientRT; // 0x28
+		::System::Byte _padding1[0x7];
 		::RPG::Client::CRPSSGIQualitySettings* SSGI; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLIGHTSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPLIGHTSETTINGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

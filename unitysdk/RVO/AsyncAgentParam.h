@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RVO
 {
-	inline static constexpr unsigned int AsyncAgentParam_TypeDefinitionIndex = 44898;
-
 	struct alignas(4) AsyncAgentParam
 	{
 		::UnityEngine::Vector3 Position; // 0x10

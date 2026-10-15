@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class Test_MeshFilter; }
 namespace UnityEngine { class MeshFilter; }
 
-#define HOUDINIENGINEUNITY_TEST_MESHFILTER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B4B1F20)
-#define HOUDINIENGINEUNITY_TEST_MESHFILTER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B4B1F00)
-#define HOUDINIENGINEUNITY_TEST_MESHFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B1EF0)
+#define HOUDINIENGINEUNITY_TEST_MESHFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B3F20)
+#define HOUDINIENGINEUNITY_TEST_MESHFILTER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B3F50)
+#define HOUDINIENGINEUNITY_TEST_MESHFILTER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9B3F30)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_MeshFilter_TypeDefinitionIndex = 39443;
-
 	class Test_MeshFilter : public ::System::Object
 	{
 	public:
 		::UnityEngine::MeshFilter* self; // 0x10
-
 		::System::Void _ctor(::UnityEngine::MeshFilter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_MESHFILTER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_MESHFILTER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNull()
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_MeshFilter*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_MESHFILTER_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

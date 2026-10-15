@@ -2,35 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AvatarAtlasRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE35530)
-#define RPG_GAMECORE_AVATARATLASROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE35D50)
+#define RPG_GAMECORE_AVATARATLASROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40C0F0)
+#define RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D40B8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarAtlasRow_TypeDefinitionIndex = 12611;
-
 	class AvatarAtlasRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID CV_EN; // 0x10
-		::RPG::Client::TextID CV_CN; // 0x20
+		::System::UInt32 CampID; // 0x10
+		::System::Boolean DefaultUnlock; // 0x14
+		::System::Byte _padding0[0x3];
+		::RPG::Client::TextID CV_EN; // 0x18
+		::System::UInt32 AvatarID; // 0x28
+		::System::Byte _padding1[0x4];
 		::RPG::Client::TextID CV_KR; // 0x30
-		::RPG::Client::TextID CV_JP; // 0x40
-		::System::UInt32 CampID; // 0x50
-		::System::Boolean DefaultUnlock; // 0x54
-		::System::UInt32 AvatarID; // 0x58
-
+		::RPG::Client::TextID CV_CN; // 0x40
+		::RPG::Client::TextID CV_JP; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARATLASROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARATLASROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvatarAtlasRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::AvatarAtlasRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvatarAtlasRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AvatarAtlasRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

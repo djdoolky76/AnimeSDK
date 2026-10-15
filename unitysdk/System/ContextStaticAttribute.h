@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_CONTEXTSTATICATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC8A340)
+#define SYSTEM_CONTEXTSTATICATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C196240)
 
 namespace System
 {
-	inline static constexpr unsigned int ContextStaticAttribute_TypeDefinitionIndex = 220;
-
 	class ContextStaticAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONTEXTSTATICATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONTEXTSTATICATTRIBUTE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

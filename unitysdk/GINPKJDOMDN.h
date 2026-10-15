@@ -1,0 +1,293 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/HCLPKMIIANI.h"
+#include "unitysdk/RPG/GameCore/PuzzleCustomEvent.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class EKFMIDBJDIA;
+class FDPALAEIHPB;
+class IAJLHKIHBFB;
+class KEGNPEGPLPM;
+class NEOFCBFKJNA;
+class PAGLJLCBBAK;
+class PEMFMPIPNJN;
+namespace RPG::Client { class AchievementData; }
+namespace RPG::Client { class LuaUIController; }
+namespace RPG::GameCore { class TRFCameraComponentConfig; }
+namespace RPG::GameCore { class TimeRelayFlameGameConfig; }
+namespace System { class Nullable; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define GINPKJDOMDN_ABNPEBNMLLL_OFFSET UNITYSDK_OFFSET(0x15A49900)
+#define GINPKJDOMDN_AMMAIKILABM_OFFSET UNITYSDK_OFFSET(0x15A4BBD0)
+#define GINPKJDOMDN_BIIELHKEJLC_OFFSET UNITYSDK_OFFSET(0x15A4B4A0)
+#define GINPKJDOMDN_BJGJNIMPNMP_OFFSET UNITYSDK_OFFSET(0x15A4B9E0)
+#define GINPKJDOMDN_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A4C0F0)
+#define GINPKJDOMDN_CDJLEGNMCPN_OFFSET UNITYSDK_OFFSET(0x15A4A340)
+#define GINPKJDOMDN_CICCANLFJEB_OFFSET UNITYSDK_OFFSET(0x15A4B580)
+#define GINPKJDOMDN_COOGLDNKAIO_OFFSET UNITYSDK_OFFSET(0x15A4B950)
+#define GINPKJDOMDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4BF50)
+#define GINPKJDOMDN_DBBNNKGAPIE_OFFSET UNITYSDK_OFFSET(0x15A4BC70)
+#define GINPKJDOMDN_DCJBEPHAIEP_OFFSET UNITYSDK_OFFSET(0x15A4B250)
+#define GINPKJDOMDN_DJHECJHLBEG_OFFSET UNITYSDK_OFFSET(0x15A4BA30)
+#define GINPKJDOMDN_DNIEEPAHIFN_OFFSET UNITYSDK_OFFSET(0x15A4BDE0)
+#define GINPKJDOMDN_ECICBKAOBIK_OFFSET UNITYSDK_OFFSET(0x15A49530)
+#define GINPKJDOMDN_EKMHEABCPMD_OFFSET UNITYSDK_OFFSET(0x15A4AE00)
+#define GINPKJDOMDN_EMNKIPPFDMC_OFFSET UNITYSDK_OFFSET(0x15A4B5F0)
+#define GINPKJDOMDN_FDLJCEMMLLD_OFFSET UNITYSDK_OFFSET(0x15A48240)
+#define GINPKJDOMDN_FIJIJCPNDHA_OFFSET UNITYSDK_OFFSET(0x15A4B860)
+#define GINPKJDOMDN_GIAJLDNFINK_OFFSET UNITYSDK_OFFSET(0x15A4B6D0)
+#define GINPKJDOMDN_GIAKKINGHOG_OFFSET UNITYSDK_OFFSET(0x15A48330)
+#define GINPKJDOMDN_GLKLCOOKDNE_OFFSET UNITYSDK_OFFSET(0x15A48550)
+#define GINPKJDOMDN_GNPHONNILGC_OFFSET UNITYSDK_OFFSET(0x15A4AEC0)
+#define GINPKJDOMDN_HAHPNLFHDPF_OFFSET UNITYSDK_OFFSET(0x15A49F40)
+#define GINPKJDOMDN_HBBIIIKOFKC_OFFSET UNITYSDK_OFFSET(0x15A4B660)
+#define GINPKJDOMDN_IMAJLPIFLNN_OFFSET UNITYSDK_OFFSET(0x15A4AD40)
+#define GINPKJDOMDN_INPDMIGBAMH_OFFSET UNITYSDK_OFFSET(0x15A4AA40)
+#define GINPKJDOMDN_JMJHBDBNHEL_OFFSET UNITYSDK_OFFSET(0x15A4B510)
+#define GINPKJDOMDN_KAGEIMIHJHP_OFFSET UNITYSDK_OFFSET(0x15A49230)
+#define GINPKJDOMDN_KHKKHDNILKI_OFFSET UNITYSDK_OFFSET(0x15A4B380)
+#define GINPKJDOMDN_MNBCEAPBHCE_OFFSET UNITYSDK_OFFSET(0x15A4B740)
+#define GINPKJDOMDN_MOJKFPCAOBB_OFFSET UNITYSDK_OFFSET(0x15A4BA80)
+#define GINPKJDOMDN_NODKIPIEOMC_OFFSET UNITYSDK_OFFSET(0x15A4AC60)
+#define GINPKJDOMDN_PEOOHJOEOAM_OFFSET UNITYSDK_OFFSET(0x15A4BAD0)
+#define GINPKJDOMDN__CANLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15A49E20)
+#define GINPKJDOMDN__ONCLEAR_OFFSET UNITYSDK_OFFSET(0x15A48C40)
+#define GINPKJDOMDN__ONINIT_OFFSET UNITYSDK_OFFSET(0x15A47A90)
+#define GINPKJDOMDN__ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x15A49E60)
+#define GINPKJDOMDN__ONTICK_OFFSET UNITYSDK_OFFSET(0x15A496D0)
+
+	class GINPKJDOMDN : public ::HCLPKMIIANI
+	{
+	public:
+		::KEGNPEGPLPM* OIGEMMDNEHF; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* FIIICPCKMGM; // 0x80
+		::RPG::Client::AchievementData* LHOIDNLONFK; // 0x88
+		::RPG::Client::LuaUIController* HHCECGELKHL; // 0x90
+		::FDPALAEIHPB* FKINCGODJEP; // 0x98
+		::RPG::GameCore::TRFCameraComponentConfig* GGBGBANPMFG; // 0xA0
+		::System::Collections::Generic::List_1<::NEOFCBFKJNA*>* HJDEHAMNNLE; // 0xA8
+		::RPG::Client::AchievementData* LGKBCHHHGGJ; // 0xB0
+		::PEMFMPIPNJN* PDENFEFCAGN; // 0xB8
+		::PAGLJLCBBAK* MOAHPOKJFMH; // 0xC0
+		::UnityEngine::Vector3 GELBPOOAHEA; // 0xC8
+		::System::Nullable* OFABLKBBNHC; // 0xD4
+		::System::Single DMAAPEJKNJP; // 0xDC
+		::System::UInt32 IFDLFIBAFKE; // 0xE0
+		::System::Single DAELBLLLMHL; // 0xE4
+		::System::UInt32 MMILCBFLPDJ; // 0xE8
+		::UnityEngine::Vector3 JKBFKLAHJHK; // 0xEC
+		::System::Single CIBILKNLODG; // 0xF8
+		::System::Nullable* DLFPFLOAGGG; // 0xFC
+		::System::Int32 KBDPMBDJIOF; // 0x104
+		::System::Int32 HFOIDBJPGIL; // 0x108
+		::System::Boolean ADLJOCILKJB; // 0x10C
+		::System::Boolean NDCOJLNCNPB; // 0x10D
+		static ::RPG::GameCore::TimeRelayFlameGameConfig** StaticGet_PIGOGIELOEP()
+		{
+			return (::RPG::GameCore::TimeRelayFlameGameConfig**)UnitySDK::FromName("", "GINPKJDOMDN")->GetStaticField(0x5EB70);
+		}
+
+		static ::System::String** StaticGet_NGCPHLMENKB()
+		{
+			return (::System::String**)UnitySDK::FromName("", "GINPKJDOMDN")->GetStaticField(0x5EB78);
+		}
+
+		static ::System::Int32* StaticGet_OGPJNMKBNOM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GINPKJDOMDN")->GetStaticField(0x14430);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GINPKJDOMDN_CCTOR_OFFSET))();
+		}
+
+		::System::Void _OnInit(::IAJLHKIHBFB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IAJLHKIHBFB*))((::PBYTE)hIl2Cpp + GINPKJDOMDN__ONINIT_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnClear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN__ONCLEAR_OFFSET))(this);
+		}
+
+		::System::Void KAGEIMIHJHP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_KAGEIMIHJHP_OFFSET))(this);
+		}
+
+		::System::Void _OnTick(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GINPKJDOMDN__ONTICK_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _CanLateUpdate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN__CANLATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void _OnLateUpdate(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GINPKJDOMDN__ONLATEUPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void INPDMIGBAMH(::System::UInt32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + GINPKJDOMDN_INPDMIGBAMH_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean IMAJLPIFLNN()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_IMAJLPIFLNN_OFFSET))(this);
+		}
+
+		::System::Void NODKIPIEOMC(::NEOFCBFKJNA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NEOFCBFKJNA*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_NODKIPIEOMC_OFFSET))(this, a1);
+		}
+
+		::System::Void ABNPEBNMLLL(::NEOFCBFKJNA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NEOFCBFKJNA*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_ABNPEBNMLLL_OFFSET))(this, a1);
+		}
+
+		::System::Void KHKKHDNILKI(::RPG::Client::AchievementData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::AchievementData*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_KHKKHDNILKI_OFFSET))(this, a1);
+		}
+
+		::System::Void CDJLEGNMCPN()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_CDJLEGNMCPN_OFFSET))(this);
+		}
+
+		::System::Void DCJBEPHAIEP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_DCJBEPHAIEP_OFFSET))(this);
+		}
+
+		::System::Void EKMHEABCPMD(::RPG::GameCore::PuzzleCustomEvent a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PuzzleCustomEvent))((::PBYTE)hIl2Cpp + GINPKJDOMDN_EKMHEABCPMD_OFFSET))(this, a1);
+		}
+
+		::System::Void BIIELHKEJLC(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_BIIELHKEJLC_OFFSET))(this, a1);
+		}
+
+		::System::Void JMJHBDBNHEL(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_JMJHBDBNHEL_OFFSET))(this, a1);
+		}
+
+		::System::Void CICCANLFJEB(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_CICCANLFJEB_OFFSET))(this, a1);
+		}
+
+		::System::Void EMNKIPPFDMC(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_EMNKIPPFDMC_OFFSET))(this, a1);
+		}
+
+		::System::Void HBBIIIKOFKC(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_HBBIIIKOFKC_OFFSET))(this, a1);
+		}
+
+		::System::Void GIAJLDNFINK(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_GIAJLDNFINK_OFFSET))(this, a1);
+		}
+
+		::System::Void MNBCEAPBHCE(::EKFMIDBJDIA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_MNBCEAPBHCE_OFFSET))(this, a1);
+		}
+
+		::System::Void GNPHONNILGC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_GNPHONNILGC_OFFSET))(this);
+		}
+
+		::System::Void GIAKKINGHOG()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_GIAKKINGHOG_OFFSET))(this);
+		}
+
+		::System::Void ECICBKAOBIK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_ECICBKAOBIK_OFFSET))(this);
+		}
+
+		::System::Void GLKLCOOKDNE(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + GINPKJDOMDN_GLKLCOOKDNE_OFFSET))(this, a1);
+		}
+
+		::System::Void HAHPNLFHDPF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_HAHPNLFHDPF_OFFSET))(this);
+		}
+
+		::System::Single FIJIJCPNDHA()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_FIJIJCPNDHA_OFFSET))(this);
+		}
+
+		::System::Void COOGLDNKAIO(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_COOGLDNKAIO_OFFSET))(this, a1);
+		}
+
+		static ::System::Void FDLJCEMMLLD()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GINPKJDOMDN_FDLJCEMMLLD_OFFSET))();
+		}
+
+		::System::Single BJGJNIMPNMP()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_BJGJNIMPNMP_OFFSET))(this);
+		}
+
+		::System::Single DJHECJHLBEG()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_DJHECJHLBEG_OFFSET))(this);
+		}
+
+		::System::Single MOJKFPCAOBB()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + GINPKJDOMDN_MOJKFPCAOBB_OFFSET))(this);
+		}
+
+		::System::Void PEOOHJOEOAM(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_PEOOHJOEOAM_OFFSET))(this, a1);
+		}
+
+		::System::Void AMMAIKILABM(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_AMMAIKILABM_OFFSET))(this, a1);
+		}
+
+		::System::Void DBBNNKGAPIE(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_DBBNNKGAPIE_OFFSET))(this, a1);
+		}
+
+		::System::Void DNIEEPAHIFN(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + GINPKJDOMDN_DNIEEPAHIFN_OFFSET))(this, a1);
+		}
+
+	};

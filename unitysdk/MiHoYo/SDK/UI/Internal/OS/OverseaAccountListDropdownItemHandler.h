@@ -1,42 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAFF510)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1BB01380)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BB01410)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1BB012F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_PARSEACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x1BB001B0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1BB001A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB014D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C00B8E0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C00DB70)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1C00DA20)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET UNITYSDK_OFFSET(0x1C00DAB0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C00D9C0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_PARSEACCOUNTINFO_OFFSET UNITYSDK_OFFSET(0x1C00C7D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1C00C7C0)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int OverseaAccountListDropdownItemHandler_TypeDefinitionIndex = 8387;
-
 	class OverseaAccountListDropdownItemHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* UserNamePath; // 0x0
-		// static const ::System::String* loginTimePath; // 0x0
-		// static const ::System::String* emailIconPath; // 0x0
-		// static const ::System::String* userNameIconPath; // 0x0
-		// static const ::System::String* appleIconPath; // 0x0
-		// static const ::System::String* facebookIconPath; // 0x0
-		// static const ::System::String* googleIconPath; // 0x0
-		// static const ::System::String* twitterIconPath; // 0x0
-		// static const ::System::String* itemTextPath; // 0x0
-		// static const ::System::String* splitVertical; // 0x0
-		// static const ::System::String* MidContent; // 0x0
-		// static const ::System::String* deleteButtonPath; // 0x0
-		// static const ::System::String* lastItemButtonTextPath; // 0x0
-		// static const ::System::String* itemBackgroundPath; // 0x0
-		// static const ::System::String* buttonBackgroundPath; // 0x0
 		::UnityEngine::UI::Text* itemText; // 0x18
 		::UnityEngine::UI::Text* showText; // 0x20
 		::UnityEngine::UI::Text* loginTimeText; // 0x28
@@ -52,10 +34,24 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::UnityEngine::UI::Text* buttonText; // 0x78
 		::UnityEngine::UI::Image* icon; // 0x80
 		::System::String* type; // 0x88
-
+		// static const ::System::String* UserNamePath; // 0x0
+		// static const ::System::String* loginTimePath; // 0x0
+		// static const ::System::String* emailIconPath; // 0x0
+		// static const ::System::String* userNameIconPath; // 0x0
+		// static const ::System::String* appleIconPath; // 0x0
+		// static const ::System::String* facebookIconPath; // 0x0
+		// static const ::System::String* googleIconPath; // 0x0
+		// static const ::System::String* twitterIconPath; // 0x0
+		// static const ::System::String* itemTextPath; // 0x0
+		// static const ::System::String* splitVertical; // 0x0
+		// static const ::System::String* MidContent; // 0x0
+		// static const ::System::String* deleteButtonPath; // 0x0
+		// static const ::System::String* lastItemButtonTextPath; // 0x0
+		// static const ::System::String* itemBackgroundPath; // 0x0
+		// static const ::System::String* buttonBackgroundPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -87,5 +83,6 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_OVERSEAACCOUNTLISTDROPDOWNITEMHANDLER_ONDELETEACCOUNT_OFFSET))(this);
 		}
+
 	};
 }

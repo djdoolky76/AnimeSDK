@@ -3,14 +3,12 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PreCharacterStatus_TypeDefinitionIndex = 65703;
-
 	enum class PreCharacterStatus : ::System::UInt32
 	{
-		INVALID = 0x0,
-		PRE_RELEASE = 0x1,
-		ALREADY_POSSESS = 0x2,
-		NOT_YET_POSSESS = 0x3,
-		OUT_OF_RELEASE = 0x4,
+		INVALID = 0,
+		PRE_RELEASE = 1,
+		ALREADY_POSSESS = 2,
+		NOT_YET_POSSESS = 3,
+		OUT_OF_RELEASE = 4,
 	};
 }

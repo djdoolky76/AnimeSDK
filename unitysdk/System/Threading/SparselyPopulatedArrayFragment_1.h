@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Threading { template <typename T> class SparselyPopulatedArrayFragment_1; }
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int SparselyPopulatedArrayFragment_1_TypeDefinitionIndex = 805;
-
 	template <typename T>
 	class SparselyPopulatedArrayFragment_1 : public ::System::Object
 	{

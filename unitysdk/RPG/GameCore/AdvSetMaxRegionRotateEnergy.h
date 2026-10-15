@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvSetMaxRegionRotateEnergy; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_METHOD_3_703101615B37F54B_OFFSET UNITYSDK_OFFSET(0x1CDDA8E0)
-#define RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_METHOD_3_7840DEB385D1B6A7_OFFSET UNITYSDK_OFFSET(0x1CDDA890)
-#define RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDA8D0)
+#define RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B03B0)
+#define RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B03C0)
+#define RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B0370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetMaxRegionRotateEnergy_TypeDefinitionIndex = 20682;
-
 	class AdvSetMaxRegionRotateEnergy : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7840DEB385D1B6A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_METHOD_3_7840DEB385D1B6A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_703101615B37F54B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_METHOD_3_703101615B37F54B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetMaxRegionRotateEnergy*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETMAXREGIONROTATEENERGY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

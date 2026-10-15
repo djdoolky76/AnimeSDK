@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client::DiceCombat { class DiceCombatChangeDicePageParam; }
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCD20D70)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCD20E00)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_SET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCD20E10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD20DF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_CREATE_OFFSET UNITYSDK_OFFSET(0xCC20C80)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC20D00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCC20D10)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_SET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCC20D20)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatChangeDicePageParam_TypeDefinitionIndex = 75643;
-
 	class DiceCombatChangeDicePageParam : public ::System::Object
 	{
 	public:
 		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _AvatarInfo_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::DiceCombat::DiceCombatChangeDicePageParam* Create(::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* a1)
@@ -37,5 +34,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCHANGEDICEPAGEPARAM_SET_AVATARINFO_OFFSET))(this, a1);
 		}
+
 	};
 }

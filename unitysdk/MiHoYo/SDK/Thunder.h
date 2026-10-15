@@ -2,89 +2,93 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/ThunderNotificationEvent.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class DownloadPoint; }
 namespace MiHoYo::SDK { class FileDownloadTask; }
 namespace MiHoYo::SDK { class JSONNode; }
+namespace MiHoYo::SDK { class Thunder; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Timers { class ElapsedEventArgs; }
 namespace System::Timers { class Timer; }
 
-#define MIHOYO_SDK_THUNDER_CANCELALLTASKS_OFFSET UNITYSDK_OFFSET(0xB2B4370)
-#define MIHOYO_SDK_THUNDER_GETDISKFREESPACEEXA_OFFSET UNITYSDK_OFFSET(0xB2B3360)
-#define MIHOYO_SDK_THUNDER_GETDISKFREESPACEEX_OFFSET UNITYSDK_OFFSET(0xB2B3450)
-#define MIHOYO_SDK_THUNDER_GETTOTALFREESPACE_OFFSET UNITYSDK_OFFSET(0xB2B3540)
-#define MIHOYO_SDK_THUNDER_GETUNCOMPLETEDTASKS_OFFSET UNITYSDK_OFFSET(0xB2B37C0)
-#define MIHOYO_SDK_THUNDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB2B2410)
-#define MIHOYO_SDK_THUNDER_GET__ALLTASKS_OFFSET UNITYSDK_OFFSET(0xB2B2440)
-#define MIHOYO_SDK_THUNDER_INVALIDATETIMER_OFFSET UNITYSDK_OFFSET(0xB2B4560)
-#define MIHOYO_SDK_THUNDER_NOTIFY_OFFSET UNITYSDK_OFFSET(0xB2B2CC0)
-#define MIHOYO_SDK_THUNDER_ONPROGRESSTIMEREVENT_OFFSET UNITYSDK_OFFSET(0xB2B4FB0)
-#define MIHOYO_SDK_THUNDER_PAUSEALLTASKS_OFFSET UNITYSDK_OFFSET(0xB2B4610)
-#define MIHOYO_SDK_THUNDER_PAUSETASKS_OFFSET UNITYSDK_OFFSET(0xB2B3A20)
-#define MIHOYO_SDK_THUNDER_RECORDDOWNLOADTIME_OFFSET UNITYSDK_OFFSET(0xB2B3CF0)
-#define MIHOYO_SDK_THUNDER_REMOVETASKS_OFFSET UNITYSDK_OFFSET(0xB2B3D50)
-#define MIHOYO_SDK_THUNDER_RESETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xB2B48E0)
-#define MIHOYO_SDK_THUNDER_RESTARTDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB2B3D40)
-#define MIHOYO_SDK_THUNDER_RESUMETASKS_OFFSET UNITYSDK_OFFSET(0xB2B3D30)
-#define MIHOYO_SDK_THUNDER_SETUPTASKWITHJSONSTRING_OFFSET UNITYSDK_OFFSET(0xB2B2850)
-#define MIHOYO_SDK_THUNDER_STARTBACKGROUNDDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB2B2F40)
-#define MIHOYO_SDK_THUNDER_STARTDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB2B4770)
-#define MIHOYO_SDK_THUNDER_STARTPROGRESSTIMER_OFFSET UNITYSDK_OFFSET(0xB2B31D0)
-#define MIHOYO_SDK_THUNDER_STRINGVALUEFOREVENT_OFFSET UNITYSDK_OFFSET(0xB2B4F60)
-#define MIHOYO_SDK_THUNDER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2B59E0)
-#define MIHOYO_SDK_THUNDER__CTOR_OFFSET UNITYSDK_OFFSET(0xB2B24A0)
-#define MIHOYO_SDK_THUNDER__STARTDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB2B4A00)
-#define MIHOYO_SDK_THUNDER___CTOR_B__17_1_OFFSET UNITYSDK_OFFSET(0xB2B5A40)
+#define MIHOYO_SDK_THUNDER_CANCELALLTASKS_OFFSET UNITYSDK_OFFSET(0xB054280)
+#define MIHOYO_SDK_THUNDER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0558F0)
+#define MIHOYO_SDK_THUNDER_CTOR_OFFSET UNITYSDK_OFFSET(0xB052400)
+#define MIHOYO_SDK_THUNDER_GETDISKFREESPACEEXA_OFFSET UNITYSDK_OFFSET(0xB053270)
+#define MIHOYO_SDK_THUNDER_GETDISKFREESPACEEX_OFFSET UNITYSDK_OFFSET(0xB053360)
+#define MIHOYO_SDK_THUNDER_GETTOTALFREESPACE_OFFSET UNITYSDK_OFFSET(0xB053450)
+#define MIHOYO_SDK_THUNDER_GETUNCOMPLETEDTASKS_OFFSET UNITYSDK_OFFSET(0xB0536D0)
+#define MIHOYO_SDK_THUNDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB052370)
+#define MIHOYO_SDK_THUNDER_GET__ALLTASKS_OFFSET UNITYSDK_OFFSET(0xB0523A0)
+#define MIHOYO_SDK_THUNDER_INVALIDATETIMER_OFFSET UNITYSDK_OFFSET(0xB054470)
+#define MIHOYO_SDK_THUNDER_NOTIFY_OFFSET UNITYSDK_OFFSET(0xB052BD0)
+#define MIHOYO_SDK_THUNDER_ONPROGRESSTIMEREVENT_OFFSET UNITYSDK_OFFSET(0xB054EC0)
+#define MIHOYO_SDK_THUNDER_PAUSEALLTASKS_OFFSET UNITYSDK_OFFSET(0xB054520)
+#define MIHOYO_SDK_THUNDER_PAUSETASKS_OFFSET UNITYSDK_OFFSET(0xB053930)
+#define MIHOYO_SDK_THUNDER_RECORDDOWNLOADTIME_OFFSET UNITYSDK_OFFSET(0xB053C00)
+#define MIHOYO_SDK_THUNDER_REMOVETASKS_OFFSET UNITYSDK_OFFSET(0xB053C60)
+#define MIHOYO_SDK_THUNDER_RESETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xB0547F0)
+#define MIHOYO_SDK_THUNDER_RESTARTDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB053C50)
+#define MIHOYO_SDK_THUNDER_RESUMETASKS_OFFSET UNITYSDK_OFFSET(0xB053C40)
+#define MIHOYO_SDK_THUNDER_SETUPTASKWITHJSONSTRING_OFFSET UNITYSDK_OFFSET(0xB052760)
+#define MIHOYO_SDK_THUNDER_STARTBACKGROUNDDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB052E50)
+#define MIHOYO_SDK_THUNDER_STARTDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB054680)
+#define MIHOYO_SDK_THUNDER_STARTPROGRESSTIMER_OFFSET UNITYSDK_OFFSET(0xB0530E0)
+#define MIHOYO_SDK_THUNDER_STRINGVALUEFOREVENT_OFFSET UNITYSDK_OFFSET(0xB054E70)
+#define MIHOYO_SDK_THUNDER__STARTDOWNLOAD_OFFSET UNITYSDK_OFFSET(0xB054910)
+#define MIHOYO_SDK_THUNDER___CTOR_B__17_1_OFFSET UNITYSDK_OFFSET(0xB055950)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Thunder_TypeDefinitionIndex = 46745;
-
 	class Thunder : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Thunder** StaticGet_instance()
-		{
-			return (::MiHoYo::SDK::Thunder**)Il2CppClass::FromTypeDefinitionIndex(Thunder_TypeDefinitionIndex)->GetStaticField(0x44090);
-		}
-		static ::System::UInt64* StaticGet_downloadTime()
-		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(Thunder_TypeDefinitionIndex)->GetStaticField(0x100B0);
-		}
-		static ::System::UInt64* StaticGet_lastDownloadDuration()
-		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(Thunder_TypeDefinitionIndex)->GetStaticField(0x100B8);
-		}
-		static ::System::Boolean* StaticGet_pausing()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Thunder_TypeDefinitionIndex)->GetStaticField(0x100C0);
-		}
-		static ::System::Int32* StaticGet_MultiTaskCountLimit()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Thunder_TypeDefinitionIndex)->GetStaticField(0x100C4);
-		}
-		static ::System::UInt64* StaticGet_lastDownloadSize()
-		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(Thunder_TypeDefinitionIndex)->GetStaticField(0x100C8);
-		}
 		::System::Collections::Generic::List_1<::MiHoYo::SDK::FileDownloadTask*>* successTasks; // 0x10
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::FileDownloadTask*>* pendingQueue; // 0x18
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::DownloadPoint*>* downloadPoints; // 0x20
-		::System::String* _rawDownloadTasks; // 0x28
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::FileDownloadTask*>* failureTasks; // 0x30
+		::System::String* _rawDownloadTasks; // 0x18
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::FileDownloadTask*>* failureTasks; // 0x20
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::FileDownloadTask*>* pendingQueue; // 0x28
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::DownloadPoint*>* downloadPoints; // 0x30
 		::System::Timers::Timer* progressTimer; // 0x38
 		::System::UInt64 startTime; // 0x40
+		static ::MiHoYo::SDK::Thunder** StaticGet_instance()
+		{
+			return (::MiHoYo::SDK::Thunder**)UnitySDK::FromName("MiHoYo.SDK", "Thunder")->GetStaticField(0x20190);
+		}
+
+		static ::System::UInt64* StaticGet_lastDownloadDuration()
+		{
+			return (::System::UInt64*)UnitySDK::FromName("MiHoYo.SDK", "Thunder")->GetStaticField(0x7520);
+		}
+
+		static ::System::UInt64* StaticGet_downloadTime()
+		{
+			return (::System::UInt64*)UnitySDK::FromName("MiHoYo.SDK", "Thunder")->GetStaticField(0x7528);
+		}
+
+		static ::System::Int32* StaticGet_MultiTaskCountLimit()
+		{
+			return (::System::Int32*)UnitySDK::FromName("MiHoYo.SDK", "Thunder")->GetStaticField(0x7530);
+		}
+
+		static ::System::Boolean* StaticGet_pausing()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "Thunder")->GetStaticField(0x7534);
+		}
+
+		static ::System::UInt64* StaticGet_lastDownloadSize()
+		{
+			return (::System::UInt64*)UnitySDK::FromName("MiHoYo.SDK", "Thunder")->GetStaticField(0x7538);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER_CCTOR_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Thunder* get_Instance()
@@ -102,14 +106,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER_SETUPTASKWITHJSONSTRING_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean GetDiskFreeSpaceExA(::System::String* a1, ::System::UInt64& a2, ::System::UInt64& a3, ::System::UInt64& a4)
+		static ::System::Boolean GetDiskFreeSpaceExA(::System::String* a1, ::System::UInt64 a2, ::System::UInt64 a3, ::System::UInt64 a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::UInt64&, ::System::UInt64&, ::System::UInt64&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER_GETDISKFREESPACEEXA_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::UInt64, ::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER_GETDISKFREESPACEEXA_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean GetDiskFreeSpaceEx(::System::String* a1, ::System::UInt64& a2, ::System::UInt64& a3, ::System::UInt64& a4)
+		static ::System::Boolean GetDiskFreeSpaceEx(::System::String* a1, ::System::UInt64 a2, ::System::UInt64 a3, ::System::UInt64 a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::UInt64&, ::System::UInt64&, ::System::UInt64&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER_GETDISKFREESPACEEX_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::UInt64, ::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER_GETDISKFREESPACEEX_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::String* GetTotalFreeSpace()
@@ -206,5 +210,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THUNDER___CTOR_B__17_1_OFFSET))(this);
 		}
+
 	};
 }

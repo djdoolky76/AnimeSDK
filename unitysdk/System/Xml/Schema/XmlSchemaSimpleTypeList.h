@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaSimpleTypeContent.h"
-
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_GET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1E820FF0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1E821000)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1E820FE0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E821010)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE9C90)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_GET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1EEE9C70)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1EEE9C80)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1EEE9C60)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaSimpleTypeList_TypeDefinitionIndex = 2213;
-
 	class XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{
 	public:
-		::System::Xml::XmlQualifiedName* itemTypeName; // 0x10
+		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x10
 		::System::Xml::Schema::XmlSchemaSimpleType* itemType; // 0x18
-		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x20
-
+		::System::Xml::XmlQualifiedName* itemTypeName; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* a1)
@@ -40,5 +36,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaSimpleType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_BASEITEMTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

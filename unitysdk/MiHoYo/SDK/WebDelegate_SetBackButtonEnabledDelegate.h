@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB16090)
-#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB160F0)
-#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB125D0)
-#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB15FA0)
+#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C022A50)
+#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C022960)
+#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C022AB0)
+#define MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01EFE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_SetBackButtonEnabledDelegate_TypeDefinitionIndex = 7785;
-
 	class WebDelegate_SetBackButtonEnabledDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Boolean a2)
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_SETBACKBUTTONENABLEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

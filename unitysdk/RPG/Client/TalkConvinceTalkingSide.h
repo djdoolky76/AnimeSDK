@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkConvinceTalkingSide_TypeDefinitionIndex = 60780;
-
 	enum class TalkConvinceTalkingSide : ::System::Int32
 	{
 		Init = 0,

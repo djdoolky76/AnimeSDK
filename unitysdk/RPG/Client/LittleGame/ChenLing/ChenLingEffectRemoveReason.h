@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingEffectRemoveReason_TypeDefinitionIndex = 77377;
-
 	enum class ChenLingEffectRemoveReason : ::System::Int32
 	{
 		Unknown = 0,

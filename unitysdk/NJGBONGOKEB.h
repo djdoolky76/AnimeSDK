@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GPLOFONGBGI.h"
+class IFBFJDCECML;
+class PBGNKMMDBGD;
+namespace RPG::GameCore { class CakeRaceActionApplyMoveStateInGridMoveDirection; }
+
+#define NJGBONGOKEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79AF90)
+#define NJGBONGOKEB_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C79AFA0)
+
+	class NJGBONGOKEB : public ::GPLOFONGBGI
+	{
+	public:
+		::RPG::GameCore::CakeRaceActionApplyMoveStateInGridMoveDirection* AHPMJINCACE; // 0x10
+		::System::Void _ctor(::RPG::GameCore::CakeRaceActionApplyMoveStateInGridMoveDirection* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::CakeRaceActionApplyMoveStateInGridMoveDirection*))((::PBYTE)hIl2Cpp + NJGBONGOKEB_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void GAILDDCMCHP(::IFBFJDCECML* a1, ::PBGNKMMDBGD* a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::IFBFJDCECML*, ::PBGNKMMDBGD*, ::System::Int32))((::PBYTE)hIl2Cpp + NJGBONGOKEB_GAILDDCMCHP_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

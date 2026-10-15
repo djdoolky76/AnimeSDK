@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Runtime::InteropServices { template <typename T> class CollectionsMarshal_FillCollection_1; }
+namespace System { class Object; }
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1__GetEnumerator_d__13_TypeDefinitionIndex = 6076;
-
-	template <typename T>
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class CollectionsMarshal_FillCollection_1__GetEnumerator_d__13 : public ::System::Object
 	{
 	public:
 		::System::Int32 __1__state; // 0x0
-		T __2__current; // 0x0
-		::System::Runtime::InteropServices::CollectionsMarshal_FillCollection_1<T>* __4__this; // 0x0
+		T1 __2__current; // 0x0
+		::System::Object* __4__this; // 0x0
 		::System::Int32 _i_5__2; // 0x0
 	};
 }

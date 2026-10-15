@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_CHARENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1BBAAA60)
-#define SYSTEM_CHARENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BBAAB80)
-#define SYSTEM_CHARENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BBAAC70)
-#define SYSTEM_CHARENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BBAAB00)
-#define SYSTEM_CHARENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BBAAD00)
-#define SYSTEM_CHARENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BBAABA0)
-#define SYSTEM_CHARENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBAAD10)
-#define SYSTEM_CHARENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBAAA50)
+#define SYSTEM_CHARENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1C0B6AD0)
+#define SYSTEM_CHARENUMERATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0B6D80)
+#define SYSTEM_CHARENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0B6AC0)
+#define SYSTEM_CHARENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C0B6BF0)
+#define SYSTEM_CHARENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C0B6CE0)
+#define SYSTEM_CHARENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C0B6B70)
+#define SYSTEM_CHARENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C0B6D70)
+#define SYSTEM_CHARENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C0B6C10)
 
 namespace System
 {
-	inline static constexpr unsigned int CharEnumerator_TypeDefinitionIndex = 210;
-
 	class CharEnumerator : public ::System::Object
 	{
 	public:
 		::System::String* str; // 0x10
-		::System::Int32 index; // 0x18
-		::System::Char currentElement; // 0x1C
-
+		::System::Char currentElement; // 0x18
+		::System::Byte _padding0[0x2];
+		::System::Int32 index; // 0x1C
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CHARENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_CHARENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CHARENUMERATOR__CTOR_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CHARENUMERATOR_CTOR_1_OFFSET))(this);
 		}
 
 		::System::Object* Clone()
@@ -63,5 +61,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CHARENUMERATOR_RESET_OFFSET))(this);
 		}
+
 	};
 }

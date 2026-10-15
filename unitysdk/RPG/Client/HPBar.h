@@ -1,184 +1,115 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/HPBar_ColorAnimState.h"
-#include "unitysdk/RPG/Client/HPBar_ColorMode.h"
-#include "unitysdk/RPG/Client/HPBar_Mode.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
-
+#include "unitysdk/UnityEngine/Color.h"
+namespace System { class Object; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_HPBAR_GET_BGAMOUNT_OFFSET UNITYSDK_OFFSET(0xD3904F0)
-#define RPG_CLIENT_HPBAR_GET_COLORB_OFFSET UNITYSDK_OFFSET(0xD38FB70)
-#define RPG_CLIENT_HPBAR_GET_COLORDUMMY_OFFSET UNITYSDK_OFFSET(0xD38FB10)
-#define RPG_CLIENT_HPBAR_GET_COLORD_OFFSET UNITYSDK_OFFSET(0xD38FC90)
-#define RPG_CLIENT_HPBAR_GET_COLORL_OFFSET UNITYSDK_OFFSET(0xD38FBD0)
-#define RPG_CLIENT_HPBAR_GET_COLORMODES_OFFSET UNITYSDK_OFFSET(0xD38DA30)
-#define RPG_CLIENT_HPBAR_GET_COLORRINGBG_OFFSET UNITYSDK_OFFSET(0xD38D130)
-#define RPG_CLIENT_HPBAR_GET_COLORR_OFFSET UNITYSDK_OFFSET(0xD38FC30)
-#define RPG_CLIENT_HPBAR_GET_COLORSL_OFFSET UNITYSDK_OFFSET(0xD38D850)
-#define RPG_CLIENT_HPBAR_GET_COLORSR_OFFSET UNITYSDK_OFFSET(0xD38D940)
-#define RPG_CLIENT_HPBAR_GET_DIRTYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD3903F0)
-#define RPG_CLIENT_HPBAR_GET_DUMMYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD3905F0)
-#define RPG_CLIENT_HPBAR_GET_FILLAMOUNTS_OFFSET UNITYSDK_OFFSET(0xD38D760)
-#define RPG_CLIENT_HPBAR_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD3902F0)
-#define RPG_CLIENT_HPBAR_GET_HPPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD38CCB0)
-#define RPG_CLIENT_HPBAR_GET_INNERALPHA_OFFSET UNITYSDK_OFFSET(0xD38CD00)
-#define RPG_CLIENT_HPBAR_GET_INNERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD38C8D0)
-#define RPG_CLIENT_HPBAR_GET_LAYERCOUNT_OFFSET UNITYSDK_OFFSET(0xD38D660)
-#define RPG_CLIENT_HPBAR_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xD38C640)
-#define RPG_CLIENT_HPBAR_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD38DD00)
-#define RPG_CLIENT_HPBAR_GET_MODES_OFFSET UNITYSDK_OFFSET(0xD38DB20)
-#define RPG_CLIENT_HPBAR_GET_MULTILAYER_OFFSET UNITYSDK_OFFSET(0xD38D570)
-#define RPG_CLIENT_HPBAR_GET_OUTERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD38C6A0)
-#define RPG_CLIENT_HPBAR_GET_RINGBGOFFSETDEGREE_OFFSET UNITYSDK_OFFSET(0xD38D460)
-#define RPG_CLIENT_HPBAR_GET_RINGBGWIDTH_OFFSET UNITYSDK_OFFSET(0xD38D240)
-#define RPG_CLIENT_HPBAR_GET_RINGDEGREE_OFFSET UNITYSDK_OFFSET(0xD38D350)
-#define RPG_CLIENT_HPBAR_GET_RINGMODE_OFFSET UNITYSDK_OFFSET(0xD38CE10)
-#define RPG_CLIENT_HPBAR_GET_RINGRADIUSINNER_OFFSET UNITYSDK_OFFSET(0xD38D010)
-#define RPG_CLIENT_HPBAR_GET_RINGRADIUSOUTER_OFFSET UNITYSDK_OFFSET(0xD38CEF0)
-#define RPG_CLIENT_HPBAR_GET_TEXTURES_OFFSET UNITYSDK_OFFSET(0xD38DC10)
-#define RPG_CLIENT_HPBAR_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0xD38F340)
-#define RPG_CLIENT_HPBAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD390280)
-#define RPG_CLIENT_HPBAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD3901C0)
-#define RPG_CLIENT_HPBAR_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD38FCF0)
-#define RPG_CLIENT_HPBAR_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0xD390160)
-#define RPG_CLIENT_HPBAR_REFRESHLEGACY_OFFSET UNITYSDK_OFFSET(0xD38E880)
-#define RPG_CLIENT_HPBAR_REFRESH_OFFSET UNITYSDK_OFFSET(0xD38DDA0)
-#define RPG_CLIENT_HPBAR_SET_BGAMOUNT_OFFSET UNITYSDK_OFFSET(0xD390540)
-#define RPG_CLIENT_HPBAR_SET_COLORB_OFFSET UNITYSDK_OFFSET(0xD390900)
-#define RPG_CLIENT_HPBAR_SET_COLORDUMMY_OFFSET UNITYSDK_OFFSET(0xD3909B0)
-#define RPG_CLIENT_HPBAR_SET_COLORD_OFFSET UNITYSDK_OFFSET(0xD390850)
-#define RPG_CLIENT_HPBAR_SET_COLORL_OFFSET UNITYSDK_OFFSET(0xD3906F0)
-#define RPG_CLIENT_HPBAR_SET_COLORMODES_OFFSET UNITYSDK_OFFSET(0xD38DA80)
-#define RPG_CLIENT_HPBAR_SET_COLORRINGBG_OFFSET UNITYSDK_OFFSET(0xD38D190)
-#define RPG_CLIENT_HPBAR_SET_COLORR_OFFSET UNITYSDK_OFFSET(0xD3907A0)
-#define RPG_CLIENT_HPBAR_SET_COLORSL_OFFSET UNITYSDK_OFFSET(0xD38D8A0)
-#define RPG_CLIENT_HPBAR_SET_COLORSR_OFFSET UNITYSDK_OFFSET(0xD38D990)
-#define RPG_CLIENT_HPBAR_SET_DIRTYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD390440)
-#define RPG_CLIENT_HPBAR_SET_DUMMYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD390640)
-#define RPG_CLIENT_HPBAR_SET_FILLAMOUNTS_OFFSET UNITYSDK_OFFSET(0xD38D7B0)
-#define RPG_CLIENT_HPBAR_SET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD390340)
-#define RPG_CLIENT_HPBAR_SET_HPPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD38C920)
-#define RPG_CLIENT_HPBAR_SET_INNERALPHA_OFFSET UNITYSDK_OFFSET(0xD38CD50)
-#define RPG_CLIENT_HPBAR_SET_INNERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD38CAD0)
-#define RPG_CLIENT_HPBAR_SET_LAYERCOUNT_OFFSET UNITYSDK_OFFSET(0xD38D6C0)
-#define RPG_CLIENT_HPBAR_SET_MODES_OFFSET UNITYSDK_OFFSET(0xD38DB70)
-#define RPG_CLIENT_HPBAR_SET_MULTILAYER_OFFSET UNITYSDK_OFFSET(0xD38D5C0)
-#define RPG_CLIENT_HPBAR_SET_OUTERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD38C6F0)
-#define RPG_CLIENT_HPBAR_SET_RINGBGOFFSETDEGREE_OFFSET UNITYSDK_OFFSET(0xD38D4B0)
-#define RPG_CLIENT_HPBAR_SET_RINGBGWIDTH_OFFSET UNITYSDK_OFFSET(0xD38D290)
-#define RPG_CLIENT_HPBAR_SET_RINGDEGREE_OFFSET UNITYSDK_OFFSET(0xD38D3A0)
-#define RPG_CLIENT_HPBAR_SET_RINGMODE_OFFSET UNITYSDK_OFFSET(0xD38CE60)
-#define RPG_CLIENT_HPBAR_SET_RINGRADIUSINNER_OFFSET UNITYSDK_OFFSET(0xD38D060)
-#define RPG_CLIENT_HPBAR_SET_RINGRADIUSOUTER_OFFSET UNITYSDK_OFFSET(0xD38CF40)
-#define RPG_CLIENT_HPBAR_SET_TEXTURES_OFFSET UNITYSDK_OFFSET(0xD38DC60)
-#define RPG_CLIENT_HPBAR_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD390110)
-#define RPG_CLIENT_HPBAR__CCTOR_OFFSET UNITYSDK_OFFSET(0xD390BD0)
-#define RPG_CLIENT_HPBAR__CTOR_OFFSET UNITYSDK_OFFSET(0xD390A60)
-#define RPG_CLIENT_HPBAR__SETASPECT_OFFSET UNITYSDK_OFFSET(0xD38EB50)
-#define RPG_CLIENT_HPBAR__SETTEXTURES_OFFSET UNITYSDK_OFFSET(0xD38EDB0)
+#define RPG_CLIENT_HPBAR_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2E9D80)
+#define RPG_CLIENT_HPBAR_CTOR_OFFSET UNITYSDK_OFFSET(0xD2E9C10)
+#define RPG_CLIENT_HPBAR_GET_BGAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E96A0)
+#define RPG_CLIENT_HPBAR_GET_COLORB_OFFSET UNITYSDK_OFFSET(0xD2E8D20)
+#define RPG_CLIENT_HPBAR_GET_COLORDUMMY_OFFSET UNITYSDK_OFFSET(0xD2E8CC0)
+#define RPG_CLIENT_HPBAR_GET_COLORD_OFFSET UNITYSDK_OFFSET(0xD2E8E40)
+#define RPG_CLIENT_HPBAR_GET_COLORL_OFFSET UNITYSDK_OFFSET(0xD2E8D80)
+#define RPG_CLIENT_HPBAR_GET_COLORMODES_OFFSET UNITYSDK_OFFSET(0xD2E6CA0)
+#define RPG_CLIENT_HPBAR_GET_COLORRINGBG_OFFSET UNITYSDK_OFFSET(0xD2E63A0)
+#define RPG_CLIENT_HPBAR_GET_COLORR_OFFSET UNITYSDK_OFFSET(0xD2E8DE0)
+#define RPG_CLIENT_HPBAR_GET_COLORSL_OFFSET UNITYSDK_OFFSET(0xD2E6AC0)
+#define RPG_CLIENT_HPBAR_GET_COLORSR_OFFSET UNITYSDK_OFFSET(0xD2E6BB0)
+#define RPG_CLIENT_HPBAR_GET_DIRTYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E95A0)
+#define RPG_CLIENT_HPBAR_GET_DUMMYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E97A0)
+#define RPG_CLIENT_HPBAR_GET_FILLAMOUNTS_OFFSET UNITYSDK_OFFSET(0xD2E69D0)
+#define RPG_CLIENT_HPBAR_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E94A0)
+#define RPG_CLIENT_HPBAR_GET_HPPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD2E5F20)
+#define RPG_CLIENT_HPBAR_GET_INNERALPHA_OFFSET UNITYSDK_OFFSET(0xD2E5F70)
+#define RPG_CLIENT_HPBAR_GET_INNERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD2E5BA0)
+#define RPG_CLIENT_HPBAR_GET_LAYERCOUNT_OFFSET UNITYSDK_OFFSET(0xD2E68D0)
+#define RPG_CLIENT_HPBAR_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xD2E5940)
+#define RPG_CLIENT_HPBAR_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD2E6F70)
+#define RPG_CLIENT_HPBAR_GET_MODES_OFFSET UNITYSDK_OFFSET(0xD2E6D90)
+#define RPG_CLIENT_HPBAR_GET_MULTILAYER_OFFSET UNITYSDK_OFFSET(0xD2E67E0)
+#define RPG_CLIENT_HPBAR_GET_OUTERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD2E59A0)
+#define RPG_CLIENT_HPBAR_GET_RINGBGOFFSETDEGREE_OFFSET UNITYSDK_OFFSET(0xD2E66D0)
+#define RPG_CLIENT_HPBAR_GET_RINGBGWIDTH_OFFSET UNITYSDK_OFFSET(0xD2E64B0)
+#define RPG_CLIENT_HPBAR_GET_RINGDEGREE_OFFSET UNITYSDK_OFFSET(0xD2E65C0)
+#define RPG_CLIENT_HPBAR_GET_RINGMODE_OFFSET UNITYSDK_OFFSET(0xD2E6080)
+#define RPG_CLIENT_HPBAR_GET_RINGRADIUSINNER_OFFSET UNITYSDK_OFFSET(0xD2E6280)
+#define RPG_CLIENT_HPBAR_GET_RINGRADIUSOUTER_OFFSET UNITYSDK_OFFSET(0xD2E6160)
+#define RPG_CLIENT_HPBAR_GET_TEXTURES_OFFSET UNITYSDK_OFFSET(0xD2E6E80)
+#define RPG_CLIENT_HPBAR_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0xD2E84F0)
+#define RPG_CLIENT_HPBAR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD2E9430)
+#define RPG_CLIENT_HPBAR_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD2E9370)
+#define RPG_CLIENT_HPBAR_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xD2E8EA0)
+#define RPG_CLIENT_HPBAR_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0xD2E9310)
+#define RPG_CLIENT_HPBAR_REFRESHLEGACY_OFFSET UNITYSDK_OFFSET(0xD2E7AF0)
+#define RPG_CLIENT_HPBAR_REFRESH_OFFSET UNITYSDK_OFFSET(0xD2E7010)
+#define RPG_CLIENT_HPBAR_SET_BGAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E96F0)
+#define RPG_CLIENT_HPBAR_SET_COLORB_OFFSET UNITYSDK_OFFSET(0xD2E9AB0)
+#define RPG_CLIENT_HPBAR_SET_COLORDUMMY_OFFSET UNITYSDK_OFFSET(0xD2E9B60)
+#define RPG_CLIENT_HPBAR_SET_COLORD_OFFSET UNITYSDK_OFFSET(0xD2E9A00)
+#define RPG_CLIENT_HPBAR_SET_COLORL_OFFSET UNITYSDK_OFFSET(0xD2E98A0)
+#define RPG_CLIENT_HPBAR_SET_COLORMODES_OFFSET UNITYSDK_OFFSET(0xD2E6CF0)
+#define RPG_CLIENT_HPBAR_SET_COLORRINGBG_OFFSET UNITYSDK_OFFSET(0xD2E6400)
+#define RPG_CLIENT_HPBAR_SET_COLORR_OFFSET UNITYSDK_OFFSET(0xD2E9950)
+#define RPG_CLIENT_HPBAR_SET_COLORSL_OFFSET UNITYSDK_OFFSET(0xD2E6B10)
+#define RPG_CLIENT_HPBAR_SET_COLORSR_OFFSET UNITYSDK_OFFSET(0xD2E6C00)
+#define RPG_CLIENT_HPBAR_SET_DIRTYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E95F0)
+#define RPG_CLIENT_HPBAR_SET_DUMMYAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E97F0)
+#define RPG_CLIENT_HPBAR_SET_FILLAMOUNTS_OFFSET UNITYSDK_OFFSET(0xD2E6A20)
+#define RPG_CLIENT_HPBAR_SET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xD2E94F0)
+#define RPG_CLIENT_HPBAR_SET_HPPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD2E5BF0)
+#define RPG_CLIENT_HPBAR_SET_INNERALPHA_OFFSET UNITYSDK_OFFSET(0xD2E5FC0)
+#define RPG_CLIENT_HPBAR_SET_INNERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD2E5D70)
+#define RPG_CLIENT_HPBAR_SET_LAYERCOUNT_OFFSET UNITYSDK_OFFSET(0xD2E6930)
+#define RPG_CLIENT_HPBAR_SET_MODES_OFFSET UNITYSDK_OFFSET(0xD2E6DE0)
+#define RPG_CLIENT_HPBAR_SET_MULTILAYER_OFFSET UNITYSDK_OFFSET(0xD2E6830)
+#define RPG_CLIENT_HPBAR_SET_OUTERPIXELOFFSET_OFFSET UNITYSDK_OFFSET(0xD2E59F0)
+#define RPG_CLIENT_HPBAR_SET_RINGBGOFFSETDEGREE_OFFSET UNITYSDK_OFFSET(0xD2E6720)
+#define RPG_CLIENT_HPBAR_SET_RINGBGWIDTH_OFFSET UNITYSDK_OFFSET(0xD2E6500)
+#define RPG_CLIENT_HPBAR_SET_RINGDEGREE_OFFSET UNITYSDK_OFFSET(0xD2E6610)
+#define RPG_CLIENT_HPBAR_SET_RINGMODE_OFFSET UNITYSDK_OFFSET(0xD2E60D0)
+#define RPG_CLIENT_HPBAR_SET_RINGRADIUSINNER_OFFSET UNITYSDK_OFFSET(0xD2E62D0)
+#define RPG_CLIENT_HPBAR_SET_RINGRADIUSOUTER_OFFSET UNITYSDK_OFFSET(0xD2E61B0)
+#define RPG_CLIENT_HPBAR_SET_TEXTURES_OFFSET UNITYSDK_OFFSET(0xD2E6ED0)
+#define RPG_CLIENT_HPBAR_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xD2E92C0)
+#define RPG_CLIENT_HPBAR__SETASPECT_OFFSET UNITYSDK_OFFSET(0xD2E7DC0)
+#define RPG_CLIENT_HPBAR__SETTEXTURES_OFFSET UNITYSDK_OFFSET(0xD2E7FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HPBar_TypeDefinitionIndex = 72464;
-
 	class HPBar : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet__TexIDs()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x56910);
-		}
-		static ::System::Int32* StaticGet__AlphaTex()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12230);
-		}
-		static ::System::Int32* StaticGet__Aspect()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12234);
-		}
-		static ::System::Int32* StaticGet__OuterX()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12238);
-		}
-		static ::System::Int32* StaticGet__TexAspects()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x1223C);
-		}
-		static ::System::Int32* StaticGet__RingBgWidth()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12240);
-		}
-		static ::System::Int32* StaticGet__HpColorsL()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12244);
-		}
-		static ::System::Int32* StaticGet__ColorRingBg()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12248);
-		}
-		static ::System::Int32* StaticGet__RingBgOffset()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x1224C);
-		}
-		static ::System::Int32* StaticGet__RingRadius()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12250);
-		}
-		static ::System::Int32* StaticGet__HpX()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12254);
-		}
-		static ::System::Int32* StaticGet__InnerAlpha()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12258);
-		}
-		static ::System::Int32* StaticGet__InnerX()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x1225C);
-		}
-		static ::System::Int32* StaticGet__RingPercent()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12260);
-		}
-		static ::System::Int32* StaticGet__HpColorsR()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12264);
-		}
-		static ::System::Int32* StaticGet__HpModes()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x12268);
-		}
-		static ::System::Int32* StaticGet__HpFills()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(HPBar_TypeDefinitionIndex)->GetStaticField(0x1226C);
-		}
-		// static const ::System::Int32 k_MaxCount = 0x6; // 0x0
 		::UnityEngine::Texture* alphaTexture; // 0xF0
 		::System::UInt32 m_OuterPixelOffset; // 0xF8
 		::System::UInt32 m_InnerPixelOffset; // 0xFC
 		::System::Boolean adaptive; // 0x100
+		::System::Byte _padding0[0x3];
 		::System::UInt32 m_HpPixelOffset; // 0x104
 		::System::Single m_InnerAlpha; // 0x108
 		::System::Boolean m_RingMode; // 0x10C
+		::System::Byte _padding1[0x3];
 		::System::Single m_RingRadiusOuter; // 0x110
 		::System::Single m_RingRadiusInner; // 0x114
 		::UnityEngine::Color m_ColorRingBg; // 0x118
 		::System::Single m_RingBgWidth; // 0x128
 		::System::Single m_RingDegree; // 0x12C
 		::System::Single m_RingBgOffsetDegree; // 0x130
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Material* m_MaterialInstance; // 0x138
 		::RPG::Client::HPBar_ColorAnimState m_ColorState; // 0x140
 		::System::Boolean m_MultiLayer; // 0x190
+		::System::Byte _padding3[0x3];
 		::System::Int32 m_LayerCount; // 0x194
 		::Il2CppArray<::System::Single>* m_HpFills; // 0x198
 		::Il2CppArray<::UnityEngine::Color>* m_HpColorsL; // 0x1A0
 		::Il2CppArray<::UnityEngine::Color>* m_HpColorsR; // 0x1A8
-		::Il2CppArray<::RPG::Client::HPBar_Mode>* m_HpModes; // 0x1B0
-		::Il2CppArray<::RPG::Client::HPBar_ColorMode>* m_HpColorModes; // 0x1B8
+		::Il2CppArray<::System::Object*>* m_HpModes; // 0x1B0
+		::Il2CppArray<::System::Object*>* m_HpColorModes; // 0x1B8
 		::Il2CppArray<::UnityEngine::Texture*>* m_Textures; // 0x1C0
 		::Il2CppArray<::System::Single>* m_HpModesFloat; // 0x1C8
 		::Il2CppArray<::System::Single>* m_TexAspects; // 0x1D0
@@ -192,15 +123,100 @@ namespace RPG::Client
 		::UnityEngine::Color m_ColorD; // 0x210
 		::UnityEngine::Color m_ColorB; // 0x220
 		::UnityEngine::Color m_ColorDummy; // 0x230
+		static ::Il2CppArray<::System::Int32>** StaticGet__TexIDs()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0xE9A0);
+		}
 
+		static ::System::Int32* StaticGet__RingBgWidth()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3110);
+		}
+
+		static ::System::Int32* StaticGet__InnerX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3114);
+		}
+
+		static ::System::Int32* StaticGet__HpModes()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3118);
+		}
+
+		static ::System::Int32* StaticGet__RingBgOffset()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x311C);
+		}
+
+		static ::System::Int32* StaticGet__InnerAlpha()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3120);
+		}
+
+		static ::System::Int32* StaticGet__Aspect()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3124);
+		}
+
+		static ::System::Int32* StaticGet__HpFills()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3128);
+		}
+
+		static ::System::Int32* StaticGet__HpX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x312C);
+		}
+
+		static ::System::Int32* StaticGet__HpColorsL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3130);
+		}
+
+		static ::System::Int32* StaticGet__RingPercent()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3134);
+		}
+
+		static ::System::Int32* StaticGet__RingRadius()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3138);
+		}
+
+		static ::System::Int32* StaticGet__AlphaTex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x313C);
+		}
+
+		static ::System::Int32* StaticGet__OuterX()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3140);
+		}
+
+		static ::System::Int32* StaticGet__ColorRingBg()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3144);
+		}
+
+		static ::System::Int32* StaticGet__HpColorsR()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x3148);
+		}
+
+		static ::System::Int32* StaticGet__TexAspects()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "HPBar")->GetStaticField(0x314C);
+		}
+
+		// static const ::System::Object k_MaxCount; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::Texture* get_mainTexture()
@@ -368,24 +384,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Color>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_SET_COLORSR_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::RPG::Client::HPBar_ColorMode>* get_colorModes()
+		::Il2CppArray<::System::Object*>* get_colorModes()
 		{
-			return ((::Il2CppArray<::RPG::Client::HPBar_ColorMode>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_GET_COLORMODES_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_GET_COLORMODES_OFFSET))(this);
 		}
 
-		::System::Void set_colorModes(::Il2CppArray<::RPG::Client::HPBar_ColorMode>* a1)
+		::System::Void set_colorModes(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::HPBar_ColorMode>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_SET_COLORMODES_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_SET_COLORMODES_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::RPG::Client::HPBar_Mode>* get_modes()
+		::Il2CppArray<::System::Object*>* get_modes()
 		{
-			return ((::Il2CppArray<::RPG::Client::HPBar_Mode>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_GET_MODES_OFFSET))(this);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_GET_MODES_OFFSET))(this);
 		}
 
-		::System::Void set_modes(::Il2CppArray<::RPG::Client::HPBar_Mode>* a1)
+		::System::Void set_modes(::Il2CppArray<::System::Object*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::HPBar_Mode>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_SET_MODES_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_SET_MODES_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::UnityEngine::Texture*>* get_textures()
@@ -542,5 +558,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CLIENT_HPBAR_SET_COLORDUMMY_OFFSET))(this, a1);
 		}
+
 	};
 }

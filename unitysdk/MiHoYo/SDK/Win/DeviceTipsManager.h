@@ -1,63 +1,60 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
+namespace MiHoYo::SDK::Win { class DeviceTipsManager; }
 namespace MiHoYo::SDK::Win { class NewDeviceInfoModel; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_CHECKNEWDEVICETIPS_OFFSET UNITYSDK_OFFSET(0x1B7EEC40)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_GET_DEVICEINFOLIST_OFFSET UNITYSDK_OFFSET(0x1B838630)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_GET_LASTESTDEVICEID_OFFSET UNITYSDK_OFFSET(0x1B838650)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_GET_USERDATA_OFFSET UNITYSDK_OFFSET(0x1B838670)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_ONGETDEVICELIST_OFFSET UNITYSDK_OFFSET(0x1B838CA0)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_REQUESTACKNEWERDEVICES_OFFSET UNITYSDK_OFFSET(0x1B838970)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_REQUESTNEWDEVICELIST_OFFSET UNITYSDK_OFFSET(0x1B838690)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SET_DEVICEINFOLIST_OFFSET UNITYSDK_OFFSET(0x1B838640)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SET_LASTESTDEVICEID_OFFSET UNITYSDK_OFFSET(0x1B838660)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SET_USERDATA_OFFSET UNITYSDK_OFFSET(0x1B838680)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SHOWDEVICELOGINTIPSPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1B839130)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SHOWDEVICELOGINTIPS_OFFSET UNITYSDK_OFFSET(0x1B839A60)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B839B80)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__CHECKNEWDEVICETIPS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1B839BC0)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B839B70)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_0_OFFSET UNITYSDK_OFFSET(0x1B839C10)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_1_OFFSET UNITYSDK_OFFSET(0x1B839E30)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_2_OFFSET UNITYSDK_OFFSET(0x1B839EC0)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_3_OFFSET UNITYSDK_OFFSET(0x1B839F50)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPS_B__22_0_OFFSET UNITYSDK_OFFSET(0x1B839FF0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD37C20)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_CHECKNEWDEVICETIPS_OFFSET UNITYSDK_OFFSET(0x1BCEED10)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD37C10)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_GET_DEVICEINFOLIST_OFFSET UNITYSDK_OFFSET(0x1BD366D0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_GET_LASTESTDEVICEID_OFFSET UNITYSDK_OFFSET(0x1BD366F0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_GET_USERDATA_OFFSET UNITYSDK_OFFSET(0x1BD36710)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_ONGETDEVICELIST_OFFSET UNITYSDK_OFFSET(0x1BD36D40)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_REQUESTACKNEWERDEVICES_OFFSET UNITYSDK_OFFSET(0x1BD36A10)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_REQUESTNEWDEVICELIST_OFFSET UNITYSDK_OFFSET(0x1BD36730)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SET_DEVICEINFOLIST_OFFSET UNITYSDK_OFFSET(0x1BD366E0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SET_LASTESTDEVICEID_OFFSET UNITYSDK_OFFSET(0x1BD36700)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SET_USERDATA_OFFSET UNITYSDK_OFFSET(0x1BD36720)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SHOWDEVICELOGINTIPSPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BD371D0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER_SHOWDEVICELOGINTIPS_OFFSET UNITYSDK_OFFSET(0x1BD37B00)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__CHECKNEWDEVICETIPS_B__17_0_OFFSET UNITYSDK_OFFSET(0x1BD37C60)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_0_OFFSET UNITYSDK_OFFSET(0x1BD37CB0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_1_OFFSET UNITYSDK_OFFSET(0x1BD37ED0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_2_OFFSET UNITYSDK_OFFSET(0x1BD37F60)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_3_OFFSET UNITYSDK_OFFSET(0x1BD37FF0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPS_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BD38090)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DeviceTipsManager_TypeDefinitionIndex = 9272;
-
 	class DeviceTipsManager : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::DeviceTipsManager** StaticGet_Instacne()
-		{
-			return (::MiHoYo::SDK::Win::DeviceTipsManager**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager_TypeDefinitionIndex)->GetStaticField(0x252C0);
-		}
-		::System::Action* OnBind; // 0x10
+		::System::Action* OnBack; // 0x10
 		::System::Action* OnClose; // 0x18
 		::System::Action* OnNotNewDevice; // 0x20
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* _deviceInfoList_k__BackingField; // 0x28
-		::System::Action* OnBack; // 0x30
+		::System::Action* OnBind; // 0x28
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* _deviceInfoList_k__BackingField; // 0x30
 		::MiHoYo::SDK::AccountModel* _userData_k__BackingField; // 0x38
 		::System::Int32 _lastestDeviceId_k__BackingField; // 0x40
+		static ::MiHoYo::SDK::Win::DeviceTipsManager** StaticGet_Instacne()
+		{
+			return (::MiHoYo::SDK::Win::DeviceTipsManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "DeviceTipsManager")->GetStaticField(0x19BB0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* get_deviceInfoList()
@@ -95,9 +92,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_CHECKNEWDEVICETIPS_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestNewDeviceList(::MiHoYo::SDK::AccountModel* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void RequestNewDeviceList(::MiHoYo::SDK::AccountModel* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_REQUESTNEWDEVICELIST_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_REQUESTNEWDEVICELIST_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RequestAckNewerDevices(::System::Int32 a1)
@@ -105,9 +102,9 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_REQUESTACKNEWERDEVICES_OFFSET))(this, a1);
 		}
 
-		::System::Void OnGetDeviceList(::MiHoYo::SDK::NetworkResponseModel* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void OnGetDeviceList(::MiHoYo::SDK::NetworkResponseModel* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_ONGETDEVICELIST_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER_ONGETDEVICELIST_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean ShowDeviceLoginTipsPluginUI(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::NewDeviceInfoModel*>* a1)
@@ -125,29 +122,30 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__CHECKNEWDEVICETIPS_B__17_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_0(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_0(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_1(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_1(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_2(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_2(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_3(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void _ShowDeviceLoginTipsPluginUI_b__21_3(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPSPLUGINUI_B__21_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ShowDeviceLoginTips_b__22_0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER__SHOWDEVICELOGINTIPS_B__22_0_OFFSET))(this);
 		}
+
 	};
 }

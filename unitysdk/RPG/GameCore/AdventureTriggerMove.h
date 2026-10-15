@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureTriggerMove; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERMOVE_METHOD_3_6BAF0F94EFFC1CDA_OFFSET UNITYSDK_OFFSET(0x1CDF97B0)
-#define RPG_GAMECORE_ADVENTURETRIGGERMOVE_METHOD_3_F6189DB2FDF0EDAE_OFFSET UNITYSDK_OFFSET(0x1CDF9540)
-#define RPG_GAMECORE_ADVENTURETRIGGERMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF9750)
+#define RPG_GAMECORE_ADVENTURETRIGGERMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CF920)
+#define RPG_GAMECORE_ADVENTURETRIGGERMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3CF980)
+#define RPG_GAMECORE_ADVENTURETRIGGERMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CF710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerMove_TypeDefinitionIndex = 19947;
-
 	class AdventureTriggerMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -29,22 +27,23 @@ namespace RPG::GameCore
 		::System::String* MaxSteerSpeedCurve; // 0x58
 		::System::Boolean CanPlayerControl; // 0x60
 		::System::Boolean AutoMove; // 0x61
+		::System::Byte _padding0[0x6];
 		::RPG::GameCore::DynamicFloat* Acceleration; // 0x68
 		::System::Boolean IsStop; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F6189DB2FDF0EDAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerMove*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureTriggerMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVE_METHOD_3_F6189DB2FDF0EDAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureTriggerMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6BAF0F94EFFC1CDA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerMove* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureTriggerMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVE_METHOD_3_6BAF0F94EFFC1CDA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureTriggerMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERMOVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

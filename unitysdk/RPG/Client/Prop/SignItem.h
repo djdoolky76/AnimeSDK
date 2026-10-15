@@ -1,78 +1,77 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_2_2679F01039F3FC24;
+class KFCMGNCLHMD;
 namespace RPG::Client::Prop { class SignPuzzle; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_SIGNITEM_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xDD2DA90)
-#define RPG_CLIENT_PROP_SIGNITEM_METHOD_1_2A6E71BD882634D2_OFFSET UNITYSDK_OFFSET(0xDD2D540)
-#define RPG_CLIENT_PROP_SIGNITEM_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0xDD2D990)
-#define RPG_CLIENT_PROP_SIGNITEM_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xDD2DA50)
-#define RPG_CLIENT_PROP_SIGNITEM_METHOD_1_6E6682ED9FD6F719_OFFSET UNITYSDK_OFFSET(0xDD2D8D0)
-#define RPG_CLIENT_PROP_SIGNITEM_METHOD_1_805C56F44231AEF9_1_OFFSET UNITYSDK_OFFSET(0xDD2DC60)
-#define RPG_CLIENT_PROP_SIGNITEM_METHOD_1_805C56F44231AEF9_OFFSET UNITYSDK_OFFSET(0xDD2DAF0)
-#define RPG_CLIENT_PROP_SIGNITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDD2DDD0)
+#define RPG_CLIENT_PROP_SIGNITEM_BDCKAIFPPJC_OFFSET UNITYSDK_OFFSET(0xDDB6510)
+#define RPG_CLIENT_PROP_SIGNITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB6890)
+#define RPG_CLIENT_PROP_SIGNITEM_DGPBJOPODCD_OFFSET UNITYSDK_OFFSET(0xDDB65B0)
+#define RPG_CLIENT_PROP_SIGNITEM_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xDDB6450)
+#define RPG_CLIENT_PROP_SIGNITEM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xDDB6390)
+#define RPG_CLIENT_PROP_SIGNITEM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xDDB6000)
+#define RPG_CLIENT_PROP_SIGNITEM_OLHEHJEGAHF_OFFSET UNITYSDK_OFFSET(0xDDB6720)
+#define RPG_CLIENT_PROP_SIGNITEM_PAFJAKPDDBD_OFFSET UNITYSDK_OFFSET(0xDDB6550)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int SignItem_TypeDefinitionIndex = 78391;
-
 	class SignItem : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* Item; // 0x10
 		::System::Boolean Signable; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::String* SignText; // 0x20
 		::System::String* CancelSignText; // 0x28
-		::Class_2_2679F01039F3FC24* _UITriggerProxy; // 0x30
+		::KFCMGNCLHMD* _UITriggerProxy; // 0x30
 		::System::Collections::Generic::List_1<::System::String*>* _TextOptions; // 0x38
 		::RPG::Client::Prop::SignPuzzle* _OwnerRef; // 0x40
 		::System::Boolean _IsSign; // 0x48
+		::System::Byte _padding1[0x7];
 		::UnityEngine::Animator* _Animator; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_2A6E71BD882634D2(::RPG::Client::Prop::SignPuzzle* a1)
+		::System::Void KPJGDHLENIP(::RPG::Client::Prop::SignPuzzle* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::SignPuzzle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_METHOD_1_2A6E71BD882634D2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::SignPuzzle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_KPJGDHLENIP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_6E6682ED9FD6F719()
+		::System::Void JLANKNHFKCN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_METHOD_1_6E6682ED9FD6F719_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_JLANKNHFKCN_OFFSET))(this);
 		}
 
-		::System::Void Method_1_30D1209326FA87FC()
+		::System::Void HADOHLNHHGB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_METHOD_1_30D1209326FA87FC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_HADOHLNHHGB_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_391A84BCD9F51317()
+		::System::Boolean BDCKAIFPPJC()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_BDCKAIFPPJC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_1D4018D4200358D0()
+		::System::Boolean PAFJAKPDDBD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_PAFJAKPDDBD_OFFSET))(this);
 		}
 
-		::System::Void Method_1_805C56F44231AEF9()
+		::System::Void DGPBJOPODCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_METHOD_1_805C56F44231AEF9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_DGPBJOPODCD_OFFSET))(this);
 		}
 
-		::System::Void Method_1_805C56F44231AEF9_1()
+		::System::Void OLHEHJEGAHF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_METHOD_1_805C56F44231AEF9_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_SIGNITEM_OLHEHJEGAHF_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class ToneMappingMethodParameter; }
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGTONEMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DCCD0)
+#define RPG_CUSTOMRP_RPGTONEMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC63220)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGTonemapping_TypeDefinitionIndex = 37163;
-
 	class RPGTonemapping : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
@@ -35,10 +32,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* ACES_C; // 0xC0
 		::UnityEngine::Rendering::FloatParameter* ACES_D; // 0xC8
 		::UnityEngine::Rendering::FloatParameter* ACES_E; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGTONEMAPPING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGTONEMAPPING_CTOR_OFFSET))(this);
 		}
+
 	};
 }

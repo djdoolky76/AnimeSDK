@@ -3,8 +3,6 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PlayerMotionProviderCameraMode_TypeDefinitionIndex = 78328;
-
 	enum class PlayerMotionProviderCameraMode : ::System::Int32
 	{
 		None = 0,

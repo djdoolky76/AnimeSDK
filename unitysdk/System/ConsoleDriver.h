@@ -1,45 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ConsoleKeyInfo.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/ConsoleKeyInfo.h"
 namespace System { class IConsoleDriver; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_CONSOLEDRIVER_CREATENULLCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1BC8A090)
-#define SYSTEM_CONSOLEDRIVER_CREATETERMINFODRIVER_OFFSET UNITYSDK_OFFSET(0x1BC8A120)
-#define SYSTEM_CONSOLEDRIVER_CREATEWINDOWSCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1BC8A0D0)
-#define SYSTEM_CONSOLEDRIVER_GET_ISCONSOLE_OFFSET UNITYSDK_OFFSET(0x1BC88FD0)
-#define SYSTEM_CONSOLEDRIVER_INTERNALKEYAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1BC8A190)
-#define SYSTEM_CONSOLEDRIVER_ISATTY_OFFSET UNITYSDK_OFFSET(0x1BC8A170)
-#define SYSTEM_CONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1BC89770)
-#define SYSTEM_CONSOLEDRIVER_SETECHO_OFFSET UNITYSDK_OFFSET(0x1BC8A1B0)
-#define SYSTEM_CONSOLEDRIVER_TTYSETUP_OFFSET UNITYSDK_OFFSET(0x1BC8A1A0)
-#define SYSTEM_CONSOLEDRIVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC8A040)
+#define SYSTEM_CONSOLEDRIVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C195F40)
+#define SYSTEM_CONSOLEDRIVER_CREATENULLCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1C195F90)
+#define SYSTEM_CONSOLEDRIVER_CREATETERMINFODRIVER_OFFSET UNITYSDK_OFFSET(0x1C196020)
+#define SYSTEM_CONSOLEDRIVER_CREATEWINDOWSCONSOLEDRIVER_OFFSET UNITYSDK_OFFSET(0x1C195FD0)
+#define SYSTEM_CONSOLEDRIVER_GET_ISCONSOLE_OFFSET UNITYSDK_OFFSET(0x1C194ED0)
+#define SYSTEM_CONSOLEDRIVER_INTERNALKEYAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1C196090)
+#define SYSTEM_CONSOLEDRIVER_ISATTY_OFFSET UNITYSDK_OFFSET(0x1C196070)
+#define SYSTEM_CONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1C195670)
+#define SYSTEM_CONSOLEDRIVER_SETECHO_OFFSET UNITYSDK_OFFSET(0x1C1960B0)
+#define SYSTEM_CONSOLEDRIVER_TTYSETUP_OFFSET UNITYSDK_OFFSET(0x1C1960A0)
 
 namespace System
 {
-	inline static constexpr unsigned int ConsoleDriver_TypeDefinitionIndex = 386;
-
 	class ConsoleDriver : public ::System::Object
 	{
 	public:
 		static ::System::IConsoleDriver** StaticGet_driver()
 		{
-			return (::System::IConsoleDriver**)Il2CppClass::FromTypeDefinitionIndex(ConsoleDriver_TypeDefinitionIndex)->GetStaticField(0x79A0);
+			return (::System::IConsoleDriver**)UnitySDK::FromName("System", "ConsoleDriver")->GetStaticField(0x10C30);
 		}
-		static ::System::Boolean* StaticGet_called_isatty()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ConsoleDriver_TypeDefinitionIndex)->GetStaticField(0x20D0);
-		}
+
 		static ::System::Boolean* StaticGet_is_console()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ConsoleDriver_TypeDefinitionIndex)->GetStaticField(0x20D1);
+			return (::System::Boolean*)UnitySDK::FromName("System", "ConsoleDriver")->GetStaticField(0x38B0);
+		}
+
+		static ::System::Boolean* StaticGet_called_isatty()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "ConsoleDriver")->GetStaticField(0x38B1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_CCTOR_OFFSET))();
 		}
 
 		static ::System::IConsoleDriver* CreateNullConsoleDriver()
@@ -77,14 +77,15 @@ namespace System
 			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_INTERNALKEYAVAILABLE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TtySetup(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Byte>*& a3, ::System::Int32*& a4)
+		static ::System::Boolean TtySetup(::System::String* a1, ::System::String* a2, ::System::Object* a3, ::System::Object* a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*&, ::System::Int32*&))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_TTYSETUP_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_TTYSETUP_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean SetEcho(::System::Boolean a1)
 		{
 			return ((::System::Boolean(*)(::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLEDRIVER_SETECHO_OFFSET))(a1);
 		}
+
 	};
 }

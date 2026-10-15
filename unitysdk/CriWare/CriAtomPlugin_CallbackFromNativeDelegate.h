@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x164E1000)
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x164E1050)
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x164E0FF0)
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x164E0F80)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16707C20)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x16707BA0)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16707C70)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x16707C10)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomPlugin_CallbackFromNativeDelegate_TypeDefinitionIndex = 38634;
-
 	class CriAtomPlugin_CallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt64 Invoke(::System::IntPtr a1)
@@ -37,5 +34,6 @@ namespace CriWare
 		{
 			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

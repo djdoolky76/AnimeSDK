@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RedDotModuleType_TypeDefinitionIndex = 24551;
-
 	enum class RedDotModuleType : ::System::Int32
 	{
 		Default = 0,

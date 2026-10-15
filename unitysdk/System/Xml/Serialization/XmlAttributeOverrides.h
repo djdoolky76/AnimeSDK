@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Xml::Serialization { class TypeMember; }
 namespace System::Xml::Serialization { class XmlAttributes; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_GETKEY_OFFSET UNITYSDK_OFFSET(0x1E83B930)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x1E83B7E0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E83B7C0)
-#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83B760)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF043E0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_GETKEY_OFFSET UNITYSDK_OFFSET(0x1EF045B0)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x1EF04460)
+#define SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EF04440)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAttributeOverrides_TypeDefinitionIndex = 2003;
-
 	class XmlAttributeOverrides : public ::System::Object
 	{
 	public:
 		::System::Collections::Hashtable* overrides; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Serialization::XmlAttributes* get_Item(::System::Type* a1)
@@ -41,5 +37,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Xml::Serialization::TypeMember*(*)(::PVOID, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLATTRIBUTEOVERRIDES_GETKEY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

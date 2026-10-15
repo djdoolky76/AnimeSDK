@@ -2,31 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/ServantBodySize.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ManikinServantConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANIKINSERVANTCONFIG_METHOD_2_3B2B39305CD04544_OFFSET UNITYSDK_OFFSET(0x1D21FF00)
-#define RPG_GAMECORE_MANIKINSERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D220050)
+#define RPG_GAMECORE_MANIKINSERVANTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D828F60)
+#define RPG_GAMECORE_MANIKINSERVANTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D828E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinServantConfig_TypeDefinitionIndex = 17277;
-
 	class ManikinServantConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::ServantBodySize ServantBodySize; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* AnimEventConfigList; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINSERVANTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINSERVANTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3B2B39305CD04544(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinServantConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ManikinServantConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinServantConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINSERVANTCONFIG_METHOD_2_3B2B39305CD04544_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ManikinServantConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINSERVANTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

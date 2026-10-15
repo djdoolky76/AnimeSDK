@@ -1,20 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
-#include "unitysdk/System/ValueType.h"
-
-class Class_1_43BD383C98B4C0C5_3;
-namespace System { class Object; }
+class LELCKJPOPAO;
 namespace System { class String; }
+namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolDictionaryEnumeratorStringKey_1_TypeDefinitionIndex = 10739;
-
-	template <typename TValue>
-	struct ConfigDataPoolDictionaryEnumeratorStringKey_1
+	template <typename T>
+	struct alignas(8) ConfigDataPoolDictionaryEnumeratorStringKey_1
 	{
-		::Class_1_43BD383C98B4C0C5_3* _Pool; // 0x0
+		::LELCKJPOPAO* _Pool; // 0x0
 		::System::UInt32 _Offset; // 0x0
 		::System::Int32 _Count; // 0x0
 		::System::Boolean _IsHash; // 0x0
@@ -24,6 +19,6 @@ namespace RPG::GameCore
 		::System::Int32 _LinearIndex; // 0x0
 		::System::Int32 _BucketIndex; // 0x0
 		::System::Int32 _FoundCount; // 0x0
-		::System::Collections::Generic::KeyValuePair_2<::System::String*, TValue> _Current; // 0x0
+		::System::Collections::Generic::KeyValuePair* _Current; // 0x0
 	};
 }

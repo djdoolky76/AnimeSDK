@@ -1,41 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MessagePack { class MessagePackSecurity; }
 namespace MessagePack::Internal { template <typename T> class ThreadsafeTypeKeyHashTable_1; }
+namespace System { class Object; }
 namespace System { template <typename T> class Lazy_1; }
 namespace System::Collections { class IEqualityComparer; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B6C3990)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__EQUALS_OFFSET UNITYSDK_OFFSET(0x1B6C37B0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B6C3870)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6C3ED0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C1F10)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBC2230)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC0270)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBC1CF0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_GENERIC_IEQUALITYCOMPARER_SYSTEM_OBJECT__EQUALS_OFFSET UNITYSDK_OFFSET(0x1BBC1B10)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_SYSTEM_COLLECTIONS_IEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BBC1BD0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_ObjectFallbackEqualityComparer_TypeDefinitionIndex = 7150;
-
 	class MessagePackSecurity_ObjectFallbackEqualityComparer : public ::System::Object
 	{
 	public:
+		::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Collections::IEqualityComparer*>* equalityComparerCache; // 0x10
+		::MessagePack::MessagePackSecurity* security; // 0x18
 		static ::System::Lazy_1<::System::Reflection::MethodInfo*>** StaticGet_GetHashCollisionResistantEqualityComparerOpenGenericMethod()
 		{
-			return (::System::Lazy_1<::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_ObjectFallbackEqualityComparer_TypeDefinitionIndex)->GetStaticField(0x2E460);
+			return (::System::Lazy_1<::System::Reflection::MethodInfo*>**)UnitySDK::FromName("MessagePack", "ObjectFallbackEqualityComparer")->GetStaticField(0x2C310);
 		}
-		::MessagePack::MessagePackSecurity* security; // 0x10
-		::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Collections::IEqualityComparer*>* equalityComparerCache; // 0x18
 
 		::System::Void _ctor(::MessagePack::MessagePackSecurity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackSecurity*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::MessagePackSecurity*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* a1, ::System::Object* a2)
@@ -52,5 +50,6 @@ namespace MessagePack
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKSECURITY_OBJECTFALLBACKEQUALITYCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

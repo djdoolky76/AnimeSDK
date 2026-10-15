@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
-
+namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckPermissionResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxCheckPermissionExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DED0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA1DEC0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1DF10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF22100)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF220C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF220B0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelCheckPermissionResult_TypeDefinitionIndex = 8548;
-
 	class HoYoChannelCheckPermissionResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
 		::MiHoYo::SDK::PC::OS::XboxCheckPermissionExtension* xbox; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
@@ -32,5 +29,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelCheckPermissionResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONRESULT_FROMJSON_OFFSET))(a1);
 		}
+
 	};
 }

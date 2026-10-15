@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongGridIndex; }
+namespace RPG::GameCore { class PingPongPatrolRouteCmptConfig; }
 
-#define RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_METHOD_3_241FCB66C28148F4_OFFSET UNITYSDK_OFFSET(0x1D3331B0)
-#define RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_METHOD_3_F3DBA84D8765A384_OFFSET UNITYSDK_OFFSET(0x1D333210)
-#define RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D333200)
+#define RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D918390)
+#define RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9183A0)
+#define RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D918340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongPatrolRouteCmptConfig_TypeDefinitionIndex = 18717;
-
 	class PingPongPatrolRouteCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::PingPongGridIndex*>* PatrolPointList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_241FCB66C28148F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongPatrolRouteCmptConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongPatrolRouteCmptConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongPatrolRouteCmptConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_METHOD_3_241FCB66C28148F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongPatrolRouteCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F3DBA84D8765A384(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongPatrolRouteCmptConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongPatrolRouteCmptConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongPatrolRouteCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_METHOD_3_F3DBA84D8765A384_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongPatrolRouteCmptConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGPATROLROUTECMPTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

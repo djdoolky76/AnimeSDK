@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioManager_InnerState_TypeDefinitionIndex = 59872;
-
 	enum class AudioManager_InnerState : ::System::Int32
 	{
 		Invalid = 0,

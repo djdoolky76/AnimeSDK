@@ -2,22 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_FEVERTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C497390)
+#define RPG_CLIENT_LITTLEGAME_FEVERTIMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA068F0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int FeverTimeConfig_TypeDefinitionIndex = 41034;
-
 	class FeverTimeConfig : public ::System::Object
 	{
 	public:
 		::System::Single Duration; // 0x10
 		::System::Single SPMax; // 0x14
 		::System::Single FullScreenFadeTime; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FEVERTIMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FEVERTIMECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

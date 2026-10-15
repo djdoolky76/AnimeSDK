@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCardTipsTypeEnum_TypeDefinitionIndex = 11157;
-
 	enum class ClockParkCardTipsTypeEnum : ::System::Int32
 	{
 		None = 0,

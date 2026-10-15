@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System::Threading::Tasks { class Task; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__ASTASK_B__35_0_OFFSET UNITYSDK_OFFSET(0x1EA8AB30)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__ASUNITASK_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA8A9B0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA8A960)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8A9A0)
-#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__FORGET_B__48_0_OFFSET UNITYSDK_OFFSET(0x1EA8AD30)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F152180)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1521C0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__ASTASK_B__35_0_OFFSET UNITYSDK_OFFSET(0x1F152350)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__ASUNITASK_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F1521D0)
+#define CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__FORGET_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F152550)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions___c_TypeDefinitionIndex = 42825;
-
 	class UniTaskExtensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet___9__48_0()
+		static ::System::Action** StaticGet___9__33_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x59A80);
+			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48460);
 		}
-		static ::System::Action_1<::System::Object*>** StaticGet___9__35_0()
+
+		static ::System::Action** StaticGet___9__48_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x59A88);
+			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48468);
 		}
-		static ::Cysharp::Threading::Tasks::UniTaskExtensions___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Cysharp::Threading::Tasks::UniTaskExtensions___c**)Il2CppClass::FromTypeDefinitionIndex(UniTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x59A90);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48470);
 		}
-		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__33_0()
+
+		static ::System::Action** StaticGet___9__35_0()
 		{
-			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(UniTaskExtensions___c_TypeDefinitionIndex)->GetStaticField(0x59A98);
+			return (::System::Action**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48478);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _AsUniTask_b__33_0(::System::Threading::Tasks::Task* a1, ::System::Object* a2)
@@ -60,5 +60,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASKEXTENSIONS___C__FORGET_B__48_0_OFFSET))(this, a1);
 		}
+
 	};
 }

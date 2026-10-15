@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
@@ -9,21 +8,19 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E9ACCE0)
-#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E9ACD30)
-#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E9ACCB0)
-#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9ACC30)
+#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F075580)
+#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0754D0)
+#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F0755D0)
+#define SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F075550)
 
 namespace System::Net::Security
 {
-	inline static constexpr unsigned int LocalCertSelectionCallback_TypeDefinitionIndex = 2926;
-
 	class LocalCertSelectionCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::System::String* a1, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* a2, ::System::Security::Cryptography::X509Certificates::X509Certificate* a3, ::Il2CppArray<::System::String*>* a4)
@@ -40,5 +37,6 @@ namespace System::Net::Security
 		{
 			return ((::System::Security::Cryptography::X509Certificates::X509Certificate*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SECURITY_LOCALCERTSELECTIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

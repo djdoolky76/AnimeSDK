@@ -2,17 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CommonEffectMatBlockType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class MaterialAnimationBinding; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCBEHAVIOR_SYNCCHANNEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD678C20)
+#define RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCBEHAVIOR_SYNCCHANNEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD5D2610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialAnimationBindingSyncBehavior_SyncChannel_TypeDefinitionIndex = 70256;
-
 	class MaterialAnimationBindingSyncBehavior_SyncChannel : public ::System::Object
 	{
 	public:
@@ -23,10 +20,10 @@ namespace RPG::Client
 		::System::String* PropertyName; // 0x28
 		::RPG::Client::CommonEffectMatBlockType DataType; // 0x30
 		::System::Int32 PropertyId; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCBEHAVIOR_SYNCCHANNEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALANIMATIONBINDINGSYNCBEHAVIOR_SYNCCHANNEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,26 +3,24 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETBUFFID_OFFSET UNITYSDK_OFFSET(0xE4BA240)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4BA200)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETISBUFFCREATE_OFFSET UNITYSDK_OFFSET(0xE4BA280)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4BA1C0)
-#define RPG_GAMECORE_ADVENTUREBUFFEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE4B4030)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE5456B0)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETBUFFID_OFFSET UNITYSDK_OFFSET(0xE54BF30)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE54BEF0)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETISBUFFCREATE_OFFSET UNITYSDK_OFFSET(0xE54BF70)
+#define RPG_GAMECORE_ADVENTUREBUFFEVENT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE54BEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBuffEvent_TypeDefinitionIndex = 56797;
-
 	class AdventureBuffEvent : public ::System::Object
 	{
 	public:
-		::System::UInt32 _BuffID; // 0x10
+		::System::Boolean _IsBuffCreate; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 _EntityRuntimeID; // 0x14
-		::System::Boolean _IsBuffCreate; // 0x18
-
+		::System::UInt32 _BuffID; // 0x18
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBUFFEVENT__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBUFFEVENT_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -44,5 +42,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBUFFEVENT_GETISBUFFCREATE_OFFSET))(this);
 		}
+
 	};
 }

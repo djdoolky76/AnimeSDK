@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D9540)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D9530)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D96D0)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92EDB0)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92EF40)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92EDA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropAttachToStoryPropClip_TypeDefinitionIndex = 48701;
-
 	class PropAttachToStoryPropClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
@@ -27,10 +24,9 @@ namespace RPGTools::Timeline
 		::UnityEngine::Vector3 PositionOffset; // 0x38
 		::UnityEngine::Vector3 RotationOffset; // 0x44
 		::System::Boolean IsStop; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -42,5 +38,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOSTORYPROPCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

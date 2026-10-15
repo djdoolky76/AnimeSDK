@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdvWaitingEventBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class WaitMatchThreeV2BirdLocationChange; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_METHOD_4_4C94F250C8E0FACC_OFFSET UNITYSDK_OFFSET(0x1CD63BE0)
-#define RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_METHOD_4_ADB8E61DE3285679_OFFSET UNITYSDK_OFFSET(0x1CD63B90)
-#define RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD63BD0)
+#define RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3373F0)
+#define RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D337400)
+#define RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3373B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WaitMatchThreeV2BirdLocationChange_TypeDefinitionIndex = 10243;
-
 	class WaitMatchThreeV2BirdLocationChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* LocationID; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnChange; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_ADB8E61DE3285679(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::WaitMatchThreeV2BirdLocationChange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::WaitMatchThreeV2BirdLocationChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::WaitMatchThreeV2BirdLocationChange*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_METHOD_4_ADB8E61DE3285679_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::WaitMatchThreeV2BirdLocationChange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4C94F250C8E0FACC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::WaitMatchThreeV2BirdLocationChange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::WaitMatchThreeV2BirdLocationChange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::WaitMatchThreeV2BirdLocationChange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_METHOD_4_4C94F250C8E0FACC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::WaitMatchThreeV2BirdLocationChange*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WAITMATCHTHREEV2BIRDLOCATIONCHANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

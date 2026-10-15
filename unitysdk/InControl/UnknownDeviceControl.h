@@ -2,51 +2,47 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputControlType.h"
 #include "unitysdk/InControl/InputRangeType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace InControl { class InputDevice; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define INCONTROL_UNKNOWNDEVICECONTROL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3B58750)
-#define INCONTROL_UNKNOWNDEVICECONTROL_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B58730)
-#define INCONTROL_UNKNOWNDEVICECONTROL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B58810)
-#define INCONTROL_UNKNOWNDEVICECONTROL_GETVALUE_OFFSET UNITYSDK_OFFSET(0x3B58700)
-#define INCONTROL_UNKNOWNDEVICECONTROL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x3B58710)
-#define INCONTROL_UNKNOWNDEVICECONTROL_LOAD_OFFSET UNITYSDK_OFFSET(0x3B58840)
-#define INCONTROL_UNKNOWNDEVICECONTROL_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B65BD00)
-#define INCONTROL_UNKNOWNDEVICECONTROL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B65C680)
-#define INCONTROL_UNKNOWNDEVICECONTROL_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B65C8D0)
-#define INCONTROL_UNKNOWNDEVICECONTROL_SAVE_OFFSET UNITYSDK_OFFSET(0x3B58830)
-#define INCONTROL_UNKNOWNDEVICECONTROL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B58820)
-#define INCONTROL_UNKNOWNDEVICECONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B65CBC0)
-#define INCONTROL_UNKNOWNDEVICECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x3B586D0)
+#define INCONTROL_UNKNOWNDEVICECONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB5B8D0)
+#define INCONTROL_UNKNOWNDEVICECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x3C0CFB0)
+#define INCONTROL_UNKNOWNDEVICECONTROL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C0D030)
+#define INCONTROL_UNKNOWNDEVICECONTROL_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C0D010)
+#define INCONTROL_UNKNOWNDEVICECONTROL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C0D0F0)
+#define INCONTROL_UNKNOWNDEVICECONTROL_GETVALUE_OFFSET UNITYSDK_OFFSET(0x3C0CFE0)
+#define INCONTROL_UNKNOWNDEVICECONTROL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x3C0CFF0)
+#define INCONTROL_UNKNOWNDEVICECONTROL_LOAD_OFFSET UNITYSDK_OFFSET(0x3C0D120)
+#define INCONTROL_UNKNOWNDEVICECONTROL_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BB5AA10)
+#define INCONTROL_UNKNOWNDEVICECONTROL_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1BB5B390)
+#define INCONTROL_UNKNOWNDEVICECONTROL_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1BB5B5E0)
+#define INCONTROL_UNKNOWNDEVICECONTROL_SAVE_OFFSET UNITYSDK_OFFSET(0x3C0D110)
+#define INCONTROL_UNKNOWNDEVICECONTROL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C0D100)
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnknownDeviceControl_TypeDefinitionIndex = 39516;
-
 	struct alignas(4) UnknownDeviceControl
 	{
-		static ::InControl::UnknownDeviceControl* StaticGet_None()
-		{
-			return (::InControl::UnknownDeviceControl*)Il2CppClass::FromTypeDefinitionIndex(UnknownDeviceControl_TypeDefinitionIndex)->GetStaticField(0x10C0);
-		}
 		::InControl::InputControlType Control; // 0x10
 		::InControl::InputRangeType SourceRange; // 0x14
 		::System::Boolean IsButton; // 0x18
 		::System::Boolean IsAnalog; // 0x19
+		static ::InControl::UnknownDeviceControl* StaticGet_None()
+		{
+			return (::InControl::UnknownDeviceControl*)UnitySDK::FromName("InControl", "UnknownDeviceControl")->GetStaticField(0x35B0);
+		}
 
 		::System::Void _ctor(::InControl::InputControlType a1, ::InControl::InputRangeType a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::InControl::InputRangeType))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::InControl::InputControlType, ::InControl::InputRangeType))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_CCTOR_OFFSET))();
 		}
 
 		::System::Single GetValue(::InControl::InputDevice* a1)
@@ -59,20 +55,26 @@ namespace InControl
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_GET_INDEX_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::InControl::UnknownDeviceControl a1, ::InControl::UnknownDeviceControl a2)
 		{
 			return ((::System::Boolean(*)(::InControl::UnknownDeviceControl, ::InControl::UnknownDeviceControl))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::InControl::UnknownDeviceControl a1, ::InControl::UnknownDeviceControl a2)
 		{
 			return ((::System::Boolean(*)(::InControl::UnknownDeviceControl, ::InControl::UnknownDeviceControl))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		::System::Boolean Equals(::InControl::UnknownDeviceControl a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::InControl::UnknownDeviceControl))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -84,10 +86,12 @@ namespace InControl
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Implicit(::InControl::UnknownDeviceControl a1)
 		{
 			return ((::System::Boolean(*)(::InControl::UnknownDeviceControl))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -103,5 +107,6 @@ namespace InControl
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + INCONTROL_UNKNOWNDEVICECONTROL_LOAD_OFFSET))(this, a1);
 		}
+
 	};
 }

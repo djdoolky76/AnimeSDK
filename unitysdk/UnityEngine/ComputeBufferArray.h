@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/BaseBindlessArray.h"
+namespace UnityEngine { class ComputeBufferArray; }
 
-#define UNITYENGINE_COMPUTEBUFFERARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1ED13580)
-#define UNITYENGINE_COMPUTEBUFFERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ED134D0)
+#define UNITYENGINE_COMPUTEBUFFERARRAY_DESTROY_OFFSET UNITYSDK_OFFSET(0x1F3DB2F0)
+#define UNITYENGINE_COMPUTEBUFFERARRAY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F3DB240)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ComputeBufferArray_TypeDefinitionIndex = 4252;
-
 	class ComputeBufferArray : public ::UnityEngine::BaseBindlessArray
 	{
 	public:
@@ -21,5 +20,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::UnityEngine::ComputeBufferArray*))((::PBYTE)hIl2Cpp + UNITYENGINE_COMPUTEBUFFERARRAY_DESTROY_OFFSET))(a1);
 		}
+
 	};
 }

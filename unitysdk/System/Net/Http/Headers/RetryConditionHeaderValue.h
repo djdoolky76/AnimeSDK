@@ -1,62 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTimeOffset.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
+namespace System::Net::Http::Headers { class RetryConditionHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E791C00)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E791D20)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1E791B10)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x1E791B40)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DATE_OFFSET UNITYSDK_OFFSET(0x1E791B30)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DELTA_OFFSET UNITYSDK_OFFSET(0x1E791B50)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E791B60)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7920D0)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E791DC0)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E791A70)
-#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E791A50)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE5A760)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5A740)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE5A8F0)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE5AA10)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1EE5A800)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x1EE5A830)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DATE_OFFSET UNITYSDK_OFFSET(0x1EE5A820)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DELTA_OFFSET UNITYSDK_OFFSET(0x1EE5A840)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE5A850)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE5ADC0)
+#define SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE5AAB0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int RetryConditionHeaderValue_TypeDefinitionIndex = 3824;
-
 	class RetryConditionHeaderValue : public ::System::Object
 	{
 	public:
-		::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField; // 0x10
-		::System::Nullable_1<::System::TimeSpan> _Delta_k__BackingField; // 0x28
-
+		::System::Nullable* _Delta_k__BackingField; // 0x10
+		::System::Byte _padding0[0x8];
+		::System::Nullable* _Date_k__BackingField; // 0x20
 		::System::Void _ctor(::System::DateTimeOffset a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::DateTimeOffset))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::DateTimeOffset))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::TimeSpan a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Nullable_1<::System::DateTimeOffset> get_Date()
+		::System::Nullable* get_Date()
 		{
-			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
 		}
 
-		::System::Void set_Date(::System::Nullable_1<::System::DateTimeOffset> a1)
+		::System::Void set_Date(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
 		}
 
-		::System::Nullable_1<::System::TimeSpan> get_Delta()
+		::System::Nullable* get_Delta()
 		{
-			return ((::System::Nullable_1<::System::TimeSpan>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DELTA_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GET_DELTA_OFFSET))(this);
 		}
 
-		::System::Void set_Delta(::System::Nullable_1<::System::TimeSpan> a1)
+		::System::Void set_Delta(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::TimeSpan>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DELTA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_SET_DELTA_OFFSET))(this, a1);
 		}
 
 		::System::Object* System_ICloneable_Clone()
@@ -74,14 +73,15 @@ namespace System::Net::Http::Headers
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::RetryConditionHeaderValue*& a2)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::RetryConditionHeaderValue* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::RetryConditionHeaderValue*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::RetryConditionHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
 		}
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RETRYCONDITIONHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

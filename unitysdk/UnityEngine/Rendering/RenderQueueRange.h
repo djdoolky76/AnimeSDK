@@ -1,55 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BC27A0)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B814A0)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BC2800)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_ALL_OFFSET UNITYSDK_OFFSET(0x1ED5BA20)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_LOWERBOUND_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_OPAQUE_OFFSET UNITYSDK_OFFSET(0x1ED5D630)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_TRANSPARENT_OFFSET UNITYSDK_OFFSET(0x1ED5D640)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_UPPERBOUND_OFFSET UNITYSDK_OFFSET(0x1E120)
-#define UNITYENGINE_RENDERING_RENDERQUEUERANGE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED5D6D0)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F425990)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C78430)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C36260)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C78490)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_ALL_OFFSET UNITYSDK_OFFSET(0x1F423CE0)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_LOWERBOUND_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_OPAQUE_OFFSET UNITYSDK_OFFSET(0x1F4258F0)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_TRANSPARENT_OFFSET UNITYSDK_OFFSET(0x1F425900)
+#define UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_UPPERBOUND_OFFSET UNITYSDK_OFFSET(0xFE70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderQueueRange_TypeDefinitionIndex = 4760;
-
 	struct alignas(4) RenderQueueRange
 	{
-		static ::System::Int32* StaticGet_maximumBound()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderQueueRange_TypeDefinitionIndex)->GetStaticField(0x7E70);
-		}
-		static ::System::Int32* StaticGet_minimumBound()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RenderQueueRange_TypeDefinitionIndex)->GetStaticField(0x7E74);
-		}
 		::System::Int32 m_LowerBound; // 0x10
 		::System::Int32 m_UpperBound; // 0x14
+		static ::System::Int32* StaticGet_maximumBound()
+		{
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "RenderQueueRange")->GetStaticField(0x4F90);
+		}
+
+		static ::System::Int32* StaticGet_minimumBound()
+		{
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "RenderQueueRange")->GetStaticField(0x4F94);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE_CCTOR_OFFSET))();
 		}
 
+		/*
 		static ::UnityEngine::Rendering::RenderQueueRange get_all()
 		{
 			return ((::UnityEngine::Rendering::RenderQueueRange(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_ALL_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::RenderQueueRange get_opaque()
 		{
 			return ((::UnityEngine::Rendering::RenderQueueRange(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_OPAQUE_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Rendering::RenderQueueRange get_transparent()
 		{
 			return ((::UnityEngine::Rendering::RenderQueueRange(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_TRANSPARENT_OFFSET))();
 		}
+		*/
 
 		::System::Int32 get_lowerBound()
 		{
@@ -61,10 +64,12 @@ namespace UnityEngine::Rendering
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE_GET_UPPERBOUND_OFFSET))(this);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::RenderQueueRange a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::RenderQueueRange))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -75,5 +80,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_RENDERQUEUERANGE_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

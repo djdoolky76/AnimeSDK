@@ -6,10 +6,7 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class CameraBlendCurve; }
-namespace RPG::Client { class ClientOnlyCommonConfig_BodyFootScaleItem; }
-namespace RPG::Client { class ClientOnlyCommonConfig_MainLightOffsetItem; }
 namespace RPG::Client { class NamedCurve; }
 namespace RPG::Client { class NpcEyeConfig; }
 namespace RPG::Client { class RootMotionBakedConfig; }
@@ -17,42 +14,41 @@ namespace RPG::Client { class SpringBoneCommonConfig; }
 namespace RPG::Client { class TiltCommonConfig; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace RPGTools::Timeline::CharacterStoryMove { class CharacterStoryMoveSequenceConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCC246A0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPC_OFFSET UNITYSDK_OFFSET(0xCC24780)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPHONE_OFFSET UNITYSDK_OFFSET(0xCC24710)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCC27040)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCC26770)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0xCC27060)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCC27050)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCC266F0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_INITCONFIGALL_OFFSET UNITYSDK_OFFSET(0xCC25250)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SAVEPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0xCC264C0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCC26F10)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCC26D40)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0xCC26FB0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCC26E60)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCC26C20)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_TRYGETBODYFOOTSCALE_OFFSET UNITYSDK_OFFSET(0xCC27070)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCC27310)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xCC267F0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCURVECONFIGALL_OFFSET UNITYSDK_OFFSET(0xCC252C0)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITGAMEPADCONFIG_OFFSET UNITYSDK_OFFSET(0xCC26A50)
-#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0xCC26470)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCB76420)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCB737C0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPC_OFFSET UNITYSDK_OFFSET(0xCB738A0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOFORPHONE_OFFSET UNITYSDK_OFFSET(0xCB73830)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCB76150)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCB75880)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0xCB76170)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCB76160)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_GET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCB75800)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_INITCONFIGALL_OFFSET UNITYSDK_OFFSET(0xCB74360)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SAVEPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0xCB755D0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCB76020)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_CAMERAROTATIONSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCB75E50)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_GAMEPADVIBRATIONINTENSITY_OFFSET UNITYSDK_OFFSET(0xCB760C0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTINGFORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xCB75F70)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_ZOOMSPEEDRATIOGEARSETTING_OFFSET UNITYSDK_OFFSET(0xCB75D30)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG_TRYGETBODYFOOTSCALE_OFFSET UNITYSDK_OFFSET(0xCB76180)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xCB75900)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITCURVECONFIGALL_OFFSET UNITYSDK_OFFSET(0xCB743D0)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITGAMEPADCONFIG_OFFSET UNITYSDK_OFFSET(0xCB75B60)
+#define RPG_CLIENT_CLIENTONLYCOMMONCONFIG__INITPLAYERPREFSCONFIG_OFFSET UNITYSDK_OFFSET(0xCB75580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientOnlyCommonConfig_TypeDefinitionIndex = 60154;
-
 	class ClientOnlyCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::String* EnvSystemDefaultProfilePath; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ClientOnlyCommonConfig_MainLightOffsetItem*>* MainLightOffsetPresets; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* MainLightOffsetPresets; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::CameraBlendCurve*>* BlendCurveList; // 0x28
 		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* TimeSlowCurveList; // 0x30
 		::System::Single ControllerDpi; // 0x38
@@ -65,17 +61,21 @@ namespace RPG::Client
 		::System::Single ChooseShake_DefaultAmplitude; // 0x64
 		::System::Boolean ChooseShake_IsMainCamOrtho; // 0x68
 		::System::Boolean IsCovertDragDir; // 0x69
+		::System::Byte _padding0[0x2];
 		::System::Single DragMinDistanceForChangeTarget; // 0x6C
 		::System::Single DragMaxDistanceForChangeTarget; // 0x70
 		::System::Single DragMinDistanceForChangeTargetRow; // 0x74
 		::System::Single DragMaxDistanceForChangeTargetRow; // 0x78
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* DragDistanceScaleCurve; // 0x80
 		::System::Single DragDistanceScaleCurveXMax; // 0x88
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* DragDistanceScaleCurveByTargetCount; // 0x90
 		::System::Single DragFlashDistanceMagnification; // 0x98
 		::System::Single DragFlashMaxTime; // 0x9C
 		::System::Single SpeedUpRatio; // 0xA0
 		::System::Boolean DisableTurnPageEffect; // 0xA4
+		::System::Byte _padding3[0x3];
 		::System::Single DelayCloseFrameCaptureUIDuration; // 0xA8
 		::System::Single FrameCaptureFadeDuration; // 0xAC
 		::System::Single AutoDelayCloseFrameCaptureUIDuration; // 0xB0
@@ -94,6 +94,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* StoryBodyControlIKCurveList; // 0x110
 		::System::String* BattleDefaultSceneName; // 0x118
 		::System::Boolean UseStackCamera; // 0x120
+		::System::Byte _padding4[0x3];
 		::System::Single ZoomSpeedRatio; // 0x124
 		::System::Single ZoomSpeedRatioForPC; // 0x128
 		::System::Single ZoomSpeedRatioForController; // 0x12C
@@ -110,14 +111,16 @@ namespace RPG::Client
 		::System::UInt32 _GamepadVibrationIntensity; // 0x164
 		::System::Boolean ForbidDynamicOffsetInUltraSkill; // 0x168
 		::System::Boolean UseTurnBackAnim; // 0x169
+		::System::Byte _padding5[0x6];
 		::RPG::Client::TiltCommonConfig* CharacterTiltConfig; // 0x170
 		::RPG::Client::RootMotionBakedConfig* CharacterRootMotionBakedConfig; // 0x178
 		::RPG::Client::NpcEyeConfig* NpcEyeConfig; // 0x180
 		::RPG::Client::NamedCurve* CharacterWaterInteractSpeedToRadiusCurve; // 0x188
 		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* CharacterModelFloatingCurveList; // 0x190
-		::System::Collections::Generic::List_1<::RPG::Client::ClientOnlyCommonConfig_BodyFootScaleItem*>* BodyFootScaleList; // 0x198
+		::System::Collections::Generic::List_1<::System::Object*>* BodyFootScaleList; // 0x198
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPG::MVector3>* _BodyFootScaleCache; // 0x1A0
 		::System::Int32 _BodyFootScaleCacheCount; // 0x1A8
+		::System::Byte _padding6[0x4];
 		::UnityEngine::AnimationCurve* CameraSpeedChangeCurve; // 0x1B0
 		::System::String* ADVCableAttachPointName; // 0x1B8
 		::System::String* ADVCableConfigPrefabPath; // 0x1C0
@@ -138,15 +141,15 @@ namespace RPG::Client
 		::UnityEngine::Vector3 AnchorOffsetAdd; // 0x224
 		::RPG::GameCore::VCameraBlend* RecoverBlend; // 0x230
 		::System::Single TimelineClampYOffsetThreshold; // 0x238
+		::System::Byte _padding7[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::NamedCurve*>* CustomHitShakeCurves; // 0x240
 		::UnityEngine::AnimationCurve* BodyLookAtWeightCurve; // 0x248
 		::UnityEngine::AnimationCurve* FootIKStepUpRotationRatioCurve; // 0x250
 		::RPG::Client::SpringBoneCommonConfig* springBoneCommonConfig; // 0x258
 		::UnityEngine::AnimationCurve* VideoVolumePsCurve; // 0x260
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTONLYCOMMONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTONLYCOMMONCONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitConfigAll()
@@ -244,9 +247,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTONLYCOMMONCONFIG_SET_GAMEPADVIBRATIONINTENSITY_OFFSET))(this, a1);
 		}
 
-		::System::Boolean TryGetBodyFootScale(::RPG::GameCore::BodySize a1, ::RPG::MVector3& a2)
+		::System::Boolean TryGetBodyFootScale(::RPG::GameCore::BodySize a1, ::RPG::MVector3 a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::BodySize, ::RPG::MVector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTONLYCOMMONCONFIG_TRYGETBODYFOOTSCALE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::BodySize, ::RPG::MVector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLIENTONLYCOMMONCONFIG_TRYGETBODYFOOTSCALE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

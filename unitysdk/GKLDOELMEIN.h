@@ -1,0 +1,121 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GKLDOELMEIN;
+namespace Google::Protobuf { class CodedInputStream; }
+namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class MessageParser; }
+namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define GKLDOELMEIN_ACOJNBBKMOE_OFFSET UNITYSDK_OFFSET(0x1E4B96B0)
+#define GKLDOELMEIN_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E4B9A50)
+#define GKLDOELMEIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4B9C70)
+#define GKLDOELMEIN_CLONE_OFFSET UNITYSDK_OFFSET(0x1E4B9640)
+#define GKLDOELMEIN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E4B9610)
+#define GKLDOELMEIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4B9600)
+#define GKLDOELMEIN_EODGHOPFDCJ_OFFSET UNITYSDK_OFFSET(0x1E4B96C0)
+#define GKLDOELMEIN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E4B97D0)
+#define GKLDOELMEIN_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E4B96D0)
+#define GKLDOELMEIN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E4B9940)
+#define GKLDOELMEIN_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E4B9590)
+#define GKLDOELMEIN_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E4B9B10)
+#define GKLDOELMEIN_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E4B9AE0)
+#define GKLDOELMEIN_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E4B95F0)
+#define GKLDOELMEIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B9970)
+#define GKLDOELMEIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B99D0)
+
+	class GKLDOELMEIN : public ::System::Object
+	{
+	public:
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
+		::System::UInt32 NPFBAFODCBI; // 0x18
+		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "GKLDOELMEIN")->GetStaticField(0x1E080);
+		}
+
+		// static const ::System::Object JJDOFLLPDJE; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLDOELMEIN_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::GKLDOELMEIN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GKLDOELMEIN*))((::PBYTE)hIl2Cpp + GKLDOELMEIN_CTOR_1_OFFSET))(this, a1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GKLDOELMEIN_CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		{
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GKLDOELMEIN_JJGHOBBFNJD_OFFSET))();
+		}
+
+		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
+		{
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLDOELMEIN_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
+		}
+
+		::GKLDOELMEIN* Clone()
+		{
+			return ((::GKLDOELMEIN*(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLDOELMEIN_CLONE_OFFSET))(this);
+		}
+
+		::System::UInt32 ACOJNBBKMOE()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLDOELMEIN_ACOJNBBKMOE_OFFSET))(this);
+		}
+
+		::System::Void EODGHOPFDCJ(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + GKLDOELMEIN_EODGHOPFDCJ_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + GKLDOELMEIN_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::GKLDOELMEIN* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::GKLDOELMEIN*))((::PBYTE)hIl2Cpp + GKLDOELMEIN_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLDOELMEIN_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLDOELMEIN_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + GKLDOELMEIN_WRITETO_OFFSET))(this, a1);
+		}
+
+		::System::Int32 CalculateSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + GKLDOELMEIN_CALCULATESIZE_OFFSET))(this);
+		}
+
+		::System::Void MergeFrom(::GKLDOELMEIN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GKLDOELMEIN*))((::PBYTE)hIl2Cpp + GKLDOELMEIN_MERGEFROM_OFFSET))(this, a1);
+		}
+
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GKLDOELMEIN_MERGEFROM_1_OFFSET))(this, a1);
+		}
+
+	};

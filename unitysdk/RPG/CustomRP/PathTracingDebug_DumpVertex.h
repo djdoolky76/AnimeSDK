@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PathTracingDebug_DumpVertex_TypeDefinitionIndex = 52136;
-
 	struct alignas(4) PathTracingDebug_DumpVertex
 	{
 		::UnityEngine::Vector3 positionWS; // 0x10

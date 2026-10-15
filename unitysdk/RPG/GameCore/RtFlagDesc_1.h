@@ -4,15 +4,14 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtFlagDesc_1_TypeDefinitionIndex = 54205;
-
 	template <typename T>
 	class RtFlagDesc_1 : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_Count()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RtFlagDesc_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "RtFlagDesc`1")->GetStaticField(0x0);
 		}
+
 	};
 }

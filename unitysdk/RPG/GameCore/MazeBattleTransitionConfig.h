@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MazeBattleTransitionConfig; }
 namespace RPG::GameCore { class PostureTypeTasksConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_D5A3E2AC543008E0_OFFSET UNITYSDK_OFFSET(0x1D254E30)
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2554E0)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D860030)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D85F980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBattleTransitionConfig_TypeDefinitionIndex = 17408;
-
 	class MazeBattleTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -34,15 +32,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeExitRogueMap; // 0x88
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterExitRogueMap; // 0x90
 		::Il2CppArray<::RPG::GameCore::PostureTypeTasksConfig*>* OnBeforeTriggerBattleForAD; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D5A3E2AC543008E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MazeBattleTransitionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MazeBattleTransitionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MazeBattleTransitionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_D5A3E2AC543008E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MazeBattleTransitionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

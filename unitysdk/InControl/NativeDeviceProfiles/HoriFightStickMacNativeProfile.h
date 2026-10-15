@@ -2,24 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_HORIFIGHTSTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1B518B40)
-#define INCONTROL_NATIVEDEVICEPROFILES_HORIFIGHTSTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B518BC0)
+#define INCONTROL_NATIVEDEVICEPROFILES_HORIFIGHTSTICKMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA17820)
+#define INCONTROL_NATIVEDEVICEPROFILES_HORIFIGHTSTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA177A0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int HoriFightStickMacNativeProfile_TypeDefinitionIndex = 39832;
-
 	class HoriFightStickMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_HORIFIGHTSTICKMACNATIVEPROFILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_HORIFIGHTSTICKMACNATIVEPROFILE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Define()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_NATIVEDEVICEPROFILES_HORIFIGHTSTICKMACNATIVEPROFILE_DEFINE_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraWorkState_TypeDefinitionIndex = 40411;
-
 	enum class ChimeraWorkState : ::System::Int32
 	{
 		Unknown = 0,

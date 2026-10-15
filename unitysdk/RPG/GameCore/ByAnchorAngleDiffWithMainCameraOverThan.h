@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByAnchorAngleDiffWithMainCameraOverThan; }
 namespace RPG::GameCore { class DynamicString; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_75F946FE5271502F_OFFSET UNITYSDK_OFFSET(0x1CE99860)
-#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_A0E262A979229EA8_OFFSET UNITYSDK_OFFSET(0x1CE99890)
-#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_C36F8FB40AB2F684_OFFSET UNITYSDK_OFFSET(0x1CE99640)
-#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_CB35697C455B036D_OFFSET UNITYSDK_OFFSET(0x1CE99600)
-#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE99630)
+#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D481E10)
+#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D482070)
+#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D482040)
+#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D481E20)
+#define RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D481DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByAnchorAngleDiffWithMainCameraOverThan_TypeDefinitionIndex = 22044;
-
 	class ByAnchorAngleDiffWithMainCameraOverThan : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
@@ -24,30 +22,30 @@ namespace RPG::GameCore
 		::System::String* AnchorName; // 0x28
 		::RPG::GameCore::DynamicString* LevelAreaCameraKey; // 0x30
 		::System::Single Angle; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_CB35697C455B036D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_CB35697C455B036D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C36F8FB40AB2F684(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_C36F8FB40AB2F684_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_75F946FE5271502F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_75F946FE5271502F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A0E262A979229EA8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_METHOD_4_A0E262A979229EA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByAnchorAngleDiffWithMainCameraOverThan*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYANCHORANGLEDIFFWITHMAINCAMERAOVERTHAN_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

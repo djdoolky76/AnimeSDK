@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class GOLCDANDHHM;
+namespace RPG::GameCore { class TaskContext; }
+
+#define COAKHOLMBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB1730)
+#define COAKHOLMBAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCB1760)
+
+	class COAKHOLMBAB
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::GOLCDANDHHM* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::GOLCDANDHHM*))((::PBYTE)hIl2Cpp + COAKHOLMBAB_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COAKHOLMBAB_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

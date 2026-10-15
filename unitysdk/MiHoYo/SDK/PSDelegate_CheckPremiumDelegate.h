@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74790)
-#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA747C0)
-#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74780)
-#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA74710)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7F270)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7F1F0)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7F2A0)
+#define MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7F260)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_CheckPremiumDelegate_TypeDefinitionIndex = 7718;
-
 	class PSDelegate_CheckPremiumDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_CHECKPREMIUMDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

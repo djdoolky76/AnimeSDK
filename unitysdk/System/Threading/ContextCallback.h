@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_THREADING_CONTEXTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC38690)
-#define SYSTEM_THREADING_CONTEXTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC386C0)
-#define SYSTEM_THREADING_CONTEXTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC38680)
-#define SYSTEM_THREADING_CONTEXTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC38590)
+#define SYSTEM_THREADING_CONTEXTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C1447F0)
+#define SYSTEM_THREADING_CONTEXTCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1446F0)
+#define SYSTEM_THREADING_CONTEXTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C144820)
+#define SYSTEM_THREADING_CONTEXTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C1447E0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int ContextCallback_TypeDefinitionIndex = 828;
-
 	class ContextCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CONTEXTCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CONTEXTCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +34,6 @@ namespace System::Threading
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_CONTEXTCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

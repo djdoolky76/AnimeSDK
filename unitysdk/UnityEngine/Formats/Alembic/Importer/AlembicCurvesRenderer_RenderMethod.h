@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCurvesRenderer_RenderMethod_TypeDefinitionIndex = 44740;
-
 	enum class AlembicCurvesRenderer_RenderMethod : ::System::Int32
 	{
 		Line = 0,

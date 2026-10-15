@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_SYSTEMMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD75E0)
+#define MIHOYO_SDK_SYSTEMMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE1F60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SystemModel_TypeDefinitionIndex = 7846;
-
 	class SystemModel : public ::System::Object
 	{
 	public:
@@ -19,10 +16,10 @@ namespace MiHoYo::SDK
 		::System::String* deviceUniqueIdentifier; // 0x28
 		::System::Int32 processorFrequency; // 0x30
 		::System::Int32 mainThreadId; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SYSTEMMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SYSTEMMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

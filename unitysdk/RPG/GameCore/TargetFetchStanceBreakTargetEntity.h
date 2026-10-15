@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchStanceBreakTargetEntity; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_468DFFD258397608_OFFSET UNITYSDK_OFFSET(0x1D5AE440)
-#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_B86577EED52942E0_OFFSET UNITYSDK_OFFSET(0x1D5AE360)
-#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_D3195A111679F8A5_OFFSET UNITYSDK_OFFSET(0x1D5AE3E0)
-#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_EB1B723184C63D55_OFFSET UNITYSDK_OFFSET(0x1D5AE460)
-#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AE3D0)
+#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB65950)
+#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB659E0)
+#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB659C0)
+#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB65960)
+#define RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB658E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchStanceBreakTargetEntity_TypeDefinitionIndex = 23725;
-
 	class TargetFetchStanceBreakTargetEntity : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B86577EED52942E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_B86577EED52942E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D3195A111679F8A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_D3195A111679F8A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_468DFFD258397608(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_468DFFD258397608_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EB1B723184C63D55(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_METHOD_4_EB1B723184C63D55_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchStanceBreakTargetEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHSTANCEBREAKTARGETENTITY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

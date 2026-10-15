@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvSetColliderGroupState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_METHOD_3_10CEDB2929E21A9A_OFFSET UNITYSDK_OFFSET(0x1CDD9190)
-#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_METHOD_3_70FFE2C36537E9CD_OFFSET UNITYSDK_OFFSET(0x1CDD91D0)
-#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD91C0)
+#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AEE90)
+#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3AEEA0)
+#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AEE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetColliderGroupState_TypeDefinitionIndex = 20294;
-
 	class AdvSetColliderGroupState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::String* GroupName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_10CEDB2929E21A9A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetColliderGroupState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetColliderGroupState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetColliderGroupState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_METHOD_3_10CEDB2929E21A9A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetColliderGroupState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_70FFE2C36537E9CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetColliderGroupState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetColliderGroupState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetColliderGroupState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_METHOD_3_70FFE2C36537E9CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetColliderGroupState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

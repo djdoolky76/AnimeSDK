@@ -2,32 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueMagicStyleType.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class RogueMagicStyleTypeInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDEDAC40)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETAVAILABLESTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0xDEEA470)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETSTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0xDEEA180)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GET_UNLOCKEDSTYLETYPELIST_OFFSET UNITYSDK_OFFSET(0xDEEAAC0)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_SYNCUNLOCKINFO_OFFSET UNITYSDK_OFFSET(0xDEDE9B0)
-#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDED9E10)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDF3A020)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDF3ABC0)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETAVAILABLESTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0xDF3A320)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GETSTYLETYPEINFO_OFFSET UNITYSDK_OFFSET(0xDF3A030)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GET_UNLOCKEDSTYLETYPELIST_OFFSET UNITYSDK_OFFSET(0xDF3AB20)
+#define RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_SYNCUNLOCKINFO_OFFSET UNITYSDK_OFFSET(0xDF3A970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicStyleTypeCollection_TypeDefinitionIndex = 67436;
-
 	class RogueMagicStyleTypeCollection : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _UnlockedStyleTypeList; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicStyleType, ::RPG::Client::RogueMagicStyleTypeInfo*>* _StyleTypeInfoDict; // 0x18
-
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMagicStyleType, ::RPG::Client::RogueMagicStyleTypeInfo*>* _StyleTypeInfoDict; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _UnlockedStyleTypeList; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::RogueMagicStyleTypeInfo* GetStyleTypeInfo(::RPG::GameCore::RogueMagicStyleType a1)
@@ -54,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMAGICSTYLETYPECOLLECTION_GET_UNLOCKEDSTYLETYPELIST_OFFSET))(this);
 		}
+
 	};
 }

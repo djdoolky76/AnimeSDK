@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProjectileBGCurveExportData_SessionExportPoint_TypeDefinitionIndex = 70106;
-
 	struct alignas(4) ProjectileBGCurveExportData_SessionExportPoint
 	{
 		::UnityEngine::Vector3 Position; // 0x10

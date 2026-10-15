@@ -1,44 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E3350)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E3340)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CCTOR_OFFSET UNITYSDK_OFFSET(0xE8E35A0)
-#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E3520)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9389C0)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE938770)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE938940)
+#define RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE938760)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowChimeraGoalsDialogClip_TypeDefinitionIndex = 48749;
-
 	class ShowChimeraGoalsDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
-		static ::System::String** StaticGet_UI_NAME()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowChimeraGoalsDialogClip_TypeDefinitionIndex)->GetStaticField(0x3D230);
-		}
-		static ::System::String** StaticGet_UI_LUA_PATH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ShowChimeraGoalsDialogClip_TypeDefinitionIndex)->GetStaticField(0x3D238);
-		}
 		::System::String* UILuaPath; // 0x18
 		::System::String* UIParam; // 0x20
+		static ::System::String** StaticGet_UI_NAME()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowChimeraGoalsDialogClip")->GetStaticField(0x6FDD0);
+		}
+
+		static ::System::String** StaticGet_UI_LUA_PATH()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline", "ShowChimeraGoalsDialogClip")->GetStaticField(0x6FDD8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -50,5 +48,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCHIMERAGOALSDIALOGCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

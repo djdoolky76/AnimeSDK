@@ -1,48 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AkBaseArray_1.h"
-
 class AkExternalSourceInfo;
 
-#define AKEXTERNALSOURCEINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1EECC170)
-#define AKEXTERNALSOURCEINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1EECC110)
-#define AKEXTERNALSOURCEINFOARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1EECBFB0)
-#define AKEXTERNALSOURCEINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1EECBF00)
-#define AKEXTERNALSOURCEINFOARRAY_RELEASEALLOCATEDMEMORYFROMREFERENCEATINTPTR_OFFSET UNITYSDK_OFFSET(0x1EECC060)
-#define AKEXTERNALSOURCEINFOARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EECBEF0)
+#define AKEXTERNALSOURCEINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1F593D20)
+#define AKEXTERNALSOURCEINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1F593CC0)
+#define AKEXTERNALSOURCEINFOARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F593AA0)
+#define AKEXTERNALSOURCEINFOARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F593B60)
+#define AKEXTERNALSOURCEINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F593AB0)
+#define AKEXTERNALSOURCEINFOARRAY_RELEASEALLOCATEDMEMORYFROMREFERENCEATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F593C10)
 
-inline static constexpr unsigned int AkExternalSourceInfoArray_TypeDefinitionIndex = 43674;
-
-class AkExternalSourceInfoArray : public ::AkBaseArray_1<::AkExternalSourceInfo*>
-{
-public:
-	::System::Void _ctor(::System::Int32 a1)
+	class AkExternalSourceInfoArray
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY__CTOR_OFFSET))(this, a1);
-	}
+	public:
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_CTOR_OFFSET))(this, a1);
+		}
 
-	::System::Int32 get_StructureSize()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_GET_STRUCTURESIZE_OFFSET))(this);
-	}
+		::System::Int32 get_StructureSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_GET_STRUCTURESIZE_OFFSET))(this);
+		}
 
-	::System::Void DefaultConstructAtIntPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET))(this, a1);
-	}
+		::System::Void DefaultConstructAtIntPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void ReleaseAllocatedMemoryFromReferenceAtIntPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_RELEASEALLOCATEDMEMORYFROMREFERENCEATINTPTR_OFFSET))(this, a1);
-	}
+		::System::Void ReleaseAllocatedMemoryFromReferenceAtIntPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_RELEASEALLOCATEDMEMORYFROMREFERENCEATINTPTR_OFFSET))(this, a1);
+		}
 
-	::AkExternalSourceInfo* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
-	{
-		return ((::AkExternalSourceInfo*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
-	}
+		::AkExternalSourceInfo* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
+		{
+			return ((::AkExternalSourceInfo*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkExternalSourceInfo* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkExternalSourceInfo*))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
-	}
-};
+		::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkExternalSourceInfo* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkExternalSourceInfo*))((::PBYTE)hIl2Cpp + AKEXTERNALSOURCEINFOARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
+		}
+
+	};

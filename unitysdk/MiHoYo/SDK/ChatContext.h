@@ -1,34 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class ChatMessage; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CHATCONTEXT_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0xB1BA690)
-#define MIHOYO_SDK_CHATCONTEXT_GET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0xB1BA610)
-#define MIHOYO_SDK_CHATCONTEXT_GET_MESSAGES_OFFSET UNITYSDK_OFFSET(0xB1BA5F0)
-#define MIHOYO_SDK_CHATCONTEXT_GET_SCENEID_OFFSET UNITYSDK_OFFSET(0xB1BA5D0)
-#define MIHOYO_SDK_CHATCONTEXT_SET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0xB1BA620)
-#define MIHOYO_SDK_CHATCONTEXT_SET_MESSAGES_OFFSET UNITYSDK_OFFSET(0xB1BA600)
-#define MIHOYO_SDK_CHATCONTEXT_SET_SCENEID_OFFSET UNITYSDK_OFFSET(0xB1BA5E0)
-#define MIHOYO_SDK_CHATCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xB1BA630)
+#define MIHOYO_SDK_CHATCONTEXT_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0xAF64A60)
+#define MIHOYO_SDK_CHATCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xAF64A00)
+#define MIHOYO_SDK_CHATCONTEXT_GET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0xAF649E0)
+#define MIHOYO_SDK_CHATCONTEXT_GET_MESSAGES_OFFSET UNITYSDK_OFFSET(0xAF649C0)
+#define MIHOYO_SDK_CHATCONTEXT_GET_SCENEID_OFFSET UNITYSDK_OFFSET(0xAF649A0)
+#define MIHOYO_SDK_CHATCONTEXT_SET_MAXCONTEXTSIZE_OFFSET UNITYSDK_OFFSET(0xAF649F0)
+#define MIHOYO_SDK_CHATCONTEXT_SET_MESSAGES_OFFSET UNITYSDK_OFFSET(0xAF649D0)
+#define MIHOYO_SDK_CHATCONTEXT_SET_SCENEID_OFFSET UNITYSDK_OFFSET(0xAF649B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ChatContext_TypeDefinitionIndex = 47038;
-
 	class ChatContext : public ::System::Object
 	{
 	public:
 		::System::String* _SceneId_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::MiHoYo::SDK::ChatMessage*>* _Messages_k__BackingField; // 0x18
 		::System::Int32 _MaxContextSize_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CHATCONTEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CHATCONTEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_SceneId()
@@ -65,5 +61,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::ChatMessage*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CHATCONTEXT_ADDMESSAGE_OFFSET))(this, a1);
 		}
+
 	};
 }

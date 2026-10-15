@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPINITPUZZLE_METHOD_3_3D8B0ACB1D1C6C34_OFFSET UNITYSDK_OFFSET(0x1D368D50)
-#define RPG_GAMECORE_PROPINITPUZZLE_METHOD_3_4064433F9001B3E2_OFFSET UNITYSDK_OFFSET(0x1D368C80)
-#define RPG_GAMECORE_PROPINITPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D368D00)
+#define RPG_GAMECORE_PROPINITPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94E0C0)
+#define RPG_GAMECORE_PROPINITPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94E110)
+#define RPG_GAMECORE_PROPINITPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94E040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInitPuzzle_TypeDefinitionIndex = 20129;
-
 	class PropInitPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -28,21 +26,22 @@ namespace RPG::GameCore
 		::System::Boolean LOD; // 0x54
 		::System::Boolean IsAsyncLoad; // 0x55
 		::System::Boolean AutoPlayFinishSound; // 0x56
+		::System::Byte _padding0[0x1];
 		::RPG::GameCore::DynamicString* PuzzleArea; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITPUZZLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITPUZZLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4064433F9001B3E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitPuzzle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropInitPuzzle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITPUZZLE_METHOD_3_4064433F9001B3E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITPUZZLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3D8B0ACB1D1C6C34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitPuzzle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropInitPuzzle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITPUZZLE_METHOD_3_3D8B0ACB1D1C6C34_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITPUZZLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

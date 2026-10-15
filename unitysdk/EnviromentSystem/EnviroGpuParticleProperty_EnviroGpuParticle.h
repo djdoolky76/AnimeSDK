@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnviromentSystem/EnviroGpuParticleProperty_ParticleSimulationType.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
@@ -13,8 +11,6 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty_EnviroGpuParticle_TypeDefinitionIndex = 50027;
-
 	struct alignas(8) EnviroGpuParticleProperty_EnviroGpuParticle
 	{
 		::EnviromentSystem::EnviroGpuParticleProperty_ParticleSimulationType m_GpuSimType; // 0x10
@@ -23,6 +19,7 @@ namespace EnviromentSystem
 		::System::Single m_GpuParticleWindScale; // 0x28
 		::UnityEngine::Vector3 m_GpuParticleWindNoiseScale; // 0x2C
 		::UnityEngine::Vector3 m_GpuParticleWindNoiseTilling; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::String* m_MaterialPath; // 0x48
 		::UnityEngine::Material* m_RenderignMat; // 0x50
 		::UnityEngine::MeshRenderer* GPUParticleRenderer; // 0x58
@@ -33,6 +30,7 @@ namespace EnviromentSystem
 		::UnityEngine::Vector3 GpuParticleBound_Mins_Old; // 0x80
 		::UnityEngine::Vector3 GpuParticleBound_Maxs_Old; // 0x8C
 		::System::Int32 FrameCount; // 0x98
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Material* m_RenderignMatInstanced; // 0xA0
 	};
 }

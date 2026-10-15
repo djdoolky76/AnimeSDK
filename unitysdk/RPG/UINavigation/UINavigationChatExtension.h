@@ -3,50 +3,46 @@
 #include "unitysdk/RPG/UINavigation/UINavigationChatExtension_ViewPortVisibility.h"
 #include "unitysdk/RPG/UINavigation/UINavigationExtension.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-class Class_1_27E062DB46F0D058;
+class FHENBGFPCCB;
 namespace RPG::UINavigation { class UINavigation; }
 namespace SuperScrollView { class LoopListView2; }
 namespace SuperScrollView { class LoopListViewItem2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_GETFIRSTSELECTABLE_OFFSET UNITYSDK_OFFSET(0xE7F8110)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_12A10FF739C8C066_OFFSET UNITYSDK_OFFSET(0xE7F8460)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_2BF2BE327F577697_OFFSET UNITYSDK_OFFSET(0xE7F8310)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_5CE279A17BFB4762_OFFSET UNITYSDK_OFFSET(0xE7F78E0)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_6E37671A3C35FC0E_OFFSET UNITYSDK_OFFSET(0xE7F8F10)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_93F5C564DEBFDC7B_OFFSET UNITYSDK_OFFSET(0xE7F97D0)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_AD0064E4659DB694_OFFSET UNITYSDK_OFFSET(0xE7F8990)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_E23C97CEA99B7CE1_OFFSET UNITYSDK_OFFSET(0xE7F7990)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE7F7F90)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE7F7C70)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_POSTONCHILDSELECTED_OFFSET UNITYSDK_OFFSET(0xE7F8DB0)
-#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0xE7F9A50)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_AAPGCIGIDMB_OFFSET UNITYSDK_OFFSET(0xE893120)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_CHCENHIIIHA_OFFSET UNITYSDK_OFFSET(0xE893270)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0xE8947B0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_FPCNNFAMDIA_OFFSET UNITYSDK_OFFSET(0xE8937A0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_GETFIRSTSELECTABLE_OFFSET UNITYSDK_OFFSET(0xE892F20)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_GPICPENHNJB_OFFSET UNITYSDK_OFFSET(0xE8927A0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_JFEGFCFFLFJ_OFFSET UNITYSDK_OFFSET(0xE893D20)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_LMOIFLMGPDO_OFFSET UNITYSDK_OFFSET(0xE8945E0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_MJPGFIMKKLC_OFFSET UNITYSDK_OFFSET(0xE8926F0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE892DA0)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE892A80)
+#define RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_POSTONCHILDSELECTED_OFFSET UNITYSDK_OFFSET(0xE893BC0)
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationChatExtension_TypeDefinitionIndex = 52018;
-
 	class UINavigationChatExtension : public ::RPG::UINavigation::UINavigationExtension
 	{
 	public:
 		::SuperScrollView::LoopListView2* HFDJDHLLNFA; // 0x20
 		::UnityEngine::RectTransform* AFMADGMODAL; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_CTOR_OFFSET))(this);
 		}
 
-		::SuperScrollView::LoopListView2* Method_6_5CE279A17BFB4762()
+		::SuperScrollView::LoopListView2* MJPGFIMKKLC()
 		{
-			return ((::SuperScrollView::LoopListView2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_5CE279A17BFB4762_OFFSET))(this);
+			return ((::SuperScrollView::LoopListView2*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_MJPGFIMKKLC_OFFSET))(this);
 		}
 
-		::UnityEngine::RectTransform* Method_6_E23C97CEA99B7CE1()
+		::UnityEngine::RectTransform* GPICPENHNJB()
 		{
-			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_E23C97CEA99B7CE1_OFFSET))(this);
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_GPICPENHNJB_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -59,19 +55,19 @@ namespace RPG::UINavigation
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_ONDISABLE_OFFSET))(this);
 		}
 
-		::UnityEngine::GameObject* GetFirstSelectable(::Class_1_27E062DB46F0D058* a1)
+		::UnityEngine::GameObject* GetFirstSelectable(::FHENBGFPCCB* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::Class_1_27E062DB46F0D058*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_GETFIRSTSELECTABLE_OFFSET))(this, a1);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::FHENBGFPCCB*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_GETFIRSTSELECTABLE_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::GameObject* Method_6_2BF2BE327F577697(::RPG::UINavigation::UINavigation* a1)
+		::UnityEngine::GameObject* AAPGCIGIDMB(::RPG::UINavigation::UINavigation* a1)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::UINavigation::UINavigation*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_2BF2BE327F577697_OFFSET))(this, a1);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::RPG::UINavigation::UINavigation*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_AAPGCIGIDMB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_12A10FF739C8C066(::RPG::UINavigation::UINavigation* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::GameObject*& a3, ::System::Single& a4, ::UnityEngine::GameObject*& a5, ::System::Single& a6)
+		::System::Void CHCENHIIIHA(::RPG::UINavigation::UINavigation* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::GameObject* a3, ::System::Single a4, ::UnityEngine::GameObject* a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::UINavigation::UINavigation*, ::UnityEngine::Vector2, ::UnityEngine::GameObject*&, ::System::Single&, ::UnityEngine::GameObject*&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_12A10FF739C8C066_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::RPG::UINavigation::UINavigation*, ::UnityEngine::Vector2, ::UnityEngine::GameObject*, ::System::Single, ::UnityEngine::GameObject*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_CHCENHIIIHA_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void PostOnChildSelected(::RPG::UINavigation::UINavigation* a1)
@@ -79,19 +75,20 @@ namespace RPG::UINavigation
 			return ((::System::Void(*)(::PVOID, ::RPG::UINavigation::UINavigation*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_POSTONCHILDSELECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_93F5C564DEBFDC7B(::SuperScrollView::LoopListViewItem2* a1)
+		::System::Void LMOIFLMGPDO(::SuperScrollView::LoopListViewItem2* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopListViewItem2*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_93F5C564DEBFDC7B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::SuperScrollView::LoopListViewItem2*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_LMOIFLMGPDO_OFFSET))(this, a1);
 		}
 
-		::RPG::UINavigation::UINavigationChatExtension_ViewPortVisibility Method_6_AD0064E4659DB694(::UnityEngine::RectTransform* a1)
+		::RPG::UINavigation::UINavigationChatExtension_ViewPortVisibility FPCNNFAMDIA(::UnityEngine::RectTransform* a1)
 		{
-			return ((::RPG::UINavigation::UINavigationChatExtension_ViewPortVisibility(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_AD0064E4659DB694_OFFSET))(this, a1);
+			return ((::RPG::UINavigation::UINavigationChatExtension_ViewPortVisibility(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_FPCNNFAMDIA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_6E37671A3C35FC0E(::UnityEngine::RectTransform* a1)
+		::System::Void JFEGFCFFLFJ(::UnityEngine::RectTransform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_METHOD_6_6E37671A3C35FC0E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + RPG_UINAVIGATION_UINAVIGATIONCHATEXTENSION_JFEGFCFFLFJ_OFFSET))(this, a1);
 		}
+
 	};
 }

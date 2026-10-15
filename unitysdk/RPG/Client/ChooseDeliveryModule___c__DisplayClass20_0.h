@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_17CE1D53A378B249;
+class EDLIDAKBKMK;
 namespace RPG::Client { class ChooseDeliveryEntry; }
 
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC20B50)
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0___ONCHOOSEDELIVERYSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xCC216B0)
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0___ONCHOOSEDELIVERYSCRSP_B__1_OFFSET UNITYSDK_OFFSET(0xCC216E0)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6FBA0)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0___ONCHOOSEDELIVERYSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xCB707D0)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0___ONCHOOSEDELIVERYSCRSP_B__1_OFFSET UNITYSDK_OFFSET(0xCB70800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryModule___c__DisplayClass20_0_TypeDefinitionIndex = 63586;
-
 	class ChooseDeliveryModule___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::Class_1_17CE1D53A378B249* rsp; // 0x10
-
+		::EDLIDAKBKMK* rsp; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __OnChooseDeliveryScRsp_b__0(::RPG::Client::ChooseDeliveryEntry* a1)
@@ -32,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChooseDeliveryEntry*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS20_0___ONCHOOSEDELIVERYSCRSP_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

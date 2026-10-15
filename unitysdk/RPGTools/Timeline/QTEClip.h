@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class QTEData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_QTECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DA6A0)
-#define RPGTOOLS_TIMELINE_QTECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8DA830)
-#define RPGTOOLS_TIMELINE_QTECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DA840)
+#define RPGTOOLS_TIMELINE_QTECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92FE50)
+#define RPGTOOLS_TIMELINE_QTECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92FFF0)
+#define RPGTOOLS_TIMELINE_QTECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92FFE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEClip_TypeDefinitionIndex = 48719;
-
 	class QTEClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::QTEData* Config; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_QTECLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/KibanaLogLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B987E70)
+#define MIHOYO_SDK_KIBANABASEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE87730)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 7837;
-
 	class KibanaBaseModel : public ::System::Object
 	{
 	public:
 		::System::String* sdk_version; // 0x10
 		::System::Int32 sdk_env; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* game_biz; // 0x20
 		::System::String* channel_id; // 0x28
 		::System::String* sub_channel_id; // 0x30
@@ -25,6 +23,7 @@ namespace MiHoYo::SDK
 		::System::String* role_id; // 0x50
 		::System::String* aid; // 0x58
 		::System::Int32 client_type; // 0x60
+		::System::Byte _padding1[0x4];
 		::System::String* sys_version; // 0x68
 		::System::String* device_name; // 0x70
 		::System::String* device_model; // 0x78
@@ -34,15 +33,16 @@ namespace MiHoYo::SDK
 		::System::String* mac_description; // 0x98
 		::System::String* module; // 0xA0
 		::System::Int32 tk_code; // 0xA8
+		::System::Byte _padding2[0x4];
 		::System::String* tk_time; // 0xB0
 		::System::Int64 tk_timestamp; // 0xB8
 		::System::String* tk_request_id; // 0xC0
 		::System::String* tk_message; // 0xC8
 		::MiHoYo::SDK::KibanaLogLevel log_level; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANABASEMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANABASEMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

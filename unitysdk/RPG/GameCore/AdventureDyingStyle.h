@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureDyingStyle_TypeDefinitionIndex = 24208;
-
 	enum class AdventureDyingStyle : ::System::Int32
 	{
 		Dead = 0,

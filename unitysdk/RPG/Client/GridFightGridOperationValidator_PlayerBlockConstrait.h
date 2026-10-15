@@ -2,24 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightPlacementType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightGridData; }
 namespace RPG::Client { class GridFightGridMoveValidateResult; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0xD1F36F0)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F3C30)
-#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT__ISBOARDPLACEMENT_OFFSET UNITYSDK_OFFSET(0xD1F3BE0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT_CTOR_OFFSET UNITYSDK_OFFSET(0xD192AF0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT_VALIDATE_OFFSET UNITYSDK_OFFSET(0xD1945F0)
+#define RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT__ISBOARDPLACEMENT_OFFSET UNITYSDK_OFFSET(0xD194AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridOperationValidator_PlayerBlockConstrait_TypeDefinitionIndex = 64908;
-
 	class GridFightGridOperationValidator_PlayerBlockConstrait : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Validate(::RPG::Client::GridFightGridData* a1, ::RPG::Client::GridFightGridData* a2, ::RPG::Client::GridFightGridMoveValidateResult* a3)
@@ -31,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightPlacementType))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDOPERATIONVALIDATOR_PLAYERBLOCKCONSTRAIT__ISBOARDPLACEMENT_OFFSET))(this, a1);
 		}
+
 	};
 }

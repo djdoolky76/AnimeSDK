@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleResultConditionType_TypeDefinitionIndex = 15263;
-
 	enum class BattleResultConditionType : ::System::Int32
 	{
 		CDT_MonsterDie = 0,

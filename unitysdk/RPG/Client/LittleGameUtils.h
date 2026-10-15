@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_E0103A0EA6CD0F4C;
-class Class_3_57ACCC113D2215C7;
+class FENBIHEDDPB;
+class HCLPKMIIANI;
 namespace RPG::Client { class LittleGameManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LittleGameConstConfig; }
@@ -16,70 +15,70 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET UNITYSDK_OFFSET(0xD554380)
-#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_2_OFFSET UNITYSDK_OFFSET(0xD554460)
-#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET UNITYSDK_OFFSET(0xD554540)
-#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xD5542B0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_CLEARCACHEDCONFIGS_OFFSET UNITYSDK_OFFSET(0xD551EB0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_DESTROYGAMEINSTANCEENTITY_OFFSET UNITYSDK_OFFSET(0xD5538F0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESETCONFIGPATH_1_OFFSET UNITYSDK_OFFSET(0xD553F10)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESETCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xD553C90)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESETCONFIG_OFFSET UNITYSDK_OFFSET(0xD553AA0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESET_OFFSET UNITYSDK_OFFSET(0xD553DE0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0xD552DA0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xD552D30)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMELEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xD552ED0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEMANAGER_OFFSET UNITYSDK_OFFSET(0xD542190)
-#define RPG_CLIENT_LITTLEGAMEUTILS_HASCURRENTGAME_OFFSET UNITYSDK_OFFSET(0xD553850)
-#define RPG_CLIENT_LITTLEGAMEUTILS_INITDICECOMBATGAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xD5536F0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_INITGAMEWITHLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xD5530B0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_ISLITTLEGAMEPREFER4X3VCAMERA_OFFSET UNITYSDK_OFFSET(0xD554DE0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET UNITYSDK_OFFSET(0xD5546F0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_2_OFFSET UNITYSDK_OFFSET(0xD5547D0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET UNITYSDK_OFFSET(0xD5548B0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xD554620)
-#define RPG_CLIENT_LITTLEGAMEUTILS_SETLITTLEGAMECAMERAMODE_OFFSET UNITYSDK_OFFSET(0xD554990)
-#define RPG_CLIENT_LITTLEGAMEUTILS_STOPCURRENTGAME_OFFSET UNITYSDK_OFFSET(0xD5537A0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_1_OFFSET UNITYSDK_OFFSET(0xD554030)
-#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_2_OFFSET UNITYSDK_OFFSET(0xD554100)
-#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_3_OFFSET UNITYSDK_OFFSET(0xD5541D0)
-#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0xD553F70)
-#define RPG_CLIENT_LITTLEGAMEUTILS_UNLOADGAMECONFIG_OFFSET UNITYSDK_OFFSET(0xD553A60)
-#define RPG_CLIENT_LITTLEGAMEUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0xD554E80)
+#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET UNITYSDK_OFFSET(0xD48C700)
+#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_2_OFFSET UNITYSDK_OFFSET(0xD48C7E0)
+#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET UNITYSDK_OFFSET(0xD48C8C0)
+#define RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xD48C630)
+#define RPG_CLIENT_LITTLEGAMEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD48D200)
+#define RPG_CLIENT_LITTLEGAMEUTILS_CLEARCACHEDCONFIGS_OFFSET UNITYSDK_OFFSET(0xD48A260)
+#define RPG_CLIENT_LITTLEGAMEUTILS_DESTROYGAMEINSTANCEENTITY_OFFSET UNITYSDK_OFFSET(0xD48BC70)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESETCONFIGPATH_1_OFFSET UNITYSDK_OFFSET(0xD48C290)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESETCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xD48C010)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESETCONFIG_OFFSET UNITYSDK_OFFSET(0xD48BE20)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETENTITYPRESET_OFFSET UNITYSDK_OFFSET(0xD48C160)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0xD48B150)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xD48B0E0)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMELEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xD48B290)
+#define RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEMANAGER_OFFSET UNITYSDK_OFFSET(0xD47A570)
+#define RPG_CLIENT_LITTLEGAMEUTILS_HASCURRENTGAME_OFFSET UNITYSDK_OFFSET(0xD48BBD0)
+#define RPG_CLIENT_LITTLEGAMEUTILS_INITDICECOMBATGAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xD48BA70)
+#define RPG_CLIENT_LITTLEGAMEUTILS_INITGAMEWITHLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xD48B470)
+#define RPG_CLIENT_LITTLEGAMEUTILS_ISLITTLEGAMEPREFER4X3VCAMERA_OFFSET UNITYSDK_OFFSET(0xD48D160)
+#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET UNITYSDK_OFFSET(0xD48CA70)
+#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_2_OFFSET UNITYSDK_OFFSET(0xD48CB50)
+#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET UNITYSDK_OFFSET(0xD48CC30)
+#define RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xD48C9A0)
+#define RPG_CLIENT_LITTLEGAMEUTILS_SETLITTLEGAMECAMERAMODE_OFFSET UNITYSDK_OFFSET(0xD48CD10)
+#define RPG_CLIENT_LITTLEGAMEUTILS_STOPCURRENTGAME_OFFSET UNITYSDK_OFFSET(0xD48BB20)
+#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_1_OFFSET UNITYSDK_OFFSET(0xD48C3B0)
+#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_2_OFFSET UNITYSDK_OFFSET(0xD48C480)
+#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_3_OFFSET UNITYSDK_OFFSET(0xD48C550)
+#define RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0xD48C2F0)
+#define RPG_CLIENT_LITTLEGAMEUTILS_UNLOADGAMECONFIG_OFFSET UNITYSDK_OFFSET(0xD48BDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LittleGameUtils_TypeDefinitionIndex = 60518;
-
 	class LittleGameUtils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LittleGameType, ::RPG::GameCore::LittleGamePresetConfigs*>** StaticGet__PresetConfigs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LittleGameType, ::RPG::GameCore::LittleGamePresetConfigs*>**)Il2CppClass::FromTypeDefinitionIndex(LittleGameUtils_TypeDefinitionIndex)->GetStaticField(0x64530);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LittleGameType, ::RPG::GameCore::LittleGamePresetConfigs*>**)UnitySDK::FromName("RPG.Client", "LittleGameUtils")->GetStaticField(0x375D0);
 		}
+
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LittleGameType, ::RPG::GameCore::LittleGameConstConfig*>** StaticGet__GameConfigs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LittleGameType, ::RPG::GameCore::LittleGameConstConfig*>**)Il2CppClass::FromTypeDefinitionIndex(LittleGameUtils_TypeDefinitionIndex)->GetStaticField(0x64538);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LittleGameType, ::RPG::GameCore::LittleGameConstConfig*>**)UnitySDK::FromName("RPG.Client", "LittleGameUtils")->GetStaticField(0x375D8);
 		}
+
 		static ::System::Boolean* StaticGet__IsLittleGameCameraModeOn()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LittleGameUtils_TypeDefinitionIndex)->GetStaticField(0x14790);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "LittleGameUtils")->GetStaticField(0xBBF0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_CCTOR_OFFSET))();
 		}
 
-		static ::Class_1_E0103A0EA6CD0F4C* GetLittleGameInstance(::RPG::GameCore::GameEntity* a1)
+		static ::HCLPKMIIANI* GetLittleGameInstance(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::Class_1_E0103A0EA6CD0F4C*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_OFFSET))(a1);
+			return ((::HCLPKMIIANI*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean GetLittleGameInstance_1(::RPG::GameCore::TaskContext* a1, ::Class_1_E0103A0EA6CD0F4C*& a2)
+		static ::System::Boolean GetLittleGameInstance_1(::RPG::GameCore::TaskContext* a1, ::HCLPKMIIANI* a2)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::Class_1_E0103A0EA6CD0F4C*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_1_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*, ::HCLPKMIIANI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEINSTANCE_1_OFFSET))(a1, a2);
 		}
 
 		static ::RPG::Client::LittleGameManager* GetLittleGameManager()
@@ -87,19 +86,19 @@ namespace RPG::Client
 			return ((::RPG::Client::LittleGameManager*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMEMANAGER_OFFSET))();
 		}
 
-		static ::System::Boolean GetLittleGameLevelConfig(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameLevelConfig*& a3)
+		static ::System::Boolean GetLittleGameLevelConfig(::System::UInt32 a1, ::System::UInt32 a2, ::RPG::GameCore::LittleGameLevelConfig* a3)
 		{
-			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameLevelConfig*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMELEVELCONFIG_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::UInt32, ::System::UInt32, ::RPG::GameCore::LittleGameLevelConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_GETLITTLEGAMELEVELCONFIG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean InitGameWithLevelConfig(::RPG::GameCore::LittleGameLevelConfig* a1, ::RPG::GameCore::GameEntity* a2, ::Class_1_E0103A0EA6CD0F4C*& a3, ::System::String* a4)
+		static ::System::Boolean InitGameWithLevelConfig(::RPG::GameCore::LittleGameLevelConfig* a1, ::RPG::GameCore::GameEntity* a2, ::HCLPKMIIANI* a3, ::System::String* a4)
 		{
-			return ((::System::Boolean(*)(::RPG::GameCore::LittleGameLevelConfig*, ::RPG::GameCore::GameEntity*, ::Class_1_E0103A0EA6CD0F4C*&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_INITGAMEWITHLEVELCONFIG_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::RPG::GameCore::LittleGameLevelConfig*, ::RPG::GameCore::GameEntity*, ::HCLPKMIIANI*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_INITGAMEWITHLEVELCONFIG_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Class_1_E0103A0EA6CD0F4C* InitDiceCombatGameInstance(::RPG::GameCore::GameEntity* a1, ::Class_3_57ACCC113D2215C7* a2)
+		static ::HCLPKMIIANI* InitDiceCombatGameInstance(::RPG::GameCore::GameEntity* a1, ::FENBIHEDDPB* a2)
 		{
-			return ((::Class_1_E0103A0EA6CD0F4C*(*)(::RPG::GameCore::GameEntity*, ::Class_3_57ACCC113D2215C7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_INITDICECOMBATGAMEINSTANCE_OFFSET))(a1, a2);
+			return ((::HCLPKMIIANI*(*)(::RPG::GameCore::GameEntity*, ::FENBIHEDDPB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_INITDICECOMBATGAMEINSTANCE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void StopCurrentGame()
@@ -147,9 +146,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void TriggerLittleGameCustomEvent_1(::Class_1_E0103A0EA6CD0F4C* a1, ::System::String* a2)
+		static ::System::Void TriggerLittleGameCustomEvent_1(::HCLPKMIIANI* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::Class_1_E0103A0EA6CD0F4C*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::HCLPKMIIANI*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void TriggerLittleGameCustomEvent_2(::RPG::GameCore::GameEntity* a1, ::System::String* a2, ::System::UInt32 a3)
@@ -157,9 +156,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void TriggerLittleGameCustomEvent_3(::Class_1_E0103A0EA6CD0F4C* a1, ::System::String* a2, ::System::UInt32 a3)
+		static ::System::Void TriggerLittleGameCustomEvent_3(::HCLPKMIIANI* a1, ::System::String* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::Class_1_E0103A0EA6CD0F4C*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_3_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::HCLPKMIIANI*, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_TRIGGERLITTLEGAMECUSTOMEVENT_3_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void AddLittleGameCustomEventListener(::RPG::GameCore::GameEntity* a1, ::System::String* a2, ::System::Action* a3)
@@ -167,9 +166,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AddLittleGameCustomEventListener_1(::Class_1_E0103A0EA6CD0F4C* a1, ::System::String* a2, ::System::Action* a3)
+		static ::System::Void AddLittleGameCustomEventListener_1(::HCLPKMIIANI* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::Class_1_E0103A0EA6CD0F4C*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::HCLPKMIIANI*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void AddLittleGameCustomEventListener_2(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::String* a3, ::System::Action* a4)
@@ -177,9 +176,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void AddLittleGameCustomEventListener_3(::Class_1_E0103A0EA6CD0F4C* a1, ::System::UInt32 a2, ::System::String* a3, ::System::Action* a4)
+		static ::System::Void AddLittleGameCustomEventListener_3(::HCLPKMIIANI* a1, ::System::UInt32 a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::Class_1_E0103A0EA6CD0F4C*, ::System::UInt32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::HCLPKMIIANI*, ::System::UInt32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_ADDLITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void RemoveLittleGameCustomEventListener(::RPG::GameCore::GameEntity* a1, ::System::String* a2, ::System::Action* a3)
@@ -187,9 +186,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void RemoveLittleGameCustomEventListener_1(::Class_1_E0103A0EA6CD0F4C* a1, ::System::String* a2, ::System::Action* a3)
+		static ::System::Void RemoveLittleGameCustomEventListener_1(::HCLPKMIIANI* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::Class_1_E0103A0EA6CD0F4C*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::HCLPKMIIANI*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_1_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void RemoveLittleGameCustomEventListener_2(::RPG::GameCore::GameEntity* a1, ::System::UInt32 a2, ::System::String* a3, ::System::Action* a4)
@@ -197,9 +196,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::RPG::GameCore::GameEntity*, ::System::UInt32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_2_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void RemoveLittleGameCustomEventListener_3(::Class_1_E0103A0EA6CD0F4C* a1, ::System::UInt32 a2, ::System::String* a3, ::System::Action* a4)
+		static ::System::Void RemoveLittleGameCustomEventListener_3(::HCLPKMIIANI* a1, ::System::UInt32 a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::Class_1_E0103A0EA6CD0F4C*, ::System::UInt32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::HCLPKMIIANI*, ::System::UInt32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_REMOVELITTLEGAMECUSTOMEVENTLISTENER_3_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void SetLittleGameCameraMode(::System::Boolean a1)
@@ -216,5 +215,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMEUTILS_CLEARCACHEDCONFIGS_OFFSET))();
 		}
+
 	};
 }

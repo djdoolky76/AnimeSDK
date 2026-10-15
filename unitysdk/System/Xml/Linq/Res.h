@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_XML_LINQ_RES_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x1E7BA280)
-#define SYSTEM_XML_LINQ_RES_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B9BF0)
+#define SYSTEM_XML_LINQ_RES_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x1EE82FA0)
+#define SYSTEM_XML_LINQ_RES_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1EE82910)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int Res_TypeDefinitionIndex = 3909;
-
 	class Res : public ::System::Object
 	{
 	public:
@@ -23,5 +21,6 @@ namespace System::Xml::Linq
 		{
 			return ((::System::String*(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_RES_GETSTRING_1_OFFSET))(a1, a2);
 		}
+
 	};
 }

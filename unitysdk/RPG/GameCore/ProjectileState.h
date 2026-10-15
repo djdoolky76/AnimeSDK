@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileState_TypeDefinitionIndex = 54964;
-
 	enum class ProjectileState : ::System::Int32
 	{
 		Alive = 0,

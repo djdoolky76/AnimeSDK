@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8A0A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8A0D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8A090)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8A020)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6525C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F652540)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6525F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6525B0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_noop_TypeDefinitionIndex = 38104;
-
 	class BrowserNative_Calltype_zfb_noop : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_NOOP_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

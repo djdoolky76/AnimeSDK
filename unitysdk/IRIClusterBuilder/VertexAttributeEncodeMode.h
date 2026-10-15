@@ -3,8 +3,6 @@
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int VertexAttributeEncodeMode_TypeDefinitionIndex = 48200;
-
 	enum class VertexAttributeEncodeMode : ::System::Int32
 	{
 		Raw = 0,

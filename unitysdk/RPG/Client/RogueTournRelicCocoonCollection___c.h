@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class RogueTournRelicCocoonData; }
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDFA3430)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDFA3460)
-#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C___GENERATECOCOONDATADICT_B__17_1_OFFSET UNITYSDK_OFFSET(0xDFA3470)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE039DD0)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE039E00)
+#define RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C___GENERATECOCOONDATADICT_B__17_1_OFFSET UNITYSDK_OFFSET(0xE039E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournRelicCocoonCollection___c_TypeDefinitionIndex = 67765;
-
 	class RogueTournRelicCocoonCollection___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RogueTournRelicCocoonCollection___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournRelicCocoonCollection___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x18A30);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAF0);
 		}
+
 		static ::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>** StaticGet___9__17_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournRelicCocoonCollection___c_TypeDefinitionIndex)->GetStaticField(0x18A38);
+			return (::System::Comparison_1<::RPG::Client::RogueTournRelicCocoonData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAF8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 __GenerateCocoonDataDict_b__17_1(::RPG::Client::RogueTournRelicCocoonData* a1, ::RPG::Client::RogueTournRelicCocoonData* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::RogueTournRelicCocoonData*, ::RPG::Client::RogueTournRelicCocoonData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNRELICCOCOONCOLLECTION___C___GENERATECOCOONDATADICT_B__17_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

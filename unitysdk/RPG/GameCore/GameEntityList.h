@@ -1,29 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/AutoReleaseReferenceState.h"
-#include "unitysdk/System/Collections/Generic/List_1.h"
+namespace RPG::GameCore { class GameEntityList; }
 
-namespace RPG::GameCore { class GameEntity; }
-
-#define RPG_GAMECORE_GAMEENTITYLIST_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xE657B90)
-#define RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET UNITYSDK_OFFSET(0xE657C60)
-#define RPG_GAMECORE_GAMEENTITYLIST_ONALLOC_OFFSET UNITYSDK_OFFSET(0xE657BB0)
-#define RPG_GAMECORE_GAMEENTITYLIST_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xE657C10)
-#define RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xE657BA0)
-#define RPG_GAMECORE_GAMEENTITYLIST__CTOR_OFFSET UNITYSDK_OFFSET(0xE657CB0)
+#define RPG_GAMECORE_GAMEENTITYLIST_CTOR_OFFSET UNITYSDK_OFFSET(0xE6AFDE0)
+#define RPG_GAMECORE_GAMEENTITYLIST_GET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xE6AFCC0)
+#define RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET UNITYSDK_OFFSET(0xE6AFD90)
+#define RPG_GAMECORE_GAMEENTITYLIST_ONALLOC_OFFSET UNITYSDK_OFFSET(0xE6AFCE0)
+#define RPG_GAMECORE_GAMEENTITYLIST_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xE6AFD40)
+#define RPG_GAMECORE_GAMEENTITYLIST_SET_REFERENCESTATE_OFFSET UNITYSDK_OFFSET(0xE6AFCD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntityList_TypeDefinitionIndex = 59340;
-
-	class GameEntityList : public ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>
+	class GameEntityList
 	{
 	public:
 		::RPG::AutoReleaseReferenceState _ReferenceState_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST_CTOR_OFFSET))(this);
 		}
 
 		::RPG::AutoReleaseReferenceState get_ReferenceState()
@@ -50,5 +45,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::GameEntityList*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITYLIST_MARKMANUALRELEASE_OFFSET))(this);
 		}
+
 	};
 }

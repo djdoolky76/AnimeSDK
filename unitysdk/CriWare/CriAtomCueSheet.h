@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExAcbLoader_Status.h"
 #include "unitysdk/System/Object.h"
-
 namespace CriWare { class CriAtomExAcb; }
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMCUESHEET_GET_ISERROR_OFFSET UNITYSDK_OFFSET(0x164A6DA0)
-#define CRIWARE_CRIATOMCUESHEET_GET_ISLOADING_OFFSET UNITYSDK_OFFSET(0x164A2870)
-#define CRIWARE_CRIATOMCUESHEET__CTOR_OFFSET UNITYSDK_OFFSET(0x164A4A90)
+#define CRIWARE_CRIATOMCUESHEET_CTOR_OFFSET UNITYSDK_OFFSET(0x166CB6C0)
+#define CRIWARE_CRIATOMCUESHEET_GET_ISERROR_OFFSET UNITYSDK_OFFSET(0x166CD9D0)
+#define CRIWARE_CRIATOMCUESHEET_GET_ISLOADING_OFFSET UNITYSDK_OFFSET(0x166C94A0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomCueSheet_TypeDefinitionIndex = 38636;
-
 	class CriAtomCueSheet : public ::System::Object
 	{
 	public:
@@ -22,10 +19,9 @@ namespace CriWare
 		::System::String* awbFile; // 0x20
 		::CriWare::CriAtomExAcb* acb; // 0x28
 		::CriWare::CriAtomExAcbLoader_Status loaderStatus; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMCUESHEET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMCUESHEET_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsLoading()
@@ -37,5 +33,6 @@ namespace CriWare
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMCUESHEET_GET_ISERROR_OFFSET))(this);
 		}
+
 	};
 }

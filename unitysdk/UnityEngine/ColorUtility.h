@@ -3,35 +3,32 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Color32.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_COLORUTILITY_DOTRYPARSEHTMLCOLOR_OFFSET UNITYSDK_OFFSET(0x1ED116D0)
-#define UNITYENGINE_COLORUTILITY_TOHTMLSTRINGRGBA_OFFSET UNITYSDK_OFFSET(0x1ED11AF0)
-#define UNITYENGINE_COLORUTILITY_TOHTMLSTRINGRGB_OFFSET UNITYSDK_OFFSET(0x1ED11750)
-#define UNITYENGINE_COLORUTILITY_TRYPARSEHTMLSTRING_OFFSET UNITYSDK_OFFSET(0x1ED116E0)
-#define UNITYENGINE_COLORUTILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED11FD0)
+#define UNITYENGINE_COLORUTILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D9D80)
+#define UNITYENGINE_COLORUTILITY_DOTRYPARSEHTMLCOLOR_OFFSET UNITYSDK_OFFSET(0x1F3D9480)
+#define UNITYENGINE_COLORUTILITY_TOHTMLSTRINGRGBA_OFFSET UNITYSDK_OFFSET(0x1F3D98A0)
+#define UNITYENGINE_COLORUTILITY_TOHTMLSTRINGRGB_OFFSET UNITYSDK_OFFSET(0x1F3D9500)
+#define UNITYENGINE_COLORUTILITY_TRYPARSEHTMLSTRING_OFFSET UNITYSDK_OFFSET(0x1F3D9490)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ColorUtility_TypeDefinitionIndex = 4218;
-
 	class ColorUtility : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLORUTILITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLORUTILITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Boolean DoTryParseHtmlColor(::System::String* a1, ::UnityEngine::Color32& a2)
+		static ::System::Boolean DoTryParseHtmlColor(::System::String* a1, ::UnityEngine::Color32 a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Color32&))((::PBYTE)hIl2Cpp + UNITYENGINE_COLORUTILITY_DOTRYPARSEHTMLCOLOR_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + UNITYENGINE_COLORUTILITY_DOTRYPARSEHTMLCOLOR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParseHtmlString(::System::String* a1, ::UnityEngine::Color& a2)
+		static ::System::Boolean TryParseHtmlString(::System::String* a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_COLORUTILITY_TRYPARSEHTMLSTRING_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLORUTILITY_TRYPARSEHTMLSTRING_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* ToHtmlStringRGB(::UnityEngine::Color a1)
@@ -43,5 +40,6 @@ namespace UnityEngine
 		{
 			return ((::System::String*(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_COLORUTILITY_TOHTMLSTRINGRGBA_OFFSET))(a1);
 		}
+
 	};
 }

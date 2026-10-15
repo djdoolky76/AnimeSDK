@@ -2,38 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimActionBubbleTalkInfo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_METHOD_2_2229FD1F3CE0AC49_OFFSET UNITYSDK_OFFSET(0x1D09F7F0)
-#define RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_METHOD_2_A06FC788D6FE0B8D_OFFSET UNITYSDK_OFFSET(0x1D09F6C0)
-#define RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09F7E0)
+#define RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AD740)
+#define RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6AD750)
+#define RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AD620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimActionBubbleTalkInfo_TypeDefinitionIndex = 18563;
-
 	class FiveDimActionBubbleTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Single AutoSkipTime; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID DialogueTextmapID; // 0x18
 		::System::UInt32 TalkSentenceID; // 0x28
 		::System::Boolean EnableVoice; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_A06FC788D6FE0B8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimActionBubbleTalkInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimActionBubbleTalkInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimActionBubbleTalkInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_METHOD_2_A06FC788D6FE0B8D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimActionBubbleTalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_2229FD1F3CE0AC49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimActionBubbleTalkInfo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimActionBubbleTalkInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimActionBubbleTalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_METHOD_2_2229FD1F3CE0AC49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimActionBubbleTalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMACTIONBUBBLETALKINFO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

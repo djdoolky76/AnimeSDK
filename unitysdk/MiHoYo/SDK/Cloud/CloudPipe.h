@@ -2,39 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/WeLing/SDK/GyroType.h"
-
+namespace MiHoYo::SDK::Cloud { class CloudPipe; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1B744100)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B7414D0)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x1B743520)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1B741E10)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x1B743860)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1B743A10)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONSENSOR_OFFSET UNITYSDK_OFFSET(0x1B743530)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1B7437C0)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x1B741650)
-#define MIHOYO_SDK_CLOUD_CLOUDPIPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B743510)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41B40)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1BC42730)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC3FB00)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INIT_OFFSET UNITYSDK_OFFSET(0x1BC41B50)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_INVOKECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC40440)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETPIPEDATA_OFFSET UNITYSDK_OFFSET(0x1BC41E90)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONGETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1BC42040)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_ONSENSOR_OFFSET UNITYSDK_OFFSET(0x1BC41B60)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDDATA_OFFSET UNITYSDK_OFFSET(0x1BC41DF0)
+#define MIHOYO_SDK_CLOUD_CLOUDPIPE_SENDPARAMDATA_OFFSET UNITYSDK_OFFSET(0x1BC3FC80)
 
 namespace MiHoYo::SDK::Cloud
 {
-	inline static constexpr unsigned int CloudPipe_TypeDefinitionIndex = 8822;
-
 	class CloudPipe : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Cloud::CloudPipe** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Cloud::CloudPipe**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe_TypeDefinitionIndex)->GetStaticField(0x4DA0);
+			return (::MiHoYo::SDK::Cloud::CloudPipe**)UnitySDK::FromName("MiHoYo.SDK.Cloud", "CloudPipe")->GetStaticField(0x30B50);
 		}
+
 		// static const ::System::String* InvokeFunc; // 0x0
 		// static const ::System::String* InvokeReturnFunc; // 0x0
 		// static const ::System::String* WebFunc; // 0x0
 		// static const ::System::String* pipeSalt; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::Cloud::CloudPipe* get_Instance()
@@ -81,5 +80,6 @@ namespace MiHoYo::SDK::Cloud
 		{
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CLOUD_CLOUDPIPE_GETSTRING_OFFSET))(a1);
 		}
+
 	};
 }

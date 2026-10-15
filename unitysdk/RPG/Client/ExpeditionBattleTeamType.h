@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleTeamType_TypeDefinitionIndex = 63915;
-
 	enum class ExpeditionBattleTeamType : ::System::Int32
 	{
 		HistoryBest = 0,

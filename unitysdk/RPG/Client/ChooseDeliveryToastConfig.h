@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG_GET_FUNCNAME_OFFSET UNITYSDK_OFFSET(0xCC218D0)
-#define RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG_TRYDELAYTOAST_OFFSET UNITYSDK_OFFSET(0xCC21940)
-#define RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCC21980)
+#define RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCB70AA0)
+#define RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG_GET_FUNCNAME_OFFSET UNITYSDK_OFFSET(0xCB709F0)
+#define RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG_TRYDELAYTOAST_OFFSET UNITYSDK_OFFSET(0xCB70A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryToastConfig_TypeDefinitionIndex = 63590;
-
 	class ChooseDeliveryToastConfig : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_FuncName()
@@ -29,5 +26,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYTOASTCONFIG_TRYDELAYTOAST_OFFSET))(this);
 		}
+
 	};
 }

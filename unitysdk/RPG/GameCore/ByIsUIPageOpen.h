@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsUIPageOpen; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_0DA78A0525669028_OFFSET UNITYSDK_OFFSET(0x1CF504A0)
-#define RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_1051187CFA52D4DD_OFFSET UNITYSDK_OFFSET(0x1CF50460)
-#define RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_34A4B46B42442DFF_OFFSET UNITYSDK_OFFSET(0x1CF50650)
-#define RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_ADF829B749F99AD8_OFFSET UNITYSDK_OFFSET(0x1CF50620)
-#define RPG_GAMECORE_BYISUIPAGEOPEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF50490)
+#define RPG_GAMECORE_BYISUIPAGEOPEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D529E20)
+#define RPG_GAMECORE_BYISUIPAGEOPEN_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D529FE0)
+#define RPG_GAMECORE_BYISUIPAGEOPEN_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D529FB0)
+#define RPG_GAMECORE_BYISUIPAGEOPEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D529E30)
+#define RPG_GAMECORE_BYISUIPAGEOPEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D529DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsUIPageOpen_TypeDefinitionIndex = 21995;
-
 	class ByIsUIPageOpen : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::String* PageName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_1051187CFA52D4DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsUIPageOpen*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsUIPageOpen* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsUIPageOpen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_1051187CFA52D4DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsUIPageOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0DA78A0525669028(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsUIPageOpen* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsUIPageOpen* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsUIPageOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_0DA78A0525669028_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsUIPageOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_ADF829B749F99AD8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsUIPageOpen*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsUIPageOpen* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsUIPageOpen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_ADF829B749F99AD8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsUIPageOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_34A4B46B42442DFF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsUIPageOpen* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsUIPageOpen* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsUIPageOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_METHOD_4_34A4B46B42442DFF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsUIPageOpen*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISUIPAGEOPEN_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

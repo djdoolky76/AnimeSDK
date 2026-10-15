@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleTargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
+namespace RPG::GameCore { class SaveChenLingBattleTargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_METHOD_3_29FE4DBB8E709AD3_OFFSET UNITYSDK_OFFSET(0x1D4D4770)
-#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_METHOD_3_5CFD35E935E43011_OFFSET UNITYSDK_OFFSET(0x1D4D4710)
-#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D4760)
+#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA88090)
+#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA880A0)
+#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA88040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SaveChenLingBattleTargetEvaluator_TypeDefinitionIndex = 15603;
-
 	class SaveChenLingBattleTargetEvaluator : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:
 		::RPG::GameCore::BaseChenLingBattleTargetEvaluator* Targets; // 0x10
 		::System::String* SaveName; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5CFD35E935E43011(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_METHOD_3_5CFD35E935E43011_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_29FE4DBB8E709AD3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_METHOD_3_29FE4DBB8E709AD3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SaveChenLingBattleTargetEvaluator*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

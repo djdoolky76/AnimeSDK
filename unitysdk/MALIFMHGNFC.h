@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GroupCategory.h"
+#include "unitysdk/System/Object.h"
+
+#define MALIFMHGNFC_AOBBAOPIHHB_OFFSET UNITYSDK_OFFSET(0xB852EA0)
+
+	class MALIFMHGNFC : public ::System::Object
+	{
+	public:
+		static ::System::Boolean AOBBAOPIHHB(::RPG::GameCore::GroupCategory a1)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::GroupCategory))((::PBYTE)hIl2Cpp + MALIFMHGNFC_AOBBAOPIHHB_OFFSET))(a1);
+		}
+
+	};

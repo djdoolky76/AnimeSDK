@@ -3,8 +3,6 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingHUDProgressBarView_RotationAxis_TypeDefinitionIndex = 80575;
-
 	enum class B51RacingHUDProgressBarView_RotationAxis : ::System::Int32
 	{
 		X = 0,

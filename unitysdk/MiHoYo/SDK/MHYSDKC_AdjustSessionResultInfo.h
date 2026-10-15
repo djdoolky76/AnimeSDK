@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_AdjustSessionResultInfo_TypeDefinitionIndex = 46660;
-
 	class MHYSDKC_AdjustSessionResultInfo : public ::System::Object
 	{
 	public:

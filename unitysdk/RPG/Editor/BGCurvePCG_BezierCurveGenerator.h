@@ -2,79 +2,77 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Editor/BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting.h"
 #include "unitysdk/RPG/Editor/BGCurvePCG_MeshGeneratorBase.h"
-
 class BGCurveExtention;
 namespace RPG::Client { class BezierCurve; }
-namespace RPG::Editor { class BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xE4569C0)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_1FF9A11EFEF8FFB3_OFFSET UNITYSDK_OFFSET(0xE456D20)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_3C56C1AF247AC1EC_OFFSET UNITYSDK_OFFSET(0xE457510)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xE458520)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_96F7A194C92D21E8_OFFSET UNITYSDK_OFFSET(0xE456AA0)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE456C30)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_E631B63295647DB5_OFFSET UNITYSDK_OFFSET(0xE456BE0)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_F0F8DE036FE283F6_OFFSET UNITYSDK_OFFSET(0xE456CC0)
-#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE4585E0)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_AIBFNLFNFEE_OFFSET UNITYSDK_OFFSET(0xE49EFC0)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_BEPPEACKGBD_OFFSET UNITYSDK_OFFSET(0xE49FFD0)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A0090)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_FHPAOJGFHHE_OFFSET UNITYSDK_OFFSET(0xE49E470)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_HOEKDHBPGAI_OFFSET UNITYSDK_OFFSET(0xE49E690)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_KGOAMMKPKDF_OFFSET UNITYSDK_OFFSET(0xE49E6E0)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE49E550)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_MPNEPIGKJOG_OFFSET UNITYSDK_OFFSET(0xE49E770)
+#define RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_PFDJFKDEGGC_OFFSET UNITYSDK_OFFSET(0xE49E7D0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_BezierCurveGenerator_TypeDefinitionIndex = 52305;
-
 	class BGCurvePCG_BezierCurveGenerator : public ::RPG::Editor::BGCurvePCG_MeshGeneratorBase
 	{
 	public:
 		::System::String* GrpupName; // 0x30
 		::RPG::Editor::BGCurvePCG_BezierCurveGenerator_CurveGenerateSetting Setting; // 0x38
+		::System::Byte _padding0[0x4];
 		::RPG::Client::BezierCurve* _BezierCurve; // 0x58
-		::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* _Anchors; // 0x60
-
+		::System::Collections::Generic::List_1<::System::Object*>* _Anchors; // 0x60
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_1290EA767C459179()
+		::System::Void FHPAOJGFHHE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_FHPAOJGFHHE_OFFSET))(this);
 		}
 
-		::System::Void Method_2_96F7A194C92D21E8(::BGCurveExtention* a1, ::UnityEngine::Transform* a2)
+		::System::Void KPJGDHLENIP(::BGCurveExtention* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_96F7A194C92D21E8_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BGCurveExtention*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_KPJGDHLENIP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_E631B63295647DB5()
+		::System::Void HOEKDHBPGAI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_E631B63295647DB5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_HOEKDHBPGAI_OFFSET))(this);
 		}
 
-		::System::Void Method_2_F0F8DE036FE283F6()
+		::System::Void MPNEPIGKJOG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_F0F8DE036FE283F6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_MPNEPIGKJOG_OFFSET))(this);
 		}
 
-		::System::Void Method_2_3C56C1AF247AC1EC()
+		::System::Void AIBFNLFNFEE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_3C56C1AF247AC1EC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_AIBFNLFNFEE_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::System::Void KGOAMMKPKDF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_KGOAMMKPKDF_OFFSET))(this);
 		}
 
-		::System::Void Method_2_1FF9A11EFEF8FFB3(::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>* a1, ::System::Single a2)
+		::System::Void PFDJFKDEGGC(::System::Collections::Generic::List_1<::System::Object*>* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Editor::BGCurvePCG_MeshGeneratorBase_Class_2_76AB80E999558A94*>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_1FF9A11EFEF8FFB3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_PFDJFKDEGGC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_51CFFE2AF748ECD7()
+		::System::Void BEPPEACKGBD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_METHOD_2_51CFFE2AF748ECD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_EDITOR_BGCURVEPCG_BEZIERCURVEGENERATOR_BEPPEACKGBD_OFFSET))(this);
 		}
+
 	};
 }

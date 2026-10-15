@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class LocalDataStoreElement; }
 namespace System { class LocalDataStoreMgr; }
 namespace System { class LocalDataStoreSlot; }
+namespace System { class Object; }
 
-#define SYSTEM_LOCALDATASTORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BD6DB50)
-#define SYSTEM_LOCALDATASTORE_FREEDATA_OFFSET UNITYSDK_OFFSET(0x1BD6E1A0)
-#define SYSTEM_LOCALDATASTORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BD6DC60)
-#define SYSTEM_LOCALDATASTORE_POPULATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1BD6DF70)
-#define SYSTEM_LOCALDATASTORE_SETDATA_OFFSET UNITYSDK_OFFSET(0x1BD6DE10)
-#define SYSTEM_LOCALDATASTORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6DB00)
+#define SYSTEM_LOCALDATASTORE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2798D0)
+#define SYSTEM_LOCALDATASTORE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C279920)
+#define SYSTEM_LOCALDATASTORE_FREEDATA_OFFSET UNITYSDK_OFFSET(0x1C279F70)
+#define SYSTEM_LOCALDATASTORE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C279A30)
+#define SYSTEM_LOCALDATASTORE_POPULATEELEMENT_OFFSET UNITYSDK_OFFSET(0x1C279D40)
+#define SYSTEM_LOCALDATASTORE_SETDATA_OFFSET UNITYSDK_OFFSET(0x1C279BE0)
 
 namespace System
 {
-	inline static constexpr unsigned int LocalDataStore_TypeDefinitionIndex = 165;
-
 	class LocalDataStore : public ::System::Object
 	{
 	public:
-		::System::LocalDataStoreMgr* m_Manager; // 0x10
-		::Il2CppArray<::System::LocalDataStoreElement*>* m_DataTable; // 0x18
-
+		::Il2CppArray<::System::LocalDataStoreElement*>* m_DataTable; // 0x10
+		::System::LocalDataStoreMgr* m_Manager; // 0x18
 		::System::Void _ctor(::System::LocalDataStoreMgr* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreMgr*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::LocalDataStoreMgr*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -52,5 +49,6 @@ namespace System
 		{
 			return ((::System::LocalDataStoreElement*(*)(::PVOID, ::System::LocalDataStoreSlot*))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTORE_POPULATEELEMENT_OFFSET))(this, a1);
 		}
+
 	};
 }

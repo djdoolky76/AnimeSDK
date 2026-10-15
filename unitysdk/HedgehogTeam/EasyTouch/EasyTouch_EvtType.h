@@ -3,8 +3,6 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_EvtType_TypeDefinitionIndex = 39036;
-
 	enum class EasyTouch_EvtType : ::System::Int32
 	{
 		None = 0,

@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/ScopeExpression.h"
-
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class BlockExpression; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1E768870)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1E768AD0)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1E768860)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1E7689A0)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E768B10)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7687F0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE31440)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EE314C0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1EE31720)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1EE314B0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE315F0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEN_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EE31760)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ScopeN_TypeDefinitionIndex = 3200;
-
 	class ScopeN : public ::System::Linq::Expressions::ScopeExpression
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _body; // 0x18
-
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SCOPEN__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SCOPEN_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* get_Body()
@@ -53,5 +49,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::BlockExpression*(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::Il2CppArray<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SCOPEN_REWRITE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

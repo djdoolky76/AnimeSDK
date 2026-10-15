@@ -3,11 +3,9 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionDelayLinkExtraBehaviorMask_TypeDefinitionIndex = 24454;
-
 	enum class ActionDelayLinkExtraBehaviorMask : ::System::UInt16
 	{
-		None = 0x0,
-		Bit_AutoForceSync = 0x1,
+		None = 0,
+		Bit_AutoForceSync = 1,
 	};
 }

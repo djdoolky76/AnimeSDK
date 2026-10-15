@@ -3,8 +3,6 @@
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XObjectChange_TypeDefinitionIndex = 3887;
-
 	enum class XObjectChange : ::System::Int32
 	{
 		Add = 0,

@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class LocalizedText; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL_GET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0xC9F0C80)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL_SET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0xC9F0CC0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC9F0E20)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0xC9F0D10)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC93F580)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL_GET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0xC93F3E0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL_SET_GROUPTYPE_OFFSET UNITYSDK_OFFSET(0xC93F420)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL__REFRESH_OFFSET UNITYSDK_OFFSET(0xC93F470)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeGroupTypeNameControl_TypeDefinitionIndex = 80089;
-
 	class ChallengeGroupTypeNameControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::GameCore::ChallengeGroupType _GroupType; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::Client::LocalizedText* _Text; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::ChallengeGroupType get_GroupType()
@@ -39,5 +36,6 @@ namespace RPG::Client::Challenge
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChallengeGroupType))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEGROUPTYPENAMECONTROL__REFRESH_OFFSET))(this, a1);
 		}
+
 	};
 }

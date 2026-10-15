@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Rendering/DistanceMetric.h"
 #include "unitysdk/UnityEngine/Rendering/SortingCriteria.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BC40E0)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BC40A0)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BC4160)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GET_CRITERIA_OFFSET UNITYSDK_OFFSET(0x3E880)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_CRITERIA_OFFSET UNITYSDK_OFFSET(0xBF10)
-#define UNITYENGINE_RENDERING_SORTINGSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x3BC4080)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x3C79D70)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C79DF0)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C79DB0)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C79E70)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_GET_CRITERIA_OFFSET UNITYSDK_OFFSET(0x3C79D90)
+#define UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_CRITERIA_OFFSET UNITYSDK_OFFSET(0x3C79DA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SortingSettings_TypeDefinitionIndex = 4769;
-
 	struct alignas(4) SortingSettings
 	{
 		::UnityEngine::Matrix4x4 m_WorldToCameraMatrix; // 0x10
@@ -30,10 +26,9 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Matrix4x4 m_PreviousVPMatrix; // 0x70
 		::UnityEngine::Matrix4x4 m_NonJitteredVPMatrix; // 0xB0
 		::UnityEngine::Matrix4x4 m_ProjMatrix; // 0xF0
-
 		::System::Void _ctor(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGSETTINGS__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGSETTINGS_CTOR_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Rendering::SortingCriteria get_criteria()
@@ -46,10 +41,12 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::SortingCriteria))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGSETTINGS_SET_CRITERIA_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::SortingSettings a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SortingSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGSETTINGS_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -60,5 +57,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGSETTINGS_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindEffControlType_TypeDefinitionIndex = 16427;
-
 	enum class TimeRewindEffControlType : ::System::Int32
 	{
 		TriggerNewEffect = 0,

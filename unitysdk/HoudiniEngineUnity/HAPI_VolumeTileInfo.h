@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_VolumeTileInfo_TypeDefinitionIndex = 39215;
-
 	struct alignas(4) HAPI_VolumeTileInfo
 	{
 		::System::Int32 minX; // 0x10

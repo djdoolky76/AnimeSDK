@@ -3,8 +3,6 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_ParsingMode_TypeDefinitionIndex = 1848;
-
 	enum class XmlTextReaderImpl_ParsingMode : ::System::Int32
 	{
 		Full = 0,

@@ -1,32 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSDialogBase.h"
-
+namespace MiHoYo::SDK::PS { class PSAccountInfoDialog; }
 namespace MiHoYo::SDK::PS { class UserGameServerInfo; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BA5D0C0)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BA5F670)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BA5F640)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BA3A330)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BA5F620)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BA41150)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BA3FF20)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA5F6A0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF67140)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF69C10)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF69BE0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF69C40)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF43DC0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF69BC0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BF4ABE0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF499B0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSAccountInfoDialog_TypeDefinitionIndex = 8874;
-
 	class PSAccountInfoDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
+		::System::Action* OnContinueToBind; // 0xB0
+		::System::Action* OnSwitchHoYoAccount; // 0xB8
+		::System::Boolean Interactable; // 0xC0
+		::System::Byte _padding0[0x7];
+		::System::String* PSNAccountName; // 0xC8
+		::System::String* HoYoAccountName; // 0xD0
+		::MiHoYo::SDK::PS::UserGameServerInfo* CurrentServerInfo; // 0xD8
+		::MiHoYo::SDK::PS::UserGameServerInfo* OtherServerInfo; // 0xE0
 		static ::MiHoYo::SDK::PS::PSAccountInfoDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::PSAccountInfoDialog**)Il2CppClass::FromTypeDefinitionIndex(PSAccountInfoDialog_TypeDefinitionIndex)->GetStaticField(0x21E00);
+			return (::MiHoYo::SDK::PS::PSAccountInfoDialog**)UnitySDK::FromName("MiHoYo.SDK.PS", "PSAccountInfoDialog")->GetStaticField(0x181C0);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* DescTextPath; // 0x0
@@ -46,17 +53,9 @@ namespace MiHoYo::SDK::PS
 		// static const ::System::String* RoleLevelLabelTextPath; // 0x0
 		// static const ::System::String* RoleLevelValueTextPath; // 0x0
 		// static const ::System::String* EmptyRoleTipPath; // 0x0
-		::System::Action* OnContinueToBind; // 0xB0
-		::System::Action* OnSwitchHoYoAccount; // 0xB8
-		::System::Boolean Interactable; // 0xC0
-		::System::String* PSNAccountName; // 0xC8
-		::System::String* HoYoAccountName; // 0xD0
-		::MiHoYo::SDK::PS::UserGameServerInfo* CurrentServerInfo; // 0xD8
-		::MiHoYo::SDK::PS::UserGameServerInfo* OtherServerInfo; // 0xE0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Collections::Generic::List_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* a4)
@@ -93,5 +92,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG_CANCELDIALOG_OFFSET))(this);
 		}
+
 	};
 }

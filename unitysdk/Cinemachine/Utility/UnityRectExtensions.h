@@ -4,12 +4,10 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CINEMACHINE_UTILITY_UNITYRECTEXTENSIONS_INFLATED_OFFSET UNITYSDK_OFFSET(0x1648E310)
+#define CINEMACHINE_UTILITY_UNITYRECTEXTENSIONS_INFLATED_OFFSET UNITYSDK_OFFSET(0x166B4F80)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int UnityRectExtensions_TypeDefinitionIndex = 38602;
-
 	class UnityRectExtensions : public ::System::Object
 	{
 	public:
@@ -17,5 +15,6 @@ namespace Cinemachine::Utility
 		{
 			return ((::UnityEngine::Rect(*)(::UnityEngine::Rect, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_UTILITY_UNITYRECTEXTENSIONS_INFLATED_OFFSET))(a1, a2);
 		}
+
 	};
 }

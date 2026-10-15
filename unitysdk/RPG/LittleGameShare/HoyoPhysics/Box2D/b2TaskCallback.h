@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C326A00)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C326AA0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C3197B0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C326990)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C876C70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C876C00)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C876D10)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C869AA0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int b2TaskCallback_TypeDefinitionIndex = 35955;
-
 	class b2TaskCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Object* a4)
@@ -37,5 +34,6 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TASKCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

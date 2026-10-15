@@ -2,39 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color32.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Mesh; }
 
-#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_GAMMATOLINEAR_1_OFFSET UNITYSDK_OFFSET(0x1649DCB0)
-#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_GAMMATOLINEAR_OFFSET UNITYSDK_OFFSET(0x1649D8A0)
-#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_LINEARTOGAMMA_1_OFFSET UNITYSDK_OFFSET(0x1649DA40)
-#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_LINEARTOGAMMA_OFFSET UNITYSDK_OFFSET(0x1649D700)
-#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1649DF20)
+#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x166C4B50)
+#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_GAMMATOLINEAR_1_OFFSET UNITYSDK_OFFSET(0x166C48E0)
+#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_GAMMATOLINEAR_OFFSET UNITYSDK_OFFSET(0x166C44D0)
+#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_LINEARTOGAMMA_1_OFFSET UNITYSDK_OFFSET(0x166C4670)
+#define COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_LINEARTOGAMMA_OFFSET UNITYSDK_OFFSET(0x166C4330)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int Color32Extensions_TypeDefinitionIndex = 43930;
-
 	class Color32Extensions : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Color32>** StaticGet_s_Colors()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Color32>**)Il2CppClass::FromTypeDefinitionIndex(Color32Extensions_TypeDefinitionIndex)->GetStaticField(0x1310);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_s_LinearToGammaLut()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Color32Extensions_TypeDefinitionIndex)->GetStaticField(0x1318);
-		}
 		static ::Il2CppArray<::System::Byte>** StaticGet_s_GammaToLinearLut()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(Color32Extensions_TypeDefinitionIndex)->GetStaticField(0x1320);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Coffee.UIParticleInternal", "Color32Extensions")->GetStaticField(0x1070);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Color32>** StaticGet_s_Colors()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Color32>**)UnitySDK::FromName("Coffee.UIParticleInternal", "Color32Extensions")->GetStaticField(0x1078);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_s_LinearToGammaLut()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Coffee.UIParticleInternal", "Color32Extensions")->GetStaticField(0x1080);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Byte LinearToGamma(::System::Byte a1)
@@ -56,5 +55,6 @@ namespace Coffee::UIParticleInternal
 		{
 			return ((::System::Void(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + COFFEE_UIPARTICLEINTERNAL_COLOR32EXTENSIONS_GAMMATOLINEAR_1_OFFSET))(a1);
 		}
+
 	};
 }

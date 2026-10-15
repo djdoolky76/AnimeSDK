@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/LogType.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_APPLICATION_LOGCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED09CE0)
-#define UNITYENGINE_APPLICATION_LOGCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED09D50)
-#define UNITYENGINE_APPLICATION_LOGCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED077A0)
-#define UNITYENGINE_APPLICATION_LOGCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED09C60)
+#define UNITYENGINE_APPLICATION_LOGCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3D1A50)
+#define UNITYENGINE_APPLICATION_LOGCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D19D0)
+#define UNITYENGINE_APPLICATION_LOGCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3D1AC0)
+#define UNITYENGINE_APPLICATION_LOGCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3CF510)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Application_LogCallback_TypeDefinitionIndex = 4029;
-
 	class Application_LogCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_LOGCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_LOGCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::UnityEngine::LogType a3)
@@ -39,5 +36,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_APPLICATION_LOGCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

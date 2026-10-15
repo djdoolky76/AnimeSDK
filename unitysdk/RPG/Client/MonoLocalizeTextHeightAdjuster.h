@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class LayoutElement; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER_INIT_OFFSET UNITYSDK_OFFSET(0xD845260)
-#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD8454B0)
+#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER_CTOR_OFFSET UNITYSDK_OFFSET(0xD845ED0)
+#define RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER_INIT_OFFSET UNITYSDK_OFFSET(0xD845C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLocalizeTextHeightAdjuster_TypeDefinitionIndex = 72509;
-
 	class MonoLocalizeTextHeightAdjuster : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -21,15 +18,15 @@ namespace RPG::Client
 		::UnityEngine::UI::LayoutElement* TextLayoutElement; // 0x20
 		::UnityEngine::UI::Text* TextTarget; // 0x28
 		::UnityEngine::Transform* ResizeButton; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLOCALIZETEXTHEIGHTADJUSTER_INIT_OFFSET))(this);
 		}
+
 	};
 }

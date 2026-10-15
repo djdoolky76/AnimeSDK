@@ -3,49 +3,45 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_1D65C84443DC695F;
+class JEANAIHDCAA;
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class MatchThreePiece; }
 namespace RPG::Client { class UIPrefabLoader; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD634A80)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xD635090)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_89D1F247B9D324EE_OFFSET UNITYSDK_OFFSET(0xD634FA0)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_B71F1B35165C7818_OFFSET UNITYSDK_OFFSET(0xD6346D0)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD634AC0)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD62DA30)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD634A40)
-#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD6351B0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD58E8C0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD58E190)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_EGNMELNENAC_OFFSET UNITYSDK_OFFSET(0xD58DDE0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_GOGBDOGNGHJ_OFFSET UNITYSDK_OFFSET(0xD58E6B0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_OHDPOIHHLCM_OFFSET UNITYSDK_OFFSET(0xD58E7A0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD58E1D0)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD587270)
+#define RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD58E150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeCopyPieceEffect_TypeDefinitionIndex = 65975;
-
 	class MatchThreeCopyPieceEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* MEIDIGCOFMB; // 0x0
 		::RPG::Client::MatchThreeBoard* MIPPNCGOJNM; // 0x18
 		::System::Single ALCEJGAKKIE; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* KNGEKPKBIDK; // 0x28
 		::UnityEngine::Transform* GNPBGAKIAHM; // 0x30
 		::UnityEngine::Transform* JDCPIMPNJCD; // 0x38
 		::RPG::Client::MatchThreePiece* IOABMCKDNNC; // 0x40
 		::RPG::Client::UIPrefabLoader* HMELCEOFACP; // 0x48
-
+		// static const ::System::String* MEIDIGCOFMB; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Play(::UnityEngine::Vector2Int a1, ::UnityEngine::Vector2Int a2, ::Class_1_1D65C84443DC695F* a3, ::System::Action* a4, ::System::Action* a5)
+		::System::Void Play(::UnityEngine::Vector2Int a1, ::UnityEngine::Vector2Int a2, ::JEANAIHDCAA* a3, ::System::Action* a4, ::System::Action* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, ::Class_1_1D65C84443DC695F*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_PLAY_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, ::JEANAIHDCAA*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_PLAY_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Spawned()
@@ -63,19 +59,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_ONCREATE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_89D1F247B9D324EE()
+		::System::Void GOGBDOGNGHJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_89D1F247B9D324EE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_GOGBDOGNGHJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1290EA767C459179()
+		::System::Void OHDPOIHHLCM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_OHDPOIHHLCM_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B71F1B35165C7818(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::Class_1_1D65C84443DC695F* a3, ::System::Action* a4, ::System::Action* a5)
+		::System::Void EGNMELNENAC(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::JEANAIHDCAA* a3, ::System::Action* a4, ::System::Action* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Class_1_1D65C84443DC695F*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_METHOD_5_B71F1B35165C7818_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::JEANAIHDCAA*, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREECOPYPIECEEFFECT_EGNMELNENAC_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

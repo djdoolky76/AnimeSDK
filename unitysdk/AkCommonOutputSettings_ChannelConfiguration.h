@@ -3,28 +3,25 @@
 #include "unitysdk/AkCommonOutputSettings_ChannelConfiguration_ChannelConfigType.h"
 #include "unitysdk/AkCommonOutputSettings_ChannelConfiguration_ChannelMask.h"
 #include "unitysdk/System/Object.h"
-
 class AkChannelConfig;
 
-#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1EEBEB00)
-#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAAB10)
+#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F5866B0)
+#define AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5726C0)
 
-inline static constexpr unsigned int AkCommonOutputSettings_ChannelConfiguration_TypeDefinitionIndex = 43642;
-
-class AkCommonOutputSettings_ChannelConfiguration : public ::System::Object
-{
-public:
-	::AkCommonOutputSettings_ChannelConfiguration_ChannelConfigType m_ChannelConfigType; // 0x10
-	::AkCommonOutputSettings_ChannelConfiguration_ChannelMask m_ChannelMask; // 0x14
-	::System::UInt32 m_NumberOfChannels; // 0x18
-
-	::System::Void _ctor()
+	class AkCommonOutputSettings_ChannelConfiguration : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION__CTOR_OFFSET))(this);
-	}
+	public:
+		::AkCommonOutputSettings_ChannelConfiguration_ChannelConfigType m_ChannelConfigType; // 0x10
+		::AkCommonOutputSettings_ChannelConfiguration_ChannelMask m_ChannelMask; // 0x14
+		::System::UInt32 m_NumberOfChannels; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_CTOR_OFFSET))(this);
+		}
 
-	::System::Void CopyTo(::AkChannelConfig* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::AkChannelConfig*))((::PBYTE)hIl2Cpp + AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_COPYTO_OFFSET))(this, a1);
-	}
-};
+		::System::Void CopyTo(::AkChannelConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AkChannelConfig*))((::PBYTE)hIl2Cpp + AKCOMMONOUTPUTSETTINGS_CHANNELCONFIGURATION_COPYTO_OFFSET))(this, a1);
+		}
+
+	};

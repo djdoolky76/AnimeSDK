@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialTriggerType_TypeDefinitionIndex = 15280;
-
 	enum class TutorialTriggerType : ::System::Int32
 	{
 		None = 0,
@@ -40,5 +38,7 @@ namespace RPG::GameCore
 		ShowUIDialog = 30,
 		OnMazeMainPage = 31,
 		EnterBattleByChallengePeak = 32,
+		EnterBattleByStageID = 33,
+		ItemSubTypeCount = 34,
 	};
 }

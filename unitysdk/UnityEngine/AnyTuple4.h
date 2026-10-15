@@ -1,43 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/AnyType.h"
-
+#include "unitysdk/UnityEngine/NativeString.h"
 namespace System { class String; }
 
-#define UNITYENGINE_ANYTUPLE4_FORMATTONATIVESTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED06310)
-#define UNITYENGINE_ANYTUPLE4_FORMATTONATIVESTRING_OFFSET UNITYSDK_OFFSET(0x3BB62A0)
-#define UNITYENGINE_ANYTUPLE4_GETHASHCODEWITHSEED_OFFSET UNITYSDK_OFFSET(0x3BB61D0)
-#define UNITYENGINE_ANYTUPLE4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BB60E0)
-#define UNITYENGINE_ANYTUPLE4_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x2E7ED80)
-#define UNITYENGINE_ANYTUPLE4_GET_ITEM1_OFFSET UNITYSDK_OFFSET(0x2DFB9E0)
-#define UNITYENGINE_ANYTUPLE4_GET_ITEM2_OFFSET UNITYSDK_OFFSET(0x2E1FE50)
-#define UNITYENGINE_ANYTUPLE4_GET_ITEM3_OFFSET UNITYSDK_OFFSET(0x2F39470)
-#define UNITYENGINE_ANYTUPLE4_GET_ITEM4_OFFSET UNITYSDK_OFFSET(0x2F77750)
-#define UNITYENGINE_ANYTUPLE4_GET_OFFSET UNITYSDK_OFFSET(0x3BB6050)
-#define UNITYENGINE_ANYTUPLE4_SET_ITEM1_OFFSET UNITYSDK_OFFSET(0x2E50B00)
-#define UNITYENGINE_ANYTUPLE4_SET_ITEM2_OFFSET UNITYSDK_OFFSET(0x3BABA30)
-#define UNITYENGINE_ANYTUPLE4_SET_ITEM3_OFFSET UNITYSDK_OFFSET(0x2F39480)
-#define UNITYENGINE_ANYTUPLE4_SET_ITEM4_OFFSET UNITYSDK_OFFSET(0x3B5B030)
-#define UNITYENGINE_ANYTUPLE4_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED062D0)
-#define UNITYENGINE_ANYTUPLE4_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x3BB60D0)
-#define UNITYENGINE_ANYTUPLE4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BB60D0)
-#define UNITYENGINE_ANYTUPLE4__CTOR_OFFSET UNITYSDK_OFFSET(0x3BB30A0)
+#define UNITYENGINE_ANYTUPLE4_CTOR_OFFSET UNITYSDK_OFFSET(0x3C68490)
+#define UNITYENGINE_ANYTUPLE4_FORMATTONATIVESTRING_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3CE0B0)
+#define UNITYENGINE_ANYTUPLE4_FORMATTONATIVESTRING_OFFSET UNITYSDK_OFFSET(0x3C6B6C0)
+#define UNITYENGINE_ANYTUPLE4_GETHASHCODEWITHSEED_OFFSET UNITYSDK_OFFSET(0x3C6B5F0)
+#define UNITYENGINE_ANYTUPLE4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C6B500)
+#define UNITYENGINE_ANYTUPLE4_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x2F11360)
+#define UNITYENGINE_ANYTUPLE4_GET_ITEM1_OFFSET UNITYSDK_OFFSET(0x2E878A0)
+#define UNITYENGINE_ANYTUPLE4_GET_ITEM2_OFFSET UNITYSDK_OFFSET(0x2EAC580)
+#define UNITYENGINE_ANYTUPLE4_GET_ITEM3_OFFSET UNITYSDK_OFFSET(0x2FAFC60)
+#define UNITYENGINE_ANYTUPLE4_GET_ITEM4_OFFSET UNITYSDK_OFFSET(0x2FEED20)
+#define UNITYENGINE_ANYTUPLE4_GET_OFFSET UNITYSDK_OFFSET(0x3C6B470)
+#define UNITYENGINE_ANYTUPLE4_SET_ITEM1_OFFSET UNITYSDK_OFFSET(0x2EDDF70)
+#define UNITYENGINE_ANYTUPLE4_SET_ITEM2_OFFSET UNITYSDK_OFFSET(0x3C60E10)
+#define UNITYENGINE_ANYTUPLE4_SET_ITEM3_OFFSET UNITYSDK_OFFSET(0x2FAFC70)
+#define UNITYENGINE_ANYTUPLE4_SET_ITEM4_OFFSET UNITYSDK_OFFSET(0x3C0FA00)
+#define UNITYENGINE_ANYTUPLE4_TOSTRINGINTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3CE070)
+#define UNITYENGINE_ANYTUPLE4_TOSTRINGINTERNAL_OFFSET UNITYSDK_OFFSET(0x3C6B4F0)
+#define UNITYENGINE_ANYTUPLE4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C6B4F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnyTuple4_TypeDefinitionIndex = 4294;
-
-	struct alignas(8) AnyTuple4
+	struct alignas(4) AnyTuple4
 	{
 		::UnityEngine::AnyType _Item1_k__BackingField; // 0x10
 		::UnityEngine::AnyType _Item2_k__BackingField; // 0x20
 		::UnityEngine::AnyType _Item3_k__BackingField; // 0x30
 		::UnityEngine::AnyType _Item4_k__BackingField; // 0x40
-
 		::System::Void _ctor(::UnityEngine::AnyType a1, ::UnityEngine::AnyType a2, ::UnityEngine::AnyType a3, ::UnityEngine::AnyType a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::AnyType))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::AnyType, ::UnityEngine::AnyType))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_count()
@@ -70,12 +66,10 @@ namespace UnityEngine
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_TOSTRINGINTERNAL_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::NativeString FormatToNativeString(::System::Boolean a1)
 		{
 			return ((::UnityEngine::NativeString(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_FORMATTONATIVESTRING_OFFSET))(this, a1);
 		}
-		*/
 
 		::UnityEngine::AnyType get_Item1()
 		{
@@ -117,16 +111,19 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnyType))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_SET_ITEM4_OFFSET))(this, a1);
 		}
 
-		static ::System::String* ToStringInternal_Injected(::UnityEngine::AnyTuple4& a1)
-		{
-			return ((::System::String*(*)(::UnityEngine::AnyTuple4&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_TOSTRINGINTERNAL_INJECTED_OFFSET))(a1);
-		}
-
 		/*
-		static ::System::Void FormatToNativeString_Injected(::UnityEngine::AnyTuple4& a1, ::System::Boolean a2, ::UnityEngine::NativeString& a3)
+		static ::System::String* ToStringInternal_Injected(::UnityEngine::AnyTuple4 a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::AnyTuple4&, ::System::Boolean, ::UnityEngine::NativeString&))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_FORMATTONATIVESTRING_INJECTED_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::UnityEngine::AnyTuple4))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_TOSTRINGINTERNAL_INJECTED_OFFSET))(a1);
 		}
 		*/
+
+		/*
+		static ::System::Void FormatToNativeString_Injected(::UnityEngine::AnyTuple4 a1, ::System::Boolean a2, ::UnityEngine::NativeString a3)
+		{
+			return ((::System::Void(*)(::UnityEngine::AnyTuple4, ::System::Boolean, ::UnityEngine::NativeString))((::PBYTE)hIl2Cpp + UNITYENGINE_ANYTUPLE4_FORMATTONATIVESTRING_INJECTED_OFFSET))(a1, a2, a3);
+		}
+		*/
+
 	};
 }

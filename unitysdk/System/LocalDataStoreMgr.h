@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class LocalDataStore; }
 namespace System { class LocalDataStoreHolder; }
 namespace System { class LocalDataStoreSlot; }
@@ -9,33 +8,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_LOCALDATASTOREMGR_ALLOCATEDATASLOT_OFFSET UNITYSDK_OFFSET(0x1BD6E4C0)
-#define SYSTEM_LOCALDATASTOREMGR_ALLOCATENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1BD6E6C0)
-#define SYSTEM_LOCALDATASTOREMGR_CREATELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x1BD6E2E0)
-#define SYSTEM_LOCALDATASTOREMGR_DELETELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x1BD6DB70)
-#define SYSTEM_LOCALDATASTOREMGR_FREEDATASLOT_OFFSET UNITYSDK_OFFSET(0x1BD6EA20)
-#define SYSTEM_LOCALDATASTOREMGR_FREENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1BD6E930)
-#define SYSTEM_LOCALDATASTOREMGR_GETNAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1BD6E810)
-#define SYSTEM_LOCALDATASTOREMGR_GETSLOTTABLELENGTH_OFFSET UNITYSDK_OFFSET(0x1BD6E1E0)
-#define SYSTEM_LOCALDATASTOREMGR_VALIDATESLOT_OFFSET UNITYSDK_OFFSET(0x1BD6DDA0)
-#define SYSTEM_LOCALDATASTOREMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD6EBC0)
+#define SYSTEM_LOCALDATASTOREMGR_ALLOCATEDATASLOT_OFFSET UNITYSDK_OFFSET(0x1C27A290)
+#define SYSTEM_LOCALDATASTOREMGR_ALLOCATENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1C27A490)
+#define SYSTEM_LOCALDATASTOREMGR_CREATELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x1C27A0B0)
+#define SYSTEM_LOCALDATASTOREMGR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27A990)
+#define SYSTEM_LOCALDATASTOREMGR_DELETELOCALDATASTORE_OFFSET UNITYSDK_OFFSET(0x1C279940)
+#define SYSTEM_LOCALDATASTOREMGR_FREEDATASLOT_OFFSET UNITYSDK_OFFSET(0x1C27A7F0)
+#define SYSTEM_LOCALDATASTOREMGR_FREENAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1C27A700)
+#define SYSTEM_LOCALDATASTOREMGR_GETNAMEDDATASLOT_OFFSET UNITYSDK_OFFSET(0x1C27A5E0)
+#define SYSTEM_LOCALDATASTOREMGR_GETSLOTTABLELENGTH_OFFSET UNITYSDK_OFFSET(0x1C279FB0)
+#define SYSTEM_LOCALDATASTOREMGR_VALIDATESLOT_OFFSET UNITYSDK_OFFSET(0x1C279B70)
 
 namespace System
 {
-	inline static constexpr unsigned int LocalDataStoreMgr_TypeDefinitionIndex = 167;
-
 	class LocalDataStoreMgr : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::LocalDataStoreSlot*>* m_KeyToSlotMap; // 0x10
-		::Il2CppArray<::System::Boolean>* m_SlotInfoTable; // 0x18
-		::System::Collections::Generic::List_1<::System::LocalDataStore*>* m_ManagedLocalDataStores; // 0x20
+		::System::Collections::Generic::List_1<::System::LocalDataStore*>* m_ManagedLocalDataStores; // 0x18
+		::Il2CppArray<::System::Boolean>* m_SlotInfoTable; // 0x20
 		::System::Int32 m_FirstAvailableSlot; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::Int64 m_CookieGenerator; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_CTOR_OFFSET))(this);
 		}
 
 		::System::LocalDataStoreHolder* CreateLocalDataStore()
@@ -82,5 +79,6 @@ namespace System
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LOCALDATASTOREMGR_GETSLOTTABLELENGTH_OFFSET))(this);
 		}
+
 	};
 }

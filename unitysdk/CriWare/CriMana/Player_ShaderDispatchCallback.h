@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace CriWare::CriMana { class MovieInfo; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Shader; }
 
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x165046F0)
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16504750)
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x164F9900)
-#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16504600)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1672B310)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1672B220)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1672B370)
+#define CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x16720520)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_ShaderDispatchCallback_TypeDefinitionIndex = 38926;
-
 	class Player_ShaderDispatchCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Shader* Invoke(::CriWare::CriMana::MovieInfo* a1, ::System::Boolean a2)
@@ -39,5 +36,6 @@ namespace CriWare::CriMana
 		{
 			return ((::UnityEngine::Shader*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_SHADERDISPATCHCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

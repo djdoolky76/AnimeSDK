@@ -1,49 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventFieldFormat.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventKeywords.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventLevel.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventOpcode.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventTags.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
-namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
-namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BCF4850)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1BCF6380)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x1BCF6360)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1BCF6340)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BCF6330)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_OPCODE_OFFSET UNITYSDK_OFFSET(0x1BCF6350)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x1BCF6370)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BCF61E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF60F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C202220)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C202120)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C200880)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_DATATYPE_OFFSET UNITYSDK_OFFSET(0x1C2023D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0x1C2023B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1C202390)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C202380)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_OPCODE_OFFSET UNITYSDK_OFFSET(0x1C2023A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GET_TAGS_OFFSET UNITYSDK_OFFSET(0x1C2023C0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int TraceLoggingTypeInfo_TypeDefinitionIndex = 1671;
-
 	class TraceLoggingTypeInfo : public ::System::Object
 	{
 	public:
-		::System::Type* dataType; // 0x10
-		::System::String* name; // 0x18
-		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x20
-		::System::Diagnostics::Tracing::EventTags tags; // 0x28
-		::System::Diagnostics::Tracing::EventLevel level; // 0x2C
-		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x30
-
+		::System::String* name; // 0x10
+		::System::Type* dataType; // 0x18
+		::System::Diagnostics::Tracing::EventOpcode opcode; // 0x20
+		::System::Byte _padding0[0x4];
+		::System::Diagnostics::Tracing::EventKeywords keywords; // 0x28
+		::System::Byte _padding1[0x4];
+		::System::Diagnostics::Tracing::EventLevel level; // 0x30
+		::System::Diagnostics::Tracing::EventTags tags; // 0x34
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Type* a1, ::System::String* a2, ::System::Diagnostics::Tracing::EventLevel a3, ::System::Diagnostics::Tracing::EventOpcode a4, ::System::Diagnostics::Tracing::EventKeywords a5, ::System::Diagnostics::Tracing::EventTags a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*, ::System::Diagnostics::Tracing::EventLevel, ::System::Diagnostics::Tracing::EventOpcode, ::System::Diagnostics::Tracing::EventKeywords, ::System::Diagnostics::Tracing::EventTags))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::String*, ::System::Diagnostics::Tracing::EventLevel, ::System::Diagnostics::Tracing::EventOpcode, ::System::Diagnostics::Tracing::EventKeywords, ::System::Diagnostics::Tracing::EventTags))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::String* get_Name()
@@ -80,5 +76,6 @@ namespace System::Diagnostics::Tracing
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_TRACELOGGINGTYPEINFO_GETDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

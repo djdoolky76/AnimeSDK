@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/Client/Pet/PetInstanceIdentifier.h"
+
+#define RPG_CLIENT_PET_PETINSTANCEIDENTIFIEREXTENSIONS_ISINVALID_OFFSET UNITYSDK_OFFSET(0xDAB6FE0)
+
+namespace RPG::Client::Pet
+{
+	class PetInstanceIdentifierExtensions : public ::System::Object
+	{
+	public:
+		static ::System::Boolean IsInvalid(::RPG::Client::Pet::PetInstanceIdentifier a1)
+		{
+			return ((::System::Boolean(*)(::RPG::Client::Pet::PetInstanceIdentifier))((::PBYTE)hIl2Cpp + RPG_CLIENT_PET_PETINSTANCEIDENTIFIEREXTENSIONS_ISINVALID_OFFSET))(a1);
+		}
+
+	};
+}

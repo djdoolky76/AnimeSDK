@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameGradeType_TypeDefinitionIndex = 10378;
-
 	enum class HipplenGameGradeType : ::System::Int32
 	{
 		B = 0,

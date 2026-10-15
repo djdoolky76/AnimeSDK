@@ -1,53 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/StageHarmonyBaseLinkSlot.h"
-#include "unitysdk/StageHarmonyLightModLinkSlot_Struct_2_5D4D097EFCB9C87F_1.h"
-
-class Class_1_E3144EBBA3CB68CA;
+#include "unitysdk/StageHarmonyLightModLinkSlot_DJLPONHKPCL.h"
+class DHBOGGBEMFF;
 class StageHarmonyDemodulator;
 class StageHarmonyTargetLightGroup;
 
-#define STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_4316FC6BDA5848E8_OFFSET UNITYSDK_OFFSET(0xE937960)
-#define STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0xE9378E0)
-#define STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_8A260B95B64FA5E2_OFFSET UNITYSDK_OFFSET(0xE93D770)
-#define STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_A5344E5AFEB20260_OFFSET UNITYSDK_OFFSET(0xE9379C0)
-#define STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE93D820)
-#define STAGEHARMONYLIGHTMODLINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xE937BA0)
+#define STAGEHARMONYLIGHTMODLINKSLOT_AHMCGDLMMLM_OFFSET UNITYSDK_OFFSET(0xE992F30)
+#define STAGEHARMONYLIGHTMODLINKSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xE98D360)
+#define STAGEHARMONYLIGHTMODLINKSLOT_FINNMFFPDLA_OFFSET UNITYSDK_OFFSET(0xE98D0A0)
+#define STAGEHARMONYLIGHTMODLINKSLOT_JLPDLBCBJNN_OFFSET UNITYSDK_OFFSET(0xE98D120)
+#define STAGEHARMONYLIGHTMODLINKSLOT_LPDNFAMGEGG_OFFSET UNITYSDK_OFFSET(0xE98D180)
+#define STAGEHARMONYLIGHTMODLINKSLOT_OBOGCFEKGKL_OFFSET UNITYSDK_OFFSET(0xE992FE0)
 
-inline static constexpr unsigned int StageHarmonyLightModLinkSlot_TypeDefinitionIndex = 47999;
-
-class StageHarmonyLightModLinkSlot : public ::StageHarmonyBaseLinkSlot
-{
-public:
-	::StageHarmonyTargetLightGroup* TargetLightIDList; // 0x40
-
-	::System::Void _ctor()
+	class StageHarmonyLightModLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT__CTOR_OFFSET))(this);
-	}
+	public:
+		::StageHarmonyTargetLightGroup* TargetLightIDList; // 0x40
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_CTOR_OFFSET))(this);
+		}
 
-	static ::System::Int32 Method_2_8A260B95B64FA5E2(::System::Boolean a1, ::System::Int32 a2)
-	{
-		return ((::System::Int32(*)(::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_8A260B95B64FA5E2_OFFSET))(a1, a2);
-	}
+		static ::System::Int32 AHMCGDLMMLM(::System::Boolean a1, ::System::Int32 a2)
+		{
+			return ((::System::Int32(*)(::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_AHMCGDLMMLM_OFFSET))(a1, a2);
+		}
 
-	static ::StageHarmonyLightModLinkSlot_Struct_2_5D4D097EFCB9C87F_1 Method_2_4316FC6BDA5848E8(::System::Int32 a1)
-	{
-		return ((::StageHarmonyLightModLinkSlot_Struct_2_5D4D097EFCB9C87F_1(*)(::System::Int32))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_4316FC6BDA5848E8_OFFSET))(a1);
-	}
+		static ::StageHarmonyLightModLinkSlot_DJLPONHKPCL JLPDLBCBJNN(::System::Int32 a1)
+		{
+			return ((::StageHarmonyLightModLinkSlot_DJLPONHKPCL(*)(::System::Int32))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_JLPDLBCBJNN_OFFSET))(a1);
+		}
 
-	::System::Boolean Method_2_4DA6D4A624E42CAB()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_4DA6D4A624E42CAB_OFFSET))(this);
-	}
+		::System::Boolean FINNMFFPDLA()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_FINNMFFPDLA_OFFSET))(this);
+		}
 
-	::System::Void Method_2_CA373AA1C7054598()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET))(this);
-	}
+		::System::Void OBOGCFEKGKL()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_OBOGCFEKGKL_OFFSET))(this);
+		}
 
-	::System::Void Method_2_A5344E5AFEB20260(::StageHarmonyDemodulator* a1, ::System::Single a2, ::Class_1_E3144EBBA3CB68CA* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::StageHarmonyDemodulator*, ::System::Single, ::Class_1_E3144EBBA3CB68CA*))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_METHOD_2_A5344E5AFEB20260_OFFSET))(this, a1, a2, a3);
-	}
-};
+		::System::Void LPDNFAMGEGG(::StageHarmonyDemodulator* a1, ::System::Single a2, ::DHBOGGBEMFF* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::StageHarmonyDemodulator*, ::System::Single, ::DHBOGGBEMFF*))((::PBYTE)hIl2Cpp + STAGEHARMONYLIGHTMODLINKSLOT_LPDNFAMGEGG_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCrowdLoadPriority_TypeDefinitionIndex = 17085;
-
 	enum class LevelCrowdLoadPriority : ::System::Int32
 	{
 		Low = 0,

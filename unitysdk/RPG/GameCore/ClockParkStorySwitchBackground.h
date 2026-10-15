@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClockParkStorySwitchBackground; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_METHOD_3_2F853D45CE797F8C_OFFSET UNITYSDK_OFFSET(0x1CFE9D50)
-#define RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_METHOD_3_E97FA74A6E754839_OFFSET UNITYSDK_OFFSET(0x1CFE9DA0)
-#define RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFE9D90)
+#define RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C59C0)
+#define RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5C59D0)
+#define RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C5980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStorySwitchBackground_TypeDefinitionIndex = 20710;
-
 	class ClockParkStorySwitchBackground : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -20,20 +18,20 @@ namespace RPG::GameCore
 		::System::String* BackgroundFrontPrefabPath; // 0x20
 		::System::Boolean BackgroundFrontVisible; // 0x28
 		::System::Boolean WaitFinish; // 0x29
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2F853D45CE797F8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStorySwitchBackground*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClockParkStorySwitchBackground* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStorySwitchBackground*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_METHOD_3_2F853D45CE797F8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClockParkStorySwitchBackground*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E97FA74A6E754839(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStorySwitchBackground* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClockParkStorySwitchBackground* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStorySwitchBackground*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_METHOD_3_E97FA74A6E754839_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClockParkStorySwitchBackground*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYSWITCHBACKGROUND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

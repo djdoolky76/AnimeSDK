@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace System { class Nullable; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ATTACHPOINT_GET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0xC7890E0)
-#define RPG_CLIENT_ATTACHPOINT_GET_LOCALSCALE_OFFSET UNITYSDK_OFFSET(0xC789190)
-#define RPG_CLIENT_ATTACHPOINT_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC789360)
-#define RPG_CLIENT_ATTACHPOINT_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC789320)
-#define RPG_CLIENT_ATTACHPOINT_SET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0xC789140)
-#define RPG_CLIENT_ATTACHPOINT_SET_LOCALSCALE_OFFSET UNITYSDK_OFFSET(0xC789260)
-#define RPG_CLIENT_ATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7893F0)
+#define RPG_CLIENT_ATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A7600)
+#define RPG_CLIENT_ATTACHPOINT_GET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0xC6A72F0)
+#define RPG_CLIENT_ATTACHPOINT_GET_LOCALSCALE_OFFSET UNITYSDK_OFFSET(0xC6A73A0)
+#define RPG_CLIENT_ATTACHPOINT_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC6A7570)
+#define RPG_CLIENT_ATTACHPOINT_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xC6A7530)
+#define RPG_CLIENT_ATTACHPOINT_SET_ISDYNAMIC_OFFSET UNITYSDK_OFFSET(0xC6A7350)
+#define RPG_CLIENT_ATTACHPOINT_SET_LOCALSCALE_OFFSET UNITYSDK_OFFSET(0xC6A7470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachPoint_TypeDefinitionIndex = 68326;
-
 	class AttachPoint : public ::System::Object
 	{
 	public:
@@ -26,11 +23,10 @@ namespace RPG::Client
 		::UnityEngine::Transform* PointTransform; // 0x18
 		::System::String* BindPath; // 0x20
 		::UnityEngine::Transform* DynamicBindTransform; // 0x28
-		::System::Nullable_1<::UnityEngine::Vector3> PersistentLocalScale; // 0x30
-
+		::System::Nullable* PersistentLocalScale; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINT_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsDynamic()
@@ -62,5 +58,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ATTACHPOINT_ONAFTERDESERIALIZE_OFFSET))(this);
 		}
+
 	};
 }

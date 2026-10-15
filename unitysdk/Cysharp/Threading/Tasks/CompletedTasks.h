@@ -1,46 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Object.h"
 
-#define CYSHARP_THREADING_TASKS_COMPLETEDTASKS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA4F6A0)
+#define CYSHARP_THREADING_TASKS_COMPLETEDTASKS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F117020)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int CompletedTasks_TypeDefinitionIndex = 42777;
-
 	class CompletedTasks : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>* StaticGet_MinusOne()
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_MinusOne()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>*)Il2CppClass::FromTypeDefinitionIndex(CompletedTasks_TypeDefinitionIndex)->GetStaticField(0x1460);
+			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1130);
 		}
-		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>* StaticGet_Zero()
+
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_Zero()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>*)Il2CppClass::FromTypeDefinitionIndex(CompletedTasks_TypeDefinitionIndex)->GetStaticField(0x1470);
+			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1140);
 		}
-		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>* StaticGet_False()
+
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_False()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>*)Il2CppClass::FromTypeDefinitionIndex(CompletedTasks_TypeDefinitionIndex)->GetStaticField(0x1480);
+			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1150);
 		}
-		static ::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::AsyncUnit>* StaticGet_AsyncUnit()
+
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_One()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_1<::Cysharp::Threading::Tasks::AsyncUnit>*)Il2CppClass::FromTypeDefinitionIndex(CompletedTasks_TypeDefinitionIndex)->GetStaticField(0x1490);
+			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1160);
 		}
-		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>* StaticGet_True()
+
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_True()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Boolean>*)Il2CppClass::FromTypeDefinitionIndex(CompletedTasks_TypeDefinitionIndex)->GetStaticField(0x14A0);
+			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1170);
 		}
-		static ::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>* StaticGet_One()
+
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_AsyncUnit()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_1<::System::Int32>*)Il2CppClass::FromTypeDefinitionIndex(CompletedTasks_TypeDefinitionIndex)->GetStaticField(0x14B0);
+			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CompletedTasks")->GetStaticField(0x1180);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_COMPLETEDTASKS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_COMPLETEDTASKS_CCTOR_OFFSET))();
 		}
+
 	};
 }

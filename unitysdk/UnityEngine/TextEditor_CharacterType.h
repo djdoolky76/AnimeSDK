@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextEditor_CharacterType_TypeDefinitionIndex = 5193;
-
 	enum class TextEditor_CharacterType : ::System::Int32
 	{
 		LetterLike = 0,

@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
 
-#define RPG_CLIENT_TRANSFERUTILS_TRANSFERCHECK_OFFSET UNITYSDK_OFFSET(0xE281650)
+#define RPG_CLIENT_TRANSFERUTILS_TRANSFERCHECK_OFFSET UNITYSDK_OFFSET(0xE307430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransferUtils_TypeDefinitionIndex = 68169;
-
 	class TransferUtils : public ::System::Object
 	{
 	public:
@@ -17,5 +14,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::System::Action*, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERUTILS_TRANSFERCHECK_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

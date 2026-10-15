@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameEntityMoveConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_METHOD_2_8F1CE4421F1867F5_OFFSET UNITYSDK_OFFSET(0x1D201B90)
-#define RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_METHOD_2_F21F6AF1249DAA41_OFFSET UNITYSDK_OFFSET(0x1D201E20)
-#define RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D201E10)
+#define RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E1AA0)
+#define RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7E1AB0)
+#define RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E1820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEntityMoveConfig_TypeDefinitionIndex = 18665;
-
 	class LittleGameEntityMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8F1CE4421F1867F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameEntityMoveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameEntityMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameEntityMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_METHOD_2_8F1CE4421F1867F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameEntityMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_F21F6AF1249DAA41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameEntityMoveConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameEntityMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameEntityMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_METHOD_2_F21F6AF1249DAA41_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameEntityMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEENTITYMOVECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

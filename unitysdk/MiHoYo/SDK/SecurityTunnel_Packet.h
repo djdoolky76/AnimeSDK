@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/SecurityTunnel_AuthInfo.h"
 #include "unitysdk/MiHoYo/SDK/SecurityTunnel_PacketHeader.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
-
+#include "unitysdk/MiHoYo/SDK/SecurityTunnel_AuthInfo.h"
+namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 namespace System { class String; }
 namespace System::IO { class MemoryStream; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_GETBYTES_OFFSET UNITYSDK_OFFSET(0xB2AC420)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xB2ABDF0)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_LOGINPACKET_OFFSET UNITYSDK_OFFSET(0xB2ABC20)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_PINGPACKET_OFFSET UNITYSDK_OFFSET(0xB2AB760)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB2AC810)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB2ABF90)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_2_OFFSET UNITYSDK_OFFSET(0xB2ABB60)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_3_OFFSET UNITYSDK_OFFSET(0xB2ABFB0)
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_OFFSET UNITYSDK_OFFSET(0xB2ABE50)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB04C9B0)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_2_OFFSET UNITYSDK_OFFSET(0xB03D2C0)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_3_OFFSET UNITYSDK_OFFSET(0xB041B60)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_OFFSET UNITYSDK_OFFSET(0xB043860)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_GETBYTES_OFFSET UNITYSDK_OFFSET(0xB043750)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xB04C950)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_LOGINPACKET_OFFSET UNITYSDK_OFFSET(0xB040560)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_PINGPACKET_OFFSET UNITYSDK_OFFSET(0xB048450)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKET_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB04CE40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_Packet_TypeDefinitionIndex = 46845;
-
 	class SecurityTunnel_Packet : public ::System::Object
 	{
 	public:
@@ -29,25 +27,24 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::SecurityTunnel_PacketHeader Header; // 0x18
 		::System::TimeSpan CustomCallbackTimeout; // 0x30
 		::System::Boolean isTimeout; // 0x38
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::MiHoYo::SDK::SecurityTunnel_PacketHeader a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_PacketHeader, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_PacketHeader, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::MiHoYo::SDK::SecurityTunnel_PacketHeader a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_PacketHeader, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SecurityTunnel_PacketHeader, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::IO::MemoryStream* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::MemoryStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET__CTOR_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IO::MemoryStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET_CTOR_3_OFFSET))(this, a1);
 		}
 
 		static ::MiHoYo::SDK::SecurityTunnel_Packet* PingPacket()
@@ -74,5 +71,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_PACKET_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

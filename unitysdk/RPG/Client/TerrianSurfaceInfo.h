@@ -4,27 +4,26 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_TERRIANSURFACEINFO_GET_ENABLESEALEVELALTITUDE_OFFSET UNITYSDK_OFFSET(0xE1C7A30)
-#define RPG_CLIENT_TERRIANSURFACEINFO_GET_ISWATERSURFACE_OFFSET UNITYSDK_OFFSET(0xE1C7AC0)
-#define RPG_CLIENT_TERRIANSURFACEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE1C7B20)
+#define RPG_CLIENT_TERRIANSURFACEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE20AAA0)
+#define RPG_CLIENT_TERRIANSURFACEINFO_GET_ENABLESEALEVELALTITUDE_OFFSET UNITYSDK_OFFSET(0xE20A9B0)
+#define RPG_CLIENT_TERRIANSURFACEINFO_GET_ISWATERSURFACE_OFFSET UNITYSDK_OFFSET(0xE20AA40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrianSurfaceInfo_TypeDefinitionIndex = 68837;
-
 	class TerrianSurfaceInfo : public ::System::Object
 	{
 	public:
 		::System::Boolean IsEnable; // 0x10
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::SurfaceType surfaceType; // 0x14
 		::System::Single terrainThreadhold; // 0x18
 		::System::Boolean UseSeaLevelAltitude; // 0x1C
+		::System::Byte _padding1[0x3];
 		::System::Single SeaLevelAltitude; // 0x20
 		::UnityEngine::Color WaterColor; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRIANSURFACEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRIANSURFACEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_EnableSeaLevelAltitude()
@@ -36,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRIANSURFACEINFO_GET_ISWATERSURFACE_OFFSET))(this);
 		}
+
 	};
 }

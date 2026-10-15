@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BAThrowEvent_ThrowState_TypeDefinitionIndex = 37185;
-
 	enum class BAThrowEvent_ThrowState : ::System::Int32
 	{
 		eStop = 0,

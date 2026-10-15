@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SyncAllSubPropState; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SYNCALLSUBPROPSTATE_METHOD_3_9F04B73A42B39FE1_OFFSET UNITYSDK_OFFSET(0x1D598E10)
-#define RPG_GAMECORE_SYNCALLSUBPROPSTATE_METHOD_3_9F0CC275ABDD1CBD_OFFSET UNITYSDK_OFFSET(0x1D598DC0)
-#define RPG_GAMECORE_SYNCALLSUBPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D598E00)
+#define RPG_GAMECORE_SYNCALLSUBPROPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4FAB0)
+#define RPG_GAMECORE_SYNCALLSUBPROPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB4FAC0)
+#define RPG_GAMECORE_SYNCALLSUBPROPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4FA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SyncAllSubPropState_TypeDefinitionIndex = 21886;
-
 	class SyncAllSubPropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCALLSUBPROPSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCALLSUBPROPSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9F0CC275ABDD1CBD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SyncAllSubPropState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SyncAllSubPropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SyncAllSubPropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCALLSUBPROPSTATE_METHOD_3_9F0CC275ABDD1CBD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SyncAllSubPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCALLSUBPROPSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9F04B73A42B39FE1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SyncAllSubPropState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SyncAllSubPropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SyncAllSubPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCALLSUBPROPSTATE_METHOD_3_9F04B73A42B39FE1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SyncAllSubPropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCALLSUBPROPSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

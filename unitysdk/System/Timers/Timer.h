@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/Component.h"
-
 namespace System { class Object; }
 namespace System::ComponentModel { class ISite; }
 namespace System::ComponentModel { class ISynchronizeInvoke; }
@@ -9,49 +8,47 @@ namespace System::Threading { class Timer; }
 namespace System::Threading { class TimerCallback; }
 namespace System::Timers { class ElapsedEventHandler; }
 
-#define SYSTEM_TIMERS_TIMER_ADD_ELAPSED_OFFSET UNITYSDK_OFFSET(0x1EA12D60)
-#define SYSTEM_TIMERS_TIMER_CALCULATEROUNDEDINTERVAL_OFFSET UNITYSDK_OFFSET(0x1EA12960)
-#define SYSTEM_TIMERS_TIMER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1EA13020)
-#define SYSTEM_TIMERS_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EA13050)
-#define SYSTEM_TIMERS_TIMER_GET_SITE_OFFSET UNITYSDK_OFFSET(0x1EA12E20)
-#define SYSTEM_TIMERS_TIMER_GET_SYNCHRONIZINGOBJECT_OFFSET UNITYSDK_OFFSET(0x1EA12E30)
-#define SYSTEM_TIMERS_TIMER_MYTIMERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EA13130)
-#define SYSTEM_TIMERS_TIMER_REMOVE_ELAPSED_OFFSET UNITYSDK_OFFSET(0x1EA12DC0)
-#define SYSTEM_TIMERS_TIMER_SET_AUTORESET_OFFSET UNITYSDK_OFFSET(0x1EA12B00)
-#define SYSTEM_TIMERS_TIMER_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1EA12BC0)
-#define SYSTEM_TIMERS_TIMER_START_OFFSET UNITYSDK_OFFSET(0x1EA13090)
-#define SYSTEM_TIMERS_TIMER_STOP_OFFSET UNITYSDK_OFFSET(0x1EA130A0)
-#define SYSTEM_TIMERS_TIMER_UPDATETIMER_OFFSET UNITYSDK_OFFSET(0x1EA12B70)
-#define SYSTEM_TIMERS_TIMER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA127A0)
-#define SYSTEM_TIMERS_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA126F0)
+#define SYSTEM_TIMERS_TIMER_ADD_ELAPSED_OFFSET UNITYSDK_OFFSET(0x1F0DA5D0)
+#define SYSTEM_TIMERS_TIMER_CALCULATEROUNDEDINTERVAL_OFFSET UNITYSDK_OFFSET(0x1F0DA1D0)
+#define SYSTEM_TIMERS_TIMER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1F0DA890)
+#define SYSTEM_TIMERS_TIMER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0DA010)
+#define SYSTEM_TIMERS_TIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D9F70)
+#define SYSTEM_TIMERS_TIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F0DA8C0)
+#define SYSTEM_TIMERS_TIMER_GET_SITE_OFFSET UNITYSDK_OFFSET(0x1F0DA690)
+#define SYSTEM_TIMERS_TIMER_GET_SYNCHRONIZINGOBJECT_OFFSET UNITYSDK_OFFSET(0x1F0DA6A0)
+#define SYSTEM_TIMERS_TIMER_MYTIMERCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F0DA9A0)
+#define SYSTEM_TIMERS_TIMER_REMOVE_ELAPSED_OFFSET UNITYSDK_OFFSET(0x1F0DA630)
+#define SYSTEM_TIMERS_TIMER_SET_AUTORESET_OFFSET UNITYSDK_OFFSET(0x1F0DA370)
+#define SYSTEM_TIMERS_TIMER_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1F0DA430)
+#define SYSTEM_TIMERS_TIMER_START_OFFSET UNITYSDK_OFFSET(0x1F0DA900)
+#define SYSTEM_TIMERS_TIMER_STOP_OFFSET UNITYSDK_OFFSET(0x1F0DA910)
+#define SYSTEM_TIMERS_TIMER_UPDATETIMER_OFFSET UNITYSDK_OFFSET(0x1F0DA3E0)
 
 namespace System::Timers
 {
-	inline static constexpr unsigned int Timer_TypeDefinitionIndex = 2494;
-
 	class Timer : public ::System::ComponentModel::Component
 	{
 	public:
 		::System::Object* cookie; // 0x28
 		::System::Timers::ElapsedEventHandler* onIntervalElapsed; // 0x30
-		::System::ComponentModel::ISynchronizeInvoke* synchronizingObject; // 0x38
-		::System::Threading::Timer* timer; // 0x40
+		::System::Threading::Timer* timer; // 0x38
+		::System::ComponentModel::ISynchronizeInvoke* synchronizingObject; // 0x40
 		::System::Threading::TimerCallback* callback; // 0x48
-		::System::Boolean initializing; // 0x50
-		::System::Boolean autoReset; // 0x51
-		::System::Boolean disposed; // 0x52
-		::System::Boolean delayedEnable; // 0x53
-		::System::Boolean enabled; // 0x54
+		::System::Boolean autoReset; // 0x50
+		::System::Boolean enabled; // 0x51
+		::System::Boolean delayedEnable; // 0x52
+		::System::Boolean initializing; // 0x53
+		::System::Boolean disposed; // 0x54
+		::System::Byte _padding0[0x3];
 		::System::Double interval; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMERS_TIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMERS_TIMER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Double a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_TIMERS_TIMER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_TIMERS_TIMER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void set_AutoReset(::System::Boolean a1)
@@ -118,5 +115,6 @@ namespace System::Timers
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TIMERS_TIMER_MYTIMERCALLBACK_OFFSET))(this, a1);
 		}
+
 	};
 }

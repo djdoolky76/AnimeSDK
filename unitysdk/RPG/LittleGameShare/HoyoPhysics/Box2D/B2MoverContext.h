@@ -3,15 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2QueryFilter.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeProxy.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Transform.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MoverContext_TypeDefinitionIndex = 36138;
-
 	struct alignas(8) B2MoverContext
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2World* world; // 0x10

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class DiceCombatDiceRarityIconDisplayer; }
 namespace RPG::Client { class LocalizedText; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -11,43 +11,41 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_CREATE_OFFSET UNITYSDK_OFFSET(0xCD66920)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xCD67A10)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xCD664C0)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_SETACTIVE_OFFSET UNITYSDK_OFFSET(0xCD666F0)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_SETFOCUSSTATE_OFFSET UNITYSDK_OFFSET(0xCD65C20)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xCD66770)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__ASYNCLOADSPRITETO_OFFSET UNITYSDK_OFFSET(0xCD678D0)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__BIND_OFFSET UNITYSDK_OFFSET(0xCD676C0)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD67A80)
-#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xCD676B0)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCB8F10)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_CREATE_OFFSET UNITYSDK_OFFSET(0xCCB7D50)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0xCCB8AE0)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xCCB8EA0)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xCCB78F0)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_SETACTIVE_OFFSET UNITYSDK_OFFSET(0xCCB7B20)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_SETFOCUSSTATE_OFFSET UNITYSDK_OFFSET(0xCCB7050)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xCCB7BA0)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__ASYNCLOADSPRITETO_OFFSET UNITYSDK_OFFSET(0xCCB8D60)
+#define RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__BIND_OFFSET UNITYSDK_OFFSET(0xCCB8AF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatDiceRarityIconDisplayer_TypeDefinitionIndex = 63617;
-
 	class DiceCombatDiceRarityIconDisplayer : public ::System::Object
 	{
 	public:
+		::UnityEngine::UI::Image* _ImgBg; // 0x10
+		::UnityEngine::Transform* _Root; // 0x18
+		::UnityEngine::UI::SmoothMask* _Mask; // 0x20
+		::UnityEngine::Material* _FocusMat; // 0x28
+		::RPG::Client::LocalizedText* _TxtNum; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Object*>* _LoadedResources; // 0x38
 		static ::System::String** StaticGet__FOCUS_MAT_PATH()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatDiceRarityIconDisplayer_TypeDefinitionIndex)->GetStaticField(0x61F30);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "DiceCombatDiceRarityIconDisplayer")->GetStaticField(0x2DE80);
 		}
-		::RPG::Client::LocalizedText* _TxtNum; // 0x10
-		::UnityEngine::Transform* _Root; // 0x18
-		::UnityEngine::Material* _FocusMat; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Object*>* _LoadedResources; // 0x28
-		::UnityEngine::UI::Image* _ImgBg; // 0x30
-		::UnityEngine::UI::SmoothMask* _Mask; // 0x38
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::Client::DiceCombatDiceRarityIconDisplayer* Create(::UnityEngine::Transform* a1)
@@ -89,5 +87,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBATDICERARITYICONDISPLAYER__ASYNCLOADSPRITETO_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

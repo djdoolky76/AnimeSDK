@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IChimeraDuelSkillData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHIMERADUELSKILLINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCBE4E10)
-#define RPG_CLIENT_CHIMERADUELSKILLINFO_FORCEPRELOADJSON_OFFSET UNITYSDK_OFFSET(0xCBE5040)
-#define RPG_CLIENT_CHIMERADUELSKILLINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCBE40F0)
-#define RPG_CLIENT_CHIMERADUELSKILLINFO_TRYGETSKILLDATA_OFFSET UNITYSDK_OFFSET(0xCBE5B70)
-#define RPG_CLIENT_CHIMERADUELSKILLINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCBE40E0)
+#define RPG_CLIENT_CHIMERADUELSKILLINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCB32CA0)
+#define RPG_CLIENT_CHIMERADUELSKILLINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB339E0)
+#define RPG_CLIENT_CHIMERADUELSKILLINFO_FORCEPRELOADJSON_OFFSET UNITYSDK_OFFSET(0xCB33C10)
+#define RPG_CLIENT_CHIMERADUELSKILLINFO_INIT_OFFSET UNITYSDK_OFFSET(0xCB32CB0)
+#define RPG_CLIENT_CHIMERADUELSKILLINFO_TRYGETSKILLDATA_OFFSET UNITYSDK_OFFSET(0xCB34740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelSkillInfo_TypeDefinitionIndex = 63451;
-
 	class ChimeraDuelSkillInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::IChimeraDuelSkillData*>* _DataDict; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELSKILLINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELSKILLINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -44,5 +40,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELSKILLINFO_FORCEPRELOADJSON_OFFSET))(this);
 		}
+
 	};
 }

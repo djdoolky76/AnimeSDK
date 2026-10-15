@@ -1,68 +1,67 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class DialogSnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_DIALOGSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D9338E0)
-#define PROTO_DIALOGSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1D9334E0)
-#define PROTO_DIALOGSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D9336A0)
-#define PROTO_DIALOGSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D933590)
-#define PROTO_DIALOGSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D933770)
-#define PROTO_DIALOGSNAPSHOT_GET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1D933570)
-#define PROTO_DIALOGSNAPSHOT_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1D933550)
-#define PROTO_DIALOGSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D933430)
-#define PROTO_DIALOGSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D933A30)
-#define PROTO_DIALOGSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D9339F0)
-#define PROTO_DIALOGSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D933490)
-#define PROTO_DIALOGSNAPSHOT_SET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1D933580)
-#define PROTO_DIALOGSNAPSHOT_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1D933560)
-#define PROTO_DIALOGSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D9337A0)
-#define PROTO_DIALOGSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D933800)
-#define PROTO_DIALOGSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D933BB0)
-#define PROTO_DIALOGSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D9334B0)
-#define PROTO_DIALOGSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9334A0)
+#define PROTO_DIALOGSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFEC680)
+#define PROTO_DIALOGSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFEC950)
+#define PROTO_DIALOGSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFEC280)
+#define PROTO_DIALOGSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFEC250)
+#define PROTO_DIALOGSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFEC240)
+#define PROTO_DIALOGSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFEC440)
+#define PROTO_DIALOGSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFEC330)
+#define PROTO_DIALOGSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFEC510)
+#define PROTO_DIALOGSNAPSHOT_GET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1DFEC310)
+#define PROTO_DIALOGSNAPSHOT_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFEC2F0)
+#define PROTO_DIALOGSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFEC1D0)
+#define PROTO_DIALOGSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFEC7D0)
+#define PROTO_DIALOGSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFEC790)
+#define PROTO_DIALOGSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFEC230)
+#define PROTO_DIALOGSNAPSHOT_SET_ENTITYID_OFFSET UNITYSDK_OFFSET(0x1DFEC320)
+#define PROTO_DIALOGSNAPSHOT_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFEC300)
+#define PROTO_DIALOGSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFEC540)
+#define PROTO_DIALOGSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFEC5A0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int DialogSnapshot_TypeDefinitionIndex = 25507;
-
 	class DialogSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::DialogSnapshot*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::DialogSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(DialogSnapshot_TypeDefinitionIndex)->GetStaticField(0x57D90);
-		}
-		// static const ::System::Int32 GroupIdFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 EntityIdFieldNumber = 0x2; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::System::UInt32 groupId_; // 0x18
 		::System::UInt32 entityId_; // 0x1C
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "DialogSnapshot")->GetStaticField(0x43A50);
+		}
 
+		// static const ::System::Object GroupIdFieldNumber; // 0x0
+		// static const ::System::Object EntityIdFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::DialogSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::DialogSnapshot*))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::DialogSnapshot*))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Proto::DialogSnapshot*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Proto::DialogSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
@@ -134,5 +133,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_DIALOGSNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

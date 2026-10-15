@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HoudiniEngineUnity/HAPI_PartInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_PartType.h"
-#include "unitysdk/HoudiniEngineUnity/HAPI_Transform.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_PartData_PartOutputType.h"
-#include "unitysdk/HoudiniEngineUnity/TransformData.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/HoudiniEngineUnity/HAPI_PartInfo.h"
+#include "unitysdk/HoudiniEngineUnity/HAPI_Transform.h"
+#include "unitysdk/HoudiniEngineUnity/TransformData.h"
 namespace HoudiniEngineUnity { class HEU_AttributesStore; }
 namespace HoudiniEngineUnity { class HEU_Curve; }
 namespace HoudiniEngineUnity { class HEU_GeneratedOutput; }
@@ -16,7 +15,9 @@ namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace HoudiniEngineUnity { class HEU_MaterialData; }
 namespace HoudiniEngineUnity { class HEU_ObjectInstanceInfo; }
 namespace HoudiniEngineUnity { class HEU_ObjectNode; }
+namespace HoudiniEngineUnity { class HEU_PartData; }
 namespace HoudiniEngineUnity { class HEU_SessionBase; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -28,122 +29,126 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class TerrainData; }
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_APPENDBAKEDCLONENAME_OFFSET UNITYSDK_OFFSET(0x1B408370)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_APPLYHAPITRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B466CE0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B408200)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B46BB20)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTONEWGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4083B0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CALCULATECOLLIDERSTATE_OFFSET UNITYSDK_OFFSET(0x1B4696C0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CALCULATEVISIBILITY_OFFSET UNITYSDK_OFFSET(0x1B466290)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARGENERATEDDATA_OFFSET UNITYSDK_OFFSET(0x1B4672C0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARGENERATEDMESHOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B4672E0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARGENERATEDVOLUMEOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B4673D0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARINSTANCES_OFFSET UNITYSDK_OFFSET(0x1B44E650)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARINVALIDOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B44E7A0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEAROBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B465E80)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_COMPOSEUNITYINSTANCESPLITHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1B468350)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_COPYCHILDGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B46B460)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_COPYGAMEOBJECTCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1B469A10)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CREATENEWINSTANCEFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4688C0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_CREATEOBJECTINSTANCEINFO_OFFSET UNITYSDK_OFFSET(0x1B4694D0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYALLDATA_OFFSET UNITYSDK_OFFSET(0x1B465D40)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYATTRIBUTESSTORE_OFFSET UNITYSDK_OFFSET(0x1B465FA0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYPARTS_OFFSET UNITYSDK_OFFSET(0x1B46CB90)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYPART_OFFSET UNITYSDK_OFFSET(0x1B44C060)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEATTRIBUTESSTORE_OFFSET UNITYSDK_OFFSET(0x1B469670)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMOBJECTIDS_OFFSET UNITYSDK_OFFSET(0x1B44C250)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMOBJECTID_OFFSET UNITYSDK_OFFSET(0x1B44DEB0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1B468F20)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMUNITYASSETPATHATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B44CC70)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x1B44BC90)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEPARTINSTANCES_OFFSET UNITYSDK_OFFSET(0x1B467410)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETCLONABLEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B467130)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETCLONABLEPARTS_OFFSET UNITYSDK_OFFSET(0x1B4671E0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETCURVE_OFFSET UNITYSDK_OFFSET(0x1B4665F0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1B466DF0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETHDAPARTWITHGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B466220)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B46CB20)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOBJECTINSTANCEINFOWITHOBJECTID_OFFSET UNITYSDK_OFFSET(0x1B466810)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOBJECTINSTANCEINFOWITHOBJECTPATH_OFFSET UNITYSDK_OFFSET(0x1B466650)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOUTPUTGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B4660C0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B466170)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETPARTPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B465AB0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETSESSION_OFFSET UNITYSDK_OFFSET(0x1B4659C0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETVOLUMELAYERNAME_OFFSET UNITYSDK_OFFSET(0x1B465D30)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_CURVE_OFFSET UNITYSDK_OFFSET(0x1B4658A0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_GENERATEDOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B4658C0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_GEOID_OFFSET UNITYSDK_OFFSET(0x1B465860)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_MESHVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1B4658B0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_OBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B465890)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_OUTPUTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B408340)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARENTASSET_OFFSET UNITYSDK_OFFSET(0x1B4081D0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARENTGEONODE_OFFSET UNITYSDK_OFFSET(0x1B465880)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARTID_OFFSET UNITYSDK_OFFSET(0x1B465840)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARTNAME_OFFSET UNITYSDK_OFFSET(0x1B465850)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARTTYPE_OFFSET UNITYSDK_OFFSET(0x1B465870)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_HAVEINSTANCESBEENGENERATED_OFFSET UNITYSDK_OFFSET(0x1B465B00)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B466AC0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISATTRIBINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B465A70)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B46CCA0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISINSTANCERANYTYPE_OFFSET UNITYSDK_OFFSET(0x1B465A80)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISOBJECTINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B465AC0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTCURVE_OFFSET UNITYSDK_OFFSET(0x1B465AD0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTEDITABLE_OFFSET UNITYSDK_OFFSET(0x1B465AF0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTINSTANCED_OFFSET UNITYSDK_OFFSET(0x1B465AA0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B465A60)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTMESH_OFFSET UNITYSDK_OFFSET(0x1B465AE0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTVOLUME_OFFSET UNITYSDK_OFFSET(0x1B44C240)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISUSINGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B466090)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_POPULATEOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B44EA10)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_PROCESSCURVEPART_OFFSET UNITYSDK_OFFSET(0x1B46C740)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_RECOOK_OFFSET UNITYSDK_OFFSET(0x1B465A50)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETCOLLIDERSTATE_OFFSET UNITYSDK_OFFSET(0x1B466610)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETGAMEOBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1B465B10)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B465CF0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B46C960)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETOBJECTINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B4672B0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETTERRAINDATA_OFFSET UNITYSDK_OFFSET(0x1B4668B0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETTERRAINOFFSETPOSITION_OFFSET UNITYSDK_OFFSET(0x1B4668A0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETUPATTRIBUTEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1B44C1B0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETVISIBLITY_OFFSET UNITYSDK_OFFSET(0x1B4662C0)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETVOLUMELAYERNAME_OFFSET UNITYSDK_OFFSET(0x1B465D20)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_SYNCATTRIBUTESSTORE_OFFSET UNITYSDK_OFFSET(0x1B46C850)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B46CB30)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4658D0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_APPENDBAKEDCLONENAME_OFFSET UNITYSDK_OFFSET(0x1B909BF0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_APPLYHAPITRANSFORM_OFFSET UNITYSDK_OFFSET(0x1B968F60)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B909A80)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B96DDF0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTONEWGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B909C30)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CALCULATECOLLIDERSTATE_OFFSET UNITYSDK_OFFSET(0x1B96B970)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CALCULATEVISIBILITY_OFFSET UNITYSDK_OFFSET(0x1B968570)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARGENERATEDDATA_OFFSET UNITYSDK_OFFSET(0x1B969540)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARGENERATEDMESHOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B969560)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARGENERATEDVOLUMEOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B969650)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARINSTANCES_OFFSET UNITYSDK_OFFSET(0x1B94F790)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEARINVALIDOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B94F8E0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CLEAROBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B968160)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_COMPOSEUNITYINSTANCESPLITHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1B96A600)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_COPYCHILDGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B96D730)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_COPYGAMEOBJECTCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1B96BCC0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CREATENEWINSTANCEFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1B96AB70)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CREATEOBJECTINSTANCEINFO_OFFSET UNITYSDK_OFFSET(0x1B96B780)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B967BE0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYALLDATA_OFFSET UNITYSDK_OFFSET(0x1B968020)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYATTRIBUTESSTORE_OFFSET UNITYSDK_OFFSET(0x1B968280)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYPARTS_OFFSET UNITYSDK_OFFSET(0x1B96EEA0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYPART_OFFSET UNITYSDK_OFFSET(0x1B94D050)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEATTRIBUTESSTORE_OFFSET UNITYSDK_OFFSET(0x1B96B920)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMOBJECTIDS_OFFSET UNITYSDK_OFFSET(0x1B94D240)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMOBJECTID_OFFSET UNITYSDK_OFFSET(0x1B94EFC0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMOBJECT_OFFSET UNITYSDK_OFFSET(0x1B96B1D0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMUNITYASSETPATHATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1B94DC90)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEMESH_OFFSET UNITYSDK_OFFSET(0x1B94CC90)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEPARTINSTANCES_OFFSET UNITYSDK_OFFSET(0x1B969690)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETCLONABLEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B9693B0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETCLONABLEPARTS_OFFSET UNITYSDK_OFFSET(0x1B969460)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETCURVE_OFFSET UNITYSDK_OFFSET(0x1B9688D0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETDEBUGINFO_OFFSET UNITYSDK_OFFSET(0x1B969070)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETHDAPARTWITHGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B968500)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B96EE30)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOBJECTINSTANCEINFOWITHOBJECTID_OFFSET UNITYSDK_OFFSET(0x1B968A90)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOBJECTINSTANCEINFOWITHOBJECTPATH_OFFSET UNITYSDK_OFFSET(0x1B968930)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOUTPUTGAMEOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B9683A0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B968450)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETPARTPOINTCOUNT_OFFSET UNITYSDK_OFFSET(0x1B967DC0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETSESSION_OFFSET UNITYSDK_OFFSET(0x1B967CD0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GETVOLUMELAYERNAME_OFFSET UNITYSDK_OFFSET(0x1B968010)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_CURVE_OFFSET UNITYSDK_OFFSET(0x1B967BB0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_GENERATEDOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B967BD0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_GEOID_OFFSET UNITYSDK_OFFSET(0x1B967B70)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_MESHVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1B967BC0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_OBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B967BA0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_OUTPUTGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B909BC0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARENTASSET_OFFSET UNITYSDK_OFFSET(0x1B909A50)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARENTGEONODE_OFFSET UNITYSDK_OFFSET(0x1B967B90)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARTID_OFFSET UNITYSDK_OFFSET(0x1B967B50)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARTNAME_OFFSET UNITYSDK_OFFSET(0x1B967B60)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_GET_PARTTYPE_OFFSET UNITYSDK_OFFSET(0x1B967B80)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_HAVEINSTANCESBEENGENERATED_OFFSET UNITYSDK_OFFSET(0x1B967E10)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B968D40)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISATTRIBINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B967D80)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B96EFB0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISINSTANCERANYTYPE_OFFSET UNITYSDK_OFFSET(0x1B967D90)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISOBJECTINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B967DD0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTCURVE_OFFSET UNITYSDK_OFFSET(0x1B967DE0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTEDITABLE_OFFSET UNITYSDK_OFFSET(0x1B967E00)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTINSTANCED_OFFSET UNITYSDK_OFFSET(0x1B967DB0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B967D70)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTMESH_OFFSET UNITYSDK_OFFSET(0x1B967DF0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISPARTVOLUME_OFFSET UNITYSDK_OFFSET(0x1B94D230)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_ISUSINGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B968370)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_POPULATEOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B94FB50)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_PROCESSCURVEPART_OFFSET UNITYSDK_OFFSET(0x1B96EA50)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_RECOOK_OFFSET UNITYSDK_OFFSET(0x1B967D60)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETCOLLIDERSTATE_OFFSET UNITYSDK_OFFSET(0x1B9688F0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETGAMEOBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1B967E20)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x1B967FD0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETOBJECTINSTANCEINFOS_OFFSET UNITYSDK_OFFSET(0x1B96EC70)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETOBJECTINSTANCER_OFFSET UNITYSDK_OFFSET(0x1B969530)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETTERRAINDATA_OFFSET UNITYSDK_OFFSET(0x1B968B30)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETTERRAINOFFSETPOSITION_OFFSET UNITYSDK_OFFSET(0x1B968B20)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETUPATTRIBUTEGEOMETRY_OFFSET UNITYSDK_OFFSET(0x1B94D1A0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETVISIBLITY_OFFSET UNITYSDK_OFFSET(0x1B9685A0)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SETVOLUMELAYERNAME_OFFSET UNITYSDK_OFFSET(0x1B968000)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_SYNCATTRIBUTESSTORE_OFFSET UNITYSDK_OFFSET(0x1B96EB60)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B96EE40)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PartData_TypeDefinitionIndex = 39119;
-
 	class HEU_PartData : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Int32 _partID; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* _partName; // 0x20
 		::System::Int32 _objectNodeID; // 0x28
 		::System::Int32 _geoID; // 0x2C
 		::HoudiniEngineUnity::HAPI_PartType _partType; // 0x30
+		::System::Byte _padding1[0x4];
 		::HoudiniEngineUnity::HEU_GeoNode* _geoNode; // 0x38
 		::System::Boolean _isAttribInstancer; // 0x40
 		::System::Boolean _isPartInstanced; // 0x41
+		::System::Byte _padding2[0x2];
 		::System::Int32 _partPointCount; // 0x44
 		::System::Boolean _isObjectInstancer; // 0x48
 		::System::Boolean _objectInstancesGenerated; // 0x49
+		::System::Byte _padding3[0x6];
 		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* _objectInstanceInfos; // 0x50
 		::UnityEngine::Vector3 _terrainOffsetPosition; // 0x58
+		::System::Byte _padding4[0x4];
 		::UnityEngine::Object* _assetDBTerrainData; // 0x68
 		::System::Boolean _isPartEditable; // 0x70
+		::System::Byte _padding5[0x3];
 		::HoudiniEngineUnity::HEU_PartData_PartOutputType _partOutputType; // 0x74
 		::HoudiniEngineUnity::HEU_Curve* _curve; // 0x78
 		::HoudiniEngineUnity::HEU_AttributesStore* _attributesStore; // 0x80
 		::System::Boolean _haveInstancesBeenGenerated; // 0x88
+		::System::Byte _padding6[0x3];
 		::System::Int32 _meshVertexCount; // 0x8C
 		::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput; // 0x90
 		::System::String* _volumeLayerName; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_CTOR_OFFSET))(this);
 		}
 
 		::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset()
@@ -356,14 +361,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::TerrainData*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_SETTERRAINDATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Initialize(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::HoudiniEngineUnity::HEU_GeoNode* a5, ::HoudiniEngineUnity::HAPI_PartInfo& a6, ::HoudiniEngineUnity::HEU_PartData_PartOutputType a7, ::System::Boolean a8, ::System::Boolean a9, ::System::Boolean a10)
+		::System::Void Initialize(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::HoudiniEngineUnity::HEU_GeoNode* a5, ::HoudiniEngineUnity::HAPI_PartInfo a6, ::HoudiniEngineUnity::HEU_PartData_PartOutputType a7, ::System::Boolean a8, ::System::Boolean a9, ::System::Boolean a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_GeoNode*, ::HoudiniEngineUnity::HAPI_PartInfo&, ::HoudiniEngineUnity::HEU_PartData_PartOutputType, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_INITIALIZE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::System::Int32, ::HoudiniEngineUnity::HEU_GeoNode*, ::HoudiniEngineUnity::HAPI_PartInfo, ::HoudiniEngineUnity::HEU_PartData_PartOutputType, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_INITIALIZE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Void ApplyHAPITransform(::HoudiniEngineUnity::HAPI_Transform& a1)
+		::System::Void ApplyHAPITransform(::HoudiniEngineUnity::HAPI_Transform a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HAPI_Transform&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_APPLYHAPITRANSFORM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HAPI_Transform))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_APPLYHAPITRANSFORM_OFFSET))(this, a1);
 		}
 
 		::System::Void GetDebugInfo(::System::Text::StringBuilder* a1)
@@ -436,9 +441,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::String*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_GENERATEINSTANCESFROMUNITYASSETPATHATTRIBUTE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void CreateNewInstanceFromObject(::UnityEngine::GameObject* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::HoudiniEngineUnity::HAPI_Transform& a4, ::System::Int32 a5, ::System::String* a6, ::UnityEngine::Vector3 a7, ::UnityEngine::Vector3 a8, ::Il2CppArray<::System::String*>* a9, ::Il2CppArray<::System::String*>* a10, ::UnityEngine::GameObject* a11, ::System::Boolean a12)
+		::System::Void CreateNewInstanceFromObject(::UnityEngine::GameObject* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::HoudiniEngineUnity::HAPI_Transform a4, ::System::Int32 a5, ::System::String* a6, ::UnityEngine::Vector3 a7, ::UnityEngine::Vector3 a8, ::Il2CppArray<::System::String*>* a9, ::Il2CppArray<::System::String*>* a10, ::UnityEngine::GameObject* a11, ::System::Boolean a12)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Int32, ::UnityEngine::Transform*, ::HoudiniEngineUnity::HAPI_Transform&, ::System::Int32, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_CREATENEWINSTANCEFROMOBJECT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Int32, ::UnityEngine::Transform*, ::HoudiniEngineUnity::HAPI_Transform, ::System::Int32, ::System::String*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::Il2CppArray<::System::String*>*, ::Il2CppArray<::System::String*>*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_CREATENEWINSTANCEFROMOBJECT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
 		::System::Void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* a1)
@@ -451,29 +456,29 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_CALCULATECOLLIDERSTATE_OFFSET))(this);
 		}
 
-		static ::System::Void CopyGameObjectComponents(::HoudiniEngineUnity::HEU_PartData* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a5, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a6, ::System::Boolean a7, ::System::String*& a8, ::UnityEngine::Object*& a9, ::System::String* a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* a13)
+		static ::System::Void CopyGameObjectComponents(::HoudiniEngineUnity::HEU_PartData* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a5, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a6, ::System::Boolean a7, ::System::String* a8, ::UnityEngine::Object* a9, ::System::String* a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* a13)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::System::Boolean, ::System::String*&, ::UnityEngine::Object*&, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_COPYGAMEOBJECTCOMPONENTS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::System::Boolean, ::System::String*, ::UnityEngine::Object*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_COPYGAMEOBJECTCOMPONENTS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		static ::System::Void CopyChildGameObjects(::HoudiniEngineUnity::HEU_PartData* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a5, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a6, ::System::Boolean a7, ::System::String*& a8, ::UnityEngine::Object*& a9, ::System::String* a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Boolean a13)
+		static ::System::Void CopyChildGameObjects(::HoudiniEngineUnity::HEU_PartData* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a5, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a6, ::System::Boolean a7, ::System::String* a8, ::UnityEngine::Object* a9, ::System::String* a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Boolean a13)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::System::Boolean, ::System::String*&, ::UnityEngine::Object*&, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_COPYCHILDGAMEOBJECTS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::System::Boolean, ::System::String*, ::UnityEngine::Object*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_COPYCHILDGAMEOBJECTS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13);
 		}
 
-		::UnityEngine::GameObject* BakePartToNewGameObject(::UnityEngine::Transform* a1, ::System::Boolean a2, ::System::String*& a3, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a4, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a5, ::UnityEngine::Object*& a6, ::System::String* a7, ::System::Boolean a8)
+		::UnityEngine::GameObject* BakePartToNewGameObject(::UnityEngine::Transform* a1, ::System::Boolean a2, ::System::String* a3, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a4, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a5, ::UnityEngine::Object* a6, ::System::String* a7, ::System::Boolean a8)
 		{
-			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean, ::System::String*&, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::UnityEngine::Object*&, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTONEWGAMEOBJECT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::Transform*, ::System::Boolean, ::System::String*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::UnityEngine::Object*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTONEWGAMEOBJECT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void BakePartToGameObject(::HoudiniEngineUnity::HEU_PartData* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::String*& a9, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a10, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a11, ::UnityEngine::Object*& a12, ::System::String* a13, ::System::Boolean a14, ::System::Boolean a15)
+		static ::System::Void BakePartToGameObject(::HoudiniEngineUnity::HEU_PartData* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::GameObject* a3, ::System::String* a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Boolean a8, ::System::String* a9, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a10, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a11, ::UnityEngine::Object* a12, ::System::String* a13, ::System::Boolean a14, ::System::Boolean a15)
 		{
-			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*&, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::UnityEngine::Object*&, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
+			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_PartData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::System::String*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::UnityEngine::Object*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
 		}
 
-		::System::Void BakePartToGameObject_1(::UnityEngine::GameObject* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::String*& a5, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a6, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a7, ::UnityEngine::Object*& a8, ::System::String* a9, ::System::Boolean a10, ::System::Boolean a11)
+		::System::Void BakePartToGameObject_1(::UnityEngine::GameObject* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::String* a5, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>* a6, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>* a7, ::UnityEngine::Object* a8, ::System::String* a9, ::System::Boolean a10, ::System::Boolean a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*&, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::UnityEngine::Object*&, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::String*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Mesh*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::UnityEngine::Material*>*, ::UnityEngine::Object*, ::System::String*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_BAKEPARTTOGAMEOBJECT_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Boolean GenerateMesh(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
@@ -486,9 +491,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_PROCESSCURVEPART_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SyncAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HAPI_PartInfo& a3)
+		::System::Void SyncAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::HoudiniEngineUnity::HAPI_PartInfo a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_PartInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_SYNCATTRIBUTESSTORE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::HoudiniEngineUnity::HAPI_PartInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_SYNCATTRIBUTESSTORE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void SetupAttributeGeometry(::HoudiniEngineUnity::HEU_SessionBase* a1)
@@ -541,14 +546,15 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::HoudiniEngineUnity::HEU_PartData*, ::System::Boolean))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_DESTROYPART_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ComposeUnityInstanceSplitHierarchy(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Transform* a4, ::System::Int32 a5, ::Il2CppArray<::UnityEngine::Transform*>*& a6)
+		static ::System::Boolean ComposeUnityInstanceSplitHierarchy(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::Transform* a4, ::System::Int32 a5, ::System::Object* a6)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::Transform*, ::System::Int32, ::Il2CppArray<::UnityEngine::Transform*>*&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_COMPOSEUNITYINSTANCESPLITHIERARCHY_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::System::Int32, ::UnityEngine::Transform*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_COMPOSEUNITYINSTANCESPLITHIERARCHY_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_PartData* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_PartData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PARTDATA_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

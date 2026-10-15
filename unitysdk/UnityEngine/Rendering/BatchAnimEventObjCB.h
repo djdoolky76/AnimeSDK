@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_DOBATCHANIMATIONEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1ED52CF0)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_GET_OFFSET UNITYSDK_OFFSET(0x3BBD580)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1ED52C20)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INIT_OFFSET UNITYSDK_OFFSET(0x1ED52C30)
-#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_UNINIT_OFFSET UNITYSDK_OFFSET(0x1ED52C90)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_DOBATCHANIMATIONEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F41ADA0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_GET_OFFSET UNITYSDK_OFFSET(0x3C73180)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F41ACF0)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_INIT_OFFSET UNITYSDK_OFFSET(0x1F41AD00)
+#define UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_UNINIT_OFFSET UNITYSDK_OFFSET(0x1F41AD60)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchAnimEventObjCB_TypeDefinitionIndex = 4784;
-
-	struct alignas(8) BatchAnimEventObjCB
+	struct alignas(4) BatchAnimEventObjCB
 	{
 		::System::UInt32 eventKey; // 0x10
 		::System::Int16 animGroupIndex; // 0x14
 		::System::Int16 animClipSlot; // 0x16
 		::System::Int32 instanceId; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::IntPtr instancePtr; // 0x20
-
 		::UnityEngine::Rendering::BatchAnimationInstance* Get()
 		{
 			return ((::UnityEngine::Rendering::BatchAnimationInstance*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_GET_OFFSET))(this);
@@ -47,5 +43,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHANIMEVENTOBJCB_DOBATCHANIMATIONEVENT_INTERNAL_OFFSET))(a1, a2);
 		}
+
 	};
 }

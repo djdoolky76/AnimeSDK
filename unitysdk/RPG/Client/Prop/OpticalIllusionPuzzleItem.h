@@ -3,11 +3,10 @@
 #include "unitysdk/RPG/Client/Prop/OpticalIllusionAxis.h"
 #include "unitysdk/RPG/Client/Prop/OpticalIllusionDire.h"
 #include "unitysdk/RPG/Client/Prop/OpticalIllusionOp.h"
-#include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard; }
 namespace RPG::Client::Prop { class OpticalIllusionPuzzleCube; }
@@ -17,95 +16,42 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0xDCC5390)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_METHOD_5_FC9926C19FB6003D_OFFSET UNITYSDK_OFFSET(0xDCC5C20)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_ONITEMMOVE_OFFSET UNITYSDK_OFFSET(0xDCBAFB0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_ONITEMROTATE_OFFSET UNITYSDK_OFFSET(0xDCBE1D0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYITEMSELECTFADEIN_OFFSET UNITYSDK_OFFSET(0xDCB7B70)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYITEMSELECTFADEOUT_OFFSET UNITYSDK_OFFSET(0xDCB84B0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYITEMSELECTSTART_OFFSET UNITYSDK_OFFSET(0xDCB62B0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYMIRRORFADEIN_OFFSET UNITYSDK_OFFSET(0xDCB7880)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYMIRRORFADEOUT_OFFSET UNITYSDK_OFFSET(0xDCB8370)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYROTATESHAKEANIM_OFFSET UNITYSDK_OFFSET(0xDCBE080)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYSHAKEANIM_OFFSET UNITYSDK_OFFSET(0xDCBAC50)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_RECOVERMATERIALPARAMS_OFFSET UNITYSDK_OFFSET(0xDCC5A60)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_REMOVEMATEFFECT_OFFSET UNITYSDK_OFFSET(0xDCB8AC0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_REMOVESELECTEFFECT_OFFSET UNITYSDK_OFFSET(0xDCB88E0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_RESETITEM_OFFSET UNITYSDK_OFFSET(0xDCB3440)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SETBOARD_OFFSET UNITYSDK_OFFSET(0xDCB32C0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SETMIRRORBACKMATERIALPARAMS_OFFSET UNITYSDK_OFFSET(0xDCC58B0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SIMITEMMOVE_OFFSET UNITYSDK_OFFSET(0xDCC5D70)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SIMITEMROTATE_OFFSET UNITYSDK_OFFSET(0xDCC5DE0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCC5E90)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDCC5E40)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_0_OFFSET UNITYSDK_OFFSET(0xDCC64C0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_1_OFFSET UNITYSDK_OFFSET(0xDCC6100)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_2_OFFSET UNITYSDK_OFFSET(0xDCC63B0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_3_OFFSET UNITYSDK_OFFSET(0xDCC65D0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEOUT_B__9_0_OFFSET UNITYSDK_OFFSET(0xDCC6670)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEOUT_B__9_1_OFFSET UNITYSDK_OFFSET(0xDCC6740)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYMIRRORFADEIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xDCC6060)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_AWAKE_OFFSET UNITYSDK_OFFSET(0xDD4BF80)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD4EA50)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDD4EA00)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_MFFFBKCBIFA_OFFSET UNITYSDK_OFFSET(0xDD4E120)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_ONITEMMOVE_OFFSET UNITYSDK_OFFSET(0xDD4DD70)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_ONITEMROTATE_OFFSET UNITYSDK_OFFSET(0xDD4E270)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYITEMSELECTFADEIN_OFFSET UNITYSDK_OFFSET(0xDD4D1E0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYITEMSELECTFADEOUT_OFFSET UNITYSDK_OFFSET(0xDD4D9A0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYITEMSELECTSTART_OFFSET UNITYSDK_OFFSET(0xDD4D820)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYMIRRORFADEIN_OFFSET UNITYSDK_OFFSET(0xDD4C8A0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYMIRRORFADEOUT_OFFSET UNITYSDK_OFFSET(0xDD4CCE0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYROTATESHAKEANIM_OFFSET UNITYSDK_OFFSET(0xDD4E7E0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_PLAYSHAKEANIM_OFFSET UNITYSDK_OFFSET(0xDD4E480)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_RECOVERMATERIALPARAMS_OFFSET UNITYSDK_OFFSET(0xDD4D000)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_REMOVEMATEFFECT_OFFSET UNITYSDK_OFFSET(0xDD4DC20)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_REMOVESELECTEFFECT_OFFSET UNITYSDK_OFFSET(0xDD4CB90)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_RESETITEM_OFFSET UNITYSDK_OFFSET(0xDD4C4A0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SETBOARD_OFFSET UNITYSDK_OFFSET(0xDD4C720)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SETMIRRORBACKMATERIALPARAMS_OFFSET UNITYSDK_OFFSET(0xDD4CE20)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SIMITEMMOVE_OFFSET UNITYSDK_OFFSET(0xDD4E930)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_SIMITEMROTATE_OFFSET UNITYSDK_OFFSET(0xDD4E9A0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_0_OFFSET UNITYSDK_OFFSET(0xDD4F000)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_1_OFFSET UNITYSDK_OFFSET(0xDD4ECC0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_2_OFFSET UNITYSDK_OFFSET(0xDD4EEF0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEIN_B__7_3_OFFSET UNITYSDK_OFFSET(0xDD4F110)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEOUT_B__9_0_OFFSET UNITYSDK_OFFSET(0xDD4F1B0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEOUT_B__9_1_OFFSET UNITYSDK_OFFSET(0xDD4F280)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYMIRRORFADEIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xDD4EC20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleItem_TypeDefinitionIndex = 78247;
-
 	class OpticalIllusionPuzzleItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_ANIM_ITEM_SHAKE_TAIL()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65360);
-		}
-		static ::System::String** StaticGet_SOUND_ITEM_MOVE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65368);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_SOUND_ITEM_X_Z_ROTATE()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65370);
-		}
-		static ::System::String** StaticGet_ANIM_ITEM_FADEIN()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65378);
-		}
-		static ::System::String** StaticGet_ANIM_ITEM_ROTATE_SHAKE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65380);
-		}
-		static ::System::String** StaticGet_SOUND_ITEM_MOVE_PARAM()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65388);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_SOUND_Y_ROTATE()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65390);
-		}
-		static ::System::String** StaticGet_ANIM_ITEM_SHAKE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65398);
-		}
-		static ::System::String** StaticGet_ANIM_ITEM_HOLD()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x653A0);
-		}
-		static ::System::String** StaticGet_ANIM_ITEM_FADEOUT()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x653A8);
-		}
-		static ::System::String** StaticGet_ANIM_MIRROR_SHAKE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x653B0);
-		}
-		static ::System::String** StaticGet_ANIM_ITEM_START()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x653B8);
-		}
-		static ::System::Single* StaticGet_FloatEpsilon()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleItem_TypeDefinitionIndex)->GetStaticField(0x14D30);
-		}
 		::System::Boolean IsMirror; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::GameObject* MirrorObject; // 0x20
 		::RPG::Client::Prop::OpticalIllusionOp Operation; // 0x28
 		::RPG::Client::Prop::OpticalIllusionAxis Axis; // 0x2C
@@ -122,8 +68,10 @@ namespace RPG::Client::Prop
 		::Il2CppArray<::RPG::Client::Prop::OpticalIllusionPuzzleCube*>* MirrorObjectCubes; // 0x88
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* OccupyCubes; // 0x90
 		::UnityEngine::Vector3 ScreenMoveDire; // 0x98
+		::System::Byte _padding1[0x4];
 		::RPG::Client::Prop::OpticalIllusionPuzzleBoard* MIPPNCGOJNM; // 0xA8
 		::System::Boolean FHACNGIOIOA; // 0xB0
+		::System::Byte _padding2[0x3];
 		::System::Int32 JJIEKEKGNGF; // 0xB4
 		::System::Int32 HEAOODEBHME; // 0xB8
 		::System::Int32 GKHBKCONDHL; // 0xBC
@@ -137,16 +85,81 @@ namespace RPG::Client::Prop
 		::UnityEngine::Coroutine* OCNKDFLIBJA; // 0xE8
 		::System::Int32 JPKEIFONDCP; // 0xF0
 		::System::Boolean EOPPNDMPNEH; // 0xF4
+		::System::Byte _padding3[0x3];
 		::System::Single INIKDDNICAD; // 0xF8
+		static ::System::String** StaticGet_ANIM_ITEM_FADEIN()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59930);
+		}
+
+		static ::System::String** StaticGet_ANIM_ITEM_ROTATE_SHAKE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59938);
+		}
+
+		static ::System::String** StaticGet_ANIM_ITEM_SHAKE_TAIL()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59940);
+		}
+
+		static ::System::String** StaticGet_ANIM_ITEM_SHAKE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59948);
+		}
+
+		static ::System::String** StaticGet_SOUND_ITEM_MOVE_PARAM()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59950);
+		}
+
+		static ::System::String** StaticGet_ANIM_ITEM_START()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59958);
+		}
+
+		static ::System::String** StaticGet_ANIM_ITEM_HOLD()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59960);
+		}
+
+		static ::System::String** StaticGet_ANIM_ITEM_FADEOUT()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59968);
+		}
+
+		static ::System::String** StaticGet_ANIM_MIRROR_SHAKE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59970);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_SOUND_ITEM_X_Z_ROTATE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59978);
+		}
+
+		static ::System::String** StaticGet_SOUND_ITEM_MOVE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59980);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_SOUND_Y_ROTATE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x59988);
+		}
+
+		static ::System::Single* StaticGet_FloatEpsilon()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.Prop", "OpticalIllusionPuzzleItem")->GetStaticField(0x13B80);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -214,9 +227,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_ONITEMMOVE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_5_FC9926C19FB6003D(::System::Single a1)
+		::System::Boolean MFFFBKCBIFA(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_METHOD_5_FC9926C19FB6003D_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM_MFFFBKCBIFA_OFFSET))(this, a1);
 		}
 
 		::System::Void OnItemRotate()
@@ -278,5 +291,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEITEM__PLAYITEMSELECTFADEOUT_B__9_1_OFFSET))(this);
 		}
+
 	};
 }

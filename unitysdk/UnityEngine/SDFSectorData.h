@@ -4,8 +4,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SDFSectorData_TypeDefinitionIndex = 4260;
-
 	class SDFSectorData : public ::UnityEngine::Object
 	{
 	public:

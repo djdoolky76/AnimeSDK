@@ -3,13 +3,11 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int TreeRotation_TypeDefinitionIndex = 3052;
-
 	enum class TreeRotation : ::System::Byte
 	{
-		Left = 0x0,
-		LeftRight = 0x1,
-		Right = 0x2,
-		RightLeft = 0x3,
+		Left = 0,
+		LeftRight = 1,
+		Right = 2,
+		RightLeft = 3,
 	};
 }

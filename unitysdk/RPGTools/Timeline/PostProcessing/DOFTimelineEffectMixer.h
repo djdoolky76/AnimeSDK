@@ -1,28 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPGTools/Timeline/PostProcessing/BasePlayableBehaviour_1.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-
-namespace RPG::CustomRP { class RPGDepthOfField; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_GET_ISEDITORMODE_OFFSET UNITYSDK_OFFSET(0xE8CCE40)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8CCE50)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE8CD340)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE922BC0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_GET_ISEDITORMODE_OFFSET UNITYSDK_OFFSET(0xE9226C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE9226D0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineEffectMixer_TypeDefinitionIndex = 49022;
-
-	class DOFTimelineEffectMixer : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGDepthOfField*>
+	class DOFTimelineEffectMixer
 	{
 	public:
 		::System::Single _lastWeight; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean get_IsEditorMode()
@@ -34,5 +28,6 @@ namespace RPGTools::Timeline::PostProcessing
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

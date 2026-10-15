@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TAASettings_TypeDefinitionIndex = 4836;
-
 	struct alignas(4) TAASettings
 	{
 		::System::Int32 quality; // 0x10

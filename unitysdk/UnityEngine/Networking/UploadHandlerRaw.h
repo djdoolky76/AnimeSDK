@@ -1,22 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Networking/UploadHandler.h"
+namespace UnityEngine::Networking { class UploadHandlerRaw; }
 
-#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_CREATE_OFFSET UNITYSDK_OFFSET(0x1EEA0F70)
-#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EEA0F90)
-#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_INTERNALGETDATA_OFFSET UNITYSDK_OFFSET(0x1EEA0F80)
-#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9FC00)
+#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_CREATE_OFFSET UNITYSDK_OFFSET(0x1F568B20)
+#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5677B0)
+#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F568B40)
+#define UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_INTERNALGETDATA_OFFSET UNITYSDK_OFFSET(0x1F568B30)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UploadHandlerRaw_TypeDefinitionIndex = 5357;
-
 	class UploadHandlerRaw : public ::UnityEngine::Networking::UploadHandler
 	{
 	public:
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UPLOADHANDLERRAW__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::IntPtr Create(::UnityEngine::Networking::UploadHandlerRaw* a1, ::Il2CppArray<::System::Byte>* a2)
@@ -33,5 +32,6 @@ namespace UnityEngine::Networking
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_UPLOADHANDLERRAW_GETDATA_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_AdjustDeepLinkResultInfo_TypeDefinitionIndex = 46661;
-
 	class MHYSDKC_AdjustDeepLinkResultInfo : public ::System::Object
 	{
 	public:

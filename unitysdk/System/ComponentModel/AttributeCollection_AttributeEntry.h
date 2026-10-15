@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Type; }
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int AttributeCollection_AttributeEntry_TypeDefinitionIndex = 2563;
-
 	struct alignas(8) AttributeCollection_AttributeEntry
 	{
 		::System::Type* type; // 0x10

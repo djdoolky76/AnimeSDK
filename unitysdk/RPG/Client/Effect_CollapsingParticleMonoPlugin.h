@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Effect_CollapsingParticleMonoPlugin_Orientation.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class Effect_CollapsingParticleBehavior; }
+namespace RPG::Client { class Effect_CollapsingParticleMonoPlugin; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_04F02FC65FAA2E0C_OFFSET UNITYSDK_OFFSET(0xCDD2700)
-#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0xCDD1D90)
-#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_A3EF4ED894EBFFC3_OFFSET UNITYSDK_OFFSET(0xCDD2640)
-#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_E46A4D7B872282A4_OFFSET UNITYSDK_OFFSET(0xCDD1F90)
-#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_RENDEREREQUALS_OFFSET UNITYSDK_OFFSET(0xCDD1AE0)
-#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCDD2AC0)
+#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_ABDFLPIMLAO_OFFSET UNITYSDK_OFFSET(0xCD22730)
+#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_BKLLECOLPFK_OFFSET UNITYSDK_OFFSET(0xCD22EA0)
+#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD23260)
+#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_EFNBIEHEGIG_OFFSET UNITYSDK_OFFSET(0xCD22530)
+#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_GMOGFICCBDH_OFFSET UNITYSDK_OFFSET(0xCD22DE0)
+#define RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_RENDEREREQUALS_OFFSET UNITYSDK_OFFSET(0xCD22280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_CollapsingParticleMonoPlugin_TypeDefinitionIndex = 70400;
-
-	class Effect_CollapsingParticleMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_CollapsingParticleBehavior*>
+	class Effect_CollapsingParticleMonoPlugin
 	{
 	public:
 		::System::Single interval; // 0x30
@@ -36,6 +32,7 @@ namespace RPG::Client
 		::UnityEngine::Material* particleMaterial; // 0x88
 		::RPG::Client::Effect_CollapsingParticleMonoPlugin_Orientation orientation; // 0x90
 		::System::Boolean useWorldDirection; // 0x94
+		::System::Byte _padding0[0x3];
 		::System::Single riseSpeed; // 0x98
 		::System::Single riseHeight; // 0x9C
 		::System::Single jitterSpeed; // 0xA0
@@ -45,10 +42,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Scales; // 0xB8
 		::System::Collections::Generic::List_1<::System::Boolean>* m_Jitters; // 0xC0
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* matrices; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean RendererEquals(::RPG::Client::Effect_CollapsingParticleMonoPlugin* a1)
@@ -56,24 +52,25 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Effect_CollapsingParticleMonoPlugin*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_RENDEREREQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_0FD0EC313FAAB75A()
+		::System::Void EFNBIEHEGIG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_0FD0EC313FAAB75A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_EFNBIEHEGIG_OFFSET))(this);
 		}
 
-		::System::Void Method_7_E46A4D7B872282A4(::Il2CppArray<::UnityEngine::Vector3>* a1, ::UnityEngine::Matrix4x4 a2, ::System::Boolean a3)
+		::System::Void ABDFLPIMLAO(::Il2CppArray<::UnityEngine::Vector3>* a1, ::UnityEngine::Matrix4x4 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::Matrix4x4, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_E46A4D7B872282A4_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::Matrix4x4, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_ABDFLPIMLAO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_7_A3EF4ED894EBFFC3(::UnityEngine::Vector3 a1)
+		::System::Boolean GMOGFICCBDH(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_A3EF4ED894EBFFC3_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_GMOGFICCBDH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_7_04F02FC65FAA2E0C()
+		::System::Void BKLLECOLPFK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_METHOD_7_04F02FC65FAA2E0C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_COLLAPSINGPARTICLEMONOPLUGIN_BKLLECOLPFK_OFFSET))(this);
 		}
+
 	};
 }

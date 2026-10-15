@@ -3,31 +3,28 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_METHOD_1_7900DB25C44BBC9B_OFFSET UNITYSDK_OFFSET(0xE910CC0)
-#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE910C00)
+#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE966730)
+#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_KIFAGHIPEDN_OFFSET UNITYSDK_OFFSET(0xE9667F0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int TransformExportData_TypeDefinitionIndex = 49571;
-
 	class TransformExportData : public ::System::Object
 	{
 	public:
 		::UnityEngine::Vector3 pos; // 0x10
 		::UnityEngine::Quaternion rotation; // 0x1C
 		::UnityEngine::Vector3 scale; // 0x2C
-
 		::System::Void _ctor(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_7900DB25C44BBC9B(::UnityEngine::Transform* a1)
+		::System::Void KIFAGHIPEDN(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_METHOD_1_7900DB25C44BBC9B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_KIFAGHIPEDN_OFFSET))(this, a1);
 		}
+
 	};
 }

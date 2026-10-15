@@ -4,27 +4,26 @@
 #include "unitysdk/UnityEngine/UI/CaculateNodeData_CaculateNodeType.h"
 #include "unitysdk/UnityEngine/UI/CaculateNodeData_OperateType.h"
 #include "unitysdk/UnityEngine/UI/CaculateNodeData_TransfomrRefType.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI { class CaculateNodeData; }
 
-#define UNITYENGINE_UI_CACULATENODEDATA_DESERIALIZECACULATENODETREE_OFFSET UNITYSDK_OFFSET(0x1EE17EA0)
-#define UNITYENGINE_UI_CACULATENODEDATA_GETOPVALUE_OFFSET UNITYSDK_OFFSET(0x1EE17030)
-#define UNITYENGINE_UI_CACULATENODEDATA_GETREFVALUE_OFFSET UNITYSDK_OFFSET(0x1EE17610)
-#define UNITYENGINE_UI_CACULATENODEDATA_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1EE16FA0)
-#define UNITYENGINE_UI_CACULATENODEDATA_OPTOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE17720)
-#define UNITYENGINE_UI_CACULATENODEDATA_RECURSIVEADD_OFFSET UNITYSDK_OFFSET(0x1EE17DD0)
-#define UNITYENGINE_UI_CACULATENODEDATA_RECURSIVEBUILD_OFFSET UNITYSDK_OFFSET(0x1EE17EE0)
-#define UNITYENGINE_UI_CACULATENODEDATA_REFTOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE17D00)
-#define UNITYENGINE_UI_CACULATENODEDATA_SERIALIZECACULATENODEDATA_OFFSET UNITYSDK_OFFSET(0x1EE17D50)
-#define UNITYENGINE_UI_CACULATENODEDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE17680)
-#define UNITYENGINE_UI_CACULATENODEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE17F70)
+#define UNITYENGINE_UI_CACULATENODEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E0EA0)
+#define UNITYENGINE_UI_CACULATENODEDATA_DESERIALIZECACULATENODETREE_OFFSET UNITYSDK_OFFSET(0x1F4E0DD0)
+#define UNITYENGINE_UI_CACULATENODEDATA_GETOPVALUE_OFFSET UNITYSDK_OFFSET(0x1F4DFF60)
+#define UNITYENGINE_UI_CACULATENODEDATA_GETREFVALUE_OFFSET UNITYSDK_OFFSET(0x1F4E0540)
+#define UNITYENGINE_UI_CACULATENODEDATA_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1F4DFED0)
+#define UNITYENGINE_UI_CACULATENODEDATA_OPTOSTRING_OFFSET UNITYSDK_OFFSET(0x1F4E0650)
+#define UNITYENGINE_UI_CACULATENODEDATA_RECURSIVEADD_OFFSET UNITYSDK_OFFSET(0x1F4E0D00)
+#define UNITYENGINE_UI_CACULATENODEDATA_RECURSIVEBUILD_OFFSET UNITYSDK_OFFSET(0x1F4E0E10)
+#define UNITYENGINE_UI_CACULATENODEDATA_REFTOSTRING_OFFSET UNITYSDK_OFFSET(0x1F4E0C30)
+#define UNITYENGINE_UI_CACULATENODEDATA_SERIALIZECACULATENODEDATA_OFFSET UNITYSDK_OFFSET(0x1F4E0C80)
+#define UNITYENGINE_UI_CACULATENODEDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F4E05B0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CaculateNodeData_TypeDefinitionIndex = 6743;
-
 	class CaculateNodeData : public ::System::Object
 	{
 	public:
@@ -34,10 +33,9 @@ namespace UnityEngine::UI
 		::UnityEngine::UI::CaculateNodeData_OperateType operateType; // 0x24
 		::System::Single mValue; // 0x28
 		::UnityEngine::UI::CaculateNodeData_TransfomrRefType mRectType; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Single GetValue(::UnityEngine::RectTransform* a1)
@@ -65,14 +63,14 @@ namespace UnityEngine::UI
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_OPTOSTRING_OFFSET))(this);
 		}
 
-		static ::System::Void SerializeCaculateNodeData(::UnityEngine::UI::CaculateNodeData* a1, ::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>*& a2)
+		static ::System::Void SerializeCaculateNodeData(::UnityEngine::UI::CaculateNodeData* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::CaculateNodeData*, ::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_SERIALIZECACULATENODEDATA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::UI::CaculateNodeData*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_SERIALIZECACULATENODEDATA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void DeserializeCaculateNodeTree(::UnityEngine::UI::CaculateNodeData*& a1, ::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>*& a2)
+		static ::System::Void DeserializeCaculateNodeTree(::UnityEngine::UI::CaculateNodeData* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::CaculateNodeData*&, ::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>*&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_DESERIALIZECACULATENODETREE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::UI::CaculateNodeData*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_DESERIALIZECACULATENODETREE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void RecursiveAdd(::UnityEngine::UI::CaculateNodeData* a1, ::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>* a2)
@@ -80,14 +78,15 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::UnityEngine::UI::CaculateNodeData*, ::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_RECURSIVEADD_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::UI::CaculateNodeData* RecursiveBuild(::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>* a1, ::System::Int32& a2)
+		static ::UnityEngine::UI::CaculateNodeData* RecursiveBuild(::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>* a1, ::System::Int32 a2)
 		{
-			return ((::UnityEngine::UI::CaculateNodeData*(*)(::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>*, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_RECURSIVEBUILD_OFFSET))(a1, a2);
+			return ((::UnityEngine::UI::CaculateNodeData*(*)(::System::Collections::Generic::List_1<::UnityEngine::UI::CaculateNodeData*>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_RECURSIVEBUILD_OFFSET))(a1, a2);
 		}
 
 		::System::String* RefToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CACULATENODEDATA_REFTOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,66 +1,65 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf { template <typename T> class FieldCodec_1; }
-namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
+namespace MiHoYo::SDK::Protobuf { class FieldCodec; }
+namespace MiHoYo::SDK::Protobuf { class MessageParser; }
 namespace MiHoYo::SDK::Protobuf::Collections { template <typename T> class RepeatedField_1; }
-namespace MiHoYo::SDK::Protobuf::Reflection { class GeneratedCodeInfo_Types_Annotation; }
+namespace MiHoYo::SDK::Protobuf::Reflection { class GeneratedCodeInfo; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B7097A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1B7094F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B7095F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B709540)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B709660)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B7091C0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B6F9350)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B709830)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B7093A0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B7096B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B709710)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7099F0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B709450)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B709400)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BC073D0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC07620)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC07120)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC07080)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC07030)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC07220)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC07170)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC07290)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC06DF0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BBF6F70)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BC07460)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC06FD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC072E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BC07340)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedCodeInfo_TypeDefinitionIndex = 35146;
-
 	class GeneratedCodeInfo : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo*>** StaticGet__parser()
+		::MiHoYo::SDK::Protobuf::Collections::RepeatedField_1<::System::Object*>* annotation_; // 0x10
+		static ::MiHoYo::SDK::Protobuf::FieldCodec** StaticGet__repeated_annotation_codec()
 		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedCodeInfo_TypeDefinitionIndex)->GetStaticField(0x62A90);
+			return (::MiHoYo::SDK::Protobuf::FieldCodec**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "GeneratedCodeInfo")->GetStaticField(0x50620);
 		}
-		static ::MiHoYo::SDK::Protobuf::FieldCodec_1<::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo_Types_Annotation*>** StaticGet__repeated_annotation_codec()
+
+		static ::MiHoYo::SDK::Protobuf::MessageParser** StaticGet__parser()
 		{
-			return (::MiHoYo::SDK::Protobuf::FieldCodec_1<::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo_Types_Annotation*>**)Il2CppClass::FromTypeDefinitionIndex(GeneratedCodeInfo_TypeDefinitionIndex)->GetStaticField(0x62A98);
+			return (::MiHoYo::SDK::Protobuf::MessageParser**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "GeneratedCodeInfo")->GetStaticField(0x50628);
 		}
-		::MiHoYo::SDK::Protobuf::Collections::RepeatedField_1<::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo_Types_Annotation*>* annotation_; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo*>* get_Parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GET_PARSER_OFFSET))();
+			return ((::MiHoYo::SDK::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_GET_PARSER_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -112,5 +111,6 @@ namespace MiHoYo::SDK::Protobuf::Reflection
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO_MERGEFROM_OFFSET))(this, a1);
 		}
+
 	};
 }

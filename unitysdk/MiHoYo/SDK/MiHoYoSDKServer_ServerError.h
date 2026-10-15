@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer_ServerError_TypeDefinitionIndex = 46774;
-
 	enum class MiHoYoSDKServer_ServerError : ::System::Int32
 	{
 		ConnectFailed = -2001,

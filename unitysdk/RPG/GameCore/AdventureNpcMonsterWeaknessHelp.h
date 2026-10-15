@@ -2,22 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/MonsterRank.h"
-#include "unitysdk/Struct_2_A98C406BD653F8E9.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/LOENGBEIDGC.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_ADDGLOBALWEAKNESS_1_OFFSET UNITYSDK_OFFSET(0xE4EADA0)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_ADDGLOBALWEAKNESS_OFFSET UNITYSDK_OFFSET(0xE4EAC50)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_CHECKHASGLOBALWEAKNESS_1_OFFSET UNITYSDK_OFFSET(0xE4EB020)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_CHECKHASGLOBALWEAKNESS_OFFSET UNITYSDK_OFFSET(0xE4EAFC0)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_GETGLOBALWEAKNESSLIST_OFFSET UNITYSDK_OFFSET(0xE4EACB0)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_GETWEAKNESSFORBATTLEMONSTER_OFFSET UNITYSDK_OFFSET(0xE4EAB40)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_ADDGLOBALWEAKNESS_1_OFFSET UNITYSDK_OFFSET(0xE57AB00)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_ADDGLOBALWEAKNESS_OFFSET UNITYSDK_OFFSET(0xE57A9B0)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_CHECKHASGLOBALWEAKNESS_1_OFFSET UNITYSDK_OFFSET(0xE57AD80)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_CHECKHASGLOBALWEAKNESS_OFFSET UNITYSDK_OFFSET(0xE57AD20)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_GETGLOBALWEAKNESSLIST_OFFSET UNITYSDK_OFFSET(0xE57AA10)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_GETWEAKNESSFORBATTLEMONSTER_OFFSET UNITYSDK_OFFSET(0xE57A8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureNpcMonsterWeaknessHelp_TypeDefinitionIndex = 57164;
-
 	class AdventureNpcMonsterWeaknessHelp : public ::System::Object
 	{
 	public:
@@ -36,19 +33,20 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::RPG::GameCore::AttackDamageType, ::RPG::GameCore::MonsterRank))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_CHECKHASGLOBALWEAKNESS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>* GetGlobalWeaknessList()
+		static ::System::Collections::Generic::List_1<::LOENGBEIDGC>* GetGlobalWeaknessList()
 		{
-			return ((::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_GETGLOBALWEAKNESSLIST_OFFSET))();
+			return ((::System::Collections::Generic::List_1<::LOENGBEIDGC>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_GETGLOBALWEAKNESSLIST_OFFSET))();
 		}
 
-		static ::Il2CppArray<::RPG::GameCore::AttackDamageType>* AddGlobalWeakness_1(::Il2CppArray<::RPG::GameCore::AttackDamageType>* a1, ::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>* a2, ::RPG::GameCore::MonsterRank a3)
+		static ::Il2CppArray<::RPG::GameCore::AttackDamageType>* AddGlobalWeakness_1(::Il2CppArray<::RPG::GameCore::AttackDamageType>* a1, ::System::Collections::Generic::List_1<::LOENGBEIDGC>* a2, ::RPG::GameCore::MonsterRank a3)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::AttackDamageType>*(*)(::Il2CppArray<::RPG::GameCore::AttackDamageType>*, ::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>*, ::RPG::GameCore::MonsterRank))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_ADDGLOBALWEAKNESS_1_OFFSET))(a1, a2, a3);
+			return ((::Il2CppArray<::RPG::GameCore::AttackDamageType>*(*)(::Il2CppArray<::RPG::GameCore::AttackDamageType>*, ::System::Collections::Generic::List_1<::LOENGBEIDGC>*, ::RPG::GameCore::MonsterRank))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_ADDGLOBALWEAKNESS_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean CheckHasGlobalWeakness_1(::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>* a1, ::RPG::GameCore::AttackDamageType a2, ::RPG::GameCore::MonsterRank a3)
+		static ::System::Boolean CheckHasGlobalWeakness_1(::System::Collections::Generic::List_1<::LOENGBEIDGC>* a1, ::RPG::GameCore::AttackDamageType a2, ::RPG::GameCore::MonsterRank a3)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>*, ::RPG::GameCore::AttackDamageType, ::RPG::GameCore::MonsterRank))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_CHECKHASGLOBALWEAKNESS_1_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::LOENGBEIDGC>*, ::RPG::GameCore::AttackDamageType, ::RPG::GameCore::MonsterRank))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERWEAKNESSHELP_CHECKHASGLOBALWEAKNESS_1_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

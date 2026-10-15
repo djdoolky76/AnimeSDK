@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IRI_BaseWallCustomData.h"
 
-#define IRI_WALLCUSTOMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x161BF740)
+#define IRI_WALLCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16537AD0)
 
-inline static constexpr unsigned int IRI_WallCustomData_TypeDefinitionIndex = 47646;
-
-class IRI_WallCustomData : public ::IRI_BaseWallCustomData
-{
-public:
-	::System::Void _ctor()
+	class IRI_WallCustomData : public ::IRI_BaseWallCustomData
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_WALLCUSTOMDATA__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IRI_WALLCUSTOMDATA_CTOR_OFFSET))(this);
+		}
+
+	};

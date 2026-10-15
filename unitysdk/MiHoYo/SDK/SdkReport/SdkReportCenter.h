@@ -3,55 +3,56 @@
 #include "unitysdk/MiHoYo/SDK/SdkReport/BuryPointType.h"
 #include "unitysdk/MiHoYo/SDK/SdkReport/EventType.h"
 #include "unitysdk/MiHoYo/SDK/SdkReport/StageType.h"
-#include "unitysdk/System/DateTime.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/DateTime.h"
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class MiHoYoSDKWebViewManager; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataItem; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataSequence; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterEvent; }
 namespace MiHoYo::SDK::ReporterUtil { template <typename T> class AnalyzerResult_1; }
+namespace MiHoYo::SDK::SdkReport { class SdkReportCenter; }
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET UNITYSDK_OFFSET(0xB299530)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_1_OFFSET UNITYSDK_OFFSET(0xB298440)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_OFFSET UNITYSDK_OFFSET(0xB2983A0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0xB299A80)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET UNITYSDK_OFFSET(0xB299690)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_EVENT_OFFSET UNITYSDK_OFFSET(0xB299160)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETEVENTNAME_OFFSET UNITYSDK_OFFSET(0xB2993C0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET UNITYSDK_OFFSET(0xB2994B0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GET_USERINPUTEVENT_OFFSET UNITYSDK_OFFSET(0xB2975F0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEGUIEEVENTSIFNEED_OFFSET UNITYSDK_OFFSET(0xB2985A0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEPAINTIFNEED_OFFSET UNITYSDK_OFFSET(0xB299CA0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEREPORTSFROMWEBVIEW_OFFSET UNITYSDK_OFFSET(0xB298AF0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEUPDATEIFNEED_OFFSET UNITYSDK_OFFSET(0xB2984B0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_ITEM_OFFSET UNITYSDK_OFFSET(0xB2997F0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_LASTENDEDITEM_OFFSET UNITYSDK_OFFSET(0xB299940)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTER_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB2982A0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTPERFORMANCEINFO_OFFSET UNITYSDK_OFFSET(0xB299E20)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORT_OFFSET UNITYSDK_OFFSET(0xB299B10)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STAGE_OFFSET UNITYSDK_OFFSET(0xB299410)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STARTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB298270)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STOPAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB299240)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_USEDEFAULTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB2980E0)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB29A690)
-#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB297690)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET UNITYSDK_OFFSET(0xB038270)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_1_OFFSET UNITYSDK_OFFSET(0xB037180)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BURYPOINT_OFFSET UNITYSDK_OFFSET(0xB0370E0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB039440)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0xB0387C0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CTOR_OFFSET UNITYSDK_OFFSET(0xB0363D0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET UNITYSDK_OFFSET(0xB0383D0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_EVENT_OFFSET UNITYSDK_OFFSET(0xB037EA0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETEVENTNAME_OFFSET UNITYSDK_OFFSET(0xB038100)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET UNITYSDK_OFFSET(0xB0381F0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GET_USERINPUTEVENT_OFFSET UNITYSDK_OFFSET(0xB036330)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEGUIEEVENTSIFNEED_OFFSET UNITYSDK_OFFSET(0xB0372E0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEPAINTIFNEED_OFFSET UNITYSDK_OFFSET(0xB038A70)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEREPORTSFROMWEBVIEW_OFFSET UNITYSDK_OFFSET(0xB037830)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_HANDLEUPDATEIFNEED_OFFSET UNITYSDK_OFFSET(0xB0371F0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_ITEM_OFFSET UNITYSDK_OFFSET(0xB038530)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_LASTENDEDITEM_OFFSET UNITYSDK_OFFSET(0xB038680)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTER_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB036FE0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORTPERFORMANCEINFO_OFFSET UNITYSDK_OFFSET(0xB038BF0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORT_OFFSET UNITYSDK_OFFSET(0xB0388E0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STAGE_OFFSET UNITYSDK_OFFSET(0xB038150)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STARTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB036FB0)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_STOPAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB037F80)
+#define MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_USEDEFAULTAUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB036E20)
 
 namespace MiHoYo::SDK::SdkReport
 {
-	inline static constexpr unsigned int SdkReportCenter_TypeDefinitionIndex = 47095;
-
 	class SdkReportCenter : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::SdkReport::EventType, ::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::SdkReport::StageType, ::System::String*>*>* nameDic; // 0x10
 		static ::MiHoYo::SDK::SdkReport::SdkReportCenter** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::SdkReport::SdkReportCenter**)Il2CppClass::FromTypeDefinitionIndex(SdkReportCenter_TypeDefinitionIndex)->GetStaticField(0x55290);
+			return (::MiHoYo::SDK::SdkReport::SdkReportCenter**)UnitySDK::FromName("MiHoYo.SDK.SdkReport", "SdkReportCenter")->GetStaticField(0x2F4C0);
 		}
+
 		// static const ::System::String* UserInputEventName; // 0x0
 		// static const ::System::String* BrowserRenderTimeEventName; // 0x0
 		// static const ::System::String* UnityFrameTimeEventName; // 0x0
@@ -66,20 +67,18 @@ namespace MiHoYo::SDK::SdkReport
 		// static const ::System::String* FrameInBrowser; // 0x0
 		// static const ::System::String* FrameToScreen; // 0x0
 		// static const ::System::String* FrameTotalGame; // 0x0
-		// static const ::System::Int64 FrameTimeAutoReportInterval = 0xEA60; // 0x0
+		// static const ::System::Object FrameTimeAutoReportInterval; // 0x0
 		// static const ::System::String* LButtonGameName; // 0x0
 		// static const ::System::String* RButtonGameName; // 0x0
 		// static const ::System::String* MButtonGameName; // 0x0
-		::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::SdkReport::EventType, ::System::Collections::Generic::Dictionary_2<::MiHoYo::SDK::SdkReport::StageType, ::System::String*>*>* nameDic; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_CCTOR_OFFSET))();
 		}
 
 		::MiHoYo::SDK::ReporterUtil::ReporterEvent* get_UserInputEvent()
@@ -137,14 +136,14 @@ namespace MiHoYo::SDK::SdkReport
 			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_GETSTAGENAME_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Begin(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
+		::System::Void Begin(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_BEGIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void End(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
+		::System::Void End(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3, ::System::Nullable* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_END_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Item(::MiHoYo::SDK::SdkReport::EventType a1, ::MiHoYo::SDK::SdkReport::StageType a2, ::System::Int32 a3)
@@ -191,5 +190,6 @@ namespace MiHoYo::SDK::SdkReport
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebViewManager*, ::MiHoYo::SDK::SdkReport::EventType, ::MiHoYo::SDK::SdkReport::StageType, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKREPORT_SDKREPORTCENTER_REPORT_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

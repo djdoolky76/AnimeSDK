@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakRewardType_TypeDefinitionIndex = 12877;
-
 	enum class ChallengePeakRewardType : ::System::Int32
 	{
 		NONE = 0,

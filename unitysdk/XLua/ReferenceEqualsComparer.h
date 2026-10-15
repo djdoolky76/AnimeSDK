@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define XLUA_REFERENCEEQUALSCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x150791C0)
-#define XLUA_REFERENCEEQUALSCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x150791D0)
-#define XLUA_REFERENCEEQUALSCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x150791E0)
+#define XLUA_REFERENCEEQUALSCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x152C6120)
+#define XLUA_REFERENCEEQUALSCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x152C6100)
+#define XLUA_REFERENCEEQUALSCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x152C6110)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ReferenceEqualsComparer_TypeDefinitionIndex = 50575;
-
 	class ReferenceEqualsComparer : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_REFERENCEEQUALSCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_REFERENCEEQUALSCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1, ::System::Object* a2)
@@ -27,5 +26,6 @@ namespace XLua
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_REFERENCEEQUALSCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

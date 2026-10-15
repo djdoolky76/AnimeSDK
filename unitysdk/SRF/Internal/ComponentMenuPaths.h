@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace SRF::Internal
 {
-	inline static constexpr unsigned int ComponentMenuPaths_TypeDefinitionIndex = 34765;
-
 	class ComponentMenuPaths : public ::System::Object
 	{
 	public:

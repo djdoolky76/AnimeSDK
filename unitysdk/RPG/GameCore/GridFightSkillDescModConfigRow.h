@@ -3,32 +3,30 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/GridFightSkillType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightSkillDescModConfigRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D168150)
-#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1683B0)
+#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7431E0)
+#define RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D742F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSkillDescModConfigRow_TypeDefinitionIndex = 13449;
-
 	class GridFightSkillDescModConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ModifySkillID; // 0x10
-		::RPG::GameCore::GridFightSkillType ModifySkillType; // 0x14
-		::RPG::Client::TextID ModifySkillSimpleDesc; // 0x18
+		::RPG::Client::TextID ModifySkillSimpleDesc; // 0x10
+		::RPG::GameCore::GridFightSkillType ModifySkillType; // 0x20
+		::System::UInt32 ModifySkillID; // 0x24
 		::RPG::Client::TextID ModifySkillDesc; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightSkillDescModConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightSkillDescModConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightSkillDescModConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightSkillDescModConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTSKILLDESCMODCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPGTools { class ScreenRecorder; }
+namespace System { class Object; }
 
-#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE80B1D0)
-#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE80B310)
-#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE80B370)
-#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE80B320)
-#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE80B1C0)
-#define RPGTOOLS_SCREENRECORDER__RECORD_D__24__CTOR_OFFSET UNITYSDK_OFFSET(0xE80AAC0)
+#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8390)
+#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE8A8AA0)
+#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE8A8C20)
+#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE8A8C80)
+#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE8A8C30)
+#define RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE8A8A90)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int ScreenRecorder__Record_d__24_TypeDefinitionIndex = 48237;
-
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24>
 	class ScreenRecorder__Record_d__24 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::RPGTools::ScreenRecorder* __4__this; // 0x18
+		::RPGTools::ScreenRecorder* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
 		::System::Int32 __1__state; // 0x20
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER__RECORD_D__24__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER__RECORD_D__24_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -51,5 +49,6 @@ namespace RPGTools
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_SCREENRECORDER__RECORD_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatAbilityState_TypeDefinitionIndex = 35776;
-
 	enum class DiceCombatAbilityState : ::System::Int32
 	{
 		Ready = 0,

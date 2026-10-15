@@ -4,13 +4,11 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LRUEntity_2_TypeDefinitionIndex = 34622;
-
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class LRUEntity_2 : public ::System::Object
 	{
 	public:
-		TKey _LRUKey_k__BackingField; // 0x0
-		TValue _LRUValue_k__BackingField; // 0x0
+		T1 _LRUKey_k__BackingField; // 0x0
+		T2 _LRUValue_k__BackingField; // 0x0
 	};
 }

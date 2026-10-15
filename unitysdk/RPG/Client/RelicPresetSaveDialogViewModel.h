@@ -1,52 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_71AA90D596A09AC8_19.h"
+#include "unitysdk/HNBGMOIHOAN.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_1D95EF1836E9FE9D;
-class Class_1_5D2E9E194E93B02A;
-class Class_2_229A7FF636DA17C3;
+class BFAFDCJCAEC;
+class FGOLMOBLNCN;
+class NAPGKEGIKGN;
 namespace RPG::Client { class RelicPresetModel; }
 namespace RPG::Client { class RelicPresetPlanViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_BUILDPLANVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDE36AF0)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GETDISPLAYPLANS_OFFSET UNITYSDK_OFFSET(0xDE37030)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_MAXPLANCOUNT_OFFSET UNITYSDK_OFFSET(0xDE36A10)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_PLANS_OFFSET UNITYSDK_OFFSET(0xDE36A20)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xDE369F0)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xDE36A00)
-#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xDE36A30)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_BUILDPLANVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xDE85430)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7F280)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GETDISPLAYPLANS_OFFSET UNITYSDK_OFFSET(0xDE85980)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_MAXPLANCOUNT_OFFSET UNITYSDK_OFFSET(0xDE85410)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_PLANS_OFFSET UNITYSDK_OFFSET(0xDE85420)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xDE853F0)
+#define RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xDE85400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetSaveDialogViewModel_TypeDefinitionIndex = 66875;
-
 	class RelicPresetSaveDialogViewModel : public ::System::Object
 	{
 	public:
-		::Class_1_1D95EF1836E9FE9D* _CalculatorService; // 0x10
-		::Class_2_229A7FF636DA17C3* _NetworkService; // 0x18
-		::Class_1_5D2E9E194E93B02A* _DataService; // 0x20
-		::RPG::Client::RelicPresetModel* _Model; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::RelicPresetPlanViewModel*>* _Plans_k__BackingField; // 0x30
-		::Enum_3_71AA90D596A09AC8_19 _SourceType_k__BackingField; // 0x38
+		::RPG::Client::RelicPresetModel* _Model; // 0x10
+		::NAPGKEGIKGN* _CalculatorService; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::RelicPresetPlanViewModel*>* _Plans_k__BackingField; // 0x20
+		::FGOLMOBLNCN* _DataService; // 0x28
+		::BFAFDCJCAEC* _NetworkService; // 0x30
+		::System::UInt32 _AvatarID; // 0x38
 		::System::Int32 _MaxPlanCount_k__BackingField; // 0x3C
-		::System::UInt32 _AvatarID; // 0x40
-
-		::System::Void _ctor(::System::UInt32 a1, ::Enum_3_71AA90D596A09AC8_19 a2, ::RPG::Client::RelicPresetModel* a3, ::Class_1_5D2E9E194E93B02A* a4, ::Class_2_229A7FF636DA17C3* a5, ::Class_1_1D95EF1836E9FE9D* a6)
+		::HNBGMOIHOAN _SourceType_k__BackingField; // 0x40
+		::System::Void _ctor(::System::UInt32 a1, ::HNBGMOIHOAN a2, ::RPG::Client::RelicPresetModel* a3, ::FGOLMOBLNCN* a4, ::BFAFDCJCAEC* a5, ::NAPGKEGIKGN* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::Enum_3_71AA90D596A09AC8_19, ::RPG::Client::RelicPresetModel*, ::Class_1_5D2E9E194E93B02A*, ::Class_2_229A7FF636DA17C3*, ::Class_1_1D95EF1836E9FE9D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::HNBGMOIHOAN, ::RPG::Client::RelicPresetModel*, ::FGOLMOBLNCN*, ::BFAFDCJCAEC*, ::NAPGKEGIKGN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::Enum_3_71AA90D596A09AC8_19 get_SourceType()
+		::HNBGMOIHOAN get_SourceType()
 		{
-			return ((::Enum_3_71AA90D596A09AC8_19(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_SOURCETYPE_OFFSET))(this);
+			return ((::HNBGMOIHOAN(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GET_SOURCETYPE_OFFSET))(this);
 		}
 
-		::System::Void set_SourceType(::Enum_3_71AA90D596A09AC8_19 a1)
+		::System::Void set_SourceType(::HNBGMOIHOAN a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_71AA90D596A09AC8_19))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_SET_SOURCETYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::HNBGMOIHOAN))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_SET_SOURCETYPE_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_MaxPlanCount()
@@ -68,5 +64,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::RelicPresetPlanViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICPRESETSAVEDIALOGVIEWMODEL_GETDISPLAYPLANS_OFFSET))(this);
 		}
+
 	};
 }

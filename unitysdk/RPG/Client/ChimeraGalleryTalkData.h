@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class ChimeraGalleryGroupedTalkData; }
+namespace System { class Nullable; }
 
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xCBFD480)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET UNITYSDK_OFFSET(0xCBFD3D0)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xCBFD150)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET__HASSIBLINGS_OFFSET UNITYSDK_OFFSET(0xCBFD0F0)
-#define RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBFCEC0)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4C040)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xCB4C600)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET UNITYSDK_OFFSET(0xCB4C550)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xCB4C2D0)
+#define RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET__HASSIBLINGS_OFFSET UNITYSDK_OFFSET(0xCB4C270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryTalkData_TypeDefinitionIndex = 63489;
-
 	class ChimeraGalleryTalkData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChimeraGalleryGroupedTalkData* _Group; // 0x10
 		::System::Int32 _Index; // 0x18
-
 		::System::Void _ctor(::RPG::Client::ChimeraGalleryGroupedTalkData* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get__HasSiblings()
@@ -37,14 +33,15 @@ namespace RPG::Client
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLE_OFFSET))(this);
 		}
 
-		::System::Nullable_1<::System::Int32> get_TitleParam()
+		::System::Nullable* get_TitleParam()
 		{
-			return ((::System::Nullable_1<::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_TITLEPARAM_OFFSET))(this);
 		}
 
 		::RPG::Client::TextID get_Content()
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYTALKDATA_GET_CONTENT_OFFSET))(this);
 		}
+
 	};
 }

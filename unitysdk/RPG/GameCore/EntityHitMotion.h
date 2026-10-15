@@ -2,28 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class HitMotionParams; }
 
-#define RPG_GAMECORE_ENTITYHITMOTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE5DE300)
-#define RPG_GAMECORE_ENTITYHITMOTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE5DE2C0)
-#define RPG_GAMECORE_ENTITYHITMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0xE5DE2B0)
+#define RPG_GAMECORE_ENTITYHITMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE635490)
+#define RPG_GAMECORE_ENTITYHITMOTION_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6354E0)
+#define RPG_GAMECORE_ENTITYHITMOTION_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6354A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityHitMotion_TypeDefinitionIndex = 56861;
-
 	class EntityHitMotion : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::HitMotionParams* MotionParams; // 0x10
-		::System::UInt32 _EntityRuntimeID; // 0x18
+		::System::Boolean IgnoreHeightCheck; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single FreezeTime; // 0x1C
-		::System::Boolean IgnoreHeightCheck; // 0x20
-
+		::System::UInt32 _EntityRuntimeID; // 0x20
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYHITMOTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYHITMOTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -35,5 +32,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYHITMOTION_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

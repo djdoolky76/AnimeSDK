@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Scripting/PreserveAttribute.h"
-
 namespace System { class Type; }
 
-#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_GET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1E6B25D0)
-#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_SET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1E6B25E0)
-#define SRF_SERVICE_SERVICESELECTORATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B25C0)
+#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED79FE0)
+#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_GET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1ED79FF0)
+#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_SET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1ED7A000)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int ServiceSelectorAttribute_TypeDefinitionIndex = 34739;
-
 	class ServiceSelectorAttribute : public ::UnityEngine::Scripting::PreserveAttribute
 	{
 	public:
 		::System::Type* _ServiceType_k__BackingField; // 0x10
-
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICESELECTORATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICESELECTORATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_ServiceType()
@@ -31,5 +27,6 @@ namespace SRF::Service
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SRF_SERVICE_SERVICESELECTORATTRIBUTE_SET_SERVICETYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

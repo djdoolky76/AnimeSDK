@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int TrackballAttribute_Mode_TypeDefinitionIndex = 37076;
-
 	enum class TrackballAttribute_Mode : ::System::Int32
 	{
 		None = 0,

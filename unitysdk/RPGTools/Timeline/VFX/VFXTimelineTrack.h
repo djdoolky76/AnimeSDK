@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GenderType.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE901CF0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE901DF0)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_GET_GENDERTYPE_OFFSET UNITYSDK_OFFSET(0xE901F10)
-#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE901F20)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9576D0)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE9577D0)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE957900)
+#define RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_GET_GENDERTYPE_OFFSET UNITYSDK_OFFSET(0xE9578F0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXTimelineTrack_TypeDefinitionIndex = 49142;
-
 	class VFXTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::RPG::GameCore::GenderType _genderType; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
@@ -41,5 +37,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::RPG::GameCore::GenderType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXTIMELINETRACK_GET_GENDERTYPE_OFFSET))(this);
 		}
+
 	};
 }

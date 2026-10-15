@@ -4,68 +4,57 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class NotifyHandler; }
+namespace RPG::Client { class UIFollow3DTarget; }
 namespace RPG::Client { class UIFollow3DTarget_PostProcessDelegate; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Action; }
 namespace System { class Object; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIFOLLOW3DTARGET_AWAKE_OFFSET UNITYSDK_OFFSET(0xE35F650)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_CLEARFOLLOWDATA_OFFSET UNITYSDK_OFFSET(0xE35EC20)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xE35FBD0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_OFFSET UNITYSDK_OFFSET(0xE35E9B0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_GET__CAMERA_OFFSET UNITYSDK_OFFSET(0xE35E930)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_INIT_OFFSET UNITYSDK_OFFSET(0xE344AA0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE35EF80)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_ONLYAPPLYCURRENTPOSITION_OFFSET UNITYSDK_OFFSET(0xE35ECA0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SAFEUPDATE_OFFSET UNITYSDK_OFFSET(0xE35EF20)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SETFLIPX_OFFSET UNITYSDK_OFFSET(0xE35EB20)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SETOVERRIDECAMERA_OFFSET UNITYSDK_OFFSET(0xE35EAD0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET UNITYSDK_OFFSET(0xE35F5B0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET UNITYSDK_OFFSET(0xE35F600)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_SET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xE344CA0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET_START_OFFSET UNITYSDK_OFFSET(0xE35F6F0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__CCTOR_OFFSET UNITYSDK_OFFSET(0xE35FC90)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__CLAMPPOS_OFFSET UNITYSDK_OFFSET(0xE35F9A0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xE35FC30)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__GETTARGETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xE35ED10)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__INITUICONFIG_OFFSET UNITYSDK_OFFSET(0xE35EB70)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__ISWORLDPOSCLAMPEDINCAMERAZ_OFFSET UNITYSDK_OFFSET(0xE35F8B0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__ONUIREDOADAPT_OFFSET UNITYSDK_OFFSET(0xE35F740)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__POSTPROCESSPOSITION_OFFSET UNITYSDK_OFFSET(0xE35FAE0)
-#define RPG_CLIENT_UIFOLLOW3DTARGET__SHOULDTICKFOLLOW_OFFSET UNITYSDK_OFFSET(0xE35F790)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_AWAKE_OFFSET UNITYSDK_OFFSET(0xE3A12C0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3A19E0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_CLEARFOLLOWDATA_OFFSET UNITYSDK_OFFSET(0xE3A0820)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xE3A1980)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xE3A1840)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_GET_OFFSET UNITYSDK_OFFSET(0xE3A03B0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_GET__CAMERA_OFFSET UNITYSDK_OFFSET(0xE3A0330)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_INIT_OFFSET UNITYSDK_OFFSET(0xE3A0570)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE3A0B80)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_ONLYAPPLYCURRENTPOSITION_OFFSET UNITYSDK_OFFSET(0xE3A08A0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SAFEUPDATE_OFFSET UNITYSDK_OFFSET(0xE3A0B20)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETFLIPX_OFFSET UNITYSDK_OFFSET(0xE3A0520)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETFOLLOWTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0xE3A1250)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETOVERRIDECAMERA_OFFSET UNITYSDK_OFFSET(0xE3A04D0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET UNITYSDK_OFFSET(0xE3A11B0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET UNITYSDK_OFFSET(0xE3A1200)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_SET_FOLLOWTARGET_OFFSET UNITYSDK_OFFSET(0xE3A18A0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET_START_OFFSET UNITYSDK_OFFSET(0xE3A1360)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__CLAMPPOS_OFFSET UNITYSDK_OFFSET(0xE3A1610)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__GETTARGETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xE3A0910)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__INITUICONFIG_OFFSET UNITYSDK_OFFSET(0xE3A0770)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__ISWORLDPOSCLAMPEDINCAMERAZ_OFFSET UNITYSDK_OFFSET(0xE3A1520)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__ONUIREDOADAPT_OFFSET UNITYSDK_OFFSET(0xE3A13B0)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__POSTPROCESSPOSITION_OFFSET UNITYSDK_OFFSET(0xE3A1750)
+#define RPG_CLIENT_UIFOLLOW3DTARGET__SHOULDTICKFOLLOW_OFFSET UNITYSDK_OFFSET(0xE3A1400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFollow3DTarget_TypeDefinitionIndex = 69062;
-
 	class UIFollow3DTarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Boolean* StaticGet__CHECK_VISIBILITY()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0x140C0);
-		}
-		static ::System::Boolean* StaticGet__CAMERA_DIS_INIT()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0x140C1);
-		}
-		static ::UnityEngine::Vector3* StaticGet__veryFarPosition()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIFollow3DTarget_TypeDefinitionIndex)->GetStaticField(0x140C4);
-		}
 		::UnityEngine::Camera* _OverrideCamera; // 0x18
 		::RPG::GameCore::GameEntity* FollowEntity; // 0x20
 		::System::Boolean ActiveState; // 0x28
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 WorldOffset; // 0x2C
 		::UnityEngine::Vector3 LocalOffset; // 0x38
 		::System::Boolean UseLocalOffset; // 0x44
 		::System::Boolean Clamp01; // 0x45
+		::System::Byte _padding1[0x2];
 		::UnityEngine::Rect ClampRect; // 0x48
 		::UnityEngine::Vector3 ScreenOffset; // 0x58
 		::UnityEngine::Vector3 viewPos; // 0x64
@@ -76,18 +65,33 @@ namespace RPG::Client
 		::UnityEngine::Vector3 _FollowPosition; // 0x90
 		::System::Boolean _UseFixedPosition; // 0x9C
 		::System::Boolean _FlipX; // 0x9D
+		::System::Byte _padding2[0x2];
 		::RPG::Client::NotifyHandler* _NotifyHandler; // 0xA0
 		::RPG::Client::UIFollow3DTarget_PostProcessDelegate* _PostProcessHandler; // 0xA8
-		::System::Action_1<::RPG::Client::UIFollow3DTarget*>* _PreTickHandler; // 0xB0
+		::System::Action* _PreTickHandler; // 0xB0
+		static ::System::Boolean* StaticGet__CAMERA_DIS_INIT()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "UIFollow3DTarget")->GetStaticField(0xBD60);
+		}
+
+		static ::System::Boolean* StaticGet__CHECK_VISIBILITY()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "UIFollow3DTarget")->GetStaticField(0xBD61);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet__veryFarPosition()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "UIFollow3DTarget")->GetStaticField(0xBD64);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::Camera* get__Camera()
@@ -135,9 +139,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::UIFollow3DTarget_PostProcessDelegate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPOSTPROCESSHANDLER_OFFSET))(this, a1);
 		}
 
-		::System::Void SetPreTickHandler(::System::Action_1<::RPG::Client::UIFollow3DTarget*>* a1)
+		::System::Void SetPreTickHandler(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::UIFollow3DTarget*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETPRETICKHANDLER_OFFSET))(this, a1);
+		}
+
+		::System::Void SetFollowTargetPosition(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SETFOLLOWTARGETPOSITION_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -199,5 +208,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFOLLOW3DTARGET_SET_FOLLOWTARGET_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class InviteFriendGroup; }
+namespace RPG::Client { class PlayerBriefDisplayData; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xD9E73B0)
+#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD9E7100)
+#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE_GETINVITEFRIENDGROUPS_OFFSET UNITYSDK_OFFSET(0xD9E5BF0)
+#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE__COMPAREOTHERFRIEND_OFFSET UNITYSDK_OFFSET(0xD9E7140)
+
+namespace RPG::Client
+{
+	class OnlinePlayRoomFriendInviteContextBase : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE_CTOR_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IList_1<::RPG::Client::InviteFriendGroup*>* GetInviteFriendGroups()
+		{
+			return ((::System::Collections::Generic::IList_1<::RPG::Client::InviteFriendGroup*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE_GETINVITEFRIENDGROUPS_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE_DISPOSE_OFFSET))(this);
+		}
+
+		static ::System::Int32 _CompareOtherFriend(::RPG::Client::PlayerBriefDisplayData* a1, ::RPG::Client::PlayerBriefDisplayData* a2)
+		{
+			return ((::System::Int32(*)(::RPG::Client::PlayerBriefDisplayData*, ::RPG::Client::PlayerBriefDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE__COMPAREOTHERFRIEND_OFFSET))(a1, a2);
+		}
+
+	};
+}

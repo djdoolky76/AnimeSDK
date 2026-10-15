@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FateRinHouguRarityType.h"
+#include "unitysdk/System/Object.h"
+class CONJABFPPOD;
+class FCOEMCEDLNL;
+namespace System { class String; }
+
+#define CONJABFPPOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCBB430)
+#define CONJABFPPOD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCBB320)
+
+	class CONJABFPPOD : public ::System::Object
+	{
+	public:
+		::System::String* OCBFMPOCBIK; // 0x10
+		::RPG::GameCore::FateRinHouguRarityType PMIEAEGJNMJ; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CONJABFPPOD_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::CONJABFPPOD* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::CONJABFPPOD*))((::PBYTE)hIl2Cpp + CONJABFPPOD_OJNNBEJLDIJ_OFFSET))(a1, a2);
+		}
+
+	};

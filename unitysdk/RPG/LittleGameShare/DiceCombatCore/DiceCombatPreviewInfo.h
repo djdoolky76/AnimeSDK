@@ -3,42 +3,38 @@
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/DiceCombatDiceEffectType.h"
 #include "unitysdk/RPG/LittleGameShare/DiceCombatCore/DiceCombatTopHintIconType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_0E117AC86D8E5BCA;
+class GLPPDCIBMIH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETRECOMMENDDICEICONPATH_OFFSET UNITYSDK_OFFSET(0x1C2A8A30)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETRECOMMENDEDDICELIST_OFFSET UNITYSDK_OFFSET(0x1C2A8C60)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETSHOWEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2A9100)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETTOPHINTICONTYPE_OFFSET UNITYSDK_OFFSET(0x1C2A8F00)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINRECOMMENDEDDICELIST_OFFSET UNITYSDK_OFFSET(0x1C2A88D0)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINSKILLDICELIST_OFFSET UNITYSDK_OFFSET(0x1C2A8790)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_SETSHOWEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C2A91B0)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_SETTOPHINTICONTYPE_OFFSET UNITYSDK_OFFSET(0x1C2A8FB0)
-#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A9300)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F9370)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETRECOMMENDDICEICONPATH_OFFSET UNITYSDK_OFFSET(0x1C7F8AA0)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETRECOMMENDEDDICELIST_OFFSET UNITYSDK_OFFSET(0x1C7F8CD0)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETSHOWEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C7F9170)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETTOPHINTICONTYPE_OFFSET UNITYSDK_OFFSET(0x1C7F8F70)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINRECOMMENDEDDICELIST_OFFSET UNITYSDK_OFFSET(0x1C7F8940)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_ISINSKILLDICELIST_OFFSET UNITYSDK_OFFSET(0x1C7F8800)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_SETSHOWEFFECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C7F9220)
+#define RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_SETTOPHINTICONTYPE_OFFSET UNITYSDK_OFFSET(0x1C7F9020)
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatPreviewInfo_TypeDefinitionIndex = 35811;
-
 	class DiceCombatPreviewInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::LittleGameShare::DiceCombatCore::DiceCombatDiceEffectType>* _DiceEffectTypeMap; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::LittleGameShare::DiceCombatCore::DiceCombatTopHintIconType>* _TopHintIconTypeMap; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* SkillDiceList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::Class_1_0E117AC86D8E5BCA*, ::System::String*>* RecommendedDiceIconPathMap; // 0x28
-		::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* ShowEffectDiceList; // 0x30
+		::System::Collections::Generic::Dictionary_2<::GLPPDCIBMIH*, ::System::String*>* RecommendedDiceIconPathMap; // 0x10
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* SkillDiceList; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::LittleGameShare::DiceCombatCore::DiceCombatDiceEffectType>* _DiceEffectTypeMap; // 0x20
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* ShowEffectDiceList; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::LittleGameShare::DiceCombatCore::DiceCombatTopHintIconType>* _TopHintIconTypeMap; // 0x30
 		::System::Int32 BasePoint; // 0x38
-		::System::Int32 ExtraPoint; // 0x3C
-		::System::Int32 AdditivePoint; // 0x40
+		::System::Int32 AdditivePoint; // 0x3C
+		::System::Int32 ExtraPoint; // 0x40
 		::System::Boolean WeatherTriggered; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsInSkillDiceList(::System::UInt32 a1, ::System::Int32 a2)
@@ -56,9 +52,9 @@ namespace RPG::LittleGameShare::DiceCombatCore
 			return ((::System::String*(*)(::PVOID, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETRECOMMENDDICEICONPATH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>* GetRecommendedDiceList()
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* GetRecommendedDiceList()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_0E117AC86D8E5BCA*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETRECOMMENDEDDICELIST_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::GLPPDCIBMIH*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_GETRECOMMENDEDDICELIST_OFFSET))(this);
 		}
 
 		::RPG::LittleGameShare::DiceCombatCore::DiceCombatTopHintIconType GetTopHintIconType(::System::UInt32 a1)
@@ -80,5 +76,6 @@ namespace RPG::LittleGameShare::DiceCombatCore
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::LittleGameShare::DiceCombatCore::DiceCombatDiceEffectType))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_DICECOMBATCORE_DICECOMBATPREVIEWINFO_SETSHOWEFFECTTYPE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

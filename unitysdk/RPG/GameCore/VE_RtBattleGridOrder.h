@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ValueEvaluatorConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class VE_RtBattleGridOrder; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_1F98DA12DEAB312A_OFFSET UNITYSDK_OFFSET(0x1D68E510)
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_4FEAAC22578428B3_OFFSET UNITYSDK_OFFSET(0x1D68E700)
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_57A78D7058BEAF9D_OFFSET UNITYSDK_OFFSET(0x1D68E550)
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_5BB1B665EA74DBD4_OFFSET UNITYSDK_OFFSET(0x1D68E6D0)
-#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D68E540)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC82BB0)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DC82D70)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC82D40)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC82BC0)
+#define RPG_GAMECORE_VE_RTBATTLEGRIDORDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC82B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VE_RtBattleGridOrder_TypeDefinitionIndex = 23986;
-
 	class VE_RtBattleGridOrder : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1F98DA12DEAB312A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattleGridOrder*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattleGridOrder*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_1F98DA12DEAB312A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_57A78D7058BEAF9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_57A78D7058BEAF9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5BB1B665EA74DBD4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattleGridOrder*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattleGridOrder*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_5BB1B665EA74DBD4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4FEAAC22578428B3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::VE_RtBattleGridOrder* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_METHOD_3_4FEAAC22578428B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::VE_RtBattleGridOrder*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VE_RTBATTLEGRIDORDER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

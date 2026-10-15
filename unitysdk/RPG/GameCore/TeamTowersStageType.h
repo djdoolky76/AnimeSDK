@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersStageType_TypeDefinitionIndex = 12387;
-
 	enum class TeamTowersStageType : ::System::Int32
 	{
 		Invalid = 0,

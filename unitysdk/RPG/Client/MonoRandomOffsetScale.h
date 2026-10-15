@@ -2,20 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-class Class_2_90B76BC9152631D1;
+class JFOKKAGGJLO;
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD859020)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD8591B0)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD859090)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD859160)
-#define RPG_CLIENT_MONORANDOMOFFSETSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0xD859240)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD859A10)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0xD859C30)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD859BA0)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD859A80)
+#define RPG_CLIENT_MONORANDOMOFFSETSCALE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD859B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRandomOffsetScale_TypeDefinitionIndex = 68583;
-
 	class MonoRandomOffsetScale : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -23,11 +20,10 @@ namespace RPG::Client
 		::UnityEngine::Vector2 offsetScaleRange; // 0x20
 		::Il2CppArray<::UnityEngine::GameObject*>* offsetRoot; // 0x28
 		::Il2CppArray<::System::Single>* Offset; // 0x30
-		::Class_2_90B76BC9152631D1* _Behavior; // 0x38
-
+		::JFOKKAGGJLO* _Behavior; // 0x38
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANDOMOFFSETSCALE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANDOMOFFSETSCALE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -49,5 +45,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONORANDOMOFFSETSCALE_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

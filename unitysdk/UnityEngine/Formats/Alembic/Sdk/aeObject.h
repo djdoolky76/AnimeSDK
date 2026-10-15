@@ -1,96 +1,94 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aePropertyType.h"
-
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/CameraData.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aePointsData.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aePolyMeshData.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aeProperty.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aeXformData.h"
 namespace System { class String; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_ADDFACESET_OFFSET UNITYSDK_OFFSET(0x3BAB3C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_MARKFORCEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x3BAB590)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWCAMERA_OFFSET UNITYSDK_OFFSET(0x3BAB030)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPOINTS_OFFSET UNITYSDK_OFFSET(0x3BAB0E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPOLYMESH_OFFSET UNITYSDK_OFFSET(0x3BAB190)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPROPERTY_OFFSET UNITYSDK_OFFSET(0x3BAB4E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWXFORM_OFFSET UNITYSDK_OFFSET(0x3BAAF80)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_SANITIZENAME_OFFSET UNITYSDK_OFFSET(0x1EAB5D00)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_1_OFFSET UNITYSDK_OFFSET(0x3BAB2C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_2_OFFSET UNITYSDK_OFFSET(0x3BAB340)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_3_OFFSET UNITYSDK_OFFSET(0x3BAB460)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_OFFSET UNITYSDK_OFFSET(0x3BAB240)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC610)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_ADDFACESET_OFFSET UNITYSDK_OFFSET(0x3C607A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_MARKFORCEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x3C60970)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWCAMERA_OFFSET UNITYSDK_OFFSET(0x3C60410)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPOINTS_OFFSET UNITYSDK_OFFSET(0x3C604C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPOLYMESH_OFFSET UNITYSDK_OFFSET(0x3C60570)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPROPERTY_OFFSET UNITYSDK_OFFSET(0x3C608C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWXFORM_OFFSET UNITYSDK_OFFSET(0x3C60360)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_SANITIZENAME_OFFSET UNITYSDK_OFFSET(0x1F17D560)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_1_OFFSET UNITYSDK_OFFSET(0x3C606A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_2_OFFSET UNITYSDK_OFFSET(0x3C60720)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_3_OFFSET UNITYSDK_OFFSET(0x3C60840)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_OFFSET UNITYSDK_OFFSET(0x3C60620)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aeObject_TypeDefinitionIndex = 44651;
-
-	struct alignas(8) aeObject
+	struct alignas(4) aeObject
 	{
 		::System::IntPtr self; // 0x10
-
 		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_CTOR_OFFSET))(this, a1);
 		}
 
+		/*
 		::UnityEngine::Formats::Alembic::Sdk::aeObject NewXform(::System::String* a1, ::System::Int32 a2)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aeObject(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWXFORM_OFFSET))(this, a1, a2);
 		}
+		*/
 
+		/*
 		::UnityEngine::Formats::Alembic::Sdk::aeObject NewCamera(::System::String* a1, ::System::Int32 a2)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aeObject(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWCAMERA_OFFSET))(this, a1, a2);
 		}
+		*/
 
+		/*
 		::UnityEngine::Formats::Alembic::Sdk::aeObject NewPoints(::System::String* a1, ::System::Int32 a2)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aeObject(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPOINTS_OFFSET))(this, a1, a2);
 		}
+		*/
 
+		/*
 		::UnityEngine::Formats::Alembic::Sdk::aeObject NewPolyMesh(::System::String* a1, ::System::Int32 a2)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aeObject(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPOLYMESH_OFFSET))(this, a1, a2);
 		}
-
-		/*
-		::System::Void WriteSample(::UnityEngine::Formats::Alembic::Sdk::aeXformData& a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeXformData&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_OFFSET))(this, a1);
-		}
 		*/
 
-		/*
-		::System::Void WriteSample_1(::UnityEngine::Formats::Alembic::Sdk::CameraData& a1)
+		::System::Void WriteSample(::UnityEngine::Formats::Alembic::Sdk::aeXformData a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::CameraData&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aeXformData))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
-		::System::Void WriteSample_2(::UnityEngine::Formats::Alembic::Sdk::aePolyMeshData& a1)
+		::System::Void WriteSample_1(::UnityEngine::Formats::Alembic::Sdk::CameraData a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aePolyMeshData&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::CameraData))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_1_OFFSET))(this, a1);
 		}
-		*/
+
+		::System::Void WriteSample_2(::UnityEngine::Formats::Alembic::Sdk::aePolyMeshData a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aePolyMeshData))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_2_OFFSET))(this, a1);
+		}
 
 		::System::Void AddFaceSet(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_ADDFACESET_OFFSET))(this, a1);
 		}
 
-		/*
-		::System::Void WriteSample_3(::UnityEngine::Formats::Alembic::Sdk::aePointsData& a1)
+		::System::Void WriteSample_3(::UnityEngine::Formats::Alembic::Sdk::aePointsData a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aePointsData&))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Sdk::aePointsData))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_WRITESAMPLE_3_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Formats::Alembic::Sdk::aeProperty NewProperty(::System::String* a1, ::UnityEngine::Formats::Alembic::Sdk::aePropertyType a2)
 		{
 			return ((::UnityEngine::Formats::Alembic::Sdk::aeProperty(*)(::PVOID, ::System::String*, ::UnityEngine::Formats::Alembic::Sdk::aePropertyType))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_NEWPROPERTY_OFFSET))(this, a1, a2);
 		}
-		*/
 
 		::System::Void MarkForceInvisible()
 		{
@@ -101,5 +99,6 @@ namespace UnityEngine::Formats::Alembic::Sdk
 		{
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_SDK_AEOBJECT_SANITIZENAME_OFFSET))(a1);
 		}
+
 	};
 }

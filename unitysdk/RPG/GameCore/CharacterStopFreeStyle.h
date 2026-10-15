@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterStopFreeStyle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE_METHOD_3_3087A48B3C2CD3F5_OFFSET UNITYSDK_OFFSET(0x1CF9E9F0)
-#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE_METHOD_3_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x1CF9EC30)
-#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE_METHOD_3_EFDD84F3E76A7DAC_OFFSET UNITYSDK_OFFSET(0x1CF9E9A0)
-#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF9E9E0)
+#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D579780)
+#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE_IACFALNNPHJ_OFFSET UNITYSDK_OFFSET(0x1D5799D0)
+#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D579790)
+#define RPG_GAMECORE_CHARACTERSTOPFREESTYLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D579740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterStopFreeStyle_TypeDefinitionIndex = 21660;
-
 	class CharacterStopFreeStyle : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,26 +20,27 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::System::Single NormalizedTransitionDuration; // 0x28
 		::System::Boolean WaitTransitionFinish; // 0x2C
+		::System::Byte _padding0[0x3];
 		::System::String* LayerName; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EFDD84F3E76A7DAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterStopFreeStyle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterStopFreeStyle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterStopFreeStyle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE_METHOD_3_EFDD84F3E76A7DAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterStopFreeStyle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3087A48B3C2CD3F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterStopFreeStyle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterStopFreeStyle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterStopFreeStyle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE_METHOD_3_3087A48B3C2CD3F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterStopFreeStyle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Method_3_CE18697B63E52504()
+		::System::Boolean IACFALNNPHJ()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE_METHOD_3_CE18697B63E52504_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTOPFREESTYLE_IACFALNNPHJ_OFFSET))(this);
 		}
+
 	};
 }

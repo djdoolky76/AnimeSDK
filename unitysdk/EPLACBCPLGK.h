@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class LittleGameEntityConfig; }
+
+#define EPLACBCPLGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C610D10)
+
+	class EPLACBCPLGK : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::LittleGameEntityConfig* EABKOHGCHFP; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPLACBCPLGK_CTOR_OFFSET))(this);
+		}
+
+	};

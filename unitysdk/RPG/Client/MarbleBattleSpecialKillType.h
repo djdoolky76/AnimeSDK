@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleSpecialKillType_TypeDefinitionIndex = 65879;
-
 	enum class MarbleBattleSpecialKillType : ::System::Int32
 	{
 		Normal = 0,

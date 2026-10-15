@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterModelFxType_TypeDefinitionIndex = 57354;
-
 	enum class CharacterModelFxType : ::System::Int32
 	{
 		SelectFriend = 0,

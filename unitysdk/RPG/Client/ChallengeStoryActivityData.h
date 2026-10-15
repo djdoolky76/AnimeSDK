@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CustomizedActivityPanelData.h"
-
 namespace RPG::Client { class ChallengeGroupData; }
 namespace RPG::Client { class ScheduleData; }
 namespace RPG::Client { class ScheduleTask; }
 
-#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_ISNEW_OFFSET UNITYSDK_OFFSET(0xCABC2C0)
-#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xCABBF70)
-#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_SYNCSCHEDULE_OFFSET UNITYSDK_OFFSET(0xCABB930)
-#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_UPDATEREDDOTSTATUS_OFFSET UNITYSDK_OFFSET(0xCABC420)
-#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCABB860)
-#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA__ONSCHEDULEENDS_OFFSET UNITYSDK_OFFSET(0xCABC550)
+#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC9BCA80)
+#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_ISNEW_OFFSET UNITYSDK_OFFSET(0xC9BD4A0)
+#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xC9BD150)
+#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_SYNCSCHEDULE_OFFSET UNITYSDK_OFFSET(0xC9BCB50)
+#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_UPDATEREDDOTSTATUS_OFFSET UNITYSDK_OFFSET(0xC9BD600)
+#define RPG_CLIENT_CHALLENGESTORYACTIVITYDATA__ONSCHEDULEENDS_OFFSET UNITYSDK_OFFSET(0xC9BD6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeStoryActivityData_TypeDefinitionIndex = 61696;
-
 	class ChallengeStoryActivityData : public ::RPG::Client::CustomizedActivityPanelData
 	{
 	public:
-		::RPG::Client::ScheduleTask* _WaitCloseTask; // 0xA8
-		::RPG::Client::ChallengeGroupData* CurShowChallengeGroupData; // 0xB0
+		::RPG::Client::ChallengeGroupData* CurShowChallengeGroupData; // 0xA8
+		::RPG::Client::ScheduleTask* _WaitCloseTask; // 0xB0
 		::System::Int32 _DelayDays; // 0xB8
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYACTIVITYDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYACTIVITYDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void SyncSchedule()
@@ -53,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ScheduleData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGESTORYACTIVITYDATA__ONSCHEDULEENDS_OFFSET))(this, a1);
 		}
+
 	};
 }

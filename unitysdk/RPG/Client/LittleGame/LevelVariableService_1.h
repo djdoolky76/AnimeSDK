@@ -1,28 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_ABF277A1ED07907B;
-namespace Entitas { template <typename T> class IContext_1; }
-namespace RPG::GameCore { class DynamicFloat; }
-namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
-namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
+namespace Entitas { class IContext; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LevelVariableService_1_TypeDefinitionIndex = 76027;
-
-	template <typename TEntity>
+	template <typename T>
 	class LevelVariableService_1 : public ::System::Object
 	{
 	public:
-		::Entitas::IContext_1<TEntity>* _Context; // 0x0
+		::Entitas::IContext* _Context; // 0x0
 		::System::Int32 _LevelVarEntityID; // 0x0
-		::System::Action_1<::System::String*>* _LogErrorAction; // 0x0
-		::System::Action_1<::System::String*>* _LogErrorActionCache; // 0x0
+		::System::Action* _LogErrorAction; // 0x0
+		::System::Action* _LogErrorActionCache; // 0x0
 	};
 }

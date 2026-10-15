@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityEffectConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
+namespace RPG::GameCore { class LittleGameAbilityEffectMultiplyShieldConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_METHOD_3_00580BEEDAD158D1_OFFSET UNITYSDK_OFFSET(0x1D1F9310)
-#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_METHOD_3_4852F881812C7825_OFFSET UNITYSDK_OFFSET(0x1D1F93E0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F93D0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D6F30)
+#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D6F40)
+#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D6E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityEffectMultiplyShieldConfig_TypeDefinitionIndex = 21103;
-
 	class LittleGameAbilityEffectMultiplyShieldConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:
 		::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig* Multiplier; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_00580BEEDAD158D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_METHOD_3_00580BEEDAD158D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4852F881812C7825(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_METHOD_3_4852F881812C7825_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityEffectMultiplyShieldConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTMULTIPLYSHIELDCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

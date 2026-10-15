@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_NodeType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_NodeInfo_TypeDefinitionIndex = 39201;
-
 	struct alignas(4) HAPI_NodeInfo
 	{
 		::System::Int32 id; // 0x10
@@ -14,6 +11,7 @@ namespace HoudiniEngineUnity
 		::System::Int32 nameSH; // 0x18
 		::HoudiniEngineUnity::HAPI_NodeType type; // 0x1C
 		::System::Boolean isValid; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 totalCookCount; // 0x24
 		::System::Int32 uniqueHoudiniNodeId; // 0x28
 		::System::Int32 internalNodePathSH; // 0x2C

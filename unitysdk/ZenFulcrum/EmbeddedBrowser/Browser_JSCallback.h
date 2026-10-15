@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF80F50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF80F80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF7FCB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF80E60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F648CF0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F648C00)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F648D20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F647A50)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser_JSCallback_TypeDefinitionIndex = 38035;
-
 	class Browser_JSCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::ZenFulcrum::EmbeddedBrowser::JSONNode* a1)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER_JSCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

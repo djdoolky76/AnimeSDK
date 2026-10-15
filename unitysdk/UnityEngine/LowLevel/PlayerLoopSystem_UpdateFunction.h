@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2E380)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2E3B0)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2E370)
-#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2E300)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3F5EA0)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F5E20)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3F5ED0)
+#define UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3F5E90)
 
 namespace UnityEngine::LowLevel
 {
-	inline static constexpr unsigned int PlayerLoopSystem_UpdateFunction_TypeDefinitionIndex = 4537;
-
 	class PlayerLoopSystem_UpdateFunction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace UnityEngine::LowLevel
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_LOWLEVEL_PLAYERLOOPSYSTEM_UPDATEFUNCTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

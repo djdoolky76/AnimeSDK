@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRNotificationError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB7860)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB78B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB7850)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB77E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67FDD0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67FD50)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67FE20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F67FDC0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRNotifications__RemoveNotification_TypeDefinitionIndex = 37864;
-
 	class IVRNotifications__RemoveNotification : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError Invoke(::System::UInt32 a1)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRNotificationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRNOTIFICATIONS__REMOVENOTIFICATION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

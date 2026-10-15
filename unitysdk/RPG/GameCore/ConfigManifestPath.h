@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ConfigManifestPath; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONFIGMANIFESTPATH_METHOD_2_E6048DD50E1B3CCC_OFFSET UNITYSDK_OFFSET(0x1CFF98C0)
-#define RPG_GAMECORE_CONFIGMANIFESTPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF9F10)
+#define RPG_GAMECORE_CONFIGMANIFESTPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D5D70)
+#define RPG_GAMECORE_CONFIGMANIFESTPATH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D56C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigManifestPath_TypeDefinitionIndex = 16933;
-
 	class ConfigManifestPath : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -23,24 +21,25 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* BattleLineupMazeBuffConfig; // 0x38
 		::Il2CppArray<::System::String*>* BattleLineupSkillTreePresetConfig; // 0x40
 		::Il2CppArray<::System::String*>* BattleLineupCEPresetConfig; // 0x48
-		::Il2CppArray<::System::String*>* GlobalModifierConfig; // 0x50
-		::Il2CppArray<::System::String*>* AdventureModifierConfig; // 0x58
-		::Il2CppArray<::System::String*>* GlobalRtModifierConfig; // 0x60
-		::Il2CppArray<::System::String*>* ComplexSkillAIGlobalGroupConfig; // 0x68
-		::Il2CppArray<::System::String*>* GlobalTaskTemplate; // 0x70
-		::Il2CppArray<::System::String*>* CommonSkillPoolConfig; // 0x78
-		::Il2CppArray<::System::String*>* GlobalFormationAsset; // 0x80
-		::Il2CppArray<::System::String*>* TargetAliasConfig; // 0x88
-		::Il2CppArray<::System::String*>* TargetOperationConfig; // 0x90
-
+		::Il2CppArray<::System::String*>* BattleLineupDevPresetConfig; // 0x50
+		::Il2CppArray<::System::String*>* GlobalModifierConfig; // 0x58
+		::Il2CppArray<::System::String*>* AdventureModifierConfig; // 0x60
+		::Il2CppArray<::System::String*>* GlobalRtModifierConfig; // 0x68
+		::Il2CppArray<::System::String*>* ComplexSkillAIGlobalGroupConfig; // 0x70
+		::Il2CppArray<::System::String*>* GlobalTaskTemplate; // 0x78
+		::Il2CppArray<::System::String*>* CommonSkillPoolConfig; // 0x80
+		::Il2CppArray<::System::String*>* GlobalFormationAsset; // 0x88
+		::Il2CppArray<::System::String*>* TargetAliasConfig; // 0x90
+		::Il2CppArray<::System::String*>* TargetOperationConfig; // 0x98
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFESTPATH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFESTPATH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E6048DD50E1B3CCC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfigManifestPath*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ConfigManifestPath* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConfigManifestPath*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFESTPATH_METHOD_2_E6048DD50E1B3CCC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ConfigManifestPath*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIGMANIFESTPATH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

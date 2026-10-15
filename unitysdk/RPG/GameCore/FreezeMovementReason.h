@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreezeMovementReason_TypeDefinitionIndex = 57177;
-
 	enum class FreezeMovementReason : ::System::Int32
 	{
 		FreezeFeature = 1,

@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MapRotationVolumeSlotConfigBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_METHOD_2_07E7ADE576A54DEF_OFFSET UNITYSDK_OFFSET(0x1D227CF0)
-#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_METHOD_2_D09F207CF7F8D1AB_OFFSET UNITYSDK_OFFSET(0x1D227E80)
-#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D227B60)
+#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D830AF0)
+#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D830E10)
+#define RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D830C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationVolumeSlotConfigBase_TypeDefinitionIndex = 22057;
-
 	class MapRotationVolumeSlotConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 SlotID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_07E7ADE576A54DEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationVolumeSlotConfigBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapRotationVolumeSlotConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationVolumeSlotConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_METHOD_2_07E7ADE576A54DEF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapRotationVolumeSlotConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_D09F207CF7F8D1AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationVolumeSlotConfigBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapRotationVolumeSlotConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationVolumeSlotConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_METHOD_2_D09F207CF7F8D1AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapRotationVolumeSlotConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONVOLUMESLOTCONFIGBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

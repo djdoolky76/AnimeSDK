@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int Match3BattleState_TypeDefinitionIndex = 41386;
-
 	enum class Match3BattleState : ::System::Int32
 	{
 		Preparing = 0,

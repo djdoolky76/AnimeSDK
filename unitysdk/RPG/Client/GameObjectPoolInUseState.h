@@ -3,12 +3,10 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameObjectPoolInUseState_TypeDefinitionIndex = 59523;
-
 	enum class GameObjectPoolInUseState : ::System::Byte
 	{
-		Unused = 0x0,
-		UnusedInCache = 0x1,
-		InUse = 0x2,
+		Unused = 0,
+		UnusedInCache = 1,
+		InUse = 2,
 	};
 }

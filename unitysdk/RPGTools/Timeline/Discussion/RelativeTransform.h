@@ -1,22 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALFINALPOSITION_OFFSET UNITYSDK_OFFSET(0x25F20)
-#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALFINALROTATION_OFFSET UNITYSDK_OFFSET(0x15E010)
-#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALPOSITION_OFFSET UNITYSDK_OFFSET(0x15DEC0)
-#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALROTATION_OFFSET UNITYSDK_OFFSET(0x15DF50)
-#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_SET_FINALFINALPOSITION_OFFSET UNITYSDK_OFFSET(0x15E000)
-#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_SET_FINALFINALROTATION_OFFSET UNITYSDK_OFFSET(0x15E020)
+#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALFINALPOSITION_OFFSET UNITYSDK_OFFSET(0x2110)
+#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALFINALROTATION_OFFSET UNITYSDK_OFFSET(0xF7C00)
+#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALPOSITION_OFFSET UNITYSDK_OFFSET(0xF7AB0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALROTATION_OFFSET UNITYSDK_OFFSET(0xF7B40)
+#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_SET_FINALFINALPOSITION_OFFSET UNITYSDK_OFFSET(0xF7BF0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_SET_FINALFINALROTATION_OFFSET UNITYSDK_OFFSET(0xF7C10)
 
 namespace RPGTools::Timeline::Discussion
 {
-	inline static constexpr unsigned int RelativeTransform_TypeDefinitionIndex = 49234;
-
 	struct alignas(8) RelativeTransform
 	{
 		::UnityEngine::Vector3 rawPosition; // 0x10
@@ -25,12 +21,13 @@ namespace RPGTools::Timeline::Discussion
 		::UnityEngine::Vector3 offsetPosition; // 0x28
 		::System::Single offsetForward; // 0x34
 		::System::Boolean overrideForward; // 0x38
+		::System::Byte _padding0[0x7];
 		::System::String* ForwardTargetAnchorName; // 0x40
 		::System::String* ForwardTargetUniqueName; // 0x48
 		::System::Boolean StickToGround; // 0x50
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector3 _FinalFinalPosition_k__BackingField; // 0x54
 		::UnityEngine::Quaternion _FinalFinalRotation_k__BackingField; // 0x60
-
 		::UnityEngine::Vector3 get_FinalPosition()
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_GET_FINALPOSITION_OFFSET))(this);
@@ -60,5 +57,6 @@ namespace RPGTools::Timeline::Discussion
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_RELATIVETRANSFORM_SET_FINALFINALROTATION_OFFSET))(this, a1);
 		}
+
 	};
 }

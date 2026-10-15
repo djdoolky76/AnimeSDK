@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumMissionType_TypeDefinitionIndex = 14135;
-
 	enum class MuseumMissionType : ::System::Int32
 	{
 		None = 0,

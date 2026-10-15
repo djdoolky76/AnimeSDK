@@ -5,12 +5,9 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Circle.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Polygon.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Segment.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeUnion_TypeDefinitionIndex = 36083;
-
 	struct alignas(4) B2ShapeUnion
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Capsule capsule; // 0x10

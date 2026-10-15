@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueSubMode_TypeDefinitionIndex = 10573;
-
 	enum class RogueSubMode : ::System::Int32
 	{
 		None = 0,

@@ -1,28 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_CLONE_OFFSET UNITYSDK_OFFSET(0x3B6F620)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_GETDATA_OFFSET UNITYSDK_OFFSET(0x3B6F660)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_GET_HASINFO_OFFSET UNITYSDK_OFFSET(0x3B6F600)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x2E7B630)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER__CTOR_OFFSET UNITYSDK_OFFSET(0xC610)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_CLONE_OFFSET UNITYSDK_OFFSET(0x3C23F40)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_GETDATA_OFFSET UNITYSDK_OFFSET(0x3C23F80)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_GET_HASINFO_OFFSET UNITYSDK_OFFSET(0x3C23F20)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_GET_ISNULL_OFFSET UNITYSDK_OFFSET(0x2F097F0)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int LogicalCallContext_Reader_TypeDefinitionIndex = 1293;
-
 	struct alignas(8) LogicalCallContext_Reader
 	{
 		::System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx; // 0x10
-
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::LogicalCallContext* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::LogicalCallContext*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::LogicalCallContext*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsNull()
@@ -44,5 +39,6 @@ namespace System::Runtime::Remoting::Messaging
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_LOGICALCALLCONTEXT_READER_GETDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

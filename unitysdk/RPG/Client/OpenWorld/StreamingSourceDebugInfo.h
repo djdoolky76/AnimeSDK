@@ -1,62 +1,62 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_CBD09AB0890B337E.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_DE4C6B309308A230;
+#include "unitysdk/LPMONNHABLI.h"
+class APLEMBNFLAA;
 namespace System { class String; }
 
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_2A5799BE64F46116_OFFSET UNITYSDK_OFFSET(0xDA031A0)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_A959CCC503F0030B_OFFSET UNITYSDK_OFFSET(0xDA02F60)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xDA02D30)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA03440)
-#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xDA03430)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA0D730)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0D720)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_EDFJBMNKAHA_OFFSET UNITYSDK_OFFSET(0xDA0D250)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_HEJIJGENIFL_OFFSET UNITYSDK_OFFSET(0xDA0D490)
+#define RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xDA0D020)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int StreamingSourceDebugInfo_TypeDefinitionIndex = 73837;
-
 	class StreamingSourceDebugInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_MMDBIBADGPK()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(StreamingSourceDebugInfo_TypeDefinitionIndex)->GetStaticField(0x41C60);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_DIIOBHMCNMN()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(StreamingSourceDebugInfo_TypeDefinitionIndex)->GetStaticField(0x41C68);
-		}
 		::System::Int32 _EffectTypeMask; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* _EffectTypeNames; // 0x20
 		::System::String* _AttachTargetType; // 0x28
 		::System::String* _AttachTargetInfo; // 0x30
 		::UnityEngine::Vector3 _AttachPosition; // 0x38
+		static ::Il2CppArray<::System::String*>** StaticGet_MMDBIBADGPK()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "StreamingSourceDebugInfo")->GetStaticField(0xD8A0);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_DIIOBHMCNMN()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPG.Client.OpenWorld", "StreamingSourceDebugInfo")->GetStaticField(0xD8A8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_CCTOR_OFFSET))();
 		}
 
-		::System::Void UpdateInfo(::Class_1_DE4C6B309308A230* a1)
+		::System::Void UpdateInfo(::APLEMBNFLAA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_DE4C6B309308A230*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::APLEMBNFLAA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_UPDATEINFO_OFFSET))(this, a1);
 		}
 
-		static ::System::String* Method_5_A959CCC503F0030B(::System::Int32 a1)
+		static ::System::String* EDFJBMNKAHA(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_A959CCC503F0030B_OFFSET))(a1);
+			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_EDFJBMNKAHA_OFFSET))(a1);
 		}
 
-		static ::System::String* Method_5_2A5799BE64F46116(::Struct_2_CBD09AB0890B337E a1)
+		static ::System::String* HEJIJGENIFL(::LPMONNHABLI a1)
 		{
-			return ((::System::String*(*)(::Struct_2_CBD09AB0890B337E))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_METHOD_5_2A5799BE64F46116_OFFSET))(a1);
+			return ((::System::String*(*)(::LPMONNHABLI))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_STREAMINGSOURCEDEBUGINFO_HEJIJGENIFL_OFFSET))(a1);
 		}
+
 	};
 }

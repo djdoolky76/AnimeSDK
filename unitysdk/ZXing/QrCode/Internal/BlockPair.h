@@ -2,23 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZXING_QRCODE_INTERNAL_BLOCKPAIR_GET_DATABYTES_OFFSET UNITYSDK_OFFSET(0x1F009BB0)
-#define ZXING_QRCODE_INTERNAL_BLOCKPAIR_GET_ERRORCORRECTIONBYTES_OFFSET UNITYSDK_OFFSET(0x1F009BC0)
-#define ZXING_QRCODE_INTERNAL_BLOCKPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1F009BA0)
+#define ZXING_QRCODE_INTERNAL_BLOCKPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6D20F0)
+#define ZXING_QRCODE_INTERNAL_BLOCKPAIR_GET_DATABYTES_OFFSET UNITYSDK_OFFSET(0x1F6D2100)
+#define ZXING_QRCODE_INTERNAL_BLOCKPAIR_GET_ERRORCORRECTIONBYTES_OFFSET UNITYSDK_OFFSET(0x1F6D2110)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int BlockPair_TypeDefinitionIndex = 6982;
-
 	class BlockPair : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* dataBytes; // 0x10
-		::Il2CppArray<::System::Byte>* errorCorrectionBytes; // 0x18
-
+		::Il2CppArray<::System::Byte>* errorCorrectionBytes; // 0x10
+		::Il2CppArray<::System::Byte>* dataBytes; // 0x18
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_BLOCKPAIR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_BLOCKPAIR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Il2CppArray<::System::Byte>* get_DataBytes()
@@ -30,5 +27,6 @@ namespace ZXing::QrCode::Internal
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_BLOCKPAIR_GET_ERRORCORRECTIONBYTES_OFFSET))(this);
 		}
+
 	};
 }

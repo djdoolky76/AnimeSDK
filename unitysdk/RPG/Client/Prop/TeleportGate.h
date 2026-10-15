@@ -1,15 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Prop/TeleportGateInfo.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_0_16E4307DCC419505_460;
-class Class_1_0D98CBE9A89A1626;
-class Class_1_E45C207B1AC948BE;
-class Class_2_01F4079471966D8C;
-class Class_2_1442FB89FB5D457F;
+#include "unitysdk/RPG/Client/Prop/TeleportGateInfo.h"
+class AEHGMMGLPAB;
+class DBMDNNBIOAI;
+class EKFMIDBJDIA;
+class MKEPJNNPDNP;
+class PKLHDDGKKOC;
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace RPG::Client::Prop { class TeleportGatePuzzleBoard; }
 namespace RPG::GameCore { class AdventureCharacterController; }
@@ -24,114 +23,122 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_TELEPORTGATE_ACTIVEGATE_OFFSET UNITYSDK_OFFSET(0xDD35270)
-#define RPG_CLIENT_PROP_TELEPORTGATE_DISABLETRIGGER_OFFSET UNITYSDK_OFFSET(0xDD35070)
-#define RPG_CLIENT_PROP_TELEPORTGATE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD346C0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_DOROTATE_OFFSET UNITYSDK_OFFSET(0xDD35380)
-#define RPG_CLIENT_PROP_TELEPORTGATE_ENABLETRIGGER_OFFSET UNITYSDK_OFFSET(0xDD350D0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_GETPROP_OFFSET UNITYSDK_OFFSET(0xDD355D0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_GET_FODBIDAIMROTATION_OFFSET UNITYSDK_OFFSET(0xDD36BC0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xDD36BA0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_GET_ISGATEACTIVE_OFFSET UNITYSDK_OFFSET(0xDD36B80)
-#define RPG_CLIENT_PROP_TELEPORTGATE_INITGATE_OFFSET UNITYSDK_OFFSET(0xDD33CF0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xDD34C20)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xDD35210)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_2C825E716CE9F2F9_OFFSET UNITYSDK_OFFSET(0xDD34550)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_347F18FA30CEE25E_OFFSET UNITYSDK_OFFSET(0xDD35F30)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_36F46336ADA62D13_OFFSET UNITYSDK_OFFSET(0xDD35A90)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_3D0029931D25E87E_OFFSET UNITYSDK_OFFSET(0xDD354D0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_4795F6BF5D7D71FF_OFFSET UNITYSDK_OFFSET(0xDD363F0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_5B0531D5B96D6B96_OFFSET UNITYSDK_OFFSET(0xDD35660)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0xDD36650)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0xDD35610)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_816ED7FC0A7FCCD1_OFFSET UNITYSDK_OFFSET(0xDD35F80)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xDD366D0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_B0351A8151A472A4_OFFSET UNITYSDK_OFFSET(0xDD36330)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xDD34470)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_B945ACB0EE6F50D4_OFFSET UNITYSDK_OFFSET(0xDD36720)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_FA58824BA12F6F62_1_OFFSET UNITYSDK_OFFSET(0xDD36A80)
-#define RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_FA58824BA12F6F62_OFFSET UNITYSDK_OFFSET(0xDD36980)
-#define RPG_CLIENT_PROP_TELEPORTGATE_SETFORBIDAIMROTATION_OFFSET UNITYSDK_OFFSET(0xDD35580)
-#define RPG_CLIENT_PROP_TELEPORTGATE_SETGATECONNECTED_OFFSET UNITYSDK_OFFSET(0xDD352F0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_SETGATEISOLATED_OFFSET UNITYSDK_OFFSET(0xDD35020)
-#define RPG_CLIENT_PROP_TELEPORTGATE_SET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xDD36BB0)
-#define RPG_CLIENT_PROP_TELEPORTGATE_SET_ISGATEACTIVE_OFFSET UNITYSDK_OFFSET(0xDD36B90)
-#define RPG_CLIENT_PROP_TELEPORTGATE_TICK_OFFSET UNITYSDK_OFFSET(0xDD34F70)
-#define RPG_CLIENT_PROP_TELEPORTGATE__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD36C50)
-#define RPG_CLIENT_PROP_TELEPORTGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD36BD0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_ACTIVEGATE_OFFSET UNITYSDK_OFFSET(0xDDBDDC0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_ALGBFIAIMDJ_OFFSET UNITYSDK_OFFSET(0xDDBF1D0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_APPFPDHNPIN_OFFSET UNITYSDK_OFFSET(0xDDBE020)
+#define RPG_CLIENT_PROP_TELEPORTGATE_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDBF7D0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_CHJPKENLALE_OFFSET UNITYSDK_OFFSET(0xDDBF500)
+#define RPG_CLIENT_PROP_TELEPORTGATE_CHKJEGOMFAC_OFFSET UNITYSDK_OFFSET(0xDDBD0A0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_CMKFLMPBOBO_OFFSET UNITYSDK_OFFSET(0xDDBD770)
+#define RPG_CLIENT_PROP_TELEPORTGATE_CMNLKLJAPKH_OFFSET UNITYSDK_OFFSET(0xDDBE1B0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xDDBF750)
+#define RPG_CLIENT_PROP_TELEPORTGATE_DGFPGHDBHEO_OFFSET UNITYSDK_OFFSET(0xDDBF250)
+#define RPG_CLIENT_PROP_TELEPORTGATE_DISABLETRIGGER_OFFSET UNITYSDK_OFFSET(0xDDBDBC0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDDBD210)
+#define RPG_CLIENT_PROP_TELEPORTGATE_DOROTATE_OFFSET UNITYSDK_OFFSET(0xDDBDED0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_EGMPJBFIAOF_OFFSET UNITYSDK_OFFSET(0xDDBCFC0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_ENABLETRIGGER_OFFSET UNITYSDK_OFFSET(0xDDBDC20)
+#define RPG_CLIENT_PROP_TELEPORTGATE_FDBHNPOPGML_OFFSET UNITYSDK_OFFSET(0xDDBEAD0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_FFOACLJOLJK_OFFSET UNITYSDK_OFFSET(0xDDBDD60)
+#define RPG_CLIENT_PROP_TELEPORTGATE_FHAIFKOHCAH_OFFSET UNITYSDK_OFFSET(0xDDBEE80)
+#define RPG_CLIENT_PROP_TELEPORTGATE_FJHEIEFJGGM_OFFSET UNITYSDK_OFFSET(0xDDBF2A0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_GETPROP_OFFSET UNITYSDK_OFFSET(0xDDBE120)
+#define RPG_CLIENT_PROP_TELEPORTGATE_GET_FODBIDAIMROTATION_OFFSET UNITYSDK_OFFSET(0xDDBF740)
+#define RPG_CLIENT_PROP_TELEPORTGATE_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xDDBF720)
+#define RPG_CLIENT_PROP_TELEPORTGATE_GET_ISGATEACTIVE_OFFSET UNITYSDK_OFFSET(0xDDBF700)
+#define RPG_CLIENT_PROP_TELEPORTGATE_INITGATE_OFFSET UNITYSDK_OFFSET(0xDDBC840)
+#define RPG_CLIENT_PROP_TELEPORTGATE_JADCIAHCPHE_OFFSET UNITYSDK_OFFSET(0xDDBE160)
+#define RPG_CLIENT_PROP_TELEPORTGATE_LECJKBALDGA_OFFSET UNITYSDK_OFFSET(0xDDBEF40)
+#define RPG_CLIENT_PROP_TELEPORTGATE_LGJLKGFPFKF_OFFSET UNITYSDK_OFFSET(0xDDBF600)
+#define RPG_CLIENT_PROP_TELEPORTGATE_LOEDNMMDDIK_OFFSET UNITYSDK_OFFSET(0xDDBE5E0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_MCAELMFPMNG_OFFSET UNITYSDK_OFFSET(0xDDBEA80)
+#define RPG_CLIENT_PROP_TELEPORTGATE_SETFORBIDAIMROTATION_OFFSET UNITYSDK_OFFSET(0xDDBE0D0)
+#define RPG_CLIENT_PROP_TELEPORTGATE_SETGATECONNECTED_OFFSET UNITYSDK_OFFSET(0xDDBDE40)
+#define RPG_CLIENT_PROP_TELEPORTGATE_SETGATEISOLATED_OFFSET UNITYSDK_OFFSET(0xDDBDB70)
+#define RPG_CLIENT_PROP_TELEPORTGATE_SET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xDDBF730)
+#define RPG_CLIENT_PROP_TELEPORTGATE_SET_ISGATEACTIVE_OFFSET UNITYSDK_OFFSET(0xDDBF710)
+#define RPG_CLIENT_PROP_TELEPORTGATE_TICK_OFFSET UNITYSDK_OFFSET(0xDDBDAC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGate_TypeDefinitionIndex = 78417;
-
 	class TeleportGate : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_RotateSoundEvent()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TeleportGate_TypeDefinitionIndex)->GetStaticField(0x65E70);
-		}
-		static ::System::String** StaticGet_TeleportEndSoundEvent()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TeleportGate_TypeDefinitionIndex)->GetStaticField(0x65E78);
-		}
-		static ::System::String** StaticGet_TeleportingSoundEvent()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TeleportGate_TypeDefinitionIndex)->GetStaticField(0x65E80);
-		}
-		static ::System::String** StaticGet_StopTeleportingSoundEvent()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TeleportGate_TypeDefinitionIndex)->GetStaticField(0x65E88);
-		}
-		// static const ::System::Single MMFGJJKEGPC; // 0x0
 		::System::Boolean _IsGateActive_k__BackingField; // 0x18
 		::System::Boolean _IsConnected_k__BackingField; // 0x19
+		::System::Byte _padding0[0x6];
 		::UnityEngine::Transform* TeleportEndPositionObject; // 0x20
 		::System::Single FLHOEGBFPJB; // 0x28
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::Single>* PAEPLKIIICL; // 0x30
 		::RPG::Client::Prop::TeleportGatePuzzleBoard* COAMCKILKPH; // 0x38
 		::RPG::GameCore::PropComponent* NKILIBDMOMC; // 0x40
 		::System::Int32 OOJJEAJHBLG; // 0x48
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::GameEntity* CMNJDMKPPIA; // 0x50
 		::UnityEngine::Transform* DHDOBALIDKP; // 0x58
 		::RPG::GameCore::CharacterVisibleComponent* BILIDIDJJDN; // 0x60
 		::RPG::GameCore::AdventureCharacterController* MNBAPCPACFP; // 0x68
-		::Class_2_1442FB89FB5D457F* FMBMOLLKDHK; // 0x70
-		::Class_2_1442FB89FB5D457F* IJDFGKGOJKJ; // 0x78
-		::Class_1_0D98CBE9A89A1626* HKJNGDKDMNN; // 0x80
+		::MKEPJNNPDNP* FMBMOLLKDHK; // 0x70
+		::MKEPJNNPDNP* IJDFGKGOJKJ; // 0x78
+		::AEHGMMGLPAB* HKJNGDKDMNN; // 0x80
 		::BansheeGz::BGSpline::Components::BGCcMath* GCBACPNDCCP; // 0x88
 		::System::Boolean MEKAIIEIDHC; // 0x90
 		::System::Boolean CBBNEJAMPDP; // 0x91
 		::System::Boolean EGNEMDJGBEM; // 0x92
 		::System::Boolean HGABOBEIIGE; // 0x93
 		::System::Boolean DNGJBKHIJHK; // 0x94
+		::System::Byte _padding3[0x3];
 		::RPG::GameCore::TransformComponent* BALCPGFDOFI; // 0x98
-		::Class_2_01F4079471966D8C* LANIADMDJOD; // 0xA0
+		::PKLHDDGKKOC* LANIADMDJOD; // 0xA0
 		::System::Boolean BNBMIBGDDNE; // 0xA8
+		::System::Byte _padding4[0x7];
 		::System::String* EIAFFLBFMCL; // 0xB0
 		::System::String* APJNCPLNAMJ; // 0xB8
 		::System::String* BNPAPLGFBNH; // 0xC0
 		::System::Int32 DNOPAFEDOEI; // 0xC8
 		::System::Int32 IJCCHHGOCOF; // 0xCC
 		::System::Boolean CMILBEKNKPF; // 0xD0
+		::System::Byte _padding5[0x3];
 		::System::Single PJJLEJDPNHI; // 0xD4
-		::Class_1_E45C207B1AC948BE* GNJNMKMFDPN; // 0xD8
+		::DBMDNNBIOAI* GNJNMKMFDPN; // 0xD8
 		::System::Boolean HOJMOGKJBCP; // 0xE0
+		::System::Byte _padding6[0x3];
 		::System::Single FNFJHLEFNDF; // 0xE4
 		::UnityEngine::Coroutine* KLDPBIPCEEP; // 0xE8
 		::UnityEngine::Coroutine* JLLAFDIKHLH; // 0xF0
 		::UnityEngine::Vector3 MICPOHNHJNL; // 0xF8
 		::UnityEngine::Quaternion EPGGMLJOAAA; // 0x104
 		::System::Boolean OCPFGIJAKPK; // 0x114
+		static ::System::String** StaticGet_TeleportingSoundEvent()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "TeleportGate")->GetStaticField(0x5E650);
+		}
 
+		static ::System::String** StaticGet_RotateSoundEvent()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "TeleportGate")->GetStaticField(0x5E658);
+		}
+
+		static ::System::String** StaticGet_TeleportEndSoundEvent()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "TeleportGate")->GetStaticField(0x5E660);
+		}
+
+		static ::System::String** StaticGet_StopTeleportingSoundEvent()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "TeleportGate")->GetStaticField(0x5E668);
+		}
+
+		// static const ::System::Object MMFGJJKEGPC; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_CCTOR_OFFSET))();
 		}
 
 		::System::Void InitGate(::RPG::Client::Prop::TeleportGatePuzzleBoard* a1, ::RPG::GameCore::PropComponent* a2, ::System::Int32 a3, ::RPG::Client::Prop::TeleportGateInfo a4)
@@ -189,89 +196,89 @@ namespace RPG::Client::Prop
 			return ((::RPG::GameCore::PropComponent*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_GETPROP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7DD84EAFF333A1E4(::System::Object* a1)
+		::System::Void JADCIAHCPHE(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_7DD84EAFF333A1E4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_JADCIAHCPHE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_B1936CE4DA97AA45()
+		::System::Void EGMPJBFIAOF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_B1936CE4DA97AA45_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_EGMPJBFIAOF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_5B0531D5B96D6B96(::Class_0_16E4307DCC419505_460* a1)
+		::System::Void CMNLKLJAPKH(::EKFMIDBJDIA* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_460*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_5B0531D5B96D6B96_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EKFMIDBJDIA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_CMNLKLJAPKH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_36F46336ADA62D13()
+		::System::Void LOEDNMMDDIK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_36F46336ADA62D13_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_LOEDNMMDDIK_OFFSET))(this);
 		}
 
-		::System::Void Method_5_347F18FA30CEE25E()
+		::System::Void MCAELMFPMNG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_347F18FA30CEE25E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_MCAELMFPMNG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2C825E716CE9F2F9()
+		::System::Void CHKJEGOMFAC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_2C825E716CE9F2F9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_CHKJEGOMFAC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_1D4018D4200358D0()
+		::System::Boolean FFOACLJOLJK()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_FFOACLJOLJK_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_5_3D0029931D25E87E(::System::Single a1, ::System::Single a2, ::UnityEngine::AnimationCurve* a3)
+		::System::Collections::IEnumerator* APPFPDHNPIN(::System::Single a1, ::System::Single a2, ::UnityEngine::AnimationCurve* a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_3D0029931D25E87E_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single, ::System::Single, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_APPFPDHNPIN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_5_816ED7FC0A7FCCD1()
+		::System::Void FDBHNPOPGML()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_816ED7FC0A7FCCD1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_FDBHNPOPGML_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B0351A8151A472A4(::UnityEngine::Transform* a1)
+		::System::Void FHAIFKOHCAH(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_B0351A8151A472A4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_FHAIFKOHCAH_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_5_A36150C5DCC8409E()
+		::System::Single DGFPGHDBHEO()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_A36150C5DCC8409E_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_DGFPGHDBHEO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_B945ACB0EE6F50D4(::UnityEngine::Transform* a1, ::UnityEngine::Quaternion a2, ::System::Single a3)
+		::System::Void FJHEIEFJGGM(::UnityEngine::Transform* a1, ::UnityEngine::Quaternion a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Quaternion, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_B945ACB0EE6F50D4_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Quaternion, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_FJHEIEFJGGM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::IEnumerator* Method_5_627C7524E98F4AC5()
+		::System::Collections::IEnumerator* ALGBFIAIMDJ()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_627C7524E98F4AC5_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_ALGBFIAIMDJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1290EA767C459179()
+		::System::Void CMKFLMPBOBO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_CMKFLMPBOBO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_4795F6BF5D7D71FF(::System::Boolean a1)
+		::System::Void LECJKBALDGA(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_4795F6BF5D7D71FF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_LECJKBALDGA_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_FA58824BA12F6F62()
+		::System::Void CHJPKENLALE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_FA58824BA12F6F62_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_CHJPKENLALE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_FA58824BA12F6F62_1()
+		::System::Void LGJLKGFPFKF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_METHOD_5_FA58824BA12F6F62_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_LGJLKGFPFKF_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsGateActive()
@@ -298,5 +305,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATE_GET_FODBIDAIMROTATION_OFFSET))(this);
 		}
+
 	};
 }

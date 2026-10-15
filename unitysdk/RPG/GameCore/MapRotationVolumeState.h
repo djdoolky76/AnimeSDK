@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationVolumeState_TypeDefinitionIndex = 16850;
-
 	enum class MapRotationVolumeState : ::System::Int32
 	{
 		Unused = 0,

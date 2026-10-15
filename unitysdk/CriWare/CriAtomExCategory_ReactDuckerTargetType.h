@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerTargetType_TypeDefinitionIndex = 38687;
-
 	enum class CriAtomExCategory_ReactDuckerTargetType : ::System::Int32
 	{
 		Volume = 0,

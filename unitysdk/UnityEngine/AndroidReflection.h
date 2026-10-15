@@ -1,68 +1,72 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class GlobalJavaObjectRef; }
 
-#define UNITYENGINE_ANDROIDREFLECTION_GETCONSTRUCTORMEMBER_OFFSET UNITYSDK_OFFSET(0x1ECEA400)
-#define UNITYENGINE_ANDROIDREFLECTION_GETFIELDCLASS_OFFSET UNITYSDK_OFFSET(0x1ECEAC30)
-#define UNITYENGINE_ANDROIDREFLECTION_GETFIELDMEMBER_OFFSET UNITYSDK_OFFSET(0x1ECEA930)
-#define UNITYENGINE_ANDROIDREFLECTION_GETFIELDSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1ECEAD00)
-#define UNITYENGINE_ANDROIDREFLECTION_GETMETHODID_OFFSET UNITYSDK_OFFSET(0x1ECEA2B0)
-#define UNITYENGINE_ANDROIDREFLECTION_GETMETHODMEMBER_OFFSET UNITYSDK_OFFSET(0x1ECEA630)
-#define UNITYENGINE_ANDROIDREFLECTION_GETSTATICMETHODID_OFFSET UNITYSDK_OFFSET(0x1ECEA160)
-#define UNITYENGINE_ANDROIDREFLECTION_ISASSIGNABLEFROM_OFFSET UNITYSDK_OFFSET(0x1ECEA0C0)
-#define UNITYENGINE_ANDROIDREFLECTION_ISPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x1ECEA030)
-#define UNITYENGINE_ANDROIDREFLECTION_NEWPROXYINSTANCE_OFFSET UNITYSDK_OFFSET(0x1ECEAE20)
-#define UNITYENGINE_ANDROIDREFLECTION_SETNATIVEEXCEPTIONONPROXY_OFFSET UNITYSDK_OFFSET(0x1ECE94B0)
-#define UNITYENGINE_ANDROIDREFLECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECEAF50)
+#define UNITYENGINE_ANDROIDREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3B2CF0)
+#define UNITYENGINE_ANDROIDREFLECTION_GETCONSTRUCTORMEMBER_OFFSET UNITYSDK_OFFSET(0x1F3B21A0)
+#define UNITYENGINE_ANDROIDREFLECTION_GETFIELDCLASS_OFFSET UNITYSDK_OFFSET(0x1F3B29D0)
+#define UNITYENGINE_ANDROIDREFLECTION_GETFIELDMEMBER_OFFSET UNITYSDK_OFFSET(0x1F3B26D0)
+#define UNITYENGINE_ANDROIDREFLECTION_GETFIELDSIGNATURE_OFFSET UNITYSDK_OFFSET(0x1F3B2AA0)
+#define UNITYENGINE_ANDROIDREFLECTION_GETMETHODID_OFFSET UNITYSDK_OFFSET(0x1F3B2050)
+#define UNITYENGINE_ANDROIDREFLECTION_GETMETHODMEMBER_OFFSET UNITYSDK_OFFSET(0x1F3B23D0)
+#define UNITYENGINE_ANDROIDREFLECTION_GETSTATICMETHODID_OFFSET UNITYSDK_OFFSET(0x1F3B1F00)
+#define UNITYENGINE_ANDROIDREFLECTION_ISASSIGNABLEFROM_OFFSET UNITYSDK_OFFSET(0x1F3B1E60)
+#define UNITYENGINE_ANDROIDREFLECTION_ISPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x1F3B1DD0)
+#define UNITYENGINE_ANDROIDREFLECTION_NEWPROXYINSTANCE_OFFSET UNITYSDK_OFFSET(0x1F3B2BC0)
+#define UNITYENGINE_ANDROIDREFLECTION_SETNATIVEEXCEPTIONONPROXY_OFFSET UNITYSDK_OFFSET(0x1F3B1250)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AndroidReflection_TypeDefinitionIndex = 5675;
-
 	class AndroidReflection : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::GlobalJavaObjectRef** StaticGet_s_ReflectionHelperClass()
 		{
-			return (::UnityEngine::GlobalJavaObjectRef**)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x310);
+			return (::UnityEngine::GlobalJavaObjectRef**)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x310);
 		}
+
 		static ::System::IntPtr* StaticGet_s_FieldGetDeclaringClass()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x220);
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x220);
 		}
+
 		static ::System::IntPtr* StaticGet_s_ReflectionHelperSetNativeExceptionOnProxy()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x228);
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x228);
 		}
+
 		static ::System::IntPtr* StaticGet_s_ReflectionHelperNewProxyInstance()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x230);
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x230);
 		}
+
 		static ::System::IntPtr* StaticGet_s_ReflectionHelperGetFieldSignature()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x238);
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x238);
 		}
+
 		static ::System::IntPtr* StaticGet_s_ReflectionHelperGetMethodID()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x240);
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x240);
 		}
+
 		static ::System::IntPtr* StaticGet_s_ReflectionHelperGetFieldID()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x248);
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x248);
 		}
+
 		static ::System::IntPtr* StaticGet_s_ReflectionHelperGetConstructorID()
 		{
-			return (::System::IntPtr*)Il2CppClass::FromTypeDefinitionIndex(AndroidReflection_TypeDefinitionIndex)->GetStaticField(0x250);
+			return (::System::IntPtr*)UnitySDK::FromName("UnityEngine", "AndroidReflection")->GetStaticField(0x250);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDREFLECTION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDREFLECTION_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean IsPrimitive(::System::Type* a1)
@@ -119,5 +123,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::System::IntPtr, ::System::Exception*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_ANDROIDREFLECTION_SETNATIVEEXCEPTIONONPROXY_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

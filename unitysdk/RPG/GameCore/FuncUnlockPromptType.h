@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FuncUnlockPromptType_TypeDefinitionIndex = 13199;
-
 	enum class FuncUnlockPromptType : ::System::Int32
 	{
 		None = 0,

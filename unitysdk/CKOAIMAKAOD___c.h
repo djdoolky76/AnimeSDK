@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
+namespace System { template <typename T> class Predicate_1; }
+
+#define CKOAIMAKAOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD76C830)
+#define CKOAIMAKAOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD76C860)
+#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_0_OFFSET UNITYSDK_OFFSET(0xD76C870)
+#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_1_OFFSET UNITYSDK_OFFSET(0xD76C950)
+
+	class CKOAIMAKAOD___c : public ::System::Object
+	{
+	public:
+		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_1()
+		{
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49A30);
+		}
+
+		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_0()
+		{
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49A38);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49A40);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CKOAIMAKAOD___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKOAIMAKAOD___C_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _OnTaskSuccess_b__7_0(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_0_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _OnTaskSuccess_b__7_1(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_1_OFFSET))(this, a1);
+		}
+
+	};

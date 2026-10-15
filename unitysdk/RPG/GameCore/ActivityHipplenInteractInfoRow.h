@@ -3,36 +3,35 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/HipplenInteractType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActivityHipplenInteractInfoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CD92960)
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD92C90)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D367B10)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3677E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenInteractInfoRow_TypeDefinitionIndex = 11636;
-
 	class ActivityHipplenInteractInfoRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PropIDList; // 0x10
-		::System::String* JsonConfigPath; // 0x18
+		::System::String* JsonConfigPath; // 0x10
+		::Il2CppArray<::System::UInt32>* PropIDList; // 0x18
 		::System::String* PrefabPath; // 0x20
 		::System::String* IconPath; // 0x28
 		::RPG::GameCore::HipplenInteractType Type; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Hint; // 0x38
 		::RPG::Client::TextID InAreaHint; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActivityHipplenInteractInfoRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActivityHipplenInteractInfoRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActivityHipplenInteractInfoRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActivityHipplenInteractInfoRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYHIPPLENINTERACTINFOROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

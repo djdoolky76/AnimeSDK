@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Microsoft::Win32::SafeHandles { class SafeWaitHandle; }
 namespace System { class String; }
 
-#define SYSTEM_THREADING_NATIVEEVENTCALLS_CLOSEEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1BC3D210)
-#define SYSTEM_THREADING_NATIVEEVENTCALLS_CREATEEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1BC38980)
-#define SYSTEM_THREADING_NATIVEEVENTCALLS_RESETEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1BC3D1F0)
-#define SYSTEM_THREADING_NATIVEEVENTCALLS_RESETEVENT_OFFSET UNITYSDK_OFFSET(0x1BC389E0)
-#define SYSTEM_THREADING_NATIVEEVENTCALLS_SETEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1BC3D1D0)
-#define SYSTEM_THREADING_NATIVEEVENTCALLS_SETEVENT_OFFSET UNITYSDK_OFFSET(0x1BC38AC0)
+#define SYSTEM_THREADING_NATIVEEVENTCALLS_CLOSEEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1C149300)
+#define SYSTEM_THREADING_NATIVEEVENTCALLS_CREATEEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1C144AE0)
+#define SYSTEM_THREADING_NATIVEEVENTCALLS_RESETEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1C1492E0)
+#define SYSTEM_THREADING_NATIVEEVENTCALLS_RESETEVENT_OFFSET UNITYSDK_OFFSET(0x1C144B40)
+#define SYSTEM_THREADING_NATIVEEVENTCALLS_SETEVENT_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1C1492C0)
+#define SYSTEM_THREADING_NATIVEEVENTCALLS_SETEVENT_OFFSET UNITYSDK_OFFSET(0x1C144C20)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int NativeEventCalls_TypeDefinitionIndex = 875;
-
 	class NativeEventCalls : public ::System::Object
 	{
 	public:
-		static ::System::IntPtr CreateEvent_internal(::System::Boolean a1, ::System::Boolean a2, ::System::String* a3, ::System::Int32& a4)
+		static ::System::IntPtr CreateEvent_internal(::System::Boolean a1, ::System::Boolean a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::IntPtr(*)(::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_NATIVEEVENTCALLS_CREATEEVENT_INTERNAL_OFFSET))(a1, a2, a3, a4);
+			return ((::System::IntPtr(*)(::System::Boolean, ::System::Boolean, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_NATIVEEVENTCALLS_CREATEEVENT_INTERNAL_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* a1)
@@ -48,5 +45,6 @@ namespace System::Threading
 		{
 			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_NATIVEEVENTCALLS_CLOSEEVENT_INTERNAL_OFFSET))(a1);
 		}
+
 	};
 }

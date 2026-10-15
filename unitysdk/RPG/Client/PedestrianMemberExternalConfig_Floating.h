@@ -2,31 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/EPedestrianMemberSpecialTag.h"
 #include "unitysdk/RPG/Client/IPedestrianMemberExternalConfig.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xDA4A5C0)
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xDA4A5D0)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING_CTOR_OFFSET UNITYSDK_OFFSET(0xDA967A0)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xDA96790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_Floating_TypeDefinitionIndex = 69211;
-
 	class PedestrianMemberExternalConfig_Floating : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{
 	public:
 		::System::Single Height; // 0x10
 		::System::Single Length; // 0x14
 		::Il2CppArray<::UnityEngine::AnimationCurve*>* FloatingCurves; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::EPedestrianMemberSpecialTag get_SpecialTag()
 		{
 			return ((::RPG::Client::EPedestrianMemberSpecialTag(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_FLOATING_GET_SPECIALTAG_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,35 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rect.h"
-
-class Class_0_16E4307DCC419505_27;
+class CAHLPKGIABH;
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_GETSCREENRECT_OFFSET UNITYSDK_OFFSET(0xE1A9420)
-#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_INIT_OFFSET UNITYSDK_OFFSET(0xE1A93B0)
-#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE1A98F0)
-#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK__CTOR_OFFSET UNITYSDK_OFFSET(0xE1A9940)
+#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_CTOR_OFFSET UNITYSDK_OFFSET(0xE1ECBC0)
+#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_GETSCREENRECT_OFFSET UNITYSDK_OFFSET(0xE1EC6A0)
+#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_INIT_OFFSET UNITYSDK_OFFSET(0xE1EC630)
+#define RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE1ECB70)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int MonoTeamTowersBrick_TypeDefinitionIndex = 78616;
-
 	class MonoTeamTowersBrick : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_0_16E4307DCC419505_27* PANDMEPOLJP; // 0x18
+		::CAHLPKGIABH* PANDMEPOLJP; // 0x18
 		::UnityEngine::Transform* GJLADEKGOMP; // 0x20
 		::UnityEngine::Camera* IEMGKEFBPCG; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::Class_0_16E4307DCC419505_27* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Camera* a3)
+		::System::Void Init(::CAHLPKGIABH* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Camera* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_27*, ::UnityEngine::Transform*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_INIT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::CAHLPKGIABH*, ::UnityEngine::Transform*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Rect GetScreenRect()
@@ -42,5 +38,6 @@ namespace RPG::Client::TeamTowers
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_MONOTEAMTOWERSBRICK_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

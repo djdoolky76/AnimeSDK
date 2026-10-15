@@ -3,23 +3,20 @@
 #include "unitysdk/RPG/Client/SignalAnimationStateConnection_StateConditionType.h"
 #include "unitysdk/RPG/Client/SignalAnimationStateConnection_TransitionTiming.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class SignalAnimationState; }
 
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_GET_NEXTSTATEINDEX_OFFSET UNITYSDK_OFFSET(0xE083080)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_15C46FE02323990A_OFFSET UNITYSDK_OFFSET(0xE082860)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_654FFD98884CDDEC_OFFSET UNITYSDK_OFFSET(0xE082C40)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_8B7EF0490E4F5997_OFFSET UNITYSDK_OFFSET(0xE082EC0)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_C533D7088789E5A0_OFFSET UNITYSDK_OFFSET(0xE082FE0)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE0830A0)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_E6E4670CC7E80120_OFFSET UNITYSDK_OFFSET(0xE082D70)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_SET_NEXTSTATEINDEX_OFFSET UNITYSDK_OFFSET(0xE083090)
-#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xE082C20)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE0BF450)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_DDBNEBPPJGP_OFFSET UNITYSDK_OFFSET(0xE0BF810)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_GBJNGCMHDDB_OFFSET UNITYSDK_OFFSET(0xE0BF8D0)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_GET_NEXTSTATEINDEX_OFFSET UNITYSDK_OFFSET(0xE0BF8B0)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_HMHHJDCBGAL_OFFSET UNITYSDK_OFFSET(0xE0BF6F0)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_IGFHIGLFAPG_OFFSET UNITYSDK_OFFSET(0xE0BF5A0)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_NIIDKJDMCDF_OFFSET UNITYSDK_OFFSET(0xE0BF470)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_PMMOJDEDBBE_OFFSET UNITYSDK_OFFSET(0xE0BF090)
+#define RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_SET_NEXTSTATEINDEX_OFFSET UNITYSDK_OFFSET(0xE0BF8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SignalAnimationStateConnection_TypeDefinitionIndex = 70943;
-
 	class SignalAnimationStateConnection : public ::System::Object
 	{
 	public:
@@ -27,40 +24,41 @@ namespace RPG::Client
 		::RPG::Client::SignalAnimationStateConnection_TransitionTiming TransitionTimingType; // 0x14
 		::System::Boolean UseCondition; // 0x18
 		::System::Boolean _conditionSatisfiedPendingAnimation; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::Single _lastAnimationProgress; // 0x1C
 		::System::Boolean _animationCycleCompleted; // 0x20
+		::System::Byte _padding1[0x3];
 		::RPG::Client::SignalAnimationStateConnection_StateConditionType StateCondition; // 0x24
 		::System::Single ThresholdValue; // 0x28
 		::System::Single TransitionDuration; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_15C46FE02323990A(::System::Single a1, ::System::Single a2, ::RPG::Client::SignalAnimationState* a3)
+		::System::Boolean PMMOJDEDBBE(::System::Single a1, ::System::Single a2, ::RPG::Client::SignalAnimationState* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::Client::SignalAnimationState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_15C46FE02323990A_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::Client::SignalAnimationState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_PMMOJDEDBBE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_1_E6E4670CC7E80120(::System::Single a1, ::System::Single a2, ::RPG::Client::SignalAnimationState* a3)
+		::System::Boolean IGFHIGLFAPG(::System::Single a1, ::System::Single a2, ::RPG::Client::SignalAnimationState* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::Client::SignalAnimationState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_E6E4670CC7E80120_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::Client::SignalAnimationState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_IGFHIGLFAPG_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_1_8B7EF0490E4F5997(::System::Single a1, ::System::Single a2, ::RPG::Client::SignalAnimationState* a3)
+		::System::Boolean HMHHJDCBGAL(::System::Single a1, ::System::Single a2, ::RPG::Client::SignalAnimationState* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::Client::SignalAnimationState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_8B7EF0490E4F5997_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::Client::SignalAnimationState*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_HMHHJDCBGAL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_1_C533D7088789E5A0(::RPG::Client::SignalAnimationState* a1, ::System::Single a2, ::System::Single a3)
+		::System::Boolean DDBNEBPPJGP(::RPG::Client::SignalAnimationState* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SignalAnimationState*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_C533D7088789E5A0_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::SignalAnimationState*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_DDBNEBPPJGP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_1_654FFD98884CDDEC(::System::Single a1, ::System::Single a2)
+		::System::Boolean NIIDKJDMCDF(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_654FFD98884CDDEC_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_NIIDKJDMCDF_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_NextStateIndex()
@@ -73,9 +71,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_SET_NEXTSTATEINDEX_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void GBJNGCMHDDB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SIGNALANIMATIONSTATECONNECTION_GBJNGCMHDDB_OFFSET))(this);
 		}
+
 	};
 }

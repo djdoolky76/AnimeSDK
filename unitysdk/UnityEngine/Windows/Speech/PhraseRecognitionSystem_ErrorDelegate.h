@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Windows/Speech/SpeechError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED790D0)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED79140)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED79010)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED79060)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F441480)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F441410)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F4414F0)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F4413C0)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int PhraseRecognitionSystem_ErrorDelegate_TypeDefinitionIndex = 4429;
-
 	class PhraseRecognitionSystem_ErrorDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Windows::Speech::SpeechError a1)
@@ -38,5 +35,6 @@ namespace UnityEngine::Windows::Speech
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNITIONSYSTEM_ERRORDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

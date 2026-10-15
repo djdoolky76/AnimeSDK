@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphAimContainerTargetBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PhotoGraphAimContaierTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_METHOD_3_1231DACA80ADEE46_OFFSET UNITYSDK_OFFSET(0x1D328F50)
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_METHOD_3_98DEB3F65623508B_OFFSET UNITYSDK_OFFSET(0x1D329010)
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D328FD0)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90DEC0)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D90DF00)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90DE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAimContaierTarget_TypeDefinitionIndex = 17318;
-
 	class PhotoGraphAimContaierTarget : public ::RPG::GameCore::PhotoGraphAimContainerTargetBase
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* AimTargetType; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1231DACA80ADEE46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAimContaierTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphAimContaierTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAimContaierTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_METHOD_3_1231DACA80ADEE46_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphAimContaierTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_98DEB3F65623508B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAimContaierTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphAimContaierTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAimContaierTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_METHOD_3_98DEB3F65623508B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphAimContaierTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

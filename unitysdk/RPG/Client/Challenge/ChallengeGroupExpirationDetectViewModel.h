@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChallengeGroupData; }
+namespace RPG::Client::Challenge { class ChallengeGroupExpirationDetectViewModel; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_CREATEFORMANY_OFFSET UNITYSDK_OFFSET(0xC9F06D0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_CREATEFORONE_OFFSET UNITYSDK_OFFSET(0xC9F0460)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC9F0A60)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_LISTENFORANYEXPIRED_OFFSET UNITYSDK_OFFSET(0xC9F0AE0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC9F0650)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL__DETECT_OFFSET UNITYSDK_OFFSET(0xC9F0870)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL__ONPLAYERDAILYREFRESHING_OFFSET UNITYSDK_OFFSET(0xC9F0B70)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_CREATEFORMANY_OFFSET UNITYSDK_OFFSET(0xC93EE30)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_CREATEFORONE_OFFSET UNITYSDK_OFFSET(0xC93EBC0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC93EDB0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC93F1C0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_LISTENFORANYEXPIRED_OFFSET UNITYSDK_OFFSET(0xC93F240)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL__DETECT_OFFSET UNITYSDK_OFFSET(0xC93EFD0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL__ONPLAYERDAILYREFRESHING_OFFSET UNITYSDK_OFFSET(0xC93F2D0)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeGroupExpirationDetectViewModel_TypeDefinitionIndex = 80096;
-
 	class ChallengeGroupExpirationDetectViewModel : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::RPG::Client::ChallengeGroupData*>* _Groups; // 0x10
-		::System::Action* _HandlersOnAnyExpired; // 0x18
+		::System::Action* _HandlersOnAnyExpired; // 0x10
+		::System::Collections::Generic::HashSet_1<::RPG::Client::ChallengeGroupData*>* _Groups; // 0x18
 		::System::Boolean _IsAnyExpiredAlready; // 0x20
-
 		::System::Void _ctor(::System::Collections::Generic::HashSet_1<::RPG::Client::ChallengeGroupData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::ChallengeGroupData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::ChallengeGroupData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::Client::Challenge::ChallengeGroupExpirationDetectViewModel* CreateForOne(::RPG::Client::ChallengeGroupData* a1)
@@ -60,5 +58,6 @@ namespace RPG::Client::Challenge
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL__DETECT_OFFSET))(this);
 		}
+
 	};
 }

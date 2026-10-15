@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/XmlNode.h"
-
 namespace System::Xml { class XmlDocument; }
+namespace System::Xml { class XmlLinkedNode; }
+namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_XMLLINKEDNODE_GET_NEXTSIBLING_OFFSET UNITYSDK_OFFSET(0x1E8A7270)
-#define SYSTEM_XML_XMLLINKEDNODE_GET_PREVIOUSSIBLING_OFFSET UNITYSDK_OFFSET(0x1E8A70D0)
-#define SYSTEM_XML_XMLLINKEDNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8961D0)
+#define SYSTEM_XML_XMLLINKEDNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF5EE00)
+#define SYSTEM_XML_XMLLINKEDNODE_GET_NEXTSIBLING_OFFSET UNITYSDK_OFFSET(0x1EF6FC50)
+#define SYSTEM_XML_XMLLINKEDNODE_GET_PREVIOUSSIBLING_OFFSET UNITYSDK_OFFSET(0x1EF6FAB0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlLinkedNode_TypeDefinitionIndex = 1907;
-
 	class XmlLinkedNode : public ::System::Xml::XmlNode
 	{
 	public:
 		::System::Xml::XmlLinkedNode* next; // 0x18
-
 		::System::Void _ctor(::System::Xml::XmlDocument* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLLINKEDNODE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLLINKEDNODE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlNode* get_PreviousSibling()
@@ -31,5 +29,6 @@ namespace System::Xml
 		{
 			return ((::System::Xml::XmlNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLLINKEDNODE_GET_NEXTSIBLING_OFFSET))(this);
 		}
+
 	};
 }

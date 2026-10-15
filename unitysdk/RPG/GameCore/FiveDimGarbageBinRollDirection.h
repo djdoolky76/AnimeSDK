@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGarbageBinRollDirection_TypeDefinitionIndex = 16518;
-
 	enum class FiveDimGarbageBinRollDirection : ::System::Int32
 	{
 		PlayerOpposite = 0,

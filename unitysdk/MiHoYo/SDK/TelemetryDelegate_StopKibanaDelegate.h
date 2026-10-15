@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD7F90)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD7FC0)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD7F80)
-#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD7F10)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE2910)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE2890)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE2940)
+#define MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE2900)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryDelegate_StopKibanaDelegate_TypeDefinitionIndex = 7654;
-
 	class TelemetryDelegate_StopKibanaDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TELEMETRYDELEGATE_STOPKIBANADELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

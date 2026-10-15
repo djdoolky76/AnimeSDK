@@ -4,20 +4,17 @@
 #include "unitysdk/UnityEngine/CursorLockMode.h"
 #include "unitysdk/UnityEngine/CursorMode.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_CURSOR_GET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x1ED15D30)
-#define UNITYENGINE_CURSOR_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x1ED15D10)
-#define UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED15D00)
-#define UNITYENGINE_CURSOR_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1ED15CE0)
-#define UNITYENGINE_CURSOR_SET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x1ED15D40)
-#define UNITYENGINE_CURSOR_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x1ED15D20)
+#define UNITYENGINE_CURSOR_GET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x1F3DDA80)
+#define UNITYENGINE_CURSOR_GET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x1F3DDA60)
+#define UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3DDA50)
+#define UNITYENGINE_CURSOR_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1F3DDA30)
+#define UNITYENGINE_CURSOR_SET_LOCKSTATE_OFFSET UNITYSDK_OFFSET(0x1F3DDA90)
+#define UNITYENGINE_CURSOR_SET_VISIBLE_OFFSET UNITYSDK_OFFSET(0x1F3DDA70)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Cursor_TypeDefinitionIndex = 4210;
-
 	class Cursor : public ::System::Object
 	{
 	public:
@@ -46,9 +43,10 @@ namespace UnityEngine
 			return ((::System::Void(*)(::UnityEngine::CursorLockMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SET_LOCKSTATE_OFFSET))(a1);
 		}
 
-		static ::System::Void SetCursor_Injected(::UnityEngine::Texture2D* a1, ::UnityEngine::Vector2& a2, ::UnityEngine::CursorMode a3)
+		static ::System::Void SetCursor_Injected(::UnityEngine::Texture2D* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::CursorMode a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Texture2D*, ::UnityEngine::Vector2&, ::UnityEngine::CursorMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Texture2D*, ::UnityEngine::Vector2, ::UnityEngine::CursorMode))((::PBYTE)hIl2Cpp + UNITYENGINE_CURSOR_SETCURSOR_INJECTED_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

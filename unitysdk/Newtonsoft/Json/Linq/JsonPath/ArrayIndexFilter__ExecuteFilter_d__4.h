@@ -4,8 +4,7 @@
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int ArrayIndexFilter__ExecuteFilter_d__4_TypeDefinitionIndex = 9735;
-
+	template <typename T1, typename T2, typename T3, typename T4>
 	class ArrayIndexFilter__ExecuteFilter_d__4 : public ::System::Object
 	{
 	public:

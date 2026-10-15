@@ -2,19 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace StageBudgetTool { class Prism; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define STAGEBUDGETTOOL_ROOM_METHOD_1_63E8F19CFED33AB3_OFFSET UNITYSDK_OFFSET(0xE935450)
-#define STAGEBUDGETTOOL_ROOM__CTOR_OFFSET UNITYSDK_OFFSET(0xE9355B0)
+#define STAGEBUDGETTOOL_ROOM_CTOR_OFFSET UNITYSDK_OFFSET(0xE98AD70)
+#define STAGEBUDGETTOOL_ROOM_EBJDDPFCJIH_OFFSET UNITYSDK_OFFSET(0xE98AC10)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int Room_TypeDefinitionIndex = 48181;
-
 	class Room : public ::System::Object
 	{
 	public:
@@ -23,15 +20,15 @@ namespace StageBudgetTool
 		::System::Collections::Generic::List_1<::System::String*>* BlockAliasList; // 0x20
 		::System::Collections::Generic::List_1<::System::String*>* VolumeAliasList; // 0x28
 		::UnityEngine::Transform* transform; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_ROOM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_ROOM_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_63E8F19CFED33AB3(::UnityEngine::Vector3 a1)
+		::System::Boolean EBJDDPFCJIH(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_ROOM_METHOD_1_63E8F19CFED33AB3_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + STAGEBUDGETTOOL_ROOM_EBJDDPFCJIH_OFFSET))(this, a1);
 		}
+
 	};
 }

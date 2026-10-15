@@ -2,82 +2,89 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MongoObjectId.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IRogueMiracleInGame; }
 namespace RPG::Client { class IRogueTournBuildRefDataItem; }
 namespace RPG::Client { class MemberData; }
 namespace RPG::Client { class RogueFormulaData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDF394F0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDF39530)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLYTEAM_B__5_0_OFFSET UNITYSDK_OFFSET(0xDF39C60)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLY_B__0_0_OFFSET UNITYSDK_OFFSET(0xDF39540)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLY_B__0_1_OFFSET UNITYSDK_OFFSET(0xDF395B0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLY_B__0_2_OFFSET UNITYSDK_OFFSET(0xDF395D0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xDF396D0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_1_OFFSET UNITYSDK_OFFSET(0xDF39790)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_2_OFFSET UNITYSDK_OFFSET(0xDF39850)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_3_OFFSET UNITYSDK_OFFSET(0xDF39AD0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_4_OFFSET UNITYSDK_OFFSET(0xDF39BC0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF89820)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF89860)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLYTEAM_B__5_0_OFFSET UNITYSDK_OFFSET(0xDF89F90)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLY_B__0_0_OFFSET UNITYSDK_OFFSET(0xDF89870)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLY_B__0_1_OFFSET UNITYSDK_OFFSET(0xDF898E0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLY_B__0_2_OFFSET UNITYSDK_OFFSET(0xDF89900)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xDF89A00)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_1_OFFSET UNITYSDK_OFFSET(0xDF89AC0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_2_OFFSET UNITYSDK_OFFSET(0xDF89B80)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_3_OFFSET UNITYSDK_OFFSET(0xDF89E00)
+#define RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFFILTER_B__2_4_OFFSET UNITYSDK_OFFSET(0xDF89EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefReportHelper___c_TypeDefinitionIndex = 67516;
-
 	class RogueTournBuildRefReportHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::UInt32>** StaticGet___9__0_1()
-		{
-			return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10300);
-		}
 		static ::System::Func_2<::RPG::Client::MemberData*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::MemberData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10308);
+			return (::System::Func_2<::RPG::Client::MemberData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C100);
 		}
-		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::String*>** StaticGet___9__2_2()
+
+		static ::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::UInt32>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10310);
+			return (::System::Func_2<::RPG::Client::RogueFormulaData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C108);
 		}
-		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Int32>** StaticGet___9__2_4()
-		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10318);
-		}
-		static ::RPG::Client::RogueTournBuildRefReportHelper___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournBuildRefReportHelper___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10320);
-		}
+
 		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10328);
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C110);
 		}
-		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10330);
-		}
+
 		static ::System::Func_2<::RPG::Client::IRogueMiracleInGame*, ::System::UInt32>** StaticGet___9__0_2()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueMiracleInGame*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10338);
+			return (::System::Func_2<::RPG::Client::IRogueMiracleInGame*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C118);
 		}
-		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::MongoObjectId>** StaticGet___9__2_3()
-		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::MongoObjectId>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10340);
-		}
+
 		static ::System::Func_2<::RPG::Client::MemberData*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::MemberData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournBuildRefReportHelper___c_TypeDefinitionIndex)->GetStaticField(0x10348);
+			return (::System::Func_2<::RPG::Client::MemberData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C120);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C128);
+		}
+
+		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::String*>** StaticGet___9__2_2()
+		{
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C130);
+		}
+
+		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::MongoObjectId>** StaticGet___9__2_3()
+		{
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::RPG::Client::MongoObjectId>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C138);
+		}
+
+		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Int32>** StaticGet___9__2_4()
+		{
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C140);
+		}
+
+		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefDataItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C148);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 _ReportBuildRefApply_b__0_0(::RPG::Client::MemberData* a1)
@@ -124,5 +131,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNBUILDREFREPORTHELPER___C__REPORTBUILDREFAPPLYTEAM_B__5_0_OFFSET))(this, a1);
 		}
+
 	};
 }

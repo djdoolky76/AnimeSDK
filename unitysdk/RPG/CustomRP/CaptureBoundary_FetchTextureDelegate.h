@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C688270)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C6882A0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C6881F0)
-#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C688200)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1CC0E5E0)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0E570)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1CC0E610)
+#define RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CC0E560)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureBoundary_FetchTextureDelegate_TypeDefinitionIndex = 36912;
-
 	class CaptureBoundary_FetchTextureDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Texture2D* a1)
@@ -38,5 +35,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CAPTUREBOUNDARY_FETCHTEXTUREDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

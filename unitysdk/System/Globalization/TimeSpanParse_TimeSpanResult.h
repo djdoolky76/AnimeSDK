@@ -3,22 +3,18 @@
 #include "unitysdk/System/Globalization/TimeSpanParse_ParseFailureKind.h"
 #include "unitysdk/System/Globalization/TimeSpanParse_TimeSpanThrowStyle.h"
 #include "unitysdk/System/TimeSpan.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_GETTIMESPANPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3B6C7E0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3B6C670)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3B6C6F0)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x3B6C760)
-#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3B6C680)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_GETTIMESPANPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3C210B0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3C20F40)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3C20FC0)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x3C21030)
+#define SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3C20F50)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int TimeSpanParse_TimeSpanResult_TypeDefinitionIndex = 779;
-
 	struct alignas(8) TimeSpanParse_TimeSpanResult
 	{
 		::System::TimeSpan parsedTimeSpan; // 0x10
@@ -27,7 +23,6 @@ namespace System::Globalization
 		::System::String* m_failureMessageID; // 0x20
 		::System::Object* m_failureMessageFormatArgument; // 0x28
 		::System::String* m_failureArgumentName; // 0x30
-
 		::System::Void Init(::System::Globalization::TimeSpanParse_TimeSpanThrowStyle a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Globalization::TimeSpanParse_TimeSpanThrowStyle))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_INIT_OFFSET))(this, a1);
@@ -52,5 +47,6 @@ namespace System::Globalization
 		{
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_TIMESPANPARSE_TIMESPANRESULT_GETTIMESPANPARSEEXCEPTION_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/Extents.h"
 #include "unitysdk/TMPro/HorizontalAlignmentOptions.h"
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_LineInfo_TypeDefinitionIndex = 43417;
-
 	struct alignas(4) TMP_LineInfo
 	{
 		::System::Int32 controlCharacterCount; // 0x10

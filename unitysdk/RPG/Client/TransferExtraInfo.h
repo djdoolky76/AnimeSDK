@@ -3,21 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_TRANSFEREXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xE282FA0)
+#define RPG_CLIENT_TRANSFEREXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE308DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransferExtraInfo_TypeDefinitionIndex = 68167;
-
 	class TransferExtraInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::Vector3 FinalRotationTarget; // 0x10
 		::System::Boolean FixFinalRotation; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFEREXTRAINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFEREXTRAINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

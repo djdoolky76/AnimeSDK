@@ -9,20 +9,20 @@
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/RPG/CustomRP/FlagMask.h"
 #include "unitysdk/RPG/CustomRP/LightDataFlag.h"
-#include "unitysdk/UnityEngine/CRPRectShadowSerialize.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Light_EParticleLightEvent.h"
-#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rendering/CRPLightInfoArea.h"
 #include "unitysdk/UnityEngine/Rendering/CRPLightInfoCommon.h"
 #include "unitysdk/UnityEngine/Rendering/CRPLightInfoLocal.h"
 #include "unitysdk/UnityEngine/Rendering/CRPLightInfoSpot.h"
 #include "unitysdk/UnityEngine/Rendering/CRPLightMeshStencil.h"
+#include "unitysdk/UnityEngine/CRPRectShadowSerialize.h"
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Light_EParticleLightEvent.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::CustomRP { class CRPLightClipPlane; }
 namespace RPG::CustomRP { class CRPLocalLightVolume; }
+namespace RPG::CustomRP { class CustomAdditionalLightData; }
 namespace RPG::CustomRP { class StencilDelegate; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
@@ -30,78 +30,55 @@ namespace UnityEngine { class Light; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_FLUSHDATA_OFFSET UNITYSDK_OFFSET(0x1C69BAE0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GETLIGHTDELEGATEMESH_OFFSET UNITYSDK_OFFSET(0x1C69C1E0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GETPROFILETYPE_OFFSET UNITYSDK_OFFSET(0x1C69C200)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_LIGHTCOMP_OFFSET UNITYSDK_OFFSET(0x1C69B910)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_NEEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1C69B8F0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_TRAN_OFFSET UNITYSDK_OFFSET(0x1C69B940)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_USEPIPELINESETTINGS_OFFSET UNITYSDK_OFFSET(0x1C69B920)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1C69B900)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_MANUALCREATE_OFFSET UNITYSDK_OFFSET(0x1C69BA00)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C69C310)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1C69C270)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C69C210)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONRETURN2POOL_OFFSET UNITYSDK_OFFSET(0x1C69C060)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1C69B950)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_PARTICLELIGHTONLOAD_OFFSET UNITYSDK_OFFSET(0x1C69C070)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_RESETLIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1C69BF50)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1C69BAC0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_SET_USEPIPELINESETTINGS_OFFSET UNITYSDK_OFFSET(0x1C69B930)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_START_OFFSET UNITYSDK_OFFSET(0x1C69BA60)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_SUPPORTSCLUSTERLIGHTING_OFFSET UNITYSDK_OFFSET(0x1C69C1F0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C69CF80)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C69CDB0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__FLUSHDATA_OFFSET UNITYSDK_OFFSET(0x1C69BAF0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__ISPOINTSPOT_OFFSET UNITYSDK_OFFSET(0x1C69C3B0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__PREPARE_OFFSET UNITYSDK_OFFSET(0x1C69BF90)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1C69B9B0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATAAREA_OFFSET UNITYSDK_OFFSET(0x1C69CD40)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATALOCAL_OFFSET UNITYSDK_OFFSET(0x1C69CA60)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATASPOT_OFFSET UNITYSDK_OFFSET(0x1C69C9C0)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1C69C400)
-#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTMESHSTENCIL_OFFSET UNITYSDK_OFFSET(0x1C69C7D0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC23100)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC22F30)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_FLUSHDATA_OFFSET UNITYSDK_OFFSET(0x1CC21C40)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GETLIGHTDELEGATEMESH_OFFSET UNITYSDK_OFFSET(0x1CC22340)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GETPROFILETYPE_OFFSET UNITYSDK_OFFSET(0x1CC22360)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_LIGHTCOMP_OFFSET UNITYSDK_OFFSET(0x1CC21A70)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_NEEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1CC21A50)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_TRAN_OFFSET UNITYSDK_OFFSET(0x1CC21AA0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_GET_USEPIPELINESETTINGS_OFFSET UNITYSDK_OFFSET(0x1CC21A80)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_HASFLAG_OFFSET UNITYSDK_OFFSET(0x1CC21A60)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_MANUALCREATE_OFFSET UNITYSDK_OFFSET(0x1CC21B60)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CC22470)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CC223D0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CC22370)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONRETURN2POOL_OFFSET UNITYSDK_OFFSET(0x1CC221C0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1CC21AB0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_PARTICLELIGHTONLOAD_OFFSET UNITYSDK_OFFSET(0x1CC221D0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_RESETLIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1CC220B0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_SETFLAG_OFFSET UNITYSDK_OFFSET(0x1CC21C20)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_SET_USEPIPELINESETTINGS_OFFSET UNITYSDK_OFFSET(0x1CC21A90)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_START_OFFSET UNITYSDK_OFFSET(0x1CC21BC0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_SUPPORTSCLUSTERLIGHTING_OFFSET UNITYSDK_OFFSET(0x1CC22350)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__FLUSHDATA_OFFSET UNITYSDK_OFFSET(0x1CC21C50)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__ISPOINTSPOT_OFFSET UNITYSDK_OFFSET(0x1CC22510)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__PREPARE_OFFSET UNITYSDK_OFFSET(0x1CC220F0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATEIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1CC21B10)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATAAREA_OFFSET UNITYSDK_OFFSET(0x1CC22EC0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATALOCAL_OFFSET UNITYSDK_OFFSET(0x1CC22BE0)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATASPOT_OFFSET UNITYSDK_OFFSET(0x1CC22B40)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTDATA_OFFSET UNITYSDK_OFFSET(0x1CC22560)
+#define RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__UPDATELIGHTMESHSTENCIL_OFFSET UNITYSDK_OFFSET(0x1CC22950)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomAdditionalLightData_TypeDefinitionIndex = 37023;
-
 	class CustomAdditionalLightData : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Single* StaticGet_maxSpotDelegateAngle()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CustomAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0xE0F0);
-		}
-		static ::UnityEngine::Rendering::CRPLightInfoArea* StaticGet__LightInfoArea()
-		{
-			return (::UnityEngine::Rendering::CRPLightInfoArea*)Il2CppClass::FromTypeDefinitionIndex(CustomAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0xE0F4);
-		}
-		static ::UnityEngine::Rendering::CRPLightInfoCommon* StaticGet__LightInfo()
-		{
-			return (::UnityEngine::Rendering::CRPLightInfoCommon*)Il2CppClass::FromTypeDefinitionIndex(CustomAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0xE110);
-		}
-		static ::UnityEngine::Rendering::CRPLightInfoLocal* StaticGet__LightInfoLocal()
-		{
-			return (::UnityEngine::Rendering::CRPLightInfoLocal*)Il2CppClass::FromTypeDefinitionIndex(CustomAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0xE184);
-		}
-		static ::UnityEngine::Rendering::CRPLightMeshStencil* StaticGet__MeshStencil()
-		{
-			return (::UnityEngine::Rendering::CRPLightMeshStencil*)Il2CppClass::FromTypeDefinitionIndex(CustomAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0xE32C);
-		}
-		static ::UnityEngine::Rendering::CRPLightInfoSpot* StaticGet__LightInfoSpot()
-		{
-			return (::UnityEngine::Rendering::CRPLightInfoSpot*)Il2CppClass::FromTypeDefinitionIndex(CustomAdditionalLightData_TypeDefinitionIndex)->GetStaticField(0xE370);
-		}
 		::System::Single CharIntensity; // 0x18
 		::UnityEngine::Color CharColor; // 0x1C
+		::System::Byte _padding0[0x4];
 		::RPG::CustomRP::CRPLocalLightVolume* LocalLightVolume; // 0x30
 		::RPG::CustomRP::CRPLightType InternalLightType; // 0x38
 		::System::Boolean isV2Light; // 0x3C
 		::System::Boolean createFromPool; // 0x3D
 		::System::Boolean legecyFalloff; // 0x3E
+		::System::Byte _padding1[0x1];
 		::System::Single falloffExp; // 0x40
 		::System::Boolean useDirectionalAttenuation; // 0x44
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector2 DirectionalBS; // 0x48
 		::UnityEngine::Vector2 CharacterLightFix; // 0x50
 		::UnityEngine::Vector2 SceneLightFix; // 0x58
@@ -110,14 +87,17 @@ namespace RPG::CustomRP
 		::System::Single CharacterAffectRatio; // 0x68
 		::System::Boolean CastVolumetricShadow; // 0x6C
 		::System::Boolean EnableVolumetricScattering; // 0x6D
+		::System::Byte _padding3[0x2];
 		::System::Single FogScatteringIntensity; // 0x70
 		::System::Single LimitRotRange; // 0x74
 		::RPG::CustomRP::CustomAdditionalLightData_LocalLightParam OverlayColor; // 0x78
 		::RPG::CustomRP::CustomAdditionalLightData_LocalLightParam AddColor; // 0x98
 		::RPG::CustomRP::CustomAdditionalLightData_LocalLightParamExt DarkColor; // 0xB8
 		::System::Single BlendRange; // 0xE8
+		::System::Byte _padding4[0x4];
 		::UnityEngine::AnimationCurve* distanceFadeCurve; // 0xF0
 		::RPG::CustomRP::ClipPlaneType clipPlaneType; // 0xF8
+		::System::Byte _padding5[0x4];
 		::RPG::CustomRP::CRPLightClipPlane* ClipPlanes; // 0x100
 		::System::Collections::Generic::List_1<::UnityEngine::CRPRectShadowSerialize>* geometryShadows; // 0x108
 		::System::Single sourceRadius; // 0x110
@@ -125,8 +105,10 @@ namespace RPG::CustomRP
 		::RPG::CustomRP::CustomAdditionalLightData_CustomLightFlag customLightFlag; // 0x118
 		::RPG::CustomRP::CustomLightQualityFilter customLightQualityFilter; // 0x11C
 		::System::Boolean useQulityV2; // 0x120
+		::System::Byte _padding6[0x3];
 		::System::Single RangeCut; // 0x124
 		::System::Boolean ColorCookie; // 0x128
+		::System::Byte _padding7[0x3];
 		::System::Single SpotLightScale; // 0x12C
 		::System::Single CookieAtten; // 0x130
 		::System::Single CookieHeight; // 0x134
@@ -136,20 +118,51 @@ namespace RPG::CustomRP
 		::UnityEngine::Vector3 BoxDelegateOffset; // 0x150
 		::System::Single shadowLightingFactor; // 0x15C
 		::System::Boolean irradianceCacheForceFineLevel; // 0x160
+		::System::Byte _padding8[0x3];
 		::RPG::CustomRP::FlagMask flag; // 0x164
 		::System::Boolean _UsePipelineSettings; // 0x168
+		::System::Byte _padding9[0x7];
 		::UnityEngine::Light* _Light; // 0x170
 		::UnityEngine::Transform* _Trans; // 0x178
 		::System::Boolean _IsPSLight; // 0x180
+		static ::UnityEngine::Rendering::CRPLightInfoSpot* StaticGet__LightInfoSpot()
+		{
+			return (::UnityEngine::Rendering::CRPLightInfoSpot*)UnitySDK::FromName("RPG.CustomRP", "CustomAdditionalLightData")->GetStaticField(0x9DC0);
+		}
+
+		static ::UnityEngine::Rendering::CRPLightInfoCommon* StaticGet__LightInfo()
+		{
+			return (::UnityEngine::Rendering::CRPLightInfoCommon*)UnitySDK::FromName("RPG.CustomRP", "CustomAdditionalLightData")->GetStaticField(0x9DC8);
+		}
+
+		static ::UnityEngine::Rendering::CRPLightInfoArea* StaticGet__LightInfoArea()
+		{
+			return (::UnityEngine::Rendering::CRPLightInfoArea*)UnitySDK::FromName("RPG.CustomRP", "CustomAdditionalLightData")->GetStaticField(0x9E3C);
+		}
+
+		static ::UnityEngine::Rendering::CRPLightMeshStencil* StaticGet__MeshStencil()
+		{
+			return (::UnityEngine::Rendering::CRPLightMeshStencil*)UnitySDK::FromName("RPG.CustomRP", "CustomAdditionalLightData")->GetStaticField(0x9E58);
+		}
+
+		static ::UnityEngine::Rendering::CRPLightInfoLocal* StaticGet__LightInfoLocal()
+		{
+			return (::UnityEngine::Rendering::CRPLightInfoLocal*)UnitySDK::FromName("RPG.CustomRP", "CustomAdditionalLightData")->GetStaticField(0x9E9C);
+		}
+
+		static ::System::Single* StaticGet_maxSpotDelegateAngle()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "CustomAdditionalLightData")->GetStaticField(0xA044);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_NeedUpdate()
@@ -296,5 +309,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CUSTOMADDITIONALLIGHTDATA__FLUSHDATA_OFFSET))(this);
 		}
+
 	};
 }

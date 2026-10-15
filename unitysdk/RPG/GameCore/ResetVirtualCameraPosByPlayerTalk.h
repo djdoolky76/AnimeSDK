@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ResetVirtualCameraPosByPlayerTalk; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_METHOD_3_8EB3432ADF9EF85B_OFFSET UNITYSDK_OFFSET(0x1D3A5E10)
-#define RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_METHOD_3_DF07DB499EEFF38F_OFFSET UNITYSDK_OFFSET(0x1D3A5E50)
-#define RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A5E40)
+#define RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98C450)
+#define RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D98C460)
+#define RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D98C420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetVirtualCameraPosByPlayerTalk_TypeDefinitionIndex = 23463;
-
 	class ResetVirtualCameraPosByPlayerTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore
 		::System::String* NPCAnchorName; // 0x30
 		::System::String* RealPlayerUniqueName; // 0x38
 		::System::String* RealNPCUniqueName; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8EB3432ADF9EF85B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_METHOD_3_8EB3432ADF9EF85B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DF07DB499EEFF38F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_METHOD_3_DF07DB499EEFF38F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETVIRTUALCAMERAPOSBYPLAYERTALK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

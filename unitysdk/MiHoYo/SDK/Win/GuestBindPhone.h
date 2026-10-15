@@ -1,44 +1,59 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class GuestBindPhone; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B84F290)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_BINDMAIL_OFFSET UNITYSDK_OFFSET(0x1B8508D0)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_BIND_OFFSET UNITYSDK_OFFSET(0x1B8505B0)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B850490)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B850530)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_HIDE_OFFSET UNITYSDK_OFFSET(0x1B850420)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B850900)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B850870)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B850590)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_SHOW_OFFSET UNITYSDK_OFFSET(0x1B8502C0)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B8504B0)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1B850040)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B850030)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x1B8505A0)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE__AWAKE_B__34_0_OFFSET UNITYSDK_OFFSET(0x1B850960)
-#define MIHOYO_SDK_WIN_GUESTBINDPHONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B850920)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD49400)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_BINDMAIL_OFFSET UNITYSDK_OFFSET(0x1BD4AC00)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_BIND_OFFSET UNITYSDK_OFFSET(0x1BD4A8E0)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BD4A7C0)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD4A860)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD4AC50)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD4A750)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD4AC30)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BD4ABA0)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD4A8C0)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD4A5F0)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD4A7E0)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BD4A370)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD4A360)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE_VALUECHANGEPHONEINPUT_OFFSET UNITYSDK_OFFSET(0x1BD4A8D0)
+#define MIHOYO_SDK_WIN_GUESTBINDPHONE__AWAKE_B__34_0_OFFSET UNITYSDK_OFFSET(0x1BD4AC90)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GuestBindPhone_TypeDefinitionIndex = 9441;
-
 	class GuestBindPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::UnityEngine::UI::Button* closeButton; // 0x58
+		::UnityEngine::UI::Text* bindDescText; // 0x60
+		::UnityEngine::UI::InputField* phoneInput; // 0x68
+		::UnityEngine::UI::InputField* codeInput; // 0x70
+		::UnityEngine::UI::Button* submitButton; // 0x78
+		::UnityEngine::UI::Button* redirectButton; // 0x80
+		::UnityEngine::UI::Button* requestCodeButton; // 0x88
+		::UnityEngine::UI::Text* requestCodeText; // 0x90
+		::UnityEngine::UI::Text* submitButtonText; // 0x98
+		::UnityEngine::UI::Text* redirectButtonText; // 0xA0
+		::System::Action* OnClose; // 0xA8
+		::System::Action* OnGetCode; // 0xB0
+		::System::Action* OnBind; // 0xB8
+		::System::Action* OnBindMail; // 0xC0
+		::System::Boolean isRequestVerifyCode; // 0xC8
+		::System::Byte _padding0[0x3];
+		::System::Single countDownTime; // 0xCC
+		::System::Boolean retrieveFlag; // 0xD0
 		static ::MiHoYo::SDK::Win::GuestBindPhone** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::GuestBindPhone**)Il2CppClass::FromTypeDefinitionIndex(GuestBindPhone_TypeDefinitionIndex)->GetStaticField(0x254F0);
+			return (::MiHoYo::SDK::Win::GuestBindPhone**)UnitySDK::FromName("MiHoYo.SDK.Win", "GuestBindPhone")->GetStaticField(0x19D00);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* CloseButtonPath; // 0x0
 		// static const ::System::String* BindDescTextPath; // 0x0
@@ -55,27 +70,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* BindTipsPath; // 0x0
 		// static const ::System::String* SubmitButtonTextPath; // 0x0
 		// static const ::System::String* RedirectBtnTextPath; // 0x0
-		::UnityEngine::UI::Button* closeButton; // 0x58
-		::UnityEngine::UI::Text* bindDescText; // 0x60
-		::UnityEngine::UI::InputField* phoneInput; // 0x68
-		::UnityEngine::UI::InputField* codeInput; // 0x70
-		::UnityEngine::UI::Button* submitButton; // 0x78
-		::UnityEngine::UI::Button* redirectButton; // 0x80
-		::UnityEngine::UI::Button* requestCodeButton; // 0x88
-		::UnityEngine::UI::Text* requestCodeText; // 0x90
-		::UnityEngine::UI::Text* submitButtonText; // 0x98
-		::UnityEngine::UI::Text* redirectButtonText; // 0xA0
-		::System::Action* OnClose; // 0xA8
-		::System::Action_1<::System::String*>* OnGetCode; // 0xB0
-		::System::Action_2<::System::String*, ::System::String*>* OnBind; // 0xB8
-		::System::Action* OnBindMail; // 0xC0
-		::System::Boolean isRequestVerifyCode; // 0xC8
-		::System::Single countDownTime; // 0xCC
-		::System::Boolean retrieveFlag; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDPHONE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDPHONE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -152,5 +149,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GUESTBINDPHONE__AWAKE_B__34_0_OFFSET))(this, a1);
 		}
+
 	};
 }

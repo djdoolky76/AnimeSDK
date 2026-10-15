@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTechTreeEffectType_TypeDefinitionIndex = 11705;
-
 	enum class IdleLiveTechTreeEffectType : ::System::Int32
 	{
 		None = 0,

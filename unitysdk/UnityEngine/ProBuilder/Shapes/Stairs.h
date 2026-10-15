@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/ProBuilder/Shapes/Shape.h"
 #include "unitysdk/UnityEngine/ProBuilder/Shapes/StepGenerationType.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
+namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_BUILDCURVEDSTAIRS_OFFSET UNITYSDK_OFFSET(0x1EBBB080)
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_BUILDSTAIRS_OFFSET UNITYSDK_OFFSET(0x1EBBC9C0)
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1EBBAF40)
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_GET_SIDES_OFFSET UNITYSDK_OFFSET(0x1EBBAF20)
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1EBBAFD0)
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_SET_SIDES_OFFSET UNITYSDK_OFFSET(0x1EBBAF30)
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1EBBDF10)
-#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBE0E0)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_BUILDCURVEDSTAIRS_OFFSET UNITYSDK_OFFSET(0x1F282C00)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_BUILDSTAIRS_OFFSET UNITYSDK_OFFSET(0x1F284540)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F282AC0)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F285C60)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_GET_SIDES_OFFSET UNITYSDK_OFFSET(0x1F282AA0)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F282B50)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_SET_SIDES_OFFSET UNITYSDK_OFFSET(0x1F282AB0)
+#define UNITYENGINE_PROBUILDER_SHAPES_STAIRS_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F285A90)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Stairs_TypeDefinitionIndex = 43280;
-
 	class Stairs : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:
 		::System::Int32 m_StepsCount; // 0x10
-		::System::Single m_StepsHeight; // 0x14
-		::UnityEngine::ProBuilder::Shapes::StepGenerationType m_StepGenerationType; // 0x18
-		::System::Boolean m_Sides; // 0x1C
-		::System::Boolean m_HomogeneousSteps; // 0x1D
+		::UnityEngine::ProBuilder::Shapes::StepGenerationType m_StepGenerationType; // 0x14
+		::System::Single m_StepsHeight; // 0x18
+		::System::Boolean m_HomogeneousSteps; // 0x1C
+		::System::Boolean m_Sides; // 0x1D
+		::System::Byte _padding0[0x2];
 		::System::Single m_Circumference; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_STAIRS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_STAIRS_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_sides()
@@ -70,5 +68,6 @@ namespace UnityEngine::ProBuilder::Shapes
 		{
 			return ((::UnityEngine::Bounds(*)(::PVOID, ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SHAPES_STAIRS_BUILDCURVEDSTAIRS_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

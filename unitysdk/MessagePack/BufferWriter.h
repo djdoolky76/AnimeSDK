@@ -2,54 +2,54 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/SequencePool_Rental.h"
 #include "unitysdk/System/ArraySegment_1.h"
-#include "unitysdk/System/Span_1.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
+#include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 namespace MessagePack { class SequencePool; }
+namespace System { class Object; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 
-#define MESSAGEPACK_BUFFERWRITER_ADVANCE_OFFSET UNITYSDK_OFFSET(0x3B58CA0)
-#define MESSAGEPACK_BUFFERWRITER_COMMIT_OFFSET UNITYSDK_OFFSET(0x3B58C90)
-#define MESSAGEPACK_BUFFERWRITER_ENSUREMORE_OFFSET UNITYSDK_OFFSET(0x3B58E20)
-#define MESSAGEPACK_BUFFERWRITER_ENSURE_OFFSET UNITYSDK_OFFSET(0x3B58D40)
-#define MESSAGEPACK_BUFFERWRITER_GETPOINTER_OFFSET UNITYSDK_OFFSET(0x3B58BE0)
-#define MESSAGEPACK_BUFFERWRITER_GETSPAN_OFFSET UNITYSDK_OFFSET(0x3B58BA0)
-#define MESSAGEPACK_BUFFERWRITER_GET_SEQUENCERENTAL_OFFSET UNITYSDK_OFFSET(0x3B58B90)
-#define MESSAGEPACK_BUFFERWRITER_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x2E24340)
-#define MESSAGEPACK_BUFFERWRITER_MIGRATETOSEQUENCE_OFFSET UNITYSDK_OFFSET(0x3B58E60)
-#define MESSAGEPACK_BUFFERWRITER_TRYGETUNCOMMITTEDSPAN_OFFSET UNITYSDK_OFFSET(0x3B58D50)
-#define MESSAGEPACK_BUFFERWRITER_WRITEMULTIBUFFER_OFFSET UNITYSDK_OFFSET(0x3B58E30)
-#define MESSAGEPACK_BUFFERWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x3B58D10)
-#define MESSAGEPACK_BUFFERWRITER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B58B80)
-#define MESSAGEPACK_BUFFERWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x3B58B70)
+#define MESSAGEPACK_BUFFERWRITER_ADVANCE_OFFSET UNITYSDK_OFFSET(0x3C0D630)
+#define MESSAGEPACK_BUFFERWRITER_COMMIT_OFFSET UNITYSDK_OFFSET(0x3C0D620)
+#define MESSAGEPACK_BUFFERWRITER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C0D510)
+#define MESSAGEPACK_BUFFERWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x3C0D450)
+#define MESSAGEPACK_BUFFERWRITER_ENSUREMORE_OFFSET UNITYSDK_OFFSET(0x3C0D830)
+#define MESSAGEPACK_BUFFERWRITER_ENSURE_OFFSET UNITYSDK_OFFSET(0x3C0D750)
+#define MESSAGEPACK_BUFFERWRITER_GETPOINTER_OFFSET UNITYSDK_OFFSET(0x3C0D570)
+#define MESSAGEPACK_BUFFERWRITER_GETSPAN_OFFSET UNITYSDK_OFFSET(0x3C0D530)
+#define MESSAGEPACK_BUFFERWRITER_GET_SEQUENCERENTAL_OFFSET UNITYSDK_OFFSET(0x3C0D520)
+#define MESSAGEPACK_BUFFERWRITER_GET_SPAN_OFFSET UNITYSDK_OFFSET(0x2E7C340)
+#define MESSAGEPACK_BUFFERWRITER_MIGRATETOSEQUENCE_OFFSET UNITYSDK_OFFSET(0x3C0D870)
+#define MESSAGEPACK_BUFFERWRITER_TRYGETUNCOMMITTEDSPAN_OFFSET UNITYSDK_OFFSET(0x3C0D760)
+#define MESSAGEPACK_BUFFERWRITER_WRITEMULTIBUFFER_OFFSET UNITYSDK_OFFSET(0x3C0D840)
+#define MESSAGEPACK_BUFFERWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x3C0D680)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int BufferWriter_TypeDefinitionIndex = 7105;
-
 	struct alignas(8) BufferWriter
 	{
 		::System::Buffers::IBufferWriter_1<::System::Byte>* _output; // 0x10
-		::System::Span_1<::System::Byte> _span; // 0x18
+		::System::Span_1_0C0D59FF8BC7380B<::System::Byte> _span; // 0x18
+		::System::Byte _padding0[0x10];
 		::System::ArraySegment_1<::System::Byte> _segment; // 0x30
+		::System::Byte _padding1[0x8];
 		::System::Int32 _buffered; // 0x40
+		::System::Byte _padding2[0x4];
 		::System::Int64 _bytesCommitted; // 0x48
 		::MessagePack::SequencePool* _sequencePool; // 0x50
 		::MessagePack::SequencePool_Rental _rental; // 0x58
-
 		::System::Void _ctor(::System::Buffers::IBufferWriter_1<::System::Byte>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Buffers::IBufferWriter_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Buffers::IBufferWriter_1<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::MessagePack::SequencePool* a1, ::Il2CppArray<::System::Byte>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MessagePack::SequencePool*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MessagePack::SequencePool*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Span_1<::System::Byte> get_Span()
+		::System::Span_1_0C0D59FF8BC7380B<::System::Byte> get_Span()
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_GET_SPAN_OFFSET))(this);
+			return ((::System::Span_1_0C0D59FF8BC7380B<::System::Byte>(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_GET_SPAN_OFFSET))(this);
 		}
 
 		::MessagePack::SequencePool_Rental get_SequenceRental()
@@ -57,14 +57,14 @@ namespace MessagePack
 			return ((::MessagePack::SequencePool_Rental(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_GET_SEQUENCERENTAL_OFFSET))(this);
 		}
 
-		::System::Span_1<::System::Byte> GetSpan(::System::Int32 a1)
+		::System::Span_1_0C0D59FF8BC7380B<::System::Byte> GetSpan(::System::Int32 a1)
 		{
-			return ((::System::Span_1<::System::Byte>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_GETSPAN_OFFSET))(this, a1);
+			return ((::System::Span_1_0C0D59FF8BC7380B<::System::Byte>(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_GETSPAN_OFFSET))(this, a1);
 		}
 
-		::System::Byte& GetPointer(::System::Int32 a1)
+		::System::Byte GetPointer(::System::Int32 a1)
 		{
-			return ((::System::Byte&(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_GETPOINTER_OFFSET))(this, a1);
+			return ((::System::Byte(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_GETPOINTER_OFFSET))(this, a1);
 		}
 
 		::System::Void Commit()
@@ -77,40 +77,35 @@ namespace MessagePack
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_ADVANCE_OFFSET))(this, a1);
 		}
 
-		/*
-		::System::Void Write(::System::ReadOnlySpan_1<::System::Byte> a1)
+		::System::Void Write(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_WRITE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_WRITE_OFFSET))(this, a1);
 		}
-		*/
 
 		::System::Void Ensure(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_ENSURE_OFFSET))(this, a1);
 		}
 
-		/*
-		::System::Boolean TryGetUncommittedSpan(::System::ReadOnlySpan_1<::System::Byte>& a1)
+		::System::Boolean TryGetUncommittedSpan(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>&))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_TRYGETUNCOMMITTEDSPAN_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_TRYGETUNCOMMITTEDSPAN_OFFSET))(this, a1);
 		}
-		*/
 
 		::System::Void EnsureMore(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_ENSUREMORE_OFFSET))(this, a1);
 		}
 
-		/*
-		::System::Void WriteMultiBuffer(::System::ReadOnlySpan_1<::System::Byte> a1)
+		::System::Void WriteMultiBuffer(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_WRITEMULTIBUFFER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_WRITEMULTIBUFFER_OFFSET))(this, a1);
 		}
-		*/
 
 		::System::Void MigrateToSequence()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_BUFFERWRITER_MIGRATETOSEQUENCE_OFFSET))(this);
 		}
+
 	};
 }

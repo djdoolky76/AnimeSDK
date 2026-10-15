@@ -1,60 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace IFix::Core { class ThreadStackInfo; }
 namespace IFix::Core { class VirtualMachine; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IFIX_CORE_NEWFIELDINFO_CHECKINIT_OFFSET UNITYSDK_OFFSET(0x1B4BA550)
-#define IFIX_CORE_NEWFIELDINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B4B99C0)
-#define IFIX_CORE_NEWFIELDINFO_HASINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B4BC430)
-#define IFIX_CORE_NEWFIELDINFO_OBJECTTOINDEX_OFFSET UNITYSDK_OFFSET(0x1B4BC5B0)
-#define IFIX_CORE_NEWFIELDINFO_SETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1B4BC370)
-#define IFIX_CORE_NEWFIELDINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1B4BA160)
-#define IFIX_CORE_NEWFIELDINFO_SWEEP_OFFSET UNITYSDK_OFFSET(0x1B4B8D70)
-#define IFIX_CORE_NEWFIELDINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4BC690)
-#define IFIX_CORE_NEWFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4BC360)
+#define IFIX_CORE_NEWFIELDINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9BE7C0)
+#define IFIX_CORE_NEWFIELDINFO_CHECKINIT_OFFSET UNITYSDK_OFFSET(0x1B9BC670)
+#define IFIX_CORE_NEWFIELDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BE490)
+#define IFIX_CORE_NEWFIELDINFO_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B9BBAE0)
+#define IFIX_CORE_NEWFIELDINFO_HASINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B9BE560)
+#define IFIX_CORE_NEWFIELDINFO_OBJECTTOINDEX_OFFSET UNITYSDK_OFFSET(0x1B9BE6E0)
+#define IFIX_CORE_NEWFIELDINFO_SETDEFAULTVALUE_OFFSET UNITYSDK_OFFSET(0x1B9BE4A0)
+#define IFIX_CORE_NEWFIELDINFO_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1B9BC280)
+#define IFIX_CORE_NEWFIELDINFO_SWEEP_OFFSET UNITYSDK_OFFSET(0x1B9BAE90)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int NewFieldInfo_TypeDefinitionIndex = 10074;
-
 	class NewFieldInfo : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>** StaticGet_newFieldValues()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x620);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>** StaticGet_objList()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x628);
-		}
-		static ::IFix::Core::ThreadStackInfo** StaticGet_stack()
-		{
-			return (::IFix::Core::ThreadStackInfo**)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x630);
-		}
-		static ::System::Int32* StaticGet_staticObjectKey()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NewFieldInfo_TypeDefinitionIndex)->GetStaticField(0x490);
-		}
-		::System::Type* DeclaringType; // 0x10
-		::System::String* Name; // 0x18
+		::System::String* Name; // 0x10
+		::System::Type* DeclaringType; // 0x18
 		::System::Type* FieldType; // 0x20
 		::System::Int32 MethodId; // 0x28
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>** StaticGet_objList()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::WeakReference*>**)UnitySDK::FromName("IFix.Core", "NewFieldInfo")->GetStaticField(0x510);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>** StaticGet_newFieldValues()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*>**)UnitySDK::FromName("IFix.Core", "NewFieldInfo")->GetStaticField(0x518);
+		}
+
+		static ::IFix::Core::ThreadStackInfo** StaticGet_stack()
+		{
+			return (::IFix::Core::ThreadStackInfo**)UnitySDK::FromName("IFix.Core", "NewFieldInfo")->GetStaticField(0x520);
+		}
+
+		static ::System::Int32* StaticGet_staticObjectKey()
+		{
+			return (::System::Int32*)UnitySDK::FromName("IFix.Core", "NewFieldInfo")->GetStaticField(0x400);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_NEWFIELDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFIX_CORE_NEWFIELDINFO_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_CORE_NEWFIELDINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_CORE_NEWFIELDINFO_CCTOR_OFFSET))();
 		}
 
 		::System::Object* SetDefaultValue(::System::Object* a1)
@@ -91,5 +92,6 @@ namespace IFix::Core
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + IFIX_CORE_NEWFIELDINFO_SETVALUE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED4E080)
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED4E0B0)
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED4DC90)
-#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED4E010)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F416200)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F416190)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F416230)
+#define UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F415E40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RectTransform_ReapplyDrivenProperties_TypeDefinitionIndex = 4403;
-
 	class RectTransform_ReapplyDrivenProperties : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::RectTransform* a1)
@@ -38,5 +35,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RECTTRANSFORM_REAPPLYDRIVENPROPERTIES_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

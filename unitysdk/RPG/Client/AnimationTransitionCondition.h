@@ -3,16 +3,13 @@
 #include "unitysdk/RPG/Client/RuntimeAnimatorConditionMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/AnimatorControllerParameterType.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ANIMATIONTRANSITIONCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0xC761730)
+#define RPG_CLIENT_ANIMATIONTRANSITIONCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0xC67F910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationTransitionCondition_TypeDefinitionIndex = 68796;
-
 	class AnimationTransitionCondition : public ::System::Object
 	{
 	public:
@@ -20,14 +17,15 @@ namespace RPG::Client
 		::System::Int32 ParameterHash; // 0x18
 		::UnityEngine::AnimatorControllerParameterType ParameterType; // 0x1C
 		::RPG::Client::RuntimeAnimatorConditionMode Comparison; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::RuntimeAnimatorConditionMode>* ComparisonOptions; // 0x28
 		::System::Single FloatValue; // 0x30
 		::System::Int32 IntValue; // 0x34
 		::System::Boolean BoolValue; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATIONTRANSITIONCONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATIONTRANSITIONCONDITION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

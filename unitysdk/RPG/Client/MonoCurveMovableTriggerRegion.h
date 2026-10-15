@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_CONSUMEHITANYCOLLIDER_OFFSET UNITYSDK_OFFSET(0xD73CD80)
-#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_GET_ISBLOCKED_OFFSET UNITYSDK_OFFSET(0xD73CBA0)
-#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_METHOD_5_C117F1BAC122F4D0_OFFSET UNITYSDK_OFFSET(0xD73D090)
-#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD73CF00)
-#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xD73D1A0)
-#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION__CTOR_OFFSET UNITYSDK_OFFSET(0xD73D220)
+#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_CONSUMEHITANYCOLLIDER_OFFSET UNITYSDK_OFFSET(0xD73C230)
+#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_CTOR_OFFSET UNITYSDK_OFFSET(0xD73C6E0)
+#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_GET_ISBLOCKED_OFFSET UNITYSDK_OFFSET(0xD73C050)
+#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_JLDJPLMHIBO_OFFSET UNITYSDK_OFFSET(0xD73C550)
+#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD73C3C0)
+#define RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0xD73C660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveMovableTriggerRegion_TypeDefinitionIndex = 68509;
-
 	class MonoCurveMovableTriggerRegion : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* NOLADABDIHC; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* ODBPIGIJMFL; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsBlocked()
@@ -32,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_GET_ISBLOCKED_OFFSET))(this);
 		}
 
-		::System::Boolean ConsumeHitAnyCollider(::System::Boolean& a1, ::System::Boolean& a2)
+		::System::Boolean ConsumeHitAnyCollider(::System::Boolean a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_CONSUMEHITANYCOLLIDER_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_CONSUMEHITANYCOLLIDER_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
@@ -47,9 +43,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_ONTRIGGEREXIT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_C117F1BAC122F4D0(::UnityEngine::Collider* a1)
+		::System::Boolean JLDJPLMHIBO(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_METHOD_5_C117F1BAC122F4D0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEMOVABLETRIGGERREGION_JLDJPLMHIBO_OFFSET))(this, a1);
 		}
+
 	};
 }

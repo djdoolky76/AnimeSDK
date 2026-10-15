@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IResidentActivityPanelData; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B1F8A0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B1F8D0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B1F890)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1F7A0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DB5DA0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB5CA0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DB5DD0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DB5D90)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_FDEA38F0_TypeDefinitionIndex = 50473;
-
 	class InternalGlobals___GEN_DELEGATE_B00_FDEA38F0 : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::RPG::Client::IResidentActivityPanelData* a1)
@@ -38,5 +35,6 @@ namespace XLua
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FDEA38F0_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

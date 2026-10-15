@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class Animation; }
@@ -9,26 +8,23 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD1F4480)
-#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD1F42E0)
-#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD1F44C0)
-#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD1F4500)
-#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD1F4440)
-#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD1F4730)
+#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD1957B0)
+#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD195500)
+#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD195360)
+#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD195540)
+#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD195580)
+#define RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD1954C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridPutDownEffect_TypeDefinitionIndex = 64558;
-
 	class GridFightGridPutDownEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::UnityEngine::ParticleSystemRenderer*>* HNIPMNNODNP; // 0x18
 		::UnityEngine::Animation* KCOAILOHDND; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnCreate(::System::Object* a1)
@@ -55,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Action*, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGRIDPUTDOWNEFFECT_PLAY_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

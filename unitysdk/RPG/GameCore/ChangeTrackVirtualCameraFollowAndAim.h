@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChangeTrackVirtualCameraFollowAndAim; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_METHOD_3_6EDE58E399C859A8_OFFSET UNITYSDK_OFFSET(0x1CF8E6A0)
-#define RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_METHOD_3_AE51673287E1EA9C_OFFSET UNITYSDK_OFFSET(0x1CF8E660)
-#define RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF8E690)
+#define RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D568820)
+#define RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D568830)
+#define RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5687F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeTrackVirtualCameraFollowAndAim_TypeDefinitionIndex = 21448;
-
 	class ChangeTrackVirtualCameraFollowAndAim : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -26,20 +24,20 @@ namespace RPG::GameCore
 		::System::UInt32 FollowTargetEntityID; // 0x4C
 		::System::UInt32 LookAtTargetGroupID; // 0x50
 		::System::UInt32 LookAtTargetEntityID; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AE51673287E1EA9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_METHOD_3_AE51673287E1EA9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6EDE58E399C859A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_METHOD_3_6EDE58E399C859A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChangeTrackVirtualCameraFollowAndAim*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGETRACKVIRTUALCAMERAFOLLOWANDAIM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

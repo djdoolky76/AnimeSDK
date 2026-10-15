@@ -4,12 +4,9 @@
 #include "unitysdk/CriWare/CriAtomExCategory_ReactDuckerTargetType.h"
 #include "unitysdk/CriWare/CriAtomExCategory_ReactFadeParameter.h"
 #include "unitysdk/CriWare/CriAtomExCategory_ReactHoldType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerParameter_TypeDefinitionIndex = 38691;
-
 	struct alignas(4) CriAtomExCategory_ReactDuckerParameter
 	{
 		::CriWare::CriAtomExCategory_ReactDuckerParameter_Target target; // 0x10

@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 class AkCallbackManager_BankCallback;
 
-inline static constexpr unsigned int AkBankManager_AsyncBankHandle___O_TypeDefinitionIndex = 43627;
-
-class AkBankManager_AsyncBankHandle___O : public ::System::Object
-{
-public:
-	static ::AkCallbackManager_BankCallback** StaticGet__0___GlobalBankCallback()
+	class AkBankManager_AsyncBankHandle___O : public ::System::Object
 	{
-		return (::AkCallbackManager_BankCallback**)Il2CppClass::FromTypeDefinitionIndex(AkBankManager_AsyncBankHandle___O_TypeDefinitionIndex)->GetStaticField(0xF010);
-	}
-};
+	public:
+		static ::AkCallbackManager_BankCallback** StaticGet__0___GlobalBankCallback()
+		{
+			return (::AkCallbackManager_BankCallback**)UnitySDK::FromName("", "<>O")->GetStaticField(0x1EB0);
+		}
+
+	};

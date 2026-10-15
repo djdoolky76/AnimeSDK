@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemOverlapAction_TypeDefinitionIndex = 5259;
-
 	enum class ParticleSystemOverlapAction : ::System::Int32
 	{
 		Ignore = 0,

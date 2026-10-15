@@ -3,8 +3,6 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SeparationType_TypeDefinitionIndex = 36071;
-
 	enum class B2SeparationType : ::System::Int32
 	{
 		b2_pointsType = 0,

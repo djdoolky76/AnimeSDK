@@ -1,490 +1,781 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_108.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_10.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_1018.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_1080.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_11614.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_12.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_144.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_120.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_1208.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_128.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_130.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_14.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_1450.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_16.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_18.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_188.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_192.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_162.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_1665.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_174.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_20.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_2048.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_220.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_228.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_2100.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_212.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_21252.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_2350.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_2382.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_24.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_240.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_256.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_28.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_308.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_262.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_288.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_3.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_3132.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_32.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_320.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_36.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_360.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_38.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_40.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_4104.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_4096.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_42.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_44.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_48.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_5.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_592.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_52.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_56.h"
 #include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_6.h"
-#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_80.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_64.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_640.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_72.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_76.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_84.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_9.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_94.h"
+#include "unitysdk/_PrivateImplementationDetails____StaticArrayInitTypeSize_998.h"
+namespace System { class String; }
 
-#define _PRIVATEIMPLEMENTATIONDETAILS__THROWINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0xB3FF300)
+#define _PRIVATEIMPLEMENTATIONDETAILS__COMPUTESTRINGHASH_OFFSET UNITYSDK_OFFSET(0x1C04C840)
 
-inline static constexpr unsigned int _PrivateImplementationDetails__TypeDefinitionIndex = 80925;
+	class _PrivateImplementationDetails_ : public ::System::Object
+	{
+	public:
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_256* StaticGet__0392525BCB01691D1F319D89F2C12BF93A478467()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_256*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
 
-class _PrivateImplementationDetails_ : public ::System::Object
-{
-public:
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_108* StaticGet_0742BD4A131D4F9A3DDD9B2794E7363AD6BF948D646E8DA38FEC701AFB1A3AE7()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_108*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_48* StaticGet_094F88F82A3DD9F41BC9BF5682F7DD353EBFCF046CB0672B10101C524E72B3B3()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_48*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_0ABF8AC68111CEBD27676BF5EF5DD92A3FEE0C68C2FDAB9B259C4795F93C7A8C()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_0C57AC9190D8BE7CD8679D6FE40A639B5949FBFE378A378E8B291D07509D0B21()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_0C6A9A02BE5F7EB53FB20C6B5B3C610B857B50E630614FEC5F4BFCD7FC6F1567()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048* StaticGet_0E2324949E99F3333C190A2D72DC1C4D3D195A1D6F548FA73962188FF3868B07()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_0F3F8AD69C1B235B53FC7DE7ED57354CD90F60D00E223C0EB1A1874E49EF3AC9()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_28* StaticGet_0F8DAAA4FC68A679E2F00D244032E0E22A64972116D6871A524D548656B34F17()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_28*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_12A3F1B9165E05F624FDE5C2E2371D2A1444E3E5FC7B014D010B89708D38FFA7()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet_17D85E3BC9C8EB31AFF7B430F3A50AFE61D840AF629D43733EA22B246355BDDE()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_80* StaticGet_1D6D9DAF6C036D5D6103C3F06C118AA2E8862976A7D6FF80FE1BB33B3D0D00A6()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_80*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_256* StaticGet_21244F82B210125632917591768F6BF22EB6861F80C6C25A25BD26DFB580EA7B()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_256*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::System::Int32* StaticGet_252C0B6B080FA045ACFCD1437F693F3BE2BE2AC8223EA525D492FA19AB028942()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_2777033975F18730E3A08279CAC04A6F8BA4C9C4443CFB135B960B3492B482CD()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_287F97A73B4EEC8CF7655B5D947705AF7950CC4415EA2FF4E78A6503087CCFEA()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_296F0512C14F45AE5B417CF001A71E6F1E72554893F0F3375A1220A0DE15CCEC()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_2C0D726F42A89F0EBA78C31D0B94A718249F2764039FA5C7C829FCE23AE2135D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_2CDA0F20E0738778E011D2548486FD63B5EE1BB7467D0062A93D19958F6E8E1F()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_2FBDB99F828C88ED8F078469C2F5A3389DA134129C565AE5740D339428048256()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_33E3F9EB37E55A0172F2489E60C16B33F2B35DA058B9D897E3EE5061D167CA2F()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_349CE67EF4708F01355E22D37F33A8DDF8D24DF0CAC7A6DE3984A7E3A62AA071()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_6* StaticGet_35CBF992DB2700DBD78AD1E6AC5824D1E738F0A8E8DCF652CC223CA15AF6012D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_6*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_28* StaticGet_37A1368DFA23C196E0461E9403E2BEF52585EFA839CE0E8E37B54A0B653DF22A()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_28*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_3A24DFABC40EDBFED49B33E27D316B5595F567F5891CC2E22CDD6219766478A2()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_4104* StaticGet_3DB558EB26713F09A8FA1AEBD595E2B2E5866F09FDC35A4F219C7B6622F42711()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_4104*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_3E9E488375FDDBBDA613B4FD2246828DF12BBED59E1763A7E0F57105ADF49C7F()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_6* StaticGet_40AE2D0932F1E381C2D74CC90C0CDB9E9B281F32D52EC31C9F1B51CDCB209C19()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_6*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_45128F706B910588CE57D78F623E86FAC34220D4AB5AB3D841360F279FC3B281()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_4636993D3E1DA4E9D6B8F87B79E8F7C6D018580D52661950EABC3845C5897A4D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_308* StaticGet_4725CD4DC5744F7C9F1871092DCBE1EFA87397F29855F48DC623747BFCADE77B()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_308*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_48E8FD1B85494B094E5F93CA5702EB36A89EF1C9810C16E843229B53DB904F3C()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_48FA6C5AA3CB69B46CB4F694AAA8BBFA89AD242A8E9D9C76CBA97B824BB8EFAD()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_49B63E7BD932DDF6076854DFDE775DDF79F278D0062A70EA91CFBCB35A5D3924()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_49C16B6F0EF802F3AAF7FC52DC1E6925199EDDC6E255028182BBA4E236F8F855()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_4BA701952EEDC19088F529500D3DC367A4E5091C0DF14113B650EB85D30BE463()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_4FF57284A79CDB01C6AB69FE35CB72A3AB211D557CBCE1A204EF213277443A3C()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_53BAF4300EB2D8DDFB42BE7ED6687682C39E38F35BEB40B20D1276F06F046B6A()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_44* StaticGet_53BFB09A8803B408833184310D7A89203A1665BF87CC3BDF75E5CD512C94352D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_44*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_228* StaticGet_598423B9BC9E9784E9E56EAEA8E25CC7CBCB76503A96BE04A2CB545A058D48D7()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_228*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_65ADECC0BABD506943C43D70FC68105FBD0D56739B9706E9B00F9263B7C12627()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_67EA97EC0C38EEBE8A706F6C03E9D79D0D269954D010AD2F8B361752155B5A79()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_693098260007F12213B26A434015CF5E4B00FA410F5F0D7BF9C61F0B12E92651()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_6D87385CD74E9464F8A583B3C1AC25F9B49BB0D30D4D26C976AEC4315B7BE0C6()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_720FCE0ABAF6A16C82334B58512C4AB37DDD0720F77F28DC10ED57B131A9318C()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_753D5E1ADA77B20B9959A1030B8E0BA5CF925F2881D3635C3F791E5A0AE0EEB1()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet_76F8D86D80508DDADDD209C255FD407C9DCBB1F4B07CCB20653A5C3EE3E6F01F()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_7828DAE46FBD751CB8F4B9924F1B2872F2D2AE4C231A4B8231C06F5EBF7B14C0()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_5* StaticGet_7839FAA157ACFB68D5A8769DD49EDB308CEFA6F62F0E10050B73E7B82833D8F9()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_5*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_82B47994795C4E9837C8B789D8888415A4EC32E1228C3677FA94FCDA5313FE67()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_220* StaticGet_86B4D9CFA99B2A4543337B7FAB3456367A880108C304A2AFA99EEB37D47CB5C7()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_220*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_8A31A40ECAC0CEB4D87B30BD156CA7A547E8E33DC071454B765FBC777D1C34A1()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_8AD7A9489457DE2EC35FE531C594773C8C8A88969117FF57CFB99484892DB3B0()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_90D856B7ECAC90C26898AF8A46404297AA0EF65768F62FDF8C3F08294BCBEE49()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_94C69D735920885BBB6B1A0CCAA406E74BDAC905105004B5B6C1B364C495043E()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_95C2C89428E3DCAC1B3183AE28B4933D8DC28349F88B9DB50E3AE762C35C5126()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_982D30206824219FA96B05CB5F5B9732D5D50E53219B38777653AB7A3305129F()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_9A41E11C9DEAAF6D063C95D124EB08A4E5822B4BFB2CD1E15E4F044988CAAB69()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet_9AB8EA006C25C887223D6AFCA548F88D37A644BA96E801F909C99641FFB609F7()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_9BFD9F7504E26F3B6E1460F701C3B9F43B2AF3D5A1F0C3C4F4CAD2B673E34B4A()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_9C65705A0F8C420F71690BF4325670DE754CDFE11092C0072345D2BE706E0E53()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_192* StaticGet_9E809DF87241811EC14D2A476CD284CC9EA738FD797FD9BBC22188EBAF08AEAA()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_192*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet_A33855E8B1194FC105C7C052F107868F814E2F355CCC7124A370C0E757207896()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_18* StaticGet_A87D6326F9C2E28AD3D912B96365908C80C0C421641019DF5042FFA5B383D40C()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_18*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::System::Int32* StaticGet_A8A28576620362B79CD086BFC76D25878B2E4B91E5535B54D1448BF755B5D548()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_AE12670CC16DBF70921CFB5B4115D4E4CF70AEB968659585B17E30891BAA46A9()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_B0EB65FDDEEE992C8871ABA7F833F3C79C0F94A7CE426A72E76059CE4859B377()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_B6599D21CE74F24FA42D57991D6B0D0C5770322C90AF734EEB36A37F74090137()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_B952A3305FEF8FA6C6A5C027AE6DC26D01258F2A263B5D07BACC18E306FFB173()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_B9BD7C3AE1CD66E3335AB27DD6F9DFEC2C013A9697CCB47240517501BA5CDC7E()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_144* StaticGet_BAC1DE1D52860E9D1D326EB674384C4869F1C35998573C8EB026D0BC9D462B36()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_144*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_BAED642339816AFFB3FE8719792D0E4CE82F12DB72B7373D244EAA65445800FE()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_48* StaticGet_BD716D581306F8B8D477BC01AD39FACCE743420EA7A9D3346D1CA57F8EBFF505()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_48*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::System::Int32* StaticGet_BEB8416CBE1A3C57DFA28D0FECE7E2F1FADA3C7799B592171A074CA7FAA1D265()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_BEE4E473561DAD5D766DF88063B8A62A31D620D35AAC9D706D00712BB8546C57()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_4104* StaticGet_C34BDC8713B90831D89741B7AF67E90D96AE0EE7BE4A126B38BB603F8317B46D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_4104*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_144* StaticGet_C70F5E496017BE125D961097CCF48F30F1BED1523FF514342C44062F8858C9EF()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_144*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_28* StaticGet_C7C66004E1519F34E755EBB0CFBC2400654FF2C4ECB853ED9523B406D128667B()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_28*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_C8172645B0EAB2C084BA69A269DD28B66522BA34A167F9E91876610C681D4746()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_C923F14AB0525FA65E0D03AE6483BED38FF4268A3B9A551FB8D38EB9A6563802()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_C945A26F892B3BD1462EECFB4C56C2073F70598FB73FAC3E6D82E056D8CA2C06()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_C967DBFCBE48E356E3821AF48C336245CD38B6B558F484CE3EBDD8ABC56ED903()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_144* StaticGet_CD241CCFB28DFE4770EE959D941933231F359E35273A56E7EE14E21C61189E96()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_144*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_CDFA307B906BDD4F3C699709B4AF5672E211C71E692375DA730DCE80979AFA97()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_CE18F5C9B62E24ECE371F92F5BBDB067A5A59A86E5D0F3ECFFF02E17DA6446D2()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_CF97ADEEDB59E05BFD73A2B4C2A8885708C4F4F70C84C64B27120E72AB733B72()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_D04468D46671F8BB09408F2DC16A4A4C0F9562BEEBF8835D408317ADCF3A7528()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_D0E85F02EDDDBE34C3BBA3C85C11FC8C96579CEC49630A473D25D54EF1ADDD57()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_D1E16DB4821D437C7FAB31F8F1C34CE75CCE7B3CF11BD0F15A86EC92CEBDE742()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_D338C7CFBD24E8741DD131258566A2A6062F965C156F701C380EE71B840DE304()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_D497FE3BD2BF635F521DD4F07BD17E285EB24A413CACA19647209909A5612ED1()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_28* StaticGet_D7AF925E3E60318AAF2BFFB64686252CDEC16EF99BC6B15DFF52AC8ED8500035()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_28*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_DA18AC398A5DA0D71544485BA12F11021028DF1FB7981DB6579A85BD9A769E3C()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_DA96890E91DABCDA27DBB0162D14319C54C92A884E0BFCC10254763EAA3F7C52()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_DE571CE603267D89C328F6C3A10921944840E8505961020F1EE6869049A6B73B()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_DE5DD02EA0E988BA1F1A98AB41519D46957F7E65FE5EDA978ED77DE93CA6312A()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_592* StaticGet_DFC66DF81CB8A733CA6AAFF6C6213DE9F7E2CACA3E4D944372F5D2C3128F02DE()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_592*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_E02CD4310ADB272243B94A55E5A993F967CE170F6B9612C3142BB020CB7494D6()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_E19CFC999DA3DBC38EE6A0ED0E78E5FF402E920DAAC978B67B9E822D2E62B975()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_188* StaticGet_E44BCFABF8C1AF273E10CEBB342BBBBD9703C5191932EB84FA7A1A1D1E815447()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_188*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_E528F4309E1413E6BC35AEA5D8DB8519384D2FCC33F9DD5D1126D73F104CF92A()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_E6DA82B6BA7ABF135D5F8F6F7C30F4E30ECB1527E2B79DD72B876B9114C8A30D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_E95D10981FC17EEFF13896EBF7D8FB001AD528D0ACD5D6CFCBA8667E8F2F737D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_EEA4E7B0F32627F041E5EAB5F769E0F9B8F3876E95A7D8B124DD1078375C36ED()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_EF67014DFF4E03A908EE69B9F437F840CD5FEE45D6BB162EF47A29B4A3A2E33E()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_5* StaticGet_F2FF9A18DB5C67F8ACE3092B006EAB210500DBE78E25CBB266BBB08D9D1E4F0D()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_5*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_F46913286D895F62D646314F400FC3D7A543CF34EB4AE56DF87F43DC4582A36B()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_F621E8FFE20D2891D5896EB49F4B76AA57C1162F9597227E6D5C4B192C6FA907()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_F67C5FF154EE4961A5F9223699A9F82F6E06CB3C064EFBF28119E8A43639ED97()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_FA83701D21456019A977262D7EE455BB982EF58244D932D550DBBF53D583383E()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet_FE78C65211DD0B56A97024FB61111E686EF1FE054AA132BA58E2891AC496F1EE()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_FF1F6EE5D67458CFAC950F62E93042E21FCB867E2234DCC8721801231064AD40()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
-	static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_FF8DD8AFA186E51959435B7757E4641572C9B3432FFB2B9EBC28962EFD732402()
-	{
-		return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)Il2CppClass::FromTypeDefinitionIndex(_PrivateImplementationDetails__TypeDefinitionIndex)->GetStaticField(0x0);
-	}
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__0588059ACBD52F7EA2835882F977A9CF72EB9775()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
 
-	static ::System::Void ThrowInvalidOperationException()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + _PRIVATEIMPLEMENTATIONDETAILS__THROWINVALIDOPERATIONEXCEPTION_OFFSET))();
-	}
-};
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_84* StaticGet__0A1ADB22C1D3E1F4B2448EE3F27DF9DE63329C4C()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_84*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_240* StaticGet__121EC59E23F7559B28D338D562528F6299C2DE22()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_240*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__12D04472A8285260EA12FD3813CDFA9F2D2B548C()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__13A35EF1A549297C70E2AD46045BBD2ECA17852D()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet__1730F09044E91DB8371B849EFF5E6D17BDE4AED0()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__1A84029C80CB5518379F199F53FF08A7B764F8FD()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096* StaticGet__1AEF3D8DF416A46288C91C724CBF7B154D9E5BF3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048* StaticGet__1E41C4CD0767AEA21C00DEABA2EA9407F1E6CEA5()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet__1FE6CE411858B3D864679DE2139FB081F08BFACD()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__235D99572263B22ADFEE10FDA0C25E12F4D94FFC()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__25420D0055076FA8D3E4DD96BC53AE24DE6E619F()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_1208* StaticGet__25CF935D2AE9EDF05DD75BCD47FF84D9255D6F6E()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_1208*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_42* StaticGet__29C1A61550F0E3260E1953D4FAD71C256218EF40()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_42*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet__2B33BEC8C30DFDC49DAFE20D3BDE19487850D717()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet__2BA840FF6020B8FF623DBCB7188248CF853FAF4F()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__2C840AFA48C27B9C05593E468C1232CA1CC74AFD()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet__2D1DA5BB407F0C11C3B5116196C0C6374D932B20()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_14* StaticGet__2D3CF0F15AC2DDEC2956EA1B7BBE43FB8B923130()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_14*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__2F71D2DA12F3CD0A6A112F5A5A75B4FDC6FE8547()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_64* StaticGet__320B018758ECE3752FFEDBAEB1A6DB67C80B9359()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__34476C29F6F81C989CFCA42F7C06E84C66236834()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_2382* StaticGet__35EED060772F2748D13B745DAEC8CD7BD3B87604()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_2382*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_38* StaticGet__375F9AE9769A3D1DA789E9ACFE81F3A1BB14F0D3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_38*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_1450* StaticGet__379C06C9E702D31469C29033F0DD63931EB349F5()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_1450*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_10* StaticGet__399BD13E240F33F808CA7940293D6EC4E6FD5A00()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_10*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__39C9CE73C7B0619D409EF28344F687C1B5C130FE()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_320* StaticGet__3C53AFB51FEC23491684C7BEDBC6D4E0F409F851()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_320*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__3E3442C7396F3F2BB4C7348F4A2074C7DC677D68()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_64* StaticGet__3E4BBF9D0CDD2E34F78AA7A9A3979DCE1F7B02BD()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet__3E823444D2DFECF0F90B436B88F02A533CB376F1()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__3FE6C283BCF384FD2C8789880DFF59664E2AB4A1()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_1665* StaticGet__40981BAA39513E58B28DCF0103CC04DE2A0A0444()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_1665*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__40E7C49413D261F3F38AD3A870C0AC69C8BDA048()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__421EC7E82F2967DF6CA8C3605514DC6F29EE5845()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_256* StaticGet__433175D38B13FFE177FDD661A309F1B528B3F6E2()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_256*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_120* StaticGet__46232052BC757E030490D851F265FB47FA100902()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_120*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__4858DB4AA76D3933F1CA9E6712D4FDB16903F628()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_48* StaticGet__4E3B533C39447AAEB59A8E48FABD7E15B5B5D195()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_48*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__4F7A8890F332B22B8DE0BD29D36FA7364748D76A()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__536422B321459B242ADED7240B7447E904E083E3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_1080* StaticGet__5382CEF491F422BFE0D6FC46EFAFF9EF9D4C89F3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_1080*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_10* StaticGet__56DFA5053B3131883637F53219E7D88CCEF35949()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_10*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__57218C316B6921E2CD61027A2387EDC31A2D9471()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__57F320D62696EC99727E0FE2045A05F1289CC0C6()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_212* StaticGet__594A33A00BC4F785DFD43E3C6C44FBA1242CCAF3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_212*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet__5BBDF8058D4235C33F2E8DCF76004031B6187A2F()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_288* StaticGet__5BCD21C341BE6DDF8FFFAE1A23ABA24DCBB612BF()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_288*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__5BFE2819B4778217C56416C7585FF0E56EBACD89()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_128* StaticGet__609C0E8D8DA86A09D6013D301C86BA8782C16B8C()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_128*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_48* StaticGet__62BAB0F245E66C3EB982CF5A7015F0A7C3382283()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_48*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048* StaticGet__646036A65DECCD6835C914A46E6E44B729433B60()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__65E32B4E150FD8D24B93B0D42A17F1DAD146162B()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_52* StaticGet__6770974FEF1E98B9C1864370E2B5B786EB0EA39E()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_52*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__67EEAD805D708D9AA4E14BF747E44CED801744F3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_120* StaticGet__6C71197D228427B2864C69B357FEF73D8C9D59DF()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_120*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet__6CEE45445AFD150B047A5866FFA76AA651CDB7B7()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_9* StaticGet__6D49C9D487D7AD3491ECE08732D68A593CC2038D()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_9*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048* StaticGet__6D797C11E1D4FB68B6570CF2A92B792433527065()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_2048*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3132* StaticGet__6E5DC824F803F8565AF31B42199DAE39FE7F4EA9()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3132*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_76* StaticGet__6FC754859E4EC74E447048364B216D825C6F8FE7()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_76*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__704939CD172085D1295FCE3F1D92431D685D7AA2()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_24* StaticGet__7088AAE49F0627B72729078DE6E3182DDCF8ED99()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_24*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__7341C933A70EAE383CC50C4B945ADB8E08F06737()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__736D39815215889F11249D9958F6ED12D37B9F57()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096* StaticGet__7F42F2EDC974BE29B2746957416ED1AEFA605F47()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__7FE820C9CF0F0B90445A71F1D262D22E4F0C4C68()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_21252* StaticGet__811A927B7DADD378BE60BBDE794B9277AA9B50EC()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_21252*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet__81917F1E21F3C22B9F916994547A614FB03E968E()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__823566DA642D6EA356E15585921F2A4CA23D6760()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet__82C2A59850B2E85BCE1A45A479537A384DF6098D()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_44* StaticGet__82C383F8E6E4D3D87AEBB986A5D0077E8AD157C4()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_44*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__86F4F563FA2C61798AE6238D789139739428463A()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__871B9CF85DB352BAADF12BAE8F19857683E385AC()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet__89A040451C8CC5C8FB268BE44BDD74964C104155()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__8CAA092E783257106251246FF5C97F88D28517A6()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_2100* StaticGet__8D231DD55FE1AD7631BBD0905A17D5EB616C2154()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_2100*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet__8E10AC2F34545DFBBF3FCBC06055D797A8C99991()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_256* StaticGet__8F22C9ECE1331718CBD268A9BBFD2F5E451441E3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_256*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_640* StaticGet__90A0542282A011472F94E97CEAE59F8B3B1A3291()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_640*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet__93A63E90605400F34B49F0EB3361D23C89164BDA()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__94841DD2F330CCB1089BF413E4FA9B04505152E2()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet__95264589E48F94B7857CFF398FB72A537E13EEE2()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__95C48758CAE1715783472FB073AB158AB8A0AB2A()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet__973417296623D8DC6961B09664E54039E44CA5D8()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__97FB30C84FF4A41CD4625B44B2940BFC8DB43003()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096* StaticGet__99E2E88877D14C7DDC4E957A0ED7079CA0E9EB24()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_64* StaticGet__9A9C3962CD4753376E3507C8CB5FD8FCC4B4EDB5()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet__9BB00D1FCCBAF03165447FC8028E7CA07CA9FE88()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_A0074C15377C0C870B055927403EA9FA7A349D12()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_130* StaticGet_A1319B706116AB2C6D44483F60A7D0ACEA543396()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_130*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::System::Int64* StaticGet_A13AA52274D951A18029131A8DDECF76B569A15D()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet_A323DB0813C4D072957BA6FDA79D9776674CD06B()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_212* StaticGet_A5444763673307F6828C748D4B9708CFC02B0959()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_212*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet_A6732F8E7FC23766AB329B492D6BF82E3B33233F()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_174* StaticGet_A705A106D95282BD15E13EEA6B0AF583FF786D83()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_174*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_1018* StaticGet_A8A491E4CED49AE0027560476C10D933CE70C8DF()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_1018*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet_AC791C4F39504D1184B73478943D0636258DA7B1()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_52* StaticGet_AFCD4E1211233E99373A3367B23105A3D624B1F2()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_52*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_B472ED77CB3B2A66D49D179F1EE2081B70A6AB61()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_B4FBD02AAB5B16E0F4BD858DA5D9E348F3CE501D()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_256* StaticGet_B53A2C6DF21FC88B17AEFC40EB895B8D63210CDF()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_256*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096* StaticGet_B6002BBF29B2704922EC3BBF0F9EE40ABF185D6B()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_4096*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_998* StaticGet_B881DA88BE0B68D8A6B6B6893822586B8B2CFC45()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_998*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_162* StaticGet_B8864ACB9DD69E3D42151513C840AAE270BF21C8()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_162*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_360* StaticGet_B8F87834C3597B2EEF22BA6D3A392CC925636401()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_360*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet_B9B670F134A59FB1107AF01A9FE8F8E3980B3093()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_20* StaticGet_BE1BDEC0AA74B4DCB079943E70528096CCA985F8()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_20*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet_BEBC9ECC660A13EFC359BA3383411F698CFF25DB()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_BEE1CFE5DFAA408E14CE4AF4DCD824FA2E42DCB7()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet_BF477463CE2F5EF38FC4C644BBBF4DF109E7670A()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_6* StaticGet_BF5EB60806ECB74EE484105DD9D6F463BF994867()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_6*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::System::Int64* StaticGet_C1A1100642BA9685B30A84D97348484E14AA1865()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_16* StaticGet_C6F364A0AD934EFED8909446C215752E565D77C1()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_16*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_174* StaticGet_CE5835130F5277F63D716FC9115526B0AC68FFAD()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_174*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_6* StaticGet_CE93C35B755802BC4B3D180716B048FC61701EF7()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_6*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_64* StaticGet_CF0B42666EF5E37EDEA0AB8E173E42C196D03814()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_256* StaticGet_D002CBBE1FF33721AF7C4D1D3ECAD1B7DB5258B7()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_256*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_D117188BE8D4609C0D531C51B0BB911A4219DEBE()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_32* StaticGet_D28E8ABDBD777A482CE0EE5C24814ACAE52AABFE()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_32*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_256* StaticGet_D2C5BAE967587C6F3D9F2C4551911E0575A1101F()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_256*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_44* StaticGet_D78D08081C7A5AD6FBA7A8DC86BCD6D7A577C636()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_44*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_76* StaticGet_DA19DB47B583EFCF7825D2E39D661D2354F28219()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_76*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_56* StaticGet_DC2B830D8CD59AD6A4E4332D21CA0DCA2821AD82()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_56*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_52* StaticGet_DD3AEFEADB1CD615F3017763F1568179FEE640B0()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_52*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_36* StaticGet_E1827270A5FE1C85F5352A66FD87BA747213D006()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_36*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_E45BAB43F7D5D038672B3E3431F92E34A7AF2571()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_64* StaticGet_E75835D001C843F156FBA01B001DFE1B8029AC17()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_52* StaticGet_E92B39D8233061927D9ACDE54665E68E7535635A()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_52*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_EA9506959484C55CFE0C139C624DF6060E285866()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_262* StaticGet_EB5E9A80A40096AB74D2E226650C7258D7BC5E9D()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_262*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_64* StaticGet_EBF68F411848D603D059DFDEA2321C5A5EA78044()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_64*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_10* StaticGet_EC5BB4F59D4B9B2E9ECD3904D44A8275F23AFB11()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_10*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_3* StaticGet_EC83FB16C20052BEE2B4025159BC2ED45C9C70C3()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_3*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet_EC89C317EA2BF49A70EFF5E89C691E34733D7C37()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_40* StaticGet_F06E829E62F3AFBC045D064E10A4F5DF7C969612()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_40*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_11614* StaticGet_F073AA332018FDA0D572E99448FFF1D6422BD520()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_11614*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_120* StaticGet_F34B0E10653402E8F788F8BC3F7CD7090928A429()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_120*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_72* StaticGet_F37E34BEADB04F34FCC31078A59F49856CA83D5B()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_72*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_94* StaticGet_F512A9ABF88066AAEB92684F95CC05D8101B462B()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_94*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_12* StaticGet_F8FAABB821300AA500C2CEC6091B3782A7FB44A4()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_12*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::_PrivateImplementationDetails____StaticArrayInitTypeSize_2350* StaticGet_FCBD2781A933F0828ED4AAF88FD8B08D76DDD49B()
+		{
+			return (::_PrivateImplementationDetails____StaticArrayInitTypeSize_2350*)UnitySDK::FromName("", "<PrivateImplementationDetails>")->GetStaticField(0x0);
+		}
+
+		static ::System::UInt32 ComputeStringHash(::System::String* a1)
+		{
+			return ((::System::UInt32(*)(::System::String*))((::PBYTE)hIl2Cpp + _PRIVATEIMPLEMENTATIONDETAILS__COMPUTESTRINGHASH_OFFSET))(a1);
+		}
+
+	};

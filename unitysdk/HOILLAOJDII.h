@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NOOHPODHIAA.h"
+#include "unitysdk/RPG/GameCore/FiveDimOrthoDirection.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace RPG { template <typename T> class PoolList_1; }
+
+#define HOILLAOJDII_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAF3B70)
+#define HOILLAOJDII_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF3C50)
+#define HOILLAOJDII_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAF3A10)
+
+	class HOILLAOJDII : public ::NOOHPODHIAA
+	{
+	public:
+		::RPG::PoolList_1<::System::Int32>* MBALIALIHIB; // 0x338
+		::RPG::PoolList_1<::System::Int32>* EDJGFNAPPLB; // 0x340
+		::UnityEngine::Vector3 EBJFFMDHGCN; // 0x348
+		::System::Int32 OPEMCAMNMNJ; // 0x354
+		::System::Int32 PKIMFHEAFMI; // 0x358
+		::System::Int32 NFFJBAMFFDF; // 0x35C
+		::RPG::GameCore::FiveDimOrthoDirection LJPIOIHLLFB; // 0x360
+		::System::Int32 OGLLMKHKMCK; // 0x364
+		::UnityEngine::Vector3 PKJJCOPBCOE; // 0x368
+		::System::Single JJFKOIINBFM; // 0x374
+		::System::Int32 LFIAOELGHNA; // 0x378
+		::System::Boolean PIADDOPBIKC; // 0x37C
+		::System::Byte _padding0[0x3];
+		::System::Single PHEKBOBOFFJ; // 0x380
+		::System::Int32 LFNKIKGAGIE; // 0x384
+		::System::Int32 INFDCEBMBIK; // 0x388
+		::System::Boolean FPDAKCGPAOF; // 0x38C
+		::System::Boolean CPILAEBAJFH; // 0x38D
+		::System::Boolean NBKDDFNGGBP; // 0x38E
+		::System::Boolean PIKFHCABDAP; // 0x38F
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOILLAOJDII_CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnAlloc()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOILLAOJDII_ONALLOC_OFFSET))(this);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOILLAOJDII_CLEAR_OFFSET))(this);
+		}
+
+	};

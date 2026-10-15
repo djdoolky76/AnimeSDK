@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOINCONTROLCLOSETIP_AWAKE_OFFSET UNITYSDK_OFFSET(0xD837CF0)
-#define RPG_CLIENT_MONOINCONTROLCLOSETIP_METHOD_5_6D93101E4CE10A96_OFFSET UNITYSDK_OFFSET(0xD837EE0)
-#define RPG_CLIENT_MONOINCONTROLCLOSETIP_METHOD_5_F5ADBA366C2EA507_OFFSET UNITYSDK_OFFSET(0xD838030)
-#define RPG_CLIENT_MONOINCONTROLCLOSETIP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD837F90)
-#define RPG_CLIENT_MONOINCONTROLCLOSETIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD838080)
+#define RPG_CLIENT_MONOINCONTROLCLOSETIP_AWAKE_OFFSET UNITYSDK_OFFSET(0xD838790)
+#define RPG_CLIENT_MONOINCONTROLCLOSETIP_CTOR_OFFSET UNITYSDK_OFFSET(0xD838A40)
+#define RPG_CLIENT_MONOINCONTROLCLOSETIP_MFNBDDBJGNE_OFFSET UNITYSDK_OFFSET(0xD8389F0)
+#define RPG_CLIENT_MONOINCONTROLCLOSETIP_MJJIDDEIJJH_OFFSET UNITYSDK_OFFSET(0xD8388A0)
+#define RPG_CLIENT_MONOINCONTROLCLOSETIP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD838950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoInControlCloseTip_TypeDefinitionIndex = 61436;
-
 	class MonoInControlCloseTip : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* MONLPLNGIOJ; // 0x18
 		::UnityEngine::Transform* PGPBJLGKAMI; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCLOSETIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCLOSETIP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -36,14 +32,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCLOSETIP_ONDESTROY_OFFSET))(this);
 		}
 
-		::System::Void Method_5_F5ADBA366C2EA507(::System::Object* a1)
+		::System::Void MFNBDDBJGNE(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCLOSETIP_METHOD_5_F5ADBA366C2EA507_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCLOSETIP_MFNBDDBJGNE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_6D93101E4CE10A96()
+		::System::Void MJJIDDEIJJH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCLOSETIP_METHOD_5_6D93101E4CE10A96_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLCLOSETIP_MJJIDDEIJJH_OFFSET))(this);
 		}
+
 	};
 }

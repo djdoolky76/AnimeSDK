@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PreloadItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PRELOADITEM_METHOD_2_67F09D5620D01F05_OFFSET UNITYSDK_OFFSET(0x1D35A5D0)
-#define RPG_GAMECORE_PRELOADITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D35A6D0)
+#define RPG_GAMECORE_PRELOADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93FAC0)
+#define RPG_GAMECORE_PRELOADITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D93F9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadItem_TypeDefinitionIndex = 16187;
-
 	class PreloadItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* Path; // 0x10
 		::System::UInt32 Count; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_67F09D5620D01F05(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadItem*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PreloadItem* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PreloadItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEM_METHOD_2_67F09D5620D01F05_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PreloadItem*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADITEM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

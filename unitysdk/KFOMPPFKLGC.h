@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/KNFCEJEJINK.h"
+class DLECIKAMKEG;
+class FNHCPKCKBKF;
+
+#define KFOMPPFKLGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C9180)
+#define KFOMPPFKLGC_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB3C9540)
+#define KFOMPPFKLGC_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB3C9190)
+
+	class KFOMPPFKLGC : public ::KNFCEJEJINK
+	{
+	public:
+		::FNHCPKCKBKF* MKKLHFCCCNF; // 0x18
+		::DLECIKAMKEG* EEFMDEHLLFI; // 0x20
+		::System::Void _ctor(::FNHCPKCKBKF* a1, ::DLECIKAMKEG* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::FNHCPKCKBKF*, ::DLECIKAMKEG*))((::PBYTE)hIl2Cpp + KFOMPPFKLGC_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void MGFLFCHMGPA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFOMPPFKLGC_MGFLFCHMGPA_OFFSET))(this);
+		}
+
+		::System::Void JLANKNHFKCN(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + KFOMPPFKLGC_JLANKNHFKCN_OFFSET))(this, a1);
+		}
+
+	};

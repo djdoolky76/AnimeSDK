@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ElfProfileQuestGroupData; }
 namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE55FD0)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS7_0___CHECKPROFILERHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xCE55FE0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDA6790)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS7_0___CHECKPROFILERHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xCDA67A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass7_0_TypeDefinitionIndex = 63766;
-
 	class ElfHintToastManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::PrefHashSet_1<::System::UInt32>* seenGroups; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __CheckProfilerHints_b__0(::RPG::Client::ElfProfileQuestGroupData* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ElfProfileQuestGroupData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS7_0___CHECKPROFILERHINTS_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,51 +2,50 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/System/ValueTuple.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TextmapMTRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEXTMAPMTROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D5CC780)
-#define RPG_GAMECORE_TEXTMAPMTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5CC940)
-#define RPG_GAMECORE_TEXTMAPMTROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D5CCB40)
-#define RPG_GAMECORE_TEXTMAPMTROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D5CCBA0)
-#define RPG_GAMECORE_TEXTMAPMTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CCB30)
+#define RPG_GAMECORE_TEXTMAPMTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB84320)
+#define RPG_GAMECORE_TEXTMAPMTROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1DB83F70)
+#define RPG_GAMECORE_TEXTMAPMTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB84130)
+#define RPG_GAMECORE_TEXTMAPMTROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DB84330)
+#define RPG_GAMECORE_TEXTMAPMTROW_RESET_OFFSET UNITYSDK_OFFSET(0x1DB84390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextmapMTRow_TypeDefinitionIndex = 15121;
-
 	class TextmapMTRow : public ::System::Object
 	{
 	public:
 		::System::String* Text; // 0x10
 		::System::Boolean HasParam; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::Client::TextID ID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TextmapMTRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::TextmapMTRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TextmapMTRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TextmapMTRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TextmapMTRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TextmapMTRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TextmapMTRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TextmapMTRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
+		::System::Void FromTableOffset(::System::ValueTuple a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_FROMTABLEOFFSET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPMTROW_RESET_OFFSET))(this);
 		}
+
 	};
 }

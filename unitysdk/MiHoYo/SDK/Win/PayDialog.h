@@ -3,72 +3,44 @@
 #include "unitysdk/MiHoYo/SDK/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/PayPlat.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
+namespace MiHoYo::SDK::Win { class PayDialog; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_PAYDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B8CC720)
-#define MIHOYO_SDK_WIN_PAYDIALOG_BACK_OFFSET UNITYSDK_OFFSET(0x1B8CE1F0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKALIPAYBTN_OFFSET UNITYSDK_OFFSET(0x1B8CDBB0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKWEIXINPAYBTN_OFFSET UNITYSDK_OFFSET(0x1B8CDA40)
-#define MIHOYO_SDK_WIN_PAYDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1B8CBC10)
-#define MIHOYO_SDK_WIN_PAYDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B8CE350)
-#define MIHOYO_SDK_WIN_PAYDIALOG_PAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x1B8CE330)
-#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESHGOODSINFO_OFFSET UNITYSDK_OFFSET(0x1B8CBEA0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESH_OFFSET UNITYSDK_OFFSET(0x1B8CC6B0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1B8CE020)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYLOADING_OFFSET UNITYSDK_OFFSET(0x1B8CDD20)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x1B8CE0A0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODEOVERDUE_OFFSET UNITYSDK_OFFSET(0x1B8CDED0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODE_OFFSET UNITYSDK_OFFSET(0x1B8CDDF0)
-#define MIHOYO_SDK_WIN_PAYDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1B8CBA90)
-#define MIHOYO_SDK_WIN_PAYDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1B8CBD00)
-#define MIHOYO_SDK_WIN_PAYDIALOG__BACK_B__62_0_OFFSET UNITYSDK_OFFSET(0x1B8CE3C0)
-#define MIHOYO_SDK_WIN_PAYDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8CE370)
+#define MIHOYO_SDK_WIN_PAYDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDCA3A0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_BACK_OFFSET UNITYSDK_OFFSET(0x1BDCC260)
+#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKALIPAYBTN_OFFSET UNITYSDK_OFFSET(0x1BDCBBE0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_CLICKWEIXINPAYBTN_OFFSET UNITYSDK_OFFSET(0x1BDCBA70)
+#define MIHOYO_SDK_WIN_PAYDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCC3E0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDC9890)
+#define MIHOYO_SDK_WIN_PAYDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDCC3C0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_PAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x1BDCC3A0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESHGOODSINFO_OFFSET UNITYSDK_OFFSET(0x1BDC9B20)
+#define MIHOYO_SDK_WIN_PAYDIALOG_REFRESH_OFFSET UNITYSDK_OFFSET(0x1BDCA330)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1BDCC050)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYLOADING_OFFSET UNITYSDK_OFFSET(0x1BDCBD50)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWPAYSUCCESS_OFFSET UNITYSDK_OFFSET(0x1BDCC0D0)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODEOVERDUE_OFFSET UNITYSDK_OFFSET(0x1BDCBF00)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOWQRCODE_OFFSET UNITYSDK_OFFSET(0x1BDCBE20)
+#define MIHOYO_SDK_WIN_PAYDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDC9710)
+#define MIHOYO_SDK_WIN_PAYDIALOG_START_OFFSET UNITYSDK_OFFSET(0x1BDC9980)
+#define MIHOYO_SDK_WIN_PAYDIALOG__BACK_B__62_0_OFFSET UNITYSDK_OFFSET(0x1BDCC430)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayDialog_TypeDefinitionIndex = 9498;
-
 	class PayDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::PayDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::PayDialog**)Il2CppClass::FromTypeDefinitionIndex(PayDialog_TypeDefinitionIndex)->GetStaticField(0x37140);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* GoodsContentGameObjectPath; // 0x0
-		// static const ::System::String* GoodsNameTextPath; // 0x0
-		// static const ::System::String* GoodsPriceTextPath; // 0x0
-		// static const ::System::String* AliPayBtnPath; // 0x0
-		// static const ::System::String* WeixinPayBtnPath; // 0x0
-		// static const ::System::String* QRCodePath; // 0x0
-		// static const ::System::String* QRCodePayTextPath; // 0x0
-		// static const ::System::String* OverdueContentPath; // 0x0
-		// static const ::System::String* RefreshButtonPath; // 0x0
-		// static const ::System::String* LoadingPath; // 0x0
-		// static const ::System::String* StatusGameObjectPath; // 0x0
-		// static const ::System::String* SuccessContentPath; // 0x0
-		// static const ::System::String* FailContentPath; // 0x0
-		// static const ::System::String* FailRefreshButtonPath; // 0x0
-		// static const ::System::String* SuccessRefreshButtonPath; // 0x0
-		// static const ::System::String* LoginTipsObjectPath; // 0x0
-		// static const ::System::String* QRCodeContentPath; // 0x0
-		// static const ::System::String* CreateOrderFailObjectPath; // 0x0
-		// static const ::System::String* CreateOrderFailButtonPath; // 0x0
 		::System::Action* OnBack; // 0x58
 		::System::Action* OnPaySuccess; // 0x60
-		::System::Action_1<::MiHoYo::SDK::PayPlat>* OnSelectPayType; // 0x68
+		::System::Action* OnSelectPayType; // 0x68
 		::UnityEngine::UI::Button* backButton; // 0x70
 		::UnityEngine::GameObject* goodsContentGameObject; // 0x78
 		::UnityEngine::UI::Text* goodsNameText; // 0x80
@@ -93,10 +65,35 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Button* retryButton; // 0x118
 		::MiHoYo::SDK::JSONNode* goodsInfo; // 0x120
 		::MiHoYo::SDK::PayPlat payPlat; // 0x128
+		static ::MiHoYo::SDK::Win::PayDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::PayDialog**)UnitySDK::FromName("MiHoYo.SDK.Win", "PayDialog")->GetStaticField(0x22F40);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* GoodsContentGameObjectPath; // 0x0
+		// static const ::System::String* GoodsNameTextPath; // 0x0
+		// static const ::System::String* GoodsPriceTextPath; // 0x0
+		// static const ::System::String* AliPayBtnPath; // 0x0
+		// static const ::System::String* WeixinPayBtnPath; // 0x0
+		// static const ::System::String* QRCodePath; // 0x0
+		// static const ::System::String* QRCodePayTextPath; // 0x0
+		// static const ::System::String* OverdueContentPath; // 0x0
+		// static const ::System::String* RefreshButtonPath; // 0x0
+		// static const ::System::String* LoadingPath; // 0x0
+		// static const ::System::String* StatusGameObjectPath; // 0x0
+		// static const ::System::String* SuccessContentPath; // 0x0
+		// static const ::System::String* FailContentPath; // 0x0
+		// static const ::System::String* FailRefreshButtonPath; // 0x0
+		// static const ::System::String* SuccessRefreshButtonPath; // 0x0
+		// static const ::System::String* LoginTipsObjectPath; // 0x0
+		// static const ::System::String* QRCodeContentPath; // 0x0
+		// static const ::System::String* CreateOrderFailObjectPath; // 0x0
+		// static const ::System::String* CreateOrderFailButtonPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::MiHoYo::SDK::JSONNode* a1, ::MiHoYo::SDK::PayPlat a2)
@@ -183,5 +180,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_PAYDIALOG__BACK_B__62_0_OFFSET))(this, a1);
 		}
+
 	};
 }

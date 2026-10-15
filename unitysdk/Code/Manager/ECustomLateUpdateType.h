@@ -3,8 +3,6 @@
 
 namespace Code::Manager
 {
-	inline static constexpr unsigned int ECustomLateUpdateType_TypeDefinitionIndex = 50426;
-
 	enum class ECustomLateUpdateType : ::System::Int32
 	{
 		ResetEmoEye = 0,

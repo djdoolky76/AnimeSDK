@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OfflineCullingIndex; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OFFLINECULLINGINDEX_METHOD_2_46684A9A889FD5C4_OFFSET UNITYSDK_OFFSET(0x1D2FC3C0)
-#define RPG_GAMECORE_OFFLINECULLINGINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FC810)
+#define RPG_GAMECORE_OFFLINECULLINGINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E0440)
+#define RPG_GAMECORE_OFFLINECULLINGINDEX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DFEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineCullingIndex_TypeDefinitionIndex = 18943;
-
 	class OfflineCullingIndex : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Boolean Is3DIndex; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Int32 VolumeIndex; // 0x14
 		::System::Int32 Priority; // 0x18
+		::System::Byte _padding1[0x4];
 		::System::Int64 DataIndex; // 0x20
 		::RPG::MVector3 CullingRangeCenter; // 0x28
 		::RPG::MVector3 CullingRangeSize; // 0x34
@@ -27,15 +27,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::Int64>* ChildDataIndex; // 0x50
 		::Il2CppArray<::RPG::MVector3>* ChildDataCenter; // 0x58
 		::Il2CppArray<::RPG::MVector3>* ChildDataSize; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGINDEX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGINDEX_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_46684A9A889FD5C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OfflineCullingIndex*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OfflineCullingIndex* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OfflineCullingIndex*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGINDEX_METHOD_2_46684A9A889FD5C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OfflineCullingIndex*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFLINECULLINGINDEX_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

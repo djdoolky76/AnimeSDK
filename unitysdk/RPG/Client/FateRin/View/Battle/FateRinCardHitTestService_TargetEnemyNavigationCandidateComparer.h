@@ -1,37 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_35A48B293C0D5CF1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/AFMGKIIDMJL.h"
+namespace RPG::Client::FateRin::View::Battle { class FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xD028450)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0xD028530)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xD028520)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFC6690)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xCFC65B0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC6680)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer_TypeDefinitionIndex = 79353;
-
 	class FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::FateRin::View::Battle::FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer** StaticGet_Instance()
 		{
-			return (::RPG::Client::FateRin::View::Battle::FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer**)Il2CppClass::FromTypeDefinitionIndex(FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer_TypeDefinitionIndex)->GetStaticField(0xB690);
+			return (::RPG::Client::FateRin::View::Battle::FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer**)UnitySDK::FromName("RPG.Client.FateRin.View.Battle", "TargetEnemyNavigationCandidateComparer")->GetStaticField(0x586F0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CCTOR_OFFSET))();
 		}
 
-		::System::Int32 Compare(::Struct_2_35A48B293C0D5CF1 a1, ::Struct_2_35A48B293C0D5CF1 a2)
+		::System::Int32 Compare(::AFMGKIIDMJL a1, ::AFMGKIIDMJL a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Struct_2_35A48B293C0D5CF1, ::Struct_2_35A48B293C0D5CF1))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_COMPARE_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::AFMGKIIDMJL, ::AFMGKIIDMJL))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

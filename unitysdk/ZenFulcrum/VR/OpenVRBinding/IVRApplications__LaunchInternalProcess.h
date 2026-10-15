@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVRApplicationError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB21C0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB2200)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFAB1E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB2140)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67A710)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67A690)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67A750)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F673750)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRApplications__LaunchInternalProcess_TypeDefinitionIndex = 37685;
-
 	class IVRApplications__LaunchInternalProcess : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError Invoke(::System::String* a1, ::System::String* a2, ::System::String* a3)
@@ -39,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVRApplicationError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRAPPLICATIONS__LAUNCHINTERNALPROCESS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

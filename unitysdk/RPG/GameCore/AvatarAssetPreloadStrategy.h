@@ -3,21 +3,19 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarAssetPreloadStrategy_TypeDefinitionIndex = 16298;
-
 	enum class AvatarAssetPreloadStrategy : ::System::UInt16
 	{
-		None = 0x0,
-		SilenceLoad = 0x1,
-		PreloadOnEnterMaze = 0x2,
-		UnloadOnExitMaze = 0x4,
-		PreloadOnEnterBattle = 0x8,
-		UnloadOnExitBattle = 0x10,
-		PreloadBeforeUse = 0x20,
-		UnloadAfterUse = 0x40,
-		UnloadOnPlayVideoInMaze = 0x80,
-		UnloadOnPlayVideoInBattle = 0x100,
-		PreloadOnEnterBattleByConfig = 0x200,
-		OnlyEffectOnTeamLeader = 0x400,
+		None = 0,
+		SilenceLoad = 1,
+		PreloadOnEnterMaze = 2,
+		UnloadOnExitMaze = 4,
+		PreloadOnEnterBattle = 8,
+		UnloadOnExitBattle = 16,
+		PreloadBeforeUse = 32,
+		UnloadAfterUse = 64,
+		UnloadOnPlayVideoInMaze = 128,
+		UnloadOnPlayVideoInBattle = 256,
+		PreloadOnEnterBattleByConfig = 512,
+		OnlyEffectOnTeamLeader = 1024,
 	};
 }

@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Console { class PopImageManager; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
-namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+namespace UnityEngine::Events { class UnityAction; }
 
-#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B920710)
-#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9208C0)
-#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B920920)
-#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B9208D0)
-#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B920700)
-#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32__CTOR_OFFSET UNITYSDK_OFFSET(0x1B91FC40)
+#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1EEC0)
+#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BE1F960)
+#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BE1FB00)
+#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BE1FB60)
+#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BE1FB10)
+#define MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BE1F950)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int PopImageManager__LoadTexture_d__32_TypeDefinitionIndex = 8928;
-
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32>
 	class PopImageManager__LoadTexture_d__32 : public ::System::Object
 	{
 	public:
-		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x10
-		::MiHoYo::SDK::Console::PopImageManager* __4__this; // 0x18
-		::System::String* url; // 0x20
+		::MiHoYo::SDK::Console::PopImageManager* __4__this; // 0x10
+		::System::String* url; // 0x18
+		::UnityEngine::Events::UnityAction* callback; // 0x20
 		::System::Object* __2__current; // 0x28
 		::System::Int32 __1__state; // 0x30
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -56,5 +54,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_POPIMAGEMANAGER__LOADTEXTURE_D__32_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

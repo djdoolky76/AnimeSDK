@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAssistantMessageType_TypeDefinitionIndex = 12190;
-
 	enum class PlanetFesAssistantMessageType : ::System::Int32
 	{
 		LargeBonusAppear = 1,

@@ -4,26 +4,23 @@
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EHiddenAreaMeshType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVREye.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HiddenAreaMesh_t.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2780)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2810)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC2750)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC26E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F68ACF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F68AC50)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F68AD80)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F68ACC0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__GetHiddenAreaMesh_TypeDefinitionIndex = 37625;
-
 	class IVRSystem__GetHiddenAreaMesh : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::HiddenAreaMesh_t Invoke(::ZenFulcrum::VR::OpenVRBinding::EVREye a1, ::ZenFulcrum::VR::OpenVRBinding::EHiddenAreaMeshType a2)
@@ -40,5 +37,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::HiddenAreaMesh_t(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__GETHIDDENAREAMESH_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

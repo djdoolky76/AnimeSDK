@@ -1,41 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_D3FB33662F9D2AD5_EEffectorSpace.h"
+#include "unitysdk/MMMFONOLFAE_EEffectorSpace.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_D3FB33662F9D2AD5;
+class MMMFONOLFAE;
 namespace RPG::Client { class AttachPointMapping; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CCDIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xC97D9C0)
-#define RPG_CLIENT_CCDIK_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xC97DA50)
-#define RPG_CLIENT_CCDIK_IKRESET_OFFSET UNITYSDK_OFFSET(0xC97DBB0)
-#define RPG_CLIENT_CCDIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xC97DC40)
-#define RPG_CLIENT_CCDIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xC97DAA0)
-#define RPG_CLIENT_CCDIK__CTOR_OFFSET UNITYSDK_OFFSET(0xC97DF10)
+#define RPG_CLIENT_CCDIK_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CC2F0)
+#define RPG_CLIENT_CCDIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xC8CBDA0)
+#define RPG_CLIENT_CCDIK_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xC8CBE30)
+#define RPG_CLIENT_CCDIK_IKRESET_OFFSET UNITYSDK_OFFSET(0xC8CBF90)
+#define RPG_CLIENT_CCDIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xC8CC020)
+#define RPG_CLIENT_CCDIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xC8CBE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CCDIK_TypeDefinitionIndex = 68338;
-
 	class CCDIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean IKEnabled; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Transform* EffectorTarget; // 0x20
 		::UnityEngine::Vector3 EffectorPosition; // 0x28
-		::Class_1_D3FB33662F9D2AD5_EEffectorSpace EffectorSpace; // 0x34
+		::MMMFONOLFAE_EEffectorSpace EffectorSpace; // 0x34
 		::System::Single FadeInTime; // 0x38
 		::System::Single FadeOutTime; // 0x3C
 		::System::Int32 MaxSolveIterations; // 0x40
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* TipBone; // 0x48
 		::System::Int32 SpineBoneNum; // 0x50
-		::Class_1_D3FB33662F9D2AD5* MOFKDLANDGM; // 0x58
-
+		::System::Byte _padding2[0x4];
+		::MMMFONOLFAE* MOFKDLANDGM; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CCDIK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CCDIK_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsProcessable()
@@ -62,5 +61,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CCDIK_GET_WEIGHT_OFFSET))(this);
 		}
+
 	};
 }

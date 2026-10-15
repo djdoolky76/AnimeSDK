@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class GameObjectAudio; }
+
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE297E40)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS68_0__UPDATETSCSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xE2986D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS68_0__UPDATETSCSTATE_B__1_OFFSET UNITYSDK_OFFSET(0xE298700)
+
+namespace RPG::Client
+{
+	class TimeSpaceCrisscrossGroupBehavior___c__DisplayClass68_0 : public ::System::Object
+	{
+	public:
+		::System::Boolean audioState; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS68_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _UpdateTsCState_b__0(::RPG::Client::GameObjectAudio* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GameObjectAudio*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS68_0__UPDATETSCSTATE_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Void _UpdateTsCState_b__1(::RPG::Client::GameObjectAudio* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GameObjectAudio*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__DISPLAYCLASS68_0__UPDATETSCSTATE_B__1_OFFSET))(this, a1);
+		}
+
+	};
+}

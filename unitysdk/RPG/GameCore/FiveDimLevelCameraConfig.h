@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimBaseCameraConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimLevelCameraConfig; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_METHOD_4_0F7B96E17F4A35EE_OFFSET UNITYSDK_OFFSET(0x1D0EE030)
-#define RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_METHOD_4_6EF575EEFEE4E427_OFFSET UNITYSDK_OFFSET(0x1D0EE0B0)
-#define RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE080)
+#define RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B1920)
+#define RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6B1950)
+#define RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C5EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelCameraConfig_TypeDefinitionIndex = 18414;
-
 	class FiveDimLevelCameraConfig : public ::RPG::GameCore::FiveDimBaseCameraConfig
 	{
 	public:
 		::System::Boolean CreateTrigger; // 0x90
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::LevelTriggerInfo* TriggerInfo; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_0F7B96E17F4A35EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLevelCameraConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimLevelCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLevelCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_METHOD_4_0F7B96E17F4A35EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimLevelCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6EF575EEFEE4E427(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLevelCameraConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimLevelCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLevelCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_METHOD_4_6EF575EEFEE4E427_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimLevelCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELCAMERACONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

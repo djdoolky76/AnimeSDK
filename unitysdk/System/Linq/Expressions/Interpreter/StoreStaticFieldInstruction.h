@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/FieldInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E760560)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E760520)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E760570)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E760510)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE29110)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EE29160)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EE29120)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EE29170)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int StoreStaticFieldInstruction_TypeDefinitionIndex = 3399;
-
 	class StoreStaticFieldInstruction : public ::System::Linq::Expressions::Interpreter::FieldInstruction
 	{
 	public:
 		::System::Void _ctor(::System::Reflection::FieldInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::FieldInfo*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_InstructionName()
@@ -37,5 +34,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STORESTATICFIELDINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET UNITYSDK_OFFSET(0xCC42520)
-#define RPG_CLIENT_CLOUDUTILS_ISCLOUDGAMEURLCONFIGURATED_OFFSET UNITYSDK_OFFSET(0xCC42BC0)
-#define RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET UNITYSDK_OFFSET(0xCC42950)
-#define RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0xCC42650)
-#define RPG_CLIENT_CLOUDUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xCC42C50)
+#define RPG_CLIENT_CLOUDUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xCB91BD0)
+#define RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET UNITYSDK_OFFSET(0xCB914A0)
+#define RPG_CLIENT_CLOUDUTILS_ISCLOUDGAMEURLCONFIGURATED_OFFSET UNITYSDK_OFFSET(0xCB91B40)
+#define RPG_CLIENT_CLOUDUTILS_KEEPALIVEBYAUTOBATTLE_OFFSET UNITYSDK_OFFSET(0xCB918D0)
+#define RPG_CLIENT_CLOUDUTILS_ONGETCLIPBOARDDATA_OFFSET UNITYSDK_OFFSET(0xCB915D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUtils_TypeDefinitionIndex = 60000;
-
 	class CloudUtils : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::System::Boolean, ::System::String*>** StaticGet__clipboardCallback()
+		static ::System::Action** StaticGet__clipboardCallback()
 		{
-			return (::System::Action_2<::System::Boolean, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CloudUtils_TypeDefinitionIndex)->GetStaticField(0x56720);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "CloudUtils")->GetStaticField(0x17E30);
 		}
-		// static const ::System::String* AUTO_BATTLE_KEEP_ALIVE; // 0x0
 
+		// static const ::System::String* AUTO_BATTLE_KEEP_ALIVE; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void GetClipboardTextFromSDK(::System::Action_2<::System::Boolean, ::System::String*>* a1)
+		static ::System::Void GetClipboardTextFromSDK(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::System::Action_2<::System::Boolean, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_GETCLIPBOARDTEXTFROMSDK_OFFSET))(a1);
 		}
 
 		static ::System::Void OnGetClipBoardData(::System::String* a1)
@@ -48,5 +45,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CLOUDUTILS_ISCLOUDGAMEURLCONFIGURATED_OFFSET))();
 		}
+
 	};
 }

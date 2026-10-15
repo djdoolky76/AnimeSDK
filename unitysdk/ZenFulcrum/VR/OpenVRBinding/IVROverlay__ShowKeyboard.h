@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/EVROverlayError.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBD9B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBDAA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBD950)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBD8E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F685F20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F685E50)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F686010)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F685EC0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__ShowKeyboard_TypeDefinitionIndex = 37833;
-
 	class IVROverlay__ShowKeyboard : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::ZenFulcrum::VR::OpenVRBinding::EVROverlayError Invoke(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::UInt32 a4, ::System::String* a5, ::System::Boolean a6, ::System::UInt64 a7)
@@ -39,5 +36,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::ZenFulcrum::VR::OpenVRBinding::EVROverlayError(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__SHOWKEYBOARD_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

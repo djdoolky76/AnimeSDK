@@ -2,14 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExAcf_DspBusOutputType.h"
 #include "unitysdk/CriWare/CriAtom_SpeakerMapping.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/CriWare/CriAtomExAcfDebug_DspBusInfo.h"
 
-#define CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2DFFB80)
+#define CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2E8BA60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_DspBusInfoForMarshaling_TypeDefinitionIndex = 38889;
-
 	struct alignas(8) CriAtomExAcfDebug_DspBusInfoForMarshaling
 	{
 		::System::IntPtr namePtr; // 0x10
@@ -27,12 +25,10 @@ namespace CriWare
 		::CriWare::CriAtom_SpeakerMapping speakerMapping; // 0x44
 		::CriWare::CriAtomExAcf_DspBusOutputType outputType; // 0x48
 		::System::Byte outputOptions; // 0x4C
-
-		/*
-		::System::Void Convert(::CriWare::CriAtomExAcfDebug_DspBusInfo& a1)
+		::System::Void Convert(::CriWare::CriAtomExAcfDebug_DspBusInfo a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_DspBusInfo&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriAtomExAcfDebug_DspBusInfo))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXACFDEBUG_DSPBUSINFOFORMARSHALING_CONVERT_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

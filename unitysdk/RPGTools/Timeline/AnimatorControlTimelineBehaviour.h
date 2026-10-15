@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
-namespace RPGTools::Timeline { class AnimatorControlTimelineClip_BoolEntry; }
-namespace RPGTools::Timeline { class AnimatorControlTimelineClip_FloatEntry; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_METHOD_2_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0xE80FEA0)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8100B0)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xE810060)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE80FD50)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE810130)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ADA40)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_JEPIIMNNFGM_OFFSET UNITYSDK_OFFSET(0xE8AD7B0)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8AD9C0)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xE8AD970)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8AD660)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlTimelineBehaviour_TypeDefinitionIndex = 48258;
-
 	class AnimatorControlTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean UseFloatParam; // 0x10
-		::Il2CppArray<::RPGTools::Timeline::AnimatorControlTimelineClip_FloatEntry*>* FloatParams; // 0x18
+		::System::Byte _padding0[0x7];
+		::Il2CppArray<::System::Object*>* FloatParams; // 0x18
 		::System::Boolean UseBoolParam; // 0x20
-		::Il2CppArray<::RPGTools::Timeline::AnimatorControlTimelineClip_BoolEntry*>* BoolParams; // 0x28
+		::System::Byte _padding1[0x7];
+		::Il2CppArray<::System::Object*>* BoolParams; // 0x28
 		::System::Boolean UseTriggerParam; // 0x30
+		::System::Byte _padding2[0x7];
 		::System::String* TriggerParam; // 0x38
 		::System::String* ToState; // 0x40
 		::UnityEngine::Animator* _animator; // 0x48
 		::System::Boolean _firstFrameHappened; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
@@ -53,9 +50,10 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_B09E78EE7EE4F8FA()
+		::System::Void JEPIIMNNFGM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_METHOD_2_B09E78EE7EE4F8FA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINEBEHAVIOUR_JEPIIMNNFGM_OFFSET))(this);
 		}
+
 	};
 }

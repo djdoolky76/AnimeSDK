@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchActionDelayExceed; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_1E9DFBC8FCE1D1C5_OFFSET UNITYSDK_OFFSET(0x1D5A37E0)
-#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_719288726689CCA8_OFFSET UNITYSDK_OFFSET(0x1D5A3840)
-#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_A8D4E9517F6490F5_OFFSET UNITYSDK_OFFSET(0x1D5A3860)
-#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_B0459859EECCCA00_OFFSET UNITYSDK_OFFSET(0x1D5A3760)
-#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A37D0)
+#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5A970)
+#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB5AA00)
+#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB5A9E0)
+#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB5A980)
+#define RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5A900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchActionDelayExceed_TypeDefinitionIndex = 23664;
-
 	class TargetFetchActionDelayExceed : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B0459859EECCCA00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchActionDelayExceed*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchActionDelayExceed* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchActionDelayExceed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_B0459859EECCCA00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchActionDelayExceed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1E9DFBC8FCE1D1C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchActionDelayExceed* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchActionDelayExceed* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchActionDelayExceed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_1E9DFBC8FCE1D1C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchActionDelayExceed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_719288726689CCA8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActionDelayExceed*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActionDelayExceed* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActionDelayExceed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_719288726689CCA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActionDelayExceed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A8D4E9517F6490F5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActionDelayExceed* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActionDelayExceed* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActionDelayExceed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_METHOD_4_A8D4E9517F6490F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActionDelayExceed*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTIONDELAYEXCEED_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class WaitHipplenGameExit; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITHIPPLENGAMEEXIT_METHOD_3_2D8A7A615C55EC61_OFFSET UNITYSDK_OFFSET(0x1D6A55F0)
-#define RPG_GAMECORE_WAITHIPPLENGAMEEXIT_METHOD_3_C07D9255E29A9BE4_OFFSET UNITYSDK_OFFSET(0x1D6A56C0)
-#define RPG_GAMECORE_WAITHIPPLENGAMEEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A56B0)
+#define RPG_GAMECORE_WAITHIPPLENGAMEEXIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9A890)
+#define RPG_GAMECORE_WAITHIPPLENGAMEEXIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9A8A0)
+#define RPG_GAMECORE_WAITHIPPLENGAMEEXIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9A7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitHipplenGameExit_TypeDefinitionIndex = 21066;
-
 	class WaitHipplenGameExit : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITHIPPLENGAMEEXIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITHIPPLENGAMEEXIT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2D8A7A615C55EC61(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitHipplenGameExit*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitHipplenGameExit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitHipplenGameExit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITHIPPLENGAMEEXIT_METHOD_3_2D8A7A615C55EC61_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitHipplenGameExit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITHIPPLENGAMEEXIT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C07D9255E29A9BE4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitHipplenGameExit* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitHipplenGameExit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitHipplenGameExit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITHIPPLENGAMEEXIT_METHOD_3_C07D9255E29A9BE4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitHipplenGameExit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITHIPPLENGAMEEXIT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

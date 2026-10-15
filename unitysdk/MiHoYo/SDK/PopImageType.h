@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopImageType_TypeDefinitionIndex = 8216;
-
 	enum class PopImageType : ::System::Int32
 	{
 		Default = 0,

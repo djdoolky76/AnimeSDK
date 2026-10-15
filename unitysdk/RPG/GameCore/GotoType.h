@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GotoType_TypeDefinitionIndex = 13197;
-
 	enum class GotoType : ::System::Int32
 	{
 		None = 0,
@@ -110,5 +108,8 @@ namespace RPG::GameCore
 		RogueTournRelicCocoon = 442,
 		FateRinSupportPreviewPage = 443,
 		FateRinGameMainPage = 444,
+		BlindBoxPool = 460,
+		ShopGoodDetail = 461,
+		PetParkEntrance = 462,
 	};
 }

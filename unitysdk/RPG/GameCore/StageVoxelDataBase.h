@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StageVoxelDataBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STAGEVOXELDATABASE_METHOD_2_66F0F69E5876226A_OFFSET UNITYSDK_OFFSET(0x1D561BA0)
-#define RPG_GAMECORE_STAGEVOXELDATABASE_METHOD_2_D2DCC21125172E82_OFFSET UNITYSDK_OFFSET(0x1D5619F0)
-#define RPG_GAMECORE_STAGEVOXELDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D561B90)
+#define RPG_GAMECORE_STAGEVOXELDATABASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17320)
+#define RPG_GAMECORE_STAGEVOXELDATABASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB17330)
+#define RPG_GAMECORE_STAGEVOXELDATABASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB17180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVoxelDataBase_TypeDefinitionIndex = 18928;
-
 	class StageVoxelDataBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATABASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATABASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D2DCC21125172E82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVoxelDataBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageVoxelDataBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVoxelDataBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATABASE_METHOD_2_D2DCC21125172E82_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageVoxelDataBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATABASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_66F0F69E5876226A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVoxelDataBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageVoxelDataBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVoxelDataBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATABASE_METHOD_2_66F0F69E5876226A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageVoxelDataBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELDATABASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

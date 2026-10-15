@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MiAtomConfigBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MIATOMCONFIGBASE_METHOD_2_2D24AF303372A1DB_OFFSET UNITYSDK_OFFSET(0x1D29D310)
-#define RPG_GAMECORE_MIATOMCONFIGBASE_METHOD_2_74B806AC3706CDE2_OFFSET UNITYSDK_OFFSET(0x1D29D2B0)
-#define RPG_GAMECORE_MIATOMCONFIGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29D250)
+#define RPG_GAMECORE_MIATOMCONFIGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87F0E0)
+#define RPG_GAMECORE_MIATOMCONFIGBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D87F1A0)
+#define RPG_GAMECORE_MIATOMCONFIGBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D87F140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiAtomConfigBase_TypeDefinitionIndex = 16874;
-
 	class MiAtomConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIATOMCONFIGBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIATOMCONFIGBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_74B806AC3706CDE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiAtomConfigBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MiAtomConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiAtomConfigBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIATOMCONFIGBASE_METHOD_2_74B806AC3706CDE2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MiAtomConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIATOMCONFIGBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_2D24AF303372A1DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiAtomConfigBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MiAtomConfigBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiAtomConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIATOMCONFIGBASE_METHOD_2_2D24AF303372A1DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MiAtomConfigBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MIATOMCONFIGBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

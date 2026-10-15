@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_PauseFreelookCinemachineUpdateReason_TypeDefinitionIndex = 69522;
-
 	enum class CameraDataAndFlags_PauseFreelookCinemachineUpdateReason : ::System::Int32
 	{
 		PauseCameraTask = 1,

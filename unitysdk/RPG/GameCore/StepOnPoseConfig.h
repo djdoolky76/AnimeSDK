@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StepOnPoseConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STEPONPOSECONFIG_METHOD_2_8F7F4D0072747428_OFFSET UNITYSDK_OFFSET(0x1D56E660)
-#define RPG_GAMECORE_STEPONPOSECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D56E910)
+#define RPG_GAMECORE_STEPONPOSECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24300)
+#define RPG_GAMECORE_STEPONPOSECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB24050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StepOnPoseConfig_TypeDefinitionIndex = 16231;
-
 	class StepOnPoseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -23,15 +21,15 @@ namespace RPG::GameCore
 		::System::String* StepOnPoseRTPC; // 0x38
 		::System::String* OnStepOnPoseEvent; // 0x40
 		::System::String* LeaveStepOnPoseEvent; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STEPONPOSECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STEPONPOSECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8F7F4D0072747428(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StepOnPoseConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StepOnPoseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StepOnPoseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STEPONPOSECONFIG_METHOD_2_8F7F4D0072747428_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StepOnPoseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STEPONPOSECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

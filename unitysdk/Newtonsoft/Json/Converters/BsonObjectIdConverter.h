@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonConverter.h"
-
 namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1BE6F3D0)
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1BE6F1D0)
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1BE6F080)
-#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE6F410)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1C37B080)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C37B0C0)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1C37AE80)
+#define NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1C37AD30)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int BsonObjectIdConverter_TypeDefinitionIndex = 9760;
-
 	class BsonObjectIdConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
@@ -39,5 +36,6 @@ namespace Newtonsoft::Json::Converters
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_BSONOBJECTIDCONVERTER_CANCONVERT_OFFSET))(this, a1);
 		}
+
 	};
 }

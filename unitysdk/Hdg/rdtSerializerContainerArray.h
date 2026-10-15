@@ -3,35 +3,32 @@
 #include "unitysdk/Hdg/SerialisationHelpers_ArrayElementType.h"
 #include "unitysdk/Hdg/rdtSerializerContainerArray_ListType.h"
 #include "unitysdk/System/Object.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections { class IList; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0xB199010)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xB198AB0)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_READ_OFFSET UNITYSDK_OFFSET(0xB199AD0)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZEIMP_OFFSET UNITYSDK_OFFSET(0xB1977B0)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xB197710)
-#define HDG_RDTSERIALIZERCONTAINERARRAY_WRITE_OFFSET UNITYSDK_OFFSET(0xB1999F0)
-#define HDG_RDTSERIALIZERCONTAINERARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0xB1977A0)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0xAF41C00)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZEARRAY_OFFSET UNITYSDK_OFFSET(0xAF43470)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF42F10)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_READ_OFFSET UNITYSDK_OFFSET(0xAF43F30)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZEIMP_OFFSET UNITYSDK_OFFSET(0xAF41C10)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_SERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF41B70)
+#define HDG_RDTSERIALIZERCONTAINERARRAY_WRITE_OFFSET UNITYSDK_OFFSET(0xAF43E50)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerContainerArray_TypeDefinitionIndex = 47417;
-
 	class rdtSerializerContainerArray : public ::System::Object
 	{
 	public:
 		::System::Collections::IList* m_array; // 0x10
 		::Hdg::rdtSerializerContainerArray_ListType m_listType; // 0x18
 		::Hdg::SerialisationHelpers_ArrayElementType m_arrayElementType; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Object* Serialize(::System::Object* a1, ::Hdg::rdtSerializerRegistry* a2)
@@ -63,5 +60,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERCONTAINERARRAY_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

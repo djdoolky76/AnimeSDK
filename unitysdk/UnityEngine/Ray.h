@@ -1,31 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_RAY_GETPOINT_OFFSET UNITYSDK_OFFSET(0x3B92880)
-#define UNITYENGINE_RAY_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x25500)
-#define UNITYENGINE_RAY_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x254E0)
-#define UNITYENGINE_RAY_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x3BBC820)
-#define UNITYENGINE_RAY_SET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x21254D0)
-#define UNITYENGINE_RAY_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3BBC8C0)
-#define UNITYENGINE_RAY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BBC8B0)
-#define UNITYENGINE_RAY__CTOR_OFFSET UNITYSDK_OFFSET(0x3BBC780)
+#define UNITYENGINE_RAY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C72380)
+#define UNITYENGINE_RAY_GETPOINT_OFFSET UNITYSDK_OFFSET(0x3C47790)
+#define UNITYENGINE_RAY_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x1690)
+#define UNITYENGINE_RAY_GET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x1670)
+#define UNITYENGINE_RAY_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0x3C72420)
+#define UNITYENGINE_RAY_SET_ORIGIN_OFFSET UNITYSDK_OFFSET(0x202EFC0)
+#define UNITYENGINE_RAY_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C724C0)
+#define UNITYENGINE_RAY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C724B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Ray_TypeDefinitionIndex = 4078;
-
 	struct alignas(4) Ray
 	{
 		::UnityEngine::Vector3 m_Origin; // 0x10
 		::UnityEngine::Vector3 m_Direction; // 0x1C
-
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector3 get_origin()
@@ -62,5 +57,6 @@ namespace UnityEngine
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RAY_TOSTRING_1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class BattleGamePhase; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6896D0)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0__RETURNTOMAZE_B__0_OFFSET UNITYSDK_OFFSET(0xC68C390)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0__RETURNTOMAZE_B__1_OFFSET UNITYSDK_OFFSET(0xC68C4B0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5A6C70)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0__RETURNTOMAZE_B__0_OFFSET UNITYSDK_OFFSET(0xC5A9970)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0__RETURNTOMAZE_B__1_OFFSET UNITYSDK_OFFSET(0xC5A9A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass8_0_TypeDefinitionIndex = 61998;
-
 	class ActivityStrongChallengeModule___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::BattleGamePhase* gamePhase; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ReturnToMaze_b__0()
@@ -31,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS8_0__RETURNTOMAZE_B__1_OFFSET))(this);
 		}
+
 	};
 }

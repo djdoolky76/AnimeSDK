@@ -3,8 +3,6 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ReadOnlySequence_1_SequenceType_TypeDefinitionIndex = 4993;
-
 	enum class ReadOnlySequence_1_SequenceType : ::System::Int32
 	{
 		MultiSegment = 0,

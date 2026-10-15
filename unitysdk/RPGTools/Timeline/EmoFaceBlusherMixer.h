@@ -1,73 +1,77 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace RPGTools::Timeline { class BlusherData; }
 namespace System { class Object; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_METHOD_2_96D8D9FE684DFFAE_OFFSET UNITYSDK_OFFSET(0xE845970)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_METHOD_2_B4C7FF14B7DA1CD3_OFFSET UNITYSDK_OFFSET(0xE8453A0)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_METHOD_2_B73CE3B8AFA55502_OFFSET UNITYSDK_OFFSET(0xE8454A0)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE844B60)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE844BE0)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE845A00)
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE8459F0)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8E39D0)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E39C0)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_EANCFJOBEED_OFFSET UNITYSDK_OFFSET(0xE8E3430)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_GEENGCEGMAP_OFFSET UNITYSDK_OFFSET(0xE8E3330)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_NMPBLGMCAFD_OFFSET UNITYSDK_OFFSET(0xE8E3940)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8E2B20)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8E2BA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoFaceBlusherMixer_TypeDefinitionIndex = 48577;
-
 	class EmoFaceBlusherMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_CheekIntensity()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD450);
-		}
-		static ::System::Int32* StaticGet_CheekColor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD454);
-		}
-		static ::System::Int32* StaticGet_MapThreshold()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD458);
-		}
-		static ::System::Int32* StaticGet_ShadowColor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD45C);
-		}
-		static ::System::Int32* StaticGet_ShadowIntensity()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD460);
-		}
-		static ::System::Int32* StaticGet_SpecularIntensity()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD464);
-		}
-		static ::System::Int32* StaticGet_ShyIntensity()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD468);
-		}
-		static ::System::Int32* StaticGet_ShyColor()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EmoFaceBlusherMixer_TypeDefinitionIndex)->GetStaticField(0xD46C);
-		}
 		::UnityEngine::SkinnedMeshRenderer* Renderer; // 0x10
 		::RPGTools::Timeline::BlusherData* OriginData; // 0x18
 		::System::Boolean FirstFrame; // 0x20
+		static ::System::Int32* StaticGet_CheekIntensity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15AC0);
+		}
+
+		static ::System::Int32* StaticGet_ShyIntensity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15AC4);
+		}
+
+		static ::System::Int32* StaticGet_MapThreshold()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15AC8);
+		}
+
+		static ::System::Int32* StaticGet_ShyColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15ACC);
+		}
+
+		static ::System::Int32* StaticGet_ShadowIntensity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15AD0);
+		}
+
+		static ::System::Int32* StaticGet_ShadowColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15AD4);
+		}
+
+		static ::System::Int32* StaticGet_SpecularIntensity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15AD8);
+		}
+
+		static ::System::Int32* StaticGet_CheekColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "EmoFaceBlusherMixer")->GetStaticField(0x15ADC);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_CCTOR_OFFSET))();
 		}
 
 		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -80,19 +84,20 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::UnityEngine::Color Method_2_96D8D9FE684DFFAE(::UnityEngine::Color a1, ::System::Single a2)
+		static ::UnityEngine::Color NMPBLGMCAFD(::UnityEngine::Color a1, ::System::Single a2)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_METHOD_2_96D8D9FE684DFFAE_OFFSET))(a1, a2);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_NMPBLGMCAFD_OFFSET))(a1, a2);
 		}
 
-		::System::Void Method_2_B73CE3B8AFA55502(::RPGTools::Timeline::BlusherData* a1)
+		::System::Void EANCFJOBEED(::RPGTools::Timeline::BlusherData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::BlusherData*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_METHOD_2_B73CE3B8AFA55502_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::BlusherData*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_EANCFJOBEED_OFFSET))(this, a1);
 		}
 
-		::System::Int32 Method_2_B4C7FF14B7DA1CD3(::UnityEngine::SkinnedMeshRenderer* a1)
+		::System::Int32 GEENGCEGMAP(::UnityEngine::SkinnedMeshRenderer* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_METHOD_2_B4C7FF14B7DA1CD3_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::SkinnedMeshRenderer*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOFACEBLUSHERMIXER_GEENGCEGMAP_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,23 +3,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_D00784C64067A6A7;
-namespace RPG::Client { class FallingObjectTemplate_Class_1_BB32A9E6F97FB4FE; }
+class INFENGJKFBI;
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_59597AEB8CE7B3F8_OFFSET UNITYSDK_OFFSET(0xCF13ED0)
-#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_70437D85C11C5222_OFFSET UNITYSDK_OFFSET(0xCF14040)
-#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_78C62398E94F0FB1_OFFSET UNITYSDK_OFFSET(0xCF14140)
-#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_EA0BA3E4AF50C583_OFFSET UNITYSDK_OFFSET(0xCF13BA0)
-#define RPG_CLIENT_FALLINGOBJECTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCF14240)
+#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_APIDHHKLGEJ_OFFSET UNITYSDK_OFFSET(0xCE62870)
+#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCE62E90)
+#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_DKBKNGPBELL_OFFSET UNITYSDK_OFFSET(0xCE62BA0)
+#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_DNPJEFGIGEO_OFFSET UNITYSDK_OFFSET(0xCE62DB0)
+#define RPG_CLIENT_FALLINGOBJECTTEMPLATE_KEGPGKGFIKO_OFFSET UNITYSDK_OFFSET(0xCE62CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FallingObjectTemplate_TypeDefinitionIndex = 70901;
-
 	class FallingObjectTemplate : public ::System::Object
 	{
 	public:
@@ -32,35 +29,37 @@ namespace RPG::Client
 		::System::Single MaxStartSpeed; // 0x34
 		::System::Single MaxStartAcceleration; // 0x38
 		::System::Boolean EnableSplash; // 0x3C
+		::System::Byte _padding0[0x3];
 		::System::Single SplashScale; // 0x40
 		::UnityEngine::Vector2 MinmaxRandomScale; // 0x44
 		::System::Boolean _InitIRIDatas; // 0x4C
-		::System::Collections::Generic::List_1<::RPG::Client::FallingObjectTemplate_Class_1_BB32A9E6F97FB4FE*>* InstanceObjectIRIDatas; // 0x50
-		::System::Collections::Generic::List_1<::Class_1_D00784C64067A6A7*>* _ObjectPool; // 0x58
-
+		::System::Byte _padding1[0x3];
+		::System::Collections::Generic::List_1<::System::Object*>* InstanceObjectIRIDatas; // 0x50
+		::System::Collections::Generic::List_1<::INFENGJKFBI*>* _ObjectPool; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_EA0BA3E4AF50C583()
+		::System::Void APIDHHKLGEJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_EA0BA3E4AF50C583_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_APIDHHKLGEJ_OFFSET))(this);
 		}
 
-		::Class_1_D00784C64067A6A7* Method_1_59597AEB8CE7B3F8(::UnityEngine::Transform* a1)
+		::INFENGJKFBI* DKBKNGPBELL(::UnityEngine::Transform* a1)
 		{
-			return ((::Class_1_D00784C64067A6A7*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_59597AEB8CE7B3F8_OFFSET))(this, a1);
+			return ((::INFENGJKFBI*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_DKBKNGPBELL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_70437D85C11C5222(::Class_1_D00784C64067A6A7* a1)
+		::System::Void KEGPGKGFIKO(::INFENGJKFBI* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D00784C64067A6A7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_70437D85C11C5222_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::INFENGJKFBI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_KEGPGKGFIKO_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_78C62398E94F0FB1()
+		::System::Void DNPJEFGIGEO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_METHOD_1_78C62398E94F0FB1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FALLINGOBJECTTEMPLATE_DNPJEFGIGEO_OFFSET))(this);
 		}
+
 	};
 }

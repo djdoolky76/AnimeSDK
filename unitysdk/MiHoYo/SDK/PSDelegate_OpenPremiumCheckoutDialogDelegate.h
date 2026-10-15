@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class PSDelegate_CommerceCheckoutCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA75AE0)
-#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA75B10)
-#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA75AD0)
-#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA75A60)
+#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF80590)
+#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF80510)
+#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF805C0)
+#define MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF80580)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_OpenPremiumCheckoutDialogDelegate_TypeDefinitionIndex = 7720;
-
 	class PSDelegate_OpenPremiumCheckoutDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PSDelegate_CommerceCheckoutCallback* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_OPENPREMIUMCHECKOUTDIALOGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class BillboardController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC95C0F0)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_REGIST_OFFSET UNITYSDK_OFFSET(0xC95C1A0)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UNREGIST_OFFSET UNITYSDK_OFFSET(0xC95C2F0)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC95C0B0)
-#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xC95C3B0)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xC884700)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC884440)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_REGIST_OFFSET UNITYSDK_OFFSET(0xC8844F0)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UNREGIST_OFFSET UNITYSDK_OFFSET(0xC884640)
+#define RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC884400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardControllerManager_TypeDefinitionIndex = 70351;
-
 	class BillboardControllerManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::BillboardController*>** StaticGet_PJKKBCDKCGL()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::BillboardController*>**)Il2CppClass::FromTypeDefinitionIndex(BillboardControllerManager_TypeDefinitionIndex)->GetStaticField(0x126E0);
+			return (::System::Collections::Generic::List_1<::RPG::Client::BillboardController*>**)UnitySDK::FromName("RPG.Client", "BillboardControllerManager")->GetStaticField(0x5DDE0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDCONTROLLERMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -47,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::RPG::Client::BillboardController*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BILLBOARDCONTROLLERMANAGER_UNREGIST_OFFSET))(a1);
 		}
+
 	};
 }

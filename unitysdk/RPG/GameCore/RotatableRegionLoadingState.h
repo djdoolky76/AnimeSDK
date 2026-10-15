@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotatableRegionLoadingState_TypeDefinitionIndex = 24265;
-
 	enum class RotatableRegionLoadingState : ::System::Int32
 	{
 		Unload = 0,

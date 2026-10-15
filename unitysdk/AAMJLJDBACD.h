@@ -1,0 +1,12 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/IVec2.h"
+namespace RPG::GameCore { class GameEntity; }
+
+	struct alignas(8) AAMJLJDBACD
+	{
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+		::RPG::GameCore::IVec2 GOOAMHHLHPJ; // 0x18
+		::RPG::GameCore::FixPoint EBELGEIDODD; // 0x20
+	};

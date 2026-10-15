@@ -2,14 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BodyId.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Transform.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2JointDef_TypeDefinitionIndex = 36007;
-
 	struct alignas(8) B2JointDef
 	{
 		::System::Object* userData; // 0x10

@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define IKALAIILPEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB77ED0)
+
+	class IKALAIILPEK : public ::System::Object
+	{
+	public:
+		::System::UInt32 HJPFGLAMCLE; // 0x10
+		::System::Boolean ALHKMDMOCON; // 0x14
+		::System::Byte _padding0[0x3];
+		::System::UInt32 DCLPKLDJIIH; // 0x18
+		::System::UInt32 JKFEMPOIKGF; // 0x1C
+		::System::UInt32 MGPMDJOMMOK; // 0x20
+		::System::UInt32 CHIKBDCJGCG; // 0x24
+		::System::UInt32 NHALIJLIIFK; // 0x28
+		::System::UInt32 HODPDPAMIMJ; // 0x2C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKALAIILPEK_CTOR_OFFSET))(this);
+		}
+
+	};

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupLocalTargetType_TypeDefinitionIndex = 24272;
-
 	enum class GroupLocalTargetType : ::System::Int32
 	{
 		NPC = 0,

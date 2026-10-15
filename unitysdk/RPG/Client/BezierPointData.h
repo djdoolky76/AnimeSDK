@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BezierPoint_HandleStyle.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BezierPointData_TypeDefinitionIndex = 35394;
-
 	struct alignas(4) BezierPointData
 	{
 		::UnityEngine::Vector3 Position; // 0x10

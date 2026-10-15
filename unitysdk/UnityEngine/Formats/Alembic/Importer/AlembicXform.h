@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Importer/AlembicElement.h"
-#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiObject.h"
-#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSchema.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiXform.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiXformData.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiObject.h"
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiSchema.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1EAB1700)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1EAB1720)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1EAB16E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1EAB16F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB1F40)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSETUP_OFFSET UNITYSDK_OFFSET(0x1F178F60)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSYNCDATAEND_OFFSET UNITYSDK_OFFSET(0x1F178F80)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1797A0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_ABCSCHEMA_OFFSET UNITYSDK_OFFSET(0x1F178F40)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_GET_VISIBILITY_OFFSET UNITYSDK_OFFSET(0x1F178F50)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicXform_TypeDefinitionIndex = 44736;
-
 	class AlembicXform : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:
 		::UnityEngine::Formats::Alembic::Sdk::aiXform m_abcSchema; // 0x28
 		::UnityEngine::Formats::Alembic::Sdk::aiXformData m_abcData; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Formats::Alembic::Sdk::aiSchema get_abcSchema()
@@ -46,5 +43,6 @@ namespace UnityEngine::Formats::Alembic::Importer
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICXFORM_ABCSYNCDATAEND_OFFSET))(this);
 		}
+
 	};
 }

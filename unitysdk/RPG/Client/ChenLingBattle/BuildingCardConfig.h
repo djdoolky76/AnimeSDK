@@ -2,28 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChenLingBattle/CardConfig.h"
 #include "unitysdk/RPG/Client/TextID.h"
-
 namespace RPG::GameCore { class ChenLingBuildingRow; }
 namespace RPG::GameCore { class ChenLingCardRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_GETDESC_OFFSET UNITYSDK_OFFSET(0xCAEC390)
-#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCAEC530)
-#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0xCAEC480)
-#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCAEC2B0)
+#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCA3AF80)
+#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_GETDESC_OFFSET UNITYSDK_OFFSET(0xCA3B060)
+#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCA3B200)
+#define RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0xCA3B150)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int BuildingCardConfig_TypeDefinitionIndex = 75743;
-
 	class BuildingCardConfig : public ::RPG::Client::ChenLingBattle::CardConfig
 	{
 	public:
 		::RPG::GameCore::ChenLingBuildingRow* _BuildingRow; // 0x20
-
 		::System::Void _ctor(::RPG::GameCore::ChenLingCardRow* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingCardRow*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChenLingCardRow*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetDesc(::System::UInt32 a1)
@@ -40,5 +36,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_BUILDINGCARDCONFIG_GET_NAME_OFFSET))(this);
 		}
+
 	};
 }

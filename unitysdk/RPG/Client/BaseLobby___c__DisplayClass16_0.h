@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class Promise; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8C95C0)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0__STARTMATCHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xC8CC500)
-#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0__STARTMATCHPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xC8CC5A0)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7EC330)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0__STARTMATCHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xC7EF270)
+#define RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0__STARTMATCHPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xC7EF310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseLobby___c__DisplayClass16_0_TypeDefinitionIndex = 65833;
-
 	class BaseLobby___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::Promises::Promise* startMatchPromise; // 0x10
 		::RPG::Client::BaseLobby* __4__this; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _StartMatchPromise_b__0(::System::UInt16 a1, ::System::Object* a2)
@@ -33,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BASELOBBY___C__DISPLAYCLASS16_0__STARTMATCHPROMISE_B__1_OFFSET))(this);
 		}
+
 	};
 }

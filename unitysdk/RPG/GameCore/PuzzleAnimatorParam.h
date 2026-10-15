@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AnimatorParameterType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PuzzleAnimatorParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PUZZLEANIMATORPARAM_METHOD_2_E4BC8DB2433BE707_OFFSET UNITYSDK_OFFSET(0x1D377BC0)
-#define RPG_GAMECORE_PUZZLEANIMATORPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D377D90)
+#define RPG_GAMECORE_PUZZLEANIMATORPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95DF10)
+#define RPG_GAMECORE_PUZZLEANIMATORPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95DD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleAnimatorParam_TypeDefinitionIndex = 21978;
-
 	class PuzzleAnimatorParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -20,15 +18,15 @@ namespace RPG::GameCore
 		::System::String* ParamName; // 0x18
 		::RPG::GameCore::AnimatorParameterType ParamType; // 0x20
 		::System::Single ParamValue; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUZZLEANIMATORPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUZZLEANIMATORPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E4BC8DB2433BE707(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PuzzleAnimatorParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PuzzleAnimatorParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PuzzleAnimatorParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUZZLEANIMATORPARAM_METHOD_2_E4BC8DB2433BE707_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PuzzleAnimatorParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUZZLEANIMATORPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

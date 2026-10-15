@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class Map3DIconConfig; }
 namespace RPG::GameCore { class MapRotationAudioConfig; }
 namespace RPG::GameCore { class MapRotationCameraConfig; }
 namespace RPG::GameCore { class MapRotationEntityEffectConfig; }
+namespace RPG::GameCore { class MapRotationGlobalConfig; }
 namespace RPG::GameCore { class MapRotationGlobalTagConfig; }
 namespace RPG::GameCore { class MapRotationMonsterEffectConfig; }
 namespace RPG::GameCore { class MapRotationPerformanceConfig; }
@@ -14,13 +14,11 @@ namespace RPG::GameCore { class MapRotationTextConfig; }
 namespace RPG::GameCore { class PlayerEnergyConfig; }
 namespace RPG::GameCore { class SpecialNPCEffectConfig; }
 
-#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_METHOD_2_B1A60D9A469540DF_OFFSET UNITYSDK_OFFSET(0x1D226920)
-#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D226C40)
+#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82FBD0)
+#define RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D82F8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationGlobalConfig_TypeDefinitionIndex = 16848;
-
 	class MapRotationGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -34,18 +32,19 @@ namespace RPG::GameCore
 		::System::UInt32 AchievementID_FirstPoseSwitch; // 0x48
 		::System::UInt32 AchievementID_CountPoseSwitch; // 0x4C
 		::System::UInt32 AchievementID_RemoveUnusedPoseSwitcher; // 0x50
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::MapRotationCameraConfig* CameraConfig; // 0x58
 		::RPG::GameCore::Map3DIconConfig* Map3DIconConfig; // 0x60
 		::RPG::GameCore::MapRotationPerformanceConfig* PerformanceConfig; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONGLOBALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B1A60D9A469540DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationGlobalConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapRotationGlobalConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationGlobalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_METHOD_2_B1A60D9A469540DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapRotationGlobalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONGLOBALCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

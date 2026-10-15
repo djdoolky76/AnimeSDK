@@ -3,26 +3,23 @@
 #include "unitysdk/System/Security/Cryptography/CipherMode.h"
 #include "unitysdk/System/Security/Cryptography/Rijndael.h"
 #include "unitysdk/System/Security/Cryptography/RijndaelManagedTransformMode.h"
-
 namespace System::Security::Cryptography { class ICryptoTransform; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_CREATEDECRYPTOR_OFFSET UNITYSDK_OFFSET(0x1BBCAF90)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_CREATEENCRYPTOR_OFFSET UNITYSDK_OFFSET(0x1BBCAC20)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_GENERATEIV_OFFSET UNITYSDK_OFFSET(0x1BBCB270)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_GENERATEKEY_OFFSET UNITYSDK_OFFSET(0x1BBCB140)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_NEWENCRYPTOR_OFFSET UNITYSDK_OFFSET(0x1BBCADD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBCAAE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_CREATEDECRYPTOR_OFFSET UNITYSDK_OFFSET(0x1C0D70F0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_CREATEENCRYPTOR_OFFSET UNITYSDK_OFFSET(0x1C0D6D80)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D6C10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_GENERATEIV_OFFSET UNITYSDK_OFFSET(0x1C0D73D0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_GENERATEKEY_OFFSET UNITYSDK_OFFSET(0x1C0D72A0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_NEWENCRYPTOR_OFFSET UNITYSDK_OFFSET(0x1C0D6F30)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RijndaelManaged_TypeDefinitionIndex = 1043;
-
 	class RijndaelManaged : public ::System::Security::Cryptography::Rijndael
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_CTOR_OFFSET))(this);
 		}
 
 		::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
@@ -49,5 +46,6 @@ namespace System::Security::Cryptography
 		{
 			return ((::System::Security::Cryptography::ICryptoTransform*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Security::Cryptography::CipherMode, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Security::Cryptography::RijndaelManagedTransformMode))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAELMANAGED_NEWENCRYPTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

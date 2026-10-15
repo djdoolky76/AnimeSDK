@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureRemoveExtraMPCost; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_METHOD_3_01F155941DF100C0_OFFSET UNITYSDK_OFFSET(0x1CDF6810)
-#define RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_METHOD_3_586EE0EB0A2E0995_OFFSET UNITYSDK_OFFSET(0x1CDF67D0)
-#define RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF6800)
+#define RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CC9D0)
+#define RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3CC9E0)
+#define RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3CC9A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureRemoveExtraMPCost_TypeDefinitionIndex = 21559;
-
 	class AdventureRemoveExtraMPCost : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 SkillIndex; // 0x18
 		::System::UInt32 ExtraCost; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_586EE0EB0A2E0995(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureRemoveExtraMPCost*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureRemoveExtraMPCost* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureRemoveExtraMPCost*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_METHOD_3_586EE0EB0A2E0995_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureRemoveExtraMPCost*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_01F155941DF100C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureRemoveExtraMPCost* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureRemoveExtraMPCost* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureRemoveExtraMPCost*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_METHOD_3_01F155941DF100C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureRemoveExtraMPCost*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREREMOVEEXTRAMPCOST_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

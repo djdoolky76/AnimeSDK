@@ -3,8 +3,6 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODTreeExpandStatus_TypeDefinitionIndex = 73720;
-
 	enum class SceneItemHLODTreeExpandStatus : ::System::Int32
 	{
 		None = 0,

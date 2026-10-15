@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingInfoType_TypeDefinitionIndex = 12467;
-
 	enum class MappingInfoType : ::System::Int32
 	{
 		NONE = 0,
@@ -40,5 +38,6 @@ namespace RPG::GameCore
 		FOUR_ROTATE_VOXEL_GAME = 30,
 		ONLINE_PLAY_ROOM_ENTRANCE = 31,
 		CAKE_CATCH_SHELF = 32,
+		PET_PARK = 33,
 	};
 }

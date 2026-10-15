@@ -3,11 +3,9 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWarePS5_PortFlag_TypeDefinitionIndex = 38630;
-
 	enum class CriWarePS5_PortFlag : ::System::UInt32
 	{
-		Restricted = 0x1,
-		Passthrough = 0x2,
+		Restricted = 1,
+		Passthrough = 2,
 	};
 }

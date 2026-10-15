@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace Spine::Unity { class SkeletonRootMotionBase; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E6659A0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E665A20)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6633F0)
-#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6658B0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2D860)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2D770)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2D8E0)
+#define SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2B2A0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRootMotionBase_RootMotionDelegate_TypeDefinitionIndex = 43831;
-
 	class SkeletonRootMotionBase_RootMotionDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Unity::SkeletonRootMotionBase* a1, ::UnityEngine::Vector2 a2, ::System::Single a3)
@@ -39,5 +36,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTIONBASE_ROOTMOTIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

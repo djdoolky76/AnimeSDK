@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB15120)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB15150)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB11A60)
-#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB15030)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C021AE0)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0219F0)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C021B10)
+#define MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01E470)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_OnWebViewBeforePageHide_TypeDefinitionIndex = 7775;
-
 	class WebDelegate_OnWebViewBeforePageHide : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_ONWEBVIEWBEFOREPAGEHIDE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

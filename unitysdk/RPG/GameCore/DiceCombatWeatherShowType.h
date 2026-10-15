@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatWeatherShowType_TypeDefinitionIndex = 11252;
-
 	enum class DiceCombatWeatherShowType : ::System::Int32
 	{
 		Sunny = 0,

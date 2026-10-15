@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::Audio { class WwiseMuteStagePropInfo; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE816840)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE816830)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8169D0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B4120)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B42B0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B4110)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseUnmutePropAudioClip_TypeDefinitionIndex = 49306;
-
 	class WwiseUnmutePropAudioClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::Il2CppArray<::RPGTools::Timeline::Audio::WwiseMuteStagePropInfo*>* TargetStageProps; // 0x18
 		::Il2CppArray<::System::String*>* TargetStoryProps; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +33,6 @@ namespace RPGTools::Timeline::Audio
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEUNMUTEPROPAUDIOCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

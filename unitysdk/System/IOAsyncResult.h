@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class AsyncCallback; }
+namespace System { class Object; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IOASYNCRESULT_GET_ASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E9504C0)
-#define SYSTEM_IOASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1E9504D0)
-#define SYSTEM_IOASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1E9504E0)
-#define SYSTEM_IOASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1E9505D0)
-#define SYSTEM_IOASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1E9505F0)
-#define SYSTEM_IOASYNCRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x1E950450)
-#define SYSTEM_IOASYNCRESULT_SET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1E9505E0)
-#define SYSTEM_IOASYNCRESULT_SET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1E950600)
-#define SYSTEM_IOASYNCRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9504B0)
-#define SYSTEM_IOASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E950440)
+#define SYSTEM_IOASYNCRESULT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F019410)
+#define SYSTEM_IOASYNCRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0193A0)
+#define SYSTEM_IOASYNCRESULT_GET_ASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F019420)
+#define SYSTEM_IOASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1F019430)
+#define SYSTEM_IOASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1F019440)
+#define SYSTEM_IOASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1F019530)
+#define SYSTEM_IOASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F019550)
+#define SYSTEM_IOASYNCRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x1F0193B0)
+#define SYSTEM_IOASYNCRESULT_SET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1F019540)
+#define SYSTEM_IOASYNCRESULT_SET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F019560)
 
 namespace System
 {
-	inline static constexpr unsigned int IOAsyncResult_TypeDefinitionIndex = 2488;
-
 	class IOAsyncResult : public ::System::Object
 	{
 	public:
@@ -29,15 +27,14 @@ namespace System
 		::System::Threading::ManualResetEvent* wait_handle; // 0x20
 		::System::Boolean completed_synchronously; // 0x28
 		::System::Boolean completed; // 0x29
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::AsyncCallback* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Init(::System::AsyncCallback* a1, ::System::Object* a2)
@@ -79,5 +76,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IOASYNCRESULT_SET_ISCOMPLETED_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class MCBFOMIGMLA : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		LCMADDIMION = 403,
+		BNGOOKFJFLF = 404,
+		PAGPNOKLNOM = 401,
+		BBGPAAMECAC = 402,
+		MGNNCJCHCFM = 2300,
+		NEAMPNCBGNK = 3100,
+		KMGKEHBIGFB = 4100,
+		CPKIFFOLBDL = 3700,
+	};

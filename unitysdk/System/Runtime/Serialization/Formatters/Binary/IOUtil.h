@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/Binary/MessageEnum.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_FLAGTEST_OFFSET UNITYSDK_OFFSET(0x1BE09750)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITESTRINGWITHCODE_OFFSET UNITYSDK_OFFSET(0x1BE09580)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITEWITHCODE_OFFSET UNITYSDK_OFFSET(0x1BE09760)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_FLAGTEST_OFFSET UNITYSDK_OFFSET(0x1C315380)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITESTRINGWITHCODE_OFFSET UNITYSDK_OFFSET(0x1C3151B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITEWITHCODE_OFFSET UNITYSDK_OFFSET(0x1C315390)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int IOUtil_TypeDefinitionIndex = 1144;
-
 	class IOUtil : public ::System::Object
 	{
 	public:
@@ -32,5 +30,6 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return ((::System::Void(*)(::System::Type*, ::System::Object*, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_IOUTIL_WRITEWITHCODE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

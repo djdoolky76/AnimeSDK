@@ -1,8 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/SkeletonLoader.h"
-#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
-
 namespace Spine { class Atlas; }
 namespace Spine { class Attachment; }
 namespace Spine { class AttachmentLoader; }
@@ -19,43 +17,41 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::IO { class TextReader; }
 
-#define SPINE_SKELETONJSON_FINDSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1E60C660)
-#define SPINE_SKELETONJSON_GETBOOLEAN_OFFSET UNITYSDK_OFFSET(0x1E60C2C0)
-#define SPINE_SKELETONJSON_GETFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x1E6204D0)
-#define SPINE_SKELETONJSON_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x1E60C090)
-#define SPINE_SKELETONJSON_GETINTARRAY_OFFSET UNITYSDK_OFFSET(0x1E6207C0)
-#define SPINE_SKELETONJSON_GETINT_1_OFFSET UNITYSDK_OFFSET(0x1E6209A0)
-#define SPINE_SKELETONJSON_GETINT_OFFSET UNITYSDK_OFFSET(0x1E60C510)
-#define SPINE_SKELETONJSON_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1E60C1E0)
-#define SPINE_SKELETONJSON_READANIMATION_OFFSET UNITYSDK_OFFSET(0x1E60DDF0)
-#define SPINE_SKELETONJSON_READATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1E60C7B0)
-#define SPINE_SKELETONJSON_READCURVE_OFFSET UNITYSDK_OFFSET(0x1E620B40)
-#define SPINE_SKELETONJSON_READSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1E61FE20)
-#define SPINE_SKELETONJSON_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x1E6037C0)
-#define SPINE_SKELETONJSON_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1E603640)
-#define SPINE_SKELETONJSON_READTIMELINE_1_OFFSET UNITYSDK_OFFSET(0x1E6213E0)
-#define SPINE_SKELETONJSON_READTIMELINE_OFFSET UNITYSDK_OFFSET(0x1E620F50)
-#define SPINE_SKELETONJSON_READVERTICES_OFFSET UNITYSDK_OFFSET(0x1E61FF10)
-#define SPINE_SKELETONJSON_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1E6218F0)
-#define SPINE_SKELETONJSON_TOCOLOR_OFFSET UNITYSDK_OFFSET(0x1E60C410)
-#define SPINE_SKELETONJSON__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E603630)
-#define SPINE_SKELETONJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6035B0)
+#define SPINE_SKELETONJSON_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ECCB7F0)
+#define SPINE_SKELETONJSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCB770)
+#define SPINE_SKELETONJSON_FINDSLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1ECD47E0)
+#define SPINE_SKELETONJSON_GETBOOLEAN_OFFSET UNITYSDK_OFFSET(0x1ECD4440)
+#define SPINE_SKELETONJSON_GETFLOATARRAY_OFFSET UNITYSDK_OFFSET(0x1ECE8650)
+#define SPINE_SKELETONJSON_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x1ECD4210)
+#define SPINE_SKELETONJSON_GETINTARRAY_OFFSET UNITYSDK_OFFSET(0x1ECE8940)
+#define SPINE_SKELETONJSON_GETINT_1_OFFSET UNITYSDK_OFFSET(0x1ECE8B20)
+#define SPINE_SKELETONJSON_GETINT_OFFSET UNITYSDK_OFFSET(0x1ECD4690)
+#define SPINE_SKELETONJSON_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1ECD4360)
+#define SPINE_SKELETONJSON_READANIMATION_OFFSET UNITYSDK_OFFSET(0x1ECD5F70)
+#define SPINE_SKELETONJSON_READATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ECD4930)
+#define SPINE_SKELETONJSON_READCURVE_OFFSET UNITYSDK_OFFSET(0x1ECE8CC0)
+#define SPINE_SKELETONJSON_READSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1ECE7FA0)
+#define SPINE_SKELETONJSON_READSKELETONDATA_1_OFFSET UNITYSDK_OFFSET(0x1ECCB980)
+#define SPINE_SKELETONJSON_READSKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1ECCB800)
+#define SPINE_SKELETONJSON_READTIMELINE_1_OFFSET UNITYSDK_OFFSET(0x1ECE9560)
+#define SPINE_SKELETONJSON_READTIMELINE_OFFSET UNITYSDK_OFFSET(0x1ECE90D0)
+#define SPINE_SKELETONJSON_READVERTICES_OFFSET UNITYSDK_OFFSET(0x1ECE8090)
+#define SPINE_SKELETONJSON_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1ECE9A70)
+#define SPINE_SKELETONJSON_TOCOLOR_OFFSET UNITYSDK_OFFSET(0x1ECD4590)
 
 namespace Spine
 {
-	inline static constexpr unsigned int SkeletonJson_TypeDefinitionIndex = 38396;
-
 	class SkeletonJson : public ::Spine::SkeletonLoader
 	{
 	public:
 		::System::Void _ctor(::Spine::AttachmentLoader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::AttachmentLoader*))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::Il2CppArray<::Spine::Atlas*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::Spine::Atlas*>*))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::Spine::SkeletonData* ReadSkeletonData(::System::String* a1)
@@ -93,14 +89,14 @@ namespace Spine
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*, ::System::String*, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_READANIMATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::Spine::Timeline* ReadTimeline(::System::Collections::Generic::List_1_Enumerator<::System::Object*>& a1, ::Spine::CurveTimeline1* a2, ::System::Single a3, ::System::Single a4)
+		static ::Spine::Timeline* ReadTimeline(::System::Object* a1, ::Spine::CurveTimeline1* a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::Spine::Timeline*(*)(::System::Collections::Generic::List_1_Enumerator<::System::Object*>&, ::Spine::CurveTimeline1*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_READTIMELINE_OFFSET))(a1, a2, a3, a4);
+			return ((::Spine::Timeline*(*)(::System::Object*, ::Spine::CurveTimeline1*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_READTIMELINE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::Spine::Timeline* ReadTimeline_1(::System::Collections::Generic::List_1_Enumerator<::System::Object*>& a1, ::Spine::CurveTimeline2* a2, ::System::String* a3, ::System::String* a4, ::System::Single a5, ::System::Single a6)
+		static ::Spine::Timeline* ReadTimeline_1(::System::Object* a1, ::Spine::CurveTimeline2* a2, ::System::String* a3, ::System::String* a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::Spine::Timeline*(*)(::System::Collections::Generic::List_1_Enumerator<::System::Object*>&, ::Spine::CurveTimeline2*, ::System::String*, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_READTIMELINE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::Spine::Timeline*(*)(::System::Object*, ::Spine::CurveTimeline2*, ::System::String*, ::System::String*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_READTIMELINE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Int32 ReadCurve(::System::Object* a1, ::Spine::CurveTimeline* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Single a6, ::System::Single a7, ::System::Single a8, ::System::Single a9, ::System::Single a10)
@@ -152,5 +148,6 @@ namespace Spine
 		{
 			return ((::System::Single(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_SKELETONJSON_TOCOLOR_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

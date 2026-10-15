@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VisibleLightFlags_TypeDefinitionIndex = 4775;
-
 	enum class VisibleLightFlags : ::System::Int32
 	{
 		IntersectsNearPlane = 1,

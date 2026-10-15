@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_METHOD_1_79A0DD953C362A58_OFFSET UNITYSDK_OFFSET(0xE8FD2B0)
-#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xE8FD330)
+#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_AEJGJGDEDOM_OFFSET UNITYSDK_OFFSET(0xE952DD0)
+#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE952E50)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int PageTearConfig_TypeDefinitionIndex = 49131;
-
 	class PageTearConfig : public ::System::Object
 	{
 	public:
 		::System::Boolean IsPlayerInvolved; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* FrontTexturePath; // 0x18
 		::System::String* FrontTexturePathMale; // 0x20
 		::System::String* FrontTexturePathFemale; // 0x28
@@ -24,15 +22,15 @@ namespace RPGTools::Timeline::VFX
 		::System::Single OldPaperIntensity; // 0x40
 		::UnityEngine::Color OldPaperTint; // 0x44
 		::System::Single EaseInDuation; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_79A0DD953C362A58(::System::String* a1)
+		::System::Boolean AEJGJGDEDOM(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_METHOD_1_79A0DD953C362A58_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_AEJGJGDEDOM_OFFSET))(this, a1);
 		}
+
 	};
 }

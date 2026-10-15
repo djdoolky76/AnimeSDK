@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B907C30)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B907C80)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B907A10)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B907BC0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE06B60)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE06AF0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE06BB0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE06940)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int WeGameManager_WeGameExitDelegate_TypeDefinitionIndex = 9425;
-
 	class WeGameManager_WeGameExitDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_WEGAMEMANAGER_WEGAMEEXITDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

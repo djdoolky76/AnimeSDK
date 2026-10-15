@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticlePlaybackStatus_TypeDefinitionIndex = 70051;
-
 	enum class ParticlePlaybackStatus : ::System::Int32
 	{
 		kIsStopped = 0,

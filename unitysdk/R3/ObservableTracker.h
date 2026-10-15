@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/R3/TrackingState.h"
 #include "unitysdk/System/Object.h"
-
 namespace R3 { class TrackableDisposable; }
 namespace R3::Internal { template <typename T1, typename T2> class WeakDictionary_2; }
 namespace System { class IDisposable; }
@@ -10,58 +9,61 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define R3_OBSERVABLETRACKER_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1BF18380)
-#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTIONCORE_OFFSET UNITYSDK_OFFSET(0x1BF178C0)
-#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTION_OFFSET UNITYSDK_OFFSET(0x1BF17820)
-#define R3_OBSERVABLETRACKER_TYPEBEAUTIFY_OFFSET UNITYSDK_OFFSET(0x1BF17D40)
-#define R3_OBSERVABLETRACKER_UNWRAPTRACKABLEDISPOSABLE_OFFSET UNITYSDK_OFFSET(0x1BF17CE0)
-#define R3_OBSERVABLETRACKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF18430)
+#define R3_OBSERVABLETRACKER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C424A80)
+#define R3_OBSERVABLETRACKER_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1C4249D0)
+#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTIONCORE_OFFSET UNITYSDK_OFFSET(0x1C423F10)
+#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C423E70)
+#define R3_OBSERVABLETRACKER_TYPEBEAUTIFY_OFFSET UNITYSDK_OFFSET(0x1C424390)
+#define R3_OBSERVABLETRACKER_UNWRAPTRACKABLEDISPOSABLE_OFFSET UNITYSDK_OFFSET(0x1C424330)
 
 namespace R3
 {
-	inline static constexpr unsigned int ObservableTracker_TypeDefinitionIndex = 35246;
-
 	class ObservableTracker : public ::System::Object
 	{
 	public:
-		static ::R3::Internal::WeakDictionary_2<::R3::TrackableDisposable*, ::R3::TrackingState>** StaticGet_tracking()
-		{
-			return (::R3::Internal::WeakDictionary_2<::R3::TrackableDisposable*, ::R3::TrackingState>**)Il2CppClass::FromTypeDefinitionIndex(ObservableTracker_TypeDefinitionIndex)->GetStaticField(0xD80);
-		}
 		static ::System::Collections::Generic::List_1<::R3::TrackingState>** StaticGet_iterateCache()
 		{
-			return (::System::Collections::Generic::List_1<::R3::TrackingState>**)Il2CppClass::FromTypeDefinitionIndex(ObservableTracker_TypeDefinitionIndex)->GetStaticField(0xD88);
+			return (::System::Collections::Generic::List_1<::R3::TrackingState>**)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0xA60);
 		}
-		static ::System::Int32* StaticGet_trackingIdCounter()
+
+		static ::R3::Internal::WeakDictionary_2<::R3::TrackableDisposable*, ::R3::TrackingState>** StaticGet_tracking()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ObservableTracker_TypeDefinitionIndex)->GetStaticField(0x700);
+			return (::R3::Internal::WeakDictionary_2<::R3::TrackableDisposable*, ::R3::TrackingState>**)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0xA68);
 		}
-		static ::System::Boolean* StaticGet_dirty()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObservableTracker_TypeDefinitionIndex)->GetStaticField(0x704);
-		}
-		static ::System::Boolean* StaticGet_EnableStackTrace()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObservableTracker_TypeDefinitionIndex)->GetStaticField(0x705);
-		}
+
 		static ::System::Boolean* StaticGet_EnableTracking()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ObservableTracker_TypeDefinitionIndex)->GetStaticField(0x706);
+			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x540);
+		}
+
+		static ::System::Boolean* StaticGet_EnableStackTrace()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x541);
+		}
+
+		static ::System::Boolean* StaticGet_dirty()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x542);
+		}
+
+		static ::System::Int32* StaticGet_trackingIdCounter()
+		{
+			return (::System::Int32*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x544);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLETRACKER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + R3_OBSERVABLETRACKER_CCTOR_OFFSET))();
 		}
 
-		static ::System::Boolean TryTrackActiveSubscription(::System::IDisposable* a1, ::System::Int32 a2, ::R3::TrackableDisposable*& a3)
+		static ::System::Boolean TryTrackActiveSubscription(::System::IDisposable* a1, ::System::Int32 a2, ::R3::TrackableDisposable* a3)
 		{
-			return ((::System::Boolean(*)(::System::IDisposable*, ::System::Int32, ::R3::TrackableDisposable*&))((::PBYTE)hIl2Cpp + R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTION_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::IDisposable*, ::System::Int32, ::R3::TrackableDisposable*))((::PBYTE)hIl2Cpp + R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTION_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean TryTrackActiveSubscriptionCore(::System::IDisposable* a1, ::System::Int32 a2, ::R3::TrackableDisposable*& a3)
+		static ::System::Boolean TryTrackActiveSubscriptionCore(::System::IDisposable* a1, ::System::Int32 a2, ::R3::TrackableDisposable* a3)
 		{
-			return ((::System::Boolean(*)(::System::IDisposable*, ::System::Int32, ::R3::TrackableDisposable*&))((::PBYTE)hIl2Cpp + R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTIONCORE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::IDisposable*, ::System::Int32, ::R3::TrackableDisposable*))((::PBYTE)hIl2Cpp + R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTIONCORE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void RemoveTracking(::R3::TrackableDisposable* a1)
@@ -78,5 +80,6 @@ namespace R3
 		{
 			return ((::System::IDisposable*(*)(::System::IDisposable*))((::PBYTE)hIl2Cpp + R3_OBSERVABLETRACKER_UNWRAPTRACKABLEDISPOSABLE_OFFSET))(a1);
 		}
+
 	};
 }

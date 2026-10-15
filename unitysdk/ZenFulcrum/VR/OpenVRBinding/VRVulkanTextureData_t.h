@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRVulkanTextureData_t_TypeDefinitionIndex = 37983;
-
-	struct alignas(8) VRVulkanTextureData_t
+	struct alignas(4) VRVulkanTextureData_t
 	{
 		::System::UInt64 m_nImage; // 0x10
 		::System::IntPtr m_pDevice; // 0x18

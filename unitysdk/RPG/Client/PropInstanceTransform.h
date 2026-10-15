@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Matrix4x4.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_8ACAC425340483C4_OFFSET UNITYSDK_OFFSET(0xDD6EAA0)
-#define RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_9DBC9E6BCD10AD9A_OFFSET UNITYSDK_OFFSET(0xDD6ED90)
-#define RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xDD6F2E0)
-#define RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_E2D8E94B87A09275_OFFSET UNITYSDK_OFFSET(0xDD6F360)
-#define RPG_CLIENT_PROPINSTANCETRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xDD6F3C0)
+#define RPG_CLIENT_PROPINSTANCETRANSFORM_BPBIPENMIGB_OFFSET UNITYSDK_OFFSET(0xDDF6F50)
+#define RPG_CLIENT_PROPINSTANCETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xDDF7870)
+#define RPG_CLIENT_PROPINSTANCETRANSFORM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xDDF7790)
+#define RPG_CLIENT_PROPINSTANCETRANSFORM_PCLCONGDEBE_OFFSET UNITYSDK_OFFSET(0xDDF7240)
+#define RPG_CLIENT_PROPINSTANCETRANSFORM_PFELLBJMHKB_OFFSET UNITYSDK_OFFSET(0xDDF7810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInstanceTransform_TypeDefinitionIndex = 70717;
-
 	class PropInstanceTransform : public ::System::Object
 	{
 	public:
@@ -26,30 +23,30 @@ namespace RPG::Client
 		::System::Boolean UsePosition; // 0x38
 		::System::Boolean UseRotation; // 0x39
 		::System::Boolean UseScale; // 0x3A
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Matrix4x4 Method_1_9DBC9E6BCD10AD9A()
+		::UnityEngine::Matrix4x4 PCLCONGDEBE()
 		{
-			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_9DBC9E6BCD10AD9A_OFFSET))(this);
+			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_PCLCONGDEBE_OFFSET))(this);
 		}
 
-		::UnityEngine::Matrix4x4 Method_1_8ACAC425340483C4(::UnityEngine::Transform* a1)
+		::UnityEngine::Matrix4x4 BPBIPENMIGB(::UnityEngine::Transform* a1)
 		{
-			return ((::UnityEngine::Matrix4x4(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_8ACAC425340483C4_OFFSET))(this, a1);
+			return ((::UnityEngine::Matrix4x4(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_BPBIPENMIGB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_CA373AA1C7054598()
+		::System::Void KHGIKBFDLFB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_KHGIKBFDLFB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_E2D8E94B87A09275(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3)
+		::System::Void PFELLBJMHKB(::System::Boolean a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_METHOD_1_E2D8E94B87A09275_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROPINSTANCETRANSFORM_PFELLBJMHKB_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ModifierDeathSource.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCheckModifierDeathSource; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_B31C504FCF3370DE_OFFSET UNITYSDK_OFFSET(0x1CEAB0E0)
-#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_D85D3C7C7CC536EF_OFFSET UNITYSDK_OFFSET(0x1CEAB0A0)
-#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_E364DC349EAA7FFD_OFFSET UNITYSDK_OFFSET(0x1CEAB290)
-#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_EEA67D247032D7CA_OFFSET UNITYSDK_OFFSET(0x1CEAB2C0)
-#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEAB0D0)
+#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D494720)
+#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D494910)
+#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4948E0)
+#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D494730)
+#define RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4946F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckModifierDeathSource_TypeDefinitionIndex = 22791;
-
 	class ByCheckModifierDeathSource : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::ModifierDeathSource DeathSource; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D85D3C7C7CC536EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckModifierDeathSource*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckModifierDeathSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckModifierDeathSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_D85D3C7C7CC536EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckModifierDeathSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B31C504FCF3370DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckModifierDeathSource* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCheckModifierDeathSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckModifierDeathSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_B31C504FCF3370DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCheckModifierDeathSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E364DC349EAA7FFD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckModifierDeathSource*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckModifierDeathSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckModifierDeathSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_E364DC349EAA7FFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckModifierDeathSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EEA67D247032D7CA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckModifierDeathSource* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckModifierDeathSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckModifierDeathSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_METHOD_4_EEA67D247032D7CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckModifierDeathSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKMODIFIERDEATHSOURCE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

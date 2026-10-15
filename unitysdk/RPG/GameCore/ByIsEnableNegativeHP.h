@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsEnableNegativeHP; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_013D973F7B22CAC3_OFFSET UNITYSDK_OFFSET(0x1CF38FD0)
-#define RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_13F2C7361EC7E96D_OFFSET UNITYSDK_OFFSET(0x1CF38FA0)
-#define RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_AFA947A1637BDAD6_OFFSET UNITYSDK_OFFSET(0x1CF38DE0)
-#define RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_B9C5056E6E0F4C77_OFFSET UNITYSDK_OFFSET(0x1CF38E20)
-#define RPG_GAMECORE_BYISENABLENEGATIVEHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF38E10)
+#define RPG_GAMECORE_BYISENABLENEGATIVEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D511770)
+#define RPG_GAMECORE_BYISENABLENEGATIVEHP_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D511930)
+#define RPG_GAMECORE_BYISENABLENEGATIVEHP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D511900)
+#define RPG_GAMECORE_BYISENABLENEGATIVEHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D511780)
+#define RPG_GAMECORE_BYISENABLENEGATIVEHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D511740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsEnableNegativeHP_TypeDefinitionIndex = 23438;
-
 	class ByIsEnableNegativeHP : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_AFA947A1637BDAD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsEnableNegativeHP*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsEnableNegativeHP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsEnableNegativeHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_AFA947A1637BDAD6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsEnableNegativeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B9C5056E6E0F4C77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsEnableNegativeHP* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsEnableNegativeHP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsEnableNegativeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_B9C5056E6E0F4C77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsEnableNegativeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_13F2C7361EC7E96D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEnableNegativeHP*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEnableNegativeHP* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEnableNegativeHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_13F2C7361EC7E96D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEnableNegativeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_013D973F7B22CAC3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEnableNegativeHP* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEnableNegativeHP* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEnableNegativeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_METHOD_4_013D973F7B22CAC3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEnableNegativeHP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISENABLENEGATIVEHP_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,43 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDED740)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDED330)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCDED430)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCDED850)
-#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER__CTOR_OFFSET UNITYSDK_OFFSET(0xCDED840)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD3E0B0)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD3E0A0)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD3DFA0)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD3DB90)
+#define RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xCD3DC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InvSceneRotationTransmitter_TypeDefinitionIndex = 70455;
-
 	class Effect_InvSceneRotationTransmitter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_BNKGBAGOBEC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_InvSceneRotationTransmitter_TypeDefinitionIndex)->GetStaticField(0x147B0);
-		}
-		static ::System::Int32* StaticGet_AIBNFJNLLPD()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Effect_InvSceneRotationTransmitter_TypeDefinitionIndex)->GetStaticField(0x147B4);
-		}
 		::System::Boolean reverseSceneRotation; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Renderer* JAMDAALMOAL; // 0x20
 		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0x28
+		static ::System::Int32* StaticGet_AIBNFJNLLPD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_InvSceneRotationTransmitter")->GetStaticField(0xC330);
+		}
+
+		static ::System::Int32* StaticGet_BNKGBAGOBEC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_InvSceneRotationTransmitter")->GetStaticField(0xC334);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_CCTOR_OFFSET))();
 		}
 
 		::System::Void OnEnable()
@@ -54,5 +53,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_INVSCENEROTATIONTRANSMITTER_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

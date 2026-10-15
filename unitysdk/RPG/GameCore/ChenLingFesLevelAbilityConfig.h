@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChenLingFesAbilityConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingFesLevelAbilityConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_METHOD_3_0DBDEFC980D86E65_OFFSET UNITYSDK_OFFSET(0x1CFB39A0)
-#define RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_METHOD_3_B98AC4C5CE3256B4_OFFSET UNITYSDK_OFFSET(0x1CFB1AC0)
-#define RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB1AA0)
+#define RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58CEA0)
+#define RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D58CEC0)
+#define RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D58EF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesLevelAbilityConfig_TypeDefinitionIndex = 18232;
-
 	class ChenLingFesLevelAbilityConfig : public ::RPG::GameCore::ChenLingFesAbilityConfig
 	{
 	public:
@@ -23,20 +21,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnLoopTrigger; // 0x30
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnDayStart; // 0x38
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnDeactive; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0DBDEFC980D86E65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesLevelAbilityConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesLevelAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesLevelAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_METHOD_3_0DBDEFC980D86E65_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesLevelAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B98AC4C5CE3256B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingFesLevelAbilityConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingFesLevelAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingFesLevelAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_METHOD_3_B98AC4C5CE3256B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingFesLevelAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESLEVELABILITYCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

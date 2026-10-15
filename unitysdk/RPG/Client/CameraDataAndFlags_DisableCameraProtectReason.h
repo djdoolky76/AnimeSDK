@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_DisableCameraProtectReason_TypeDefinitionIndex = 69516;
-
 	enum class CameraDataAndFlags_DisableCameraProtectReason : ::System::Int32
 	{
 		Default = 1,

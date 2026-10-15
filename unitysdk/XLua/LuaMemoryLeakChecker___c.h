@@ -2,58 +2,61 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/XLua/LuaMemoryLeakChecker_RefInfo.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B2D650)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2D690)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_0_OFFSET UNITYSDK_OFFSET(0x14B2D6D0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_1_OFFSET UNITYSDK_OFFSET(0x14B2D6E0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_2_OFFSET UNITYSDK_OFFSET(0x14B2D6A0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_3_OFFSET UNITYSDK_OFFSET(0x14B2D6B0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_4_OFFSET UNITYSDK_OFFSET(0x14B2D6C0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x14DC3B20)
+#define XLUA_LUAMEMORYLEAKCHECKER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x14DC3B60)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_0_OFFSET UNITYSDK_OFFSET(0x14DC3BA0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_1_OFFSET UNITYSDK_OFFSET(0x14DC3BB0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_2_OFFSET UNITYSDK_OFFSET(0x14DC3B70)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_3_OFFSET UNITYSDK_OFFSET(0x14DC3B80)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_4_OFFSET UNITYSDK_OFFSET(0x14DC3B90)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c_TypeDefinitionIndex = 50433;
-
 	class LuaMemoryLeakChecker___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Boolean>** StaticGet___9__11_2()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_2()
 		{
-			return (::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LuaMemoryLeakChecker___c_TypeDefinitionIndex)->GetStaticField(0x64DF0);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481E0);
 		}
-		static ::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Boolean>** StaticGet___9__11_4()
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LuaMemoryLeakChecker___c_TypeDefinitionIndex)->GetStaticField(0x64DF8);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481E8);
 		}
-		static ::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Boolean>** StaticGet___9__11_0()
+
+		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_3()
 		{
-			return (::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LuaMemoryLeakChecker___c_TypeDefinitionIndex)->GetStaticField(0x64E00);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481F0);
 		}
-		static ::XLua::LuaMemoryLeakChecker___c** StaticGet___9()
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_4()
 		{
-			return (::XLua::LuaMemoryLeakChecker___c**)Il2CppClass::FromTypeDefinitionIndex(LuaMemoryLeakChecker___c_TypeDefinitionIndex)->GetStaticField(0x64E08);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481F8);
 		}
-		static ::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::String*>** StaticGet___9__11_1()
+
+		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LuaMemoryLeakChecker___c_TypeDefinitionIndex)->GetStaticField(0x64E10);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x48200);
 		}
-		static ::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::String*>** StaticGet___9__11_3()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LuaMemoryLeakChecker___c_TypeDefinitionIndex)->GetStaticField(0x64E18);
+			return (::System::Object**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x48208);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _MemoryLeakReport_b__11_2(::XLua::LuaMemoryLeakChecker_RefInfo a1)
@@ -80,5 +83,6 @@ namespace XLua
 		{
 			return ((::System::String*(*)(::PVOID, ::XLua::LuaMemoryLeakChecker_RefInfo))((::PBYTE)hIl2Cpp + XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_1_OFFSET))(this, a1);
 		}
+
 	};
 }

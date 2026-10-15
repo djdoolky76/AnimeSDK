@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadState_RawState_GamePad_TypeDefinitionIndex = 39491;
-
-	struct alignas(2) GamePadState_RawState_GamePad
+	struct alignas(4) GamePadState_RawState_GamePad
 	{
 		::System::UInt16 dwButtons; // 0x10
 		::System::Byte bLeftTrigger; // 0x12

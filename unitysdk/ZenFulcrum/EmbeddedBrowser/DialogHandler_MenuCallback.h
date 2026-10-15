@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF91050)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF910A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF90EE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF90FE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F659510)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6594A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F659560)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6593A0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DialogHandler_MenuCallback_TypeDefinitionIndex = 38198;
-
 	class DialogHandler_MenuCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1)
@@ -37,5 +34,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_MENUCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

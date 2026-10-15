@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityPositionCheckMode_TypeDefinitionIndex = 16109;
-
 	enum class EntityPositionCheckMode : ::System::Int32
 	{
 		None = 0,

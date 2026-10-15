@@ -1,0 +1,15 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class GEOOCKILLEF : ::System::Int32
+	{
+		DAJIEGLJFAK = 0,
+		AIANNAINGKK = 1,
+		BGODPDMEEHD = 2,
+		CKNBODHNOAK = 3,
+		DDLJICIALFA = 4,
+		MKNLIFHBNNH = 5,
+		FPCCHGCPELO = 6,
+		FMMGPFPLAJI = 7,
+		FAGNGHEDEIP = 9,
+		LAHLPPEDGGO = 10,
+	};

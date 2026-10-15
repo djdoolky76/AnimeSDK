@@ -3,8 +3,6 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UriFormat_TypeDefinitionIndex = 2471;
-
 	enum class UriFormat : ::System::Int32
 	{
 		UriEscaped = 1,

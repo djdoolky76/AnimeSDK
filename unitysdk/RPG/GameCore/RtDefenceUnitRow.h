@@ -4,17 +4,15 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/RtDefenceCharacterType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtDefenceUnitRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4A8E30)
-#define RPG_GAMECORE_RTDEFENCEUNITROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A9580)
+#define RPG_GAMECORE_RTDEFENCEUNITROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5C950)
+#define RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA5C200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceUnitRow_TypeDefinitionIndex = 17848;
-
 	class RtDefenceUnitRow : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -36,15 +34,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FixPoint AttackSpeed; // 0x70
 		::RPG::GameCore::FixPoint MoveSpeed; // 0x78
 		::RPG::GameCore::FixPoint RotSpeed; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCEUNITROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCEUNITROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtDefenceUnitRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtDefenceUnitRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtDefenceUnitRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtDefenceUnitRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTDEFENCEUNITROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

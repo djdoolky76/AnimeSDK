@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnumCategory_TypeDefinitionIndex = 10499;
-
 	enum class JsonEnumCategory : ::System::Int32
 	{
 		BattlePropEvent = 0,
@@ -29,5 +27,6 @@ namespace RPG::GameCore
 		ModifierBehaviorFlag = 19,
 		DialogueIconType = 20,
 		ExpeditionBattleCustomType = 21,
+		ActivityStatisticsType = 22,
 	};
 }

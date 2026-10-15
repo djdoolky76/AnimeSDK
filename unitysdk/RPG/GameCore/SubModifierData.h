@@ -2,21 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
+namespace RPG::GameCore { class SubModifierData; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SUBMODIFIERDATA_METHOD_2_8F202E16CFAA9C78_OFFSET UNITYSDK_OFFSET(0x1D581110)
-#define RPG_GAMECORE_SUBMODIFIERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D581570)
+#define RPG_GAMECORE_SUBMODIFIERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37B30)
+#define RPG_GAMECORE_SUBMODIFIERDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB376D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubModifierData_TypeDefinitionIndex = 18020;
-
 	class SubModifierData : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -24,22 +22,24 @@ namespace RPG::GameCore
 		::System::String* ReferenceModifierName; // 0x18
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::System::Boolean IncludeBattleEvent; // 0x28
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::DynamicFloat* LifeTime; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* DynamicValues; // 0x38
 		::RPG::GameCore::PredicateConfig* Predicate; // 0x40
 		::System::Boolean IsHaloStatus; // 0x48
 		::System::Boolean SyncLayerFromParent; // 0x49
+		::System::Byte _padding1[0x2];
 		::RPG::GameCore::BoolEx AliveOnly; // 0x4C
 		::System::Boolean AutoDetectWhenRevive; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMODIFIERDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMODIFIERDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8F202E16CFAA9C78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubModifierData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SubModifierData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubModifierData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMODIFIERDATA_METHOD_2_8F202E16CFAA9C78_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SubModifierData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMODIFIERDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

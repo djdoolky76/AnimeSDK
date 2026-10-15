@@ -3,8 +3,6 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int MacOsArpHardware_TypeDefinitionIndex = 2952;
-
 	enum class MacOsArpHardware : ::System::Int32
 	{
 		ETHER = 6,

@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowUIPage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class UIImageNode; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWUIPAGE_METHOD_3_008D5E06212AF376_OFFSET UNITYSDK_OFFSET(0x1D533170)
-#define RPG_GAMECORE_SHOWUIPAGE_METHOD_3_48D9B69A2D3BDC10_OFFSET UNITYSDK_OFFSET(0x1D533130)
-#define RPG_GAMECORE_SHOWUIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D533160)
+#define RPG_GAMECORE_SHOWUIPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE7B70)
+#define RPG_GAMECORE_SHOWUIPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE7B80)
+#define RPG_GAMECORE_SHOWUIPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE7B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowUIPage_TypeDefinitionIndex = 23566;
-
 	class ShowUIPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* AssetPath; // 0x18
 		::System::Boolean WaitShowPageFinish; // 0x20
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::RPG::GameCore::UIImageNode*>* UIImageNodes; // 0x28
 		::Il2CppArray<::RPG::GameCore::UITextNode*>* UITextNodes; // 0x30
 		::System::Single LifeTime; // 0x38
+		::System::Byte _padding1[0x4];
 		::RPG::GameCore::TargetEvaluator* DisplayTarget; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_48D9B69A2D3BDC10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUIPage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowUIPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUIPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE_METHOD_3_48D9B69A2D3BDC10_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowUIPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_008D5E06212AF376(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUIPage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowUIPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUIPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE_METHOD_3_008D5E06212AF376_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowUIPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

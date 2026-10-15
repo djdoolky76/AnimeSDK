@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/FontStyle.h"
-#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/TextAnchor.h"
 #include "unitysdk/UnityEngine/TextFormat.h"
 #include "unitysdk/UnityEngine/TextFormatChange.h"
-#include "unitysdk/UnityEngine/TextFormatFlag.h"
-#include "unitysdk/UnityEngine/TextFormatState.h"
 #include "unitysdk/UnityEngine/TextGenerationError.h"
 #include "unitysdk/UnityEngine/TextGenerationSettings.h"
 #include "unitysdk/UnityEngine/UICharInfo.h"
 #include "unitysdk/UnityEngine/UILineInfo.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
-
+#include "unitysdk/UnityEngine/Color.h"
+#include "unitysdk/UnityEngine/Rect.h"
+#include "unitysdk/UnityEngine/TextFormatFlag.h"
+#include "unitysdk/UnityEngine/TextFormatState.h"
+namespace System { class Action; }
 namespace System { class Array; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class Font; }
 namespace UnityEngine { class GameObject; }
@@ -31,77 +28,75 @@ namespace UnityEngine { class TextGenerator_IIconAtlas; }
 namespace UnityEngine { class TextGenerator_ProcessFormatDel; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTWRAP_OFFSET UNITYSDK_OFFSET(0x1EDDFAF0)
-#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1EDDFC10)
-#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1EDDFE60)
-#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1EDDFF80)
-#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1EDDFCC0)
-#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1EDDFDE0)
-#define UNITYENGINE_TEXTGENERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1EDDDC30)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDE1F0)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSLENGTH_OFFSET UNITYSDK_OFFSET(0x1EDDE1E0)
-#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1EDDE190)
-#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1EDDE330)
-#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDE340)
-#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICES_OFFSET UNITYSDK_OFFSET(0x1EDDE2E0)
-#define UNITYENGINE_TEXTGENERATOR_GETICONIDSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDE420)
-#define UNITYENGINE_TEXTGENERATOR_GETICONIDSLENGTH_OFFSET UNITYSDK_OFFSET(0x1EDDE410)
-#define UNITYENGINE_TEXTGENERATOR_GETICONIDS_OFFSET UNITYSDK_OFFSET(0x1EDDE3C0)
-#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDE3B0)
-#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1EDDE3A0)
-#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICES_OFFSET UNITYSDK_OFFSET(0x1EDDE350)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESARRAY_OFFSET UNITYSDK_OFFSET(0x1EDDFFD0)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDE260)
-#define UNITYENGINE_TEXTGENERATOR_GETLINESLENGTH_OFFSET UNITYSDK_OFFSET(0x1EDDE250)
-#define UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET UNITYSDK_OFFSET(0x1EDDE200)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EDDE610)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_1_OFFSET UNITYSDK_OFFSET(0x1EDDFFE0)
-#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET UNITYSDK_OFFSET(0x1EDDE4A0)
-#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDE490)
-#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSLENGTH_OFFSET UNITYSDK_OFFSET(0x1EDDE480)
-#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1EDDE430)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1EDDE2C0)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDE2D0)
-#define UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1EDDE270)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNTVISIBLE_OFFSET UNITYSDK_OFFSET(0x1EDDDDB0)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDDDDD0)
-#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERS_OFFSET UNITYSDK_OFFSET(0x1EDDF5F0)
-#define UNITYENGINE_TEXTGENERATOR_GET_FONTSIZEUSEDFORBESTFIT_OFFSET UNITYSDK_OFFSET(0x1EDDF710)
-#define UNITYENGINE_TEXTGENERATOR_GET_FORMATVERTS_OFFSET UNITYSDK_OFFSET(0x1EDDF580)
-#define UNITYENGINE_TEXTGENERATOR_GET_LINECOUNT_OFFSET UNITYSDK_OFFSET(0x1EDDF6F0)
-#define UNITYENGINE_TEXTGENERATOR_GET_LINES_OFFSET UNITYSDK_OFFSET(0x1EDDF660)
-#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EDDF6D0)
-#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_OFFSET UNITYSDK_OFFSET(0x1EDDE5D0)
-#define UNITYENGINE_TEXTGENERATOR_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDDF6E0)
-#define UNITYENGINE_TEXTGENERATOR_GET_VERTS_OFFSET UNITYSDK_OFFSET(0x1EDDF510)
-#define UNITYENGINE_TEXTGENERATOR_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1EDDDC20)
-#define UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1EDDDDA0)
-#define UNITYENGINE_TEXTGENERATOR_INVALIDATECACHES_OFFSET UNITYSDK_OFFSET(0x1EDDE090)
-#define UNITYENGINE_TEXTGENERATOR_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x1EDDE080)
-#define UNITYENGINE_TEXTGENERATOR_PARSETEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1EDDFFA0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET UNITYSDK_OFFSET(0x1EDDEAE0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET UNITYSDK_OFFSET(0x1EDDE6D0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET UNITYSDK_OFFSET(0x1EDDE8B0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1EDDEBD0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EDDFFC0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDDFFB0)
-#define UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET UNITYSDK_OFFSET(0x1EDDE560)
-#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMATWRAP_OFFSET UNITYSDK_OFFSET(0x1EDDF720)
-#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET UNITYSDK_OFFSET(0x1EDDF880)
-#define UNITYENGINE_TEXTGENERATOR_SETELLIPSISCHARACTER_OFFSET UNITYSDK_OFFSET(0x1EDDF4E0)
-#define UNITYENGINE_TEXTGENERATOR_SETICONATLAS_OFFSET UNITYSDK_OFFSET(0x1EDDF500)
-#define UNITYENGINE_TEXTGENERATOR_SETNOLEADINGCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1EDDF4D0)
-#define UNITYENGINE_TEXTGENERATOR_SETWRAPJUSTIFY_OFFSET UNITYSDK_OFFSET(0x1EDDF4F0)
-#define UNITYENGINE_TEXTGENERATOR_SET_DISABLETRIMVERTICES_OFFSET UNITYSDK_OFFSET(0x1EDDF700)
-#define UNITYENGINE_TEXTGENERATOR_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EDDDD70)
-#define UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1EDDDDE0)
-#define UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EDDD900)
-#define UNITYENGINE_TEXTGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDD8D0)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTWRAP_OFFSET UNITYSDK_OFFSET(0x1F4A8D10)
+#define UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET UNITYSDK_OFFSET(0x1F4A8E30)
+#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1F4A9080)
+#define UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1F4A91A0)
+#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAPWRAP_OFFSET UNITYSDK_OFFSET(0x1F4A8EE0)
+#define UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET UNITYSDK_OFFSET(0x1F4A9000)
+#define UNITYENGINE_TEXTGENERATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F4A6B20)
+#define UNITYENGINE_TEXTGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A6AF0)
+#define UNITYENGINE_TEXTGENERATOR_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F4A6E50)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A7410)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERSLENGTH_OFFSET UNITYSDK_OFFSET(0x1F4A7400)
+#define UNITYENGINE_TEXTGENERATOR_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1F4A73B0)
+#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1F4A7550)
+#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A7560)
+#define UNITYENGINE_TEXTGENERATOR_GETFORMATVERTICES_OFFSET UNITYSDK_OFFSET(0x1F4A7500)
+#define UNITYENGINE_TEXTGENERATOR_GETICONIDSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A7640)
+#define UNITYENGINE_TEXTGENERATOR_GETICONIDSLENGTH_OFFSET UNITYSDK_OFFSET(0x1F4A7630)
+#define UNITYENGINE_TEXTGENERATOR_GETICONIDS_OFFSET UNITYSDK_OFFSET(0x1F4A75E0)
+#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A75D0)
+#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICESLENGTH_OFFSET UNITYSDK_OFFSET(0x1F4A75C0)
+#define UNITYENGINE_TEXTGENERATOR_GETICONVERTICES_OFFSET UNITYSDK_OFFSET(0x1F4A7570)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESARRAY_OFFSET UNITYSDK_OFFSET(0x1F4A91F0)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A7480)
+#define UNITYENGINE_TEXTGENERATOR_GETLINESLENGTH_OFFSET UNITYSDK_OFFSET(0x1F4A7470)
+#define UNITYENGINE_TEXTGENERATOR_GETLINES_OFFSET UNITYSDK_OFFSET(0x1F4A7420)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F4A7830)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_1_OFFSET UNITYSDK_OFFSET(0x1F4A9200)
+#define UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_OFFSET UNITYSDK_OFFSET(0x1F4A76C0)
+#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A76B0)
+#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSLENGTH_OFFSET UNITYSDK_OFFSET(0x1F4A76A0)
+#define UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1F4A7650)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICESARRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x1F4A74E0)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A74F0)
+#define UNITYENGINE_TEXTGENERATOR_GETVERTICES_OFFSET UNITYSDK_OFFSET(0x1F4A7490)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNTVISIBLE_OFFSET UNITYSDK_OFFSET(0x1F4A6FD0)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0x1F4A6FF0)
+#define UNITYENGINE_TEXTGENERATOR_GET_CHARACTERS_OFFSET UNITYSDK_OFFSET(0x1F4A8810)
+#define UNITYENGINE_TEXTGENERATOR_GET_FONTSIZEUSEDFORBESTFIT_OFFSET UNITYSDK_OFFSET(0x1F4A8930)
+#define UNITYENGINE_TEXTGENERATOR_GET_FORMATVERTS_OFFSET UNITYSDK_OFFSET(0x1F4A87A0)
+#define UNITYENGINE_TEXTGENERATOR_GET_LINECOUNT_OFFSET UNITYSDK_OFFSET(0x1F4A8910)
+#define UNITYENGINE_TEXTGENERATOR_GET_LINES_OFFSET UNITYSDK_OFFSET(0x1F4A8880)
+#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4A88F0)
+#define UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_OFFSET UNITYSDK_OFFSET(0x1F4A77F0)
+#define UNITYENGINE_TEXTGENERATOR_GET_VERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1F4A8900)
+#define UNITYENGINE_TEXTGENERATOR_GET_VERTS_OFFSET UNITYSDK_OFFSET(0x1F4A8730)
+#define UNITYENGINE_TEXTGENERATOR_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1F4A6E40)
+#define UNITYENGINE_TEXTGENERATOR_INTERNAL_DESTROY_OFFSET UNITYSDK_OFFSET(0x1F4A6FC0)
+#define UNITYENGINE_TEXTGENERATOR_INVALIDATECACHES_OFFSET UNITYSDK_OFFSET(0x1F4A72B0)
+#define UNITYENGINE_TEXTGENERATOR_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F4A72A0)
+#define UNITYENGINE_TEXTGENERATOR_PARSETEXTFORMATFLAGS_OFFSET UNITYSDK_OFFSET(0x1F4A91C0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEALWAYS_OFFSET UNITYSDK_OFFSET(0x1F4A7D00)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERRORS_OFFSET UNITYSDK_OFFSET(0x1F4A78F0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATEWITHERROR_OFFSET UNITYSDK_OFFSET(0x1F4A7AD0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1F4A7DF0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4A91E0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A91D0)
+#define UNITYENGINE_TEXTGENERATOR_POPULATE_OFFSET UNITYSDK_OFFSET(0x1F4A7780)
+#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMATWRAP_OFFSET UNITYSDK_OFFSET(0x1F4A8940)
+#define UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET UNITYSDK_OFFSET(0x1F4A8AA0)
+#define UNITYENGINE_TEXTGENERATOR_SETELLIPSISCHARACTER_OFFSET UNITYSDK_OFFSET(0x1F4A8700)
+#define UNITYENGINE_TEXTGENERATOR_SETICONATLAS_OFFSET UNITYSDK_OFFSET(0x1F4A8720)
+#define UNITYENGINE_TEXTGENERATOR_SETNOLEADINGCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1F4A86F0)
+#define UNITYENGINE_TEXTGENERATOR_SETWRAPJUSTIFY_OFFSET UNITYSDK_OFFSET(0x1F4A8710)
+#define UNITYENGINE_TEXTGENERATOR_SET_DISABLETRIMVERTICES_OFFSET UNITYSDK_OFFSET(0x1F4A8920)
+#define UNITYENGINE_TEXTGENERATOR_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F4A6F90)
+#define UNITYENGINE_TEXTGENERATOR_VALIDATEDSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F4A7000)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextGenerator_TypeDefinitionIndex = 5035;
-
 	class TextGenerator : public ::System::Object
 	{
 	public:
@@ -109,17 +104,19 @@ namespace UnityEngine
 		::System::String* m_LastString; // 0x18
 		::UnityEngine::TextGenerationSettings m_LastSettings; // 0x20
 		::System::Boolean m_HasGenerated; // 0x88
+		::System::Byte _padding0[0x3];
 		::UnityEngine::TextGenerationError m_LastValid; // 0x8C
 		::Il2CppArray<::System::Int32>* m_NoLeadingChars; // 0x90
 		::System::Int32 m_NoWrapChar; // 0x98
 		::System::Int32 m_EllipsisChar; // 0x9C
 		::System::Int32 m_EllipsisLineNum; // 0xA0
 		::System::Boolean m_WrapJustify; // 0xA4
+		::System::Byte _padding1[0x3];
 		::UnityEngine::TextFormatStateHandle* m_FormatStateHandle; // 0xA8
-		::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>* m_ProcessFormatWrap; // 0xB0
-		::System::Action_1<::System::IntPtr>* m_AfterHorizontalAlignmentWrap; // 0xB8
-		::System::Action_2<::System::IntPtr, ::System::Int32>* m_BeforeWordWrapWrap; // 0xC0
-		::System::Action_2<::System::IntPtr, ::System::Int32>* m_AfterWordWrapWrap; // 0xC8
+		::System::Action* m_ProcessFormatWrap; // 0xB0
+		::System::Action* m_AfterHorizontalAlignmentWrap; // 0xB8
+		::System::Action* m_BeforeWordWrapWrap; // 0xC0
+		::System::Action* m_AfterWordWrapWrap; // 0xC8
 		::UnityEngine::TextGenerator_ProcessFormatDel* m_ProcessFormat; // 0xD0
 		::UnityEngine::TextGenerator_AfterHorizontalAlignmentDel* m_AfterHorizontalAlignment; // 0xD8
 		::UnityEngine::TextGenerator_BeforeWordWrapDel* m_BeforeWordWrap; // 0xE0
@@ -133,15 +130,14 @@ namespace UnityEngine
 		::System::Boolean m_CachedFormatVerts; // 0x119
 		::System::Boolean m_CachedCharacters; // 0x11A
 		::System::Boolean m_CachedLines; // 0x11B
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Finalize()
@@ -324,9 +320,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PROCESSFORMATWRAP_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void ProcessFormat(::UnityEngine::TextFormatState& a1, ::UnityEngine::TextFormatChange& a2, ::UnityEngine::TextFormat& a3, ::System::Single a4)
+		::System::Void ProcessFormat(::UnityEngine::TextFormatState a1, ::UnityEngine::TextFormatChange a2, ::UnityEngine::TextFormat a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::UnityEngine::TextFormatChange&, ::UnityEngine::TextFormat&, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PROCESSFORMAT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void AfterHorizontalAlignmentWrap(::System::IntPtr a1)
@@ -334,9 +330,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENTWRAP_OFFSET))(this, a1);
 		}
 
-		::System::Void AfterHorizontalAlignment(::UnityEngine::TextFormatState& a1)
+		::System::Void AfterHorizontalAlignment(::UnityEngine::TextFormatState a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERHORIZONTALALIGNMENT_OFFSET))(this, a1);
 		}
 
 		::System::Void BeforeWordWrapWrap(::System::IntPtr a1, ::System::Int32 a2)
@@ -344,9 +340,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAPWRAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BeforeWordWrap(::UnityEngine::TextFormatState& a1, ::System::Int32 a2)
+		::System::Void BeforeWordWrap(::UnityEngine::TextFormatState a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_BEFOREWORDWRAP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void AfterWordWrapWrap(::System::IntPtr a1, ::System::Int32 a2)
@@ -354,9 +350,9 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAPWRAP_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AfterWordWrap(::UnityEngine::TextFormatState& a1, ::System::Int32 a2)
+		::System::Void AfterWordWrap(::UnityEngine::TextFormatState a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState&, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextFormatState, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_AFTERWORDWRAP_OFFSET))(this, a1, a2);
 		}
 
 		static ::Il2CppArray<::UnityEngine::TextFormatFlag>* ParseTextFormatFlags(::System::String* a1, ::System::UInt32 a2)
@@ -364,14 +360,14 @@ namespace UnityEngine
 			return ((::Il2CppArray<::UnityEngine::TextFormatFlag>*(*)(::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_PARSETEXTFORMATFLAGS_OFFSET))(a1, a2);
 		}
 
-		::System::Boolean Populate_Internal(::System::String* a1, ::UnityEngine::Font* a2, ::UnityEngine::Color a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::FontStyle a7, ::System::Single a8, ::System::Boolean a9, ::System::UInt32 a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Int32 a15, ::System::Int32 a16, ::System::Boolean a17, ::UnityEngine::TextAnchor a18, ::System::Single a19, ::System::Single a20, ::System::Single a21, ::System::Single a22, ::System::Boolean a23, ::System::Boolean a24, ::Il2CppArray<::System::Int32>* a25, ::System::Int32 a26, ::System::Int32 a27, ::System::Int32 a28, ::System::Boolean a29, ::System::Boolean a30, ::System::Boolean a31, ::Il2CppArray<::System::Single>* a32, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>* a33, ::System::Action_1<::System::IntPtr>* a34, ::System::Action_2<::System::IntPtr, ::System::Int32>* a35, ::System::Action_2<::System::IntPtr, ::System::Int32>* a36, ::System::UInt32& a37)
+		::System::Boolean Populate_Internal(::System::String* a1, ::UnityEngine::Font* a2, ::UnityEngine::Color a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::FontStyle a7, ::System::Single a8, ::System::Boolean a9, ::System::UInt32 a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Int32 a15, ::System::Int32 a16, ::System::Boolean a17, ::UnityEngine::TextAnchor a18, ::System::Single a19, ::System::Single a20, ::System::Single a21, ::System::Single a22, ::System::Boolean a23, ::System::Boolean a24, ::Il2CppArray<::System::Int32>* a25, ::System::Int32 a26, ::System::Int32 a27, ::System::Int32 a28, ::System::Boolean a29, ::System::Boolean a30, ::System::Boolean a31, ::Il2CppArray<::System::Single>* a32, ::System::Action* a33, ::System::Action* a34, ::System::Action* a35, ::System::Action* a36, ::System::UInt32 a37)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>*, ::System::Action_1<::System::IntPtr>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37);
 		}
 
-		::System::Boolean Populate_Internal_1(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::UnityEngine::TextGenerationError& a3)
+		::System::Boolean Populate_Internal_1(::System::String* a1, ::UnityEngine::TextGenerationSettings a2, ::UnityEngine::TextGenerationError a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::UnityEngine::TextGenerationError&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings, ::UnityEngine::TextGenerationError))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Il2CppArray<::UnityEngine::UILineInfo>* GetLinesArray()
@@ -449,19 +445,20 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETTEXTFORMATFLAGSINTERNAL_OFFSET))(this, a1);
 		}
 
-		::System::Void get_rectExtents_Injected(::UnityEngine::Rect& a1)
+		::System::Void get_rectExtents_Injected(::UnityEngine::Rect a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GET_RECTEXTENTS_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Populate_Internal_Injected(::System::String* a1, ::UnityEngine::Font* a2, ::UnityEngine::Color& a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::FontStyle a7, ::System::Single a8, ::System::Boolean a9, ::System::UInt32 a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Int32 a15, ::System::Int32 a16, ::System::Boolean a17, ::UnityEngine::TextAnchor a18, ::System::Single a19, ::System::Single a20, ::System::Single a21, ::System::Single a22, ::System::Boolean a23, ::System::Boolean a24, ::Il2CppArray<::System::Int32>* a25, ::System::Int32 a26, ::System::Int32 a27, ::System::Int32 a28, ::System::Boolean a29, ::System::Boolean a30, ::System::Boolean a31, ::Il2CppArray<::System::Single>* a32, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>* a33, ::System::Action_1<::System::IntPtr>* a34, ::System::Action_2<::System::IntPtr, ::System::Int32>* a35, ::System::Action_2<::System::IntPtr, ::System::Int32>* a36, ::System::UInt32& a37)
+		::System::Boolean Populate_Internal_Injected(::System::String* a1, ::UnityEngine::Font* a2, ::UnityEngine::Color a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::FontStyle a7, ::System::Single a8, ::System::Boolean a9, ::System::UInt32 a10, ::System::Boolean a11, ::System::Boolean a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Int32 a15, ::System::Int32 a16, ::System::Boolean a17, ::UnityEngine::TextAnchor a18, ::System::Single a19, ::System::Single a20, ::System::Single a21, ::System::Single a22, ::System::Boolean a23, ::System::Boolean a24, ::Il2CppArray<::System::Int32>* a25, ::System::Int32 a26, ::System::Int32 a27, ::System::Int32 a28, ::System::Boolean a29, ::System::Boolean a30, ::System::Boolean a31, ::Il2CppArray<::System::Single>* a32, ::System::Action* a33, ::System::Action* a34, ::System::Action* a35, ::System::Action* a36, ::System::UInt32 a37)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color&, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action_4<::System::IntPtr, ::UnityEngine::TextFormatChange, ::UnityEngine::TextFormat, ::System::Single>*, ::System::Action_1<::System::IntPtr>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::Action_2<::System::IntPtr, ::System::Int32>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::UnityEngine::Font*, ::UnityEngine::Color, ::System::Int32, ::System::Single, ::System::Single, ::UnityEngine::FontStyle, ::System::Single, ::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::UnityEngine::TextAnchor, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::System::Single>*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::Action*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_POPULATE_INTERNAL_INJECTED_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25, a26, a27, a28, a29, a30, a31, a32, a33, a34, a35, a36, a37);
 		}
 
 		::System::Single GetPreferredWidth_1(::System::String* a1, ::UnityEngine::TextGenerationSettings a2)
 		{
 			return ((::System::Single(*)(::PVOID, ::System::String*, ::UnityEngine::TextGenerationSettings))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTGENERATOR_GETPREFERREDWIDTH_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

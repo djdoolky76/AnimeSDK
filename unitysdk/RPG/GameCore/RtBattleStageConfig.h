@@ -4,23 +4,21 @@
 #include "unitysdk/RPG/GameCore/FixVec2.h"
 #include "unitysdk/RPG/GameCore/IVec2.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleAreaReferenceInfo; }
 namespace RPG::GameCore { class RtBattleBackgroundUnitInfo; }
 namespace RPG::GameCore { class RtBattleStageBornPointInfo; }
 namespace RPG::GameCore { class RtBattleStageCellConfig; }
+namespace RPG::GameCore { class RtBattleStageConfig; }
 namespace RPG::GameCore { class RtBattleStageUnitInfo; }
 namespace RPG::GameCore { class RtBattleWaveMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTBATTLESTAGECONFIG_METHOD_2_B5C198C7BBF5FD09_OFFSET UNITYSDK_OFFSET(0x1D49B9A0)
-#define RPG_GAMECORE_RTBATTLESTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49BEB0)
+#define RPG_GAMECORE_RTBATTLESTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4EF80)
+#define RPG_GAMECORE_RTBATTLESTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4EA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleStageConfig_TypeDefinitionIndex = 17844;
-
 	class RtBattleStageConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -37,15 +35,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::RtBattleStageUnitInfo*>* StageUnitList; // 0x60
 		::Il2CppArray<::RPG::GameCore::RtBattleBackgroundUnitInfo*>* BackgroundUnitList; // 0x68
 		::Il2CppArray<::RPG::GameCore::RtBattleWaveMonsterInfo*>* WaveList; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B5C198C7BBF5FD09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleStageConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtBattleStageConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleStageConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGECONFIG_METHOD_2_B5C198C7BBF5FD09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtBattleStageConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLESTAGECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

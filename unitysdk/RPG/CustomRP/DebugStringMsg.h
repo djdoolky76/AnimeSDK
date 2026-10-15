@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define RPG_CUSTOMRP_DEBUGSTRINGMSG_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1C6A59D0)
-#define RPG_CUSTOMRP_DEBUGSTRINGMSG_READ_OFFSET UNITYSDK_OFFSET(0x1C6A5800)
-#define RPG_CUSTOMRP_DEBUGSTRINGMSG_RESET_OFFSET UNITYSDK_OFFSET(0x1C6A5650)
-#define RPG_CUSTOMRP_DEBUGSTRINGMSG_WRITE_OFFSET UNITYSDK_OFFSET(0x1C6A5660)
-#define RPG_CUSTOMRP_DEBUGSTRINGMSG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6A5A10)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2B7D0)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSG_GETMESSAGETYPE_OFFSET UNITYSDK_OFFSET(0x1CC2B790)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSG_READ_OFFSET UNITYSDK_OFFSET(0x1CC2B5C0)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSG_RESET_OFFSET UNITYSDK_OFFSET(0x1CC2B410)
+#define RPG_CUSTOMRP_DEBUGSTRINGMSG_WRITE_OFFSET UNITYSDK_OFFSET(0x1CC2B420)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugStringMsg_TypeDefinitionIndex = 37056;
-
 	class DebugStringMsg : public ::System::Object
 	{
 	public:
 		::System::String* str; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSTRINGMSG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSTRINGMSG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -45,5 +41,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DEBUGSTRINGMSG_GETMESSAGETYPE_OFFSET))(this);
 		}
+
 	};
 }

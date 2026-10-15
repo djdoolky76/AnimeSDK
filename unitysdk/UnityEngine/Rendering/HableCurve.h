@@ -2,43 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/HableCurve_DirectParams.h"
-
-namespace UnityEngine::Rendering { class HableCurve_Segment; }
+namespace System { class Object; }
 namespace UnityEngine::Rendering { class HableCurve_Uniforms; }
 
-#define UNITYENGINE_RENDERING_HABLECURVE_ASSLOPEINTERCEPT_OFFSET UNITYSDK_OFFSET(0x1EBFC5C0)
-#define UNITYENGINE_RENDERING_HABLECURVE_EVALDERIVATIVELINEARGAMMA_OFFSET UNITYSDK_OFFSET(0x1EBFC610)
-#define UNITYENGINE_RENDERING_HABLECURVE_EVAL_OFFSET UNITYSDK_OFFSET(0x1EBFBDA0)
-#define UNITYENGINE_RENDERING_HABLECURVE_GET_INVERSEWHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1EBFBBA0)
-#define UNITYENGINE_RENDERING_HABLECURVE_GET_WHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1EBFBB80)
-#define UNITYENGINE_RENDERING_HABLECURVE_GET_X0_OFFSET UNITYSDK_OFFSET(0x1EBFBBC0)
-#define UNITYENGINE_RENDERING_HABLECURVE_GET_X1_OFFSET UNITYSDK_OFFSET(0x1EBFBBE0)
-#define UNITYENGINE_RENDERING_HABLECURVE_INITSEGMENTS_OFFSET UNITYSDK_OFFSET(0x1EBFC0C0)
-#define UNITYENGINE_RENDERING_HABLECURVE_INIT_OFFSET UNITYSDK_OFFSET(0x1EBFBEB0)
-#define UNITYENGINE_RENDERING_HABLECURVE_SET_INVERSEWHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1EBFBBB0)
-#define UNITYENGINE_RENDERING_HABLECURVE_SET_WHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1EBFBB90)
-#define UNITYENGINE_RENDERING_HABLECURVE_SET_X0_OFFSET UNITYSDK_OFFSET(0x1EBFBBD0)
-#define UNITYENGINE_RENDERING_HABLECURVE_SET_X1_OFFSET UNITYSDK_OFFSET(0x1EBFBBF0)
-#define UNITYENGINE_RENDERING_HABLECURVE_SOLVEAB_OFFSET UNITYSDK_OFFSET(0x1EBFC660)
-#define UNITYENGINE_RENDERING_HABLECURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFBC00)
+#define UNITYENGINE_RENDERING_HABLECURVE_ASSLOPEINTERCEPT_OFFSET UNITYSDK_OFFSET(0x1F2C3EF0)
+#define UNITYENGINE_RENDERING_HABLECURVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C3550)
+#define UNITYENGINE_RENDERING_HABLECURVE_EVALDERIVATIVELINEARGAMMA_OFFSET UNITYSDK_OFFSET(0x1F2C3F40)
+#define UNITYENGINE_RENDERING_HABLECURVE_EVAL_OFFSET UNITYSDK_OFFSET(0x1F2C36F0)
+#define UNITYENGINE_RENDERING_HABLECURVE_GET_INVERSEWHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1F2C34F0)
+#define UNITYENGINE_RENDERING_HABLECURVE_GET_WHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1F2C34D0)
+#define UNITYENGINE_RENDERING_HABLECURVE_GET_X0_OFFSET UNITYSDK_OFFSET(0x1F2C3510)
+#define UNITYENGINE_RENDERING_HABLECURVE_GET_X1_OFFSET UNITYSDK_OFFSET(0x1F2C3530)
+#define UNITYENGINE_RENDERING_HABLECURVE_INITSEGMENTS_OFFSET UNITYSDK_OFFSET(0x1F2C3A10)
+#define UNITYENGINE_RENDERING_HABLECURVE_INIT_OFFSET UNITYSDK_OFFSET(0x1F2C3800)
+#define UNITYENGINE_RENDERING_HABLECURVE_SET_INVERSEWHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1F2C3500)
+#define UNITYENGINE_RENDERING_HABLECURVE_SET_WHITEPOINT_OFFSET UNITYSDK_OFFSET(0x1F2C34E0)
+#define UNITYENGINE_RENDERING_HABLECURVE_SET_X0_OFFSET UNITYSDK_OFFSET(0x1F2C3520)
+#define UNITYENGINE_RENDERING_HABLECURVE_SET_X1_OFFSET UNITYSDK_OFFSET(0x1F2C3540)
+#define UNITYENGINE_RENDERING_HABLECURVE_SOLVEAB_OFFSET UNITYSDK_OFFSET(0x1F2C3F90)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HableCurve_TypeDefinitionIndex = 34931;
-
 	class HableCurve : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::Rendering::HableCurve_Segment*>* segments; // 0x10
+		::Il2CppArray<::System::Object*>* segments; // 0x10
 		::UnityEngine::Rendering::HableCurve_Uniforms* uniforms; // 0x18
-		::System::Single _x0_k__BackingField; // 0x20
-		::System::Single _whitePoint_k__BackingField; // 0x24
+		::System::Single _x1_k__BackingField; // 0x20
+		::System::Single _x0_k__BackingField; // 0x24
 		::System::Single _inverseWhitePoint_k__BackingField; // 0x28
-		::System::Single _x1_k__BackingField; // 0x2C
-
+		::System::Single _whitePoint_k__BackingField; // 0x2C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_whitePoint()
@@ -96,19 +92,20 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::HableCurve_DirectParams))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_INITSEGMENTS_OFFSET))(this, a1);
 		}
 
-		::System::Void SolveAB(::System::Single& a1, ::System::Single& a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
+		::System::Void SolveAB(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single&, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_SOLVEAB_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_SOLVEAB_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void AsSlopeIntercept(::System::Single& a1, ::System::Single& a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
+		::System::Void AsSlopeIntercept(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::System::Single&, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_ASSLOPEINTERCEPT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_ASSLOPEINTERCEPT_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Single EvalDerivativeLinearGamma(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_EVALDERIVATIVELINEARGAMMA_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

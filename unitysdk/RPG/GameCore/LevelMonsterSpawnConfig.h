@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LevelEntitySpawnConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelMonsterSpawnConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_METHOD_3_113ABBB9CD7BFBC4_OFFSET UNITYSDK_OFFSET(0x1D1D8100)
-#define RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_METHOD_3_36102E97BFB94F5F_OFFSET UNITYSDK_OFFSET(0x1D1D0670)
-#define RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D0660)
+#define RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B4D00)
+#define RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7B4D10)
+#define RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B4CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMonsterSpawnConfig_TypeDefinitionIndex = 17053;
-
 	class LevelMonsterSpawnConfig : public ::RPG::GameCore::LevelEntitySpawnConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_113ABBB9CD7BFBC4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMonsterSpawnConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelMonsterSpawnConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMonsterSpawnConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_METHOD_3_113ABBB9CD7BFBC4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelMonsterSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_36102E97BFB94F5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelMonsterSpawnConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelMonsterSpawnConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelMonsterSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_METHOD_3_36102E97BFB94F5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelMonsterSpawnConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELMONSTERSPAWNCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

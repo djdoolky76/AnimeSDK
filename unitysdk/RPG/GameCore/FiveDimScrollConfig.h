@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimScrollConfig; }
 namespace RPG::GameCore { class FloatCurveWithMultiplier; }
 namespace RPG::GameCore { class FloatCurveWithYMultiplier; }
 
-#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG_METHOD_2_167BD1C33B74A907_OFFSET UNITYSDK_OFFSET(0x1D0E7610)
-#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FE690)
+#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D7BD0)
+#define RPG_GAMECORE_FIVEDIMSCROLLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D7A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimScrollConfig_TypeDefinitionIndex = 16494;
-
 	class FiveDimScrollConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -22,15 +20,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::FloatCurveWithYMultiplier* SoftScrollDown; // 0x28
 		::RPG::GameCore::FloatCurveWithMultiplier* EdgeDampingLeft; // 0x30
 		::RPG::GameCore::FloatCurveWithMultiplier* EdgeDampingRight; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_167BD1C33B74A907(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimScrollConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimScrollConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimScrollConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLCONFIG_METHOD_2_167BD1C33B74A907_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimScrollConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

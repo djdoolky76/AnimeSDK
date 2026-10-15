@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropDailyIcon; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D363860)
-#define RPG_GAMECORE_PROPDAILYICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D363A00)
+#define RPG_GAMECORE_PROPDAILYICON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D948FE0)
+#define RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D948E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDailyIcon_TypeDefinitionIndex = 12457;
-
 	class PropDailyIcon : public ::System::Object
 	{
 	public:
 		::System::String* Color; // 0x10
 		::System::UInt32 IconID; // 0x18
 		::System::Boolean IsActive; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAILYICON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAILYICON_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropDailyIcon*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropDailyIcon* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropDailyIcon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropDailyIcon*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPDAILYICON_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

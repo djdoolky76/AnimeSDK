@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections { class SortedList; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class Timer; }
+namespace System::Threading { class Timer_Scheduler; }
 
-#define SYSTEM_THREADING_TIMER_SCHEDULER_ADD_OFFSET UNITYSDK_OFFSET(0x1BC57B20)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_CHANGE_OFFSET UNITYSDK_OFFSET(0x1BC57600)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_FINDBYDUETIME_OFFSET UNITYSDK_OFFSET(0x1BC57D70)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC579C0)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_INTERNALREMOVE_OFFSET UNITYSDK_OFFSET(0x1BC57A00)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_REMOVE_OFFSET UNITYSDK_OFFSET(0x1BC574F0)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_SCHEDULERTHREAD_OFFSET UNITYSDK_OFFSET(0x1BC58050)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_SHRINKIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1BC59840)
-#define SYSTEM_THREADING_TIMER_SCHEDULER_TIMERCB_OFFSET UNITYSDK_OFFSET(0x1BC57FF0)
-#define SYSTEM_THREADING_TIMER_SCHEDULER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC578B0)
-#define SYSTEM_THREADING_TIMER_SCHEDULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC578E0)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_ADD_OFFSET UNITYSDK_OFFSET(0x1C163AB0)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C163840)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_CHANGE_OFFSET UNITYSDK_OFFSET(0x1C163590)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C163870)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_FINDBYDUETIME_OFFSET UNITYSDK_OFFSET(0x1C163D00)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1C163950)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_INTERNALREMOVE_OFFSET UNITYSDK_OFFSET(0x1C163990)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_REMOVE_OFFSET UNITYSDK_OFFSET(0x1C163480)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_SCHEDULERTHREAD_OFFSET UNITYSDK_OFFSET(0x1C163FE0)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_SHRINKIFNEEDED_OFFSET UNITYSDK_OFFSET(0x1C1657D0)
+#define SYSTEM_THREADING_TIMER_SCHEDULER_TIMERCB_OFFSET UNITYSDK_OFFSET(0x1C163F80)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int Timer_Scheduler_TypeDefinitionIndex = 881;
-
 	class Timer_Scheduler : public ::System::Object
 	{
 	public:
-		static ::System::Threading::Timer_Scheduler** StaticGet_instance()
-		{
-			return (::System::Threading::Timer_Scheduler**)Il2CppClass::FromTypeDefinitionIndex(Timer_Scheduler_TypeDefinitionIndex)->GetStaticField(0x14090);
-		}
 		::System::Collections::SortedList* list; // 0x10
 		::System::Threading::ManualResetEvent* changed; // 0x18
+		static ::System::Threading::Timer_Scheduler** StaticGet_instance()
+		{
+			return (::System::Threading::Timer_Scheduler**)UnitySDK::FromName("System.Threading", "Scheduler")->GetStaticField(0x21870);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMER_SCHEDULER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMER_SCHEDULER_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMER_SCHEDULER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMER_SCHEDULER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Threading::Timer_Scheduler* get_Instance()
@@ -87,5 +86,6 @@ namespace System::Threading
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Threading::Timer*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMER_SCHEDULER_SHRINKIFNEEDED_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

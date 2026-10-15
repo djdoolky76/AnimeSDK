@@ -2,36 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EntityType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HideEffectByCharacterType; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_METHOD_3_117FF63320A010CD_OFFSET UNITYSDK_OFFSET(0x1D18CBD0)
-#define RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_METHOD_3_B14EEE98E54A419A_OFFSET UNITYSDK_OFFSET(0x1D18CB90)
-#define RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D18CBC0)
+#define RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D767FE0)
+#define RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D767FF0)
+#define RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D767FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideEffectByCharacterType_TypeDefinitionIndex = 22209;
-
 	class HideEffectByCharacterType : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::EntityType CharacterType; // 0x18
 		::System::Boolean IsHide; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B14EEE98E54A419A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideEffectByCharacterType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HideEffectByCharacterType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideEffectByCharacterType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_METHOD_3_B14EEE98E54A419A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HideEffectByCharacterType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_117FF63320A010CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideEffectByCharacterType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::HideEffectByCharacterType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideEffectByCharacterType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_METHOD_3_117FF63320A010CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HideEffectByCharacterType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTBYCHARACTERTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

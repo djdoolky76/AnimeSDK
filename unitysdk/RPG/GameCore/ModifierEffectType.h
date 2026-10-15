@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierEffectType_TypeDefinitionIndex = 10569;
-
 	enum class ModifierEffectType : ::System::Int32
 	{
 		None = 0,

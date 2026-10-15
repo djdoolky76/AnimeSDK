@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class ResolveEventArgs; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_RESOLVEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA6D40)
-#define SYSTEM_RESOLVEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA6D80)
-#define SYSTEM_RESOLVEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDA6D30)
-#define SYSTEM_RESOLVEEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA6C40)
+#define SYSTEM_RESOLVEEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C2B2950)
+#define SYSTEM_RESOLVEEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B2850)
+#define SYSTEM_RESOLVEEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C2B2990)
+#define SYSTEM_RESOLVEEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C2B2940)
 
 namespace System
 {
-	inline static constexpr unsigned int ResolveEventHandler_TypeDefinitionIndex = 420;
-
 	class ResolveEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Reflection::Assembly* Invoke(::System::Object* a1, ::System::ResolveEventArgs* a2)
@@ -39,5 +36,6 @@ namespace System
 		{
 			return ((::System::Reflection::Assembly*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_RESOLVEEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

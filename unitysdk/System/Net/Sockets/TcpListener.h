@@ -1,46 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
+namespace System { class Object; }
 namespace System::Net { class EndPoint; }
 namespace System::Net { class IPAddress; }
 namespace System::Net { class IPEndPoint; }
 namespace System::Net::Sockets { class Socket; }
 namespace System::Net::Sockets { class TcpClient; }
 
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_ACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x1E9C4070)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_BEGINACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x1E9C4110)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_ENDACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x1E9C41A0)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x1E9C3D10)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_PENDING_OFFSET UNITYSDK_OFFSET(0x1E9C3FF0)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_START_1_OFFSET UNITYSDK_OFFSET(0x1E9C3D50)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_START_OFFSET UNITYSDK_OFFSET(0x1E9C3D40)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER_STOP_OFFSET UNITYSDK_OFFSET(0x1E9C3EB0)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9C3B90)
-#define SYSTEM_NET_SOCKETS_TCPLISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C3AE0)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_ACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x1F08BF00)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_BEGINACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x1F08BF80)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F08BAA0)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08B9F0)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_ENDACCEPTTCPCLIENT_OFFSET UNITYSDK_OFFSET(0x1F08C010)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_GET_LOCALENDPOINT_OFFSET UNITYSDK_OFFSET(0x1F08BBF0)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_PENDING_OFFSET UNITYSDK_OFFSET(0x1F08BE80)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_START_1_OFFSET UNITYSDK_OFFSET(0x1F08BC30)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_START_OFFSET UNITYSDK_OFFSET(0x1F08BC20)
+#define SYSTEM_NET_SOCKETS_TCPLISTENER_STOP_OFFSET UNITYSDK_OFFSET(0x1F08BD70)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int TcpListener_TypeDefinitionIndex = 2915;
-
 	class TcpListener : public ::System::Object
 	{
 	public:
 		::System::Net::IPEndPoint* m_ServerSocketEP; // 0x10
 		::System::Net::Sockets::Socket* m_ServerSocket; // 0x18
-		::System::Boolean m_Active; // 0x20
-		::System::Boolean m_ExclusiveAddressUse; // 0x21
-
+		::System::Boolean m_ExclusiveAddressUse; // 0x20
+		::System::Boolean m_Active; // 0x21
 		::System::Void _ctor(::System::Net::IPEndPoint* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::IPEndPoint*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPLISTENER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::IPEndPoint*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPLISTENER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Net::IPAddress* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPLISTENER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Net::IPAddress*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPLISTENER_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::EndPoint* get_LocalEndpoint()
@@ -82,5 +79,6 @@ namespace System::Net::Sockets
 		{
 			return ((::System::Net::Sockets::TcpClient*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPLISTENER_ENDACCEPTTCPCLIENT_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1B395AC0)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1B395AB0)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B395AA0)
-#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B395A90)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1B897980)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1B8979B0)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1B8979A0)
+#define GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B897990)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int PackageDescriptor_TypeDefinitionIndex = 5551;
-
 	class PackageDescriptor : public ::System::Object
 	{
 	public:
 		::System::String* name; // 0x10
 		::System::String* fullName; // 0x18
 		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x20
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::Google::Protobuf::Reflection::FileDescriptor* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Google::Protobuf::Reflection::FileDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Google::Protobuf::Reflection::FileDescriptor*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_Name()
@@ -40,5 +36,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::Google::Protobuf::Reflection::FileDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_PACKAGEDESCRIPTOR_GET_FILE_OFFSET))(this);
 		}
+
 	};
 }

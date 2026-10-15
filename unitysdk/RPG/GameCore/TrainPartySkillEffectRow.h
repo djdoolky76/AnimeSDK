@@ -2,31 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TrainPartySkillEffectType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartySkillEffectRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E1940)
-#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E1AD0)
+#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC354A0)
+#define RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC35310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySkillEffectRow_TypeDefinitionIndex = 15164;
-
 	class TrainPartySkillEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 EffectID; // 0x18
-		::RPG::GameCore::TrainPartySkillEffectType EffectType; // 0x1C
-
+		::RPG::GameCore::TrainPartySkillEffectType EffectType; // 0x18
+		::System::UInt32 EffectID; // 0x1C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartySkillEffectRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartySkillEffectRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartySkillEffectRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartySkillEffectRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSKILLEFFECTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

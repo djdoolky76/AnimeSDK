@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class ICinemachineCamera; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraResultData_TypeDefinitionIndex = 69528;
-
 	struct alignas(8) CameraResultData
 	{
 		::UnityEngine::Vector3 AnchorPosition; // 0x10
@@ -26,6 +22,7 @@ namespace RPG::Client
 		::System::Single Fov; // 0x80
 		::System::Single Dutch; // 0x84
 		::UnityEngine::Vector3 ShotAnimOffset; // 0x88
+		::System::Byte _padding0[0x4];
 		::Cinemachine::ICinemachineCamera* ActiveVirtualCamera; // 0x98
 		::System::Boolean SkipCutOnce; // 0xA0
 	};

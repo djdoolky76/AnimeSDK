@@ -2,70 +2,71 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FateRin/Battle/FateRinBattleHudDragBrain_DragIntent.h"
 #include "unitysdk/RPG/Client/FateRin/Battle/FateRinBattleHudInputBrainBase.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-class Class_0_16E4307DCC419505_1348;
+class ALIACDLNBJB;
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewModel; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudInputSource; }
 namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
+namespace System { class Nullable; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF773A0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCF75F80)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__GETDRAGINTENTANGLE_OFFSET UNITYSDK_OFFSET(0xCF75E00)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__GETDRAGINTENTDISTANCETHRESHOLD_OFFSET UNITYSDK_OFFSET(0xCF75D80)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__GETUSEINTENTVERTICALDISTANCE_OFFSET UNITYSDK_OFFSET(0xCF75EE0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__HANDLEPOINTERDRAG_OFFSET UNITYSDK_OFFSET(0xCF767C0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__HANDLEPOINTERPRESS_OFFSET UNITYSDK_OFFSET(0xCF764C0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__HANDLEPOINTERRELEASE_OFFSET UNITYSDK_OFFSET(0xCF77090)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__ONINPUTINTERRUPTED_OFFSET UNITYSDK_OFFSET(0xCF77310)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__PROCESSDRAGONFINDINGTARGET_OFFSET UNITYSDK_OFFSET(0xCF76B60)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__PROCESSDRAGONSELECTING_OFFSET UNITYSDK_OFFSET(0xCF768A0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__RESETDRAGINTENT_OFFSET UNITYSDK_OFFSET(0xCF76770)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__SUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0xCF76080)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__UNSUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0xCF762A0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__UPDATEDRAGINTENT_OFFSET UNITYSDK_OFFSET(0xCF76C80)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCEC7BB0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCEC6780)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__GETDRAGINTENTANGLE_OFFSET UNITYSDK_OFFSET(0xCEC6600)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__GETDRAGINTENTDISTANCETHRESHOLD_OFFSET UNITYSDK_OFFSET(0xCEC6580)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__GETUSEINTENTVERTICALDISTANCE_OFFSET UNITYSDK_OFFSET(0xCEC66E0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__HANDLEPOINTERDRAG_OFFSET UNITYSDK_OFFSET(0xCEC6FC0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__HANDLEPOINTERPRESS_OFFSET UNITYSDK_OFFSET(0xCEC6CC0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__HANDLEPOINTERRELEASE_OFFSET UNITYSDK_OFFSET(0xCEC78A0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__ONINPUTINTERRUPTED_OFFSET UNITYSDK_OFFSET(0xCEC7B20)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__PROCESSDRAGONFINDINGTARGET_OFFSET UNITYSDK_OFFSET(0xCEC7370)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__PROCESSDRAGONSELECTING_OFFSET UNITYSDK_OFFSET(0xCEC70A0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__RESETDRAGINTENT_OFFSET UNITYSDK_OFFSET(0xCEC6F70)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__SUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0xCEC6880)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__UNSUBSCRIBEEVENTS_OFFSET UNITYSDK_OFFSET(0xCEC6AA0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__UPDATEDRAGINTENT_OFFSET UNITYSDK_OFFSET(0xCEC7490)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudDragBrain_TypeDefinitionIndex = 79575;
-
 	class FateRinBattleHudDragBrain : public ::RPG::Client::FateRin::Battle::FateRinBattleHudInputBrainBase
 	{
 	public:
-		static ::System::Single* StaticGet_DragIntentDistance()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudDragBrain_TypeDefinitionIndex)->GetStaticField(0xE7B0);
-		}
-		static ::System::Single* StaticGet_UseIntentMinUpDistance()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudDragBrain_TypeDefinitionIndex)->GetStaticField(0xE7B4);
-		}
-		static ::System::Boolean* StaticGet_UseIntentAllowDownward()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudDragBrain_TypeDefinitionIndex)->GetStaticField(0xE7B8);
-		}
+		::UnityEngine::Vector2 _DragOrigin; // 0x40
+		::UnityEngine::Vector2 _LastPointerPos; // 0x48
+		::System::Nullable* _DecidedDragAngle; // 0x50
+		::RPG::Client::FateRin::Battle::FateRinBattleHudDragBrain_DragIntent _DragIntent; // 0x58
 		static ::System::Single* StaticGet_UseIntentAngleThreshold()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudDragBrain_TypeDefinitionIndex)->GetStaticField(0xE7BC);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.FateRin.Battle", "FateRinBattleHudDragBrain")->GetStaticField(0x12DD0);
 		}
+
+		static ::System::Boolean* StaticGet_UseIntentAllowDownward()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.FateRin.Battle", "FateRinBattleHudDragBrain")->GetStaticField(0x12DD4);
+		}
+
 		static ::System::Single* StaticGet_IntentReEvaluateAngleThreshold()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(FateRinBattleHudDragBrain_TypeDefinitionIndex)->GetStaticField(0xE7C0);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.FateRin.Battle", "FateRinBattleHudDragBrain")->GetStaticField(0x12DD8);
 		}
-		::UnityEngine::Vector2 _DragOrigin; // 0x40
-		::System::Nullable_1<::System::Single> _DecidedDragAngle; // 0x48
-		::UnityEngine::Vector2 _LastPointerPos; // 0x50
-		::RPG::Client::FateRin::Battle::FateRinBattleHudDragBrain_DragIntent _DragIntent; // 0x58
 
-		::System::Void _ctor(::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* a1, ::RPG::Client::FateRin::Battle::IFateRinCardHitTestService* a2, ::Class_0_16E4307DCC419505_1348* a3)
+		static ::System::Single* StaticGet_DragIntentDistance()
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel*, ::RPG::Client::FateRin::Battle::IFateRinCardHitTestService*, ::Class_0_16E4307DCC419505_1348*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__CTOR_OFFSET))(this, a1, a2, a3);
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.FateRin.Battle", "FateRinBattleHudDragBrain")->GetStaticField(0x12DDC);
+		}
+
+		static ::System::Single* StaticGet_UseIntentMinUpDistance()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.FateRin.Battle", "FateRinBattleHudDragBrain")->GetStaticField(0x12DE0);
+		}
+
+		::System::Void _ctor(::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* a1, ::RPG::Client::FateRin::Battle::IFateRinCardHitTestService* a2, ::ALIACDLNBJB* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel*, ::RPG::Client::FateRin::Battle::IFateRinCardHitTestService*, ::ALIACDLNBJB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN_CCTOR_OFFSET))();
 		}
 
 		static ::System::Single _GetDragIntentDistanceThreshold()
@@ -132,5 +133,6 @@ namespace RPG::Client::FateRin::Battle
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDDRAGBRAIN__UPDATEDRAGINTENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

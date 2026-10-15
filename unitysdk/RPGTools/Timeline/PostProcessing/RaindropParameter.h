@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_METHOD_2_8B323DFEC7527767_OFFSET UNITYSDK_OFFSET(0xE8D3020)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_METHOD_2_C91E5170F9E36EED_OFFSET UNITYSDK_OFFSET(0x15F720)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE9288C0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF90D0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int RaindropParameter_TypeDefinitionIndex = 49057;
-
 	struct alignas(4) RaindropParameter
 	{
 		::UnityEngine::Vector2 _RainDropTilling; // 0x10
@@ -21,15 +18,17 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Single _RainMaskBlur; // 0x30
 		::System::Single _RainDistortStrength; // 0x34
 		::System::Boolean IsActive; // 0x38
-
-		static ::RPGTools::Timeline::PostProcessing::RaindropParameter Method_2_8B323DFEC7527767(::System::Boolean a1)
+		/*
+		static ::RPGTools::Timeline::PostProcessing::RaindropParameter JIHKKHMEKLO(::System::Boolean a1)
 		{
-			return ((::RPGTools::Timeline::PostProcessing::RaindropParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_METHOD_2_8B323DFEC7527767_OFFSET))(a1);
+			return ((::RPGTools::Timeline::PostProcessing::RaindropParameter(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_JIHKKHMEKLO_OFFSET))(a1);
+		}
+		*/
+
+		::System::Void KHGIKBFDLFB(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_KHGIKBFDLFB_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_C91E5170F9E36EED(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_RAINDROPPARAMETER_METHOD_2_C91E5170F9E36EED_OFFSET))(this, a1);
-		}
 	};
 }

@@ -3,14 +3,12 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipMask_TypeDefinitionIndex = 24351;
-
 	enum class GridFightEquipMask : ::System::UInt16
 	{
-		None = 0x0,
-		Bit_Normal = 0x1,
-		Bit_Hack = 0x2,
-		Bit_CopyEquip = 0x4,
-		Mask_Default = 0x5,
+		None = 0,
+		Bit_Normal = 1,
+		Bit_Hack = 2,
+		Bit_CopyEquip = 4,
+		Mask_Default = 5,
 	};
 }

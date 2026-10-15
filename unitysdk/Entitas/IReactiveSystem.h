@@ -3,8 +3,6 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IReactiveSystem_TypeDefinitionIndex = 9990;
-
 	class IReactiveSystem
 	{
 	public:

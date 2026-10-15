@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA73F90)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA73FC0)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA73F80)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA73F10)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7EA70)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7E9F0)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7EAA0)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7EA60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ActivityChangeAvailabilityDelegate_TypeDefinitionIndex = 7711;
-
 	class PSDelegate_ActivityChangeAvailabilityDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYCHANGEAVAILABILITYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

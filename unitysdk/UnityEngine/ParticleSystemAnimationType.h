@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemAnimationType_TypeDefinitionIndex = 5255;
-
 	enum class ParticleSystemAnimationType : ::System::Int32
 	{
 		WholeSheet = 0,

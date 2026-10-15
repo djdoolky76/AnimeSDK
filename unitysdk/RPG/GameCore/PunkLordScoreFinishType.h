@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordScoreFinishType_TypeDefinitionIndex = 12205;
-
 	enum class PunkLordScoreFinishType : ::System::Int32
 	{
 		None = 0,

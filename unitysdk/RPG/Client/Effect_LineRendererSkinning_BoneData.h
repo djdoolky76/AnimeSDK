@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_LINERENDERERSKINNING_BONEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCDFAB00)
+#define RPG_CLIENT_EFFECT_LINERENDERERSKINNING_BONEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD4B370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererSkinning_BoneData_TypeDefinitionIndex = 70474;
-
 	class Effect_LineRendererSkinning_BoneData : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* Bone; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERSKINNING_BONEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERERSKINNING_BONEDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

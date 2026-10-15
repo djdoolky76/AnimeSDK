@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-
 namespace SRF::UI { class StyleComponent; }
 namespace UnityEngine { class Behaviour; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_CACHERECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1E697910)
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1E6978C0)
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1E6978E0)
-#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6979B0)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5F370)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_CACHERECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1ED5F2A0)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1ED5F250)
+#define SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1ED5F270)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int SRTabButton_TypeDefinitionIndex = 37347;
-
 	class SRTabButton : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
@@ -26,10 +23,9 @@ namespace SRDebugger::UI::Controls
 		::SRF::UI::StyleComponent* IconStyleComponent; // 0x60
 		::UnityEngine::UI::Text* TitleText; // 0x68
 		::UnityEngine::RectTransform* _CacheRectTransform; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_SRTABBUTTON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsActive()
@@ -46,5 +42,6 @@ namespace SRDebugger::UI::Controls
 		{
 			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_SRTABBUTTON_GET_CACHERECTTRANSFORM_OFFSET))(this);
 		}
+
 	};
 }

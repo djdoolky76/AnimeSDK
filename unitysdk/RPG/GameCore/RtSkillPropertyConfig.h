@@ -3,36 +3,35 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/RtSkillExtraConfigBase.h"
 #include "unitysdk/RPG/GameCore/RtSkillPropertyType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtSkillPropertyConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RTSKILLPROPERTYCONFIG_METHOD_3_3B17BC4F83EB7980_OFFSET UNITYSDK_OFFSET(0x1D4B13A0)
-#define RPG_GAMECORE_RTSKILLPROPERTYCONFIG_METHOD_3_DB3E9E46882A0D7C_OFFSET UNITYSDK_OFFSET(0x1D4B0F00)
-#define RPG_GAMECORE_RTSKILLPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B0EF0)
+#define RPG_GAMECORE_RTSKILLPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA642C0)
+#define RPG_GAMECORE_RTSKILLPROPERTYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA642D0)
+#define RPG_GAMECORE_RTSKILLPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA64770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillPropertyConfig_TypeDefinitionIndex = 17458;
-
 	class RtSkillPropertyConfig : public ::RPG::GameCore::RtSkillExtraConfigBase
 	{
 	public:
 		::RPG::GameCore::RtSkillPropertyType Type; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint Value; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLPROPERTYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLPROPERTYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3B17BC4F83EB7980(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSkillPropertyConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtSkillPropertyConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSkillPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLPROPERTYCONFIG_METHOD_3_3B17BC4F83EB7980_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtSkillPropertyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DB3E9E46882A0D7C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtSkillPropertyConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtSkillPropertyConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtSkillPropertyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLPROPERTYCONFIG_METHOD_3_DB3E9E46882A0D7C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtSkillPropertyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSKILLPROPERTYCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

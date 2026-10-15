@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/System/Version_ParseFailureKind.h"
-
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System { class Version; }
 
-#define SYSTEM_VERSION_VERSIONRESULT_GETVERSIONPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3B65C20)
-#define SYSTEM_VERSION_VERSIONRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3B65B20)
-#define SYSTEM_VERSION_VERSIONRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3B65BB0)
-#define SYSTEM_VERSION_VERSIONRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3B65B30)
+#define SYSTEM_VERSION_VERSIONRESULT_GETVERSIONPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3C1A4C0)
+#define SYSTEM_VERSION_VERSIONRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3C1A3C0)
+#define SYSTEM_VERSION_VERSIONRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3C1A450)
+#define SYSTEM_VERSION_VERSIONRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3C1A3D0)
 
 namespace System
 {
-	inline static constexpr unsigned int Version_VersionResult_TypeDefinitionIndex = 366;
-
 	struct alignas(8) Version_VersionResult
 	{
 		::System::Version* m_parsedVersion; // 0x10
 		::System::Version_ParseFailureKind m_failure; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* m_exceptionArgument; // 0x20
 		::System::String* m_argumentName; // 0x28
 		::System::Boolean m_canThrow; // 0x30
-
 		::System::Void Init(::System::String* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_VERSIONRESULT_INIT_OFFSET))(this, a1, a2);
@@ -43,5 +39,6 @@ namespace System
 		{
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_VERSIONRESULT_GETVERSIONPARSEEXCEPTION_OFFSET))(this);
 		}
+
 	};
 }

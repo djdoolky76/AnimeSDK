@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class AvatarRankConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_RANKCHANGE_GETCOMMENTS_OFFSET UNITYSDK_OFFSET(0xDE06050)
-#define RPG_CLIENT_RANKCHANGE_GET_DESCAFTER_OFFSET UNITYSDK_OFFSET(0xDE05F20)
-#define RPG_CLIENT_RANKCHANGE_GET_DESCBEFORE_OFFSET UNITYSDK_OFFSET(0xDE05DF0)
-#define RPG_CLIENT_RANKCHANGE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xDE05D00)
-#define RPG_CLIENT_RANKCHANGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDE05D50)
-#define RPG_CLIENT_RANKCHANGE_GET_RANK_OFFSET UNITYSDK_OFFSET(0xDE05CB0)
-#define RPG_CLIENT_RANKCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0xDE05CA0)
+#define RPG_CLIENT_RANKCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE53780)
+#define RPG_CLIENT_RANKCHANGE_GETCOMMENTS_OFFSET UNITYSDK_OFFSET(0xDE53B30)
+#define RPG_CLIENT_RANKCHANGE_GET_DESCAFTER_OFFSET UNITYSDK_OFFSET(0xDE53A00)
+#define RPG_CLIENT_RANKCHANGE_GET_DESCBEFORE_OFFSET UNITYSDK_OFFSET(0xDE538D0)
+#define RPG_CLIENT_RANKCHANGE_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xDE537E0)
+#define RPG_CLIENT_RANKCHANGE_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDE53830)
+#define RPG_CLIENT_RANKCHANGE_GET_RANK_OFFSET UNITYSDK_OFFSET(0xDE53790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RankChange_TypeDefinitionIndex = 62575;
-
 	class RankChange : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AvatarRankConfigRow* BeforeRank; // 0x10
 		::RPG::GameCore::AvatarRankConfigRow* AfterRank; // 0x18
-
 		::System::Void _ctor(::RPG::GameCore::AvatarRankConfigRow* a1, ::RPG::GameCore::AvatarRankConfigRow* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarRankConfigRow*, ::RPG::GameCore::AvatarRankConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANKCHANGE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarRankConfigRow*, ::RPG::GameCore::AvatarRankConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANKCHANGE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 get_Rank()
@@ -59,5 +55,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::TextID>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANKCHANGE_GETCOMMENTS_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkTriggerBase.h"
 
-#define AKTRIGGERMOUSEEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF51B50)
+#define AKTRIGGERMOUSEEXIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F619750)
 
-inline static constexpr unsigned int AkTriggerMouseExit_TypeDefinitionIndex = 43779;
-
-class AkTriggerMouseExit : public ::AkTriggerBase
-{
-public:
-	::System::Void _ctor()
+	class AkTriggerMouseExit : public ::AkTriggerBase
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRIGGERMOUSEEXIT__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKTRIGGERMOUSEEXIT_CTOR_OFFSET))(this);
+		}
+
+	};

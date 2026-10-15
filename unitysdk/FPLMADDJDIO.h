@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CMPGEAFHHDC.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
+class FPLMADDJDIO;
+class MNBNFBAMKKI;
+
+#define FPLMADDJDIO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1591EA60)
+#define FPLMADDJDIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1591EB50)
+#define FPLMADDJDIO_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1591EB00)
+#define FPLMADDJDIO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1591EAB0)
+#define FPLMADDJDIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1591EA00)
+
+	class FPLMADDJDIO : public ::CMPGEAFHHDC
+	{
+	public:
+		::MNBNFBAMKKI* EAEJGPLLGMI; // 0x18
+		::System::Int32 AAPOHKBAPFP; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FPLMADDJDIO_CTOR_OFFSET))(this);
+		}
+
+		::FPLMADDJDIO* KPJGDHLENIP(::MNBNFBAMKKI* a1, ::System::Int32 a2)
+		{
+			return ((::FPLMADDJDIO*(*)(::PVOID, ::MNBNFBAMKKI*, ::System::Int32))((::PBYTE)hIl2Cpp + FPLMADDJDIO_KPJGDHLENIP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Clear()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FPLMADDJDIO_CLEAR_OFFSET))(this);
+		}
+
+		::System::UInt32 GetSourceRuntimeID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + FPLMADDJDIO_GETSOURCERUNTIMEID_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventType GetEventType()
+		{
+			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + FPLMADDJDIO_GETEVENTTYPE_OFFSET))(this);
+		}
+
+	};

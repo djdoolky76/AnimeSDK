@@ -1,44 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
+namespace TMPro { class TMP_Style; }
 
-#define TMPRO_TMP_STYLE_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x1EC5B010)
-#define TMPRO_TMP_STYLE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EC5AFC0)
-#define TMPRO_TMP_STYLE_GET_NORMALSTYLE_OFFSET UNITYSDK_OFFSET(0x1EC5AED0)
-#define TMPRO_TMP_STYLE_GET_STYLECLOSINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x1EC5B040)
-#define TMPRO_TMP_STYLE_GET_STYLECLOSINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x1EC5B060)
-#define TMPRO_TMP_STYLE_GET_STYLEOPENINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x1EC5B030)
-#define TMPRO_TMP_STYLE_GET_STYLEOPENINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x1EC5B050)
-#define TMPRO_TMP_STYLE_REFRESHSTYLE_OFFSET UNITYSDK_OFFSET(0x1EC5B070)
-#define TMPRO_TMP_STYLE_SET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x1EC5B020)
-#define TMPRO_TMP_STYLE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1EC5AFD0)
-#define TMPRO_TMP_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5AF60)
+#define TMPRO_TMP_STYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F323080)
+#define TMPRO_TMP_STYLE_GET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x1F323130)
+#define TMPRO_TMP_STYLE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F3230E0)
+#define TMPRO_TMP_STYLE_GET_NORMALSTYLE_OFFSET UNITYSDK_OFFSET(0x1F322FF0)
+#define TMPRO_TMP_STYLE_GET_STYLECLOSINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x1F323160)
+#define TMPRO_TMP_STYLE_GET_STYLECLOSINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x1F323180)
+#define TMPRO_TMP_STYLE_GET_STYLEOPENINGDEFINITION_OFFSET UNITYSDK_OFFSET(0x1F323150)
+#define TMPRO_TMP_STYLE_GET_STYLEOPENINGTAGARRAY_OFFSET UNITYSDK_OFFSET(0x1F323170)
+#define TMPRO_TMP_STYLE_REFRESHSTYLE_OFFSET UNITYSDK_OFFSET(0x1F323190)
+#define TMPRO_TMP_STYLE_SET_HASHCODE_OFFSET UNITYSDK_OFFSET(0x1F323140)
+#define TMPRO_TMP_STYLE_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1F3230F0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Style_TypeDefinitionIndex = 43447;
-
 	class TMP_Style : public ::System::Object
 	{
 	public:
-		static ::TMPro::TMP_Style** StaticGet_k_NormalStyle()
-		{
-			return (::TMPro::TMP_Style**)Il2CppClass::FromTypeDefinitionIndex(TMP_Style_TypeDefinitionIndex)->GetStaticField(0x6390);
-		}
 		::System::String* m_Name; // 0x10
 		::System::Int32 m_HashCode; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* m_OpeningDefinition; // 0x20
 		::System::String* m_ClosingDefinition; // 0x28
 		::Il2CppArray<::System::Int32>* m_OpeningTagArray; // 0x30
 		::Il2CppArray<::System::Int32>* m_ClosingTagArray; // 0x38
 		::Il2CppArray<::System::UInt32>* m_OpeningTagUnicodeArray; // 0x40
 		::Il2CppArray<::System::UInt32>* m_ClosingTagUnicodeArray; // 0x48
+		static ::TMPro::TMP_Style** StaticGet_k_NormalStyle()
+		{
+			return (::TMPro::TMP_Style**)UnitySDK::FromName("TMPro", "TMP_Style")->GetStaticField(0x5A6B0);
+		}
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::TMPro::TMP_Style* get_NormalStyle()
@@ -90,5 +89,6 @@ namespace TMPro
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_STYLE_REFRESHSTYLE_OFFSET))(this);
 		}
+
 	};
 }

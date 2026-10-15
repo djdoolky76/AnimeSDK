@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValueContextScope_TypeDefinitionIndex = 24475;
-
 	enum class DynamicValueContextScope : ::System::Int32
 	{
 		Context = 0,

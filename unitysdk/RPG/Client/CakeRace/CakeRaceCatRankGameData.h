@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace RPG::Client::CakeRace { class CakeRaceCatRankGameData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_ADDCATPOSITIONDATA_OFFSET UNITYSDK_OFFSET(0xC9A2230)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC9A2070)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_GET_CATPOSITIONDATAS_OFFSET UNITYSDK_OFFSET(0xC9A2030)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_SORT_OFFSET UNITYSDK_OFFSET(0xC9A2310)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9A2190)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_ADDCATPOSITIONDATA_OFFSET UNITYSDK_OFFSET(0xC8F0430)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC8F0270)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F0390)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_GET_CATPOSITIONDATAS_OFFSET UNITYSDK_OFFSET(0xC8F0230)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_SORT_OFFSET UNITYSDK_OFFSET(0xC8F0510)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatRankGameData_TypeDefinitionIndex = 75955;
-
 	class CakeRaceCatRankGameData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>* _CatPositionDatas; // 0x10
-
+		::System::Collections::Generic::List_1<::System::ValueTuple>* _CatPositionDatas; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>* get_CatPositionDatas()
+		::System::Collections::Generic::List_1<::System::ValueTuple>* get_CatPositionDatas()
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_GET_CATPOSITIONDATAS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_GET_CATPOSITIONDATAS_OFFSET))(this);
 		}
 
 		static ::RPG::Client::CakeRace::CakeRaceCatRankGameData* Create()
@@ -45,5 +42,6 @@ namespace RPG::Client::CakeRace
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA_SORT_OFFSET))(this);
 		}
+
 	};
 }

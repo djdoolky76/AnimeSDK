@@ -1,45 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Object; }
+namespace System::ComponentModel { class NotifyParentPropertyAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E925A50)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E925AB0)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GET_NOTIFYPARENT_OFFSET UNITYSDK_OFFSET(0x1E925A40)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1E925AC0)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E925B80)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E925A30)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFEE9E0)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEE890)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFEE8B0)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFEE910)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GET_NOTIFYPARENT_OFFSET UNITYSDK_OFFSET(0x1EFEE8A0)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EFEE920)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int NotifyParentPropertyAttribute_TypeDefinitionIndex = 2652;
-
 	class NotifyParentPropertyAttribute : public ::System::Attribute
 	{
 	public:
-		static ::System::ComponentModel::NotifyParentPropertyAttribute** StaticGet_Default()
-		{
-			return (::System::ComponentModel::NotifyParentPropertyAttribute**)Il2CppClass::FromTypeDefinitionIndex(NotifyParentPropertyAttribute_TypeDefinitionIndex)->GetStaticField(0x33CD0);
-		}
+		::System::Boolean notifyParent; // 0x10
 		static ::System::ComponentModel::NotifyParentPropertyAttribute** StaticGet_No()
 		{
-			return (::System::ComponentModel::NotifyParentPropertyAttribute**)Il2CppClass::FromTypeDefinitionIndex(NotifyParentPropertyAttribute_TypeDefinitionIndex)->GetStaticField(0x33CD8);
+			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x3B410);
 		}
+
 		static ::System::ComponentModel::NotifyParentPropertyAttribute** StaticGet_Yes()
 		{
-			return (::System::ComponentModel::NotifyParentPropertyAttribute**)Il2CppClass::FromTypeDefinitionIndex(NotifyParentPropertyAttribute_TypeDefinitionIndex)->GetStaticField(0x33CE0);
+			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x3B418);
 		}
-		::System::Boolean notifyParent; // 0x10
+
+		static ::System::ComponentModel::NotifyParentPropertyAttribute** StaticGet_Default()
+		{
+			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x3B420);
+		}
 
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_NotifyParent()
@@ -61,5 +61,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET))(this);
 		}
+
 	};
 }

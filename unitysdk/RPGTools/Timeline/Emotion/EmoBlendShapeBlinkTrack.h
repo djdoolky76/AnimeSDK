@@ -3,32 +3,28 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/BaseEmoTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_COMPILETRACKS_OFFSET UNITYSDK_OFFSET(0xE84D010)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE84D300)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xE84CF00)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE84CEF0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_METHOD_7_8BFD1173A5F6D827_OFFSET UNITYSDK_OFFSET(0xE84D110)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE84D460)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_COMPILETRACKS_OFFSET UNITYSDK_OFFSET(0xE8EB350)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8EB640)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EB760)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xE8EB260)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xE8EB250)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_PPPFHPHAHEM_OFFSET UNITYSDK_OFFSET(0xE8EB450)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeBlinkTrack_TypeDefinitionIndex = 49202;
-
 	class EmoBlendShapeBlinkTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:
 		::RPG::Client::MonoEmoBlendShapesController* _controller; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_UseUniqueCharacterName()
@@ -51,9 +47,10 @@ namespace RPGTools::Timeline::Emotion
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_7_8BFD1173A5F6D827(::UnityEngine::GameObject* a1)
+		::System::Void PPPFHPHAHEM(::UnityEngine::GameObject* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_METHOD_7_8BFD1173A5F6D827_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_PPPFHPHAHEM_OFFSET))(this, a1);
 		}
+
 	};
 }

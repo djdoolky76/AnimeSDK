@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ResetTargetListIndex; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RESETTARGETLISTINDEX_METHOD_3_6DD9D55DAD2DD1DC_OFFSET UNITYSDK_OFFSET(0x1D3A5690)
-#define RPG_GAMECORE_RESETTARGETLISTINDEX_METHOD_3_D9C4AFB56CE4CDD9_OFFSET UNITYSDK_OFFSET(0x1D3A5760)
-#define RPG_GAMECORE_RESETTARGETLISTINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A5750)
+#define RPG_GAMECORE_RESETTARGETLISTINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98BD60)
+#define RPG_GAMECORE_RESETTARGETLISTINDEX_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D98BD70)
+#define RPG_GAMECORE_RESETTARGETLISTINDEX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D98BCA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetTargetListIndex_TypeDefinitionIndex = 22222;
-
 	class ResetTargetListIndex : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTARGETLISTINDEX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTARGETLISTINDEX_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6DD9D55DAD2DD1DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetTargetListIndex*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ResetTargetListIndex* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetTargetListIndex*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTARGETLISTINDEX_METHOD_3_6DD9D55DAD2DD1DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ResetTargetListIndex*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTARGETLISTINDEX_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D9C4AFB56CE4CDD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetTargetListIndex* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ResetTargetListIndex* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetTargetListIndex*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTARGETLISTINDEX_METHOD_3_D9C4AFB56CE4CDD9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ResetTargetListIndex*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTARGETLISTINDEX_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

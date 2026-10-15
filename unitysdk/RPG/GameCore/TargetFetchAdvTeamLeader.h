@@ -1,48 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchAdvTeamLeader; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_2AE73EC246B2F8A8_OFFSET UNITYSDK_OFFSET(0x1D5A7900)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_45348A4E122BC312_OFFSET UNITYSDK_OFFSET(0x1D5A7810)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_BCE3B25AF1A3FC51_OFFSET UNITYSDK_OFFSET(0x1D5A78D0)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_CC9D11AD4123FD8F_OFFSET UNITYSDK_OFFSET(0x1D5A7730)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A7800)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5E960)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB5EA60)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB5EA30)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB5E970)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5E890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvTeamLeader_TypeDefinitionIndex = 23590;
-
 	class TargetFetchAdvTeamLeader : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Boolean FetchLatestTeamLeader; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_CC9D11AD4123FD8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvTeamLeader*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_CC9D11AD4123FD8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_45348A4E122BC312(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_45348A4E122BC312_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BCE3B25AF1A3FC51(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamLeader*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_BCE3B25AF1A3FC51_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2AE73EC246B2F8A8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamLeader* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_METHOD_4_2AE73EC246B2F8A8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamLeader*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMLEADER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class NNCEFFFGNEN;
+namespace System { class Object; }
+
+#define NNCEFFFGNEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB7FFD0)
+#define NNCEFFFGNEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB80010)
+#define NNCEFFFGNEN___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EB80020)
+
+	class NNCEFFFGNEN___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28C0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NNCEFFFGNEN___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNCEFFFGNEN___C_CTOR_OFFSET))(this);
+		}
+
+		::NNCEFFFGNEN* __cctor_b__43_0()
+		{
+			return ((::NNCEFFFGNEN*(*)(::PVOID))((::PBYTE)hIl2Cpp + NNCEFFFGNEN___C___CCTOR_B__43_0_OFFSET))(this);
+		}
+
+	};

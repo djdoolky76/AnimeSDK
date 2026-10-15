@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class NewProjectileConfig; }
+namespace RPG::GameCore { class NewProjectileDataList; }
 
-#define RPG_GAMECORE_NEWPROJECTILEDATALIST_METHOD_2_568EEE53FC74949D_OFFSET UNITYSDK_OFFSET(0x1D2F5810)
-#define RPG_GAMECORE_NEWPROJECTILEDATALIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F5990)
+#define RPG_GAMECORE_NEWPROJECTILEDATALIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D93A0)
+#define RPG_GAMECORE_NEWPROJECTILEDATALIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D9220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewProjectileDataList_TypeDefinitionIndex = 22335;
-
 	class NewProjectileDataList : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Int32 RepeatCount; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::NewProjectileConfig* NewProjectile; // 0x18
 		::System::Single Interval; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWPROJECTILEDATALIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWPROJECTILEDATALIST_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_568EEE53FC74949D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NewProjectileDataList*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::NewProjectileDataList* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NewProjectileDataList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWPROJECTILEDATALIST_METHOD_2_568EEE53FC74949D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NewProjectileDataList*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NEWPROJECTILEDATALIST_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

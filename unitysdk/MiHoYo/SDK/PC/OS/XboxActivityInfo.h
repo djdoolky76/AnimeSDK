@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXACTIVITYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA38DB0)
+#define MIHOYO_SDK_PC_OS_XBOXACTIVITYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42830)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxActivityInfo_TypeDefinitionIndex = 8624;
-
 	class XboxActivityInfo : public ::System::Object
 	{
 	public:
@@ -20,10 +17,10 @@ namespace MiHoYo::SDK::PC::OS
 		::System::Int32 joinRestriction; // 0x28
 		::System::Int32 platform; // 0x2C
 		::System::String* groupId; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_XBOXACTIVITYINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_XBOXACTIVITYINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace System::Net::Cache
 {
-	inline static constexpr unsigned int RequestCacheLevel_TypeDefinitionIndex = 2983;
-
 	enum class RequestCacheLevel : ::System::Int32
 	{
 		Default = 0,

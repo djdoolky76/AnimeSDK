@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraAbilityProgressBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraAbilityProgressBase; }
+namespace RPG::GameCore { class ChimeraBattleCheckWorkFinish; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_METHOD_3_21F860E34BDA1993_OFFSET UNITYSDK_OFFSET(0x1CFBDFD0)
-#define RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_METHOD_3_8DC9719876A59831_OFFSET UNITYSDK_OFFSET(0x1CFBC6C0)
-#define RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFBC6B0)
+#define RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D597D20)
+#define RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D597D30)
+#define RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D599860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleCheckWorkFinish_TypeDefinitionIndex = 15700;
-
 	class ChimeraBattleCheckWorkFinish : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:
 		::RPG::GameCore::ChimeraAbilityProgressBase* OnFinish; // 0x18
 		::RPG::GameCore::ChimeraAbilityProgressBase* OnNotFinish; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_21F860E34BDA1993(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleCheckWorkFinish*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraBattleCheckWorkFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleCheckWorkFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_METHOD_3_21F860E34BDA1993_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraBattleCheckWorkFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8DC9719876A59831(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraBattleCheckWorkFinish* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraBattleCheckWorkFinish* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraBattleCheckWorkFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_METHOD_3_8DC9719876A59831_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraBattleCheckWorkFinish*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERABATTLECHECKWORKFINISH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

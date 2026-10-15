@@ -5,74 +5,75 @@
 #include "unitysdk/Newtonsoft/Json/Bson/BsonType.h"
 #include "unitysdk/Newtonsoft/Json/JsonReader.h"
 #include "unitysdk/System/DateTimeKind.h"
-
 namespace Newtonsoft::Json::Bson { class BsonReader_ContainerContext; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class BinaryReader; }
 
-#define NEWTONSOFT_JSON_BSON_BSONREADER_BYTESINSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1BE6D5E0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_ENSUREBUFFERS_OFFSET UNITYSDK_OFFSET(0x1BE6CFC0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_GETLASTFULLCHARSTOP_OFFSET UNITYSDK_OFFSET(0x1BE6D0A0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1BE6D130)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_GET_DATETIMEKINDHANDLING_OFFSET UNITYSDK_OFFSET(0x1BE6B350)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_MOVEPOSITION_OFFSET UNITYSDK_OFFSET(0x1BE6CE10)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_POPCONTEXT_OFFSET UNITYSDK_OFFSET(0x1BE6CD50)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_PUSHCONTEXT_OFFSET UNITYSDK_OFFSET(0x1BE6C4C0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READBINARY_OFFSET UNITYSDK_OFFSET(0x1BE6CED0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READBYTES_OFFSET UNITYSDK_OFFSET(0x1BE6C570)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READBYTE_OFFSET UNITYSDK_OFFSET(0x1BE6CCB0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READCODEWSCOPE_OFFSET UNITYSDK_OFFSET(0x1BE6C060)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x1BE6CE30)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READELEMENT_OFFSET UNITYSDK_OFFSET(0x1BE6B360)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READINT32_OFFSET UNITYSDK_OFFSET(0x1BE6C350)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READINT64_OFFSET UNITYSDK_OFFSET(0x1BE6CF20)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READLENGTHSTRING_OFFSET UNITYSDK_OFFSET(0x1BE6C3F0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READNORMAL_OFFSET UNITYSDK_OFFSET(0x1BE6BB30)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READREFERENCE_OFFSET UNITYSDK_OFFSET(0x1BE6BE00)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READSTRING_OFFSET UNITYSDK_OFFSET(0x1BE6B420)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READTYPE_1_OFFSET UNITYSDK_OFFSET(0x1BE6B380)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READTYPE_OFFSET UNITYSDK_OFFSET(0x1BE6C620)
-#define NEWTONSOFT_JSON_BSON_BSONREADER_READ_OFFSET UNITYSDK_OFFSET(0x1BE6B9D0)
-#define NEWTONSOFT_JSON_BSON_BSONREADER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE6D8A0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_BYTESINSEQUENCE_OFFSET UNITYSDK_OFFSET(0x1C3791F0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3794B0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_ENSUREBUFFERS_OFFSET UNITYSDK_OFFSET(0x1C378BE0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_GETLASTFULLCHARSTOP_OFFSET UNITYSDK_OFFSET(0x1C378CC0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1C378D50)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_GET_DATETIMEKINDHANDLING_OFFSET UNITYSDK_OFFSET(0x1C376F30)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_MOVEPOSITION_OFFSET UNITYSDK_OFFSET(0x1C378A30)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_POPCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C378960)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_PUSHCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C3780C0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READBINARY_OFFSET UNITYSDK_OFFSET(0x1C378AF0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READBYTES_OFFSET UNITYSDK_OFFSET(0x1C378170)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READBYTE_OFFSET UNITYSDK_OFFSET(0x1C3788C0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READCODEWSCOPE_OFFSET UNITYSDK_OFFSET(0x1C377C50)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READDOUBLE_OFFSET UNITYSDK_OFFSET(0x1C378A50)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READELEMENT_OFFSET UNITYSDK_OFFSET(0x1C376F40)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READINT32_OFFSET UNITYSDK_OFFSET(0x1C377F50)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READINT64_OFFSET UNITYSDK_OFFSET(0x1C378B40)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READLENGTHSTRING_OFFSET UNITYSDK_OFFSET(0x1C377FF0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READNORMAL_OFFSET UNITYSDK_OFFSET(0x1C377710)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READREFERENCE_OFFSET UNITYSDK_OFFSET(0x1C3779F0)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READSTRING_OFFSET UNITYSDK_OFFSET(0x1C377000)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READTYPE_1_OFFSET UNITYSDK_OFFSET(0x1C376F60)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READTYPE_OFFSET UNITYSDK_OFFSET(0x1C378220)
+#define NEWTONSOFT_JSON_BSON_BSONREADER_READ_OFFSET UNITYSDK_OFFSET(0x1C3775B0)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonReader_TypeDefinitionIndex = 9790;
-
 	class BsonReader : public ::Newtonsoft::Json::JsonReader
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange4()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BsonReader_TypeDefinitionIndex)->GetStaticField(0x39620);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange2()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BsonReader_TypeDefinitionIndex)->GetStaticField(0x39628);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange3()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BsonReader_TypeDefinitionIndex)->GetStaticField(0x39630);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange1()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(BsonReader_TypeDefinitionIndex)->GetStaticField(0x39638);
-		}
-		::Newtonsoft::Json::Bson::BsonReader_ContainerContext* _currentContext; // 0x70
-		::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonReader_ContainerContext*>* _stack; // 0x78
-		::System::IO::BinaryReader* _reader; // 0x80
+		::System::Collections::Generic::List_1<::System::Object*>* _stack; // 0x70
+		::System::IO::BinaryReader* _reader; // 0x78
+		::Newtonsoft::Json::Bson::BsonReader_ContainerContext* _currentContext; // 0x80
 		::Il2CppArray<::System::Byte>* _byteBuffer; // 0x88
 		::Il2CppArray<::System::Char>* _charBuffer; // 0x90
-		::System::Boolean _jsonNet35BinaryCompatibility; // 0x98
-		::System::Boolean _readRootValueAsArray; // 0x99
-		::Newtonsoft::Json::Bson::BsonType _currentElementType; // 0x9A
+		::Newtonsoft::Json::Bson::BsonReader_BsonReaderState _bsonReaderState; // 0x98
 		::System::DateTimeKind _dateTimeKindHandling; // 0x9C
-		::Newtonsoft::Json::Bson::BsonReader_BsonReaderState _bsonReaderState; // 0xA0
+		::System::Boolean _readRootValueAsArray; // 0xA0
+		::System::Boolean _jsonNet35BinaryCompatibility; // 0xA1
+		::Newtonsoft::Json::Bson::BsonType _currentElementType; // 0xA2
+		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange1()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Newtonsoft.Json.Bson", "BsonReader")->GetStaticField(0x2B6F0);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange3()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Newtonsoft.Json.Bson", "BsonReader")->GetStaticField(0x2B6F8);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange2()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Newtonsoft.Json.Bson", "BsonReader")->GetStaticField(0x2B700);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_SeqRange4()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Newtonsoft.Json.Bson", "BsonReader")->GetStaticField(0x2B708);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER_CCTOR_OFFSET))();
 		}
 
 		::System::DateTimeKind get_DateTimeKindHandling()
@@ -125,9 +126,9 @@ namespace Newtonsoft::Json::Bson
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER_READTYPE_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Byte>* ReadBinary(::Newtonsoft::Json::Bson::BsonBinaryType& a1)
+		::Il2CppArray<::System::Byte>* ReadBinary(::Newtonsoft::Json::Bson::BsonBinaryType a1)
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonBinaryType&))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER_READBINARY_OFFSET))(this, a1);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Newtonsoft::Json::Bson::BsonBinaryType))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER_READBINARY_OFFSET))(this, a1);
 		}
 
 		::System::String* ReadString()
@@ -189,5 +190,6 @@ namespace Newtonsoft::Json::Bson
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREADER_READBYTES_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace HoudiniEngineUnity { class CurveNodeData; }
+namespace HoudiniEngineUnity { class HEU_AssetSerializedMetaData; }
 namespace HoudiniEngineUnity { class HEU_InputCurveInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_GET_SAVEDCURVENODEDATA_OFFSET UNITYSDK_OFFSET(0x1B3C4800)
-#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_GET_SAVEDINPUTCURVEINFO_OFFSET UNITYSDK_OFFSET(0x1B3C4810)
-#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_GET_SOFTDELETED_OFFSET UNITYSDK_OFFSET(0x1B3C47E0)
-#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B3C4820)
-#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_SET_SOFTDELETED_OFFSET UNITYSDK_OFFSET(0x1B3C47F0)
-#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C4890)
+#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C6750)
+#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_GET_SAVEDCURVENODEDATA_OFFSET UNITYSDK_OFFSET(0x1B8C66C0)
+#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_GET_SAVEDINPUTCURVEINFO_OFFSET UNITYSDK_OFFSET(0x1B8C66D0)
+#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_GET_SOFTDELETED_OFFSET UNITYSDK_OFFSET(0x1B8C66A0)
+#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B8C66E0)
+#define HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_SET_SOFTDELETED_OFFSET UNITYSDK_OFFSET(0x1B8C66B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetSerializedMetaData_TypeDefinitionIndex = 39078;
-
 	class HEU_AssetSerializedMetaData : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Boolean _softDeleted; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*>* _savedCurveNodeData; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::HoudiniEngineUnity::HEU_InputCurveInfo*>* _savedInputCurveInfo; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_SoftDeleted()
@@ -55,5 +53,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_AssetSerializedMetaData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETSERIALIZEDMETADATA_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

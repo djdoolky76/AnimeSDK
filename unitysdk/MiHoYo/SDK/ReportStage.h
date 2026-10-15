@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportStage_TypeDefinitionIndex = 7542;
-
 	enum class ReportStage : ::System::Int32
 	{
 		Default = 0,

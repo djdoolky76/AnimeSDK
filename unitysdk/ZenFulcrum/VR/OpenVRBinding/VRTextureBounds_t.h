@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRTextureBounds_t_TypeDefinitionIndex = 37981;
-
 	struct alignas(4) VRTextureBounds_t
 	{
 		::System::Single uMin; // 0x10

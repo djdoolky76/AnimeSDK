@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class WaitInfiniteWaveRefresh; }
 
-#define RPG_GAMECORE_WAITINFINITEWAVEREFRESH_METHOD_3_1F720EF2FBC71C56_OFFSET UNITYSDK_OFFSET(0x1D6A5780)
-#define RPG_GAMECORE_WAITINFINITEWAVEREFRESH_METHOD_3_7ACF6FC0EA3D7895_OFFSET UNITYSDK_OFFSET(0x1D6A57C0)
-#define RPG_GAMECORE_WAITINFINITEWAVEREFRESH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A57B0)
+#define RPG_GAMECORE_WAITINFINITEWAVEREFRESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9A990)
+#define RPG_GAMECORE_WAITINFINITEWAVEREFRESH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9A9A0)
+#define RPG_GAMECORE_WAITINFINITEWAVEREFRESH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9A960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitInfiniteWaveRefresh_TypeDefinitionIndex = 23196;
-
 	class WaitInfiniteWaveRefresh : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicString* CustomString; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITINFINITEWAVEREFRESH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITINFINITEWAVEREFRESH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1F720EF2FBC71C56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitInfiniteWaveRefresh*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitInfiniteWaveRefresh* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitInfiniteWaveRefresh*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITINFINITEWAVEREFRESH_METHOD_3_1F720EF2FBC71C56_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitInfiniteWaveRefresh*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITINFINITEWAVEREFRESH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7ACF6FC0EA3D7895(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitInfiniteWaveRefresh* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitInfiniteWaveRefresh* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitInfiniteWaveRefresh*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITINFINITEWAVEREFRESH_METHOD_3_7ACF6FC0EA3D7895_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitInfiniteWaveRefresh*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITINFINITEWAVEREFRESH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int HipplenMovingGoodsInputSeq_InputType_TypeDefinitionIndex = 75291;
-
 	enum class HipplenMovingGoodsInputSeq_InputType : ::System::Int32
 	{
 		Left = 1,

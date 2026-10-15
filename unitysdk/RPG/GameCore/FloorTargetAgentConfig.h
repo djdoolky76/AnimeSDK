@@ -2,50 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FloorCustomValueConfig.h"
 #include "unitysdk/RPG/GameCore/FloorInstanceType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FloorTargetAgentConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_667523E56EBF73E3_OFFSET UNITYSDK_OFFSET(0x1D10DA90)
-#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_67F6D74BF3FD5E04_OFFSET UNITYSDK_OFFSET(0x1D10D420)
-#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_692C8BDC7229A99A_OFFSET UNITYSDK_OFFSET(0x1D10CCB0)
-#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_E3ED40292774A19A_OFFSET UNITYSDK_OFFSET(0x1D10DAC0)
-#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10CCA0)
+#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E63C0)
+#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D6E71E0)
+#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D6E6B40)
+#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6E63D0)
+#define RPG_GAMECORE_FLOORTARGETAGENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E71B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorTargetAgentConfig_TypeDefinitionIndex = 18070;
-
 	class FloorTargetAgentConfig : public ::RPG::GameCore::FloorCustomValueConfig
 	{
 	public:
 		::RPG::GameCore::FloorInstanceType AgentType; // 0x20
 		::System::UInt32 GroupID; // 0x24
 		::System::UInt32 InstanceID; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_667523E56EBF73E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloorTargetAgentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FloorTargetAgentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloorTargetAgentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_667523E56EBF73E3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FloorTargetAgentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_692C8BDC7229A99A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloorTargetAgentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FloorTargetAgentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloorTargetAgentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_692C8BDC7229A99A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FloorTargetAgentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_67F6D74BF3FD5E04(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FloorTargetAgentConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FloorTargetAgentConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FloorTargetAgentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_67F6D74BF3FD5E04_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FloorTargetAgentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E3ED40292774A19A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FloorTargetAgentConfig* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FloorTargetAgentConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FloorTargetAgentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_METHOD_3_E3ED40292774A19A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FloorTargetAgentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORTARGETAGENTCONFIG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

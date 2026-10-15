@@ -1,47 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/DirectorWrapMode.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
+#include "unitysdk/UnityEngine/Timeline/NotificationFlags.h"
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Playables/PlayableOutput.h"
 #include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
-#include "unitysdk/UnityEngine/Timeline/NotificationFlags.h"
 #include "unitysdk/UnityEngine/Timeline/TimeNotificationBehaviour_NotificationEntry.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class INotification; }
+namespace UnityEngine::Timeline { class TimeNotificationBehaviour; }
 
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_ADDNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1ECC64A0)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_CANRESTORENOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1ECCB910)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_CREATE_OFFSET UNITYSDK_OFFSET(0x1ECC6380)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1ECCACE0)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1ECCAA70)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1ECCAF50)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_RESTORE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1ECCB940)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_SET_TIMESOURCE_OFFSET UNITYSDK_OFFSET(0x1ECCAA60)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_SORTNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1ECCAB90)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_SYNCDURATIONWITHEXTERNALSOURCE_OFFSET UNITYSDK_OFFSET(0x1ECCB540)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_TRIGGERNOTIFICATIONSINRANGE_OFFSET UNITYSDK_OFFSET(0x1ECCB680)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_TRIGGER_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1ECCAEF0)
-#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCB980)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_ADDNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1F38E180)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_CANRESTORENOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1F3935F0)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_CREATE_OFFSET UNITYSDK_OFFSET(0x1F38E060)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F393660)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1F3929C0)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1F392750)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1F392C30)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_RESTORE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F393620)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_SET_TIMESOURCE_OFFSET UNITYSDK_OFFSET(0x1F392740)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_SORTNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x1F392870)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_SYNCDURATIONWITHEXTERNALSOURCE_OFFSET UNITYSDK_OFFSET(0x1F393220)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_TRIGGERNOTIFICATIONSINRANGE_OFFSET UNITYSDK_OFFSET(0x1F393360)
+#define UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_TRIGGER_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F392BD0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimeNotificationBehaviour_TypeDefinitionIndex = 37554;
-
 	class TimeNotificationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry>* m_Notifications; // 0x10
-		::UnityEngine::Playables::Playable m_TimeSource; // 0x18
-		::System::Double m_PreviousTime; // 0x28
-		::System::Boolean m_NeedSortNotifications; // 0x30
-
+		::System::Collections::Generic::List_1<::System::Object*>* m_Notifications; // 0x10
+		::System::Boolean m_NeedSortNotifications; // 0x18
+		::System::Byte _padding0[0x7];
+		::UnityEngine::Playables::Playable m_TimeSource; // 0x20
+		::System::Double m_PreviousTime; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_timeSource(::UnityEngine::Playables::Playable a1)
@@ -94,14 +93,15 @@ namespace UnityEngine::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_SYNCDURATIONWITHEXTERNALSOURCE_OFFSET))(this, a1);
 		}
 
-		static ::System::Void Trigger_internal(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::PlayableOutput a2, ::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry& a3)
+		static ::System::Void Trigger_internal(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::PlayableOutput a2, ::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableOutput, ::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry&))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_TRIGGER_INTERNAL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::PlayableOutput, ::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_TRIGGER_INTERNAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Restore_internal(::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry& a1)
+		static ::System::Void Restore_internal(::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry&))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_RESTORE_INTERNAL_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Timeline::TimeNotificationBehaviour_NotificationEntry))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TIMENOTIFICATIONBEHAVIOUR_RESTORE_INTERNAL_OFFSET))(a1);
 		}
+
 	};
 }

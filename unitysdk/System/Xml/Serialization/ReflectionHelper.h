@@ -1,43 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/ParameterModifier.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET UNITYSDK_OFFSET(0x1E831960)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET UNITYSDK_OFFSET(0x1E831790)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1E831460)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET UNITYSDK_OFFSET(0x1E831580)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1E831310)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E831F90)
-#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E831EE0)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEFAC10)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET UNITYSDK_OFFSET(0x1EEFA5E0)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEFAB60)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDCLRTYPE_OFFSET UNITYSDK_OFFSET(0x1EEFA410)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_GETREGISTEREDSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1EEFA0E0)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERCLRTYPE_OFFSET UNITYSDK_OFFSET(0x1EEFA200)
+#define SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_REGISTERSCHEMATYPE_OFFSET UNITYSDK_OFFSET(0x1EEF9F90)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int ReflectionHelper_TypeDefinitionIndex = 1990;
-
 	class ReflectionHelper : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Reflection::ParameterModifier>** StaticGet_empty_modifiers()
-		{
-			return (::Il2CppArray<::System::Reflection::ParameterModifier>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionHelper_TypeDefinitionIndex)->GetStaticField(0x1C990);
-		}
 		::System::Collections::Hashtable* _clrTypes; // 0x10
 		::System::Collections::Hashtable* _schemaTypes; // 0x18
+		static ::Il2CppArray<::System::Reflection::ParameterModifier>** StaticGet_empty_modifiers()
+		{
+			return (::Il2CppArray<::System::Reflection::ParameterModifier>**)UnitySDK::FromName("System.Xml.Serialization", "ReflectionHelper")->GetStaticField(0x25EF0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CCTOR_OFFSET))();
 		}
 
 		::System::Void RegisterSchemaType(::System::Xml::Serialization::XmlTypeMapping* a1, ::System::String* a2, ::System::String* a3)
@@ -64,5 +61,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Void(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_REFLECTIONHELPER_CHECKSERIALIZABLETYPE_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectLayoutType_TypeDefinitionIndex = 69985;
-
 	enum class EffectLayoutType : ::System::Int32
 	{
 		Default = 0,

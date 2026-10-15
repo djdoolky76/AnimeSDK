@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BossSpecialEffectType_TypeDefinitionIndex = 15867;
-
 	enum class BossSpecialEffectType : ::System::Int32
 	{
 		SwapAreaSum = 0,

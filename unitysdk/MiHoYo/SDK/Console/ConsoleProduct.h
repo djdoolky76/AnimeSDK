@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B5B7D0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEPRODUCT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C101A0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleProduct_TypeDefinitionIndex = 8925;
-
 	struct alignas(8) ConsoleProduct
 	{
 		::System::String* productLabel; // 0x10
@@ -18,10 +14,10 @@ namespace MiHoYo::SDK::Console
 		::System::String* skuLabel; // 0x28
 		::System::String* price; // 0x30
 		::System::UInt64 intPrice; // 0x38
-
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEPRODUCT_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 
-#define ZLINQ_INTERNAL_THROWS_ARGUMENTOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x1EFC8FC0)
-#define ZLINQ_INTERNAL_THROWS_NOELEMENTS_OFFSET UNITYSDK_OFFSET(0x1EFC9010)
-#define ZLINQ_INTERNAL_THROWS_NOTSUPPORTEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EFC9060)
+#define ZLINQ_INTERNAL_THROWS_ARGUMENTOUTOFRANGE_OFFSET UNITYSDK_OFFSET(0x1F691530)
+#define ZLINQ_INTERNAL_THROWS_NOELEMENTS_OFFSET UNITYSDK_OFFSET(0x1F691580)
+#define ZLINQ_INTERNAL_THROWS_NOTSUPPORTEDTYPE_OFFSET UNITYSDK_OFFSET(0x1F6915D0)
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int Throws_TypeDefinitionIndex = 6148;
-
 	class Throws : public ::System::Object
 	{
 	public:
@@ -30,5 +27,6 @@ namespace ZLinq::Internal
 		{
 			return ((::System::Void(*)(::System::Type*))((::PBYTE)hIl2Cpp + ZLINQ_INTERNAL_THROWS_NOTSUPPORTEDTYPE_OFFSET))(a1);
 		}
+
 	};
 }

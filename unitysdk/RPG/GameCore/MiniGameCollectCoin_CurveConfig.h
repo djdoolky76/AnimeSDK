@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_METHOD_2_D13B583A864F2BCF_OFFSET UNITYSDK_OFFSET(0x1D29E9E0)
-#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D29ED30)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D880D50)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D880A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniGameCollectCoin_CurveConfig_TypeDefinitionIndex = 18592;
-
 	class MiniGameCollectCoin_CurveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 CurveID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* CoinPresetName; // 0x18
 		::System::String* CoinTriggerName; // 0x20
 		::System::Single CoinMoveEndDestroyDelay; // 0x28
@@ -25,15 +24,15 @@ namespace RPG::GameCore
 		::System::Single BakedInitHorizontalSpeed; // 0x38
 		::System::Single BakedGravity; // 0x3C
 		::System::Single BakedMoveTime; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D13B583A864F2BCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MiniGameCollectCoin_CurveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MiniGameCollectCoin_CurveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MiniGameCollectCoin_CurveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_METHOD_2_D13B583A864F2BCF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MiniGameCollectCoin_CurveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIGAMECOLLECTCOIN_CURVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

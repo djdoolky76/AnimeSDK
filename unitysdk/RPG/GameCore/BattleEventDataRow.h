@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/System/ValueTuple.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleEventDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1CE727C0)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE72A70)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1CE72740)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW_RESET_OFFSET UNITYSDK_OFFSET(0x1CE727A0)
-#define RPG_GAMECORE_BATTLEEVENTDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE72D50)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D45AA30)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D45A4A0)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D45A750)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D45A420)
+#define RPG_GAMECORE_BATTLEEVENTDATAROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D45A480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventDataRow_TypeDefinitionIndex = 12762;
-
 	class BattleEventDataRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x10
+		::System::String* Config; // 0x10
 		::System::String* Prefab; // 0x18
-		::System::String* LevelAreaPrefab; // 0x20
-		::System::String* Config; // 0x28
-		::System::String* BEActionBarPrefab; // 0x30
-		::System::String* BasePoint; // 0x38
+		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x20
+		::System::String* BEActionBarPrefab; // 0x28
+		::System::String* BasePoint; // 0x30
+		::System::String* LevelAreaPrefab; // 0x38
 		::System::UInt32 BattleEventID; // 0x40
 		::System::Boolean IsSPReserved; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
+		::System::Void FromTableOffset(::System::ValueTuple a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_FROMTABLEOFFSET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -43,14 +40,15 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventDataRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleEventDataRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventDataRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleEventDataRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventDataRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleEventDataRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventDataRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleEventDataRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTDATAROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

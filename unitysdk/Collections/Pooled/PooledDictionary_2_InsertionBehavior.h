@@ -3,12 +3,10 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionary_2_InsertionBehavior_TypeDefinitionIndex = 5095;
-
 	enum class PooledDictionary_2_InsertionBehavior : ::System::Byte
 	{
-		None = 0x0,
-		OverwriteExisting = 0x1,
-		ThrowOnExisting = 0x2,
+		None = 0,
+		OverwriteExisting = 1,
+		ThrowOnExisting = 2,
 	};
 }

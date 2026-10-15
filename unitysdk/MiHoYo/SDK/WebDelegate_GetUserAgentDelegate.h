@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14630)
-#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB14660)
-#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB126A0)
-#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB145C0)
+#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C020FF0)
+#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C020F80)
+#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C021020)
+#define MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01F070)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_GetUserAgentDelegate_TypeDefinitionIndex = 7790;
-
 	class WebDelegate_GetUserAgentDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEBDELEGATE_GETUSERAGENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

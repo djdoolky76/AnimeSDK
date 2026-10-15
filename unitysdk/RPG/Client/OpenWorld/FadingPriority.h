@@ -3,8 +3,6 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingPriority_TypeDefinitionIndex = 73839;
-
 	enum class FadingPriority : ::System::Int32
 	{
 		Critical = 0,

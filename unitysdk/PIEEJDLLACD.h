@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::Client { class MonoEffect; }
+namespace RPG::Client { class TriggerEffectParams; }
+namespace RPG::GameCore { class SetAdvEffectTowardAnchor; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define PIEEJDLLACD_CTOR_OFFSET UNITYSDK_OFFSET(0xC25D7F0)
+#define PIEEJDLLACD_NPILIHHBAFA_OFFSET UNITYSDK_OFFSET(0xC25DA90)
+#define PIEEJDLLACD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25D820)
+
+	class PIEEJDLLACD
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetAdvEffectTowardAnchor* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetAdvEffectTowardAnchor*))((::PBYTE)hIl2Cpp + PIEEJDLLACD_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIEEJDLLACD_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Void NPILIHHBAFA(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectParams* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectParams*))((::PBYTE)hIl2Cpp + PIEEJDLLACD_NPILIHHBAFA_OFFSET))(this, a1, a2);
+		}
+
+	};

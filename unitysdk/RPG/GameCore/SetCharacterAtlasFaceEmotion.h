@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetCharacterAtlasFaceEmotion; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_METHOD_3_3CCBF64A23B83D99_OFFSET UNITYSDK_OFFSET(0x1D4E5EA0)
-#define RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_METHOD_3_7918E5A32E6F291C_OFFSET UNITYSDK_OFFSET(0x1D4E5E50)
-#define RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E5E90)
+#define RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA99E80)
+#define RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA99E90)
+#define RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA99E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterAtlasFaceEmotion_TypeDefinitionIndex = 20387;
-
 	class SetCharacterAtlasFaceEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -21,20 +19,20 @@ namespace RPG::GameCore
 		::System::String* CharacterUniqueName; // 0x20
 		::System::String* MeshName; // 0x28
 		::System::UInt32 EmotionIndex; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7918E5A32E6F291C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAtlasFaceEmotion*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCharacterAtlasFaceEmotion* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterAtlasFaceEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_METHOD_3_7918E5A32E6F291C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCharacterAtlasFaceEmotion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3CCBF64A23B83D99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAtlasFaceEmotion* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCharacterAtlasFaceEmotion* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterAtlasFaceEmotion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_METHOD_3_3CCBF64A23B83D99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCharacterAtlasFaceEmotion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERATLASFACEEMOTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

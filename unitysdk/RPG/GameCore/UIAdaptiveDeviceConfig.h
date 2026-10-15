@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class UIAdaptiveDeviceConfig; }
 namespace RPG::GameCore { class UIAdaptiveDeviceConfigItem; }
 
-#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIG_METHOD_2_9D8C7690CC837A60_OFFSET UNITYSDK_OFFSET(0x1D61AF60)
-#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D61B050)
+#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6F2B0)
+#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6F1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIAdaptiveDeviceConfig_TypeDefinitionIndex = 24148;
-
 	class UIAdaptiveDeviceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::UIAdaptiveDeviceConfigItem*>* DeviceConfigList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIADAPTIVEDEVICECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIADAPTIVEDEVICECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9D8C7690CC837A60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UIAdaptiveDeviceConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::UIAdaptiveDeviceConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UIAdaptiveDeviceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIADAPTIVEDEVICECONFIG_METHOD_2_9D8C7690CC837A60_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UIAdaptiveDeviceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UIADAPTIVEDEVICECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

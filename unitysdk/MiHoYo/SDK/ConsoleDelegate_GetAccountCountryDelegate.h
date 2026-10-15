@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B93D610)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B93D640)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B91D0D0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93D5A0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3D9C0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3D950)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3D9F0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE1C380)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_GetAccountCountryDelegate_TypeDefinitionIndex = 7563;
-
 	class ConsoleDelegate_GetAccountCountryDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETACCOUNTCOUNTRYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class ConsoleDelegate_ProductsCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B93E120)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B93E160)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B93E110)
-#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93E090)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3E4D0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3E440)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3E510)
+#define MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3E4C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_GetPsStoreProductsDelegate_TypeDefinitionIndex = 7593;
-
 	class ConsoleDelegate_GetPsStoreProductsDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Il2CppArray<::System::String*>* a1, ::MiHoYo::SDK::ConsoleDelegate_ProductsCallback* a2)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_GETPSSTOREPRODUCTSDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

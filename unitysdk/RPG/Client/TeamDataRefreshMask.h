@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamDataRefreshMask_TypeDefinitionIndex = 68110;
-
 	enum class TeamDataRefreshMask : ::System::Int32
 	{
 		Team = 1,

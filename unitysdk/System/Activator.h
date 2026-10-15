@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/BindingFlags.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Reflection { class Binder; }
 
-#define SYSTEM_ACTIVATOR_CREATEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1BB90AA0)
-#define SYSTEM_ACTIVATOR_CREATEINSTANCE_2_OFFSET UNITYSDK_OFFSET(0x1BB90C90)
-#define SYSTEM_ACTIVATOR_CREATEINSTANCE_3_OFFSET UNITYSDK_OFFSET(0x1BB6DD80)
-#define SYSTEM_ACTIVATOR_CREATEINSTANCE_4_OFFSET UNITYSDK_OFFSET(0x1BB90CC0)
-#define SYSTEM_ACTIVATOR_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1BB90A70)
+#define SYSTEM_ACTIVATOR_CREATEINSTANCE_1_OFFSET UNITYSDK_OFFSET(0x1C09CB00)
+#define SYSTEM_ACTIVATOR_CREATEINSTANCE_2_OFFSET UNITYSDK_OFFSET(0x1C09CCF0)
+#define SYSTEM_ACTIVATOR_CREATEINSTANCE_3_OFFSET UNITYSDK_OFFSET(0x1C079FD0)
+#define SYSTEM_ACTIVATOR_CREATEINSTANCE_4_OFFSET UNITYSDK_OFFSET(0x1C09CD20)
+#define SYSTEM_ACTIVATOR_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1C09CAD0)
 
 namespace System
 {
-	inline static constexpr unsigned int Activator_TypeDefinitionIndex = 189;
-
 	class Activator : public ::System::Object
 	{
 	public:
@@ -44,5 +42,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ACTIVATOR_CREATEINSTANCE_4_OFFSET))(a1, a2);
 		}
+
 	};
 }

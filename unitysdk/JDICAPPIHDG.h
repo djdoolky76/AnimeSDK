@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace System { class Action; }
+
+	struct alignas(8) JDICAPPIHDG
+	{
+		::System::Int32 DKCGLOIAPAH; // 0x10
+		::System::Single JEHPFFOAOKF; // 0x14
+		::System::Single AJHEOLONGGC; // 0x18
+		::System::Single GELMIDGINGJ; // 0x1C
+		::System::Single KPDIIKFHPIN; // 0x20
+		::System::Single PIJBKAEGFHC; // 0x24
+		::System::Boolean LENHOHBLDMK; // 0x28
+		::System::Byte _padding0[0x3];
+		::System::Single FKHOFJPKKPD; // 0x2C
+		::System::Boolean MGAMDNMCMMA; // 0x30
+		::System::Boolean AMBKCAEJKMJ; // 0x31
+		::System::Boolean OJCGODCHLGC; // 0x32
+		::System::Boolean AANFLIGPILD; // 0x33
+		::System::Byte _padding1[0x4];
+		::System::Action* BCPKEHAFHOD; // 0x38
+		::System::Action* EBNJNEFAGBI; // 0x40
+		::System::Action* LPGBHJJJKNC; // 0x48
+	};

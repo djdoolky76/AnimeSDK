@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class RogueTournDifficultyCompData; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B1B9E0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B1BA10)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B1B9D0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1B8E0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DAF0D0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_CTOR_OFFSET UNITYSDK_OFFSET(0x14DAEFD0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DAF100)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DAF0C0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_2465DBEC_TypeDefinitionIndex = 50528;
-
 	class InternalGlobals___GEN_DELEGATE_B00_2465DBEC : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueTournDifficultyCompData*>* a1)
@@ -39,5 +36,6 @@ namespace XLua
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_2465DBEC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

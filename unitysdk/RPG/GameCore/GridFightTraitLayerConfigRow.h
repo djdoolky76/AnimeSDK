@@ -5,39 +5,37 @@
 #include "unitysdk/RPG/GameCore/GridFightPropertyBindType.h"
 #include "unitysdk/RPG/GameCore/GridFightTrailLayerQuality.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarPropertyValue; }
+namespace RPG::GameCore { class GridFightTraitLayerConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16CCC0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16D090)
+#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D747F00)
+#define RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D747B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitLayerConfigRow_TypeDefinitionIndex = 13563;
-
 	class GridFightTraitLayerConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* PropertyParamList; // 0x10
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x18
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x18
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OverrideBEPropertyList; // 0x20
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberPropertyList; // 0x28
-		::System::UInt32 MazebuffID; // 0x30
-		::System::UInt32 Layer; // 0x34
-		::System::UInt32 TraitID; // 0x38
-		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x3C
-		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x40
-		::RPG::Client::TextID PropertyDesc; // 0x48
-
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* TraitMemberPropertyList; // 0x28
+		::RPG::Client::TextID PropertyDesc; // 0x30
+		::System::UInt32 TraitID; // 0x40
+		::System::UInt32 MazebuffID; // 0x44
+		::RPG::GameCore::GridFightTrailLayerQuality Quality; // 0x48
+		::System::UInt32 Layer; // 0x4C
+		::RPG::GameCore::GridFightPropertyBindType PropertyBindType; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightTraitLayerConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightTraitLayerConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightTraitLayerConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightTraitLayerConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTTRAITLAYERCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

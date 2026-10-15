@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EAirshipType_TypeDefinitionIndex = 59918;
-
 	enum class EAirshipType : ::System::Int32
 	{
 		Unknown = 0,

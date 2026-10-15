@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetCameraRootFollow; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_METHOD_3_4B32D475192D3328_OFFSET UNITYSDK_OFFSET(0x1D4E5520)
-#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_METHOD_3_7F8D4D40AE6300F1_OFFSET UNITYSDK_OFFSET(0x1D4E5560)
-#define RPG_GAMECORE_SETCAMERAROOTFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E5550)
+#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA99440)
+#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA99450)
+#define RPG_GAMECORE_SETCAMERAROOTFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA99410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCameraRootFollow_TypeDefinitionIndex = 22634;
-
 	class SetCameraRootFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore
 		::System::String* PointName; // 0x20
 		::RPG::MVector3 Offset; // 0x28
 		::System::Boolean IsReset; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCAMERAROOTFOLLOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCAMERAROOTFOLLOW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B32D475192D3328(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCameraRootFollow*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCameraRootFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCameraRootFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCAMERAROOTFOLLOW_METHOD_3_4B32D475192D3328_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCameraRootFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCAMERAROOTFOLLOW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7F8D4D40AE6300F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCameraRootFollow* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetCameraRootFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCameraRootFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCAMERAROOTFOLLOW_METHOD_3_7F8D4D40AE6300F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetCameraRootFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCAMERAROOTFOLLOW_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

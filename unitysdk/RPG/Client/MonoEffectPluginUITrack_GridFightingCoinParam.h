@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINUITRACK_GRIDFIGHTINGCOINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CD2E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINUITRACK_GRIDFIGHTINGCOINPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD80F480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginUITrack_GridFightingCoinParam_TypeDefinitionIndex = 70098;
-
 	class MonoEffectPluginUITrack_GridFightingCoinParam : public ::System::Object
 	{
 	public:
@@ -20,11 +17,12 @@ namespace RPG::Client
 		::System::Single ParabolaTargetSafeDistance; // 0x20
 		::System::Single ParabolaScreenSafeDistance; // 0x24
 		::System::Single LinearSpeed; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* LinearOscillationCurve; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINUITRACK_GRIDFIGHTINGCOINPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINUITRACK_GRIDFIGHTINGCOINPARAM_CTOR_OFFSET))(this);
 		}
+
 	};
 }

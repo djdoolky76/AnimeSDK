@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MatchThreeGameOpponent; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS44_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD63A420)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS44_0___REFRESHLOCALRANKDATA_B__3_OFFSET UNITYSDK_OFFSET(0xD641860)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD59AC40)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS44_0___REFRESHLOCALRANKDATA_B__3_OFFSET UNITYSDK_OFFSET(0xD59AC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass44_0_TypeDefinitionIndex = 65987;
-
 	class MatchThreeGame___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:
 		::System::Func_2<::RPG::Client::MatchThreeGameOpponent*, ::System::Boolean>* isAlive; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS44_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS44_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 __RefreshLocalRankData_b__3(::RPG::Client::MatchThreeGameOpponent* a1, ::RPG::Client::MatchThreeGameOpponent* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MatchThreeGameOpponent*, ::RPG::Client::MatchThreeGameOpponent*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS44_0___REFRESHLOCALRANKDATA_B__3_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

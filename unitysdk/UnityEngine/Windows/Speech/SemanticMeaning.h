@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int SemanticMeaning_TypeDefinitionIndex = 4442;
-
 	struct alignas(8) SemanticMeaning
 	{
 		::System::String* key; // 0x10

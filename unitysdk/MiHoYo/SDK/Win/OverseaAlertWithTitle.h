@@ -1,40 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class UIManager; }
+namespace MiHoYo::SDK::Win { class OverseaAlertWithTitle; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B8AE2C0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1B8AEA70)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1B8AEA50)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B8AEAB0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1B8AE8E0)
-#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8AEAD0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BDAA7C0)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CONFIRM_OFFSET UNITYSDK_OFFSET(0x1BDAB030)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDAB090)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BDAB010)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BDAB070)
+#define MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDAAEA0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAlertWithTitle_TypeDefinitionIndex = 9246;
-
 	class OverseaAlertWithTitle : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::OverseaAlertWithTitle** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::OverseaAlertWithTitle**)Il2CppClass::FromTypeDefinitionIndex(OverseaAlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x11790);
-		}
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(OverseaAlertWithTitle_TypeDefinitionIndex)->GetStaticField(0x11798);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* titlePath; // 0x0
-		// static const ::System::String* contentPath; // 0x0
-		// static const ::System::String* confirmBtnPath; // 0x0
-		// static const ::System::String* confirmBtnTextPath; // 0x0
 		::UnityEngine::UI::Text* title; // 0x58
 		::UnityEngine::UI::Text* content; // 0x60
 		::UnityEngine::UI::Button* confirmBtn; // 0x68
@@ -44,10 +29,24 @@ namespace MiHoYo::SDK::Win
 		::System::String* contentText; // 0x88
 		::System::String* confirmTitle; // 0x90
 		::System::String* cancelTitle; // 0x98
+		static ::MiHoYo::SDK::Win::OverseaAlertWithTitle** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::OverseaAlertWithTitle**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAlertWithTitle")->GetStaticField(0xD5F0);
+		}
 
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "OverseaAlertWithTitle")->GetStaticField(0xD5F8);
+		}
+
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* titlePath; // 0x0
+		// static const ::System::String* contentPath; // 0x0
+		// static const ::System::String* confirmBtnPath; // 0x0
+		// static const ::System::String* confirmBtnTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -74,5 +73,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_OVERSEAALERTWITHTITLE_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

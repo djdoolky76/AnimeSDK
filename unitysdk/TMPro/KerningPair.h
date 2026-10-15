@@ -2,56 +2,55 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/TMPro/GlyphValueRecord_Legacy.h"
+namespace TMPro { class KerningPair; }
 
-#define TMPRO_KERNINGPAIR_CONVERTLEGACYKERNINGDATA_OFFSET UNITYSDK_OFFSET(0x1EC1E620)
-#define TMPRO_KERNINGPAIR_GET_FIRSTGLYPHADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x1EC1E580)
-#define TMPRO_KERNINGPAIR_GET_FIRSTGLYPH_OFFSET UNITYSDK_OFFSET(0x1EC1E560)
-#define TMPRO_KERNINGPAIR_GET_IGNORESPACINGADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x1EC1E5C0)
-#define TMPRO_KERNINGPAIR_GET_SECONDGLYPHADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x1EC1E5B0)
-#define TMPRO_KERNINGPAIR_GET_SECONDGLYPH_OFFSET UNITYSDK_OFFSET(0x1EC1E590)
-#define TMPRO_KERNINGPAIR_SET_FIRSTGLYPH_OFFSET UNITYSDK_OFFSET(0x1EC1E570)
-#define TMPRO_KERNINGPAIR_SET_SECONDGLYPH_OFFSET UNITYSDK_OFFSET(0x1EC1E5A0)
-#define TMPRO_KERNINGPAIR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC1E630)
-#define TMPRO_KERNINGPAIR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC1E5F0)
-#define TMPRO_KERNINGPAIR__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EC1E600)
-#define TMPRO_KERNINGPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1E5D0)
+#define TMPRO_KERNINGPAIR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2E5E90)
+#define TMPRO_KERNINGPAIR_CONVERTLEGACYKERNINGDATA_OFFSET UNITYSDK_OFFSET(0x1F2E5E80)
+#define TMPRO_KERNINGPAIR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2E5E50)
+#define TMPRO_KERNINGPAIR_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F2E5E60)
+#define TMPRO_KERNINGPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2E5E30)
+#define TMPRO_KERNINGPAIR_GET_FIRSTGLYPHADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x1F2E5DE0)
+#define TMPRO_KERNINGPAIR_GET_FIRSTGLYPH_OFFSET UNITYSDK_OFFSET(0x1F2E5DC0)
+#define TMPRO_KERNINGPAIR_GET_IGNORESPACINGADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x1F2E5E20)
+#define TMPRO_KERNINGPAIR_GET_SECONDGLYPHADJUSTMENTS_OFFSET UNITYSDK_OFFSET(0x1F2E5E10)
+#define TMPRO_KERNINGPAIR_GET_SECONDGLYPH_OFFSET UNITYSDK_OFFSET(0x1F2E5DF0)
+#define TMPRO_KERNINGPAIR_SET_FIRSTGLYPH_OFFSET UNITYSDK_OFFSET(0x1F2E5DD0)
+#define TMPRO_KERNINGPAIR_SET_SECONDGLYPH_OFFSET UNITYSDK_OFFSET(0x1F2E5E00)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int KerningPair_TypeDefinitionIndex = 43386;
-
 	class KerningPair : public ::System::Object
 	{
 	public:
-		static ::TMPro::KerningPair** StaticGet_empty()
-		{
-			return (::TMPro::KerningPair**)Il2CppClass::FromTypeDefinitionIndex(KerningPair_TypeDefinitionIndex)->GetStaticField(0x1E50);
-		}
 		::System::UInt32 m_FirstGlyph; // 0x10
 		::TMPro::GlyphValueRecord_Legacy m_FirstGlyphAdjustments; // 0x14
 		::System::UInt32 m_SecondGlyph; // 0x24
 		::TMPro::GlyphValueRecord_Legacy m_SecondGlyphAdjustments; // 0x28
 		::System::Single xOffset; // 0x38
 		::System::Boolean m_IgnoreSpacingAdjustments; // 0x3C
+		static ::TMPro::KerningPair** StaticGet_empty()
+		{
+			return (::TMPro::KerningPair**)UnitySDK::FromName("TMPro", "KerningPair")->GetStaticField(0x585A0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::UInt32 a1, ::System::UInt32 a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_2(::System::UInt32 a1, ::TMPro::GlyphValueRecord_Legacy a2, ::System::UInt32 a3, ::TMPro::GlyphValueRecord_Legacy a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy))((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy, ::System::UInt32, ::TMPro::GlyphValueRecord_Legacy))((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR_CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR_CCTOR_OFFSET))();
 		}
 
 		::System::UInt32 get_firstGlyph()
@@ -93,5 +92,6 @@ namespace TMPro
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_KERNINGPAIR_CONVERTLEGACYKERNINGDATA_OFFSET))(this);
 		}
+
 	};
 }

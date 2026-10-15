@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTaskConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameModifier_PlayerUltimateQTE; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_METHOD_4_08C6FD772119667F_OFFSET UNITYSDK_OFFSET(0x1CD5F570)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_METHOD_4_DEC938B7ADC0F002_OFFSET UNITYSDK_OFFSET(0x1CD5F530)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD5F560)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D332D80)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D332D90)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D332D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_PlayerUltimateQTE_TypeDefinitionIndex = 10283;
-
 	class RoadRashGameModifier_PlayerUltimateQTE : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:
@@ -20,20 +18,20 @@ namespace RPG::Client
 		::RPG::GameCore::FixPoint QTETriggerRangeMaxPercent; // 0x20
 		::RPG::GameCore::FixPoint QTEPressDuration; // 0x28
 		::RPG::GameCore::FixPoint QTESuccessRecoverEnergy; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DEC938B7ADC0F002(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_METHOD_4_DEC938B7ADC0F002_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_08C6FD772119667F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_METHOD_4_08C6FD772119667F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameModifier_PlayerUltimateQTE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_PLAYERULTIMATEQTE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

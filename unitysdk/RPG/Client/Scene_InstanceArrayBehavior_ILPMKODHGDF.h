@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/SceneLinearDeformData.h"
+#include "unitysdk/RPG/Client/SceneQuadDeformData.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Rendering/ShadowCastingMode.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace RPG::Client { class Scene_InstanceArrayElementDataMonoBase; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Mesh; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ILPMKODHGDF_CTOR_OFFSET UNITYSDK_OFFSET(0xE099040)
+
+namespace RPG::Client
+{
+	class Scene_InstanceArrayBehavior_ILPMKODHGDF : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::RPG::Client::SceneLinearDeformData>* AEBACOLPEOF; // 0x10
+		::UnityEngine::Mesh* BBBBPICMJMN; // 0x18
+		::Il2CppArray<::RPG::Client::Scene_InstanceArrayElementDataMonoBase*>* CPMAKJCNCKC; // 0x20
+		::UnityEngine::Material* PCANJIIKLDC; // 0x28
+		::Il2CppArray<::UnityEngine::Matrix4x4>* FOKCDJELBFP; // 0x30
+		::Il2CppArray<::RPG::Client::SceneQuadDeformData>* FGNMFMAOECP; // 0x38
+		::Il2CppArray<::UnityEngine::Transform*>* BGJEJINPPGG; // 0x40
+		::Il2CppArray<::UnityEngine::Matrix4x4>* EPBJMODAAEO; // 0x48
+		::Il2CppArray<::UnityEngine::Vector3>* FIOBBLNAIKA; // 0x50
+		::System::UInt32 NFLMENFMMOK; // 0x58
+		::UnityEngine::Rendering::ShadowCastingMode GPJONLFBGKF; // 0x5C
+		::System::Int32 PDHOJECNGIC; // 0x60
+		::System::Boolean LDGOKGNBPPP; // 0x64
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SCENE_INSTANCEARRAYBEHAVIOR_ILPMKODHGDF_CTOR_OFFSET))(this);
+		}
+
+	};
+}

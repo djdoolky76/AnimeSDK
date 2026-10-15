@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::Win { class TapTapToken; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B8FA820)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B8FA890)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B8FA730)
-#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8FA7B0)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BDF9620)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF95B0)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BDF9690)
+#define MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BDF9530)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int TapTapManager_OnLoginDelegate_TypeDefinitionIndex = 9313;
-
 	class TapTapManager_OnLoginDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::Win::TapTapToken* a3)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_TAPTAPMANAGER_ONLOGINDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

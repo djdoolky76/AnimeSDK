@@ -1,42 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AkBaseArray_1.h"
-
 class AkObstructionOcclusionValues;
 
-#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1EEE3D10)
-#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1EEE3C90)
-#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1EEE3BE0)
-#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1EEE3B30)
-#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE3AF0)
+#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1F5AB8C0)
+#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET UNITYSDK_OFFSET(0x1F5AB840)
+#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5AB6A0)
+#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F5AB790)
+#define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F5AB6E0)
 
-inline static constexpr unsigned int AkObstructionOcclusionValuesArray_TypeDefinitionIndex = 43677;
-
-class AkObstructionOcclusionValuesArray : public ::AkBaseArray_1<::AkObstructionOcclusionValues*>
-{
-public:
-	::System::Void _ctor(::System::Int32 a1)
+	class AkObstructionOcclusionValuesArray
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY__CTOR_OFFSET))(this, a1);
-	}
+	public:
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CTOR_OFFSET))(this, a1);
+		}
 
-	::System::Int32 get_StructureSize()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_GET_STRUCTURESIZE_OFFSET))(this);
-	}
+		::System::Int32 get_StructureSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_GET_STRUCTURESIZE_OFFSET))(this);
+		}
 
-	::System::Void DefaultConstructAtIntPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET))(this, a1);
-	}
+		::System::Void DefaultConstructAtIntPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET))(this, a1);
+		}
 
-	::AkObstructionOcclusionValues* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
-	{
-		return ((::AkObstructionOcclusionValues*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
-	}
+		::AkObstructionOcclusionValues* CreateNewReferenceFromIntPtr(::System::IntPtr a1)
+		{
+			return ((::AkObstructionOcclusionValues*(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CREATENEWREFERENCEFROMINTPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkObstructionOcclusionValues* a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkObstructionOcclusionValues*))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
-	}
-};
+		::System::Void CloneIntoReferenceFromIntPtr(::System::IntPtr a1, ::AkObstructionOcclusionValues* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::AkObstructionOcclusionValues*))((::PBYTE)hIl2Cpp + AKOBSTRUCTIONOCCLUSIONVALUESARRAY_CLONEINTOREFERENCEFROMINTPTR_OFFSET))(this, a1, a2);
+		}
+
+	};

@@ -1,39 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace RPG::Client { class MonoAttackHitBox_Class_3_A1231C7CCD391D53; }
+namespace RPG::Client { class MonoAttackHitBox_JHIPMDABILM; }
 namespace RPG::GameCore { class GameEntity; }
-namespace System { class String; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOATTACKHITBOX_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD730B30)
-#define RPG_CLIENT_MONOATTACKHITBOX_METHOD_5_42C5BADE1C9EFC80_OFFSET UNITYSDK_OFFSET(0xD730CD0)
-#define RPG_CLIENT_MONOATTACKHITBOX_METHOD_5_C8D6B29192F288ED_OFFSET UNITYSDK_OFFSET(0xD730D70)
-#define RPG_CLIENT_MONOATTACKHITBOX_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD7310B0)
-#define RPG_CLIENT_MONOATTACKHITBOX_RIGISTERHITDETECTRESULTFUNC_OFFSET UNITYSDK_OFFSET(0xD7312C0)
-#define RPG_CLIENT_MONOATTACKHITBOX_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD730AF0)
-#define RPG_CLIENT_MONOATTACKHITBOX_UNRIGISTERHITDETECTRESULTFUNC_OFFSET UNITYSDK_OFFSET(0xD731310)
-#define RPG_CLIENT_MONOATTACKHITBOX_UPDATE_OFFSET UNITYSDK_OFFSET(0xD730B80)
-#define RPG_CLIENT_MONOATTACKHITBOX__CTOR_OFFSET UNITYSDK_OFFSET(0xD731360)
+#define RPG_CLIENT_MONOATTACKHITBOX_BEHMOIBIIEL_OFFSET UNITYSDK_OFFSET(0xD7300D0)
+#define RPG_CLIENT_MONOATTACKHITBOX_CTOR_OFFSET UNITYSDK_OFFSET(0xD730700)
+#define RPG_CLIENT_MONOATTACKHITBOX_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD72FF30)
+#define RPG_CLIENT_MONOATTACKHITBOX_LIFFDIEINAN_OFFSET UNITYSDK_OFFSET(0xD730170)
+#define RPG_CLIENT_MONOATTACKHITBOX_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD730450)
+#define RPG_CLIENT_MONOATTACKHITBOX_RIGISTERHITDETECTRESULTFUNC_OFFSET UNITYSDK_OFFSET(0xD730660)
+#define RPG_CLIENT_MONOATTACKHITBOX_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD72FEF0)
+#define RPG_CLIENT_MONOATTACKHITBOX_UNRIGISTERHITDETECTRESULTFUNC_OFFSET UNITYSDK_OFFSET(0xD7306B0)
+#define RPG_CLIENT_MONOATTACKHITBOX_UPDATE_OFFSET UNITYSDK_OFFSET(0xD72FF80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAttackHitBox_TypeDefinitionIndex = 68495;
-
 	class MonoAttackHitBox : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* BIOKDLGFAKD; // 0x0
-		// static const ::System::String* PNEBBDIFAFJ; // 0x0
 		::RPG::GameCore::GameEntity* HOEGAPJBABG; // 0x18
 		::UnityEngine::Transform* PKHCMAKACLF; // 0x20
-		::RPG::Client::MonoAttackHitBox_Class_3_A1231C7CCD391D53* PLIMJDDAMHM; // 0x28
-
+		::RPG::Client::MonoAttackHitBox_JHIPMDABILM* PLIMJDDAMHM; // 0x28
+		// static const ::System::String* BIOKDLGFAKD; // 0x0
+		// static const ::System::String* PNEBBDIFAFJ; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Spawned()
@@ -56,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_ONTRIGGERENTER_OFFSET))(this, a1);
 		}
 
-		::System::Void RigisterHitDetectResultFunc(::RPG::Client::MonoAttackHitBox_Class_3_A1231C7CCD391D53* a1)
+		::System::Void RigisterHitDetectResultFunc(::RPG::Client::MonoAttackHitBox_JHIPMDABILM* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoAttackHitBox_Class_3_A1231C7CCD391D53*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_RIGISTERHITDETECTRESULTFUNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoAttackHitBox_JHIPMDABILM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_RIGISTERHITDETECTRESULTFUNC_OFFSET))(this, a1);
 		}
 
 		::System::Void UnRigisterHitDetectResultFunc()
@@ -66,14 +61,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_UNRIGISTERHITDETECTRESULTFUNC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_42C5BADE1C9EFC80()
+		::System::Boolean BEHMOIBIIEL()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_METHOD_5_42C5BADE1C9EFC80_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_BEHMOIBIIEL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_C8D6B29192F288ED()
+		::System::Void LIFFDIEINAN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_METHOD_5_C8D6B29192F288ED_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOATTACKHITBOX_LIFFDIEINAN_OFFSET))(this);
 		}
+
 	};
 }

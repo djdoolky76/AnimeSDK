@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactConstraintPoint_TypeDefinitionIndex = 35933;
-
 	struct alignas(4) B2ContactConstraintPoint
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 anchorA; // 0x10

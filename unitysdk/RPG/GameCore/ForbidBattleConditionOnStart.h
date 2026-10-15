@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ForbidBattleConditionOnStart; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_METHOD_3_052DD92380D71B57_OFFSET UNITYSDK_OFFSET(0x1D10F120)
-#define RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_METHOD_3_AE7B1C60F67DCBFA_OFFSET UNITYSDK_OFFSET(0x1D10F050)
-#define RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10F110)
+#define RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E8AD0)
+#define RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6E8AE0)
+#define RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E8A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForbidBattleConditionOnStart_TypeDefinitionIndex = 23085;
-
 	class ForbidBattleConditionOnStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AE7B1C60F67DCBFA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForbidBattleConditionOnStart*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ForbidBattleConditionOnStart* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForbidBattleConditionOnStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_METHOD_3_AE7B1C60F67DCBFA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ForbidBattleConditionOnStart*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_052DD92380D71B57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForbidBattleConditionOnStart* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ForbidBattleConditionOnStart* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForbidBattleConditionOnStart*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_METHOD_3_052DD92380D71B57_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ForbidBattleConditionOnStart*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORBIDBATTLECONDITIONONSTART_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

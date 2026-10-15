@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Text/EncoderFallback.h"
-
 namespace System::Text { class EncoderFallbackBuffer; }
 namespace System::Xml { class CharEntityEncoderFallbackBuffer; }
 
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET UNITYSDK_OFFSET(0x1E7CAC00)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1E7CAB40)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1E7CABD0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET UNITYSDK_OFFSET(0x1E7CABF0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET UNITYSDK_OFFSET(0x1E7CABE0)
-#define SYSTEM_XML_CHARENTITYENCODERFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7CAB30)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET UNITYSDK_OFFSET(0x1EE939C0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CREATEFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1EE93900)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE938F0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_GET_MAXCHARCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE93990)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_RESET_OFFSET UNITYSDK_OFFSET(0x1EE939B0)
+#define SYSTEM_XML_CHARENTITYENCODERFALLBACK_SET_STARTOFFSET_OFFSET UNITYSDK_OFFSET(0x1EE939A0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int CharEntityEncoderFallback_TypeDefinitionIndex = 1796;
-
 	class CharEntityEncoderFallback : public ::System::Text::EncoderFallback
 	{
 	public:
-		::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer; // 0x18
-		::Il2CppArray<::System::Int32>* textContentMarks; // 0x20
-		::System::Int32 curMarkPos; // 0x28
-		::System::Int32 endMarkPos; // 0x2C
-		::System::Int32 startOffset; // 0x30
-
+		::Il2CppArray<::System::Int32>* textContentMarks; // 0x18
+		::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer; // 0x20
+		::System::Int32 startOffset; // 0x28
+		::System::Int32 curMarkPos; // 0x2C
+		::System::Int32 endMarkPos; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer()
@@ -54,5 +50,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_CHARENTITYENCODERFALLBACK_CANREPLACEAT_OFFSET))(this, a1);
 		}
+
 	};
 }

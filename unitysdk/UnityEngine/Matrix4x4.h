@@ -1,75 +1,66 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Vector4.h"
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_MATRIX4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BB9F30)
-#define UNITYENGINE_MATRIX4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BB9E90)
-#define UNITYENGINE_MATRIX4X4_GETCOLUMN_OFFSET UNITYSDK_OFFSET(0x3BB9FC0)
-#define UNITYENGINE_MATRIX4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BB9C90)
-#define UNITYENGINE_MATRIX4X4_GETLOSSYSCALE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED37660)
-#define UNITYENGINE_MATRIX4X4_GETLOSSYSCALE_OFFSET UNITYSDK_OFFSET(0x3BB9A10)
-#define UNITYENGINE_MATRIX4X4_GETROTATION_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED37650)
-#define UNITYENGINE_MATRIX4X4_GETROTATION_OFFSET UNITYSDK_OFFSET(0x3BB99E0)
-#define UNITYENGINE_MATRIX4X4_GETROW_OFFSET UNITYSDK_OFFSET(0x3BB9FE0)
-#define UNITYENGINE_MATRIX4X4_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x1ED36E90)
-#define UNITYENGINE_MATRIX4X4_GET_INVERSE_OFFSET UNITYSDK_OFFSET(0x3BB9B30)
-#define UNITYENGINE_MATRIX4X4_GET_ISIDENTITY_OFFSET UNITYSDK_OFFSET(0x3BB9A50)
-#define UNITYENGINE_MATRIX4X4_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x3BB9C70)
-#define UNITYENGINE_MATRIX4X4_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3BB9C50)
-#define UNITYENGINE_MATRIX4X4_GET_LOSSYSCALE_OFFSET UNITYSDK_OFFSET(0x3BB9A10)
-#define UNITYENGINE_MATRIX4X4_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x3BB99E0)
-#define UNITYENGINE_MATRIX4X4_GET_TRANSPOSE_OFFSET UNITYSDK_OFFSET(0x3BB9BC0)
-#define UNITYENGINE_MATRIX4X4_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1ED36E60)
-#define UNITYENGINE_MATRIX4X4_INVERSE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED376A0)
-#define UNITYENGINE_MATRIX4X4_INVERSE_OFFSET UNITYSDK_OFFSET(0x1ED35A50)
-#define UNITYENGINE_MATRIX4X4_ISIDENTITY_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED37670)
-#define UNITYENGINE_MATRIX4X4_ISIDENTITY_OFFSET UNITYSDK_OFFSET(0x3BB9A50)
-#define UNITYENGINE_MATRIX4X4_MULTIPLYPOINT3X4_OFFSET UNITYSDK_OFFSET(0x3B90310)
-#define UNITYENGINE_MATRIX4X4_MULTIPLYPOINT_OFFSET UNITYSDK_OFFSET(0x3B90230)
-#define UNITYENGINE_MATRIX4X4_MULTIPLYVECTOR_OFFSET UNITYSDK_OFFSET(0x3B903A0)
-#define UNITYENGINE_MATRIX4X4_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1ED366A0)
-#define UNITYENGINE_MATRIX4X4_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1ED367A0)
-#define UNITYENGINE_MATRIX4X4_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1ED36630)
-#define UNITYENGINE_MATRIX4X4_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1ED36460)
-#define UNITYENGINE_MATRIX4X4_ORTHO_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED376C0)
-#define UNITYENGINE_MATRIX4X4_ORTHO_OFFSET UNITYSDK_OFFSET(0x1ED35C30)
-#define UNITYENGINE_MATRIX4X4_PERSPECTIVE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED376D0)
-#define UNITYENGINE_MATRIX4X4_PERSPECTIVE_OFFSET UNITYSDK_OFFSET(0x1ED35CE0)
-#define UNITYENGINE_MATRIX4X4_ROTATE_OFFSET UNITYSDK_OFFSET(0x1ED36D00)
-#define UNITYENGINE_MATRIX4X4_SCALE_OFFSET UNITYSDK_OFFSET(0x1ED36C70)
-#define UNITYENGINE_MATRIX4X4_SETCOLUMN_OFFSET UNITYSDK_OFFSET(0x3BBA000)
-#define UNITYENGINE_MATRIX4X4_SETROW_OFFSET UNITYSDK_OFFSET(0x3BBA0A0)
-#define UNITYENGINE_MATRIX4X4_SETTRS_OFFSET UNITYSDK_OFFSET(0x3BB9A70)
-#define UNITYENGINE_MATRIX4X4_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x3BB9C80)
-#define UNITYENGINE_MATRIX4X4_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3BB9C60)
-#define UNITYENGINE_MATRIX4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BBA130)
-#define UNITYENGINE_MATRIX4X4_TRANSLATE_OFFSET UNITYSDK_OFFSET(0x1ED36CB0)
-#define UNITYENGINE_MATRIX4X4_TRANSPOSE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED376B0)
-#define UNITYENGINE_MATRIX4X4_TRANSPOSE_OFFSET UNITYSDK_OFFSET(0x1ED35B40)
-#define UNITYENGINE_MATRIX4X4_TRS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED37690)
-#define UNITYENGINE_MATRIX4X4_TRS_OFFSET UNITYSDK_OFFSET(0x1ED35920)
-#define UNITYENGINE_MATRIX4X4_VALIDTRS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1ED37680)
-#define UNITYENGINE_MATRIX4X4_VALIDTRS_OFFSET UNITYSDK_OFFSET(0x3BB9A60)
-#define UNITYENGINE_MATRIX4X4__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED375F0)
-#define UNITYENGINE_MATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0x3B8FE40)
+#define UNITYENGINE_MATRIX4X4_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3FF550)
+#define UNITYENGINE_MATRIX4X4_CTOR_OFFSET UNITYSDK_OFFSET(0x3C44D50)
+#define UNITYENGINE_MATRIX4X4_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C6F750)
+#define UNITYENGINE_MATRIX4X4_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C6F6B0)
+#define UNITYENGINE_MATRIX4X4_GETCOLUMN_OFFSET UNITYSDK_OFFSET(0x3C6F7E0)
+#define UNITYENGINE_MATRIX4X4_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C6F4B0)
+#define UNITYENGINE_MATRIX4X4_GETLOSSYSCALE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF5C0)
+#define UNITYENGINE_MATRIX4X4_GETLOSSYSCALE_OFFSET UNITYSDK_OFFSET(0x3C6EE70)
+#define UNITYENGINE_MATRIX4X4_GETROTATION_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF5B0)
+#define UNITYENGINE_MATRIX4X4_GETROTATION_OFFSET UNITYSDK_OFFSET(0x3C6EE40)
+#define UNITYENGINE_MATRIX4X4_GETROW_OFFSET UNITYSDK_OFFSET(0x3C6F800)
+#define UNITYENGINE_MATRIX4X4_GET_IDENTITY_OFFSET UNITYSDK_OFFSET(0x1F3FEDF0)
+#define UNITYENGINE_MATRIX4X4_GET_INVERSE_OFFSET UNITYSDK_OFFSET(0x3C6EF90)
+#define UNITYENGINE_MATRIX4X4_GET_ISIDENTITY_OFFSET UNITYSDK_OFFSET(0x3C6EEB0)
+#define UNITYENGINE_MATRIX4X4_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x3C6F2B0)
+#define UNITYENGINE_MATRIX4X4_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C6F0B0)
+#define UNITYENGINE_MATRIX4X4_GET_LOSSYSCALE_OFFSET UNITYSDK_OFFSET(0x3C6EE70)
+#define UNITYENGINE_MATRIX4X4_GET_ROTATION_OFFSET UNITYSDK_OFFSET(0x3C6EE40)
+#define UNITYENGINE_MATRIX4X4_GET_TRANSPOSE_OFFSET UNITYSDK_OFFSET(0x3C6F020)
+#define UNITYENGINE_MATRIX4X4_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1F3FEDC0)
+#define UNITYENGINE_MATRIX4X4_INVERSE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF600)
+#define UNITYENGINE_MATRIX4X4_INVERSE_OFFSET UNITYSDK_OFFSET(0x1F3FD5D0)
+#define UNITYENGINE_MATRIX4X4_ISIDENTITY_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF5D0)
+#define UNITYENGINE_MATRIX4X4_ISIDENTITY_OFFSET UNITYSDK_OFFSET(0x3C6EEB0)
+#define UNITYENGINE_MATRIX4X4_MULTIPLYPOINT3X4_OFFSET UNITYSDK_OFFSET(0x3C45220)
+#define UNITYENGINE_MATRIX4X4_MULTIPLYPOINT_OFFSET UNITYSDK_OFFSET(0x3C45140)
+#define UNITYENGINE_MATRIX4X4_MULTIPLYVECTOR_OFFSET UNITYSDK_OFFSET(0x3C452B0)
+#define UNITYENGINE_MATRIX4X4_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F3FE370)
+#define UNITYENGINE_MATRIX4X4_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1F3FE470)
+#define UNITYENGINE_MATRIX4X4_OP_MULTIPLY_1_OFFSET UNITYSDK_OFFSET(0x1F3FE300)
+#define UNITYENGINE_MATRIX4X4_OP_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F3FE130)
+#define UNITYENGINE_MATRIX4X4_ORTHO_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF620)
+#define UNITYENGINE_MATRIX4X4_ORTHO_OFFSET UNITYSDK_OFFSET(0x1F3FD7B0)
+#define UNITYENGINE_MATRIX4X4_PERSPECTIVE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF630)
+#define UNITYENGINE_MATRIX4X4_PERSPECTIVE_OFFSET UNITYSDK_OFFSET(0x1F3FD860)
+#define UNITYENGINE_MATRIX4X4_ROTATE_OFFSET UNITYSDK_OFFSET(0x1F3FEC60)
+#define UNITYENGINE_MATRIX4X4_SCALE_OFFSET UNITYSDK_OFFSET(0x1F3FEBD0)
+#define UNITYENGINE_MATRIX4X4_SETCOLUMN_OFFSET UNITYSDK_OFFSET(0x3C6F820)
+#define UNITYENGINE_MATRIX4X4_SETROW_OFFSET UNITYSDK_OFFSET(0x3C6F880)
+#define UNITYENGINE_MATRIX4X4_SETTRS_OFFSET UNITYSDK_OFFSET(0x3C6EED0)
+#define UNITYENGINE_MATRIX4X4_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x3C6F3B0)
+#define UNITYENGINE_MATRIX4X4_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C6F1B0)
+#define UNITYENGINE_MATRIX4X4_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C6FAA0)
+#define UNITYENGINE_MATRIX4X4_TRANSLATE_OFFSET UNITYSDK_OFFSET(0x1F3FEC10)
+#define UNITYENGINE_MATRIX4X4_TRANSPOSE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF610)
+#define UNITYENGINE_MATRIX4X4_TRANSPOSE_OFFSET UNITYSDK_OFFSET(0x1F3FD6C0)
+#define UNITYENGINE_MATRIX4X4_TRS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF5F0)
+#define UNITYENGINE_MATRIX4X4_TRS_OFFSET UNITYSDK_OFFSET(0x1F3FD4A0)
+#define UNITYENGINE_MATRIX4X4_VALIDTRS_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F3FF5E0)
+#define UNITYENGINE_MATRIX4X4_VALIDTRS_OFFSET UNITYSDK_OFFSET(0x3C6EEC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Matrix4x4_TypeDefinitionIndex = 4223;
-
 	struct alignas(4) Matrix4x4
 	{
-		static ::UnityEngine::Matrix4x4* StaticGet_zeroMatrix()
-		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(Matrix4x4_TypeDefinitionIndex)->GetStaticField(0x74A0);
-		}
-		static ::UnityEngine::Matrix4x4* StaticGet_identityMatrix()
-		{
-			return (::UnityEngine::Matrix4x4*)Il2CppClass::FromTypeDefinitionIndex(Matrix4x4_TypeDefinitionIndex)->GetStaticField(0x74E0);
-		}
 		::System::Single m00; // 0x10
 		::System::Single m10; // 0x14
 		::System::Single m20; // 0x18
@@ -86,51 +77,50 @@ namespace UnityEngine
 		::System::Single m13; // 0x44
 		::System::Single m23; // 0x48
 		::System::Single m33; // 0x4C
+		static ::UnityEngine::Matrix4x4* StaticGet_zeroMatrix()
+		{
+			return (::UnityEngine::Matrix4x4*)UnitySDK::FromName("UnityEngine", "Matrix4x4")->GetStaticField(0x3EB0);
+		}
 
-		/*
+		static ::UnityEngine::Matrix4x4* StaticGet_identityMatrix()
+		{
+			return (::UnityEngine::Matrix4x4*)UnitySDK::FromName("UnityEngine", "Matrix4x4")->GetStaticField(0x3EF0);
+		}
+
 		::System::Void _ctor(::UnityEngine::Vector4 a1, ::UnityEngine::Vector4 a2, ::UnityEngine::Vector4 a3, ::UnityEngine::Vector4 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
-		*/
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_CCTOR_OFFSET))();
 		}
 
-		/*
 		::UnityEngine::Quaternion GetRotation()
 		{
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETROTATION_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector3 GetLossyScale()
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETLOSSYSCALE_OFFSET))(this);
 		}
-		*/
 
 		::System::Boolean IsIdentity()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_ISIDENTITY_OFFSET))(this);
 		}
 
-		/*
 		::UnityEngine::Quaternion get_rotation()
 		{
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GET_ROTATION_OFFSET))(this);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector3 get_lossyScale()
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GET_LOSSYSCALE_OFFSET))(this);
 		}
-		*/
 
 		::System::Boolean get_isIdentity()
 		{
@@ -149,42 +139,52 @@ namespace UnityEngine
 		}
 		*/
 
-		/*
 		::System::Void SetTRS(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Vector3 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_SETTRS_OFFSET))(this, a1, a2, a3);
 		}
-		*/
 
+		/*
 		static ::UnityEngine::Matrix4x4 Inverse(::UnityEngine::Matrix4x4 a1)
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_INVERSE_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::UnityEngine::Matrix4x4 get_inverse()
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GET_INVERSE_OFFSET))(this);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Matrix4x4 Transpose(::UnityEngine::Matrix4x4 a1)
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_TRANSPOSE_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::UnityEngine::Matrix4x4 get_transpose()
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GET_TRANSPOSE_OFFSET))(this);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Matrix4x4 Ortho(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6)
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_ORTHO_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Matrix4x4 Perspective(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_PERSPECTIVE_OFFSET))(a1, a2, a3, a4);
 		}
+		*/
 
 		::System::Single get_Item(::System::Int32 a1, ::System::Int32 a2)
 		{
@@ -216,15 +216,19 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::Matrix4x4 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Matrix4x4 op_Multiply(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Matrix4x4 a2)
 		{
 			return ((::UnityEngine::Matrix4x4(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_OP_MULTIPLY_OFFSET))(a1, a2);
 		}
+		*/
 
 		/*
 		static ::UnityEngine::Vector4 op_Multiply_1(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Vector4 a2)
@@ -233,64 +237,54 @@ namespace UnityEngine
 		}
 		*/
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Matrix4x4 a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Matrix4x4 a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
-		/*
 		::UnityEngine::Vector4 GetColumn(::System::Int32 a1)
 		{
 			return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETCOLUMN_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector4 GetRow(::System::Int32 a1)
 		{
 			return ((::UnityEngine::Vector4(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETROW_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::System::Void SetColumn(::System::Int32 a1, ::UnityEngine::Vector4 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_SETCOLUMN_OFFSET))(this, a1, a2);
 		}
-		*/
 
-		/*
 		::System::Void SetRow(::System::Int32 a1, ::UnityEngine::Vector4 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_SETROW_OFFSET))(this, a1, a2);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector3 MultiplyPoint(::UnityEngine::Vector3 a1)
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_MULTIPLYPOINT_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector3 MultiplyPoint3x4(::UnityEngine::Vector3 a1)
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_MULTIPLYPOINT3X4_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Vector3 MultiplyVector(::UnityEngine::Vector3 a1)
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_MULTIPLYVECTOR_OFFSET))(this, a1);
 		}
-		*/
 
 		/*
 		static ::UnityEngine::Matrix4x4 Scale(::UnityEngine::Vector3 a1)
@@ -313,15 +307,19 @@ namespace UnityEngine
 		}
 		*/
 
+		/*
 		static ::UnityEngine::Matrix4x4 get_zero()
 		{
 			return ((::UnityEngine::Matrix4x4(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GET_ZERO_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::UnityEngine::Matrix4x4 get_identity()
 		{
 			return ((::UnityEngine::Matrix4x4(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GET_IDENTITY_OFFSET))();
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -329,54 +327,67 @@ namespace UnityEngine
 		}
 
 		/*
-		static ::System::Void GetRotation_Injected(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Quaternion& a2)
+		static ::System::Void GetRotation_Injected(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Quaternion a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETROTATION_INJECTED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETROTATION_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
 
 		/*
-		static ::System::Void GetLossyScale_Injected(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Vector3& a2)
+		static ::System::Void GetLossyScale_Injected(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETLOSSYSCALE_INJECTED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_GETLOSSYSCALE_INJECTED_OFFSET))(a1, a2);
 		}
 		*/
-
-		static ::System::Boolean IsIdentity_Injected(::UnityEngine::Matrix4x4& a1)
-		{
-			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_ISIDENTITY_INJECTED_OFFSET))(a1);
-		}
-
-		static ::System::Boolean ValidTRS_Injected(::UnityEngine::Matrix4x4& a1)
-		{
-			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_VALIDTRS_INJECTED_OFFSET))(a1);
-		}
 
 		/*
-		static ::System::Void TRS_Injected(::UnityEngine::Vector3& a1, ::UnityEngine::Quaternion& a2, ::UnityEngine::Vector3& a3, ::UnityEngine::Matrix4x4& a4)
+		static ::System::Boolean IsIdentity_Injected(::UnityEngine::Matrix4x4 a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3&, ::UnityEngine::Quaternion&, ::UnityEngine::Vector3&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_TRS_INJECTED_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_ISIDENTITY_INJECTED_OFFSET))(a1);
 		}
 		*/
 
-		static ::System::Void Inverse_Injected(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Matrix4x4& a2)
+		/*
+		static ::System::Boolean ValidTRS_Injected(::UnityEngine::Matrix4x4 a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_INVERSE_INJECTED_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_VALIDTRS_INJECTED_OFFSET))(a1);
 		}
+		*/
 
-		static ::System::Void Transpose_Injected(::UnityEngine::Matrix4x4& a1, ::UnityEngine::Matrix4x4& a2)
+		/*
+		static ::System::Void TRS_Injected(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Matrix4x4 a4)
 		{
-			return ((::System::Void(*)(::UnityEngine::Matrix4x4&, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_TRANSPOSE_INJECTED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_TRS_INJECTED_OFFSET))(a1, a2, a3, a4);
 		}
+		*/
 
-		static ::System::Void Ortho_Injected(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::Matrix4x4& a7)
+		/*
+		static ::System::Void Inverse_Injected(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::Void(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_ORTHO_INJECTED_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_INVERSE_INJECTED_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Void Perspective_Injected(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Matrix4x4& a5)
+		/*
+		static ::System::Void Transpose_Injected(::UnityEngine::Matrix4x4 a1, ::UnityEngine::Matrix4x4 a2)
 		{
-			return ((::System::Void(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Matrix4x4&))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_PERSPECTIVE_INJECTED_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_TRANSPOSE_INJECTED_OFFSET))(a1, a2);
 		}
+		*/
+
+		/*
+		static ::System::Void Ortho_Injected(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::UnityEngine::Matrix4x4 a7)
+		{
+			return ((::System::Void(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_ORTHO_INJECTED_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+		}
+		*/
+
+		/*
+		static ::System::Void Perspective_Injected(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Matrix4x4 a5)
+		{
+			return ((::System::Void(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + UNITYENGINE_MATRIX4X4_PERSPECTIVE_INJECTED_OFFSET))(a1, a2, a3, a4, a5);
+		}
+		*/
+
 	};
 }

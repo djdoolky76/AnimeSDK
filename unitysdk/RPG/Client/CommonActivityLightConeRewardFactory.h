@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CommonActivityLightConeRewardData; }
 namespace RPG::Client { class CommonActivityLightConeRewardGroup; }
 namespace RPG::GameCore { class ActivityEquipmentRewardMaterialRow; }
 
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET UNITYSDK_OFFSET(0xCC555A0)
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xCC550C0)
-#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xCC557E0)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET UNITYSDK_OFFSET(0xCBA4480)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xCBA3FA0)
+#define RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA46C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CommonActivityLightConeRewardFactory_TypeDefinitionIndex = 61769;
-
 	class CommonActivityLightConeRewardFactory : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::CommonActivityLightConeRewardData* Create(::System::UInt32 a1)
@@ -31,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::CommonActivityLightConeRewardGroup*(*)(::RPG::GameCore::ActivityEquipmentRewardMaterialRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMMONACTIVITYLIGHTCONEREWARDFACTORY_CREATEGROUP_OFFSET))(a1);
 		}
+
 	};
 }

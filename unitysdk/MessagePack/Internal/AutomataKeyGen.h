@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-
+namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET UNITYSDK_OFFSET(0x1B684C70)
-#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B688910)
+#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB870A0)
+#define MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET UNITYSDK_OFFSET(0x1BB83570)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int AutomataKeyGen_TypeDefinitionIndex = 7233;
-
 	class AutomataKeyGen : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet_GetKeyMethod()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(AutomataKeyGen_TypeDefinitionIndex)->GetStaticField(0x2AE40);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "AutomataKeyGen")->GetStaticField(0x25880);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_CCTOR_OFFSET))();
 		}
 
-		static ::System::UInt64 GetKey(::System::ReadOnlySpan_1<::System::Byte>& a1)
+		static ::System::UInt64 GetKey(::System::Object* a1)
 		{
-			return ((::System::UInt64(*)(::System::ReadOnlySpan_1<::System::Byte>&))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET))(a1);
+			return ((::System::UInt64(*)(::System::Object*))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_AUTOMATAKEYGEN_GETKEY_OFFSET))(a1);
 		}
+
 	};
 }

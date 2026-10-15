@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMInfo_TypeDefinitionIndex = 7512;
-
 	class APMInfo : public ::System::Object
 	{
 	public:

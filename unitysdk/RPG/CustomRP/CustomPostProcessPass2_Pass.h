@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomPostProcessPass2_Pass_TypeDefinitionIndex = 37094;
-
 	enum class CustomPostProcessPass2_Pass : ::System::Int32
 	{
 		Downsample = 0,

@@ -2,25 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ParameterizedStrings_FormatParam.h"
+namespace System { class Object; }
 
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BD832E0)
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_POP_OFFSET UNITYSDK_OFFSET(0x1BD84390)
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x1BD84930)
-#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD832A0)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C28EF70)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C28EF30)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_POP_OFFSET UNITYSDK_OFFSET(0x1C290020)
+#define SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x1C2905C0)
 
 namespace System
 {
-	inline static constexpr unsigned int ParameterizedStrings_LowLevelStack_TypeDefinitionIndex = 429;
-
 	class ParameterizedStrings_LowLevelStack : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::ParameterizedStrings_FormatParam>* _arr; // 0x10
+		::Il2CppArray<::System::Object*>* _arr; // 0x10
 		::System::Int32 _count; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_CTOR_OFFSET))(this);
 		}
 
 		::System::ParameterizedStrings_FormatParam Pop()
@@ -37,5 +35,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARAMETERIZEDSTRINGS_LOWLEVELSTACK_CLEAR_OFFSET))(this);
 		}
+
 	};
 }

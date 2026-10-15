@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class MGODMMLBALG;
+namespace RPG::Client { class TeamBuildCalculator; }
+namespace RPG::Client { class TeamBuildSynopsis; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define GIKFAOJHKOL_BJAMFLGEBMI_OFFSET UNITYSDK_OFFSET(0x15A40D30)
+#define GIKFAOJHKOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15A40A40)
+#define GIKFAOJHKOL_GET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x15A40F90)
+#define GIKFAOJHKOL_LBKCMJJFKOG_OFFSET UNITYSDK_OFFSET(0x15A40A90)
+#define GIKFAOJHKOL_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x15A40FA0)
+
+	class GIKFAOJHKOL : public ::System::Object
+	{
+	public:
+		::RPG::Client::TeamBuildCalculator* BPDDDIBIIGE; // 0x10
+		::MGODMMLBALG* _PlayerReturnTrialAvatarInfoProvider_k__BackingField; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::Promises::IPromise* LBKCMJJFKOG()
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_LBKCMJJFKOG_OFFSET))(this);
+		}
+
+		::System::Void BJAMFLGEBMI()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_BJAMFLGEBMI_OFFSET))(this);
+		}
+
+		::MGODMMLBALG* get_PlayerReturnTrialAvatarInfoProvider()
+		{
+			return ((::MGODMMLBALG*(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_GET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerReturnTrialAvatarInfoProvider(::MGODMMLBALG* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MGODMMLBALG*))((::PBYTE)hIl2Cpp + GIKFAOJHKOL_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET))(this, a1);
+		}
+
+	};

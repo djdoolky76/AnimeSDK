@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_LUADLL_LUA_CSFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B27150)
-#define XLUA_LUADLL_LUA_CSFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B271A0)
-#define XLUA_LUADLL_LUA_CSFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B27140)
-#define XLUA_LUADLL_LUA_CSFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14B270D0)
+#define XLUA_LUADLL_LUA_CSFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DBD650)
+#define XLUA_LUADLL_LUA_CSFUNCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x14DBD5D0)
+#define XLUA_LUADLL_LUA_CSFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DBD6A0)
+#define XLUA_LUADLL_LUA_CSFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DBD640)
 
 namespace XLua::LuaDLL
 {
-	inline static constexpr unsigned int lua_CSFunction_TypeDefinitionIndex = 52003;
-
 	class lua_CSFunction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUADLL_LUA_CSFUNCTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_LUADLL_LUA_CSFUNCTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::IntPtr a1)
@@ -37,5 +34,6 @@ namespace XLua::LuaDLL
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_LUADLL_LUA_CSFUNCTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

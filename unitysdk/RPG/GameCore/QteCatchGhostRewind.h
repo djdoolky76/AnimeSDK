@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class QteCatchGhostRewind; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_576E08067ED778DE_OFFSET UNITYSDK_OFFSET(0x1D378960)
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_7DCB065A69407B03_OFFSET UNITYSDK_OFFSET(0x1D378920)
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D378950)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95EAD0)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95EAE0)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95EAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QteCatchGhostRewind_TypeDefinitionIndex = 21798;
-
 	class QteCatchGhostRewind : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -23,20 +21,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* GoodRadius; // 0x30
 		::RPG::GameCore::DynamicFloat* StruggleDuration; // 0x38
 		::RPG::GameCore::DynamicFloat* InteractRadius; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7DCB065A69407B03(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewind*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::QteCatchGhostRewind* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_7DCB065A69407B03_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::QteCatchGhostRewind*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_576E08067ED778DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewind* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::QteCatchGhostRewind* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewind*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_576E08067ED778DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::QteCatchGhostRewind*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

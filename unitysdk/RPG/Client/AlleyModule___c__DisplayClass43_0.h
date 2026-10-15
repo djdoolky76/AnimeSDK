@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC73E0F0)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0___ONFINISHSTAGEMAINMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xC7565A0)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC65C200)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0___ONFINISHSTAGEMAINMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xC674650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule___c__DisplayClass43_0_TypeDefinitionIndex = 62337;
-
 	class AlleyModule___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 mainMissionID; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __OnFinishStageMainMission_b__0(::System::UInt32 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0___ONFINISHSTAGEMAINMISSION_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

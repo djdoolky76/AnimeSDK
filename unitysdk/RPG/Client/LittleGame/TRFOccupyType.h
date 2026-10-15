@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TRFOccupyType_TypeDefinitionIndex = 41143;
-
 	enum class TRFOccupyType : ::System::Int32
 	{
 		None = 0,

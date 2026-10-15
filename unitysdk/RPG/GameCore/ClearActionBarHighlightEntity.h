@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ClearActionBarHighlightEntity; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_485220526FF8E5F6_OFFSET UNITYSDK_OFFSET(0x1CFD98A0)
-#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_ADDB0D0726F41EB5_OFFSET UNITYSDK_OFFSET(0x1CFD98E0)
-#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD98D0)
+#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5570)
+#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B5580)
+#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B5540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearActionBarHighlightEntity_TypeDefinitionIndex = 22992;
-
 	class ClearActionBarHighlightEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_485220526FF8E5F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearActionBarHighlightEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearActionBarHighlightEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearActionBarHighlightEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_485220526FF8E5F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearActionBarHighlightEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ADDB0D0726F41EB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearActionBarHighlightEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ClearActionBarHighlightEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearActionBarHighlightEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_ADDB0D0726F41EB5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ClearActionBarHighlightEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonGridType_TypeDefinitionIndex = 12429;
-
 	enum class TreasureDungeonGridType : ::System::Int32
 	{
 		Normal = 1,

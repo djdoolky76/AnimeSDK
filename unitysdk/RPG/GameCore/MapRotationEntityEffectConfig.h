@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationEntityEffect; }
+namespace RPG::GameCore { class MapRotationEntityEffectConfig; }
 
-#define RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_METHOD_2_237C6CD412A34839_OFFSET UNITYSDK_OFFSET(0x1D226520)
-#define RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_METHOD_2_B28EAC3C4A8DDF34_OFFSET UNITYSDK_OFFSET(0x1D226390)
-#define RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D226510)
+#define RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82F4A0)
+#define RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D82F4B0)
+#define RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D82F320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationEntityEffectConfig_TypeDefinitionIndex = 16835;
-
 	class MapRotationEntityEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -20,20 +18,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::MapRotationEntityEffect*>* EffectsOnInactive; // 0x18
 		::Il2CppArray<::RPG::GameCore::MapRotationEntityEffect*>* EffectsOnActive; // 0x20
 		::Il2CppArray<::RPG::GameCore::MapRotationEntityEffect*>* EffectsOnDelete; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B28EAC3C4A8DDF34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationEntityEffectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapRotationEntityEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationEntityEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_METHOD_2_B28EAC3C4A8DDF34_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapRotationEntityEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_237C6CD412A34839(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MapRotationEntityEffectConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MapRotationEntityEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MapRotationEntityEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_METHOD_2_237C6CD412A34839_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MapRotationEntityEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPROTATIONENTITYEFFECTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

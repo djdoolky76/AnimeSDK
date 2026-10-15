@@ -1,95 +1,98 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_IVEC3_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B99020)
-#define RPG_IVEC3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B99000)
-#define RPG_IVEC3_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1D7880A0)
-#define RPG_IVEC3_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x1D7880E0)
-#define RPG_IVEC3_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1D788080)
-#define RPG_IVEC3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3B98EE0)
-#define RPG_IVEC3_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1D788100)
-#define RPG_IVEC3_GET_ONE_OFFSET UNITYSDK_OFFSET(0x1D788060)
-#define RPG_IVEC3_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1D788120)
-#define RPG_IVEC3_GET_UP_OFFSET UNITYSDK_OFFSET(0x1D7880C0)
-#define RPG_IVEC3_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1D788040)
-#define RPG_IVEC3_METHOD_2_20C4C7E23BB528BC_OFFSET UNITYSDK_OFFSET(0x3B99060)
-#define RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_1_OFFSET UNITYSDK_OFFSET(0x1D788180)
-#define RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_OFFSET UNITYSDK_OFFSET(0x1D788010)
-#define RPG_IVEC3_METHOD_2_6EB8CFA46BD6F6EA_OFFSET UNITYSDK_OFFSET(0x7CCB0)
-#define RPG_IVEC3_METHOD_2_7D12E28C4CB15D9C_OFFSET UNITYSDK_OFFSET(0x1D788240)
-#define RPG_IVEC3_METHOD_2_C68DD56EA29E5F53_OFFSET UNITYSDK_OFFSET(0x1D788220)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_1_OFFSET UNITYSDK_OFFSET(0x1D787FD0)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_2_OFFSET UNITYSDK_OFFSET(0x1D788140)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_3_OFFSET UNITYSDK_OFFSET(0x1D788160)
-#define RPG_IVEC3_METHOD_2_D466FBA41248FC85_OFFSET UNITYSDK_OFFSET(0x1D787F90)
-#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_1_OFFSET UNITYSDK_OFFSET(0x1D7881D0)
-#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_2_OFFSET UNITYSDK_OFFSET(0x1D7881F0)
-#define RPG_IVEC3_METHOD_2_E16EA785DA81BE97_OFFSET UNITYSDK_OFFSET(0x1D7881A0)
-#define RPG_IVEC3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3B98F60)
-#define RPG_IVEC3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B99050)
-#define RPG_IVEC3__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7883F0)
-#define RPG_IVEC3__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B98FF0)
-#define RPG_IVEC3__CTOR_OFFSET UNITYSDK_OFFSET(0x7CCB0)
+#define RPG_IVEC3_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0x1DD8C410)
+#define RPG_IVEC3_BDJPPIMOJBH_OFFSET UNITYSDK_OFFSET(0x3C4DF70)
+#define RPG_IVEC3_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD8C6C0)
+#define RPG_IVEC3_CJIGHOGJGHJ_OFFSET UNITYSDK_OFFSET(0x1DD8C4C0)
+#define RPG_IVEC3_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C4DF00)
+#define RPG_IVEC3_CTOR_OFFSET UNITYSDK_OFFSET(0xFE60)
+#define RPG_IVEC3_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0xFE60)
+#define RPG_IVEC3_DLDBLNNPHKE_OFFSET UNITYSDK_OFFSET(0x1DD8C510)
+#define RPG_IVEC3_EBLLCHBCJGG_1_OFFSET UNITYSDK_OFFSET(0x1DD8C4A0)
+#define RPG_IVEC3_EBLLCHBCJGG_OFFSET UNITYSDK_OFFSET(0x1DD8C470)
+#define RPG_IVEC3_EFNAJMADAHM_OFFSET UNITYSDK_OFFSET(0x1DD8C260)
+#define RPG_IVEC3_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C4DF30)
+#define RPG_IVEC3_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1DD8C4F0)
+#define RPG_IVEC3_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C4DF10)
+#define RPG_IVEC3_GET_BACK_OFFSET UNITYSDK_OFFSET(0x1DD8C370)
+#define RPG_IVEC3_GET_DOWN_OFFSET UNITYSDK_OFFSET(0x1DD8C3B0)
+#define RPG_IVEC3_GET_FORWARD_OFFSET UNITYSDK_OFFSET(0x1DD8C350)
+#define RPG_IVEC3_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C4DDF0)
+#define RPG_IVEC3_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1DD8C3D0)
+#define RPG_IVEC3_GET_ONE_OFFSET UNITYSDK_OFFSET(0x1DD8C330)
+#define RPG_IVEC3_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1DD8C3F0)
+#define RPG_IVEC3_GET_UP_OFFSET UNITYSDK_OFFSET(0x1DD8C390)
+#define RPG_IVEC3_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1DD8C310)
+#define RPG_IVEC3_GIAOOPPHODF_OFFSET UNITYSDK_OFFSET(0x1DD8C430)
+#define RPG_IVEC3_KKNANAIFIOM_OFFSET UNITYSDK_OFFSET(0x1DD8C450)
+#define RPG_IVEC3_LANBHJGNMFI_OFFSET UNITYSDK_OFFSET(0x1DD8C2E0)
+#define RPG_IVEC3_NKAACMGNNPK_OFFSET UNITYSDK_OFFSET(0x1DD8C2A0)
+#define RPG_IVEC3_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C4DE70)
+#define RPG_IVEC3_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4DF60)
 
 namespace RPG
 {
-	inline static constexpr unsigned int IVec3_TypeDefinitionIndex = 6374;
-
 	struct alignas(4) IVec3
 	{
-		static ::RPG::IVec3* StaticGet_rightVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD40);
-		}
-		static ::RPG::IVec3* StaticGet_downVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD4C);
-		}
-		static ::RPG::IVec3* StaticGet_forwardVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD58);
-		}
-		static ::RPG::IVec3* StaticGet_backVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD64);
-		}
-		static ::RPG::IVec3* StaticGet_leftVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD70);
-		}
-		static ::RPG::IVec3* StaticGet_oneVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD7C);
-		}
-		static ::RPG::IVec3* StaticGet_upVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD88);
-		}
-		static ::RPG::IVec3* StaticGet_zeroVector()
-		{
-			return (::RPG::IVec3*)Il2CppClass::FromTypeDefinitionIndex(IVec3_TypeDefinitionIndex)->GetStaticField(0xAD94);
-		}
 		::System::Int32 x; // 0x10
 		::System::Int32 y; // 0x14
 		::System::Int32 z; // 0x18
+		static ::RPG::IVec3* StaticGet_rightVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA220);
+		}
+
+		static ::RPG::IVec3* StaticGet_upVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA22C);
+		}
+
+		static ::RPG::IVec3* StaticGet_zeroVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA238);
+		}
+
+		static ::RPG::IVec3* StaticGet_forwardVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA244);
+		}
+
+		static ::RPG::IVec3* StaticGet_downVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA250);
+		}
+
+		static ::RPG::IVec3* StaticGet_oneVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA25C);
+		}
+
+		static ::RPG::IVec3* StaticGet_leftVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA268);
+		}
+
+		static ::RPG::IVec3* StaticGet_backVector()
+		{
+			return (::RPG::IVec3*)UnitySDK::FromName("RPG", "IVec3")->GetStaticField(0xA274);
+		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_Item(::System::Int32 a1)
@@ -102,9 +105,9 @@ namespace RPG
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_SET_ITEM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_6EB8CFA46BD6F6EA(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
+		::System::Void DADCFBHGLOH(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_6EB8CFA46BD6F6EA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_DADCFBHGLOH_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 GetHashCode()
@@ -117,109 +120,148 @@ namespace RPG
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_IVEC3_EQUALS_OFFSET))(this, a1);
 		}
 
-		static ::RPG::IVec3 Method_2_D466FBA41248FC85(::RPG::IVec3 a1, ::RPG::IVec3 a2)
+		/*
+		static ::RPG::IVec3 EFNAJMADAHM(::RPG::IVec3 a1, ::RPG::IVec3 a2)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_D466FBA41248FC85_OFFSET))(a1, a2);
+			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_EFNAJMADAHM_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_D466FBA41248FC85_1(::RPG::IVec3 a1, ::RPG::IVec3 a2)
+		/*
+		static ::RPG::IVec3 NKAACMGNNPK(::RPG::IVec3 a1, ::RPG::IVec3 a2)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_D466FBA41248FC85_1_OFFSET))(a1, a2);
+			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_NKAACMGNNPK_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_3AF7C73D7E1DAB11(::RPG::IVec3 a1)
+		/*
+		static ::RPG::IVec3 LANBHJGNMFI(::RPG::IVec3 a1)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_OFFSET))(a1);
+			return ((::RPG::IVec3(*)(::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_LANBHJGNMFI_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_zero()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_ZERO_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_one()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_ONE_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_forward()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_FORWARD_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_back()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_BACK_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_up()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_UP_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_down()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_DOWN_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_left()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_LEFT_OFFSET))();
 		}
+		*/
 
+		/*
 		static ::RPG::IVec3 get_right()
 		{
 			return ((::RPG::IVec3(*)())((::PBYTE)hIl2Cpp + RPG_IVEC3_GET_RIGHT_OFFSET))();
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_D466FBA41248FC85_2(::RPG::IVec3 a1, ::RPG::IVec3 a2)
+		/*
+		static ::RPG::IVec3 ALJJDGONFDD(::RPG::IVec3 a1, ::RPG::IVec3 a2)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_D466FBA41248FC85_2_OFFSET))(a1, a2);
+			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_ALJJDGONFDD_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_D466FBA41248FC85_3(::RPG::IVec3 a1, ::RPG::IVec3 a2)
+		/*
+		static ::RPG::IVec3 GIAOOPPHODF(::RPG::IVec3 a1, ::RPG::IVec3 a2)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_D466FBA41248FC85_3_OFFSET))(a1, a2);
+			return ((::RPG::IVec3(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_GIAOOPPHODF_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_3AF7C73D7E1DAB11_1(::RPG::IVec3 a1)
+		/*
+		static ::RPG::IVec3 KKNANAIFIOM(::RPG::IVec3 a1)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_3AF7C73D7E1DAB11_1_OFFSET))(a1);
+			return ((::RPG::IVec3(*)(::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_KKNANAIFIOM_OFFSET))(a1);
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_E16EA785DA81BE97(::RPG::IVec3 a1, ::System::Int32 a2)
+		/*
+		static ::RPG::IVec3 EBLLCHBCJGG(::RPG::IVec3 a1, ::System::Int32 a2)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_E16EA785DA81BE97_OFFSET))(a1, a2);
+			return ((::RPG::IVec3(*)(::RPG::IVec3, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_EBLLCHBCJGG_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_E16EA785DA81BE97_1(::System::Int32 a1, ::RPG::IVec3 a2)
+		/*
+		static ::RPG::IVec3 EBLLCHBCJGG_1(::System::Int32 a1, ::RPG::IVec3 a2)
 		{
-			return ((::RPG::IVec3(*)(::System::Int32, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_E16EA785DA81BE97_1_OFFSET))(a1, a2);
+			return ((::RPG::IVec3(*)(::System::Int32, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_EBLLCHBCJGG_1_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::RPG::IVec3 Method_2_E16EA785DA81BE97_2(::RPG::IVec3 a1, ::System::Int32 a2)
+		/*
+		static ::RPG::IVec3 CJIGHOGJGHJ(::RPG::IVec3 a1, ::System::Int32 a2)
 		{
-			return ((::RPG::IVec3(*)(::RPG::IVec3, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_E16EA785DA81BE97_2_OFFSET))(a1, a2);
+			return ((::RPG::IVec3(*)(::RPG::IVec3, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_IVEC3_CJIGHOGJGHJ_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_C68DD56EA29E5F53(::RPG::IVec3 a1, ::RPG::IVec3 a2)
+		/*
+		static ::System::Boolean FEIIDFFOICL(::RPG::IVec3 a1, ::RPG::IVec3 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_C68DD56EA29E5F53_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_FEIIDFFOICL_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean Method_2_7D12E28C4CB15D9C(::RPG::IVec3 a1, ::RPG::IVec3 a2)
+		/*
+		static ::System::Boolean DLDBLNNPHKE(::RPG::IVec3 a1, ::RPG::IVec3 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_7D12E28C4CB15D9C_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::IVec3, ::RPG::IVec3))((::PBYTE)hIl2Cpp + RPG_IVEC3_DLDBLNNPHKE_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_IVEC3_TOSTRING_OFFSET))(this);
 		}
 
-		::System::String* Method_2_20C4C7E23BB528BC(::System::String* a1)
+		::System::String* BDJPPIMOJBH(::System::String* a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_IVEC3_METHOD_2_20C4C7E23BB528BC_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_IVEC3_BDJPPIMOJBH_OFFSET))(this, a1);
 		}
+
 	};
 }

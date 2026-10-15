@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelEffectParam.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelBuffConfig; }
+namespace RPG::GameCore { class ChimeraDuelBuffEffectParam; }
 
-#define RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_METHOD_3_0BD20A5DD06B82D7_OFFSET UNITYSDK_OFFSET(0x1CFC0B70)
-#define RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_METHOD_3_211EE1A4B761F317_OFFSET UNITYSDK_OFFSET(0x1CFC0BD0)
-#define RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC0BC0)
+#define RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59BD20)
+#define RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59BD30)
+#define RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59BCD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelBuffEffectParam_TypeDefinitionIndex = 15841;
-
 	class ChimeraDuelBuffEffectParam : public ::RPG::GameCore::BaseChimeraDuelEffectParam
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ChimeraDuelBuffConfig*>* Buffs; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0BD20A5DD06B82D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelBuffEffectParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelBuffEffectParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelBuffEffectParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_METHOD_3_0BD20A5DD06B82D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelBuffEffectParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_211EE1A4B761F317(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelBuffEffectParam* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelBuffEffectParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelBuffEffectParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_METHOD_3_211EE1A4B761F317_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelBuffEffectParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFEFFECTPARAM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,68 +1,67 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class ActiveMCVKeySnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D92D3A0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1D92CE80)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D92D0A0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D92CF70)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D92D1A0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x1D92CEF0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_GET_MCVKEY_OFFSET UNITYSDK_OFFSET(0x1D92CF10)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D92CDC0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D92D4D0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D92D480)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D92CE20)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_SET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x1D92CF00)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_SET_MCVKEY_OFFSET UNITYSDK_OFFSET(0x1D92CF20)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D92D250)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D92D2B0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D92D680)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D92CE40)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D92CE30)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFE5D90)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE6070)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFE5870)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFE5830)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE5820)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFE5A90)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFE5960)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFE5B90)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_GET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x1DFE58E0)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_GET_MCVKEY_OFFSET UNITYSDK_OFFSET(0x1DFE5900)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFE57B0)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFE5EC0)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFE5E70)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFE5810)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_SET_MAINMISSIONID_OFFSET UNITYSDK_OFFSET(0x1DFE58F0)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_SET_MCVKEY_OFFSET UNITYSDK_OFFSET(0x1DFE5910)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE5C40)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE5CA0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ActiveMCVKeySnapshot_TypeDefinitionIndex = 25476;
-
 	class ActiveMCVKeySnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::ActiveMCVKeySnapshot*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::ActiveMCVKeySnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(ActiveMCVKeySnapshot_TypeDefinitionIndex)->GetStaticField(0x57160);
-		}
-		// static const ::System::Int32 MainMissionIdFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 McvKeyFieldNumber = 0x2; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
 		::System::String* mcvKey_; // 0x18
 		::System::UInt32 mainMissionId_; // 0x20
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "ActiveMCVKeySnapshot")->GetStaticField(0x43920);
+		}
 
+		// static const ::System::Object MainMissionIdFieldNumber; // 0x0
+		// static const ::System::Object McvKeyFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::ActiveMCVKeySnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::ActiveMCVKeySnapshot*))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::ActiveMCVKeySnapshot*))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Proto::ActiveMCVKeySnapshot*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Proto::ActiveMCVKeySnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
@@ -134,5 +133,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

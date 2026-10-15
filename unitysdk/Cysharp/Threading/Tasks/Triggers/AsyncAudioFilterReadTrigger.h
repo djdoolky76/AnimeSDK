@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-#include "unitysdk/System/ValueTuple_2.h"
-
+#include "unitysdk/System/ValueTuple.h"
 namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnAudioFilterReadHandler; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_GETONAUDIOFILTERREADASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1EA60620)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_GETONAUDIOFILTERREADASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1EA60540)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EA60860)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_OFFSET UNITYSDK_OFFSET(0x1EA60680)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREAD_OFFSET UNITYSDK_OFFSET(0x1EA604C0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA609E0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F128370)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_GETONAUDIOFILTERREADASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1F127FB0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_GETONAUDIOFILTERREADASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1F127ED0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_1_OFFSET UNITYSDK_OFFSET(0x1F1281F0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_OFFSET UNITYSDK_OFFSET(0x1F128010)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREAD_OFFSET UNITYSDK_OFFSET(0x1F127E50)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncAudioFilterReadTrigger_TypeDefinitionIndex = 42934;
-
-	class AsyncAudioFilterReadTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::System::ValueTuple_2<::Il2CppArray<::System::Single>*, ::System::Int32>>
+	class AsyncAudioFilterReadTrigger
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnAudioFilterRead(::Il2CppArray<::System::Single>* a1, ::System::Int32 a2)
@@ -41,14 +37,15 @@ namespace Cysharp::Threading::Tasks::Triggers
 			return ((::Cysharp::Threading::Tasks::Triggers::IAsyncOnAudioFilterReadHandler*(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_GETONAUDIOFILTERREADASYNCHANDLER_1_OFFSET))(this, a1);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::Il2CppArray<::System::Single>*, ::System::Int32>> OnAudioFilterReadAsync()
+		::Cysharp::Threading::Tasks::UniTask OnAudioFilterReadAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::Il2CppArray<::System::Single>*, ::System::Int32>>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::Il2CppArray<::System::Single>*, ::System::Int32>> OnAudioFilterReadAsync_1(::System::Threading::CancellationToken a1)
+		::Cysharp::Threading::Tasks::UniTask OnAudioFilterReadAsync_1(::System::Threading::CancellationToken a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::Il2CppArray<::System::Single>*, ::System::Int32>>(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_1_OFFSET))(this, a1);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCAUDIOFILTERREADTRIGGER_ONAUDIOFILTERREADASYNC_1_OFFSET))(this, a1);
 		}
+
 	};
 }

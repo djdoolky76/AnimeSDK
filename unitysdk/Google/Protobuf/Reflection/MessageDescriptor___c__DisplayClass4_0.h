@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf::Reflection { class DescriptorProto; }
 namespace Google::Protobuf::Reflection { class EnumDescriptor; }
 namespace Google::Protobuf::Reflection { class EnumDescriptorProto; }
@@ -13,26 +12,23 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class OneofDescriptor; }
 namespace Google::Protobuf::Reflection { class OneofDescriptorProto; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38B1C0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B38BD90)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1B38BE40)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1B38BEF0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x1B38BFA0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B88D0B0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B88DC80)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1B88DD30)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1B88DDE0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x1B88DE90)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 5546;
-
 	class MessageDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::MessageDescriptor* __4__this; // 0x10
-		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x18
-		::Google::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x20
-
+		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x10
+		::Google::Protobuf::Reflection::GeneratedClrTypeInfo* generatedCodeInfo; // 0x18
+		::Google::Protobuf::Reflection::MessageDescriptor* __4__this; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);
 		}
 
 		::Google::Protobuf::Reflection::OneofDescriptor* __ctor_b__0(::Google::Protobuf::Reflection::OneofDescriptorProto* a1, ::System::Int32 a2)
@@ -54,5 +50,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::Google::Protobuf::Reflection::FieldDescriptor*(*)(::PVOID, ::Google::Protobuf::Reflection::FieldDescriptorProto*, ::System::Int32))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__3_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

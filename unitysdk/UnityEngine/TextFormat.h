@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextFormat_TypeDefinitionIndex = 5049;
-
 	struct alignas(4) TextFormat
 	{
 		::System::Int32 style; // 0x10

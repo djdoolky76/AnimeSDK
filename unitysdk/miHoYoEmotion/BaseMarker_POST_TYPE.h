@@ -3,8 +3,6 @@
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int BaseMarker_POST_TYPE_TypeDefinitionIndex = 44823;
-
 	enum class BaseMarker_POST_TYPE : ::System::Int32
 	{
 		DEFAULT = 0,

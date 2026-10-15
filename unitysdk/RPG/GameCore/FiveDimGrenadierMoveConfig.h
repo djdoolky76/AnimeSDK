@@ -5,20 +5,18 @@
 #include "unitysdk/RPG/GameCore/FiveDimPropMoveConfig.h"
 #include "unitysdk/RPG/GameCore/FiveDimSimpleProjectileMoveType.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimGrenadierMoveConfig; }
 namespace RPG::GameCore { class FiveDimGrenadierProjectileConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_0CB3A01DA5CCCA4D_OFFSET UNITYSDK_OFFSET(0x1D0EB500)
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_DAC8813EA51DA148_OFFSET UNITYSDK_OFFSET(0x1D0EB490)
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EB4E0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C32B0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C32D0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C3260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierMoveConfig_TypeDefinitionIndex = 16528;
-
 	class FiveDimGrenadierMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
 	public:
@@ -33,6 +31,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::FloatCurve* TraceDistAccelerationCurve; // 0x68
 		::RPG::GameCore::FiveDimGrenadierMoveType MoveType; // 0x70
 		::System::Boolean ManualAttack; // 0x74
+		::System::Byte _padding0[0x3];
 		::System::Single AttackInterval; // 0x78
 		::RPG::MVector3 CreationOffset; // 0x7C
 		::RPG::GameCore::FiveDimGrenadierAttackType AttackType; // 0x88
@@ -41,25 +40,27 @@ namespace RPG::GameCore
 		::System::Single LaunchSpeed; // 0x94
 		::Il2CppArray<::RPG::GameCore::FiveDimGrenadierProjectileConfig*>* ProjectileConfigList; // 0x98
 		::System::Single AttackStartup; // 0xA0
+		::System::Byte _padding1[0x4];
 		::System::String* OnAttackEvent; // 0xA8
 		::System::String* LineTraceEffectPath; // 0xB0
 		::System::Single StunTime; // 0xB8
+		::System::Byte _padding2[0x4];
 		::System::String* OnHitEvent; // 0xC0
 		::System::String* OnRecoverEvent; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DAC8813EA51DA148(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGrenadierMoveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimGrenadierMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGrenadierMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_DAC8813EA51DA148_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimGrenadierMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0CB3A01DA5CCCA4D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGrenadierMoveConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimGrenadierMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGrenadierMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_METHOD_3_0CB3A01DA5CCCA4D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimGrenadierMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

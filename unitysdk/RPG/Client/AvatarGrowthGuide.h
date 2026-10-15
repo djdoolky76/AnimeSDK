@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_887;
-class Class_1_EA6A2942A1B10F0A;
+class NHPAANINLPK;
+class PMDLIGBIKAA;
 namespace RPG::AvatarSystem { class IAvatar; }
+namespace RPG::Client { class AvatarGrowthGuide; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARGROWTHGUIDE_CREATE_OFFSET UNITYSDK_OFFSET(0xC8208D0)
-#define RPG_CLIENT_AVATARGROWTHGUIDE_GETGUIDEITEMS_OFFSET UNITYSDK_OFFSET(0xC820BB0)
-#define RPG_CLIENT_AVATARGROWTHGUIDE_GET_ISGROWABLE_OFFSET UNITYSDK_OFFSET(0xC8209E0)
-#define RPG_CLIENT_AVATARGROWTHGUIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xC820990)
+#define RPG_CLIENT_AVATARGROWTHGUIDE_CREATE_OFFSET UNITYSDK_OFFSET(0xC6EE550)
+#define RPG_CLIENT_AVATARGROWTHGUIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6EE610)
+#define RPG_CLIENT_AVATARGROWTHGUIDE_GETGUIDEITEMS_OFFSET UNITYSDK_OFFSET(0xC6EE830)
+#define RPG_CLIENT_AVATARGROWTHGUIDE_GET_ISGROWABLE_OFFSET UNITYSDK_OFFSET(0xC6EE660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarGrowthGuide_TypeDefinitionIndex = 65604;
-
 	class AvatarGrowthGuide : public ::System::Object
 	{
 	public:
 		::RPG::AvatarSystem::IAvatar* _Avatar; // 0x10
-		::Class_1_EA6A2942A1B10F0A* _Factory; // 0x18
-
+		::PMDLIGBIKAA* _Factory; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::AvatarGrowthGuide* Create(::RPG::AvatarSystem::IAvatar* a1)
@@ -37,9 +34,10 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE_GET_ISGROWABLE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_887*>* GetGuideItems()
+		::System::Collections::Generic::List_1<::NHPAANINLPK*>* GetGuideItems()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_887*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE_GETGUIDEITEMS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::NHPAANINLPK*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARGROWTHGUIDE_GETGUIDEITEMS_OFFSET))(this);
 		}
+
 	};
 }

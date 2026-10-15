@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEvaluationConditionType_TypeDefinitionIndex = 15651;
-
 	enum class ChimeraEvaluationConditionType : ::System::Int32
 	{
 		None = 0,

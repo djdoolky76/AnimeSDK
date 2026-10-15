@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine::Unity { class ISkeletonAnimation; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_UPDATEBONESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E66CE70)
-#define SPINE_UNITY_UPDATEBONESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E66CEA0)
-#define SPINE_UNITY_UPDATEBONESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E64A3D0)
-#define SPINE_UNITY_UPDATEBONESDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66CD80)
+#define SPINE_UNITY_UPDATEBONESDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED34DD0)
+#define SPINE_UNITY_UPDATEBONESDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED34CE0)
+#define SPINE_UNITY_UPDATEBONESDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED34E00)
+#define SPINE_UNITY_UPDATEBONESDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED12580)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int UpdateBonesDelegate_TypeDefinitionIndex = 43877;
-
 	class UpdateBonesDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_UPDATEBONESDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_UPDATEBONESDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Unity::ISkeletonAnimation* a1)
@@ -38,5 +35,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_UPDATEBONESDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

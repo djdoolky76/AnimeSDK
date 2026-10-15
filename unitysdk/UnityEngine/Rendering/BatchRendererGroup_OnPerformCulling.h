@@ -3,27 +3,24 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 #include "unitysdk/UnityEngine/Rendering/BatchCullingContext.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class BatchRendererGroup; }
 
-#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED53470)
-#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED534F0)
-#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED53310)
-#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED53380)
+#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F41B530)
+#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F41B440)
+#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F41B5B0)
+#define UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F41B3D0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchRendererGroup_OnPerformCulling_TypeDefinitionIndex = 4734;
-
 	class BatchRendererGroup_OnPerformCulling : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* a1, ::UnityEngine::Rendering::BatchCullingContext a2)
@@ -40,5 +37,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::Unity::Jobs::JobHandle(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BATCHRENDERERGROUP_ONPERFORMCULLING_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

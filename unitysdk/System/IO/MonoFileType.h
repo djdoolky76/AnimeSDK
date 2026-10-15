@@ -3,8 +3,6 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int MonoFileType_TypeDefinitionIndex = 721;
-
 	enum class MonoFileType : ::System::Int32
 	{
 		Unknown = 0,

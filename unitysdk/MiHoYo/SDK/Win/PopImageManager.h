@@ -1,71 +1,69 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class PopImageModel; }
-namespace MiHoYo::SDK::Win { class PopImageManager_PopImageDateModel; }
+namespace MiHoYo::SDK::Win { class PopImageManager; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture2D; }
-namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
+namespace UnityEngine::Events { class UnityAction; }
 
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CHECKPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1B8D9260)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CLEARLIST_OFFSET UNITYSDK_OFFSET(0x1B8D9E10)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CONSUMEPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1B8D95E0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_DOWNLOAD_OFFSET UNITYSDK_OFFSET(0x1B8DB2B0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_FILEEXISTS_OFFSET UNITYSDK_OFFSET(0x1B8D9D40)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETCACHESHOWIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1B8DA9F0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x1B8DB850)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETPOPIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1B8D9FA0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETPOPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1B8D9460)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETPOPIMAGESHOWDATECACHEKEY_OFFSET UNITYSDK_OFFSET(0x1B8DB4B0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETQUERYMAP_OFFSET UNITYSDK_OFFSET(0x1B8DA120)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_INSTANCESHOW_OFFSET UNITYSDK_OFFSET(0x1B8D9040)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ISIMAGENEEDSHOW_OFFSET UNITYSDK_OFFSET(0x1B8DB130)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADLOCALTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B8DB880)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADNETWORKTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B8DB8F0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B8DB7F0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B8DB960)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCLICKIMAGE_OFFSET UNITYSDK_OFFSET(0x1B8D9BC0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1B8D9CA0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCONSUMEPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1B8DB7D0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONGETPOPIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1B8DAC00)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SAVECACHESHOWIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1B8DB400)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SAVECONSUMEPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1B8D97E0)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SENDCLOSENOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1B8D9A50)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SHOW_OFFSET UNITYSDK_OFFSET(0x1B8D9060)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8DBA10)
-#define MIHOYO_SDK_WIN_POPIMAGEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DB980)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDD9BF0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CHECKPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1BDD7440)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CLEARLIST_OFFSET UNITYSDK_OFFSET(0x1BDD7FF0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CONSUMEPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1BDD77C0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD9B60)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_DOWNLOAD_OFFSET UNITYSDK_OFFSET(0x1BDD9490)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_FILEEXISTS_OFFSET UNITYSDK_OFFSET(0x1BDD7F20)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETCACHESHOWIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1BDD8BD0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x1BDD9A30)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETPOPIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1BDD8180)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETPOPIMAGEMODEL_OFFSET UNITYSDK_OFFSET(0x1BDD7640)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETPOPIMAGESHOWDATECACHEKEY_OFFSET UNITYSDK_OFFSET(0x1BDD9690)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETQUERYMAP_OFFSET UNITYSDK_OFFSET(0x1BDD8300)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_INSTANCESHOW_OFFSET UNITYSDK_OFFSET(0x1BDD7220)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ISIMAGENEEDSHOW_OFFSET UNITYSDK_OFFSET(0x1BDD9310)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADLOCALTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BDD9A60)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADNETWORKTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BDD9AD0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BDD99D0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BDD9B40)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCLICKIMAGE_OFFSET UNITYSDK_OFFSET(0x1BDD7DA0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCLOSE_OFFSET UNITYSDK_OFFSET(0x1BDD7E80)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCONSUMEPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1BDD99B0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONGETPOPIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1BDD8DE0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SAVECACHESHOWIMAGELIST_OFFSET UNITYSDK_OFFSET(0x1BDD95E0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SAVECONSUMEPOPIMAGE_OFFSET UNITYSDK_OFFSET(0x1BDD79C0)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SENDCLOSENOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1BDD7C30)
+#define MIHOYO_SDK_WIN_POPIMAGEMANAGER_SHOW_OFFSET UNITYSDK_OFFSET(0x1BDD7240)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PopImageManager_TypeDefinitionIndex = 9415;
-
 	class PopImageManager : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::PopImageManager** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::PopImageManager**)Il2CppClass::FromTypeDefinitionIndex(PopImageManager_TypeDefinitionIndex)->GetStaticField(0x1C240);
-		}
-		// static const ::System::String* PopImageShowDateCacheKey; // 0x0
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::PopImageManager_PopImageDateModel*>* cacheShowImageList; // 0x10
-		::System::String* CachePath; // 0x18
+		::System::String* CachePath; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* cacheShowImageList; // 0x18
 		::System::Collections::Generic::List_1<::MiHoYo::SDK::PopImageModel*>* popImageList; // 0x20
 		::System::Boolean isAnimation; // 0x28
 		::System::Boolean isShowing; // 0x29
+		static ::MiHoYo::SDK::Win::PopImageManager** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::PopImageManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "PopImageManager")->GetStaticField(0x12BB0);
+		}
 
+		// static const ::System::String* PopImageShowDateCacheKey; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean InstanceShow(::System::Boolean a1)
@@ -158,9 +156,9 @@ namespace MiHoYo::SDK::Win
 			return ((::MiHoYo::SDK::JSONObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_GETQUERYMAP_OFFSET))(this);
 		}
 
-		::System::Void DownLoad(::System::String* a1, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* a2)
+		::System::Void DownLoad(::System::String* a1, ::UnityEngine::Events::UnityAction* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_DOWNLOAD_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_DOWNLOAD_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetFileName(::System::String* a1)
@@ -173,24 +171,25 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_FILEEXISTS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::IEnumerator* LoadTexture(::System::String* a1, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* a2)
+		::System::Collections::IEnumerator* LoadTexture(::System::String* a1, ::UnityEngine::Events::UnityAction* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADTEXTURE_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADTEXTURE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::IEnumerator* LoadLocalTexture(::System::String* a1, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* a2)
+		::System::Collections::IEnumerator* LoadLocalTexture(::System::String* a1, ::UnityEngine::Events::UnityAction* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADLOCALTEXTURE_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADLOCALTEXTURE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::IEnumerator* LoadNetworkTexture(::System::String* a1, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* a2)
+		::System::Collections::IEnumerator* LoadNetworkTexture(::System::String* a1, ::UnityEngine::Events::UnityAction* a2)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADNETWORKTEXTURE_OFFSET))(this, a1, a2);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_LOADNETWORKTEXTURE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* a1, ::UnityEngine::Texture2D* a2)
+		::System::Void OnCallback(::UnityEngine::Events::UnityAction* a1, ::UnityEngine::Texture2D* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>*, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityAction*, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_POPIMAGEMANAGER_ONCALLBACK_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

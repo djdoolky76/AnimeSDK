@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/TreeInstance.h"
-
 namespace HoudiniEngineUnity { class Test_TreeInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4B3BE0)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4B5920)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B58B0)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B5C10)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B7950)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B78E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TreeInstance_Extensions_TypeDefinitionIndex = 39461;
-
 	class Test_TreeInstance_Extensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TreeInstance*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::TreeInstance>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

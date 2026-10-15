@@ -1,23 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Collections/Allocator.h"
-#include "unitysdk/Unity/Collections/NativeArray_1.h"
-
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x1EAB2190)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_CREATEGAMEOBJECTWITHUNDO_OFFSET UNITYSDK_OFFSET(0x1EAA5840)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET UNITYSDK_OFFSET(0x1EAB0340)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DESTROYUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1EAA5FC0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x1F1799F0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_CREATEGAMEOBJECTWITHUNDO_OFFSET UNITYSDK_OFFSET(0x1F16D070)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET UNITYSDK_OFFSET(0x1F177BA0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DESTROYUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0x1F16D7F0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int RuntimeUtils_TypeDefinitionIndex = 44750;
-
 	class RuntimeUtils : public ::System::Object
 	{
 	public:
@@ -36,9 +31,10 @@ namespace UnityEngine::Formats::Alembic::Importer
 			return ((::System::Void(*)(::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DESTROYUNITYOBJECT_OFFSET))(a1);
 		}
 
-		static ::System::Void DepthFirstVisitor(::UnityEngine::GameObject* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2)
+		static ::System::Void DepthFirstVisitor(::UnityEngine::GameObject* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::GameObject*, ::System::Action*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_RUNTIMEUTILS_DEPTHFIRSTVISITOR_OFFSET))(a1, a2);
 		}
+
 	};
 }

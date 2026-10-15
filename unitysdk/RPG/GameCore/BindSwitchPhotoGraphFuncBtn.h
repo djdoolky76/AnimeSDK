@@ -4,8 +4,8 @@
 #include "unitysdk/RPG/GameCore/PhotoGraphFuncBtnType.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphIdentifyDisplayType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BindSwitchPhotoGraphFuncBtn; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PhotoGraphAimContainerConfig; }
@@ -16,22 +16,23 @@ namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 namespace RPG::GameCore { class PhotoGraphTripodModeConfig; }
 namespace RPG::GameCore { class PhotoGraphUpdateTwoPointFourParam; }
 namespace RPG::GameCore { class TargetFetchAdvPropEx; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_0B79201F394D500A_OFFSET UNITYSDK_OFFSET(0x1CE853E0)
-#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_4AF01CF27AB539C5_OFFSET UNITYSDK_OFFSET(0x1CE85350)
-#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE853B0)
+#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D46D470)
+#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D46D4A0)
+#define RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D46D410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindSwitchPhotoGraphFuncBtn_TypeDefinitionIndex = 21410;
-
 	class BindSwitchPhotoGraphFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean SimpleMode; // 0x18
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::BindSwitchPhotoGraphFuncBtnUseType UseType; // 0x1C
 		::System::Boolean Enable; // 0x20
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::DynamicFloat* MissionID; // 0x28
 		::RPG::GameCore::TargetFetchAdvPropEx* RangeTriggerProp; // 0x30
 		::Il2CppArray<::System::String*>* ColliderRelativePathList; // 0x38
@@ -49,27 +50,31 @@ namespace RPG::GameCore
 		::RPG::GameCore::PhotoGraphModeExtraConfigSetting* ExtraSettings; // 0x88
 		::RPG::GameCore::DynamicString* BindName; // 0x90
 		::System::Boolean NotStartPhotoInTriggerRangeMode; // 0x98
+		::System::Byte _padding2[0x7];
 		::RPG::GameCore::PhotoGraphShotResultCondition* ShotResultCondition; // 0xA0
 		::System::Boolean HideTwoPointFourParam; // 0xA8
+		::System::Byte _padding3[0x7];
 		::RPG::GameCore::PhotoGraphUpdateTwoPointFourParam* ConditionPhotoParam; // 0xB0
 		::System::Boolean HideTripodConfig; // 0xB8
+		::System::Byte _padding4[0x7];
 		::RPG::GameCore::PhotoGraphTripodModeConfig* TripodModeConfig; // 0xC0
 		::System::Boolean HideLongRangeModeConfig; // 0xC8
+		::System::Byte _padding5[0x7];
 		::RPG::GameCore::PhotoGraphLongRangeModeConfig* LongRangeModeConfig; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4AF01CF27AB539C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_4AF01CF27AB539C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0B79201F394D500A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_METHOD_3_0B79201F394D500A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BindSwitchPhotoGraphFuncBtn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BINDSWITCHPHOTOGRAPHFUNCBTN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

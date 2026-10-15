@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputPort_Type_TypeDefinitionIndex = 38753;
-
 	enum class CriAtomExOutputPort_Type : ::System::Int32
 	{
 		Audio = 0,

@@ -1,19 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/SortedSet_1.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
-namespace System { class Object; }
-namespace System::Collections::Generic { template <typename T> class SortedSet_1_Node; }
-namespace System::Collections::Generic { template <typename T> class TreeWalkPredicate_1; }
-namespace System::Runtime::Serialization { class SerializationInfo; }
+namespace System::Collections::Generic { template <typename T> class SortedSet_1; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1_TreeSubSet_TypeDefinitionIndex = 3041;
-
 	template <typename T>
-	class SortedSet_1_TreeSubSet : public ::System::Collections::Generic::SortedSet_1<T>
+	class SortedSet_1_TreeSubSet
 	{
 	public:
 		::System::Collections::Generic::SortedSet_1<T>* _underlying; // 0x0

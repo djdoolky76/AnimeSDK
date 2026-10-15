@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_DBB509B210C17187.h"
+#include "unitysdk/FONMDGEEEGO.h"
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LevelVariable_1_TypeDefinitionIndex = 40473;
-
-	template <typename TValue>
-	class LevelVariable_1 : public ::Class_1_DBB509B210C17187
+	template <typename T>
+	class LevelVariable_1 : public ::FONMDGEEEGO
 	{
 	public:
-		TValue _Value_k__BackingField; // 0x0
+		T _Value_k__BackingField; // 0x0
 	};
 }

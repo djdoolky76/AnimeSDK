@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightDebugInfo_TypeDefinitionIndex = 4875;
-
 	struct alignas(4) CRPLightDebugInfo
 	{
 		::System::Int32 profileType; // 0x10

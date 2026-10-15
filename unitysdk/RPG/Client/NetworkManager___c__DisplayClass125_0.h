@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client::Promises { class Promise; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Threading { class SynchronizationContext; }
+
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D0330)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_0__PINGBYUDP_B__0_OFFSET UNITYSDK_OFFSET(0xD9D0340)
+
+namespace RPG::Client
+{
+	class NetworkManager___c__DisplayClass125_0 : public ::System::Object
+	{
+	public:
+		::RPG::Client::Promises::Promise* result; // 0x10
+		::System::Threading::SynchronizationContext* current; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _PingByUdp_b__0(::System::Collections::Generic::IList_1<::System::UInt64>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt64>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_0__PINGBYUDP_B__0_OFFSET))(this, a1);
+		}
+
+	};
+}

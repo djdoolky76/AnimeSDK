@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueLinkInfo_TypeDefinitionIndex = 38683;
-
-	struct alignas(8) CriAtomEx_CueLinkInfo
+	struct alignas(4) CriAtomEx_CueLinkInfo
 	{
 		::System::IntPtr nativePlayerHn; // 0x10
 		::System::UInt32 basePlaybackId; // 0x18

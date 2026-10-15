@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_ScriptRunBehaviourLateUpdate_TypeDefinitionIndex = 4621;
-
-	struct alignas(1) PreLateUpdate_ScriptRunBehaviourLateUpdate
+	struct alignas(4) PreLateUpdate_ScriptRunBehaviourLateUpdate
 	{
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CharacterEncoding_TypeDefinitionIndex = 38652;
-
 	enum class CriAtomEx_CharacterEncoding : ::System::Int32
 	{
 		Utf8 = 0,

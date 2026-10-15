@@ -1,35 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/AnimationStateData_AnimationPair.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class Animation; }
 namespace Spine { class SkeletonData; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x1E5D1930)
-#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1E5D2890)
-#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1E5D2880)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x1E5D2B60)
-#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x1E5D29C0)
-#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1E5D28A0)
-#define SPINE_ANIMATIONSTATEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D28B0)
+#define SPINE_ANIMATIONSTATEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9AA40)
+#define SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET UNITYSDK_OFFSET(0x1EC99B00)
+#define SPINE_ANIMATIONSTATEDATA_GET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1EC9AA20)
+#define SPINE_ANIMATIONSTATEDATA_GET_SKELETONDATA_OFFSET UNITYSDK_OFFSET(0x1EC9AA10)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_1_OFFSET UNITYSDK_OFFSET(0x1EC9ACF0)
+#define SPINE_ANIMATIONSTATEDATA_SETMIX_OFFSET UNITYSDK_OFFSET(0x1EC9AB50)
+#define SPINE_ANIMATIONSTATEDATA_SET_DEFAULTMIX_OFFSET UNITYSDK_OFFSET(0x1EC9AA30)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AnimationStateData_TypeDefinitionIndex = 38341;
-
 	class AnimationStateData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::Spine::AnimationStateData_AnimationPair, ::System::Single>* animationToMixTime; // 0x10
-		::Spine::SkeletonData* skeletonData; // 0x18
+		::Spine::SkeletonData* skeletonData; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Single>* animationToMixTime; // 0x18
 		::System::Single defaultMix; // 0x20
-
 		::System::Void _ctor(::Spine::SkeletonData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Spine::SkeletonData*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::Spine::SkeletonData* get_SkeletonData()
@@ -61,5 +57,6 @@ namespace Spine
 		{
 			return ((::System::Single(*)(::PVOID, ::Spine::Animation*, ::Spine::Animation*))((::PBYTE)hIl2Cpp + SPINE_ANIMATIONSTATEDATA_GETMIX_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

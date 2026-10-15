@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterReactionAnimConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_METHOD_2_1AF38C60F098DE3A_OFFSET UNITYSDK_OFFSET(0x1CF9CA20)
-#define RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_METHOD_2_35425D3280C3975B_OFFSET UNITYSDK_OFFSET(0x1CF9C8F0)
-#define RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF9B6B0)
+#define RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D576340)
+#define RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5777C0)
+#define RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D577690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReactionAnimConfig_TypeDefinitionIndex = 17986;
-
 	class CharacterReactionAnimConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -26,21 +24,22 @@ namespace RPG::GameCore
 		::System::String* DieFly; // 0x48
 		::System::String* DieLimbo; // 0x50
 		::System::Boolean ForceHitH; // 0x58
+		::System::Byte _padding0[0x3];
 		::System::Single OverrideHitAnimWeight; // 0x5C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_35425D3280C3975B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReactionAnimConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterReactionAnimConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReactionAnimConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_METHOD_2_35425D3280C3975B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterReactionAnimConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_1AF38C60F098DE3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReactionAnimConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterReactionAnimConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReactionAnimConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_METHOD_2_1AF38C60F098DE3A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterReactionAnimConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREACTIONANIMCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityProperty_TypeDefinitionIndex = 10464;
-
 	enum class AbilityProperty : ::System::Int32
 	{
 		Unknow = 0,
@@ -232,6 +230,7 @@ namespace RPG::GameCore
 		ExtraAllDamageReduceConvert = 222,
 		ExtraQuantumResonance = 223,
 		ExtraTotalAllDamageReduce = 224,
-		Count = 225,
+		ExtraHeight = 225,
+		Count = 226,
 	};
 }

@@ -2,52 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateCoinIncomeType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_21C7581DFE99F091_38;
-class Class_1_355B625488677C80;
-class Class_1_D17272E82AE804C2_338;
+class IMIHIMCHHIP;
+class JDAIOFEPGCC;
+class JIMNPPNNHEL;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class FateBuffShopData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_FATESHOPINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD032FF0)
-#define RPG_CLIENT_FATESHOPINFO_GET_BUFFSHOPDATA_OFFSET UNITYSDK_OFFSET(0xD032C60)
-#define RPG_CLIENT_FATESHOPINFO_GET_COININCOMESTATDICT_OFFSET UNITYSDK_OFFSET(0xD033220)
-#define RPG_CLIENT_FATESHOPINFO_GET_COIN_OFFSET UNITYSDK_OFFSET(0xD033300)
-#define RPG_CLIENT_FATESHOPINFO_SET_COIN_OFFSET UNITYSDK_OFFSET(0xD033310)
-#define RPG_CLIENT_FATESHOPINFO_SYNCCOIN_OFFSET UNITYSDK_OFFSET(0xD032E40)
-#define RPG_CLIENT_FATESHOPINFO_SYNCREFRESHGOODS_OFFSET UNITYSDK_OFFSET(0xD032F00)
-#define RPG_CLIENT_FATESHOPINFO_SYNCUPDATESHOP_OFFSET UNITYSDK_OFFSET(0xD032D70)
-#define RPG_CLIENT_FATESHOPINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xD032B20)
-#define RPG_CLIENT_FATESHOPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD032B10)
-#define RPG_CLIENT_FATESHOPINFO__REFRESHCOIN_OFFSET UNITYSDK_OFFSET(0xD032EB0)
-#define RPG_CLIENT_FATESHOPINFO__REFRESHINCOMESTAT_OFFSET UNITYSDK_OFFSET(0xD0330A0)
-#define RPG_CLIENT_FATESHOPINFO__REFRESHSHOPBASEINFO_OFFSET UNITYSDK_OFFSET(0xD032CE0)
+#define RPG_CLIENT_FATESHOPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCFD20A0)
+#define RPG_CLIENT_FATESHOPINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCFD2580)
+#define RPG_CLIENT_FATESHOPINFO_GET_BUFFSHOPDATA_OFFSET UNITYSDK_OFFSET(0xCFD21F0)
+#define RPG_CLIENT_FATESHOPINFO_GET_COININCOMESTATDICT_OFFSET UNITYSDK_OFFSET(0xCFD27B0)
+#define RPG_CLIENT_FATESHOPINFO_GET_COIN_OFFSET UNITYSDK_OFFSET(0xCFD2890)
+#define RPG_CLIENT_FATESHOPINFO_SET_COIN_OFFSET UNITYSDK_OFFSET(0xCFD28A0)
+#define RPG_CLIENT_FATESHOPINFO_SYNCCOIN_OFFSET UNITYSDK_OFFSET(0xCFD23D0)
+#define RPG_CLIENT_FATESHOPINFO_SYNCREFRESHGOODS_OFFSET UNITYSDK_OFFSET(0xCFD2490)
+#define RPG_CLIENT_FATESHOPINFO_SYNCUPDATESHOP_OFFSET UNITYSDK_OFFSET(0xCFD2300)
+#define RPG_CLIENT_FATESHOPINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xCFD20B0)
+#define RPG_CLIENT_FATESHOPINFO__REFRESHCOIN_OFFSET UNITYSDK_OFFSET(0xCFD2440)
+#define RPG_CLIENT_FATESHOPINFO__REFRESHINCOMESTAT_OFFSET UNITYSDK_OFFSET(0xCFD2630)
+#define RPG_CLIENT_FATESHOPINFO__REFRESHSHOPBASEINFO_OFFSET UNITYSDK_OFFSET(0xCFD2270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateShopInfo_TypeDefinitionIndex = 64188;
-
 	class FateShopInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateCoinIncomeType, ::System::UInt32>* _CoinIncomeStatDict; // 0x10
-		::RPG::Client::FateBuffShopData* _BuffShopData; // 0x18
+		::RPG::Client::FateBuffShopData* _BuffShopData; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateCoinIncomeType, ::System::UInt32>* _CoinIncomeStatDict; // 0x18
 		::System::UInt32 _Coin_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_355B625488677C80* a1, ::System::UInt32 a2)
+		::System::Void Sync(::JIMNPPNNHEL* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_355B625488677C80*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_SYNC_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::JIMNPPNNHEL*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_SYNC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SyncUpdateShop(::Class_1_355B625488677C80* a1)
+		::System::Void SyncUpdateShop(::JIMNPPNNHEL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_355B625488677C80*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_SYNCUPDATESHOP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::JIMNPPNNHEL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_SYNCUPDATESHOP_OFFSET))(this, a1);
 		}
 
 		::System::Void SyncCoin(::System::UInt32 a1)
@@ -55,9 +51,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_SYNCCOIN_OFFSET))(this, a1);
 		}
 
-		::System::Void SyncRefreshGoods(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_21C7581DFE99F091_38*>* a1)
+		::System::Void SyncRefreshGoods(::Google::Protobuf::Collections::RepeatedField_1<::JDAIOFEPGCC*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_21C7581DFE99F091_38*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_SYNCREFRESHGOODS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::JDAIOFEPGCC*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_SYNCREFRESHGOODS_OFFSET))(this, a1);
 		}
 
 		::System::Void Dispose()
@@ -65,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void _RefreshShopBaseInfo(::Class_1_355B625488677C80* a1)
+		::System::Void _RefreshShopBaseInfo(::JIMNPPNNHEL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_355B625488677C80*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO__REFRESHSHOPBASEINFO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::JIMNPPNNHEL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO__REFRESHSHOPBASEINFO_OFFSET))(this, a1);
 		}
 
 		::System::Void _RefreshCoin(::System::UInt32 a1)
@@ -75,9 +71,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO__REFRESHCOIN_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshIncomeStat(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_338*>* a1)
+		::System::Void _RefreshIncomeStat(::Google::Protobuf::Collections::RepeatedField_1<::IMIHIMCHHIP*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_338*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO__REFRESHINCOMESTAT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Collections::RepeatedField_1<::IMIHIMCHHIP*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO__REFRESHINCOMESTAT_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Coin()
@@ -99,5 +95,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::FateBuffShopData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATESHOPINFO_GET_BUFFSHOPDATA_OFFSET))(this);
 		}
+
 	};
 }

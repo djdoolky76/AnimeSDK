@@ -1,27 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Guid.h"
 namespace System { class Action; }
-namespace System { class String; }
 
-#define RPG_CLIENT_EARLYACCESSUTILS_ISMISSIONINCANUNLOCKEARLYACCESSCONTENT_OFFSET UNITYSDK_OFFSET(0xCDBD5E0)
-#define RPG_CLIENT_EARLYACCESSUTILS_ISNEEDSWITCHCONTENT_OFFSET UNITYSDK_OFFSET(0xCDBD370)
-#define RPG_CLIENT_EARLYACCESSUTILS_REPORTSWITCHDIALOGBUTTON_OFFSET UNITYSDK_OFFSET(0xCDBD910)
-#define RPG_CLIENT_EARLYACCESSUTILS_SHOWEARLYACCESSBLOCKERRORTIPS_OFFSET UNITYSDK_OFFSET(0xCDBD8B0)
-#define RPG_CLIENT_EARLYACCESSUTILS_SHOWEARLYACCESSSWITCHDIALOG_OFFSET UNITYSDK_OFFSET(0xCDBD040)
+#define RPG_CLIENT_EARLYACCESSUTILS_ISMISSIONINCANUNLOCKEARLYACCESSCONTENT_OFFSET UNITYSDK_OFFSET(0xCD0E990)
+#define RPG_CLIENT_EARLYACCESSUTILS_ISNEEDSWITCHCONTENT_OFFSET UNITYSDK_OFFSET(0xCD0E720)
+#define RPG_CLIENT_EARLYACCESSUTILS_REPORTSWITCHDIALOGBUTTON_OFFSET UNITYSDK_OFFSET(0xCD0ECC0)
+#define RPG_CLIENT_EARLYACCESSUTILS_SHOWEARLYACCESSBLOCKERRORTIPS_OFFSET UNITYSDK_OFFSET(0xCD0EC60)
+#define RPG_CLIENT_EARLYACCESSUTILS_SHOWEARLYACCESSSWITCHDIALOG_OFFSET UNITYSDK_OFFSET(0xCD0E400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessUtils_TypeDefinitionIndex = 63714;
-
 	class EarlyAccessUtils : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 _MainMissionPreUnlockId = 0x5EB; // 0x0
+		// static const ::System::Object _MainMissionPreUnlockId; // 0x0
 		// static const ::System::String* _SwitchDialogName; // 0x0
-
 		static ::System::Void ShowEarlyAccessSwitchDialog(::System::UInt32 a1, ::System::Action* a2)
 		{
 			return ((::System::Void(*)(::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSUTILS_SHOWEARLYACCESSSWITCHDIALOG_OFFSET))(a1, a2);
@@ -46,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::System::UInt32, ::System::Boolean, ::System::Guid))((::PBYTE)hIl2Cpp + RPG_CLIENT_EARLYACCESSUTILS_REPORTSWITCHDIALOGBUTTON_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

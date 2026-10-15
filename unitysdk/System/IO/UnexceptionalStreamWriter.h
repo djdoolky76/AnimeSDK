@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/StreamWriter.h"
-
 namespace System { class String; }
 namespace System::IO { class Stream; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1BD68070)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1BD68160)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1BD681A0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x1BD681E0)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1BD68120)
-#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD68020)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C273DE0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C273E30)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1C273F20)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1C273F60)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x1C273FA0)
+#define SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1C273EE0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int UnexceptionalStreamWriter_TypeDefinitionIndex = 729;
-
 	class UnexceptionalStreamWriter : public ::System::IO::StreamWriter
 	{
 	public:
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::Text::Encoding* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Flush()
@@ -49,5 +46,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNEXCEPTIONALSTREAMWRITER_WRITE_3_OFFSET))(this, a1);
 		}
+
 	};
 }

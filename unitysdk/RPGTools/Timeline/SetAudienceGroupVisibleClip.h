@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class SetAudienceGroupVisibleClipConfig; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E0FF0)
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E0FE0)
-#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E1180)
+#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9363C0)
+#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE936550)
+#define RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9363B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetAudienceGroupVisibleClip_TypeDefinitionIndex = 48732;
-
 	class SetAudienceGroupVisibleClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::SetAudienceGroupVisibleClipConfig* Config; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -35,5 +31,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETAUDIENCEGROUPVISIBLECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

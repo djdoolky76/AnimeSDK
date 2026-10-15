@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B974590)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B974600)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9658A0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B974520)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE73F20)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE73EB0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE73F90)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE65230)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager_HoYoPassLoginCallbackDelegate_TypeDefinitionIndex = 8261;
-
 	class LoginManager_HoYoPassLoginCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::AccountModel* a3)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER_HOYOPASSLOGINCALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

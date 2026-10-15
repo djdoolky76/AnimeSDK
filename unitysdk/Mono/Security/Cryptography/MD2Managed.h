@@ -2,39 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Cryptography/MD2.h"
 
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1BB22AD0)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1BB22E70)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB22A70)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_MD2TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1BB22BB0)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_PADDING_OFFSET UNITYSDK_OFFSET(0x1BB22960)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB23010)
-#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB228A0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C077480)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C076D10)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHCORE_OFFSET UNITYSDK_OFFSET(0x1C076F40)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x1C0772E0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C076EE0)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_MD2TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1C077020)
+#define MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_PADDING_OFFSET UNITYSDK_OFFSET(0x1C076DD0)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int MD2Managed_TypeDefinitionIndex = 2303;
-
 	class MD2Managed : public ::Mono::Security::Cryptography::MD2
 	{
 	public:
-		static ::Il2CppArray<::System::Byte>** StaticGet_PI_SUBST()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(MD2Managed_TypeDefinitionIndex)->GetStaticField(0x2BD70);
-		}
 		::Il2CppArray<::System::Byte>* checksum; // 0x28
-		::Il2CppArray<::System::Byte>* buffer; // 0x30
-		::Il2CppArray<::System::Byte>* x; // 0x38
+		::Il2CppArray<::System::Byte>* x; // 0x30
+		::Il2CppArray<::System::Byte>* buffer; // 0x38
 		::Il2CppArray<::System::Byte>* state; // 0x40
 		::System::Int32 count; // 0x48
+		static ::Il2CppArray<::System::Byte>** StaticGet_PI_SUBST()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "MD2Managed")->GetStaticField(0xB690);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_CCTOR_OFFSET))();
 		}
 
 		::Il2CppArray<::System::Byte>* Padding(::System::Int32 a1)
@@ -61,5 +59,6 @@ namespace Mono::Security::Cryptography
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_MD2MANAGED_MD2TRANSFORM_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class LKGIMGKIFFI;
+namespace Cinemachine { class CinemachineVirtualCamera; }
+namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
+
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB747170)
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xB747180)
+#define LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__1_OFFSET UNITYSDK_OFFSET(0xB7472A0)
+
+	class LKGIMGKIFFI___c__DisplayClass38_0 : public ::System::Object
+	{
+	public:
+		::LKGIMGKIFFI* __4__this; // 0x10
+		::UnityEngine::Quaternion enterDir; // 0x18
+		::UnityEngine::Vector3 enterCanonicalPos; // 0x28
+		::UnityEngine::Vector3 correctedCanonicalPos; // 0x34
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LKGIMGKIFFI___C__DISPLAYCLASS38_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _Execute_b__0(::Cinemachine::CinemachineVirtualCamera* a1, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCamera*, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__0_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _Execute_b__1(::Cinemachine::CinemachineVirtualCamera* a1, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCamera*, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI___C__DISPLAYCLASS38_0__EXECUTE_B__1_OFFSET))(this, a1, a2);
+		}
+
+	};

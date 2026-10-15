@@ -2,81 +2,83 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0xC40FDD0)
-#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0xC40FCD0)
-#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0xC40FE40)
-#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0xC4100B0)
-#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC40F810)
-#define PLANETSCCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xC410360)
-#define PLANETSCCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC410300)
+#define PLANETSCCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xC311750)
+#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0xC3111C0)
+#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0xC3110C0)
+#define PLANETSCCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC3116F0)
+#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0xC311230)
+#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0xC3114A0)
+#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC310C00)
 
-inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 47739;
+	class PLaneTSCControl : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Single width; // 0x18
+		::System::Single height; // 0x1C
+		::UnityEngine::Color lineColor; // 0x20
+		::System::Boolean drawNormal; // 0x30
+		::System::Byte _padding0[0x3];
+		::System::Single normalLength; // 0x34
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* TargetObjects; // 0x38
+		::UnityEngine::GameObject* ClipBlockRoot; // 0x40
+		::System::Boolean NEBCHEJDPJA; // 0x48
+		static ::System::Int32* StaticGet_CCEADALFFEM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BE0);
+		}
 
-class PLaneTSCControl : public ::UnityEngine::MonoBehaviour
-{
-public:
-	static ::System::Int32* StaticGet_CCEADALFFEM()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12930);
-	}
-	static ::System::Int32* StaticGet_JDIOPOAEGGM()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12934);
-	}
-	static ::System::Int32* StaticGet_NEPFNFJCJFD()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x12938);
-	}
-	static ::System::Int32* StaticGet_ELBNMMKNPFJ()
-	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PLaneTSCControl_TypeDefinitionIndex)->GetStaticField(0x1293C);
-	}
-	::System::Single width; // 0x18
-	::System::Single height; // 0x1C
-	::UnityEngine::Color lineColor; // 0x20
-	::System::Boolean drawNormal; // 0x30
-	::System::Single normalLength; // 0x34
-	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* TargetObjects; // 0x38
-	::UnityEngine::GameObject* ClipBlockRoot; // 0x40
-	::System::Boolean NEBCHEJDPJA; // 0x48
+		static ::System::Int32* StaticGet_NEPFNFJCJFD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BE4);
+		}
 
-	::System::Void _ctor()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL__CTOR_OFFSET))(this);
-	}
+		static ::System::Int32* StaticGet_ELBNMMKNPFJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BE8);
+		}
 
-	static ::System::Void _cctor()
-	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PLANETSCCONTROL__CCTOR_OFFSET))();
-	}
+		static ::System::Int32* StaticGet_JDIOPOAEGGM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BEC);
+		}
 
-	::System::Void Update()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_UPDATE_OFFSET))(this);
-	}
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_CTOR_OFFSET))(this);
+		}
 
-	::System::Void CollectRenderers()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_COLLECTRENDERERS_OFFSET))(this);
-	}
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PLANETSCCONTROL_CCTOR_OFFSET))();
+		}
 
-	::System::Void ClearRenderers()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_CLEARRENDERERS_OFFSET))(this);
-	}
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_UPDATE_OFFSET))(this);
+		}
 
-	::System::Void startClip()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_STARTCLIP_OFFSET))(this);
-	}
+		::System::Void CollectRenderers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_COLLECTRENDERERS_OFFSET))(this);
+		}
 
-	::System::Void stopClip()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_STOPCLIP_OFFSET))(this);
-	}
-};
+		::System::Void ClearRenderers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_CLEARRENDERERS_OFFSET))(this);
+		}
+
+		::System::Void startClip()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_STARTCLIP_OFFSET))(this);
+		}
+
+		::System::Void stopClip()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PLANETSCCONTROL_STOPCLIP_OFFSET))(this);
+		}
+
+	};

@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/StoryLightCharacterGroup.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class StoryLightControlBehaviour; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8EDC20)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8EDE00)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8EDE10)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE943020)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9431E0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE9431D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryLightControlClip_TypeDefinitionIndex = 48802;
-
 	class StoryLightControlClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean IsSyncSceneLight; // 0x18
 		::System::Boolean EnableRotation; // 0x19
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector3 Rotation; // 0x1C
 		::RPGTools::Timeline::StoryLightControlBehaviour* template_; // 0x28
 		::System::Boolean EnableCharacterGroup; // 0x30
+		::System::Byte _padding1[0x7];
 		::System::Collections::Generic::List_1<::RPGTools::Timeline::StoryLightCharacterGroup>* CharacterGroupList; // 0x38
 		::System::Boolean AutoReset; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -44,5 +42,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

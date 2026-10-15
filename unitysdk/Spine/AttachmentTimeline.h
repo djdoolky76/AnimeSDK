@@ -3,33 +3,29 @@
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/MixDirection.h"
 #include "unitysdk/Spine/Timeline.h"
-
 namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { class Slot; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_ATTACHMENTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1E5D6B20)
-#define SPINE_ATTACHMENTTIMELINE_GET_ATTACHMENTNAMES_OFFSET UNITYSDK_OFFSET(0x1E5D6AC0)
-#define SPINE_ATTACHMENTTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1E5D6AB0)
-#define SPINE_ATTACHMENTTIMELINE_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1E5D6DB0)
-#define SPINE_ATTACHMENTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5D6AD0)
-#define SPINE_ATTACHMENTTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D6990)
+#define SPINE_ATTACHMENTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1EC9ECF0)
+#define SPINE_ATTACHMENTTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9EB60)
+#define SPINE_ATTACHMENTTIMELINE_GET_ATTACHMENTNAMES_OFFSET UNITYSDK_OFFSET(0x1EC9EC90)
+#define SPINE_ATTACHMENTTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1EC9EC80)
+#define SPINE_ATTACHMENTTIMELINE_SETATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1EC9EF80)
+#define SPINE_ATTACHMENTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1EC9ECA0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AttachmentTimeline_TypeDefinitionIndex = 38321;
-
 	class AttachmentTimeline : public ::Spine::Timeline
 	{
 	public:
 		::Il2CppArray<::System::String*>* attachmentNames; // 0x20
 		::System::Int32 slotIndex; // 0x28
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENTTIMELINE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENTTIMELINE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_SlotIndex()
@@ -56,5 +52,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::Spine::Slot*, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_ATTACHMENTTIMELINE_SETATTACHMENT_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

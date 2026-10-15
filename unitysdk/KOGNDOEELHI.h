@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftPartType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple.h"
+class HNMIPBLIAJA;
+class JACIBMLLOFE;
+class OCKFDCAINLB;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define KOGNDOEELHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB5969C0)
+#define KOGNDOEELHI_LMFPDGFALML_OFFSET UNITYSDK_OFFSET(0xB596AD0)
+#define KOGNDOEELHI_ODAOBOJBMMH_OFFSET UNITYSDK_OFFSET(0xB596C60)
+
+	class KOGNDOEELHI : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::OCKFDCAINLB*>* HJLKLEMKDNI; // 0x10
+		::HNMIPBLIAJA* CEFLLELKFOP; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple, ::JACIBMLLOFE*>* LHFHFJBKJDK; // 0x20
+		::System::Void _ctor(::HNMIPBLIAJA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HNMIPBLIAJA*))((::PBYTE)hIl2Cpp + KOGNDOEELHI_CTOR_OFFSET))(this, a1);
+		}
+
+		::OCKFDCAINLB* LMFPDGFALML(::System::UInt32 a1, ::RPG::Client::MechCraft::MechCraftPartType a2)
+		{
+			return ((::OCKFDCAINLB*(*)(::PVOID, ::System::UInt32, ::RPG::Client::MechCraft::MechCraftPartType))((::PBYTE)hIl2Cpp + KOGNDOEELHI_LMFPDGFALML_OFFSET))(this, a1, a2);
+		}
+
+		::JACIBMLLOFE* ODAOBOJBMMH(::RPG::Client::MechCraft::MechCraftAttributeType a1, ::System::UInt32 a2, ::RPG::Client::MechCraft::MechCraftPartType a3)
+		{
+			return ((::JACIBMLLOFE*(*)(::PVOID, ::RPG::Client::MechCraft::MechCraftAttributeType, ::System::UInt32, ::RPG::Client::MechCraft::MechCraftPartType))((::PBYTE)hIl2Cpp + KOGNDOEELHI_ODAOBOJBMMH_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

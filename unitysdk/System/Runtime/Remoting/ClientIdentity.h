@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/Identity.h"
-
 namespace System { class MarshalByRefObject; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System { class WeakReference; }
 namespace System::Runtime::Remoting { class ObjRef; }
 
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1BDCA4D0)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1BDCA3A0)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET UNITYSDK_OFFSET(0x1BDCA4E0)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1BDCA490)
-#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCA260)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CREATEOBJREF_OFFSET UNITYSDK_OFFSET(0x1C2D61D0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D5F60)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1C2D60A0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET UNITYSDK_OFFSET(0x1C2D61E0)
+#define SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_SET_CLIENTPROXY_OFFSET UNITYSDK_OFFSET(0x1C2D6190)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int ClientIdentity_TypeDefinitionIndex = 1209;
-
 	class ClientIdentity : public ::System::Runtime::Remoting::Identity
 	{
 	public:
 		::System::WeakReference* _proxyReference; // 0x48
-
 		::System::Void _ctor(::System::String* a1, ::System::Runtime::Remoting::ObjRef* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::ObjRef*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Runtime::Remoting::ObjRef*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::MarshalByRefObject* get_ClientProxy()
@@ -47,5 +43,6 @@ namespace System::Runtime::Remoting
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_CLIENTIDENTITY_GET_TARGETURI_OFFSET))(this);
 		}
+
 	};
 }

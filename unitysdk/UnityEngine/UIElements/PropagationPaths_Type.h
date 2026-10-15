@@ -3,8 +3,6 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PropagationPaths_Type_TypeDefinitionIndex = 5982;
-
 	enum class PropagationPaths_Type : ::System::Int32
 	{
 		None = 0,

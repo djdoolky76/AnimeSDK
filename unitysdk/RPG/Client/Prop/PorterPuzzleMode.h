@@ -3,8 +3,6 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PorterPuzzleMode_TypeDefinitionIndex = 78302;
-
 	enum class PorterPuzzleMode : ::System::Int32
 	{
 		PerMatchMode = 0,

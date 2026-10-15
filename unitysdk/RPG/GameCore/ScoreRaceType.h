@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScoreRaceType_TypeDefinitionIndex = 13168;
-
 	enum class ScoreRaceType : ::System::Int32
 	{
 		Unkown = 0,

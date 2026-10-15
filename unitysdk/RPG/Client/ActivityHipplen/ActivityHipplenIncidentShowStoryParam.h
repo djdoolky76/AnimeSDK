@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM_GET_DIALOGID_OFFSET UNITYSDK_OFFSET(0xC545C70)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC545C60)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC545C80)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC4165B0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM_GET_DIALOGID_OFFSET UNITYSDK_OFFSET(0xC4165A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC416590)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenIncidentShowStoryParam_TypeDefinitionIndex = 75257;
-
 	class ActivityHipplenIncidentShowStoryParam : public ::System::Object
 	{
 	public:
 		::System::String* _ImagePath_k__BackingField; // 0x10
 		::System::UInt32 _DialogID_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::String* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_ImagePath()
@@ -32,5 +28,6 @@ namespace RPG::Client::ActivityHipplen
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINCIDENTSHOWSTORYPARAM_GET_DIALOGID_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/BrowserNative_ZFBSettings.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF884C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF88530)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF757A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF88450)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6509E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F650970)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F650A50)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F63D660)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_Calltype_zfb_createBrowser_TypeDefinitionIndex = 38120;
-
 	class BrowserNative_Calltype_zfb_createBrowser : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::ZenFulcrum::EmbeddedBrowser::BrowserNative_ZFBSettings a1)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_CALLTYPE_ZFB_CREATEBROWSER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

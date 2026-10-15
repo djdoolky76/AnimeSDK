@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnUpdateSelectedHandler; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_GETONUPDATESELECTEDASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1EA770E0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_GETONUPDATESELECTEDASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1EA77000)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EA77320)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_OFFSET UNITYSDK_OFFSET(0x1EA77140)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_UNITYENGINE_EVENTSYSTEMS_IUPDATESELECTEDHANDLER_ONUPDATESELECTED_OFFSET UNITYSDK_OFFSET(0x1EA76F90)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA774A0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F13EC40)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_GETONUPDATESELECTEDASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1F13E880)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_GETONUPDATESELECTEDASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1F13E7A0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_1_OFFSET UNITYSDK_OFFSET(0x1F13EAC0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_OFFSET UNITYSDK_OFFSET(0x1F13E8E0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_UNITYENGINE_EVENTSYSTEMS_IUPDATESELECTEDHANDLER_ONUPDATESELECTED_OFFSET UNITYSDK_OFFSET(0x1F13E730)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncUpdateSelectedTrigger_TypeDefinitionIndex = 43066;
-
-	class AsyncUpdateSelectedTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::UnityEngine::EventSystems::BaseEventData*>
+	class AsyncUpdateSelectedTrigger
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void UnityEngine_EventSystems_IUpdateSelectedHandler_OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData* a1)
@@ -41,14 +37,15 @@ namespace Cysharp::Threading::Tasks::Triggers
 			return ((::Cysharp::Threading::Tasks::Triggers::IAsyncOnUpdateSelectedHandler*(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_GETONUPDATESELECTEDASYNCHANDLER_1_OFFSET))(this, a1);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::BaseEventData*> OnUpdateSelectedAsync()
+		::Cysharp::Threading::Tasks::UniTask OnUpdateSelectedAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::BaseEventData*>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::BaseEventData*> OnUpdateSelectedAsync_1(::System::Threading::CancellationToken a1)
+		::Cysharp::Threading::Tasks::UniTask OnUpdateSelectedAsync_1(::System::Threading::CancellationToken a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::BaseEventData*>(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_1_OFFSET))(this, a1);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCUPDATESELECTEDTRIGGER_ONUPDATESELECTEDASYNC_1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class ActiveMCVKeySnapshot; }
+namespace System { class Object; }
 
-#define PROTO_ACTIVEMCVKEYSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D92D7C0)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D92D800)
-#define PROTO_ACTIVEMCVKEYSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1D92D810)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE61B0)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE61F0)
+#define PROTO_ACTIVEMCVKEYSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFE6200)
 
 namespace Proto
 {
-	inline static constexpr unsigned int ActiveMCVKeySnapshot___c_TypeDefinitionIndex = 25477;
-
 	class ActiveMCVKeySnapshot___c : public ::System::Object
 	{
 	public:
-		static ::Proto::ActiveMCVKeySnapshot___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Proto::ActiveMCVKeySnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(ActiveMCVKeySnapshot___c_TypeDefinitionIndex)->GetStaticField(0x571E0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43930);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT___C_CTOR_OFFSET))(this);
 		}
 
 		::Proto::ActiveMCVKeySnapshot* __cctor_b__28_0()
 		{
 			return ((::Proto::ActiveMCVKeySnapshot*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_ACTIVEMCVKEYSNAPSHOT___C___CCTOR_B__28_0_OFFSET))(this);
 		}
+
 	};
 }

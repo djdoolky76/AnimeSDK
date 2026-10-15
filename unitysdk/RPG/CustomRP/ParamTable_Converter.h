@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonConverter.h"
-
 namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1C6B49F0)
-#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1C6B4A30)
-#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1C6B4B00)
-#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B4BD0)
+#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1CC3A810)
+#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3A9F0)
+#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1CC3A850)
+#define RPG_CUSTOMRP_PARAMTABLE_CONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1CC3A920)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ParamTable_Converter_TypeDefinitionIndex = 37236;
-
 	class ParamTable_Converter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_CONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_CONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanConvert(::System::Type* a1)
@@ -39,5 +36,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PARAMTABLE_CONVERTER_WRITEJSON_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

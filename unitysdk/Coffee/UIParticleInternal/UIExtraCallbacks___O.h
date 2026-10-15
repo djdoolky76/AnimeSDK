@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Canvas_WillRenderCanvases; }
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int UIExtraCallbacks___O_TypeDefinitionIndex = 43953;
-
 	class UIExtraCallbacks___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Canvas_WillRenderCanvases** StaticGet__0___OnAfterCanvasRebuild()
 		{
-			return (::UnityEngine::Canvas_WillRenderCanvases**)Il2CppClass::FromTypeDefinitionIndex(UIExtraCallbacks___O_TypeDefinitionIndex)->GetStaticField(0x13B0);
+			return (::UnityEngine::Canvas_WillRenderCanvases**)UnitySDK::FromName("Coffee.UIParticleInternal", "<>O")->GetStaticField(0x1110);
 		}
+
 	};
 }

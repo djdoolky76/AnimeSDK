@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IPedestrianMemberExternalConfig; }
 namespace RPG::Client { class NPCPedestrianGPUAssetConfig_WalkBakedData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0xD92F380)
-#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xD92F3C0)
+#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_CTOR_OFFSET UNITYSDK_OFFSET(0xD930080)
+#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_PNJGKDFAACN_OFFSET UNITYSDK_OFFSET(0xD930040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_Asset_TypeDefinitionIndex = 69203;
-
 	class NPCPedestrianGPUAssetConfig_Asset : public ::System::Object
 	{
 	public:
@@ -20,15 +17,15 @@ namespace RPG::Client
 		::System::String* AssetPath; // 0x18
 		::RPG::Client::NPCPedestrianGPUAssetConfig_WalkBakedData* WalkBakedData; // 0x20
 		::Il2CppArray<::RPG::Client::IPedestrianMemberExternalConfig*>* ExternalConfigs; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_1_DA1BF2C227DC3D86()
+		::System::String* PNJGKDFAACN()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_METHOD_1_DA1BF2C227DC3D86_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_ASSET_PNJGKDFAACN_OFFSET))(this);
 		}
+
 	};
 }

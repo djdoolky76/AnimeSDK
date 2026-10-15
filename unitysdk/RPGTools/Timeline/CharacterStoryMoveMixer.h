@@ -3,25 +3,21 @@
 #include "unitysdk/RPGTools/Timeline/OverrideTransformMixer.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE832D80)
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE832C20)
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE832E00)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D0BD0)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8D0B50)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8D09F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStoryMoveMixer_TypeDefinitionIndex = 48467;
-
 	class CharacterStoryMoveMixer : public ::RPGTools::Timeline::OverrideTransformMixer
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -33,5 +29,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEMIXER_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/SuperScrollView/RowColumnPair.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/SuperScrollView/RowColumnPair.h"
+namespace SuperScrollView { class RowColumnComparer; }
 
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0xE984F80)
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE984FE0)
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE985050)
-#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xE985040)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9DAAD0)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xE9DAAC0)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0xE9DAA00)
+#define SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE9DAA60)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int RowColumnComparer_TypeDefinitionIndex = 48094;
-
 	class RowColumnComparer : public ::System::Object
 	{
 	public:
 		static ::SuperScrollView::RowColumnComparer** StaticGet_comparer()
 		{
-			return (::SuperScrollView::RowColumnComparer**)Il2CppClass::FromTypeDefinitionIndex(RowColumnComparer_TypeDefinitionIndex)->GetStaticField(0x49F00);
+			return (::SuperScrollView::RowColumnComparer**)UnitySDK::FromName("SuperScrollView", "RowColumnComparer")->GetStaticField(0xD850);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNCOMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean Equals(::SuperScrollView::RowColumnPair a1, ::SuperScrollView::RowColumnPair a2)
@@ -39,5 +38,6 @@ namespace SuperScrollView
 		{
 			return ((::System::Int32(*)(::PVOID, ::SuperScrollView::RowColumnPair))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_ROWCOLUMNCOMPARER_GETHASHCODE_OFFSET))(this, a1);
 		}
+
 	};
 }

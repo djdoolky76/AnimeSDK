@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC44F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC4520)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC44E0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC4470)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F68CA60)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F68C9E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F68CA90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F68CA50)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__ReleaseInputFocus_TypeDefinitionIndex = 37632;
-
 	class IVRSystem__ReleaseInputFocus : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__RELEASEINPUTFOCUS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

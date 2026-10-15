@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine::Unity { class SkeletonRenderer; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E6602E0)
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E660310)
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E65E150)
-#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6601F0)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED28110)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED28020)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED28140)
+#define SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED25F80)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderer_SkeletonRendererDelegate_TypeDefinitionIndex = 43856;
-
 	class SkeletonRenderer_SkeletonRendererDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Unity::SkeletonRenderer* a1)
@@ -38,5 +35,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONRENDERER_SKELETONRENDERERDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

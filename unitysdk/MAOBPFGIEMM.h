@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class SetGraphDynamicString; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define MAOBPFGIEMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB856470)
+#define MAOBPFGIEMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8564A0)
+
+	class MAOBPFGIEMM
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetGraphDynamicString* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetGraphDynamicString*))((::PBYTE)hIl2Cpp + MAOBPFGIEMM_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MAOBPFGIEMM_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDD4350)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_RENEWLEASE_OFFSET UNITYSDK_OFFSET(0x1BDD4190)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDD4070)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD4060)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2E0050)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DFD60)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_RENEWLEASE_OFFSET UNITYSDK_OFFSET(0x1C2DFE90)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2DFD70)
 
 namespace System::Runtime::Remoting::Lifetime
 {
-	inline static constexpr unsigned int LeaseSink_TypeDefinitionIndex = 1243;
-
 	class LeaseSink : public ::System::Object
 	{
 	public:
 		::System::Runtime::Remoting::Messaging::IMessageSink* _nextSink; // 0x10
-
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessageSink*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1)
@@ -39,5 +35,6 @@ namespace System::Runtime::Remoting::Lifetime
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Remoting::Messaging::IMessage*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_LIFETIME_LEASESINK_RENEWLEASE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongMPSkillInfo; }
 namespace RPG::GameCore { class PingPongSPSkillInfo; }
+namespace RPG::GameCore { class PingPongSkillConfig; }
 
-#define RPG_GAMECORE_PINGPONGSKILLCONFIG_METHOD_2_DE1E976379CE8186_OFFSET UNITYSDK_OFFSET(0x1D332A90)
-#define RPG_GAMECORE_PINGPONGSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D333B80)
+#define RPG_GAMECORE_PINGPONGSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D918D10)
+#define RPG_GAMECORE_PINGPONGSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D917C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongSkillConfig_TypeDefinitionIndex = 16790;
-
 	class PingPongSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::PingPongSPSkillInfo*>* SPSkillList; // 0x10
 		::RPG::GameCore::PingPongMPSkillInfo* MPSkill; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGSKILLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGSKILLCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DE1E976379CE8186(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongSkillConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PingPongSkillConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongSkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGSKILLCONFIG_METHOD_2_DE1E976379CE8186_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PingPongSkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGSKILLCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

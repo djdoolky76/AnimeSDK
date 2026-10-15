@@ -1,47 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace Cinemachine { class ICinemachineCamera; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINEEXTENSION_AWAKE_OFFSET UNITYSDK_OFFSET(0x16458D90)
-#define CINEMACHINE_CINEMACHINEEXTENSION_CONNECTTOVCAM_OFFSET UNITYSDK_OFFSET(0x164557B0)
-#define CINEMACHINE_CINEMACHINEEXTENSION_ENSURESTARTED_OFFSET UNITYSDK_OFFSET(0x16458E20)
-#define CINEMACHINE_CINEMACHINEEXTENSION_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x16458F90)
-#define CINEMACHINE_CINEMACHINEEXTENSION_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x16458FB0)
-#define CINEMACHINE_CINEMACHINEEXTENSION_GET_VIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x1643DA70)
-#define CINEMACHINE_CINEMACHINEEXTENSION_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x16458EB0)
-#define CINEMACHINE_CINEMACHINEEXTENSION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1644BB10)
-#define CINEMACHINE_CINEMACHINEEXTENSION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16458E10)
-#define CINEMACHINE_CINEMACHINEEXTENSION_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x16458F70)
-#define CINEMACHINE_CINEMACHINEEXTENSION_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x16458FA0)
-#define CINEMACHINE_CINEMACHINEEXTENSION_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x16458F80)
-#define CINEMACHINE_CINEMACHINEEXTENSION_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x16458EA0)
-#define CINEMACHINE_CINEMACHINEEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1643E340)
+#define CINEMACHINE_CINEMACHINEEXTENSION_AWAKE_OFFSET UNITYSDK_OFFSET(0x1667FAC0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_CONNECTTOVCAM_OFFSET UNITYSDK_OFFSET(0x1667C4E0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x16665070)
+#define CINEMACHINE_CINEMACHINEEXTENSION_ENSURESTARTED_OFFSET UNITYSDK_OFFSET(0x1667FB50)
+#define CINEMACHINE_CINEMACHINEEXTENSION_FORCECAMERAPOSITION_OFFSET UNITYSDK_OFFSET(0x1667FCC0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1667FCE0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_GET_VIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x166647A0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x1667FBE0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x16672840)
+#define CINEMACHINE_CINEMACHINEEXTENSION_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1667FB40)
+#define CINEMACHINE_CINEMACHINEEXTENSION_ONTARGETOBJECTWARPED_OFFSET UNITYSDK_OFFSET(0x1667FCA0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_ONTRANSITIONFROMCAMERA_OFFSET UNITYSDK_OFFSET(0x1667FCD0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_ONWORLDWARPED_OFFSET UNITYSDK_OFFSET(0x1667FCB0)
+#define CINEMACHINE_CINEMACHINEEXTENSION_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1667FBD0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineExtension_TypeDefinitionIndex = 38519;
-
 	class CinemachineExtension : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Single Epsilon; // 0x0
 		::Cinemachine::CinemachineVirtualCameraBase* m_vcamOwner; // 0x18
 		::System::Collections::Generic::Dictionary_2<::Cinemachine::ICinemachineCamera*, ::System::Object*>* mExtraState; // 0x20
-
+		// static const ::System::Object Epsilon; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION_CTOR_OFFSET))(this);
 		}
 
 		::Cinemachine::CinemachineVirtualCameraBase* get_VirtualCamera()
@@ -74,14 +69,14 @@ namespace Cinemachine
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION_CONNECTTOVCAM_OFFSET))(this, a1);
 		}
 
-		::System::Void PrePipelineMutateCameraStateCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CameraState& a2, ::System::Single a3)
+		::System::Void PrePipelineMutateCameraStateCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CameraState a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION_PREPIPELINEMUTATECAMERASTATECALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InvokePostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
+		::System::Void InvokePostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION_INVOKEPOSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void OnTargetObjectWarped(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2)
@@ -108,5 +103,6 @@ namespace Cinemachine
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEXTENSION_GETMAXDAMPTIME_OFFSET))(this);
 		}
+
 	};
 }

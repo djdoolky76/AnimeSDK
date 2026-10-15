@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorRecorderMode_TypeDefinitionIndex = 5690;
-
 	enum class AnimatorRecorderMode : ::System::Int32
 	{
 		Offline = 0,

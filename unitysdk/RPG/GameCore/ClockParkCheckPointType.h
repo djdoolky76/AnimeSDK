@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkCheckPointType_TypeDefinitionIndex = 11144;
-
 	enum class ClockParkCheckPointType : ::System::Int32
 	{
 		AttrGreaterEqual = 1,

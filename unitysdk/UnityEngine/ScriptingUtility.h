@@ -2,12 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_SCRIPTINGUTILITY_ISMANAGEDCODEWORKING_OFFSET UNITYSDK_OFFSET(0x1ED63E50)
+#define UNITYENGINE_SCRIPTINGUTILITY_ISMANAGEDCODEWORKING_OFFSET UNITYSDK_OFFSET(0x1F42C140)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ScriptingUtility_TypeDefinitionIndex = 4337;
-
 	class ScriptingUtility : public ::System::Object
 	{
 	public:
@@ -15,5 +13,6 @@ namespace UnityEngine
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_SCRIPTINGUTILITY_ISMANAGEDCODEWORKING_OFFSET))();
 		}
+
 	};
 }

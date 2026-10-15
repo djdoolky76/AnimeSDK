@@ -1,60 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CommonIndexKey.h"
-#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherDividePassiveSkillRow; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1CE00D20)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1CE00BB0)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1CE008A0)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1CE00B50)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1CE00E70)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE00920)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE00EB0)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE01080)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1CE01480)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE017A0)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1CE00FE0)
-#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1CE00F40)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3D7AA0)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D3D6F60)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D3D6DF0)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D3D6AE0)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D3D6D90)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D3D70F0)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3D6B60)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3D7130)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D7300)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D3D7730)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D3D7260)
+#define RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D3D71C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDividePassiveSkillExcelTable_TypeDefinitionIndex = 10895;
-
 	class AetherDividePassiveSkillExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDividePassiveSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x18230);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AetherDividePassiveSkillExcelTable")->GetStaticField(0x4A620);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDividePassiveSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x18238);
-		}
+
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDividePassiveSkillRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDividePassiveSkillRow*>**)Il2CppClass::FromTypeDefinitionIndex(AetherDividePassiveSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x18240);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDividePassiveSkillRow*>**)UnitySDK::FromName("RPG.GameCore", "AetherDividePassiveSkillExcelTable")->GetStaticField(0x4A628);
 		}
+
+		static ::System::Action** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "AetherDividePassiveSkillExcelTable")->GetStaticField(0x4A630);
+		}
+
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AetherDividePassiveSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x8FE0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AetherDividePassiveSkillExcelTable")->GetStaticField(0x11560);
 		}
+
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AetherDividePassiveSkillExcelTable_TypeDefinitionIndex)->GetStaticField(0x8FE1);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "AetherDividePassiveSkillExcelTable")->GetStaticField(0x11561);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE_CCTOR_OFFSET))();
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AetherDividePassiveSkillRow*>* get_dataDict()
@@ -97,19 +98,20 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__LOADDATA_OFFSET))(a1);
 		}
 
-		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean& a3)
+		static ::System::Void _LoadDataIncremential(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _AddItemFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
+		static ::System::Void _AddItemFromBinary(::FCOEMCEDLNL* a1)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__ADDITEMFROMBINARY_OFFSET))(a1);
 		}
 
 		static ::System::Void _AddItem(::RPG::GameCore::AetherDividePassiveSkillRow* a1)
 		{
 			return ((::System::Void(*)(::RPG::GameCore::AetherDividePassiveSkillRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEPASSIVESKILLEXCELTABLE__ADDITEM_OFFSET))(a1);
 		}
+
 	};
 }

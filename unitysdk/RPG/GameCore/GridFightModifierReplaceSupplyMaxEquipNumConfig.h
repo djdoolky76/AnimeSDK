@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierReplaceSupplyMaxEquipNumConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_METHOD_3_8209DA4C3636F179_OFFSET UNITYSDK_OFFSET(0x1D15A6B0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_METHOD_3_D25F6FBAD0612BBD_OFFSET UNITYSDK_OFFSET(0x1D15A700)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15A6F0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7354E0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7354F0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7354A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierReplaceSupplyMaxEquipNumConfig_TypeDefinitionIndex = 19206;
-
 	class GridFightModifierReplaceSupplyMaxEquipNumConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8209DA4C3636F179(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_METHOD_3_8209DA4C3636F179_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D25F6FBAD0612BBD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_METHOD_3_D25F6FBAD0612BBD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierReplaceSupplyMaxEquipNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYMAXEQUIPNUMCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

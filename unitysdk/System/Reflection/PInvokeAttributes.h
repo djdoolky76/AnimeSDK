@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int PInvokeAttributes_TypeDefinitionIndex = 571;
-
 	enum class PInvokeAttributes : ::System::Int32
 	{
 		NoMangle = 1,

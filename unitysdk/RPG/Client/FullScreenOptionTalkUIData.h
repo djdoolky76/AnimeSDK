@@ -2,36 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class FontAssetConfig; }
 namespace RPG::Client { class TalkOptionData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_GET_SDFTEXTASSETPATH_OFFSET UNITYSDK_OFFSET(0xD0EAD20)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETCONFIG_OFFSET UNITYSDK_OFFSET(0xD0EAFF0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETOPTIONLIST_OFFSET UNITYSDK_OFFSET(0xD0EAEB0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD0EAFA0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETHEROAVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xD0EB2E0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETSDFFONTASSETPATH_OFFSET UNITYSDK_OFFSET(0xD0EAD70)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD08B3A0)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_GET_SDFTEXTASSETPATH_OFFSET UNITYSDK_OFFSET(0xD08B180)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETCONFIG_OFFSET UNITYSDK_OFFSET(0xD08B3F0)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETOPTIONLIST_OFFSET UNITYSDK_OFFSET(0xD08B2E0)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETHEROAVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xD08B6B0)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETSDFFONTASSETPATH_OFFSET UNITYSDK_OFFSET(0xD08B1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullScreenOptionTalkUIData_TypeDefinitionIndex = 68018;
-
 	class FullScreenOptionTalkUIData : public ::System::Object
 	{
 	public:
-		::RPG::Client::FontAssetConfig* FontConfig; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* OptionList; // 0x10
 		::System::String* HintIconPath; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* OptionList; // 0x20
-		::System::Single ZAxisOffset; // 0x28
-		::System::Single XAxisOffset; // 0x2C
+		::RPG::Client::FontAssetConfig* FontConfig; // 0x20
+		::System::Single XAxisOffset; // 0x28
+		::System::Single ZAxisOffset; // 0x2C
 		::RPG::Client::TextID HintText; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_SDFTextAssetPath()
@@ -58,5 +54,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETSDFFONTASSETPATH_OFFSET))(this);
 		}
+
 	};
 }

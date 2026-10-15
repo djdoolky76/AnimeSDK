@@ -1,104 +1,108 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class ExtensionSet; }
+namespace Google::Protobuf { class FieldCodec; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class ExtensionSet_1; }
-namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Google::Protobuf::Reflection { class MessageOptions; }
 namespace Google::Protobuf::Reflection { class UninterpretedOption; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B38DC60)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1B38C6A0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B38C950)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B38C8F0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B38CCC0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B38C7F0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B38C1A0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B38C860)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASMAPENTRY_OFFSET UNITYSDK_OFFSET(0x1B38C8E0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASMESSAGESETWIREFORMAT_OFFSET UNITYSDK_OFFSET(0x1B38C760)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASNOSTANDARDDESCRIPTORACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B38C7E0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_MAPENTRY_OFFSET UNITYSDK_OFFSET(0x1B38C870)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_MESSAGESETWIREFORMAT_OFFSET UNITYSDK_OFFSET(0x1B38C6F0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_NOSTANDARDDESCRIPTORACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B38C770)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B38C140)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B38E5D0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B38E1E0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B38C380)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B38C850)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_MAPENTRY_OFFSET UNITYSDK_OFFSET(0x1B38C8D0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_MESSAGESETWIREFORMAT_OFFSET UNITYSDK_OFFSET(0x1B38C750)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_NOSTANDARDDESCRIPTORACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B38C7D0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B38D380)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B38D3E0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B38E8A0)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B38C430)
-#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B38C3E0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B88FB50)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B890790)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1B88E590)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B88E320)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B88E2D0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B88E840)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B88E7E0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B88EBB0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B88E6E0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B88E090)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B88E750)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASMAPENTRY_OFFSET UNITYSDK_OFFSET(0x1B88E7D0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASMESSAGESETWIREFORMAT_OFFSET UNITYSDK_OFFSET(0x1B88E650)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_HASNOSTANDARDDESCRIPTORACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B88E6D0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_MAPENTRY_OFFSET UNITYSDK_OFFSET(0x1B88E760)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_MESSAGESETWIREFORMAT_OFFSET UNITYSDK_OFFSET(0x1B88E5E0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_NOSTANDARDDESCRIPTORACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B88E660)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B88E030)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B8904C0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B8900D0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B88E270)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B88E740)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_MAPENTRY_OFFSET UNITYSDK_OFFSET(0x1B88E7C0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_MESSAGESETWIREFORMAT_OFFSET UNITYSDK_OFFSET(0x1B88E640)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_SET_NOSTANDARDDESCRIPTORACCESSOR_OFFSET UNITYSDK_OFFSET(0x1B88E6C0)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B88F270)
+#define GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B88F2D0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MessageOptions_TypeDefinitionIndex = 5485;
-
 	class MessageOptions : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>** StaticGet__repeated_uninterpretedOption_codec()
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x10
+		::Google::Protobuf::ExtensionSet* _extensions; // 0x18
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
+		::System::Int32 _hasBits0; // 0x28
+		::System::Boolean noStandardDescriptorAccessor_; // 0x2C
+		::System::Boolean mapEntry_; // 0x2D
+		::System::Boolean deprecated_; // 0x2E
+		::System::Boolean messageSetWireFormat_; // 0x2F
+		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_uninterpretedOption_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>**)Il2CppClass::FromTypeDefinitionIndex(MessageOptions_TypeDefinitionIndex)->GetStaticField(0x16650);
+			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "MessageOptions")->GetStaticField(0x18570);
 		}
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::MessageOptions*>** StaticGet__parser()
+
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::MessageOptions*>**)Il2CppClass::FromTypeDefinitionIndex(MessageOptions_TypeDefinitionIndex)->GetStaticField(0x16658);
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.Reflection", "MessageOptions")->GetStaticField(0x18578);
 		}
-		static ::System::Boolean* StaticGet_NoStandardDescriptorAccessorDefaultValue()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageOptions_TypeDefinitionIndex)->GetStaticField(0x8880);
-		}
-		static ::System::Boolean* StaticGet_MessageSetWireFormatDefaultValue()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageOptions_TypeDefinitionIndex)->GetStaticField(0x8881);
-		}
+
 		static ::System::Boolean* StaticGet_MapEntryDefaultValue()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageOptions_TypeDefinitionIndex)->GetStaticField(0x8882);
+			return (::System::Boolean*)UnitySDK::FromName("Google.Protobuf.Reflection", "MessageOptions")->GetStaticField(0x5A40);
 		}
+
 		static ::System::Boolean* StaticGet_DeprecatedDefaultValue()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MessageOptions_TypeDefinitionIndex)->GetStaticField(0x8883);
+			return (::System::Boolean*)UnitySDK::FromName("Google.Protobuf.Reflection", "MessageOptions")->GetStaticField(0x5A41);
 		}
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x10
-		::Google::Protobuf::ExtensionSet_1<::Google::Protobuf::Reflection::MessageOptions*>* _extensions; // 0x18
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
-		::System::Boolean noStandardDescriptorAccessor_; // 0x28
-		::System::Boolean mapEntry_; // 0x29
-		::System::Boolean messageSetWireFormat_; // 0x2A
-		::System::Boolean deprecated_; // 0x2B
-		::System::Int32 _hasBits0; // 0x2C
+
+		static ::System::Boolean* StaticGet_NoStandardDescriptorAccessorDefaultValue()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Google.Protobuf.Reflection", "MessageOptions")->GetStaticField(0x5A42);
+		}
+
+		static ::System::Boolean* StaticGet_MessageSetWireFormatDefaultValue()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Google.Protobuf.Reflection", "MessageOptions")->GetStaticField(0x5A43);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Google::Protobuf::Reflection::MessageOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::MessageOptions*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::MessageOptions*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::MessageOptions*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::MessageOptions*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -215,5 +219,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_MESSAGEOPTIONS_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

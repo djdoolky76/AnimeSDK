@@ -1,21 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 
-namespace RPG::Client { class CameraBakingBehavior; }
-
-#define RPG_CLIENT_CAMERABAKINGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC9DE400)
+#define RPG_CLIENT_CAMERABAKINGMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC92C150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraBakingMonoPlugin_TypeDefinitionIndex = 71007;
-
-	class CameraBakingMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::CameraBakingBehavior*>
+	class CameraBakingMonoPlugin
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERABAKINGMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERABAKINGMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

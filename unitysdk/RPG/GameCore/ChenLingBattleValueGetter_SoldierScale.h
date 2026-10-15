@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleValueGetter.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChenLingBattleValueGetter_SoldierScale; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_METHOD_3_5D8C02F0B72A5C50_OFFSET UNITYSDK_OFFSET(0x1CFAEBE0)
-#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_METHOD_3_F389E34454F89855_OFFSET UNITYSDK_OFFSET(0x1CFAEC80)
-#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAEC70)
+#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58A070)
+#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D58A080)
+#define RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D589FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleValueGetter_SoldierScale_TypeDefinitionIndex = 15635;
-
 	class ChenLingBattleValueGetter_SoldierScale : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5D8C02F0B72A5C50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_METHOD_3_5D8C02F0B72A5C50_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F389E34454F89855(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_METHOD_3_F389E34454F89855_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleValueGetter_SoldierScale*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEVALUEGETTER_SOLDIERSCALE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

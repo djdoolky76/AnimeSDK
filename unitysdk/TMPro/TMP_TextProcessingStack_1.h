@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextProcessingStack_1_TypeDefinitionIndex = 43476;
-
 	template <typename T>
-	struct TMP_TextProcessingStack_1
+	struct alignas(8) TMP_TextProcessingStack_1
 	{
 		::Il2CppArray<T>* itemStack; // 0x0
 		::System::Int32 index; // 0x0
@@ -15,6 +12,6 @@ namespace TMPro
 		::System::Int32 m_Capacity; // 0x0
 		::System::Int32 m_RolloverSize; // 0x0
 		::System::Int32 m_Count; // 0x0
-		// static const ::System::Int32 k_DefaultCapacity = 0x4; // 0x0
+		// static const ::System::Object k_DefaultCapacity; // 0x0
 	};
 }

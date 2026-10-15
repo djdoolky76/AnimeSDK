@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStoryCategory_TypeDefinitionIndex = 14714;
-
 	enum class RogueMagicStoryCategory : ::System::Int32
 	{
 		None = 0,

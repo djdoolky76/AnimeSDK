@@ -3,8 +3,6 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread_State_TypeDefinitionIndex = 47398;
-
 	enum class ReadMessageThread_State : ::System::Int32
 	{
 		Reading = 0,

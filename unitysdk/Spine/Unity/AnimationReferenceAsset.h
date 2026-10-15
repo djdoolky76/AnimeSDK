@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace Spine { class Animation; }
+namespace Spine::Unity { class AnimationReferenceAsset; }
 namespace Spine::Unity { class SkeletonDataAsset; }
 namespace System { class String; }
 
-#define SPINE_UNITY_ANIMATIONREFERENCEASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1E62FDF0)
-#define SPINE_UNITY_ANIMATIONREFERENCEASSET_GET_ANIMATION_OFFSET UNITYSDK_OFFSET(0x1E62FBD0)
-#define SPINE_UNITY_ANIMATIONREFERENCEASSET_GET_SKELETONDATAASSET_OFFSET UNITYSDK_OFFSET(0x1E62FBC0)
-#define SPINE_UNITY_ANIMATIONREFERENCEASSET_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E62FC00)
-#define SPINE_UNITY_ANIMATIONREFERENCEASSET_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1E6302E0)
-#define SPINE_UNITY_ANIMATIONREFERENCEASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1E630320)
+#define SPINE_UNITY_ANIMATIONREFERENCEASSET_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ECF7F10)
+#define SPINE_UNITY_ANIMATIONREFERENCEASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF8440)
+#define SPINE_UNITY_ANIMATIONREFERENCEASSET_GET_ANIMATION_OFFSET UNITYSDK_OFFSET(0x1ECF7CF0)
+#define SPINE_UNITY_ANIMATIONREFERENCEASSET_GET_SKELETONDATAASSET_OFFSET UNITYSDK_OFFSET(0x1ECF7CE0)
+#define SPINE_UNITY_ANIMATIONREFERENCEASSET_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ECF7D20)
+#define SPINE_UNITY_ANIMATIONREFERENCEASSET_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ECF8400)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int AnimationReferenceAsset_TypeDefinitionIndex = 43804;
-
 	class AnimationReferenceAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		// static const ::System::Boolean QuietSkeletonData; // 0x0
 		::Spine::Unity::SkeletonDataAsset* skeletonDataAsset; // 0x18
 		::System::String* animationName; // 0x20
 		::Spine::Animation* animation; // 0x28
-
+		// static const ::System::Object QuietSkeletonData; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_ANIMATIONREFERENCEASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_ANIMATIONREFERENCEASSET_CTOR_OFFSET))(this);
 		}
 
 		::Spine::Unity::SkeletonDataAsset* get_SkeletonDataAsset()
@@ -54,5 +51,6 @@ namespace Spine::Unity
 		{
 			return ((::Spine::Animation*(*)(::Spine::Unity::AnimationReferenceAsset*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ANIMATIONREFERENCEASSET_OP_IMPLICIT_OFFSET))(a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LevelDirector_CaptureUsage_TypeDefinitionIndex = 59451;
-
 	enum class LevelDirector_CaptureUsage : ::System::Int32
 	{
 		None = 0,

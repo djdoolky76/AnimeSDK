@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MGIKEJFECDM.h"
+namespace System { class String; }
+
+#define FFIONHCALGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15744660)
+#define FFIONHCALGN_FHAPPCADGCE_OFFSET UNITYSDK_OFFSET(0x15744730)
+#define FFIONHCALGN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15744670)
+
+	class FFIONHCALGN : public ::MGIKEJFECDM
+	{
+	public:
+		::System::Single PGMIOKKLHIE; // 0x20
+		::System::Void _ctor(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + FFIONHCALGN_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void JLANKNHFKCN(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FFIONHCALGN_JLANKNHFKCN_OFFSET))(this, a1);
+		}
+
+		::System::Void FHAPPCADGCE(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FFIONHCALGN_FHAPPCADGCE_OFFSET))(this, a1);
+		}
+
+	};

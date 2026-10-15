@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GroupFilterExpression; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GROUPFILTEREXPRESSION_METHOD_2_249542CE6EBA02E9_OFFSET UNITYSDK_OFFSET(0x1D1700B0)
-#define RPG_GAMECORE_GROUPFILTEREXPRESSION_METHOD_2_71FB6D7059D1051B_OFFSET UNITYSDK_OFFSET(0x1D170210)
-#define RPG_GAMECORE_GROUPFILTEREXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1700A0)
+#define RPG_GAMECORE_GROUPFILTEREXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74AFB0)
+#define RPG_GAMECORE_GROUPFILTEREXPRESSION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D74B120)
+#define RPG_GAMECORE_GROUPFILTEREXPRESSION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D74AFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupFilterExpression_TypeDefinitionIndex = 17199;
-
 	class GroupFilterExpression : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFILTEREXPRESSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFILTEREXPRESSION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_249542CE6EBA02E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupFilterExpression*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GroupFilterExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupFilterExpression*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFILTEREXPRESSION_METHOD_2_249542CE6EBA02E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GroupFilterExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFILTEREXPRESSION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_71FB6D7059D1051B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupFilterExpression* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GroupFilterExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupFilterExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFILTEREXPRESSION_METHOD_2_71FB6D7059D1051B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GroupFilterExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPFILTEREXPRESSION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

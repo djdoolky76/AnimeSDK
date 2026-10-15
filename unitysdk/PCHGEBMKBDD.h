@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class PCHGEBMKBDD : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		PNGDJLEDCKF = 1316,
+		CENHFOIEDKK = 1360,
+		BKFOKJHEHOM = 1358,
+		DFEKGHFLJHJ = 1375,
+		JKIHFOGEICI = 1342,
+		GHNNOGPMEND = 1356,
+		NHMFLOBIHJK = 1305,
+		EOCBONLHAOJ = 1339,
+		LNCDEAFAAFL = 1383,
+		HCIEEEPJAJE = 1315,
+	};

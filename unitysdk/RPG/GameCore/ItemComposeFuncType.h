@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeFuncType_TypeDefinitionIndex = 13730;
-
 	enum class ItemComposeFuncType : ::System::Int32
 	{
 		Unknown = 0,

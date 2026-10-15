@@ -2,29 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE698440)
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6983F0)
-#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED__CTOR_OFFSET UNITYSDK_OFFSET(0xE698490)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F3850)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F3800)
+#define RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F37B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLastKillTriggered_TypeDefinitionIndex = 57019;
-
 	class LevelLastKillTriggered : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Caster; // 0x10
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x18
 		::RPG::GameCore::SkillConfig* Skill; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLASTKILLTRIGGERED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLASTKILLTRIGGERED_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -36,5 +32,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELLASTKILLTRIGGERED_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

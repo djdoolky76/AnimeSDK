@@ -2,36 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD768C40)
-#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD768EF0)
+#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD7AA4A0)
+#define RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7AA1F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectLightCoreLightingControl_TypeDefinitionIndex = 69006;
-
 	class MonoEffectLightCoreLightingControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean enableLight; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color lightedColor; // 0x1C
 		::UnityEngine::Color darkenColor; // 0x2C
 		::System::Single lightingRangeStart; // 0x3C
 		::System::Single lightingRangeMiddle; // 0x40
 		::System::Single lightingRangeAddRange; // 0x44
 		::System::Single lightingRangeAdd; // 0x48
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::UnityEngine::Renderer*>* characterParts; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTLIGHTCORELIGHTINGCONTROL_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

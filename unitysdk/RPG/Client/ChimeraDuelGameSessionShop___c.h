@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_821;
+class GBMLMONHJME;
+namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCBDEAC0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCBDEB00)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__TRYTRIGGERPENDINGPERFORMANCE_B__49_0_OFFSET UNITYSDK_OFFSET(0xCBDEB10)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB2D190)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB2D1D0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__TRYTRIGGERPENDINGPERFORMANCE_B__49_0_OFFSET UNITYSDK_OFFSET(0xCB2D1E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameSessionShop___c_TypeDefinitionIndex = 63383;
-
 	class ChimeraDuelGameSessionShop___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::Class_0_16E4307DCC419505_821*>** StaticGet___9__49_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::Class_0_16E4307DCC419505_821*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameSessionShop___c_TypeDefinitionIndex)->GetStaticField(0x46820);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12400);
 		}
-		static ::RPG::Client::ChimeraDuelGameSessionShop___c** StaticGet___9()
+
+		static ::System::Predicate_1<::GBMLMONHJME*>** StaticGet___9__49_0()
 		{
-			return (::RPG::Client::ChimeraDuelGameSessionShop___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelGameSessionShop___c_TypeDefinitionIndex)->GetStaticField(0x46828);
+			return (::System::Predicate_1<::GBMLMONHJME*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12408);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _TryTriggerPendingPerformance_b__49_0(::Class_0_16E4307DCC419505_821* a1)
+		::System::Boolean _TryTriggerPendingPerformance_b__49_0(::GBMLMONHJME* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_821*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__TRYTRIGGERPENDINGPERFORMANCE_B__49_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::GBMLMONHJME*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__TRYTRIGGERPENDINGPERFORMANCE_B__49_0_OFFSET))(this, a1);
 		}
+
 	};
 }

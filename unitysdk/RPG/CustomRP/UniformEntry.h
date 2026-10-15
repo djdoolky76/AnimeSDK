@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/UniformType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System::Reflection { class FieldInfo; }
 namespace UnityEngine { class MonoBehaviour; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UniformEntry_TypeDefinitionIndex = 37071;
-
 	struct alignas(8) UniformEntry
 	{
 		::UnityEngine::MonoBehaviour* owner; // 0x10

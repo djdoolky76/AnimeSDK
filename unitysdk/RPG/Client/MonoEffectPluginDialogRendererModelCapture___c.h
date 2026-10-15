@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD7B52F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD7B5330)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C__GET_DIALOGTARGETRENDERERS_B__31_0_OFFSET UNITYSDK_OFFSET(0xD7B5340)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7F7240)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD7F7280)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C__GET_DIALOGTARGETRENDERERS_B__31_0_OFFSET UNITYSDK_OFFSET(0xD7F7290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDialogRendererModelCapture___c_TypeDefinitionIndex = 69963;
-
 	class MonoEffectPluginDialogRendererModelCapture___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x647E0);
+		}
+
 		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRendererModelCapture___c_TypeDefinitionIndex)->GetStaticField(0x11280);
-		}
-		static ::RPG::Client::MonoEffectPluginDialogRendererModelCapture___c** StaticGet___9()
-		{
-			return (::RPG::Client::MonoEffectPluginDialogRendererModelCapture___c**)Il2CppClass::FromTypeDefinitionIndex(MonoEffectPluginDialogRendererModelCapture___c_TypeDefinitionIndex)->GetStaticField(0x11288);
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x647E8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _get_DialogTargetRenderers_b__31_0(::UnityEngine::Renderer* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Renderer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERERMODELCAPTURE___C__GET_DIALOGTARGETRENDERERS_B__31_0_OFFSET))(this, a1);
 		}
+
 	};
 }

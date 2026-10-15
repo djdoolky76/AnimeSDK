@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class ICollection; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections { class SortedList; }
 
-#define SYSTEM_NET_PATHLIST_GETCOOKIESCOUNT_OFFSET UNITYSDK_OFFSET(0x1E9A92C0)
-#define SYSTEM_NET_PATHLIST_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E9A9E60)
-#define SYSTEM_NET_PATHLIST_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1E9A9230)
-#define SYSTEM_NET_PATHLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E9A9BF0)
-#define SYSTEM_NET_PATHLIST_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1E9A9AD0)
-#define SYSTEM_NET_PATHLIST_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1E9A9B60)
-#define SYSTEM_NET_PATHLIST_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E9A9C90)
-#define SYSTEM_NET_PATHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A9110)
+#define SYSTEM_NET_PATHLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0719B0)
+#define SYSTEM_NET_PATHLIST_GETCOOKIESCOUNT_OFFSET UNITYSDK_OFFSET(0x1F071B60)
+#define SYSTEM_NET_PATHLIST_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F072700)
+#define SYSTEM_NET_PATHLIST_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F071AD0)
+#define SYSTEM_NET_PATHLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F072490)
+#define SYSTEM_NET_PATHLIST_GET_SYNCROOT_OFFSET UNITYSDK_OFFSET(0x1F072370)
+#define SYSTEM_NET_PATHLIST_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x1F072400)
+#define SYSTEM_NET_PATHLIST_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F072530)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int PathList_TypeDefinitionIndex = 2805;
-
 	class PathList : public ::System::Object
 	{
 	public:
 		::System::Collections::SortedList* m_list; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_PATHLIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_PATHLIST_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_Count()
@@ -64,5 +61,6 @@ namespace System::Net
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_PATHLIST_GET_SYNCROOT_OFFSET))(this);
 		}
+
 	};
 }

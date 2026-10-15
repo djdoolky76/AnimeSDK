@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E669E20)
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E669E50)
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6681D0)
-#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E669DB0)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED31CF0)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED31C80)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED31D20)
+#define SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED30090)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonUtility_SkeletonUtilityDelegate_TypeDefinitionIndex = 43869;
-
 	class SkeletonUtility_SkeletonUtilityDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITY_SKELETONUTILITYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

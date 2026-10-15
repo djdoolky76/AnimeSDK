@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialIDLUTColor_TypeDefinitionIndex = 37190;
-
 	enum class MaterialIDLUTColor : ::System::Int32
 	{
 		SpecularColor = 0,

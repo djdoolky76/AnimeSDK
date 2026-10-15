@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_PAIRTOSTRING_OFFSET UNITYSDK_OFFSET(0x1BBB78A0)
+#define SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_PAIRTOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0C38C0)
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int KeyValuePair_TypeDefinitionIndex = 1529;
-
 	class KeyValuePair : public ::System::Object
 	{
 	public:
@@ -17,5 +15,6 @@ namespace System::Collections::Generic
 		{
 			return ((::System::String*(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_GENERIC_KEYVALUEPAIR_PAIRTOSTRING_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicScepterFuncType_TypeDefinitionIndex = 10597;
-
 	enum class RogueMagicScepterFuncType : ::System::Int32
 	{
 		None = 0,

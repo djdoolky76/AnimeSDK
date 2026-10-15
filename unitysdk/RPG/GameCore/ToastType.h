@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastType_TypeDefinitionIndex = 24216;
-
 	enum class ToastType : ::System::Int32
 	{
 		ChallengeMission = 0,

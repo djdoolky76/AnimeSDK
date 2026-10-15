@@ -6,7 +6,6 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
@@ -15,19 +14,17 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_EFFECT_FLOWERSEA_AWAKE_OFFSET UNITYSDK_OFFSET(0xCDDA9B0)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDDC000)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_0869E1192F8E01DF_OFFSET UNITYSDK_OFFSET(0xCDDCD10)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_81FEFD1B22CE37A2_OFFSET UNITYSDK_OFFSET(0xCDDC060)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0xCDDAA00)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDDBF70)
-#define RPG_CLIENT_EFFECT_FLOWERSEA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDDBE10)
-#define RPG_CLIENT_EFFECT_FLOWERSEA__CTOR_OFFSET UNITYSDK_OFFSET(0xCDDCF00)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_AWAKE_OFFSET UNITYSDK_OFFSET(0xCD2B190)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD2D6E0)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xCD2B1E0)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_FHPLHKAFCOE_OFFSET UNITYSDK_OFFSET(0xCD2D4F0)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_LATETICK_OFFSET UNITYSDK_OFFSET(0xCD2C7E0)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_LJDAEBEEFOG_OFFSET UNITYSDK_OFFSET(0xCD2C840)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD2C750)
+#define RPG_CLIENT_EFFECT_FLOWERSEA_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD2C5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FlowerSea_TypeDefinitionIndex = 70441;
-
 	class Effect_FlowerSea : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -43,8 +40,10 @@ namespace RPG::Client
 		::UnityEngine::Vector3 WindDirection; // 0x50
 		::System::Single WindFactor; // 0x5C
 		::System::Boolean EnableAnimation; // 0x60
+		::System::Byte _padding0[0x3];
 		::System::Single ShowRange1; // 0x64
 		::System::Single ShowRange2; // 0x68
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Texture2D* DissolveTexture; // 0x70
 		::UnityEngine::Vector2 DissolveTiling; // 0x78
 		::System::Single DissolveRate; // 0x80
@@ -52,6 +51,7 @@ namespace RPG::Client
 		::UnityEngine::Vector3 FDINMNJCEAB; // 0x90
 		::System::Single BKEBPGAKOAF; // 0x9C
 		::System::Boolean CGIHFDHNBNE; // 0xA0
+		::System::Byte _padding2[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::MaterialPropertyBlock*>* _MPBs; // 0xA8
 		::UnityEngine::Vector4 FNCMDNDLIMN; // 0xB0
 		::UnityEngine::Vector4 DPKFKLFCFEC; // 0xC0
@@ -63,10 +63,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* _DissolveUV; // 0x100
 		::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* _Meshes; // 0x108
 		::System::Boolean AJIFBNAFAMO; // 0x110
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -89,19 +88,20 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_LATETICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_B29205EE7F7B640C()
+		::System::Void DIOEAJEHHND()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_B29205EE7F7B640C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_DIOEAJEHHND_OFFSET))(this);
 		}
 
-		::System::Void Method_5_81FEFD1B22CE37A2()
+		::System::Void LJDAEBEEFOG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_81FEFD1B22CE37A2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_LJDAEBEEFOG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_0869E1192F8E01DF()
+		::System::Void FHPLHKAFCOE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_METHOD_5_0869E1192F8E01DF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_FLOWERSEA_FHPLHKAFCOE_OFFSET))(this);
 		}
+
 	};
 }

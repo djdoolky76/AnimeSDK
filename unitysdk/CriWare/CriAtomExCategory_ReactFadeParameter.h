@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomEx_CurveType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactFadeParameter_TypeDefinitionIndex = 38689;
-
 	struct alignas(4) CriAtomExCategory_ReactFadeParameter
 	{
 		::CriWare::CriAtomEx_CurveType curveType; // 0x10

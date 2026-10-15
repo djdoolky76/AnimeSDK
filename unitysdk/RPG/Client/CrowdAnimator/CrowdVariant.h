@@ -3,20 +3,18 @@
 #include "unitysdk/RPG/Client/CrowdAnimator/CrowdLod.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC811D0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDVARIANT_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD4780)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdVariant_TypeDefinitionIndex = 73634;
-
 	class CrowdVariant : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::Il2CppArray<::RPG::Client::CrowdAnimator::CrowdLod>* LodGroup; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDVARIANT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDVARIANT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

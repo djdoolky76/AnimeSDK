@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD8C00E0)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD8C0110)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD8C0050)
-#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xD8C0070)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD8C0400)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xD8C0390)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD8C0430)
+#define RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD8C0370)
 
 namespace RPG::Client::Motions
 {
-	inline static constexpr unsigned int MonoEffectMotion_VoidDelegate_TypeDefinitionIndex = 73390;
-
 	class MonoEffectMotion_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +35,6 @@ namespace RPG::Client::Motions
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MOTIONS_MONOEFFECTMOTION_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

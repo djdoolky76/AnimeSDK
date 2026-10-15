@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_UserAgreementParameters_TypeDefinitionIndex = 46672;
-
 	class MHYSDKC_UserAgreementParameters : public ::System::Object
 	{
 	public:

@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationElement.h"
 #include "unitysdk/System/Configuration/ConfigurationSaveMode.h"
-
 namespace System { class String; }
+namespace System::Configuration { class ConfigurationElement; }
 namespace System::Xml { class XmlReader; }
 
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1E6C0090)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1E6C00D0)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1E6C0110)
-#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1E6C0150)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1ED87CD0)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1ED87D10)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1ED87D50)
+#define SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1ED87D90)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ConfigurationSection_TypeDefinitionIndex = 2335;
-
 	class ConfigurationSection : public ::System::Configuration::ConfigurationElement
 	{
 	public:
@@ -37,5 +35,6 @@ namespace System::Configuration
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Configuration::ConfigurationElement*, ::System::String*, ::System::Configuration::ConfigurationSaveMode))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_CONFIGURATIONSECTION_SERIALIZESECTION_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

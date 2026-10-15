@@ -1,41 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE189270)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_UINT32__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE1896F0)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_UINT32__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE189660)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE189770)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE1896C0)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE189670)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE189130)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20__CTOR_OFFSET UNITYSDK_OFFSET(0xE188F80)
-#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xE189170)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_CTOR_OFFSET UNITYSDK_OFFSET(0xE1CB610)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE1CB900)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_UINT32__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE1CBD80)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_UINT32__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE1CBCF0)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE1CBE00)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE1CBD50)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE1CBD00)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE1CB7C0)
+#define RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xE1CB800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildRecipe___GetAlternativeAvatarIDs_d__20_TypeDefinitionIndex = 68091;
-
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20>
 	class TeamBuildRecipe___GetAlternativeAvatarIDs_d__20 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerator_1<::System::UInt32>* __7__wrap1; // 0x10
+		::System::Collections::Generic::IList_1<::System::UInt32>* __3__avatarIDs; // 0x10
 		::Il2CppArray<::System::Collections::Generic::ICollection_1<::System::UInt32>*>* __3__exclusiveIDGroups; // 0x18
-		::System::Collections::Generic::IList_1<::System::UInt32>* __3__avatarIDs; // 0x20
-		::System::Collections::Generic::IList_1<::System::UInt32>* avatarIDs; // 0x28
-		::Il2CppArray<::System::Collections::Generic::ICollection_1<::System::UInt32>*>* exclusiveIDGroups; // 0x30
-		::System::UInt32 __2__current; // 0x38
-		::System::Int32 __l__initialThreadId; // 0x3C
-		::System::Int32 __1__state; // 0x40
-
+		::System::Collections::Generic::IList_1<::System::UInt32>* avatarIDs; // 0x20
+		::Il2CppArray<::System::Collections::Generic::ICollection_1<::System::UInt32>*>* exclusiveIDGroups; // 0x28
+		::System::Collections::Generic::IEnumerator_1<::System::UInt32>* __7__wrap1; // 0x30
+		::System::Int32 __l__initialThreadId; // 0x38
+		::System::Int32 __1__state; // 0x3C
+		::System::UInt32 __2__current; // 0x40
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -77,5 +75,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDRECIPE___GETALTERNATIVEAVATARIDS_D__20_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraBattleAnimationType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_47EE63CB5C4DC8FC_5;
-class Class_2_C01BA129C3E40259;
+class EMJIDLCDFMI;
+class KDKHADGLIPJ;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace RPG::Client { class RPGAnimationEvent; }
@@ -14,79 +13,85 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_GETENTITY_OFFSET UNITYSDK_OFFSET(0xE3191B0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE319110)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_GETUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0xE319160)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xE3191F0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xE319920)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_1_OFFSET UNITYSDK_OFFSET(0xE319E60)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_2_OFFSET UNITYSDK_OFFSET(0xE319B60)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_3_OFFSET UNITYSDK_OFFSET(0xE3199E0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_OFFSET UNITYSDK_OFFSET(0xE319CE0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_E4865A0578743351_OFFSET UNITYSDK_OFFSET(0xE3195B0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PERFORMLEAVE_OFFSET UNITYSDK_OFFSET(0xE319390)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PLAYBACK_OFFSET UNITYSDK_OFFSET(0xE319FE0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PLAY_OFFSET UNITYSDK_OFFSET(0xE319680)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xE319290)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0xE319330)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW__CCTOR_OFFSET UNITYSDK_OFFSET(0xE31A0A0)
-#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xE31A090)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xE359550)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xE359540)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_GETENTITY_OFFSET UNITYSDK_OFFSET(0xE358660)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_GETTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE3585C0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_GETUNITYOBJECT_OFFSET UNITYSDK_OFFSET(0xE358610)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_IMOJCHKGCAA_OFFSET UNITYSDK_OFFSET(0xE359310)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xE3586A0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_JAIHJDJLGLD_OFFSET UNITYSDK_OFFSET(0xE358DD0)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_JPPHNADENJD_OFFSET UNITYSDK_OFFSET(0xE359190)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_OANPILEOMJI_OFFSET UNITYSDK_OFFSET(0xE358E90)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_OBKGEBIEKGP_OFFSET UNITYSDK_OFFSET(0xE359010)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PAIDAEBKNPL_OFFSET UNITYSDK_OFFSET(0xE358A60)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PERFORMLEAVE_OFFSET UNITYSDK_OFFSET(0xE358840)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PLAYBACK_OFFSET UNITYSDK_OFFSET(0xE359490)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PLAY_OFFSET UNITYSDK_OFFSET(0xE358B30)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xE358740)
+#define RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_SAFESETACTIVE_OFFSET UNITYSDK_OFFSET(0xE3587E0)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int ChimeraBattleChimeraView_TypeDefinitionIndex = 75357;
-
 	class ChimeraBattleChimeraView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_OBNLLCMDLMC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C60);
-		}
-		static ::System::Int32* StaticGet_EEDIOLAHMDC()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C64);
-		}
-		static ::System::Int32* StaticGet_HCEPHDJBNAB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C68);
-		}
-		static ::System::Int32* StaticGet_EIBDIFDPDON()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C6C);
-		}
-		static ::System::Int32* StaticGet_BPEHNENDJJA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C70);
-		}
-		static ::System::Int32* StaticGet_EDIILJHAIJL()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C74);
-		}
-		static ::System::Int32* StaticGet_HOHEPNHALEB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C78);
-		}
-		static ::System::Int32* StaticGet_JNKLJNFOIPO()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C7C);
-		}
-		static ::System::Int32* StaticGet_NGDKMBGNOED()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChimeraBattleChimeraView_TypeDefinitionIndex)->GetStaticField(0x13C80);
-		}
-		::Class_2_C01BA129C3E40259* FKPHGIAHAEB; // 0x18
+		::KDKHADGLIPJ* FKPHGIAHAEB; // 0x18
 		::RPG::Client::RPGAnimationEvent* AnimEvent; // 0x20
 		::UnityEngine::Animator* Animator; // 0x28
+		static ::System::Int32* StaticGet_EIBDIFDPDON()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4C0);
+		}
+
+		static ::System::Int32* StaticGet_JNKLJNFOIPO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4C4);
+		}
+
+		static ::System::Int32* StaticGet_OBNLLCMDLMC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4C8);
+		}
+
+		static ::System::Int32* StaticGet_EDIILJHAIJL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4CC);
+		}
+
+		static ::System::Int32* StaticGet_HCEPHDJBNAB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4D0);
+		}
+
+		static ::System::Int32* StaticGet_BPEHNENDJJA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4D4);
+		}
+
+		static ::System::Int32* StaticGet_EEDIOLAHMDC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4D8);
+		}
+
+		static ::System::Int32* StaticGet_HOHEPNHALEB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4DC);
+		}
+
+		static ::System::Int32* StaticGet_NGDKMBGNOED()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.UI3DGame", "ChimeraBattleChimeraView")->GetStaticField(0xA4E0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::Transform* GetTransform()
@@ -104,9 +109,9 @@ namespace RPG::Client::UI3DGame
 			return ((::Entitas::IEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_GETENTITY_OFFSET))(this);
 		}
 
-		::System::Void Initialize(::Entitas::IContext* a1, ::Class_1_47EE63CB5C4DC8FC_5* a2, ::Entitas::IEntity* a3)
+		::System::Void Initialize(::Entitas::IContext* a1, ::EMJIDLCDFMI* a2, ::Entitas::IEntity* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Class_1_47EE63CB5C4DC8FC_5*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_INITIALIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::EMJIDLCDFMI*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_INITIALIZE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Release(::System::String* a1)
@@ -129,39 +134,40 @@ namespace RPG::Client::UI3DGame
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleAnimationType))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PLAY_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_E4865A0578743351()
+		::System::Void PAIDAEBKNPL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_E4865A0578743351_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PAIDAEBKNPL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_51CFFE2AF748ECD7()
+		::System::Void JPPHNADENJD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_JPPHNADENJD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_51CFFE2AF748ECD7_1()
+		::System::Void IMOJCHKGCAA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_IMOJCHKGCAA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_51CFFE2AF748ECD7_2()
+		::System::Void OBKGEBIEKGP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_OBKGEBIEKGP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_33ACA6CB2ABC73F7()
+		::System::Void JAIHJDJLGLD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_33ACA6CB2ABC73F7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_JAIHJDJLGLD_OFFSET))(this);
 		}
 
-		::System::Void Method_5_51CFFE2AF748ECD7_3()
+		::System::Void OANPILEOMJI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_METHOD_5_51CFFE2AF748ECD7_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_OANPILEOMJI_OFFSET))(this);
 		}
 
 		::System::Void PlayBack()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DGAME_CHIMERABATTLECHIMERAVIEW_PLAYBACK_OFFSET))(this);
 		}
+
 	};
 }

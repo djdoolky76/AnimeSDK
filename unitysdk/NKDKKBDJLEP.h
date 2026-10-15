@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ChangeTargetModifierEffectState; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define NKDKKBDJLEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBC32AE0)
+#define NKDKKBDJLEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC32B10)
+
+	class NKDKKBDJLEP
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ChangeTargetModifierEffectState* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ChangeTargetModifierEffectState*))((::PBYTE)hIl2Cpp + NKDKKBDJLEP_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKDKKBDJLEP_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

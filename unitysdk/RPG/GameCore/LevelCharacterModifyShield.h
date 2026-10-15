@@ -1,32 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelCharacterModifyShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE687D20)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE687CD0)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET UNITYSDK_OFFSET(0xE687C50)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0xE687D70)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E3550)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E3500)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E34B0)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET UNITYSDK_OFFSET(0xE6E3430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterModifyShield_TypeDefinitionIndex = 56969;
-
-	class LevelCharacterModifyShield : public ::Class_1_BF7A075734D15E98
+	class LevelCharacterModifyShield : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Caster; // 0x18
-		::RPG::GameCore::GameEntity* Target; // 0x20
-		::RPG::GameCore::TaskContext* Context; // 0x28
+		::RPG::GameCore::GameEntity* Target; // 0x18
+		::RPG::GameCore::TaskContext* Context; // 0x20
+		::RPG::GameCore::GameEntity* Caster; // 0x28
 		::RPG::GameCore::FixPoint Shield; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelCharacterModifyShield* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::TaskContext* a4)
@@ -43,5 +40,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

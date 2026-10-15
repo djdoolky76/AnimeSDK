@@ -3,24 +3,21 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/BaseEmoTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8FD160)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8FD040)
-#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8FD2A0)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE952C80)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE952B60)
+#define RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE952DC0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int MiniEmotionTrack_TypeDefinitionIndex = 49115;
-
 	class MiniEmotionTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +29,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_MINIEMOTIONTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

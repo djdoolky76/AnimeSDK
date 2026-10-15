@@ -2,66 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/DialogType.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class LoginByQRCode; }
 namespace MiHoYo::SDK::Win { class QRCode; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B862710)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_BACK_OFFSET UNITYSDK_OFFSET(0x1B864800)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_CLICKSAVERECORDTOGGLE_OFFSET UNITYSDK_OFFSET(0x1B864CA0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B864820)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_HIDE_OFFSET UNITYSDK_OFFSET(0x1B864790)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B864CC0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B8645C0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1B864840)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SETBUBBLETEXT_OFFSET UNITYSDK_OFFSET(0x1B8646E0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SETSUPPORTEDSCANNINGAPPS_OFFSET UNITYSDK_OFFSET(0x1B864860)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWLOGINSUCCESS_OFFSET UNITYSDK_OFFSET(0x1B864C40)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1B864AE0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWQRCODELOADING_OFFSET UNITYSDK_OFFSET(0x1B864870)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWQRCODEOVERDUE_OFFSET UNITYSDK_OFFSET(0x1B864A30)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWQRCODE_OFFSET UNITYSDK_OFFSET(0x1B864940)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWSCANSUCCESS_OFFSET UNITYSDK_OFFSET(0x1B864B70)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOW_OFFSET UNITYSDK_OFFSET(0x1B8645E0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_START_OFFSET UNITYSDK_OFFSET(0x1B8645B0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_UPDATESAVERECORDTIPS_OFFSET UNITYSDK_OFFSET(0x1B8640D0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B863EF0)
-#define MIHOYO_SDK_WIN_LOGINBYQRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B864CE0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD5E320)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_BACK_OFFSET UNITYSDK_OFFSET(0x1BD60840)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_CLICKSAVERECORDTOGGLE_OFFSET UNITYSDK_OFFSET(0x1BD60CE0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BD60860)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD60D20)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD607D0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD60D00)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BD60600)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_REFRESH_OFFSET UNITYSDK_OFFSET(0x1BD60880)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SETBUBBLETEXT_OFFSET UNITYSDK_OFFSET(0x1BD60720)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SETSUPPORTEDSCANNINGAPPS_OFFSET UNITYSDK_OFFSET(0x1BD608A0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWLOGINSUCCESS_OFFSET UNITYSDK_OFFSET(0x1BD60C80)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1BD60B20)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWQRCODELOADING_OFFSET UNITYSDK_OFFSET(0x1BD608B0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWQRCODEOVERDUE_OFFSET UNITYSDK_OFFSET(0x1BD60A70)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWQRCODE_OFFSET UNITYSDK_OFFSET(0x1BD60980)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOWSCANSUCCESS_OFFSET UNITYSDK_OFFSET(0x1BD60BB0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD60620)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_START_OFFSET UNITYSDK_OFFSET(0x1BD605F0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_UPDATESAVERECORDTIPS_OFFSET UNITYSDK_OFFSET(0x1BD60090)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD5FEB0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByQRCode_TypeDefinitionIndex = 9477;
-
 	class LoginByQRCode : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::Win::LoginByQRCode** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Win::LoginByQRCode**)Il2CppClass::FromTypeDefinitionIndex(LoginByQRCode_TypeDefinitionIndex)->GetStaticField(0x2CD90);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* AccountLoginButtonPath; // 0x0
-		// static const ::System::String* QRBubblePath; // 0x0
-		// static const ::System::String* QRBubbleTextPath; // 0x0
-		// static const ::System::String* QRContentPath; // 0x0
-		// static const ::System::String* QRCodePath; // 0x0
-		// static const ::System::String* OverdueContentPath; // 0x0
-		// static const ::System::String* RefreshButtonPath; // 0x0
-		// static const ::System::String* LoadingPath; // 0x0
-		// static const ::System::String* StatusGameObjectPath; // 0x0
-		// static const ::System::String* SuccessContentPath; // 0x0
-		// static const ::System::String* FailContentPath; // 0x0
-		// static const ::System::String* FailRefreshButtonPath; // 0x0
-		// static const ::System::String* SuccessRefreshButtonPath; // 0x0
-		// static const ::System::String* LoginTipsObjectPath; // 0x0
-		// static const ::System::String* ScanTipsPanelPath; // 0x0
 		::UnityEngine::UI::Button* pcButton; // 0x58
 		::UnityEngine::UI::Button* closeButton; // 0x60
 		::UnityEngine::GameObject* qrBubble; // 0x68
@@ -86,12 +62,33 @@ namespace MiHoYo::SDK::Win
 		::System::Action* OnClose; // 0x100
 		::System::Action* OnBack; // 0x108
 		::System::Action* OnRefresh; // 0x110
-		::System::Action_1<::System::Boolean>* OnSaveRecordToggleClicked; // 0x118
+		::System::Action* OnSaveRecordToggleClicked; // 0x118
 		::MiHoYo::SDK::DialogType dialogType; // 0x120
+		static ::MiHoYo::SDK::Win::LoginByQRCode** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Win::LoginByQRCode**)UnitySDK::FromName("MiHoYo.SDK.Win", "LoginByQRCode")->GetStaticField(0x220F0);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* AccountLoginButtonPath; // 0x0
+		// static const ::System::String* QRBubblePath; // 0x0
+		// static const ::System::String* QRBubbleTextPath; // 0x0
+		// static const ::System::String* QRContentPath; // 0x0
+		// static const ::System::String* QRCodePath; // 0x0
+		// static const ::System::String* OverdueContentPath; // 0x0
+		// static const ::System::String* RefreshButtonPath; // 0x0
+		// static const ::System::String* LoadingPath; // 0x0
+		// static const ::System::String* StatusGameObjectPath; // 0x0
+		// static const ::System::String* SuccessContentPath; // 0x0
+		// static const ::System::String* FailContentPath; // 0x0
+		// static const ::System::String* FailRefreshButtonPath; // 0x0
+		// static const ::System::String* SuccessRefreshButtonPath; // 0x0
+		// static const ::System::String* LoginTipsObjectPath; // 0x0
+		// static const ::System::String* ScanTipsPanelPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -193,5 +190,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

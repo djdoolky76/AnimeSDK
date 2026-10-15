@@ -1,77 +1,83 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class AchievementData; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::GameCore { class AchievementSeriesRow; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4AA950)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AA980)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETACHIEVEMENTDATABYSERIES_B__14_0_OFFSET UNITYSDK_OFFSET(0xC4AA9B0)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETACHIEVEMENTDATABYSERIES_B__14_1_OFFSET UNITYSDK_OFFSET(0xC4AA9D0)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETACHIEVEMENTSERIES_B__8_0_OFFSET UNITYSDK_OFFSET(0xC4AA990)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETFINISHHINTDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0xC4AAAD0)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETITEMDISPLAYDATAS_B__16_0_OFFSET UNITYSDK_OFFSET(0xC4AAA50)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GET_ACHIEVEDNUM_B__65_0_OFFSET UNITYSDK_OFFSET(0xC4AACA0)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__INITACHIEVEMENTDATA_B__22_0_OFFSET UNITYSDK_OFFSET(0xC4AAB60)
-#define RPG_CLIENT_ACHIEVEMENTMODULE___C__INITACHIEVEMENTDATA_B__22_1_OFFSET UNITYSDK_OFFSET(0xC4AAC00)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3B23B0)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3B23E0)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETACHIEVEMENTDATABYSERIES_B__14_0_OFFSET UNITYSDK_OFFSET(0xC3B2410)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETACHIEVEMENTDATABYSERIES_B__14_1_OFFSET UNITYSDK_OFFSET(0xC3B2430)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETACHIEVEMENTSERIES_B__8_0_OFFSET UNITYSDK_OFFSET(0xC3B23F0)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETFINISHHINTDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0xC3B2530)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GETITEMDISPLAYDATAS_B__16_0_OFFSET UNITYSDK_OFFSET(0xC3B24B0)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__GET_ACHIEVEDNUM_B__65_0_OFFSET UNITYSDK_OFFSET(0xC3B2700)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__INITACHIEVEMENTDATA_B__22_0_OFFSET UNITYSDK_OFFSET(0xC3B25C0)
+#define RPG_CLIENT_ACHIEVEMENTMODULE___C__INITACHIEVEMENTDATA_B__22_1_OFFSET UNITYSDK_OFFSET(0xC3B2660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AchievementModule___c_TypeDefinitionIndex = 61455;
-
 	class AchievementModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__22_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61150);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B40);
 		}
-		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>** StaticGet___9__14_1()
-		{
-			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61158);
-		}
-		static ::System::Action** StaticGet___9__22_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61160);
-		}
-		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>** StaticGet___9__14_0()
-		{
-			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61168);
-		}
+
 		static ::System::Comparison_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__16_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ItemDisplayData*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61170);
+			return (::System::Comparison_1<::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B48);
 		}
+
+		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>** StaticGet___9__14_0()
+		{
+			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B50);
+		}
+
 		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::Boolean>** StaticGet___9__65_0()
 		{
-			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61178);
+			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B58);
 		}
+
+		static ::System::Action** StaticGet___9__22_1()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B60);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B68);
+		}
+
 		static ::System::Comparison_1<::RPG::Client::AchievementData*>** StaticGet___9__17_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::AchievementData*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61180);
+			return (::System::Comparison_1<::RPG::Client::AchievementData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B70);
 		}
-		static ::RPG::Client::AchievementModule___c** StaticGet___9()
+
+		static ::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>** StaticGet___9__14_1()
 		{
-			return (::RPG::Client::AchievementModule___c**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61188);
+			return (::System::Func_2<::RPG::Client::AchievementData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B78);
 		}
+
 		static ::System::Func_2<::RPG::GameCore::AchievementSeriesRow*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::AchievementSeriesRow*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(AchievementModule___c_TypeDefinitionIndex)->GetStaticField(0x61190);
+			return (::System::Func_2<::RPG::GameCore::AchievementSeriesRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B80);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTMODULE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTMODULE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTMODULE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTMODULE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 _GetAchievementSeries_b__8_0(::RPG::GameCore::AchievementSeriesRow* a1)
@@ -113,5 +119,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AchievementData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACHIEVEMENTMODULE___C__GET_ACHIEVEDNUM_B__65_0_OFFSET))(this, a1);
 		}
+
 	};
 }

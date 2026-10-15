@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_DUMP_OFFSET UNITYSDK_OFFSET(0x1BE0DB40)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_READ_OFFSET UNITYSDK_OFFSET(0x1BE0DA90)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_SET_OFFSET UNITYSDK_OFFSET(0x1BE0D950)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_WRITE_OFFSET UNITYSDK_OFFSET(0x1BE0D960)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0D940)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3195A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_DUMP_OFFSET UNITYSDK_OFFSET(0x1C3197A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_READ_OFFSET UNITYSDK_OFFSET(0x1C3196F0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_SET_OFFSET UNITYSDK_OFFSET(0x1C3195B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_WRITE_OFFSET UNITYSDK_OFFSET(0x1C3195C0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int MemberPrimitiveTyped_TypeDefinitionIndex = 1155;
-
 	class MemberPrimitiveTyped : public ::System::Object
 	{
 	public:
 		::System::Object* value; // 0x10
 		::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE a1, ::System::Object* a2)
@@ -46,5 +43,6 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_MEMBERPRIMITIVETYPED_DUMP_OFFSET))(this);
 		}
+
 	};
 }

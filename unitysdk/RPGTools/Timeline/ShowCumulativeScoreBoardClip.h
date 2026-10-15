@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class CumulativeScoreBoardClipData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E39F0)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E39E0)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_METHOD_4_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE8E3B80)
-#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E3BC0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_CCKGKFBCHAM_OFFSET UNITYSDK_OFFSET(0xE938FA0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE938E10)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE938FE0)
+#define RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE938E00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowCumulativeScoreBoardClip_TypeDefinitionIndex = 48739;
-
 	class ShowCumulativeScoreBoardClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::CumulativeScoreBoardClipData* _Data; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,9 +33,10 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_CA373AA1C7054598()
+		::System::Void CCKGKFBCHAM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_METHOD_4_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SHOWCUMULATIVESCOREBOARDCLIP_CCKGKFBCHAM_OFFSET))(this);
 		}
+
 	};
 }

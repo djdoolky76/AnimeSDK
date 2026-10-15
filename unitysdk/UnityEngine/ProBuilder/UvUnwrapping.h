@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/ProBuilder/AutoUnwrapSettings.h"
 #include "unitysdk/UnityEngine/ProBuilder/AutoUnwrapSettings_Anchor.h"
-#include "unitysdk/UnityEngine/ProBuilder/UvUnwrapping_UVTransform.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/ProBuilder/AutoUnwrapSettings.h"
+#include "unitysdk/UnityEngine/ProBuilder/UvUnwrapping_UVTransform.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -14,45 +13,45 @@ namespace UnityEngine::ProBuilder { class Bounds2D; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVANCHOR_OFFSET UNITYSDK_OFFSET(0x1EBC9E50)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVSETTINGS_OFFSET UNITYSDK_OFFSET(0x1EBC86F0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_CALCULATEDELTA_OFFSET UNITYSDK_OFFSET(0x1EBC7690)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_COPYUVS_OFFSET UNITYSDK_OFFSET(0x1EBAF880)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETAUTOUNWRAPSETTINGS_OFFSET UNITYSDK_OFFSET(0x1EBC7D90)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1EBC7FB0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETROTATEDSIZE_OFFSET UNITYSDK_OFFSET(0x1EBC80B0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETUVTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1EBC7EA0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_PROJECTTEXTUREGROUP_OFFSET UNITYSDK_OFFSET(0x1EB8E980)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SCALEUVS_OFFSET UNITYSDK_OFFSET(0x1EBC9A00)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOANDALIGNUNWRAPPARAMSTOUVS_OFFSET UNITYSDK_OFFSET(0x1EBC7460)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOUV_OFFSET UNITYSDK_OFFSET(0x1EBC72C0)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UNWRAP_OFFSET UNITYSDK_OFFSET(0x1EB8E840)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UPGRADEAUTOUVSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EB8C310)
-#define UNITYENGINE_PROBUILDER_UVUNWRAPPING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBCA400)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVANCHOR_OFFSET UNITYSDK_OFFSET(0x1F291BA0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_APPLYUVSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F290420)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_CALCULATEDELTA_OFFSET UNITYSDK_OFFSET(0x1F28F360)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F292150)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_COPYUVS_OFFSET UNITYSDK_OFFSET(0x1F277320)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETAUTOUNWRAPSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F28FA60)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETINDEX_OFFSET UNITYSDK_OFFSET(0x1F28FC80)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETROTATEDSIZE_OFFSET UNITYSDK_OFFSET(0x1F28FDB0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_GETUVTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F28FB70)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_PROJECTTEXTUREGROUP_OFFSET UNITYSDK_OFFSET(0x1F256320)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SCALEUVS_OFFSET UNITYSDK_OFFSET(0x1F291730)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOANDALIGNUNWRAPPARAMSTOUVS_OFFSET UNITYSDK_OFFSET(0x1F28F130)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_SETAUTOUV_OFFSET UNITYSDK_OFFSET(0x1F28EF90)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UNWRAP_OFFSET UNITYSDK_OFFSET(0x1F2561E0)
+#define UNITYENGINE_PROBUILDER_UVUNWRAPPING_UPGRADEAUTOUVSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x1F253AC0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int UvUnwrapping_TypeDefinitionIndex = 43254;
-
 	class UvUnwrapping : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector2>** StaticGet_s_UVTransformProjectionBuffer()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x608B0);
-		}
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_s_IndexBuffer()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x608B8);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "UvUnwrapping")->GetStaticField(0x575F0);
 		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector2>** StaticGet_s_UVTransformProjectionBuffer()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.ProBuilder", "UvUnwrapping")->GetStaticField(0x575F8);
+		}
+
 		static ::UnityEngine::Vector2* StaticGet_s_TempVector2()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(UvUnwrapping_TypeDefinitionIndex)->GetStaticField(0x13BD0);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "UvUnwrapping")->GetStaticField(0x13450);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void SetAutoUV(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::Il2CppArray<::UnityEngine::ProBuilder::Face*>* a2, ::System::Boolean a3)
@@ -124,5 +123,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_UVUNWRAPPING_UPGRADEAUTOUVSCALEOFFSET_OFFSET))(a1);
 		}
+
 	};
 }

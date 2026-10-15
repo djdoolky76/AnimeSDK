@@ -2,33 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/InputSystem/KeyType.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::InputSystem { class IJoystickService; }
+namespace MiHoYo::SDK::InputSystem { class JoystickAdapter; }
 
-#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1B6DEAA0)
-#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x1B6DED00)
-#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1B6DEBD0)
-#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B6DC8A0)
-#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1B6DEE30)
-#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B6DEA90)
-#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DEA80)
+#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDC6C0)
+#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1BBDC6E0)
+#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x1BBDC940)
+#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1BBDC810)
+#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BBDA4E0)
+#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1BBDCA70)
+#define MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BBDC6D0)
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int JoystickAdapter_TypeDefinitionIndex = 10082;
-
 	class JoystickAdapter : public ::System::Object
 	{
 	public:
+		::MiHoYo::SDK::InputSystem::IJoystickService* m_service; // 0x10
 		static ::MiHoYo::SDK::InputSystem::JoystickAdapter** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::InputSystem::JoystickAdapter**)Il2CppClass::FromTypeDefinitionIndex(JoystickAdapter_TypeDefinitionIndex)->GetStaticField(0x720);
+			return (::MiHoYo::SDK::InputSystem::JoystickAdapter**)UnitySDK::FromName("MiHoYo.SDK.InputSystem", "JoystickAdapter")->GetStaticField(0x710);
 		}
-		::MiHoYo::SDK::InputSystem::IJoystickService* m_service; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::InputSystem::JoystickAdapter* get_Instance()
@@ -60,5 +58,6 @@ namespace MiHoYo::SDK::InputSystem
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::InputSystem::IJoystickService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_JOYSTICKADAPTER_REGISTERSERVICE_OFFSET))(this, a1);
 		}
+
 	};
 }

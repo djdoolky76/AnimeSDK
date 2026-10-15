@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class LHABGIKFJLH;
+namespace RPG::GameCore { class TaskContext; }
+
+#define HHAHKBCNNAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB3EA0)
+#define HHAHKBCNNAK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CB3ED0)
+
+	class HHAHKBCNNAK
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::LHABGIKFJLH* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::LHABGIKFJLH*))((::PBYTE)hIl2Cpp + HHAHKBCNNAK_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Evaluate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HHAHKBCNNAK_EVALUATE_OFFSET))(this);
+		}
+
+	};

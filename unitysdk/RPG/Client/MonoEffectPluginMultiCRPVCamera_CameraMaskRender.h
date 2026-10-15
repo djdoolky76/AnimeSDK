@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_CAMERAMASKRENDER__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C07D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_CAMERAMASKRENDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD8027E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginMultiCRPVCamera_CameraMaskRender_TypeDefinitionIndex = 70046;
-
 	class MonoEffectPluginMultiCRPVCamera_CameraMaskRender : public ::System::Object
 	{
 	public:
@@ -20,10 +17,10 @@ namespace RPG::Client
 		::UnityEngine::Transform* ScreenCornerC; // 0x28
 		::UnityEngine::Transform* ScreenCornerD; // 0x30
 		::UnityEngine::Transform* ScreenObject; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_CAMERAMASKRENDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_CAMERAMASKRENDER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

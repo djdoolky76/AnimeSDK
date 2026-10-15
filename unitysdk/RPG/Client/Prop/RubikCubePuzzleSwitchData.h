@@ -2,25 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/RubikCubeGroup.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLESWITCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDD2CE80)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLESWITCHDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB5940)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleSwitchData_TypeDefinitionIndex = 78368;
-
 	class RubikCubePuzzleSwitchData : public ::System::Object
 	{
 	public:
 		::RPG::Client::Prop::RubikCubeGroup AttachGroup; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* Obj; // 0x18
 		::UnityEngine::GameObject* AttachCube; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLESWITCHDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLESWITCHDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

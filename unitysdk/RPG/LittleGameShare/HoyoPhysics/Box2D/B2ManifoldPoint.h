@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ManifoldPoint_TypeDefinitionIndex = 36018;
-
 	struct alignas(4) B2ManifoldPoint
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 point; // 0x10

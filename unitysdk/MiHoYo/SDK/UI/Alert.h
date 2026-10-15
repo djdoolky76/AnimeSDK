@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UI/Alert_AlertResult.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class UIManager; }
 namespace MiHoYo::SDK::UI { class Alert_OnAlertDelegate; }
 namespace System { class Action; }
@@ -11,56 +10,56 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_ALERT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAE3AD0)
-#define MIHOYO_SDK_UI_ALERT_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BAE4B30)
-#define MIHOYO_SDK_UI_ALERT_HIDE_OFFSET UNITYSDK_OFFSET(0x1BAE4C30)
-#define MIHOYO_SDK_UI_ALERT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BAE4F80)
-#define MIHOYO_SDK_UI_ALERT_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x1BAE4EA0)
-#define MIHOYO_SDK_UI_ALERT_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x1BAE4F10)
-#define MIHOYO_SDK_UI_ALERT_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BAE4120)
-#define MIHOYO_SDK_UI_ALERT_SHOW_OFFSET UNITYSDK_OFFSET(0x1BAE4770)
-#define MIHOYO_SDK_UI_ALERT_START_OFFSET UNITYSDK_OFFSET(0x1BAE3FF0)
-#define MIHOYO_SDK_UI_ALERT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAE5000)
-#define MIHOYO_SDK_UI_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE4FB0)
+#define MIHOYO_SDK_UI_ALERT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFEEDB0)
+#define MIHOYO_SDK_UI_ALERT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFF0390)
+#define MIHOYO_SDK_UI_ALERT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF0340)
+#define MIHOYO_SDK_UI_ALERT_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BFEFEC0)
+#define MIHOYO_SDK_UI_ALERT_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFEFFC0)
+#define MIHOYO_SDK_UI_ALERT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BFF0310)
+#define MIHOYO_SDK_UI_ALERT_ONTAPCLOSE_OFFSET UNITYSDK_OFFSET(0x1BFF0230)
+#define MIHOYO_SDK_UI_ALERT_ONTAPSUBMIT_OFFSET UNITYSDK_OFFSET(0x1BFF02A0)
+#define MIHOYO_SDK_UI_ALERT_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BFEF4B0)
+#define MIHOYO_SDK_UI_ALERT_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFEFB00)
+#define MIHOYO_SDK_UI_ALERT_START_OFFSET UNITYSDK_OFFSET(0x1BFEF380)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 8351;
-
 	class Alert : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0x27700);
-		}
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_AlertHideTaskList()
-		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Alert_TypeDefinitionIndex)->GetStaticField(0x27708);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* ContentTextPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* ButtonTextPath; // 0x0
 		::System::String* content; // 0x58
 		::System::String* buttonTitle; // 0x60
 		::MiHoYo::SDK::UI::Alert_OnAlertDelegate* OnAlertResult; // 0x68
 		::MiHoYo::SDK::UI::Alert_AlertResult result; // 0x70
 		::System::Boolean isShowClose; // 0x74
+		::System::Byte _padding0[0x3];
 		::UnityEngine::UI::Button* closeButton; // 0x78
 		::UnityEngine::UI::Text* contentText; // 0x80
 		::UnityEngine::UI::Button* submitButton; // 0x88
 		::UnityEngine::UI::Text* buttonText; // 0x90
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK.UI", "Alert")->GetStaticField(0x20910);
+		}
 
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_AlertHideTaskList()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK.UI", "Alert")->GetStaticField(0x20918);
+		}
+
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* ContentTextPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* ButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -107,5 +106,6 @@ namespace MiHoYo::SDK::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

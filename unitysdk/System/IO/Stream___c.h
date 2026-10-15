@@ -1,83 +1,89 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/IO/Stream_ReadWriteParameters.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/Tasks/VoidTaskResult.h"
-
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/IO/Stream_ReadWriteParameters.h"
+namespace System { class Action; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4, typename T5> class Func_5; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class SemaphoreSlim; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BD5D310)
-#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_1_OFFSET UNITYSDK_OFFSET(0x1BD5D3E0)
-#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_0_OFFSET UNITYSDK_OFFSET(0x1BD5D6F0)
-#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_1_OFFSET UNITYSDK_OFFSET(0x1BD5D7C0)
-#define SYSTEM_IO_STREAM___C__BEGINREADINTERNAL_B__39_0_OFFSET UNITYSDK_OFFSET(0x1BD5D160)
-#define SYSTEM_IO_STREAM___C__BEGINWRITEINTERNAL_B__46_0_OFFSET UNITYSDK_OFFSET(0x1BD5D470)
-#define SYSTEM_IO_STREAM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD5D0E0)
-#define SYSTEM_IO_STREAM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5D110)
-#define SYSTEM_IO_STREAM___C__ENSUREASYNCACTIVESEMAPHOREINITIALIZED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BD5D120)
-#define SYSTEM_IO_STREAM___C__RUNREADWRITETASKWHENREADY_B__47_0_OFFSET UNITYSDK_OFFSET(0x1BD5D600)
+#define SYSTEM_IO_STREAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C268F80)
+#define SYSTEM_IO_STREAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C268FB0)
+#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_0_OFFSET UNITYSDK_OFFSET(0x1C269190)
+#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_1_OFFSET UNITYSDK_OFFSET(0x1C269260)
+#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_0_OFFSET UNITYSDK_OFFSET(0x1C269570)
+#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_1_OFFSET UNITYSDK_OFFSET(0x1C269640)
+#define SYSTEM_IO_STREAM___C__BEGINREADINTERNAL_B__39_0_OFFSET UNITYSDK_OFFSET(0x1C269000)
+#define SYSTEM_IO_STREAM___C__BEGINWRITEINTERNAL_B__46_0_OFFSET UNITYSDK_OFFSET(0x1C2692F0)
+#define SYSTEM_IO_STREAM___C__ENSUREASYNCACTIVESEMAPHOREINITIALIZED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C268FC0)
+#define SYSTEM_IO_STREAM___C__RUNREADWRITETASKWHENREADY_B__47_0_OFFSET UNITYSDK_OFFSET(0x1C269480)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Stream___c_TypeDefinitionIndex = 690;
-
 	class Stream___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__39_0()
+		static ::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__43_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5B0);
+			return (::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15200);
 		}
-		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>** StaticGet___9__53_1()
-		{
-			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5B8);
-		}
-		static ::System::IO::Stream___c** StaticGet___9()
-		{
-			return (::System::IO::Stream___c**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5C0);
-		}
-		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__47_0()
-		{
-			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5C8);
-		}
-		static ::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__53_0()
-		{
-			return (::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5D0);
-		}
-		static ::System::Func_1<::System::Threading::SemaphoreSlim*>** StaticGet___9__4_0()
-		{
-			return (::System::Func_1<::System::Threading::SemaphoreSlim*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5D8);
-		}
-		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>** StaticGet___9__43_1()
-		{
-			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5E0);
-		}
-		static ::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__43_0()
-		{
-			return (::System::Func_5<::System::IO::Stream*, ::System::IO::Stream_ReadWriteParameters, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5E8);
-		}
+
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__46_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Stream___c_TypeDefinitionIndex)->GetStaticField(0xC5F0);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15208);
+		}
+
+		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>** StaticGet___9__43_1()
+		{
+			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15210);
+		}
+
+		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>** StaticGet___9__53_1()
+		{
+			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15218);
+		}
+
+		static ::System::Func_1<::System::Threading::SemaphoreSlim*>** StaticGet___9__4_0()
+		{
+			return (::System::Func_1<::System::Threading::SemaphoreSlim*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15220);
+		}
+
+		static ::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__53_0()
+		{
+			return (::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15228);
+		}
+
+		static ::System::Action** StaticGet___9__47_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15230);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15238);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__39_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15240);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Threading::SemaphoreSlim* _EnsureAsyncActiveSemaphoreInitialized_b__4_0()
@@ -119,5 +125,6 @@ namespace System::IO
 		{
 			return ((::System::Threading::Tasks::VoidTaskResult(*)(::PVOID, ::System::IO::Stream*, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

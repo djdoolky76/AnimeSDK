@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class GroupEntityInfo; }
 
-#define RPG_GAMECORE_GROUPENTITYINFO_METHOD_2_0AC0F644E9C65E8C_OFFSET UNITYSDK_OFFSET(0x1D16F9C0)
-#define RPG_GAMECORE_GROUPENTITYINFO_METHOD_2_6CFD44C339508CDE_OFFSET UNITYSDK_OFFSET(0x1D16FB30)
-#define RPG_GAMECORE_GROUPENTITYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16FB20)
+#define RPG_GAMECORE_GROUPENTITYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74AA30)
+#define RPG_GAMECORE_GROUPENTITYINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D74AA40)
+#define RPG_GAMECORE_GROUPENTITYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D74A8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupEntityInfo_TypeDefinitionIndex = 20052;
-
 	class GroupEntityInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* GroupID; // 0x10
 		::RPG::GameCore::DynamicFloat* GroupInstanceID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPENTITYINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPENTITYINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_0AC0F644E9C65E8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupEntityInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GroupEntityInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupEntityInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPENTITYINFO_METHOD_2_0AC0F644E9C65E8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GroupEntityInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPENTITYINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_6CFD44C339508CDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupEntityInfo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GroupEntityInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupEntityInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPENTITYINFO_METHOD_2_6CFD44C339508CDE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GroupEntityInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPENTITYINFO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

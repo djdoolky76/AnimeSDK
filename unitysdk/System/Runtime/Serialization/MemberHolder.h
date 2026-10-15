@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Reflection { class MemberInfo; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BE28BC0)
-#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BE28B20)
-#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE28B10)
+#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C334700)
+#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C3347B0)
+#define SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C334710)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int MemberHolder_TypeDefinitionIndex = 1107;
-
 	class MemberHolder : public ::System::Object
 	{
 	public:
 		::System::Runtime::Serialization::StreamingContext context; // 0x10
 		::System::Type* memberType; // 0x20
 		::Il2CppArray<::System::Reflection::MemberInfo*>* members; // 0x28
-
 		::System::Void _ctor(::System::Type* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GetHashCode()
@@ -35,5 +32,6 @@ namespace System::Runtime::Serialization
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_MEMBERHOLDER_EQUALS_OFFSET))(this, a1);
 		}
+
 	};
 }

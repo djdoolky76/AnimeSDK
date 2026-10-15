@@ -2,26 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Linq/XNode.h"
 #include "unitysdk/System/Xml/XmlNodeType.h"
-
 namespace System { class String; }
 namespace System::Xml { class IDtdInfo; }
 namespace System::Xml { class XmlWriter; }
+namespace System::Xml::Linq { class XDocumentType; }
+namespace System::Xml::Linq { class XNode; }
 
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1E7C33F0)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x1E7C3290)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E7C32A0)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E7C32B0)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x1E7C32C0)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x1E7C32D0)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C32E0)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7C3210)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E7BF590)
-#define SYSTEM_XML_LINQ_XDOCUMENTTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C3180)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1EE8C110)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE8BF30)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EE882B0)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8BEA0)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x1EE8BFB0)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EE8BFC0)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EE8BFD0)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x1EE8BFE0)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x1EE8BFF0)
+#define SYSTEM_XML_LINQ_XDOCUMENTTYPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EE8C000)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XDocumentType_TypeDefinitionIndex = 3906;
-
 	class XDocumentType : public ::System::Xml::Linq::XNode
 	{
 	public:
@@ -30,20 +29,19 @@ namespace System::Xml::Linq
 		::System::Xml::IDtdInfo* dtdInfo; // 0x38
 		::System::String* systemId; // 0x40
 		::System::String* publicId; // 0x48
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDOCUMENTTYPE__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDOCUMENTTYPE_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_1(::System::Xml::Linq::XDocumentType* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XDocumentType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDOCUMENTTYPE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XDocumentType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDOCUMENTTYPE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::Xml::IDtdInfo* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::IDtdInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDOCUMENTTYPE__CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::IDtdInfo*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDOCUMENTTYPE_CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::String* get_InternalSubset()
@@ -80,5 +78,6 @@ namespace System::Xml::Linq
 		{
 			return ((::System::Xml::Linq::XNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XDOCUMENTTYPE_CLONENODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,41 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/CustomRP/ResolveDump_Tex.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class FileInfo; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCPPGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x1C6E9010)
-#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCSGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x1C6E9130)
-#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_1_OFFSET UNITYSDK_OFFSET(0x1C6EA640)
-#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1C6E9250)
-#define RPG_CUSTOMRP_RESOLVEDUMP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6EAF50)
-#define RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET UNITYSDK_OFFSET(0x1C6E95B0)
-#define RPG_CUSTOMRP_RESOLVEDUMP__RESOLVE_OFFSET UNITYSDK_OFFSET(0x1C6E98A0)
-#define RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0x1C6EA870)
+#define RPG_CUSTOMRP_RESOLVEDUMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC715D0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCPPGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x1CC6F690)
+#define RPG_CUSTOMRP_RESOLVEDUMP_DUMPCSGFXMEMORY_OFFSET UNITYSDK_OFFSET(0x1CC6F7B0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_1_OFFSET UNITYSDK_OFFSET(0x1CC70CC0)
+#define RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1CC6F8D0)
+#define RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET UNITYSDK_OFFSET(0x1CC6FC30)
+#define RPG_CUSTOMRP_RESOLVEDUMP__RESOLVE_OFFSET UNITYSDK_OFFSET(0x1CC6FF20)
+#define RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET UNITYSDK_OFFSET(0x1CC70EF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump_TypeDefinitionIndex = 37059;
-
 	class ResolveDump : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet__CsCounter()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResolveDump_TypeDefinitionIndex)->GetStaticField(0xF4D0);
-		}
 		static ::System::Int32* StaticGet__CppCounter()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResolveDump_TypeDefinitionIndex)->GetStaticField(0xF4D4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ResolveDump")->GetStaticField(0xB1D0);
+		}
+
+		static ::System::Int32* StaticGet__CsCounter()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ResolveDump")->GetStaticField(0xB1D4);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void DumpCppGfxMemory(::System::String* a1)
@@ -58,9 +56,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP_RESOLVE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _ExtractPath(::Il2CppArray<::System::IO::FileInfo*>* a1, ::System::Int32 a2, ::System::String* a3, ::System::String*& a4, ::System::String*& a5)
+		static ::System::Void _ExtractPath(::Il2CppArray<::System::IO::FileInfo*>* a1, ::System::Int32 a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::IO::FileInfo*>*, ::System::Int32, ::System::String*, ::System::String*&, ::System::String*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::Il2CppArray<::System::IO::FileInfo*>*, ::System::Int32, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP__EXTRACTPATH_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>* _Resolve(::System::Boolean a1, ::System::String* a2, ::System::String* a3, ::System::String* a4)
@@ -68,9 +66,10 @@ namespace RPG::CustomRP
 			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>*>*(*)(::System::Boolean, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP__RESOLVE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void _SaveToLocal(::System::String* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Collections::Generic::List_1<::RPG::CustomRP::ResolveDump_Tex>* a5, ::System::Collections::Generic::List_1<::RPG::CustomRP::ResolveDump_Tex>* a6, ::System::Collections::Generic::List_1<::RPG::CustomRP::ResolveDump_Tex>* a7)
+		static ::System::Void _SaveToLocal(::System::String* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Collections::Generic::List_1<::System::Object*>* a5, ::System::Collections::Generic::List_1<::System::Object*>* a6, ::System::Collections::Generic::List_1<::System::Object*>* a7)
 		{
-			return ((::System::Void(*)(::System::String*, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::List_1<::RPG::CustomRP::ResolveDump_Tex>*, ::System::Collections::Generic::List_1<::RPG::CustomRP::ResolveDump_Tex>*, ::System::Collections::Generic::List_1<::RPG::CustomRP::ResolveDump_Tex>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::System::String*, ::System::Single, ::System::Single, ::System::Single, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RESOLVEDUMP__SAVETOLOCAL_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

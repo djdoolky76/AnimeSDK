@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierExecuteActionOnEnterLayerConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_METHOD_3_0A128726977BB05F_OFFSET UNITYSDK_OFFSET(0x1D3F8010)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_METHOD_3_735C2AE284EE4BDB_OFFSET UNITYSDK_OFFSET(0x1D3F7FC0)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F8000)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA15E40)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA15E50)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA15E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierExecuteActionOnEnterLayerConfig_TypeDefinitionIndex = 17471;
-
 	class RogueModifierExecuteActionOnEnterLayerConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_735C2AE284EE4BDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_METHOD_3_735C2AE284EE4BDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0A128726977BB05F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_METHOD_3_0A128726977BB05F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecuteActionOnEnterLayerConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECUTEACTIONONENTERLAYERCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

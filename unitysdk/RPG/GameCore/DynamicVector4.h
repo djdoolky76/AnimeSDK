@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class DynamicVector4; }
 
-#define RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_3211940520E359B5_OFFSET UNITYSDK_OFFSET(0x1D050980)
-#define RPG_GAMECORE_DYNAMICVECTOR4__CTOR_OFFSET UNITYSDK_OFFSET(0x1D050BE0)
+#define RPG_GAMECORE_DYNAMICVECTOR4_CTOR_OFFSET UNITYSDK_OFFSET(0x1D62D280)
+#define RPG_GAMECORE_DYNAMICVECTOR4_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D62D020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicVector4_TypeDefinitionIndex = 23573;
-
 	class DynamicVector4 : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -19,15 +17,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* y; // 0x18
 		::RPG::GameCore::DynamicFloat* z; // 0x20
 		::RPG::GameCore::DynamicFloat* w; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVECTOR4__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVECTOR4_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3211940520E359B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicVector4*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DynamicVector4* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicVector4*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVECTOR4_METHOD_2_3211940520E359B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DynamicVector4*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICVECTOR4_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

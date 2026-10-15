@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleCommandType_TypeDefinitionIndex = 63518;
-
 	enum class ChimeraSettleCommandType : ::System::Int32
 	{
 		Default = 0,

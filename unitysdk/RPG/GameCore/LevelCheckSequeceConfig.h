@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelCheckSequeceConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1CAFF0)
-#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CB0E0)
+#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A74B0)
+#define RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A73C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCheckSequeceConfig_TypeDefinitionIndex = 18086;
-
 	class LevelCheckSequeceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* TaskList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHECKSEQUECECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelCheckSequeceConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelCheckSequeceConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelCheckSequeceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelCheckSequeceConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHECKSEQUECECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

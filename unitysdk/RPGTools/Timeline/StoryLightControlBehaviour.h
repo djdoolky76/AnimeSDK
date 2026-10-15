@@ -1,65 +1,73 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/StoryLightCharacterGroup.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace RPG::Client { class EnvironmentSystem; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xE8E86B0)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_4EA6B1791DACA9CC_OFFSET UNITYSDK_OFFSET(0xE8E83F0)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xE8E8350)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_C1E0405EEC95DC65_OFFSET UNITYSDK_OFFSET(0xE8E8740)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xE8ED8E0)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_C982C8295D29DA97_OFFSET UNITYSDK_OFFSET(0xE8EA2B0)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8E8210)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xE8E88C0)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE8E8920)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE8E8860)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8EA3C0)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8EDB00)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_BCPKJLDGCBE_OFFSET UNITYSDK_OFFSET(0xE93DAB0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE942F00)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_FBICIDBOIFE_OFFSET UNITYSDK_OFFSET(0xE942CE0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_IGHMIDNKOEM_OFFSET UNITYSDK_OFFSET(0xE93D750)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_LBODHFJOGKC_OFFSET UNITYSDK_OFFSET(0xE93D7F0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_MMOCAFDLOBH_OFFSET UNITYSDK_OFFSET(0xE93F6B0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE93D610)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xE93DCC0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE93DD20)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE93DC60)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_PDPJEEMGHMM_OFFSET UNITYSDK_OFFSET(0xE93DB40)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE93F7C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryLightControlBehaviour_TypeDefinitionIndex = 48801;
-
 	class StoryLightControlBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean MainLightColorEnable; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color MainLightColor; // 0x14
 		::System::Boolean MainLightIntensityEnable; // 0x24
+		::System::Byte _padding1[0x3];
 		::System::Single MainLightIntensity; // 0x28
 		::System::Boolean MainLightRotationEnable; // 0x2C
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector3 MainLightRotation; // 0x30
 		::System::Boolean DisableLocalMainLightEnable; // 0x3C
+		::System::Byte _padding3[0x3];
 		::System::Single DisableLocalMainLight; // 0x40
 		::System::Boolean DisableLocalLightLerpEnable; // 0x44
 		::System::Boolean DisableLocalLightLerp; // 0x45
 		::System::Boolean EnvColorEnable; // 0x46
+		::System::Byte _padding4[0x1];
 		::UnityEngine::Color EnvColor; // 0x48
 		::System::Boolean AddColorEnable; // 0x58
+		::System::Byte _padding5[0x3];
 		::UnityEngine::Color AddColor; // 0x5C
 		::System::Boolean SPColorEnable; // 0x6C
+		::System::Byte _padding6[0x3];
 		::UnityEngine::Color SPColor; // 0x70
 		::System::Boolean SPIntensityEnable; // 0x80
+		::System::Byte _padding7[0x3];
 		::System::Single SPIntensity; // 0x84
 		::System::Boolean CharacterShadowFactorEnable; // 0x88
+		::System::Byte _padding8[0x3];
 		::System::Single CharacterShadowFactor; // 0x8C
 		::System::Boolean CharacterShadowFactorEnableInShaowProbe; // 0x90
 		::System::Boolean HeightLerpEnable; // 0x91
+		::System::Byte _padding9[0x2];
 		::System::Single HeightLerpTop; // 0x94
 		::System::Single HeightLerpBottom; // 0x98
 		::UnityEngine::Color HeightLerpTopColor; // 0x9C
 		::UnityEngine::Color HeightLerpMiddleColor; // 0xAC
 		::UnityEngine::Color HeightLerpBottomColor; // 0xBC
 		::System::Boolean RimLightEnable; // 0xCC
+		::System::Byte _padding10[0x3];
 		::UnityEngine::Vector2 RimLightOffset; // 0xD0
 		::System::Single RimLightWidth; // 0xD8
 		::System::Single RimLightIntensity; // 0xDC
@@ -67,6 +75,7 @@ namespace RPGTools::Timeline
 		::System::Single RimShadowIntensity; // 0xF0
 		::UnityEngine::Color RimShadowColor; // 0xF4
 		::System::Boolean LevelAdjustEnable; // 0x104
+		::System::Byte _padding11[0x3];
 		::UnityEngine::Color LevelSkinLightColor; // 0x108
 		::UnityEngine::Color LevelSkinShadowColor; // 0x118
 		::UnityEngine::Color LevelHighLightColor; // 0x128
@@ -76,23 +85,26 @@ namespace RPGTools::Timeline
 		::System::Single LevelHighLight; // 0x150
 		::System::Boolean EnableSelfShadowEnable; // 0x154
 		::System::Boolean EnableSelfShadow; // 0x155
+		::System::Byte _padding12[0x2];
 		::System::Single SelfShadowLerpCamera; // 0x158
 		::System::Single SelfShadowLerpHair; // 0x15C
 		::System::Single SelfShadowBoundsClip; // 0x160
 		::System::Boolean _IsSyncSceneLight; // 0x164
 		::System::Boolean _EnableRotation; // 0x165
+		::System::Byte _padding13[0x2];
 		::UnityEngine::Vector3 _Rotation; // 0x168
 		::System::Boolean EnableCharacterGroup; // 0x174
+		::System::Byte _padding14[0x3];
 		::System::Collections::Generic::List_1<::RPGTools::Timeline::StoryLightCharacterGroup>* CharacterGroupList; // 0x178
 		::System::Boolean _OriIsSyncSceneLight; // 0x180
+		::System::Byte _padding15[0x7];
 		::RPG::Client::EnvironmentSystem* _EnvSystem; // 0x188
 		::System::Int32 _TargetPriority; // 0x190
 		::System::Boolean _FirstFrame; // 0x194
 		::System::Boolean AutoReset; // 0x195
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -120,34 +132,35 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_C638E91FC0D3A13A()
+		::System::Void FBICIDBOIFE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_C638E91FC0D3A13A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_FBICIDBOIFE_OFFSET))(this);
 		}
 
-		::System::Void Method_2_4EA6B1791DACA9CC()
+		::System::Void LBODHFJOGKC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_4EA6B1791DACA9CC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_LBODHFJOGKC_OFFSET))(this);
 		}
 
-		::System::Void Method_2_4343F372F34C05BF()
+		::System::Void BCPKJLDGCBE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_BCPKJLDGCBE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_C982C8295D29DA97()
+		::System::Boolean MMOCAFDLOBH()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_C982C8295D29DA97_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_MMOCAFDLOBH_OFFSET))(this);
 		}
 
-		::System::Void Method_2_9681042564541CD6()
+		::System::Void IGHMIDNKOEM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_IGHMIDNKOEM_OFFSET))(this);
 		}
 
-		::System::Void Method_2_C1E0405EEC95DC65()
+		::System::Void PDPJEEMGHMM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_METHOD_2_C1E0405EEC95DC65_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLBEHAVIOUR_PDPJEEMGHMM_OFFSET))(this);
 		}
+
 	};
 }

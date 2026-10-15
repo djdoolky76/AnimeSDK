@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD9E2800)
-#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD9E2830)
-#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD9E27F0)
-#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xD9E2700)
+#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD9E5300)
+#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xD9E5200)
+#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD9E5330)
+#define RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xD9E52F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnPreloadOperationDelegate_TypeDefinitionIndex = 59527;
-
 	class OnPreloadOperationDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONPRELOADOPERATIONDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONPRELOADOPERATIONDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

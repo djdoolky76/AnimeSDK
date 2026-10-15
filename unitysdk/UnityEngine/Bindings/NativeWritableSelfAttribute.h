@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE_SET_WRITABLESELF_OFFSET UNITYSDK_OFFSET(0x1EDD3F50)
-#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD3F60)
+#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D220)
+#define UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE_SET_WRITABLESELF_OFFSET UNITYSDK_OFFSET(0x1F49D210)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeWritableSelfAttribute_TypeDefinitionIndex = 3722;
-
 	class NativeWritableSelfAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Boolean _WritableSelf_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_WritableSelf(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVEWRITABLESELFATTRIBUTE_SET_WRITABLESELF_OFFSET))(this, a1);
 		}
+
 	};
 }

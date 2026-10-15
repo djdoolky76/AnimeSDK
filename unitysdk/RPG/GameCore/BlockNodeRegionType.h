@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockNodeRegionType_TypeDefinitionIndex = 24154;
-
 	enum class BlockNodeRegionType : ::System::Int32
 	{
 		Near = 0,

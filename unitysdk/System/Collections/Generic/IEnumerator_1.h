@@ -3,8 +3,6 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int IEnumerator_1_TypeDefinitionIndex = 1563;
-
 	template <typename T>
 	class IEnumerator_1
 	{

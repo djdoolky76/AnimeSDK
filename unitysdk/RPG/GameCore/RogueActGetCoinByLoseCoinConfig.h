@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActGetCoinByLoseCoinConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_METHOD_6_22C4A17053597C00_OFFSET UNITYSDK_OFFSET(0x1D3B7510)
-#define RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_METHOD_6_90DA48C4D0FE3AFC_OFFSET UNITYSDK_OFFSET(0x1D3B7560)
-#define RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B7550)
+#define RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99DCD0)
+#define RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D99DCE0)
+#define RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D99DC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActGetCoinByLoseCoinConfig_TypeDefinitionIndex = 19392;
-
 	class RogueActGetCoinByLoseCoinConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_22C4A17053597C00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_METHOD_6_22C4A17053597C00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_90DA48C4D0FE3AFC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_METHOD_6_90DA48C4D0FE3AFC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActGetCoinByLoseCoinConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTGETCOINBYLOSECOINCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

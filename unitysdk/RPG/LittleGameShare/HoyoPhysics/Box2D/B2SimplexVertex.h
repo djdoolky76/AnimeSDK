@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SimplexVertex_TypeDefinitionIndex = 36087;
-
 	struct alignas(4) B2SimplexVertex
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 wA; // 0x10

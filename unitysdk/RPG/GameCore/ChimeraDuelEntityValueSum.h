@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelEntityValueGetterBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraDuelEntityValueGetterBase; }
+namespace RPG::GameCore { class ChimeraDuelEntityValueSum; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_METHOD_3_0016040F2F389E6B_OFFSET UNITYSDK_OFFSET(0x1CFC5560)
-#define RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_METHOD_3_8CBDCF814EAB2CFB_OFFSET UNITYSDK_OFFSET(0x1CFC56B0)
-#define RPG_GAMECORE_CHIMERADUELENTITYVALUESUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC5550)
+#define RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A0500)
+#define RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A0510)
+#define RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A0660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEntityValueSum_TypeDefinitionIndex = 15751;
-
 	class ChimeraDuelEntityValueSum : public ::RPG::GameCore::ChimeraDuelEntityValueGetterBase
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ChimeraDuelEntityValueGetterBase*>* ValueGetters; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYVALUESUM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8CBDCF814EAB2CFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntityValueSum*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelEntityValueSum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntityValueSum*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_METHOD_3_8CBDCF814EAB2CFB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelEntityValueSum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0016040F2F389E6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelEntityValueSum* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelEntityValueSum* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelEntityValueSum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_METHOD_3_0016040F2F389E6B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelEntityValueSum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELENTITYVALUESUM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

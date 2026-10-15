@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::GameCore { class DynamicValue; }
 namespace RPG::GameCore::ConstValueMapping::Converter { template <typename T> class IDynamicValueConverter_1; }
 
 namespace RPG::GameCore::ConstValueMapping::Converter
 {
-	inline static constexpr unsigned int ArrayDynamicValueConverter_1_TypeDefinitionIndex = 44024;
-
 	template <typename T>
 	class ArrayDynamicValueConverter_1 : public ::System::Object
 	{

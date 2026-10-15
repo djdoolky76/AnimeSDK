@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace SRDebugger
 {
-	inline static constexpr unsigned int VersionInfo_TypeDefinitionIndex = 37287;
-
 	class VersionInfo : public ::System::Object
 	{
 	public:

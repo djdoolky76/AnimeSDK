@@ -2,34 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/NetworkInformation/NetworkInterface.h"
 #include "unitysdk/System/Net/NetworkInformation/NetworkInterfaceType.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net { class IPAddress; }
 namespace System::Net::NetworkInformation { class PhysicalAddress; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_ADDADDRESS_OFFSET UNITYSDK_OFFSET(0x1E9A6580)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GETPHYSICALADDRESS_OFFSET UNITYSDK_OFFSET(0x1E9A87A0)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1E9A8820)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_NETWORKINTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x1E9A8830)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_SETLINKLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1E9A6620)
-#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A4760)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_ADDADDRESS_OFFSET UNITYSDK_OFFSET(0x1F06EEC0)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F06D050)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GETPHYSICALADDRESS_OFFSET UNITYSDK_OFFSET(0x1F071090)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1F0710E0)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_NETWORKINTERFACETYPE_OFFSET UNITYSDK_OFFSET(0x1F0710F0)
+#define SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_SETLINKLAYERINFO_OFFSET UNITYSDK_OFFSET(0x1F06EF60)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int UnixNetworkInterface_TypeDefinitionIndex = 2959;
-
 	class UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface
 	{
 	public:
 		::Il2CppArray<::System::Byte>* macAddress; // 0x10
-		::System::String* name; // 0x18
-		::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses; // 0x20
+		::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses; // 0x18
+		::System::String* name; // 0x20
 		::System::Net::NetworkInformation::NetworkInterfaceType type; // 0x28
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void AddAddress(::System::Net::IPAddress* a1)
@@ -56,5 +52,6 @@ namespace System::Net::NetworkInformation
 		{
 			return ((::System::Net::NetworkInformation::NetworkInterfaceType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_UNIXNETWORKINTERFACE_GET_NETWORKINTERFACETYPE_OFFSET))(this);
 		}
+
 	};
 }

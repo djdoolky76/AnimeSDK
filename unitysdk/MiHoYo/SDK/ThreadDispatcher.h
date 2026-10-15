@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class ThreadDispatcher; }
 namespace MiHoYo::SDK { class ThreadDispatcher_MainThreadDispatcher; }
 namespace System { class Action; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_THREADDISPATCHER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BABB0C0)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0x1BAD8340)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0x1BAD8290)
-#define MIHOYO_SDK_THREADDISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1BABB1D0)
-#define MIHOYO_SDK_THREADDISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD81C0)
+#define MIHOYO_SDK_THREADDISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE2B40)
+#define MIHOYO_SDK_THREADDISPATCHER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BFC5B90)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0x1BFE2CC0)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0x1BFE2C10)
+#define MIHOYO_SDK_THREADDISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1BFC5CA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThreadDispatcher_TypeDefinitionIndex = 7987;
-
 	class ThreadDispatcher : public ::System::Object
 	{
 	public:
+		::MiHoYo::SDK::ThreadDispatcher_MainThreadDispatcher* mainThreadDispatcher; // 0x10
 		static ::MiHoYo::SDK::ThreadDispatcher** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::ThreadDispatcher**)Il2CppClass::FromTypeDefinitionIndex(ThreadDispatcher_TypeDefinitionIndex)->GetStaticField(0x26A10);
+			return (::MiHoYo::SDK::ThreadDispatcher**)UnitySDK::FromName("MiHoYo.SDK", "ThreadDispatcher")->GetStaticField(0x1FF10);
 		}
-		::MiHoYo::SDK::ThreadDispatcher_MainThreadDispatcher* mainThreadDispatcher; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::ThreadDispatcher* get_Instance()
@@ -40,14 +38,15 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void RunAsync_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		::System::Void RunAsync_1(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_RUNASYNC_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void RunOnMainThread(::System::Action* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_THREADDISPATCHER_RUNONMAINTHREAD_OFFSET))(this, a1);
 		}
+
 	};
 }

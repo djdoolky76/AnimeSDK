@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74230)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74260)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74220)
-#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA741B0)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7ED10)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7EC90)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7ED40)
+#define MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7ED00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_ActivityManagerDestoryDelegate_TypeDefinitionIndex = 7707;
-
 	class PSDelegate_ActivityManagerDestoryDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_ACTIVITYMANAGERDESTORYDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

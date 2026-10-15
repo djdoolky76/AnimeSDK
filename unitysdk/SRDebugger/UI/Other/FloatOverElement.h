@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/DrivenRectTransformTracker.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
-
+#include "unitysdk/UnityEngine/DrivenRectTransformTracker.h"
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_COPY_OFFSET UNITYSDK_OFFSET(0x1E69B8A0)
-#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_SETLAYOUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1E69BF60)
-#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_SETLAYOUTVERTICAL_OFFSET UNITYSDK_OFFSET(0x1E69BF70)
-#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E69BF80)
+#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_COPY_OFFSET UNITYSDK_OFFSET(0x1ED63230)
+#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED638E0)
+#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_SETLAYOUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1ED638C0)
+#define SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_SETLAYOUTVERTICAL_OFFSET UNITYSDK_OFFSET(0x1ED638D0)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int FloatOverElement_TypeDefinitionIndex = 37312;
-
 	class FloatOverElement : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
 		::UnityEngine::RectTransform* CopyFrom; // 0x18
 		::UnityEngine::DrivenRectTransformTracker _tracker; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Copy()
@@ -39,5 +35,6 @@ namespace SRDebugger::UI::Other
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_OTHER_FLOATOVERELEMENT_SETLAYOUTVERTICAL_OFFSET))(this);
 		}
+
 	};
 }

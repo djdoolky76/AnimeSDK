@@ -3,8 +3,6 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int Settings_TriggerBehaviours_TypeDefinitionIndex = 37282;
-
 	enum class Settings_TriggerBehaviours : ::System::Int32
 	{
 		TripleTap = 0,

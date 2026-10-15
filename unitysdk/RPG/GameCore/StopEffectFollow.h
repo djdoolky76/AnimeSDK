@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StopEffectFollow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPEFFECTFOLLOW_METHOD_3_6A6D17DFD5365363_OFFSET UNITYSDK_OFFSET(0x1D56F5E0)
-#define RPG_GAMECORE_STOPEFFECTFOLLOW_METHOD_3_EA08D71A27E2FE32_OFFSET UNITYSDK_OFFSET(0x1D56F590)
-#define RPG_GAMECORE_STOPEFFECTFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D56F5D0)
+#define RPG_GAMECORE_STOPEFFECTFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24FC0)
+#define RPG_GAMECORE_STOPEFFECTFOLLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB24FD0)
+#define RPG_GAMECORE_STOPEFFECTFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB24F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopEffectFollow_TypeDefinitionIndex = 22124;
-
 	class StopEffectFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* EffectList; // 0x18
 		::System::String* UniqueEffectName; // 0x20
 		::System::Boolean IsStop; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EA08D71A27E2FE32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopEffectFollow*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StopEffectFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopEffectFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOW_METHOD_3_EA08D71A27E2FE32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StopEffectFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6A6D17DFD5365363(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopEffectFollow* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StopEffectFollow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopEffectFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOW_METHOD_3_6A6D17DFD5365363_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StopEffectFollow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOW_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

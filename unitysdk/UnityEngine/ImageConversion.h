@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/Texture2D_EXRFlags.h"
-
 namespace System { class Array; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_IMAGECONVERSION_ENCODEARRAYTOJPG_OFFSET UNITYSDK_OFFSET(0x1ED7A630)
-#define UNITYENGINE_IMAGECONVERSION_ENCODEARRAYTOPNG_OFFSET UNITYSDK_OFFSET(0x1ED7A620)
-#define UNITYENGINE_IMAGECONVERSION_ENCODEARRAYTOTGA_OFFSET UNITYSDK_OFFSET(0x1ED7A610)
-#define UNITYENGINE_IMAGECONVERSION_ENCODETOEXR_1_OFFSET UNITYSDK_OFFSET(0x1ED7A5E0)
-#define UNITYENGINE_IMAGECONVERSION_ENCODETOEXR_OFFSET UNITYSDK_OFFSET(0x1ED7A5D0)
-#define UNITYENGINE_IMAGECONVERSION_ENCODETOJPG_1_OFFSET UNITYSDK_OFFSET(0x1ED7A5C0)
-#define UNITYENGINE_IMAGECONVERSION_ENCODETOJPG_OFFSET UNITYSDK_OFFSET(0x1ED7A5B0)
-#define UNITYENGINE_IMAGECONVERSION_ENCODETOPNG_OFFSET UNITYSDK_OFFSET(0x1ED7A5A0)
-#define UNITYENGINE_IMAGECONVERSION_ENCODETOTGA_OFFSET UNITYSDK_OFFSET(0x1ED7A590)
-#define UNITYENGINE_IMAGECONVERSION_LOADIMAGE_1_OFFSET UNITYSDK_OFFSET(0x1ED7A600)
-#define UNITYENGINE_IMAGECONVERSION_LOADIMAGE_OFFSET UNITYSDK_OFFSET(0x1ED7A5F0)
-#define UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOJPG_OFFSET UNITYSDK_OFFSET(0x1ED7A660)
-#define UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOPNG_OFFSET UNITYSDK_OFFSET(0x1ED7A650)
-#define UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOTGA_OFFSET UNITYSDK_OFFSET(0x1ED7A640)
+#define UNITYENGINE_IMAGECONVERSION_ENCODEARRAYTOJPG_OFFSET UNITYSDK_OFFSET(0x1F4429E0)
+#define UNITYENGINE_IMAGECONVERSION_ENCODEARRAYTOPNG_OFFSET UNITYSDK_OFFSET(0x1F4429D0)
+#define UNITYENGINE_IMAGECONVERSION_ENCODEARRAYTOTGA_OFFSET UNITYSDK_OFFSET(0x1F4429C0)
+#define UNITYENGINE_IMAGECONVERSION_ENCODETOEXR_1_OFFSET UNITYSDK_OFFSET(0x1F442990)
+#define UNITYENGINE_IMAGECONVERSION_ENCODETOEXR_OFFSET UNITYSDK_OFFSET(0x1F442980)
+#define UNITYENGINE_IMAGECONVERSION_ENCODETOJPG_1_OFFSET UNITYSDK_OFFSET(0x1F442970)
+#define UNITYENGINE_IMAGECONVERSION_ENCODETOJPG_OFFSET UNITYSDK_OFFSET(0x1F442960)
+#define UNITYENGINE_IMAGECONVERSION_ENCODETOPNG_OFFSET UNITYSDK_OFFSET(0x1F442950)
+#define UNITYENGINE_IMAGECONVERSION_ENCODETOTGA_OFFSET UNITYSDK_OFFSET(0x1F442940)
+#define UNITYENGINE_IMAGECONVERSION_LOADIMAGE_1_OFFSET UNITYSDK_OFFSET(0x1F4429B0)
+#define UNITYENGINE_IMAGECONVERSION_LOADIMAGE_OFFSET UNITYSDK_OFFSET(0x1F4429A0)
+#define UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOJPG_OFFSET UNITYSDK_OFFSET(0x1F442A10)
+#define UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOPNG_OFFSET UNITYSDK_OFFSET(0x1F442A00)
+#define UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOTGA_OFFSET UNITYSDK_OFFSET(0x1F4429F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ImageConversion_TypeDefinitionIndex = 5198;
-
 	class ImageConversion : public ::System::Object
 	{
 	public:
@@ -85,19 +81,20 @@ namespace UnityEngine
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::Array*, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_IMAGECONVERSION_ENCODEARRAYTOJPG_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void* UnsafeEncodeNativeArrayToTGA(::System::Void* a1, ::System::Int32& a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6)
+		static ::PVOID UnsafeEncodeNativeArrayToTGA(::PVOID a1, ::System::Int32 a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6)
 		{
-			return ((::System::Void*(*)(::System::Void*, ::System::Int32&, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOTGA_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::PVOID(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOTGA_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void* UnsafeEncodeNativeArrayToPNG(::System::Void* a1, ::System::Int32& a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6)
+		static ::PVOID UnsafeEncodeNativeArrayToPNG(::PVOID a1, ::System::Int32 a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6)
 		{
-			return ((::System::Void*(*)(::System::Void*, ::System::Int32&, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOPNG_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::PVOID(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOPNG_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void* UnsafeEncodeNativeArrayToJPG(::System::Void* a1, ::System::Int32& a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6, ::System::Int32 a7)
+		static ::PVOID UnsafeEncodeNativeArrayToJPG(::PVOID a1, ::System::Int32 a2, ::UnityEngine::Experimental::Rendering::GraphicsFormat a3, ::System::UInt32 a4, ::System::UInt32 a5, ::System::UInt32 a6, ::System::Int32 a7)
 		{
-			return ((::System::Void*(*)(::System::Void*, ::System::Int32&, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOJPG_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::PVOID(*)(::PVOID, ::System::Int32, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_IMAGECONVERSION_UNSAFEENCODENATIVEARRAYTOJPG_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

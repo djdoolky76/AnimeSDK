@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetLocalWinFlag; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETLOCALWINFLAG_METHOD_3_1C5B1D6DE6B6E526_OFFSET UNITYSDK_OFFSET(0x1D5043E0)
-#define RPG_GAMECORE_SETLOCALWINFLAG_METHOD_3_A0E2B63F93AFBC23_OFFSET UNITYSDK_OFFSET(0x1D504310)
-#define RPG_GAMECORE_SETLOCALWINFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5043D0)
+#define RPG_GAMECORE_SETLOCALWINFLAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB8670)
+#define RPG_GAMECORE_SETLOCALWINFLAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB8680)
+#define RPG_GAMECORE_SETLOCALWINFLAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB85B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLocalWinFlag_TypeDefinitionIndex = 23141;
-
 	class SetLocalWinFlag : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALWINFLAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALWINFLAG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0E2B63F93AFBC23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLocalWinFlag*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetLocalWinFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLocalWinFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALWINFLAG_METHOD_3_A0E2B63F93AFBC23_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetLocalWinFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALWINFLAG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1C5B1D6DE6B6E526(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLocalWinFlag* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetLocalWinFlag* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLocalWinFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALWINFLAG_METHOD_3_1C5B1D6DE6B6E526_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetLocalWinFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOCALWINFLAG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

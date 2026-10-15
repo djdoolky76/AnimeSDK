@@ -3,28 +3,24 @@
 #include "unitysdk/Mono/Security/Interface/AlertDescription.h"
 #include "unitysdk/Mono/Security/Interface/AlertLevel.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MONO_SECURITY_INTERFACE_ALERT_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1BB270E0)
-#define MONO_SECURITY_INTERFACE_ALERT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1BB270D0)
-#define MONO_SECURITY_INTERFACE_ALERT_INFERALERTLEVEL_OFFSET UNITYSDK_OFFSET(0x1BB27130)
-#define MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BB27170)
-#define MONO_SECURITY_INTERFACE_ALERT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB270F0)
+#define MONO_SECURITY_INTERFACE_ALERT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0335D0)
+#define MONO_SECURITY_INTERFACE_ALERT_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C0335C0)
+#define MONO_SECURITY_INTERFACE_ALERT_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1C0335B0)
+#define MONO_SECURITY_INTERFACE_ALERT_INFERALERTLEVEL_OFFSET UNITYSDK_OFFSET(0x1C033610)
+#define MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C033650)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 2283;
-
 	class Alert : public ::System::Object
 	{
 	public:
 		::Mono::Security::Interface::AlertLevel level; // 0x10
 		::Mono::Security::Interface::AlertDescription description; // 0x11
-
 		::System::Void _ctor(::Mono::Security::Interface::AlertDescription a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_ALERT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::AlertDescription))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_ALERT_CTOR_OFFSET))(this, a1);
 		}
 
 		::Mono::Security::Interface::AlertLevel get_Level()
@@ -46,5 +42,6 @@ namespace Mono::Security::Interface
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_ALERT_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

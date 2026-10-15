@@ -4,24 +4,21 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDCEFC0)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_9AB55F553C4AC6E8_OFFSET UNITYSDK_OFFSET(0xCDCF0E0)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_F7300E87EC49A206_OFFSET UNITYSDK_OFFSET(0xCDCF690)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDCEF30)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDCEEA0)
-#define RPG_CLIENT_EFFECT_CHIPSCOLUMN__CTOR_OFFSET UNITYSDK_OFFSET(0xCDCFEE0)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD20680)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_FBCOJDHLMGF_OFFSET UNITYSDK_OFFSET(0xCD1F880)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_GEDCMEMFCJO_OFFSET UNITYSDK_OFFSET(0xCD1FE30)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_LATETICK_OFFSET UNITYSDK_OFFSET(0xCD1F760)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD1F6D0)
+#define RPG_CLIENT_EFFECT_CHIPSCOLUMN_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD1F640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ChipsColumn_TypeDefinitionIndex = 70398;
-
 	class Effect_ChipsColumn : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -51,10 +48,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* DOGLKMIPCOK; // 0xB8
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _ChipColorList; // 0xC0
 		::UnityEngine::MaterialPropertyBlock* BMCPFHADPKJ; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CHIPSCOLUMN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CHIPSCOLUMN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -72,14 +68,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CHIPSCOLUMN_LATETICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_F7300E87EC49A206()
+		::System::Void GEDCMEMFCJO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_F7300E87EC49A206_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CHIPSCOLUMN_GEDCMEMFCJO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_9AB55F553C4AC6E8()
+		::System::Void FBCOJDHLMGF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CHIPSCOLUMN_METHOD_5_9AB55F553C4AC6E8_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CHIPSCOLUMN_FBCOJDHLMGF_OFFSET))(this);
 		}
+
 	};
 }

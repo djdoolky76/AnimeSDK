@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E84B3B0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E84B3E0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E84B3A0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E84B330)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF14050)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF13FD0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF14080)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF14040)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReadCallback_TypeDefinitionIndex = 2026;
-
 	class XmlSerializationReadCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* Invoke()
@@ -37,5 +34,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

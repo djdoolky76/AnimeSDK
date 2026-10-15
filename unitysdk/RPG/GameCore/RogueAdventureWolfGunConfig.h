@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueAdventureConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueAdventureWolfGunConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_METHOD_3_219C9848C2FA3E65_OFFSET UNITYSDK_OFFSET(0x1D3BDC70)
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_METHOD_3_C754234C2E2689E9_OFFSET UNITYSDK_OFFSET(0x1D3BD450)
-#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BD440)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A3BD0)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9A3BE0)
+#define RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9A4400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureWolfGunConfig_TypeDefinitionIndex = 17690;
-
 	class RogueAdventureWolfGunConfig : public ::RPG::GameCore::RogueAdventureConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_219C9848C2FA3E65(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureWolfGunConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureWolfGunConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureWolfGunConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_METHOD_3_219C9848C2FA3E65_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureWolfGunConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C754234C2E2689E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdventureWolfGunConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdventureWolfGunConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdventureWolfGunConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_METHOD_3_C754234C2E2689E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdventureWolfGunConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREWOLFGUNCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

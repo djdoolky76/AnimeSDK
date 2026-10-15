@@ -1,42 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class HoYoSDKNetworkInterface; }
 namespace MiHoYo::SDK { class HoYoSDKNetworkInterface_CustomHttpRequestHandler; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CHECKHTTPDNSPLUSENABLE_OFFSET UNITYSDK_OFFSET(0xB200390)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_DICTIONARY2JSON_OFFSET UNITYSDK_OFFSET(0xB2007A0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB1FFFE0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_OFFSET UNITYSDK_OFFSET(0xB200130)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYHTTPDNSPLUS_OFFSET UNITYSDK_OFFSET(0xB200430)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYTHTTPDNS_OFFSET UNITYSDK_OFFSET(0xB2000C0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_INITENV_OFFSET UNITYSDK_OFFSET(0xB200030)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_ISHTTPDNSPLUSCONFIGVALID_OFFSET UNITYSDK_OFFSET(0xB2002C0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB200020)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1FFFD0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CHECKHTTPDNSPLUSENABLE_OFFSET UNITYSDK_OFFSET(0xAFA7A20)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA7660)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_DICTIONARY2JSON_OFFSET UNITYSDK_OFFSET(0xAFA7E30)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFA7670)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_OFFSET UNITYSDK_OFFSET(0xAFA77C0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYHTTPDNSPLUS_OFFSET UNITYSDK_OFFSET(0xAFA7AC0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYTHTTPDNS_OFFSET UNITYSDK_OFFSET(0xAFA7750)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_INITENV_OFFSET UNITYSDK_OFFSET(0xAFA76C0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_ISHTTPDNSPLUSCONFIGVALID_OFFSET UNITYSDK_OFFSET(0xAFA7950)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFA76B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface_TypeDefinitionIndex = 46557;
-
 	class HoYoSDKNetworkInterface : public ::System::Object
 	{
 	public:
+		::System::Boolean m_bIsInit; // 0x10
 		static ::MiHoYo::SDK::HoYoSDKNetworkInterface** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::HoYoSDKNetworkInterface**)Il2CppClass::FromTypeDefinitionIndex(HoYoSDKNetworkInterface_TypeDefinitionIndex)->GetStaticField(0x48460);
+			return (::MiHoYo::SDK::HoYoSDKNetworkInterface**)UnitySDK::FromName("MiHoYo.SDK", "HoYoSDKNetworkInterface")->GetStaticField(0x22B40);
 		}
-		// static const ::System::Int32 TIMEOUT_ERROR_CODE = 0x1C; // 0x0
-		// static const ::System::String* INTERNAL_ENV; // 0x0
-		::System::Boolean m_bIsInit; // 0x10
 
+		// static const ::System::Object TIMEOUT_ERROR_CODE; // 0x0
+		// static const ::System::String* INTERNAL_ENV; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::HoYoSDKNetworkInterface* get_Instance()
@@ -54,9 +51,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_INITENV_OFFSET))(this);
 		}
 
-		::System::Void HttpRequestBytHttpDns(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Action_1<::System::String*>* a5, ::System::Action* a6, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a7, ::System::Boolean a8, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a9, ::System::Int32 a10, ::System::Int32 a11)
+		::System::Void HttpRequestBytHttpDns(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Action* a5, ::System::Action* a6, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a7, ::System::Boolean a8, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a9, ::System::Int32 a10, ::System::Int32 a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYTHTTPDNS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Action*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYTHTTPDNS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
 		::System::Boolean IsHttpDnsPlusConfigValid()
@@ -69,19 +66,20 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CHECKHTTPDNSPLUSENABLE_OFFSET))(this);
 		}
 
-		::System::Void HttpRequestByHttpDnsPlus(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Action_1<::System::String*>* a5, ::System::Action* a6, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a7, ::System::Boolean a8, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a9, ::System::Int32 a10, ::System::Int32 a11)
+		::System::Void HttpRequestByHttpDnsPlus(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Action* a5, ::System::Action* a6, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a7, ::System::Boolean a8, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a9, ::System::Int32 a10, ::System::Int32 a11)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYHTTPDNSPLUS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Action*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPREQUESTBYHTTPDNSPLUS_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11);
 		}
 
-		::System::Void HttpDnsHttpRequestWithCustomHandler(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Action_1<::System::String*>* a5, ::System::Action* a6, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a7, ::System::Boolean a8, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a9, ::System::Int32 a10, ::System::Int32 a11, ::System::String* a12, ::MiHoYo::SDK::HoYoSDKNetworkInterface_CustomHttpRequestHandler* a13, ::System::Boolean a14)
+		::System::Void HttpDnsHttpRequestWithCustomHandler(::System::String* a1, ::System::String* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Action* a5, ::System::Action* a6, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a7, ::System::Boolean a8, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a9, ::System::Int32 a10, ::System::Int32 a11, ::System::String* a12, ::MiHoYo::SDK::HoYoSDKNetworkInterface_CustomHttpRequestHandler* a13, ::System::Boolean a14)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32, ::System::String*, ::MiHoYo::SDK::HoYoSDKNetworkInterface_CustomHttpRequestHandler*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Action*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Boolean, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::Int32, ::System::Int32, ::System::String*, ::MiHoYo::SDK::HoYoSDKNetworkInterface_CustomHttpRequestHandler*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14);
 		}
 
 		::System::String* Dictionary2Json(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a1)
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_DICTIONARY2JSON_OFFSET))(this, a1);
 		}
+
 	};
 }

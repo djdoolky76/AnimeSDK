@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierExecActionAfterPersonaRoomCardSelectConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_METHOD_3_14483A343124BAEA_OFFSET UNITYSDK_OFFSET(0x1D3F75A0)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_METHOD_3_2100775FC6C41546_OFFSET UNITYSDK_OFFSET(0x1D3F75F0)
-#define RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F75E0)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA15420)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA15430)
+#define RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA153E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierExecActionAfterPersonaRoomCardSelectConfig_TypeDefinitionIndex = 17623;
-
 	class RogueModifierExecActionAfterPersonaRoomCardSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_14483A343124BAEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_METHOD_3_14483A343124BAEA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2100775FC6C41546(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_METHOD_3_2100775FC6C41546_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierExecActionAfterPersonaRoomCardSelectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIEREXECACTIONAFTERPERSONAROOMCARDSELECTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD1EB8F0)
-#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS26_0__GETROLESBYTRAIT_B__0_OFFSET UNITYSDK_OFFSET(0xD1EC7D0)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD18C250)
+#define RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS26_0__GETROLESBYTRAIT_B__0_OFFSET UNITYSDK_OFFSET(0xD18D1F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameTrait___c__DisplayClass26_0_TypeDefinitionIndex = 65476;
-
 	class GridFightGameTrait___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightRole* role; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS26_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS26_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetRolesByTrait_b__0(::RPG::Client::GridFightRole* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMETRAIT___C__DISPLAYCLASS26_0__GETROLESBYTRAIT_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

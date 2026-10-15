@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_GENERALAUDIOITEM_GET_PLAYINGEVENTID_OFFSET UNITYSDK_OFFSET(0xD116770)
-#define RPG_CLIENT_GENERALAUDIOITEM_SET_PLAYINGEVENTID_OFFSET UNITYSDK_OFFSET(0xD116780)
-#define RPG_CLIENT_GENERALAUDIOITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD116790)
+#define RPG_CLIENT_GENERALAUDIOITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD0B6B60)
+#define RPG_CLIENT_GENERALAUDIOITEM_GET_PLAYINGEVENTID_OFFSET UNITYSDK_OFFSET(0xD0B6B40)
+#define RPG_CLIENT_GENERALAUDIOITEM_SET_PLAYINGEVENTID_OFFSET UNITYSDK_OFFSET(0xD0B6B50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GeneralAudioItem_TypeDefinitionIndex = 68396;
-
 	class GeneralAudioItem : public ::System::Object
 	{
 	public:
 		::System::String* EventName; // 0x10
 		::System::Single DelayTime; // 0x18
 		::System::Boolean UseDefaultPlayer; // 0x1C
+		::System::Byte _padding0[0x3];
 		::System::Single TriggerCD; // 0x20
 		::System::UInt32 _PlayingEventID_k__BackingField; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GENERALAUDIOITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GENERALAUDIOITEM_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_PlayingEventID()
@@ -35,5 +32,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GENERALAUDIOITEM_SET_PLAYINGEVENTID_OFFSET))(this, a1);
 		}
+
 	};
 }

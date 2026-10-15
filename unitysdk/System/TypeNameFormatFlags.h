@@ -3,8 +3,6 @@
 
 namespace System
 {
-	inline static constexpr unsigned int TypeNameFormatFlags_TypeDefinitionIndex = 319;
-
 	enum class TypeNameFormatFlags : ::System::Int32
 	{
 		FormatBasic = 0,

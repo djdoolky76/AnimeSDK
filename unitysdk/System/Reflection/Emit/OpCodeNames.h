@@ -1,26 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_EMIT_OPCODENAMES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD92D70)
+#define SYSTEM_REFLECTION_EMIT_OPCODENAMES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C29EA00)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int OpCodeNames_TypeDefinitionIndex = 653;
-
 	class OpCodeNames : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_names()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpCodeNames_TypeDefinitionIndex)->GetStaticField(0xF880);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Reflection.Emit", "OpCodeNames")->GetStaticField(0x13E90);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODENAMES__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_OPCODENAMES_CCTOR_OFFSET))();
 		}
+
 	};
 }

@@ -2,31 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PlaneType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureCommonEffectsPreloadConfig; }
 namespace RPG::GameCore { class PreloadItem; }
 
-#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_METHOD_2_60FAAF47FC7E6D09_OFFSET UNITYSDK_OFFSET(0x1CDF1790)
-#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF18B0)
+#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C7850)
+#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C7730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCommonEffectsPreloadConfig_TypeDefinitionIndex = 16195;
-
 	class AdventureCommonEffectsPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::PlaneType PlaneType; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::PreloadItem*>* EffectPaths; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_60FAAF47FC7E6D09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCommonEffectsPreloadConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureCommonEffectsPreloadConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCommonEffectsPreloadConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_METHOD_2_60FAAF47FC7E6D09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureCommonEffectsPreloadConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

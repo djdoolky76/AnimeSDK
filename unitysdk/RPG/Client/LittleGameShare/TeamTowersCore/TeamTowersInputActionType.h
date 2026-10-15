@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int TeamTowersInputActionType_TypeDefinitionIndex = 36424;
-
 	enum class TeamTowersInputActionType : ::System::Int32
 	{
 		None = 0,

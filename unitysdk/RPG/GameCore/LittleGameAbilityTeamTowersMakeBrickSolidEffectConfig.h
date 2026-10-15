@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityEffectConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_METHOD_3_C8C99F80A16FC049_OFFSET UNITYSDK_OFFSET(0x1D1FD890)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_METHOD_3_E977936DB6BA78F4_OFFSET UNITYSDK_OFFSET(0x1D1FD930)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FD920)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DBF20)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DBF30)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DBE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig_TypeDefinitionIndex = 21169;
-
 	class LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C8C99F80A16FC049(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_METHOD_3_C8C99F80A16FC049_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E977936DB6BA78F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_METHOD_3_E977936DB6BA78F4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTeamTowersMakeBrickSolidEffectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTEAMTOWERSMAKEBRICKSOLIDEFFECTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

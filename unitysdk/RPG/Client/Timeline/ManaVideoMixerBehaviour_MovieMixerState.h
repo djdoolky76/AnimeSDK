@@ -3,8 +3,6 @@
 
 namespace RPG::Client::Timeline
 {
-	inline static constexpr unsigned int ManaVideoMixerBehaviour_MovieMixerState_TypeDefinitionIndex = 73254;
-
 	enum class ManaVideoMixerBehaviour_MovieMixerState : ::System::Int32
 	{
 		Preloading = 0,

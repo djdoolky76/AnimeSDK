@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurvePoint_ControlTypeEnum.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QteCatchGhostRewindInstance_CurvePoint_TypeDefinitionIndex = 60386;
-
 	struct alignas(4) QteCatchGhostRewindInstance_CurvePoint
 	{
 		::UnityEngine::Vector3 Position; // 0x10

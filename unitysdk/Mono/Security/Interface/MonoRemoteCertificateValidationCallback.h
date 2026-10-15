@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Interface/MonoSslPolicyErrors.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
@@ -10,21 +9,19 @@ namespace System { class String; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB274C0)
-#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB27560)
-#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB27490)
-#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB27410)
+#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C0339A0)
+#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0338F0)
+#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C033A40)
+#define MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C033970)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int MonoRemoteCertificateValidationCallback_TypeDefinitionIndex = 2292;
-
 	class MonoRemoteCertificateValidationCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::String* a1, ::System::Security::Cryptography::X509Certificates::X509Certificate* a2, ::System::Security::Cryptography::X509Certificates::X509Chain* a3, ::Mono::Security::Interface::MonoSslPolicyErrors a4)
@@ -41,5 +38,6 @@ namespace Mono::Security::Interface
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_MONOREMOTECERTIFICATEVALIDATIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

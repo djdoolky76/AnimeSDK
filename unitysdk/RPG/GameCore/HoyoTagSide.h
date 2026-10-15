@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoyoTagSide_TypeDefinitionIndex = 18100;
-
 	enum class HoyoTagSide : ::System::Int32
 	{
 		EditorOnly = 1,

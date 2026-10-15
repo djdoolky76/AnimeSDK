@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapper_RTCHit_TypeDefinitionIndex = 47481;
-
 	struct alignas(4) EmbreeWrapper_RTCHit
 	{
 		::System::Single Ng_x; // 0x10

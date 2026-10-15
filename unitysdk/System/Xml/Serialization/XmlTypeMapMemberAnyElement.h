@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Serialization/XmlTypeMapMemberExpandable.h"
-
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT_GET_ISDEFAULTANY_OFFSET UNITYSDK_OFFSET(0x1E8726C0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT_ISELEMENTDEFINED_OFFSET UNITYSDK_OFFSET(0x1E86F0B0)
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E847B40)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF107E0)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT_GET_ISDEFAULTANY_OFFSET UNITYSDK_OFFSET(0x1EF3B350)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT_ISELEMENTDEFINED_OFFSET UNITYSDK_OFFSET(0x1EF37D40)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlTypeMapMemberAnyElement_TypeDefinitionIndex = 2053;
-
 	class XmlTypeMapMemberAnyElement : public ::System::Xml::Serialization::XmlTypeMapMemberExpandable
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsElementDefined(::System::String* a1, ::System::String* a2)
@@ -29,5 +26,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERANYELEMENT_GET_ISDEFAULTANY_OFFSET))(this);
 		}
+
 	};
 }

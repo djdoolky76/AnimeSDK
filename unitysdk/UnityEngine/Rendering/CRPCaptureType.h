@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPCaptureType_TypeDefinitionIndex = 36839;
-
 	enum class CRPCaptureType : ::System::Int32
 	{
 		kCaptureRT = 0,

@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD87C4A0)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD87C570)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_RECOVERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD87C450)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0xD87C310)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xD87C5C0)
-#define RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0xD87C3A0)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD87CD30)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xD87CE50)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD87CE00)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_RECOVERMATERIAL_OFFSET UNITYSDK_OFFSET(0xD87CCE0)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER_SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0xD87CBA0)
+#define RPG_CLIENT_MONOUIMATERIALSWITCHER__SWITCHMATERIAL_OFFSET UNITYSDK_OFFSET(0xD87CC30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIMaterialSwitcher_TypeDefinitionIndex = 68943;
-
 	class MonoUIMaterialSwitcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Material*>* _Materials; // 0x18
 		::UnityEngine::MeshRenderer* _TargetMeshRenderer; // 0x20
 		::System::UInt32 _CurMaterialIndex; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Material* _DefaultMaterial; // 0x30
 		::UnityEngine::Material* _CurMaterial; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SwitchMaterial(::System::UInt32 a1)
@@ -54,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUIMATERIALSWITCHER_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

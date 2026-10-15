@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropTriggerAnimState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_169730B9226315A1_OFFSET UNITYSDK_OFFSET(0x1D375330)
-#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_807CBFA586E46729_OFFSET UNITYSDK_OFFSET(0x1D3752B0)
-#define RPG_GAMECORE_PROPTRIGGERANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D375300)
+#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95B480)
+#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95B4B0)
+#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95B430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTriggerAnimState_TypeDefinitionIndex = 20164;
-
 	class PropTriggerAnimState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,21 +20,22 @@ namespace RPG::GameCore
 		::System::Single TransitionDuration; // 0x24
 		::System::Boolean FixedTransitionDuration; // 0x28
 		::System::Boolean WatiAnimFinish; // 0x29
+		::System::Byte _padding0[0x6];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_807CBFA586E46729(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTriggerAnimState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropTriggerAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTriggerAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_807CBFA586E46729_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropTriggerAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_169730B9226315A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTriggerAnimState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropTriggerAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTriggerAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_169730B9226315A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropTriggerAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

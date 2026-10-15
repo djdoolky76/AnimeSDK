@@ -3,8 +3,6 @@
 
 namespace System::Runtime::ConstrainedExecution
 {
-	inline static constexpr unsigned int Consistency_TypeDefinitionIndex = 1342;
-
 	enum class Consistency : ::System::Int32
 	{
 		MayCorruptProcess = 0,

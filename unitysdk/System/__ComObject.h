@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM___COMOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC858B0)
+#define SYSTEM___COMOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1917E0)
 
 namespace System
 {
-	inline static constexpr unsigned int __ComObject_TypeDefinitionIndex = 463;
-
 	class __ComObject : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM___COMOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM___COMOBJECT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace MiHoYo::SDK { class Alert_OnAlertDelegate; }
+
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2E8D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_2__PAY_B__7_OFFSET UNITYSDK_OFFSET(0x1BF2E8E0)
+
+namespace MiHoYo::SDK::PC::OS
+{
+	template <typename T1, typename T2>
+	class HoYoChannelGooglePlay___c__DisplayClass12_2 : public ::System::Object
+	{
+	public:
+		::MiHoYo::SDK::Alert_OnAlertDelegate* exitCallback; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_2_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _Pay_b__7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_2__PAY_B__7_OFFSET))(this);
+		}
+
+	};
+}

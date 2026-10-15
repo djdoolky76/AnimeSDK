@@ -3,13 +3,13 @@
 #include "unitysdk/System/Net/WebConnection_NtlmAuthState.h"
 #include "unitysdk/System/Net/WebExceptionStatus.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Net::Security { class MonoTlsStream; }
 namespace System { class AsyncCallback; }
 namespace System { class EventArgs; }
 namespace System { class EventHandler; }
 namespace System { class Exception; }
 namespace System { class IAsyncResult; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Collections { class Queue; }
@@ -24,78 +24,76 @@ namespace System::Net { class WebConnection_AbortHelper; }
 namespace System::Net { class WebHeaderCollection; }
 namespace System::Net::Sockets { class Socket; }
 
-#define SYSTEM_NET_WEBCONNECTION_ABORT_OFFSET UNITYSDK_OFFSET(0x1E9CF060)
-#define SYSTEM_NET_WEBCONNECTION_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1E9CD0B0)
-#define SYSTEM_NET_WEBCONNECTION_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1E9CDF10)
-#define SYSTEM_NET_WEBCONNECTION_CANREUSE_OFFSET UNITYSDK_OFFSET(0x1E9C6BE0)
-#define SYSTEM_NET_WEBCONNECTION_CLOSE_OFFSET UNITYSDK_OFFSET(0x1E9C9DE0)
-#define SYSTEM_NET_WEBCONNECTION_COMPLETECHUNKEDREAD_OFFSET UNITYSDK_OFFSET(0x1E9C7220)
-#define SYSTEM_NET_WEBCONNECTION_CONNECT_OFFSET UNITYSDK_OFFSET(0x1E9C6C10)
-#define SYSTEM_NET_WEBCONNECTION_CREATESTREAM_OFFSET UNITYSDK_OFFSET(0x1E9C9A80)
-#define SYSTEM_NET_WEBCONNECTION_CREATETUNNEL_OFFSET UNITYSDK_OFFSET(0x1E9C7380)
-#define SYSTEM_NET_WEBCONNECTION_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1E9CD530)
-#define SYSTEM_NET_WEBCONNECTION_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1E9CE3E0)
-#define SYSTEM_NET_WEBCONNECTION_ENSUREREAD_OFFSET UNITYSDK_OFFSET(0x1E9CDD70)
-#define SYSTEM_NET_WEBCONNECTION_EXPECTCONTENT_OFFSET UNITYSDK_OFFSET(0x1E9CBC10)
-#define SYSTEM_NET_WEBCONNECTION_FLUSHCONTENTS_OFFSET UNITYSDK_OFFSET(0x1E9C9370)
-#define SYSTEM_NET_WEBCONNECTION_GETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1E9CA950)
-#define SYSTEM_NET_WEBCONNECTION_GET_NTLMAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1E9CF8A0)
-#define SYSTEM_NET_WEBCONNECTION_GET_NTLMCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1E9CF8C0)
-#define SYSTEM_NET_WEBCONNECTION_GET_UNSAFEAUTHENTICATEDCONNECTIONSHARING_OFFSET UNITYSDK_OFFSET(0x1E9CF8E0)
-#define SYSTEM_NET_WEBCONNECTION_HANDLEERROR_OFFSET UNITYSDK_OFFSET(0x1E9C9120)
-#define SYSTEM_NET_WEBCONNECTION_INITCONNECTION_OFFSET UNITYSDK_OFFSET(0x1E9CC130)
-#define SYSTEM_NET_WEBCONNECTION_INITREAD_OFFSET UNITYSDK_OFFSET(0x1E9CB6C0)
-#define SYSTEM_NET_WEBCONNECTION_NEXTREAD_OFFSET UNITYSDK_OFFSET(0x1E9CCA40)
-#define SYSTEM_NET_WEBCONNECTION_READDONE_OFFSET UNITYSDK_OFFSET(0x1E9CA290)
-#define SYSTEM_NET_WEBCONNECTION_READHEADERS_OFFSET UNITYSDK_OFFSET(0x1E9C82C0)
-#define SYSTEM_NET_WEBCONNECTION_READLINE_OFFSET UNITYSDK_OFFSET(0x1E9C9760)
-#define SYSTEM_NET_WEBCONNECTION_READ_OFFSET UNITYSDK_OFFSET(0x1E9CE770)
-#define SYSTEM_NET_WEBCONNECTION_RESETNTLM_OFFSET UNITYSDK_OFFSET(0x1E9CF040)
-#define SYSTEM_NET_WEBCONNECTION_SENDNEXT_OFFSET UNITYSDK_OFFSET(0x1E9CC820)
-#define SYSTEM_NET_WEBCONNECTION_SENDREQUEST_OFFSET UNITYSDK_OFFSET(0x1E9AFF40)
-#define SYSTEM_NET_WEBCONNECTION_SET_NTLMAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1E9CF8B0)
-#define SYSTEM_NET_WEBCONNECTION_SET_NTLMCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1E9CF8D0)
-#define SYSTEM_NET_WEBCONNECTION_SET_PRIORITYREQUEST_OFFSET UNITYSDK_OFFSET(0x1E9CF890)
-#define SYSTEM_NET_WEBCONNECTION_SET_UNSAFEAUTHENTICATEDCONNECTIONSHARING_OFFSET UNITYSDK_OFFSET(0x1E9CF8F0)
-#define SYSTEM_NET_WEBCONNECTION_WRITE_OFFSET UNITYSDK_OFFSET(0x1E9CECC0)
-#define SYSTEM_NET_WEBCONNECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C6AE0)
-#define SYSTEM_NET_WEBCONNECTION__SENDREQUEST_B__41_0_OFFSET UNITYSDK_OFFSET(0x1E9CF900)
+#define SYSTEM_NET_WEBCONNECTION_ABORT_OFFSET UNITYSDK_OFFSET(0x1F096C40)
+#define SYSTEM_NET_WEBCONNECTION_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1F094D00)
+#define SYSTEM_NET_WEBCONNECTION_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1F095B40)
+#define SYSTEM_NET_WEBCONNECTION_CANREUSE_OFFSET UNITYSDK_OFFSET(0x1F08E8F0)
+#define SYSTEM_NET_WEBCONNECTION_CLOSE_OFFSET UNITYSDK_OFFSET(0x1F091A50)
+#define SYSTEM_NET_WEBCONNECTION_COMPLETECHUNKEDREAD_OFFSET UNITYSDK_OFFSET(0x1F08EEC0)
+#define SYSTEM_NET_WEBCONNECTION_CONNECT_OFFSET UNITYSDK_OFFSET(0x1F08E920)
+#define SYSTEM_NET_WEBCONNECTION_CREATESTREAM_OFFSET UNITYSDK_OFFSET(0x1F091720)
+#define SYSTEM_NET_WEBCONNECTION_CREATETUNNEL_OFFSET UNITYSDK_OFFSET(0x1F08F020)
+#define SYSTEM_NET_WEBCONNECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08E7F0)
+#define SYSTEM_NET_WEBCONNECTION_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1F095180)
+#define SYSTEM_NET_WEBCONNECTION_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1F095FD0)
+#define SYSTEM_NET_WEBCONNECTION_ENSUREREAD_OFFSET UNITYSDK_OFFSET(0x1F0959B0)
+#define SYSTEM_NET_WEBCONNECTION_EXPECTCONTENT_OFFSET UNITYSDK_OFFSET(0x1F093870)
+#define SYSTEM_NET_WEBCONNECTION_FLUSHCONTENTS_OFFSET UNITYSDK_OFFSET(0x1F091010)
+#define SYSTEM_NET_WEBCONNECTION_GETRESPONSE_OFFSET UNITYSDK_OFFSET(0x1F0925B0)
+#define SYSTEM_NET_WEBCONNECTION_GET_NTLMAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1F097480)
+#define SYSTEM_NET_WEBCONNECTION_GET_NTLMCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1F0974A0)
+#define SYSTEM_NET_WEBCONNECTION_GET_UNSAFEAUTHENTICATEDCONNECTIONSHARING_OFFSET UNITYSDK_OFFSET(0x1F0974C0)
+#define SYSTEM_NET_WEBCONNECTION_HANDLEERROR_OFFSET UNITYSDK_OFFSET(0x1F090DC0)
+#define SYSTEM_NET_WEBCONNECTION_INITCONNECTION_OFFSET UNITYSDK_OFFSET(0x1F093D90)
+#define SYSTEM_NET_WEBCONNECTION_INITREAD_OFFSET UNITYSDK_OFFSET(0x1F093320)
+#define SYSTEM_NET_WEBCONNECTION_NEXTREAD_OFFSET UNITYSDK_OFFSET(0x1F094690)
+#define SYSTEM_NET_WEBCONNECTION_READDONE_OFFSET UNITYSDK_OFFSET(0x1F091F00)
+#define SYSTEM_NET_WEBCONNECTION_READHEADERS_OFFSET UNITYSDK_OFFSET(0x1F08FF60)
+#define SYSTEM_NET_WEBCONNECTION_READLINE_OFFSET UNITYSDK_OFFSET(0x1F091400)
+#define SYSTEM_NET_WEBCONNECTION_READ_OFFSET UNITYSDK_OFFSET(0x1F096360)
+#define SYSTEM_NET_WEBCONNECTION_RESETNTLM_OFFSET UNITYSDK_OFFSET(0x1F096C20)
+#define SYSTEM_NET_WEBCONNECTION_SENDNEXT_OFFSET UNITYSDK_OFFSET(0x1F094470)
+#define SYSTEM_NET_WEBCONNECTION_SENDREQUEST_OFFSET UNITYSDK_OFFSET(0x1F078760)
+#define SYSTEM_NET_WEBCONNECTION_SET_NTLMAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1F097490)
+#define SYSTEM_NET_WEBCONNECTION_SET_NTLMCREDENTIAL_OFFSET UNITYSDK_OFFSET(0x1F0974B0)
+#define SYSTEM_NET_WEBCONNECTION_SET_PRIORITYREQUEST_OFFSET UNITYSDK_OFFSET(0x1F097470)
+#define SYSTEM_NET_WEBCONNECTION_SET_UNSAFEAUTHENTICATEDCONNECTIONSHARING_OFFSET UNITYSDK_OFFSET(0x1F0974D0)
+#define SYSTEM_NET_WEBCONNECTION_WRITE_OFFSET UNITYSDK_OFFSET(0x1F0968A0)
+#define SYSTEM_NET_WEBCONNECTION__SENDREQUEST_B__41_0_OFFSET UNITYSDK_OFFSET(0x1F0974E0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebConnection_TypeDefinitionIndex = 2882;
-
 	class WebConnection : public ::System::Object
 	{
 	public:
-		::System::EventHandler* abortHandler; // 0x10
-		::System::Net::Sockets::Socket* socket; // 0x18
-		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x20
-		::System::Net::IWebConnectionState* state; // 0x28
-		::System::Net::NetworkCredential* ntlm_credentials; // 0x30
-		::Il2CppArray<::System::Byte>* buffer; // 0x38
-		::System::Collections::Queue* queue; // 0x40
-		::System::Object* socketLock; // 0x48
-		::System::IO::Stream* nstream; // 0x50
-		::System::Net::HttpWebRequest* connect_request; // 0x58
-		::System::Net::WebConnectionData* Data; // 0x60
-		::System::Net::HttpWebRequest* priority_request; // 0x68
-		::System::Net::ServicePoint* sPoint; // 0x70
-		::System::Net::WebConnection_AbortHelper* abortHelper; // 0x78
-		::System::Exception* connect_exception; // 0x80
-		::System::Net::MonoChunkStream* chunkStream; // 0x88
-		::System::Net::WebExceptionStatus status; // 0x90
-		::System::Net::WebConnection_NtlmAuthState connect_ntlm_auth_state; // 0x94
-		::System::Boolean keepAlive; // 0x98
-		::System::Boolean chunkedRead; // 0x99
-		::System::Boolean ntlm_authenticated; // 0x9A
+		::System::IO::Stream* nstream; // 0x10
+		::System::Net::HttpWebRequest* connect_request; // 0x18
+		::System::Net::ServicePoint* sPoint; // 0x20
+		::Il2CppArray<::System::Byte>* buffer; // 0x28
+		::System::Collections::Queue* queue; // 0x30
+		::System::Net::WebConnection_AbortHelper* abortHelper; // 0x38
+		::System::Exception* connect_exception; // 0x40
+		::System::Net::IWebConnectionState* state; // 0x48
+		::System::EventHandler* abortHandler; // 0x50
+		::System::Net::MonoChunkStream* chunkStream; // 0x58
+		::System::Net::Sockets::Socket* socket; // 0x60
+		::System::Net::WebConnectionData* Data; // 0x68
+		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x70
+		::System::Net::HttpWebRequest* priority_request; // 0x78
+		::System::Net::NetworkCredential* ntlm_credentials; // 0x80
+		::System::Object* socketLock; // 0x88
+		::System::Boolean chunkedRead; // 0x90
+		::System::Boolean unsafe_sharing; // 0x91
+		::System::Boolean keepAlive; // 0x92
+		::System::Boolean ntlm_authenticated; // 0x93
+		::System::Boolean reused; // 0x94
+		::System::Byte _padding0[0x3];
+		::System::Net::WebExceptionStatus status; // 0x98
 		::System::Int32 position; // 0x9C
-		::System::Boolean reused; // 0xA0
-		::System::Boolean unsafe_sharing; // 0xA1
-
+		::System::Net::WebConnection_NtlmAuthState connect_ntlm_auth_state; // 0xA0
 		::System::Void _ctor(::System::Net::IWebConnectionState* a1, ::System::Net::ServicePoint* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::IWebConnectionState*, ::System::Net::ServicePoint*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Net::IWebConnectionState*, ::System::Net::ServicePoint*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean CanReuse()
@@ -108,14 +106,14 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID, ::System::Net::HttpWebRequest*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_CONNECT_OFFSET))(this, a1);
 		}
 
-		::System::Boolean CreateTunnel(::System::Net::HttpWebRequest* a1, ::System::Uri* a2, ::System::IO::Stream* a3, ::Il2CppArray<::System::Byte>*& a4)
+		::System::Boolean CreateTunnel(::System::Net::HttpWebRequest* a1, ::System::Uri* a2, ::System::IO::Stream* a3, ::System::Object* a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Uri*, ::System::IO::Stream*, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_CREATETUNNEL_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::Net::HttpWebRequest*, ::System::Uri*, ::System::IO::Stream*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_CREATETUNNEL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Net::WebHeaderCollection* ReadHeaders(::System::IO::Stream* a1, ::Il2CppArray<::System::Byte>*& a2, ::System::Int32& a3)
+		::System::Net::WebHeaderCollection* ReadHeaders(::System::IO::Stream* a1, ::System::Object* a2, ::System::Int32 a3)
 		{
-			return ((::System::Net::WebHeaderCollection*(*)(::PVOID, ::System::IO::Stream*, ::Il2CppArray<::System::Byte>*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_READHEADERS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Net::WebHeaderCollection*(*)(::PVOID, ::System::IO::Stream*, ::System::Object*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_READHEADERS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void FlushContents(::System::IO::Stream* a1, ::System::Int32 a2)
@@ -173,9 +171,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_NEXTREAD_OFFSET))(this);
 		}
 
-		static ::System::Boolean ReadLine(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Int32 a3, ::System::String*& a4)
+		static ::System::Boolean ReadLine(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::String* a4)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_READLINE_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_READLINE_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::IAsyncResult* BeginRead(::System::Net::HttpWebRequest* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::AsyncCallback* a5, ::System::Object* a6)
@@ -213,9 +211,9 @@ namespace System::Net
 			return ((::System::Int32(*)(::PVOID, ::System::Net::HttpWebRequest*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_READ_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Boolean Write(::System::Net::HttpWebRequest* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::String*& a5)
+		::System::Boolean Write(::System::Net::HttpWebRequest* a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::String* a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Net::HttpWebRequest*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_WRITE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::System::Net::HttpWebRequest*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION_WRITE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Close(::System::Boolean a1)
@@ -272,5 +270,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_WEBCONNECTION__SENDREQUEST_B__41_0_OFFSET))(this, a1);
 		}
+
 	};
 }

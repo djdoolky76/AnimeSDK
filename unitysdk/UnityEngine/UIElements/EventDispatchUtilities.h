@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class IPanel; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHUTILITIES_EXECUTEDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1EDE9640)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHUTILITIES_PROPAGATEEVENT_OFFSET UNITYSDK_OFFSET(0x1EDE4660)
-#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHUTILITIES_PROPAGATETOIMGUICONTAINER_OFFSET UNITYSDK_OFFSET(0x1EDE4330)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHUTILITIES_EXECUTEDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1F4B2860)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHUTILITIES_PROPAGATEEVENT_OFFSET UNITYSDK_OFFSET(0x1F4AD880)
+#define UNITYENGINE_UIELEMENTS_EVENTDISPATCHUTILITIES_PROPAGATETOIMGUICONTAINER_OFFSET UNITYSDK_OFFSET(0x1F4AD550)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDispatchUtilities_TypeDefinitionIndex = 5939;
-
 	class EventDispatchUtilities : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_EVENTDISPATCHUTILITIES_EXECUTEDEFAULTACTION_OFFSET))(a1, a2);
 		}
+
 	};
 }

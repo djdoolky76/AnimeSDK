@@ -2,13 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlyMemory_1.h"
-
 namespace System::Buffers { template <typename T> class ReadOnlySequenceSegment_1; }
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ReadOnlySequenceSegment_1_TypeDefinitionIndex = 4995;
-
 	template <typename T>
 	class ReadOnlySequenceSegment_1 : public ::System::Object
 	{

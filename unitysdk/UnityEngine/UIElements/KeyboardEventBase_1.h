@@ -2,16 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventModifiers.h"
 #include "unitysdk/UnityEngine/KeyCode.h"
-#include "unitysdk/UnityEngine/UIElements/EventBase_1.h"
-
-namespace UnityEngine { class Event; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int KeyboardEventBase_1_TypeDefinitionIndex = 5943;
-
 	template <typename T>
-	class KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>
+	class KeyboardEventBase_1
 	{
 	public:
 		::UnityEngine::EventModifiers _modifiers_k__BackingField; // 0x0

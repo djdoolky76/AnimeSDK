@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x1B6DB230)
-#define NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x1B6DB210)
+#define NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET UNITYSDK_OFFSET(0x1BBD8EB0)
+#define NERDBANK_STREAMS_REQUIRES_RANGE_OFFSET UNITYSDK_OFFSET(0x1BBD8E90)
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Requires_TypeDefinitionIndex = 7103;
-
 	class Requires : public ::System::Object
 	{
 	public:
@@ -24,5 +21,6 @@ namespace Nerdbank::Streams
 		{
 			return ((::System::Exception*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_REQUIRES_FAILRANGE_OFFSET))(a1, a2);
 		}
+
 	};
 }

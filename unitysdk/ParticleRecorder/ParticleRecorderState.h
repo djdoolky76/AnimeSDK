@@ -3,8 +3,6 @@
 
 namespace ParticleRecorder
 {
-	inline static constexpr unsigned int ParticleRecorderState_TypeDefinitionIndex = 36800;
-
 	enum class ParticleRecorderState : ::System::Int32
 	{
 		kStopped = 0,

@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ManikinMonsterPositionsConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D21F720)
-#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D21F9C0)
+#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D828790)
+#define RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8284F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinMonsterPositionsConfig_TypeDefinitionIndex = 17281;
-
 	class ManikinMonsterPositionsConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -22,15 +20,15 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::MVector3>* FloatingCommon; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::MVector3>* FloatingSphere; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::MVector3>* Sphere; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinMonsterPositionsConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ManikinMonsterPositionsConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinMonsterPositionsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ManikinMonsterPositionsConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERPOSITIONSCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

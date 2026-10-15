@@ -1,41 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FourRotateVoxelRoomDoorConfig; }
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_METHOD_3_6E772DF284D71F33_OFFSET UNITYSDK_OFFSET(0x1D117C30)
-#define RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_METHOD_3_FCFDBD0B332A4CC2_OFFSET UNITYSDK_OFFSET(0x1D117C70)
-#define RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D117C60)
+#define RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F1900)
+#define RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6F1910)
+#define RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F18D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelRoomDoorConfig_TypeDefinitionIndex = 16579;
-
 	class FourRotateVoxelRoomDoorConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		::System::Boolean IsRoomDoor; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::UInt32 TargetDoorConfigID; // 0x14
 		::RPG::GameCore::PropButtonConfig* InteractButtonConfig; // 0x18
 		::System::Boolean CreateTrigger; // 0x20
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::LevelTriggerInfo* TriggerInfo; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6E772DF284D71F33(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_METHOD_3_6E772DF284D71F33_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FCFDBD0B332A4CC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_METHOD_3_FCFDBD0B332A4CC2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FourRotateVoxelRoomDoorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELROOMDOORCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

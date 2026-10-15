@@ -1,54 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapFight; }
 namespace RPG::Client::FateRin::HouguMap { class HouguMapFightViewModel; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD00ACD0)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD00AD10)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__GET_ISALLNORMALFIGHTSFINISHED_B__12_0_OFFSET UNITYSDK_OFFSET(0xD00AE60)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD00AD20)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_2_OFFSET UNITYSDK_OFFSET(0xD00AD50)
-#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_3_OFFSET UNITYSDK_OFFSET(0xD00AE00)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFA9E90)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA9ED0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__GET_ISALLNORMALFIGHTSFINISHED_B__12_0_OFFSET UNITYSDK_OFFSET(0xCFAA030)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_0_OFFSET UNITYSDK_OFFSET(0xCFA9EE0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_2_OFFSET UNITYSDK_OFFSET(0xCFA9F10)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C___BUILDFIGHTVIEWMODELS_B__3_3_OFFSET UNITYSDK_OFFSET(0xCFA9FD0)
 
 namespace RPG::Client::FateRin::HouguMap
 {
-	inline static constexpr unsigned int FateRinHouguMapViewModel___c_TypeDefinitionIndex = 79442;
-
 	class FateRinHouguMapViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__12_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA370);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.HouguMap", "<>c")->GetStaticField(0x57990);
 		}
-		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__3_3()
-		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA378);
-		}
-		static ::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::FateRin::HouguMap::FateRinHouguMapViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA380);
-		}
-		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__3_2()
-		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA388);
-		}
+
 		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FateRinHouguMapViewModel___c_TypeDefinitionIndex)->GetStaticField(0xA390);
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.HouguMap", "<>c")->GetStaticField(0x57998);
+		}
+
+		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__12_0()
+		{
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.HouguMap", "<>c")->GetStaticField(0x579A0);
+		}
+
+		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__3_2()
+		{
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.HouguMap", "<>c")->GetStaticField(0x579A8);
+		}
+
+		static ::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>** StaticGet___9__3_3()
+		{
+			return (::System::Func_2<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.FateRin.HouguMap", "<>c")->GetStaticField(0x579B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __BuildFightViewModels_b__3_0(::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight* a1)
@@ -70,5 +72,6 @@ namespace RPG::Client::FateRin::HouguMap
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL___C__GET_ISALLNORMALFIGHTSFINISHED_B__12_0_OFFSET))(this, a1);
 		}
+
 	};
 }

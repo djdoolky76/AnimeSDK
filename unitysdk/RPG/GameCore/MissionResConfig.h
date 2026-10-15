@@ -1,32 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MissionResConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONRESCONFIG_METHOD_2_7165980DB1194D7B_OFFSET UNITYSDK_OFFSET(0x1D2A5D70)
-#define RPG_GAMECORE_MISSIONRESCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A5EF0)
+#define RPG_GAMECORE_MISSIONRESCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D887D40)
+#define RPG_GAMECORE_MISSIONRESCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D887BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionResConfig_TypeDefinitionIndex = 18802;
-
 	class MissionResConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 MainMissionID; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* VideoList; // 0x18
 		::Il2CppArray<::System::String*>* AudioList; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONRESCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONRESCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7165980DB1194D7B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MissionResConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MissionResConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionResConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONRESCONFIG_METHOD_2_7165980DB1194D7B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MissionResConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONRESCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

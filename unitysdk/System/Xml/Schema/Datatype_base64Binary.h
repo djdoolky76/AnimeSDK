@@ -3,7 +3,6 @@
 #include "unitysdk/System/Xml/Schema/Datatype_anySimpleType.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaWhiteSpace.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -14,41 +13,40 @@ namespace System::Xml::Schema { class FacetsChecker; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_COMPARE_OFFSET UNITYSDK_OFFSET(0x1E7ED190)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1E7ED000)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1E7ED180)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1E7ED050)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1E7ED120)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7ED0B0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1E7ED0C0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1E7ED240)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7ED540)
-#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E55F0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEB6220)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EEB5E70)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EEB5CE0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAE2D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1EEB5E60)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EEB5D30)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB5E00)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB5D90)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB5DA0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EEB5F20)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_base64Binary_TypeDefinitionIndex = 2118;
-
 	class Datatype_base64Binary : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
-		static ::System::Type** StaticGet_atomicValueType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_base64Binary_TypeDefinitionIndex)->GetStaticField(0x19410);
-		}
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_base64Binary_TypeDefinitionIndex)->GetStaticField(0x19418);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_base64Binary")->GetStaticField(0x22190);
+		}
+
+		static ::System::Type** StaticGet_atomicValueType()
+		{
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_base64Binary")->GetStaticField(0x22198);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_CCTOR_OFFSET))();
 		}
 
 		::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* a1)
@@ -86,9 +84,10 @@ namespace System::Xml::Schema
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_COMPARE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object*& a4)
+		::System::Exception* TryParseValue(::System::String* a1, ::System::Xml::XmlNameTable* a2, ::System::Xml::IXmlNamespaceResolver* a3, ::System::Object* a4)
 		{
-			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Exception*(*)(::PVOID, ::System::String*, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_BASE64BINARY_TRYPARSEVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

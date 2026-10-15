@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int LandingLevel_TypeDefinitionIndex = 41786;
-
 	enum class LandingLevel : ::System::Int32
 	{
 		None = 0,

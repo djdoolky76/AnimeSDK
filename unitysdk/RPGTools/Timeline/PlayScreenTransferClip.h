@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ScreenTransferType.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools { class StoryDurationTimeConfig_StoryDurationTime; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8BE930)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8BEA90)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BEAA0)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9140F0)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE914260)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE914250)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlayScreenTransferClip_TypeDefinitionIndex = 48674;
-
 	class PlayScreenTransferClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::StoryDurationTimeConfig_StoryDurationTime* DurationData; // 0x18
 		::RPG::GameCore::ScreenTransferType ScreenTransferType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -37,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

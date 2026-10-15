@@ -1,50 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0xD73C6A0)
-#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD73C5A0)
-#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD741FC0)
-#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_B3A88D7849969A71_OFFSET UNITYSDK_OFFSET(0xD742020)
-#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD__CTOR_OFFSET UNITYSDK_OFFSET(0xD73C720)
+#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_CAGCHKJHMPD_OFFSET UNITYSDK_OFFSET(0xD73BB50)
+#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_CTOR_OFFSET UNITYSDK_OFFSET(0xD73BBD0)
+#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_KGJKEJANMPD_OFFSET UNITYSDK_OFFSET(0xD73BA50)
+#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD7413A0)
+#define RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0xD741400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveObjectLogic_Load_TypeDefinitionIndex = 68507;
-
 	class MonoCurveObjectLogic_Load : public ::System::Object
 	{
 	public:
 		::System::Boolean loadedState; // 0x10
 		::System::Boolean targetLoadedState; // 0x11
+		::System::Byte _padding0[0x6];
 		::UnityEngine::GameObject* loadGameObject; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_4343F372F34C05BF()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_1_B3A88D7849969A71(::System::String* a1)
+		::System::Void OIBKPJEGPOK(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_B3A88D7849969A71_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_OIBKPJEGPOK_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_391A84BCD9F51317()
+		::System::Boolean KGJKEJANMPD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_KGJKEJANMPD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_391A84BCD9F51317_1()
+		::System::Boolean CAGCHKJHMPD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_METHOD_1_391A84BCD9F51317_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEOBJECTLOGIC_LOAD_CAGCHKJHMPD_OFFSET))(this);
 		}
+
 	};
 }

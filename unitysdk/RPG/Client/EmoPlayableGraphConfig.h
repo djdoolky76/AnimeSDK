@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 
-#define RPG_CLIENT_EMOPLAYABLEGRAPHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCE99FB0)
+#define RPG_CLIENT_EMOPLAYABLEGRAPHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE9210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoPlayableGraphConfig_TypeDefinitionIndex = 71097;
-
 	class EmoPlayableGraphConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
@@ -30,10 +27,10 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::AnimationClip*>* EyeClips; // 0x80
 		::Il2CppArray<::UnityEngine::AnimationClip*>* BrowClips; // 0x88
 		::Il2CppArray<::UnityEngine::AnimationClip*>* MouthClips; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOPLAYABLEGRAPHCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOPLAYABLEGRAPHCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

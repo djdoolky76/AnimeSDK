@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerModifierPhase1Perform; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_METHOD_3_AD7A093685D8246A_OFFSET UNITYSDK_OFFSET(0x1D601E90)
-#define RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_METHOD_3_C93145C385367C07_OFFSET UNITYSDK_OFFSET(0x1D601F60)
-#define RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D601F50)
+#define RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC55F90)
+#define RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC55FA0)
+#define RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC55ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerModifierPhase1Perform_TypeDefinitionIndex = 23182;
-
 	class TriggerModifierPhase1Perform : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AD7A093685D8246A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierPhase1Perform*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerModifierPhase1Perform* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModifierPhase1Perform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_METHOD_3_AD7A093685D8246A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerModifierPhase1Perform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C93145C385367C07(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierPhase1Perform* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerModifierPhase1Perform* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModifierPhase1Perform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_METHOD_3_C93145C385367C07_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerModifierPhase1Perform*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERPHASE1PERFORM_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

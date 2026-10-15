@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class TeleportToRotatableRegion; }
 
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_0CBCA87102F077C4_OFFSET UNITYSDK_OFFSET(0x1D5C8160)
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_DF52A9DA33B68B91_OFFSET UNITYSDK_OFFSET(0x1D5C81A0)
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C8190)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7F960)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB7F970)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB7F930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeleportToRotatableRegion_TypeDefinitionIndex = 20678;
-
 	class TeleportToRotatableRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -21,20 +19,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* TargetAnchorGroupID; // 0x20
 		::RPG::GameCore::DynamicFloat* TargetAnchorInstanceID; // 0x28
 		::RPG::GameCore::DynamicString* SpecialPerformType; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0CBCA87102F077C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToRotatableRegion*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TeleportToRotatableRegion* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeleportToRotatableRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_0CBCA87102F077C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TeleportToRotatableRegion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DF52A9DA33B68B91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToRotatableRegion* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TeleportToRotatableRegion* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeleportToRotatableRegion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_DF52A9DA33B68B91_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TeleportToRotatableRegion*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

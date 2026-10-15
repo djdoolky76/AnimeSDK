@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRootMotionBase_RootMotionInfo_TypeDefinitionIndex = 43832;
-
 	struct alignas(4) SkeletonRootMotionBase_RootMotionInfo
 	{
 		::UnityEngine::Vector2 start; // 0x10

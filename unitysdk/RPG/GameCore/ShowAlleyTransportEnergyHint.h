@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ShowAlleyTransportEnergyHint; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_METHOD_3_533983C51685B28B_OFFSET UNITYSDK_OFFSET(0x1D521F60)
-#define RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_METHOD_3_A1222DB2B8255E28_OFFSET UNITYSDK_OFFSET(0x1D521FA0)
-#define RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D521F90)
+#define RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD68E0)
+#define RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD68F0)
+#define RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD68B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowAlleyTransportEnergyHint_TypeDefinitionIndex = 24014;
-
 	class ShowAlleyTransportEnergyHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Visible; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_533983C51685B28B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAlleyTransportEnergyHint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowAlleyTransportEnergyHint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowAlleyTransportEnergyHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_METHOD_3_533983C51685B28B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowAlleyTransportEnergyHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A1222DB2B8255E28(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAlleyTransportEnergyHint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ShowAlleyTransportEnergyHint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowAlleyTransportEnergyHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_METHOD_3_A1222DB2B8255E28_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ShowAlleyTransportEnergyHint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWALLEYTRANSPORTENERGYHINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

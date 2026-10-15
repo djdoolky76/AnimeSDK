@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DisableMapRotationVolumeInteractReason_TypeDefinitionIndex = 60689;
-
 	enum class DisableMapRotationVolumeInteractReason : ::System::Int32
 	{
 		Default = 0,

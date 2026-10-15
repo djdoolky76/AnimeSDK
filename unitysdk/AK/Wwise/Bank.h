@@ -2,31 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AK/Wwise/BaseType.h"
 #include "unitysdk/WwiseObjectType.h"
-
 class AkCallbackManager_BankCallback;
 class WwiseBankReference;
 class WwiseObjectReference;
 
-#define AK_WWISE_BANK_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1EEA4EF0)
-#define AK_WWISE_BANK_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1EEA4F70)
-#define AK_WWISE_BANK_LOADASYNC_OFFSET UNITYSDK_OFFSET(0x1EEA5600)
-#define AK_WWISE_BANK_LOAD_OFFSET UNITYSDK_OFFSET(0x1EEA4F80)
-#define AK_WWISE_BANK_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1EEA4F00)
-#define AK_WWISE_BANK_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1EEA5A10)
-#define AK_WWISE_BANK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA5CC0)
+#define AK_WWISE_BANK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F56D870)
+#define AK_WWISE_BANK_GET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F56CAA0)
+#define AK_WWISE_BANK_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F56CB20)
+#define AK_WWISE_BANK_LOADASYNC_OFFSET UNITYSDK_OFFSET(0x1F56D1B0)
+#define AK_WWISE_BANK_LOAD_OFFSET UNITYSDK_OFFSET(0x1F56CB30)
+#define AK_WWISE_BANK_SET_OBJECTREFERENCE_OFFSET UNITYSDK_OFFSET(0x1F56CAB0)
+#define AK_WWISE_BANK_UNLOAD_OFFSET UNITYSDK_OFFSET(0x1F56D5C0)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int Bank_TypeDefinitionIndex = 43785;
-
 	class Bank : public ::AK::Wwise::BaseType
 	{
 	public:
 		::WwiseBankReference* WwiseObjectReference; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BANK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_CTOR_OFFSET))(this);
 		}
 
 		::WwiseObjectReference* get_ObjectReference()
@@ -58,5 +54,6 @@ namespace AK::Wwise
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BANK_UNLOAD_OFFSET))(this);
 		}
+
 	};
 }

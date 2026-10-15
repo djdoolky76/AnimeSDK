@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONArray; }
-namespace MiHoYo::SDK::Base::GoodsPlatform { class GoodsPlatformManager___c__DisplayClass9_0; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B736E60)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1B7372A0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC354F0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__2_OFFSET UNITYSDK_OFFSET(0x1BC358D0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_1_TypeDefinitionIndex = 8784;
-
+	template <typename T>
 	class GoodsPlatformManager___c__DisplayClass9_1 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::JSONArray* goods; // 0x10
-		::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager___c__DisplayClass9_0* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x18
 		::System::String* message; // 0x20
 		::System::Int64 listGoodsTime; // 0x28
 		::System::Int32 code; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _RetrieveGoodsList_b__1(::MiHoYo::SDK::JSONArray* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int64 a4)
+		::System::Void _RetrieveGoodsList_b__2(::MiHoYo::SDK::JSONArray* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Int64 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONArray*, ::System::Boolean, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__2_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

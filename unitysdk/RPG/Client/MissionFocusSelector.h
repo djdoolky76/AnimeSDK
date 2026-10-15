@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class MainMissionData; }
+namespace RPG::Client { class MissionFocusSelector_MissionMatchPredicate; }
+namespace System { class Nullable; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR_GETMOSTRELEVANTSHOWNANDSTARTEDMISSIONIDTOFOCUS_OFFSET UNITYSDK_OFFSET(0xD6D9400)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR__GETALLSHOWNANDSTARTEDMAINMISSIONS_OFFSET UNITYSDK_OFFSET(0xD6D9880)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR__TRYGETMOSTRELEVANTMAINMISSIONID_OFFSET UNITYSDK_OFFSET(0xD6D9A40)
+
+namespace RPG::Client
+{
+	class MissionFocusSelector : public ::System::Object
+	{
+	public:
+		// static const ::System::Object _DefaultMissionID; // 0x0
+		static ::System::UInt32 GetMostRelevantShownAndStartedMissionIDToFocus(::System::UInt32 a1)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONFOCUSSELECTOR_GETMOSTRELEVANTSHOWNANDSTARTEDMISSIONIDTOFOCUS_OFFSET))(a1);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* _GetAllShownAndStartedMainMissions()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONFOCUSSELECTOR__GETALLSHOWNANDSTARTEDMAINMISSIONS_OFFSET))();
+		}
+
+		static ::System::Nullable* _TryGetMostRelevantMainMissionID(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>* a1, ::RPG::Client::MissionFocusSelector_MissionMatchPredicate* a2)
+		{
+			return ((::System::Nullable*(*)(::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*, ::RPG::Client::MissionFocusSelector_MissionMatchPredicate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONFOCUSSELECTOR__TRYGETMOSTRELEVANTMAINMISSIONID_OFFSET))(a1, a2);
+		}
+
+	};
+}

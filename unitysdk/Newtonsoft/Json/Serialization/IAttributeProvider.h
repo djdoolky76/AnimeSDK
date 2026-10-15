@@ -3,8 +3,6 @@
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int IAttributeProvider_TypeDefinitionIndex = 9631;
-
 	class IAttributeProvider
 	{
 	public:

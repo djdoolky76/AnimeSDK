@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/EffectConfig.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0xDA2A8C0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA76AC0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourProjectile_TypeDefinitionIndex = 74055;
-
 	class MonoParkourProjectile : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -25,10 +22,10 @@ namespace RPG::Client::ParkourGame
 		::System::Single HitModifierDuration; // 0x88
 		::System::Single HitDelSpeedValue; // 0x8C
 		::System::Single RaycastDistance; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURPROJECTILE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

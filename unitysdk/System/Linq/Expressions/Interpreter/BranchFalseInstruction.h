@@ -1,32 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/OffsetInstruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1E712610)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E7126C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E712680)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E7126D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7127A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDB3E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1EDDB250)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDDB300)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDDB2C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDDB310)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int BranchFalseInstruction_TypeDefinitionIndex = 3321;
-
 	class BranchFalseInstruction : public ::System::Linq::Expressions::Interpreter::OffsetInstruction
 	{
 	public:
 		static ::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>** StaticGet_s_cache()
 		{
-			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>**)Il2CppClass::FromTypeDefinitionIndex(BranchFalseInstruction_TypeDefinitionIndex)->GetStaticField(0x2CB10);
+			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "BranchFalseInstruction")->GetStaticField(0x385E0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>* get_Cache()
@@ -48,5 +45,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

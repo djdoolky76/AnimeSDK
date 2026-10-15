@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class KJDLIPEIAAK;
+namespace RPG::Client { class RelicFilterPlanIconData; }
 
-class Class_1_21C7581DFE99F091_70;
-
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xDE24AE0)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDE24920)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0xDE24FE0)
-#define RPG_CLIENT_RELICFILTERPLANICONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xDE253D0)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xDE72390)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDE721C0)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDE72C80)
+#define RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET UNITYSDK_OFFSET(0xDE72890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicFilterPlanIconData_TypeDefinitionIndex = 66887;
-
 	class RelicFilterPlanIconData : public ::System::Object
 	{
 	public:
 		::System::UInt32 IconId; // 0x10
 		::System::Boolean IsAvatarIcon; // 0x14
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::RelicFilterPlanIconData* Create()
@@ -29,14 +26,15 @@ namespace RPG::Client
 			return ((::RPG::Client::RelicFilterPlanIconData*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_OFFSET))();
 		}
 
-		static ::RPG::Client::RelicFilterPlanIconData* Create_1(::Class_1_21C7581DFE99F091_70* a1)
+		static ::RPG::Client::RelicFilterPlanIconData* Create_1(::KJDLIPEIAAK* a1)
 		{
-			return ((::RPG::Client::RelicFilterPlanIconData*(*)(::Class_1_21C7581DFE99F091_70*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET))(a1);
+			return ((::RPG::Client::RelicFilterPlanIconData*(*)(::KJDLIPEIAAK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_CREATE_1_OFFSET))(a1);
 		}
 
-		::System::Void FillToServerData(::Class_1_21C7581DFE99F091_70* a1)
+		::System::Void FillToServerData(::KJDLIPEIAAK* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_21C7581DFE99F091_70*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::KJDLIPEIAAK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_RELICFILTERPLANICONDATA_FILLTOSERVERDATA_OFFSET))(this, a1);
 		}
+
 	};
 }

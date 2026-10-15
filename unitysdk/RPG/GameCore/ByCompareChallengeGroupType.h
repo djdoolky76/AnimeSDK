@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChallengeGroupType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareChallengeGroupType; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_38221E01C628D9CC_OFFSET UNITYSDK_OFFSET(0x1CEB5170)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_55ED2202904DD76C_OFFSET UNITYSDK_OFFSET(0x1CEB52F0)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_D878489FB99FEF49_OFFSET UNITYSDK_OFFSET(0x1CEB5130)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_EE43F4AC450312C3_OFFSET UNITYSDK_OFFSET(0x1CEB5320)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEB5160)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D49E7B0)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D49E970)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D49E940)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D49E7C0)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D49E780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareChallengeGroupType_TypeDefinitionIndex = 23178;
-
 	class ByCompareChallengeGroupType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::ChallengeGroupType CurrentStageType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D878489FB99FEF49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareChallengeGroupType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareChallengeGroupType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_D878489FB99FEF49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_38221E01C628D9CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_38221E01C628D9CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_55ED2202904DD76C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_55ED2202904DD76C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EE43F4AC450312C3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_EE43F4AC450312C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

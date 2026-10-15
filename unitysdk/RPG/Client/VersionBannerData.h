@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class VersionBannerData; }
 namespace RPG::GameCore { class ActivityVersionBannerRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_VERSIONBANNERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE3F9A30)
-#define RPG_CLIENT_VERSIONBANNERDATA_GET_CHAPTERID_OFFSET UNITYSDK_OFFSET(0xE3F9B40)
-#define RPG_CLIENT_VERSIONBANNERDATA_GET_MISSIONTYPECOLOR_OFFSET UNITYSDK_OFFSET(0xE3F9B90)
-#define RPG_CLIENT_VERSIONBANNERDATA_GET_MISSIONTYPE_OFFSET UNITYSDK_OFFSET(0xE3F9AF0)
-#define RPG_CLIENT_VERSIONBANNERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE3F9AE0)
+#define RPG_CLIENT_VERSIONBANNERDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE43FA40)
+#define RPG_CLIENT_VERSIONBANNERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE43FAF0)
+#define RPG_CLIENT_VERSIONBANNERDATA_GET_CHAPTERID_OFFSET UNITYSDK_OFFSET(0xE43FB50)
+#define RPG_CLIENT_VERSIONBANNERDATA_GET_MISSIONTYPECOLOR_OFFSET UNITYSDK_OFFSET(0xE43FBA0)
+#define RPG_CLIENT_VERSIONBANNERDATA_GET_MISSIONTYPE_OFFSET UNITYSDK_OFFSET(0xE43FB00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionBannerData_TypeDefinitionIndex = 61764;
-
 	class VersionBannerData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ActivityVersionBannerRow* _Row; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONBANNERDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONBANNERDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::VersionBannerData* Create(::System::UInt32 a1)
@@ -44,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONBANNERDATA_GET_MISSIONTYPECOLOR_OFFSET))(this);
 		}
+
 	};
 }

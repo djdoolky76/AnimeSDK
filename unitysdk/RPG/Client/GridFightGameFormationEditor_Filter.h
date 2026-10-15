@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameFormationEditor_Filter_FilterType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace RPG::Client { class GridFightGameFormationEditor_GridFightGameFormationEquipFilterOption; }
 namespace RPG::Client { class GridFightGameFormationEditor_GridFightGameFormationEquipOption; }
@@ -12,56 +11,54 @@ namespace RPG::Client { class GridFightGameFormationEditor_GridFightGameFormatio
 namespace RPG::Client { class GridFightGameFormationEditor_GridFightGameFormationTraitOption; }
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::GameCore { class GridFightTraitBaseConfigRow; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_CLEARROLEFILTER_OFFSET UNITYSDK_OFFSET(0xD1B3710)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_FILTEREQUIP_OFFSET UNITYSDK_OFFSET(0xD1B36C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_FILTERROLE_OFFSET UNITYSDK_OFFSET(0xD1B3670)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETCOSTOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1B3BE0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPFILTEROPTIONS_OFFSET UNITYSDK_OFFSET(0xD1B3C20)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1B3AB0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETMAINTRAITOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1B3C60)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETROLEOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1B3930)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETSUBTRAITOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1B3CA0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GET_ISEQUIPFILTERACTIVE_OFFSET UNITYSDK_OFFSET(0xD1B37D0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GET_ISFILTERACTIVE_OFFSET UNITYSDK_OFFSET(0xD1B3860)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GET_ISROLEFILTERACTIVE_OFFSET UNITYSDK_OFFSET(0xD1B3780)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_INITEQUIPS_OFFSET UNITYSDK_OFFSET(0xD1AC1C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_INITROLES_OFFSET UNITYSDK_OFFSET(0xD1ABD20)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_SELECTRARITY_OFFSET UNITYSDK_OFFSET(0xD1B38E0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xD1AAA90)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_1_OFFSET UNITYSDK_OFFSET(0xD1B3B00)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_OFFSET UNITYSDK_OFFSET(0xD1B3980)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___CTOR_B__16_0_OFFSET UNITYSDK_OFFSET(0xD1B3CE0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___CTOR_B__16_3_OFFSET UNITYSDK_OFFSET(0xD1B3D40)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___CTOR_B__16_6_OFFSET UNITYSDK_OFFSET(0xD1B3DA0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___FILTER_B__32_0_OFFSET UNITYSDK_OFFSET(0xD1B3DF0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___FILTER_B__32_1_OFFSET UNITYSDK_OFFSET(0xD1B3E80)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___FILTER_B__33_0_OFFSET UNITYSDK_OFFSET(0xD1B3F30)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_CLEARROLEFILTER_OFFSET UNITYSDK_OFFSET(0xD1530F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xD153140)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_FILTEREQUIP_OFFSET UNITYSDK_OFFSET(0xD1530A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_FILTERROLE_OFFSET UNITYSDK_OFFSET(0xD153050)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETCOSTOPTIONS_OFFSET UNITYSDK_OFFSET(0xD154620)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPFILTEROPTIONS_OFFSET UNITYSDK_OFFSET(0xD154660)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1544F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETMAINTRAITOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1546A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETROLEOPTIONS_OFFSET UNITYSDK_OFFSET(0xD154370)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETSUBTRAITOPTIONS_OFFSET UNITYSDK_OFFSET(0xD1546E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GET_ISEQUIPFILTERACTIVE_OFFSET UNITYSDK_OFFSET(0xD153F30)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GET_ISFILTERACTIVE_OFFSET UNITYSDK_OFFSET(0xD153FC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GET_ISROLEFILTERACTIVE_OFFSET UNITYSDK_OFFSET(0xD153EE0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_INITEQUIPS_OFFSET UNITYSDK_OFFSET(0xD154200)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_INITROLES_OFFSET UNITYSDK_OFFSET(0xD154090)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_SELECTRARITY_OFFSET UNITYSDK_OFFSET(0xD154040)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_1_OFFSET UNITYSDK_OFFSET(0xD154540)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_OFFSET UNITYSDK_OFFSET(0xD1543C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___CTOR_B__16_0_OFFSET UNITYSDK_OFFSET(0xD154720)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___CTOR_B__16_3_OFFSET UNITYSDK_OFFSET(0xD154780)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___CTOR_B__16_6_OFFSET UNITYSDK_OFFSET(0xD1547F0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___FILTER_B__32_0_OFFSET UNITYSDK_OFFSET(0xD154850)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___FILTER_B__32_1_OFFSET UNITYSDK_OFFSET(0xD1548E0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___FILTER_B__33_0_OFFSET UNITYSDK_OFFSET(0xD154990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_Filter_TypeDefinitionIndex = 64709;
-
 	class GridFightGameFormationEditor_Filter : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationTraitOption*>* _MainTraitOptions; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipFilterOption*>* _EquipTypeOptions; // 0x18
-		::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipFilterOption* CurEquipFilterOption; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* _EquipTypeOptions; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* _MainTraitOptions; // 0x18
+		::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption* CurRoleFilterOption; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightRole*>* _AllRoles; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>* _AllRoleOptions; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>* _AllEquipOptions; // 0x38
+		::System::Collections::Generic::List_1<::System::Object*>* _SubTraitOptions; // 0x30
+		::System::Collections::Generic::List_1<::System::Object*>* _RarityOptions; // 0x38
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>* _AllEquips; // 0x40
-		::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleFilterOption* CurRoleFilterOption; // 0x48
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationTraitOption*>* _SubTraitOptions; // 0x50
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRarityOption*>* _RarityOptions; // 0x58
-		::System::UInt32 _SelectRarity; // 0x60
-		::RPG::Client::GridFightGameFormationEditor_Filter_FilterType CurFilterType; // 0x64
-
+		::System::Collections::Generic::List_1<::System::Object*>* _AllEquipOptions; // 0x48
+		::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipFilterOption* CurEquipFilterOption; // 0x50
+		::System::Collections::Generic::List_1<::System::Object*>* _AllRoleOptions; // 0x58
+		::RPG::Client::GridFightGameFormationEditor_Filter_FilterType CurFilterType; // 0x60
+		::System::UInt32 _SelectRarity; // 0x64
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void FilterRole()
@@ -109,44 +106,44 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightEquipItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_INITEQUIPS_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>* GetRoleOptions()
+		::System::Collections::Generic::List_1<::System::Object*>* GetRoleOptions()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETROLEOPTIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETROLEOPTIONS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>* GetEquipOptions()
+		::System::Collections::Generic::List_1<::System::Object*>* GetEquipOptions()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPOPTIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPOPTIONS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRarityOption*>* GetCostOptions()
+		::System::Collections::Generic::List_1<::System::Object*>* GetCostOptions()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRarityOption*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETCOSTOPTIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETCOSTOPTIONS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipFilterOption*>* GetEquipFilterOptions()
+		::System::Collections::Generic::List_1<::System::Object*>* GetEquipFilterOptions()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipFilterOption*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPFILTEROPTIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETEQUIPFILTEROPTIONS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationTraitOption*>* GetMainTraitOptions()
+		::System::Collections::Generic::List_1<::System::Object*>* GetMainTraitOptions()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationTraitOption*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETMAINTRAITOPTIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETMAINTRAITOPTIONS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationTraitOption*>* GetSubTraitOptions()
+		::System::Collections::Generic::List_1<::System::Object*>* GetSubTraitOptions()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationTraitOption*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETSUBTRAITOPTIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER_GETSUBTRAITOPTIONS_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>* _Filter(::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>* a1)
+		::System::Collections::Generic::List_1<::System::Object*>* _Filter(::System::Collections::Generic::List_1<::System::Object*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRoleOption*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>* _Filter_1(::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>* a1)
+		::System::Collections::Generic::List_1<::System::Object*>* _Filter_1(::System::Collections::Generic::List_1<::System::Object*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_1_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER__FILTER_1_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationRarityOption* __ctor_b__16_0(::System::Int32 a1)
@@ -178,5 +175,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGameFormationEditor_GridFightGameFormationEquipOption*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_FILTER___FILTER_B__33_0_OFFSET))(this, a1);
 		}
+
 	};
 }

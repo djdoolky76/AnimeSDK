@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetAllRoguePropState; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETALLROGUEPROPSTATE_METHOD_3_103B0E50F1538DF8_OFFSET UNITYSDK_OFFSET(0x1D4E0000)
-#define RPG_GAMECORE_SETALLROGUEPROPSTATE_METHOD_3_F18EAAEC85933D74_OFFSET UNITYSDK_OFFSET(0x1D4E0050)
-#define RPG_GAMECORE_SETALLROGUEPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E0040)
+#define RPG_GAMECORE_SETALLROGUEPROPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA93D80)
+#define RPG_GAMECORE_SETALLROGUEPROPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA93D90)
+#define RPG_GAMECORE_SETALLROGUEPROPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA93D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAllRoguePropState_TypeDefinitionIndex = 20244;
-
 	class SetAllRoguePropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETALLROGUEPROPSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETALLROGUEPROPSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_103B0E50F1538DF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAllRoguePropState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetAllRoguePropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAllRoguePropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETALLROGUEPROPSTATE_METHOD_3_103B0E50F1538DF8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetAllRoguePropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETALLROGUEPROPSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F18EAAEC85933D74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAllRoguePropState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetAllRoguePropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAllRoguePropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETALLROGUEPROPSTATE_METHOD_3_F18EAAEC85933D74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetAllRoguePropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETALLROGUEPROPSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

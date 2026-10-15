@@ -4,7 +4,6 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
@@ -12,23 +11,21 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AVATARRANKCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC8405C0)
-#define RPG_CLIENT_AVATARRANKCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC840410)
-#define RPG_CLIENT_AVATARRANKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC840460)
-#define RPG_CLIENT_AVATARRANKCONTROL_SETRANKTEXTURES_OFFSET UNITYSDK_OFFSET(0xC83FF50)
-#define RPG_CLIENT_AVATARRANKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC841140)
-#define RPG_CLIENT_AVATARRANKCONTROL__GETTEXTUREPATH_OFFSET UNITYSDK_OFFSET(0xC840330)
-#define RPG_CLIENT_AVATARRANKCONTROL__RELEASETEXTUREASSET_OFFSET UNITYSDK_OFFSET(0xC8400F0)
+#define RPG_CLIENT_AVATARRANKCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC70F0A0)
+#define RPG_CLIENT_AVATARRANKCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC70E4C0)
+#define RPG_CLIENT_AVATARRANKCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC70E310)
+#define RPG_CLIENT_AVATARRANKCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC70E360)
+#define RPG_CLIENT_AVATARRANKCONTROL_SETRANKTEXTURES_OFFSET UNITYSDK_OFFSET(0xC70DE50)
+#define RPG_CLIENT_AVATARRANKCONTROL__GETTEXTUREPATH_OFFSET UNITYSDK_OFFSET(0xC70E230)
+#define RPG_CLIENT_AVATARRANKCONTROL__RELEASETEXTUREASSET_OFFSET UNITYSDK_OFFSET(0xC70DFF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarRankControl_TypeDefinitionIndex = 71010;
-
 	class AvatarRankControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 _MAX_RANK = 0x6; // 0x0
 		::System::Boolean waveUpdate; // 0x18
+		::System::Byte _padding0[0x7];
 		::UnityEngine::AnimationCurve* waveCurve; // 0x20
 		::System::Single waveAmplititude; // 0x28
 		::System::Single waveSpeed; // 0x2C
@@ -46,13 +43,16 @@ namespace RPG::Client
 		::System::Boolean showAvatar; // 0x84
 		::System::Boolean hideAvatar; // 0x85
 		::System::Boolean moveGalss; // 0x86
+		::System::Byte _padding1[0x1];
 		::RPG::Client::AvatarRankControl_ShowAvatarType showAvatarType; // 0x88
+		::System::Byte _padding2[0x4];
 		::UnityEngine::Transform* dissolveCenterStart; // 0x90
 		::UnityEngine::Transform* dissolveCenterEnd; // 0x98
 		::UnityEngine::Transform* dissolveDir; // 0xA0
 		::System::Single traverseProgress; // 0xA8
 		::System::Single ditherValue; // 0xAC
 		::System::Single moveTargetRatio; // 0xB0
+		::System::Byte _padding3[0x4];
 		::UnityEngine::AnimationCurve* glassMoveCurve; // 0xB8
 		::System::Single glassMoveDuration; // 0xC0
 		::System::Single showAvatarDuration; // 0xC4
@@ -64,12 +64,13 @@ namespace RPG::Client
 		::Il2CppArray<::UnityEngine::Transform*>* effectTransforms; // 0xF0
 		::Il2CppArray<::UnityEngine::Transform*>* glassTransforms; // 0xF8
 		::System::Boolean firstTime; // 0x100
+		::System::Byte _padding4[0x3];
 		::System::Int32 _AvatarTexID; // 0x104
 		::System::Int32 _LightDirID; // 0x108
-
+		// static const ::System::Object _MAX_RANK; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetRankTextures(::System::UInt32 a1)
@@ -101,5 +102,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARRANKCONTROL_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

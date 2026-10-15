@@ -3,8 +3,6 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int DateTimeFormatFlags_TypeDefinitionIndex = 741;
-
 	enum class DateTimeFormatFlags : ::System::Int32
 	{
 		None = 0,

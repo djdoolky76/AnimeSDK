@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NEBMBGBIHHH.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+class AEOBCFPOIBP;
+class FCOEMCEDLNL;
+namespace System { class String; }
+
+#define AEOBCFPOIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB37C0)
+#define AEOBCFPOIBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB3590)
+
+	class AEOBCFPOIBP : public ::System::Object
+	{
+	public:
+		::System::String* MJPKBIGCFOM; // 0x10
+		::RPG::Client::TextID OENAMINOLLF; // 0x18
+		::NEBMBGBIHHH GMPGDEINODK; // 0x28
+		::System::Int32 FLBGELFEBCK; // 0x2C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEOBCFPOIBP_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::AEOBCFPOIBP* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::AEOBCFPOIBP*))((::PBYTE)hIl2Cpp + AEOBCFPOIBP_OJNNBEJLDIJ_OFFSET))(a1, a2);
+		}
+
+	};

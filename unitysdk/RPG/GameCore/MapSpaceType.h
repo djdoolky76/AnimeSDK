@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapSpaceType_TypeDefinitionIndex = 10505;
-
 	enum class MapSpaceType : ::System::Int32
 	{
 		Unknow = 0,

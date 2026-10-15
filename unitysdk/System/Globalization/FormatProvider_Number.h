@@ -1,71 +1,74 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Globalization/FormatProvider_Number_NumberBuffer.h"
 #include "unitysdk/System/Globalization/NumberStyles.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-
+#include "unitysdk/System/Globalization/FormatProvider_Number_NumberBuffer.h"
+#include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class NumberFormatInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FINDSECTION_OFFSET UNITYSDK_OFFSET(0x1E7A6A20)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATCURRENCY_OFFSET UNITYSDK_OFFSET(0x1E7A47E0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATEXPONENT_OFFSET UNITYSDK_OFFSET(0x1E7A6630)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATFIXED_OFFSET UNITYSDK_OFFSET(0x1E7A4BD0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATGENERAL_OFFSET UNITYSDK_OFFSET(0x1E7A5BA0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATNUMBER_OFFSET UNITYSDK_OFFSET(0x1E7A53A0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATPERCENT_OFFSET UNITYSDK_OFFSET(0x1E7A6210)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATSCIENTIFIC_OFFSET UNITYSDK_OFFSET(0x1E7A5870)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_INT32TODECCHARS_OFFSET UNITYSDK_OFFSET(0x1E7A4690)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_ISWHITE_OFFSET UNITYSDK_OFFSET(0x1E7A3200)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_1_OFFSET UNITYSDK_OFFSET(0x1E7A32D0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_OFFSET UNITYSDK_OFFSET(0x1E7A3220)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_NUMBERTOSTRINGFORMAT_OFFSET UNITYSDK_OFFSET(0x1E7A1770)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_NUMBERTOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A0BE0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSEFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x1E7A0B20)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1E7A3320)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_ROUNDNUMBER_OFFSET UNITYSDK_OFFSET(0x1E7A46F0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRAILINGZEROS_OFFSET UNITYSDK_OFFSET(0x1E7A45C0)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRYSTRINGTONUMBER_OFFSET UNITYSDK_OFFSET(0x1E7A3080)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_WCSLEN_OFFSET UNITYSDK_OFFSET(0x1E7A6600)
-#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A6AE0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE6F800)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FINDSECTION_OFFSET UNITYSDK_OFFSET(0x1EE6F740)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATCURRENCY_OFFSET UNITYSDK_OFFSET(0x1EE6D500)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATEXPONENT_OFFSET UNITYSDK_OFFSET(0x1EE6F350)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATFIXED_OFFSET UNITYSDK_OFFSET(0x1EE6D8F0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATGENERAL_OFFSET UNITYSDK_OFFSET(0x1EE6E8C0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATNUMBER_OFFSET UNITYSDK_OFFSET(0x1EE6E0C0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATPERCENT_OFFSET UNITYSDK_OFFSET(0x1EE6EF30)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATSCIENTIFIC_OFFSET UNITYSDK_OFFSET(0x1EE6E590)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_INT32TODECCHARS_OFFSET UNITYSDK_OFFSET(0x1EE6D3B0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_ISWHITE_OFFSET UNITYSDK_OFFSET(0x1EE6BF20)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_1_OFFSET UNITYSDK_OFFSET(0x1EE6BFF0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_OFFSET UNITYSDK_OFFSET(0x1EE6BF40)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_NUMBERTOSTRINGFORMAT_OFFSET UNITYSDK_OFFSET(0x1EE6A490)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_NUMBERTOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE69900)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSEFORMATSPECIFIER_OFFSET UNITYSDK_OFFSET(0x1EE69840)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSENUMBER_OFFSET UNITYSDK_OFFSET(0x1EE6C040)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_ROUNDNUMBER_OFFSET UNITYSDK_OFFSET(0x1EE6D410)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRAILINGZEROS_OFFSET UNITYSDK_OFFSET(0x1EE6D2E0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRYSTRINGTONUMBER_OFFSET UNITYSDK_OFFSET(0x1EE6BDA0)
+#define SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_WCSLEN_OFFSET UNITYSDK_OFFSET(0x1EE6F320)
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int FormatProvider_Number_TypeDefinitionIndex = 3845;
-
 	class FormatProvider_Number : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_s_posNumberFormat()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FormatProvider_Number_TypeDefinitionIndex)->GetStaticField(0x80);
+			return (::System::String**)UnitySDK::FromName("System.Globalization", "Number")->GetStaticField(0x80);
 		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_s_posCurrencyFormats()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FormatProvider_Number_TypeDefinitionIndex)->GetStaticField(0x88);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Globalization", "Number")->GetStaticField(0x88);
 		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_s_posPercentFormats()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FormatProvider_Number_TypeDefinitionIndex)->GetStaticField(0x90);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Globalization", "Number")->GetStaticField(0x90);
 		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_s_negNumberFormats()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FormatProvider_Number_TypeDefinitionIndex)->GetStaticField(0x98);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Globalization", "Number")->GetStaticField(0x98);
 		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_s_negCurrencyFormats()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FormatProvider_Number_TypeDefinitionIndex)->GetStaticField(0xA0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Globalization", "Number")->GetStaticField(0xA0);
 		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_s_negPercentFormats()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FormatProvider_Number_TypeDefinitionIndex)->GetStaticField(0xA8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Globalization", "Number")->GetStaticField(0xA8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean IsWhite(::System::Char a1)
@@ -73,39 +76,39 @@ namespace System::Globalization
 			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_ISWHITE_OFFSET))(a1);
 		}
 
-		static ::System::Char* MatchChars(::System::Char* a1, ::System::String* a2)
+		static ::PVOID MatchChars(::PVOID a1, ::System::String* a2)
 		{
-			return ((::System::Char*(*)(::System::Char*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_OFFSET))(a1, a2);
+			return ((::PVOID(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Char* MatchChars_1(::System::Char* a1, ::System::Char* a2)
+		static ::PVOID MatchChars_1(::PVOID a1, ::PVOID a2)
 		{
-			return ((::System::Char*(*)(::System::Char*, ::System::Char*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_1_OFFSET))(a1, a2);
+			return ((::PVOID(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_MATCHCHARS_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean ParseNumber(::System::Char*& a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::FormatProvider_Number_NumberBuffer& a3, ::System::Text::StringBuilder* a4, ::System::Globalization::NumberFormatInfo* a5, ::System::Boolean a6)
+		static ::System::Boolean ParseNumber(::System::Object* a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::FormatProvider_Number_NumberBuffer a3, ::System::Text::StringBuilder* a4, ::System::Globalization::NumberFormatInfo* a5, ::System::Boolean a6)
 		{
-			return ((::System::Boolean(*)(::System::Char*&, ::System::Globalization::NumberStyles, ::System::Globalization::FormatProvider_Number_NumberBuffer&, ::System::Text::StringBuilder*, ::System::Globalization::NumberFormatInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSENUMBER_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::System::Object*, ::System::Globalization::NumberStyles, ::System::Globalization::FormatProvider_Number_NumberBuffer, ::System::Text::StringBuilder*, ::System::Globalization::NumberFormatInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSENUMBER_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean TrailingZeros(::System::ReadOnlySpan_1<::System::Char> a1, ::System::Int32 a2)
+		static ::System::Boolean TrailingZeros(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char> a1, ::System::Int32 a2)
 		{
-			return ((::System::Boolean(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRAILINGZEROS_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRAILINGZEROS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryStringToNumber(::System::ReadOnlySpan_1<::System::Char> a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::FormatProvider_Number_NumberBuffer& a3, ::System::Text::StringBuilder* a4, ::System::Globalization::NumberFormatInfo* a5, ::System::Boolean a6)
+		static ::System::Boolean TryStringToNumber(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char> a1, ::System::Globalization::NumberStyles a2, ::System::Globalization::FormatProvider_Number_NumberBuffer a3, ::System::Text::StringBuilder* a4, ::System::Globalization::NumberFormatInfo* a5, ::System::Boolean a6)
 		{
-			return ((::System::Boolean(*)(::System::ReadOnlySpan_1<::System::Char>, ::System::Globalization::NumberStyles, ::System::Globalization::FormatProvider_Number_NumberBuffer&, ::System::Text::StringBuilder*, ::System::Globalization::NumberFormatInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRYSTRINGTONUMBER_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Char>, ::System::Globalization::NumberStyles, ::System::Globalization::FormatProvider_Number_NumberBuffer, ::System::Text::StringBuilder*, ::System::Globalization::NumberFormatInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_TRYSTRINGTONUMBER_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void Int32ToDecChars(::System::Char* a1, ::System::Int32& a2, ::System::UInt32 a3, ::System::Int32 a4)
+		static ::System::Void Int32ToDecChars(::PVOID a1, ::System::Int32 a2, ::System::UInt32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::System::Char*, ::System::Int32&, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_INT32TODECCHARS_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_INT32TODECCHARS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Char ParseFormatSpecifier(::System::String* a1, ::System::Int32& a2)
+		static ::System::Char ParseFormatSpecifier(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Char(*)(::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSEFORMATSPECIFIER_OFFSET))(a1, a2);
+			return ((::System::Char(*)(::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_PARSEFORMATSPECIFIER_OFFSET))(a1, a2);
 		}
 
 		static ::System::String* NumberToString(::System::Globalization::FormatProvider_Number_NumberBuffer a1, ::System::Char a2, ::System::Int32 a3, ::System::Globalization::NumberFormatInfo* a4, ::System::Boolean a5)
@@ -118,9 +121,9 @@ namespace System::Globalization
 			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Globalization::FormatProvider_Number_NumberBuffer, ::System::Int32, ::System::Int32, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATCURRENCY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Int32 wcslen(::System::Char* a1)
+		static ::System::Int32 wcslen(::PVOID a1)
 		{
-			return ((::System::Int32(*)(::System::Char*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_WCSLEN_OFFSET))(a1);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_WCSLEN_OFFSET))(a1);
 		}
 
 		static ::System::Void FormatFixed(::System::Text::StringBuilder* a1, ::System::Globalization::FormatProvider_Number_NumberBuffer a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Globalization::NumberFormatInfo* a5, ::Il2CppArray<::System::Int32>* a6, ::System::String* a7, ::System::String* a8)
@@ -153,9 +156,9 @@ namespace System::Globalization
 			return ((::System::Void(*)(::System::Text::StringBuilder*, ::System::Globalization::FormatProvider_Number_NumberBuffer, ::System::Int32, ::System::Int32, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_FORMATPERCENT_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void RoundNumber(::System::Globalization::FormatProvider_Number_NumberBuffer& a1, ::System::Int32 a2)
+		static ::System::Void RoundNumber(::System::Globalization::FormatProvider_Number_NumberBuffer a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Globalization::FormatProvider_Number_NumberBuffer&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_ROUNDNUMBER_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Globalization::FormatProvider_Number_NumberBuffer, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_ROUNDNUMBER_OFFSET))(a1, a2);
 		}
 
 		static ::System::Int32 FindSection(::System::String* a1, ::System::Int32 a2)
@@ -167,5 +170,6 @@ namespace System::Globalization
 		{
 			return ((::System::String*(*)(::System::Globalization::FormatProvider_Number_NumberBuffer, ::System::String*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FORMATPROVIDER_NUMBER_NUMBERTOSTRINGFORMAT_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

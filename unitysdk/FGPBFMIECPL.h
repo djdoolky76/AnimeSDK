@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class ODCELNBAEIB;
+namespace System { class Action; }
+
+#define FGPBFMIECPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1576E860)
+#define FGPBFMIECPL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1576E980)
+#define FGPBFMIECPL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1576E8E0)
+#define FGPBFMIECPL_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x1576E940)
+#define FGPBFMIECPL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1576E870)
+
+	class FGPBFMIECPL : public ::System::Object
+	{
+	public:
+		::System::Action* PEIHJAEIGHK; // 0x10
+		::System::Void _ctor(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + FGPBFMIECPL_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void NPAFMEBNFOB(::ODCELNBAEIB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::ODCELNBAEIB*))((::PBYTE)hIl2Cpp + FGPBFMIECPL_NPAFMEBNFOB_OFFSET))(this, a1);
+		}
+
+		::System::Void JLANKNHFKCN(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + FGPBFMIECPL_JLANKNHFKCN_OFFSET))(this, a1);
+		}
+
+		::System::Boolean KAGICIAJEEA()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FGPBFMIECPL_KAGICIAJEEA_OFFSET))(this);
+		}
+
+		::System::Void HADOHLNHHGB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FGPBFMIECPL_HADOHLNHHGB_OFFSET))(this);
+		}
+
+	};

@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsTurnOwnerEntity; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_37B2D31618B9F74F_OFFSET UNITYSDK_OFFSET(0x1CF4F890)
-#define RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_76FE51661FEE2E04_OFFSET UNITYSDK_OFFSET(0x1CF4FA80)
-#define RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_E60DC3D43181C9FE_OFFSET UNITYSDK_OFFSET(0x1CF4F8D0)
-#define RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_FBCDEE83C2889BEA_OFFSET UNITYSDK_OFFSET(0x1CF4FA50)
-#define RPG_GAMECORE_BYISTURNOWNERENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF4F8C0)
+#define RPG_GAMECORE_BYISTURNOWNERENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D529250)
+#define RPG_GAMECORE_BYISTURNOWNERENTITY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D529410)
+#define RPG_GAMECORE_BYISTURNOWNERENTITY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D5293E0)
+#define RPG_GAMECORE_BYISTURNOWNERENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D529260)
+#define RPG_GAMECORE_BYISTURNOWNERENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D529220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsTurnOwnerEntity_TypeDefinitionIndex = 22727;
-
 	class ByIsTurnOwnerEntity : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_37B2D31618B9F74F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsTurnOwnerEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsTurnOwnerEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsTurnOwnerEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_37B2D31618B9F74F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsTurnOwnerEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E60DC3D43181C9FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsTurnOwnerEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsTurnOwnerEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsTurnOwnerEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_E60DC3D43181C9FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsTurnOwnerEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FBCDEE83C2889BEA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTurnOwnerEntity*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTurnOwnerEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTurnOwnerEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_FBCDEE83C2889BEA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTurnOwnerEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_76FE51661FEE2E04(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTurnOwnerEntity* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTurnOwnerEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTurnOwnerEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_METHOD_4_76FE51661FEE2E04_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTurnOwnerEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTURNOWNERENTITY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

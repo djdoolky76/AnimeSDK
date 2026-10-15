@@ -2,20 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ProBuilder/SimpleTuple_2.h"
-
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS_COLLAPSECOINCIDENTVERTICES_OFFSET UNITYSDK_OFFSET(0x1EB69C80)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS_MERGEPAIRS_OFFSET UNITYSDK_OFFSET(0x1EB692F0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS_MERGE_OFFSET UNITYSDK_OFFSET(0x1EB6A440)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS_COLLAPSECOINCIDENTVERTICES_OFFSET UNITYSDK_OFFSET(0x1F2311E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS_MERGEPAIRS_OFFSET UNITYSDK_OFFSET(0x1F230850)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS_MERGE_OFFSET UNITYSDK_OFFSET(0x1F2319A0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MergeElements_TypeDefinitionIndex = 43309;
-
 	class MergeElements : public ::System::Object
 	{
 	public:
@@ -33,5 +30,6 @@ namespace UnityEngine::ProBuilder::MeshOperations
 		{
 			return ((::System::Void(*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_MERGEELEMENTS_COLLAPSECOINCIDENTVERTICES_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Spine { class Event; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E62DD90)
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E62DDC0)
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E62DD80)
-#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E62DC90)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF5EA0)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF5DA0)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF5ED0)
+#define SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF5E90)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineEventDelegate_TypeDefinitionIndex = 44766;
-
 	class SpineEventDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Event* a1)
@@ -38,5 +35,6 @@ namespace Spine::Unity::Playables
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEEVENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

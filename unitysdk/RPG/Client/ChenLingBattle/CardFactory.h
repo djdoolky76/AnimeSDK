@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xCAECB70)
-#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET UNITYSDK_OFFSET(0xCAECB20)
+#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xCA3B840)
+#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET UNITYSDK_OFFSET(0xCA3B7F0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int CardFactory_TypeDefinitionIndex = 75747;
-
 	class CardFactory : public ::System::Object
 	{
 	public:
@@ -25,5 +22,6 @@ namespace RPG::Client::ChenLingBattle
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::ChenLingBattle::CardConfig*>*(*)(::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET))(a1);
 		}
+
 	};
 }

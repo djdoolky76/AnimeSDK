@@ -3,8 +3,6 @@
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATControllerBase_DrawMode_TypeDefinitionIndex = 73560;
-
 	enum class BATControllerBase_DrawMode : ::System::Int32
 	{
 		DrawMesh = 0,

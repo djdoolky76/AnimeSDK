@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace MiHoYo::SDK { class HoYoSDKHttpDnsService_HttpDnsPersistentObject; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSPERSISTENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB1FC9D0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSPERSISTENTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA40D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsPersistentInfo_TypeDefinitionIndex = 46550;
-
 	class HoYoSDKHttpDnsService_HttpDnsPersistentInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::HoYoSDKHttpDnsService_HttpDnsPersistentObject*>* dns; // 0x10
-
+		::System::Collections::Generic::List_1<::System::Object*>* dns; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSPERSISTENTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPDNSPERSISTENTINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,38 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define SWRT_AABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3B80D70)
-#define SWRT_AABB_GET_EXTENDS_OFFSET UNITYSDK_OFFSET(0x3B80DB0)
-#define SWRT_AABB_GET_MAX_OFFSET UNITYSDK_OFFSET(0x25500)
-#define SWRT_AABB_GET_MIN_OFFSET UNITYSDK_OFFSET(0x254E0)
-#define SWRT_AABB_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x3B7EEA0)
-#define SWRT_AABB_SET_MAX_OFFSET UNITYSDK_OFFSET(0x737EB0)
-#define SWRT_AABB_SET_MIN_OFFSET UNITYSDK_OFFSET(0x21254D0)
-#define SWRT_AABB_SURFACEAREA_OFFSET UNITYSDK_OFFSET(0x3B80FC0)
-#define SWRT_AABB_UNION_1_OFFSET UNITYSDK_OFFSET(0x1C6F8E10)
-#define SWRT_AABB_UNION_OFFSET UNITYSDK_OFFSET(0x3B80F70)
-#define SWRT_AABB__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B80E90)
-#define SWRT_AABB__CTOR_OFFSET UNITYSDK_OFFSET(0x3B80DF0)
+#define SWRT_AABB_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C35C50)
+#define SWRT_AABB_CTOR_OFFSET UNITYSDK_OFFSET(0x3C35BB0)
+#define SWRT_AABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3C35B30)
+#define SWRT_AABB_GET_EXTENDS_OFFSET UNITYSDK_OFFSET(0x3C35B70)
+#define SWRT_AABB_GET_MAX_OFFSET UNITYSDK_OFFSET(0x1690)
+#define SWRT_AABB_GET_MIN_OFFSET UNITYSDK_OFFSET(0x1670)
+#define SWRT_AABB_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x3C33C60)
+#define SWRT_AABB_SET_MAX_OFFSET UNITYSDK_OFFSET(0x1C7220)
+#define SWRT_AABB_SET_MIN_OFFSET UNITYSDK_OFFSET(0x202EFC0)
+#define SWRT_AABB_SURFACEAREA_OFFSET UNITYSDK_OFFSET(0x3C35D80)
+#define SWRT_AABB_UNION_1_OFFSET UNITYSDK_OFFSET(0x1CC80460)
+#define SWRT_AABB_UNION_OFFSET UNITYSDK_OFFSET(0x3C35D30)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int AABB_TypeDefinitionIndex = 36805;
-
 	struct alignas(4) AABB
 	{
 		::UnityEngine::Vector3 _Min_k__BackingField; // 0x10
 		::UnityEngine::Vector3 _Max_k__BackingField; // 0x1C
-
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + SWRT_AABB__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + SWRT_AABB_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + SWRT_AABB__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + SWRT_AABB_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 get_Min()
@@ -70,19 +66,24 @@ namespace SWRT
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + SWRT_AABB_GET_SIZE_OFFSET))(this);
 		}
 
+		/*
 		::System::Void Union(::SWRT::AABB a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::SWRT::AABB))((::PBYTE)hIl2Cpp + SWRT_AABB_UNION_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		static ::SWRT::AABB Union_1(::SWRT::AABB a1, ::SWRT::AABB a2)
 		{
 			return ((::SWRT::AABB(*)(::SWRT::AABB, ::SWRT::AABB))((::PBYTE)hIl2Cpp + SWRT_AABB_UNION_1_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::Single SurfaceArea()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SWRT_AABB_SURFACEAREA_OFFSET))(this);
 		}
+
 	};
 }

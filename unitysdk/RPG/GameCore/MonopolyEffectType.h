@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyEffectType_TypeDefinitionIndex = 11948;
-
 	enum class MonopolyEffectType : ::System::Int32
 	{
 		None = 0,

@@ -4,120 +4,119 @@
 #include "unitysdk/RPG/GameCore/AdventureBehaviorClampAlertLevel.h"
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/AdventureModifierEvent.h"
-#include "unitysdk/RPG/GameCore/AdventureModifierInstance_StackPropertySlot.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/BaseModifierInstance.h"
 #include "unitysdk/RPG/GameCore/EffectMutexType.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ModifierDeathSource.h"
 #include "unitysdk/RPG/GameCore/ModifierHitEffectStacking.h"
 #include "unitysdk/RPG/GameCore/MonoEffectFlag.h"
 #include "unitysdk/RPG/GameCore/MonsterRank.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/MVector3.h"
-#include "unitysdk/System/Nullable_1.h"
-
-class Class_1_43BD383C98B4C0C5_131;
-class Class_1_5469D397DAE62876;
-class Class_1_A2D8E5AB4B623162;
-class Class_3_07C3C4D2990C49EE;
+class HPICNGFLLCA;
+class KFELGAIGHAP;
+class LPNPMKNMMOK;
+class PAJHIBDCGDG;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class AdventureModifierConfig; }
 namespace RPG::GameCore { class AdventureModifierInitParams; }
+namespace RPG::GameCore { class AdventureModifierInstance; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 namespace RPG::GameCore { class DynamicVector3; }
 namespace RPG::GameCore { class GameComponentBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskConfig; }
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDADVFEATUREPARAM_OFFSET UNITYSDK_OFFSET(0xE4E45A0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDGLOBALWEAKNESS_OFFSET UNITYSDK_OFFSET(0xE4E4410)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDUNSTACKMODIFIER_OFFSET UNITYSDK_OFFSET(0xE4E41E0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ATTACHEFFECT_OFFSET UNITYSDK_OFFSET(0xE4DF8C0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0xE4E3C70)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DESTROY_OFFSET UNITYSDK_OFFSET(0xE4E2F30)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DETACHEFFECT_OFFSET UNITYSDK_OFFSET(0xE4E0190)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE4E2CA0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_EXECUTEEVENT_OFFSET UNITYSDK_OFFSET(0xE4E3830)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GENADVENTUREMODIFIERINSTANCEID_OFFSET UNITYSDK_OFFSET(0xE4E2C50)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETADVFEATUREPARAM_OFFSET UNITYSDK_OFFSET(0xE4E4660)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETOWNERABILITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0xE4E1580)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETOWNER_OFFSET UNITYSDK_OFFSET(0xE4E3070)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CASTER_OFFSET UNITYSDK_OFFSET(0xE4E0130)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE4E4830)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CURRENTLIFE_OFFSET UNITYSDK_OFFSET(0xE4E4050)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_ISCOUNTDOWNAFTERBATTLE_OFFSET UNITYSDK_OFFSET(0xE4E4810)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xE4E4740)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_OVERRIDEALERTLEVEL_OFFSET UNITYSDK_OFFSET(0xE4E4840)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_HASEVENT_OFFSET UNITYSDK_OFFSET(0xE4E3C00)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONACTIVATE_OFFSET UNITYSDK_OFFSET(0xE4E3680)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONADDED_OFFSET UNITYSDK_OFFSET(0xE4E39F0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONMODIFIERCASTERCHANGED_OFFSET UNITYSDK_OFFSET(0xE4E3A60)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONSTACK_OFFSET UNITYSDK_OFFSET(0xE4E38C0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_OVERRIDEBEHAVIORFLAGPARAM_OFFSET UNITYSDK_OFFSET(0xE4E4540)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_OVERRIDEONHITEFFECT_OFFSET UNITYSDK_OFFSET(0xE4DF7D0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REATTACHEFFECTTARGET_OFFSET UNITYSDK_OFFSET(0xE4E0950)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REMOVEUNSTACKMODIFIER_OFFSET UNITYSDK_OFFSET(0xE4E4300)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SETMODIFIERCLIENTONLY_OFFSET UNITYSDK_OFFSET(0xE4E4190)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_CURRENTLIFE_OFFSET UNITYSDK_OFFSET(0xE4E2BD0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xE4E4750)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_OVERRIDEALERTLEVEL_OFFSET UNITYSDK_OFFSET(0xE4E4850)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_STACKPROPERTY_OFFSET UNITYSDK_OFFSET(0xE4E40B0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_TICK_OFFSET UNITYSDK_OFFSET(0xE4E3D00)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_UNSTACK_OFFSET UNITYSDK_OFFSET(0xE4E3AB0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__BINDBEHAVIORFLAGEFFECTS_OFFSET UNITYSDK_OFFSET(0xE4E1730)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0xE4E22A0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__EVALUATEMVECTOR3_OFFSET UNITYSDK_OFFSET(0xE4E15D0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__ONASYNCLOADEFFECTFINISH_OFFSET UNITYSDK_OFFSET(0xE4E20F0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__ONMODIFIERDESTROY_OFFSET UNITYSDK_OFFSET(0xE4E30D0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__POPSTACKEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0xE4E3B00)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__SETUPSEQUENCE_OFFSET UNITYSDK_OFFSET(0xE4E2AB0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRIGGEREFFECT_OFFSET UNITYSDK_OFFSET(0xE4E1D60)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYATTACHMUTEXEFFECTS_OFFSET UNITYSDK_OFFSET(0xE4E0F20)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYREMOVEASYNCLOADINGEFFECT_OFFSET UNITYSDK_OFFSET(0xE4E04C0)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYUPDATEASYNCLOADINGEFFECTTARGET_OFFSET UNITYSDK_OFFSET(0xE4E0C70)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDADVFEATUREPARAM_OFFSET UNITYSDK_OFFSET(0xE574B80)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDGLOBALWEAKNESS_OFFSET UNITYSDK_OFFSET(0xE5749E0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDUNSTACKMODIFIER_OFFSET UNITYSDK_OFFSET(0xE54AD20)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ATTACHEFFECT_OFFSET UNITYSDK_OFFSET(0xE570D60)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_CONTAINSBEHAVIORFLAG_OFFSET UNITYSDK_OFFSET(0xE545C00)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xE5443F0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DESTROY_OFFSET UNITYSDK_OFFSET(0xE543800)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DETACHEFFECT_OFFSET UNITYSDK_OFFSET(0xE5715E0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5738B0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_EXECUTEEVENT_OFFSET UNITYSDK_OFFSET(0xE5458E0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GENADVENTUREMODIFIERINSTANCEID_OFFSET UNITYSDK_OFFSET(0xE573860)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETADVFEATUREPARAM_OFFSET UNITYSDK_OFFSET(0xE574C40)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETOWNERABILITYCOMPONENT_OFFSET UNITYSDK_OFFSET(0xE572A00)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETOWNER_OFFSET UNITYSDK_OFFSET(0xE573B40)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CASTER_OFFSET UNITYSDK_OFFSET(0xE545C90)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE574D50)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CURRENTLIFE_OFFSET UNITYSDK_OFFSET(0xE543490)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_ISCOUNTDOWNAFTERBATTLE_OFFSET UNITYSDK_OFFSET(0xE574D30)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xE574D20)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_OVERRIDEALERTLEVEL_OFFSET UNITYSDK_OFFSET(0xE574D60)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_HASEVENT_OFFSET UNITYSDK_OFFSET(0xE574540)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONACTIVATE_OFFSET UNITYSDK_OFFSET(0xE574050)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONADDED_OFFSET UNITYSDK_OFFSET(0xE574330)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONMODIFIERCASTERCHANGED_OFFSET UNITYSDK_OFFSET(0xE5743A0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ONSTACK_OFFSET UNITYSDK_OFFSET(0xE574200)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_OVERRIDEBEHAVIORFLAGPARAM_OFFSET UNITYSDK_OFFSET(0xE574B20)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_OVERRIDEONHITEFFECT_OFFSET UNITYSDK_OFFSET(0xE570C70)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REATTACHEFFECTTARGET_OFFSET UNITYSDK_OFFSET(0xE571DA0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REMOVEUNSTACKMODIFIER_OFFSET UNITYSDK_OFFSET(0xE54B060)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SETMODIFIERCLIENTONLY_OFFSET UNITYSDK_OFFSET(0xE5434F0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_CURRENTLIFE_OFFSET UNITYSDK_OFFSET(0xE543410)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xE543540)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_OVERRIDEALERTLEVEL_OFFSET UNITYSDK_OFFSET(0xE574D70)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_STACKPROPERTY_OFFSET UNITYSDK_OFFSET(0xE574900)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_TICK_OFFSET UNITYSDK_OFFSET(0xE5745B0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_UNSTACK_OFFSET UNITYSDK_OFFSET(0xE5743F0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__BINDBEHAVIORFLAGEFFECTS_OFFSET UNITYSDK_OFFSET(0xE572BB0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__EVALUATEMVECTOR3_OFFSET UNITYSDK_OFFSET(0xE572A50)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__ONASYNCLOADEFFECTFINISH_OFFSET UNITYSDK_OFFSET(0xE573570)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__ONMODIFIERDESTROY_OFFSET UNITYSDK_OFFSET(0xE573BA0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__POPSTACKEDPROPERTIES_OFFSET UNITYSDK_OFFSET(0xE574440)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__SETUPSEQUENCE_OFFSET UNITYSDK_OFFSET(0xE573740)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRIGGEREFFECT_OFFSET UNITYSDK_OFFSET(0xE5731E0)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYATTACHMUTEXEFFECTS_OFFSET UNITYSDK_OFFSET(0xE572370)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYREMOVEASYNCLOADINGEFFECT_OFFSET UNITYSDK_OFFSET(0xE571910)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYUPDATEASYNCLOADINGEFFECTTARGET_OFFSET UNITYSDK_OFFSET(0xE5720C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierInstance_TypeDefinitionIndex = 54624;
-
 	class AdventureModifierInstance : public ::RPG::GameCore::BaseModifierInstance
 	{
 	public:
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BindingAffectedEntities; // 0xA0
+		::System::Collections::Generic::List_1<::RPG::GameCore::AdventureModifierInstance*>* _UnStackByModifierList; // 0xA8
+		::RPG::GameCore::GameEntity* _SpecifiedCaster; // 0xB0
+		::RPG::GameCore::AdventureAbilityComponent* _OwnerAbilityComponent; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AdventureModifierBehaviorFlag, ::PAJHIBDCGDG*>* _FeatureParams; // 0xC0
+		::RPG::GameCore::AdventureModifierConfig* _ConfigRef; // 0xC8
+		::KFELGAIGHAP* _ModifierTaskList; // 0xD0
+		::Il2CppArray<::KFELGAIGHAP*>* _EventSequenceArr; // 0xD8
+		::System::Collections::Generic::List_1<::System::Object*>* _StackPropertyList; // 0xE0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* _AsycLoadingEffects; // 0xE8
+		::System::UInt32 BuffID; // 0xF0
+		::System::Int32 _HitEffectOverride; // 0xF4
+		::System::Single InitLifeTime; // 0xF8
+		::System::Nullable* _OverrideAlertLevel_k__BackingField; // 0xFC
+		::System::UInt32 SkillSeqID; // 0x104
+		::System::Boolean _AddGlobalWeakness; // 0x108
+		::System::Boolean ServerSynced; // 0x109
+		::System::Boolean IsClientOnly; // 0x10A
+		::System::Byte _padding0[0x1];
+		::System::Single _LifeLimitation; // 0x10C
+		::System::UInt32 _Level; // 0x110
+		::RPG::GameCore::ModifierHitEffectStacking _HitEffectStacking; // 0x114
+		::System::Single _LifeAccumulated; // 0x118
+		::System::UInt32 ModifierInstanceID; // 0x11C
 		static ::System::UInt32* StaticGet_AdventureModifierInstanceCount()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(AdventureModifierInstance_TypeDefinitionIndex)->GetStaticField(0x140B0);
+			return (::System::UInt32*)UnitySDK::FromName("RPG.GameCore", "AdventureModifierInstance")->GetStaticField(0x2140);
 		}
-		::Il2CppArray<::Class_3_07C3C4D2990C49EE*>* _EventSequenceArr; // 0xA0
-		::RPG::GameCore::GameEntity* _SpecifiedCaster; // 0xA8
-		::RPG::GameCore::AdventureAbilityComponent* _OwnerAbilityComponent; // 0xB0
-		::Class_3_07C3C4D2990C49EE* _ModifierTaskList; // 0xB8
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BindingAffectedEntities; // 0xC0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AdventureModifierBehaviorFlag, ::Class_1_43BD383C98B4C0C5_131*>* _FeatureParams; // 0xC8
-		::RPG::GameCore::AdventureModifierConfig* _ConfigRef; // 0xD0
-		::System::Collections::Generic::List_1<::RPG::GameCore::AdventureModifierInstance_StackPropertySlot>* _StackPropertyList; // 0xD8
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* _AsycLoadingEffects; // 0xE0
-		::System::Collections::Generic::List_1<::RPG::GameCore::AdventureModifierInstance*>* _UnStackByModifierList; // 0xE8
-		::System::Int32 _HitEffectOverride; // 0xF0
-		::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel> _OverrideAlertLevel_k__BackingField; // 0xF4
-		::RPG::GameCore::ModifierHitEffectStacking _HitEffectStacking; // 0xFC
-		::System::Boolean ServerSynced; // 0x100
-		::System::Boolean IsClientOnly; // 0x101
-		::System::Boolean _AddGlobalWeakness; // 0x102
-		::System::UInt32 _Level; // 0x104
-		::System::Single _LifeAccumulated; // 0x108
-		::System::UInt32 SkillSeqID; // 0x10C
-		::System::UInt32 ModifierInstanceID; // 0x110
-		::System::UInt32 BuffID; // 0x114
-		::System::Single InitLifeTime; // 0x118
-		::System::Single _LifeLimitation; // 0x11C
 
-		::System::Void _ctor(::System::String* a1, ::RPG::GameCore::AdventureModifierConfig* a2, ::RPG::GameCore::AdventureAbilityComponent* a3, ::Class_1_A2D8E5AB4B623162* a4, ::System::UInt32 a5, ::RPG::GameCore::AdventureModifierInitParams* a6, ::RPG::GameCore::GameEntity* a7)
+		::System::Void _ctor(::System::String* a1, ::RPG::GameCore::AdventureModifierConfig* a2, ::RPG::GameCore::AdventureAbilityComponent* a3, ::HPICNGFLLCA* a4, ::System::UInt32 a5, ::RPG::GameCore::AdventureModifierInitParams* a6, ::RPG::GameCore::GameEntity* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::AdventureModifierConfig*, ::RPG::GameCore::AdventureAbilityComponent*, ::Class_1_A2D8E5AB4B623162*, ::System::UInt32, ::RPG::GameCore::AdventureModifierInitParams*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::AdventureModifierConfig*, ::RPG::GameCore::AdventureAbilityComponent*, ::HPICNGFLLCA*, ::System::UInt32, ::RPG::GameCore::AdventureModifierInitParams*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void OverrideOnHitEffect(::System::String* a1, ::System::Int32 a2, ::System::Boolean a3, ::RPG::MVector3 a4, ::RPG::GameCore::ModifierHitEffectStacking a5)
@@ -135,14 +134,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_DETACHEFFECT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ReattachEffectTarget(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::System::Nullable_1<::RPG::MVector3> a3)
+		::System::Void ReattachEffectTarget(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::System::Nullable* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Nullable_1<::RPG::MVector3>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REATTACHEFFECTTARGET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_REATTACHEFFECTTARGET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _TryAttachMutexEffects(::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>* a1, ::System::Boolean a2)
+		::System::Void _TryAttachMutexEffects(::System::Collections::Generic::List_1<::System::Object*>* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::BaseModifierInstance_ModifierEffectData*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYATTACHMUTEXEFFECTS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE__TRYATTACHMUTEXEFFECTS_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::MVector3 _EvaluateMVector3(::RPG::GameCore::DynamicVector3* a1)
@@ -225,9 +224,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::AdventureModifierEvent))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_HASEVENT_OFFSET))(this, a1);
 		}
 
-		::System::Void ExecuteEvent(::RPG::GameCore::AdventureModifierEvent a1, ::Class_1_5469D397DAE62876* a2, ::System::Boolean a3)
+		::System::Void ExecuteEvent(::RPG::GameCore::AdventureModifierEvent a1, ::LPNPMKNMMOK* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdventureModifierEvent, ::Class_1_5469D397DAE62876*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_EXECUTEEVENT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdventureModifierEvent, ::LPNPMKNMMOK*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_EXECUTEEVENT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean ContainsBehaviorFlag(::RPG::GameCore::AdventureModifierBehaviorFlag a1)
@@ -275,14 +274,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdventureBehaviorClampAlertLevel))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_OVERRIDEBEHAVIORFLAGPARAM_OFFSET))(this, a1);
 		}
 
-		::System::Void AddAdvFeatureParam(::RPG::GameCore::AdventureModifierBehaviorFlag a1, ::Class_1_43BD383C98B4C0C5_131* a2)
+		::System::Void AddAdvFeatureParam(::RPG::GameCore::AdventureModifierBehaviorFlag a1, ::PAJHIBDCGDG* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdventureModifierBehaviorFlag, ::Class_1_43BD383C98B4C0C5_131*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDADVFEATUREPARAM_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AdventureModifierBehaviorFlag, ::PAJHIBDCGDG*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_ADDADVFEATUREPARAM_OFFSET))(this, a1, a2);
 		}
 
-		::Class_1_43BD383C98B4C0C5_131* GetAdvFeatureParam(::RPG::GameCore::AdventureModifierBehaviorFlag a1)
+		::PAJHIBDCGDG* GetAdvFeatureParam(::RPG::GameCore::AdventureModifierBehaviorFlag a1)
 		{
-			return ((::Class_1_43BD383C98B4C0C5_131*(*)(::PVOID, ::RPG::GameCore::AdventureModifierBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETADVFEATUREPARAM_OFFSET))(this, a1);
+			return ((::PAJHIBDCGDG*(*)(::PVOID, ::RPG::GameCore::AdventureModifierBehaviorFlag))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GETADVFEATUREPARAM_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnModifierDestroy()
@@ -335,14 +334,15 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_CASTER_OFFSET))(this);
 		}
 
-		::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel> get_OverrideAlertLevel()
+		::System::Nullable* get_OverrideAlertLevel()
 		{
-			return ((::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_OVERRIDEALERTLEVEL_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_GET_OVERRIDEALERTLEVEL_OFFSET))(this);
 		}
 
-		::System::Void set_OverrideAlertLevel(::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel> a1)
+		::System::Void set_OverrideAlertLevel(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::AdventureBehaviorClampAlertLevel>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_OVERRIDEALERTLEVEL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFIERINSTANCE_SET_OVERRIDEALERTLEVEL_OFFSET))(this, a1);
 		}
+
 	};
 }

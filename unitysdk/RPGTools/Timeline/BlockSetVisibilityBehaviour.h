@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class BlockSetVisibilityClip; }
 
-#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE81DBD0)
-#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE81DBF0)
-#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE81DBE0)
-#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE81E0A0)
+#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BBBB0)
+#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8BB6E0)
+#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8BB700)
+#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8BB6F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BlockSetVisibilityBehaviour_TypeDefinitionIndex = 48333;
-
 	class BlockSetVisibilityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::BlockSetVisibilityClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::BlockSetVisibilityClip* get_Clip()
@@ -39,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

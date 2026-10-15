@@ -2,60 +2,60 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnviromentSystemV2Space/PrefabPropertyComponent.h"
 #include "unitysdk/ScenenLightManager/FadingState.h"
-
-class Class_1_C7C4EDD02A4426B2;
+class HGEGFCADEEC;
 namespace EnviromentSystemV2Space { class AtmosphereCelestial; }
 namespace System { class String; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0x15345D70)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x15345960)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_GETALLCELESTIALS_OFFSET UNITYSDK_OFFSET(0x15345A50)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0x15345F00)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x15345C30)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x15345C80)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x15345BD0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_REFRESHCELESTIALS_OFFSET UNITYSDK_OFFSET(0x153459B0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_REFRESHOBSERVER_OFFSET UNITYSDK_OFFSET(0x15345B30)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x15345EC0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x15345CD0)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15345F80)
-#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15345F50)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_APPLY_OFFSET UNITYSDK_OFFSET(0x15634D90)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x15634980)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x15634F90)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x15634F70)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_GETALLCELESTIALS_OFFSET UNITYSDK_OFFSET(0x15634A70)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_INIT_OFFSET UNITYSDK_OFFSET(0x15634F20)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_ONFADINGBEGIN_OFFSET UNITYSDK_OFFSET(0x15634C50)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x15634CA0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_ONFADING_OFFSET UNITYSDK_OFFSET(0x15634BF0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_REFRESHCELESTIALS_OFFSET UNITYSDK_OFFSET(0x156349D0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_REFRESHOBSERVER_OFFSET UNITYSDK_OFFSET(0x15634B50)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_RELEASE_OFFSET UNITYSDK_OFFSET(0x15634EE0)
+#define ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x15634CF0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int ES_CelestialComponent_TypeDefinitionIndex = 49724;
-
 	class ES_CelestialComponent : public ::EnviromentSystemV2Space::PrefabPropertyComponent
 	{
 	public:
-		static ::System::Int32* StaticGet_CelestialSphere2ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_CelestialComponent_TypeDefinitionIndex)->GetStaticField(0x14C90);
-		}
-		static ::System::Int32* StaticGet_CelestialSphere0ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_CelestialComponent_TypeDefinitionIndex)->GetStaticField(0x14C94);
-		}
-		static ::System::Int32* StaticGet_CelestialSphere3ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_CelestialComponent_TypeDefinitionIndex)->GetStaticField(0x14C98);
-		}
-		static ::System::Int32* StaticGet_CelestialSphere1ID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ES_CelestialComponent_TypeDefinitionIndex)->GetStaticField(0x14C9C);
-		}
 		::System::String* bindSolarSystemName; // 0x18
 		::Il2CppArray<::EnviromentSystemV2Space::AtmosphereCelestial*>* ONELHBDGIEN; // 0x20
+		static ::System::Int32* StaticGet_CelestialSphere3ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_CelestialComponent")->GetStaticField(0x13990);
+		}
+
+		static ::System::Int32* StaticGet_CelestialSphere0ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_CelestialComponent")->GetStaticField(0x13994);
+		}
+
+		static ::System::Int32* StaticGet_CelestialSphere1ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_CelestialComponent")->GetStaticField(0x13998);
+		}
+
+		static ::System::Int32* StaticGet_CelestialSphere2ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystemV2Space", "ES_CelestialComponent")->GetStaticField(0x1399C);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -73,9 +73,9 @@ namespace EnviromentSystemV2Space
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_REFRESHCELESTIALS_OFFSET))(this);
 		}
 
-		::System::Void RefreshObserver(::Class_1_C7C4EDD02A4426B2* a1)
+		::System::Void RefreshObserver(::HGEGFCADEEC* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_C7C4EDD02A4426B2*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_REFRESHOBSERVER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::HGEGFCADEEC*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_REFRESHOBSERVER_OFFSET))(this, a1);
 		}
 
 		::System::Void OnFading(::System::Single a1, ::ScenenLightManager::FadingState a2)
@@ -112,5 +112,6 @@ namespace EnviromentSystemV2Space
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ES_CELESTIALCOMPONENT_INIT_OFFSET))(this, a1);
 		}
+
 	};
 }

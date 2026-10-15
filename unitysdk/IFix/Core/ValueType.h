@@ -3,8 +3,6 @@
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ValueType_TypeDefinitionIndex = 10049;
-
 	enum class ValueType : ::System::Int32
 	{
 		Integer = 0,

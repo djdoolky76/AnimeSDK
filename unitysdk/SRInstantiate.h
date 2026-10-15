@@ -1,20 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
-#include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define SRINSTANTIATE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1E6BB410)
+#define SRINSTANTIATE_INSTANTIATE_1_OFFSET UNITYSDK_OFFSET(0x1ED83130)
 
-inline static constexpr unsigned int SRInstantiate_TypeDefinitionIndex = 34682;
-
-class SRInstantiate : public ::System::Object
-{
-public:
-	static ::UnityEngine::GameObject* Instantiate(::UnityEngine::GameObject* a1)
+	class SRInstantiate : public ::System::Object
 	{
-		return ((::UnityEngine::GameObject*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + SRINSTANTIATE_INSTANTIATE_OFFSET))(a1);
-	}
-};
+	public:
+		static ::UnityEngine::GameObject* Instantiate_1(::UnityEngine::GameObject* a1)
+		{
+			return ((::UnityEngine::GameObject*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + SRINSTANTIATE_INSTANTIATE_1_OFFSET))(a1);
+		}
+
+	};

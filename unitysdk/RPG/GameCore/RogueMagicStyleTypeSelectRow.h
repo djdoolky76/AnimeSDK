@@ -3,34 +3,32 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/RogueMagicStyleType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueMagicStyleTypeSelectRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3F06C0)
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F0E10)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D7580)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D6E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 14731;
-
 	class RogueMagicStyleTypeSelectRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID EnumDesc; // 0x18
-		::System::UInt32 UnlockID; // 0x28
-		::RPG::GameCore::RogueMagicStyleType EnumType; // 0x2C
-		::System::UInt32 DisplayID; // 0x30
-
+		::System::UInt32 DisplayID; // 0x18
+		::RPG::GameCore::RogueMagicStyleType EnumType; // 0x1C
+		::RPG::Client::TextID EnumDesc; // 0x20
+		::System::UInt32 UnlockID; // 0x30
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueMagicStyleTypeSelectRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueMagicStyleTypeSelectRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueMagicStyleTypeSelectRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueMagicStyleTypeSelectRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

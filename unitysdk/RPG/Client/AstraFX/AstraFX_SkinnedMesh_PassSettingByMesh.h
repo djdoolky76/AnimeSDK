@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AstraFX/AstraFX_SkinnedMesh_ThreadGroupsByMesh.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH_GET_THREADGROUPSEXPLANATION_OFFSET UNITYSDK_OFFSET(0xC788450)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH_GET_VALID_OFFSET UNITYSDK_OFFSET(0xC7883E0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH__CTOR_OFFSET UNITYSDK_OFFSET(0xC788790)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A69A0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH_GET_THREADGROUPSEXPLANATION_OFFSET UNITYSDK_OFFSET(0xC6A6620)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH_GET_VALID_OFFSET UNITYSDK_OFFSET(0xC6A65B0)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFX_SkinnedMesh_PassSettingByMesh_TypeDefinitionIndex = 73587;
-
 	class AstraFX_SkinnedMesh_PassSettingByMesh : public ::System::Object
 	{
 	public:
@@ -23,10 +20,9 @@ namespace RPG::Client::AstraFX
 		::System::Single ThreadGroupsBase; // 0x24
 		::System::Single ThreadGroupsScale; // 0x28
 		::System::Single ThreadGroupsOffset; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_ThreadGroupsExplanation()
@@ -38,5 +34,6 @@ namespace RPG::Client::AstraFX
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH_PASSSETTINGBYMESH_GET_VALID_OFFSET))(this);
 		}
+
 	};
 }

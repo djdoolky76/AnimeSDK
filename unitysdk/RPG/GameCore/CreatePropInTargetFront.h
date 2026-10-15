@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/GameCore/CampType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CreatePropInTargetFront; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_7823DF2BE303CF00_OFFSET UNITYSDK_OFFSET(0x1D009470)
-#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_E87B6F2F5B08E054_OFFSET UNITYSDK_OFFSET(0x1D009640)
-#define RPG_GAMECORE_CREATEPROPINTARGETFRONT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D009570)
+#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E5260)
+#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E5330)
+#define RPG_GAMECORE_CREATEPROPINTARGETFRONT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E5160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreatePropInTargetFront_TypeDefinitionIndex = 19925;
-
 	class CreatePropInTargetFront : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* Taskarget; // 0x18
 		::System::UInt32 PropID; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::String* UniqueName; // 0x28
 		::RPG::GameCore::DynamicFloat* Distance; // 0x30
 		::RPG::GameCore::DynamicFloat* Duration; // 0x38
@@ -32,20 +32,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnCreate; // 0x58
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnDestroy; // 0x60
 		::System::Boolean IsTeamUnique; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7823DF2BE303CF00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropInTargetFront*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreatePropInTargetFront* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropInTargetFront*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_7823DF2BE303CF00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreatePropInTargetFront*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E87B6F2F5B08E054(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropInTargetFront* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreatePropInTargetFront* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropInTargetFront*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_METHOD_3_E87B6F2F5B08E054_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreatePropInTargetFront*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPINTARGETFRONT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

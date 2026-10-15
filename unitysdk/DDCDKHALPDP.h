@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class DHJMOBCHGJB;
+class DOMHKLANPAI;
+class KLJGNBBMJCM;
+class LAECFLNNOFH;
+class LODOKGPHEMB;
+class NJKFCOIBIOK;
+class OLOHFCIHMNK;
+
+#define DDCDKHALPDP_CTOR_OFFSET UNITYSDK_OFFSET(0xE25CC90)
+#define DDCDKHALPDP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE25CE30)
+#define DDCDKHALPDP_GET_MESSAGESERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF80)
+#define DDCDKHALPDP_GET_PERSISTENTLOGSERVICE_OFFSET UNITYSDK_OFFSET(0xE25CFA0)
+#define DDCDKHALPDP_GET_PIXAIRABILITYCASTSERVICE_OFFSET UNITYSDK_OFFSET(0xE25CFC0)
+#define DDCDKHALPDP_GET_PIXAIRATTRIBUTESERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF60)
+#define DDCDKHALPDP_GET_PIXAIRENTITYFACTORYSERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF40)
+#define DDCDKHALPDP_GET_PIXAIRTIMESERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF20)
+#define DDCDKHALPDP_SET_MESSAGESERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF90)
+#define DDCDKHALPDP_SET_PERSISTENTLOGSERVICE_OFFSET UNITYSDK_OFFSET(0xE25CFB0)
+#define DDCDKHALPDP_SET_PIXAIRABILITYCASTSERVICE_OFFSET UNITYSDK_OFFSET(0xE25CFD0)
+#define DDCDKHALPDP_SET_PIXAIRATTRIBUTESERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF70)
+#define DDCDKHALPDP_SET_PIXAIRENTITYFACTORYSERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF50)
+#define DDCDKHALPDP_SET_PIXAIRTIMESERVICE_OFFSET UNITYSDK_OFFSET(0xE25CF30)
+
+	class DDCDKHALPDP
+	{
+	public:
+		::NJKFCOIBIOK* _MessageService_k__BackingField; // 0x90
+		::DOMHKLANPAI* _PersistentLogService_k__BackingField; // 0x98
+		::DHJMOBCHGJB* _PixAirEntityFactoryService_k__BackingField; // 0xA0
+		::OLOHFCIHMNK* _PixAirAbilityCastService_k__BackingField; // 0xA8
+		::LODOKGPHEMB* _PixAirAttributeService_k__BackingField; // 0xB0
+		::KLJGNBBMJCM* _PixAirTimeService_k__BackingField; // 0xB8
+		::System::Boolean PPIGLCIEIIM; // 0xC0
+		::System::Void _ctor(::LAECFLNNOFH* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LAECFLNNOFH*))((::PBYTE)hIl2Cpp + DDCDKHALPDP_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDCDKHALPDP_DISPOSE_OFFSET))(this);
+		}
+
+		::KLJGNBBMJCM* get_PixAirTimeService()
+		{
+			return ((::KLJGNBBMJCM*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDCDKHALPDP_GET_PIXAIRTIMESERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_PixAirTimeService(::KLJGNBBMJCM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KLJGNBBMJCM*))((::PBYTE)hIl2Cpp + DDCDKHALPDP_SET_PIXAIRTIMESERVICE_OFFSET))(this, a1);
+		}
+
+		::DHJMOBCHGJB* get_PixAirEntityFactoryService()
+		{
+			return ((::DHJMOBCHGJB*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDCDKHALPDP_GET_PIXAIRENTITYFACTORYSERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_PixAirEntityFactoryService(::DHJMOBCHGJB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DHJMOBCHGJB*))((::PBYTE)hIl2Cpp + DDCDKHALPDP_SET_PIXAIRENTITYFACTORYSERVICE_OFFSET))(this, a1);
+		}
+
+		::LODOKGPHEMB* get_PixAirAttributeService()
+		{
+			return ((::LODOKGPHEMB*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDCDKHALPDP_GET_PIXAIRATTRIBUTESERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_PixAirAttributeService(::LODOKGPHEMB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LODOKGPHEMB*))((::PBYTE)hIl2Cpp + DDCDKHALPDP_SET_PIXAIRATTRIBUTESERVICE_OFFSET))(this, a1);
+		}
+
+		::NJKFCOIBIOK* get_MessageService()
+		{
+			return ((::NJKFCOIBIOK*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDCDKHALPDP_GET_MESSAGESERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_MessageService(::NJKFCOIBIOK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NJKFCOIBIOK*))((::PBYTE)hIl2Cpp + DDCDKHALPDP_SET_MESSAGESERVICE_OFFSET))(this, a1);
+		}
+
+		::DOMHKLANPAI* get_PersistentLogService()
+		{
+			return ((::DOMHKLANPAI*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDCDKHALPDP_GET_PERSISTENTLOGSERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_PersistentLogService(::DOMHKLANPAI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DOMHKLANPAI*))((::PBYTE)hIl2Cpp + DDCDKHALPDP_SET_PERSISTENTLOGSERVICE_OFFSET))(this, a1);
+		}
+
+		::OLOHFCIHMNK* get_PixAirAbilityCastService()
+		{
+			return ((::OLOHFCIHMNK*(*)(::PVOID))((::PBYTE)hIl2Cpp + DDCDKHALPDP_GET_PIXAIRABILITYCASTSERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_PixAirAbilityCastService(::OLOHFCIHMNK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OLOHFCIHMNK*))((::PBYTE)hIl2Cpp + DDCDKHALPDP_SET_PIXAIRABILITYCASTSERVICE_OFFSET))(this, a1);
+		}
+
+	};

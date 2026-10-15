@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aeObject.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Util/ComponentCapturer.h"
-
+#include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aeObject.h"
 namespace UnityEngine { class Component; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1EABD4E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x1EABD4D0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB94C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1F184D40)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F180D20)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER_SETUP_OFFSET UNITYSDK_OFFSET(0x1F184D30)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_RootCapturer_TypeDefinitionIndex = 44630;
-
 	class AlembicRecorder_RootCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:
 		::System::Void _ctor(::UnityEngine::Formats::Alembic::Util::AlembicRecorder* a1, ::UnityEngine::Formats::Alembic::Sdk::aeObject a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder*, ::UnityEngine::Formats::Alembic::Sdk::aeObject))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Formats::Alembic::Util::AlembicRecorder*, ::UnityEngine::Formats::Alembic::Sdk::aeObject))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Setup(::UnityEngine::Component* a1)
@@ -31,5 +28,6 @@ namespace UnityEngine::Formats::Alembic::Util
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_ROOTCAPTURER_CAPTURE_OFFSET))(this);
 		}
+
 	};
 }

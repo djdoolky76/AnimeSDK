@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusPostType_TypeDefinitionIndex = 13627;
-
 	enum class HeliobusPostType : ::System::Int32
 	{
 		Unknown = 0,

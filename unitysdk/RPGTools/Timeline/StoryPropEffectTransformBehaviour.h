@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class StoryPropEffectTransformClip; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8EF5A0)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8EF5C0)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8EF5B0)
-#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8EF6F0)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE944AE0)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE944990)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE9449B0)
+#define RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE9449A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropEffectTransformBehaviour_TypeDefinitionIndex = 48810;
-
 	class StoryPropEffectTransformBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::StoryPropEffectTransformClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::StoryPropEffectTransformClip* get_Clip()
@@ -39,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPEFFECTTRANSFORMBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

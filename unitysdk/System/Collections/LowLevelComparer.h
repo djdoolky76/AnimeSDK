@@ -1,36 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
+namespace System::Collections { class LowLevelComparer; }
 
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BBBEE60)
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBBF120)
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBBEE50)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0CB140)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C0CAE80)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0CAE70)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int LowLevelComparer_TypeDefinitionIndex = 1457;
-
 	class LowLevelComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::LowLevelComparer** StaticGet_Default()
 		{
-			return (::System::Collections::LowLevelComparer**)Il2CppClass::FromTypeDefinitionIndex(LowLevelComparer_TypeDefinitionIndex)->GetStaticField(0x7890);
+			return (::System::Collections::LowLevelComparer**)UnitySDK::FromName("System.Collections", "LowLevelComparer")->GetStaticField(0xE5F0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 Compare(::System::Object* a1, ::System::Object* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_COMPARE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

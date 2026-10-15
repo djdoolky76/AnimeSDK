@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FireWaveProjectileBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FireWaveProjectile; }
 namespace RPG::GameCore { class ProjectileData; }
 
-#define RPG_GAMECORE_FIREWAVEPROJECTILE_METHOD_4_0A054DA436CCD490_OFFSET UNITYSDK_OFFSET(0x1D09EA10)
-#define RPG_GAMECORE_FIREWAVEPROJECTILE_METHOD_4_AA1416FD3255B99E_OFFSET UNITYSDK_OFFSET(0x1D09EA60)
-#define RPG_GAMECORE_FIREWAVEPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09EA50)
+#define RPG_GAMECORE_FIREWAVEPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AC9B0)
+#define RPG_GAMECORE_FIREWAVEPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6AC9C0)
+#define RPG_GAMECORE_FIREWAVEPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AC970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FireWaveProjectile_TypeDefinitionIndex = 22332;
-
 	class FireWaveProjectile : public ::RPG::GameCore::FireWaveProjectileBase
 	{
 	public:
 		::RPG::GameCore::ProjectileData* Projectile; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_0A054DA436CCD490(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FireWaveProjectile*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FireWaveProjectile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FireWaveProjectile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILE_METHOD_4_0A054DA436CCD490_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FireWaveProjectile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AA1416FD3255B99E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FireWaveProjectile* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FireWaveProjectile* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FireWaveProjectile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILE_METHOD_4_AA1416FD3255B99E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FireWaveProjectile*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

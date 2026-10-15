@@ -2,49 +2,53 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HDG_SETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0xB18F080)
-#define HDG_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xB18F070)
+#define HDG_SETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF3A100)
+#define HDG_SETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xAF3A0F0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 47406;
-
 	class Settings : public ::System::Object
 	{
 	public:
-		static ::System::Single* StaticGet_GAMEOBJECT_UPDATE_TIME()
-		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xEE40);
-		}
-		static ::System::Int32* StaticGet_DEFAULT_SERVER_PORT()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xEE44);
-		}
-		static ::System::Int32* StaticGet_DEFAULT_BROADCAST_PORT()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xEE48);
-		}
 		static ::System::Single* StaticGet_COMPONENT_UPDATE_TIME()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xEE4C);
+			return (::System::Single*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6180);
 		}
+
 		static ::System::Int32* StaticGet_BROADCAST_TIME()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xEE50);
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6184);
 		}
+
+		static ::System::Single* StaticGet_GAMEOBJECT_UPDATE_TIME()
+		{
+			return (::System::Single*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6188);
+		}
+
 		static ::System::Int32* StaticGet_SERVER_PORT_MASK()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Settings_TypeDefinitionIndex)->GetStaticField(0xEE54);
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x618C);
+		}
+
+		static ::System::Int32* StaticGet_DEFAULT_BROADCAST_PORT()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6190);
+		}
+
+		static ::System::Int32* StaticGet_DEFAULT_SERVER_PORT()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6194);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_SETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_SETTINGS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDG_SETTINGS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDG_SETTINGS_CCTOR_OFFSET))();
 		}
+
 	};
 }

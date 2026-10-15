@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
 namespace System { class IAsyncResult; }
+namespace System { class Object; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1BD5CE70)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1BD5CF80)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1BD5E300)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1BD5E1D0)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1BD5E310)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1BD5E1C0)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_THROWIFERROR_OFFSET UNITYSDK_OFFSET(0x1BD5E320)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD5CF70)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD5CDE0)
-#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5CDD0)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C268E10)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C268C80)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C268C70)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1C268D10)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1C268E20)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_ASYNCSTATE_OFFSET UNITYSDK_OFFSET(0x1C26A180)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_ASYNCWAITHANDLE_OFFSET UNITYSDK_OFFSET(0x1C26A050)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_COMPLETEDSYNCHRONOUSLY_OFFSET UNITYSDK_OFFSET(0x1C26A190)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_GET_ISCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C26A040)
+#define SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_THROWIFERROR_OFFSET UNITYSDK_OFFSET(0x1C26A1A0)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int Stream_SynchronousAsyncResult_TypeDefinitionIndex = 688;
-
 	class Stream_SynchronousAsyncResult : public ::System::Object
 	{
 	public:
@@ -30,22 +28,21 @@ namespace System::IO
 		::System::Threading::ManualResetEvent* _waitHandle; // 0x18
 		::System::Object* _stateObject; // 0x20
 		::System::Int32 _bytesRead; // 0x28
-		::System::Boolean _endXxxCalled; // 0x2C
-		::System::Boolean _isWrite; // 0x2D
-
+		::System::Boolean _isWrite; // 0x2C
+		::System::Boolean _endXxxCalled; // 0x2D
 		::System::Void _ctor(::System::Int32 a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Exception* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT__CTOR_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_IsCompleted()
@@ -82,5 +79,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_IO_STREAM_SYNCHRONOUSASYNCRESULT_ENDWRITE_OFFSET))(a1);
 		}
+
 	};
 }

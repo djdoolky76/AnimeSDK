@@ -2,22 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EEA00)
+#define SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB7A80)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_BufferChunk_TypeDefinitionIndex = 1883;
-
 	class XmlWellFormedWriter_AttributeValueCache_BufferChunk : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Char>* buffer; // 0x10
-		::System::Int32 count; // 0x18
-		::System::Int32 index; // 0x1C
-
+		::System::Int32 index; // 0x18
+		::System::Int32 count; // 0x1C
 		::System::Void _ctor(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLWELLFORMEDWRITER_ATTRIBUTEVALUECACHE_BUFFERCHUNK_CTOR_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

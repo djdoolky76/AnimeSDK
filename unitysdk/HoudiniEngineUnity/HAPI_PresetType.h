@@ -3,8 +3,6 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PresetType_TypeDefinitionIndex = 39162;
-
 	enum class HAPI_PresetType : ::System::Int32
 	{
 		HAPI_PRESETTYPE_INVALID = -1,

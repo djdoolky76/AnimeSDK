@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Rendering::Terrain
 {
-	inline static constexpr unsigned int TerrainGridBlockEntry_TypeDefinitionIndex = 52093;
-
 	struct alignas(8) TerrainGridBlockEntry
 	{
 		::System::Int32 row; // 0x10

@@ -2,35 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TrackPhotoCanType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrackPhotoTrashCanConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5D8990)
-#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D90B0)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2C260)
+#define RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC2BB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackPhotoTrashCanConfigRow_TypeDefinitionIndex = 12425;
-
 	class TrackPhotoTrashCanConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::String*>* ExtraAnimList; // 0x18
+		::Il2CppArray<::System::String*>* ExtraAnimList; // 0x10
+		::System::String* IconPath; // 0x18
 		::System::UInt32 ExtraScore; // 0x20
-		::System::UInt32 Score; // 0x24
-		::System::UInt32 NpcTemplateID; // 0x28
-		::RPG::GameCore::TrackPhotoCanType CanTypeID; // 0x2C
-
+		::RPG::GameCore::TrackPhotoCanType CanTypeID; // 0x24
+		::System::UInt32 Score; // 0x28
+		::System::UInt32 NpcTemplateID; // 0x2C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrackPhotoTrashCanConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrackPhotoTrashCanConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACKPHOTOTRASHCANCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D670)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D6A0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D660)
-#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73D5F0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3BCA0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3BC20)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3BCD0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3BC90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_SDKLogoutDelegate_TypeDefinitionIndex = 7557;
-
 	class BiliBiliDelegate_SDKLogoutDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke()
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_SDKLOGOUTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

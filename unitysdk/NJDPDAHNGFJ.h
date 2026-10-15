@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Attribute.h"
+namespace System { class Type; }
+
+#define NJDPDAHNGFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2156D0)
+
+	class NJDPDAHNGFJ : public ::System::Attribute
+	{
+	public:
+		::System::Type* KADECLDAMHI; // 0x10
+		::System::Boolean HNCCFGKGJEC; // 0x18
+		::System::Boolean JIFECLMMJPF; // 0x19
+		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2, ::System::Type* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Type*))((::PBYTE)hIl2Cpp + NJDPDAHNGFJ_CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+	};

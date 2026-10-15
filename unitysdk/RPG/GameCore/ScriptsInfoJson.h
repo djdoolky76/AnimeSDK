@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ScriptsInfoJson; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_94AB2AD039EBA52B_OFFSET UNITYSDK_OFFSET(0x1D4D7C90)
-#define RPG_GAMECORE_SCRIPTSINFOJSON__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D80A0)
+#define RPG_GAMECORE_SCRIPTSINFOJSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8B9D0)
+#define RPG_GAMECORE_SCRIPTSINFOJSON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8B5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 18839;
-
 	class ScriptsInfoJson : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -25,15 +23,15 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* ChapterTest; // 0x48
 		::Il2CppArray<::System::String*>* FullTest; // 0x50
 		::Il2CppArray<::System::String*>* ProtoSetTeamTest; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRIPTSINFOJSON__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRIPTSINFOJSON_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_94AB2AD039EBA52B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScriptsInfoJson*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ScriptsInfoJson* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScriptsInfoJson*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRIPTSINFOJSON_METHOD_2_94AB2AD039EBA52B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ScriptsInfoJson*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCRIPTSINFOJSON_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

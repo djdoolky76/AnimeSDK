@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Newtonsoft::Json { template <typename T> class IArrayPool_1; }
 
-#define NEWTONSOFT_JSON_UTILITIES_BUFFERUTILS_ENSUREBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1BEFA100)
-#define NEWTONSOFT_JSON_UTILITIES_BUFFERUTILS_RENTBUFFER_OFFSET UNITYSDK_OFFSET(0x1BEF9EF0)
-#define NEWTONSOFT_JSON_UTILITIES_BUFFERUTILS_RETURNBUFFER_OFFSET UNITYSDK_OFFSET(0x1BEFA000)
+#define NEWTONSOFT_JSON_UTILITIES_BUFFERUTILS_ENSUREBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1C406430)
+#define NEWTONSOFT_JSON_UTILITIES_BUFFERUTILS_RENTBUFFER_OFFSET UNITYSDK_OFFSET(0x1C406400)
+#define NEWTONSOFT_JSON_UTILITIES_BUFFERUTILS_RETURNBUFFER_OFFSET UNITYSDK_OFFSET(0x1C406420)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int BufferUtils_TypeDefinitionIndex = 9614;
-
 	class BufferUtils : public ::System::Object
 	{
 	public:
@@ -29,5 +26,6 @@ namespace Newtonsoft::Json::Utilities
 		{
 			return ((::Il2CppArray<::System::Char>*(*)(::Newtonsoft::Json::IArrayPool_1<::System::Char>*, ::System::Int32, ::Il2CppArray<::System::Char>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_BUFFERUTILS_ENSUREBUFFERSIZE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

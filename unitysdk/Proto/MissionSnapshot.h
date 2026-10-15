@@ -1,94 +1,95 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class FieldCodec; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class MainMissionMcvSnapshot; }
 namespace Proto { class MainMissionSnapshot; }
+namespace Proto { class MissionSnapshot; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_MISSIONSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D96D650)
-#define PROTO_MISSIONSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1D96CDC0)
-#define PROTO_MISSIONSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D96CF90)
-#define PROTO_MISSIONSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D96CF30)
-#define PROTO_MISSIONSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D96D140)
-#define PROTO_MISSIONSNAPSHOT_GET_CLIENTMCVLIST_OFFSET UNITYSDK_OFFSET(0x1D96CE20)
-#define PROTO_MISSIONSNAPSHOT_GET_CURAUDIOEMOTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1D96CE70)
-#define PROTO_MISSIONSNAPSHOT_GET_CURSOUNDEFFECTSTATE_OFFSET UNITYSDK_OFFSET(0x1D96CED0)
-#define PROTO_MISSIONSNAPSHOT_GET_HASMISSIONAUDIOSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1D96CE50)
-#define PROTO_MISSIONSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D96CB40)
-#define PROTO_MISSIONSNAPSHOT_GET_SERVERMCVLIST_OFFSET UNITYSDK_OFFSET(0x1D96CE10)
-#define PROTO_MISSIONSNAPSHOT_GET_TRACKINGMAINMISSION_OFFSET UNITYSDK_OFFSET(0x1D96CE30)
-#define PROTO_MISSIONSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D96DA60)
-#define PROTO_MISSIONSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D96D7F0)
-#define PROTO_MISSIONSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D96CBA0)
-#define PROTO_MISSIONSNAPSHOT_SET_CURAUDIOEMOTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1D96CE80)
-#define PROTO_MISSIONSNAPSHOT_SET_CURSOUNDEFFECTSTATE_OFFSET UNITYSDK_OFFSET(0x1D96CEE0)
-#define PROTO_MISSIONSNAPSHOT_SET_HASMISSIONAUDIOSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1D96CE60)
-#define PROTO_MISSIONSNAPSHOT_SET_TRACKINGMAINMISSION_OFFSET UNITYSDK_OFFSET(0x1D96CE40)
-#define PROTO_MISSIONSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D96D340)
-#define PROTO_MISSIONSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D96D3A0)
-#define PROTO_MISSIONSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D96DCC0)
-#define PROTO_MISSIONSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D96CC40)
-#define PROTO_MISSIONSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D96CBB0)
+#define PROTO_MISSIONSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E0051F0)
+#define PROTO_MISSIONSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E005860)
+#define PROTO_MISSIONSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1E004960)
+#define PROTO_MISSIONSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E0047E0)
+#define PROTO_MISSIONSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E004750)
+#define PROTO_MISSIONSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E004B30)
+#define PROTO_MISSIONSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E004AD0)
+#define PROTO_MISSIONSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E004CE0)
+#define PROTO_MISSIONSNAPSHOT_GET_CLIENTMCVLIST_OFFSET UNITYSDK_OFFSET(0x1E0049C0)
+#define PROTO_MISSIONSNAPSHOT_GET_CURAUDIOEMOTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1E004A10)
+#define PROTO_MISSIONSNAPSHOT_GET_CURSOUNDEFFECTSTATE_OFFSET UNITYSDK_OFFSET(0x1E004A70)
+#define PROTO_MISSIONSNAPSHOT_GET_HASMISSIONAUDIOSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1E0049F0)
+#define PROTO_MISSIONSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1E0046E0)
+#define PROTO_MISSIONSNAPSHOT_GET_SERVERMCVLIST_OFFSET UNITYSDK_OFFSET(0x1E0049B0)
+#define PROTO_MISSIONSNAPSHOT_GET_TRACKINGMAINMISSION_OFFSET UNITYSDK_OFFSET(0x1E0049D0)
+#define PROTO_MISSIONSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E005600)
+#define PROTO_MISSIONSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E005390)
+#define PROTO_MISSIONSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E004740)
+#define PROTO_MISSIONSNAPSHOT_SET_CURAUDIOEMOTIONSTATE_OFFSET UNITYSDK_OFFSET(0x1E004A20)
+#define PROTO_MISSIONSNAPSHOT_SET_CURSOUNDEFFECTSTATE_OFFSET UNITYSDK_OFFSET(0x1E004A80)
+#define PROTO_MISSIONSNAPSHOT_SET_HASMISSIONAUDIOSNAPSHOT_OFFSET UNITYSDK_OFFSET(0x1E004A00)
+#define PROTO_MISSIONSNAPSHOT_SET_TRACKINGMAINMISSION_OFFSET UNITYSDK_OFFSET(0x1E0049E0)
+#define PROTO_MISSIONSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E004EE0)
+#define PROTO_MISSIONSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E004F40)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MissionSnapshot_TypeDefinitionIndex = 25497;
-
 	class MissionSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>** StaticGet__repeated_serverMcvList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MissionSnapshot_TypeDefinitionIndex)->GetStaticField(0x5A9E0);
-		}
-		static ::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MissionSnapshot_TypeDefinitionIndex)->GetStaticField(0x5A9E8);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>** StaticGet__repeated_clientMcvList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::MainMissionMcvSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(MissionSnapshot_TypeDefinitionIndex)->GetStaticField(0x5A9F0);
-		}
-		// static const ::System::Int32 ServerMcvListFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 ClientMcvListFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 TrackingMainMissionFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 HasMissionAudioSnapshotFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 CurAudioEmotionStateFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 CurSoundEffectStateFieldNumber = 0x6; // 0x0
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MainMissionMcvSnapshot*>* clientMcvList_; // 0x10
-		::Proto::MainMissionSnapshot* trackingMainMission_; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MainMissionMcvSnapshot*>* serverMcvList_; // 0x20
-		::System::String* curSoundEffectState_; // 0x28
-		::System::String* curAudioEmotionState_; // 0x30
+		::System::String* curAudioEmotionState_; // 0x10
+		::System::String* curSoundEffectState_; // 0x18
+		::Proto::MainMissionSnapshot* trackingMainMission_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MainMissionMcvSnapshot*>* serverMcvList_; // 0x28
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::MainMissionMcvSnapshot*>* clientMcvList_; // 0x30
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x38
 		::System::Boolean hasMissionAudioSnapshot_; // 0x40
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43DF0);
+		}
 
+		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_clientMcvList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43DF8);
+		}
+
+		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_serverMcvList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "MissionSnapshot")->GetStaticField(0x43E00);
+		}
+
+		// static const ::System::Object ServerMcvListFieldNumber; // 0x0
+		// static const ::System::Object ClientMcvListFieldNumber; // 0x0
+		// static const ::System::Object TrackingMainMissionFieldNumber; // 0x0
+		// static const ::System::Object HasMissionAudioSnapshotFieldNumber; // 0x0
+		// static const ::System::Object CurAudioEmotionStateFieldNumber; // 0x0
+		// static const ::System::Object CurSoundEffectStateFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::MissionSnapshot* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::MissionSnapshot*))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::MissionSnapshot*))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Proto::MissionSnapshot*>*(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
@@ -190,5 +191,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

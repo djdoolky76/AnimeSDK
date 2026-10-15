@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_Transform; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4B53A0)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4B54C0)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B5360)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B73D0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B74F0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B7390)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Transform_Extensions_TypeDefinitionIndex = 39417;
-
 	class Test_Transform_Extensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Transform*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

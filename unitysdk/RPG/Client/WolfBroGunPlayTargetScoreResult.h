@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/EWolfBroGunPlayTargetScoreMode.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetScoreResult_TypeDefinitionIndex = 68710;
-
 	struct alignas(4) WolfBroGunPlayTargetScoreResult
 	{
 		::RPG::Client::EWolfBroGunPlayTargetScoreMode Mode; // 0x10

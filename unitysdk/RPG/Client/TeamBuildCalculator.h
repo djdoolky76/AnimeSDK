@@ -1,88 +1,85 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_276321B6B122C69C_6.h"
-#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/LICGOGNGGID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_10F56A639581CEB1;
-class Class_1_14504497CA74CDDA_3;
-class Class_1_185A388C9275732B;
-class Class_1_33CFB36424333436;
-class Class_1_704E3DFA89A430C4;
-class Class_1_93D6797E7CD6923E;
-class Class_1_A6B4D5686BDF6BEB;
+class AMMDOPEDNJF;
+class EJEDKALMMNP;
+class IFCDCCJEJKD;
+class KOBGMGHMCLF;
+class LLCICCEMLIO;
+class LPFCCHDGOFB;
+class MDNBBCOBGPH;
 namespace RPG::Client { class TeamBuild; }
 namespace RPG::Client { class TeamBuildRecipe; }
 namespace RPG::Client { class TeamBuildSynopsis; }
 namespace RPG::Client { class TeamBuildUnit; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Action; }
 namespace System { class Exception; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_CHECKDATAISVALID_OFFSET UNITYSDK_OFFSET(0xE1851D0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDASSOCIATION_OFFSET UNITYSDK_OFFSET(0xE182000)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDCANDIDATEPOOLASSOCIATION_OFFSET UNITYSDK_OFFSET(0xE183280)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDPRIORITIZEDASSOCIATION_OFFSET UNITYSDK_OFFSET(0xE182E80)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDSYNOPSIS_OFFSET UNITYSDK_OFFSET(0xE183F90)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0xE181C50)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_GET_MAXTEAMBUILDSYNOPSISCOUNT_OFFSET UNITYSDK_OFFSET(0xE1814D0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR_REFRESH_OFFSET UNITYSDK_OFFSET(0xE1815D0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__ADDTEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0xE1866A0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDCANDIDATEPOOLFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xE1859E0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDRECIPEFROMBIGDATA_OFFSET UNITYSDK_OFFSET(0xE185C60)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDRECIPEFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xE185750)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDRECIPES_OFFSET UNITYSDK_OFFSET(0xE1854D0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__CHECKHASUNRELEASEDAVATARCHANGED_OFFSET UNITYSDK_OFFSET(0xE1855F0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__CLEARDATA_OFFSET UNITYSDK_OFFSET(0xE1817E0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE1871F0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__ENSURERESULTCOUNT_OFFSET UNITYSDK_OFFSET(0xE182DB0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__FILLTEAMBUILDRESULTS_OFFSET UNITYSDK_OFFSET(0xE183570)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__FILLWITHALTERNATIVEAVATARS_OFFSET UNITYSDK_OFFSET(0xE183150)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__FILLWITHMAINAVATARS_OFFSET UNITYSDK_OFFSET(0xE182F90)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETCANDIDATEPOOLS_OFFSET UNITYSDK_OFFSET(0xE182A30)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDCANDIDATEPOOLASSOCIATION_B__19_0_OFFSET UNITYSDK_OFFSET(0xE187490)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDSYNOPSIS_B__25_0_OFFSET UNITYSDK_OFFSET(0xE1874C0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETUSINGTEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0xE181F40)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__HASAVATARCHECKER_OFFSET UNITYSDK_OFFSET(0xE1870F0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__PREPARERECOMMENDLINEUPDATA_OFFSET UNITYSDK_OFFSET(0xE1818F0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__PREPARETEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0xE185320)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__PREPAREUNRELEASEDAVATARDATA_OFFSET UNITYSDK_OFFSET(0xE181AD0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__TRUECHECKER_OFFSET UNITYSDK_OFFSET(0xE1871B0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__TRYGETTEAMMATEAVATARID_OFFSET UNITYSDK_OFFSET(0xE1843F0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR__UPDATEUNRELEASEDAVATARIDS_OFFSET UNITYSDK_OFFSET(0xE185660)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARERECOMMENDLINEUPDATA_B__27_0_OFFSET UNITYSDK_OFFSET(0xE187540)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARERECOMMENDLINEUPDATA_B__27_1_OFFSET UNITYSDK_OFFSET(0xE187880)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARETEAMBUILDRECIPE_B__30_0_OFFSET UNITYSDK_OFFSET(0xE187900)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPAREUNRELEASEDAVATARDATA_B__28_0_OFFSET UNITYSDK_OFFSET(0xE1878F0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_CHECKDATAISVALID_OFFSET UNITYSDK_OFFSET(0xE1C7870)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C9880)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDASSOCIATION_OFFSET UNITYSDK_OFFSET(0xE1C46B0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDCANDIDATEPOOLASSOCIATION_OFFSET UNITYSDK_OFFSET(0xE1C5930)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDPRIORITIZEDASSOCIATION_OFFSET UNITYSDK_OFFSET(0xE1C5530)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDSYNOPSIS_OFFSET UNITYSDK_OFFSET(0xE1C6630)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_GETTEAMBUILDS_OFFSET UNITYSDK_OFFSET(0xE1C4300)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_GET_MAXTEAMBUILDSYNOPSISCOUNT_OFFSET UNITYSDK_OFFSET(0xE1C3B90)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR_REFRESH_OFFSET UNITYSDK_OFFSET(0xE1C3C90)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__ADDTEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0xE1C8D30)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDCANDIDATEPOOLFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xE1C8070)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDRECIPEFROMBIGDATA_OFFSET UNITYSDK_OFFSET(0xE1C82F0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDRECIPEFROMCONFIG_OFFSET UNITYSDK_OFFSET(0xE1C7DE0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__BUILDTEAMBUILDRECIPES_OFFSET UNITYSDK_OFFSET(0xE1C7B70)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__CHECKHASUNRELEASEDAVATARCHANGED_OFFSET UNITYSDK_OFFSET(0xE1C7C90)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__CLEARDATA_OFFSET UNITYSDK_OFFSET(0xE1C3EA0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__ENSURERESULTCOUNT_OFFSET UNITYSDK_OFFSET(0xE1C5460)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__FILLTEAMBUILDRESULTS_OFFSET UNITYSDK_OFFSET(0xE1C5C20)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__FILLWITHALTERNATIVEAVATARS_OFFSET UNITYSDK_OFFSET(0xE1C5800)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__FILLWITHMAINAVATARS_OFFSET UNITYSDK_OFFSET(0xE1C5640)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETCANDIDATEPOOLS_OFFSET UNITYSDK_OFFSET(0xE1C50E0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDCANDIDATEPOOLASSOCIATION_B__19_0_OFFSET UNITYSDK_OFFSET(0xE1C9B20)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDSYNOPSIS_B__25_0_OFFSET UNITYSDK_OFFSET(0xE1C9B50)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__GETUSINGTEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0xE1C45F0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__HASAVATARCHECKER_OFFSET UNITYSDK_OFFSET(0xE1C9780)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__PREPARERECOMMENDLINEUPDATA_OFFSET UNITYSDK_OFFSET(0xE1C3FA0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__PREPARETEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0xE1C79C0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__PREPAREUNRELEASEDAVATARDATA_OFFSET UNITYSDK_OFFSET(0xE1C4180)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__TRUECHECKER_OFFSET UNITYSDK_OFFSET(0xE1C9840)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__TRYGETTEAMMATEAVATARID_OFFSET UNITYSDK_OFFSET(0xE1C6A90)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR__UPDATEUNRELEASEDAVATARIDS_OFFSET UNITYSDK_OFFSET(0xE1C7D00)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARERECOMMENDLINEUPDATA_B__27_0_OFFSET UNITYSDK_OFFSET(0xE1C9BD0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARERECOMMENDLINEUPDATA_B__27_1_OFFSET UNITYSDK_OFFSET(0xE1C9F10)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARETEAMBUILDRECIPE_B__30_0_OFFSET UNITYSDK_OFFSET(0xE1C9F90)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___PREPAREUNRELEASEDAVATARDATA_B__28_0_OFFSET UNITYSDK_OFFSET(0xE1C9F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildCalculator_TypeDefinitionIndex = 68081;
-
 	class TeamBuildCalculator : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 _MaxAlternativeCount = 0x2; // 0x0
-		::Class_1_33CFB36424333436* _UnreleasedAvatarData; // 0x10
-		::Class_1_704E3DFA89A430C4* _TeamBuildBuilder; // 0x18
-		::System::Collections::Generic::List_1<::Class_1_10F56A639581CEB1*>* _RecommendLineups; // 0x20
-		::System::Collections::Generic::Dictionary_2<::Struct_2_276321B6B122C69C_6, ::Class_1_A6B4D5686BDF6BEB*>* _TeamBuildCandidateRecipeDict; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _RecommendAvatarIDs; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildRecipe*>*>* _ConfigTeamBuildRecipeDict; // 0x38
-		::Class_1_185A388C9275732B* _TeamBuildSynopsisBuilder; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_93D6797E7CD6923E*>* _TeamBuildCandidatePoolDict; // 0x48
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _UnreleasedAvatarIDs; // 0x50
-		::System::Collections::Generic::Dictionary_2<::Struct_2_276321B6B122C69C_6, ::RPG::Client::TeamBuildRecipe*>* _BigDataTeamBuildRecipeDict; // 0x58
-		::System::Nullable_1<::System::Int32> _MaxTeamBuildSynopsisCount; // 0x60
-		::System::Boolean _HasData; // 0x68
-
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildRecipe*>*>* _ConfigTeamBuildRecipeDict; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::LLCICCEMLIO*>* _TeamBuildCandidatePoolDict; // 0x18
+		::IFCDCCJEJKD* _UnreleasedAvatarData; // 0x20
+		::System::Collections::Generic::List_1<::KOBGMGHMCLF*>* _RecommendLineups; // 0x28
+		::System::Collections::Generic::Dictionary_2<::LICGOGNGGID, ::LPFCCHDGOFB*>* _TeamBuildCandidateRecipeDict; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _RecommendAvatarIDs; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _UnreleasedAvatarIDs; // 0x40
+		::System::Collections::Generic::Dictionary_2<::LICGOGNGGID, ::RPG::Client::TeamBuildRecipe*>* _BigDataTeamBuildRecipeDict; // 0x48
+		::MDNBBCOBGPH* _TeamBuildSynopsisBuilder; // 0x50
+		::AMMDOPEDNJF* _TeamBuildBuilder; // 0x58
+		::System::Boolean _HasData; // 0x60
+		::System::Byte _padding0[0x3];
+		::System::Nullable* _MaxTeamBuildSynopsisCount; // 0x64
+		// static const ::System::Object _MaxAlternativeCount; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_MaxTeamBuildSynopsisCount()
@@ -125,9 +122,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*, ::System::Int32, ::System::Int32, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__FILLWITHALTERNATIVEAVATARS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void _FillTeamBuildResults(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* a1, ::System::Int32 a2, ::System::Collections::Generic::IList_1<::System::UInt32>* a3, ::System::Collections::Generic::IList_1<::System::UInt32>* a4, ::System::Boolean a5, ::System::Action_1<::Class_1_185A388C9275732B*>* a6)
+		::System::Void _FillTeamBuildResults(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* a1, ::System::Int32 a2, ::System::Collections::Generic::IList_1<::System::UInt32>* a3, ::System::Collections::Generic::IList_1<::System::UInt32>* a4, ::System::Boolean a5, ::System::Action* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*, ::System::Int32, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean, ::System::Action_1<::Class_1_185A388C9275732B*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__FILLTEAMBUILDRESULTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*, ::System::Int32, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Collections::Generic::IList_1<::System::UInt32>*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__FILLTEAMBUILDRESULTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void _EnsureResultCount(::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>* a1, ::System::Int32 a2)
@@ -135,9 +132,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::TeamBuildSynopsis*>*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__ENSURERESULTCOUNT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_93D6797E7CD6923E*>*>* _GetCandidatePools(::RPG::Client::TeamBuildRecipe* a1)
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::LLCICCEMLIO*>*>* _GetCandidatePools(::RPG::Client::TeamBuildRecipe* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_93D6797E7CD6923E*>*>*(*)(::PVOID, ::RPG::Client::TeamBuildRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__GETCANDIDATEPOOLS_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::LLCICCEMLIO*>*>*(*)(::PVOID, ::RPG::Client::TeamBuildRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__GETCANDIDATEPOOLS_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TeamBuildSynopsis* GetTeamBuildSynopsis(::RPG::Client::TeamBuild* a1)
@@ -210,9 +207,9 @@ namespace RPG::Client
 			return ((::RPG::Client::TeamBuildRecipe*(*)(::PVOID, ::RPG::Client::TeamBuildRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__GETUSINGTEAMBUILDRECIPE_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean _TryGetTeammateAvatarID(::RPG::Client::TeamBuildUnit* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::Class_1_93D6797E7CD6923E*>* a3, ::System::UInt32& a4)
+		static ::System::Boolean _TryGetTeammateAvatarID(::RPG::Client::TeamBuildUnit* a1, ::System::Collections::Generic::HashSet_1<::System::UInt32>* a2, ::System::Collections::Generic::List_1<::LLCICCEMLIO*>* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Boolean(*)(::RPG::Client::TeamBuildUnit*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::Class_1_93D6797E7CD6923E*>*, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__TRYGETTEAMMATEAVATARID_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::RPG::Client::TeamBuildUnit*, ::System::Collections::Generic::HashSet_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::LLCICCEMLIO*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__TRYGETTEAMMATEAVATARID_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean _HasAvatarChecker(::System::UInt32 a1)
@@ -225,19 +222,19 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__TRUECHECKER_OFFSET))(a1);
 		}
 
-		::System::Void _GetTeamBuildCandidatePoolAssociation_b__19_0(::Class_1_185A388C9275732B* a1)
+		::System::Void _GetTeamBuildCandidatePoolAssociation_b__19_0(::MDNBBCOBGPH* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_185A388C9275732B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDCANDIDATEPOOLASSOCIATION_B__19_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MDNBBCOBGPH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDCANDIDATEPOOLASSOCIATION_B__19_0_OFFSET))(this, a1);
 		}
 
-		::Class_1_93D6797E7CD6923E* _GetTeamBuildSynopsis_b__25_0(::System::UInt32 a1)
+		::LLCICCEMLIO* _GetTeamBuildSynopsis_b__25_0(::System::UInt32 a1)
 		{
-			return ((::Class_1_93D6797E7CD6923E*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDSYNOPSIS_B__25_0_OFFSET))(this, a1);
+			return ((::LLCICCEMLIO*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR__GETTEAMBUILDSYNOPSIS_B__25_0_OFFSET))(this, a1);
 		}
 
-		::System::Void __PrepareRecommendLineupData_b__27_0(::Class_1_14504497CA74CDDA_3* a1)
+		::System::Void __PrepareRecommendLineupData_b__27_0(::EJEDKALMMNP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_14504497CA74CDDA_3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARERECOMMENDLINEUPDATA_B__27_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EJEDKALMMNP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARERECOMMENDLINEUPDATA_B__27_0_OFFSET))(this, a1);
 		}
 
 		::System::Void __PrepareRecommendLineupData_b__27_1(::System::Exception* a1)
@@ -245,14 +242,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARERECOMMENDLINEUPDATA_B__27_1_OFFSET))(this, a1);
 		}
 
-		::System::Void __PrepareUnreleasedAvatarData_b__28_0(::Class_1_33CFB36424333436* a1)
+		::System::Void __PrepareUnreleasedAvatarData_b__28_0(::IFCDCCJEJKD* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_33CFB36424333436*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___PREPAREUNRELEASEDAVATARDATA_B__28_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IFCDCCJEJKD*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___PREPAREUNRELEASEDAVATARDATA_B__28_0_OFFSET))(this, a1);
 		}
 
 		::System::Void __PrepareTeamBuildRecipe_b__30_0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILDCALCULATOR___PREPARETEAMBUILDRECIPE_B__30_0_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_UNITYTIMETOOL_METHOD_1_276036CDF4BFF5A6_OFFSET UNITYSDK_OFFSET(0x1E595340)
-#define RPG_UNITYTIMETOOL_METHOD_1_5323F2DF46A044DA_OFFSET UNITYSDK_OFFSET(0x1E5952E0)
-#define RPG_UNITYTIMETOOL_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x1E595490)
-#define RPG_UNITYTIMETOOL__INIT_OFFSET UNITYSDK_OFFSET(0x1E595330)
+#define RPG_UNITYTIMETOOL_JAJBOLFGJOI_OFFSET UNITYSDK_OFFSET(0x1EC4BE40)
+#define RPG_UNITYTIMETOOL_KPKCFBCFKHH_OFFSET UNITYSDK_OFFSET(0x1EC4BEF0)
+#define RPG_UNITYTIMETOOL_MEJHHMGCPHL_OFFSET UNITYSDK_OFFSET(0x1EC4C070)
+#define RPG_UNITYTIMETOOL__INIT_OFFSET UNITYSDK_OFFSET(0x1EC4BEB0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int UnityTimeTool_TypeDefinitionIndex = 34513;
-
 	class UnityTimeTool : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet_LOOEBDMMDGI()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(UnityTimeTool_TypeDefinitionIndex)->GetStaticField(0x6E0);
+			return (::System::UInt32*)UnitySDK::FromName("RPG", "UnityTimeTool")->GetStaticField(0x2DD0);
 		}
 
-		static ::System::Single Method_1_5323F2DF46A044DA()
+		static ::System::Single JAJBOLFGJOI()
 		{
-			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_UNITYTIMETOOL_METHOD_1_5323F2DF46A044DA_OFFSET))();
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_UNITYTIMETOOL_JAJBOLFGJOI_OFFSET))();
 		}
 
 		static ::System::Void _Init()
@@ -29,14 +27,15 @@ namespace RPG
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_UNITYTIMETOOL__INIT_OFFSET))();
 		}
 
-		static ::System::Void Method_1_5790A55946AA509D()
+		static ::System::Void MEJHHMGCPHL()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_UNITYTIMETOOL_METHOD_1_5790A55946AA509D_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_UNITYTIMETOOL_MEJHHMGCPHL_OFFSET))();
 		}
 
-		static ::System::Void Method_1_276036CDF4BFF5A6()
+		static ::System::Void KPKCFBCFKHH()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_UNITYTIMETOOL_METHOD_1_276036CDF4BFF5A6_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_UNITYTIMETOOL_KPKCFBCFKHH_OFFSET))();
 		}
+
 	};
 }

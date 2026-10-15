@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class EPBHKLFKMLB;
+namespace System { class Object; }
+
+#define EPBHKLFKMLB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3048E0)
+#define EPBHKLFKMLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E304920)
+#define EPBHKLFKMLB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E304930)
+
+	class EPBHKLFKMLB___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55700);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + EPBHKLFKMLB___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPBHKLFKMLB___C_CTOR_OFFSET))(this);
+		}
+
+		::EPBHKLFKMLB* __cctor_b__23_0()
+		{
+			return ((::EPBHKLFKMLB*(*)(::PVOID))((::PBYTE)hIl2Cpp + EPBHKLFKMLB___C___CCTOR_B__23_0_OFFSET))(this);
+		}
+
+	};

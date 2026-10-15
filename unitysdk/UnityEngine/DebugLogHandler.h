@@ -3,28 +3,26 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LogOption.h"
 #include "unitysdk/UnityEngine/LogType.h"
-
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1ED18060)
-#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET UNITYSDK_OFFSET(0x1ED18050)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1ED18130)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1ED16AE0)
-#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1ED18070)
-#define UNITYENGINE_DEBUGLOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED18040)
+#define UNITYENGINE_DEBUGLOGHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3DFC50)
+#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F3DFC70)
+#define UNITYENGINE_DEBUGLOGHANDLER_INTERNAL_LOG_OFFSET UNITYSDK_OFFSET(0x1F3DFC60)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F3DFCC0)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1F3DE7B0)
+#define UNITYENGINE_DEBUGLOGHANDLER_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1F3DFC80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DebugLogHandler_TypeDefinitionIndex = 4068;
-
 	class DebugLogHandler : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Internal_Log(::UnityEngine::LogType a1, ::UnityEngine::LogOption a2, ::System::String* a3, ::UnityEngine::Object* a4)
@@ -51,5 +49,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Exception*, ::UnityEngine::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_DEBUGLOGHANDLER_LOGEXCEPTION_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

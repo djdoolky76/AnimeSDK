@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NATIVECOOKIE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8C2A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NATIVECOOKIE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6547C0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_NativeCookie_TypeDefinitionIndex = 38101;
-
 	class BrowserNative_NativeCookie : public ::System::Object
 	{
 	public:
@@ -22,10 +19,10 @@ namespace ZenFulcrum::EmbeddedBrowser
 		::System::String* expires; // 0x40
 		::System::Byte secure; // 0x48
 		::System::Byte httpOnly; // 0x49
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NATIVECOOKIE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_NATIVECOOKIE_CTOR_OFFSET))(this);
 		}
+
 	};
 }

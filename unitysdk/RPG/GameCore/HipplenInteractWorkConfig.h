@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HipplenInteractWorkConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_METHOD_2_8EA9AB74A8AFB5F6_OFFSET UNITYSDK_OFFSET(0x1D1929C0)
-#define RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_METHOD_2_8F389F5F240F0299_OFFSET UNITYSDK_OFFSET(0x1D192B30)
-#define RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D192B20)
+#define RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76ACC0)
+#define RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D76E150)
+#define RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76DFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenInteractWorkConfig_TypeDefinitionIndex = 16608;
-
 	class HipplenInteractWorkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 RequireTime; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* AIConfigPath; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8EA9AB74A8AFB5F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenInteractWorkConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HipplenInteractWorkConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenInteractWorkConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_METHOD_2_8EA9AB74A8AFB5F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HipplenInteractWorkConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_8F389F5F240F0299(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenInteractWorkConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::HipplenInteractWorkConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenInteractWorkConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_METHOD_2_8F389F5F240F0299_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HipplenInteractWorkConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENINTERACTWORKCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

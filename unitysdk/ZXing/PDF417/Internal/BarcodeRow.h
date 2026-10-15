@@ -2,24 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ZXING_PDF417_INTERNAL_BARCODEROW_ADDBAR_OFFSET UNITYSDK_OFFSET(0x1F000E90)
-#define ZXING_PDF417_INTERNAL_BARCODEROW_GETSCALEDROW_OFFSET UNITYSDK_OFFSET(0x1F000DC0)
-#define ZXING_PDF417_INTERNAL_BARCODEROW_SET_OFFSET UNITYSDK_OFFSET(0x1F000E60)
-#define ZXING_PDF417_INTERNAL_BARCODEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1F000B60)
+#define ZXING_PDF417_INTERNAL_BARCODEROW_ADDBAR_OFFSET UNITYSDK_OFFSET(0x1F6C93D0)
+#define ZXING_PDF417_INTERNAL_BARCODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6C90A0)
+#define ZXING_PDF417_INTERNAL_BARCODEROW_GETSCALEDROW_OFFSET UNITYSDK_OFFSET(0x1F6C9300)
+#define ZXING_PDF417_INTERNAL_BARCODEROW_SET_OFFSET UNITYSDK_OFFSET(0x1F6C93A0)
 
 namespace ZXing::PDF417::Internal
 {
-	inline static constexpr unsigned int BarcodeRow_TypeDefinitionIndex = 6996;
-
 	class BarcodeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::SByte>* row; // 0x10
 		::System::Int32 currentLocation; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_PDF417_INTERNAL_BARCODEROW__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_PDF417_INTERNAL_BARCODEROW_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void set(::System::Int32 a1, ::System::Boolean a2)
@@ -36,5 +33,6 @@ namespace ZXing::PDF417::Internal
 		{
 			return ((::Il2CppArray<::System::SByte>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_PDF417_INTERNAL_BARCODEROW_GETSCALEDROW_OFFSET))(this, a1);
 		}
+
 	};
 }

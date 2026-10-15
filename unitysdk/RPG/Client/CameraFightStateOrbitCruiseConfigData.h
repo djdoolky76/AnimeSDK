@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace RPG::Client { class CameraFightStateOrbitCruiseConfigData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA_METHOD_1_0B6FE14071C5DE0B_OFFSET UNITYSDK_OFFSET(0xC9E89A0)
-#define RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E8960)
+#define RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0xC9367C0)
+#define RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC936780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateOrbitCruiseConfigData_TypeDefinitionIndex = 69546;
-
 	class CameraFightStateOrbitCruiseConfigData : public ::System::Object
 	{
 	public:
 		::System::Boolean EnableScreenDamp; // 0x10
+		::System::Byte _padding0[0x7];
 		::System::String* EntityDetectFollowAttachPoint; // 0x18
 		::System::Single EntityDetectRadius; // 0x20
 		::System::Single VirtualScreenFrameTopHeightRatio; // 0x24
@@ -32,20 +31,21 @@ namespace RPG::Client
 		::System::Boolean DrawScreenFrame; // 0x50
 		::System::Boolean DebugAlwaysUpdateAssetCommonConfig; // 0x51
 		::System::Boolean DebugAlwaysUpdateAssetOrbitCruiseConfig; // 0x52
+		::System::Byte _padding1[0x1];
 		::System::Single CurrentXYDampValue; // 0x54
 		::System::Single CurrentZDampValue; // 0x58
 		::UnityEngine::Vector3 CurrentAnchorOffset; // 0x5C
 		::UnityEngine::Vector3 CurrentAimOffset; // 0x68
 		::UnityEngine::Vector3 DynamicOffset; // 0x74
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::CameraFightStateOrbitCruiseConfigData* Method_1_0B6FE14071C5DE0B()
+		::RPG::Client::CameraFightStateOrbitCruiseConfigData* AEOIKFNKAAP()
 		{
-			return ((::RPG::Client::CameraFightStateOrbitCruiseConfigData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA_METHOD_1_0B6FE14071C5DE0B_OFFSET))(this);
+			return ((::RPG::Client::CameraFightStateOrbitCruiseConfigData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERAFIGHTSTATEORBITCRUISECONFIGDATA_AEOIKFNKAAP_OFFSET))(this);
 		}
+
 	};
 }

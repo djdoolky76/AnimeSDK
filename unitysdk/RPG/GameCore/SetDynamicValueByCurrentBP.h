@@ -4,20 +4,18 @@
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetDynamicValueByCurrentBP; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D4EFA20)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_METHOD_4_CED04A57B918FB0B_OFFSET UNITYSDK_OFFSET(0x1D4EF7D0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_METHOD_4_D4F9E2EB196B42F6_OFFSET UNITYSDK_OFFSET(0x1D4EF820)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4EF810)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA3960)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DAA3B70)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA3970)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA3920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByCurrentBP_TypeDefinitionIndex = 22835;
-
 	class SetDynamicValueByCurrentBP : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
@@ -25,25 +23,25 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x20
 		::RPG::GameCore::TeamType Team; // 0x24
 		::RPG::GameCore::BPValueType ValueType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_CED04A57B918FB0B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByCurrentBP*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByCurrentBP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByCurrentBP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_METHOD_4_CED04A57B918FB0B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByCurrentBP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D4F9E2EB196B42F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByCurrentBP* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByCurrentBP* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByCurrentBP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_METHOD_4_D4F9E2EB196B42F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByCurrentBP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYCURRENTBP_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

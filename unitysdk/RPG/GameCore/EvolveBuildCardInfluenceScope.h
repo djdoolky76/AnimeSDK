@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildCardInfluenceScope_TypeDefinitionIndex = 11415;
-
 	enum class EvolveBuildCardInfluenceScope : ::System::Int32
 	{
 		ForPeriod = 0,

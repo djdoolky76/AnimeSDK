@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9689D0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0__SECURITYVERIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x1B973020)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0__SECURITYVERIFICATION_B__1_OFFSET UNITYSDK_OFFSET(0x1B973110)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE68360)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0__SECURITYVERIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0x1BE729B0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0__SECURITYVERIFICATION_B__1_OFFSET UNITYSDK_OFFSET(0x1BE72AA0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass72_0_TypeDefinitionIndex = 8294;
-
 	class LoginManager___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::Int32, ::System::String*>* callback; // 0x10
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
+		::System::Action* callback; // 0x18
 		::System::String* actionTicket; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _SecurityVerification_b__0(::System::Int32 a1, ::System::String* a2, ::MiHoYo::SDK::JSONNode* a3)
@@ -37,5 +33,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS72_0__SECURITYVERIFICATION_B__1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfField_CoCMethod_TypeDefinitionIndex = 37116;
-
 	enum class RPGDepthOfField_CoCMethod : ::System::Int32
 	{
 		RegionCoc = 0,

@@ -4,33 +4,31 @@
 #include "unitysdk/RPG/Client/ChallengeTargetState.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/ChallengeType.h"
-
+namespace RPG::Client { class EmptyChallengeTargetData; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_CALCULATETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xCE9BA50)
-#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_FAKEDATA_OFFSET UNITYSDK_OFFSET(0xCE9B990)
-#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_GETNAMEPARAM_OFFSET UNITYSDK_OFFSET(0xCE9BAF0)
-#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xCE9BAA0)
-#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_UPDATECHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xCE9BA00)
-#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE9B950)
+#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_CALCULATETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xCDEAE80)
+#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCDEAD70)
+#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_FAKEDATA_OFFSET UNITYSDK_OFFSET(0xCDEADB0)
+#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_GETNAMEPARAM_OFFSET UNITYSDK_OFFSET(0xCDEAF20)
+#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_SETCHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xCDEAED0)
+#define RPG_CLIENT_EMPTYCHALLENGETARGETDATA_UPDATECHALLENGETARGETSTATE_OFFSET UNITYSDK_OFFSET(0xCDEAE30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmptyChallengeTargetData_TypeDefinitionIndex = 63176;
-
 	class EmptyChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:
-		::RPG::GameCore::ChallengeType ChallengeType; // 0x28
-		::System::UInt32 ChallengeParam1; // 0x2C
-		::System::UInt32 ChallengeParam3; // 0x30
-		::System::UInt32 RewardID; // 0x34
-		::System::UInt32 ChallengeParam2; // 0x38
+		::System::UInt32 ChallengeParam2; // 0x28
+		::RPG::GameCore::ChallengeType ChallengeType; // 0x2C
+		::System::UInt32 RewardID; // 0x30
+		::System::UInt32 ChallengeParam3; // 0x34
+		::System::UInt32 ChallengeParam1; // 0x38
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Name; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMPTYCHALLENGETARGETDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMPTYCHALLENGETARGETDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::EmptyChallengeTargetData* FakeData()
@@ -57,5 +55,6 @@ namespace RPG::Client
 		{
 			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMPTYCHALLENGETARGETDATA_GETNAMEPARAM_OFFSET))(this);
 		}
+
 	};
 }

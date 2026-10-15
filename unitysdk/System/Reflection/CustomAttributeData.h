@@ -1,62 +1,60 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/CustomAttributeNamedArgument.h"
 #include "unitysdk/System/Reflection/CustomAttributeTypedArgument.h"
-
+#include "unitysdk/System/Object.h"
+namespace System { class Object; }
 namespace System { class RuntimeType; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class ConstructorInfo; }
+namespace System::Reflection { class CustomAttributeData; }
 namespace System::Reflection { class CustomAttributeData_LazyCAttrData; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class Module; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BD8E430)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1BD8D380)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1BD8D300)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_2_OFFSET UNITYSDK_OFFSET(0x1BD8D400)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_3_OFFSET UNITYSDK_OFFSET(0x1BD8D480)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1BD8D280)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BD8F320)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_ATTRIBUTETYPE_OFFSET UNITYSDK_OFFSET(0x1BD8D500)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_CONSTRUCTORARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BD8D1A0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_CONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1BD8D190)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_NAMEDARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BD8D210)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_RESOLVEARGUMENTSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1BD8D100)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_RESOLVEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1BD8D120)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BD8D590)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD8D080)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8D070)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C298D10)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C298D00)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C29A0C0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C299010)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1C298F90)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_2_OFFSET UNITYSDK_OFFSET(0x1C299090)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_3_OFFSET UNITYSDK_OFFSET(0x1C299110)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C298F10)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C29AFB0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_ATTRIBUTETYPE_OFFSET UNITYSDK_OFFSET(0x1C299190)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_CONSTRUCTORARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C298E30)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_CONSTRUCTOR_OFFSET UNITYSDK_OFFSET(0x1C298E20)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GET_NAMEDARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C298EA0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_RESOLVEARGUMENTSINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C298D90)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_RESOLVEARGUMENTS_OFFSET UNITYSDK_OFFSET(0x1C298DB0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C299220)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int CustomAttributeData_TypeDefinitionIndex = 599;
-
 	class CustomAttributeData : public ::System::Object
 	{
 	public:
 		::System::Reflection::CustomAttributeData_LazyCAttrData* lazyData; // 0x10
-		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs; // 0x18
+		::System::Reflection::ConstructorInfo* ctorInfo; // 0x18
 		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs; // 0x20
-		::System::Reflection::ConstructorInfo* ctorInfo; // 0x28
-
+		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Reflection::ConstructorInfo* a1, ::System::Reflection::Assembly* a2, ::System::IntPtr a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::ConstructorInfo*, ::System::Reflection::Assembly*, ::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::ConstructorInfo*, ::System::Reflection::Assembly*, ::System::IntPtr, ::System::UInt32))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Void ResolveArgumentsInternal(::System::Reflection::ConstructorInfo* a1, ::System::Reflection::Assembly* a2, ::System::IntPtr a3, ::System::UInt32 a4, ::Il2CppArray<::System::Object*>*& a5, ::Il2CppArray<::System::Object*>*& a6)
+		static ::System::Void ResolveArgumentsInternal(::System::Reflection::ConstructorInfo* a1, ::System::Reflection::Assembly* a2, ::System::IntPtr a3, ::System::UInt32 a4, ::System::Object* a5, ::System::Object* a6)
 		{
-			return ((::System::Void(*)(::System::Reflection::ConstructorInfo*, ::System::Reflection::Assembly*, ::System::IntPtr, ::System::UInt32, ::Il2CppArray<::System::Object*>*&, ::Il2CppArray<::System::Object*>*&))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_RESOLVEARGUMENTSINTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::System::Reflection::ConstructorInfo*, ::System::Reflection::Assembly*, ::System::IntPtr, ::System::UInt32, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_RESOLVEARGUMENTSINTERNAL_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void ResolveArguments()
@@ -123,5 +121,6 @@ namespace System::Reflection
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEDATA_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

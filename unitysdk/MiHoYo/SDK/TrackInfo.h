@@ -1,74 +1,73 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class CommonInfo; }
 namespace MiHoYo::SDK { class EventInfo; }
 namespace MiHoYo::SDK { class PageInfo; }
+namespace MiHoYo::SDK { class TrackInfo; }
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
+namespace MiHoYo::SDK::Protobuf { class MessageParser; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TRACKINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0xB2B6BD0)
-#define MIHOYO_SDK_TRACKINFO_CLONE_OFFSET UNITYSDK_OFFSET(0xB2B6390)
-#define MIHOYO_SDK_TRACKINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xB2B67B0)
-#define MIHOYO_SDK_TRACKINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0xB2B6560)
-#define MIHOYO_SDK_TRACKINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB2B69E0)
-#define MIHOYO_SDK_TRACKINFO_GET_COMMONINFO_OFFSET UNITYSDK_OFFSET(0xB2B6520)
-#define MIHOYO_SDK_TRACKINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB2B6010)
-#define MIHOYO_SDK_TRACKINFO_GET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0xB2B6540)
-#define MIHOYO_SDK_TRACKINFO_GET_PAGEINFO_OFFSET UNITYSDK_OFFSET(0xB2B6500)
-#define MIHOYO_SDK_TRACKINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0xB2B5FB0)
-#define MIHOYO_SDK_TRACKINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0xB2B6F30)
-#define MIHOYO_SDK_TRACKINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0xB2B6CA0)
-#define MIHOYO_SDK_TRACKINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB2B61F0)
-#define MIHOYO_SDK_TRACKINFO_SET_COMMONINFO_OFFSET UNITYSDK_OFFSET(0xB2B6530)
-#define MIHOYO_SDK_TRACKINFO_SET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0xB2B6550)
-#define MIHOYO_SDK_TRACKINFO_SET_PAGEINFO_OFFSET UNITYSDK_OFFSET(0xB2B6510)
-#define MIHOYO_SDK_TRACKINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB2B6A40)
-#define MIHOYO_SDK_TRACKINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0xB2B6AA0)
-#define MIHOYO_SDK_TRACKINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2B7380)
-#define MIHOYO_SDK_TRACKINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB2B6260)
-#define MIHOYO_SDK_TRACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB2B6250)
+#define MIHOYO_SDK_TRACKINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0xB056A50)
+#define MIHOYO_SDK_TRACKINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB057200)
+#define MIHOYO_SDK_TRACKINFO_CLONE_OFFSET UNITYSDK_OFFSET(0xB056210)
+#define MIHOYO_SDK_TRACKINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB0560E0)
+#define MIHOYO_SDK_TRACKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB0560D0)
+#define MIHOYO_SDK_TRACKINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xB056630)
+#define MIHOYO_SDK_TRACKINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0xB0563E0)
+#define MIHOYO_SDK_TRACKINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB056860)
+#define MIHOYO_SDK_TRACKINFO_GET_COMMONINFO_OFFSET UNITYSDK_OFFSET(0xB0563A0)
+#define MIHOYO_SDK_TRACKINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB055E90)
+#define MIHOYO_SDK_TRACKINFO_GET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0xB0563C0)
+#define MIHOYO_SDK_TRACKINFO_GET_PAGEINFO_OFFSET UNITYSDK_OFFSET(0xB056380)
+#define MIHOYO_SDK_TRACKINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0xB055E30)
+#define MIHOYO_SDK_TRACKINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0xB056DB0)
+#define MIHOYO_SDK_TRACKINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0xB056B20)
+#define MIHOYO_SDK_TRACKINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB056070)
+#define MIHOYO_SDK_TRACKINFO_SET_COMMONINFO_OFFSET UNITYSDK_OFFSET(0xB0563B0)
+#define MIHOYO_SDK_TRACKINFO_SET_EVENTINFO_OFFSET UNITYSDK_OFFSET(0xB0563D0)
+#define MIHOYO_SDK_TRACKINFO_SET_PAGEINFO_OFFSET UNITYSDK_OFFSET(0xB056390)
+#define MIHOYO_SDK_TRACKINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB0568C0)
+#define MIHOYO_SDK_TRACKINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0xB056920)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TrackInfo_TypeDefinitionIndex = 46822;
-
 	class TrackInfo : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>** StaticGet__parser()
-		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>**)Il2CppClass::FromTypeDefinitionIndex(TrackInfo_TypeDefinitionIndex)->GetStaticField(0x552D0);
-		}
-		// static const ::System::Int32 PageInfoFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 CommonInfoFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 EventInfoFieldNumber = 0x3; // 0x0
-		::MiHoYo::SDK::PageInfo* pageInfo_; // 0x10
+		::MiHoYo::SDK::EventInfo* eventInfo_; // 0x10
 		::MiHoYo::SDK::CommonInfo* commonInfo_; // 0x18
-		::MiHoYo::SDK::EventInfo* eventInfo_; // 0x20
+		::MiHoYo::SDK::PageInfo* pageInfo_; // 0x20
+		static ::MiHoYo::SDK::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::MiHoYo::SDK::Protobuf::MessageParser**)UnitySDK::FromName("MiHoYo.SDK", "TrackInfo")->GetStaticField(0x318F0);
+		}
 
+		// static const ::System::Object PageInfoFieldNumber; // 0x0
+		// static const ::System::Object CommonInfoFieldNumber; // 0x0
+		// static const ::System::Object EventInfoFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::MiHoYo::SDK::TrackInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::TrackInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::TrackInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>* get_Parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::TrackInfo*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_GET_PARSER_OFFSET))();
+			return ((::MiHoYo::SDK::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_GET_PARSER_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -155,5 +154,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRACKINFO_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

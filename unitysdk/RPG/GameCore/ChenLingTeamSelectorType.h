@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingTeamSelectorType_TypeDefinitionIndex = 15526;
-
 	enum class ChenLingTeamSelectorType : ::System::Int32
 	{
 		RelativeAlly = 0,

@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderTextureSubElement_TypeDefinitionIndex = 4724;
-
 	enum class RenderTextureSubElement : ::System::Int32
 	{
 		Color = 0,

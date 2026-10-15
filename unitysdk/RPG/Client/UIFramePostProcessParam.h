@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CapturePostProcessPass_EPostProcess.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class UIFramePostProcessParam; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CLONE_OFFSET UNITYSDK_OFFSET(0xE361230)
-#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CREATEBLURPOSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xE361570)
-#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE3615F0)
+#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CLONE_OFFSET UNITYSDK_OFFSET(0xE3A3230)
+#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CREATEBLURPOSTPROCESSPARAM_OFFSET UNITYSDK_OFFSET(0xE3A3580)
+#define RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE3A3600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFramePostProcessParam_TypeDefinitionIndex = 72975;
-
 	class UIFramePostProcessParam : public ::System::Object
 	{
 	public:
 		::UnityEngine::Material* PostProcessMat; // 0x10
 		::RPG::CustomRP::CapturePostProcessPass_EPostProcess PostProcessFeature; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::UIFramePostProcessParam* CreateBlurPostProcessParam()
@@ -33,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::UIFramePostProcessParam*(*)(::RPG::Client::UIFramePostProcessParam*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIFRAMEPOSTPROCESSPARAM_CLONE_OFFSET))(a1);
 		}
+
 	};
 }

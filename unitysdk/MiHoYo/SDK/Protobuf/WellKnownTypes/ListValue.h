@@ -1,67 +1,67 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf { template <typename T> class FieldCodec_1; }
-namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
+namespace MiHoYo::SDK::Protobuf { class FieldCodec; }
+namespace MiHoYo::SDK::Protobuf { class MessageParser; }
 namespace MiHoYo::SDK::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
+namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class ListValue; }
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class Value; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B71B0C0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0x1B71AE10)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B71AF10)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B71AE60)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B71AF80)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B71AA80)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B71AA20)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B71B1E0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B71B150)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B71ACC0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B71AFD0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B71B030)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B71B3A0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B71AD70)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71AD20)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BC18CD0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC18FB0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC18A20)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC18980)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC18930)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC18B20)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC18A70)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC18B90)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC18690)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BC18630)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BC18DF0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BC18D60)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BC188D0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC18BE0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BC18C40)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int ListValue_TypeDefinitionIndex = 35083;
-
 	class ListValue : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Protobuf::FieldCodec_1<::MiHoYo::SDK::Protobuf::WellKnownTypes::Value*>** StaticGet__repeated_values_codec()
-		{
-			return (::MiHoYo::SDK::Protobuf::FieldCodec_1<::MiHoYo::SDK::Protobuf::WellKnownTypes::Value*>**)Il2CppClass::FromTypeDefinitionIndex(ListValue_TypeDefinitionIndex)->GetStaticField(0xC60);
-		}
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::WellKnownTypes::ListValue*>** StaticGet__parser()
-		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::WellKnownTypes::ListValue*>**)Il2CppClass::FromTypeDefinitionIndex(ListValue_TypeDefinitionIndex)->GetStaticField(0xC68);
-		}
 		::MiHoYo::SDK::Protobuf::Collections::RepeatedField_1<::MiHoYo::SDK::Protobuf::WellKnownTypes::Value*>* values_; // 0x10
+		static ::MiHoYo::SDK::Protobuf::FieldCodec** StaticGet__repeated_values_codec()
+		{
+			return (::MiHoYo::SDK::Protobuf::FieldCodec**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.WellKnownTypes", "ListValue")->GetStaticField(0x930);
+		}
+
+		static ::MiHoYo::SDK::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::MiHoYo::SDK::Protobuf::MessageParser**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.WellKnownTypes", "ListValue")->GetStaticField(0x938);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::MiHoYo::SDK::Protobuf::WellKnownTypes::ListValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::WellKnownTypes::ListValue*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::WellKnownTypes::ListValue*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::WellKnownTypes::ListValue*>* get_Parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::Protobuf::WellKnownTypes::ListValue*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GET_PARSER_OFFSET))();
+			return ((::MiHoYo::SDK::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_GET_PARSER_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -118,5 +118,6 @@ namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_LISTVALUE_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

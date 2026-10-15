@@ -1,10 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int _PrivateImplementationDetails____StaticArrayInitTypeSize_162_TypeDefinitionIndex = 1744;
-
-struct alignas(1) _PrivateImplementationDetails____StaticArrayInitTypeSize_162
-{
-	System::UChar data[162]; // 0x0
-};
+	struct alignas(4) _PrivateImplementationDetails____StaticArrayInitTypeSize_162
+	{
+	};

@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ENTITAS_ENTITYCOMPONENTREPLACED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16535C20)
-#define ENTITAS_ENTITYCOMPONENTREPLACED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16535CA0)
-#define ENTITAS_ENTITYCOMPONENTREPLACED_INVOKE_OFFSET UNITYSDK_OFFSET(0x16534A00)
-#define ENTITAS_ENTITYCOMPONENTREPLACED__CTOR_OFFSET UNITYSDK_OFFSET(0x16535B30)
+#define ENTITAS_ENTITYCOMPONENTREPLACED_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1675C9F0)
+#define ENTITAS_ENTITYCOMPONENTREPLACED_CTOR_OFFSET UNITYSDK_OFFSET(0x1675C900)
+#define ENTITAS_ENTITYCOMPONENTREPLACED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1675CA70)
+#define ENTITAS_ENTITYCOMPONENTREPLACED_INVOKE_OFFSET UNITYSDK_OFFSET(0x1675B7D0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityComponentReplaced_TypeDefinitionIndex = 9955;
-
 	class EntityComponentReplaced : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYCOMPONENTREPLACED__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYCOMPONENTREPLACED_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Entitas::IEntity* a1, ::System::Int32 a2, ::Entitas::IComponent* a3, ::Entitas::IComponent* a4)
@@ -39,5 +36,6 @@ namespace Entitas
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ENTITAS_ENTITYCOMPONENTREPLACED_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

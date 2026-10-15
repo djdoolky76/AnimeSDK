@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitPropCurveMovePaused; }
 
-#define RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_METHOD_3_9666F3C84197FCE8_OFFSET UNITYSDK_OFFSET(0x1D6A97C0)
-#define RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_METHOD_3_E8A947B543BDC4EA_OFFSET UNITYSDK_OFFSET(0x1D6A9860)
-#define RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9820)
+#define RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9E9D0)
+#define RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9EA10)
+#define RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9E970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropCurveMovePaused_TypeDefinitionIndex = 20772;
-
 	class WaitPropCurveMovePaused : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* TasksConfig; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9666F3C84197FCE8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropCurveMovePaused*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPropCurveMovePaused* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropCurveMovePaused*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_METHOD_3_9666F3C84197FCE8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPropCurveMovePaused*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E8A947B543BDC4EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropCurveMovePaused* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPropCurveMovePaused* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropCurveMovePaused*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_METHOD_3_E8A947B543BDC4EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPropCurveMovePaused*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPCURVEMOVEPAUSED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

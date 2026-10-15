@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC1720)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC17B0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC16F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC1680)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F689C90)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F689BF0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F689D20)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F689C60)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__DriverDebugRequest_TypeDefinitionIndex = 37634;
-
 	class IVRSystem__DriverDebugRequest : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::UInt32 a1, ::System::String* a2, ::System::String* a3, ::System::UInt32 a4)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__DRIVERDEBUGREQUEST_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

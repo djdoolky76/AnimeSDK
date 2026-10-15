@@ -3,26 +3,23 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/AnimatorTransitionInfo.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define UNITYENGINE_ANIMATOR_THREADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF7280)
-#define UNITYENGINE_ANIMATOR_THREADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF7360)
-#define UNITYENGINE_ANIMATOR_THREADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ECF6C40)
-#define UNITYENGINE_ANIMATOR_THREADDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF7210)
+#define UNITYENGINE_ANIMATOR_THREADDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3BF030)
+#define UNITYENGINE_ANIMATOR_THREADDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BEFC0)
+#define UNITYENGINE_ANIMATOR_THREADDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3BF110)
+#define UNITYENGINE_ANIMATOR_THREADDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3BE9F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Animator_ThreadDelegate_TypeDefinitionIndex = 5704;
-
 	class Animator_ThreadDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_THREADDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_THREADDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::AnimatorStateInfo a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::AnimatorTransitionInfo a3, ::System::Boolean a4)
@@ -39,5 +36,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_ANIMATOR_THREADDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

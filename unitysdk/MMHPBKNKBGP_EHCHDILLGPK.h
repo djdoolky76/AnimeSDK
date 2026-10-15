@@ -1,0 +1,230 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UISkillIndex.h"
+#include "unitysdk/System/Object.h"
+class JGNCIONCKNN;
+class MMHPBKNKBGP;
+class NMNIJNNFPGP;
+class PCFGMEAFAFD;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class SkillData; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+#define MMHPBKNKBGP_EHCHDILLGPK_AFOCNOKBNBH_OFFSET UNITYSDK_OFFSET(0xB9CAC00)
+#define MMHPBKNKBGP_EHCHDILLGPK_APMIMOJBKNC_OFFSET UNITYSDK_OFFSET(0xB9C6C20)
+#define MMHPBKNKBGP_EHCHDILLGPK_BEMCNJKMKCI_OFFSET UNITYSDK_OFFSET(0xB9CC5F0)
+#define MMHPBKNKBGP_EHCHDILLGPK_CDPDHKCJCHK_OFFSET UNITYSDK_OFFSET(0xB9C5A30)
+#define MMHPBKNKBGP_EHCHDILLGPK_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C4EA0)
+#define MMHPBKNKBGP_EHCHDILLGPK_DBJIDJAMDHD_OFFSET UNITYSDK_OFFSET(0xB9C58F0)
+#define MMHPBKNKBGP_EHCHDILLGPK_DBLJDELIPBL_OFFSET UNITYSDK_OFFSET(0xB9CCF10)
+#define MMHPBKNKBGP_EHCHDILLGPK_DFPDIGIDFEH_OFFSET UNITYSDK_OFFSET(0xB9CC810)
+#define MMHPBKNKBGP_EHCHDILLGPK_DLMFGKFPJMC_OFFSET UNITYSDK_OFFSET(0xB9C5A80)
+#define MMHPBKNKBGP_EHCHDILLGPK_EOGFGGNHPKE_OFFSET UNITYSDK_OFFSET(0xB9CD590)
+#define MMHPBKNKBGP_EHCHDILLGPK_FEPAKPKAAID_OFFSET UNITYSDK_OFFSET(0xB9CBDA0)
+#define MMHPBKNKBGP_EHCHDILLGPK_FMKBCHLBNDO_OFFSET UNITYSDK_OFFSET(0xB9C7220)
+#define MMHPBKNKBGP_EHCHDILLGPK_FNFDCIKHAFN_OFFSET UNITYSDK_OFFSET(0xB9CBEF0)
+#define MMHPBKNKBGP_EHCHDILLGPK_GFDOLJFGLFG_OFFSET UNITYSDK_OFFSET(0xB9C92F0)
+#define MMHPBKNKBGP_EHCHDILLGPK_GKDPAJKKKOA_OFFSET UNITYSDK_OFFSET(0xB9CBA80)
+#define MMHPBKNKBGP_EHCHDILLGPK_GOGJEBNGFHM_OFFSET UNITYSDK_OFFSET(0xB9CBB90)
+#define MMHPBKNKBGP_EHCHDILLGPK_HOJMGEKCMPK_OFFSET UNITYSDK_OFFSET(0xB9CBA20)
+#define MMHPBKNKBGP_EHCHDILLGPK_JFDALFNGGNK_OFFSET UNITYSDK_OFFSET(0xB9CC330)
+#define MMHPBKNKBGP_EHCHDILLGPK_JNKMGENNMDJ_OFFSET UNITYSDK_OFFSET(0xB9CC450)
+#define MMHPBKNKBGP_EHCHDILLGPK_KKBDOOCICDG_OFFSET UNITYSDK_OFFSET(0xB9CB960)
+#define MMHPBKNKBGP_EHCHDILLGPK_KKCEGMBJHDC_OFFSET UNITYSDK_OFFSET(0xB9CB900)
+#define MMHPBKNKBGP_EHCHDILLGPK_KKHOMFOPFJA_OFFSET UNITYSDK_OFFSET(0xB9CC960)
+#define MMHPBKNKBGP_EHCHDILLGPK_KNNMHJMMBMO_OFFSET UNITYSDK_OFFSET(0xB9CBAE0)
+#define MMHPBKNKBGP_EHCHDILLGPK_KOAEKIBHMBJ_OFFSET UNITYSDK_OFFSET(0xB9CB8A0)
+#define MMHPBKNKBGP_EHCHDILLGPK_LAMPLMCBCLK_OFFSET UNITYSDK_OFFSET(0xB9C59A0)
+#define MMHPBKNKBGP_EHCHDILLGPK_LJKADDJPNNP_OFFSET UNITYSDK_OFFSET(0xB9CAD50)
+#define MMHPBKNKBGP_EHCHDILLGPK_LKEFCMNJDJI_OFFSET UNITYSDK_OFFSET(0xB9CBB40)
+#define MMHPBKNKBGP_EHCHDILLGPK_LOBOGBACKKI_OFFSET UNITYSDK_OFFSET(0xB9CC680)
+#define MMHPBKNKBGP_EHCHDILLGPK_LOKMDDMCADE_OFFSET UNITYSDK_OFFSET(0xB9C5AE0)
+#define MMHPBKNKBGP_EHCHDILLGPK_MHJPFNGFEJP_OFFSET UNITYSDK_OFFSET(0xB9CB9C0)
+#define MMHPBKNKBGP_EHCHDILLGPK_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xB9CA2F0)
+#define MMHPBKNKBGP_EHCHDILLGPK_OJCAJJMAGLK_OFFSET UNITYSDK_OFFSET(0xB9C73B0)
+#define MMHPBKNKBGP_EHCHDILLGPK_OMBMEAGNBNL_OFFSET UNITYSDK_OFFSET(0xB9CC3C0)
+#define MMHPBKNKBGP_EHCHDILLGPK_PNJKFOILFOB_OFFSET UNITYSDK_OFFSET(0xB9C9CB0)
+
+	class MMHPBKNKBGP_EHCHDILLGPK : public ::System::Object
+	{
+	public:
+		::MMHPBKNKBGP* KJMDDAHEODL; // 0x10
+		::Il2CppArray<::NMNIJNNFPGP*>* IDHLHLDCCCJ; // 0x18
+		::NMNIJNNFPGP* OFCKIDDMCJE; // 0x20
+		::NMNIJNNFPGP* CHPBLINMICK; // 0x28
+		::NMNIJNNFPGP* LLMBPJJGEKA; // 0x30
+		::NMNIJNNFPGP* KCLHLGCIDEO; // 0x38
+		::JGNCIONCKNN* DNPGNHJDODF; // 0x40
+		::NMNIJNNFPGP* DLKHHOAIDDK; // 0x48
+		::System::Void _ctor(::MMHPBKNKBGP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MMHPBKNKBGP*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_CTOR_OFFSET))(this, a1);
+		}
+
+		::NMNIJNNFPGP* KOAEKIBHMBJ()
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_KOAEKIBHMBJ_OFFSET))(this);
+		}
+
+		::NMNIJNNFPGP* KKCEGMBJHDC()
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_KKCEGMBJHDC_OFFSET))(this);
+		}
+
+		::NMNIJNNFPGP* KKBDOOCICDG()
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_KKBDOOCICDG_OFFSET))(this);
+		}
+
+		::NMNIJNNFPGP* MHJPFNGFEJP()
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_MHJPFNGFEJP_OFFSET))(this);
+		}
+
+		::NMNIJNNFPGP* HOJMGEKCMPK()
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_HOJMGEKCMPK_OFFSET))(this);
+		}
+
+		::NMNIJNNFPGP* GKDPAJKKKOA()
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_GKDPAJKKKOA_OFFSET))(this);
+		}
+
+		::NMNIJNNFPGP* KNNMHJMMBMO()
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_KNNMHJMMBMO_OFFSET))(this);
+		}
+
+		::System::Int32 LKEFCMNJDJI()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_LKEFCMNJDJI_OFFSET))(this);
+		}
+
+		::NMNIJNNFPGP* GOGJEBNGFHM(::RPG::Client::UISkillIndex a1)
+		{
+			return ((::NMNIJNNFPGP*(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_GOGJEBNGFHM_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>* OMBMEAGNBNL(::RPG::Client::UISkillIndex a1)
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>*(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_OMBMEAGNBNL_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>* JNKMGENNMDJ(::RPG::Client::UISkillIndex a1)
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>*(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_JNKMGENNMDJ_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>* BEMCNJKMKCI()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_BEMCNJKMKCI_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>* LOBOGBACKKI()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_LOBOGBACKKI_OFFSET))(this);
+		}
+
+		::System::Void DBJIDJAMDHD(::NMNIJNNFPGP* a1, ::RPG::Client::UISkillIndex a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::NMNIJNNFPGP*, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_DBJIDJAMDHD_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void LAMPLMCBCLK(::NMNIJNNFPGP* a1, ::RPG::Client::UISkillIndex a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::NMNIJNNFPGP*, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_LAMPLMCBCLK_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void CDPDHKCJCHK(::NMNIJNNFPGP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NMNIJNNFPGP*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_CDPDHKCJCHK_OFFSET))(this, a1);
+		}
+
+		::System::Void DLMFGKFPJMC(::PCFGMEAFAFD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PCFGMEAFAFD*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_DLMFGKFPJMC_OFFSET))(this, a1);
+		}
+
+		::System::Void LOKMDDMCADE(::JGNCIONCKNN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::JGNCIONCKNN*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_LOKMDDMCADE_OFFSET))(this, a1);
+		}
+
+		::System::Void APMIMOJBKNC(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_APMIMOJBKNC_OFFSET))(this, a1);
+		}
+
+		::System::Boolean FMKBCHLBNDO(::RPG::Client::UISkillIndex a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_FMKBCHLBNDO_OFFSET))(this, a1);
+		}
+
+		::System::Void AFOCNOKBNBH(::RPG::Client::UISkillIndex a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::SkillData* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::SkillData*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_AFOCNOKBNBH_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void NJBDJBHEBAN(::RPG::Client::UISkillIndex a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex, ::System::Boolean))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_NJBDJBHEBAN_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void LJKADDJPNNP(::RPG::Client::UISkillIndex a1, ::RPG::Client::UISkillIndex a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_LJKADDJPNNP_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void DFPDIGIDFEH(::RPG::Client::UISkillIndex a1, ::System::String* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex, ::System::String*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_DFPDIGIDFEH_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void KKHOMFOPFJA(::RPG::Client::UISkillIndex a1, ::RPG::GameCore::GameEntity* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_KKHOMFOPFJA_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void DBLJDELIPBL(::RPG::Client::UISkillIndex a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex, ::System::Boolean))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_DBLJDELIPBL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void EOGFGGNHPKE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_EOGFGGNHPKE_OFFSET))(this);
+		}
+
+		::RPG::Client::UISkillIndex PNJKFOILFOB(::RPG::Client::UISkillIndex a1)
+		{
+			return ((::RPG::Client::UISkillIndex(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_PNJKFOILFOB_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>* OJCAJJMAGLK()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::NMNIJNNFPGP*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_OJCAJJMAGLK_OFFSET))(this);
+		}
+
+		::System::Void GFDOLJFGLFG(::RPG::Client::UISkillIndex a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::UISkillIndex))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_GFDOLJFGLFG_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::GameEntity* FEPAKPKAAID()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_FEPAKPKAAID_OFFSET))(this);
+		}
+
+		::System::Boolean FNFDCIKHAFN(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_FNFDCIKHAFN_OFFSET))(this, a1);
+		}
+
+		::System::Boolean JFDALFNGGNK(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + MMHPBKNKBGP_EHCHDILLGPK_JFDALFNGGNK_OFFSET))(this, a1);
+		}
+
+	};

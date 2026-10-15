@@ -4,31 +4,27 @@
 #include "unitysdk/RPG/CustomRP/FrameCapture_CaptureFeature.h"
 #include "unitysdk/RPG/CustomRP/FrameCapture_CaptureType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class FrameCaptureManager_FrameBlendingEndOPDefault; }
 namespace RPG::Client { class FrameCaptureManager_FrameCaptureEndOPDefault; }
 
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD0AC800)
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_ISFRAMECAPTUREFULL_OFFSET UNITYSDK_OFFSET(0xD0AC770)
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_RELEASECAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD0AC900)
-#define RPG_CLIENT_FRAMECAPTUREMANAGER_STARTFRAMEBLENDING_OFFSET UNITYSDK_OFFSET(0xD0ACA10)
-#define RPG_CLIENT_FRAMECAPTUREMANAGER__CLEARCAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD0AC9B0)
-#define RPG_CLIENT_FRAMECAPTUREMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0AC710)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_CAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD04D5D0)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xD04D4E0)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_ISFRAMECAPTUREFULL_OFFSET UNITYSDK_OFFSET(0xD04D540)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_RELEASECAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD04D6D0)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER_STARTFRAMEBLENDING_OFFSET UNITYSDK_OFFSET(0xD04D7E0)
+#define RPG_CLIENT_FRAMECAPTUREMANAGER__CLEARCAPTUREFRAME_OFFSET UNITYSDK_OFFSET(0xD04D780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FrameCaptureManager_TypeDefinitionIndex = 69729;
-
 	class FrameCaptureManager : public ::System::Object
 	{
 	public:
-		::RPG::Client::FrameCaptureManager_FrameBlendingEndOPDefault* _FrameBlendingEndOp; // 0x10
-		::RPG::Client::FrameCaptureManager_FrameCaptureEndOPDefault* _FrameCaptureEndOp; // 0x18
+		::RPG::Client::FrameCaptureManager_FrameCaptureEndOPDefault* _FrameCaptureEndOp; // 0x10
+		::RPG::Client::FrameCaptureManager_FrameBlendingEndOPDefault* _FrameBlendingEndOp; // 0x18
 		::RPG::Client::FrameCaptureManager_CaptureUsage _CurrentCaptureUsage; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRAMECAPTUREMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRAMECAPTUREMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsFrameCaptureFull()
@@ -55,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FRAMECAPTUREMANAGER__CLEARCAPTUREFRAME_OFFSET))(this);
 		}
+
 	};
 }

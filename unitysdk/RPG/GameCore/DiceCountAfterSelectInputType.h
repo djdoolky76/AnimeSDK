@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCountAfterSelectInputType_TypeDefinitionIndex = 15903;
-
 	enum class DiceCountAfterSelectInputType : ::System::Int32
 	{
 		DiceWithResult = 0,

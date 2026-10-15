@@ -5,7 +5,6 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPGTools::Timeline { class EmoEyeCtrlData; }
 namespace RPGTools::Timeline { class EmoEyeCtrlOffsetData; }
 namespace RPGTools::Timeline { class EmoEyeCtrlShakeData; }
@@ -13,41 +12,41 @@ namespace RPGTools::Timeline { class EmoEyeCtrlShakeNoiseData; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EMOEYECTRL_AJUSTROTATION_OFFSET UNITYSDK_OFFSET(0xCE99E90)
-#define RPG_CLIENT_EMOEYECTRL_AWAKE_OFFSET UNITYSDK_OFFSET(0xCE962D0)
-#define RPG_CLIENT_EMOEYECTRL_DOUPDATE_OFFSET UNITYSDK_OFFSET(0xCE96870)
-#define RPG_CLIENT_EMOEYECTRL_EYEEULER_OFFSET UNITYSDK_OFFSET(0xCE99450)
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKAT_1_OFFSET UNITYSDK_OFFSET(0xCE95E60)
-#define RPG_CLIENT_EMOEYECTRL_EYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCE95C40)
-#define RPG_CLIENT_EMOEYECTRL_GET_ENABLEEYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCE95B40)
-#define RPG_CLIENT_EMOEYECTRL_HASDATA_OFFSET UNITYSDK_OFFSET(0xCE95B50)
-#define RPG_CLIENT_EMOEYECTRL_INITIALIZELOOKAT_OFFSET UNITYSDK_OFFSET(0xCE95CF0)
-#define RPG_CLIENT_EMOEYECTRL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCE97A50)
-#define RPG_CLIENT_EMOEYECTRL_SCALEADD_OFFSET UNITYSDK_OFFSET(0xCE99530)
-#define RPG_CLIENT_EMOEYECTRL_SETBLINKWEIGHT_OFFSET UNITYSDK_OFFSET(0xCE99F10)
-#define RPG_CLIENT_EMOEYECTRL_SETBLINK_OFFSET UNITYSDK_OFFSET(0xCE998D0)
-#define RPG_CLIENT_EMOEYECTRL_SETDATA_OFFSET UNITYSDK_OFFSET(0xCE95BA0)
-#define RPG_CLIENT_EMOEYECTRL_SETEYECTRL_OFFSET UNITYSDK_OFFSET(0xCE968D0)
-#define RPG_CLIENT_EMOEYECTRL_SETEYELOOKATWEIGHT_OFFSET UNITYSDK_OFFSET(0xCE95FD0)
-#define RPG_CLIENT_EMOEYECTRL_SETSHAKEDATA_OFFSET UNITYSDK_OFFSET(0xCE95BF0)
-#define RPG_CLIENT_EMOEYECTRL_SETUPEYELOOKATCURVEBLEND_OFFSET UNITYSDK_OFFSET(0xCE96040)
-#define RPG_CLIENT_EMOEYECTRL_STOPEYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCE95F20)
-#define RPG_CLIENT_EMOEYECTRL_UPDATEEYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCE97AF0)
-#define RPG_CLIENT_EMOEYECTRL__CTOR_OFFSET UNITYSDK_OFFSET(0xCE99F70)
-#define RPG_CLIENT_EMOEYECTRL__SHAKEOFFSET_OFFSET UNITYSDK_OFFSET(0xCE98950)
-#define RPG_CLIENT_EMOEYECTRL__SHAKERATIO_OFFSET UNITYSDK_OFFSET(0xCE995F0)
+#define RPG_CLIENT_EMOEYECTRL_AJUSTROTATION_OFFSET UNITYSDK_OFFSET(0xCDE90F0)
+#define RPG_CLIENT_EMOEYECTRL_AWAKE_OFFSET UNITYSDK_OFFSET(0xCDE5530)
+#define RPG_CLIENT_EMOEYECTRL_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE91D0)
+#define RPG_CLIENT_EMOEYECTRL_DOUPDATE_OFFSET UNITYSDK_OFFSET(0xCDE5AD0)
+#define RPG_CLIENT_EMOEYECTRL_EYEEULER_OFFSET UNITYSDK_OFFSET(0xCDE86B0)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKAT_1_OFFSET UNITYSDK_OFFSET(0xCDE50C0)
+#define RPG_CLIENT_EMOEYECTRL_EYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCDE4EA0)
+#define RPG_CLIENT_EMOEYECTRL_GET_ENABLEEYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCDE4DA0)
+#define RPG_CLIENT_EMOEYECTRL_HASDATA_OFFSET UNITYSDK_OFFSET(0xCDE4DB0)
+#define RPG_CLIENT_EMOEYECTRL_INITIALIZELOOKAT_OFFSET UNITYSDK_OFFSET(0xCDE4F50)
+#define RPG_CLIENT_EMOEYECTRL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDE6CB0)
+#define RPG_CLIENT_EMOEYECTRL_SCALEADD_OFFSET UNITYSDK_OFFSET(0xCDE8790)
+#define RPG_CLIENT_EMOEYECTRL_SETBLINKWEIGHT_OFFSET UNITYSDK_OFFSET(0xCDE9170)
+#define RPG_CLIENT_EMOEYECTRL_SETBLINK_OFFSET UNITYSDK_OFFSET(0xCDE8B30)
+#define RPG_CLIENT_EMOEYECTRL_SETDATA_OFFSET UNITYSDK_OFFSET(0xCDE4E00)
+#define RPG_CLIENT_EMOEYECTRL_SETEYECTRL_OFFSET UNITYSDK_OFFSET(0xCDE5B30)
+#define RPG_CLIENT_EMOEYECTRL_SETEYELOOKATWEIGHT_OFFSET UNITYSDK_OFFSET(0xCDE5230)
+#define RPG_CLIENT_EMOEYECTRL_SETSHAKEDATA_OFFSET UNITYSDK_OFFSET(0xCDE4E50)
+#define RPG_CLIENT_EMOEYECTRL_SETUPEYELOOKATCURVEBLEND_OFFSET UNITYSDK_OFFSET(0xCDE52A0)
+#define RPG_CLIENT_EMOEYECTRL_STOPEYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCDE5180)
+#define RPG_CLIENT_EMOEYECTRL_UPDATEEYELOOKAT_OFFSET UNITYSDK_OFFSET(0xCDE6D50)
+#define RPG_CLIENT_EMOEYECTRL__SHAKEOFFSET_OFFSET UNITYSDK_OFFSET(0xCDE7BB0)
+#define RPG_CLIENT_EMOEYECTRL__SHAKERATIO_OFFSET UNITYSDK_OFFSET(0xCDE8850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoEyeCtrl_TypeDefinitionIndex = 71095;
-
 	class EmoEyeCtrl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean _mEnableEyeLookAt; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single _mEyeLookAtWeight; // 0x1C
 		::UnityEngine::Transform* _mEyeLookAtTarget; // 0x20
 		::UnityEngine::Vector3 _mEyeLookAtTargetPos; // 0x28
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* EyeLookAtOrigin; // 0x38
 		::System::Single EyeLookAtStopTime; // 0x40
 		::UnityEngine::Vector2 EyeLookAtAxisXRange; // 0x44
@@ -55,6 +54,7 @@ namespace RPG::Client
 		::UnityEngine::Vector2 EyeLookAtSpeed; // 0x54
 		::UnityEngine::Vector2 EyeLookAtForwardRange; // 0x5C
 		::System::Boolean UseRotZ; // 0x64
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Transform* LeftEyeEnd; // 0x68
 		::UnityEngine::Transform* RightEyeEnd; // 0x70
 		::UnityEngine::Transform* LeftEye; // 0x78
@@ -62,6 +62,7 @@ namespace RPG::Client
 		::UnityEngine::Transform* LeftEyeEnd01; // 0x88
 		::UnityEngine::Transform* RightEyeEnd01; // 0x90
 		::System::Single BlinkEyeXRot; // 0x98
+		::System::Byte _padding3[0x4];
 		::RPGTools::Timeline::EmoEyeCtrlData* originData; // 0xA0
 		::RPGTools::Timeline::EmoEyeCtrlOffsetData* _eyeOffsetData; // 0xA8
 		::RPGTools::Timeline::EmoEyeCtrlOffsetData* _ShakedEyeOffsetData; // 0xB0
@@ -73,20 +74,22 @@ namespace RPG::Client
 		::UnityEngine::Vector3 _mLeftEyeLookAtRotOffset; // 0xD8
 		::UnityEngine::Vector3 _mRightEyeLookAtRotOffset; // 0xE4
 		::System::Boolean _mBlinking; // 0xF0
+		::System::Byte _padding4[0x3];
 		::System::Single _mLeftDeltaRotation; // 0xF4
 		::System::Single _mRightDeltaRotation; // 0xF8
 		::UnityEngine::Quaternion _mLeftRotation; // 0xFC
 		::UnityEngine::Quaternion _mRightRotation; // 0x10C
 		::System::Boolean _mLeftNeedRotate; // 0x11C
 		::System::Boolean _mRightNeedRotate; // 0x11D
+		::System::Byte _padding5[0x2];
 		::System::Single _mBlinkingWeight; // 0x120
 		::UnityEngine::Vector3 _eyeLocalUp; // 0x124
 		::UnityEngine::Vector3 _eyeLocalForward; // 0x130
+		::System::Byte _padding6[0x4];
 		::RPG::Client::EmoEyeCtrl_EyeLookAtCurveBlend _eyeCurveBlend; // 0x140
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOEYECTRL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOEYECTRL_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_EnableEyeLookAt()
@@ -198,5 +201,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EMOEYECTRL_AJUSTROTATION_OFFSET))(this, a1);
 		}
+
 	};
 }

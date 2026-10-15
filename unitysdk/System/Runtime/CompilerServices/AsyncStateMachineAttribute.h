@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/CompilerServices/StateMachineAttribute.h"
-
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBB010)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C6C60)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncStateMachineAttribute_TypeDefinitionIndex = 1358;
-
 	class AsyncStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute
 	{
 	public:
 		::System::Void _ctor(::System::Type* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCSTATEMACHINEATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

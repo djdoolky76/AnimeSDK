@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/TimeZone.h"
 #include "unitysdk/System/DateTime.h"
 #include "unitysdk/System/TimeSpan.h"
-#include "unitysdk/System/TimeZone.h"
-
-namespace System { class String; }
+namespace System { class Object; }
 namespace System { class TimeZoneInfo; }
 
-#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET UNITYSDK_OFFSET(0x1BC9A370)
-#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x1BC9A2F0)
-#define SYSTEM_CURRENTSYSTEMTIMEZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC9A1F0)
+#define SYSTEM_CURRENTSYSTEMTIMEZONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A62B0)
+#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET UNITYSDK_OFFSET(0x1C1A6430)
+#define SYSTEM_CURRENTSYSTEMTIMEZONE_GETUTCOFFSET_OFFSET UNITYSDK_OFFSET(0x1C1A63B0)
 
 namespace System
 {
-	inline static constexpr unsigned int CurrentSystemTimeZone_TypeDefinitionIndex = 435;
-
 	class CurrentSystemTimeZone : public ::System::TimeZone
 	{
 	public:
 		::System::TimeZoneInfo* LocalTimeZone; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_CTOR_OFFSET))(this);
 		}
 
 		::System::TimeSpan GetUtcOffset(::System::DateTime a1)
@@ -30,9 +26,10 @@ namespace System
 			return ((::System::TimeSpan(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_GETUTCOFFSET_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean GetTimeZoneData(::System::Int32 a1, ::Il2CppArray<::System::Int64>*& a2, ::Il2CppArray<::System::String*>*& a3, ::System::Boolean& a4)
+		static ::System::Boolean GetTimeZoneData(::System::Int32 a1, ::System::Object* a2, ::System::Object* a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::System::Int32, ::Il2CppArray<::System::Int64>*&, ::Il2CppArray<::System::String*>*&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::Int32, ::System::Object*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CURRENTSYSTEMTIMEZONE_GETTIMEZONEDATA_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

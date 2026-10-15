@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+class OJCPAPCGGFE;
+namespace RPG::GameCore { class DynamicString; }
+namespace System { class String; }
+
+#define OJCPAPCGGFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D288E50)
+#define OJCPAPCGGFE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D288E60)
+#define OJCPAPCGGFE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D288E20)
+
+	class OJCPAPCGGFE : public ::RPG::GameCore::TaskConfig
+	{
+	public:
+		::RPG::GameCore::DynamicString* ODMPMJCAHPN; // 0x18
+		::Il2CppArray<::System::String*>* MMMJJJOGBBI; // 0x20
+		::System::Boolean IJJCPANIEPG; // 0x28
+		::System::Boolean DLHKHJGAAKN; // 0x29
+		::System::Boolean FMLMJLMDBPF; // 0x2A
+		::System::Byte _padding0[0x1];
+		::System::Single IKIOEBEGLJE; // 0x2C
+		::System::Boolean GEOPPFCKACN; // 0x30
+		::System::Boolean NANMKBGJCEB; // 0x31
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJCPAPCGGFE_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::OJCPAPCGGFE* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::OJCPAPCGGFE*))((::PBYTE)hIl2Cpp + OJCPAPCGGFE_OJNNBEJLDIJ_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::OJCPAPCGGFE* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::OJCPAPCGGFE*))((::PBYTE)hIl2Cpp + OJCPAPCGGFE_MGMEGEDLMAK_OFFSET))(a1, a2);
+		}
+
+	};

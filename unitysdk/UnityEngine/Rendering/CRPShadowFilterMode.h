@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPShadowFilterMode_TypeDefinitionIndex = 4879;
-
 	enum class CRPShadowFilterMode : ::System::Int32
 	{
 		PCF2x2 = 0,

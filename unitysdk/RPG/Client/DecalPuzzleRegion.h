@@ -3,40 +3,38 @@
 #include "unitysdk/RPG/Client/DecalPuzzleMethod.h"
 #include "unitysdk/RPG/Client/DecalPuzzleRegionType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace RPG::Client { class FreeDecal; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_081E84DBAB5CA72B_OFFSET UNITYSDK_OFFSET(0xCC9A020)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xCC9A090)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_4C0EBEE9B5A06A83_OFFSET UNITYSDK_OFFSET(0xCC9A600)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_6DE2C674FDD4BF07_OFFSET UNITYSDK_OFFSET(0xCC9A260)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_7002C7609FE8B6AE_1_OFFSET UNITYSDK_OFFSET(0xCC99D80)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_7002C7609FE8B6AE_OFFSET UNITYSDK_OFFSET(0xCC99870)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_853D12DFD2223B1B_OFFSET UNITYSDK_OFFSET(0xCC99C00)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_98CD66A7F3C102A5_OFFSET UNITYSDK_OFFSET(0xCC99650)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xCC9A0F0)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_B34D4E319F95DF95_OFFSET UNITYSDK_OFFSET(0xCC9A440)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_D64FD9A228A1C4E0_1_OFFSET UNITYSDK_OFFSET(0xCC9A1F0)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0xCC9A180)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_DC07A38C823F6ED7_OFFSET UNITYSDK_OFFSET(0xCC99F30)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_E905D30F05438104_OFFSET UNITYSDK_OFFSET(0xCC99B30)
-#define RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_F55BE4E8507DAB52_OFFSET UNITYSDK_OFFSET(0xCC99600)
-#define RPG_CLIENT_DECALPUZZLEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0xCC9A6D0)
+#define RPG_CLIENT_DECALPUZZLEREGION_AFLIDIAPFGG_OFFSET UNITYSDK_OFFSET(0xCBEDDD0)
+#define RPG_CLIENT_DECALPUZZLEREGION_BHJOJHIHNOD_OFFSET UNITYSDK_OFFSET(0xCBED6A0)
+#define RPG_CLIENT_DECALPUZZLEREGION_BMNNFDJNEDF_OFFSET UNITYSDK_OFFSET(0xCBED770)
+#define RPG_CLIENT_DECALPUZZLEREGION_CAFNBKMHDFD_OFFSET UNITYSDK_OFFSET(0xCBEDCF0)
+#define RPG_CLIENT_DECALPUZZLEREGION_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEE270)
+#define RPG_CLIENT_DECALPUZZLEREGION_ENLFEDMFBCA_OFFSET UNITYSDK_OFFSET(0xCBEDFE0)
+#define RPG_CLIENT_DECALPUZZLEREGION_GKGIGLPJHFC_OFFSET UNITYSDK_OFFSET(0xCBEDD60)
+#define RPG_CLIENT_DECALPUZZLEREGION_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xCBEDC60)
+#define RPG_CLIENT_DECALPUZZLEREGION_HOMOONBONNJ_OFFSET UNITYSDK_OFFSET(0xCBEDB90)
+#define RPG_CLIENT_DECALPUZZLEREGION_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCBEDC00)
+#define RPG_CLIENT_DECALPUZZLEREGION_KCHLCLKNMKE_OFFSET UNITYSDK_OFFSET(0xCBED190)
+#define RPG_CLIENT_DECALPUZZLEREGION_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xCBED140)
+#define RPG_CLIENT_DECALPUZZLEREGION_KPDDICHAKIC_OFFSET UNITYSDK_OFFSET(0xCBEDAA0)
+#define RPG_CLIENT_DECALPUZZLEREGION_KPNNCCBJFEB_OFFSET UNITYSDK_OFFSET(0xCBED3E0)
+#define RPG_CLIENT_DECALPUZZLEREGION_NFCAHCCDDKG_OFFSET UNITYSDK_OFFSET(0xCBED8F0)
+#define RPG_CLIENT_DECALPUZZLEREGION_OKHEDIADOEC_OFFSET UNITYSDK_OFFSET(0xCBEE1A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DecalPuzzleRegion_TypeDefinitionIndex = 68623;
-
 	class DecalPuzzleRegion : public ::System::Object
 	{
 	public:
 		::RPG::Client::DecalPuzzleMethod Method; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::System::Int32>* DecalTypeList; // 0x18
 		::RPG::Client::DecalPuzzleRegionType TargetRegionType; // 0x20
 		::UnityEngine::Rect TargetRectRegion; // 0x24
@@ -54,85 +52,85 @@ namespace RPG::Client
 		::UnityEngine::Transform* _Root; // 0x68
 		::System::Collections::Generic::List_1<::UnityEngine::Rect>* _EmptyRects; // 0x70
 		::Il2CppArray<::UnityEngine::Rect>* _SubRects; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_F55BE4E8507DAB52(::UnityEngine::Transform* a1)
+		::System::Void KHGIKBFDLFB(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_F55BE4E8507DAB52_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_KHGIKBFDLFB_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_7002C7609FE8B6AE(::RPG::Client::FreeDecal* a1)
+		::System::Boolean KPNNCCBJFEB(::RPG::Client::FreeDecal* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FreeDecal*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_7002C7609FE8B6AE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FreeDecal*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_KPNNCCBJFEB_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_7002C7609FE8B6AE_1(::RPG::Client::FreeDecal* a1)
+		::System::Boolean NFCAHCCDDKG(::RPG::Client::FreeDecal* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FreeDecal*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_7002C7609FE8B6AE_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::FreeDecal*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_NFCAHCCDDKG_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_081E84DBAB5CA72B()
+		::System::Boolean HOMOONBONNJ()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_081E84DBAB5CA72B_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_HOMOONBONNJ_OFFSET))(this);
 		}
 
-		::System::Void Method_1_2685B6183E614529(::System::Single a1)
+		::System::Void JLANKNHFKCN(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_2685B6183E614529_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_JLANKNHFKCN_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_B1936CE4DA97AA45()
+		::System::Void HADOHLNHHGB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_B1936CE4DA97AA45_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_HADOHLNHHGB_OFFSET))(this);
 		}
 
-		::System::Void Method_1_98CD66A7F3C102A5()
+		::System::Void KCHLCLKNMKE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_98CD66A7F3C102A5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_KCHLCLKNMKE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_E905D30F05438104(::UnityEngine::Vector2 a1)
+		::System::Boolean BHJOJHIHNOD(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_E905D30F05438104_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_BHJOJHIHNOD_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_853D12DFD2223B1B(::UnityEngine::Vector2 a1)
+		::System::Boolean BMNNFDJNEDF(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_853D12DFD2223B1B_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_BMNNFDJNEDF_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_1_D64FD9A228A1C4E0()
+		::System::Single CAFNBKMHDFD()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_D64FD9A228A1C4E0_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_CAFNBKMHDFD_OFFSET))(this);
 		}
 
-		::System::Single Method_1_D64FD9A228A1C4E0_1()
+		::System::Single GKGIGLPJHFC()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_D64FD9A228A1C4E0_1_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_GKGIGLPJHFC_OFFSET))(this);
 		}
 
-		::System::Int32 Method_1_6DE2C674FDD4BF07()
+		::System::Int32 AFLIDIAPFGG()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_6DE2C674FDD4BF07_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_AFLIDIAPFGG_OFFSET))(this);
 		}
 
-		::UnityEngine::Rect Method_1_DC07A38C823F6ED7(::UnityEngine::Vector2 a1)
+		::UnityEngine::Rect KPDDICHAKIC(::UnityEngine::Vector2 a1)
 		{
-			return ((::UnityEngine::Rect(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_DC07A38C823F6ED7_OFFSET))(this, a1);
+			return ((::UnityEngine::Rect(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_KPDDICHAKIC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_B34D4E319F95DF95(::UnityEngine::Rect a1, ::UnityEngine::Color a2, ::System::Single a3)
+		::System::Void ENLFEDMFBCA(::UnityEngine::Rect a1, ::UnityEngine::Color a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_B34D4E319F95DF95_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rect, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_ENLFEDMFBCA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_1_4C0EBEE9B5A06A83(::UnityEngine::Vector2 a1, ::System::Single a2, ::UnityEngine::Color a3, ::System::Single a4)
+		::System::Void OKHEDIADOEC(::UnityEngine::Vector2 a1, ::System::Single a2, ::UnityEngine::Color a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_METHOD_1_4C0EBEE9B5A06A83_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::Color, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLEREGION_OKHEDIADOEC_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

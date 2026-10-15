@@ -1,18 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class AvatarOutfitUnit; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATAROUTFITUTILS_FILLNEWPLAYEROUTFITUNITS_OFFSET UNITYSDK_OFFSET(0xC837F30)
-#define RPG_CLIENT_AVATAROUTFITUTILS_GETAVATAROUTFITUNITBYITEMID_OFFSET UNITYSDK_OFFSET(0xC837D10)
-#define RPG_CLIENT_AVATAROUTFITUTILS_GETINTRODUCEIDBYITEMID_OFFSET UNITYSDK_OFFSET(0xC837DD0)
+#define RPG_CLIENT_AVATAROUTFITUTILS_FILLNEWPLAYEROUTFITUNITS_OFFSET UNITYSDK_OFFSET(0xC705E30)
+#define RPG_CLIENT_AVATAROUTFITUTILS_GETAVATAROUTFITUNITBYITEMID_OFFSET UNITYSDK_OFFSET(0xC705C10)
+#define RPG_CLIENT_AVATAROUTFITUTILS_GETINTRODUCEIDBYITEMID_OFFSET UNITYSDK_OFFSET(0xC705CD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarOutfitUtils_TypeDefinitionIndex = 62589;
-
 	class AvatarOutfitUtils : public ::System::Object
 	{
 	public:
@@ -30,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::System::Collections::Generic::List_1<::RPG::Client::AvatarOutfitUnit*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATAROUTFITUTILS_FILLNEWPLAYEROUTFITUNITS_OFFSET))(a1);
 		}
+
 	};
 }

@@ -5,37 +5,34 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGCAMERA_MATHUTILS_ALMOSTZERO_OFFSET UNITYSDK_OFFSET(0xB2DE980)
-#define RPGCAMERA_MATHUTILS_CARTESIAN2SPHERIAL_1_OFFSET UNITYSDK_OFFSET(0xB2DA220)
-#define RPGCAMERA_MATHUTILS_CARTESIAN2SPHERIAL_OFFSET UNITYSDK_OFFSET(0xB2DE700)
-#define RPGCAMERA_MATHUTILS_GETCAMHALFSIZE_OFFSET UNITYSDK_OFFSET(0xB2DEC30)
-#define RPGCAMERA_MATHUTILS_LINEARLERPPOLEANGLE_OFFSET UNITYSDK_OFFSET(0xB2DEA10)
-#define RPGCAMERA_MATHUTILS_NORMALIZEDROTATERADIAN_OFFSET UNITYSDK_OFFSET(0xB2D8970)
-#define RPGCAMERA_MATHUTILS_PROJECTONTOPLANE_OFFSET UNITYSDK_OFFSET(0xB2DE9B0)
-#define RPGCAMERA_MATHUTILS_SIGNEDRADIANDIFF_OFFSET UNITYSDK_OFFSET(0xB2DE860)
-#define RPGCAMERA_MATHUTILS_SLERPWITHREFERENCEUP_OFFSET UNITYSDK_OFFSET(0xB2D9900)
-#define RPGCAMERA_MATHUTILS_SPHERIAL2CARTESIAN_OFFSET UNITYSDK_OFFSET(0xB2D9240)
-#define RPGCAMERA_MATHUTILS_SPRINGSYSTEM1D_ACCURATE_OFFSET UNITYSDK_OFFSET(0xB2DE8B0)
-#define RPGCAMERA_MATHUTILS_TO180ANGLE_OFFSET UNITYSDK_OFFSET(0xB2DE7B0)
-#define RPGCAMERA_MATHUTILS_TO360ANGLE_OFFSET UNITYSDK_OFFSET(0xB2DE810)
+#define RPGCAMERA_MATHUTILS_ALMOSTZERO_OFFSET UNITYSDK_OFFSET(0xB07E750)
+#define RPGCAMERA_MATHUTILS_CARTESIAN2SPHERIAL_1_OFFSET UNITYSDK_OFFSET(0xB07A010)
+#define RPGCAMERA_MATHUTILS_CARTESIAN2SPHERIAL_OFFSET UNITYSDK_OFFSET(0xB07E4D0)
+#define RPGCAMERA_MATHUTILS_GETCAMHALFSIZE_OFFSET UNITYSDK_OFFSET(0xB07EA00)
+#define RPGCAMERA_MATHUTILS_LINEARLERPPOLEANGLE_OFFSET UNITYSDK_OFFSET(0xB07E7E0)
+#define RPGCAMERA_MATHUTILS_NORMALIZEDROTATERADIAN_OFFSET UNITYSDK_OFFSET(0xB078760)
+#define RPGCAMERA_MATHUTILS_PROJECTONTOPLANE_OFFSET UNITYSDK_OFFSET(0xB07E780)
+#define RPGCAMERA_MATHUTILS_SIGNEDRADIANDIFF_OFFSET UNITYSDK_OFFSET(0xB07E630)
+#define RPGCAMERA_MATHUTILS_SLERPWITHREFERENCEUP_OFFSET UNITYSDK_OFFSET(0xB0796F0)
+#define RPGCAMERA_MATHUTILS_SPHERIAL2CARTESIAN_OFFSET UNITYSDK_OFFSET(0xB079030)
+#define RPGCAMERA_MATHUTILS_SPRINGSYSTEM1D_ACCURATE_OFFSET UNITYSDK_OFFSET(0xB07E680)
+#define RPGCAMERA_MATHUTILS_TO180ANGLE_OFFSET UNITYSDK_OFFSET(0xB07E580)
+#define RPGCAMERA_MATHUTILS_TO360ANGLE_OFFSET UNITYSDK_OFFSET(0xB07E5E0)
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 44819;
-
 	class MathUtils : public ::System::Object
 	{
 	public:
-		// static const ::System::Single Epsilon; // 0x0
-
+		// static const ::System::Object Epsilon; // 0x0
 		static ::UnityEngine::Vector3 Cartesian2Spherial(::UnityEngine::Vector3 a1)
 		{
 			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPGCAMERA_MATHUTILS_CARTESIAN2SPHERIAL_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Vector3 Cartesian2Spherial_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single& a4, ::System::Single& a5)
+		static ::UnityEngine::Vector3 Cartesian2Spherial_1(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + RPGCAMERA_MATHUTILS_CARTESIAN2SPHERIAL_1_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::UnityEngine::Vector3(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGCAMERA_MATHUTILS_CARTESIAN2SPHERIAL_1_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::UnityEngine::Vector3 Spherial2Cartesian(::UnityEngine::Vector3 a1)
@@ -63,9 +60,9 @@ namespace RPGCamera
 			return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGCAMERA_MATHUTILS_NORMALIZEDROTATERADIAN_OFFSET))(a1, a2);
 		}
 
-		static ::System::Single SpringSystem1D_Accurate(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single& a7)
+		static ::System::Single SpringSystem1D_Accurate(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Single a7)
 		{
-			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + RPGCAMERA_MATHUTILS_SPRINGSYSTEM1D_ACCURATE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Single(*)(::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGCAMERA_MATHUTILS_SPRINGSYSTEM1D_ACCURATE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Boolean AlmostZero(::UnityEngine::Vector3 a1)
@@ -92,5 +89,6 @@ namespace RPGCamera
 		{
 			return ((::UnityEngine::Vector2(*)(::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPGCAMERA_MATHUTILS_GETCAMHALFSIZE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

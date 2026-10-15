@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AlleyLineDirectionEnum.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define DHIADEAGOKN_CTOR_OFFSET UNITYSDK_OFFSET(0xEBDC930)
+#define DHIADEAGOKN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xEBDC840)
+
+	class DHIADEAGOKN : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::AlleyLineDirectionEnum>* BPCADEMEGNP; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* EMHKGDCFGPP; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* LAIDAIAJMFF; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* CDBBEHEBLDI; // 0x28
+		::System::UInt32 ANHEOHPNKKC; // 0x30
+		::System::UInt32 CJHLDCAGKND; // 0x34
+		::System::UInt32 EBNNNMFGHBJ; // 0x38
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHIADEAGOKN_CTOR_OFFSET))(this);
+		}
+
+		::System::Void PJPFIHFAHGO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHIADEAGOKN_PJPFIHFAHGO_OFFSET))(this);
+		}
+
+	};

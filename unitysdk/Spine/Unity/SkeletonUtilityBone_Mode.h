@@ -3,8 +3,6 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonUtilityBone_Mode_TypeDefinitionIndex = 43871;
-
 	enum class SkeletonUtilityBone_Mode : ::System::Int32
 	{
 		Follow = 0,

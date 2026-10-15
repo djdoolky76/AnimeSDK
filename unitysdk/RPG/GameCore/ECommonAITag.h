@@ -3,17 +3,15 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ECommonAITag_TypeDefinitionIndex = 54558;
-
 	enum class ECommonAITag : ::System::Byte
 	{
-		Undefined = 0x0,
-		DamageNeedAttack = 0x1,
-		DamageNeedDef = 0x2,
-		DamageNeedHp = 0x3,
-		DamageNeedNoCrit = 0x4,
-		DamageNeedCrit = 0x5,
-		DamageCarry = 0x6,
-		TotalPowerWeight = 0x7,
+		Undefined = 0,
+		DamageNeedAttack = 1,
+		DamageNeedDef = 2,
+		DamageNeedHp = 3,
+		DamageNeedNoCrit = 4,
+		DamageNeedCrit = 5,
+		DamageCarry = 6,
+		TotalPowerWeight = 7,
 	};
 }

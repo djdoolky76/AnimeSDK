@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DeviceRelatedConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DeviceRelatedBool; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DEVICERELATEDBOOL_METHOD_3_5082C8008E9769E7_OFFSET UNITYSDK_OFFSET(0x1D022520)
-#define RPG_GAMECORE_DEVICERELATEDBOOL_METHOD_3_F98AB2C4375257BD_OFFSET UNITYSDK_OFFSET(0x1D0224C0)
-#define RPG_GAMECORE_DEVICERELATEDBOOL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D022510)
+#define RPG_GAMECORE_DEVICERELATEDBOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FEA00)
+#define RPG_GAMECORE_DEVICERELATEDBOOL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5FEA10)
+#define RPG_GAMECORE_DEVICERELATEDBOOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FE9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceRelatedBool_TypeDefinitionIndex = 16297;
-
 	class DeviceRelatedBool : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:
 		::System::Boolean Value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDBOOL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDBOOL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F98AB2C4375257BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedBool*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeviceRelatedBool* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedBool*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDBOOL_METHOD_3_F98AB2C4375257BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeviceRelatedBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDBOOL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5082C8008E9769E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeviceRelatedBool* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DeviceRelatedBool* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeviceRelatedBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDBOOL_METHOD_3_5082C8008E9769E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DeviceRelatedBool*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEVICERELATEDBOOL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

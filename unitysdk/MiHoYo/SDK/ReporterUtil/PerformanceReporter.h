@@ -1,60 +1,58 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/DateTime.h"
+namespace MiHoYo::SDK::ReporterUtil { class PerformanceReporter; }
 namespace MiHoYo::SDK::ReporterUtil { class PerformanceReporter_AutoReportHandler; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterDataItem; }
 namespace MiHoYo::SDK::ReporterUtil { class ReporterEvent; }
 namespace MiHoYo::SDK::ReporterUtil { template <typename T> class AnalyzerResult_1; }
+namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_ADD_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB290020)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_BEGIN_OFFSET UNITYSDK_OFFSET(0xB2909D0)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CLEARALLEVENTSWITHEVENTNAME_OFFSET UNITYSDK_OFFSET(0xB290310)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0xB290110)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CLEAREVENTSDICTIONARY_OFFSET UNITYSDK_OFFSET(0xB290150)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_DOATSAMETIME_1_OFFSET UNITYSDK_OFFSET(0xB290BC0)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_DOATSAMETIME_OFFSET UNITYSDK_OFFSET(0xB290910)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_END_OFFSET UNITYSDK_OFFSET(0xB290A80)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_EVENTSDIC_OFFSET UNITYSDK_OFFSET(0xB28FAA0)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_EVENT_1_OFFSET UNITYSDK_OFFSET(0xB2900E0)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_EVENT_OFFSET UNITYSDK_OFFSET(0xB28FC00)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_ITEM_OFFSET UNITYSDK_OFFSET(0xB290E10)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_LASTITEMPREFERENDED_OFFSET UNITYSDK_OFFSET(0xB291040)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_REMOVE_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB290080)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_REPORTEREVENT_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB28FFD0)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_REPORTEREVENT_DATAFULLED_OFFSET UNITYSDK_OFFSET(0xB28FFC0)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_TOTALMILLISECONDSFORSTAGE_OFFSET UNITYSDK_OFFSET(0xB291190)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_TOTALMILLISECONDS_OFFSET UNITYSDK_OFFSET(0xB2915A0)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB291820)
-#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB291790)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_ADD_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB02EE10)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_BEGIN_OFFSET UNITYSDK_OFFSET(0xB02F7C0)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0305E0)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CLEARALLEVENTSWITHEVENTNAME_OFFSET UNITYSDK_OFFSET(0xB02F100)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CLEARDATA_OFFSET UNITYSDK_OFFSET(0xB02EF00)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CLEAREVENTSDICTIONARY_OFFSET UNITYSDK_OFFSET(0xB02EF40)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CTOR_OFFSET UNITYSDK_OFFSET(0xB030550)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_DOATSAMETIME_1_OFFSET UNITYSDK_OFFSET(0xB02F990)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_DOATSAMETIME_OFFSET UNITYSDK_OFFSET(0xB02F700)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_END_OFFSET UNITYSDK_OFFSET(0xB02F870)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_EVENTSDIC_OFFSET UNITYSDK_OFFSET(0xB02E890)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_EVENT_1_OFFSET UNITYSDK_OFFSET(0xB02EED0)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_EVENT_OFFSET UNITYSDK_OFFSET(0xB02E9F0)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_ITEM_OFFSET UNITYSDK_OFFSET(0xB02FBD0)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_LASTITEMPREFERENDED_OFFSET UNITYSDK_OFFSET(0xB02FE00)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_REMOVE_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB02EE70)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_REPORTEREVENT_AUTOREPORT_OFFSET UNITYSDK_OFFSET(0xB02EDC0)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_REPORTEREVENT_DATAFULLED_OFFSET UNITYSDK_OFFSET(0xB02EDB0)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_TOTALMILLISECONDSFORSTAGE_OFFSET UNITYSDK_OFFSET(0xB02FF50)
+#define MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_TOTALMILLISECONDS_OFFSET UNITYSDK_OFFSET(0xB030360)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int PerformanceReporter_TypeDefinitionIndex = 47102;
-
 	class PerformanceReporter : public ::System::Object
 	{
 	public:
+		::MiHoYo::SDK::ReporterUtil::PerformanceReporter_AutoReportHandler* onAutoReport; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*>*>* events; // 0x18
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* lastOperatedItem; // 0x20
 		static ::MiHoYo::SDK::ReporterUtil::PerformanceReporter** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ReporterUtil::PerformanceReporter**)Il2CppClass::FromTypeDefinitionIndex(PerformanceReporter_TypeDefinitionIndex)->GetStaticField(0x591A0);
+			return (::MiHoYo::SDK::ReporterUtil::PerformanceReporter**)UnitySDK::FromName("MiHoYo.SDK.ReporterUtil", "PerformanceReporter")->GetStaticField(0x32620);
 		}
-		::MiHoYo::SDK::ReporterUtil::PerformanceReporter_AutoReportHandler* onAutoReport; // 0x10
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* lastOperatedItem; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*>*>* events; // 0x20
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_CCTOR_OFFSET))();
 		}
 
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::ReporterUtil::ReporterEvent*>* EventsDic(::System::Int32 a1)
@@ -117,14 +115,14 @@ namespace MiHoYo::SDK::ReporterUtil
 			return ((::MiHoYo::SDK::ReporterUtil::PerformanceReporter*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_DOATSAMETIME_1_OFFSET))(this, a1, a2);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Begin(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Nullable* a4)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_BEGIN_OFFSET))(this, a1, a2, a3, a4);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_BEGIN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* End(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Nullable_1<::System::DateTime> a4)
+		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* End(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Nullable* a4)
 		{
-			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Nullable_1<::System::DateTime>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_END_OFFSET))(this, a1, a2, a3, a4);
+			return ((::MiHoYo::SDK::ReporterUtil::ReporterDataItem*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_END_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::MiHoYo::SDK::ReporterUtil::ReporterDataItem* Item(::System::String* a1, ::System::String* a2, ::System::Int32 a3, ::System::Int32 a4)
@@ -146,5 +144,6 @@ namespace MiHoYo::SDK::ReporterUtil
 		{
 			return ((::System::Int64(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_PERFORMANCEREPORTER_TOTALMILLISECONDS_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

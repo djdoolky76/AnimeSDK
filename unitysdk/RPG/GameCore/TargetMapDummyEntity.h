@@ -1,50 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetMapDummyEntity; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_0E92A3CA73FDA2CA_OFFSET UNITYSDK_OFFSET(0x1D5B3970)
-#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_1B4DD42217238D08_OFFSET UNITYSDK_OFFSET(0x1D5B3AC0)
-#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_627856C01D5E9B6D_OFFSET UNITYSDK_OFFSET(0x1D5B3A90)
-#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_9EAF4775263B4C25_OFFSET UNITYSDK_OFFSET(0x1D5B3930)
-#define RPG_GAMECORE_TARGETMAPDUMMYENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B3960)
+#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB6AF70)
+#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB6B0D0)
+#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB6B0A0)
+#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB6AF80)
+#define RPG_GAMECORE_TARGETMAPDUMMYENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB6AF40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapDummyEntity_TypeDefinitionIndex = 23760;
-
 	class TargetMapDummyEntity : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::String* DummyEntityName; // 0x10
 		::System::Boolean AutoCreate; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9EAF4775263B4C25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapDummyEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapDummyEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapDummyEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_9EAF4775263B4C25_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapDummyEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0E92A3CA73FDA2CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapDummyEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapDummyEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapDummyEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_0E92A3CA73FDA2CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapDummyEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_627856C01D5E9B6D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapDummyEntity*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapDummyEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapDummyEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_627856C01D5E9B6D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapDummyEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1B4DD42217238D08(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapDummyEntity* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapDummyEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapDummyEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_METHOD_3_1B4DD42217238D08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapDummyEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPDUMMYENTITY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

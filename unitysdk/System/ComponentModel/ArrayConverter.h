@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/CollectionConverter.h"
-
 namespace System { class Attribute; }
 namespace System { class Object; }
 namespace System { class Type; }
@@ -9,21 +8,19 @@ namespace System::ComponentModel { class ITypeDescriptorContext; }
 namespace System::ComponentModel { class PropertyDescriptorCollection; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1E9174C0)
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_GETPROPERTIESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1E917C30)
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E917810)
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E917C40)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_CONVERTTO_OFFSET UNITYSDK_OFFSET(0x1EFE0360)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE0AE0)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_GETPROPERTIESSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1EFE0AD0)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_GETPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1EFE06B0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ArrayConverter_TypeDefinitionIndex = 2559;
-
 	class ArrayConverter : public ::System::ComponentModel::CollectionConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* a1, ::System::Globalization::CultureInfo* a2, ::System::Object* a3, ::System::Type* a4)
@@ -40,5 +37,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::ComponentModel::ITypeDescriptorContext*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_GETPROPERTIESSUPPORTED_OFFSET))(this, a1);
 		}
+
 	};
 }

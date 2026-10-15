@@ -1,46 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class NewDeviceInfoModel; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B83A030)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B83A070)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__ONGETDEVICELIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x1B83A130)
-#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__REQUESTACKNEWERDEVICES_B__19_0_OFFSET UNITYSDK_OFFSET(0x1B83A080)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD380D0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD38110)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__ONGETDEVICELIST_B__20_0_OFFSET UNITYSDK_OFFSET(0x1BD381D0)
+#define MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__REQUESTACKNEWERDEVICES_B__19_0_OFFSET UNITYSDK_OFFSET(0x1BD38120)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DeviceTipsManager___c_TypeDefinitionIndex = 9274;
-
 	class DeviceTipsManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Win::DeviceTipsManager___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::DeviceTipsManager___c**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x29D40);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E9C0);
 		}
-		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__19_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x29D48);
-		}
+
 		static ::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::NewDeviceInfoModel*>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::NewDeviceInfoModel*>**)Il2CppClass::FromTypeDefinitionIndex(DeviceTipsManager___c_TypeDefinitionIndex)->GetStaticField(0x29D50);
+			return (::System::Func_2<::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::Win::NewDeviceInfoModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E9C8);
+		}
+
+		static ::System::Action** StaticGet___9__19_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1E9D0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _RequestAckNewerDevices_b__19_0(::MiHoYo::SDK::NetworkResponseModel* a1)
@@ -52,5 +52,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::MiHoYo::SDK::Win::NewDeviceInfoModel*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_DEVICETIPSMANAGER___C__ONGETDEVICELIST_B__20_0_OFFSET))(this, a1);
 		}
+
 	};
 }

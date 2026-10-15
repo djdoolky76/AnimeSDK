@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LittleGameConstConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TimeRelayFlameGameConfig; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_METHOD_3_38D156DA39370E28_OFFSET UNITYSDK_OFFSET(0x1D5CDFB0)
-#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_METHOD_3_72265706A59D9EAD_OFFSET UNITYSDK_OFFSET(0x1D5CDFF0)
-#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CDFE0)
+#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB857C0)
+#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB857D0)
+#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB85790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRelayFlameGameConfig_TypeDefinitionIndex = 16818;
-
 	class TimeRelayFlameGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:
@@ -27,8 +25,10 @@ namespace RPG::GameCore
 		::System::String* ClonedPlayerPrefab; // 0x30
 		::System::String* ArrowPrefab; // 0x38
 		::System::Boolean EnableCameraShake; // 0x40
+		::System::Byte _padding0[0x3];
 		::System::Single CrashWaitTime; // 0x44
 		::System::Single FallWaitTime; // 0x48
+		::System::Byte _padding1[0x4];
 		::System::String* BulletPrefab; // 0x50
 		::System::Single BulletFlyTime; // 0x58
 		::System::Single BulletExtraTime; // 0x5C
@@ -41,21 +41,22 @@ namespace RPG::GameCore
 		::System::UInt32 TeleportLoopCount; // 0x80
 		::System::Single TeleportLoopFirstTime; // 0x84
 		::System::Single TeleportLoopTimeAttenuationRatio; // 0x88
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::VCameraShakeV2* CameraShake; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_38D156DA39370E28(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameGameConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRelayFlameGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_METHOD_3_38D156DA39370E28_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRelayFlameGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_72265706A59D9EAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRelayFlameGameConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TimeRelayFlameGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRelayFlameGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_METHOD_3_72265706A59D9EAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TimeRelayFlameGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

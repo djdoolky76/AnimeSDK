@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class GameObject; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x16539740)
+#define ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x16760510)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int GameObjectDestroyExtension_TypeDefinitionIndex = 10008;
-
 	class GameObjectDestroyExtension : public ::System::Object
 	{
 	public:
@@ -17,5 +14,6 @@ namespace Entitas::VisualDebugging::Unity
 		{
 			return ((::System::Void(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ENTITAS_VISUALDEBUGGING_UNITY_GAMEOBJECTDESTROYEXTENSION_DESTROYGAMEOBJECT_OFFSET))(a1);
 		}
+
 	};
 }

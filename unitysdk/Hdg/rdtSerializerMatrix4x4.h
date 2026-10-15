@@ -2,39 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-
 namespace Hdg { class rdtSerializerRegistry; }
 namespace Hdg { class rdtSerializerVector4; }
+namespace System { class Object; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERMATRIX4X4_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xB19AB00)
-#define HDG_RDTSERIALIZERMATRIX4X4_READ_OFFSET UNITYSDK_OFFSET(0xB19ADC0)
-#define HDG_RDTSERIALIZERMATRIX4X4_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0xB19AA40)
-#define HDG_RDTSERIALIZERMATRIX4X4_WRITE_OFFSET UNITYSDK_OFFSET(0xB19AB30)
-#define HDG_RDTSERIALIZERMATRIX4X4__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB19A960)
-#define HDG_RDTSERIALIZERMATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0xB19A950)
+#define HDG_RDTSERIALIZERMATRIX4X4_CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF44DD0)
+#define HDG_RDTSERIALIZERMATRIX4X4_CTOR_OFFSET UNITYSDK_OFFSET(0xAF44DC0)
+#define HDG_RDTSERIALIZERMATRIX4X4_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xAF44F40)
+#define HDG_RDTSERIALIZERMATRIX4X4_READ_OFFSET UNITYSDK_OFFSET(0xAF45260)
+#define HDG_RDTSERIALIZERMATRIX4X4_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0xAF44EB0)
+#define HDG_RDTSERIALIZERMATRIX4X4_WRITE_OFFSET UNITYSDK_OFFSET(0xAF44FD0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerMatrix4x4_TypeDefinitionIndex = 47422;
-
 	class rdtSerializerMatrix4x4 : public ::System::Object
 	{
 	public:
-		::Hdg::rdtSerializerVector4* col3; // 0x10
-		::Hdg::rdtSerializerVector4* col1; // 0x18
-		::Hdg::rdtSerializerVector4* col0; // 0x20
+		::Hdg::rdtSerializerVector4* col1; // 0x10
+		::Hdg::rdtSerializerVector4* col0; // 0x18
+		::Hdg::rdtSerializerVector4* col3; // 0x20
 		::Hdg::rdtSerializerVector4* col2; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATRIX4X4__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATRIX4X4_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Matrix4x4 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATRIX4X4__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATRIX4X4_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Matrix4x4 ToUnityType()
@@ -56,5 +53,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_RDTSERIALIZERMATRIX4X4_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

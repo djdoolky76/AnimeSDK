@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideShowType_TypeDefinitionIndex = 15281;
-
 	enum class TutorialGuideShowType : ::System::Int32
 	{
 		Normal = 0,

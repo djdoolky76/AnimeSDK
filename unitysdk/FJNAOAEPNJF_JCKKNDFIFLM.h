@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FJNAOAEPNJF_JCKKNDFIFLM_FCHIHJFAMOI.h"
+#include "unitysdk/RPG/GameCore/AntiLockHPStrength.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/CHMCAGBDPJH.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Nullable; }
+
+#define FJNAOAEPNJF_JCKKNDFIFLM_APBGOKEOHNF_OFFSET UNITYSDK_OFFSET(0x157DC760)
+#define FJNAOAEPNJF_JCKKNDFIFLM_CTOR_OFFSET UNITYSDK_OFFSET(0x157DAB00)
+#define FJNAOAEPNJF_JCKKNDFIFLM_DGIBJJFBMMK_OFFSET UNITYSDK_OFFSET(0x157DC920)
+#define FJNAOAEPNJF_JCKKNDFIFLM_EFOKNMPOIPE_OFFSET UNITYSDK_OFFSET(0x157DC7E0)
+#define FJNAOAEPNJF_JCKKNDFIFLM_GET_MAINTARGET_OFFSET UNITYSDK_OFFSET(0x157DC6C0)
+#define FJNAOAEPNJF_JCKKNDFIFLM_GOCKCOMLFEO_OFFSET UNITYSDK_OFFSET(0x157DC3D0)
+#define FJNAOAEPNJF_JCKKNDFIFLM_LDBHMDLCCLA_OFFSET UNITYSDK_OFFSET(0x157DAEF0)
+#define FJNAOAEPNJF_JCKKNDFIFLM_MFPLEIHIJBI_OFFSET UNITYSDK_OFFSET(0x157DC6E0)
+#define FJNAOAEPNJF_JCKKNDFIFLM_SET_MAINTARGET_OFFSET UNITYSDK_OFFSET(0x157DC6D0)
+
+	class FJNAOAEPNJF_JCKKNDFIFLM : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::GameEntity* _MainTarget_k__BackingField; // 0x10
+		::FJNAOAEPNJF_JCKKNDFIFLM_FCHIHJFAMOI PFKOKPCDFHO; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::GameEntity* get_MainTarget()
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_GET_MAINTARGET_OFFSET))(this);
+		}
+
+		::System::Void set_MainTarget(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_SET_MAINTARGET_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::FixPoint MFPLEIHIJBI()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_MFPLEIHIJBI_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint APBGOKEOHNF()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_APBGOKEOHNF_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint GOCKCOMLFEO()
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_GOCKCOMLFEO_OFFSET))(this);
+		}
+
+		::System::Void LDBHMDLCCLA(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::FixPoint a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_LDBHMDLCCLA_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void EFOKNMPOIPE(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::AntiLockHPStrength a2, ::CHMCAGBDPJH a3, ::RPG::GameCore::FixPoint a4, ::System::Nullable* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::AntiLockHPStrength, ::CHMCAGBDPJH, ::RPG::GameCore::FixPoint, ::System::Nullable*))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_EFOKNMPOIPE_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void DGIBJJFBMMK(::RPG::GameCore::FixPoint a1, ::CHMCAGBDPJH a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + FJNAOAEPNJF_JCKKNDFIFLM_DGIBJJFBMMK_OFFSET))(this, a1, a2);
+		}
+
+	};

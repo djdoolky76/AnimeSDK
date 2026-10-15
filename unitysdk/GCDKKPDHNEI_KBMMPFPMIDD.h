@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class CableProcedural; }
+namespace RPG::GameCore { class GameEntity; }
+
+#define GCDKKPDHNEI_KBMMPFPMIDD_CTOR_OFFSET UNITYSDK_OFFSET(0x15969840)
+#define GCDKKPDHNEI_KBMMPFPMIDD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x159697D0)
+#define GCDKKPDHNEI_KBMMPFPMIDD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15969A50)
+
+	class GCDKKPDHNEI_KBMMPFPMIDD : public ::System::Object
+	{
+	public:
+		::RPG::Client::CableProcedural* KAEAHJNDFLM; // 0x10
+		::RPG::GameCore::GameEntity* BBMMBAKDJBC; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCDKKPDHNEI_KBMMPFPMIDD_CTOR_OFFSET))(this);
+		}
+
+		::System::Void PJPFIHFAHGO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCDKKPDHNEI_KBMMPFPMIDD_PJPFIHFAHGO_OFFSET))(this);
+		}
+
+		::System::Void HADOHLNHHGB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCDKKPDHNEI_KBMMPFPMIDD_HADOHLNHHGB_OFFSET))(this);
+		}
+
+	};

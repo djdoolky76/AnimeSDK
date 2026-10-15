@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB2AB170)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB2AB1A0)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB2AAB80)
-#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB2AB100)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB04C3D0)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xB04C360)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB04C400)
+#define MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB04BF40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_OnLogMessageAction_TypeDefinitionIndex = 46863;
-
 	class SecurityTunnel_OnLogMessageAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL_ONLOGMESSAGEACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

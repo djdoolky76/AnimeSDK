@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Console_Privilege_TypeDefinitionIndex = 46600;
-
 	enum class MHYSDKC_Console_Privilege : ::System::Int32
 	{
 		CrossPlay = 185,

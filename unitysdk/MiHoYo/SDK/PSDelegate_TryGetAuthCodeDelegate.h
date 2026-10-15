@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class PSDelegate_AuthCodeCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA765C0)
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA76600)
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA765B0)
-#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA76530)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF81070)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF80FE0)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF810B0)
+#define MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF81060)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_TryGetAuthCodeDelegate_TypeDefinitionIndex = 7679;
-
 	class PSDelegate_TryGetAuthCodeDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::MiHoYo::SDK::PSDelegate_AuthCodeCallback* a2)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_TRYGETAUTHCODEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

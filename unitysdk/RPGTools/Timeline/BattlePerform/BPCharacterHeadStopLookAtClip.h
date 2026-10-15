@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE81B690)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE81B680)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE81B820)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B8C00)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B8D90)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B8BF0)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterHeadStopLookAtClip_TypeDefinitionIndex = 49266;
-
 	class BPCharacterHeadStopLookAtClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::System::Boolean Immediately; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -36,5 +32,6 @@ namespace RPGTools::Timeline::BattlePerform
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

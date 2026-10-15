@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0F1B992870941C13.h"
+#include "unitysdk/BFBCFAIOIEK.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_87FFBB414BD751E4;
+class FCKNFOKENDN;
+namespace RPG::Client { class ChatMessageExtendData; }
 namespace RPG::GameCore { class ChatInviteConfigRow; }
 
-#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCADDBC0)
-#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xCADE0D0)
-#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_GET_INVITECONFIGROW_OFFSET UNITYSDK_OFFSET(0xCADE070)
-#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xCADDEF0)
-#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_SET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xCADE0E0)
-#define RPG_CLIENT_CHATMESSAGEEXTENDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCADDBB0)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_ADDEXPIREDNOTIFYTIMER_OFFSET UNITYSDK_OFFSET(0xCA2C580)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCA2C010)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCA2C000)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_GET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xCA2C560)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_GET_INVITECONFIGROW_OFFSET UNITYSDK_OFFSET(0xCA2C500)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xCA2C380)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA_SET_CONFIGID_OFFSET UNITYSDK_OFFSET(0xCA2C570)
+#define RPG_CLIENT_CHATMESSAGEEXTENDDATA__ADDEXPIREDNOTIFYTIMER_B__10_0_OFFSET UNITYSDK_OFFSET(0xCA2C730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChatMessageExtendData_TypeDefinitionIndex = 63287;
-
 	class ChatMessageExtendData : public ::System::Object
 	{
 	public:
-		::System::UInt32 _CreateTimeStamp; // 0x10
-		::System::UInt32 _ConfigID_k__BackingField; // 0x14
-
+		::System::UInt32 _ConfigID_k__BackingField; // 0x10
+		::System::UInt32 _CreateTimeStamp; // 0x14
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATMESSAGEEXTENDDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATMESSAGEEXTENDDATA_CTOR_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChatMessageExtendData* Create(::Enum_3_0F1B992870941C13 a1, ::System::UInt32 a2, ::Class_1_87FFBB414BD751E4* a3)
+		static ::RPG::Client::ChatMessageExtendData* Create(::BFBCFAIOIEK a1, ::System::UInt32 a2, ::FCKNFOKENDN* a3)
 		{
-			return ((::RPG::Client::ChatMessageExtendData*(*)(::Enum_3_0F1B992870941C13, ::System::UInt32, ::Class_1_87FFBB414BD751E4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATMESSAGEEXTENDDATA_CREATE_OFFSET))(a1, a2, a3);
+			return ((::RPG::Client::ChatMessageExtendData*(*)(::BFBCFAIOIEK, ::System::UInt32, ::FCKNFOKENDN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATMESSAGEEXTENDDATA_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Boolean get_IsValid()
@@ -52,5 +51,16 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATMESSAGEEXTENDDATA_SET_CONFIGID_OFFSET))(this, a1);
 		}
+
+		::System::Void AddExpiredNotifyTimer()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATMESSAGEEXTENDDATA_ADDEXPIREDNOTIFYTIMER_OFFSET))(this);
+		}
+
+		::System::Void _AddExpiredNotifyTimer_b__10_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHATMESSAGEEXTENDDATA__ADDEXPIREDNOTIFYTIMER_B__10_0_OFFSET))(this);
+		}
+
 	};
 }

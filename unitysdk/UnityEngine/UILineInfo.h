@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UILineInfo_TypeDefinitionIndex = 5047;
-
 	struct alignas(4) UILineInfo
 	{
 		::System::Int32 startCharIdx; // 0x10

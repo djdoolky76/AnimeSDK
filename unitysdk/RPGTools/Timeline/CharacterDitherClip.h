@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StoryCharacterApperMode.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class CharacterDitherBehaviour; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8296F0)
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8296E0)
-#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE829860)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C74B0)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C7620)
+#define RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8C74A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterDitherClip_TypeDefinitionIndex = 48405;
-
 	class CharacterDitherClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::RPG::GameCore::StoryCharacterApperMode Mode; // 0x20
 		::System::Boolean EnableDither; // 0x24
+		::System::Byte _padding0[0x3];
 		::System::String* FadeEffectPath; // 0x28
 		::System::String* FadeInEffect; // 0x30
 		::System::String* FadeOutEffect; // 0x38
 		::System::Single FadeOutEffectTime; // 0x40
 		::System::Boolean LoadEffectAysnc; // 0x44
+		::System::Byte _padding1[0x3];
 		::RPGTools::Timeline::CharacterDitherBehaviour* Template; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -45,5 +43,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERDITHERCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

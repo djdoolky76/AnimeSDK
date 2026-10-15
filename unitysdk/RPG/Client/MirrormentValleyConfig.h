@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_MIRRORMENTVALLEYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD6C8950)
+#define RPG_CLIENT_MIRRORMENTVALLEYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C6700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MirrormentValleyConfig_TypeDefinitionIndex = 60181;
-
 	class MirrormentValleyConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
@@ -56,10 +53,10 @@ namespace RPG::Client
 		::System::String* ItemMatEffect; // 0xF0
 		::System::String* MirrorHoverEffect; // 0xF8
 		::System::String* PathEffect; // 0x100
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MIRRORMENTVALLEYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MIRRORMENTVALLEYCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

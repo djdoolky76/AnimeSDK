@@ -2,44 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
-
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 namespace UnityEngine::Rendering { class VolumeStack_RuntimeTypeHandleComparer; }
 
-#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKORUPDATEVERSION_OFFSET UNITYSDK_OFFSET(0x1EC1CFD0)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKVERSION_OFFSET UNITYSDK_OFFSET(0x1EC1CFF0)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC19C00)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_GETCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1EC1A6B0)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EC1CFB0)
-#define UNITYENGINE_RENDERING_VOLUMESTACK_RELOAD_OFFSET UNITYSDK_OFFSET(0x1EC18BD0)
-#define UNITYENGINE_RENDERING_VOLUMESTACK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC1D000)
-#define UNITYENGINE_RENDERING_VOLUMESTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC18450)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2E4860)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKORUPDATEVERSION_OFFSET UNITYSDK_OFFSET(0x1F2E4830)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_CHECKVERSION_OFFSET UNITYSDK_OFFSET(0x1F2E4850)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2DFCC0)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F2E1470)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_GETCOMPONENT_2_OFFSET UNITYSDK_OFFSET(0x1F2E1F20)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F2E4810)
+#define UNITYENGINE_RENDERING_VOLUMESTACK_RELOAD_OFFSET UNITYSDK_OFFSET(0x1F2E0440)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeStack_TypeDefinitionIndex = 34998;
-
 	class VolumeStack : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::VolumeStack_RuntimeTypeHandleComparer** StaticGet__typeHandleComparer()
-		{
-			return (::UnityEngine::Rendering::VolumeStack_RuntimeTypeHandleComparer**)Il2CppClass::FromTypeDefinitionIndex(VolumeStack_TypeDefinitionIndex)->GetStaticField(0x61A90);
-		}
 		::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::UnityEngine::Rendering::VolumeComponent*>* components; // 0x10
 		::System::Int32 _version; // 0x18
+		static ::UnityEngine::Rendering::VolumeStack_RuntimeTypeHandleComparer** StaticGet__typeHandleComparer()
+		{
+			return (::UnityEngine::Rendering::VolumeStack_RuntimeTypeHandleComparer**)UnitySDK::FromName("UnityEngine.Rendering", "VolumeStack")->GetStaticField(0x4BC20);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_CCTOR_OFFSET))();
 		}
 
 		::System::Void Reload(::System::Collections::Generic::IEnumerable_1<::System::Type*>* a1)
@@ -47,9 +44,9 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_RELOAD_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Rendering::VolumeComponent* GetComponent(::System::RuntimeTypeHandle a1)
+		::UnityEngine::Rendering::VolumeComponent* GetComponent_2(::System::RuntimeTypeHandle a1)
 		{
-			return ((::UnityEngine::Rendering::VolumeComponent*(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_GETCOMPONENT_OFFSET))(this, a1);
+			return ((::UnityEngine::Rendering::VolumeComponent*(*)(::PVOID, ::System::RuntimeTypeHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_GETCOMPONENT_2_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsValid()
@@ -62,14 +59,15 @@ namespace UnityEngine::Rendering
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Boolean CheckOrUpdateVersion(::System::Int32& a1)
+		::System::Boolean CheckOrUpdateVersion(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_CHECKORUPDATEVERSION_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_CHECKORUPDATEVERSION_OFFSET))(this, a1);
 		}
 
 		::System::Boolean CheckVersion(::System::Int32 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_VOLUMESTACK_CHECKVERSION_OFFSET))(this, a1);
 		}
+
 	};
 }

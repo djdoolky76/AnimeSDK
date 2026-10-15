@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterArtModelEffectBehavior_FollowMode_TypeDefinitionIndex = 70217;
-
 	enum class CharacterArtModelEffectBehavior_FollowMode : ::System::Int32
 	{
 		None = 0,

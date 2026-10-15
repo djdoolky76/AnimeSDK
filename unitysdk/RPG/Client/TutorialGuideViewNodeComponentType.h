@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialGuideViewNodeComponentType_TypeDefinitionIndex = 68203;
-
 	enum class TutorialGuideViewNodeComponentType : ::System::Int32
 	{
 		Text = 0,

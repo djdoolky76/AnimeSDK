@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillLayerType_TypeDefinitionIndex = 57833;
-
 	enum class SkillLayerType : ::System::Int32
 	{
 		Normal = 0,

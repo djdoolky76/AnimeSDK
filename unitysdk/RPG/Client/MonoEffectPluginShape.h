@@ -2,32 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginShape_MonoEffectPluginShapeType.h"
-
-class Class_2_0FB6F5068D635FD7_4;
+class ADLPONGJPEF;
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_DISABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C7E50)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C7E90)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_ENABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C7E10)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0xD7C7CE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7C7D20)
-#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C7F40)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0xD80A030)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_DISABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD809F40)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD809F80)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_ENABLEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD809F00)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_IGNOREINEDITOR_OFFSET UNITYSDK_OFFSET(0xD809DD0)
+#define RPG_CLIENT_MONOEFFECTPLUGINSHAPE_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD809E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginShape_TypeDefinitionIndex = 70073;
-
 	class MonoEffectPluginShape : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
 		::RPG::Client::MonoEffectPluginShape_MonoEffectPluginShapeType ShapeType; // 0x28
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::ParticleSystem*>* MeshRendererParticleSystemList; // 0x30
 		::Il2CppArray<::UnityEngine::ParticleSystem*>* SkinnedMeshRendererParticleSystemList; // 0x38
-		::Class_2_0FB6F5068D635FD7_4* KADDKEGNCHE; // 0x40
-
+		::ADLPONGJPEF* KADDKEGNCHE; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHAPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHAPE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IgnoreInEditor()
@@ -54,5 +51,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINSHAPE_DISPOSEPLUGIN_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class UIController; }
 
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_INIT_OFFSET UNITYSDK_OFFSET(0xD87AB70)
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD87ABC0)
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0xD87AC10)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0xD87B530)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_INIT_OFFSET UNITYSDK_OFFSET(0xD87B490)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD87B4E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIControllerDisplay_TypeDefinitionIndex = 72967;
-
 	class MonoUIControllerDisplay : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::UIController* CPIIOIPAAKK; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERDISPLAY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERDISPLAY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::Client::UIController* a1)
@@ -31,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOUICONTROLLERDISPLAY_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

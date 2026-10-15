@@ -1,68 +1,69 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class Web; }
-namespace MiHoYo::SDK::HoYoPass { class UserCenterManager_UserCenterJsBridge; }
+namespace MiHoYo::SDK::HoYoPass { class UserCenterManager; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CANOPENUSERCENTER_OFFSET UNITYSDK_OFFSET(0x1B978C20)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_MANUALLYCLOSE_OFFSET UNITYSDK_OFFSET(0x1B979040)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_NOTIFYNORMALCLOSE_OFFSET UNITYSDK_OFFSET(0x1B979D10)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_NOTIFYOPENERROR_OFFSET UNITYSDK_OFFSET(0x1B979030)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_NOTIFYUSERCENTERRESULT_OFFSET UNITYSDK_OFFSET(0x1B979D80)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_ONGETTHIRDTOKENINVOKED_OFFSET UNITYSDK_OFFSET(0x1B9791A0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_ONLOGOUT_OFFSET UNITYSDK_OFFSET(0x1B979D20)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_ONUSERCENTERRESULT_OFFSET UNITYSDK_OFFSET(0x1B9799F0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_OPEN_OFFSET UNITYSDK_OFFSET(0x1B978CE0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_REGISTERRESULTHANDLER_OFFSET UNITYSDK_OFFSET(0x1B9789A0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B97A0A0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9788F0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_0_OFFSET UNITYSDK_OFFSET(0x1B97A1D0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_1_OFFSET UNITYSDK_OFFSET(0x1B97A300)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_3_OFFSET UNITYSDK_OFFSET(0x1B97A2A0)
-#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_4_OFFSET UNITYSDK_OFFSET(0x1B97A3D0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CANOPENUSERCENTER_OFFSET UNITYSDK_OFFSET(0x1BE78580)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE79A00)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE78250)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_MANUALLYCLOSE_OFFSET UNITYSDK_OFFSET(0x1BE789A0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_NOTIFYNORMALCLOSE_OFFSET UNITYSDK_OFFSET(0x1BE79670)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_NOTIFYOPENERROR_OFFSET UNITYSDK_OFFSET(0x1BE78990)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_NOTIFYUSERCENTERRESULT_OFFSET UNITYSDK_OFFSET(0x1BE796E0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_ONGETTHIRDTOKENINVOKED_OFFSET UNITYSDK_OFFSET(0x1BE78B00)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_ONLOGOUT_OFFSET UNITYSDK_OFFSET(0x1BE79680)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_ONUSERCENTERRESULT_OFFSET UNITYSDK_OFFSET(0x1BE79350)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_OPEN_OFFSET UNITYSDK_OFFSET(0x1BE78640)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_REGISTERRESULTHANDLER_OFFSET UNITYSDK_OFFSET(0x1BE78300)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_0_OFFSET UNITYSDK_OFFSET(0x1BE79B20)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_1_OFFSET UNITYSDK_OFFSET(0x1BE79C50)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_3_OFFSET UNITYSDK_OFFSET(0x1BE79BF0)
+#define MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_4_OFFSET UNITYSDK_OFFSET(0x1BE79D20)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int UserCenterManager_TypeDefinitionIndex = 8230;
-
 	class UserCenterManager : public ::System::Object
 	{
 	public:
+		::System::Action* userCenterCallback; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* resultHandlerMap; // 0x18
+		::System::Int32 NOTICE_ERROR_CODE; // 0x20
+		::System::Int32 TOKEN_INVALID; // 0x24
 		static ::MiHoYo::SDK::HoYoPass::UserCenterManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::HoYoPass::UserCenterManager**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager_TypeDefinitionIndex)->GetStaticField(0x14330);
+			return (::MiHoYo::SDK::HoYoPass::UserCenterManager**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "UserCenterManager")->GetStaticField(0xF040);
 		}
-		static ::System::String** StaticGet_USER_CENTER_NOMALLY_CLOSE_MSG()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager_TypeDefinitionIndex)->GetStaticField(0x14338);
-		}
+
 		static ::System::String** StaticGet_CURRENT_USER_INVALID_MSG()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager_TypeDefinitionIndex)->GetStaticField(0x14340);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "UserCenterManager")->GetStaticField(0xF048);
 		}
+
 		static ::System::String** StaticGet_COOKIE_TOKEN_INVALID_MSG()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UserCenterManager_TypeDefinitionIndex)->GetStaticField(0x14348);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "UserCenterManager")->GetStaticField(0xF050);
 		}
-		// static const ::System::String* MODULE_NAME; // 0x0
-		::System::Action_1<::System::String*>* userCenterCallback; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::HoYoPass::UserCenterManager_UserCenterJsBridge*>* resultHandlerMap; // 0x18
-		::System::Int32 TOKEN_INVALID; // 0x20
-		::System::Int32 NOTICE_ERROR_CODE; // 0x24
 
+		static ::System::String** StaticGet_USER_CENTER_NOMALLY_CLOSE_MSG()
+		{
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "UserCenterManager")->GetStaticField(0xF058);
+		}
+
+		// static const ::System::String* MODULE_NAME; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean CanOpenUserCenter()
@@ -70,9 +71,9 @@ namespace MiHoYo::SDK::HoYoPass
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_CANOPENUSERCENTER_OFFSET))(this);
 		}
 
-		::System::Void Open(::System::Action_1<::System::String*>* a1)
+		::System::Void Open(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_OPEN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER_OPEN_OFFSET))(this, a1);
 		}
 
 		::System::Void ManuallyClose()
@@ -134,5 +135,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_USERCENTERMANAGER__REGISTERRESULTHANDLER_B__15_4_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDiceCombatExtraGravity_DiceCombatGravitySimulateMode_TypeDefinitionIndex = 63630;
-
 	enum class MonoDiceCombatExtraGravity_DiceCombatGravitySimulateMode : ::System::Int32
 	{
 		Force = 0,

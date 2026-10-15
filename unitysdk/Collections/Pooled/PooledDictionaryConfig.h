@@ -4,14 +4,13 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionaryConfig_TypeDefinitionIndex = 5102;
-
 	class PooledDictionaryConfig : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_PooledDictionary_Clear_Fix()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(PooledDictionaryConfig_TypeDefinitionIndex)->GetStaticField(0x1860);
+			return (::System::Boolean*)UnitySDK::FromName("Collections.Pooled", "PooledDictionaryConfig")->GetStaticField(0x135D0);
 		}
+
 	};
 }

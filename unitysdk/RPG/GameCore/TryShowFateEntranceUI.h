@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TryShowFateEntranceUI; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_METHOD_3_3169BCC6475D4B45_OFFSET UNITYSDK_OFFSET(0x1D60CFA0)
-#define RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_METHOD_3_E55A1A811A93F8C8_OFFSET UNITYSDK_OFFSET(0x1D60CED0)
-#define RPG_GAMECORE_TRYSHOWFATEENTRANCEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1D60CF90)
+#define RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC611D0)
+#define RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC611E0)
+#define RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC61110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TryShowFateEntranceUI_TypeDefinitionIndex = 21878;
-
 	class TryShowFateEntranceUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYSHOWFATEENTRANCEUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E55A1A811A93F8C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryShowFateEntranceUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TryShowFateEntranceUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryShowFateEntranceUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_METHOD_3_E55A1A811A93F8C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TryShowFateEntranceUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3169BCC6475D4B45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryShowFateEntranceUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TryShowFateEntranceUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryShowFateEntranceUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_METHOD_3_3169BCC6475D4B45_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TryShowFateEntranceUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYSHOWFATEENTRANCEUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

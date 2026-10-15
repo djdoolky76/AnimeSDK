@@ -1,39 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/AvatarComparerBase.h"
-
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class IAvatarComparer; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_AVATARCOMPARER__ACCEPTIMPL_OFFSET UNITYSDK_OFFSET(0xC7FF930)
-#define RPG_CLIENT_AVATARCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xC7FFEB0)
-#define RPG_CLIENT_AVATARCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7FF8D0)
+#define RPG_CLIENT_AVATARCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xC6CCC50)
+#define RPG_CLIENT_AVATARCOMPARER__ACCEPTIMPL_OFFSET UNITYSDK_OFFSET(0xC6CCCB0)
+#define RPG_CLIENT_AVATARCOMPARER__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0xC6CD230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparer_TypeDefinitionIndex = 62877;
-
 	class AvatarComparer : public ::RPG::Client::AvatarComparerBase
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IAvatarComparer*>* _Comparers; // 0x18
-
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IAvatarComparer*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IAvatarComparer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::IAvatarComparer*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARER_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _AcceptImpl(::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>*>* a1)
+		::System::Void _AcceptImpl(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARER__ACCEPTIMPL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARER__ACCEPTIMPL_OFFSET))(this, a1);
 		}
 
 		::System::Int32 _CompareImpl(::RPG::AvatarSystem::IAvatar* a1, ::RPG::AvatarSystem::IAvatar* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPARER__COMPAREIMPL_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

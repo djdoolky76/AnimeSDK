@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OpenHipplenMainPage; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_OPENHIPPLENMAINPAGE_METHOD_3_674735837FB98D43_OFFSET UNITYSDK_OFFSET(0x1D2FDCA0)
-#define RPG_GAMECORE_OPENHIPPLENMAINPAGE_METHOD_3_9394FD357D2FD9C6_OFFSET UNITYSDK_OFFSET(0x1D2FDBD0)
-#define RPG_GAMECORE_OPENHIPPLENMAINPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FDC90)
+#define RPG_GAMECORE_OPENHIPPLENMAINPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E18C0)
+#define RPG_GAMECORE_OPENHIPPLENMAINPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E18D0)
+#define RPG_GAMECORE_OPENHIPPLENMAINPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E1800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenHipplenMainPage_TypeDefinitionIndex = 21057;
-
 	class OpenHipplenMainPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENHIPPLENMAINPAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENHIPPLENMAINPAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9394FD357D2FD9C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenHipplenMainPage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpenHipplenMainPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenHipplenMainPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENHIPPLENMAINPAGE_METHOD_3_9394FD357D2FD9C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpenHipplenMainPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENHIPPLENMAINPAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_674735837FB98D43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenHipplenMainPage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpenHipplenMainPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenHipplenMainPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENHIPPLENMAINPAGE_METHOD_3_674735837FB98D43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpenHipplenMainPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENHIPPLENMAINPAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

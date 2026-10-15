@@ -2,28 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/XLua/TemplateEngine/TokenType.h"
-
 namespace System { class String; }
 
-#define XLUA_TEMPLATEENGINE_CHUNK_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1516A300)
-#define XLUA_TEMPLATEENGINE_CHUNK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1516A2E0)
-#define XLUA_TEMPLATEENGINE_CHUNK_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1516A310)
-#define XLUA_TEMPLATEENGINE_CHUNK_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1516A2F0)
-#define XLUA_TEMPLATEENGINE_CHUNK__CTOR_OFFSET UNITYSDK_OFFSET(0x1516A320)
+#define XLUA_TEMPLATEENGINE_CHUNK_CTOR_OFFSET UNITYSDK_OFFSET(0x153BD220)
+#define XLUA_TEMPLATEENGINE_CHUNK_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x153BD200)
+#define XLUA_TEMPLATEENGINE_CHUNK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x153BD1E0)
+#define XLUA_TEMPLATEENGINE_CHUNK_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x153BD210)
+#define XLUA_TEMPLATEENGINE_CHUNK_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x153BD1F0)
 
 namespace XLua::TemplateEngine
 {
-	inline static constexpr unsigned int Chunk_TypeDefinitionIndex = 50617;
-
 	class Chunk : public ::System::Object
 	{
 	public:
 		::System::String* _Text_k__BackingField; // 0x10
 		::XLua::TemplateEngine::TokenType _Type_k__BackingField; // 0x18
-
 		::System::Void _ctor(::XLua::TemplateEngine::TokenType a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::XLua::TemplateEngine::TokenType, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_CHUNK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::XLua::TemplateEngine::TokenType, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_CHUNK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::XLua::TemplateEngine::TokenType get_Type()
@@ -45,5 +41,6 @@ namespace XLua::TemplateEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_TEMPLATEENGINE_CHUNK_SET_TEXT_OFFSET))(this, a1);
 		}
+
 	};
 }

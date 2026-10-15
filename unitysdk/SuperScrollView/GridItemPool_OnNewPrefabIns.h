@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE9477A0)
-#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE9477D0)
-#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_INVOKE_OFFSET UNITYSDK_OFFSET(0xE947370)
-#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS__CTOR_OFFSET UNITYSDK_OFFSET(0xE947730)
+#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE99CD90)
+#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_CTOR_OFFSET UNITYSDK_OFFSET(0xE99CD20)
+#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE99CDC0)
+#define SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_INVOKE_OFFSET UNITYSDK_OFFSET(0xE99C930)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int GridItemPool_OnNewPrefabIns_TypeDefinitionIndex = 48109;
-
 	class GridItemPool_OnNewPrefabIns : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +35,6 @@ namespace SuperScrollView
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SUPERSCROLLVIEW_GRIDITEMPOOL_ONNEWPREFABINS_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

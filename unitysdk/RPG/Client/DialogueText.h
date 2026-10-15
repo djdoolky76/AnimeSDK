@@ -2,25 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Text.h"
 #include "unitysdk/UnityEngine/UILineInfo.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_DIALOGUETEXT_GETNOOVERFLOWCHARCOUNT_OFFSET UNITYSDK_OFFSET(0xCCBF2B0)
-#define RPG_CLIENT_DIALOGUETEXT_ISOVERFLOW_OFFSET UNITYSDK_OFFSET(0xCCBEE10)
-#define RPG_CLIENT_DIALOGUETEXT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0xCCBED50)
-#define RPG_CLIENT_DIALOGUETEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCCBFA40)
-#define RPG_CLIENT_DIALOGUETEXT__ISLINEOVERFLOW_OFFSET UNITYSDK_OFFSET(0xCCBF240)
+#define RPG_CLIENT_DIALOGUETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xCC134B0)
+#define RPG_CLIENT_DIALOGUETEXT_GETNOOVERFLOWCHARCOUNT_OFFSET UNITYSDK_OFFSET(0xCC12D50)
+#define RPG_CLIENT_DIALOGUETEXT_ISOVERFLOW_OFFSET UNITYSDK_OFFSET(0xCC128E0)
+#define RPG_CLIENT_DIALOGUETEXT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0xCC12820)
+#define RPG_CLIENT_DIALOGUETEXT__ISLINEOVERFLOW_OFFSET UNITYSDK_OFFSET(0xCC12CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogueText_TypeDefinitionIndex = 72451;
-
 	class DialogueText : public ::UnityEngine::UI::Text
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGUETEXT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGUETEXT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_text(::System::String* a1)
@@ -42,5 +39,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UILineInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_DIALOGUETEXT__ISLINEOVERFLOW_OFFSET))(this, a1);
 		}
+
 	};
 }

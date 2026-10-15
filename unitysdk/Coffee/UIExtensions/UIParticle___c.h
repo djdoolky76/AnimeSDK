@@ -1,69 +1,74 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Coffee::UIExtensions { class UIParticleRenderer; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x164944B0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CLEAR_B__116_0_OFFSET UNITYSDK_OFFSET(0x16494600)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x164944E0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__ONDISABLE_B__106_0_OFFSET UNITYSDK_OFFSET(0x164944F0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PAUSE_B__111_0_OFFSET UNITYSDK_OFFSET(0x16494540)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PLAY_B__110_0_OFFSET UNITYSDK_OFFSET(0x16494510)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STARTEMISSION_B__114_0_OFFSET UNITYSDK_OFFSET(0x164945A0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOPEMISSION_B__115_0_OFFSET UNITYSDK_OFFSET(0x164945D0)
-#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOP_B__113_0_OFFSET UNITYSDK_OFFSET(0x16494570)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x166BB0E0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x166BB110)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__CLEAR_B__116_0_OFFSET UNITYSDK_OFFSET(0x166BB230)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__ONDISABLE_B__106_0_OFFSET UNITYSDK_OFFSET(0x166BB120)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PAUSE_B__111_0_OFFSET UNITYSDK_OFFSET(0x166BB170)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__PLAY_B__110_0_OFFSET UNITYSDK_OFFSET(0x166BB140)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STARTEMISSION_B__114_0_OFFSET UNITYSDK_OFFSET(0x166BB1D0)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOPEMISSION_B__115_0_OFFSET UNITYSDK_OFFSET(0x166BB200)
+#define COFFEE_UIEXTENSIONS_UIPARTICLE___C__STOP_B__113_0_OFFSET UNITYSDK_OFFSET(0x166BB1A0)
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticle___c_TypeDefinitionIndex = 43962;
-
 	class UIParticle___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__115_0()
+		static ::System::Action** StaticGet___9__114_0()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1260);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFC0);
 		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__111_0()
+
+		static ::System::Action** StaticGet___9__115_0()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1268);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFC8);
 		}
-		static ::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>** StaticGet___9__106_0()
+
+		static ::System::Action** StaticGet___9__113_0()
 		{
-			return (::System::Action_1<::Coffee::UIExtensions::UIParticleRenderer*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1270);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFD0);
 		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__116_0()
+
+		static ::System::Action** StaticGet___9__106_0()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1278);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFD8);
 		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__110_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1280);
+			return (::System::Object**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFE0);
 		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__114_0()
+
+		static ::System::Action** StaticGet___9__110_0()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1288);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFE8);
 		}
-		static ::System::Action_1<::UnityEngine::ParticleSystem*>** StaticGet___9__113_0()
+
+		static ::System::Action** StaticGet___9__116_0()
 		{
-			return (::System::Action_1<::UnityEngine::ParticleSystem*>**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1290);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFF0);
 		}
-		static ::Coffee::UIExtensions::UIParticle___c** StaticGet___9()
+
+		static ::System::Action** StaticGet___9__111_0()
 		{
-			return (::Coffee::UIExtensions::UIParticle___c**)Il2CppClass::FromTypeDefinitionIndex(UIParticle___c_TypeDefinitionIndex)->GetStaticField(0x1298);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>c")->GetStaticField(0xFF8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnDisable_b__106_0(::Coffee::UIExtensions::UIParticleRenderer* a1)
@@ -100,5 +105,6 @@ namespace Coffee::UIExtensions
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ParticleSystem*))((::PBYTE)hIl2Cpp + COFFEE_UIEXTENSIONS_UIPARTICLE___C__CLEAR_B__116_0_OFFSET))(this, a1);
 		}
+
 	};
 }

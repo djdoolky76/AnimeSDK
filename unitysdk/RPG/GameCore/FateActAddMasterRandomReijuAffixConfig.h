@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateActAddMasterRandomReijuAffixConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_METHOD_6_5827D5ABCB697CF7_OFFSET UNITYSDK_OFFSET(0x1D08BA30)
-#define RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_METHOD_6_D93FC4522EA31AB3_OFFSET UNITYSDK_OFFSET(0x1D08B9E0)
-#define RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D08BA20)
+#define RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D699A50)
+#define RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D699A60)
+#define RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D699A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateActAddMasterRandomReijuAffixConfig_TypeDefinitionIndex = 19007;
-
 	class FateActAddMasterRandomReijuAffixConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_D93FC4522EA31AB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_METHOD_6_D93FC4522EA31AB3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_5827D5ABCB697CF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_METHOD_6_5827D5ABCB697CF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateActAddMasterRandomReijuAffixConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEACTADDMASTERRANDOMREIJUAFFIXCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

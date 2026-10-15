@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_IMAGECOLORGRADING_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD3EBB70)
-#define RPG_CLIENT_IMAGECOLORGRADING_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xD3EBAA0)
-#define RPG_CLIENT_IMAGECOLORGRADING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD3EC460)
-#define RPG_CLIENT_IMAGECOLORGRADING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD3EC4C0)
-#define RPG_CLIENT_IMAGECOLORGRADING_UPDATE_OFFSET UNITYSDK_OFFSET(0xD3EC1D0)
-#define RPG_CLIENT_IMAGECOLORGRADING__CTOR_OFFSET UNITYSDK_OFFSET(0xD3EC510)
+#define RPG_CLIENT_IMAGECOLORGRADING_CTOR_OFFSET UNITYSDK_OFFSET(0xD33D360)
+#define RPG_CLIENT_IMAGECOLORGRADING_GETMATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xD33CAC0)
+#define RPG_CLIENT_IMAGECOLORGRADING_GET_IMAGE_OFFSET UNITYSDK_OFFSET(0xD33CA10)
+#define RPG_CLIENT_IMAGECOLORGRADING_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD33D2B0)
+#define RPG_CLIENT_IMAGECOLORGRADING_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD33D310)
+#define RPG_CLIENT_IMAGECOLORGRADING_UPDATE_OFFSET UNITYSDK_OFFSET(0xD33D050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ImageColorGrading_TypeDefinitionIndex = 72471;
-
 	class ImageColorGrading : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
@@ -37,10 +34,9 @@ namespace RPG::Client
 		::System::Single Contrast; // 0x68
 		::UnityEngine::Color TintGrading; // 0x6C
 		::System::Boolean AlwaysUpdateColor; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGECOLORGRADING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGECOLORGRADING_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::UI::Image* get_image()
@@ -67,5 +63,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_IMAGECOLORGRADING_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

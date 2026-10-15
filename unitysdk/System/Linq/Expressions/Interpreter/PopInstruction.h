@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/Instruction.h"
-
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
+namespace System::Linq::Expressions::Interpreter { class PopInstruction; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1E75D750)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E75D760)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1E75D7A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E75D7E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E75D740)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE263E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE26340)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EE26350)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EE26360)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EE263A0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int PopInstruction_TypeDefinitionIndex = 3621;
-
 	class PopInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::PopInstruction** StaticGet_Instance()
 		{
-			return (::System::Linq::Expressions::Interpreter::PopInstruction**)Il2CppClass::FromTypeDefinitionIndex(PopInstruction_TypeDefinitionIndex)->GetStaticField(0x31C0);
+			return (::System::Linq::Expressions::Interpreter::PopInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "PopInstruction")->GetStaticField(0x3B3E0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_ConsumedStack()
@@ -47,5 +45,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_POPINSTRUCTION_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

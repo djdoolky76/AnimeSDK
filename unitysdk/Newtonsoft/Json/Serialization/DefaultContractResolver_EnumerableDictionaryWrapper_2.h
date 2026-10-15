@@ -4,9 +4,7 @@
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int DefaultContractResolver_EnumerableDictionaryWrapper_2_TypeDefinitionIndex = 9648;
-
-	template <typename TEnumeratorKey, typename TEnumeratorValue>
+	template <typename T1, typename T2>
 	class DefaultContractResolver_EnumerableDictionaryWrapper_2 : public ::System::Object
 	{
 	public:

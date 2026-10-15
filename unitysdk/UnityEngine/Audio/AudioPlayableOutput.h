@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableOutputHandle.h"
-
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+#include "unitysdk/UnityEngine/Playables/PlayableOutput.h"
 namespace System { class String; }
 namespace UnityEngine { class AudioSource; }
 
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1ECFAC30)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2DFB9E0)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1ECFADD0)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETEVALUATEONSEEK_OFFSET UNITYSDK_OFFSET(0x1ECFB170)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETTARGET_OFFSET UNITYSDK_OFFSET(0x1ECFB150)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1ECFB040)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ECFADB0)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_SETEVALUATEONSEEK_OFFSET UNITYSDK_OFFSET(0x3BB5AE0)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_SETTARGET_OFFSET UNITYSDK_OFFSET(0x3BB5AD0)
-#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x3BB59C0)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_CREATE_OFFSET UNITYSDK_OFFSET(0x1F3C29D0)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C6ADE0)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2E878A0)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1F3C2B70)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETEVALUATEONSEEK_OFFSET UNITYSDK_OFFSET(0x1F3C2F10)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETTARGET_OFFSET UNITYSDK_OFFSET(0x1F3C2EF0)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_OP_EXPLICIT_OFFSET UNITYSDK_OFFSET(0x1F3C2DE0)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F3C2B50)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_SETEVALUATEONSEEK_OFFSET UNITYSDK_OFFSET(0x3C6AF00)
+#define UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_SETTARGET_OFFSET UNITYSDK_OFFSET(0x3C6AEF0)
 
 namespace UnityEngine::Audio
 {
-	inline static constexpr unsigned int AudioPlayableOutput_TypeDefinitionIndex = 5147;
-
-	struct alignas(8) AudioPlayableOutput
+	struct alignas(4) AudioPlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10
-
 		::System::Void _ctor(::UnityEngine::Playables::PlayableOutputHandle a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableOutputHandle))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_CTOR_OFFSET))(this, a1);
 		}
 
 		/*
@@ -37,10 +34,12 @@ namespace UnityEngine::Audio
 		}
 		*/
 
+		/*
 		static ::UnityEngine::Audio::AudioPlayableOutput get_Null()
 		{
 			return ((::UnityEngine::Audio::AudioPlayableOutput(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_GET_NULL_OFFSET))();
 		}
+		*/
 
 		::UnityEngine::Playables::PlayableOutputHandle GetHandle()
 		{
@@ -71,14 +70,15 @@ namespace UnityEngine::Audio
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_SETEVALUATEONSEEK_OFFSET))(this, a1);
 		}
 
-		static ::System::Void InternalSetTarget(::UnityEngine::Playables::PlayableOutputHandle& a1, ::UnityEngine::AudioSource* a2)
+		static ::System::Void InternalSetTarget(::UnityEngine::Playables::PlayableOutputHandle a1, ::UnityEngine::AudioSource* a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::UnityEngine::AudioSource*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETTARGET_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle, ::UnityEngine::AudioSource*))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETTARGET_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void InternalSetEvaluateOnSeek(::UnityEngine::Playables::PlayableOutputHandle& a1, ::System::Boolean a2)
+		static ::System::Void InternalSetEvaluateOnSeek(::UnityEngine::Playables::PlayableOutputHandle a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle&, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETEVALUATEONSEEK_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Playables::PlayableOutputHandle, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_AUDIO_AUDIOPLAYABLEOUTPUT_INTERNALSETEVALUATEONSEEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

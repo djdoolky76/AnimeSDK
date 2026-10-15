@@ -3,82 +3,78 @@
 #include "unitysdk/RPG/Client/Prop/RubikCubeGroup.h"
 #include "unitysdk/RPG/Client/Prop/RubikCubePuzzleAxis.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_A4376D2CF7ABE708;
+class BDEIDAMFDBN;
 namespace RPG::Client::Prop { class RubikCubePuzzleBoard; }
-namespace RPG::Client::Prop { class RubikCubePuzzleBrickData; }
 namespace RPG::Client::Prop { class RubikCubePuzzleConditionGroup; }
+namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::Client::Prop { class RubikCubePuzzleCubeData; }
 namespace RPG::Client::Prop { class RubikCubePuzzleFrame; }
 namespace RPG::Client::Prop { class RubikCubePuzzleSwitch; }
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ANIMROTATEANYANGLE_OFFSET UNITYSDK_OFFSET(0xDD28510)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ANIMROTATE_OFFSET UNITYSDK_OFFSET(0xDD29480)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_CANCELALLSELECT_OFFSET UNITYSDK_OFFSET(0xDD27C60)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_CONDITIONGROUPSETANIMATIONFINISH_OFFSET UNITYSDK_OFFSET(0xDD24960)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD242E0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GETCENTEROID_OFFSET UNITYSDK_OFFSET(0xDD28F20)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GETGROUP_OFFSET UNITYSDK_OFFSET(0xDD27630)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDD2ACD0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GET_ISDRAG_OFFSET UNITYSDK_OFFSET(0xDD2ACB0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GET_ISROTATE_OFFSET UNITYSDK_OFFSET(0xDD2AC90)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET UNITYSDK_OFFSET(0xDD147A0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITSECONDORDER_OFFSET UNITYSDK_OFFSET(0xDD23180)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_2CB2A75807271EAA_OFFSET UNITYSDK_OFFSET(0xDD29620)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xDD2AC30)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_56CE4AFC5339F746_OFFSET UNITYSDK_OFFSET(0xDD29D20)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_E7EF6BC52B28648C_OFFSET UNITYSDK_OFFSET(0xDD2AAB0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ONROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xDD29EC0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ONROTATESTART_OFFSET UNITYSDK_OFFSET(0xDD29AD0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ONSTOPDRAG_OFFSET UNITYSDK_OFFSET(0xDD283D0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_PLAYROTATESOUND_OFFSET UNITYSDK_OFFSET(0xDD292E0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REFRESHALLFRAMESTATUS_OFFSET UNITYSDK_OFFSET(0xDD24AC0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERFRAME_1_OFFSET UNITYSDK_OFFSET(0xDD24880)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERFRAME_OFFSET UNITYSDK_OFFSET(0xDD247A0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD28280)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERSWITCH_OFFSET UNITYSDK_OFFSET(0xDD246C0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_RESETCUBE_OFFSET UNITYSDK_OFFSET(0xDD22B40)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ROTATEX_OFFSET UNITYSDK_OFFSET(0xDD24BE0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ROTATEY_OFFSET UNITYSDK_OFFSET(0xDD259E0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ROTATEZ_OFFSET UNITYSDK_OFFSET(0xDD26710)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SDKREPORTPLAYERACION_OFFSET UNITYSDK_OFFSET(0xDD296C0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTBRICK_OFFSET UNITYSDK_OFFSET(0xDD27F30)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTGROUPTEST_OFFSET UNITYSDK_OFFSET(0xDD281B0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTGROUP_OFFSET UNITYSDK_OFFSET(0xDD274A0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SETBLOCKSELECT_OFFSET UNITYSDK_OFFSET(0xDD27B60)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SET_ISDRAG_OFFSET UNITYSDK_OFFSET(0xDD2ACC0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SET_ISROTATE_OFFSET UNITYSDK_OFFSET(0xDD2ACA0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD28330)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE__CTOR_OFFSET UNITYSDK_OFFSET(0xDD2AE20)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ANIMROTATEANYANGLE_OFFSET UNITYSDK_OFFSET(0xDDB1280)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ANIMROTATE_OFFSET UNITYSDK_OFFSET(0xDDB2050)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_BEKGCBCIODA_OFFSET UNITYSDK_OFFSET(0xDDB36D0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_CANCELALLSELECT_OFFSET UNITYSDK_OFFSET(0xDDB0C50)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_CONDITIONGROUPSETANIMATIONFINISH_OFFSET UNITYSDK_OFFSET(0xDDA1F70)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB38C0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDDACC90)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GETCENTEROID_OFFSET UNITYSDK_OFFSET(0xDDB1C90)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GETGROUP_OFFSET UNITYSDK_OFFSET(0xDDB0720)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDDB3770)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GET_ISDRAG_OFFSET UNITYSDK_OFFSET(0xDDB3750)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GET_ISROTATE_OFFSET UNITYSDK_OFFSET(0xDDB3730)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GMJLECAFJOP_OFFSET UNITYSDK_OFFSET(0xDDB28F0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_HBLEJGLDKAF_OFFSET UNITYSDK_OFFSET(0xDDAD070)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET UNITYSDK_OFFSET(0xDDAD190)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITSECONDORDER_OFFSET UNITYSDK_OFFSET(0xDDABB30)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_JPKMGOJLCOD_OFFSET UNITYSDK_OFFSET(0xDDB21F0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ONROTATEFINISH_OFFSET UNITYSDK_OFFSET(0xDDB2A90)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ONROTATESTART_OFFSET UNITYSDK_OFFSET(0xDDB26A0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ONSTOPDRAG_OFFSET UNITYSDK_OFFSET(0xDDB1140)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_PLAYROTATESOUND_OFFSET UNITYSDK_OFFSET(0xDDAB0D0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REFRESHALLFRAMESTATUS_OFFSET UNITYSDK_OFFSET(0xDDADBB0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERFRAME_1_OFFSET UNITYSDK_OFFSET(0xDDA21B0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERFRAME_OFFSET UNITYSDK_OFFSET(0xDDADAD0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDDB0FF0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERSWITCH_OFFSET UNITYSDK_OFFSET(0xDDAD9F0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_RESETCUBE_OFFSET UNITYSDK_OFFSET(0xDDAB2E0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ROTATEX_OFFSET UNITYSDK_OFFSET(0xDDADCD0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ROTATEY_OFFSET UNITYSDK_OFFSET(0xDDAEAD0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ROTATEZ_OFFSET UNITYSDK_OFFSET(0xDDAF800)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SDKREPORTPLAYERACION_OFFSET UNITYSDK_OFFSET(0xDDB2290)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTBRICK_OFFSET UNITYSDK_OFFSET(0xDDAA0B0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTGROUPTEST_OFFSET UNITYSDK_OFFSET(0xDDB0F20)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTGROUP_OFFSET UNITYSDK_OFFSET(0xDDB0590)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SETBLOCKSELECT_OFFSET UNITYSDK_OFFSET(0xDDABA30)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SET_ISDRAG_OFFSET UNITYSDK_OFFSET(0xDDB3760)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SET_ISROTATE_OFFSET UNITYSDK_OFFSET(0xDDB3740)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDDB10A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleCube_TypeDefinitionIndex = 78362;
-
 	class RubikCubePuzzleCube : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* RotateYSound; // 0x0
-		// static const ::System::String* RotateXZSound; // 0x0
-		// static const ::System::String* DragSound; // 0x0
-		// static const ::System::String* DragStopSound; // 0x0
 		::System::Boolean _IsRotate_k__BackingField; // 0x18
 		::System::Boolean _IsDrag_k__BackingField; // 0x19
+		::System::Byte _padding0[0x6];
 		::System::String* UniqueName; // 0x20
 		::System::Int32 Order; // 0x28
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Blocks; // 0x30
 		::System::Single RotateSpeed; // 0x38
-		::Il2CppArray<::Class_1_A4376D2CF7ABE708*>* CubeStatus; // 0x40
+		::System::Byte _padding2[0x4];
+		::System::Object* CubeStatus; // 0x40
 		::System::String* StartRotateCustomString; // 0x48
 		::System::String* StopRotateCustomString; // 0x50
 		::UnityEngine::Material* SolidNormalMaterial; // 0x58
@@ -89,11 +85,12 @@ namespace RPG::Client::Prop
 		::UnityEngine::Material* EmptySelectMaterial; // 0x80
 		::UnityEngine::Material* CompleteMaterial; // 0x88
 		::UnityEngine::AnimationCurve* RotateCurve; // 0x90
-		::Il2CppArray<::UnityEngine::Vector3>* FOMMNNFHKNC; // 0x98
-		::Il2CppArray<::UnityEngine::Quaternion>* KKMPKBAHADF; // 0xA0
-		::Il2CppArray<::RPG::Client::Prop::RubikCubePuzzleBrickData*>* ICCOPPLDDKJ; // 0xA8
-		::Il2CppArray<::System::Int32>* HDOOOBONAPM; // 0xB0
+		::System::Object* FOMMNNFHKNC; // 0x98
+		::System::Object* KKMPKBAHADF; // 0xA0
+		::System::Object* ICCOPPLDDKJ; // 0xA8
+		::System::Object* HDOOOBONAPM; // 0xB0
 		::RPG::Client::Prop::RubikCubeGroup LGHKHDAOHLM; // 0xB8
+		::System::Byte _padding3[0x4];
 		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0xC0
 		::RPG::Client::Prop::RubikCubePuzzleBoard* AGAHPOHHGMP; // 0xC8
 		::System::Collections::IEnumerator* BJOEOGDJKFF; // 0xD0
@@ -101,17 +98,20 @@ namespace RPG::Client::Prop
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleFrame*>* AEJHPPJIHEB; // 0xE0
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleConditionGroup*>* NJFNAAKDOPO; // 0xE8
 		::RPG::Client::Prop::RubikCubePuzzleCubeData* APHGPNEIDKI; // 0xF0
-		::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* CIFOILLJFNF; // 0xF8
-		::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* JCGFOCCPHEH; // 0x100
+		::System::Action* CIFOILLJFNF; // 0xF8
+		::System::Action* JCGFOCCPHEH; // 0x100
 		::System::Int32 MIBBMAGFDPG; // 0x108
 		::System::UInt32 MFMEMHINIPK; // 0x10C
 		::System::Int32 GDEPAEEGPCA; // 0x110
 		::System::Int32 EFLOALLFICK; // 0x114
 		::System::Int32 CNCGANOKJPO; // 0x118
-
+		// static const ::System::String* RotateYSound; // 0x0
+		// static const ::System::String* RotateXZSound; // 0x0
+		// static const ::System::String* DragSound; // 0x0
+		// static const ::System::String* DragStopSound; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetCube()
@@ -129,9 +129,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void InitCube(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::RubikCubePuzzleCubeData* a2, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a3, ::RPG::Client::Prop::RubikCubePuzzleBoard* a4)
+		::System::Void InitCube(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::RubikCubePuzzleCubeData* a2, ::System::Action* a3, ::RPG::Client::Prop::RubikCubePuzzleBoard* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RubikCubePuzzleCubeData*, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*, ::RPG::Client::Prop::RubikCubePuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::Client::Prop::RubikCubePuzzleCubeData*, ::System::Action*, ::RPG::Client::Prop::RubikCubePuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_INITCUBE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void RegisterSwitch(::RPG::Client::Prop::RubikCubePuzzleSwitch* a1)
@@ -194,24 +194,24 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RubikCubeGroup, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SELECTGROUPTEST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RegisterRotateFinishCallback(::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a1)
+		::System::Void RegisterRotateFinishCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void UnRegisterRotateFinishCallback(::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a1)
+		::System::Void UnRegisterRotateFinishCallback(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_A4376D2CF7ABE708*>* GetGroup(::RPG::Client::Prop::RubikCubeGroup a1)
+		::System::Collections::Generic::List_1<::BDEIDAMFDBN*>* GetGroup(::RPG::Client::Prop::RubikCubeGroup a1)
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_A4376D2CF7ABE708*>*(*)(::PVOID, ::RPG::Client::Prop::RubikCubeGroup))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GETGROUP_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::BDEIDAMFDBN*>*(*)(::PVOID, ::RPG::Client::Prop::RubikCubeGroup))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GETGROUP_OFFSET))(this, a1);
 		}
 
-		::System::Void SetBlockSelect(::Class_1_A4376D2CF7ABE708* a1, ::System::Boolean a2)
+		::System::Void SetBlockSelect(::BDEIDAMFDBN* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_A4376D2CF7ABE708*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SETBLOCKSELECT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BDEIDAMFDBN*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SETBLOCKSELECT_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnStopDrag()
@@ -239,9 +239,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::RPG::Client::Prop::RubikCubePuzzleAxis))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ANIMROTATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Collections::IEnumerator* Method_5_2CB2A75807271EAA(::System::Int32 a1, ::System::Boolean a2, ::RPG::Client::Prop::RubikCubePuzzleAxis a3)
+		::System::Collections::IEnumerator* JPKMGOJLCOD(::System::Int32 a1, ::System::Boolean a2, ::RPG::Client::Prop::RubikCubePuzzleAxis a3)
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::RPG::Client::Prop::RubikCubePuzzleAxis))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_2CB2A75807271EAA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Int32, ::System::Boolean, ::RPG::Client::Prop::RubikCubePuzzleAxis))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_JPKMGOJLCOD_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void OnRotateStart()
@@ -254,19 +254,19 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_ONROTATEFINISH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_4343F372F34C05BF()
+		::System::Void BEKGCBCIODA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_BEKGCBCIODA_OFFSET))(this);
 		}
 
-		::System::Void Method_5_56CE4AFC5339F746()
+		::System::Void GMJLECAFJOP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_56CE4AFC5339F746_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_GMJLECAFJOP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_E7EF6BC52B28648C()
+		::System::Void HBLEJGLDKAF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_METHOD_5_E7EF6BC52B28648C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_HBLEJGLDKAF_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsRotate()
@@ -298,5 +298,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::RPG::Client::Prop::RubikCubePuzzleAxis))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLECUBE_SDKREPORTPLAYERACION_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

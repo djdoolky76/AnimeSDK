@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class KCEFGNINEBG;
+namespace System { class Object; }
+
+#define KCEFGNINEBG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7F4A50)
+#define KCEFGNINEBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F4A80)
+#define KCEFGNINEBG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E7F4A90)
+
+	class KCEFGNINEBG___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF990);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KCEFGNINEBG___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KCEFGNINEBG___C_CTOR_OFFSET))(this);
+		}
+
+		::KCEFGNINEBG* __cctor_b__18_0()
+		{
+			return ((::KCEFGNINEBG*(*)(::PVOID))((::PBYTE)hIl2Cpp + KCEFGNINEBG___C___CCTOR_B__18_0_OFFSET))(this);
+		}
+
+	};

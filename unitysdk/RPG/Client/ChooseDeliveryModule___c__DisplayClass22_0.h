@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChooseDeliveryEntry; }
 namespace RPG::Client { class ChooseDeliveryModule; }
 
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC20B80)
-#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS22_0___TRYENQUEUETOAST_B__0_OFFSET UNITYSDK_OFFSET(0xCC21740)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6FBD0)
+#define RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS22_0___TRYENQUEUETOAST_B__0_OFFSET UNITYSDK_OFFSET(0xCB70860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChooseDeliveryModule___c__DisplayClass22_0_TypeDefinitionIndex = 63588;
-
 	class ChooseDeliveryModule___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChooseDeliveryEntry* entry; // 0x10
 		::RPG::Client::ChooseDeliveryModule* __4__this; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS22_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS22_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __TryEnqueueToast_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHOOSEDELIVERYMODULE___C__DISPLAYCLASS22_0___TRYENQUEUETOAST_B__0_OFFSET))(this);
 		}
+
 	};
 }

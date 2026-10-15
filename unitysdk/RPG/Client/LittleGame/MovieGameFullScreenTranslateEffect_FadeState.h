@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameFullScreenTranslateEffect_FadeState_TypeDefinitionIndex = 76132;
-
 	enum class MovieGameFullScreenTranslateEffect_FadeState : ::System::Int32
 	{
 		None = 0,

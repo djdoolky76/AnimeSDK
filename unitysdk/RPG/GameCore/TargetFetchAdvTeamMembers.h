@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchAdvTeamMembers; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_63315671B3CEEEAD_OFFSET UNITYSDK_OFFSET(0x1D5A7B30)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_AE730C307F962D20_OFFSET UNITYSDK_OFFSET(0x1D5A7B90)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_CEAF4E83136B70C8_OFFSET UNITYSDK_OFFSET(0x1D5A7AB0)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_E10DDCFA89EA846D_OFFSET UNITYSDK_OFFSET(0x1D5A7BB0)
-#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A7B20)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5EC80)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB5ED10)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB5ECF0)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB5EC90)
+#define RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5EC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAdvTeamMembers_TypeDefinitionIndex = 23591;
-
 	class TargetFetchAdvTeamMembers : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_CEAF4E83136B70C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvTeamMembers*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_CEAF4E83136B70C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvTeamMembers*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_63315671B3CEEEAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAdvTeamMembers*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_63315671B3CEEEAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchAdvTeamMembers*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AE730C307F962D20(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamMembers*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_AE730C307F962D20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamMembers*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E10DDCFA89EA846D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAdvTeamMembers* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamMembers*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_METHOD_4_E10DDCFA89EA846D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAdvTeamMembers*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHADVTEAMMEMBERS_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

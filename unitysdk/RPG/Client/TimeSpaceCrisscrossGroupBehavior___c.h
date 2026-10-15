@@ -2,61 +2,64 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
-
 namespace RPG::Client { class GameObjectAudio; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE212690)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE2126D0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_0_OFFSET UNITYSDK_OFFSET(0xE212820)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_1_OFFSET UNITYSDK_OFFSET(0xE212840)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_0_OFFSET UNITYSDK_OFFSET(0xE2127B0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_1_OFFSET UNITYSDK_OFFSET(0xE2127D0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTRENDERERSTO_B__28_0_OFFSET UNITYSDK_OFFSET(0xE2126E0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE298440)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE298480)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_0_OFFSET UNITYSDK_OFFSET(0xE2985D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_1_OFFSET UNITYSDK_OFFSET(0xE2985F0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_0_OFFSET UNITYSDK_OFFSET(0xE298560)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTCOLLIDERTO_B__31_1_OFFSET UNITYSDK_OFFSET(0xE298580)
+#define RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTRENDERERSTO_B__28_0_OFFSET UNITYSDK_OFFSET(0xE298490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex = 70167;
-
 	class TimeSpaceCrisscrossGroupBehavior___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::UnityEngine::Collider*>** StaticGet___9__31_0()
-		{
-			return (::System::Predicate_1<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x57BE0);
-		}
-		static ::RPG::Client::TimeSpaceCrisscrossGroupBehavior___c** StaticGet___9()
-		{
-			return (::RPG::Client::TimeSpaceCrisscrossGroupBehavior___c**)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x57BE8);
-		}
 		static ::System::Predicate_1<::UnityEngine::Renderer*>** StaticGet___9__28_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x57BF0);
+			return (::System::Predicate_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BB50);
 		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BB58);
+		}
+
 		static ::System::Predicate_1<::RPG::Client::GameObjectAudio*>** StaticGet___9__36_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x57BF8);
+			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BB60);
 		}
-		static ::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>** StaticGet___9__31_1()
-		{
-			return (::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>**)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x57C00);
-		}
+
 		static ::System::Predicate_1<::RPG::Client::GameObjectAudio*>** StaticGet___9__36_1()
 		{
-			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossGroupBehavior___c_TypeDefinitionIndex)->GetStaticField(0x57C08);
+			return (::System::Predicate_1<::RPG::Client::GameObjectAudio*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BB68);
+		}
+
+		static ::System::Predicate_1<::UnityEngine::Collider*>** StaticGet___9__31_0()
+		{
+			return (::System::Predicate_1<::UnityEngine::Collider*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BB70);
+		}
+
+		static ::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>** StaticGet___9__31_1()
+		{
+			return (::System::Func_2<::UnityEngine::Collider*, ::UnityEngine::Bounds>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BB78);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean __CollectRenderersTo_b__28_0(::UnityEngine::Renderer* a1)
@@ -83,5 +86,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GameObjectAudio*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TIMESPACECRISSCROSSGROUPBEHAVIOR___C___COLLECTAUDIOS_B__36_1_OFFSET))(this, a1);
 		}
+
 	};
 }

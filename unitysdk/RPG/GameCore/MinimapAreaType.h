@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MinimapAreaType_TypeDefinitionIndex = 10509;
-
 	enum class MinimapAreaType : ::System::Int32
 	{
 		Normal = 0,

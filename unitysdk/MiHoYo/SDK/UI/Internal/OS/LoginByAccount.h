@@ -1,79 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::UI::Internal::OS { class LoginByAccount; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ACCOUNTINPUTCLEARBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1BAFEAF0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAFAF30)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKAPPLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFE890)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKCLOSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFEA90)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKFACEBOOKBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFE990)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKFORGETPASSWORDBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFEAD0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKGOOGLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFE910)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKLOGINBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFE090)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKREGISTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFEAB0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKTWITTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFEA10)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_DISABLEREGISTER_OFFSET UNITYSDK_OFFSET(0x1BAFDDE0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_GUESTLOGIN_OFFSET UNITYSDK_OFFSET(0x1BAFE810)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_HIDEPASSWORDDETAILBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1BAFEC60)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_HIDE_OFFSET UNITYSDK_OFFSET(0x1BAFE020)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONACCOUNTINPUTVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1BAFED00)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONBACKBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1BAFE7E0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BAFEF80)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONPASSWORDINPUTVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1BAFED80)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_PASSWORDINPUTCLEARBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1BAFEB20)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_SHOWPASSWORDDETAILBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1BAFEBC0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_SHOW_OFFSET UNITYSDK_OFFSET(0x1BAFDEC0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_START_OFFSET UNITYSDK_OFFSET(0x1BAFE640)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_UPDATEBACKBTN_OFFSET UNITYSDK_OFFSET(0x1BAFE670)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_UPDATEBOTTOMCONTENT_OFFSET UNITYSDK_OFFSET(0x1BAFCCA0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BAFD960)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFEFA0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ACCOUNTINPUTCLEARBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1C00AEC0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C006EB0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKAPPLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00AC60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKCLOSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00AE60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKFACEBOOKBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00AD60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKFORGETPASSWORDBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00AEA0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKGOOGLEBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00ACE0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKLOGINBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00A460)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKREGISTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00AE80)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CLICKTWITTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1C00ADE0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C00B370)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_DISABLEREGISTER_OFFSET UNITYSDK_OFFSET(0x1C00A170)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_GUESTLOGIN_OFFSET UNITYSDK_OFFSET(0x1C00ABE0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_HIDEPASSWORDDETAILBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1C00B030)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_HIDE_OFFSET UNITYSDK_OFFSET(0x1C00A3F0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONACCOUNTINPUTVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1C00B0D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONBACKBUTTONCLICKED_OFFSET UNITYSDK_OFFSET(0x1C00ABB0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C00B350)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONPASSWORDINPUTVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1C00B150)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_PASSWORDINPUTCLEARBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1C00AEF0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_SHOWPASSWORDDETAILBTNCLICK_OFFSET UNITYSDK_OFFSET(0x1C00AF90)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_SHOW_OFFSET UNITYSDK_OFFSET(0x1C00A290)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_START_OFFSET UNITYSDK_OFFSET(0x1C00AA10)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_UPDATEBACKBTN_OFFSET UNITYSDK_OFFSET(0x1C00AA40)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_UPDATEBOTTOMCONTENT_OFFSET UNITYSDK_OFFSET(0x1C009030)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1C009CF0)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int LoginByAccount_TypeDefinitionIndex = 8381;
-
 	class LoginByAccount : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::Internal::OS::LoginByAccount** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::Internal::OS::LoginByAccount**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccount_TypeDefinitionIndex)->GetStaticField(0x293B0);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* CloseButtonPath; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* AccountInputPath; // 0x0
-		// static const ::System::String* PasswordInputPath; // 0x0
-		// static const ::System::String* AccountPlaceholderPath; // 0x0
-		// static const ::System::String* PasswordPlaceholderPath; // 0x0
-		// static const ::System::String* AccountInputClearAllBtnPath; // 0x0
-		// static const ::System::String* PasswordInputClearAllBtnPath; // 0x0
-		// static const ::System::String* PasswordShowDetailBtnPath; // 0x0
-		// static const ::System::String* PasswordHideDetailBtnPath; // 0x0
-		// static const ::System::String* LoginButtonPath; // 0x0
-		// static const ::System::String* RegisterButtonPath; // 0x0
-		// static const ::System::String* ForgetPasswordButtonPath; // 0x0
-		// static const ::System::String* TestEnvTextPath; // 0x0
-		// static const ::System::String* LoginButtonTextPath; // 0x0
-		// static const ::System::String* RegisterTextPath; // 0x0
-		// static const ::System::String* ForgetPasswordTextPath; // 0x0
-		// static const ::System::String* BottomContentPath; // 0x0
-		// static const ::System::String* OverSeaGuestButtonPath; // 0x0
-		// static const ::System::String* GoogleButtonPath; // 0x0
-		// static const ::System::String* AppleButtonPath; // 0x0
-		// static const ::System::String* FaceBookButtonPath; // 0x0
-		// static const ::System::String* TwitterButtonPath; // 0x0
 		::UnityEngine::UI::Button* closeButton; // 0x58
 		::UnityEngine::UI::Button* backButton; // 0x60
 		::UnityEngine::GameObject* testFlagObject; // 0x68
@@ -98,7 +67,7 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::UnityEngine::UI::Text* forgetPwdText; // 0x100
 		::UnityEngine::UI::Text* loginText; // 0x108
 		::System::Action* OnClose; // 0x110
-		::System::Action_2<::System::String*, ::System::String*>* OnLogin; // 0x118
+		::System::Action* OnLogin; // 0x118
 		::System::Action* OnRegister; // 0x120
 		::System::Action* OnForgetPwd; // 0x128
 		::System::Action* OnGuest; // 0x130
@@ -108,10 +77,38 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::System::Action* OnFacebook; // 0x150
 		::System::Action* OnBack; // 0x158
 		::System::Boolean isShowPassword; // 0x160
+		static ::MiHoYo::SDK::UI::Internal::OS::LoginByAccount** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::Internal::OS::LoginByAccount**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "LoginByAccount")->GetStaticField(0x18490);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* CloseButtonPath; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* AccountInputPath; // 0x0
+		// static const ::System::String* PasswordInputPath; // 0x0
+		// static const ::System::String* AccountPlaceholderPath; // 0x0
+		// static const ::System::String* PasswordPlaceholderPath; // 0x0
+		// static const ::System::String* AccountInputClearAllBtnPath; // 0x0
+		// static const ::System::String* PasswordInputClearAllBtnPath; // 0x0
+		// static const ::System::String* PasswordShowDetailBtnPath; // 0x0
+		// static const ::System::String* PasswordHideDetailBtnPath; // 0x0
+		// static const ::System::String* LoginButtonPath; // 0x0
+		// static const ::System::String* RegisterButtonPath; // 0x0
+		// static const ::System::String* ForgetPasswordButtonPath; // 0x0
+		// static const ::System::String* TestEnvTextPath; // 0x0
+		// static const ::System::String* LoginButtonTextPath; // 0x0
+		// static const ::System::String* RegisterTextPath; // 0x0
+		// static const ::System::String* ForgetPasswordTextPath; // 0x0
+		// static const ::System::String* BottomContentPath; // 0x0
+		// static const ::System::String* OverSeaGuestButtonPath; // 0x0
+		// static const ::System::String* GoogleButtonPath; // 0x0
+		// static const ::System::String* AppleButtonPath; // 0x0
+		// static const ::System::String* FaceBookButtonPath; // 0x0
+		// static const ::System::String* TwitterButtonPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -238,5 +235,6 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

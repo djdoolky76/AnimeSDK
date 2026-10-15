@@ -1,46 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EzySlice/SideOfPlane.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define EZYSLICE_PLANE_COMPUTE_1_OFFSET UNITYSDK_OFFSET(0x256C0)
-#define EZYSLICE_PLANE_COMPUTE_2_OFFSET UNITYSDK_OFFSET(0x258D0)
-#define EZYSLICE_PLANE_COMPUTE_OFFSET UNITYSDK_OFFSET(0x25520)
-#define EZYSLICE_PLANE_GET_DIST_OFFSET UNITYSDK_OFFSET(0xD510)
-#define EZYSLICE_PLANE_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x254E0)
-#define EZYSLICE_PLANE_ONDEBUGDRAW_1_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EZYSLICE_PLANE_ONDEBUGDRAW_OFFSET UNITYSDK_OFFSET(0x1020)
-#define EZYSLICE_PLANE_SIDEOF_OFFSET UNITYSDK_OFFSET(0x25AF0)
-#define EZYSLICE_PLANE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x25560)
-#define EZYSLICE_PLANE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x25580)
-#define EZYSLICE_PLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x25520)
+#define EZYSLICE_PLANE_COMPUTE_1_OFFSET UNITYSDK_OFFSET(0x1850)
+#define EZYSLICE_PLANE_COMPUTE_2_OFFSET UNITYSDK_OFFSET(0x1A60)
+#define EZYSLICE_PLANE_COMPUTE_OFFSET UNITYSDK_OFFSET(0x16B0)
+#define EZYSLICE_PLANE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16F0)
+#define EZYSLICE_PLANE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1710)
+#define EZYSLICE_PLANE_CTOR_OFFSET UNITYSDK_OFFSET(0x16B0)
+#define EZYSLICE_PLANE_GET_DIST_OFFSET UNITYSDK_OFFSET(0x1C80)
+#define EZYSLICE_PLANE_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x1670)
+#define EZYSLICE_PLANE_ONDEBUGDRAW_1_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define EZYSLICE_PLANE_ONDEBUGDRAW_OFFSET UNITYSDK_OFFSET(0x10B0)
+#define EZYSLICE_PLANE_SIDEOF_OFFSET UNITYSDK_OFFSET(0x1C90)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 47458;
-
 	struct alignas(4) Plane
 	{
 		::UnityEngine::Vector3 m_normal; // 0x10
 		::System::Single m_dist; // 0x1C
-
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Vector3 a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE__CTOR_2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE_CTOR_2_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Compute(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
@@ -78,11 +74,10 @@ namespace EzySlice
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE_ONDEBUGDRAW_OFFSET))(this);
 		}
 
-		/*
 		::System::Void OnDebugDraw_1(::UnityEngine::Color a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + EZYSLICE_PLANE_ONDEBUGDRAW_1_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

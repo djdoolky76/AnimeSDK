@@ -1,41 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Runtime/Serialization/Formatters/Binary/BinaryHeaderEnum.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_DUMP_OFFSET UNITYSDK_OFFSET(0x1BE0ADA0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_READ_OFFSET UNITYSDK_OFFSET(0x1BE0AA40)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_SET_OFFSET UNITYSDK_OFFSET(0x1BE0A620)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_WRITE_OFFSET UNITYSDK_OFFSET(0x1BE0A650)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE0A610)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0A600)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C316260)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C316250)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_DUMP_OFFSET UNITYSDK_OFFSET(0x1C316A00)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_READ_OFFSET UNITYSDK_OFFSET(0x1C316690)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_SET_OFFSET UNITYSDK_OFFSET(0x1C316270)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_WRITE_OFFSET UNITYSDK_OFFSET(0x1C3162A0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryObjectWithMap_TypeDefinitionIndex = 1156;
-
 	class BinaryObjectWithMap : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* memberNames; // 0x10
-		::System::String* name; // 0x18
-		::System::Int32 numMembers; // 0x20
-		::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum; // 0x24
-		::System::Int32 assemId; // 0x28
-		::System::Int32 objectId; // 0x2C
-
+		::System::String* name; // 0x10
+		::Il2CppArray<::System::String*>* memberNames; // 0x18
+		::System::Int32 assemId; // 0x20
+		::System::Int32 numMembers; // 0x24
+		::System::Int32 objectId; // 0x28
+		::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum; // 0x2C
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void Set(::System::Int32 a1, ::System::String* a2, ::System::Int32 a3, ::Il2CppArray<::System::String*>* a4, ::System::Int32 a5)
@@ -57,5 +53,6 @@ namespace System::Runtime::Serialization::Formatters::Binary
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAP_DUMP_OFFSET))(this);
 		}
+
 	};
 }

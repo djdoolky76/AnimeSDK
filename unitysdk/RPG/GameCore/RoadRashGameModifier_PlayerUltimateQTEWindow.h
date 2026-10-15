@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoadRashGameModifier_PlayerUltimateQTEWindow_TypeDefinitionIndex = 58577;
-
 	struct alignas(4) RoadRashGameModifier_PlayerUltimateQTEWindow
 	{
 		::System::Single QTEStart; // 0x10

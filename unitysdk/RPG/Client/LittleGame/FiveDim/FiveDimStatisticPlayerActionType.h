@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimStatisticPlayerActionType_TypeDefinitionIndex = 41920;
-
 	enum class FiveDimStatisticPlayerActionType : ::System::Int32
 	{
 		SingleJump = 0,

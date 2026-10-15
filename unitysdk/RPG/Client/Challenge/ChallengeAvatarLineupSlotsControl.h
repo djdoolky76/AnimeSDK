@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeListControl; }
@@ -11,18 +10,16 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_GET_AVATARS_OFFSET UNITYSDK_OFFSET(0xC9EF910)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_GET_ONCLICK_OFFSET UNITYSDK_OFFSET(0xC9EF900)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_METHOD_5_EA814E2C09B7783E_OFFSET UNITYSDK_OFFSET(0xC9EF9B0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_SET_AVATARS_OFFSET UNITYSDK_OFFSET(0xC9EF950)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EFB60)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___REFRESH_B__9_0_OFFSET UNITYSDK_OFFSET(0xC9EFBA0)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___REFRESH_B__9_1_OFFSET UNITYSDK_OFFSET(0xC9EFBC0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC93E2C0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_GET_AVATARS_OFFSET UNITYSDK_OFFSET(0xC93E070)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_GET_ONCLICK_OFFSET UNITYSDK_OFFSET(0xC93E060)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0xC93E110)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_SET_AVATARS_OFFSET UNITYSDK_OFFSET(0xC93E0B0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___REFRESH_B__9_0_OFFSET UNITYSDK_OFFSET(0xC93E300)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___REFRESH_B__9_1_OFFSET UNITYSDK_OFFSET(0xC93E320)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeAvatarLineupSlotsControl_TypeDefinitionIndex = 80087;
-
 	class ChallengeAvatarLineupSlotsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -30,10 +27,9 @@ namespace RPG::Client::Challenge
 		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl* _ListSlot; // 0x20
 		::UnityEngine::Events::UnityEvent* _OnClick_k__BackingField; // 0x28
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* KMDPIALJFHP; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Events::UnityEvent* get_OnClick()
@@ -51,9 +47,9 @@ namespace RPG::Client::Challenge
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_SET_AVATARS_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_EA814E2C09B7783E(::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* a1)
+		::System::Void KANMCJHEFJJ(::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_METHOD_5_EA814E2C09B7783E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL_KANMCJHEFJJ_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::GameObject* __Refresh_b__9_0()
@@ -65,5 +61,6 @@ namespace RPG::Client::Challenge
 		{
 			return ((::System::Action*(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTSCONTROL___REFRESH_B__9_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

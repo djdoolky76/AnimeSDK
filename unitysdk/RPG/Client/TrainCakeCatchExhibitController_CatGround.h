@@ -3,40 +3,36 @@
 #include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_CatGroundType.h"
 #include "unitysdk/RPG/Client/TrainCakeCatchExhibitController_GroundSetType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class TrainCakeCatchExhibitController; }
-namespace RPG::Client { class TrainCakeCatchExhibitController_Cat; }
 namespace RPG::GameCore { class AnchorInfo; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE234020)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_GET_ANCHOR_OFFSET UNITYSDK_OFFSET(0xE2335D0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETCAT_OFFSET UNITYSDK_OFFSET(0xE233380)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETGROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xE233290)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_TICK_OFFSET UNITYSDK_OFFSET(0xE232A80)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__CTOR_OFFSET UNITYSDK_OFFSET(0xE233CA0)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__REFRESHLOCATION_OFFSET UNITYSDK_OFFSET(0xE237F60)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETONSAVE_OFFSET UNITYSDK_OFFSET(0xE238150)
-#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETPREFIX_OFFSET UNITYSDK_OFFSET(0xE237D90)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0xE2B9A90)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE2B9E10)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_GET_ANCHOR_OFFSET UNITYSDK_OFFSET(0xE2B93D0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETCAT_OFFSET UNITYSDK_OFFSET(0xE2B9170)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_SETGROUNDTYPE_OFFSET UNITYSDK_OFFSET(0xE2B9080)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_TICK_OFFSET UNITYSDK_OFFSET(0xE2B8870)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__REFRESHLOCATION_OFFSET UNITYSDK_OFFSET(0xE2BDDD0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETONSAVE_OFFSET UNITYSDK_OFFSET(0xE2BDFC0)
+#define RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__SETPREFIX_OFFSET UNITYSDK_OFFSET(0xE2BDC00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatGround_TypeDefinitionIndex = 60332;
-
 	class TrainCakeCatchExhibitController_CatGround : public ::System::Object
 	{
 	public:
-		::System::String* _AreaName; // 0x10
-		::RPG::Client::TrainCakeCatchExhibitController* _Owner; // 0x18
-		::System::String* _AnchorName; // 0x20
-		::Il2CppArray<::RPG::Client::TrainCakeCatchExhibitController_Cat*>* Cats; // 0x28
+		::RPG::Client::TrainCakeCatchExhibitController* _Owner; // 0x10
+		::System::String* _AreaName; // 0x18
+		::Il2CppArray<::System::Object*>* Cats; // 0x20
+		::System::String* _AnchorName; // 0x28
 		::RPG::Client::TrainCakeCatchExhibitController_CatGroundType _GroundType; // 0x30
 		::System::Int32 _GroundIndex; // 0x34
-
 		::System::Void _ctor(::RPG::Client::TrainCakeCatchExhibitController* a1, ::System::String* a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainCakeCatchExhibitController*, ::System::String*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Dispose()
@@ -78,5 +74,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::AnchorInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINCAKECATCHEXHIBITCONTROLLER_CATGROUND_GET_ANCHOR_OFFSET))(this);
 		}
+
 	};
 }

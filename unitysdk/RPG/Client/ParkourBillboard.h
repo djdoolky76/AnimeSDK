@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class CanvasGroup; }
 
-#define RPG_CLIENT_PARKOURBILLBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0xDA26B70)
-#define RPG_CLIENT_PARKOURBILLBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xDA26C80)
-#define RPG_CLIENT_PARKOURBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xDA27240)
+#define RPG_CLIENT_PARKOURBILLBOARD_AWAKE_OFFSET UNITYSDK_OFFSET(0xDA72D90)
+#define RPG_CLIENT_PARKOURBILLBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDA73460)
+#define RPG_CLIENT_PARKOURBILLBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xDA72EA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourBillboard_TypeDefinitionIndex = 61922;
-
 	class ParkourBillboard : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -20,10 +17,9 @@ namespace RPG::Client
 		::System::Single FadeTime; // 0x20
 		::System::Single MCLEOFJHFCP; // 0x24
 		::UnityEngine::CanvasGroup* MLMFIEKIPHG; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBILLBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBILLBOARD_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -35,5 +31,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURBILLBOARD_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

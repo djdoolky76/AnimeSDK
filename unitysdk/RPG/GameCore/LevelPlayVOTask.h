@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 namespace RPG::GameCore { class LevelPlayVO; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELPLAYVOTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE698EE0)
-#define RPG_GAMECORE_LEVELPLAYVOTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE698F20)
-#define RPG_GAMECORE_LEVELPLAYVOTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6990D0)
-#define RPG_GAMECORE_LEVELPLAYVOTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE699120)
-#define RPG_GAMECORE_LEVELPLAYVOTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE698ED0)
+#define RPG_GAMECORE_LEVELPLAYVOTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F4290)
+#define RPG_GAMECORE_LEVELPLAYVOTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6F42A0)
+#define RPG_GAMECORE_LEVELPLAYVOTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6F42E0)
+#define RPG_GAMECORE_LEVELPLAYVOTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6F4490)
+#define RPG_GAMECORE_LEVELPLAYVOTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE6F44E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPlayVOTask_TypeDefinitionIndex = 58337;
-
-	class LevelPlayVOTask : public ::Class_1_5F51D4049EA87B7B
+	class LevelPlayVOTask : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::LevelPlayVO* _ConfigRef; // 0x18
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
-
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::RPG::GameCore::LevelPlayVO* _ConfigRef; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelPlayVO* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelPlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVOTASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelPlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVOTASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -45,5 +41,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVOTASK_TICK_OFFSET))(this, a1);
 		}
+
 	};
 }

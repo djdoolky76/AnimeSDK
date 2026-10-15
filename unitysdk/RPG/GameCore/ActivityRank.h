@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRank_TypeDefinitionIndex = 11184;
-
 	enum class ActivityRank : ::System::Int32
 	{
 		Invalid = 0,

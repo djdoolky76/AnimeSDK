@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_129E8AF30182E162;
+class DIKFNDGHLPP;
+namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCF3A910)
-#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCF3A950)
-#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C__REFRESHCURBROADCAST_B__2_0_OFFSET UNITYSDK_OFFSET(0xCF3A960)
+#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE8A440)
+#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE8A480)
+#define RPG_CLIENT_FATEGAMEBROADCASTINFO___C__REFRESHCURBROADCAST_B__2_0_OFFSET UNITYSDK_OFFSET(0xCE8A490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameBroadcastInfo___c_TypeDefinitionIndex = 64052;
-
 	class FateGameBroadcastInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::FateGameBroadcastInfo___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::FateGameBroadcastInfo___c**)Il2CppClass::FromTypeDefinitionIndex(FateGameBroadcastInfo___c_TypeDefinitionIndex)->GetStaticField(0x66A00);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59400);
 		}
-		static ::System::Predicate_1<::Class_1_129E8AF30182E162*>** StaticGet___9__2_0()
+
+		static ::System::Predicate_1<::DIKFNDGHLPP*>** StaticGet___9__2_0()
 		{
-			return (::System::Predicate_1<::Class_1_129E8AF30182E162*>**)Il2CppClass::FromTypeDefinitionIndex(FateGameBroadcastInfo___c_TypeDefinitionIndex)->GetStaticField(0x66A08);
+			return (::System::Predicate_1<::DIKFNDGHLPP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59408);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEBROADCASTINFO___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEBROADCASTINFO___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEBROADCASTINFO___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _RefreshCurBroadcast_b__2_0(::Class_1_129E8AF30182E162* a1)
+		::System::Boolean _RefreshCurBroadcast_b__2_0(::DIKFNDGHLPP* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_129E8AF30182E162*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEBROADCASTINFO___C__REFRESHCURBROADCAST_B__2_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::DIKFNDGHLPP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEBROADCASTINFO___C__REFRESHCURBROADCAST_B__2_0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhonemeMarker_TypeDefinitionIndex = 47470;
-
 	struct alignas(8) PhonemeMarker
 	{
 		::System::String* phoneme; // 0x10

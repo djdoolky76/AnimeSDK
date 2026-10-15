@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialPlatformType_TypeDefinitionIndex = 15283;
-
 	enum class TutorialPlatformType : ::System::Int32
 	{
 		Default = 0,

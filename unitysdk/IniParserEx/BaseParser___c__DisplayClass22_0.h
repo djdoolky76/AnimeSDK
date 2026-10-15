@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int BaseParser___c__DisplayClass22_0_TypeDefinitionIndex = 3928;
-
-	struct alignas(2) BaseParser___c__DisplayClass22_0
+	struct alignas(4) BaseParser___c__DisplayClass22_0
 	{
 		::System::Char c; // 0x10
 		::System::Char d; // 0x12

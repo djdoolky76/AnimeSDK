@@ -3,8 +3,6 @@
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int LightTargetType_TypeDefinitionIndex = 49145;
-
 	enum class LightTargetType : ::System::Int32
 	{
 		AttachPoint = 0,

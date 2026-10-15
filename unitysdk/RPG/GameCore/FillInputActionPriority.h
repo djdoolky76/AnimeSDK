@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FillInputActionPriority_TypeDefinitionIndex = 59172;
-
 	enum class FillInputActionPriority : ::System::Int32
 	{
 		CommandRobot = 1,

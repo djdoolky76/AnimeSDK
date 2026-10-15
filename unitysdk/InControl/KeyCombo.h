@@ -1,8 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/Key.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
@@ -10,65 +8,67 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 namespace System::Text { class StringBuilder; }
 
-#define INCONTROL_KEYCOMBO_ADDEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3B57A30)
-#define INCONTROL_KEYCOMBO_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x3B57A30)
-#define INCONTROL_KEYCOMBO_ADDINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3B579D0)
-#define INCONTROL_KEYCOMBO_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x3B579D0)
-#define INCONTROL_KEYCOMBO_ADD_OFFSET UNITYSDK_OFFSET(0x3B579D0)
-#define INCONTROL_KEYCOMBO_ANDNOT_OFFSET UNITYSDK_OFFSET(0x3B57A90)
-#define INCONTROL_KEYCOMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x3B57B10)
-#define INCONTROL_KEYCOMBO_DETECT_OFFSET UNITYSDK_OFFSET(0x1B4FE3D0)
-#define INCONTROL_KEYCOMBO_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B57B50)
-#define INCONTROL_KEYCOMBO_GETEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3B57A60)
-#define INCONTROL_KEYCOMBO_GETEXCLUDE_OFFSET UNITYSDK_OFFSET(0x3B57A80)
-#define INCONTROL_KEYCOMBO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B57B80)
-#define INCONTROL_KEYCOMBO_GETINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3B57A00)
-#define INCONTROL_KEYCOMBO_GETINCLUDE_OFFSET UNITYSDK_OFFSET(0x3B57A20)
-#define INCONTROL_KEYCOMBO_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define INCONTROL_KEYCOMBO_GET_EXCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0x6E30)
-#define INCONTROL_KEYCOMBO_GET_INCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define INCONTROL_KEYCOMBO_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x3B57B30)
-#define INCONTROL_KEYCOMBO_GET_OFFSET UNITYSDK_OFFSET(0x3B57A20)
-#define INCONTROL_KEYCOMBO_LOAD_OFFSET UNITYSDK_OFFSET(0x3B57BB0)
-#define INCONTROL_KEYCOMBO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B500B40)
-#define INCONTROL_KEYCOMBO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B501810)
-#define INCONTROL_KEYCOMBO_SAVE_OFFSET UNITYSDK_OFFSET(0x3B57BC0)
-#define INCONTROL_KEYCOMBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B57B40)
-#define INCONTROL_KEYCOMBO_WITH_OFFSET UNITYSDK_OFFSET(0x1B501660)
-#define INCONTROL_KEYCOMBO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B501860)
-#define INCONTROL_KEYCOMBO__CTOR_OFFSET UNITYSDK_OFFSET(0x3B578C0)
+#define INCONTROL_KEYCOMBO_ADDEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3C0C310)
+#define INCONTROL_KEYCOMBO_ADDEXCLUDE_OFFSET UNITYSDK_OFFSET(0x3C0C310)
+#define INCONTROL_KEYCOMBO_ADDINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3C0C2B0)
+#define INCONTROL_KEYCOMBO_ADDINCLUDE_OFFSET UNITYSDK_OFFSET(0x3C0C2B0)
+#define INCONTROL_KEYCOMBO_ADD_OFFSET UNITYSDK_OFFSET(0x3C0C2B0)
+#define INCONTROL_KEYCOMBO_ANDNOT_OFFSET UNITYSDK_OFFSET(0x3C0C370)
+#define INCONTROL_KEYCOMBO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA004C0)
+#define INCONTROL_KEYCOMBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C0C3F0)
+#define INCONTROL_KEYCOMBO_CTOR_OFFSET UNITYSDK_OFFSET(0x3C0C1A0)
+#define INCONTROL_KEYCOMBO_DETECT_OFFSET UNITYSDK_OFFSET(0x1B9FD170)
+#define INCONTROL_KEYCOMBO_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C0C430)
+#define INCONTROL_KEYCOMBO_GETEXCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3C0C340)
+#define INCONTROL_KEYCOMBO_GETEXCLUDE_OFFSET UNITYSDK_OFFSET(0x3C0C360)
+#define INCONTROL_KEYCOMBO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C0C460)
+#define INCONTROL_KEYCOMBO_GETINCLUDEINT_OFFSET UNITYSDK_OFFSET(0x3C0C2E0)
+#define INCONTROL_KEYCOMBO_GETINCLUDE_OFFSET UNITYSDK_OFFSET(0x3C0C300)
+#define INCONTROL_KEYCOMBO_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xE620)
+#define INCONTROL_KEYCOMBO_GET_EXCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0x3260)
+#define INCONTROL_KEYCOMBO_GET_INCLUDECOUNT_OFFSET UNITYSDK_OFFSET(0xE620)
+#define INCONTROL_KEYCOMBO_GET_ISPRESSED_OFFSET UNITYSDK_OFFSET(0x3C0C410)
+#define INCONTROL_KEYCOMBO_GET_OFFSET UNITYSDK_OFFSET(0x3C0C300)
+#define INCONTROL_KEYCOMBO_LOAD_OFFSET UNITYSDK_OFFSET(0x3C0C490)
+#define INCONTROL_KEYCOMBO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B9FF7A0)
+#define INCONTROL_KEYCOMBO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1BA00470)
+#define INCONTROL_KEYCOMBO_SAVE_OFFSET UNITYSDK_OFFSET(0x3C0C4A0)
+#define INCONTROL_KEYCOMBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C0C420)
+#define INCONTROL_KEYCOMBO_WITH_OFFSET UNITYSDK_OFFSET(0x1BA002C0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int KeyCombo_TypeDefinitionIndex = 39505;
-
-	struct alignas(8) KeyCombo
+	struct alignas(4) KeyCombo
 	{
-		static ::System::Text::StringBuilder** StaticGet_cachedStringBuilder()
-		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0x3CC0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>** StaticGet_cachedStrings()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0x3CC8);
-		}
-		static ::InControl::KeyCombo* StaticGet_Empty()
-		{
-			return (::InControl::KeyCombo*)Il2CppClass::FromTypeDefinitionIndex(KeyCombo_TypeDefinitionIndex)->GetStaticField(0x1480);
-		}
 		::System::Int32 includeSize; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::UInt64 includeData; // 0x18
 		::System::Int32 excludeSize; // 0x20
+		::System::Byte _padding1[0x4];
 		::System::UInt64 excludeData; // 0x28
+		static ::System::Text::StringBuilder** StaticGet_cachedStringBuilder()
+		{
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("InControl", "KeyCombo")->GetStaticField(0x58C20);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>** StaticGet_cachedStrings()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt64, ::System::String*>**)UnitySDK::FromName("InControl", "KeyCombo")->GetStaticField(0x58C28);
+		}
+
+		static ::InControl::KeyCombo* StaticGet_Empty()
+		{
+			return (::InControl::KeyCombo*)UnitySDK::FromName("InControl", "KeyCombo")->GetStaticField(0x139D0);
+		}
 
 		::System::Void _ctor(::Il2CppArray<::InControl::Key>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_CCTOR_OFFSET))();
 		}
 
 		::System::Void AddIncludeInt(::System::Int32 a1)
@@ -121,15 +121,19 @@ namespace InControl
 			return ((::InControl::Key(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GETEXCLUDE_OFFSET))(this, a1);
 		}
 
+		/*
 		static ::InControl::KeyCombo With(::Il2CppArray<::InControl::Key>* a1)
 		{
 			return ((::InControl::KeyCombo(*)(::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_WITH_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::InControl::KeyCombo AndNot(::Il2CppArray<::InControl::Key>* a1)
 		{
 			return ((::InControl::KeyCombo(*)(::PVOID, ::Il2CppArray<::InControl::Key>*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_ANDNOT_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Void Clear()
 		{
@@ -156,25 +160,31 @@ namespace InControl
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_GET_ISPRESSED_OFFSET))(this);
 		}
 
+		/*
 		static ::InControl::KeyCombo Detect(::System::Boolean a1)
 		{
 			return ((::InControl::KeyCombo(*)(::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_DETECT_OFFSET))(a1);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_TOSTRING_OFFSET))(this);
 		}
 
+		/*
 		static ::System::Boolean op_Equality(::InControl::KeyCombo a1, ::InControl::KeyCombo a2)
 		{
 			return ((::System::Boolean(*)(::InControl::KeyCombo, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::InControl::KeyCombo a1, ::InControl::KeyCombo a2)
 		{
 			return ((::System::Boolean(*)(::InControl::KeyCombo, ::InControl::KeyCombo))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* a1)
 		{
@@ -195,5 +205,6 @@ namespace InControl
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + INCONTROL_KEYCOMBO_SAVE_OFFSET))(this, a1);
 		}
+
 	};
 }

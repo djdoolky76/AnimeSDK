@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CUSTOMATTACHPOINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCC8B5E0)
-#define RPG_CLIENT_CUSTOMATTACHPOINT_REFRESH_OFFSET UNITYSDK_OFFSET(0xCC8B3F0)
-#define RPG_CLIENT_CUSTOMATTACHPOINT_RESETORIGINY_OFFSET UNITYSDK_OFFSET(0xCC8B330)
-#define RPG_CLIENT_CUSTOMATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC8B630)
+#define RPG_CLIENT_CUSTOMATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDEBB0)
+#define RPG_CLIENT_CUSTOMATTACHPOINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCBDEB60)
+#define RPG_CLIENT_CUSTOMATTACHPOINT_REFRESH_OFFSET UNITYSDK_OFFSET(0xCBDE970)
+#define RPG_CLIENT_CUSTOMATTACHPOINT_RESETORIGINY_OFFSET UNITYSDK_OFFSET(0xCBDE8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomAttachPoint_TypeDefinitionIndex = 68373;
-
 	class CustomAttachPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -24,11 +21,11 @@ namespace RPG::Client
 		::System::Boolean Z; // 0x2E
 		::System::Boolean FollowRotation; // 0x2F
 		::System::Boolean IsFreeze; // 0x30
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 ILGDMEDGFBF; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMATTACHPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMATTACHPOINT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetOriginY(::System::Single a1)
@@ -45,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMATTACHPOINT_LATEUPDATE_OFFSET))(this);
 		}
+
 	};
 }

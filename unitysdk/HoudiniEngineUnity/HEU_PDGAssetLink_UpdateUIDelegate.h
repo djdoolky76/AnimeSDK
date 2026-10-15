@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B454200)
-#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B454230)
-#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B453770)
-#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B454190)
+#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9552D0)
+#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B955260)
+#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B955300)
+#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B954840)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGAssetLink_UpdateUIDelegate_TypeDefinitionIndex = 39237;
-
 	class HEU_PDGAssetLink_UpdateUIDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK_UPDATEUIDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

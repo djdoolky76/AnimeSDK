@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderingPath_TypeDefinitionIndex = 4148;
-
 	enum class RenderingPath : ::System::Int32
 	{
 		UsePlayerSettings = -1,

@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogNativeRetrieveConfig_TypeDefinitionIndex = 46964;
-
-	struct alignas(8) APMC_LOGBACK_LogNativeRetrieveConfig
+	struct alignas(4) APMC_LOGBACK_LogNativeRetrieveConfig
 	{
 		::System::IntPtr log_upload_start; // 0x10
 		::System::IntPtr log_upload_progress; // 0x18

@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 namespace RPG::GameCore { class LevelAudioState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE685640)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE685680)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE685B60)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET UNITYSDK_OFFSET(0xE685BB0)
-#define RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE685630)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E1030)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6E1040)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6E1080)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6E1560)
+#define RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET UNITYSDK_OFFSET(0xE6E15B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioStateTask_TypeDefinitionIndex = 58332;
-
-	class LevelAudioStateTask : public ::Class_1_5F51D4049EA87B7B
+	class LevelAudioStateTask : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
-		::RPG::GameCore::LevelAudioState* _ConfigRef; // 0x20
-
+		::RPG::GameCore::LevelAudioState* _ConfigRef; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelAudioState* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -45,5 +41,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSTATETASK_TICK_OFFSET))(this, a1);
 		}
+
 	};
 }

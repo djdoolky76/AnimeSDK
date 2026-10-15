@@ -2,8 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/NavMeshStateConfig_NavMeshDisableSource.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_8C2489600391E2B0;
+class EONKJJEBGLN;
 namespace RPG::Client { class NavMeshStateParamsSet; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -12,19 +11,17 @@ namespace UnityEngine::AI { class NavMeshLink; }
 namespace UnityEngine::AI { class NavMeshObstacle; }
 namespace UnityEngine::AI { class NavMeshSurface; }
 
-#define RPG_CLIENT_NAVMESHSTATECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xD97AA40)
-#define RPG_CLIENT_NAVMESHSTATECONFIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD97A720)
-#define RPG_CLIENT_NAVMESHSTATECONFIG_ENABLENAVMESHCONFIG_OFFSET UNITYSDK_OFFSET(0xD97B630)
-#define RPG_CLIENT_NAVMESHSTATECONFIG_METHOD_5_7E64705CB9FB1B5D_OFFSET UNITYSDK_OFFSET(0xD97B420)
-#define RPG_CLIENT_NAVMESHSTATECONFIG_METHOD_5_F74441856239DF08_OFFSET UNITYSDK_OFFSET(0xD97A770)
-#define RPG_CLIENT_NAVMESHSTATECONFIG_REMOVENAVMESHCONFIG_OFFSET UNITYSDK_OFFSET(0xD97B5E0)
-#define RPG_CLIENT_NAVMESHSTATECONFIG_SETNAVMESHCONFIG_OFFSET UNITYSDK_OFFSET(0xD97AB10)
-#define RPG_CLIENT_NAVMESHSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD97B720)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xD97C220)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD97CF00)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD97BF00)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_EMLNEHMAOBE_OFFSET UNITYSDK_OFFSET(0xD97CC00)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_ENABLENAVMESHCONFIG_OFFSET UNITYSDK_OFFSET(0xD97CE10)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_HPJLPBJOFGA_OFFSET UNITYSDK_OFFSET(0xD97BF50)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_REMOVENAVMESHCONFIG_OFFSET UNITYSDK_OFFSET(0xD97CDC0)
+#define RPG_CLIENT_NAVMESHSTATECONFIG_SETNAVMESHCONFIG_OFFSET UNITYSDK_OFFSET(0xD97C2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NavMeshStateConfig_TypeDefinitionIndex = 68607;
-
 	class NavMeshStateConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -34,11 +31,10 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* NHJBNJMPMBE; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshLink*>* EEJNBFCNJAO; // 0x38
 		::Il2CppArray<::UnityEngine::AI::NavMeshSurface*>* HMBODKPKLOK; // 0x40
-		::Class_1_8C2489600391E2B0* DFDEKCNODOE; // 0x48
-
+		::EONKJJEBGLN* DFDEKCNODOE; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMESHSTATECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMESHSTATECONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -66,14 +62,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::RPG::Client::NavMeshStateConfig_NavMeshDisableSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMESHSTATECONFIG_ENABLENAVMESHCONFIG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_7E64705CB9FB1B5D(::System::Boolean a1)
+		::System::Void EMLNEHMAOBE(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMESHSTATECONFIG_METHOD_5_7E64705CB9FB1B5D_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMESHSTATECONFIG_EMLNEHMAOBE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_F74441856239DF08()
+		::System::Void HPJLPBJOFGA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMESHSTATECONFIG_METHOD_5_F74441856239DF08_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMESHSTATECONFIG_HPJLPBJOFGA_OFFSET))(this);
 		}
+
 	};
 }

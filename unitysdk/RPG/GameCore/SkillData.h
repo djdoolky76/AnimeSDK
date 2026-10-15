@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/BJICAHJPKEC.h"
+#include "unitysdk/JBLJHNCFOJC.h"
 #include "unitysdk/RPG/Client/UISkillIndex.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/AttackType.h"
 #include "unitysdk/RPG/GameCore/ControlSkillType.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/SkillEffect.h"
 #include "unitysdk/RPG/GameCore/SkillLayerType.h"
 #include "unitysdk/RPG/GameCore/SkillLayoutKey.h"
@@ -14,16 +15,13 @@
 #include "unitysdk/RPG/GameCore/SkillUISpecialButtonType.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/RPG/GameCore/UseSkillErrorCode.h"
-#include "unitysdk/Struct_2_165AEDBFDC2B5511.h"
-#include "unitysdk/Struct_2_1DBF01015A93DAF5.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
-
-class Class_1_0BF70B7AEC57376C;
-class Class_1_5F51D4049EA87B7B;
-class Class_1_BCDC191CF05491FA;
-class Class_1_DD56E792A2635894;
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/ValueTuple.h"
+class FFLCBCBGMLI;
+class GELIALJDFBL;
+class HBGIMIPDNDF;
+class HIPJPNGLMEP;
 namespace RPG::GameCore { class AssistSkillUIConfig; }
 namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class JsonEnum; }
@@ -31,109 +29,109 @@ namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class SkillCustomFormationConfig; }
 namespace RPG::GameCore { class SkillCustomReadyConfig; }
+namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class SkillTargetConfig; }
 namespace RPG::GameCore { class SkillUIConfig; }
 namespace RPG::GameCore { class VCameraConfig; }
+namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_SKILLDATA_ADDTAGS_OFFSET UNITYSDK_OFFSET(0xE70A730)
-#define RPG_GAMECORE_SKILLDATA_GETAUTOSELECTPRIORITY_OFFSET UNITYSDK_OFFSET(0xE70A850)
-#define RPG_GAMECORE_SKILLDATA_GETCUSTOMREADYCONFIG_OFFSET UNITYSDK_OFFSET(0xE70A980)
-#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUEIGNORESLOT_OFFSET UNITYSDK_OFFSET(0xE70A670)
-#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0xE6FFBE0)
-#define RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xE70AB00)
-#define RPG_GAMECORE_SKILLDATA_GETREADYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xE709ED0)
-#define RPG_GAMECORE_SKILLDATA_GETREADYCUSTOMFORMATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE70AA90)
-#define RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET UNITYSDK_OFFSET(0xE703B70)
-#define RPG_GAMECORE_SKILLDATA_GET_ASSISTSKILLUICONFIG_OFFSET UNITYSDK_OFFSET(0xE70A180)
-#define RPG_GAMECORE_SKILLDATA_GET_ATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xE709CC0)
-#define RPG_GAMECORE_SKILLDATA_GET_BPADD_OFFSET UNITYSDK_OFFSET(0xE709430)
-#define RPG_GAMECORE_SKILLDATA_GET_BPNEED_OFFSET UNITYSDK_OFFSET(0xE705700)
-#define RPG_GAMECORE_SKILLDATA_GET_CANTRAVERSALBYCOMPLEXSKILLAI_OFFSET UNITYSDK_OFFSET(0xE70A520)
-#define RPG_GAMECORE_SKILLDATA_GET_CHILDSKILLCOUNT_OFFSET UNITYSDK_OFFSET(0xE7044D0)
-#define RPG_GAMECORE_SKILLDATA_GET_CURRENTCTRLTYPE_OFFSET UNITYSDK_OFFSET(0xE6FB0D0)
-#define RPG_GAMECORE_SKILLDATA_GET_CUSTOMSKILLBUTTONPREFABPATH_OFFSET UNITYSDK_OFFSET(0xE70A050)
-#define RPG_GAMECORE_SKILLDATA_GET_DELAYRATIO_OFFSET UNITYSDK_OFFSET(0xE709BB0)
-#define RPG_GAMECORE_SKILLDATA_GET_FINALAIULTRASKILLPRIORITY_OFFSET UNITYSDK_OFFSET(0xE70A590)
-#define RPG_GAMECORE_SKILLDATA_GET_FORBIDENHANCEEFFECT_OFFSET UNITYSDK_OFFSET(0xE70A0F0)
-#define RPG_GAMECORE_SKILLDATA_GET_ISINSERTCONDTIONMEET_OFFSET UNITYSDK_OFFSET(0xE703EA0)
-#define RPG_GAMECORE_SKILLDATA_GET_ISUSABLECONDITIONMEET_OFFSET UNITYSDK_OFFSET(0xE703A30)
-#define RPG_GAMECORE_SKILLDATA_GET_ISVISABLECONDTIONMEET_OFFSET UNITYSDK_OFFSET(0xE70A440)
-#define RPG_GAMECORE_SKILLDATA_GET_LAYERTYPE_OFFSET UNITYSDK_OFFSET(0xE701B60)
-#define RPG_GAMECORE_SKILLDATA_GET_PROGRESSDISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0xE70A210)
-#define RPG_GAMECORE_SKILLDATA_GET_READYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xE709EC0)
-#define RPG_GAMECORE_SKILLDATA_GET_ROOTSKILLDATA_OFFSET UNITYSDK_OFFSET(0xE70A4C0)
-#define RPG_GAMECORE_SKILLDATA_GET_SHOWASMENU_OFFSET UNITYSDK_OFFSET(0xE709970)
-#define RPG_GAMECORE_SKILLDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET UNITYSDK_OFFSET(0xE709DC0)
-#define RPG_GAMECORE_SKILLDATA_GET_SKILLEFFECT_OFFSET UNITYSDK_OFFSET(0xE6F85A0)
-#define RPG_GAMECORE_SKILLDATA_GET_SKILLLAYOUTKEY_OFFSET UNITYSDK_OFFSET(0xE709A40)
-#define RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET UNITYSDK_OFFSET(0xE70A3C0)
-#define RPG_GAMECORE_SKILLDATA_GET_SPADD_OFFSET UNITYSDK_OFFSET(0xE7093E0)
-#define RPG_GAMECORE_SKILLDATA_GET_SPBASE_OFFSET UNITYSDK_OFFSET(0xE709B60)
-#define RPG_GAMECORE_SKILLDATA_GET_SPECIALBUTTONTYPE_OFFSET UNITYSDK_OFFSET(0xE709F60)
-#define RPG_GAMECORE_SKILLDATA_GET_SPMULTIPLERATIO_OFFSET UNITYSDK_OFFSET(0xE709B10)
-#define RPG_GAMECORE_SKILLDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0xE709AC0)
-#define RPG_GAMECORE_SKILLDATA_GET_TARGETINFO_OFFSET UNITYSDK_OFFSET(0xE6F8550)
-#define RPG_GAMECORE_SKILLDATA_GET_TARGETTEAMTYPE_OFFSET UNITYSDK_OFFSET(0xE709C00)
-#define RPG_GAMECORE_SKILLDATA_GET_UISKILLINDEX_OFFSET UNITYSDK_OFFSET(0xE7098D0)
-#define RPG_GAMECORE_SKILLDATA_GET__UICONFIG_OFFSET UNITYSDK_OFFSET(0xE709FF0)
-#define RPG_GAMECORE_SKILLDATA_HASMULTITARGETGROUP_OFFSET UNITYSDK_OFFSET(0xE70AC60)
-#define RPG_GAMECORE_SKILLDATA_MODIFYPROPERTY_OFFSET UNITYSDK_OFFSET(0xE702B30)
-#define RPG_GAMECORE_SKILLDATA_OVERRIDEPROGRESSDISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0xE70A280)
-#define RPG_GAMECORE_SKILLDATA_REMOVETAGS_OFFSET UNITYSDK_OFFSET(0xE70A7C0)
-#define RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET UNITYSDK_OFFSET(0xE6FE6E0)
-#define RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET UNITYSDK_OFFSET(0xE70A5F0)
-#define RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET UNITYSDK_OFFSET(0xE70A430)
-#define RPG_GAMECORE_SKILLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE6FE610)
+#define RPG_GAMECORE_SKILLDATA_ADDTAGS_OFFSET UNITYSDK_OFFSET(0xE766B40)
+#define RPG_GAMECORE_SKILLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE764310)
+#define RPG_GAMECORE_SKILLDATA_GETAUTOSELECTPRIORITY_OFFSET UNITYSDK_OFFSET(0xE766C60)
+#define RPG_GAMECORE_SKILLDATA_GETCUSTOMREADYCONFIG_OFFSET UNITYSDK_OFFSET(0xE766D90)
+#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUEIGNORESLOT_OFFSET UNITYSDK_OFFSET(0xE766A80)
+#define RPG_GAMECORE_SKILLDATA_GETPROPERTYVALUE_OFFSET UNITYSDK_OFFSET(0xE75AF90)
+#define RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xE766F10)
+#define RPG_GAMECORE_SKILLDATA_GETREADYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xE7662E0)
+#define RPG_GAMECORE_SKILLDATA_GETREADYCUSTOMFORMATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE766EA0)
+#define RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET UNITYSDK_OFFSET(0xE75AB70)
+#define RPG_GAMECORE_SKILLDATA_GET_ASSISTSKILLUICONFIG_OFFSET UNITYSDK_OFFSET(0xE766590)
+#define RPG_GAMECORE_SKILLDATA_GET_ATTACKTYPE_OFFSET UNITYSDK_OFFSET(0xE7660D0)
+#define RPG_GAMECORE_SKILLDATA_GET_BPADD_OFFSET UNITYSDK_OFFSET(0xE765220)
+#define RPG_GAMECORE_SKILLDATA_GET_BPNEED_OFFSET UNITYSDK_OFFSET(0xE75CC80)
+#define RPG_GAMECORE_SKILLDATA_GET_CANTRAVERSALBYCOMPLEXSKILLAI_OFFSET UNITYSDK_OFFSET(0xE766930)
+#define RPG_GAMECORE_SKILLDATA_GET_CHILDSKILLCOUNT_OFFSET UNITYSDK_OFFSET(0xE75B970)
+#define RPG_GAMECORE_SKILLDATA_GET_CURRENTCTRLTYPE_OFFSET UNITYSDK_OFFSET(0xE75CA80)
+#define RPG_GAMECORE_SKILLDATA_GET_CUSTOMSKILLBUTTONPREFABPATH_OFFSET UNITYSDK_OFFSET(0xE766460)
+#define RPG_GAMECORE_SKILLDATA_GET_DELAYRATIO_OFFSET UNITYSDK_OFFSET(0xE765FC0)
+#define RPG_GAMECORE_SKILLDATA_GET_FINALAIULTRASKILLPRIORITY_OFFSET UNITYSDK_OFFSET(0xE7669A0)
+#define RPG_GAMECORE_SKILLDATA_GET_FORBIDENHANCEEFFECT_OFFSET UNITYSDK_OFFSET(0xE766500)
+#define RPG_GAMECORE_SKILLDATA_GET_ISINSERTCONDTIONMEET_OFFSET UNITYSDK_OFFSET(0xE75AEA0)
+#define RPG_GAMECORE_SKILLDATA_GET_ISUSABLECONDITIONMEET_OFFSET UNITYSDK_OFFSET(0xE75AA30)
+#define RPG_GAMECORE_SKILLDATA_GET_ISVISABLECONDTIONMEET_OFFSET UNITYSDK_OFFSET(0xE766850)
+#define RPG_GAMECORE_SKILLDATA_GET_LAYERTYPE_OFFSET UNITYSDK_OFFSET(0xE758AD0)
+#define RPG_GAMECORE_SKILLDATA_GET_PROGRESSDISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0xE766620)
+#define RPG_GAMECORE_SKILLDATA_GET_READYANIMSTATE_OFFSET UNITYSDK_OFFSET(0xE7662D0)
+#define RPG_GAMECORE_SKILLDATA_GET_ROOTSKILLDATA_OFFSET UNITYSDK_OFFSET(0xE7668D0)
+#define RPG_GAMECORE_SKILLDATA_GET_SHOWASMENU_OFFSET UNITYSDK_OFFSET(0xE765D80)
+#define RPG_GAMECORE_SKILLDATA_GET_SKILLCOMBOVALUEDELTA_OFFSET UNITYSDK_OFFSET(0xE7661D0)
+#define RPG_GAMECORE_SKILLDATA_GET_SKILLEFFECT_OFFSET UNITYSDK_OFFSET(0xE75CD30)
+#define RPG_GAMECORE_SKILLDATA_GET_SKILLLAYOUTKEY_OFFSET UNITYSDK_OFFSET(0xE765E50)
+#define RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET UNITYSDK_OFFSET(0xE7667D0)
+#define RPG_GAMECORE_SKILLDATA_GET_SPADD_OFFSET UNITYSDK_OFFSET(0xE765060)
+#define RPG_GAMECORE_SKILLDATA_GET_SPBASE_OFFSET UNITYSDK_OFFSET(0xE765F70)
+#define RPG_GAMECORE_SKILLDATA_GET_SPECIALBUTTONTYPE_OFFSET UNITYSDK_OFFSET(0xE766370)
+#define RPG_GAMECORE_SKILLDATA_GET_SPMULTIPLERATIO_OFFSET UNITYSDK_OFFSET(0xE765F20)
+#define RPG_GAMECORE_SKILLDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0xE765ED0)
+#define RPG_GAMECORE_SKILLDATA_GET_TARGETINFO_OFFSET UNITYSDK_OFFSET(0xE75DCE0)
+#define RPG_GAMECORE_SKILLDATA_GET_TARGETTEAMTYPE_OFFSET UNITYSDK_OFFSET(0xE766010)
+#define RPG_GAMECORE_SKILLDATA_GET_UISKILLINDEX_OFFSET UNITYSDK_OFFSET(0xE765CE0)
+#define RPG_GAMECORE_SKILLDATA_GET__UICONFIG_OFFSET UNITYSDK_OFFSET(0xE766400)
+#define RPG_GAMECORE_SKILLDATA_HASMULTITARGETGROUP_OFFSET UNITYSDK_OFFSET(0xE767070)
+#define RPG_GAMECORE_SKILLDATA_MODIFYPROPERTY_OFFSET UNITYSDK_OFFSET(0xE759AB0)
+#define RPG_GAMECORE_SKILLDATA_OVERRIDEPROGRESSDISPLAYTYPE_OFFSET UNITYSDK_OFFSET(0xE766690)
+#define RPG_GAMECORE_SKILLDATA_REMOVETAGS_OFFSET UNITYSDK_OFFSET(0xE766BD0)
+#define RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET UNITYSDK_OFFSET(0xE7643E0)
+#define RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET UNITYSDK_OFFSET(0xE766A00)
+#define RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET UNITYSDK_OFFSET(0xE766840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillData_TypeDefinitionIndex = 57821;
-
 	class SkillData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* AllChildSkillDatas; // 0x10
-		::RPG::GameCore::VCameraConfig* OverrideCameraConfig; // 0x18
-		::System::String* SkillTriggerKey; // 0x20
+		::RPG::GameCore::SkillCharacterComponent* SkillCom; // 0x10
+		::RPG::GameCore::SkillTargetConfig* DefaultTargetInfo; // 0x18
+		::Il2CppArray<::GELIALJDFBL*>* CustomReadyConfigConditions; // 0x20
 		::System::Collections::Generic::HashSet_1<::RPG::GameCore::JsonEnum*>* Tags; // 0x28
-		::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* PreshowConditions; // 0x30
-		::RPG::GameCore::SkillConfig* Config; // 0x38
-		::Class_1_DD56E792A2635894* SkillTypeOverride; // 0x40
-		::Class_1_5F51D4049EA87B7B* VisibleCondTask; // 0x48
-		::RPG::GameCore::SkillData* AssitLinkSourceSkill; // 0x50
-		::RPG::GameCore::SkillTargetConfig* OverrideTargetInfo; // 0x58
-		::RPG::GameCore::SkillTargetConfig* DefaultTargetInfo; // 0x60
-		::Il2CppArray<::Class_1_5F51D4049EA87B7B*>* CustomReadyConfigConditions; // 0x68
-		::System::String* OverrideAnimState; // 0x70
-		::Class_1_5F51D4049EA87B7B* InsertCondTask; // 0x78
-		::RPG::GameCore::VCameraConfig* OverrideCameraConfigAdded; // 0x80
-		::RPG::GameCore::SkillCharacterComponent* SkillCom; // 0x88
-		::Struct_2_165AEDBFDC2B5511 ComplexAI; // 0x90
-		::RPG::GameCore::SkillData* ParentSkillData; // 0xB8
-		::RPG::GameCore::ICharacterSkillRowData* RowData; // 0xC0
-		::System::Collections::Generic::List_1<::Class_1_0BF70B7AEC57376C*>* UsableConditionDatas; // 0xC8
-		::Class_1_BCDC191CF05491FA* _Slot; // 0xD0
-		::Il2CppArray<::Struct_2_1DBF01015A93DAF5>* _SkillProperties; // 0xD8
+		::HBGIMIPDNDF* SkillTypeOverride; // 0x30
+		::System::Collections::Generic::List_1<::HIPJPNGLMEP*>* UsableConditionDatas; // 0x38
+		::JBLJHNCFOJC ComplexAI; // 0x40
+		::FFLCBCBGMLI* _Slot; // 0x68
+		::RPG::GameCore::SkillConfig* Config; // 0x70
+		::GELIALJDFBL* InsertCondTask; // 0x78
+		::GELIALJDFBL* VisibleCondTask; // 0x80
+		::RPG::GameCore::SkillData* AssitLinkSourceSkill; // 0x88
+		::RPG::GameCore::VCameraConfig* OverrideCameraConfig; // 0x90
+		::RPG::GameCore::ICharacterSkillRowData* RowData; // 0x98
+		::System::String* OverrideAnimState; // 0xA0
+		::System::Collections::Generic::List_1<::RPG::GameCore::SkillData*>* AllChildSkillDatas; // 0xA8
+		::RPG::GameCore::SkillData* ParentSkillData; // 0xB0
+		::System::String* SkillTriggerKey; // 0xB8
+		::RPG::GameCore::SkillTargetConfig* OverrideTargetInfo; // 0xC0
+		::Il2CppArray<::GELIALJDFBL*>* PreshowConditions; // 0xC8
+		::RPG::GameCore::VCameraConfig* OverrideCameraConfigAdded; // 0xD0
+		::Il2CppArray<::BJICAHJPKEC>* _SkillProperties; // 0xD8
 		::System::UInt32 CommonActiveSkillID; // 0xE0
-		::RPG::GameCore::AttackDamageType AttackDamageTypePreshowAttach; // 0xE4
-		::System::Int32 CurrentCoolDown; // 0xE8
+		::System::Nullable* OverrideAIUltraSkillPriority; // 0xE4
 		::System::Int32 MaxCastTimes; // 0xEC
-		::System::Nullable_1<::RPG::GameCore::SkillSPProgressType> _OverrideProgressDisplayType; // 0xF0
-		::System::Int32 SkillIndex; // 0xF8
-		::System::UInt32 SkillConfigID; // 0xFC
-		::System::Boolean IgnoreDisableAction; // 0x100
-		::System::Int32 DefaultCoolDown; // 0x104
-		::System::Int32 LeftCastTimes; // 0x108
-		::System::Int32 ChildIndex; // 0x10C
-		::System::Nullable_1<::System::Int32> OverrideAIUltraSkillPriority; // 0x110
-
+		::System::Int32 SkillIndex; // 0xF0
+		::System::Int32 ChildIndex; // 0xF4
+		::System::Int32 CurrentCoolDown; // 0xF8
+		::RPG::GameCore::AttackDamageType AttackDamageTypePreshowAttach; // 0xFC
+		::System::Nullable* _OverrideProgressDisplayType; // 0x100
+		::System::Boolean IgnoreDisableAction; // 0x108
+		::System::Byte _padding0[0x3];
+		::System::UInt32 SkillConfigID; // 0x10C
+		::System::Int32 LeftCastTimes; // 0x110
+		::System::Int32 DefaultCoolDown; // 0x114
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::UISkillIndex get_UISkillIndex()
@@ -241,19 +239,19 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SkillSPProgressType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_PROGRESSDISPLAYTYPE_OFFSET))(this);
 		}
 
-		::System::Void OverrideProgressDisplayType(::System::Nullable_1<::RPG::GameCore::SkillSPProgressType> a1)
+		::System::Void OverrideProgressDisplayType(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::RPG::GameCore::SkillSPProgressType>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_OVERRIDEPROGRESSDISPLAYTYPE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_OVERRIDEPROGRESSDISPLAYTYPE_OFFSET))(this, a1);
 		}
 
-		::Class_1_BCDC191CF05491FA* get_Slot()
+		::FFLCBCBGMLI* get_Slot()
 		{
-			return ((::Class_1_BCDC191CF05491FA*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET))(this);
+			return ((::FFLCBCBGMLI*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GET_SLOT_OFFSET))(this);
 		}
 
-		::System::Void set_Slot(::Class_1_BCDC191CF05491FA* a1)
+		::System::Void set_Slot(::FFLCBCBGMLI* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_BCDC191CF05491FA*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::FFLCBCBGMLI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SET_SLOT_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::ControlSkillType get_CurrentCtrlType()
@@ -311,9 +309,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETDEFAULTPROPERTY_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetOverrideProperty(::RPG::GameCore::SkillPropertyType a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2)
+		::System::Void SetOverrideProperty(::RPG::GameCore::SkillPropertyType a1, ::System::Nullable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::System::Nullable_1<::RPG::GameCore::FixPoint>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::SkillPropertyType, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_SETOVERRIDEPROPERTY_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::FixPoint GetPropertyValueIgnoreSlot(::RPG::GameCore::SkillPropertyType a1)
@@ -361,9 +359,9 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::SkillCustomFormationConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETREADYCUSTOMFORMATIONCONFIG_OFFSET))(this);
 		}
 
-		::System::Void GetReadCameraConfig(::RPG::GameCore::VCameraConfig*& a1, ::RPG::GameCore::VCameraConfig*& a2)
+		::System::Void GetReadCameraConfig(::RPG::GameCore::VCameraConfig* a1, ::RPG::GameCore::VCameraConfig* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraConfig*&, ::RPG::GameCore::VCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::VCameraConfig*, ::RPG::GameCore::VCameraConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETREADCAMERACONFIG_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean HasMultiTargetGroup()
@@ -371,9 +369,10 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_HASMULTITARGETGROUP_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::RPG::GameCore::UseSkillErrorCode, ::System::String*> GetUnusableConditionResult()
+		::System::ValueTuple GetUnusableConditionResult()
 		{
-			return ((::System::ValueTuple_2<::RPG::GameCore::UseSkillErrorCode, ::System::String*>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET))(this);
+			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLDATA_GETUNUSABLECONDITIONRESULT_OFFSET))(this);
 		}
+
 	};
 }

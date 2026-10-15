@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournPersonaStyleGiftRarityType_TypeDefinitionIndex = 10607;
-
 	enum class RogueTournPersonaStyleGiftRarityType : ::System::Int32
 	{
 		None = 0,

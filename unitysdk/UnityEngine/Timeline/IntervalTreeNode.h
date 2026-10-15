@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IntervalTreeNode_TypeDefinitionIndex = 37522;
-
-	struct alignas(8) IntervalTreeNode
+	struct alignas(4) IntervalTreeNode
 	{
 		::System::Int64 center; // 0x10
 		::System::Int32 first; // 0x18

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitTaskSeqType_TypeDefinitionIndex = 57614;
-
 	enum class SummonUnitTaskSeqType : ::System::Int32
 	{
 		OnCreate = 0,

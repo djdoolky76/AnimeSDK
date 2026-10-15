@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Match; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E9F2100)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E9F2130)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E9F20F0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F2000)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F0B9CA0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B9BA0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F0B9CD0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F0B9C90)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int MatchEvaluator_TypeDefinitionIndex = 2498;
-
 	class MatchEvaluator : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke(::System::Text::RegularExpressions::Match* a1)
@@ -39,5 +36,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHEVALUATOR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

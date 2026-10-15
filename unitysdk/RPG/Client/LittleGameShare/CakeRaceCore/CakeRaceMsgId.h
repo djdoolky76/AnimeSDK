@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int CakeRaceMsgId_TypeDefinitionIndex = 36531;
-
 	enum class CakeRaceMsgId : ::System::Int32
 	{
 		None = 0,

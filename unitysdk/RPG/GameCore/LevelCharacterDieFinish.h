@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelCharacterDieFinish; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6872D0)
-#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE687370)
-#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE687320)
-#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xE687270)
-#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xE6873C0)
+#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6E2CF0)
+#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E2DE0)
+#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E2D90)
+#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E2D40)
+#define RPG_GAMECORE_LEVELCHARACTERDIEFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xE6E2C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterDieFinish_TypeDefinitionIndex = 56944;
-
-	class LevelCharacterDieFinish : public ::Class_1_BF7A075734D15E98
+	class LevelCharacterDieFinish : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::String* CharacterName; // 0x18
 		::RPG::GameCore::GameEntity* Target; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERDIEFINISH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERDIEFINISH_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelCharacterDieFinish* Init(::RPG::GameCore::GameEntity* a1)
@@ -46,5 +43,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELCHARACTERDIEFINISH_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUI3DTouch_MouseWheelType_TypeDefinitionIndex = 72906;
-
 	enum class MonoUI3DTouch_MouseWheelType : ::System::Int32
 	{
 		None = 0,

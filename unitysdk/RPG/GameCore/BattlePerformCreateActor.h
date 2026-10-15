@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BattlePerformActorCreateType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattlePerformCreateActor; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_METHOD_2_5B15045B99203C1C_OFFSET UNITYSDK_OFFSET(0x1CE7CA30)
-#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7CD40)
+#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D464CC0)
+#define RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4649B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePerformCreateActor_TypeDefinitionIndex = 23121;
-
 	class BattlePerformCreateActor : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -22,17 +20,18 @@ namespace RPG::GameCore
 		::System::UInt32 CharacterID; // 0x24
 		::System::Boolean UsePlayableGraphEmo; // 0x28
 		::System::Boolean OverridePrefab; // 0x29
+		::System::Byte _padding0[0x6];
 		::System::String* ModelPath; // 0x30
 		::System::String* JsonPath; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCREATEACTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5B15045B99203C1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattlePerformCreateActor*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattlePerformCreateActor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattlePerformCreateActor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_METHOD_2_5B15045B99203C1C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattlePerformCreateActor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPERFORMCREATEACTOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,12 +3,9 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Mat22.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Transform.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2MotorJoint_TypeDefinitionIndex = 36025;
-
 	struct alignas(4) B2MotorJoint
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 linearOffset; // 0x10

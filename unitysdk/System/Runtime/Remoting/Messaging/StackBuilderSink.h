@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class MarshalByRefObject; }
+namespace System { class Object; }
 namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 namespace System::Runtime::Remoting::Proxies { class RealProxy; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDED930)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_CHECKPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1BDEB830)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_EXECUTEASYNCMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDEDA90)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BDEB780)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK__ASYNCPROCESSMESSAGE_B__4_0_OFFSET UNITYSDK_OFFSET(0x1BDEDD10)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDEB720)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2F9580)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_CHECKPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1C2F7480)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F7370)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_EXECUTEASYNCMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2F96E0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2F73D0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK__ASYNCPROCESSMESSAGE_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C2F9960)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int StackBuilderSink_TypeDefinitionIndex = 1337;
-
 	class StackBuilderSink : public ::System::Object
 	{
 	public:
 		::System::MarshalByRefObject* _target; // 0x10
 		::System::Runtime::Remoting::Proxies::RealProxy* _rp; // 0x18
-
 		::System::Void _ctor(::System::MarshalByRefObject* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::MarshalByRefObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::MarshalByRefObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* a1)
@@ -54,5 +51,6 @@ namespace System::Runtime::Remoting::Messaging
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_MESSAGING_STACKBUILDERSINK__ASYNCPROCESSMESSAGE_B__4_0_OFFSET))(this, a1);
 		}
+
 	};
 }

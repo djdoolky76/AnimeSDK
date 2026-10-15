@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB11560)
-#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB11590)
-#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB11550)
-#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB114E0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C01DF70)
+#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01DEF0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C01DFA0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01DF60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_RegisterCallbackDelegate_TypeDefinitionIndex = 7657;
-
 	class WeGameDelegate_RegisterCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_REGISTERCALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

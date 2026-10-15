@@ -3,8 +3,6 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int AlphaType_TypeDefinitionIndex = 38909;
-
 	enum class AlphaType : ::System::Int32
 	{
 		CompoOpaq = 0,

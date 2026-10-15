@@ -3,27 +3,23 @@
 #include "unitysdk/Spine/CurveTimeline1.h"
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/MixDirection.h"
-
 namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_TRANSLATEYTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1E626910)
-#define SPINE_TRANSLATEYTIMELINE_GET_BONEINDEX_OFFSET UNITYSDK_OFFSET(0x1E626900)
-#define SPINE_TRANSLATEYTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E626890)
+#define SPINE_TRANSLATEYTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECEEA50)
+#define SPINE_TRANSLATEYTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEE9D0)
+#define SPINE_TRANSLATEYTIMELINE_GET_BONEINDEX_OFFSET UNITYSDK_OFFSET(0x1ECEEA40)
 
 namespace Spine
 {
-	inline static constexpr unsigned int TranslateYTimeline_TypeDefinitionIndex = 38309;
-
 	class TranslateYTimeline : public ::Spine::CurveTimeline1
 	{
 	public:
 		::System::Int32 boneIndex; // 0x28
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_TRANSLATEYTIMELINE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_TRANSLATEYTIMELINE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_BoneIndex()
@@ -35,5 +31,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_TRANSLATEYTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

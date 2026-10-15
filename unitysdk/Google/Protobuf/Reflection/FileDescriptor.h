@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class ByteString; }
 namespace Google::Protobuf { class Extension; }
 namespace Google::Protobuf { class ExtensionRegistry; }
@@ -10,6 +9,7 @@ namespace Google::Protobuf::Reflection { class DescriptorDeclaration; }
 namespace Google::Protobuf::Reflection { class DescriptorPool; }
 namespace Google::Protobuf::Reflection { class EnumDescriptor; }
 namespace Google::Protobuf::Reflection { class ExtensionCollection; }
+namespace Google::Protobuf::Reflection { class FileDescriptor; }
 namespace Google::Protobuf::Reflection { class FileDescriptorProto; }
 namespace Google::Protobuf::Reflection { class GeneratedClrTypeInfo; }
 namespace Google::Protobuf::Reflection { class IDescriptor; }
@@ -22,61 +22,58 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_ADDALLEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B37EDC0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_BUILDFROM_OFFSET UNITYSDK_OFFSET(0x1B37D4F0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_COMPUTEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1B36C9F0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CREATEDECLARATIONMAP_OFFSET UNITYSDK_OFFSET(0x1B37C1D0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1B37D630)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_DETERMINEPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B37BB50)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FINDDESCRIPTORFORPATH_OFFSET UNITYSDK_OFFSET(0x1B37C860)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FROMGENERATEDCODE_OFFSET UNITYSDK_OFFSET(0x1B36C3A0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETALLDEPENDEDEXTENSIONSFROMMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B37F2D0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETALLDEPENDEDEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B37F0A0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETALLGENERATEDEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B37EF00)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETDESCRIPTORFROMLIST_OFFSET UNITYSDK_OFFSET(0x1B37D0B0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x1B37D020)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_DEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B37D440)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_DESCRIPTORPOOL_OFFSET UNITYSDK_OFFSET(0x1B37D4E0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_ENUMTYPES_OFFSET UNITYSDK_OFFSET(0x1B37D410)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B37D430)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_MESSAGETYPES_OFFSET UNITYSDK_OFFSET(0x1B37D400)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B3625E0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PACKAGE_OFFSET UNITYSDK_OFFSET(0x1B362190)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x1B37D310)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B37D450)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0x1B37D420)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GOOGLE_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1B37D4D0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GOOGLE_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1B37D460)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B37F480)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B37B7A0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B37B800)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_ADDALLEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B880B60)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_BUILDFROM_OFFSET UNITYSDK_OFFSET(0x1B87F290)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B87D510)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_COMPUTEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1B86E760)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CREATEDECLARATIONMAP_OFFSET UNITYSDK_OFFSET(0x1B87DF40)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1B87F3D0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1B87D570)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_DETERMINEPUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B87D8C0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FINDDESCRIPTORFORPATH_OFFSET UNITYSDK_OFFSET(0x1B87E5D0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_FROMGENERATEDCODE_OFFSET UNITYSDK_OFFSET(0x1B86E110)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETALLDEPENDEDEXTENSIONSFROMMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B881070)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETALLDEPENDEDEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B880E40)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETALLGENERATEDEXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B880CA0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETDESCRIPTORFROMLIST_OFFSET UNITYSDK_OFFSET(0x1B87EE50)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x1B87EDC0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_DEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B87F1E0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_DESCRIPTORPOOL_OFFSET UNITYSDK_OFFSET(0x1B87F280)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_ENUMTYPES_OFFSET UNITYSDK_OFFSET(0x1B87F1B0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_EXTENSIONS_OFFSET UNITYSDK_OFFSET(0x1B87F1D0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_MESSAGETYPES_OFFSET UNITYSDK_OFFSET(0x1B87F1A0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1B864350)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PACKAGE_OFFSET UNITYSDK_OFFSET(0x1B863F00)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x1B87F0B0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_PUBLICDEPENDENCIES_OFFSET UNITYSDK_OFFSET(0x1B87F1F0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0x1B87F1C0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GOOGLE_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FILE_OFFSET UNITYSDK_OFFSET(0x1B87F270)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_GOOGLE_PROTOBUF_REFLECTION_IDESCRIPTOR_GET_FULLNAME_OFFSET UNITYSDK_OFFSET(0x1B87F200)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B881220)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor_TypeDefinitionIndex = 5536;
-
 	class FileDescriptor : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FileDescriptor*>* _Dependencies_k__BackingField; // 0x10
-		::Google::Protobuf::Reflection::FileDescriptorProto* _Proto_k__BackingField; // 0x18
-		::Google::Protobuf::Reflection::ExtensionCollection* _Extensions_k__BackingField; // 0x20
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumDescriptor*>* _EnumTypes_k__BackingField; // 0x28
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::ServiceDescriptor*>* _Services_k__BackingField; // 0x30
-		::System::Lazy_1<::System::Collections::Generic::Dictionary_2<::Google::Protobuf::Reflection::IDescriptor*, ::Google::Protobuf::Reflection::DescriptorDeclaration*>*>* declarations; // 0x38
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::ServiceDescriptor*>* _Services_k__BackingField; // 0x10
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MessageDescriptor*>* _MessageTypes_k__BackingField; // 0x18
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FileDescriptor*>* _Dependencies_k__BackingField; // 0x20
+		::Google::Protobuf::ByteString* _SerializedData_k__BackingField; // 0x28
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumDescriptor*>* _EnumTypes_k__BackingField; // 0x30
+		::Google::Protobuf::Reflection::FileDescriptorProto* _Proto_k__BackingField; // 0x38
 		::Google::Protobuf::Reflection::DescriptorPool* _DescriptorPool_k__BackingField; // 0x40
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FileDescriptor*>* _PublicDependencies_k__BackingField; // 0x48
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MessageDescriptor*>* _MessageTypes_k__BackingField; // 0x50
-		::Google::Protobuf::ByteString* _SerializedData_k__BackingField; // 0x58
-
+		::System::Lazy_1<::System::Collections::Generic::Dictionary_2<::Google::Protobuf::Reflection::IDescriptor*, ::Google::Protobuf::Reflection::DescriptorDeclaration*>*>* declarations; // 0x48
+		::Google::Protobuf::Reflection::ExtensionCollection* _Extensions_k__BackingField; // 0x50
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::FileDescriptor*>* _PublicDependencies_k__BackingField; // 0x58
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor(::Google::Protobuf::ByteString* a1, ::Google::Protobuf::Reflection::FileDescriptorProto* a2, ::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Reflection::FileDescriptor*>* a3, ::Google::Protobuf::Reflection::DescriptorPool* a4, ::System::Boolean a5, ::Google::Protobuf::Reflection::GeneratedClrTypeInfo* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::ByteString*, ::Google::Protobuf::Reflection::FileDescriptorProto*, ::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Reflection::FileDescriptor*>*, ::Google::Protobuf::Reflection::DescriptorPool*, ::System::Boolean, ::Google::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::ByteString*, ::Google::Protobuf::Reflection::FileDescriptorProto*, ::System::Collections::Generic::IEnumerable_1<::Google::Protobuf::Reflection::FileDescriptor*>*, ::Google::Protobuf::Reflection::DescriptorPool*, ::System::Boolean, ::Google::Protobuf::Reflection::GeneratedClrTypeInfo*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Collections::Generic::Dictionary_2<::Google::Protobuf::Reflection::IDescriptor*, ::Google::Protobuf::Reflection::DescriptorDeclaration*>* CreateDeclarationMap()
@@ -208,5 +205,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

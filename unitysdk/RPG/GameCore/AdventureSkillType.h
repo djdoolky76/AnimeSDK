@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillType_TypeDefinitionIndex = 17308;
-
 	enum class AdventureSkillType : ::System::Int32
 	{
 		NormalAtk = 0,

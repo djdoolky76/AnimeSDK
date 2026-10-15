@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelInitModel; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelInitResult; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA1EE70)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA1EEA0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA1EE60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1ED70)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF23060)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF22F60)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF23090)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF23050)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_InitDelegate_TypeDefinitionIndex = 8482;
-
 	class HoYoChannelDelegate_InitDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::PC::OS::HoYoChannelInitResult* Invoke(::MiHoYo::SDK::PC::OS::HoYoChannelInitModel* a1)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelInitResult*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_INITDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

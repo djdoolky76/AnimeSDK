@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCD618A0)
-#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCD618D0)
-#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD61890)
-#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD61820)
+#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCCB2900)
+#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCB2880)
+#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCCB2930)
+#define RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCCB28F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int OnServerConnectedDelegate_TypeDefinitionIndex = 75659;
-
 	class OnServerConnectedDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONSERVERCONNECTEDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

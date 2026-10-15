@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EAudienceHideReason_TypeDefinitionIndex = 69116;
-
 	enum class EAudienceHideReason : ::System::Int32
 	{
 		Default = 0,

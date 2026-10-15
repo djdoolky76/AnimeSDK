@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/ConfirmWithJoypad_ConfirmResult.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B761B60)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B761BF0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B761870)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B761AF0)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC601D0)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC60160)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC60260)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC5FEF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithJoypad_OnConfirmDelegate_TypeDefinitionIndex = 7956;
-
 	class ConfirmWithJoypad_OnConfirmDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::ConfirmWithJoypad_ConfirmResult a1, ::System::Boolean a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIRMWITHJOYPAD_ONCONFIRMDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,24 +3,23 @@
 #include "unitysdk/RPG/Client/CameraModuleConfigBase.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 
-#define RPG_CLIENT_LOOKATMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xD582AE0)
-#define RPG_CLIENT_LOOKATMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD582B30)
+#define RPG_CLIENT_LOOKATMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD4D4290)
+#define RPG_CLIENT_LOOKATMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xD4D4240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtModuleConfig_TypeDefinitionIndex = 69646;
-
 	class LookAtModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATMODULECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATMODULECONFIG_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::CameraModuleType Method_4_2BF4648671111A7E()
+		::RPG::Client::CameraModuleType JIGLNEDJDCC()
 		{
-			return ((::RPG::Client::CameraModuleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET))(this);
+			return ((::RPG::Client::CameraModuleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATMODULECONFIG_JIGLNEDJDCC_OFFSET))(this);
 		}
+
 	};
 }

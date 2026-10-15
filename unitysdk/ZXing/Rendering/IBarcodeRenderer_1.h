@@ -1,16 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/ZXing/BarcodeFormat.h"
-
-namespace System { class String; }
-namespace ZXing::Common { class BitMatrix; }
-namespace ZXing::Common { class EncodingOptions; }
 
 namespace ZXing::Rendering
 {
-	inline static constexpr unsigned int IBarcodeRenderer_1_TypeDefinitionIndex = 6963;
-
-	template <typename TOutput>
+	template <typename T>
 	class IBarcodeRenderer_1
 	{
 	public:

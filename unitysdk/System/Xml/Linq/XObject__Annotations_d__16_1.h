@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace System { class Object; }
 namespace System::Xml::Linq { class XObject; }
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XObject__Annotations_d__16_1_TypeDefinitionIndex = 3882;
-
 	template <typename T>
 	class XObject__Annotations_d__16_1 : public ::System::Object
 	{

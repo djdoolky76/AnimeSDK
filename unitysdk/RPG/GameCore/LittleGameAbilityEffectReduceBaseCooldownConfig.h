@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityEffectConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
+namespace RPG::GameCore { class LittleGameAbilityEffectReduceBaseCooldownConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_METHOD_3_5B51FF5CCAED9C6E_OFFSET UNITYSDK_OFFSET(0x1D1F9880)
-#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_METHOD_3_D4E0B95EC6838BA2_OFFSET UNITYSDK_OFFSET(0x1D1F97B0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F9870)
+#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D73D0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D73E0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D7310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityEffectReduceBaseCooldownConfig_TypeDefinitionIndex = 21102;
-
 	class LittleGameAbilityEffectReduceBaseCooldownConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:
 		::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig* ReduceValue; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D4E0B95EC6838BA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_METHOD_3_D4E0B95EC6838BA2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5B51FF5CCAED9C6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_METHOD_3_5B51FF5CCAED9C6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityEffectReduceBaseCooldownConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYEFFECTREDUCEBASECOOLDOWNCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPLightType_TypeDefinitionIndex = 37017;
-
 	enum class CRPLightType : ::System::Int32
 	{
 		SceneLight = 0,

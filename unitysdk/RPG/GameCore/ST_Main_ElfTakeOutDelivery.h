@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/STTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ST_Main_ElfTakeOutDelivery; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_METHOD_4_0E66D38F073944FE_OFFSET UNITYSDK_OFFSET(0x1D4C9760)
-#define RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_METHOD_4_EC3EA94831E77EFB_OFFSET UNITYSDK_OFFSET(0x1D4C9690)
-#define RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C9750)
+#define RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7CB60)
+#define RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7CB70)
+#define RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7CAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_ElfTakeOutDelivery_TypeDefinitionIndex = 21293;
-
 	class ST_Main_ElfTakeOutDelivery : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_EC3EA94831E77EFB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_METHOD_4_EC3EA94831E77EFB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0E66D38F073944FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_METHOD_4_0E66D38F073944FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ST_Main_ElfTakeOutDelivery*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ELFTAKEOUTDELIVERY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

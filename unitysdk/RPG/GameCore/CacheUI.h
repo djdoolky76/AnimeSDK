@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CacheUI; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CACHEUI_METHOD_3_6DFF162DDCC95A09_OFFSET UNITYSDK_OFFSET(0x1CF6C9B0)
-#define RPG_GAMECORE_CACHEUI_METHOD_3_BEC4C889168D9E92_OFFSET UNITYSDK_OFFSET(0x1CF6C9F0)
-#define RPG_GAMECORE_CACHEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF6C9E0)
+#define RPG_GAMECORE_CACHEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5463A0)
+#define RPG_GAMECORE_CACHEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5463B0)
+#define RPG_GAMECORE_CACHEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D546370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CacheUI_TypeDefinitionIndex = 21456;
-
 	class CacheUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* PrefabPaths; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6DFF162DDCC95A09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CacheUI*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CacheUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CacheUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI_METHOD_3_6DFF162DDCC95A09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CacheUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BEC4C889168D9E92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CacheUI* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CacheUI* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CacheUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI_METHOD_3_BEC4C889168D9E92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CacheUI*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

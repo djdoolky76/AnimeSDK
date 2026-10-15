@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::TrainParty { class TrainPartyMeetingCategoryInfo; }
 namespace RPG::Client::TrainParty { class TrainPartyMeetingData; }
 namespace RPG::Client::TrainParty { class TrainPartyMeetingPassengerCardInfo; }
@@ -9,31 +8,28 @@ namespace RPG::Client::TrainParty { class TrainPartyPassengerData; }
 namespace RPG::Client::TrainParty { class TrainPartyPassengerSkillInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0xE26BCE0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_ISALLCARDUNIQUE_OFFSET UNITYSDK_OFFSET(0xE26CFE0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_ISFINALPLAY_OFFSET UNITYSDK_OFFSET(0xE26CF80)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_LEFTCARDNUM_OFFSET UNITYSDK_OFFSET(0xE26D040)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_SELECTEDCARDCOUNT_OFFSET UNITYSDK_OFFSET(0xE26CF30)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_ISPASSENGERSCORED_OFFSET UNITYSDK_OFFSET(0xE26C8D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xE26BBD0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_CLEAR_OFFSET UNITYSDK_OFFSET(0xE2F0070)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xE2EFB50)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_ISALLCARDUNIQUE_OFFSET UNITYSDK_OFFSET(0xE2F14A0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_ISFINALPLAY_OFFSET UNITYSDK_OFFSET(0xE2F1440)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_LEFTCARDNUM_OFFSET UNITYSDK_OFFSET(0xE2F1500)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_SELECTEDCARDCOUNT_OFFSET UNITYSDK_OFFSET(0xE2F13F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_ISPASSENGERSCORED_OFFSET UNITYSDK_OFFSET(0xE2F0D90)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingPreviewInfo_MeetingPreviewContext_TypeDefinitionIndex = 74237;
-
 	class TrainPartyMeetingPreviewInfo_MeetingPreviewContext : public ::System::Object
 	{
 	public:
 		::RPG::Client::TrainParty::TrainPartyPassengerData* PreviewPassengerData; // 0x10
-		::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* PreviewSkillInfo; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*>* SelectedCards; // 0x20
-		::RPG::Client::TrainParty::TrainPartyMeetingData* _Owner; // 0x28
-		::RPG::Client::TrainParty::TrainPartyMeetingCategoryInfo* MatchCategoryInfo; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*>* SelectedCards; // 0x18
+		::RPG::Client::TrainParty::TrainPartyMeetingData* _Owner; // 0x20
+		::RPG::Client::TrainParty::TrainPartyMeetingCategoryInfo* MatchCategoryInfo; // 0x28
+		::RPG::Client::TrainParty::TrainPartyPassengerSkillInfo* PreviewSkillInfo; // 0x30
 		::System::Boolean IsAllCardNeedScored; // 0x38
-
 		::System::Void _ctor(::RPG::Client::TrainParty::TrainPartyMeetingData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyMeetingData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TrainParty::TrainPartyMeetingData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void Clear()
@@ -65,5 +61,6 @@ namespace RPG::Client::TrainParty
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGPREVIEWINFO_MEETINGPREVIEWCONTEXT_GET_ISALLCARDUNIQUE_OFFSET))(this);
 		}
+
 	};
 }

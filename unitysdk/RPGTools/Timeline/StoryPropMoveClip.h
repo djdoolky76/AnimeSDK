@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/StoryPropMoveClip_ESpeedMode.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPGTools::Timeline { class CharacterStoryMoveData_BezierPathPoint; }
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F0810)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F0800)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F0970)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE945C10)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE945DA0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE945C00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropMoveClip_TypeDefinitionIndex = 48813;
-
 	class StoryPropMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
@@ -29,24 +26,30 @@ namespace RPGTools::Timeline
 		::System::Single Speed; // 0x24
 		::System::Single Duration; // 0x28
 		::System::Boolean MoveUseCustomCurve; // 0x2C
+		::System::Byte _padding0[0x3];
 		::UnityEngine::AnimationCurve* MoveCustomCurve; // 0x30
 		::System::Boolean UseBezierPath; // 0x38
-		::System::Collections::Generic::List_1<::RPGTools::Timeline::CharacterStoryMoveData_BezierPathPoint*>* BezierPathPoints; // 0x40
+		::System::Byte _padding1[0x7];
+		::System::Collections::Generic::List_1<::System::Object*>* BezierPathPoints; // 0x40
 		::System::Boolean OverrideRotationByBezierPath; // 0x48
+		::System::Byte _padding2[0x7];
 		::System::String* TargetAreaName; // 0x50
 		::System::String* TargetAnchorName; // 0x58
 		::System::Boolean ChangeScale; // 0x60
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Vector3 TargetScale; // 0x64
 		::System::Boolean ScaleUseCustomCurve; // 0x70
+		::System::Byte _padding4[0x7];
 		::UnityEngine::AnimationCurve* ScaleCustomCurve; // 0x78
 		::System::Boolean ChangeRotation; // 0x80
+		::System::Byte _padding5[0x3];
 		::UnityEngine::Vector3 TargetRotation; // 0x84
 		::System::Boolean RotationUseCustomCurve; // 0x90
+		::System::Byte _padding6[0x7];
 		::UnityEngine::AnimationCurve* RotationCustomCurve; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -58,5 +61,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

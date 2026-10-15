@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupEffectTransformParamsOffsetType_TypeDefinitionIndex = 24332;
-
 	enum class SetupEffectTransformParamsOffsetType : ::System::Int32
 	{
 		SinWave = 0,

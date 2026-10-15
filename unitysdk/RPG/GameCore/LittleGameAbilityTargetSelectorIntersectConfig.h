@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTargetSelectorConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
+namespace RPG::GameCore { class LittleGameAbilityTargetSelectorIntersectConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_METHOD_3_63BE27A756B87CB8_OFFSET UNITYSDK_OFFSET(0x1D1FC2B0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_METHOD_3_D739E0FFB795BDC8_OFFSET UNITYSDK_OFFSET(0x1D1FC310)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FC300)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DA780)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DA790)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DA730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityTargetSelectorIntersectConfig_TypeDefinitionIndex = 21123;
-
 	class LittleGameAbilityTargetSelectorIntersectConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig*>* Targets; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_63BE27A756B87CB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_METHOD_3_63BE27A756B87CB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D739E0FFB795BDC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_METHOD_3_D739E0FFB795BDC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityTargetSelectorIntersectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTARGETSELECTORINTERSECTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

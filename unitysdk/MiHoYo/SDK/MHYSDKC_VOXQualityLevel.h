@@ -4,13 +4,11 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOXQualityLevel_TypeDefinitionIndex = 46690;
-
 	class MHYSDKC_VOXQualityLevel : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 LOW = 0x1; // 0x0
-		// static const ::System::Int32 MEDIUM = 0x2; // 0x0
-		// static const ::System::Int32 HIGH = 0x3; // 0x0
+		// static const ::System::Object LOW; // 0x0
+		// static const ::System::Object MEDIUM; // 0x0
+		// static const ::System::Object HIGH; // 0x0
 	};
 }

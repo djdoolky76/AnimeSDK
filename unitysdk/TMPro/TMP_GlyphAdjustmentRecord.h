@@ -1,35 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/TMP_GlyphValueRecord.h"
+#include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.h"
 
-#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_GET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_GET_GLYPHVALUERECORD_OFFSET UNITYSDK_OFFSET(0x2E25E80)
-#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_SET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x2E950)
-#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_SET_GLYPHVALUERECORD_OFFSET UNITYSDK_OFFSET(0x3BB2700)
-#define TMPRO_TMP_GLYPHADJUSTMENTRECORD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BB2710)
-#define TMPRO_TMP_GLYPHADJUSTMENTRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x2E25E60)
+#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C67B00)
+#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_CTOR_OFFSET UNITYSDK_OFFSET(0x2EB2A00)
+#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_GET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0xE620)
+#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_GET_GLYPHVALUERECORD_OFFSET UNITYSDK_OFFSET(0xECE50)
+#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_SET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0xAF40)
+#define TMPRO_TMP_GLYPHADJUSTMENTRECORD_SET_GLYPHVALUERECORD_OFFSET UNITYSDK_OFFSET(0x3C67AF0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_GlyphAdjustmentRecord_TypeDefinitionIndex = 43398;
-
 	struct alignas(4) TMP_GlyphAdjustmentRecord
 	{
 		::System::UInt32 m_GlyphIndex; // 0x10
 		::TMPro::TMP_GlyphValueRecord m_GlyphValueRecord; // 0x14
-
 		::System::Void _ctor(::System::UInt32 a1, ::TMPro::TMP_GlyphValueRecord a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_GlyphValueRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHADJUSTMENTRECORD__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_GlyphValueRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHADJUSTMENTRECORD_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		/*
 		::System::Void _ctor_1(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHADJUSTMENTRECORD__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHADJUSTMENTRECORD_CTOR_1_OFFSET))(this, a1);
 		}
-		*/
 
 		::System::UInt32 get_glyphIndex()
 		{
@@ -50,5 +45,6 @@ namespace TMPro
 		{
 			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_GlyphValueRecord))((::PBYTE)hIl2Cpp + TMPRO_TMP_GLYPHADJUSTMENTRECORD_SET_GLYPHVALUERECORD_OFFSET))(this, a1);
 		}
+
 	};
 }

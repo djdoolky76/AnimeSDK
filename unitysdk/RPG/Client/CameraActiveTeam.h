@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraActiveTeam_TypeDefinitionIndex = 69687;
-
 	enum class CameraActiveTeam : ::System::Int32
 	{
 		All = 0,

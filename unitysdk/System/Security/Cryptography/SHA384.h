@@ -1,25 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/HashAlgorithm.h"
+namespace System::Security::Cryptography { class SHA384; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384_CREATE_OFFSET UNITYSDK_OFFSET(0x1BBD4010)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD4000)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384_CREATE_OFFSET UNITYSDK_OFFSET(0x1C0E0170)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0E0160)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int SHA384_TypeDefinitionIndex = 1059;
-
 	class SHA384 : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Security::Cryptography::SHA384* Create()
 		{
 			return ((::System::Security::Cryptography::SHA384*(*)())((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA384_CREATE_OFFSET))();
 		}
+
 	};
 }

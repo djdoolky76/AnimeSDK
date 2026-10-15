@@ -4,17 +4,15 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2FixedArray2_1.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Softness.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactConstraint_TypeDefinitionIndex = 35932;
-
-	struct alignas(4) B2ContactConstraint
+	struct alignas(8) B2ContactConstraint
 	{
 		::System::Int32 indexA; // 0x10
 		::System::Int32 indexB; // 0x14
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2FixedArray2_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactConstraintPoint> points; // 0x18
+		::System::Byte _padding0[0x50];
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 normal; // 0x70
 		::System::Single invMassA; // 0x78
 		::System::Single invMassB; // 0x7C

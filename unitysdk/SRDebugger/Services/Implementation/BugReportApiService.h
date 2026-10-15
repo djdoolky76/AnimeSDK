@@ -1,39 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/SRF/Service/SRServiceBase_1.h"
-
 namespace SRDebugger::Internal { class BugReportApi; }
 namespace SRDebugger::Services { class BugReport; }
 namespace SRDebugger::Services { class BugReportCompleteCallback; }
 namespace SRDebugger::Services { class BugReportProgressCallback; }
-namespace SRDebugger::Services { class IBugReportService; }
 namespace System { class String; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1E678690)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1E678770)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONPROGRESS_OFFSET UNITYSDK_OFFSET(0x1E678750)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_SENDBUGREPORT_OFFSET UNITYSDK_OFFSET(0x1E6784E0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E6787E0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6789E0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1ED40590)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED408E0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1ED40670)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_ONPROGRESS_OFFSET UNITYSDK_OFFSET(0x1ED40650)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_SENDBUGREPORT_OFFSET UNITYSDK_OFFSET(0x1ED403E0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED406E0)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int BugReportApiService_TypeDefinitionIndex = 37379;
-
-	class BugReportApiService : public ::SRF::Service::SRServiceBase_1<::SRDebugger::Services::IBugReportService*>
+	class BugReportApiService
 	{
 	public:
-		// static const ::System::Single Timeout; // 0x0
 		::SRDebugger::Services::BugReportCompleteCallback* _completeCallback; // 0x48
 		::System::String* _errorMessage; // 0x50
 		::System::Boolean _isBusy; // 0x58
+		::System::Byte _padding0[0x3];
 		::System::Single _previousProgress; // 0x5C
 		::SRDebugger::Services::BugReportProgressCallback* _progressCallback; // 0x60
 		::SRDebugger::Internal::BugReportApi* _reportApi; // 0x68
-
+		// static const ::System::Object Timeout; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SendBugReport(::SRDebugger::Services::BugReport* a1, ::SRDebugger::Services::BugReportCompleteCallback* a2, ::SRDebugger::Services::BugReportProgressCallback* a3)
@@ -60,5 +55,6 @@ namespace SRDebugger::Services::Implementation
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_IMPLEMENTATION_BUGREPORTAPISERVICE_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

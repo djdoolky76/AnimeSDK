@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BeginHintType_TypeDefinitionIndex = 10557;
-
 	enum class BeginHintType : ::System::Int32
 	{
 		None = 0,

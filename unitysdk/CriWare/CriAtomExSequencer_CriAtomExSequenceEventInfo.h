@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSequencer_CriAtomExSequenceEventInfo_TypeDefinitionIndex = 38700;
-
 	struct alignas(8) CriAtomExSequencer_CriAtomExSequenceEventInfo
 	{
 		::System::UInt64 position; // 0x10

@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::HoYoPass { class RiskCheckManager; }
 namespace MiHoYo::SDK::PC::OS { class GeetestV4Model; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x1B978200)
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__1_OFFSET UNITYSDK_OFFSET(0x1B978800)
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__2_OFFSET UNITYSDK_OFFSET(0x1B9788C0)
-#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9771F0)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE76B50)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x1BE77B60)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__1_OFFSET UNITYSDK_OFFSET(0x1BE78160)
+#define MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__2_OFFSET UNITYSDK_OFFSET(0x1BE78220)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int RiskCheckManager___c__DisplayClass9_0_TypeDefinitionIndex = 8298;
-
 	class RiskCheckManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::PC::OS::GeetestV4Model* aigisParams; // 0x10
 		::MiHoYo::SDK::HoYoPass::RiskCheckManager* __4__this; // 0x18
 		::MiHoYo::SDK::Web* geetestV4Web; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _CreateRiskCheck_b__0(::MiHoYo::SDK::Web* a1)
@@ -43,5 +39,6 @@ namespace MiHoYo::SDK::HoYoPass
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Web*, ::System::String*, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOPASS_RISKCHECKMANAGER___C__DISPLAYCLASS9_0__CREATERISKCHECK_B__2_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

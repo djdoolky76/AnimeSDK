@@ -3,8 +3,6 @@
 #include "unitysdk/RPG/Client/Challenge/Tierce/ChallengeTierceStageSelectControlBase.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
-#include "unitysdk/System/Nullable_1.h"
-
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class MonoPrefabSwitcher; }
@@ -23,6 +21,7 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetListContro
 namespace RPG::GameCore { class ChallengeStoryThemeConfigRow; }
 namespace RPG::UINavigation { class UINavigationZone; }
 namespace Sofa { class ShortCutHintControl; }
+namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -31,78 +30,75 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATECHALLENGEFEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0xCA0E610)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATECHALLENGETHEME_OFFSET UNITYSDK_OFFSET(0xCA0E4D0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATECHALLENGE_OFFSET UNITYSDK_OFFSET(0xCA0E910)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xCA0F4E0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGEISFINAL_OFFSET UNITYSDK_OFFSET(0xCA0F040)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGERECOMMENDDAMAGETYPES_OFFSET UNITYSDK_OFFSET(0xCA0F5F0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGERESULT_OFFSET UNITYSDK_OFFSET(0xCA0F260)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGE_OFFSET UNITYSDK_OFFSET(0xCA0F810)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATECHALLENGEFEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0xCA0E650)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATECHALLENGETHEME_OFFSET UNITYSDK_OFFSET(0xCA0E510)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATECHALLENGE_OFFSET UNITYSDK_OFFSET(0xCA0E950)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xCA0F520)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGEISFINAL_OFFSET UNITYSDK_OFFSET(0xCA0F080)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGERECOMMENDDAMAGETYPES_OFFSET UNITYSDK_OFFSET(0xCA0F630)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGERESULT_OFFSET UNITYSDK_OFFSET(0xCA0F2A0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGE_OFFSET UNITYSDK_OFFSET(0xCA0F850)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCA11A80)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCA0FD90)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCA0FD00)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__55_0_OFFSET UNITYSDK_OFFSET(0xCA11AE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC960060)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATECHALLENGEFEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0xC95CBF0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATECHALLENGETHEME_OFFSET UNITYSDK_OFFSET(0xC95CAA0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATECHALLENGE_OFFSET UNITYSDK_OFFSET(0xC95CEF0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xC95DAC0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGEISFINAL_OFFSET UNITYSDK_OFFSET(0xC95D620)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGERECOMMENDDAMAGETYPES_OFFSET UNITYSDK_OFFSET(0xC95DBD0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGERESULT_OFFSET UNITYSDK_OFFSET(0xC95D840)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGE_OFFSET UNITYSDK_OFFSET(0xC95DDF0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATECHALLENGEFEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0xC95CC30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATECHALLENGETHEME_OFFSET UNITYSDK_OFFSET(0xC95CAE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATECHALLENGE_OFFSET UNITYSDK_OFFSET(0xC95CF30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGEBUFFID_OFFSET UNITYSDK_OFFSET(0xC95DB00)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGEISFINAL_OFFSET UNITYSDK_OFFSET(0xC95D660)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGERECOMMENDDAMAGETYPES_OFFSET UNITYSDK_OFFSET(0xC95DC10)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGERESULT_OFFSET UNITYSDK_OFFSET(0xC95D880)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGE_OFFSET UNITYSDK_OFFSET(0xC95DE30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC95E370)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC95E2E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__55_0_OFFSET UNITYSDK_OFFSET(0xC9600C0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectStoryControl_TypeDefinitionIndex = 80226;
-
 	class ChallengeTierceStageSelectStoryControl : public ::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectControlBase
 	{
 	public:
-		::RPG::Client::AnimatorButton* _BtnClose; // 0x40
-		::RPG::Client::AnimatorButton* _BtnRoleDetail; // 0x48
-		::RPG::Client::AnimatorButton* _BtnConfirm; // 0x50
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabsControl* _Tabs; // 0x58
-		::RPG::Client::Challenge::ChallengeGroupTypeNameControl* _GroupType; // 0x60
-		::RPG::Client::LocalizedText* _TextName; // 0x68
-		::RPG::Client::LocalizedText* _TextDesc; // 0x70
-		::UnityEngine::RectTransform* _NodeThemeBgRoot; // 0x78
-		::System::String* _ThemeBgName; // 0x80
-		::RPG::Client::Challenge::ChallengeTargetInfoRowControl* _PassTarget; // 0x88
-		::RPG::Client::Challenge::Tierce::ChallengeTierceTargetListControl* _TargetList; // 0x90
-		::RPG::Client::LocalizedText* _TextFeverRuleName; // 0x98
-		::RPG::Client::LocalizedText* _TextFeverRuleDesc; // 0xA0
-		::RPG::Client::Challenge::Story::ChallengeStoryFeverMazeBuffIconGroupControl* _FeverMazeBuffs; // 0xA8
-		::RPG::Client::LocalizedText* _TextStageName; // 0xB0
-		::RPG::Client::LocalizedText* _TextIndex; // 0xB8
-		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _NodesFinal; // 0xC0
-		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _NodesNotFinal; // 0xC8
-		::UnityEngine::RectTransform* _NodePassed; // 0xD0
-		::UnityEngine::RectTransform* _NodeNotPassed; // 0xD8
-		::RPG::Client::LocalizedText* _TextResult; // 0xE0
-		::RPG::Client::TextID _TextIDNoResult; // 0xE8
-		::RPG::Client::TextID _TextIDResult; // 0xF8
-		::RPG::Client::AnimatorButton* _BtnEdit; // 0x108
-		::RPG::Client::AnimatorButton* _BtnBuff; // 0x110
-		::RPG::Client::Challenge::ChallengeAvatarLineupSlotsControl* _AvatarLineupSlots; // 0x118
-		::RPG::Client::MonoPrefabSwitcher* _SwitcherBuff; // 0x120
-		::System::String* _StateHasBuff; // 0x128
-		::System::String* _StateNoBuff; // 0x130
-		::UnityEngine::UI::Image* _IconBuff; // 0x138
-		::RPG::Client::AnimatorButton* _BtnBoss; // 0x140
-		::RPG::Client::LocalizedText* _TextBossLevel; // 0x148
-		::UnityEngine::UI::Image* _ImageBoss; // 0x150
-		::RPG::Client::PrefabLoadMeta* _PrefabDamageType; // 0x158
-		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl* _ListDamageType; // 0x160
-		::UnityEngine::Animation* _AnimSwitch; // 0x168
-		::System::String* _AnimNameSwitch; // 0x170
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectStageSwitchVfxControl* _StageSwitchVfx; // 0x178
-		::RPG::UINavigation::UINavigationZone* _Zone; // 0x180
-		::Sofa::ShortCutHintControl* _ShortCutHint; // 0x188
-
+		::RPG::Client::AnimatorButton* _BtnClose; // 0x48
+		::RPG::Client::AnimatorButton* _BtnRoleDetail; // 0x50
+		::RPG::Client::AnimatorButton* _BtnConfirm; // 0x58
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabsControl* _Tabs; // 0x60
+		::RPG::Client::Challenge::ChallengeGroupTypeNameControl* _GroupType; // 0x68
+		::RPG::Client::LocalizedText* _TextName; // 0x70
+		::RPG::Client::LocalizedText* _TextDesc; // 0x78
+		::UnityEngine::RectTransform* _NodeThemeBgRoot; // 0x80
+		::System::String* _ThemeBgName; // 0x88
+		::RPG::Client::Challenge::ChallengeTargetInfoRowControl* _PassTarget; // 0x90
+		::RPG::Client::Challenge::Tierce::ChallengeTierceTargetListControl* _TargetList; // 0x98
+		::RPG::Client::LocalizedText* _TextFeverRuleName; // 0xA0
+		::RPG::Client::LocalizedText* _TextFeverRuleDesc; // 0xA8
+		::RPG::Client::Challenge::Story::ChallengeStoryFeverMazeBuffIconGroupControl* _FeverMazeBuffs; // 0xB0
+		::RPG::Client::LocalizedText* _TextStageName; // 0xB8
+		::RPG::Client::LocalizedText* _TextIndex; // 0xC0
+		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _NodesFinal; // 0xC8
+		::System::Collections::Generic::List_1<::UnityEngine::RectTransform*>* _NodesNotFinal; // 0xD0
+		::UnityEngine::RectTransform* _NodePassed; // 0xD8
+		::UnityEngine::RectTransform* _NodeNotPassed; // 0xE0
+		::RPG::Client::LocalizedText* _TextResult; // 0xE8
+		::RPG::Client::TextID _TextIDNoResult; // 0xF0
+		::RPG::Client::TextID _TextIDResult; // 0x100
+		::RPG::Client::AnimatorButton* _BtnEdit; // 0x110
+		::RPG::Client::AnimatorButton* _BtnBuff; // 0x118
+		::RPG::Client::Challenge::ChallengeAvatarLineupSlotsControl* _AvatarLineupSlots; // 0x120
+		::RPG::Client::MonoPrefabSwitcher* _SwitcherBuff; // 0x128
+		::System::String* _StateHasBuff; // 0x130
+		::System::String* _StateNoBuff; // 0x138
+		::UnityEngine::UI::Image* _IconBuff; // 0x140
+		::RPG::Client::AnimatorButton* _BtnBoss; // 0x148
+		::RPG::Client::LocalizedText* _TextBossLevel; // 0x150
+		::UnityEngine::UI::Image* _ImageBoss; // 0x158
+		::RPG::Client::PrefabLoadMeta* _PrefabDamageType; // 0x160
+		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeListControl* _ListDamageType; // 0x168
+		::UnityEngine::Animation* _AnimSwitch; // 0x170
+		::System::String* _AnimNameSwitch; // 0x178
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectStageSwitchVfxControl* _StageSwitchVfx; // 0x180
+		::RPG::UINavigation::UINavigationZone* _Zone; // 0x188
+		::Sofa::ShortCutHintControl* _ShortCutHint; // 0x190
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::ChallengeStoryThemeConfigRow* get_PrivateChallengeTheme()
@@ -155,14 +151,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceSessionStageResultBase*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGERESULT_OFFSET))(this, a1);
 		}
 
-		::System::Nullable_1<::System::UInt32> get_PrivateStageBuffID()
+		::System::Nullable* get_PrivateStageBuffID()
 		{
-			return ((::System::Nullable_1<::System::UInt32>(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGEBUFFID_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_GET_PRIVATESTAGEBUFFID_OFFSET))(this);
 		}
 
-		::System::Void set_PrivateStageBuffID(::System::Nullable_1<::System::UInt32> a1)
+		::System::Void set_PrivateStageBuffID(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::UInt32>))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGEBUFFID_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL_SET_PRIVATESTAGEBUFFID_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AttackDamageType>* get_PrivateStageRecommendDamageTypes()
@@ -199,5 +195,6 @@ namespace RPG::Client::Challenge::Tierce
 		{
 			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTSTORYCONTROL__SET_PRIVATESTAGERECOMMENDDAMAGETYPES_B__55_0_OFFSET))(this);
 		}
+
 	};
 }

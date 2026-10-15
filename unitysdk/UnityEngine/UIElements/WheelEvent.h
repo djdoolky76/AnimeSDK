@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UIElements/MouseEventBase_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Event; }
+namespace UnityEngine::UIElements { class WheelEvent; }
 
-#define UNITYENGINE_UIELEMENTS_WHEELEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1EDFE720)
-#define UNITYENGINE_UIELEMENTS_WHEELEVENT_INIT_OFFSET UNITYSDK_OFFSET(0x1EE00C60)
-#define UNITYENGINE_UIELEMENTS_WHEELEVENT_LOCALINIT_OFFSET UNITYSDK_OFFSET(0x1EE00CC0)
-#define UNITYENGINE_UIELEMENTS_WHEELEVENT_SET_DELTA_OFFSET UNITYSDK_OFFSET(0x1EE00C40)
-#define UNITYENGINE_UIELEMENTS_WHEELEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE00CE0)
+#define UNITYENGINE_UIELEMENTS_WHEELEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C9F30)
+#define UNITYENGINE_UIELEMENTS_WHEELEVENT_GETPOOLED_OFFSET UNITYSDK_OFFSET(0x1F4C7970)
+#define UNITYENGINE_UIELEMENTS_WHEELEVENT_INIT_OFFSET UNITYSDK_OFFSET(0x1F4C9EB0)
+#define UNITYENGINE_UIELEMENTS_WHEELEVENT_LOCALINIT_OFFSET UNITYSDK_OFFSET(0x1F4C9F10)
+#define UNITYENGINE_UIELEMENTS_WHEELEVENT_SET_DELTA_OFFSET UNITYSDK_OFFSET(0x1F4C9E90)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int WheelEvent_TypeDefinitionIndex = 5956;
-
-	class WheelEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::WheelEvent*>
+	class WheelEvent
 	{
 	public:
 		::UnityEngine::Vector3 _delta_k__BackingField; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_WHEELEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_WHEELEVENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void set_delta(::UnityEngine::Vector3 a1)
@@ -44,5 +40,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_WHEELEVENT_LOCALINIT_OFFSET))(this);
 		}
+
 	};
 }

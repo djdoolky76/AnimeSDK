@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 class ShaderPropertyData;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Shader; }
 
-#define SHADERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xE912FD0)
+#define SHADERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xE968B30)
 
-inline static constexpr unsigned int ShaderGroup_TypeDefinitionIndex = 48010;
-
-class ShaderGroup : public ::System::Object
-{
-public:
-	::UnityEngine::Shader* shader; // 0x10
-	::System::Collections::Generic::List_1<::ShaderPropertyData*>* properties; // 0x18
-
-	::System::Void _ctor()
+	class ShaderGroup : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SHADERGROUP__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::UnityEngine::Shader* shader; // 0x10
+		::System::Collections::Generic::List_1<::ShaderPropertyData*>* properties; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SHADERGROUP_CTOR_OFFSET))(this);
+		}
+
+	};

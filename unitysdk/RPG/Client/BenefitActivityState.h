@@ -3,14 +3,12 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BenefitActivityState_TypeDefinitionIndex = 61483;
-
 	enum class BenefitActivityState : ::System::UInt32
 	{
-		LOCKED = 0x0,
-		WAITING_CHOOSE = 0x1,
-		WAITING_RESULT = 0x2,
-		WAITING_RESULT_EXTENDED = 0x3,
-		OVER = 0x4,
+		LOCKED = 0,
+		WAITING_CHOOSE = 1,
+		WAITING_RESULT = 2,
+		WAITING_RESULT_EXTENDED = 3,
+		OVER = 4,
 	};
 }

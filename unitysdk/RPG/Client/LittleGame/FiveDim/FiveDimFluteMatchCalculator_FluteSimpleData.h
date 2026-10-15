@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFluteMatchCalculator_FluteSimpleData_TypeDefinitionIndex = 76746;
-
 	struct alignas(8) FiveDimFluteMatchCalculator_FluteSimpleData
 	{
 		::System::UInt32 ID; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::String* Code; // 0x18
 	};
 }

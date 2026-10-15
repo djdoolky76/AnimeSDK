@@ -4,12 +4,10 @@
 #include "unitysdk/CriWare/CriMana/ColorSpaceConversionType.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANA_FRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x164F5A90)
+#define CRIWARE_CRIMANA_FRAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1671C6B0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int FrameInfo_TypeDefinitionIndex = 38914;
-
 	class FrameInfo : public ::System::Object
 	{
 	public:
@@ -31,10 +29,10 @@ namespace CriWare::CriMana
 		::System::UInt32 totalFramesPerFile; // 0x54
 		::CriWare::CriMana::ColorSpaceConversionType colorConv; // 0x58
 		::System::Int32 padding; // 0x5C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_FRAMEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_FRAMEINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

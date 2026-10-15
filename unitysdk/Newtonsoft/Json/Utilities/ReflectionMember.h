@@ -1,32 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class Type; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x1BF06AE0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1BF06AC0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x1BF06AF0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1BF06AD0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x1BF06B00)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF06B10)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C412EB0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_GETTER_OFFSET UNITYSDK_OFFSET(0x1C412E80)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_GET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1C412E60)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET UNITYSDK_OFFSET(0x1C412E90)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_MEMBERTYPE_OFFSET UNITYSDK_OFFSET(0x1C412E70)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET UNITYSDK_OFFSET(0x1C412EA0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 9587;
-
 	class ReflectionMember : public ::System::Object
 	{
 	public:
-		::System::Type* _MemberType_k__BackingField; // 0x10
+		::System::Action* _Setter_k__BackingField; // 0x10
 		::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField; // 0x18
-		::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField; // 0x20
-
+		::System::Type* _MemberType_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_CTOR_OFFSET))(this);
 		}
 
 		::System::Type* get_MemberType()
@@ -49,9 +46,10 @@ namespace Newtonsoft::Json::Utilities
 			return ((::System::Void(*)(::PVOID, ::System::Func_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_GETTER_OFFSET))(this, a1);
 		}
 
-		::System::Void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* a1)
+		::System::Void set_Setter(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_2<::System::Object*, ::System::Object*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONMEMBER_SET_SETTER_OFFSET))(this, a1);
 		}
+
 	};
 }

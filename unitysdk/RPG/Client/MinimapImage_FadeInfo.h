@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapImage_FadeInfo_TypeDefinitionIndex = 72500;
-
 	struct alignas(4) MinimapImage_FadeInfo
 	{
 		::System::Int32 section2Index; // 0x10

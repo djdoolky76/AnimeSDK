@@ -2,104 +2,105 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-
 namespace RPG::Client { class ReflectionHSVVolumeMonoPlugin; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xDE16420)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xDE16AC0)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xDE16A00)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xDE16A60)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xDE16B00)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xDE169A0)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_672D56D99D734395_OFFSET UNITYSDK_OFFSET(0xDE164A0)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_704FAC4600717444_OFFSET UNITYSDK_OFFSET(0xDE16C50)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_7C2C2820B36B9508_OFFSET UNITYSDK_OFFSET(0xDE16150)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0xDE16880)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xDE160B0)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xDE170C0)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xDE16B60)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xDE17270)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDE17200)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE64730)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xDE63EB0)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CKIHFFKOMIH_OFFSET UNITYSDK_OFFSET(0xDE63D90)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDE646C0)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xDE63930)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xDE63F10)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xDE635C0)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_LAIALCNFLHE_OFFSET UNITYSDK_OFFSET(0xDE64580)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xDE639B0)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xDE64010)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_NFMLEHEIEFH_OFFSET UNITYSDK_OFFSET(0xDE64160)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xDE63F70)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xDE63660)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xDE63FD0)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xDE64070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReflectionHSVVolumeBehavior_TypeDefinitionIndex = 70670;
-
 	class ReflectionHSVVolumeBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::Client::ReflectionHSVVolumeMonoPlugin*>** StaticGet_HSVVolumeList()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::ReflectionHSVVolumeMonoPlugin*>**)Il2CppClass::FromTypeDefinitionIndex(ReflectionHSVVolumeBehavior_TypeDefinitionIndex)->GetStaticField(0x5EBE0);
-		}
-		static ::System::Int32* StaticGet__ReflectionHSVVolumePosMatrixID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ReflectionHSVVolumeBehavior_TypeDefinitionIndex)->GetStaticField(0x13630);
-		}
-		static ::System::Int32* StaticGet__ReflectionHSVVolumeCountID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ReflectionHSVVolumeBehavior_TypeDefinitionIndex)->GetStaticField(0x13634);
-		}
-		static ::System::Int32* StaticGet__ReflectionHSVVolumeSizeMatrixID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ReflectionHSVVolumeBehavior_TypeDefinitionIndex)->GetStaticField(0x13638);
-		}
-		static ::System::Boolean* StaticGet_isDirty()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ReflectionHSVVolumeBehavior_TypeDefinitionIndex)->GetStaticField(0x1363C);
-		}
 		::UnityEngine::Matrix4x4 HSVVolumePosMatrix; // 0x38
 		::UnityEngine::Matrix4x4 HSVVolumeSizeMatrix; // 0x78
+		static ::System::Collections::Generic::List_1<::RPG::Client::ReflectionHSVVolumeMonoPlugin*>** StaticGet_HSVVolumeList()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::Client::ReflectionHSVVolumeMonoPlugin*>**)UnitySDK::FromName("RPG.Client", "ReflectionHSVVolumeBehavior")->GetStaticField(0x57C10);
+		}
+
+		static ::System::Int32* StaticGet__ReflectionHSVVolumeCountID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ReflectionHSVVolumeBehavior")->GetStaticField(0x13520);
+		}
+
+		static ::System::Boolean* StaticGet_isDirty()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "ReflectionHSVVolumeBehavior")->GetStaticField(0x13524);
+		}
+
+		static ::System::Int32* StaticGet__ReflectionHSVVolumePosMatrixID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ReflectionHSVVolumeBehavior")->GetStaticField(0x13528);
+		}
+
+		static ::System::Int32* StaticGet__ReflectionHSVVolumeSizeMatrixID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "ReflectionHSVVolumeBehavior")->GetStaticField(0x1352C);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_9681042564541CD6()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_7C2C2820B36B9508()
+		::System::Void PCNAKDOLCCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_7C2C2820B36B9508_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_PCNAKDOLCCD_OFFSET))(this);
 		}
 
-		::System::Void Method_3_672D56D99D734395()
+		::System::Void MFCDKJIHDEH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_672D56D99D734395_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_MFCDKJIHDEH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF()
+		::System::Void CGEJMGFOLMP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CGEJMGFOLMP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_1()
+		::System::Void JPKHCNDFAEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_JPKHCNDFAEL_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_2()
+		::System::Void OIBPOPCFDHA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_OIBPOPCFDHA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_391A84BCD9F51317()
+		::System::Boolean POOKPLGCKFE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_POOKPLGCKFE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_3()
+		::System::Void NEKGALPLEOH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_NEKGALPLEOH_OFFSET))(this);
 		}
 
 		::System::Void Tick(::System::Single a1)
@@ -107,24 +108,25 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_704FAC4600717444()
+		::System::Void NFMLEHEIEFH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_704FAC4600717444_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_NFMLEHEIEFH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_B1936CE4DA97AA45()
+		::System::Void LAIALCNFLHE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_B1936CE4DA97AA45_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_LAIALCNFLHE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_9681042564541CD6_1()
+		::System::Void CKIHFFKOMIH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_METHOD_3_9681042564541CD6_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_CKIHFFKOMIH_OFFSET))(this);
 		}
 
 		::RPG::Client::ReflectionHSVVolumeMonoPlugin* get__OwnerMonoPlugin()
 		{
 			return ((::RPG::Client::ReflectionHSVVolumeMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
 		}
+
 	};
 }

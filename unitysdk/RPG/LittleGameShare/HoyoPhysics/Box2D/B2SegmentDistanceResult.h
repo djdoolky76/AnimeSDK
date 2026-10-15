@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SegmentDistanceResult_TypeDefinitionIndex = 36059;
-
 	struct alignas(4) B2SegmentDistanceResult
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 closest1; // 0x10

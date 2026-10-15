@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/BlockExpression.h"
-
 namespace System { class Object; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
+namespace System::Linq::Expressions { class BlockExpression; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1E6D90C0)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1E6D9180)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1E6D9170)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E6D9190)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6D9040)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA1320)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EDA13A0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1EDA1460)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDA1450)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK5_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EDA1470)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Block5_TypeDefinitionIndex = 3196;
-
 	class Block5 : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg2; // 0x10
-		::System::Linq::Expressions::Expression* _arg3; // 0x18
-		::System::Object* _arg0; // 0x20
-		::System::Linq::Expressions::Expression* _arg4; // 0x28
-		::System::Linq::Expressions::Expression* _arg1; // 0x30
-
+		::System::Linq::Expressions::Expression* _arg3; // 0x10
+		::System::Linq::Expressions::Expression* _arg2; // 0x18
+		::System::Linq::Expressions::Expression* _arg4; // 0x20
+		::System::Linq::Expressions::Expression* _arg1; // 0x28
+		::System::Object* _arg0; // 0x30
 		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Linq::Expressions::Expression* a4, ::System::Linq::Expressions::Expression* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCK5__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCK5_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Linq::Expressions::Expression* GetExpression(::System::Int32 a1)
@@ -50,5 +47,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::BlockExpression*(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::Il2CppArray<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCK5_REWRITE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

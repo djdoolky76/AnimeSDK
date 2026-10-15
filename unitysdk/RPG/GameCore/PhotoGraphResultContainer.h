@@ -3,17 +3,15 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphAimContainerLogicOperator.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphResultContainerType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PhotoGraphResultContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_METHOD_2_C5E6A31C1C86E866_OFFSET UNITYSDK_OFFSET(0x1D32CFB0)
-#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D32D190)
+#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D912320)
+#define RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D912140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphResultContainer_TypeDefinitionIndex = 21375;
-
 	class PhotoGraphResultContainer : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -21,15 +19,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::PhotoGraphAimContainerLogicOperator LogicOperator; // 0x14
 		::Il2CppArray<::RPG::GameCore::PhotoGraphResultContainer*>* ChildResults; // 0x18
 		::System::String* ContainerFlagName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C5E6A31C1C86E866(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphResultContainer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphResultContainer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphResultContainer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_METHOD_2_C5E6A31C1C86E866_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphResultContainer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHRESULTCONTAINER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

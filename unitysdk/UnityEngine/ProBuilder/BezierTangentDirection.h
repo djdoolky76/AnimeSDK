@@ -3,8 +3,6 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int BezierTangentDirection_TypeDefinitionIndex = 43144;
-
 	enum class BezierTangentDirection : ::System::Int32
 	{
 		In = 0,

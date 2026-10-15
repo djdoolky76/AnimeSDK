@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x16523470)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x165234A0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1651DEA0)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x16523380)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1674A260)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1674A170)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1674A290)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x16744C60)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch_SimpleTapHandler_TypeDefinitionIndex = 38997;
-
 	class EasyTouch_SimpleTapHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::HedgehogTeam::EasyTouch::Gesture* a1)
@@ -38,5 +35,6 @@ namespace HedgehogTeam::EasyTouch
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH_SIMPLETAPHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

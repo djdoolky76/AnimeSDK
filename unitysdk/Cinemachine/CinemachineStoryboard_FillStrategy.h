@@ -3,8 +3,6 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStoryboard_FillStrategy_TypeDefinitionIndex = 38458;
-
 	enum class CinemachineStoryboard_FillStrategy : ::System::Int32
 	{
 		BestFit = 0,

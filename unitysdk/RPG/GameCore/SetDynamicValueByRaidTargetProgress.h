@@ -2,21 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DynamicValueContextScope.h"
 #include "unitysdk/RPG/GameCore/SetDynamicValueBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetDynamicValueByRaidTargetProgress; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D4F5420)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_METHOD_4_6BF546781508933C_OFFSET UNITYSDK_OFFSET(0x1D4F5210)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_METHOD_4_E37EFE594CA5CDF1_OFFSET UNITYSDK_OFFSET(0x1D4F51D0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F5200)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA9320)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1DAA9540)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA9330)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA92F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByRaidTargetProgress_TypeDefinitionIndex = 23389;
-
 	class SetDynamicValueByRaidTargetProgress : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
@@ -24,25 +22,25 @@ namespace RPG::GameCore
 		::System::String* CurrentProgressKey; // 0x20
 		::System::String* TotalProgressKey; // 0x28
 		::RPG::GameCore::DynamicValueContextScope ContextScope; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E37EFE594CA5CDF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_METHOD_4_E37EFE594CA5CDF1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6BF546781508933C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_METHOD_4_6BF546781508933C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetDynamicValueByRaidTargetProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Object* GetDynamicKey()
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICVALUEBYRAIDTARGETPROGRESS_GETDYNAMICKEY_OFFSET))(this);
 		}
+
 	};
 }

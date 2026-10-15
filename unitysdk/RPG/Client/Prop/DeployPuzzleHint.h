@@ -2,9 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
-
-class Class_1_DD6E273E77666B37;
-class Class_1_FA5914EF545C7C05;
+class NCAIMKJIOIJ;
+class PPJEOLNBABF;
 namespace RPG::Client::Prop { class DeployPuzzleBoard; }
 namespace RPG::Client::Prop { class HintConfigInfo; }
 namespace System { class Action; }
@@ -14,20 +13,18 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_DRAWHINTCONNECTION_OFFSET UNITYSDK_OFFSET(0xDC44ED0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_1AB9D4E0D4B0F708_OFFSET UNITYSDK_OFFSET(0xDC49D40)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_808A56A256840289_OFFSET UNITYSDK_OFFSET(0xDC49AF0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONINIT_OFFSET UNITYSDK_OFFSET(0xDC42EC0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONPUZZLEDESTROY_OFFSET UNITYSDK_OFFSET(0xDC47000)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ROTATESUBOBJECT_OFFSET UNITYSDK_OFFSET(0xDC47EA0)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_TRIGGERHINTLINERENDERSFADEOUT_OFFSET UNITYSDK_OFFSET(0xDC48660)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_UPDATE_OFFSET UNITYSDK_OFFSET(0xDC49A90)
-#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT__CTOR_OFFSET UNITYSDK_OFFSET(0xDC49EE0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_CKEIAFBFGPM_OFFSET UNITYSDK_OFFSET(0xDC94110)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC942B0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_DALKFEOAHFJ_OFFSET UNITYSDK_OFFSET(0xDC93EC0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_DRAWHINTCONNECTION_OFFSET UNITYSDK_OFFSET(0xDC8F2A0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONINIT_OFFSET UNITYSDK_OFFSET(0xDC8D230)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ONPUZZLEDESTROY_OFFSET UNITYSDK_OFFSET(0xDC913D0)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_ROTATESUBOBJECT_OFFSET UNITYSDK_OFFSET(0xDC92280)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_TRIGGERHINTLINERENDERSFADEOUT_OFFSET UNITYSDK_OFFSET(0xDC92A40)
+#define RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_UPDATE_OFFSET UNITYSDK_OFFSET(0xDC93E60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DeployPuzzleHint_TypeDefinitionIndex = 78064;
-
 	class DeployPuzzleHint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -38,12 +35,11 @@ namespace RPG::Client::Prop
 		::UnityEngine::Transform* BAPGEGKBLIE; // 0x38
 		::UnityEngine::Transform* PODLIODJFLJ; // 0x40
 		::UnityEngine::Quaternion POLIJKHBFJM; // 0x48
-		::System::Collections::Generic::List_1<::Class_1_DD6E273E77666B37*>* GNBNCNDMEGP; // 0x58
-		::System::Collections::Generic::Queue_1<::Class_1_FA5914EF545C7C05*>* EEOAJODBOHM; // 0x60
-
+		::System::Collections::Generic::List_1<::PPJEOLNBABF*>* GNBNCNDMEGP; // 0x58
+		::System::Collections::Generic::Queue_1<::NCAIMKJIOIJ*>* EEOAJODBOHM; // 0x60
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnInit(::RPG::Client::Prop::DeployPuzzleBoard* a1)
@@ -71,19 +67,20 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_1AB9D4E0D4B0F708(::System::Single a1)
+		::System::Void CKEIAFBFGPM(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_1AB9D4E0D4B0F708_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_CKEIAFBFGPM_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_808A56A256840289(::System::Single a1)
+		::System::Void DALKFEOAHFJ(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_METHOD_5_808A56A256840289_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_DALKFEOAHFJ_OFFSET))(this, a1);
 		}
 
 		::System::Void TriggerHintLineRendersFadeout(::System::Single a1, ::System::Single a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_DEPLOYPUZZLEHINT_TRIGGERHINTLINERENDERSFADEOUT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

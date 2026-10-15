@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Embree/EmbreeWrapperUnsafe_RTCHit.h"
 #include "unitysdk/RPG/Embree/EmbreeWrapperUnsafe_RTCRay.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCRayHit_TypeDefinitionIndex = 47488;
-
 	struct alignas(4) EmbreeWrapperUnsafe_RTCRayHit
 	{
 		::RPG::Embree::EmbreeWrapperUnsafe_RTCRay ray; // 0x10

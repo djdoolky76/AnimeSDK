@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
 #include "unitysdk/ZXing/BarcodeFormat.h"
 #include "unitysdk/ZXing/EncodeHintType.h"
-#include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_CODE39WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1EFF5D40)
-#define ZXING_ONED_CODE39WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EFF5CA0)
-#define ZXING_ONED_CODE39WRITER_TOINTARRAY_OFFSET UNITYSDK_OFFSET(0x1EFF6A30)
-#define ZXING_ONED_CODE39WRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEEEB0)
+#define ZXING_ONED_CODE39WRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B7440)
+#define ZXING_ONED_CODE39WRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F6BE280)
+#define ZXING_ONED_CODE39WRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6BE1E0)
+#define ZXING_ONED_CODE39WRITER_TOINTARRAY_OFFSET UNITYSDK_OFFSET(0x1F6BEF70)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code39Writer_TypeDefinitionIndex = 7032;
-
 	class Code39Writer : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_ONED_CODE39WRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_ONED_CODE39WRITER_CTOR_OFFSET))(this);
 		}
 
 		::ZXing::Common::BitMatrix* encode(::System::String* a1, ::ZXing::BarcodeFormat a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Collections::Generic::IDictionary_2<::ZXing::EncodeHintType, ::System::Object*>* a5)
@@ -40,5 +37,6 @@ namespace ZXing::OneD
 		{
 			return ((::System::Void(*)(::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + ZXING_ONED_CODE39WRITER_TOINTARRAY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_GET_X_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_GET_Y_OFFSET UNITYSDK_OFFSET(0x1E120)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_SET_X_OFFSET UNITYSDK_OFFSET(0x2E950)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_SET_Y_OFFSET UNITYSDK_OFFSET(0x2200)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU__CTOR_OFFSET UNITYSDK_OFFSET(0x7DC40)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_GET_X_OFFSET UNITYSDK_OFFSET(0xE620)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_GET_Y_OFFSET UNITYSDK_OFFSET(0xFE70)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_SET_X_OFFSET UNITYSDK_OFFSET(0xAF40)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_SET_Y_OFFSET UNITYSDK_OFFSET(0xFE80)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGPpu_TypeDefinitionIndex = 35383;
-
 	struct alignas(4) BGPpu
 	{
 		::System::Int32 x; // 0x10
 		::System::Int32 y; // 0x14
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 get_X()
@@ -41,5 +37,6 @@ namespace BansheeGz::BGSpline::Components
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPPU_SET_Y_OFFSET))(this, a1);
 		}
+
 	};
 }

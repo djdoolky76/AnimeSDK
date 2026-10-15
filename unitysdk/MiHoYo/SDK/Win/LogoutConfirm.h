@@ -1,34 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::Win { class LogoutConfirm; }
 namespace System { class Action; }
-namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Toggle; }
 namespace UnityEngine::UI { class ToggleGroup; }
 
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B88DB60)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKCANCELBUTTON_OFFSET UNITYSDK_OFFSET(0x1B88EDA0)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKLOGOUTBUTTON_OFFSET UNITYSDK_OFFSET(0x1B88EDC0)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1B88EF70)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B88EFE0)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1B88EE10)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B88E1F0)
-#define MIHOYO_SDK_WIN_LOGOUTCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88F000)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD89AC0)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKCANCELBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD8AF10)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CLICKLOGOUTBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD8AF30)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8B170)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD8B0E0)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD8B150)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD8AF80)
+#define MIHOYO_SDK_WIN_LOGOUTCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD8A230)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LogoutConfirm_TypeDefinitionIndex = 9239;
-
 	class LogoutConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::UnityEngine::UI::Button* cancelButton; // 0x58
+		::UnityEngine::UI::Button* logoutButton; // 0x60
+		::UnityEngine::UI::Toggle* clearToggle; // 0x68
+		::UnityEngine::UI::Toggle* saveToggle; // 0x70
+		::UnityEngine::UI::ToggleGroup* toggleGroup; // 0x78
+		::System::Action* OnCancelButtonClicked; // 0x80
+		::System::Action* OnLogoutButtonClicked; // 0x88
+		::System::Boolean isSaved; // 0x90
 		static ::MiHoYo::SDK::Win::LogoutConfirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::LogoutConfirm**)Il2CppClass::FromTypeDefinitionIndex(LogoutConfirm_TypeDefinitionIndex)->GetStaticField(0x2F5A0);
+			return (::MiHoYo::SDK::Win::LogoutConfirm**)UnitySDK::FromName("MiHoYo.SDK.Win", "LogoutConfirm")->GetStaticField(0x23A90);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* LogoutAndClearToggleTipsPath; // 0x0
@@ -37,18 +42,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* LogoutAndSaveNotePath; // 0x0
 		// static const ::System::String* CancelButtonTextPath; // 0x0
 		// static const ::System::String* LogoutButtonTextPath; // 0x0
-		::UnityEngine::UI::Button* cancelButton; // 0x58
-		::UnityEngine::UI::Button* logoutButton; // 0x60
-		::UnityEngine::UI::Toggle* clearToggle; // 0x68
-		::UnityEngine::UI::Toggle* saveToggle; // 0x70
-		::UnityEngine::UI::ToggleGroup* toggleGroup; // 0x78
-		::System::Action* OnCancelButtonClicked; // 0x80
-		::System::Action_1<::System::Boolean>* OnLogoutButtonClicked; // 0x88
-		::System::Boolean isSaved; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGOUTCONFIRM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGOUTCONFIRM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -85,5 +81,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGOUTCONFIRM_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

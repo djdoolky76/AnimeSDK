@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_PARSENUMBERS_CONVERTTOBASE16_OFFSET UNITYSDK_OFFSET(0x1BD87040)
-#define SYSTEM_PARSENUMBERS_CONVERTTOBASE2_OFFSET UNITYSDK_OFFSET(0x1BD85570)
-#define SYSTEM_PARSENUMBERS_CONVERTTOBASE8_OFFSET UNITYSDK_OFFSET(0x1BD86D40)
-#define SYSTEM_PARSENUMBERS_ENDIANSWAP_OFFSET UNITYSDK_OFFSET(0x1BD87B40)
-#define SYSTEM_PARSENUMBERS_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1BD87960)
-#define SYSTEM_PARSENUMBERS_LONGTOSTRING_OFFSET UNITYSDK_OFFSET(0x1BD85470)
-#define SYSTEM_PARSENUMBERS_STRINGTOINT_1_OFFSET UNITYSDK_OFFSET(0x1BD85030)
-#define SYSTEM_PARSENUMBERS_STRINGTOINT_OFFSET UNITYSDK_OFFSET(0x1BD85020)
-#define SYSTEM_PARSENUMBERS_STRINGTOLONG_1_OFFSET UNITYSDK_OFFSET(0x1BD87480)
-#define SYSTEM_PARSENUMBERS_STRINGTOLONG_OFFSET UNITYSDK_OFFSET(0x1BD87470)
+#define SYSTEM_PARSENUMBERS_CONVERTTOBASE16_OFFSET UNITYSDK_OFFSET(0x1C292CD0)
+#define SYSTEM_PARSENUMBERS_CONVERTTOBASE2_OFFSET UNITYSDK_OFFSET(0x1C291200)
+#define SYSTEM_PARSENUMBERS_CONVERTTOBASE8_OFFSET UNITYSDK_OFFSET(0x1C2929D0)
+#define SYSTEM_PARSENUMBERS_ENDIANSWAP_OFFSET UNITYSDK_OFFSET(0x1C2937D0)
+#define SYSTEM_PARSENUMBERS_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1C2935F0)
+#define SYSTEM_PARSENUMBERS_LONGTOSTRING_OFFSET UNITYSDK_OFFSET(0x1C291100)
+#define SYSTEM_PARSENUMBERS_STRINGTOINT_1_OFFSET UNITYSDK_OFFSET(0x1C290CC0)
+#define SYSTEM_PARSENUMBERS_STRINGTOINT_OFFSET UNITYSDK_OFFSET(0x1C290CB0)
+#define SYSTEM_PARSENUMBERS_STRINGTOLONG_1_OFFSET UNITYSDK_OFFSET(0x1C293110)
+#define SYSTEM_PARSENUMBERS_STRINGTOLONG_OFFSET UNITYSDK_OFFSET(0x1C293100)
 
 namespace System
 {
-	inline static constexpr unsigned int ParseNumbers_TypeDefinitionIndex = 374;
-
 	class ParseNumbers : public ::System::Object
 	{
 	public:
@@ -28,9 +26,9 @@ namespace System
 			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_STRINGTOINT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 StringToInt_1(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32* a4)
+		static ::System::Int32 StringToInt_1(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::PVOID a4)
 		{
-			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int32*))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_STRINGTOINT_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Int32(*)(::System::String*, ::System::Int32, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_STRINGTOINT_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::String* LongToString(::System::Int64 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Char a4, ::System::Int32 a5)
@@ -43,9 +41,9 @@ namespace System
 			return ((::System::Int64(*)(::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_STRINGTOLONG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int64 StringToLong_1(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32* a4)
+		static ::System::Int64 StringToLong_1(::System::String* a1, ::System::Int32 a2, ::System::Int32 a3, ::PVOID a4)
 		{
-			return ((::System::Int64(*)(::System::String*, ::System::Int32, ::System::Int32, ::System::Int32*))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_STRINGTOLONG_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Int64(*)(::System::String*, ::System::Int32, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_STRINGTOLONG_1_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::String* IntToString(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Char a4, ::System::Int32 a5)
@@ -53,9 +51,9 @@ namespace System
 			return ((::System::String*(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Char, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_INTTOSTRING_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void EndianSwap(::Il2CppArray<::System::Byte>*& a1)
+		static ::System::Void EndianSwap(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_ENDIANSWAP_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_ENDIANSWAP_OFFSET))(a1);
 		}
 
 		static ::System::Text::StringBuilder* ConvertToBase2(::Il2CppArray<::System::Byte>* a1)
@@ -72,5 +70,6 @@ namespace System
 		{
 			return ((::System::Text::StringBuilder*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_PARSENUMBERS_CONVERTTOBASE16_OFFSET))(a1);
 		}
+
 	};
 }

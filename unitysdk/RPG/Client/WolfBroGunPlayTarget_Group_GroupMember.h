@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client { class WolfBroGunPlayRoadConfig; }
 namespace RPG::Client { class WolfBroGunPlayTarget; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_Group_GroupMember_TypeDefinitionIndex = 68694;
-
 	struct alignas(8) WolfBroGunPlayTarget_Group_GroupMember
 	{
 		::RPG::Client::WolfBroGunPlayTarget* target; // 0x10

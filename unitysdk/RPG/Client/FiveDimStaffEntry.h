@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
-
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class BoxCollider; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_AWAKE_OFFSET UNITYSDK_OFFSET(0xD096C00)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_METHOD_6_4181217681EC94BE_OFFSET UNITYSDK_OFFSET(0xD096F40)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_METHOD_6_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0xD096DA0)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD096D50)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0xD096EF0)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0xD0970B0)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_AWAKE_OFFSET UNITYSDK_OFFSET(0xD037630)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_BLMPICNOABN_OFFSET UNITYSDK_OFFSET(0xD037790)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xD037AA0)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD037740)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0xD0378E0)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD037930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimStaffEntry_TypeDefinitionIndex = 60510;
-
 	class FiveDimStaffEntry : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
 		::UnityEngine::BoxCollider* Trigger; // 0x18
 		::UnityEngine::RectTransform* IGLNACMFMHF; // 0x20
 		::UnityEngine::Animation* KCOAILOHDND; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -45,14 +41,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_A1ADC999CFACEB89()
+		::System::Void BLMPICNOABN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_METHOD_6_A1ADC999CFACEB89_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_BLMPICNOABN_OFFSET))(this);
 		}
 
-		::System::Void Method_6_4181217681EC94BE(::UnityEngine::Collider* a1)
+		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_METHOD_6_4181217681EC94BE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_ONTRIGGERENTER_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CameraState_BlendHintValue_TypeDefinitionIndex = 38503;
-
 	enum class CameraState_BlendHintValue : ::System::Int32
 	{
 		Nothing = 0,
@@ -19,5 +17,6 @@ namespace Cinemachine
 		NoLens = 128,
 		IgnoreAdjustedTBlendOrientation = 256,
 		BlockFovAdjustT = 512,
+		ShortestPathRotationBlend = 1024,
 	};
 }

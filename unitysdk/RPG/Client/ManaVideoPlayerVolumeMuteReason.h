@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ManaVideoPlayerVolumeMuteReason_TypeDefinitionIndex = 73104;
-
 	enum class ManaVideoPlayerVolumeMuteReason : ::System::Int32
 	{
 		Default = 0,

@@ -2,22 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MAPUI3DIDENTIFIER_GET_ID_OFFSET UNITYSDK_OFFSET(0xD60F6C0)
-#define RPG_CLIENT_MAPUI3DIDENTIFIER_SETID_OFFSET UNITYSDK_OFFSET(0xD60F700)
-#define RPG_CLIENT_MAPUI3DIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xD60F750)
+#define RPG_CLIENT_MAPUI3DIDENTIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xD567C90)
+#define RPG_CLIENT_MAPUI3DIDENTIFIER_GET_ID_OFFSET UNITYSDK_OFFSET(0xD567C00)
+#define RPG_CLIENT_MAPUI3DIDENTIFIER_SETID_OFFSET UNITYSDK_OFFSET(0xD567C40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapUI3DIdentifier_TypeDefinitionIndex = 62992;
-
 	class MapUI3DIdentifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Int32 _id; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPUI3DIDENTIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPUI3DIDENTIFIER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_Id()
@@ -29,5 +26,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAPUI3DIDENTIFIER_SETID_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,42 +3,40 @@
 #include "unitysdk/Hdg/SerialisationHelpers_ArrayElementType.h"
 #include "unitysdk/Hdg/SerialisationHelpers_PrimitiveType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Array; }
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections { class IList; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_SERIALISATIONHELPERS_READLIST_OFFSET UNITYSDK_OFFSET(0xB188980)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0xB188B50)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0xB18CF20)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVES_OFFSET UNITYSDK_OFFSET(0xB189110)
-#define HDG_SERIALISATIONHELPERS_READPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xB18D520)
-#define HDG_SERIALISATIONHELPERS_READSERIALISERARRAY_OFFSET UNITYSDK_OFFSET(0xB188CA0)
-#define HDG_SERIALISATIONHELPERS_READUSERSTRUCTARRAY_OFFSET UNITYSDK_OFFSET(0xB189010)
-#define HDG_SERIALISATIONHELPERS_WRITELIST_OFFSET UNITYSDK_OFFSET(0xB184E70)
-#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0xB1852B0)
-#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xB187E40)
-#define HDG_SERIALISATIONHELPERS_WRITESERIALISERLIST_OFFSET UNITYSDK_OFFSET(0xB186F10)
-#define HDG_SERIALISATIONHELPERS_WRITEUSERSTRUCTLIST_OFFSET UNITYSDK_OFFSET(0xB1874E0)
-#define HDG_SERIALISATIONHELPERS__CCTOR_OFFSET UNITYSDK_OFFSET(0xB18DDB0)
+#define HDG_SERIALISATIONHELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF38F40)
+#define HDG_SERIALISATIONHELPERS_READLIST_OFFSET UNITYSDK_OFFSET(0xAF33B10)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVEARRAY_OFFSET UNITYSDK_OFFSET(0xAF33CE0)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0xAF380B0)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVES_OFFSET UNITYSDK_OFFSET(0xAF342A0)
+#define HDG_SERIALISATIONHELPERS_READPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xAF386B0)
+#define HDG_SERIALISATIONHELPERS_READSERIALISERARRAY_OFFSET UNITYSDK_OFFSET(0xAF33E30)
+#define HDG_SERIALISATIONHELPERS_READUSERSTRUCTARRAY_OFFSET UNITYSDK_OFFSET(0xAF341A0)
+#define HDG_SERIALISATIONHELPERS_WRITELIST_OFFSET UNITYSDK_OFFSET(0xAF2FFD0)
+#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVELIST_OFFSET UNITYSDK_OFFSET(0xAF30410)
+#define HDG_SERIALISATIONHELPERS_WRITEPRIMITIVE_OFFSET UNITYSDK_OFFSET(0xAF32FD0)
+#define HDG_SERIALISATIONHELPERS_WRITESERIALISERLIST_OFFSET UNITYSDK_OFFSET(0xAF32070)
+#define HDG_SERIALISATIONHELPERS_WRITEUSERSTRUCTLIST_OFFSET UNITYSDK_OFFSET(0xAF32640)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int SerialisationHelpers_TypeDefinitionIndex = 47402;
-
 	class SerialisationHelpers : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_PrimitiveTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(SerialisationHelpers_TypeDefinitionIndex)->GetStaticField(0x3D680);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("Hdg", "SerialisationHelpers")->GetStaticField(0x1B4D0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void WriteList(::System::IO::BinaryWriter* a1, ::System::Collections::IList* a2, ::Hdg::SerialisationHelpers_ArrayElementType a3)
@@ -66,9 +64,9 @@ namespace Hdg
 			return ((::System::Void(*)(::System::IO::BinaryWriter*, ::System::Object*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_WRITEPRIMITIVE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void ReadList(::System::IO::BinaryReader* a1, ::System::Collections::IList*& a2, ::Hdg::SerialisationHelpers_ArrayElementType& a3)
+		static ::System::Void ReadList(::System::IO::BinaryReader* a1, ::System::Collections::IList* a2, ::Hdg::SerialisationHelpers_ArrayElementType a3)
 		{
-			return ((::System::Void(*)(::System::IO::BinaryReader*, ::System::Collections::IList*&, ::Hdg::SerialisationHelpers_ArrayElementType&))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READLIST_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::IO::BinaryReader*, ::System::Collections::IList*, ::Hdg::SerialisationHelpers_ArrayElementType))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READLIST_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Array* ReadPrimitiveArray(::System::IO::BinaryReader* a1, ::System::Int32 a2)
@@ -100,5 +98,6 @@ namespace Hdg
 		{
 			return ((::System::Object*(*)(::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + HDG_SERIALISATIONHELPERS_READPRIMITIVE_OFFSET))(a1);
 		}
+
 	};
 }

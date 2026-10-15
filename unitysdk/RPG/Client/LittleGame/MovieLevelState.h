@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieLevelState_TypeDefinitionIndex = 41087;
-
 	enum class MovieLevelState : ::System::Int32
 	{
 		Ready = 0,

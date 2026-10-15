@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class HideStageItemBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE863EE0)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE863ED0)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_METHOD_4_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0xE863FD0)
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE864350)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_CCKGKFBCHAM_OFFSET UNITYSDK_OFFSET(0xE902190)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9020A0)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE902510)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE902090)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideStageItemClip_TypeDefinitionIndex = 48605;
-
 	class HideStageItemClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::HideStageItemBehaviour* template_; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,9 +33,10 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_8542E37E74FDE1B5()
+		::System::Void CCKGKFBCHAM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_METHOD_4_8542E37E74FDE1B5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDESTAGEITEMCLIP_CCKGKFBCHAM_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,53 +1,54 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class HeliobusSkillData; }
 namespace RPG::Client { class MainMissionData; }
 namespace RPG::GameCore { class DynamicValue; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HELIOBUSMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD3C7CC0)
-#define RPG_CLIENT_HELIOBUSMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD3C7CF0)
-#define RPG_CLIENT_HELIOBUSMODULE___C___INITHELIOBUSSKILLDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0xD3C7D00)
-#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_0_OFFSET UNITYSDK_OFFSET(0xD3C7D50)
-#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_1_OFFSET UNITYSDK_OFFSET(0xD3C7D60)
+#define RPG_CLIENT_HELIOBUSMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD31E560)
+#define RPG_CLIENT_HELIOBUSMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD31E590)
+#define RPG_CLIENT_HELIOBUSMODULE___C___INITHELIOBUSSKILLDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0xD31E5A0)
+#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_0_OFFSET UNITYSDK_OFFSET(0xD31E5F0)
+#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_1_OFFSET UNITYSDK_OFFSET(0xD31E600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusModule___c_TypeDefinitionIndex = 65729;
-
 	class HeliobusModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::HeliobusModule___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::HeliobusModule___c**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x5AC10);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13AF0);
 		}
-		static ::System::Comparison_1<::RPG::Client::HeliobusSkillData*>** StaticGet___9__66_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::HeliobusSkillData*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x5AC18);
-		}
+
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__97_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x5AC20);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13AF8);
 		}
-		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__97_0()
+
+		static ::System::Comparison_1<::RPG::Client::HeliobusSkillData*>** StaticGet___9__66_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x5AC28);
+			return (::System::Comparison_1<::RPG::Client::HeliobusSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13B00);
+		}
+
+		static ::System::Action** StaticGet___9__97_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13B08);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSMODULE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSMODULE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSMODULE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSMODULE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 __InitHeliobusSkillData_b__66_0(::RPG::Client::HeliobusSkillData* a1, ::RPG::Client::HeliobusSkillData* a2)
@@ -64,5 +65,6 @@ namespace RPG::Client
 		{
 			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::DynamicValue*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_1_OFFSET))(this, a1);
 		}
+
 	};
 }

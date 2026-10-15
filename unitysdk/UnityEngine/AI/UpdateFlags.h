@@ -3,8 +3,6 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int UpdateFlags_TypeDefinitionIndex = 5658;
-
 	enum class UpdateFlags : ::System::Int32
 	{
 		ObstacleAvoidance = 1,

@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/LittleGameSTTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceStableScopeGuarder; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_METHOD_5_81881C3AF212DCC6_OFFSET UNITYSDK_OFFSET(0x1CD54EF0)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_METHOD_5_E792206B071B7532_OFFSET UNITYSDK_OFFSET(0x1CD51130)
-#define RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD51120)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D328730)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D328740)
+#define RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D328640)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_Side_CakeRaceStableScopeGuarder_TypeDefinitionIndex = 10321;
-
 	class ST_Side_CakeRaceStableScopeGuarder : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_81881C3AF212DCC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_METHOD_5_81881C3AF212DCC6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_5_E792206B071B7532(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_METHOD_5_E792206B071B7532_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::LittleGameShare::ST_Side_CakeRaceStableScopeGuarder*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAMESHARE_ST_SIDE_CAKERACESTABLESCOPEGUARDER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

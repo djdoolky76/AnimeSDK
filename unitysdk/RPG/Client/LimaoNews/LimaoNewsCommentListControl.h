@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL_MOVETOCOMMENT_OFFSET UNITYSDK_OFFSET(0xD44A9B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD44AEB0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD44A890)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD44A7B0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__ONNEWITEM_OFFSET UNITYSDK_OFFSET(0xD44ABB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3A2040)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL_MOVETOCOMMENT_OFFSET UNITYSDK_OFFSET(0xD3A1AF0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3A19A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3A1890)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__ONNEWITEM_OFFSET UNITYSDK_OFFSET(0xD3A1D10)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsCommentListControl_TypeDefinitionIndex = 79029;
-
 	class LimaoNewsCommentListControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::StaticListView* _ListView; // 0x38
-		::UnityEngine::Transform* _NodeEmpty; // 0x40
-
+		::RPG::Client::StaticListView* _ListView; // 0x40
+		::UnityEngine::Transform* _NodeEmpty; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -48,5 +44,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::RPG::Client::StaticListViewItem*(*)(::PVOID, ::XLua::LuaTable*, ::RPG::Client::StaticListView*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTLISTCONTROL__ONNEWITEM_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

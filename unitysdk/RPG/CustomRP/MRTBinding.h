@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/RenderBufferLoadAction.h"
 #include "unitysdk/UnityEngine/Rendering/RenderBufferStoreAction.h"
 #include "unitysdk/UnityEngine/Rendering/RenderTargetBinding.h"
-
+#include "unitysdk/RPG/CustomRP/RTIDHandle.h"
 namespace RPG::CustomRP { class PassRTRes; }
 
-#define RPG_CUSTOMRP_MRTBINDING_INIT_OFFSET UNITYSDK_OFFSET(0x3B80140)
-#define RPG_CUSTOMRP_MRTBINDING_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x3B80260)
-#define RPG_CUSTOMRP_MRTBINDING_SETLOADACTION_OFFSET UNITYSDK_OFFSET(0x3B801E0)
-#define RPG_CUSTOMRP_MRTBINDING_SETRT_1_OFFSET UNITYSDK_OFFSET(0x3B80160)
-#define RPG_CUSTOMRP_MRTBINDING_SETRT_OFFSET UNITYSDK_OFFSET(0x3B80150)
-#define RPG_CUSTOMRP_MRTBINDING_SETSTOREACTION_OFFSET UNITYSDK_OFFSET(0x3B80220)
-#define RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET UNITYSDK_OFFSET(0x3B80170)
+#define RPG_CUSTOMRP_MRTBINDING_INIT_OFFSET UNITYSDK_OFFSET(0x3C34F00)
+#define RPG_CUSTOMRP_MRTBINDING_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x3C35020)
+#define RPG_CUSTOMRP_MRTBINDING_SETLOADACTION_OFFSET UNITYSDK_OFFSET(0x3C34FA0)
+#define RPG_CUSTOMRP_MRTBINDING_SETRT_1_OFFSET UNITYSDK_OFFSET(0x3C34F20)
+#define RPG_CUSTOMRP_MRTBINDING_SETRT_OFFSET UNITYSDK_OFFSET(0x3C34F10)
+#define RPG_CUSTOMRP_MRTBINDING_SETSTOREACTION_OFFSET UNITYSDK_OFFSET(0x3C34FE0)
+#define RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET UNITYSDK_OFFSET(0x3C34F30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MRTBinding_TypeDefinitionIndex = 37196;
-
 	struct alignas(8) MRTBinding
 	{
 		::UnityEngine::Rendering::RenderTargetBinding rtBinding; // 0x10
 		::Il2CppArray<::System::Int32>* colors; // 0x58
 		::System::Int32 depth; // 0x60
-
 		::System::Void Init(::System::Int32 a1, ::System::Int32 a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_INIT_OFFSET))(this, a1, a2);
@@ -40,12 +36,10 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::CustomRP::PassRTRes*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETRT_1_OFFSET))(this, a1, a2);
 		}
 
-		/*
-		::System::Void SetTmpRT(::System::Int32 a1, ::RPG::CustomRP::RTIDHandle& a2)
+		::System::Void SetTmpRT(::System::Int32 a1, ::RPG::CustomRP::RTIDHandle a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::CustomRP::RTIDHandle&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::CustomRP::RTIDHandle))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_SETTMPRT_OFFSET))(this, a1, a2);
 		}
-		*/
 
 		::System::Void SetLoadAction(::System::Int32 a1, ::UnityEngine::Rendering::RenderBufferLoadAction a2)
 		{
@@ -61,5 +55,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MRTBINDING_ISCHANGED_OFFSET))(this, a1);
 		}
+
 	};
 }

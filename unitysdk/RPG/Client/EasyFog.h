@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_0C4F666150CF6EB8_CustomColorBlendMode.h"
+#include "unitysdk/PPEHOFBJEHE_CustomColorBlendMode.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
-#include "unitysdk/ScenenLightManager/SceneManagedLightTAMonoPluginBase_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-class Class_4_0C4F666150CF6EB8;
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0xCDBDA40)
-#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0xCDBD9F0)
-#define RPG_CLIENT_EASYFOG__CTOR_OFFSET UNITYSDK_OFFSET(0xCDBDA90)
+#define RPG_CLIENT_EASYFOG_CTOR_OFFSET UNITYSDK_OFFSET(0xCD0EE50)
+#define RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET UNITYSDK_OFFSET(0xCD0EE00)
+#define RPG_CLIENT_EASYFOG_GET_OPACITYMAP_OFFSET UNITYSDK_OFFSET(0xCD0EDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EasyFog_TypeDefinitionIndex = 70746;
-
-	class EasyFog : public ::ScenenLightManager::SceneManagedLightTAMonoPluginBase_1<::Class_4_0C4F666150CF6EB8*>
+	class EasyFog
 	{
 	public:
 		::UnityEngine::Material* easyFogTemplateMaterial; // 0x30
 		::UnityEngine::Color baseColorTint; // 0x38
 		::System::Single fogDensity; // 0x48
 		::System::Boolean useCustomMap; // 0x4C
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Texture2D* opacityMap; // 0x50
 		::UnityEngine::Texture2D* fogNormalMap; // 0x58
 		::UnityEngine::Texture2D* customOpacityMap; // 0x60
@@ -39,9 +35,9 @@ namespace RPG::Client
 		::System::Single distortIntensity; // 0x9C
 		::System::Single directionalLightIntensity; // 0xA0
 		::UnityEngine::Color customDirectionalLightColor; // 0xA4
-		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode directionalLightBlendMode; // 0xB4
+		::PPEHOFBJEHE_CustomColorBlendMode directionalLightBlendMode; // 0xB4
 		::UnityEngine::Color customAmbientColor; // 0xB8
-		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode ambientLightBlendMode; // 0xC8
+		::PPEHOFBJEHE_CustomColorBlendMode ambientLightBlendMode; // 0xC8
 		::UnityEngine::Color customEmissiveColor; // 0xCC
 		::System::Single softParticlesNearFadeDistance; // 0xDC
 		::System::Single softParticlesFarFadeDistance; // 0xE0
@@ -49,14 +45,15 @@ namespace RPG::Client
 		::System::Single cameraFarFadeDistance; // 0xE8
 		::System::Boolean blenderFogOn; // 0xEC
 		::System::Boolean volumeFogOn; // 0xED
+		::System::Byte _padding1[0x2];
 		::RPG::CustomRP::CustomLightQualityFilter lightQualityFilter; // 0xF0
 		::System::Int32 LightQualityVersion; // 0xF4
 		::System::Boolean overrideRenderQueue; // 0xF8
+		::System::Byte _padding2[0x3];
 		::System::Int32 renderQueue; // 0xFC
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EASYFOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EASYFOG_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Texture2D* get_OpacityMap()
@@ -68,5 +65,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Texture2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EASYFOG_GET_FOGNORMALMAP_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int ValueQueue_1_TypeDefinitionIndex = 6149;
-
 	template <typename T>
-	struct ValueQueue_1
+	struct alignas(8) ValueQueue_1
 	{
 		::Il2CppArray<T>* items; // 0x0
 		::System::Int32 head; // 0x0

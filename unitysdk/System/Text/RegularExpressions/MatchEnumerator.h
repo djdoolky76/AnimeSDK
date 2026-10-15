@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Text::RegularExpressions { class Match; }
 namespace System::Text::RegularExpressions { class MatchCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E9F1F90)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E9F1F40)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E9F1FE0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F1EE0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B9A80)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0B9B30)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F0B9AE0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F0B9B80)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int MatchEnumerator_TypeDefinitionIndex = 2521;
-
 	class MatchEnumerator : public ::System::Object
 	{
 	public:
 		::System::Text::RegularExpressions::MatchCollection* _matchcoll; // 0x10
 		::System::Text::RegularExpressions::Match* _match; // 0x18
 		::System::Boolean _done; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 _curindex; // 0x24
-
 		::System::Void _ctor(::System::Text::RegularExpressions::MatchCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::MatchCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::MatchCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean MoveNext()
@@ -41,5 +39,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET))(this);
 		}
+
 	};
 }

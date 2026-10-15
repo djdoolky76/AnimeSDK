@@ -1,18 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BC4930)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BC4880)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BC4870)
-#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1ED60270)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C7A640)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C7A590)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C7A580)
+#define UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F428530)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SphericalHarmonicsL2_TypeDefinitionIndex = 4729;
-
 	struct alignas(4) SphericalHarmonicsL2
 	{
 		::System::Single shr0; // 0x10
@@ -42,7 +38,6 @@ namespace UnityEngine::Rendering
 		::System::Single shb6; // 0x70
 		::System::Single shb7; // 0x74
 		::System::Single shb8; // 0x78
-
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_GETHASHCODE_OFFSET))(this);
@@ -53,14 +48,19 @@ namespace UnityEngine::Rendering
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::Rendering::SphericalHarmonicsL2 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 a1, ::UnityEngine::Rendering::SphericalHarmonicsL2 a2)
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SPHERICALHARMONICSL2_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
+
 	};
 }

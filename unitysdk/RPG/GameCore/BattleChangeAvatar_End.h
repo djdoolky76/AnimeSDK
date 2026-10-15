@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattleChangeAvatar_End; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_END_METHOD_3_9F8AF0482866F9DB_OFFSET UNITYSDK_OFFSET(0x1CE6BAC0)
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_END_METHOD_3_BECEB47B6BA86EDE_OFFSET UNITYSDK_OFFSET(0x1CE6BB90)
-#define RPG_GAMECORE_BATTLECHANGEAVATAR_END__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE6BB80)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_END_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4536C0)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_END_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4536D0)
+#define RPG_GAMECORE_BATTLECHANGEAVATAR_END_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D453600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleChangeAvatar_End_TypeDefinitionIndex = 22524;
-
 	class BattleChangeAvatar_End : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_END__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_END_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9F8AF0482866F9DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleChangeAvatar_End*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleChangeAvatar_End* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleChangeAvatar_End*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_END_METHOD_3_9F8AF0482866F9DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleChangeAvatar_End*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_END_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BECEB47B6BA86EDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleChangeAvatar_End* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleChangeAvatar_End* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleChangeAvatar_End*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_END_METHOD_3_BECEB47B6BA86EDE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleChangeAvatar_End*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECHANGEAVATAR_END_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

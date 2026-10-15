@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterConfig.h"
 #include "unitysdk/RPG/GameCore/CharacterOverrideConfig_OverrideSkillConfigContext.h"
-
-class Class_1_1C30CE192ABE4C54;
-class Class_1_7A22A3DBEEDD1F80;
+class ENEIHJJPNPI;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterOverrideConfig; }
 namespace RPG::GameCore { class SkillAbilityConfig; }
 namespace RPG::GameCore { class SkillConfig; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_14EC74BA8FE5D0ED_OFFSET UNITYSDK_OFFSET(0x1CF99E00)
-#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_2814500FC2096A12_OFFSET UNITYSDK_OFFSET(0x1CF9B0C0)
-#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_53216CC327ED0939_OFFSET UNITYSDK_OFFSET(0x1CF9A8E0)
-#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_64D48032FAFF8ED5_OFFSET UNITYSDK_OFFSET(0x1CF99F10)
-#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_929DB29232C80A02_OFFSET UNITYSDK_OFFSET(0x1CF9B190)
-#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_B2525A63B6135506_OFFSET UNITYSDK_OFFSET(0x1CF92F50)
-#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF92E60)
+#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_BJLINDIMFHM_OFFSET UNITYSDK_OFFSET(0x1D574BA0)
+#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56D180)
+#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_EFJHJJKLPHB_OFFSET UNITYSDK_OFFSET(0x1D575570)
+#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_MEDFPCFFEDI_1_OFFSET UNITYSDK_OFFSET(0x1D575E20)
+#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_MEDFPCFFEDI_OFFSET UNITYSDK_OFFSET(0x1D575D50)
+#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56D270)
+#define RPG_GAMECORE_CHARACTEROVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D574A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOverrideConfig_TypeDefinitionIndex = 16345;
-
 	class CharacterOverrideConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:
@@ -29,41 +27,41 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::String*>* DLCPathList; // 0x228
 		::Il2CppArray<::System::String*>* InheritSkillList; // 0x230
 		::Il2CppArray<::System::String*>* ReplacedSkillList; // 0x238
-		::Class_1_1C30CE192ABE4C54* AdditiveDynamicValues; // 0x240
-
+		::ENEIHJJPNPI* AdditiveDynamicValues; // 0x240
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_14EC74BA8FE5D0ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterOverrideConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterOverrideConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterOverrideConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_14EC74BA8FE5D0ED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B2525A63B6135506(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterOverrideConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterOverrideConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_B2525A63B6135506_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterOverrideConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_64D48032FAFF8ED5(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext a1, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillConfig*>*& a2, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillAbilityConfig*>*& a3)
+		static ::System::Void BJLINDIMFHM(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillConfig*>*&, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillAbilityConfig*>*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_64D48032FAFF8ED5_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_BJLINDIMFHM_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Method_3_53216CC327ED0939(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext a1, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillConfig*>*& a2, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillAbilityConfig*>*& a3)
+		static ::System::Void EFJHJJKLPHB(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillConfig*>*&, ::System::Collections::Generic::List_1<::RPG::GameCore::SkillAbilityConfig*>*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_53216CC327ED0939_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::RPG::GameCore::CharacterOverrideConfig_OverrideSkillConfigContext, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_EFJHJJKLPHB_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Int32 Method_3_2814500FC2096A12(::Il2CppArray<::RPG::GameCore::SkillConfig*>* a1, ::System::String* a2)
+		static ::System::Int32 MEDFPCFFEDI(::Il2CppArray<::RPG::GameCore::SkillConfig*>* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::RPG::GameCore::SkillConfig*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_2814500FC2096A12_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::Il2CppArray<::RPG::GameCore::SkillConfig*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_MEDFPCFFEDI_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 Method_3_929DB29232C80A02(::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>* a1, ::System::String* a2)
+		static ::System::Int32 MEDFPCFFEDI_1(::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>* a1, ::System::String* a2)
 		{
-			return ((::System::Int32(*)(::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_METHOD_3_929DB29232C80A02_OFFSET))(a1, a2);
+			return ((::System::Int32(*)(::Il2CppArray<::RPG::GameCore::SkillAbilityConfig*>*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTEROVERRIDECONFIG_MEDFPCFFEDI_1_OFFSET))(a1, a2);
 		}
+
 	};
 }

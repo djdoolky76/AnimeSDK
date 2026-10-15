@@ -2,28 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
-
 namespace RPG::CustomRP { class ColorGradingGradualParameter; }
 namespace RPG::CustomRP { class TrackBallParameter; }
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 
-#define RPG_CUSTOMRP_RPGCOLORGRADING_GETLUTFORMAT_OFFSET UNITYSDK_OFFSET(0x1C6BD420)
-#define RPG_CUSTOMRP_RPGCOLORGRADING__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6BD9E0)
-#define RPG_CUSTOMRP_RPGCOLORGRADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6BD480)
+#define RPG_CUSTOMRP_RPGCOLORGRADING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC43830)
+#define RPG_CUSTOMRP_RPGCOLORGRADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC432D0)
+#define RPG_CUSTOMRP_RPGCOLORGRADING_GETLUTFORMAT_OFFSET UNITYSDK_OFFSET(0x1CC43270)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGColorGrading_TypeDefinitionIndex = 37112;
-
 	class RPGColorGrading : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
-		static ::System::Int32* StaticGet_k_Lut2DSize()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(RPGColorGrading_TypeDefinitionIndex)->GetStaticField(0xED20);
-		}
 		::UnityEngine::Rendering::FloatParameter* ColorCorrectionShadowMax; // 0x38
 		::UnityEngine::Rendering::FloatParameter* ColorCorrectionHighlightMin; // 0x40
 		::UnityEngine::Rendering::FloatParameter* LevelHighLightTone; // 0x48
@@ -49,20 +42,25 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* StartRadius; // 0xE8
 		::UnityEngine::Rendering::FloatParameter* BlendRadius; // 0xF0
 		::UnityEngine::Rendering::FloatParameter* Angle; // 0xF8
+		static ::System::Int32* StaticGet_k_Lut2DSize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RPGColorGrading")->GetStaticField(0xAAC0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGCOLORGRADING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGCOLORGRADING_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGCOLORGRADING__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGCOLORGRADING_CCTOR_OFFSET))();
 		}
 
 		static ::UnityEngine::RenderTextureFormat GetLutFormat()
 		{
 			return ((::UnityEngine::RenderTextureFormat(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGCOLORGRADING_GETLUTFORMAT_OFFSET))();
 		}
+
 	};
 }

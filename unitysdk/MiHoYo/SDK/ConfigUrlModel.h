@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIGURLMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75DCB0)
+#define MIHOYO_SDK_CONFIGURLMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5C0B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigUrlModel_TypeDefinitionIndex = 7850;
-
 	class ConfigUrlModel : public ::System::Object
 	{
 	public:
@@ -221,10 +218,10 @@ namespace MiHoYo::SDK
 		::System::String* enterRoom; // 0x678
 		::System::String* checkDeviceLimit; // 0x680
 		::System::String* bindDevice; // 0x688
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIGURLMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONFIGURLMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

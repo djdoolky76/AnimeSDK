@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HableCurve_DirectParams_TypeDefinitionIndex = 34933;
-
 	struct alignas(4) HableCurve_DirectParams
 	{
 		::System::Single x0; // 0x10

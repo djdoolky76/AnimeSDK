@@ -7,11 +7,11 @@
 #include "unitysdk/RPG/GameCore/StageType.h"
 #include "unitysdk/RPG/MVector2.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionBarStyleSizeSetting; }
 namespace RPG::GameCore { class DamageTextPoolMaxSizeOfGraphicsQuality; }
 namespace RPG::GameCore { class ElationLevelSetting; }
+namespace RPG::GameCore { class GameCoreUISetting; }
 namespace RPG::GameCore { class HighlightOutlineSetting; }
 namespace RPG::GameCore { class ModifierDestroyTextInfo; }
 namespace RPG::GameCore { class MonsterEnergyBarNumColorSetting; }
@@ -23,21 +23,21 @@ namespace RPG::GameCore { class UIPanelGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D130660)
-#define RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13C7F0)
+#define RPG_GAMECORE_GAMECOREUISETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7160C0)
+#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D713770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 16946;
-
 	class GameCoreUISetting : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::Client::TextID TauntBattleMessageTextmapID; // 0x10
 		::System::String* TauntBattleMessageIcon; // 0x20
 		::System::Single TauntBattleMessageTime; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* InvalidSkillTargetBattleMessageIcon; // 0x30
 		::System::Single SkillButtonTime; // 0x38
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::String*>* ItemRarityColorStr; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::TextID>* EffectMessageTypeToTextID; // 0x48
 		::System::Single SkillButtonGapTime; // 0x50
@@ -55,6 +55,7 @@ namespace RPG::GameCore
 		::RPG::MVector3 DamageTextOffset; // 0x80
 		::System::Single DamageTextDitherRangeX; // 0x8C
 		::System::Single DamageTextDitherRangeY; // 0x90
+		::System::Byte _padding2[0x4];
 		::System::String* BattleEventEntityHeadIcon; // 0x98
 		::System::String* AllyOutlineAnimPath; // 0xA0
 		::System::String* EnemyOutlineAnimPath; // 0xA8
@@ -87,6 +88,7 @@ namespace RPG::GameCore
 		::System::Single JoystickWalkRange; // 0x1E8
 		::System::Single PlayerFootprintSpawnInterval; // 0x1EC
 		::System::Single PlayerFootprintLifetime; // 0x1F0
+		::System::Byte _padding3[0x4];
 		::System::String* PlayerFootprintPath; // 0x1F8
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::TextID, ::System::String*>* SkillTypeColor; // 0x200
 		::System::Single HPBarCameraOffsetYFar; // 0x208
@@ -96,13 +98,16 @@ namespace RPG::GameCore
 		::System::Single ShowBuffGapTime; // 0x218
 		::System::Single ShowBuffDamageTextGapTime; // 0x21C
 		::System::Boolean CheckUIFollow3DTargetVisibility; // 0x220
+		::System::Byte _padding4[0x3];
 		::System::Single DelayTextShowDuration; // 0x224
 		::System::String* MinimapMapCirclePrefabPath; // 0x228
 		::System::String* MinimapMapBackgroundPrefabPath; // 0x230
 		::System::String* MinimapMapTraceMissionEffectPath; // 0x238
 		::System::Single AnchorWaypointHeight; // 0x240
+		::System::Byte _padding5[0x4];
 		::System::String* WaypointTargetAttachPoint; // 0x248
 		::System::Single WaypointAttachPointOffset; // 0x250
+		::System::Byte _padding6[0x4];
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToEnergyBarDot; // 0x258
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToSummonerEnergyBarDot; // 0x260
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToUltraFrameColor; // 0x268
@@ -114,6 +119,7 @@ namespace RPG::GameCore
 		::System::Single TargetPreviewMoveTimeLength; // 0x290
 		::System::Single HpRedRatio; // 0x294
 		::System::Single DotDamageOutline1Width; // 0x298
+		::System::Byte _padding7[0x4];
 		::System::String* HPHurtColor; // 0x2A0
 		::System::String* HPHealColor; // 0x2A8
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::RPG::Client::TextID>* DispelStatusTypeToTextID; // 0x2B0
@@ -125,21 +131,23 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::ModifierDestroyTextInfo*>* ModifierDestroyTextID; // 0x2E0
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIPanelGroup*>* UIPanelGroups; // 0x2E8
 		::System::Single HPRefreshMaxInterval; // 0x2F0
+		::System::Byte _padding8[0x4];
 		::Il2CppArray<::RPG::GameCore::StageType>* GlobalBuffBtnStageTypeBlackList; // 0x2F8
 		::RPG::GameCore::MonsterEnergyBarNumColorSetting* MonsterEnergyBarNumColorSetting; // 0x300
 		::System::UInt32 MaxShowBPCount; // 0x308
+		::System::Byte _padding9[0x4];
 		::RPG::GameCore::DamageTextPoolMaxSizeOfGraphicsQuality* DamageTextPoolMaxSize; // 0x310
 		::RPG::GameCore::ElationLevelSetting* ElationLevelSetting; // 0x318
 		::RPG::GameCore::MonsterHPBarStyleColorConfig* MonsterHPBarStyleColorConfig; // 0x320
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOREUISETTING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameCoreUISetting*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::GameCoreUISetting* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameCoreUISetting*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GameCoreUISetting*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

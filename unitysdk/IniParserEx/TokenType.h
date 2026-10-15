@@ -3,8 +3,6 @@
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int TokenType_TypeDefinitionIndex = 3921;
-
 	enum class TokenType : ::System::Int32
 	{
 		None = 0,

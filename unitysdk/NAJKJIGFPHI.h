@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/AHHNGJGLOKA.h"
+class AIKNOONFCFG;
+class JCMDOLKLKEL;
+class POKKCEHMFMJ;
+
+#define NAJKJIGFPHI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBAA1B30)
+#define NAJKJIGFPHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA1AA0)
+
+	class NAJKJIGFPHI : public ::System::Object
+	{
+	public:
+		::JCMDOLKLKEL* ONGDFCGGFDM; // 0x10
+		::POKKCEHMFMJ* LBNAGLIGKIO; // 0x18
+		::System::Void _ctor(::JCMDOLKLKEL* a1, ::POKKCEHMFMJ* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::JCMDOLKLKEL*, ::POKKCEHMFMJ*))((::PBYTE)hIl2Cpp + NAJKJIGFPHI_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::AIKNOONFCFG* BPLPBPMEODA(::AHHNGJGLOKA a1)
+		{
+			return ((::AIKNOONFCFG*(*)(::PVOID, ::AHHNGJGLOKA))((::PBYTE)hIl2Cpp + NAJKJIGFPHI_BPLPBPMEODA_OFFSET))(this, a1);
+		}
+
+	};

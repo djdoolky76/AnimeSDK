@@ -2,39 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
-#define RPG_CLIENT_AIRLINE_AWAKE_OFFSET UNITYSDK_OFFSET(0xC71F050)
-#define RPG_CLIENT_AIRLINE_GETCLOSETPOINT_OFFSET UNITYSDK_OFFSET(0xC71E850)
-#define RPG_CLIENT_AIRLINE_GETCLOSETPOSITION_OFFSET UNITYSDK_OFFSET(0xC71E6D0)
-#define RPG_CLIENT_AIRLINE_GETPOINTPOSANDTANGENT_OFFSET UNITYSDK_OFFSET(0xC71ED60)
-#define RPG_CLIENT_AIRLINE_GETPOINTPOS_OFFSET UNITYSDK_OFFSET(0xC71EEC0)
-#define RPG_CLIENT_AIRLINE_GETPOINTTANGENT_OFFSET UNITYSDK_OFFSET(0xC71ECB0)
-#define RPG_CLIENT_AIRLINE_GETPOINT_OFFSET UNITYSDK_OFFSET(0xC71EFE0)
-#define RPG_CLIENT_AIRLINE_GET_ISLINECURVEINVALID_OFFSET UNITYSDK_OFFSET(0xC71E460)
-#define RPG_CLIENT_AIRLINE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xC71E550)
-#define RPG_CLIENT_AIRLINE_ISINLINECURVEPOINTRANGE_OFFSET UNITYSDK_OFFSET(0xC71E4E0)
-#define RPG_CLIENT_AIRLINE_METHOD_5_0EB2899F45F512FE_OFFSET UNITYSDK_OFFSET(0xC71E570)
-#define RPG_CLIENT_AIRLINE_METHOD_5_9803DB6CC606FD86_OFFSET UNITYSDK_OFFSET(0xC71EA20)
-#define RPG_CLIENT_AIRLINE_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0xC71E560)
-#define RPG_CLIENT_AIRLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xC71F120)
+#define RPG_CLIENT_AIRLINE_AWAKE_OFFSET UNITYSDK_OFFSET(0xC63D250)
+#define RPG_CLIENT_AIRLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xC63D320)
+#define RPG_CLIENT_AIRLINE_EEBHKLGIHDP_OFFSET UNITYSDK_OFFSET(0xC63CC20)
+#define RPG_CLIENT_AIRLINE_GETCLOSETPOINT_OFFSET UNITYSDK_OFFSET(0xC63CA50)
+#define RPG_CLIENT_AIRLINE_GETCLOSETPOSITION_OFFSET UNITYSDK_OFFSET(0xC63C8D0)
+#define RPG_CLIENT_AIRLINE_GETPOINTPOSANDTANGENT_OFFSET UNITYSDK_OFFSET(0xC63CF60)
+#define RPG_CLIENT_AIRLINE_GETPOINTPOS_OFFSET UNITYSDK_OFFSET(0xC63D0C0)
+#define RPG_CLIENT_AIRLINE_GETPOINTTANGENT_OFFSET UNITYSDK_OFFSET(0xC63CEB0)
+#define RPG_CLIENT_AIRLINE_GETPOINT_OFFSET UNITYSDK_OFFSET(0xC63D1E0)
+#define RPG_CLIENT_AIRLINE_GET_ISLINECURVEINVALID_OFFSET UNITYSDK_OFFSET(0xC63C660)
+#define RPG_CLIENT_AIRLINE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xC63C750)
+#define RPG_CLIENT_AIRLINE_ISINLINECURVEPOINTRANGE_OFFSET UNITYSDK_OFFSET(0xC63C6E0)
+#define RPG_CLIENT_AIRLINE_KMJFCCHPBII_OFFSET UNITYSDK_OFFSET(0xC63C770)
+#define RPG_CLIENT_AIRLINE_SET_LENGTH_OFFSET UNITYSDK_OFFSET(0xC63C760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Airline_TypeDefinitionIndex = 59902;
-
 	class Airline : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::BansheeGz::BGSpline::Curve::BGCurve* lineCurve; // 0x18
 		::System::Single _Length_k__BackingField; // 0x20
+		::System::Byte _padding0[0x4];
 		::BansheeGz::BGSpline::Components::BGCcMath* FEBODGEEPFP; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsLineCurveInValid()
@@ -57,9 +54,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_SET_LENGTH_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_5_0EB2899F45F512FE()
+		::System::Boolean KMJFCCHPBII()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_METHOD_5_0EB2899F45F512FE_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_KMJFCCHPBII_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 GetClosetPosition(::UnityEngine::Vector3 a1)
@@ -67,9 +64,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_GETCLOSETPOSITION_OFFSET))(this, a1);
 		}
 
-		::System::Single GetClosetPoint(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
+		::System::Single GetClosetPoint(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_GETCLOSETPOINT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_GETCLOSETPOINT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 GetPointTangent(::System::Single a1)
@@ -77,9 +74,9 @@ namespace RPG::Client
 			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_GETPOINTTANGENT_OFFSET))(this, a1);
 		}
 
-		::System::Void GetPointPosAndTangent(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
+		::System::Void GetPointPosAndTangent(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_GETPOINTPOSANDTANGENT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_GETPOINTPOSANDTANGENT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::UnityEngine::Vector3 GetPointPos(::System::Int32 a1)
@@ -92,14 +89,15 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_GETPOINT_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_9803DB6CC606FD86(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Vector3& a3)
+		::System::Void EEBHKLGIHDP(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_METHOD_5_9803DB6CC606FD86_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_EEBHKLGIHDP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Awake()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINE_AWAKE_OFFSET))(this);
 		}
+
 	};
 }

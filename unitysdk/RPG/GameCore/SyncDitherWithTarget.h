@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SyncDitherWithTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SYNCDITHERWITHTARGET_METHOD_3_BCBE3527E62F15F6_OFFSET UNITYSDK_OFFSET(0x1D599660)
-#define RPG_GAMECORE_SYNCDITHERWITHTARGET_METHOD_3_D74219A5F4CC8C80_OFFSET UNITYSDK_OFFSET(0x1D599700)
-#define RPG_GAMECORE_SYNCDITHERWITHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5996C0)
+#define RPG_GAMECORE_SYNCDITHERWITHTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB50370)
+#define RPG_GAMECORE_SYNCDITHERWITHTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB503B0)
+#define RPG_GAMECORE_SYNCDITHERWITHTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB50310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SyncDitherWithTarget_TypeDefinitionIndex = 19990;
-
 	class SyncDitherWithTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::TargetEvaluator* SyncTargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCDITHERWITHTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCDITHERWITHTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BCBE3527E62F15F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SyncDitherWithTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SyncDitherWithTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SyncDitherWithTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCDITHERWITHTARGET_METHOD_3_BCBE3527E62F15F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SyncDitherWithTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCDITHERWITHTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D74219A5F4CC8C80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SyncDitherWithTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SyncDitherWithTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SyncDitherWithTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCDITHERWITHTARGET_METHOD_3_D74219A5F4CC8C80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SyncDitherWithTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SYNCDITHERWITHTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

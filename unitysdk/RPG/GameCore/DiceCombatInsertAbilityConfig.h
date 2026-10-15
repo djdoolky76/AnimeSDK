@@ -3,18 +3,16 @@
 #include "unitysdk/RPG/GameCore/DiceCombatInsertAbilityPriority.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTarget.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatInsertAbilityConfig; }
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_METHOD_2_7A3A55492E55FA17_OFFSET UNITYSDK_OFFSET(0x1D02D2A0)
-#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02D4F0)
+#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D609A20)
+#define RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6097D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatInsertAbilityConfig_TypeDefinitionIndex = 15948;
-
 	class DiceCombatInsertAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -23,15 +21,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::DiceCombatInsertAbilityPriority Priority; // 0x1C
 		::Il2CppArray<::RPG::GameCore::DiceCombatTaskConfig*>* OnStart; // 0x20
 		::System::Boolean ExecuteWhenOwnerAlive; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_7A3A55492E55FA17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatInsertAbilityConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatInsertAbilityConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatInsertAbilityConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_METHOD_2_7A3A55492E55FA17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatInsertAbilityConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATINSERTABILITYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

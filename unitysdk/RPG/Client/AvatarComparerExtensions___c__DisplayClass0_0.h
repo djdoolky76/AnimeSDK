@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8004A0)
-#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS0_0__SETPINNING_B__0_OFFSET UNITYSDK_OFFSET(0xC800630)
+#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC6CD800)
+#define RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS0_0__SETPINNING_B__0_OFFSET UNITYSDK_OFFSET(0xC6CD990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarComparerExtensions___c__DisplayClass0_0_TypeDefinitionIndex = 62872;
-
 	class AvatarComparerExtensions___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IEnumerable_1<::RPG::AvatarSystem::IAvatar*>* pinningAvatars; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS0_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _SetPinning_b__0(::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IComparer_1<::RPG::AvatarSystem::IAvatar*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARCOMPAREREXTENSIONS___C__DISPLAYCLASS0_0__SETPINNING_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

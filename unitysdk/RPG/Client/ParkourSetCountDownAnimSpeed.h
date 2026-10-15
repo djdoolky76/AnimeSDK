@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::Client { class ParkourSetCountDownAnimSpeed; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_METHOD_3_CD61A7EF67988DC4_OFFSET UNITYSDK_OFFSET(0x1CD55650)
-#define RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_METHOD_3_F2371ACD59D5E15F_OFFSET UNITYSDK_OFFSET(0x1CD55690)
-#define RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD55680)
+#define RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D328EA0)
+#define RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D328EB0)
+#define RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D328E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourSetCountDownAnimSpeed_TypeDefinitionIndex = 10247;
-
 	class ParkourSetCountDownAnimSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Single Speed; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CD61A7EF67988DC4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ParkourSetCountDownAnimSpeed*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::ParkourSetCountDownAnimSpeed* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ParkourSetCountDownAnimSpeed*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_METHOD_3_CD61A7EF67988DC4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::ParkourSetCountDownAnimSpeed*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F2371ACD59D5E15F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ParkourSetCountDownAnimSpeed* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::ParkourSetCountDownAnimSpeed* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ParkourSetCountDownAnimSpeed*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_METHOD_3_F2371ACD59D5E15F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::ParkourSetCountDownAnimSpeed*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURSETCOUNTDOWNANIMSPEED_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,24 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/CustomYieldInstruction.h"
 
-#define UNITYENGINE_WAITFORSECONDSREALTIME_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1ED78AE0)
-#define UNITYENGINE_WAITFORSECONDSREALTIME_GET_WAITTIME_OFFSET UNITYSDK_OFFSET(0x1ED78AC0)
-#define UNITYENGINE_WAITFORSECONDSREALTIME_SET_WAITTIME_OFFSET UNITYSDK_OFFSET(0x1ED78AD0)
-#define UNITYENGINE_WAITFORSECONDSREALTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED78B30)
+#define UNITYENGINE_WAITFORSECONDSREALTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1F440EE0)
+#define UNITYENGINE_WAITFORSECONDSREALTIME_GET_KEEPWAITING_OFFSET UNITYSDK_OFFSET(0x1F440E90)
+#define UNITYENGINE_WAITFORSECONDSREALTIME_GET_WAITTIME_OFFSET UNITYSDK_OFFSET(0x1F440E70)
+#define UNITYENGINE_WAITFORSECONDSREALTIME_SET_WAITTIME_OFFSET UNITYSDK_OFFSET(0x1F440E80)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WaitForSecondsRealtime_TypeDefinitionIndex = 4366;
-
 	class WaitForSecondsRealtime : public ::UnityEngine::CustomYieldInstruction
 	{
 	public:
 		::System::Single _waitTime_k__BackingField; // 0x10
 		::System::Single m_WaitUntilTime; // 0x14
-
 		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_WAITFORSECONDSREALTIME__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_WAITFORSECONDSREALTIME_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Single get_waitTime()
@@ -36,5 +33,6 @@ namespace UnityEngine
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_WAITFORSECONDSREALTIME_GET_KEEPWAITING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 
-#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ATLASMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B9DD90)
+#define SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ATLASMATERIALOVERRIDE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C53210)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonGraphicCustomMaterials_AtlasMaterialOverride_TypeDefinitionIndex = 43859;
-
 	struct alignas(8) SkeletonGraphicCustomMaterials_AtlasMaterialOverride
 	{
 		::System::Boolean overrideEnabled; // 0x10
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Texture* originalTexture; // 0x18
 		::UnityEngine::Material* replacementMaterial; // 0x20
-
+		/*
 		::System::Boolean Equals(::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasMaterialOverride a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Spine::Unity::SkeletonGraphicCustomMaterials_AtlasMaterialOverride))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONGRAPHICCUSTOMMATERIALS_ATLASMATERIALOVERRIDE_EQUALS_OFFSET))(this, a1);
 		}
+		*/
+
 	};
 }

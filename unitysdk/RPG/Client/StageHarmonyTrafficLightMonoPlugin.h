@@ -1,48 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
-#include "unitysdk/Struct_2_CC45B4503679E14E_10.h"
-
-namespace RPG::Client { class StageHarmonyTrafficLightBehavior; }
-namespace RPG::Client { class StageHarmonyTrafficLightMonoPlugin_IntersectionPhase; }
+#include "unitysdk/IDOHKCEJPJP.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0xE0DAD40)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0xE0DA7E0)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_UNLOAD_OFFSET UNITYSDK_OFFSET(0xE0DACF0)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE0DB2E0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE11C020)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_DUMP_OFFSET UNITYSDK_OFFSET(0xE11BA80)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_LOAD_OFFSET UNITYSDK_OFFSET(0xE11B520)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_UNLOAD_OFFSET UNITYSDK_OFFSET(0xE11BA30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin_TypeDefinitionIndex = 70968;
-
-	class StageHarmonyTrafficLightMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageHarmonyTrafficLightBehavior*>
+	class StageHarmonyTrafficLightMonoPlugin
 	{
 	public:
 		::System::Int32 ComponentID; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* Channle; // 0x38
 		::System::Single Signal; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::StageHarmonyTrafficLightMonoPlugin_IntersectionPhase*>* IntersectionPhases; // 0x48
-
+		::System::Byte _padding1[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* IntersectionPhases; // 0x48
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Load(::Struct_2_CC45B4503679E14E_10 a1)
+		::System::Void Load(::IDOHKCEJPJP a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_LOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IDOHKCEJPJP))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_LOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void UnLoad(::Struct_2_CC45B4503679E14E_10 a1)
+		::System::Void UnLoad(::IDOHKCEJPJP a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_UNLOAD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IDOHKCEJPJP))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_UNLOAD_OFFSET))(this, a1);
 		}
 
-		::System::Void Dump(::Struct_2_CC45B4503679E14E_10 a1)
+		::System::Void Dump(::IDOHKCEJPJP a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_10))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_DUMP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IDOHKCEJPJP))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN_DUMP_OFFSET))(this, a1);
 		}
+
 	};
 }

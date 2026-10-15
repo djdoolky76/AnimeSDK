@@ -3,8 +3,6 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int MethodImplOptions_TypeDefinitionIndex = 1390;
-
 	enum class MethodImplOptions : ::System::Int32
 	{
 		Unmanaged = 4,

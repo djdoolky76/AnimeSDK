@@ -2,38 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MessagePack/MessagePackType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MESSAGEPACK_MESSAGEPACKCODE_CHECKBITMASK_OFFSET UNITYSDK_OFFSET(0x1B6B3470)
-#define MESSAGEPACK_MESSAGEPACKCODE_ISFIXARRAY_OFFSET UNITYSDK_OFFSET(0x1B6B3480)
-#define MESSAGEPACK_MESSAGEPACKCODE_ISFIXMAP_OFFSET UNITYSDK_OFFSET(0x1B6B3410)
-#define MESSAGEPACK_MESSAGEPACKCODE_ISFIXSTR_OFFSET UNITYSDK_OFFSET(0x1B6B34E0)
-#define MESSAGEPACK_MESSAGEPACKCODE_ISNEGATIVEFIXINT_OFFSET UNITYSDK_OFFSET(0x1B67FE50)
-#define MESSAGEPACK_MESSAGEPACKCODE_ISPOSITIVEFIXINT_OFFSET UNITYSDK_OFFSET(0x1B67FE40)
-#define MESSAGEPACK_MESSAGEPACKCODE_TOFORMATNAME_OFFSET UNITYSDK_OFFSET(0x1B670610)
-#define MESSAGEPACK_MESSAGEPACKCODE_TOMESSAGEPACKTYPE_OFFSET UNITYSDK_OFFSET(0x1B6B3380)
-#define MESSAGEPACK_MESSAGEPACKCODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6B2680)
+#define MESSAGEPACK_MESSAGEPACKCODE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBB0C70)
+#define MESSAGEPACK_MESSAGEPACKCODE_CHECKBITMASK_OFFSET UNITYSDK_OFFSET(0x1BBB1A60)
+#define MESSAGEPACK_MESSAGEPACKCODE_ISFIXARRAY_OFFSET UNITYSDK_OFFSET(0x1BBB1A70)
+#define MESSAGEPACK_MESSAGEPACKCODE_ISFIXMAP_OFFSET UNITYSDK_OFFSET(0x1BBB1A00)
+#define MESSAGEPACK_MESSAGEPACKCODE_ISFIXSTR_OFFSET UNITYSDK_OFFSET(0x1BBB1AD0)
+#define MESSAGEPACK_MESSAGEPACKCODE_ISNEGATIVEFIXINT_OFFSET UNITYSDK_OFFSET(0x1BB7E740)
+#define MESSAGEPACK_MESSAGEPACKCODE_ISPOSITIVEFIXINT_OFFSET UNITYSDK_OFFSET(0x1BB7E730)
+#define MESSAGEPACK_MESSAGEPACKCODE_TOFORMATNAME_OFFSET UNITYSDK_OFFSET(0x1BB6F1C0)
+#define MESSAGEPACK_MESSAGEPACKCODE_TOMESSAGEPACKTYPE_OFFSET UNITYSDK_OFFSET(0x1BBB1970)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackCode_TypeDefinitionIndex = 7112;
-
 	class MessagePackCode : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::MessagePack::MessagePackType>** StaticGet_TypeLookupTable()
-		{
-			return (::Il2CppArray<::MessagePack::MessagePackType>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackCode_TypeDefinitionIndex)->GetStaticField(0x2CC70);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_FormatNameTable()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackCode_TypeDefinitionIndex)->GetStaticField(0x2CC78);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("MessagePack", "MessagePackCode")->GetStaticField(0x26870);
+		}
+
+		static ::Il2CppArray<::MessagePack::MessagePackType>** StaticGet_TypeLookupTable()
+		{
+			return (::Il2CppArray<::MessagePack::MessagePackType>**)UnitySDK::FromName("MessagePack", "MessagePackCode")->GetStaticField(0x26878);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKCODE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKCODE_CCTOR_OFFSET))();
 		}
 
 		static ::MessagePack::MessagePackType ToMessagePackType(::System::Byte a1)
@@ -75,5 +73,6 @@ namespace MessagePack
 		{
 			return ((::System::Boolean(*)(::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + MESSAGEPACK_MESSAGEPACKCODE_CHECKBITMASK_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

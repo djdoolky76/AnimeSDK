@@ -3,39 +3,36 @@
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/MixDirection.h"
 #include "unitysdk/Spine/Timeline.h"
-
 namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_EVENTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1E5DB690)
-#define SPINE_EVENTTIMELINE_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1E5DB5E0)
-#define SPINE_EVENTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5DB5F0)
-#define SPINE_EVENTTIMELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5DB8C0)
-#define SPINE_EVENTTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DB560)
+#define SPINE_EVENTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECA3830)
+#define SPINE_EVENTTIMELINE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ECA3A60)
+#define SPINE_EVENTTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA3700)
+#define SPINE_EVENTTIMELINE_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1ECA3780)
+#define SPINE_EVENTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECA3790)
 
 namespace Spine
 {
-	inline static constexpr unsigned int EventTimeline_TypeDefinitionIndex = 38323;
-
 	class EventTimeline : public ::Spine::Timeline
 	{
 	public:
+		::Il2CppArray<::Spine::Event*>* events; // 0x20
 		static ::Il2CppArray<::System::String*>** StaticGet_propertyIds()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EventTimeline_TypeDefinitionIndex)->GetStaticField(0x469A0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("Spine", "EventTimeline")->GetStaticField(0x4BDE0);
 		}
-		::Il2CppArray<::Spine::Event*>* events; // 0x20
 
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_EVENTTIMELINE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_EVENTTIMELINE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_EVENTTIMELINE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SPINE_EVENTTIMELINE_CCTOR_OFFSET))();
 		}
 
 		::Il2CppArray<::Spine::Event*>* get_Events()
@@ -52,5 +49,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_EVENTTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

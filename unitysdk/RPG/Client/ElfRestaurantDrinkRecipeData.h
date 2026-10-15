@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class ElfRestaurantDrinkRecipeData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCE628A0)
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_ISCOOKITEMENOUGH_OFFSET UNITYSDK_OFFSET(0xCE62D00)
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE62CF0)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCDB3830)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCDB3C80)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_ISCOOKITEMENOUGH_OFFSET UNITYSDK_OFFSET(0xCDB3C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantDrinkRecipeData_TypeDefinitionIndex = 63800;
-
 	class ElfRestaurantDrinkRecipeData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Materials; // 0x10
 		::System::Int32 Price; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ElfRestaurantDrinkRecipeData* Create(::System::Int32 a1)
@@ -32,5 +29,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_ISCOOKITEMENOUGH_OFFSET))(this);
 		}
+
 	};
 }

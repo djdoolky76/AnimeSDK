@@ -1,41 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Schema/NamespaceList_ListType.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System::Collections { class Hashtable; }
 namespace System::Collections { class ICollection; }
 namespace System::Xml { class XmlQualifiedName; }
 
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST_ALLOWS_1_OFFSET UNITYSDK_OFFSET(0x1E7F7640)
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST_ALLOWS_OFFSET UNITYSDK_OFFSET(0x1E7F7550)
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST_GET_ENUMERATE_OFFSET UNITYSDK_OFFSET(0x1E7F7470)
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST_GET_EXCLUDED_OFFSET UNITYSDK_OFFSET(0x1E7F7460)
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E7F7450)
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F76E0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7F6FA0)
-#define SYSTEM_XML_SCHEMA_NAMESPACELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F6F90)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_ALLOWS_1_OFFSET UNITYSDK_OFFSET(0x1EEC0320)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_ALLOWS_OFFSET UNITYSDK_OFFSET(0x1EEC0230)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EEBFC80)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBFC70)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_GET_ENUMERATE_OFFSET UNITYSDK_OFFSET(0x1EEC0150)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_GET_EXCLUDED_OFFSET UNITYSDK_OFFSET(0x1EEC0140)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EEC0130)
+#define SYSTEM_XML_SCHEMA_NAMESPACELIST_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EEC03C0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int NamespaceList_TypeDefinitionIndex = 2167;
-
 	class NamespaceList : public ::System::Object
 	{
 	public:
 		::System::String* targetNamespace; // 0x10
 		::System::Collections::Hashtable* set; // 0x18
 		::System::Xml::Schema::NamespaceList_ListType type; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELIST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELIST_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELIST__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELIST_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Xml::Schema::NamespaceList_ListType get_Type()
@@ -67,5 +63,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NAMESPACELIST_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

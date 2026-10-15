@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
 namespace System { class String; }
@@ -11,33 +10,30 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL_SETSHOWLINENODE_OFFSET UNITYSDK_OFFSET(0xD44AE50)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD44D630)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD44CD50)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD44CBA0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONNEWSUBCOMMENT_OFFSET UNITYSDK_OFFSET(0xD44D2A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__PLAYFADEINANIMATION_OFFSET UNITYSDK_OFFSET(0xD44D0F0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3A4B90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL_SETSHOWLINENODE_OFFSET UNITYSDK_OFFSET(0xD3A1FE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xD3A4250)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xD3A4070)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONNEWSUBCOMMENT_OFFSET UNITYSDK_OFFSET(0xD3A47D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__PLAYFADEINANIMATION_OFFSET UNITYSDK_OFFSET(0xD3A4620)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsCommentWithReplyControl_TypeDefinitionIndex = 79030;
-
 	class LimaoNewsCommentWithReplyControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::Animation* _Animation; // 0x38
-		::UnityEngine::UI::Image* _ImageUser; // 0x40
-		::UnityEngine::UI::Text* _TextUserName; // 0x48
-		::UnityEngine::UI::Text* _TextDesc; // 0x50
-		::UnityEngine::Transform* _NodeTagBanned; // 0x58
-		::UnityEngine::Transform* _NodeTagOfficial; // 0x60
-		::UnityEngine::Transform* _NodeLine; // 0x68
-		::UnityEngine::Transform* _NodeSubComment; // 0x70
-		::RPG::Client::StaticListView* _ListSubComments; // 0x78
-
+		::UnityEngine::Animation* _Animation; // 0x40
+		::UnityEngine::UI::Image* _ImageUser; // 0x48
+		::UnityEngine::UI::Text* _TextUserName; // 0x50
+		::UnityEngine::UI::Text* _TextDesc; // 0x58
+		::UnityEngine::Transform* _NodeTagBanned; // 0x60
+		::UnityEngine::Transform* _NodeTagOfficial; // 0x68
+		::UnityEngine::Transform* _NodeLine; // 0x70
+		::UnityEngine::Transform* _NodeSubComment; // 0x78
+		::RPG::Client::StaticListView* _ListSubComments; // 0x80
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -64,5 +60,6 @@ namespace RPG::Client::LimaoNews
 		{
 			return ((::RPG::Client::StaticListViewItem*(*)(::PVOID, ::XLua::LuaTable*, ::RPG::Client::StaticListView*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSCOMMENTWITHREPLYCONTROL__ONNEWSUBCOMMENT_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E68B040)
-#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E68B090)
-#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6800A0)
-#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E68AFD0)
+#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED52CC0)
+#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED52C50)
+#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED52D10)
+#define SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED47E20)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int PinEntryCompleteCallback_TypeDefinitionIndex = 37372;
-
 	class PinEntryCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1)
@@ -37,5 +34,6 @@ namespace SRDebugger::Services
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_SERVICES_PINENTRYCOMPLETECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

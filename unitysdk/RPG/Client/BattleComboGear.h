@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleComboGear_TypeDefinitionIndex = 71515;
-
 	enum class BattleComboGear : ::System::Int32
 	{
 		None = 0,

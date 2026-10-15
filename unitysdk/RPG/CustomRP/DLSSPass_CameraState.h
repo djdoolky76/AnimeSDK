@@ -1,51 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/CustomRP/DLSSPass_CameraState___c__DisplayClass20_0.h"
 #include "unitysdk/RPG/CustomRP/DLSSPass_DlssViewData.h"
 #include "unitysdk/RPG/CustomRP/DLSSPass_ViewResources.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/DLSSData.h"
-
 namespace RPG::CustomRP { class DLSSPass_ViewState; }
-namespace System { template <typename T> class WeakReference_1; }
+namespace System { class Object; }
+namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::NVIDIA { class GraphicsDevice; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class PerformDynamicRes; }
 
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1C6A02B0)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CLEARAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x1C6A1190)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CRPSETUPDLSSDATA_OFFSET UNITYSDK_OFFSET(0x1C69F8A0)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x1C69F890)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_LASTFRAMEID_OFFSET UNITYSDK_OFFSET(0x1C6A10A0)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_SCALEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1C6A1080)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_VIEWSTATES_OFFSET UNITYSDK_OFFSET(0x1C6A1090)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_INIT_OFFSET UNITYSDK_OFFSET(0x1C6A04E0)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_ISALIVE_OFFSET UNITYSDK_OFFSET(0x1C69FFA0)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SCALEFN_OFFSET UNITYSDK_OFFSET(0x1C6A1270)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SET_LASTFRAMEID_OFFSET UNITYSDK_OFFSET(0x1C6A0550)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SUBMITCOMMANDS_OFFSET UNITYSDK_OFFSET(0x1C6A0560)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6A10B0)
-#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE__SUBMITCOMMANDS_G__RUNPASS_20_0_OFFSET UNITYSDK_OFFSET(0x1C6A1310)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC25CF0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CLEARAUTOMATICSETTINGS_OFFSET UNITYSDK_OFFSET(0x1CC272E0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CRPSETUPDLSSDATA_OFFSET UNITYSDK_OFFSET(0x1CC252E0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC27200)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x1CC252D0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_LASTFRAMEID_OFFSET UNITYSDK_OFFSET(0x1CC271F0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_SCALEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1CC271D0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_VIEWSTATES_OFFSET UNITYSDK_OFFSET(0x1CC271E0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_INIT_OFFSET UNITYSDK_OFFSET(0x1CC26640)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_ISALIVE_OFFSET UNITYSDK_OFFSET(0x1CC259E0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SCALEFN_OFFSET UNITYSDK_OFFSET(0x1CC273C0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SET_LASTFRAMEID_OFFSET UNITYSDK_OFFSET(0x1CC266B0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SUBMITCOMMANDS_OFFSET UNITYSDK_OFFSET(0x1CC266C0)
+#define RPG_CUSTOMRP_DLSSPASS_CAMERASTATE__SUBMITCOMMANDS_G__RUNPASS_20_0_OFFSET UNITYSDK_OFFSET(0x1CC27460)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_CameraState_TypeDefinitionIndex = 36874;
-
 	class DLSSPass_CameraState : public ::System::Object
 	{
 	public:
-		::UnityEngine::Rendering::PerformDynamicRes* m_ScaleDelegate; // 0x10
-		::System::Collections::Generic::List_1<::RPG::CustomRP::DLSSPass_ViewState*>* m_Views; // 0x18
-		::System::WeakReference_1<::UnityEngine::Camera*>* m_CamReference; // 0x20
-		::UnityEngine::NVIDIA::GraphicsDevice* m_Device; // 0x28
+		::System::WeakReference* m_CamReference; // 0x10
+		::UnityEngine::Rendering::PerformDynamicRes* m_ScaleDelegate; // 0x18
+		::UnityEngine::NVIDIA::GraphicsDevice* m_Device; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* m_Views; // 0x28
 		::System::Int32 m_FrameAlive; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::UInt64 m_LastFrameId; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Rendering::PerformDynamicRes* get_ScaleDelegate()
@@ -53,9 +51,9 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::Rendering::PerformDynamicRes*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_SCALEDELEGATE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::CustomRP::DLSSPass_ViewState*>* get_ViewStates()
+		::System::Collections::Generic::List_1<::System::Object*>* get_ViewStates()
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::CustomRP::DLSSPass_ViewState*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_VIEWSTATES_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_GET_VIEWSTATES_OFFSET))(this);
 		}
 
 		::System::Void set_LastFrameId(::System::UInt64 a1)
@@ -93,14 +91,14 @@ namespace RPG::CustomRP
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SCALEFN_OFFSET))(this);
 		}
 
-		::System::Void SubmitCommands(::System::Single a1, ::RPG::CustomRP::DLSSPass_DlssViewData& a2, ::RPG::CustomRP::DLSSPass_ViewResources& a3, ::UnityEngine::Rendering::CommandBuffer* a4)
+		::System::Void SubmitCommands(::System::Single a1, ::RPG::CustomRP::DLSSPass_DlssViewData a2, ::RPG::CustomRP::DLSSPass_ViewResources a3, ::UnityEngine::Rendering::CommandBuffer* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::RPG::CustomRP::DLSSPass_DlssViewData&, ::RPG::CustomRP::DLSSPass_ViewResources&, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SUBMITCOMMANDS_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::RPG::CustomRP::DLSSPass_DlssViewData, ::RPG::CustomRP::DLSSPass_ViewResources, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_SUBMITCOMMANDS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void CRPSetupDLSSData(::RPG::CustomRP::DLSSPass_DlssViewData& a1, ::UnityEngine::Rendering::CommandBuffer* a2, ::UnityEngine::Rendering::DLSSData& a3)
+		::System::Void CRPSetupDLSSData(::RPG::CustomRP::DLSSPass_DlssViewData a1, ::UnityEngine::Rendering::CommandBuffer* a2, ::UnityEngine::Rendering::DLSSData a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::DLSSPass_DlssViewData&, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::DLSSData&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CRPSETUPDLSSDATA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::DLSSPass_DlssViewData, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::DLSSData))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CRPSETUPDLSSDATA_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Cleanup(::UnityEngine::Rendering::CommandBuffer* a1)
@@ -108,9 +106,10 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE_CLEANUP_OFFSET))(this, a1);
 		}
 
-		static ::System::Void _SubmitCommands_g__RunPass_20_0(::RPG::CustomRP::DLSSPass_ViewState* a1, ::UnityEngine::Rendering::CommandBuffer* a2, ::RPG::CustomRP::DLSSPass_DlssViewData& a3, ::RPG::CustomRP::DLSSPass_ViewResources& a4, ::RPG::CustomRP::DLSSPass_CameraState___c__DisplayClass20_0& a5)
+		static ::System::Void _SubmitCommands_g__RunPass_20_0(::RPG::CustomRP::DLSSPass_ViewState* a1, ::UnityEngine::Rendering::CommandBuffer* a2, ::RPG::CustomRP::DLSSPass_DlssViewData a3, ::RPG::CustomRP::DLSSPass_ViewResources a4, ::RPG::CustomRP::DLSSPass_CameraState___c__DisplayClass20_0 a5)
 		{
-			return ((::System::Void(*)(::RPG::CustomRP::DLSSPass_ViewState*, ::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::DLSSPass_DlssViewData&, ::RPG::CustomRP::DLSSPass_ViewResources&, ::RPG::CustomRP::DLSSPass_CameraState___c__DisplayClass20_0&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE__SUBMITCOMMANDS_G__RUNPASS_20_0_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::RPG::CustomRP::DLSSPass_ViewState*, ::UnityEngine::Rendering::CommandBuffer*, ::RPG::CustomRP::DLSSPass_DlssViewData, ::RPG::CustomRP::DLSSPass_ViewResources, ::RPG::CustomRP::DLSSPass_CameraState___c__DisplayClass20_0))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_DLSSPASS_CAMERASTATE__SUBMITCOMMANDS_G__RUNPASS_20_0_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

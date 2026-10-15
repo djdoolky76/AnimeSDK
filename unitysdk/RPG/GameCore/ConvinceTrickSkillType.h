@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceTrickSkillType_TypeDefinitionIndex = 24307;
-
 	enum class ConvinceTrickSkillType : ::System::Int32
 	{
 		DoubleEffect = 1,

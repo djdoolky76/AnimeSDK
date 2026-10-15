@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Expression.h"
-
 namespace System { class Type; }
+namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1E76BB30)
-#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_TYPEOPERAND_OFFSET UNITYSDK_OFFSET(0x1E76BB40)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EE34780)
+#define SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_TYPEOPERAND_OFFSET UNITYSDK_OFFSET(0x1EE34790)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int TypeBinaryExpression_TypeDefinitionIndex = 3279;
-
 	class TypeBinaryExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
-		::System::Type* _TypeOperand_k__BackingField; // 0x10
-		::System::Linq::Expressions::Expression* _Expression_k__BackingField; // 0x18
-
+		::System::Linq::Expressions::Expression* _Expression_k__BackingField; // 0x10
+		::System::Type* _TypeOperand_k__BackingField; // 0x18
 		::System::Linq::Expressions::Expression* get_Expression()
 		{
 			return ((::System::Linq::Expressions::Expression*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_EXPRESSION_OFFSET))(this);
@@ -26,5 +23,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Type*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_TYPEBINARYEXPRESSION_GET_TYPEOPERAND_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int sockaddr_ll_TypeDefinitionIndex = 2950;
-
 	struct alignas(8) sockaddr_ll
 	{
 		::System::UInt16 sll_family; // 0x10
@@ -14,6 +11,7 @@ namespace System::Net::NetworkInformation
 		::System::UInt16 sll_hatype; // 0x18
 		::System::Byte sll_pkttype; // 0x1A
 		::System::Byte sll_halen; // 0x1B
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Byte>* sll_addr; // 0x20
 	};
 }

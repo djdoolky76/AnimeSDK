@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/SecurityProtocolType.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Collections::Specialized { class HybridDictionary; }
@@ -12,86 +11,97 @@ namespace System::Net { class ServerCertValidationCallback; }
 namespace System::Net { class ServicePoint; }
 namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 
-#define SYSTEM_NET_SERVICEPOINTMANAGER_CLOSECONNECTIONGROUP_OFFSET UNITYSDK_OFFSET(0x1E9B1970)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_FINDSERVICEPOINT_OFFSET UNITYSDK_OFFSET(0x1E9B0E40)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_GETLEGACYCERTIFICATEPOLICY_OFFSET UNITYSDK_OFFSET(0x1E9B0BD0)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_CHECKCERTIFICATEREVOCATIONLIST_OFFSET UNITYSDK_OFFSET(0x1E9B0C00)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_DNSREFRESHTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E9B0CC0)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_SECURITYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1E9B0D30)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_SERVERCERTVALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E9B0D90)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_DEFAULTCONNECTIONLIMIT_OFFSET UNITYSDK_OFFSET(0x1E9B0C40)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_DNSREFRESHTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E9B0CF0)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_SECURITYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1E9B0D60)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_SERVERCERTIFICATEVALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E9B0DC0)
-#define SYSTEM_NET_SERVICEPOINTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9B0B70)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F079370)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_CLOSECONNECTIONGROUP_OFFSET UNITYSDK_OFFSET(0x1F07A120)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_FINDSERVICEPOINT_OFFSET UNITYSDK_OFFSET(0x1F079620)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_GETLEGACYCERTIFICATEPOLICY_OFFSET UNITYSDK_OFFSET(0x1F0793D0)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_CHECKCERTIFICATEREVOCATIONLIST_OFFSET UNITYSDK_OFFSET(0x1F079400)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_DNSREFRESHTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1F0794A0)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_SECURITYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1F079510)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_GET_SERVERCERTVALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F079570)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_DEFAULTCONNECTIONLIMIT_OFFSET UNITYSDK_OFFSET(0x1F079440)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_DNSREFRESHTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1F0794D0)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_SECURITYPROTOCOL_OFFSET UNITYSDK_OFFSET(0x1F079540)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SET_SERVERCERTIFICATEVALIDATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F0795A0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ServicePointManager_TypeDefinitionIndex = 2874;
-
 	class ServicePointManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Specialized::HybridDictionary** StaticGet_servicePoints()
 		{
-			return (::System::Collections::Specialized::HybridDictionary**)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0x1E5F0);
+			return (::System::Collections::Specialized::HybridDictionary**)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0xDBD0);
 		}
+
 		static ::System::Net::ICertificatePolicy** StaticGet_policy()
 		{
-			return (::System::Net::ICertificatePolicy**)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0x1E5F8);
+			return (::System::Net::ICertificatePolicy**)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0xDBD8);
 		}
+
 		static ::System::Net::ServerCertValidationCallback** StaticGet_server_cert_cb()
 		{
-			return (::System::Net::ServerCertValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0x1E600);
+			return (::System::Net::ServerCertValidationCallback**)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0xDBE0);
 		}
-		static ::System::Net::SecurityProtocolType* StaticGet__securityProtocol()
-		{
-			return (::System::Net::SecurityProtocolType*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA320);
-		}
-		static ::System::Boolean* StaticGet_expectContinue()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA324);
-		}
-		static ::System::Boolean* StaticGet_useNagle()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA325);
-		}
-		static ::System::Boolean* StaticGet__checkCRL()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA326);
-		}
-		static ::System::Boolean* StaticGet_tcp_keepalive()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA327);
-		}
+
 		static ::System::Int32* StaticGet_maxServicePoints()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA328);
+			return (::System::Int32*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DB0);
 		}
-		static ::System::Int32* StaticGet_maxServicePointIdleTime()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA32C);
-		}
-		static ::System::Int32* StaticGet_dnsRefreshTimeout()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA330);
-		}
-		static ::System::Int32* StaticGet_tcp_keepalive_time()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA334);
-		}
-		static ::System::Int32* StaticGet_tcp_keepalive_interval()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA338);
-		}
+
 		static ::System::Int32* StaticGet_defaultConnectionLimit()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ServicePointManager_TypeDefinitionIndex)->GetStaticField(0xA33C);
+			return (::System::Int32*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DB4);
+		}
+
+		static ::System::Net::SecurityProtocolType* StaticGet__securityProtocol()
+		{
+			return (::System::Net::SecurityProtocolType*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DB8);
+		}
+
+		static ::System::Int32* StaticGet_tcp_keepalive_time()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DBC);
+		}
+
+		static ::System::Boolean* StaticGet_tcp_keepalive()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DC0);
+		}
+
+		static ::System::Boolean* StaticGet_useNagle()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DC1);
+		}
+
+		static ::System::Boolean* StaticGet_expectContinue()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DC2);
+		}
+
+		static ::System::Boolean* StaticGet__checkCRL()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DC3);
+		}
+
+		static ::System::Int32* StaticGet_maxServicePointIdleTime()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DC4);
+		}
+
+		static ::System::Int32* StaticGet_dnsRefreshTimeout()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DC8);
+		}
+
+		static ::System::Int32* StaticGet_tcp_keepalive_interval()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Net", "ServicePointManager")->GetStaticField(0x2DCC);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVICEPOINTMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVICEPOINTMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Net::ICertificatePolicy* GetLegacyCertificatePolicy()
@@ -148,5 +158,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SERVICEPOINTMANAGER_CLOSECONNECTIONGROUP_OFFSET))(a1);
 		}
+
 	};
 }

@@ -5,19 +5,17 @@
 #include "unitysdk/RPG/GameCore/FiveDimSplineMoveLoopType.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimSplineMoveConfig; }
 namespace RPG::GameCore { class FiveDimSplineMovePoint; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG_METHOD_2_3088575CE4BB3233_OFFSET UNITYSDK_OFFSET(0x1D103DC0)
-#define RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D104290)
+#define RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DDE30)
+#define RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6DD8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSplineMoveConfig_TypeDefinitionIndex = 18351;
-
 	class FiveDimSplineMoveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -25,10 +23,12 @@ namespace RPG::GameCore
 		::System::UInt32 CurveID; // 0x14
 		::System::Boolean FollowRotation; // 0x18
 		::System::Boolean InitShowLineTrace; // 0x19
+		::System::Byte _padding0[0x6];
 		::System::String* LineTraceEffectPath; // 0x20
 		::RPG::MVector3 LineTraceOffset; // 0x28
 		::System::Boolean PauseOnInvisible; // 0x34
 		::System::Boolean StartOnInit; // 0x35
+		::System::Byte _padding1[0x2];
 		::System::String* StartOnPoint; // 0x38
 		::RPG::GameCore::FiveDimSplineMoveDirection StartDirection; // 0x40
 		::RPG::GameCore::FiveDimSplineMoveLoopType LoopType; // 0x44
@@ -36,15 +36,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::LittleGameEvent* OnMoveStop; // 0x50
 		::RPG::GameCore::LittleGameEvent* OnMoveReverse; // 0x58
 		::Il2CppArray<::RPG::GameCore::FiveDimSplineMovePoint*>* PointConfigs; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3088575CE4BB3233(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSplineMoveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimSplineMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSplineMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG_METHOD_2_3088575CE4BB3233_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimSplineMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSPLINEMOVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Cinemachine { class CinemachineTargetGroup; }
 
-#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x16484FD0)
-#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_START_OFFSET UNITYSDK_OFFSET(0x16484F40)
-#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_UPDATEWEIGHTS_OFFSET UNITYSDK_OFFSET(0x164850A0)
-#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x16484FF0)
-#define CINEMACHINE_GROUPWEIGHTMANIPULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16485150)
+#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x166ABD20)
+#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x166ABBA0)
+#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_START_OFFSET UNITYSDK_OFFSET(0x166ABB10)
+#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_UPDATEWEIGHTS_OFFSET UNITYSDK_OFFSET(0x166ABC70)
+#define CINEMACHINE_GROUPWEIGHTMANIPULATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0x166ABBC0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int GroupWeightManipulator_TypeDefinitionIndex = 38565;
-
 	class GroupWeightManipulator : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -26,10 +23,9 @@ namespace Cinemachine
 		::System::Single m_Weight6; // 0x30
 		::System::Single m_Weight7; // 0x34
 		::Cinemachine::CinemachineTargetGroup* m_group; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_GROUPWEIGHTMANIPULATOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_GROUPWEIGHTMANIPULATOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -51,5 +47,6 @@ namespace Cinemachine
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_GROUPWEIGHTMANIPULATOR_UPDATEWEIGHTS_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,29 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StatisticsBakedInfo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STATISTICSBAKEDINFO_METHOD_2_B1EEADF184974F8B_OFFSET UNITYSDK_OFFSET(0x1D56B4A0)
-#define RPG_GAMECORE_STATISTICSBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D56B560)
+#define RPG_GAMECORE_STATISTICSBAKEDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB20F50)
+#define RPG_GAMECORE_STATISTICSBAKEDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB20E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatisticsBakedInfo_TypeDefinitionIndex = 16548;
-
 	class StatisticsBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CoinIDList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSBAKEDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSBAKEDINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_B1EEADF184974F8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StatisticsBakedInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StatisticsBakedInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StatisticsBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSBAKEDINFO_METHOD_2_B1EEADF184974F8B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StatisticsBakedInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STATISTICSBAKEDINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

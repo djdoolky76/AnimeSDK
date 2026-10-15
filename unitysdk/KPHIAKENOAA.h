@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class OEOAMBFMNIB;
+
+#define KPHIAKENOAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90B9B0)
+
+	class KPHIAKENOAA : public ::System::Object
+	{
+	public:
+		::OEOAMBFMNIB* PEKCJALFENN; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPHIAKENOAA_CTOR_OFFSET))(this);
+		}
+
+	};

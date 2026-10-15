@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/AOCSVersion.h"
 #include "unitysdk/UnityEngine/Rendering/AOMethod.h"
 #include "unitysdk/UnityEngine/Rendering/AOQuality.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AOSetting_TypeDefinitionIndex = 4835;
-
 	struct alignas(4) AOSetting
 	{
 		::UnityEngine::Rendering::AOMethod method; // 0x10
@@ -25,6 +22,7 @@ namespace UnityEngine::Rendering
 		::System::Single hbaoStrength; // 0x3C
 		::System::Single hbaoFilterWeightInMeters; // 0x40
 		::System::Boolean useComputeShader; // 0x44
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Rendering::AOCSVersion aoCSVersion; // 0x48
 	};
 }

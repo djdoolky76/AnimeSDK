@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleModeViewState_TypeDefinitionIndex = 73151;
-
 	enum class BattleModeViewState : ::System::Int32
 	{
 		None = 0,

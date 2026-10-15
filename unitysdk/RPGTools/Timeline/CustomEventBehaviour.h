@@ -2,33 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xE839410)
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xE8393D0)
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE814A70)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_AHEEAFKFALM_OFFSET UNITYSDK_OFFSET(0xE8D7190)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE8D7150)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C5660)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CustomEventBehaviour_TypeDefinitionIndex = 48852;
-
 	class CustomEventBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Double Start; // 0x10
 		::System::Double End; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::System::Void CLJEBKODGHK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CLJEBKODGHK_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CA373AA1C7054598_1()
+		::System::Void AHEEAFKFALM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_METHOD_2_CA373AA1C7054598_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_AHEEAFKFALM_OFFSET))(this);
 		}
+
 	};
 }

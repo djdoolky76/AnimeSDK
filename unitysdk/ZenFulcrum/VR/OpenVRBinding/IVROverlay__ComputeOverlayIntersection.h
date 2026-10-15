@@ -3,41 +3,39 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VROverlayIntersectionParams_t.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VROverlayIntersectionResults_t.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB7B30)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB7BE0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB7B10)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB7AA0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F6800A0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F680010)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F680150)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F680080)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay__ComputeOverlayIntersection_TypeDefinitionIndex = 37812;
-
 	class IVROverlay__ComputeOverlayIntersection : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Invoke(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t& a2, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t& a3)
+		::System::Boolean Invoke(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t a2, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t&, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t&))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_INVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t& a2, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t& a3, ::System::AsyncCallback* a4, ::System::Object* a5)
+		::System::IAsyncResult* BeginInvoke(::System::UInt64 a1, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t a2, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t&, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t&, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::UInt64, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Boolean EndInvoke(::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t& a1, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t& a2, ::System::IAsyncResult* a3)
+		::System::Boolean EndInvoke(::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t a1, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t a2, ::System::IAsyncResult* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t&, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t&, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_ENDINVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionParams_t, ::ZenFulcrum::VR::OpenVRBinding::VROverlayIntersectionResults_t, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVROVERLAY__COMPUTEOVERLAYINTERSECTION_ENDINVOKE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

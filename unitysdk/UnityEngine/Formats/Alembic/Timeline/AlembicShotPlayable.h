@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class Object; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamPlayer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1EAB7AA0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1EAB7AC0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1EAB7AB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB7BF0)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F17F450)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_GET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1F17F300)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1F17F320)
+#define UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_SET_STREAMPLAYER_OFFSET UNITYSDK_OFFSET(0x1F17F310)
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
-	inline static constexpr unsigned int AlembicShotPlayable_TypeDefinitionIndex = 44614;
-
 	class AlembicShotPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer* _streamPlayer_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Formats::Alembic::Importer::AlembicStreamPlayer* get_streamPlayer()
@@ -40,5 +36,6 @@ namespace UnityEngine::Formats::Alembic::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_FORMATS_ALEMBIC_TIMELINE_ALEMBICSHOTPLAYABLE_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

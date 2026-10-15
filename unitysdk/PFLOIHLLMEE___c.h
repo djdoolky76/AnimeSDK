@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class PFLOIHLLMEE;
+namespace System { class Object; }
+
+#define PFLOIHLLMEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF27080)
+#define PFLOIHLLMEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF270B0)
+#define PFLOIHLLMEE___C___CCTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x1DF270C0)
+
+	class PFLOIHLLMEE___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B9C0);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PFLOIHLLMEE___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PFLOIHLLMEE___C_CTOR_OFFSET))(this);
+		}
+
+		::PFLOIHLLMEE* __cctor_b__46_0()
+		{
+			return ((::PFLOIHLLMEE*(*)(::PVOID))((::PBYTE)hIl2Cpp + PFLOIHLLMEE___C___CCTOR_B__46_0_OFFSET))(this);
+		}
+
+	};

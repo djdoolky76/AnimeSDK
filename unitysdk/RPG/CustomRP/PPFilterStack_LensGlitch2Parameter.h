@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15B3B0)
-#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15B370)
+#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4E00)
+#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF4DC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_LensGlitch2Parameter_TypeDefinitionIndex = 52155;
-
 	struct alignas(4) PPFilterStack_LensGlitch2Parameter
 	{
 		::System::Boolean LensGlitch2OverrideState; // 0x10
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector2 _NoiseTiling; // 0x14
 		::UnityEngine::Vector2 _NoiseFlow; // 0x1C
 		::System::Single _DistortIntensity; // 0x24
@@ -33,15 +31,17 @@ namespace RPG::CustomRP
 		::System::Boolean _BlendRadiusOverrideState; // 0x45
 		::System::Boolean _UsePolarCoordOverrideState; // 0x46
 		::System::Boolean _UseBlockGlitchOverrideState; // 0x47
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Void _ctor_1(::RPG::CustomRP::PPFilterStack_LensGlitch2Parameter a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_LensGlitch2Parameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::PPFilterStack_LensGlitch2Parameter, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_1_OFFSET))(this, a1, a2);
 		}
+		*/
+
 	};
 }

@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/ActionDelayChangeReason.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class LevelEntityActionDelayChanged; }
 
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_CLEAR_OFFSET UNITYSDK_OFFSET(0xE691080)
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_COPY_OFFSET UNITYSDK_OFFSET(0xE691000)
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE691120)
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6910D0)
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_INIT_OFFSET UNITYSDK_OFFSET(0xE690F40)
-#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0xE691170)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6EC280)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_COPY_OFFSET UNITYSDK_OFFSET(0xE6EC200)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EC370)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EC320)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EC2D0)
+#define RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_INIT_OFFSET UNITYSDK_OFFSET(0xE6EC140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityActionDelayChanged_TypeDefinitionIndex = 56961;
-
-	class LevelEntityActionDelayChanged : public ::Class_1_BF7A075734D15E98
+	class LevelEntityActionDelayChanged : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* EntityRef; // 0x18
-		::RPG::GameCore::GameEntity* SourceEntityRef; // 0x20
-		::RPG::GameCore::FixPoint PrevValue; // 0x28
-		::System::Boolean ForbidSortEntities; // 0x30
-		::RPG::GameCore::ActionDelayChangeReason Reason; // 0x34
-		::RPG::GameCore::FixPoint CurrentValue; // 0x38
-		::RPG::GameCore::FixPoint ChangeValue; // 0x40
-
+		::RPG::GameCore::GameEntity* SourceEntityRef; // 0x18
+		::RPG::GameCore::GameEntity* EntityRef; // 0x20
+		::RPG::GameCore::FixPoint ChangeValue; // 0x28
+		::RPG::GameCore::FixPoint CurrentValue; // 0x30
+		::RPG::GameCore::ActionDelayChangeReason Reason; // 0x38
+		::System::Boolean ForbidSortEntities; // 0x3C
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::FixPoint PrevValue; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::LevelEntityActionDelayChanged* Init(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::FixPoint a5, ::RPG::GameCore::ActionDelayChangeReason a6, ::System::Boolean a7)
@@ -58,5 +56,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELENTITYACTIONDELAYCHANGED_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

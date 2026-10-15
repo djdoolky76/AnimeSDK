@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define INCONTROL_INPUTCONTROLSTATE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B4F06E0)
-#define INCONTROL_INPUTCONTROLSTATE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B4F06D0)
-#define INCONTROL_INPUTCONTROLSTATE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B4F06C0)
-#define INCONTROL_INPUTCONTROLSTATE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B4F0720)
-#define INCONTROL_INPUTCONTROLSTATE_RESET_OFFSET UNITYSDK_OFFSET(0x3B57180)
-#define INCONTROL_INPUTCONTROLSTATE_SET_1_OFFSET UNITYSDK_OFFSET(0x3B571C0)
-#define INCONTROL_INPUTCONTROLSTATE_SET_2_OFFSET UNITYSDK_OFFSET(0x3B571F0)
-#define INCONTROL_INPUTCONTROLSTATE_SET_OFFSET UNITYSDK_OFFSET(0x3B57190)
+#define INCONTROL_INPUTCONTROLSTATE_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B9EF040)
+#define INCONTROL_INPUTCONTROLSTATE_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1B9EF030)
+#define INCONTROL_INPUTCONTROLSTATE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B9EF020)
+#define INCONTROL_INPUTCONTROLSTATE_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B9EF080)
+#define INCONTROL_INPUTCONTROLSTATE_RESET_OFFSET UNITYSDK_OFFSET(0x3C0BA60)
+#define INCONTROL_INPUTCONTROLSTATE_SET_1_OFFSET UNITYSDK_OFFSET(0x3C0BAA0)
+#define INCONTROL_INPUTCONTROLSTATE_SET_2_OFFSET UNITYSDK_OFFSET(0x3C0BAD0)
+#define INCONTROL_INPUTCONTROLSTATE_SET_OFFSET UNITYSDK_OFFSET(0x3C0BA70)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputControlState_TypeDefinitionIndex = 39527;
-
 	struct alignas(4) InputControlState
 	{
 		::System::Boolean State; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single Value; // 0x14
 		::System::Single RawValue; // 0x18
-
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSTATE_RESET_OFFSET))(this);
@@ -41,24 +38,33 @@ namespace InControl
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSTATE_SET_2_OFFSET))(this, a1);
 		}
 
+		/*
 		static ::System::Boolean op_Implicit(::InControl::InputControlState a1)
 		{
 			return ((::System::Boolean(*)(::InControl::InputControlState))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSTATE_OP_IMPLICIT_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::Single op_Implicit_1(::InControl::InputControlState a1)
 		{
 			return ((::System::Single(*)(::InControl::InputControlState))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSTATE_OP_IMPLICIT_1_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::InControl::InputControlState a1, ::InControl::InputControlState a2)
 		{
 			return ((::System::Boolean(*)(::InControl::InputControlState, ::InControl::InputControlState))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSTATE_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::InControl::InputControlState a1, ::InControl::InputControlState a2)
 		{
 			return ((::System::Boolean(*)(::InControl::InputControlState, ::InControl::InputControlState))((::PBYTE)hIl2Cpp + INCONTROL_INPUTCONTROLSTATE_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
+
 	};
 }

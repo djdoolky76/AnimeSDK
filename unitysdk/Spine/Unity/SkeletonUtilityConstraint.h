@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine::Unity { class SkeletonUtility; }
 namespace Spine::Unity { class SkeletonUtilityBone; }
 
-#define SPINE_UNITY_SKELETONUTILITYCONSTRAINT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1E66A470)
-#define SPINE_UNITY_SKELETONUTILITYCONSTRAINT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E66A2C0)
-#define SPINE_UNITY_SKELETONUTILITYCONSTRAINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66A4D0)
+#define SPINE_UNITY_SKELETONUTILITYCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED323A0)
+#define SPINE_UNITY_SKELETONUTILITYCONSTRAINT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1ED32340)
+#define SPINE_UNITY_SKELETONUTILITYCONSTRAINT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED32190)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonUtilityConstraint_TypeDefinitionIndex = 43873;
-
 	class SkeletonUtilityConstraint : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::Spine::Unity::SkeletonUtilityBone* bone; // 0x18
 		::Spine::Unity::SkeletonUtility* hierarchy; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYCONSTRAINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYCONSTRAINT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -33,5 +29,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONUTILITYCONSTRAINT_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

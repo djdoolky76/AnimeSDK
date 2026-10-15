@@ -3,8 +3,6 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PadsPuzzleSettleType_TypeDefinitionIndex = 78280;
-
 	enum class PadsPuzzleSettleType : ::System::Int32
 	{
 		None = 0,

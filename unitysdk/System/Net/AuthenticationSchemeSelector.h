@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/System/Net/AuthenticationSchemes.h"
-
+#include "unitysdk/System/MulticastDelegate.h"
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Net { class HttpListenerRequest; }
 
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E956D90)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E956DC0)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E956D80)
-#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E956D10)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F01FCF0)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F01FC70)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F01FD20)
+#define SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F01FCE0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int AuthenticationSchemeSelector_TypeDefinitionIndex = 2726;
-
 	class AuthenticationSchemeSelector : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* a1)
@@ -39,5 +36,6 @@ namespace System::Net
 		{
 			return ((::System::Net::AuthenticationSchemes(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_AUTHENTICATIONSCHEMESELECTOR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

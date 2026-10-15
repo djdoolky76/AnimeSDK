@@ -1,19 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Object.h"
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_CanceledUniTaskCache_1_TypeDefinitionIndex = 42657;
-
 	template <typename T>
 	class UniTask_CanceledUniTaskCache_1 : public ::System::Object
 	{
 	public:
-		static ::Cysharp::Threading::Tasks::UniTask_1<T>* StaticGet_Task()
+		static ::Cysharp::Threading::Tasks::UniTask* StaticGet_Task()
 		{
-			return (::Cysharp::Threading::Tasks::UniTask_1<T>*)Il2CppClass::FromTypeDefinitionIndex(UniTask_CanceledUniTaskCache_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::Cysharp::Threading::Tasks::UniTask*)UnitySDK::FromName("Cysharp.Threading.Tasks", "CanceledUniTaskCache`1")->GetStaticField(0x0);
 		}
+
 	};
 }

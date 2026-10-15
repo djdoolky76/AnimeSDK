@@ -1,21 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/RoadGenerator/CurveCreateMode.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET_CURVECREATEPARAM__CCTOR_OFFSET UNITYSDK_OFFSET(0xE80A5E0)
+#define RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET_CURVECREATEPARAM_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8A7EB0)
 
 namespace RPGTools::RoadGenerator
 {
-	inline static constexpr unsigned int CurveEditPreset_CurveCreateParam_TypeDefinitionIndex = 49310;
-
 	struct alignas(4) CurveEditPreset_CurveCreateParam
 	{
-		static ::RPGTools::RoadGenerator::CurveEditPreset_CurveCreateParam* StaticGet_Default()
-		{
-			return (::RPGTools::RoadGenerator::CurveEditPreset_CurveCreateParam*)Il2CppClass::FromTypeDefinitionIndex(CurveEditPreset_CurveCreateParam_TypeDefinitionIndex)->GetStaticField(0xBC50);
-		}
 		::RPGTools::RoadGenerator::CurveCreateMode Mode; // 0x10
 		::UnityEngine::Vector3 RootPos; // 0x14
 		::System::Single Radius; // 0x20
@@ -23,10 +16,15 @@ namespace RPGTools::RoadGenerator
 		::System::Single Angle; // 0x28
 		::System::Single AngleOffset; // 0x2C
 		::System::Single TotalHeight; // 0x30
+		static ::RPGTools::RoadGenerator::CurveEditPreset_CurveCreateParam* StaticGet_Default()
+		{
+			return (::RPGTools::RoadGenerator::CurveEditPreset_CurveCreateParam*)UnitySDK::FromName("RPGTools.RoadGenerator", "CurveCreateParam")->GetStaticField(0x159B0);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET_CURVECREATEPARAM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET_CURVECREATEPARAM_CCTOR_OFFSET))();
 		}
+
 	};
 }

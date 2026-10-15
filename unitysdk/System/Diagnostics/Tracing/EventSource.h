@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventChannel.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventCommand.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventDescriptor.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventKeywords.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventLevel.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventManifestOptions.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventOpcode.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventSourceOptions.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventSourceSettings.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventSource_EventData.h"
-#include "unitysdk/System/Diagnostics/Tracing/EventSource_EventMetadata.h"
 #include "unitysdk/System/Diagnostics/Tracing/SessionMask.h"
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Runtime/InteropServices/GCHandle.h"
-
+#include "unitysdk/System/Diagnostics/Tracing/EventDescriptor.h"
+#include "unitysdk/System/Diagnostics/Tracing/EventSourceOptions.h"
+#include "unitysdk/System/Diagnostics/Tracing/EventSource_EventMetadata.h"
+namespace System { class Action; }
 namespace System { class Attribute; }
+namespace System { class EventHandler; }
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
-namespace System { template <typename T> class Action_1; }
-namespace System { template <typename T> class EventHandler_1; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class ActivityTracker; }
@@ -31,6 +28,7 @@ namespace System::Diagnostics::Tracing { class EventAttribute; }
 namespace System::Diagnostics::Tracing { class EventCommandEventArgs; }
 namespace System::Diagnostics::Tracing { class EventDispatcher; }
 namespace System::Diagnostics::Tracing { class EventListener; }
+namespace System::Diagnostics::Tracing { class EventSource; }
 namespace System::Diagnostics::Tracing { class EventSource_OverideEventProvider; }
 namespace System::Diagnostics::Tracing { class EventWrittenEventArgs; }
 namespace System::Diagnostics::Tracing { class ManifestBuilder; }
@@ -41,182 +39,186 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDEVENTDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BCE9C70)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1BCD00A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDPROVIDERENUMKIND_OFFSET UNITYSDK_OFFSET(0x1BCE74D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDVALUETOMETADATA_OFFSET UNITYSDK_OFFSET(0x1BCD74A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ANYEVENTENABLED_OFFSET UNITYSDK_OFFSET(0x1BCE33D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ATTRIBUTETYPENAMESMATCH_OFFSET UNITYSDK_OFFSET(0x1BCE6B00)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CREATEMANIFESTANDDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1BCE4130)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DEBUGCHECKEVENT_OFFSET UNITYSDK_OFFSET(0x1BCE8F50)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DECODEOBJECT_OFFSET UNITYSDK_OFFSET(0x1BCDF5D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPATCHTOALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1BCE0670)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1BCDD7E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BCD0540)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DOCOMMAND_OFFSET UNITYSDK_OFFSET(0x1BCDE3E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ENABLEEVENTFORDISPATCHER_OFFSET UNITYSDK_OFFSET(0x1BCE2B10)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ENSUREDESCRIPTORSINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1BCE25F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1BCDDC80)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GENERATEGUIDFROMNAME_OFFSET UNITYSDK_OFFSET(0x1BCD99E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETCUSTOMATTRIBUTEHELPER_OFFSET UNITYSDK_OFFSET(0x1BCD7EA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETDISPATCHER_OFFSET UNITYSDK_OFFSET(0x1BCDFDA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETETWSESSIONMASK_OFFSET UNITYSDK_OFFSET(0x1BCDB870)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETEVENTSOURCEBASETYPE_OFFSET UNITYSDK_OFFSET(0x1BCE6F60)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETGUID_OFFSET UNITYSDK_OFFSET(0x1BCD7C60)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETHELPERCALLFIRSTARG_OFFSET UNITYSDK_OFFSET(0x1BCEA360)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETNAME_1_OFFSET UNITYSDK_OFFSET(0x1BCD9BD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETNAME_OFFSET UNITYSDK_OFFSET(0x1BCD9BA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETOPCODEWITHDEFAULT_OFFSET UNITYSDK_OFFSET(0x1BCE23E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETPARAMLENGTHINCLUDINGBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1BCE0540)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_CURRENTTHREADACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1BCCB0B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_FALLBACKACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1BCD9D00)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_GUID_OFFSET UNITYSDK_OFFSET(0x1BCD7BD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_INTERNALCURRENTTHREADACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1BCC93F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x1BCE40F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BCD7BC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_SELFDESCRIBINGEVENTS_OFFSET UNITYSDK_OFFSET(0x1BCDBC40)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_THROWONEVENTWRITEERRORS_OFFSET UNITYSDK_OFFSET(0x1BCE2350)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_HEXDIGIT_OFFSET UNITYSDK_OFFSET(0x1BCD7AC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_INITIALIZEPROVIDERMETADATA_OFFSET UNITYSDK_OFFSET(0x1BCD6F80)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BCDA0F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLEDBYDEFAULT_OFFSET UNITYSDK_OFFSET(0x1BCE22C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLEDCOMMON_OFFSET UNITYSDK_OFFSET(0x1BCD7C30)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLED_1_OFFSET UNITYSDK_OFFSET(0x1BCD58F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLED_2_OFFSET UNITYSDK_OFFSET(0x1BCD7BF0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLED_OFFSET UNITYSDK_OFFSET(0x1BCD7BE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_LOGEVENTARGSMISMATCHES_OFFSET UNITYSDK_OFFSET(0x1BCDFDD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ONEVENTCOMMAND_OFFSET UNITYSDK_OFFSET(0x1BCDA5F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_PARSECOMMANDARGS_OFFSET UNITYSDK_OFFSET(0x1BCE2BD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REMOVEFIRSTARGIFRELATEDACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1BCE8D10)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REPORTACTIVITYSAMPLINGINFO_OFFSET UNITYSDK_OFFSET(0x1BCE35C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REPORTOUTOFBANDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BCC8D40)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SENDCOMMAND_OFFSET UNITYSDK_OFFSET(0x1BCE2440)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SENDMANIFEST_OFFSET UNITYSDK_OFFSET(0x1BCDD880)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SERIALIZEEVENTARGS_OFFSET UNITYSDK_OFFSET(0x1BCE01E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SETCURRENTTHREADACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1BCCB300)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_THROWEVENTSOURCEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1BCDBC60)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BCD9E10)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_TRIMEVENTDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1BCE9EA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BCD6E50)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEETWSESSION_OFFSET UNITYSDK_OFFSET(0x1BCE2FE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEKWDTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1BCE3460)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_VALIDATEEVENTOPCODEFORTRANSFER_OFFSET UNITYSDK_OFFSET(0x1BCDB830)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_VALIDATESETTINGS_OFFSET UNITYSDK_OFFSET(0x1BCDA090)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITECLEANUP_OFFSET UNITYSDK_OFFSET(0x1BCD6750)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTCORE_OFFSET UNITYSDK_OFFSET(0x1BCDA620)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTRAW_OFFSET UNITYSDK_OFFSET(0x1BCD66D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTSTRING_OFFSET UNITYSDK_OFFSET(0x1BCDDF30)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTVARARGS_OFFSET UNITYSDK_OFFSET(0x1BCDCC80)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTWITHRELATEDACTIVITYIDCORE_OFFSET UNITYSDK_OFFSET(0x1BCDADA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_1_OFFSET UNITYSDK_OFFSET(0x1BCDA640)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_2_OFFSET UNITYSDK_OFFSET(0x1BCDA780)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_3_OFFSET UNITYSDK_OFFSET(0x1BCDA8E0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_4_OFFSET UNITYSDK_OFFSET(0x1BCDAA30)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_5_OFFSET UNITYSDK_OFFSET(0x1BCDABD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_6_OFFSET UNITYSDK_OFFSET(0x1BCDCC70)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_OFFSET UNITYSDK_OFFSET(0x1BCDA600)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGEINNER_OFFSET UNITYSDK_OFFSET(0x1BCD5930)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_1_OFFSET UNITYSDK_OFFSET(0x1BCD6840)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_OFFSET UNITYSDK_OFFSET(0x1BCD5860)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITESTRINGTOALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1BCE1F60)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITESTRINGTOLISTENER_OFFSET UNITYSDK_OFFSET(0x1BCDDD50)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_1_OFFSET UNITYSDK_OFFSET(0x1BCE00B0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1BCDC900)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCEA7D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BCD9FA0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BCD9FB0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD9F90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDEVENTDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1C1F5CD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x1C1DC110)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDPROVIDERENUMKIND_OFFSET UNITYSDK_OFFSET(0x1C1F3530)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDVALUETOMETADATA_OFFSET UNITYSDK_OFFSET(0x1C1E3500)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ANYEVENTENABLED_OFFSET UNITYSDK_OFFSET(0x1C1EF430)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ATTRIBUTETYPENAMESMATCH_OFFSET UNITYSDK_OFFSET(0x1C1F2B60)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1F6830)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CREATEMANIFESTANDDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1C1F0190)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C1E6000)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C1E6010)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1E5FF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DEBUGCHECKEVENT_OFFSET UNITYSDK_OFFSET(0x1C1F4FB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DECODEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C1EB630)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPATCHTOALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1C1EC6D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1C1E9840)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C1DC5B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DOCOMMAND_OFFSET UNITYSDK_OFFSET(0x1C1EA440)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ENABLEEVENTFORDISPATCHER_OFFSET UNITYSDK_OFFSET(0x1C1EEB70)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ENSUREDESCRIPTORSINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1C1EE650)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C1E9CE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GENERATEGUIDFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C1E5A40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETCUSTOMATTRIBUTEHELPER_OFFSET UNITYSDK_OFFSET(0x1C1E3F00)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETDISPATCHER_OFFSET UNITYSDK_OFFSET(0x1C1EBE00)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETETWSESSIONMASK_OFFSET UNITYSDK_OFFSET(0x1C1E78D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETEVENTSOURCEBASETYPE_OFFSET UNITYSDK_OFFSET(0x1C1F2FC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETGUID_OFFSET UNITYSDK_OFFSET(0x1C1E3CC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETHELPERCALLFIRSTARG_OFFSET UNITYSDK_OFFSET(0x1C1F63C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETNAME_1_OFFSET UNITYSDK_OFFSET(0x1C1E5C30)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETNAME_OFFSET UNITYSDK_OFFSET(0x1C1E5C00)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETOPCODEWITHDEFAULT_OFFSET UNITYSDK_OFFSET(0x1C1EE440)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETPARAMLENGTHINCLUDINGBYTEARRAY_OFFSET UNITYSDK_OFFSET(0x1C1EC5A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_CURRENTTHREADACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C1D7120)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_FALLBACKACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C1E5D60)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_GUID_OFFSET UNITYSDK_OFFSET(0x1C1E3C30)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_INTERNALCURRENTTHREADACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C1D5480)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x1C1F0150)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C1E3C20)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_SELFDESCRIBINGEVENTS_OFFSET UNITYSDK_OFFSET(0x1C1E7CA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GET_THROWONEVENTWRITEERRORS_OFFSET UNITYSDK_OFFSET(0x1C1EE3B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_HEXDIGIT_OFFSET UNITYSDK_OFFSET(0x1C1E3B20)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_INITIALIZEPROVIDERMETADATA_OFFSET UNITYSDK_OFFSET(0x1C1E2FE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C1E6150)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLEDBYDEFAULT_OFFSET UNITYSDK_OFFSET(0x1C1EE320)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLEDCOMMON_OFFSET UNITYSDK_OFFSET(0x1C1E3C90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLED_1_OFFSET UNITYSDK_OFFSET(0x1C1E1950)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLED_2_OFFSET UNITYSDK_OFFSET(0x1C1E3C50)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ISENABLED_OFFSET UNITYSDK_OFFSET(0x1C1E3C40)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_LOGEVENTARGSMISMATCHES_OFFSET UNITYSDK_OFFSET(0x1C1EBE30)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ONEVENTCOMMAND_OFFSET UNITYSDK_OFFSET(0x1C1E6650)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_PARSECOMMANDARGS_OFFSET UNITYSDK_OFFSET(0x1C1EEC30)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REMOVEFIRSTARGIFRELATEDACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C1F4D70)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REPORTACTIVITYSAMPLINGINFO_OFFSET UNITYSDK_OFFSET(0x1C1EF620)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REPORTOUTOFBANDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C1D4DD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SENDCOMMAND_OFFSET UNITYSDK_OFFSET(0x1C1EE4A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SENDMANIFEST_OFFSET UNITYSDK_OFFSET(0x1C1E98E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SERIALIZEEVENTARGS_OFFSET UNITYSDK_OFFSET(0x1C1EC240)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_SETCURRENTTHREADACTIVITYID_OFFSET UNITYSDK_OFFSET(0x1C1D7370)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_THROWEVENTSOURCEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C1E7CC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C1E5E70)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_TRIMEVENTDESCRIPTORS_OFFSET UNITYSDK_OFFSET(0x1C1F5F00)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1C1E2EB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEETWSESSION_OFFSET UNITYSDK_OFFSET(0x1C1EF040)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEKWDTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1C1EF4C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_VALIDATEEVENTOPCODEFORTRANSFER_OFFSET UNITYSDK_OFFSET(0x1C1E7890)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_VALIDATESETTINGS_OFFSET UNITYSDK_OFFSET(0x1C1E60F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C1E27B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTCORE_OFFSET UNITYSDK_OFFSET(0x1C1E6680)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTRAW_OFFSET UNITYSDK_OFFSET(0x1C1E2730)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTSTRING_OFFSET UNITYSDK_OFFSET(0x1C1E9F90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTVARARGS_OFFSET UNITYSDK_OFFSET(0x1C1E8CE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTWITHRELATEDACTIVITYIDCORE_OFFSET UNITYSDK_OFFSET(0x1C1E6E00)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_1_OFFSET UNITYSDK_OFFSET(0x1C1E66A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_2_OFFSET UNITYSDK_OFFSET(0x1C1E67E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_3_OFFSET UNITYSDK_OFFSET(0x1C1E6940)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_4_OFFSET UNITYSDK_OFFSET(0x1C1E6A90)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_5_OFFSET UNITYSDK_OFFSET(0x1C1E6C30)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_6_OFFSET UNITYSDK_OFFSET(0x1C1E8CD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_OFFSET UNITYSDK_OFFSET(0x1C1E6660)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGEINNER_OFFSET UNITYSDK_OFFSET(0x1C1E1990)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_1_OFFSET UNITYSDK_OFFSET(0x1C1E28A0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_OFFSET UNITYSDK_OFFSET(0x1C1E18C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITESTRINGTOALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1C1EDFC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITESTRINGTOLISTENER_OFFSET UNITYSDK_OFFSET(0x1C1E9DB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_1_OFFSET UNITYSDK_OFFSET(0x1C1EC110)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_OFFSET UNITYSDK_OFFSET(0x1C1E8960)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventSource_TypeDefinitionIndex = 1662;
-
 	class EventSource : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Guid>** StaticGet_s_activityDying()
-		{
-			return (::System::Action_1<::System::Guid>**)Il2CppClass::FromTypeDefinitionIndex(EventSource_TypeDefinitionIndex)->GetStaticField(0xB480);
-		}
-		static ::Il2CppArray<::System::Byte>** StaticGet_namespaceBytes()
-		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(EventSource_TypeDefinitionIndex)->GetStaticField(0xB488);
-		}
-		static ::System::UInt32* StaticGet_s_currentPid()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(EventSource_TypeDefinitionIndex)->GetStaticField(0x2690);
-		}
-		static ::System::Guid* StaticGet_AspNetEventSourceGuid()
-		{
-			return (::System::Guid*)Il2CppClass::FromTypeDefinitionIndex(EventSource_TypeDefinitionIndex)->GetStaticField(0x2694);
-		}
-		static ::System::Byte* StaticGet_m_EventSourceExceptionRecurenceCount()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(EventSource_TypeDefinitionIndex)->GetStaticField(0x0);
-		}
 		::System::String* m_name; // 0x10
 		::Il2CppArray<::System::Byte>* providerMetadata; // 0x18
 		::System::Diagnostics::Tracing::EventDispatcher* m_Dispatchers; // 0x20
 		::Il2CppArray<::System::Diagnostics::Tracing::EtwSession*>* m_etwSessionIdMap; // 0x28
 		::System::Diagnostics::Tracing::ActivityTracker* m_activityTracker; // 0x30
 		::Il2CppArray<::System::String*>* m_traits; // 0x38
-		::Il2CppArray<::System::Diagnostics::Tracing::EventSource_EventMetadata>* m_eventData; // 0x40
+		::Il2CppArray<::System::Object*>* m_eventData; // 0x40
 		::System::Diagnostics::Tracing::EventSource_OverideEventProvider* m_provider; // 0x48
 		::System::Collections::Generic::List_1<::System::Diagnostics::Tracing::EtwSession*>* m_legacySessions; // 0x50
 		::System::Diagnostics::Tracing::EventCommandEventArgs* m_deferredCommands; // 0x58
 		::System::Exception* m_constructionException; // 0x60
-		::System::EventHandler_1<::System::Diagnostics::Tracing::EventCommandEventArgs*>* m_eventCommandExecuted; // 0x68
+		::System::EventHandler* m_eventCommandExecuted; // 0x68
 		::Il2CppArray<::System::Byte>* m_rawManifest; // 0x70
 		::System::Diagnostics::Tracing::EventKeywords m_matchAnyKeyword; // 0x78
+		::System::Byte _padding0[0x4];
 		::System::Diagnostics::Tracing::SessionMask m_activityFilteringForETWEnabled; // 0x80
 		::System::Diagnostics::Tracing::EventSourceSettings m_config; // 0x84
 		::System::Boolean m_eventSourceEnabled; // 0x88
 		::System::Byte m_outOfBandMessageCount; // 0x89
 		::System::Boolean m_completelyInited; // 0x8A
+		::System::Byte _padding1[0x1];
 		::System::Diagnostics::Tracing::EventLevel m_level; // 0x8C
 		::System::Int64 m_keywordTriggers; // 0x90
 		::System::Diagnostics::Tracing::SessionMask m_curLiveSessions; // 0x98
 		::System::Int32 m_id; // 0x9C
 		::System::Guid m_guid; // 0xA0
+		static ::System::Action** StaticGet_s_activityDying()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventSource")->GetStaticField(0x12120);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_namespaceBytes()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventSource")->GetStaticField(0x12128);
+		}
+
+		static ::System::UInt32* StaticGet_s_currentPid()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventSource")->GetStaticField(0x3DB0);
+		}
+
+		static ::System::Guid* StaticGet_AspNetEventSourceGuid()
+		{
+			return (::System::Guid*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventSource")->GetStaticField(0x3DB4);
+		}
+
+		static ::System::Byte* StaticGet_m_EventSourceExceptionRecurenceCount()
+		{
+			return (::System::Byte*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventSource")->GetStaticField(0x0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Diagnostics::Tracing::EventSourceSettings a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSourceSettings))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSourceSettings))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Diagnostics::Tracing::EventSourceSettings a1, ::Il2CppArray<::System::String*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSourceSettings, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSourceSettings, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CCTOR_OFFSET))();
 		}
 
-		::System::Void WriteMultiMerge(::System::String* a1, ::System::Diagnostics::Tracing::EventSourceOptions& a2, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a3, ::System::Guid* a4, ::System::Guid* a5, ::Il2CppArray<::System::Object*>* a6)
+		::System::Void WriteMultiMerge(::System::String* a1, ::System::Diagnostics::Tracing::EventSourceOptions a2, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a3, ::PVOID a4, ::PVOID a5, ::Il2CppArray<::System::Object*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventSourceOptions&, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::System::Guid*, ::System::Guid*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventSourceOptions, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::PVOID, ::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void WriteMultiMergeInner(::System::String* a1, ::System::Diagnostics::Tracing::EventSourceOptions& a2, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a3, ::System::Guid* a4, ::System::Guid* a5, ::Il2CppArray<::System::Object*>* a6)
+		::System::Void WriteMultiMergeInner(::System::String* a1, ::System::Diagnostics::Tracing::EventSourceOptions a2, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a3, ::PVOID a4, ::PVOID a5, ::Il2CppArray<::System::Object*>* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventSourceOptions&, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::System::Guid*, ::System::Guid*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGEINNER_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventSourceOptions, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::PVOID, ::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGEINNER_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void WriteMultiMerge_1(::System::String* a1, ::System::Diagnostics::Tracing::EventSourceOptions& a2, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a3, ::System::Guid* a4, ::System::Guid* a5, ::System::Diagnostics::Tracing::EventSource_EventData* a6)
+		::System::Void WriteMultiMerge_1(::System::String* a1, ::System::Diagnostics::Tracing::EventSourceOptions a2, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a3, ::PVOID a4, ::PVOID a5, ::PVOID a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventSourceOptions&, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::System::Guid*, ::System::Guid*, ::System::Diagnostics::Tracing::EventSource_EventData*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventSourceOptions, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::PVOID, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEMULTIMERGE_1_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void WriteCleanup(::System::Runtime::InteropServices::GCHandle* a1, ::System::Int32 a2)
+		::System::Void WriteCleanup(::PVOID a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::GCHandle*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITECLEANUP_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITECLEANUP_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void InitializeProviderMetadata()
@@ -234,9 +236,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Int32(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_HEXDIGIT_OFFSET))(a1);
 		}
 
-		::System::Diagnostics::Tracing::NameInfo* UpdateDescriptor(::System::String* a1, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a2, ::System::Diagnostics::Tracing::EventSourceOptions& a3, ::System::Diagnostics::Tracing::EventDescriptor& a4)
+		::System::Diagnostics::Tracing::NameInfo* UpdateDescriptor(::System::String* a1, ::System::Diagnostics::Tracing::TraceLoggingEventTypes* a2, ::System::Diagnostics::Tracing::EventSourceOptions a3, ::System::Diagnostics::Tracing::EventDescriptor a4)
 		{
-			return ((::System::Diagnostics::Tracing::NameInfo*(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::System::Diagnostics::Tracing::EventSourceOptions&, ::System::Diagnostics::Tracing::EventDescriptor&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEDESCRIPTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Diagnostics::Tracing::NameInfo*(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::TraceLoggingEventTypes*, ::System::Diagnostics::Tracing::EventSourceOptions, ::System::Diagnostics::Tracing::EventDescriptor))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEDESCRIPTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* get_Name()
@@ -334,14 +336,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENT_5_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteEventCore(::System::Int32 a1, ::System::Int32 a2, ::System::Diagnostics::Tracing::EventSource_EventData* a3)
+		::System::Void WriteEventCore(::System::Int32 a1, ::System::Int32 a2, ::PVOID a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Diagnostics::Tracing::EventSource_EventData*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTCORE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTCORE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteEventWithRelatedActivityIdCore(::System::Int32 a1, ::System::Guid* a2, ::System::Int32 a3, ::System::Diagnostics::Tracing::EventSource_EventData* a4)
+		::System::Void WriteEventWithRelatedActivityIdCore(::System::Int32 a1, ::PVOID a2, ::System::Int32 a3, ::PVOID a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Guid*, ::System::Int32, ::System::Diagnostics::Tracing::EventSource_EventData*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTWITHRELATEDACTIVITYIDCORE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTWITHRELATEDACTIVITYIDCORE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void WriteEvent_6(::System::Int32 a1, ::Il2CppArray<::System::Object*>* a2)
@@ -369,9 +371,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventListener*, ::System::String*, ::System::Diagnostics::Tracing::SessionMask))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITESTRINGTOLISTENER_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteEventRaw(::System::String* a1, ::System::Diagnostics::Tracing::EventDescriptor& a2, ::System::Guid* a3, ::System::Guid* a4, ::System::Int32 a5, ::System::IntPtr a6)
+		::System::Void WriteEventRaw(::System::String* a1, ::System::Diagnostics::Tracing::EventDescriptor a2, ::PVOID a3, ::PVOID a4, ::System::Int32 a5, ::System::IntPtr a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventDescriptor&, ::System::Guid*, ::System::Guid*, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTRAW_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Diagnostics::Tracing::EventDescriptor, ::PVOID, ::PVOID, ::System::Int32, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTRAW_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void Initialize(::System::Guid a1, ::System::String* a2, ::Il2CppArray<::System::String*>* a3)
@@ -389,9 +391,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Guid(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GENERATEGUIDFROMNAME_OFFSET))(a1);
 		}
 
-		::System::Object* DecodeObject(::System::Int32 a1, ::System::Int32 a2, ::System::Diagnostics::Tracing::EventSource_EventData*& a3)
+		::System::Object* DecodeObject(::System::Int32 a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Diagnostics::Tracing::EventSource_EventData*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DECODEOBJECT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DECODEOBJECT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Diagnostics::Tracing::EventDispatcher* GetDispatcher(::System::Diagnostics::Tracing::EventListener* a1)
@@ -399,9 +401,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Diagnostics::Tracing::EventDispatcher*(*)(::PVOID, ::System::Diagnostics::Tracing::EventListener*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETDISPATCHER_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteEventVarargs(::System::Int32 a1, ::System::Guid* a2, ::Il2CppArray<::System::Object*>* a3)
+		::System::Void WriteEventVarargs(::System::Int32 a1, ::PVOID a2, ::Il2CppArray<::System::Object*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Guid*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTVARARGS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITEEVENTVARARGS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Il2CppArray<::System::Object*>* SerializeEventArgs(::System::Int32 a1, ::Il2CppArray<::System::Object*>* a2)
@@ -419,19 +421,19 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Reflection::ParameterInfo*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETPARAMLENGTHINCLUDINGBYTEARRAY_OFFSET))(this, a1);
 		}
 
-		::System::Void WriteToAllListeners(::System::Int32 a1, ::System::Guid* a2, ::System::Int32 a3, ::System::Diagnostics::Tracing::EventSource_EventData* a4)
+		::System::Void WriteToAllListeners(::System::Int32 a1, ::PVOID a2, ::System::Int32 a3, ::PVOID a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Guid*, ::System::Int32, ::System::Diagnostics::Tracing::EventSource_EventData*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void WriteToAllListeners_1(::System::Int32 a1, ::System::Guid* a2, ::Il2CppArray<::System::Object*>* a3)
+		::System::Void WriteToAllListeners_1(::System::Int32 a1, ::PVOID a2, ::Il2CppArray<::System::Object*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Guid*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITETOALLLISTENERS_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void DispatchToAllListeners(::System::Int32 a1, ::System::Guid* a2, ::System::Diagnostics::Tracing::EventWrittenEventArgs* a3)
+		::System::Void DispatchToAllListeners(::System::Int32 a1, ::PVOID a2, ::System::Diagnostics::Tracing::EventWrittenEventArgs* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Guid*, ::System::Diagnostics::Tracing::EventWrittenEventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPATCHTOALLLISTENERS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID, ::System::Diagnostics::Tracing::EventWrittenEventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DISPATCHTOALLLISTENERS_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void WriteEventString(::System::Diagnostics::Tracing::EventLevel a1, ::System::Int64 a2, ::System::String* a3)
@@ -444,9 +446,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_WRITESTRINGTOALLLISTENERS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Diagnostics::Tracing::SessionMask GetEtwSessionMask(::System::Int32 a1, ::System::Guid* a2)
+		::System::Diagnostics::Tracing::SessionMask GetEtwSessionMask(::System::Int32 a1, ::PVOID a2)
 		{
-			return ((::System::Diagnostics::Tracing::SessionMask(*)(::PVOID, ::System::Int32, ::System::Guid*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETETWSESSIONMASK_OFFSET))(this, a1, a2);
+			return ((::System::Diagnostics::Tracing::SessionMask(*)(::PVOID, ::System::Int32, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_GETETWSESSIONMASK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsEnabledByDefault(::System::Int32 a1, ::System::Boolean a2, ::System::Diagnostics::Tracing::EventLevel a3, ::System::Diagnostics::Tracing::EventKeywords a4)
@@ -464,9 +466,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_THROWEVENTSOURCEEXCEPTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void ValidateEventOpcodeForTransfer(::System::Diagnostics::Tracing::EventSource_EventMetadata& a1, ::System::String* a2)
+		::System::Void ValidateEventOpcodeForTransfer(::System::Diagnostics::Tracing::EventSource_EventMetadata a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSource_EventMetadata&, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_VALIDATEEVENTOPCODEFORTRANSFER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventSource_EventMetadata, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_VALIDATEEVENTOPCODEFORTRANSFER_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Diagnostics::Tracing::EventOpcode GetOpcodeWithDefault(::System::Diagnostics::Tracing::EventOpcode a1, ::System::String* a2)
@@ -489,9 +491,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_UPDATEETWSESSION_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean ParseCommandArgs(::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a1, ::System::Boolean& a2, ::System::String*& a3, ::System::Int32& a4)
+		static ::System::Boolean ParseCommandArgs(::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a1, ::System::Boolean a2, ::System::String* a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*, ::System::Boolean&, ::System::String*&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_PARSECOMMANDARGS_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*, ::System::Boolean, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_PARSECOMMANDARGS_OFFSET))(a1, a2, a3, a4);
 		}
 
 		::System::Void UpdateKwdTriggers(::System::Boolean a1)
@@ -544,9 +546,9 @@ namespace System::Diagnostics::Tracing
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::Type*, ::System::String*, ::System::Diagnostics::Tracing::EventSource*, ::System::Diagnostics::Tracing::EventManifestOptions))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_CREATEMANIFESTANDDESCRIPTORS_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Boolean RemoveFirstArgIfRelatedActivityId(::Il2CppArray<::System::Reflection::ParameterInfo*>*& a1)
+		static ::System::Boolean RemoveFirstArgIfRelatedActivityId(::System::Object* a1)
 		{
-			return ((::System::Boolean(*)(::Il2CppArray<::System::Reflection::ParameterInfo*>*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REMOVEFIRSTARGIFRELATEDACTIVITYID_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REMOVEFIRSTARGIFRELATEDACTIVITYID_OFFSET))(a1);
 		}
 
 		static ::System::Void AddProviderEnumKind(::System::Diagnostics::Tracing::ManifestBuilder* a1, ::System::Reflection::FieldInfo* a2, ::System::String* a3)
@@ -554,14 +556,14 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::System::Diagnostics::Tracing::ManifestBuilder*, ::System::Reflection::FieldInfo*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDPROVIDERENUMKIND_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void AddEventDescriptor(::Il2CppArray<::System::Diagnostics::Tracing::EventSource_EventMetadata>*& a1, ::System::String* a2, ::System::Diagnostics::Tracing::EventAttribute* a3, ::Il2CppArray<::System::Reflection::ParameterInfo*>* a4, ::System::Boolean a5)
+		static ::System::Void AddEventDescriptor(::System::Object* a1, ::System::String* a2, ::System::Diagnostics::Tracing::EventAttribute* a3, ::Il2CppArray<::System::Reflection::ParameterInfo*>* a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Diagnostics::Tracing::EventSource_EventMetadata>*&, ::System::String*, ::System::Diagnostics::Tracing::EventAttribute*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDEVENTDESCRIPTOR_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::System::Object*, ::System::String*, ::System::Diagnostics::Tracing::EventAttribute*, ::Il2CppArray<::System::Reflection::ParameterInfo*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDEVENTDESCRIPTOR_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void TrimEventDescriptors(::Il2CppArray<::System::Diagnostics::Tracing::EventSource_EventMetadata>*& a1)
+		static ::System::Void TrimEventDescriptors(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::Il2CppArray<::System::Diagnostics::Tracing::EventSource_EventMetadata>*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_TRIMEVENTDESCRIPTORS_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_TRIMEVENTDESCRIPTORS_OFFSET))(a1);
 		}
 
 		::System::Void AddListener(::System::Diagnostics::Tracing::EventListener* a1)
@@ -569,9 +571,9 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventListener*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_ADDLISTENER_OFFSET))(this, a1);
 		}
 
-		static ::System::Void DebugCheckEvent(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*& a1, ::Il2CppArray<::System::Diagnostics::Tracing::EventSource_EventMetadata>* a2, ::System::Reflection::MethodInfo* a3, ::System::Diagnostics::Tracing::EventAttribute* a4, ::System::Diagnostics::Tracing::ManifestBuilder* a5, ::System::Diagnostics::Tracing::EventManifestOptions a6)
+		static ::System::Void DebugCheckEvent(::System::Object* a1, ::Il2CppArray<::System::Object*>* a2, ::System::Reflection::MethodInfo* a3, ::System::Diagnostics::Tracing::EventAttribute* a4, ::System::Diagnostics::Tracing::ManifestBuilder* a5, ::System::Diagnostics::Tracing::EventManifestOptions a6)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*&, ::Il2CppArray<::System::Diagnostics::Tracing::EventSource_EventMetadata>*, ::System::Reflection::MethodInfo*, ::System::Diagnostics::Tracing::EventAttribute*, ::System::Diagnostics::Tracing::ManifestBuilder*, ::System::Diagnostics::Tracing::EventManifestOptions))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DEBUGCHECKEVENT_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::System::Object*, ::Il2CppArray<::System::Object*>*, ::System::Reflection::MethodInfo*, ::System::Diagnostics::Tracing::EventAttribute*, ::System::Diagnostics::Tracing::ManifestBuilder*, ::System::Diagnostics::Tracing::EventManifestOptions))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_DEBUGCHECKEVENT_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::Int32 GetHelperCallFirstArg(::System::Reflection::MethodInfo* a1)
@@ -603,5 +605,6 @@ namespace System::Diagnostics::Tracing
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::EventListener*, ::System::Diagnostics::Tracing::SessionMask))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_EVENTSOURCE_REPORTACTIVITYSAMPLINGINFO_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

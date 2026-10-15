@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE41E680)
-#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE41E6F0)
-#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xE41E670)
-#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE41E600)
+#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE466490)
+#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE466410)
+#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE466500)
+#define RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xE466480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WindowsHelper_EnumWindowsCallBack_TypeDefinitionIndex = 73148;
-
 	class WindowsHelper_EnumWindowsCallBack : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::IntPtr a1, ::System::IntPtr a2)
@@ -37,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_WINDOWSHELPER_ENUMWINDOWSCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

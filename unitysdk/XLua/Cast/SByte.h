@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/XLua/Cast/Any_1.h"
 
-#define XLUA_CAST_SBYTE__CTOR_OFFSET UNITYSDK_OFFSET(0x14A34C00)
+#define XLUA_CAST_SBYTE_CTOR_OFFSET UNITYSDK_OFFSET(0x14CBFE20)
 
 namespace XLua::Cast
 {
-	inline static constexpr unsigned int SByte_TypeDefinitionIndex = 50624;
-
-	class SByte : public ::XLua::Cast::Any_1<::System::SByte>
+	class SByte
 	{
 	public:
 		::System::Void _ctor(::System::SByte a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::SByte))((::PBYTE)hIl2Cpp + XLUA_CAST_SBYTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::SByte))((::PBYTE)hIl2Cpp + XLUA_CAST_SBYTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Spine/Timeline.h"
-
 namespace System { class String; }
 
-#define SPINE_CURVETIMELINE_GETBEZIERVALUE_OFFSET UNITYSDK_OFFSET(0x1E5D9250)
-#define SPINE_CURVETIMELINE_GETCURVETYPE_OFFSET UNITYSDK_OFFSET(0x1E5D8ED0)
-#define SPINE_CURVETIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1E5D8FF0)
-#define SPINE_CURVETIMELINE_SETLINEAR_OFFSET UNITYSDK_OFFSET(0x1E5D8E70)
-#define SPINE_CURVETIMELINE_SETSTEPPED_OFFSET UNITYSDK_OFFSET(0x1E5D8EA0)
-#define SPINE_CURVETIMELINE_SHRINK_OFFSET UNITYSDK_OFFSET(0x1E5D8F10)
-#define SPINE_CURVETIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D8E10)
+#define SPINE_CURVETIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA0FB0)
+#define SPINE_CURVETIMELINE_GETBEZIERVALUE_OFFSET UNITYSDK_OFFSET(0x1ECA13F0)
+#define SPINE_CURVETIMELINE_GETCURVETYPE_OFFSET UNITYSDK_OFFSET(0x1ECA1070)
+#define SPINE_CURVETIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1ECA1190)
+#define SPINE_CURVETIMELINE_SETLINEAR_OFFSET UNITYSDK_OFFSET(0x1ECA1010)
+#define SPINE_CURVETIMELINE_SETSTEPPED_OFFSET UNITYSDK_OFFSET(0x1ECA1040)
+#define SPINE_CURVETIMELINE_SHRINK_OFFSET UNITYSDK_OFFSET(0x1ECA10B0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int CurveTimeline_TypeDefinitionIndex = 38303;
-
 	class CurveTimeline : public ::Spine::Timeline
 	{
 	public:
-		// static const ::System::Int32 LINEAR = 0x0; // 0x0
-		// static const ::System::Int32 STEPPED = 0x1; // 0x0
-		// static const ::System::Int32 BEZIER = 0x2; // 0x0
-		// static const ::System::Int32 BEZIER_SIZE = 0x12; // 0x0
 		::Il2CppArray<::System::Single>* curves; // 0x20
-
+		// static const ::System::Object LINEAR; // 0x0
+		// static const ::System::Object STEPPED; // 0x0
+		// static const ::System::Object BEZIER; // 0x0
+		// static const ::System::Object BEZIER_SIZE; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_CURVETIMELINE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + SPINE_CURVETIMELINE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void SetLinear(::System::Int32 a1)
@@ -59,5 +55,6 @@ namespace Spine
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_CURVETIMELINE_GETBEZIERVALUE_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

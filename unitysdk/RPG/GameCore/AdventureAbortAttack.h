@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureAbortAttack; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVENTUREABORTATTACK_METHOD_3_4D2618B5C2E58F71_OFFSET UNITYSDK_OFFSET(0x1CDE08B0)
-#define RPG_GAMECORE_ADVENTUREABORTATTACK_METHOD_3_B6BA1AA5838DCF34_OFFSET UNITYSDK_OFFSET(0x1CDE07E0)
-#define RPG_GAMECORE_ADVENTUREABORTATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE08A0)
+#define RPG_GAMECORE_ADVENTUREABORTATTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B6230)
+#define RPG_GAMECORE_ADVENTUREABORTATTACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B6240)
+#define RPG_GAMECORE_ADVENTUREABORTATTACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B6170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAbortAttack_TypeDefinitionIndex = 19963;
-
 	class AdventureAbortAttack : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABORTATTACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABORTATTACK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B6BA1AA5838DCF34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbortAttack*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureAbortAttack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbortAttack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABORTATTACK_METHOD_3_B6BA1AA5838DCF34_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureAbortAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABORTATTACK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4D2618B5C2E58F71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureAbortAttack* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureAbortAttack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureAbortAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABORTATTACK_METHOD_3_4D2618B5C2E58F71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureAbortAttack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREABORTATTACK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

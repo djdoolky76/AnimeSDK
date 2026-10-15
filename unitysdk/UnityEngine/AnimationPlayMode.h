@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimationPlayMode_TypeDefinitionIndex = 5731;
-
 	enum class AnimationPlayMode : ::System::Int32
 	{
 		Stop = 0,

@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DiagnosticSwitchFlags_TypeDefinitionIndex = 4070;
-
 	enum class DiagnosticSwitchFlags : ::System::Int32
 	{
 		None = 0,

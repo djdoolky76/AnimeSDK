@@ -2,16 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_ENVV2PARAMPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xDDAFD50)
+#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_ENVV2PARAMPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0xDFA0040)
 
 namespace Code::Rendering::EnvironmentSystemV2
 {
-	inline static constexpr unsigned int EnvV2ParamPreset_TypeDefinitionIndex = 50420;
-
 	class EnvV2ParamPreset : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::System::Boolean enableOutput; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single fadingRate; // 0x1C
 		::System::Single loadingDelayUpdateSpeed; // 0x20
 		::System::Single loadingDelaySeconds; // 0x24
@@ -20,6 +19,7 @@ namespace Code::Rendering::EnvironmentSystemV2
 		::System::Boolean enableDirtyApply; // 0x30
 		::System::Boolean disableGPUGradient; // 0x31
 		::System::Boolean randomGPUGradient; // 0x32
+		::System::Byte _padding1[0x1];
 		::System::Single globalReleaseDuration; // 0x34
 		::System::Single globalActiveDuration; // 0x38
 		::System::Boolean EnableInterpTaskTrace; // 0x3C
@@ -29,10 +29,10 @@ namespace Code::Rendering::EnvironmentSystemV2
 		::System::Boolean enableOuptputCollection; // 0x40
 		::System::Boolean disableGradient; // 0x41
 		::System::Boolean enbaleUAtmosphere; // 0x42
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_RENDERING_ENVIRONMENTSYSTEMV2_ENVV2PARAMPRESET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CODE_RENDERING_ENVIRONMENTSYSTEMV2_ENVV2PARAMPRESET_CTOR_OFFSET))(this);
 		}
+
 	};
 }

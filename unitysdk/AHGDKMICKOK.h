@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class ALFJPDLGBJH;
+namespace RPG::GameCore { class TaskContext; }
+
+#define AHGDKMICKOK_CTOR_OFFSET UNITYSDK_OFFSET(0xEB80850)
+#define AHGDKMICKOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB80880)
+
+	class AHGDKMICKOK
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::ALFJPDLGBJH* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::ALFJPDLGBJH*))((::PBYTE)hIl2Cpp + AHGDKMICKOK_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AHGDKMICKOK_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

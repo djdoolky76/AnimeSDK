@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Enum_ParseFailureKind.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_ENUM_ENUMRESULT_GETENUMPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3B6B730)
-#define SYSTEM_ENUM_ENUMRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3B6B670)
-#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3B6B6C0)
-#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x3B6B6F0)
-#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3B6B6B0)
+#define SYSTEM_ENUM_ENUMRESULT_GETENUMPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3C20000)
+#define SYSTEM_ENUM_ENUMRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3C1FF40)
+#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3C1FF90)
+#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x3C1FFC0)
+#define SYSTEM_ENUM_ENUMRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3C1FF80)
 
 namespace System
 {
-	inline static constexpr unsigned int Enum_EnumResult_TypeDefinitionIndex = 239;
-
 	struct alignas(8) Enum_EnumResult
 	{
 		::System::Object* parsedEnum; // 0x10
 		::System::Boolean canThrow; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Enum_ParseFailureKind m_failure; // 0x1C
 		::System::String* m_failureMessageID; // 0x20
 		::System::String* m_failureParameter; // 0x28
 		::System::Object* m_failureMessageFormatArgument; // 0x30
 		::System::Exception* m_innerException; // 0x38
-
 		::System::Void Init(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_INIT_OFFSET))(this, a1);
@@ -51,5 +47,6 @@ namespace System
 		{
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ENUM_ENUMRESULT_GETENUMPARSEEXCEPTION_OFFSET))(this);
 		}
+
 	};
 }

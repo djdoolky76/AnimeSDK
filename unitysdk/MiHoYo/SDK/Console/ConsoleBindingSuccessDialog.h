@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
-
+namespace MiHoYo::SDK::Console { class ConsoleBindingSuccessDialog; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B78DB40)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B78D2B0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1B78DBB0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1B78D240)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B78DB90)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1B78D130)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x1B78D8B0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B78DBE0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BC8C870)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC8BF60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC8C8E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC8C910)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC8BEF0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC8C8C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC8BDE0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x1BC8C5E0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleBindingSuccessDialog_TypeDefinitionIndex = 8939;
-
 	class ConsoleBindingSuccessDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
+		::UnityEngine::GameObject* FooterObj; // 0xC0
+		::System::Action* OnConfirmed; // 0xC8
+		::System::Single autoCloseLeftSeconds; // 0xD0
+		::System::Byte _padding0[0x4];
+		::System::String* PSNAccount; // 0xD8
+		::System::String* HoYoAccount; // 0xE0
 		static ::MiHoYo::SDK::Console::ConsoleBindingSuccessDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleBindingSuccessDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleBindingSuccessDialog_TypeDefinitionIndex)->GetStaticField(0x7280);
+			return (::MiHoYo::SDK::Console::ConsoleBindingSuccessDialog**)UnitySDK::FromName("MiHoYo.SDK.Console", "ConsoleBindingSuccessDialog")->GetStaticField(0x32300);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* DescTextPath; // 0x0
 		// static const ::System::String* FooterTextPath; // 0x0
-		// static const ::System::Single AUTO_CLOSE_TIMEOUT_IN_SECONDS; // 0x0
-		::UnityEngine::GameObject* FooterObj; // 0xC0
-		::System::Action* OnConfirmed; // 0xC8
-		::System::Single autoCloseLeftSeconds; // 0xD0
-		::System::String* PSNAccount; // 0xD8
-		::System::String* HoYoAccount; // 0xE0
-
+		// static const ::System::Object AUTO_CLOSE_TIMEOUT_IN_SECONDS; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::String* a1, ::System::String* a2)
@@ -77,5 +76,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,22 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_CONTROLKEYSTRING_OFFSET UNITYSDK_OFFSET(0x1EB20BF0)
-#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_EMPTYGAMEOBJECTWITHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1EB20A70)
-#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_STRINGTOVECTOR3ARRAY_OFFSET UNITYSDK_OFFSET(0x1EB20FD0)
-#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_TRYPARSECOLOR_OFFSET UNITYSDK_OFFSET(0x1EB20CA0)
+#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_CONTROLKEYSTRING_OFFSET UNITYSDK_OFFSET(0x1F1E84B0)
+#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_EMPTYGAMEOBJECTWITHTRANSFORM_OFFSET UNITYSDK_OFFSET(0x1F1E8330)
+#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_STRINGTOVECTOR3ARRAY_OFFSET UNITYSDK_OFFSET(0x1F1E8890)
+#define UNITYENGINE_PROBUILDER_INTERNALUTILITY_TRYPARSECOLOR_OFFSET UNITYSDK_OFFSET(0x1F1E8560)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int InternalUtility_TypeDefinitionIndex = 43175;
-
 	class InternalUtility : public ::System::Object
 	{
 	public:
@@ -32,14 +27,15 @@ namespace UnityEngine::ProBuilder
 			return ((::System::String*(*)(::System::Char))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_INTERNALUTILITY_CONTROLKEYSTRING_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryParseColor(::System::String* a1, ::UnityEngine::Color& a2)
+		static ::System::Boolean TryParseColor(::System::String* a1, ::UnityEngine::Color a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_INTERNALUTILITY_TRYPARSECOLOR_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_INTERNALUTILITY_TRYPARSECOLOR_OFFSET))(a1, a2);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Vector3>* StringToVector3Array(::System::String* a1)
 		{
 			return ((::Il2CppArray<::UnityEngine::Vector3>*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_INTERNALUTILITY_STRINGTOVECTOR3ARRAY_OFFSET))(a1);
 		}
+
 	};
 }

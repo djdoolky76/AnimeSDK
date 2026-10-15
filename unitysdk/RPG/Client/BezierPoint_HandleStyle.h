@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BezierPoint_HandleStyle_TypeDefinitionIndex = 35396;
-
 	enum class BezierPoint_HandleStyle : ::System::Int32
 	{
 		Connected = 0,

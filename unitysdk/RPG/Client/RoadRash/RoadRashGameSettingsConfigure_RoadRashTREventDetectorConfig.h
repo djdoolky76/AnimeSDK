@@ -2,12 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_ROADRASHTREVENTDETECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDE95D70)
+#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_ROADRASHTREVENTDETECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE6370)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig_TypeDefinitionIndex = 75485;
-
 	class RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig : public ::System::Object
 	{
 	public:
@@ -18,10 +16,10 @@ namespace RPG::Client::RoadRash
 		::System::Single PerfectDriftCurveMinTurnAngle; // 0x20
 		::System::Single RearCarApproachDistance; // 0x24
 		::System::Single RearCarClosingSpeed; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_ROADRASHTREVENTDETECTORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_ROADRASHTREVENTDETECTORCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

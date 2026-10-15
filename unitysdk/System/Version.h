@@ -2,84 +2,83 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Version_VersionResult.h"
-
+namespace System { class Object; }
 namespace System { class String; }
+namespace System { class Version; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_VERSION_APPENDPOSITIVENUMBER_OFFSET UNITYSDK_OFFSET(0x1BC83F90)
-#define SYSTEM_VERSION_CLONE_OFFSET UNITYSDK_OFFSET(0x1BC83140)
-#define SYSTEM_VERSION_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x1BC832E0)
-#define SYSTEM_VERSION_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1BC83170)
-#define SYSTEM_VERSION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC83400)
-#define SYSTEM_VERSION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC83370)
-#define SYSTEM_VERSION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC83480)
-#define SYSTEM_VERSION_GET_BUILD_OFFSET UNITYSDK_OFFSET(0x1BC83120)
-#define SYSTEM_VERSION_GET_MAJOR_OFFSET UNITYSDK_OFFSET(0x1BC83100)
-#define SYSTEM_VERSION_GET_MINOR_OFFSET UNITYSDK_OFFSET(0x1BC83110)
-#define SYSTEM_VERSION_GET_REVISION_OFFSET UNITYSDK_OFFSET(0x1BC83130)
-#define SYSTEM_VERSION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BC83260)
-#define SYSTEM_VERSION_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1BC84B10)
-#define SYSTEM_VERSION_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1BC84AD0)
-#define SYSTEM_VERSION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1BC848B0)
-#define SYSTEM_VERSION_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1BC84A10)
-#define SYSTEM_VERSION_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1BC84950)
-#define SYSTEM_VERSION_PARSE_OFFSET UNITYSDK_OFFSET(0x1BC83020)
-#define SYSTEM_VERSION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1BC834E0)
-#define SYSTEM_VERSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC834B0)
-#define SYSTEM_VERSION_TRYPARSECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1BC84730)
-#define SYSTEM_VERSION_TRYPARSEVERSION_OFFSET UNITYSDK_OFFSET(0x1BC84020)
-#define SYSTEM_VERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC84B50)
-#define SYSTEM_VERSION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC82DD0)
-#define SYSTEM_VERSION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BC82EF0)
-#define SYSTEM_VERSION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1BC82FC0)
-#define SYSTEM_VERSION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1BC830F0)
-#define SYSTEM_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC82CA0)
+#define SYSTEM_VERSION_APPENDPOSITIVENUMBER_OFFSET UNITYSDK_OFFSET(0x1C18FEC0)
+#define SYSTEM_VERSION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C190A80)
+#define SYSTEM_VERSION_CLONE_OFFSET UNITYSDK_OFFSET(0x1C18F070)
+#define SYSTEM_VERSION_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x1C18F210)
+#define SYSTEM_VERSION_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1C18F0A0)
+#define SYSTEM_VERSION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C18ED30)
+#define SYSTEM_VERSION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C18EE50)
+#define SYSTEM_VERSION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C18EEF0)
+#define SYSTEM_VERSION_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1C18F020)
+#define SYSTEM_VERSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C18EC00)
+#define SYSTEM_VERSION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C18F330)
+#define SYSTEM_VERSION_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C18F2A0)
+#define SYSTEM_VERSION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C18F3B0)
+#define SYSTEM_VERSION_GET_BUILD_OFFSET UNITYSDK_OFFSET(0x1C18F050)
+#define SYSTEM_VERSION_GET_MAJOR_OFFSET UNITYSDK_OFFSET(0x1C18F030)
+#define SYSTEM_VERSION_GET_MINOR_OFFSET UNITYSDK_OFFSET(0x1C18F040)
+#define SYSTEM_VERSION_GET_REVISION_OFFSET UNITYSDK_OFFSET(0x1C18F060)
+#define SYSTEM_VERSION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C18F190)
+#define SYSTEM_VERSION_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1C190A40)
+#define SYSTEM_VERSION_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1C190A00)
+#define SYSTEM_VERSION_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C1907E0)
+#define SYSTEM_VERSION_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1C190940)
+#define SYSTEM_VERSION_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1C190880)
+#define SYSTEM_VERSION_PARSE_OFFSET UNITYSDK_OFFSET(0x1C18EF50)
+#define SYSTEM_VERSION_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1C18F410)
+#define SYSTEM_VERSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C18F3E0)
+#define SYSTEM_VERSION_TRYPARSECOMPONENT_OFFSET UNITYSDK_OFFSET(0x1C190660)
+#define SYSTEM_VERSION_TRYPARSEVERSION_OFFSET UNITYSDK_OFFSET(0x1C18FF50)
 
 namespace System
 {
-	inline static constexpr unsigned int Version_TypeDefinitionIndex = 364;
-
 	class Version : public ::System::Object
 	{
 	public:
+		::System::Int32 _Revision; // 0x10
+		::System::Int32 _Major; // 0x14
+		::System::Int32 _Build; // 0x18
+		::System::Int32 _Minor; // 0x1C
 		static ::Il2CppArray<::System::Char>** StaticGet_SeparatorsArray()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Version_TypeDefinitionIndex)->GetStaticField(0x16CC0);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System", "Version")->GetStaticField(0x24040);
 		}
-		// static const ::System::Int32 ZERO_CHAR_VALUE = 0x30; // 0x0
-		::System::Int32 _Build; // 0x10
-		::System::Int32 _Major; // 0x14
-		::System::Int32 _Minor; // 0x18
-		::System::Int32 _Revision; // 0x1C
 
+		// static const ::System::Object ZERO_CHAR_VALUE; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VERSION__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VERSION__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_2(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VERSION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_VERSION__CTOR_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_CTOR_3_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_4()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VERSION__CTOR_4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_CTOR_4_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_VERSION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_VERSION_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_Major()
@@ -152,14 +151,14 @@ namespace System
 			return ((::System::Version*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_PARSE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean TryParseVersion(::System::String* a1, ::System::Version_VersionResult& a2)
+		static ::System::Boolean TryParseVersion(::System::String* a1, ::System::Version_VersionResult a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Version_VersionResult&))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_TRYPARSEVERSION_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Version_VersionResult))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_TRYPARSEVERSION_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean TryParseComponent(::System::String* a1, ::System::String* a2, ::System::Version_VersionResult& a3, ::System::Int32& a4)
+		static ::System::Boolean TryParseComponent(::System::String* a1, ::System::String* a2, ::System::Version_VersionResult a3, ::System::Int32 a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Version_VersionResult&, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_TRYPARSECOMPONENT_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::Version_VersionResult, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_TRYPARSECOMPONENT_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean op_Equality(::System::Version* a1, ::System::Version* a2)
@@ -191,5 +190,6 @@ namespace System
 		{
 			return ((::System::Boolean(*)(::System::Version*, ::System::Version*))((::PBYTE)hIl2Cpp + SYSTEM_VERSION_OP_GREATERTHANOREQUAL_OFFSET))(a1, a2);
 		}
+
 	};
 }

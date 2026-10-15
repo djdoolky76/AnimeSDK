@@ -2,36 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MusicRhythmLevelResultType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MusicRhythmLevel; }
+namespace RPG::Client { class MusicRhythmLevelResult; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_CREATEFAKEDATA_OFFSET UNITYSDK_OFFSET(0xD9121E0)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GETLEVEL_OFFSET UNITYSDK_OFFSET(0xD9122F0)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GETREWARDIDS_OFFSET UNITYSDK_OFFSET(0xD912400)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_COMBONUMS_OFFSET UNITYSDK_OFFSET(0xD9124A0)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_ISFIRSTPASS_OFFSET UNITYSDK_OFFSET(0xD9124E0)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_ISMAXDIFFICULTY_OFFSET UNITYSDK_OFFSET(0xD912540)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_LEVELID_OFFSET UNITYSDK_OFFSET(0xD9123C0)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_STARNUM_OFFSET UNITYSDK_OFFSET(0xD912460)
-#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xD912090)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_CREATEFAKEDATA_OFFSET UNITYSDK_OFFSET(0xD912FB0)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xD912E60)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GETLEVEL_OFFSET UNITYSDK_OFFSET(0xD9130C0)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GETREWARDIDS_OFFSET UNITYSDK_OFFSET(0xD9131D0)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_COMBONUMS_OFFSET UNITYSDK_OFFSET(0xD913270)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_ISFIRSTPASS_OFFSET UNITYSDK_OFFSET(0xD9132B0)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_ISMAXDIFFICULTY_OFFSET UNITYSDK_OFFSET(0xD913310)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_LEVELID_OFFSET UNITYSDK_OFFSET(0xD913190)
+#define RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_STARNUM_OFFSET UNITYSDK_OFFSET(0xD913230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmLevelResult_TypeDefinitionIndex = 61911;
-
 	class MusicRhythmLevelResult : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::MusicRhythmLevelResultType, ::System::UInt32>* _ComboNums; // 0x10
-		::System::UInt32 _PastStarNum; // 0x18
+		::System::UInt32 _StarNum; // 0x18
 		::System::UInt32 _LevelID; // 0x1C
-		::System::UInt32 _StarNum; // 0x20
-
+		::System::UInt32 _PastStarNum; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::Il2CppArray<::System::UInt32>* a3, ::System::UInt32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICRHYTHMLEVELRESULT__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Il2CppArray<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICRHYTHMLEVELRESULT_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::RPG::Client::MusicRhythmLevelResult* CreateFakeData(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
@@ -73,5 +70,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSICRHYTHMLEVELRESULT_GET_ISMAXDIFFICULTY_OFFSET))(this);
 		}
+
 	};
 }

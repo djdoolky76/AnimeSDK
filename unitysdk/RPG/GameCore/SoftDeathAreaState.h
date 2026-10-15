@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SoftDeathAreaState_TypeDefinitionIndex = 57796;
-
 	enum class SoftDeathAreaState : ::System::Int32
 	{
 		None = 0,

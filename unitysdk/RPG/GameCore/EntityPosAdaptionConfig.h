@@ -3,16 +3,14 @@
 #include "unitysdk/RPG/GameCore/CharacterAdventureSomatoType.h"
 #include "unitysdk/RPG/GameCore/EntityPosAdaptionOption.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_METHOD_2_D410D89432233A56_OFFSET UNITYSDK_OFFSET(0x1D06B7D0)
-#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06BBC0)
+#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D679A60)
+#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D679670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityPosAdaptionConfig_TypeDefinitionIndex = 20121;
-
 	class EntityPosAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -28,15 +26,15 @@ namespace RPG::GameCore
 		::System::Single NavMeshEdgeAvoidanceRadius; // 0x34
 		::System::Single SmoothTime; // 0x38
 		::RPG::GameCore::CharacterAdventureSomatoType NavMeshSomatoType; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_D410D89432233A56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EntityPosAdaptionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EntityPosAdaptionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EntityPosAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_METHOD_2_D410D89432233A56_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EntityPosAdaptionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

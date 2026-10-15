@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/BaseNumberConverter.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Globalization { class NumberFormatInfo; }
 
-#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_FROMSTRING_1_OFFSET UNITYSDK_OFFSET(0x1E93C720)
-#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1E93C6F0)
-#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x1E93C6C0)
-#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E93C760)
+#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_FROMSTRING_1_OFFSET UNITYSDK_OFFSET(0x1F005480)
+#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1F005450)
+#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x1F005420)
+#define SYSTEM_COMPONENTMODEL_UINT16CONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F0054C0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int UInt16Converter_TypeDefinitionIndex = 2647;
-
 	class UInt16Converter : public ::System::ComponentModel::BaseNumberConverter
 	{
 	public:
@@ -38,5 +35,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Object*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_UINT16CONVERTER_TOSTRING_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

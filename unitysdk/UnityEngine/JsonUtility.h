@@ -1,21 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_JSONUTILITY_FROMJSONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDA91D0)
-#define UNITYENGINE_JSONUTILITY_FROMJSONOVERWRITE_OFFSET UNITYSDK_OFFSET(0x1EDA94C0)
-#define UNITYENGINE_JSONUTILITY_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1EDA92D0)
-#define UNITYENGINE_JSONUTILITY_TOJSONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDA91C0)
-#define UNITYENGINE_JSONUTILITY_TOJSON_1_OFFSET UNITYSDK_OFFSET(0x1EDA91F0)
-#define UNITYENGINE_JSONUTILITY_TOJSON_OFFSET UNITYSDK_OFFSET(0x1EDA91E0)
+#define UNITYENGINE_JSONUTILITY_FROMJSONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F471980)
+#define UNITYENGINE_JSONUTILITY_FROMJSONOVERWRITE_OFFSET UNITYSDK_OFFSET(0x1F471C70)
+#define UNITYENGINE_JSONUTILITY_FROMJSON_1_OFFSET UNITYSDK_OFFSET(0x1F471A80)
+#define UNITYENGINE_JSONUTILITY_TOJSONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F471970)
+#define UNITYENGINE_JSONUTILITY_TOJSON_1_OFFSET UNITYSDK_OFFSET(0x1F4719A0)
+#define UNITYENGINE_JSONUTILITY_TOJSON_OFFSET UNITYSDK_OFFSET(0x1F471990)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int JsonUtility_TypeDefinitionIndex = 5789;
-
 	class JsonUtility : public ::System::Object
 	{
 	public:
@@ -39,14 +37,15 @@ namespace UnityEngine
 			return ((::System::String*(*)(::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_JSONUTILITY_TOJSON_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Object* FromJson(::System::String* a1, ::System::Type* a2)
+		static ::System::Object* FromJson_1(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::System::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_JSONUTILITY_FROMJSON_OFFSET))(a1, a2);
+			return ((::System::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_JSONUTILITY_FROMJSON_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void FromJsonOverwrite(::System::String* a1, ::System::Object* a2)
 		{
 			return ((::System::Void(*)(::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_JSONUTILITY_FROMJSONOVERWRITE_OFFSET))(a1, a2);
 		}
+
 	};
 }

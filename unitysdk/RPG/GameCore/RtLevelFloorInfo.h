@@ -3,31 +3,31 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/LevelFeatureType.h"
 #include "unitysdk/RPG/GameCore/MapCameraType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FloorCustomValueConfig; }
 namespace RPG::GameCore { class LevelValidNavmapSubmapConfig; }
 namespace RPG::GameCore { class RtLevelDimensionInfo; }
+namespace RPG::GameCore { class RtLevelFloorInfo; }
 namespace RPG::GameCore { class RtLevelGroupInstanceCommonInfo; }
 namespace RPG::GameCore { class RtLevelGroupInstanceInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTLEVELFLOORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4AB2C0)
-#define RPG_GAMECORE_RTLEVELFLOORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4AB9A0)
+#define RPG_GAMECORE_RTLEVELFLOORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5ED70)
+#define RPG_GAMECORE_RTLEVELFLOORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA5E690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelFloorInfo_TypeDefinitionIndex = 17154;
-
 	class RtLevelFloorInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 FloorID; // 0x10
 		::System::UInt32 StartGroupIndex; // 0x14
 		::System::UInt32 StartAnchorID; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* StageData; // 0x20
 		::RPG::GameCore::MapCameraType CameraType; // 0x28
+		::System::Byte _padding1[0x4];
 		::Il2CppArray<::System::Int32>* LayerToAreaMask; // 0x30
 		::Il2CppArray<::RPG::GameCore::LevelFeatureType>* LevelFeatureModules; // 0x38
 		::System::String* NavmapConfigPath; // 0x40
@@ -42,15 +42,15 @@ namespace RPG::GameCore
 		::System::Boolean EnableGroupSpaceConflict; // 0x7A
 		::System::Boolean EnableGroupRegionStreaming; // 0x7B
 		::System::Boolean IsAreaMapping2D; // 0x7C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELFLOORINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELFLOORINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtLevelFloorInfo*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtLevelFloorInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtLevelFloorInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELFLOORINFO_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtLevelFloorInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTLEVELFLOORINFO_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/ColorGradingMaskWhitelist.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE836A00)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8369F0)
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE836B90)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D4780)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D4910)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D4770)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskClip_TypeDefinitionIndex = 48921;
-
 	class ColorGradingMaskClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean AutoReset; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPGTools::Timeline::ColorGradingMaskWhitelist Whitelist; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -36,5 +33,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_COLORGRADINGMASKCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

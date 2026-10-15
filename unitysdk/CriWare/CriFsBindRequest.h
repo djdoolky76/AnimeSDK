@@ -2,32 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriFsBindRequest_BindType.h"
 #include "unitysdk/CriWare/CriFsRequest.h"
-
 namespace CriWare { class CriFsBinder; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSBINDREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164EA7A0)
-#define CRIWARE_CRIFSBINDREQUEST_GET_BINDID_OFFSET UNITYSDK_OFFSET(0x164E9E00)
-#define CRIWARE_CRIFSBINDREQUEST_GET_PATH_OFFSET UNITYSDK_OFFSET(0x164E9DE0)
-#define CRIWARE_CRIFSBINDREQUEST_SET_BINDID_OFFSET UNITYSDK_OFFSET(0x164E9E10)
-#define CRIWARE_CRIFSBINDREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x164E9DF0)
-#define CRIWARE_CRIFSBINDREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x164EA490)
-#define CRIWARE_CRIFSBINDREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x164EA4A0)
-#define CRIWARE_CRIFSBINDREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x164E9E20)
+#define CRIWARE_CRIFSBINDREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x16710A40)
+#define CRIWARE_CRIFSBINDREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x167113C0)
+#define CRIWARE_CRIFSBINDREQUEST_GET_BINDID_OFFSET UNITYSDK_OFFSET(0x16710A20)
+#define CRIWARE_CRIFSBINDREQUEST_GET_PATH_OFFSET UNITYSDK_OFFSET(0x16710A00)
+#define CRIWARE_CRIFSBINDREQUEST_SET_BINDID_OFFSET UNITYSDK_OFFSET(0x16710A30)
+#define CRIWARE_CRIFSBINDREQUEST_SET_PATH_OFFSET UNITYSDK_OFFSET(0x16710A10)
+#define CRIWARE_CRIFSBINDREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x167110B0)
+#define CRIWARE_CRIFSBINDREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x167110C0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsBindRequest_TypeDefinitionIndex = 38817;
-
 	class CriFsBindRequest : public ::CriWare::CriFsRequest
 	{
 	public:
 		::System::String* _path_k__BackingField; // 0x38
 		::System::UInt32 _bindId_k__BackingField; // 0x40
-
 		::System::Void _ctor(::CriWare::CriFsBindRequest_BindType a1, ::CriWare::CriFsBinder* a2, ::CriWare::CriFsBinder* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBindRequest_BindType, ::CriWare::CriFsBinder*, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDREQUEST__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::CriWare::CriFsBindRequest_BindType, ::CriWare::CriFsBinder*, ::CriWare::CriFsBinder*, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDREQUEST_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* get_path()
@@ -64,5 +60,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSBINDREQUEST_DISPOSE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
@@ -13,17 +13,15 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class SharedVertex; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET UNITYSDK_OFFSET(0x1EB45940)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINETONEWMESHES_OFFSET UNITYSDK_OFFSET(0x1EB44390)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x1EB44800)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_OFFSET UNITYSDK_OFFSET(0x1EB44380)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_CREATEMESHFROMSPLIT_OFFSET UNITYSDK_OFFSET(0x1EB497B0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_SPLITBYMAXVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1EB47480)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET UNITYSDK_OFFSET(0x1F20D030)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINETONEWMESHES_OFFSET UNITYSDK_OFFSET(0x1F20BA80)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_1_OFFSET UNITYSDK_OFFSET(0x1F20BEF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINE_OFFSET UNITYSDK_OFFSET(0x1F20BA70)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_CREATEMESHFROMSPLIT_OFFSET UNITYSDK_OFFSET(0x1F210E60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_SPLITBYMAXVERTEXCOUNT_OFFSET UNITYSDK_OFFSET(0x1F20EB70)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int CombineMeshes_TypeDefinitionIndex = 43290;
-
 	class CombineMeshes : public ::System::Object
 	{
 	public:
@@ -42,9 +40,9 @@ namespace UnityEngine::ProBuilder::MeshOperations
 			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_COMBINETONEWMESHES_OFFSET))(a1);
 		}
 
-		static ::System::Void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1, ::System::Int32 a2, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& a3, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*& a4, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*& a5, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*& a6, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*& a7, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*& a8, ::UnityEngine::Transform* a9)
+		static ::System::Void AccumulateMeshesInfo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* a1, ::System::Int32 a2, ::System::Object* a3, ::System::Object* a4, ::System::Object* a5, ::System::Object* a6, ::System::Object* a7, ::System::Object* a8, ::UnityEngine::Transform* a9)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SharedVertex*>*&, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*&, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*, ::System::Int32, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::System::Object*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_ACCUMULATEMESHESINFO_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		static ::UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshFromSplit(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* a2, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a3, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a4, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* a5, ::Il2CppArray<::UnityEngine::Material*>* a6)
@@ -56,5 +54,6 @@ namespace UnityEngine::ProBuilder::MeshOperations
 		{
 			return ((::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ProBuilderMesh*>*(*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_COMBINEMESHES_SPLITBYMAXVERTEXCOUNT_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

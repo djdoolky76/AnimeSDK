@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/DateTime.h"
-#include "unitysdk/System/TypeCode.h"
 #include "unitysdk/System/Xml/Schema/XmlAtomicValue_Union.h"
 #include "unitysdk/System/Xml/XPath/XPathItem.h"
-
+#include "unitysdk/System/TypeCode.h"
+#include "unitysdk/System/DateTime.h"
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -12,85 +11,82 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlAtomicValue_NamespacePrefixForQName; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GETPREFIXFROMQNAME_OFFSET UNITYSDK_OFFSET(0x1E809630)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x1E8097C0)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASBOOLEAN_OFFSET UNITYSDK_OFFSET(0x1E804330)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASDATETIME_OFFSET UNITYSDK_OFFSET(0x1E804790)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASDOUBLE_OFFSET UNITYSDK_OFFSET(0x1E804EB0)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASINT_OFFSET UNITYSDK_OFFSET(0x1E805240)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASLONG_OFFSET UNITYSDK_OFFSET(0x1E805640)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1E809720)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E80B260)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x1E809710)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E809700)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80B730)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_VALUEAS_OFFSET UNITYSDK_OFFSET(0x1E807DD0)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E806190)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E806710)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E8069E0)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1E806CA0)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1E806F80)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_6_OFFSET UNITYSDK_OFFSET(0x1E809230)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_7_OFFSET UNITYSDK_OFFSET(0x1E806410)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_8_OFFSET UNITYSDK_OFFSET(0x1E807B30)
-#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E805DE0)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EECEDF0)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EECF370)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EECF640)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1EECF900)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_5_OFFSET UNITYSDK_OFFSET(0x1EECFBE0)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_6_OFFSET UNITYSDK_OFFSET(0x1EED1E90)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_7_OFFSET UNITYSDK_OFFSET(0x1EECF070)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_8_OFFSET UNITYSDK_OFFSET(0x1EED0790)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EECEA40)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GETPREFIXFROMQNAME_OFFSET UNITYSDK_OFFSET(0x1EED2290)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_TYPEDVALUE_OFFSET UNITYSDK_OFFSET(0x1EED2420)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASBOOLEAN_OFFSET UNITYSDK_OFFSET(0x1EECCF90)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASDATETIME_OFFSET UNITYSDK_OFFSET(0x1EECD3F0)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASDOUBLE_OFFSET UNITYSDK_OFFSET(0x1EECDB10)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASINT_OFFSET UNITYSDK_OFFSET(0x1EECDEA0)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUEASLONG_OFFSET UNITYSDK_OFFSET(0x1EECE2A0)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EED2380)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EED3EC0)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GET_XMLTYPE_OFFSET UNITYSDK_OFFSET(0x1EED2370)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EED2360)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EED4390)
+#define SYSTEM_XML_SCHEMA_XMLATOMICVALUE_VALUEAS_OFFSET UNITYSDK_OFFSET(0x1EED0A30)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlAtomicValue_TypeDefinitionIndex = 2180;
-
 	class XmlAtomicValue : public ::System::Xml::XPath::XPathItem
 	{
 	public:
-		::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName* nsPrefix; // 0x10
-		::System::Object* objVal; // 0x18
-		::System::Xml::Schema::XmlSchemaType* xmlType; // 0x20
+		::System::Object* objVal; // 0x10
+		::System::Xml::Schema::XmlSchemaType* xmlType; // 0x18
+		::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName* nsPrefix; // 0x20
 		::System::Xml::Schema::XmlAtomicValue_Union unionVal; // 0x28
 		::System::TypeCode clrType; // 0x30
-
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaType* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::System::Xml::Schema::XmlSchemaType* a1, ::System::DateTime a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::DateTime))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::Xml::Schema::XmlSchemaType* a1, ::System::Double a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Xml::Schema::XmlSchemaType* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_4(::System::Xml::Schema::XmlSchemaType* a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_4_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_5(::System::Xml::Schema::XmlSchemaType* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_5_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_6(::System::Xml::Schema::XmlSchemaType* a1, ::System::String* a2, ::System::Xml::IXmlNamespaceResolver* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::String*, ::System::Xml::IXmlNamespaceResolver*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_6_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::String*, ::System::Xml::IXmlNamespaceResolver*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_6_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_7(::System::Xml::Schema::XmlSchemaType* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_7_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_7_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_8(::System::Xml::Schema::XmlSchemaType* a1, ::System::Object* a2, ::System::Xml::IXmlNamespaceResolver* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Object*, ::System::Xml::IXmlNamespaceResolver*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE__CTOR_8_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*, ::System::Object*, ::System::Xml::IXmlNamespaceResolver*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_CTOR_8_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Object* System_ICloneable_Clone()
@@ -157,5 +153,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLATOMICVALUE_GETPREFIXFROMQNAME_OFFSET))(this, a1);
 		}
+
 	};
 }

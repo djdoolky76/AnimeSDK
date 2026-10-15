@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAD57A0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD5790)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFE0120)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE0110)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager_CountryCode_TypeDefinitionIndex = 7923;
-
 	class ServerRegionManager_CountryCode : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EU()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ServerRegionManager_CountryCode_TypeDefinitionIndex)->GetStaticField(0x26800);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "CountryCode")->GetStaticField(0x1FC90);
 		}
+
 		// static const ::System::String* AT; // 0x0
 		// static const ::System::String* BE; // 0x0
 		// static const ::System::String* BG; // 0x0
@@ -52,15 +50,15 @@ namespace MiHoYo::SDK
 		// static const ::System::String* CH; // 0x0
 		// static const ::System::String* UK; // 0x0
 		// static const ::System::String* GB; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CCTOR_OFFSET))();
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillTargetCandidateState_TypeDefinitionIndex = 57843;
-
 	enum class SkillTargetCandidateState : ::System::Int32
 	{
 		Valid = 0,

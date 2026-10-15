@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IElfRecipeEditable_TypeDefinitionIndex = 63791;
-
 	class IElfRecipeEditable
 	{
 	public:

@@ -2,30 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace System::Net::Http { class HttpMessageHandler; }
 namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
-namespace System::Threading::Tasks { template <typename T> class Task_1; }
+namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E794AE0)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E79B610)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1E795510)
-#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7949C0)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE5D6B0)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1EE5D7D0)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EE64280)
+#define SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1EE5E1C0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpMessageInvoker_TypeDefinitionIndex = 3769;
-
 	class HttpMessageInvoker : public ::System::Object
 	{
 	public:
 		::System::Net::Http::HttpMessageHandler* handler; // 0x10
 		::System::Boolean disposeHandler; // 0x18
-
 		::System::Void _ctor(::System::Net::Http::HttpMessageHandler* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpMessageHandler*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::HttpMessageHandler*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -38,9 +34,10 @@ namespace System::Net::Http
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_DISPOSE_1_OFFSET))(this, a1);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* a1, ::System::Threading::CancellationToken a2)
+		::System::Threading::Tasks::Task* SendAsync(::System::Net::Http::HttpRequestMessage* a1, ::System::Threading::CancellationToken a2)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_SENDASYNC_OFFSET))(this, a1, a2);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HTTPMESSAGEINVOKER_SENDASYNC_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -4,7 +4,6 @@
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::Client { class Eff_VoxelUnidirOcclusionMonoPlugin; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Camera; }
@@ -17,137 +16,64 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xCDBF9C0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_06330CD58CB602B6_1_OFFSET UNITYSDK_OFFSET(0xCDBE810)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0xCDBE380)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_0D7638DBC93E5002_OFFSET UNITYSDK_OFFSET(0xCDBE730)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_0FD0EC313FAAB75A_OFFSET UNITYSDK_OFFSET(0xCDC0D10)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_10054BB010E03EDD_OFFSET UNITYSDK_OFFSET(0xCDBFBD0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_1681FE3461362526_OFFSET UNITYSDK_OFFSET(0xCDC1E90)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0xCDC10B0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_3574512695A597AB_OFFSET UNITYSDK_OFFSET(0xCDC3860)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xCDBE7D0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_3BFE3B9EF8374F61_OFFSET UNITYSDK_OFFSET(0xCDC1230)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4153213143087230_OFFSET UNITYSDK_OFFSET(0xCDC2C20)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0xCDBE6C0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0xCDBE890)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET UNITYSDK_OFFSET(0xCDC1060)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xCDBE500)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0xCDBEFA0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_5A124CAF1E48B74F_OFFSET UNITYSDK_OFFSET(0xCDC34E0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_601EF3E7226D7DC2_OFFSET UNITYSDK_OFFSET(0xCDC3650)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_6112A1276899AF0F_OFFSET UNITYSDK_OFFSET(0xCDBFC30)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_627C7524E98F4AC5_OFFSET UNITYSDK_OFFSET(0xCDC1750)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_6916CB2AB9451DD7_OFFSET UNITYSDK_OFFSET(0xCDC0790)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_7033EFB970A18315_OFFSET UNITYSDK_OFFSET(0xCDBF3C0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_79830F666EE579C0_OFFSET UNITYSDK_OFFSET(0xCDC0640)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_7A73F165001BC325_OFFSET UNITYSDK_OFFSET(0xCDBED70)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0xCDBE900)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xCDBE2F0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_97B44ED90A2DE2AB_OFFSET UNITYSDK_OFFSET(0xCDBEDE0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_9E38127F40B34F1F_OFFSET UNITYSDK_OFFSET(0xCDBE780)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_A1ADC999CFACEB89_OFFSET UNITYSDK_OFFSET(0xCDBE3F0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0xCDC17E0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_B768DA94E3FD91D9_OFFSET UNITYSDK_OFFSET(0xCDBF8C0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_BA6BCE0B3D0BFA3B_OFFSET UNITYSDK_OFFSET(0xCDC23D0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_C982C8295D29DA97_OFFSET UNITYSDK_OFFSET(0xCDBECC0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D132478733D69425_OFFSET UNITYSDK_OFFSET(0xCDC1920)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D7852DE078ACC1F1_OFFSET UNITYSDK_OFFSET(0xCDBFA40)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D87A7D8243E04FD7_OFFSET UNITYSDK_OFFSET(0xCDBF470)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D93C10D3A568E698_1_OFFSET UNITYSDK_OFFSET(0xCDC29A0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D93C10D3A568E698_OFFSET UNITYSDK_OFFSET(0xCDC2870)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_DF3C54A5ADEABAF1_1_OFFSET UNITYSDK_OFFSET(0xCDBE570)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_DF3C54A5ADEABAF1_2_OFFSET UNITYSDK_OFFSET(0xCDBF7A0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_DF3C54A5ADEABAF1_OFFSET UNITYSDK_OFFSET(0xCDBEA40)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_E59CAA2089D7E8B1_OFFSET UNITYSDK_OFFSET(0xCDC21A0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_ECB5F1C983BF42E9_OFFSET UNITYSDK_OFFSET(0xCDBF000)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_EFB08CA7047D8A4C_OFFSET UNITYSDK_OFFSET(0xCDC2A80)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_F07840BBC25636A7_OFFSET UNITYSDK_OFFSET(0xCDBEBA0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_F978A1D172468895_OFFSET UNITYSDK_OFFSET(0xCDC15B0)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xCDBEB40)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xCDC3C00)
-#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCDC3BD0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_ACAGCCEGDKF_OFFSET UNITYSDK_OFFSET(0xCD14120)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_AGGFHFNFNIF_OFFSET UNITYSDK_OFFSET(0xCD0F7B0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_BFOPPPBPDEE_OFFSET UNITYSDK_OFFSET(0xCD10C50)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_BHGBAILAIEG_OFFSET UNITYSDK_OFFSET(0xCD11F30)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CACPCDLIJIL_OFFSET UNITYSDK_OFFSET(0xCD10D40)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD14400)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CEIOIINALNJ_OFFSET UNITYSDK_OFFSET(0xCD13300)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xCD0FA80)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CKDKKJJANHE_OFFSET UNITYSDK_OFFSET(0xCD12B20)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xCD143D0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_DDNPEGBBBJE_OFFSET UNITYSDK_OFFSET(0xCD133F0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_DLKPBKMDCHG_OFFSET UNITYSDK_OFFSET(0xCD13F60)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_EFAKLJNFPFC_OFFSET UNITYSDK_OFFSET(0xCD106A0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_EGCEEFPDFNM_OFFSET UNITYSDK_OFFSET(0xCD12590)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_FBKMDDKDADG_OFFSET UNITYSDK_OFFSET(0xCD10080)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xCD10C10)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GFOPEKDMNOI_OFFSET UNITYSDK_OFFSET(0xCD10330)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GIKJOELJAHH_OFFSET UNITYSDK_OFFSET(0xCD134B0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GPLLONMEDAC_OFFSET UNITYSDK_OFFSET(0xCD0FE00)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_HHEPIAKLJEK_OFFSET UNITYSDK_OFFSET(0xCD10130)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_IIOAFGDGLIF_OFFSET UNITYSDK_OFFSET(0xCD123E0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_IJJOBDCKFPA_OFFSET UNITYSDK_OFFSET(0xCD101A0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0xCD0FF60)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_JEBKAPPCCJE_OFFSET UNITYSDK_OFFSET(0xCD126A0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_JJIPGIICKCB_OFFSET UNITYSDK_OFFSET(0xCD12520)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xCD0FAF0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_KEPMMNEBKCD_OFFSET UNITYSDK_OFFSET(0xCD0FCC0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCD0F6B0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LBHCPLDHAIJ_OFFSET UNITYSDK_OFFSET(0xCD10DA0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LBNKIONLNEO_OFFSET UNITYSDK_OFFSET(0xCD10B70)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LDMKIMBGHED_OFFSET UNITYSDK_OFFSET(0xCD11F80)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LEHNCBDEMNP_OFFSET UNITYSDK_OFFSET(0xCD10750)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MAPDMMJCPBI_OFFSET UNITYSDK_OFFSET(0xCD10A50)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xCD0F8C0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0xCD0FC50)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MHGKEPIFCCP_OFFSET UNITYSDK_OFFSET(0xCD12D10)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MLBLKDCMEEF_OFFSET UNITYSDK_OFFSET(0xCD115E0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MLLPEEPCJAK_OFFSET UNITYSDK_OFFSET(0xCD135F0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MONFGIJIBAD_OFFSET UNITYSDK_OFFSET(0xCD0F930)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_NCKOAAAEAFC_OFFSET UNITYSDK_OFFSET(0xCD120D0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xCD0FBD0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_OELLPHKLNKK_OFFSET UNITYSDK_OFFSET(0xCD11700)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xCD0FB40)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_OJKGGAJEKPO_OFFSET UNITYSDK_OFFSET(0xCD12EF0)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xCD0F740)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PDDBOEJMBDF_OFFSET UNITYSDK_OFFSET(0xCD13E20)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PKNGOIOIPEC_OFFSET UNITYSDK_OFFSET(0xCD10390)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xCD0FB90)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PPAHJKPFJLN_OFFSET UNITYSDK_OFFSET(0xCD11C20)
+#define RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_TICK_OFFSET UNITYSDK_OFFSET(0xCD0FF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex = 70368;
-
 	class Eff_VoxelUnidirOcclusionBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:
-		static ::System::Int32* StaticGet__VoxelCountXProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14540);
-		}
-		static ::System::Int32* StaticGet__PausedProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14544);
-		}
-		static ::System::Int32* StaticGet__SpawnScaleProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14548);
-		}
-		static ::System::Int32* StaticGet__VoxelUnitScaleProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x1454C);
-		}
-		static ::System::Int32* StaticGet__CurrentWSScaleProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14550);
-		}
-		static ::System::Int32* StaticGet__SeparationOffsetProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14554);
-		}
-		static ::System::Int32* StaticGet__SeparationPatternTillingScaleXProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14558);
-		}
-		static ::System::Int32* StaticGet__OffsetModeProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x1455C);
-		}
-		static ::System::Int32* StaticGet__TransformScaleProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14560);
-		}
-		static ::System::Int32* StaticGet__VoxelCountZProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14564);
-		}
-		static ::System::Int32* StaticGet__SeparationPatternTillingScaleYProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14568);
-		}
-		static ::System::Int32* StaticGet__FlyHeightProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x1456C);
-		}
-		static ::System::Int32* StaticGet__DisappearProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14570);
-		}
-		static ::System::Int32* StaticGet__CurrentWPProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14574);
-		}
-		static ::System::Int32* StaticGet__WorldToObjectProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14578);
-		}
-		static ::System::Int32* StaticGet__VoxelTotalAmountProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x1457C);
-		}
-		static ::System::Int32* StaticGet__CurrentWSRotationProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14580);
-		}
-		static ::System::Int32* StaticGet__SpawnCenterProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex)->GetStaticField(0x14584);
-		}
 		::System::Boolean _Inited; // 0x38
+		::System::Byte _padding0[0x7];
 		::UnityEngine::GPUParticlesAsset* _GPUParticlesAssetInstance; // 0x40
 		::UnityEngine::GPUParticlesRenderer* _GPUParticlesRenderer; // 0x48
 		::UnityEngine::Transform* VoxelTransform; // 0x50
@@ -155,10 +81,12 @@ namespace RPG::Client
 		::System::Int32 ParticleNumber; // 0x68
 		::System::Boolean _Initialized; // 0x6C
 		::System::Boolean _Spawned; // 0x6D
+		::System::Byte _padding1[0x2];
 		::UnityEngine::Vector3 spawnScale; // 0x70
 		::UnityEngine::Vector3 spawnCenterWS; // 0x7C
 		::UnityEngine::Camera* _Camera; // 0x88
 		::UnityEngine::Vector3 _cachedParticleScale; // 0x90
+		::System::Byte _padding2[0x4];
 		::Il2CppArray<::UnityEngine::Collider*>* _ignoreColliders; // 0xA0
 		::Il2CppArray<::UnityEngine::Collider*>* _EffectTargetColliders; // 0xA8
 		::UnityEngine::GameObject* _TargetGO; // 0xB0
@@ -166,9 +94,11 @@ namespace RPG::Client
 		::System::Single raycastDistance; // 0xBC
 		::UnityEngine::Transform* targetObject; // 0xC0
 		::System::Boolean _paused; // 0xC8
+		::System::Byte _padding3[0x3];
 		::System::Int32 _groundCheckCounter; // 0xCC
 		::UnityEngine::Vector3 _lastGroundPosition; // 0xD0
 		::System::Boolean _hasGroundPosition; // 0xDC
+		::System::Byte _padding4[0x3];
 		::System::Single _lastAppliedDisappear; // 0xE0
 		::System::Single _lastAppliedFlyHeight; // 0xE4
 		::UnityEngine::Coroutine* _DelaySpawnParticleCoroutine; // 0xE8
@@ -177,67 +107,157 @@ namespace RPG::Client
 		::System::Boolean _OwnsGPUParticlesAssetInstance; // 0x100
 		::System::Boolean _OwnsComputeShaderInstance; // 0x101
 		::System::Boolean _OwnsMaterialInstance; // 0x102
+		::System::Byte _padding5[0x1];
 		::RPG::Client::Eff_VoxelUnidirOcclusionBehavior_RuntimeState _state; // 0x104
 		::System::Int32 _lastRebuildFrame; // 0x108
+		static ::System::Int32* StaticGet__CurrentWPProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB650);
+		}
+
+		static ::System::Int32* StaticGet__CurrentWSScaleProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB654);
+		}
+
+		static ::System::Int32* StaticGet__VoxelTotalAmountProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB658);
+		}
+
+		static ::System::Int32* StaticGet__CurrentWSRotationProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB65C);
+		}
+
+		static ::System::Int32* StaticGet__SeparationOffsetProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB660);
+		}
+
+		static ::System::Int32* StaticGet__OffsetModeProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB664);
+		}
+
+		static ::System::Int32* StaticGet__DisappearProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB668);
+		}
+
+		static ::System::Int32* StaticGet__VoxelCountZProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB66C);
+		}
+
+		static ::System::Int32* StaticGet__PausedProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB670);
+		}
+
+		static ::System::Int32* StaticGet__VoxelUnitScaleProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB674);
+		}
+
+		static ::System::Int32* StaticGet__WorldToObjectProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB678);
+		}
+
+		static ::System::Int32* StaticGet__SeparationPatternTillingScaleYProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB67C);
+		}
+
+		static ::System::Int32* StaticGet__FlyHeightProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB680);
+		}
+
+		static ::System::Int32* StaticGet__VoxelCountXProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB684);
+		}
+
+		static ::System::Int32* StaticGet__SpawnCenterProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB688);
+		}
+
+		static ::System::Int32* StaticGet__TransformScaleProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB68C);
+		}
+
+		static ::System::Int32* StaticGet__SpawnScaleProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB690);
+		}
+
+		static ::System::Int32* StaticGet__SeparationPatternTillingScaleXProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Eff_VoxelUnidirOcclusionBehavior")->GetStaticField(0xB694);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_3_9681042564541CD6()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_9681042564541CD6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_06330CD58CB602B6()
+		::System::Void PCNAKDOLCCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_06330CD58CB602B6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PCNAKDOLCCD_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF()
+		::System::Void MFCDKJIHDEH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MFCDKJIHDEH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_1()
+		::System::Void CGEJMGFOLMP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CGEJMGFOLMP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_0D7638DBC93E5002()
+		::System::Void JPKHCNDFAEL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_0D7638DBC93E5002_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_JPKHCNDFAEL_OFFSET))(this);
 		}
 
-		::System::Void Method_3_9E38127F40B34F1F()
+		::System::Void OIBPOPCFDHA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_9E38127F40B34F1F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_OIBPOPCFDHA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_391A84BCD9F51317()
+		::System::Boolean POOKPLGCKFE()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_POOKPLGCKFE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_06330CD58CB602B6_1()
+		::System::Void NEKGALPLEOH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_06330CD58CB602B6_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_NEKGALPLEOH_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_2()
+		::System::Void MHFNJCLKNMG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MHFNJCLKNMG_OFFSET))(this);
 		}
 
-		::System::Void Method_3_9681042564541CD6_1()
+		::System::Void KEPMMNEBKCD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_9681042564541CD6_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_KEPMMNEBKCD_OFFSET))(this);
 		}
 
 		::System::Void Tick(::System::Single a1)
@@ -245,189 +265,190 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_TICK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_F07840BBC25636A7(::System::Single a1)
+		::System::Void IKOHLHDGFKH(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_F07840BBC25636A7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_IKOHLHDGFKH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_DF3C54A5ADEABAF1()
+		::System::Void GPLLONMEDAC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_DF3C54A5ADEABAF1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GPLLONMEDAC_OFFSET))(this);
 		}
 
-		::System::Void Method_3_A1ADC999CFACEB89()
+		::System::Void AGGFHFNFNIF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_A1ADC999CFACEB89_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_AGGFHFNFNIF_OFFSET))(this);
 		}
 
-		::System::Void Method_3_DF3C54A5ADEABAF1_1()
+		::System::Void MONFGIJIBAD()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_DF3C54A5ADEABAF1_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MONFGIJIBAD_OFFSET))(this);
 		}
 
-		::System::Void Method_3_DF3C54A5ADEABAF1_2()
+		::System::Void MAPDMMJCPBI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_DF3C54A5ADEABAF1_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MAPDMMJCPBI_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_C982C8295D29DA97()
+		::System::Boolean FBKMDDKDADG()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_C982C8295D29DA97_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_FBKMDDKDADG_OFFSET))(this);
 		}
 
-		::System::Void Method_3_D87A7D8243E04FD7()
+		::System::Void LEHNCBDEMNP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D87A7D8243E04FD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LEHNCBDEMNP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_7A73F165001BC325()
+		::System::Void HHEPIAKLJEK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_7A73F165001BC325_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_HHEPIAKLJEK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_10054BB010E03EDD()
+		::System::Void CACPCDLIJIL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_10054BB010E03EDD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CACPCDLIJIL_OFFSET))(this);
 		}
 
-		::System::Void Method_3_4343F372F34C05BF_3()
+		::System::Void BHGBAILAIEG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4343F372F34C05BF_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_BHGBAILAIEG_OFFSET))(this);
 		}
 
-		::System::Void Method_3_460F8AE6EF9687FD()
+		::System::Void GFOPEKDMNOI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_460F8AE6EF9687FD_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GFOPEKDMNOI_OFFSET))(this);
 		}
 
-		::System::Collections::IEnumerator* Method_3_627C7524E98F4AC5()
+		::System::Collections::IEnumerator* JJIPGIICKCB()
 		{
-			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_627C7524E98F4AC5_OFFSET))(this);
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_JJIPGIICKCB_OFFSET))(this);
 		}
 
-		::System::Void Method_3_D7852DE078ACC1F1()
+		::System::Void BFOPPPBPDEE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D7852DE078ACC1F1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_BFOPPPBPDEE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_B768DA94E3FD91D9()
+		::System::Void LBNKIONLNEO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_B768DA94E3FD91D9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LBNKIONLNEO_OFFSET))(this);
 		}
 
-		::System::Void Method_3_7033EFB970A18315()
+		::System::Void EFAKLJNFPFC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_7033EFB970A18315_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_EFAKLJNFPFC_OFFSET))(this);
 		}
 
-		::System::Void Method_3_6112A1276899AF0F()
+		::System::Void LBHCPLDHAIJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_6112A1276899AF0F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LBHCPLDHAIJ_OFFSET))(this);
 		}
 
-		::System::Void Method_3_AA169839CB93802A()
+		::System::Void EGCEEFPDFNM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_AA169839CB93802A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_EGCEEFPDFNM_OFFSET))(this);
 		}
 
-		::System::Void Method_3_0FD0EC313FAAB75A()
+		::System::Void PPAHJKPFJLN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_0FD0EC313FAAB75A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PPAHJKPFJLN_OFFSET))(this);
 		}
 
-		::System::Void Method_3_3BFE3B9EF8374F61()
+		::System::Void NCKOAAAEAFC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_3BFE3B9EF8374F61_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_NCKOAAAEAFC_OFFSET))(this);
 		}
 
-		::System::Void Method_3_E59CAA2089D7E8B1()
+		::System::Void MHGKEPIFCCP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_E59CAA2089D7E8B1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MHGKEPIFCCP_OFFSET))(this);
 		}
 
-		::System::Void Method_3_BA6BCE0B3D0BFA3B(::UnityEngine::Material* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
+		::System::Void OJKGGAJEKPO(::UnityEngine::Material* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_BA6BCE0B3D0BFA3B_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_OJKGGAJEKPO_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_3_1681FE3461362526(::UnityEngine::Material* a1)
+		::System::Void CKDKKJJANHE(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_1681FE3461362526_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CKDKKJJANHE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_D132478733D69425(::UnityEngine::Material* a1)
+		::System::Void JEBKAPPCCJE(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D132478733D69425_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_JEBKAPPCCJE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_6916CB2AB9451DD7()
+		::System::Void OELLPHKLNKK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_6916CB2AB9451DD7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_OELLPHKLNKK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_ECB5F1C983BF42E9()
+		::System::Void PKNGOIOIPEC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_ECB5F1C983BF42E9_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PKNGOIOIPEC_OFFSET))(this);
 		}
 
-		::System::Void Method_3_18982EFD3B740683()
+		::System::Void LDMKIMBGHED()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_18982EFD3B740683_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_LDMKIMBGHED_OFFSET))(this);
 		}
 
-		::System::Void Method_3_F978A1D172468895()
+		::System::Void IIOAFGDGLIF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_F978A1D172468895_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_IIOAFGDGLIF_OFFSET))(this);
 		}
 
-		::System::Void Method_3_D93C10D3A568E698(::UnityEngine::GPUParticlesAsset* a1)
+		::System::Void CEIOIINALNJ(::UnityEngine::GPUParticlesAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D93C10D3A568E698_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_CEIOIINALNJ_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_D93C10D3A568E698_1(::UnityEngine::GPUParticlesAsset* a1)
+		::System::Void DDNPEGBBBJE(::UnityEngine::GPUParticlesAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_D93C10D3A568E698_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_DDNPEGBBBJE_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_EFB08CA7047D8A4C(::UnityEngine::GPUParticlesAsset* a1)
+		::System::Void GIKJOELJAHH(::UnityEngine::GPUParticlesAsset* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_EFB08CA7047D8A4C_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GPUParticlesAsset*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GIKJOELJAHH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_3_79830F666EE579C0()
+		::System::Void MLBLKDCMEEF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_79830F666EE579C0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MLBLKDCMEEF_OFFSET))(this);
 		}
 
-		::System::Void Method_3_5A124CAF1E48B74F()
+		::System::Void PDDBOEJMBDF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_5A124CAF1E48B74F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_PDDBOEJMBDF_OFFSET))(this);
 		}
 
-		::System::Void Method_3_601EF3E7226D7DC2()
+		::System::Void DLKPBKMDCHG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_601EF3E7226D7DC2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_DLKPBKMDCHG_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_3_4153213143087230()
+		::UnityEngine::Vector3 MLLPEEPCJAK()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_4153213143087230_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_MLLPEEPCJAK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_97B44ED90A2DE2AB()
+		::System::Void IJJOBDCKFPA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_97B44ED90A2DE2AB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_IJJOBDCKFPA_OFFSET))(this);
 		}
 
-		::System::Void Method_3_3574512695A597AB()
+		::System::Void ACAGCCEGDKF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_METHOD_3_3574512695A597AB_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_ACAGCCEGDKF_OFFSET))(this);
 		}
 
 		::RPG::Client::Eff_VoxelUnidirOcclusionMonoPlugin* get__OwnerMonoPlugin()
 		{
 			return ((::RPG::Client::Eff_VoxelUnidirOcclusionMonoPlugin*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFF_VOXELUNIDIROCCLUSIONBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET))(this);
 		}
+
 	};
 }

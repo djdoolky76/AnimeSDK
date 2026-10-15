@@ -1,40 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_21C7581DFE99F091_25;
+class KGHDDIBDABP;
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
+namespace RPG::Client { class ChimeraDuelGameSessionShopChimera; }
 namespace RPG::Client { class ChimeraDuelGameSessionTeam; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CHECKCANUPGRADEANDLEVELUPANY_OFFSET UNITYSDK_OFFSET(0xCBDED20)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CREATE_OFFSET UNITYSDK_OFFSET(0xCBDEC00)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_GET_CHIMERA_OFFSET UNITYSDK_OFFSET(0xCBDEBD0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_GET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0xCBDEBE0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xCBDEB80)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_SET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0xCBDEBF0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA__CTOR_1_OFFSET UNITYSDK_OFFSET(0xCBDECB0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBDECA0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CHECKCANUPGRADEANDLEVELUPANY_OFFSET UNITYSDK_OFFSET(0xCB2D3E0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CREATE_OFFSET UNITYSDK_OFFSET(0xCB2D2D0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CTOR_1_OFFSET UNITYSDK_OFFSET(0xCB2D380)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB2D370)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_GET_CHIMERA_OFFSET UNITYSDK_OFFSET(0xCB2D2A0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_GET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0xCB2D2B0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xCB2D250)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_SET_ISLOCKED_OFFSET UNITYSDK_OFFSET(0xCB2D2C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameSessionShopChimera_TypeDefinitionIndex = 63391;
-
 	class ChimeraDuelGameSessionShopChimera : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraDuelGameSessionChimera* _Chimera_k__BackingField; // 0x10
-		::System::Action_1<::System::Boolean>* OnIsLockedChanged; // 0x18
+		::System::Action* OnIsLockedChanged; // 0x10
+		::RPG::Client::ChimeraDuelGameSessionChimera* _Chimera_k__BackingField; // 0x18
 		::System::Boolean _IsLocked_k__BackingField; // 0x20
-
 		::System::Void _ctor(::RPG::Client::ChimeraDuelGameSessionChimera* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::RPG::Client::ChimeraDuelGameSessionShopChimera* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionShopChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionShopChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UniqueID()
@@ -57,14 +54,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_SET_ISLOCKED_OFFSET))(this, a1);
 		}
 
-		static ::RPG::Client::ChimeraDuelGameSessionShopChimera* Create(::Class_1_21C7581DFE99F091_25* a1)
+		static ::RPG::Client::ChimeraDuelGameSessionShopChimera* Create(::KGHDDIBDABP* a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionShopChimera*(*)(::Class_1_21C7581DFE99F091_25*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::ChimeraDuelGameSessionShopChimera*(*)(::KGHDDIBDABP*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CREATE_OFFSET))(a1);
 		}
 
-		::System::Void CheckCanUpgradeAndLevelUpAny(::RPG::Client::ChimeraDuelGameSessionTeam* a1, ::System::Boolean& a2, ::System::Boolean& a3)
+		::System::Void CheckCanUpgradeAndLevelUpAny(::RPG::Client::ChimeraDuelGameSessionTeam* a1, ::System::Boolean a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionTeam*, ::System::Boolean&, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CHECKCANUPGRADEANDLEVELUPANY_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionTeam*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONSHOPCHIMERA_CHECKCANUPGRADEANDLEVELUPANY_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

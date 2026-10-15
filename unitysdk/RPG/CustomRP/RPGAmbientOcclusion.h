@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class AmibentOcclusioMethodParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class MinFloatParameter; }
 
-#define RPG_CUSTOMRP_RPGAMBIENTOCCLUSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6B6930)
+#define RPG_CUSTOMRP_RPGAMBIENTOCCLUSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3C750)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGAmbientOcclusion_TypeDefinitionIndex = 37100;
-
 	class RPGAmbientOcclusion : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
@@ -33,10 +30,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* GTAOThicknessBlend; // 0xB0
 		::UnityEngine::Rendering::FloatParameter* GTAOIntensity; // 0xB8
 		::UnityEngine::Rendering::FloatParameter* GTAOPower; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGAMBIENTOCCLUSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGAMBIENTOCCLUSION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

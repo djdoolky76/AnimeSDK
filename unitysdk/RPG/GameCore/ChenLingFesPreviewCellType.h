@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesPreviewCellType_TypeDefinitionIndex = 18221;
-
 	enum class ChenLingFesPreviewCellType : ::System::Int32
 	{
 		None = 0,

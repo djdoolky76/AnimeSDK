@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace RPG::GameCore { class CharacterVisibleComponent; }
 namespace RPG::GameCore { class PropComponent; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_GET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xE862670)
-#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_GET_VISIBLECOMPONENT_OFFSET UNITYSDK_OFFSET(0xE862820)
-#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_METHOD_2_A1168610D32C43E0_OFFSET UNITYSDK_OFFSET(0xE862700)
-#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE862920)
-#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE862980)
+#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE900BF0)
+#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_GET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xE9008E0)
+#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_GET_VISIBLECOMPONENT_OFFSET UNITYSDK_OFFSET(0xE900A90)
+#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_HCDBFEMMOLB_OFFSET UNITYSDK_OFFSET(0xE900970)
+#define RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE900B90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HidePropBehaviour_TypeDefinitionIndex = 48597;
-
 	class HidePropBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
@@ -23,10 +20,9 @@ namespace RPGTools::Timeline
 		::System::UInt32 PropID; // 0x14
 		::RPG::GameCore::PropComponent* _propComponent; // 0x18
 		::RPG::GameCore::CharacterVisibleComponent* _VisibleComponent; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::PropComponent* get_PropComponent()
@@ -44,9 +40,10 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_A1168610D32C43E0(::System::Boolean a1)
+		::System::Void HCDBFEMMOLB(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_METHOD_2_A1168610D32C43E0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROPBEHAVIOUR_HCDBFEMMOLB_OFFSET))(this, a1);
 		}
+
 	};
 }

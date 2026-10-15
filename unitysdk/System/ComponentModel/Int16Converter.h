@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/BaseNumberConverter.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Globalization { class NumberFormatInfo; }
 
-#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_FROMSTRING_1_OFFSET UNITYSDK_OFFSET(0x1E923DA0)
-#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1E923D70)
-#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x1E923D40)
-#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E923DE0)
-#define SYSTEM_COMPONENTMODEL_INT16CONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E923EB0)
+#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFECD30)
+#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_FROMSTRING_1_OFFSET UNITYSDK_OFFSET(0x1EFECC20)
+#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1EFECBF0)
+#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x1EFECBC0)
+#define SYSTEM_COMPONENTMODEL_INT16CONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EFECC60)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int Int16Converter_TypeDefinitionIndex = 2607;
-
 	class Int16Converter : public ::System::ComponentModel::BaseNumberConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT16CONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT16CONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Type* get_TargetType()
@@ -44,5 +41,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Object*, ::System::Globalization::NumberFormatInfo*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_INT16CONVERTER_TOSTRING_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

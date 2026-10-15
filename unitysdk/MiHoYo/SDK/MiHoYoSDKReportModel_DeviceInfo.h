@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_DEVICEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB23FDF0)
+#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_DEVICEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD5650)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKReportModel_DeviceInfo_TypeDefinitionIndex = 46815;
-
 	class MiHoYoSDKReportModel_DeviceInfo : public ::System::Object
 	{
 	public:
 		::System::String* ip; // 0x10
 		::System::Int32 platform; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* systemInfo; // 0x20
 		::System::String* deviceId; // 0x28
 		::System::String* deviceName; // 0x30
@@ -38,12 +36,13 @@ namespace MiHoYo::SDK
 		::System::String* gpuName; // 0xB0
 		::System::Double gpuMemSize; // 0xB8
 		::System::Int32 processorCount; // 0xC0
+		::System::Byte _padding1[0x4];
 		::System::Double processorFrequency; // 0xC8
 		::System::String* processorType; // 0xD0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREPORTMODEL_DEVICEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKREPORTMODEL_DEVICEINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

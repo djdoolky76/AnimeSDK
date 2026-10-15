@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_SphereCollider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class SphereCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4B2E00)
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4B2F20)
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4AE6D0)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B4E30)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B4F50)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B0700)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_SphereCollider_Extensions_TypeDefinitionIndex = 39429;
-
 	class Test_SphereCollider_Extensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_SphereCollider*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::SphereCollider*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

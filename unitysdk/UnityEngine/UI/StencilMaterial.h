@@ -4,33 +4,30 @@
 #include "unitysdk/UnityEngine/Rendering/ColorWriteMask.h"
 #include "unitysdk/UnityEngine/Rendering/CompareFunction.h"
 #include "unitysdk/UnityEngine/Rendering/StencilOp.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
-namespace UnityEngine::UI { class StencilMaterial_MatEntry; }
 
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x1EE8DD80)
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_2_OFFSET UNITYSDK_OFFSET(0x1EE8DDF0)
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1EE8DD70)
-#define UNITYENGINE_UI_STENCILMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1EE8E880)
-#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1EE8E660)
-#define UNITYENGINE_UI_STENCILMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE8EA40)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x1F5559B0)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_2_OFFSET UNITYSDK_OFFSET(0x1F555A20)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1F5559A0)
+#define UNITYENGINE_UI_STENCILMATERIAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F556670)
+#define UNITYENGINE_UI_STENCILMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1F5564B0)
+#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F556290)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 6852;
-
 	class StencilMaterial : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>** StaticGet_m_List()
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_m_List()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x24850);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("UnityEngine.UI", "StencilMaterial")->GetStaticField(0x1F980);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_STENCILMATERIAL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_STENCILMATERIAL_CCTOR_OFFSET))();
 		}
 
 		static ::UnityEngine::Material* Add(::UnityEngine::Material* a1, ::System::Int32 a2)
@@ -57,5 +54,6 @@ namespace UnityEngine::UI
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_STENCILMATERIAL_CLEARALL_OFFSET))();
 		}
+
 	};
 }

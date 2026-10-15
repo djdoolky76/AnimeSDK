@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class WolfBroInterruptAllProjectiles; }
 
-#define RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_METHOD_3_25D1E696116528DF_OFFSET UNITYSDK_OFFSET(0x1D6B32A0)
-#define RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_METHOD_3_E10F615E7113E1AE_OFFSET UNITYSDK_OFFSET(0x1D6B3200)
-#define RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B3260)
+#define RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA8590)
+#define RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA8600)
+#define RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA8500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroInterruptAllProjectiles_TypeDefinitionIndex = 21344;
-
 	class WolfBroInterruptAllProjectiles : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E10F615E7113E1AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroInterruptAllProjectiles*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WolfBroInterruptAllProjectiles* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroInterruptAllProjectiles*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_METHOD_3_E10F615E7113E1AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WolfBroInterruptAllProjectiles*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_25D1E696116528DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroInterruptAllProjectiles* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WolfBroInterruptAllProjectiles* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroInterruptAllProjectiles*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_METHOD_3_25D1E696116528DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WolfBroInterruptAllProjectiles*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROINTERRUPTALLPROJECTILES_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

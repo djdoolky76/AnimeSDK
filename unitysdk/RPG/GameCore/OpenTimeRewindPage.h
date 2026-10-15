@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OpenTimeRewindPage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_OPENTIMEREWINDPAGE_METHOD_3_C56BDF49FA4EFE6F_OFFSET UNITYSDK_OFFSET(0x1D2FE4C0)
-#define RPG_GAMECORE_OPENTIMEREWINDPAGE_METHOD_3_EC763A713DF47938_OFFSET UNITYSDK_OFFSET(0x1D2FE480)
-#define RPG_GAMECORE_OPENTIMEREWINDPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FE4B0)
+#define RPG_GAMECORE_OPENTIMEREWINDPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E20E0)
+#define RPG_GAMECORE_OPENTIMEREWINDPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E20F0)
+#define RPG_GAMECORE_OPENTIMEREWINDPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E20B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTimeRewindPage_TypeDefinitionIndex = 20410;
-
 	class OpenTimeRewindPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* Target; // 0x18
 		::System::Boolean InverseUIProgress; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDPAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDPAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EC763A713DF47938(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindPage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpenTimeRewindPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDPAGE_METHOD_3_EC763A713DF47938_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpenTimeRewindPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDPAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C56BDF49FA4EFE6F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindPage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::OpenTimeRewindPage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDPAGE_METHOD_3_C56BDF49FA4EFE6F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OpenTimeRewindPage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDPAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

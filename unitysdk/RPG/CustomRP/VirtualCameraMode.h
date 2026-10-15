@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VirtualCameraMode_TypeDefinitionIndex = 37006;
-
 	enum class VirtualCameraMode : ::System::Int32
 	{
 		VCFullControl = 0,

@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExAcfDebug_AisacType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_GlobalAisacInfo_TypeDefinitionIndex = 38885;
-
 	struct alignas(8) CriAtomExAcfDebug_GlobalAisacInfo
 	{
 		::System::String* name; // 0x10

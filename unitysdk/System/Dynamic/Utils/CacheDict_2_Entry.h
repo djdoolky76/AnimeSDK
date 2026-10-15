@@ -4,14 +4,12 @@
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int CacheDict_2_Entry_TypeDefinitionIndex = 3683;
-
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class CacheDict_2_Entry : public ::System::Object
 	{
 	public:
 		::System::Int32 _hash; // 0x0
-		TKey _key; // 0x0
-		TValue _value; // 0x0
+		T1 _key; // 0x0
+		T2 _value; // 0x0
 	};
 }

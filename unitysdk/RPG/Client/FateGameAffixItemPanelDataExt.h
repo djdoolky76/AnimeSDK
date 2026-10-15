@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IFateGameAffixItemPanelData; }
 
-#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET UNITYSDK_OFFSET(0xCF39880)
-#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET UNITYSDK_OFFSET(0xCF39920)
+#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET UNITYSDK_OFFSET(0xCE89330)
+#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET UNITYSDK_OFFSET(0xCE893D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameAffixItemPanelDataExt_TypeDefinitionIndex = 64159;
-
 	class FateGameAffixItemPanelDataExt : public ::System::Object
 	{
 	public:
@@ -23,5 +20,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::RPG::Client::IFateGameAffixItemPanelData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET))(a1);
 		}
+
 	};
 }

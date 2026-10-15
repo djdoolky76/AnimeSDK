@@ -1,49 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace ZXing::QrCode::Internal { class ErrorCorrectionLevel; }
+namespace ZXing::QrCode::Internal { class Version; }
 namespace ZXing::QrCode::Internal { class Version_ECBlocks; }
 
-#define ZXING_QRCODE_INTERNAL_VERSION_BUILDVERSIONS_OFFSET UNITYSDK_OFFSET(0x1F0149F0)
-#define ZXING_QRCODE_INTERNAL_VERSION_GETECBLOCKSFORLEVEL_OFFSET UNITYSDK_OFFSET(0x1F00C3D0)
-#define ZXING_QRCODE_INTERNAL_VERSION_GETVERSIONFORNUMBER_OFFSET UNITYSDK_OFFSET(0x1F00BF90)
-#define ZXING_QRCODE_INTERNAL_VERSION_GET_DIMENSIONFORVERSION_OFFSET UNITYSDK_OFFSET(0x1F00D3F0)
-#define ZXING_QRCODE_INTERNAL_VERSION_GET_TOTALCODEWORDS_OFFSET UNITYSDK_OFFSET(0x1F0149D0)
-#define ZXING_QRCODE_INTERNAL_VERSION_GET_VERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x1F0149C0)
-#define ZXING_QRCODE_INTERNAL_VERSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F0149E0)
-#define ZXING_QRCODE_INTERNAL_VERSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F01D3D0)
-#define ZXING_QRCODE_INTERNAL_VERSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F014920)
+#define ZXING_QRCODE_INTERNAL_VERSION_BUILDVERSIONS_OFFSET UNITYSDK_OFFSET(0x1F6DCF40)
+#define ZXING_QRCODE_INTERNAL_VERSION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6E5920)
+#define ZXING_QRCODE_INTERNAL_VERSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6DCE70)
+#define ZXING_QRCODE_INTERNAL_VERSION_GETECBLOCKSFORLEVEL_OFFSET UNITYSDK_OFFSET(0x1F6D48B0)
+#define ZXING_QRCODE_INTERNAL_VERSION_GETVERSIONFORNUMBER_OFFSET UNITYSDK_OFFSET(0x1F6D4470)
+#define ZXING_QRCODE_INTERNAL_VERSION_GET_DIMENSIONFORVERSION_OFFSET UNITYSDK_OFFSET(0x1F6D58D0)
+#define ZXING_QRCODE_INTERNAL_VERSION_GET_TOTALCODEWORDS_OFFSET UNITYSDK_OFFSET(0x1F6DCF20)
+#define ZXING_QRCODE_INTERNAL_VERSION_GET_VERSIONNUMBER_OFFSET UNITYSDK_OFFSET(0x1F6DCF10)
+#define ZXING_QRCODE_INTERNAL_VERSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F6DCF30)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int Version_TypeDefinitionIndex = 6984;
-
 	class Version : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_VERSION_DECODE_INFO()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Version_TypeDefinitionIndex)->GetStaticField(0x286E0);
-		}
-		static ::Il2CppArray<::ZXing::QrCode::Internal::Version*>** StaticGet_VERSIONS()
-		{
-			return (::Il2CppArray<::ZXing::QrCode::Internal::Version*>**)Il2CppClass::FromTypeDefinitionIndex(Version_TypeDefinitionIndex)->GetStaticField(0x286E8);
-		}
-		::Il2CppArray<::ZXing::QrCode::Internal::Version_ECBlocks*>* ecBlocks; // 0x10
+		::Il2CppArray<::System::Object*>* ecBlocks; // 0x10
 		::Il2CppArray<::System::Int32>* alignmentPatternCenters; // 0x18
 		::System::Int32 versionNumber; // 0x20
 		::System::Int32 totalCodewords; // 0x24
-
-		::System::Void _ctor(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECBlocks*>* a3)
+		static ::Il2CppArray<::System::Int32>** StaticGet_VERSION_DECODE_INFO()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::ZXing::QrCode::Internal::Version_ECBlocks*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION__CTOR_OFFSET))(this, a1, a2, a3);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.QrCode.Internal", "Version")->GetStaticField(0x239B0);
+		}
+
+		static ::Il2CppArray<::ZXing::QrCode::Internal::Version*>** StaticGet_VERSIONS()
+		{
+			return (::Il2CppArray<::ZXing::QrCode::Internal::Version*>**)UnitySDK::FromName("ZXing.QrCode.Internal", "Version")->GetStaticField(0x239B8);
+		}
+
+		::System::Void _ctor(::System::Int32 a1, ::Il2CppArray<::System::Int32>* a2, ::Il2CppArray<::System::Object*>* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_VersionNumber()
@@ -80,5 +80,6 @@ namespace ZXing::QrCode::Internal
 		{
 			return ((::Il2CppArray<::ZXing::QrCode::Internal::Version*>*(*)())((::PBYTE)hIl2Cpp + ZXING_QRCODE_INTERNAL_VERSION_BUILDVERSIONS_OFFSET))();
 		}
+
 	};
 }

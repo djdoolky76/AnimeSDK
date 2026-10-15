@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightMemberEffect.h"
-
-class Class_1_6CC143B9599F1FCA;
+class EKOGCACGADH;
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::Client { class MonoUIColorSwitcher; }
 namespace System { class Action; }
@@ -12,30 +11,28 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_GET_FOLLOWPATH_OFFSET UNITYSDK_OFFSET(0xD351EE0)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD351F50)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD3524A0)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD352500)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_SETUPTRAIT_OFFSET UNITYSDK_OFFSET(0xD3522C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD3526E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD2ABF40)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_GET_FOLLOWPATH_OFFSET UNITYSDK_OFFSET(0xD2AB6E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONCREATE_OFFSET UNITYSDK_OFFSET(0xD2AB750)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD2ABD00)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD2ABD60)
+#define RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_SETUPTRAIT_OFFSET UNITYSDK_OFFSET(0xD2ABB20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitActiveEffect_TypeDefinitionIndex = 64565;
-
 	class GridFightTraitActiveEffect : public ::RPG::Client::GridFightMemberEffect
 	{
 	public:
 		::System::Single HBDJCFFDGDD; // 0x38
+		::System::Byte _padding0[0x4];
 		::RPG::Client::MonoUIColorSwitcher* MIALHNKKOED; // 0x40
 		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x48
-		::Class_1_6CC143B9599F1FCA* DLALHGJDNNO; // 0x50
+		::EKOGCACGADH* DLALHGJDNNO; // 0x50
 		::Il2CppArray<::UnityEngine::ParticleSystem*>* KGNJIMABIAN; // 0x58
 		::UnityEngine::Animation* KCOAILOHDND; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_FollowPath()
@@ -62,5 +59,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITACTIVEEFFECT_PLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,15 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class LBADGLCGAOG : ::System::Int32
+	{
+		MOLJCEFGPLL = 0,
+		HMCCOEAGDHH = 6010,
+		AHHDIBJJOBH = 6002,
+		PEFHADFKMAJ = 6001,
+		HDENEHNNIFK = 6009,
+		KGOKBDFJCFO = 6008,
+		EPNDKNDBPAE = 6005,
+		HLKMGBJHBFN = 6007,
+		AFJHANHHHGK = 6004,
+		KOMHEMEDOLP = 6003,
+	};

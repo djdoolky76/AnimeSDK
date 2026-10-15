@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLiveStreamAtmosphereType_TypeDefinitionIndex = 14216;
-
 	enum class PerformanceLiveStreamAtmosphereType : ::System::Int32
 	{
 		Chase = 1,

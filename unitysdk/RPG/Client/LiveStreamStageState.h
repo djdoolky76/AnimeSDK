@@ -3,14 +3,12 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LiveStreamStageState_TypeDefinitionIndex = 62486;
-
 	enum class LiveStreamStageState : ::System::Byte
 	{
-		None = 0x0,
-		Locked = 0x1,
-		AboutToUnlock = 0x2,
-		Unlocked = 0x3,
-		Review = 0x4,
+		None = 0,
+		Locked = 1,
+		AboutToUnlock = 2,
+		Unlocked = 3,
+		Review = 4,
 	};
 }

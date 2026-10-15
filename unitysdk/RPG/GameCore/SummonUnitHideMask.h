@@ -3,19 +3,17 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitHideMask_TypeDefinitionIndex = 57611;
-
 	enum class SummonUnitHideMask : ::System::UInt32
 	{
-		Custom = 0x1,
-		FollowSummoner = 0x2,
-		Performance = 0x4,
-		LockSource = 0x8,
-		GroundCheck = 0x10,
-		MapRotation = 0x20,
-		PerformanceChangePlayer = 0x40,
-		SyncDitherWithTarget = 0x400,
-		AllHideMask = 0x3FF,
-		AllShowMask = 0xFFC00,
+		Custom = 1,
+		FollowSummoner = 2,
+		Performance = 4,
+		LockSource = 8,
+		GroundCheck = 16,
+		MapRotation = 32,
+		PerformanceChangePlayer = 64,
+		SyncDitherWithTarget = 1024,
+		AllHideMask = 1023,
+		AllShowMask = 1047552,
 	};
 }

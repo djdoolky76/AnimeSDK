@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Security/Interface/MonoSslPolicyErrors.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Nullable; }
 
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_TRUSTED_OFFSET UNITYSDK_OFFSET(0x1BB27CA0)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_USERDENIED_OFFSET UNITYSDK_OFFSET(0x1BB27CB0)
-#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB27C80)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C034160)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_TRUSTED_OFFSET UNITYSDK_OFFSET(0x1C034180)
+#define MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_USERDENIED_OFFSET UNITYSDK_OFFSET(0x1C034190)
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int ValidationResult_TypeDefinitionIndex = 2284;
-
 	class ValidationResult : public ::System::Object
 	{
 	public:
-		::System::Boolean user_denied; // 0x10
-		::System::Boolean trusted; // 0x11
-		::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors; // 0x14
+		::System::Nullable* policy_errors; // 0x10
+		::System::Boolean trusted; // 0x18
+		::System::Boolean user_denied; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::Int32 error_code; // 0x1C
-
-		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> a4)
+		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Nullable* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_VALIDATIONRESULT__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Int32, ::System::Nullable*))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_VALIDATIONRESULT_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean get_Trusted()
@@ -34,5 +32,6 @@ namespace Mono::Security::Interface
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_INTERFACE_VALIDATIONRESULT_GET_USERDENIED_OFFSET))(this);
 		}
+
 	};
 }

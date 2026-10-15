@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvClientChangePropState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_METHOD_3_59BA1BE9BD6269CF_OFFSET UNITYSDK_OFFSET(0x1CDC4E20)
-#define RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_METHOD_3_EBE6D64849450460_OFFSET UNITYSDK_OFFSET(0x1CDC4DA0)
-#define RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC4DF0)
+#define RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39A430)
+#define RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39A460)
+#define RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39A3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvClientChangePropState_TypeDefinitionIndex = 20219;
-
 	class AdvClientChangePropState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::PropState ToState; // 0x24
 		::System::Boolean CanChangeServerProp; // 0x28
 		::System::Boolean CanChangeFromAnyState; // 0x29
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EBE6D64849450460(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvClientChangePropState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvClientChangePropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvClientChangePropState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_METHOD_3_EBE6D64849450460_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvClientChangePropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_59BA1BE9BD6269CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvClientChangePropState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvClientChangePropState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvClientChangePropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_METHOD_3_59BA1BE9BD6269CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvClientChangePropState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCLIENTCHANGEPROPSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

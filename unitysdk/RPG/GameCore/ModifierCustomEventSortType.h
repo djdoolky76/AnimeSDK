@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierCustomEventSortType_TypeDefinitionIndex = 16906;
-
 	enum class ModifierCustomEventSortType : ::System::Int32
 	{
 		Undefine = 0,

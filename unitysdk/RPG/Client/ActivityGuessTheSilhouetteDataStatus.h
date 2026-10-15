@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityGuessTheSilhouetteDataStatus_TypeDefinitionIndex = 61610;
-
 	enum class ActivityGuessTheSilhouetteDataStatus : ::System::Int32
 	{
 		UnKnow = 0,

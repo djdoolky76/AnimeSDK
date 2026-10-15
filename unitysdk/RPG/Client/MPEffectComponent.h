@@ -1,40 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MPEFFECTCOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD5A2650)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYDECREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xD5A2B80)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYINCREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xD5A2810)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_SYNCLOADRESOURCETO_OFFSET UNITYSDK_OFFSET(0xD5A2D50)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_TRYADDEFFECT_OFFSET UNITYSDK_OFFSET(0xD5A29E0)
-#define RPG_CLIENT_MPEFFECTCOMPONENT_UNLOADRESOURCES_OFFSET UNITYSDK_OFFSET(0xD5A26A0)
-#define RPG_CLIENT_MPEFFECTCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD5A2F30)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD4F9F40)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD4F9580)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYDECREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xD4F9B40)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_PLAYINCREASEEFFECT_OFFSET UNITYSDK_OFFSET(0xD4F9740)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_SYNCLOADRESOURCETO_OFFSET UNITYSDK_OFFSET(0xD4F9D60)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_TRYADDEFFECT_OFFSET UNITYSDK_OFFSET(0xD4F9960)
+#define RPG_CLIENT_MPEFFECTCOMPONENT_UNLOADRESOURCES_OFFSET UNITYSDK_OFFSET(0xD4F95D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MPEffectComponent_TypeDefinitionIndex = 72498;
-
 	class MPEffectComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:
+		::System::String* _Path; // 0x18
+		::System::Boolean _IsIncreaseAttached; // 0x20
+		::System::Boolean _IsDecreaseAttached; // 0x21
+		::System::Byte _padding0[0x6];
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* _PathToAssetRef; // 0x28
 		// static const ::System::String* _IncreasePrefabPath; // 0x0
 		// static const ::System::String* _DecreasePrefabPath; // 0x0
 		// static const ::System::String* _IncreasePrefabName; // 0x0
 		// static const ::System::String* _DecreasePrefabName; // 0x0
 		// static const ::System::String* _MpAnimName; // 0x0
-		::System::String* _Path; // 0x18
-		::System::Boolean _IsIncreaseAttached; // 0x20
-		::System::Boolean _IsDecreaseAttached; // 0x21
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::GameObject*>* _PathToAssetRef; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
@@ -66,5 +63,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MPEFFECTCOMPONENT_UNLOADRESOURCES_OFFSET))(this);
 		}
+
 	};
 }

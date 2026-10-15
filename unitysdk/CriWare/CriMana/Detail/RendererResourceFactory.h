@@ -1,42 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace CriWare::CriMana { class MovieInfo; }
 namespace CriWare::CriMana::Detail { class RendererResource; }
+namespace CriWare::CriMana::Detail { class RendererResourceFactory; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace UnityEngine { class Shader; }
 
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPATCHANDCREATE_OFFSET UNITYSDK_OFFSET(0x164F6290)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPOSEALLFACTORIES_OFFSET UNITYSDK_OFFSET(0x164F5C90)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x164F6960)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164F61E0)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x164F6880)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_REGISTERFACTORY_OFFSET UNITYSDK_OFFSET(0x164F4660)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x164F6A50)
-#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x164F47E0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1671D670)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1671B400)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPATCHANDCREATE_OFFSET UNITYSDK_OFFSET(0x1671CEB0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPOSEALLFACTORIES_OFFSET UNITYSDK_OFFSET(0x1671C8B0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1671D580)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1671CE00)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1671D4A0)
+#define CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_REGISTERFACTORY_OFFSET UNITYSDK_OFFSET(0x1671B280)
 
 namespace CriWare::CriMana::Detail
 {
-	inline static constexpr unsigned int RendererResourceFactory_TypeDefinitionIndex = 38937;
-
 	class RendererResourceFactory : public ::System::Object
 	{
 	public:
+		::System::Boolean disposed; // 0x10
 		static ::System::Collections::Generic::SortedList_2<::System::Int32, ::CriWare::CriMana::Detail::RendererResourceFactory*>** StaticGet_factoryList()
 		{
-			return (::System::Collections::Generic::SortedList_2<::System::Int32, ::CriWare::CriMana::Detail::RendererResourceFactory*>**)Il2CppClass::FromTypeDefinitionIndex(RendererResourceFactory_TypeDefinitionIndex)->GetStaticField(0x5A680);
+			return (::System::Collections::Generic::SortedList_2<::System::Int32, ::CriWare::CriMana::Detail::RendererResourceFactory*>**)UnitySDK::FromName("CriWare.CriMana.Detail", "RendererResourceFactory")->GetStaticField(0x57E50);
 		}
-		::System::Boolean disposed; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void RegisterFactory(::CriWare::CriMana::Detail::RendererResourceFactory* a1, ::System::Int32 a2)
@@ -68,5 +66,6 @@ namespace CriWare::CriMana::Detail
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_DETAIL_RENDERERRESOURCEFACTORY_DISPOSE_1_OFFSET))(this, a1);
 		}
+
 	};
 }

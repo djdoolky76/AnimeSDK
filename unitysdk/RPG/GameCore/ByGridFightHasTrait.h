@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByGridFightHasTrait; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_51799AF880ACA9BF_OFFSET UNITYSDK_OFFSET(0x1CF1D4A0)
-#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_6FA76718FCA90D2A_OFFSET UNITYSDK_OFFSET(0x1CF1D1B0)
-#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_946F750F9C3A0BCF_OFFSET UNITYSDK_OFFSET(0x1CF1D200)
-#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_AA5B20464B6F5139_OFFSET UNITYSDK_OFFSET(0x1CF1D460)
-#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF1D1F0)
+#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F5AC0)
+#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4F5D70)
+#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4F5D30)
+#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4F5AD0)
+#define RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4F5A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByGridFightHasTrait_TypeDefinitionIndex = 22274;
-
 	class ByGridFightHasTrait : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
@@ -24,30 +22,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicString* TeamTrait; // 0x28
 		::System::Boolean IncludeOtherEffect; // 0x30
 		::System::Boolean IncludeInactiveTrait; // 0x31
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_6FA76718FCA90D2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightHasTrait*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByGridFightHasTrait* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightHasTrait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_6FA76718FCA90D2A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByGridFightHasTrait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_946F750F9C3A0BCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightHasTrait* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByGridFightHasTrait* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightHasTrait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_946F750F9C3A0BCF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByGridFightHasTrait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AA5B20464B6F5139(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightHasTrait*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightHasTrait* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightHasTrait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_AA5B20464B6F5139_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightHasTrait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_51799AF880ACA9BF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightHasTrait* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightHasTrait* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightHasTrait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_METHOD_4_51799AF880ACA9BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightHasTrait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTHASTRAIT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

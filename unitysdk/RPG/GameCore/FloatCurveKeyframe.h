@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/UnityEngine/Keyframe.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FloatCurveKeyframe; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FLOATCURVEKEYFRAME_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D10A780)
-#define RPG_GAMECORE_FLOATCURVEKEYFRAME_METHOD_2_B10C0CBE85DBEC26_OFFSET UNITYSDK_OFFSET(0x1D10AE60)
-#define RPG_GAMECORE_FLOATCURVEKEYFRAME_METHOD_2_EC794351DF892425_OFFSET UNITYSDK_OFFSET(0x1D10AEC0)
-#define RPG_GAMECORE_FLOATCURVEKEYFRAME_METHOD_2_F3EEE9A84E9975A1_OFFSET UNITYSDK_OFFSET(0x1D10AB90)
-#define RPG_GAMECORE_FLOATCURVEKEYFRAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10AE50)
+#define RPG_GAMECORE_FLOATCURVEKEYFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E4750)
+#define RPG_GAMECORE_FLOATCURVEKEYFRAME_DGCPGAAOAAA_OFFSET UNITYSDK_OFFSET(0x1D6E4490)
+#define RPG_GAMECORE_FLOATCURVEKEYFRAME_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D6E4080)
+#define RPG_GAMECORE_FLOATCURVEKEYFRAME_JOJGPOOAGJK_OFFSET UNITYSDK_OFFSET(0x1D6E4760)
+#define RPG_GAMECORE_FLOATCURVEKEYFRAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E47C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatCurveKeyframe_TypeDefinitionIndex = 16163;
-
 	class FloatCurveKeyframe : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -26,15 +24,14 @@ namespace RPG::GameCore
 		::System::Int32 WeightedMode; // 0x24
 		::System::Single InWeight; // 0x28
 		::System::Single OutWeight; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EC794351DF892425(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloatCurveKeyframe*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FloatCurveKeyframe* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloatCurveKeyframe*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_METHOD_2_EC794351DF892425_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FloatCurveKeyframe*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean Equals(::UnityEngine::Keyframe a1)
@@ -42,14 +39,15 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_EQUALS_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Keyframe Method_2_F3EEE9A84E9975A1()
+		::UnityEngine::Keyframe DGCPGAAOAAA()
 		{
-			return ((::UnityEngine::Keyframe(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_METHOD_2_F3EEE9A84E9975A1_OFFSET))(this);
+			return ((::UnityEngine::Keyframe(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_DGCPGAAOAAA_OFFSET))(this);
 		}
 
-		::System::Void Method_2_B10C0CBE85DBEC26(::UnityEngine::Keyframe a1)
+		::System::Void JOJGPOOAGJK(::UnityEngine::Keyframe a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_METHOD_2_B10C0CBE85DBEC26_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Keyframe))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOATCURVEKEYFRAME_JOJGPOOAGJK_OFFSET))(this, a1);
 		}
+
 	};
 }

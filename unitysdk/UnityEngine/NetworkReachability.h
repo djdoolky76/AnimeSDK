@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NetworkReachability_TypeDefinitionIndex = 4031;
-
 	enum class NetworkReachability : ::System::Int32
 	{
 		NotReachable = 0,

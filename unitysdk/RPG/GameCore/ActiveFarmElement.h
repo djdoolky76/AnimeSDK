@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActiveFarmElement; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ACTIVEFARMELEMENT_METHOD_3_AA833D47D59F3828_OFFSET UNITYSDK_OFFSET(0x1CD75950)
-#define RPG_GAMECORE_ACTIVEFARMELEMENT_METHOD_3_EC2FB3E09C6480A5_OFFSET UNITYSDK_OFFSET(0x1CD75A20)
-#define RPG_GAMECORE_ACTIVEFARMELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD75A10)
+#define RPG_GAMECORE_ACTIVEFARMELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D349DF0)
+#define RPG_GAMECORE_ACTIVEFARMELEMENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D349E00)
+#define RPG_GAMECORE_ACTIVEFARMELEMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D349D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveFarmElement_TypeDefinitionIndex = 21838;
-
 	class ActiveFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFARMELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFARMELEMENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AA833D47D59F3828(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveFarmElement*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActiveFarmElement* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveFarmElement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFARMELEMENT_METHOD_3_AA833D47D59F3828_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActiveFarmElement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFARMELEMENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EC2FB3E09C6480A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveFarmElement* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActiveFarmElement* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveFarmElement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFARMELEMENT_METHOD_3_EC2FB3E09C6480A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActiveFarmElement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEFARMELEMENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

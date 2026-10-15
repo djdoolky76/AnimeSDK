@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance; }
 namespace RPG::Client::Prop { class ChimeraArrangementModelInstance_Config; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL_ACQUIRE_OFFSET UNITYSDK_OFFSET(0xDBFE090)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0xDBFE3D0)
-#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL__CTOR_OFFSET UNITYSDK_OFFSET(0xDBFDFF0)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL_ACQUIRE_OFFSET UNITYSDK_OFFSET(0xDC48B00)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0xDC48A60)
+#define RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0xDC48E40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraArrangementModelsPool_TypeDefinitionIndex = 77986;
-
 	class ChimeraArrangementModelsPool : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraArrangementModelInstance_Config* _Config; // 0x10
-		::System::Collections::Generic::Queue_1<::RPG::Client::Prop::ChimeraArrangementModelInstance*>* _ChimeraInstances; // 0x18
-		::UnityEngine::Transform* _Root; // 0x20
-		::UnityEngine::GameObject* _Prefab; // 0x28
-
+		::UnityEngine::GameObject* _Prefab; // 0x10
+		::RPG::Client::Prop::ChimeraArrangementModelInstance_Config* _Config; // 0x18
+		::System::Collections::Generic::Queue_1<::RPG::Client::Prop::ChimeraArrangementModelInstance*>* _ChimeraInstances; // 0x20
+		::UnityEngine::Transform* _Root; // 0x28
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::UnityEngine::Transform* a2, ::RPG::Client::Prop::ChimeraArrangementModelInstance_Config* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Transform*, ::RPG::Client::Prop::ChimeraArrangementModelInstance_Config*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Transform*, ::RPG::Client::Prop::ChimeraArrangementModelInstance_Config*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::Prop::ChimeraArrangementModelInstance* Acquire(::System::UInt32 a1)
@@ -38,5 +34,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraArrangementModelInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERAARRANGEMENTMODELSPOOL_RELEASE_OFFSET))(this, a1);
 		}
+
 	};
 }

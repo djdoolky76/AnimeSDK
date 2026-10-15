@@ -1,43 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
 #include "unitysdk/Cinemachine/CinemachineStoryboard_FillStrategy.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/Cinemachine/CameraState.h"
 namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine { class CinemachineStoryboard_CanvasInfo; }
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 
-#define CINEMACHINE_CINEMACHINESTORYBOARD_CAMERAUPDATEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x16479A60)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_CONNECTTOVCAM_OFFSET UNITYSDK_OFFSET(0x164794F0)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_CREATECANVAS_OFFSET UNITYSDK_OFFSET(0x1647A0A0)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_DESTROYCANVAS_OFFSET UNITYSDK_OFFSET(0x16479690)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_GET_CANVASNAME_OFFSET UNITYSDK_OFFSET(0x164799C0)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x1647B420)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_LOCATEMYCANVAS_OFFSET UNITYSDK_OFFSET(0x16479C30)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_PLACEIMAGE_OFFSET UNITYSDK_OFFSET(0x1647A640)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x164793E0)
-#define CINEMACHINE_CINEMACHINESTORYBOARD_STATICBLENDINGHANDLER_OFFSET UNITYSDK_OFFSET(0x1647B150)
-#define CINEMACHINE_CINEMACHINESTORYBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1647B5A0)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_CAMERAUPDATEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x166A0750)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_CONNECTTOVCAM_OFFSET UNITYSDK_OFFSET(0x166A01E0)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_CREATECANVAS_OFFSET UNITYSDK_OFFSET(0x166A0D90)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x166A2190)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_DESTROYCANVAS_OFFSET UNITYSDK_OFFSET(0x166A0380)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_GET_CANVASNAME_OFFSET UNITYSDK_OFFSET(0x166A06B0)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x166A2010)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_LOCATEMYCANVAS_OFFSET UNITYSDK_OFFSET(0x166A0920)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_PLACEIMAGE_OFFSET UNITYSDK_OFFSET(0x166A1330)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0x166A00D0)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_STATICBLENDINGHANDLER_OFFSET UNITYSDK_OFFSET(0x166A1D40)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStoryboard_TypeDefinitionIndex = 38457;
-
 	class CinemachineStoryboard : public ::Cinemachine::CinemachineExtension
 	{
 	public:
-		static ::System::Boolean* StaticGet_s_StoryboardGlobalMute()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CinemachineStoryboard_TypeDefinitionIndex)->GetStaticField(0x11CF0);
-		}
 		::System::Boolean m_ShowImage; // 0x28
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Texture* m_Image; // 0x30
 		::Cinemachine::CinemachineStoryboard_FillStrategy m_Aspect; // 0x38
 		::System::Single m_Alpha; // 0x3C
@@ -46,17 +41,23 @@ namespace Cinemachine
 		::UnityEngine::Vector2 m_Scale; // 0x54
 		::System::Boolean m_SyncScale; // 0x5C
 		::System::Boolean m_MuteCamera; // 0x5D
+		::System::Byte _padding1[0x2];
 		::System::Single m_SplitView; // 0x60
-		::System::Collections::Generic::List_1<::Cinemachine::CinemachineStoryboard_CanvasInfo*>* mCanvasInfo; // 0x68
+		::System::Byte _padding2[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* mCanvasInfo; // 0x68
+		static ::System::Boolean* StaticGet_s_StoryboardGlobalMute()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "CinemachineStoryboard")->GetStaticField(0x12C10);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESTORYBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESTORYBOARD_CTOR_OFFSET))(this);
 		}
 
-		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
+		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESTORYBOARD_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESTORYBOARD_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void ConnectToVcam(::System::Boolean a1)
@@ -103,5 +104,6 @@ namespace Cinemachine
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINESTORYBOARD_INITIALIZEMODULE_OFFSET))();
 		}
+
 	};
 }

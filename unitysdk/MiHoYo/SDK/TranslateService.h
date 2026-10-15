@@ -1,42 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class BabelfishClient; }
 namespace MiHoYo::SDK { class ChatMessage; }
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class JSONObject; }
+namespace MiHoYo::SDK { class TranslateService; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_TRANSLATESERVICE_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0xB2B8700)
-#define MIHOYO_SDK_TRANSLATESERVICE_CALLBACKTRANSLATERESULT_OFFSET UNITYSDK_OFFSET(0xB2BB1F0)
-#define MIHOYO_SDK_TRANSLATESERVICE_CHECKINITIALIZED_OFFSET UNITYSDK_OFFSET(0xB2BA4F0)
-#define MIHOYO_SDK_TRANSLATESERVICE_CLEARCONTEXT_OFFSET UNITYSDK_OFFSET(0xB2B9F00)
-#define MIHOYO_SDK_TRANSLATESERVICE_GETCONFIGURL_OFFSET UNITYSDK_OFFSET(0xB2BA290)
-#define MIHOYO_SDK_TRANSLATESERVICE_GETGAMEBIZ_OFFSET UNITYSDK_OFFSET(0xB2BA190)
-#define MIHOYO_SDK_TRANSLATESERVICE_GETREGION_OFFSET UNITYSDK_OFFSET(0xB2BA210)
-#define MIHOYO_SDK_TRANSLATESERVICE_GETTRANSLATEURL_OFFSET UNITYSDK_OFFSET(0xB2BA3C0)
-#define MIHOYO_SDK_TRANSLATESERVICE_INIT_OFFSET UNITYSDK_OFFSET(0xB2B75F0)
-#define MIHOYO_SDK_TRANSLATESERVICE_PARSECHATMESSAGE_OFFSET UNITYSDK_OFFSET(0xB2BA550)
-#define MIHOYO_SDK_TRANSLATESERVICE_SETCONTEXT_OFFSET UNITYSDK_OFFSET(0xB2B8070)
-#define MIHOYO_SDK_TRANSLATESERVICE_TRANSLATE_OFFSET UNITYSDK_OFFSET(0xB2B9770)
-#define MIHOYO_SDK_TRANSLATESERVICE_VALIDATEMESSAGE_OFFSET UNITYSDK_OFFSET(0xB2BB120)
-#define MIHOYO_SDK_TRANSLATESERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2BBD40)
-#define MIHOYO_SDK_TRANSLATESERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BBD00)
+#define MIHOYO_SDK_TRANSLATESERVICE_ADDMESSAGE_OFFSET UNITYSDK_OFFSET(0xB058580)
+#define MIHOYO_SDK_TRANSLATESERVICE_CALLBACKTRANSLATERESULT_OFFSET UNITYSDK_OFFSET(0xB05B070)
+#define MIHOYO_SDK_TRANSLATESERVICE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB05BBC0)
+#define MIHOYO_SDK_TRANSLATESERVICE_CHECKINITIALIZED_OFFSET UNITYSDK_OFFSET(0xB05A370)
+#define MIHOYO_SDK_TRANSLATESERVICE_CLEARCONTEXT_OFFSET UNITYSDK_OFFSET(0xB059D80)
+#define MIHOYO_SDK_TRANSLATESERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0xB05BB80)
+#define MIHOYO_SDK_TRANSLATESERVICE_GETCONFIGURL_OFFSET UNITYSDK_OFFSET(0xB05A110)
+#define MIHOYO_SDK_TRANSLATESERVICE_GETGAMEBIZ_OFFSET UNITYSDK_OFFSET(0xB05A010)
+#define MIHOYO_SDK_TRANSLATESERVICE_GETREGION_OFFSET UNITYSDK_OFFSET(0xB05A090)
+#define MIHOYO_SDK_TRANSLATESERVICE_GETTRANSLATEURL_OFFSET UNITYSDK_OFFSET(0xB05A240)
+#define MIHOYO_SDK_TRANSLATESERVICE_INIT_OFFSET UNITYSDK_OFFSET(0xB057470)
+#define MIHOYO_SDK_TRANSLATESERVICE_PARSECHATMESSAGE_OFFSET UNITYSDK_OFFSET(0xB05A3D0)
+#define MIHOYO_SDK_TRANSLATESERVICE_SETCONTEXT_OFFSET UNITYSDK_OFFSET(0xB057EF0)
+#define MIHOYO_SDK_TRANSLATESERVICE_TRANSLATE_OFFSET UNITYSDK_OFFSET(0xB0595F0)
+#define MIHOYO_SDK_TRANSLATESERVICE_VALIDATEMESSAGE_OFFSET UNITYSDK_OFFSET(0xB05AFA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TranslateService_TypeDefinitionIndex = 47042;
-
 	class TranslateService : public ::System::Object
 	{
 	public:
+		::MiHoYo::SDK::BabelfishClient* _client; // 0x10
+		::System::Boolean _initialized; // 0x18
 		static ::MiHoYo::SDK::TranslateService** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::TranslateService**)Il2CppClass::FromTypeDefinitionIndex(TranslateService_TypeDefinitionIndex)->GetStaticField(0x5B5D0);
+			return (::MiHoYo::SDK::TranslateService**)UnitySDK::FromName("MiHoYo.SDK", "TranslateService")->GetStaticField(0x34B60);
 		}
+
 		// static const ::System::String* DEFAULT_CONFIG_URL; // 0x0
 		// static const ::System::String* DEFAULT_TRANSLATE_URL; // 0x0
 		// static const ::System::String* LOG_TAG; // 0x0
@@ -63,17 +64,14 @@ namespace MiHoYo::SDK
 		// static const ::System::String* K_TRANSLATED; // 0x0
 		// static const ::System::String* K_SOURCE_LANG; // 0x0
 		// static const ::System::String* K_TARGET_LANG; // 0x0
-		::MiHoYo::SDK::BabelfishClient* _client; // 0x10
-		::System::Boolean _initialized; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CCTOR_OFFSET))();
 		}
 
 		::System::String* GetGameBiz()
@@ -96,29 +94,29 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_GETTRANSLATEURL_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Action_1<::System::String*>* a1)
+		::System::Void Init(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_INIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_INIT_OFFSET))(this, a1);
 		}
 
-		::System::Void SetContext(::System::String* a1, ::MiHoYo::SDK::JSONArray* a2, ::System::Int32 a3, ::System::Action_1<::System::String*>* a4)
+		::System::Void SetContext(::System::String* a1, ::MiHoYo::SDK::JSONArray* a2, ::System::Int32 a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONArray*, ::System::Int32, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_SETCONTEXT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONArray*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_SETCONTEXT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void AddMessage(::System::String* a1, ::MiHoYo::SDK::JSONObject* a2, ::System::Action_1<::System::String*>* a3)
+		::System::Void AddMessage(::System::String* a1, ::MiHoYo::SDK::JSONObject* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONObject*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_ADDMESSAGE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::JSONObject*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_ADDMESSAGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Translate(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7, ::System::Int32 a8, ::System::Action_1<::System::String*>* a9)
+		::System::Void Translate(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7, ::System::Int32 a8, ::System::Action* a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_TRANSLATE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_TRANSLATE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void ClearContext(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void ClearContext(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CLEARCONTEXT_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CLEARCONTEXT_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::ChatMessage* ParseChatMessage(::MiHoYo::SDK::JSONNode* a1)
@@ -126,9 +124,9 @@ namespace MiHoYo::SDK
 			return ((::MiHoYo::SDK::ChatMessage*(*)(::PVOID, ::MiHoYo::SDK::JSONNode*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_PARSECHATMESSAGE_OFFSET))(this, a1);
 		}
 
-		::System::Void CallbackTranslateResult(::System::Action_1<::System::String*>* a1, ::MiHoYo::SDK::JSONNode* a2, ::MiHoYo::SDK::ChatMessage* a3, ::System::String* a4)
+		::System::Void CallbackTranslateResult(::System::Action* a1, ::MiHoYo::SDK::JSONNode* a2, ::MiHoYo::SDK::ChatMessage* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::ChatMessage*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CALLBACKTRANSLATERESULT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::MiHoYo::SDK::JSONNode*, ::MiHoYo::SDK::ChatMessage*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CALLBACKTRANSLATERESULT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::String* ValidateMessage(::MiHoYo::SDK::ChatMessage* a1, ::System::Int32 a2)
@@ -136,9 +134,10 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID, ::MiHoYo::SDK::ChatMessage*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_VALIDATEMESSAGE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean CheckInitialized(::System::Action_1<::System::String*>* a1)
+		::System::Boolean CheckInitialized(::System::Action* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CHECKINITIALIZED_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TRANSLATESERVICE_CHECKINITIALIZED_OFFSET))(this, a1);
 		}
+
 	};
 }

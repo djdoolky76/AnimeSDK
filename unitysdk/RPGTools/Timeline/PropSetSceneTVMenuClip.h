@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DA100)
-#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8DA0F0)
-#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8DA290)
+#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92F8B0)
+#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92FA40)
+#define RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE92F8A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropSetSceneTVMenuClip_TypeDefinitionIndex = 48712;
-
 	class PropSetSceneTVMenuClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
@@ -23,11 +20,11 @@ namespace RPGTools::Timeline
 		::System::UInt32 GroupID; // 0x20
 		::System::UInt32 PropID; // 0x24
 		::System::Int32 MenuID; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::String* TVKey; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -39,5 +36,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPSETSCENETVMENUCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

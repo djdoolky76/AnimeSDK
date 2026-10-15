@@ -3,7 +3,6 @@
 #include "unitysdk/RPG/Client/CameraModuleConfigBase.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 #include "unitysdk/RPG/GameCore/CharacterSomatoType.h"
-
 namespace RPG::Client { class CameraDynamicOffset; }
 namespace RPG::Client { class CameraFightStateCastAnimationConfig; }
 namespace RPG::Client { class CameraFightStateCasterToTargetConfig; }
@@ -21,18 +20,16 @@ namespace RPG::Client { class CameraSomatoDynamicOffsetScale; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xD0602D0)
-#define RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_4C94E33B8854BB0A_OFFSET UNITYSDK_OFFSET(0xD060320)
-#define RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_86E87AB4982311F8_OFFSET UNITYSDK_OFFSET(0xD0606B0)
-#define RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_B78DF254F2280415_OFFSET UNITYSDK_OFFSET(0xD060760)
-#define RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_BB68B265491E92AD_1_OFFSET UNITYSDK_OFFSET(0xD060600)
-#define RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_BB68B265491E92AD_OFFSET UNITYSDK_OFFSET(0xD060530)
-#define RPG_CLIENT_FIGHTMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD060830)
+#define RPG_CLIENT_FIGHTMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCFFFBA0)
+#define RPG_CLIENT_FIGHTMODULECONFIG_DONIOBHMGKM_OFFSET UNITYSDK_OFFSET(0xCFFF8A0)
+#define RPG_CLIENT_FIGHTMODULECONFIG_GAGGPBEKOMF_OFFSET UNITYSDK_OFFSET(0xCFFFA20)
+#define RPG_CLIENT_FIGHTMODULECONFIG_ICCPFNGEDEB_OFFSET UNITYSDK_OFFSET(0xCFFF700)
+#define RPG_CLIENT_FIGHTMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xCFFF6B0)
+#define RPG_CLIENT_FIGHTMODULECONFIG_LAHCEFMCNFB_OFFSET UNITYSDK_OFFSET(0xCFFF970)
+#define RPG_CLIENT_FIGHTMODULECONFIG_NEJKNBGHHMM_OFFSET UNITYSDK_OFFSET(0xCFFFAD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FightModuleConfig_TypeDefinitionIndex = 69638;
-
 	class FightModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:
@@ -63,40 +60,40 @@ namespace RPG::Client
 		::RPG::Client::CameraFightStateCommonConfig* LastCloseupShotEndConfig; // 0xC8
 		::RPG::Client::CameraFightStateSelectServantConfig* SelectServantConfig; // 0xD0
 		::RPG::Client::CameraFightStateOrbitCruiseConfig* OrbitCruiseConfig; // 0xD8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::CameraModuleType Method_4_2BF4648671111A7E()
+		::RPG::Client::CameraModuleType JIGLNEDJDCC()
 		{
-			return ((::RPG::Client::CameraModuleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET))(this);
+			return ((::RPG::Client::CameraModuleType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_JIGLNEDJDCC_OFFSET))(this);
 		}
 
-		::RPG::Client::CameraNamedDynamicOffset* Method_4_4C94E33B8854BB0A(::System::String* a1)
+		::RPG::Client::CameraNamedDynamicOffset* ICCPFNGEDEB(::System::String* a1)
 		{
-			return ((::RPG::Client::CameraNamedDynamicOffset*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_4C94E33B8854BB0A_OFFSET))(this, a1);
+			return ((::RPG::Client::CameraNamedDynamicOffset*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_ICCPFNGEDEB_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::CameraSomatoDynamicOffset* Method_4_BB68B265491E92AD(::RPG::GameCore::CharacterSomatoType a1)
+		::RPG::Client::CameraSomatoDynamicOffset* DONIOBHMGKM(::RPG::GameCore::CharacterSomatoType a1)
 		{
-			return ((::RPG::Client::CameraSomatoDynamicOffset*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_BB68B265491E92AD_OFFSET))(this, a1);
+			return ((::RPG::Client::CameraSomatoDynamicOffset*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_DONIOBHMGKM_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::CameraSomatoDynamicOffset* Method_4_BB68B265491E92AD_1(::RPG::GameCore::CharacterSomatoType a1)
+		::RPG::Client::CameraSomatoDynamicOffset* LAHCEFMCNFB(::RPG::GameCore::CharacterSomatoType a1)
 		{
-			return ((::RPG::Client::CameraSomatoDynamicOffset*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_BB68B265491E92AD_1_OFFSET))(this, a1);
+			return ((::RPG::Client::CameraSomatoDynamicOffset*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_LAHCEFMCNFB_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::CameraSomatoDynamicAnchorOffset* Method_4_86E87AB4982311F8(::RPG::GameCore::CharacterSomatoType a1)
+		::RPG::Client::CameraSomatoDynamicAnchorOffset* GAGGPBEKOMF(::RPG::GameCore::CharacterSomatoType a1)
 		{
-			return ((::RPG::Client::CameraSomatoDynamicAnchorOffset*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_86E87AB4982311F8_OFFSET))(this, a1);
+			return ((::RPG::Client::CameraSomatoDynamicAnchorOffset*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_GAGGPBEKOMF_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::CameraSomatoDynamicOffsetScale* Method_4_B78DF254F2280415(::RPG::GameCore::CharacterSomatoType a1)
+		::RPG::Client::CameraSomatoDynamicOffsetScale* NEJKNBGHHMM(::RPG::GameCore::CharacterSomatoType a1)
 		{
-			return ((::RPG::Client::CameraSomatoDynamicOffsetScale*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_METHOD_4_B78DF254F2280415_OFFSET))(this, a1);
+			return ((::RPG::Client::CameraSomatoDynamicOffsetScale*(*)(::PVOID, ::RPG::GameCore::CharacterSomatoType))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIGHTMODULECONFIG_NEJKNBGHHMM_OFFSET))(this, a1);
 		}
+
 	};
 }

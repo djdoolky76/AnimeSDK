@@ -1,50 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAD9850)
-#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x1BADA240)
-#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x1BAD9F10)
-#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BADA180)
-#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BAD99E0)
-#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x1BAC4F90)
-#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x1BAD9940)
-#define MIHOYO_SDK_TOAST__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BADA350)
-#define MIHOYO_SDK_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BADA310)
+#define MIHOYO_SDK_TOAST_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFE41E0)
+#define MIHOYO_SDK_TOAST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFE4D60)
+#define MIHOYO_SDK_TOAST_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE4D20)
+#define MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET UNITYSDK_OFFSET(0x1BFE4C50)
+#define MIHOYO_SDK_TOAST_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFE4920)
+#define MIHOYO_SDK_TOAST_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BFE4B90)
+#define MIHOYO_SDK_TOAST_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BFE43F0)
+#define MIHOYO_SDK_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFCFA60)
+#define MIHOYO_SDK_TOAST_START_OFFSET UNITYSDK_OFFSET(0x1BFE4350)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8185;
-
 	class Toast : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x26B20);
-		}
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_autoHideTask()
-		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Toast_TypeDefinitionIndex)->GetStaticField(0x26B28);
-		}
-		// static const ::System::String* PrefabName; // 0x0
 		::System::String* content; // 0x58
 		::UnityEngine::UI::Text* contentText; // 0x60
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_sm_autoHideTask()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Toast")->GetStaticField(0x200B0);
+		}
 
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "Toast")->GetStaticField(0x200B8);
+		}
+
+		// static const ::System::String* PrefabName; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOAST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOAST_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOAST__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOAST_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -81,5 +79,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_TOAST_DELAYHIDE_OFFSET))(this, a1);
 		}
+
 	};
 }

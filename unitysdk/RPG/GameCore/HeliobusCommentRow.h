@@ -3,36 +3,35 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/HeliobusTendencyType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HeliobusCommentRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HELIOBUSCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D183960)
-#define RPG_GAMECORE_HELIOBUSCOMMENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D184140)
+#define RPG_GAMECORE_HELIOBUSCOMMENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75F550)
+#define RPG_GAMECORE_HELIOBUSCOMMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D75ED70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusCommentRow_TypeDefinitionIndex = 13640;
-
 	class HeliobusCommentRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PlayerCommentIDList; // 0x10
-		::System::Boolean IsPlayerComment; // 0x18
+		::System::UInt32 HeliobusUserID; // 0x18
+		::System::UInt32 ReplyIncomeReward; // 0x1C
 		::RPG::Client::TextID CommentOptionTextID; // 0x20
-		::RPG::Client::TextID HeliobusCommentTextID; // 0x30
-		::System::UInt32 ReplyIncomeReward; // 0x40
-		::System::UInt32 HeliobusUserID; // 0x44
-		::RPG::GameCore::HeliobusTendencyType Tendency; // 0x48
-		::System::UInt32 HeliobusCommentID; // 0x4C
-
+		::System::UInt32 HeliobusCommentID; // 0x30
+		::RPG::GameCore::HeliobusTendencyType Tendency; // 0x34
+		::System::Boolean IsPlayerComment; // 0x38
+		::System::Byte _padding0[0x7];
+		::RPG::Client::TextID HeliobusCommentTextID; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCOMMENTROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCOMMENTROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HeliobusCommentRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::HeliobusCommentRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HeliobusCommentRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCOMMENTROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HeliobusCommentRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSCOMMENTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

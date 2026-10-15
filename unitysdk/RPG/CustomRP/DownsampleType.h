@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DownsampleType_TypeDefinitionIndex = 36852;
-
 	enum class DownsampleType : ::System::Int32
 	{
 		_2xBilinear = 0,

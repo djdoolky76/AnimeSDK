@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FateParamBattleSeriesWinCountConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_METHOD_6_508D9455C568C75F_OFFSET UNITYSDK_OFFSET(0x1D08DE90)
-#define RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_METHOD_6_75CF3E7DA5D5A763_OFFSET UNITYSDK_OFFSET(0x1D08DEE0)
-#define RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D08DED0)
+#define RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69BD70)
+#define RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D69BD80)
+#define RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69BD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateParamBattleSeriesWinCountConfig_TypeDefinitionIndex = 16455;
-
 	class FateParamBattleSeriesWinCountConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_508D9455C568C75F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_METHOD_6_508D9455C568C75F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_75CF3E7DA5D5A763(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_METHOD_6_75CF3E7DA5D5A763_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FateParamBattleSeriesWinCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEPARAMBATTLESERIESWINCOUNTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

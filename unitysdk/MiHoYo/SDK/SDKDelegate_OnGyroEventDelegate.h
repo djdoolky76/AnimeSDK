@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/WeLing/SDK/GyroType.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC9340)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC93C0)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC9330)
-#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC92C0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD3E50)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD3DD0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD3ED0)
+#define MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD3E40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_OnGyroEventDelegate_TypeDefinitionIndex = 7750;
-
 	class SDKDelegate_OnGyroEventDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::WeLing::SDK::GyroType a1, ::Il2CppArray<::System::Single>* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_ONGYROEVENTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

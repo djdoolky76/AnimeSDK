@@ -2,21 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareValue; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_278B2757D7F93298_OFFSET UNITYSDK_OFFSET(0x1CF0B740)
-#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_4D8316750F80A731_OFFSET UNITYSDK_OFFSET(0x1CF0B9B0)
-#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_BAAC6009003B5487_OFFSET UNITYSDK_OFFSET(0x1CF0B9F0)
-#define RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_EDF4DBB517773015_OFFSET UNITYSDK_OFFSET(0x1CF0B790)
-#define RPG_GAMECORE_BYCOMPAREVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF0B780)
+#define RPG_GAMECORE_BYCOMPAREVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4E4050)
+#define RPG_GAMECORE_BYCOMPAREVALUE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4E42C0)
+#define RPG_GAMECORE_BYCOMPAREVALUE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4E4280)
+#define RPG_GAMECORE_BYCOMPAREVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4E4060)
+#define RPG_GAMECORE_BYCOMPAREVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4E4010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareValue_TypeDefinitionIndex = 23528;
-
 	class ByCompareValue : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
@@ -24,30 +22,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::ValueEvaluatorConfig* Value2; // 0x28
 		::RPG::GameCore::CompareType CompareType; // 0x30
 		::System::Boolean ExactlyEqual; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_278B2757D7F93298(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_278B2757D7F93298_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EDF4DBB517773015(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareValue* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_EDF4DBB517773015_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4D8316750F80A731(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareValue*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareValue* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_4D8316750F80A731_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BAAC6009003B5487(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareValue* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareValue* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_METHOD_4_BAAC6009003B5487_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREVALUE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

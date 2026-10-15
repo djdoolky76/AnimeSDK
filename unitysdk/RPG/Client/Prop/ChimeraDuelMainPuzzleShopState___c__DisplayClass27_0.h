@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleShopState; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDC21A80)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xDC22100)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_G__CANCEL_1_OFFSET UNITYSDK_OFFSET(0xDC22350)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6CDD0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xDC6D450)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_G__CANCEL_1_OFFSET UNITYSDK_OFFSET(0xDC6D6A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleShopState___c__DisplayClass27_0_TypeDefinitionIndex = 77917;
-
 	class ChimeraDuelMainPuzzleShopState___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* onComplete; // 0x10
-		::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState* __4__this; // 0x18
+		::RPG::Client::Prop::ChimeraDuelMainPuzzleShopState* __4__this; // 0x10
+		::System::Action* onComplete; // 0x18
 		::System::Boolean isFinished; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _PlayPerformanceAndGetCancelHandler_b__0(::System::Boolean a1)
@@ -34,5 +30,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLESHOPSTATE___C__DISPLAYCLASS27_0__PLAYPERFORMANCEANDGETCANCELHANDLER_G__CANCEL_1_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/JPNIHFOOFLP_ZoneOut.h"
+#include "unitysdk/System/Object.h"
+
+#define JPNIHFOOFLP_KOFINMCCNKI_ACIFNKPKLPN_OFFSET UNITYSDK_OFFSET(0xB2CD430)
+#define JPNIHFOOFLP_KOFINMCCNKI_BHDEAPKIGGD_OFFSET UNITYSDK_OFFSET(0xB2CE0E0)
+#define JPNIHFOOFLP_KOFINMCCNKI_CLDELANGKJL_OFFSET UNITYSDK_OFFSET(0xB2CD4D0)
+#define JPNIHFOOFLP_KOFINMCCNKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CE470)
+#define JPNIHFOOFLP_KOFINMCCNKI_GCIIGOIBABF_OFFSET UNITYSDK_OFFSET(0xB2CD480)
+#define JPNIHFOOFLP_KOFINMCCNKI_KDHDMDBKNJE_OFFSET UNITYSDK_OFFSET(0xB2CD3E0)
+#define JPNIHFOOFLP_KOFINMCCNKI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB2CDD90)
+
+	class JPNIHFOOFLP_KOFINMCCNKI : public ::System::Object
+	{
+	public:
+		::System::Single MEFOJIDMGJE; // 0x10
+		::System::Single BLOBOKKCOAA; // 0x14
+		::JPNIHFOOFLP_ZoneOut MNHEIJMJNCJ; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPNIHFOOFLP_KOFINMCCNKI_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean BHDEAPKIGGD()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JPNIHFOOFLP_KOFINMCCNKI_BHDEAPKIGGD_OFFSET))(this);
+		}
+
+		::System::Void KHGIKBFDLFB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPNIHFOOFLP_KOFINMCCNKI_KHGIKBFDLFB_OFFSET))(this);
+		}
+
+		::System::Boolean KDHDMDBKNJE()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JPNIHFOOFLP_KOFINMCCNKI_KDHDMDBKNJE_OFFSET))(this);
+		}
+
+		::System::Boolean ACIFNKPKLPN()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JPNIHFOOFLP_KOFINMCCNKI_ACIFNKPKLPN_OFFSET))(this);
+		}
+
+		::System::Boolean GCIIGOIBABF()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JPNIHFOOFLP_KOFINMCCNKI_GCIIGOIBABF_OFFSET))(this);
+		}
+
+		::System::Boolean CLDELANGKJL()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + JPNIHFOOFLP_KOFINMCCNKI_CLDELANGKJL_OFFSET))(this);
+		}
+
+	};

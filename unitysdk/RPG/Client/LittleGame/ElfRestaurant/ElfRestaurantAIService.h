@@ -3,115 +3,120 @@
 #include "unitysdk/RPG/GameCore/RestaurantNormalEventType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_938C223DA5C0C9C7;
-class Class_2_80F8710F847F1248;
-class Class_3_F4528A5C0F861AF2;
+class BNLHGENFEHG;
+class IMEFEGGEMIJ;
+class PGBLBOJBDGG;
 namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
-namespace RPG::Client::LittleGame::ElfRestaurant { class ElfRestaurantAIService_DelayBehavior; }
 namespace RPG::Client::LittleGame::ElfRestaurant { class ElfRestaurantEventParams; }
 namespace RPG::GameCore { class ElfBehaviorStateContentItem; }
 namespace RPG::GameCore { class ElfBehaviorStateItem; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDBONUSEVENT_OFFSET UNITYSDK_OFFSET(0xD4D2750)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCLEANOBSTACLEORDER_OFFSET UNITYSDK_OFFSET(0xD4CFF00)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCLEANTABLEORDER_OFFSET UNITYSDK_OFFSET(0xD4CF7B0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCOOKFOODORDER_1_OFFSET UNITYSDK_OFFSET(0xD4D0E40)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCOOKFOODORDER_2_OFFSET UNITYSDK_OFFSET(0xD4D0BD0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCOOKFOODORDER_OFFSET UNITYSDK_OFFSET(0xD4D0A30)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDDELIVERYORDER_1_OFFSET UNITYSDK_OFFSET(0xD4CEA10)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDDELIVERYORDER_OFFSET UNITYSDK_OFFSET(0xD4CE910)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDEXTRAPAY_OFFSET UNITYSDK_OFFSET(0xD4D2500)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDGAMETIMEOVERORDER_OFFSET UNITYSDK_OFFSET(0xD4D1B70)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDPROCESSCUSTOMEREVENTORDER_OFFSET UNITYSDK_OFFSET(0xD4D0560)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDELIVERYCUSTOMER_OFFSET UNITYSDK_OFFSET(0xD4D2F60)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDELIVERYFOOD_OFFSET UNITYSDK_OFFSET(0xD4D2EB0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDIRTYOBSTACLE_OFFSET UNITYSDK_OFFSET(0xD4D38C0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDIRTYTABLESLOT_OFFSET UNITYSDK_OFFSET(0xD4D3300)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETORDERCUSTOMER_OFFSET UNITYSDK_OFFSET(0xD4D2C00)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_CLEARBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD4D3E60)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD4CE8C0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DROPFOODORDER_OFFSET UNITYSDK_OFFSET(0xD4D0F20)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_GETTHUMBCOUNT_OFFSET UNITYSDK_OFFSET(0xD4D23B0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_GETWAITCUSTOMERCOUNT_OFFSET UNITYSDK_OFFSET(0xD4D2110)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_HASWAITCUSTOMER_OFFSET UNITYSDK_OFFSET(0xD4D1E90)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ISPAY_OFFSET UNITYSDK_OFFSET(0xD4D2470)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_REQPROCESSEVENT_OFFSET UNITYSDK_OFFSET(0xD4D10E0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_REQPROCESSSELECTEVENT_OFFSET UNITYSDK_OFFSET(0xD4D19C0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_SETBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD4D1740)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_TRYADDDRINKEVENT_OFFSET UNITYSDK_OFFSET(0xD4D2960)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__ADDBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD4D3BA0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__ADDDELAYBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD4D4230)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__CCTOR_OFFSET UNITYSDK_OFFSET(0xD4D4490)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xD4CE7A0)
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__REMOVEBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD4D40E0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDBONUSEVENT_OFFSET UNITYSDK_OFFSET(0xD429860)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCLEANOBSTACLEORDER_OFFSET UNITYSDK_OFFSET(0xD427340)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCLEANTABLEORDER_OFFSET UNITYSDK_OFFSET(0xD426C90)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCOOKFOODORDER_1_OFFSET UNITYSDK_OFFSET(0xD428130)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCOOKFOODORDER_2_OFFSET UNITYSDK_OFFSET(0xD427EC0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDCOOKFOODORDER_OFFSET UNITYSDK_OFFSET(0xD427D20)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDDELIVERYORDER_1_OFFSET UNITYSDK_OFFSET(0xD425F90)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDDELIVERYORDER_OFFSET UNITYSDK_OFFSET(0xD425E90)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDEXTRAPAY_OFFSET UNITYSDK_OFFSET(0xD429610)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDGAMETIMEOVERORDER_OFFSET UNITYSDK_OFFSET(0xD428E40)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ADDPROCESSCUSTOMEREVENTORDER_OFFSET UNITYSDK_OFFSET(0xD4278F0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDELIVERYCUSTOMER_OFFSET UNITYSDK_OFFSET(0xD429FD0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDELIVERYFOOD_OFFSET UNITYSDK_OFFSET(0xD429F20)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDIRTYOBSTACLE_OFFSET UNITYSDK_OFFSET(0xD42A7F0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDIRTYTABLESLOT_OFFSET UNITYSDK_OFFSET(0xD42A2D0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETORDERCUSTOMER_OFFSET UNITYSDK_OFFSET(0xD429D00)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD42B320)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_CLEARBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD42ACF0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0xD425D20)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD425E40)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DROPFOODORDER_OFFSET UNITYSDK_OFFSET(0xD428210)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_GETTHUMBCOUNT_OFFSET UNITYSDK_OFFSET(0xD4294C0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_GETWAITCUSTOMERCOUNT_OFFSET UNITYSDK_OFFSET(0xD4292C0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_HASWAITCUSTOMER_OFFSET UNITYSDK_OFFSET(0xD4290D0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_ISPAY_OFFSET UNITYSDK_OFFSET(0xD429580)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_REQPROCESSEVENT_OFFSET UNITYSDK_OFFSET(0xD4283D0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_REQPROCESSSELECTEVENT_OFFSET UNITYSDK_OFFSET(0xD428CA0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_SETBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD428A20)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_TRYADDDRINKEVENT_OFFSET UNITYSDK_OFFSET(0xD429A70)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__ADDBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD42AA40)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__ADDDELAYBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD42B0C0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__REMOVEBEHAVIOR_OFFSET UNITYSDK_OFFSET(0xD42AF70)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantAIService_TypeDefinitionIndex = 76779;
-
 	class ElfRestaurantAIService : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_AIEvent_Leave()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB180);
-		}
-		static ::System::String** StaticGet_AIEvent_MoveToQueue()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB188);
-		}
-		static ::System::String** StaticGet_AIEvent_GoExtraPay()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB190);
-		}
-		static ::System::String** StaticGet_AIEvent_ContinueOrderRecipe()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB198);
-		}
-		static ::System::String** StaticGet_AIEvent_ContinueWaitFood()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB1A0);
-		}
-		static ::System::String** StaticGet_AIEvent_GoDrink()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB1A8);
-		}
-		static ::System::String** StaticGet_AIEvent_EndSuperEvent()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB1B0);
-		}
-		static ::System::String** StaticGet_AIEvent_Order()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB1B8);
-		}
-		static ::System::String** StaticGet_AIEvent_ProcessBill()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ElfRestaurantAIService_TypeDefinitionIndex)->GetStaticField(0xB1C0);
-		}
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>* DelayTextBehaviors; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>* DelayEffectBehaviors; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>* DelayAudioEffectBehaviors; // 0x20
-		::Class_1_938C223DA5C0C9C7* DrinkMachineSO; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>* DelaySpecialBubbleBehaviors; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>* DelayEmojiBehaviors; // 0x38
-		::Class_1_938C223DA5C0C9C7* ExtraPayTableSO; // 0x40
-		::Class_3_F4528A5C0F861AF2* _Services; // 0x48
-		::Class_2_80F8710F847F1248* _Context; // 0x50
+		::System::Collections::Generic::List_1<::System::Object*>* DelayTextBehaviors; // 0x10
+		::PGBLBOJBDGG* _Context; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* DelayEffectBehaviors; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* DelayEmojiBehaviors; // 0x28
+		::IMEFEGGEMIJ* ExtraPayTableSO; // 0x30
+		::BNLHGENFEHG* _Services; // 0x38
+		::System::Collections::Generic::List_1<::System::Object*>* DelaySpecialBubbleBehaviors; // 0x40
+		::IMEFEGGEMIJ* DrinkMachineSO; // 0x48
+		::System::Collections::Generic::List_1<::System::Object*>* DelayAudioEffectBehaviors; // 0x50
 		::System::Int32 UnCollectedExtraGolden; // 0x58
 		::UnityEngine::Vector3 DrinkMachineEventWPos; // 0x5C
 		::UnityEngine::Vector3 ExtraPayEventWPos; // 0x68
-
-		::System::Void _ctor(::Class_3_F4528A5C0F861AF2* a1, ::Class_2_80F8710F847F1248* a2)
+		static ::System::String** StaticGet_AIEvent_Order()
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_3_F4528A5C0F861AF2*, ::Class_2_80F8710F847F1248*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__CTOR_OFFSET))(this, a1, a2);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141B0);
+		}
+
+		static ::System::String** StaticGet_AIEvent_Leave()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141B8);
+		}
+
+		static ::System::String** StaticGet_AIEvent_EndSuperEvent()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141C0);
+		}
+
+		static ::System::String** StaticGet_AIEvent_ContinueWaitFood()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141C8);
+		}
+
+		static ::System::String** StaticGet_AIEvent_GoExtraPay()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141D0);
+		}
+
+		static ::System::String** StaticGet_AIEvent_MoveToQueue()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141D8);
+		}
+
+		static ::System::String** StaticGet_AIEvent_ProcessBill()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141E0);
+		}
+
+		static ::System::String** StaticGet_AIEvent_ContinueOrderRecipe()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141E8);
+		}
+
+		static ::System::String** StaticGet_AIEvent_GoDrink()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.LittleGame.ElfRestaurant", "ElfRestaurantAIService")->GetStaticField(0x141F0);
+		}
+
+		::System::Void _ctor(::BNLHGENFEHG* a1, ::PGBLBOJBDGG* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BNLHGENFEHG*, ::PGBLBOJBDGG*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_CCTOR_OFFSET))();
 		}
 
 		::System::Void Dispose()
@@ -229,9 +234,9 @@ namespace RPG::Client::LittleGame::ElfRestaurant
 			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDELIVERYCUSTOMER_OFFSET))(this, a1);
 		}
 
-		::System::Int32 AutoGetDirtyTableSlot(::System::Int32& a1)
+		::System::Int32 AutoGetDirtyTableSlot(::System::Int32 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDIRTYTABLESLOT_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_AUTOGETDIRTYTABLESLOT_OFFSET))(this, a1);
 		}
 
 		::System::Int32 AutoGetDirtyObstacle()
@@ -254,14 +259,15 @@ namespace RPG::Client::LittleGame::ElfRestaurant
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::ElfBehaviorStateItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__ADDBEHAVIOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _AddDelayBehavior(::System::Int32 a1, ::RPG::GameCore::ElfBehaviorStateContentItem* a2, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>* a3)
+		::System::Void _AddDelayBehavior(::System::Int32 a1, ::RPG::GameCore::ElfBehaviorStateContentItem* a2, ::System::Collections::Generic::List_1<::System::Object*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::ElfBehaviorStateContentItem*, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__ADDDELAYBEHAVIOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::RPG::GameCore::ElfBehaviorStateContentItem*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__ADDDELAYBEHAVIOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _RemoveBehavior(::System::Int32 a1, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>* a2)
+		::System::Void _RemoveBehavior(::System::Int32 a1, ::System::Collections::Generic::List_1<::System::Object*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantAIService_DelayBehavior*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__REMOVEBEHAVIOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE__REMOVEBEHAVIOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

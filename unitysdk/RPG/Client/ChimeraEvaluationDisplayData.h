@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChimeraEvaluationData; }
+namespace RPG::Client { class ChimeraEvaluationDisplayData; }
 
-#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xCBF6F50)
-#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBF6FC0)
+#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA_COMPARETO_OFFSET UNITYSDK_OFFSET(0xCB46050)
+#define RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB460C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraEvaluationDisplayData_TypeDefinitionIndex = 63549;
-
 	class ChimeraEvaluationDisplayData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChimeraEvaluationData* EvaluationData; // 0x10
 		::System::UInt32 ChimeraID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 CompareTo(::RPG::Client::ChimeraEvaluationDisplayData* a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::ChimeraEvaluationDisplayData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAEVALUATIONDISPLAYDATA_COMPARETO_OFFSET))(this, a1);
 		}
+
 	};
 }

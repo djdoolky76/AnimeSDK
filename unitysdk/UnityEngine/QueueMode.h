@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int QueueMode_TypeDefinitionIndex = 5729;
-
 	enum class QueueMode : ::System::Int32
 	{
 		CompleteOthers = 0,

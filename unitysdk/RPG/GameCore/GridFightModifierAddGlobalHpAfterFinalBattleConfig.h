@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierAddGlobalHpAfterFinalBattleConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_METHOD_3_32682D53ADF65484_OFFSET UNITYSDK_OFFSET(0x1D157EF0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_METHOD_3_3E1B5F78A32694C8_OFFSET UNITYSDK_OFFSET(0x1D157EA0)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D157EE0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D732CD0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D732CE0)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D732C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierAddGlobalHpAfterFinalBattleConfig_TypeDefinitionIndex = 19157;
-
 	class GridFightModifierAddGlobalHpAfterFinalBattleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3E1B5F78A32694C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_METHOD_3_3E1B5F78A32694C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_32682D53ADF65484(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_METHOD_3_32682D53ADF65484_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierAddGlobalHpAfterFinalBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERADDGLOBALHPAFTERFINALBATTLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

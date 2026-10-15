@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D100)
-#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D160)
-#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B73D0F0)
-#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73D070)
+#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3B730)
+#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B6A0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3B790)
+#define MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC3B720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_InitCallback_TypeDefinitionIndex = 7548;
-
 	class BiliBiliDelegate_InitCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Int32 a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BILIBILIDELEGATE_INITCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

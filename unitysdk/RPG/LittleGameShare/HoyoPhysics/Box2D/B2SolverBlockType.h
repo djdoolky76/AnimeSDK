@@ -3,8 +3,6 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SolverBlockType_TypeDefinitionIndex = 36090;
-
 	enum class B2SolverBlockType : ::System::Int32
 	{
 		b2_bodyBlock = 0,

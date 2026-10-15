@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NotificationDefine_LoginFlowClientErrorCode_TypeDefinitionIndex = 7533;
-
 	enum class NotificationDefine_LoginFlowClientErrorCode : ::System::Int32
 	{
 		BILIBILI_INIT_FAILED = -1000,

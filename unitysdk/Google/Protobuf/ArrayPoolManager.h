@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class IBytesArrayPool; }
 
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETARRAY_OFFSET UNITYSDK_OFFSET(0x1B34B280)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x1B34B270)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B34B240)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_RETURNARRAY_OFFSET UNITYSDK_OFFSET(0x1B34B2C0)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x1B34B260)
-#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B34B250)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETARRAY_OFFSET UNITYSDK_OFFSET(0x1B84D0C0)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x1B84D0B0)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B84D080)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_RETURNARRAY_OFFSET UNITYSDK_OFFSET(0x1B84D100)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SETBYTESARRAYPOOL_OFFSET UNITYSDK_OFFSET(0x1B84D0A0)
+#define GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B84D090)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ArrayPoolManager_TypeDefinitionIndex = 5388;
-
 	class ArrayPoolManager : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::IBytesArrayPool** StaticGet__Instance_k__BackingField()
 		{
-			return (::Google::Protobuf::IBytesArrayPool**)Il2CppClass::FromTypeDefinitionIndex(ArrayPoolManager_TypeDefinitionIndex)->GetStaticField(0x1C690);
+			return (::Google::Protobuf::IBytesArrayPool**)UnitySDK::FromName("Google.Protobuf", "ArrayPoolManager")->GetStaticField(0x1A040);
 		}
 
 		static ::Google::Protobuf::IBytesArrayPool* get_Instance()
@@ -52,5 +49,6 @@ namespace Google::Protobuf
 		{
 			return ((::System::Void(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_ARRAYPOOLMANAGER_RETURNARRAY_OFFSET))(a1);
 		}
+
 	};
 }

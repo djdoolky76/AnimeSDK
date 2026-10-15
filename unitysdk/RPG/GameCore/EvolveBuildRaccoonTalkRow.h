@@ -4,33 +4,31 @@
 #include "unitysdk/RPG/GameCore/EvolveBuildSeason.h"
 #include "unitysdk/RPG/GameCore/RaccoonStateType.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EvolveBuildRaccoonTalkRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0772F0)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0779D0)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6859C0)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6852E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 11402;
-
 	class EvolveBuildRaccoonTalkRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::Client::TextID>* TextmapList; // 0x10
 		::System::String* RaccoonPicPath; // 0x18
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x20
-		::RPG::GameCore::RaccoonStateType RaccoonState; // 0x24
-
+		::RPG::GameCore::RaccoonStateType RaccoonState; // 0x20
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x24
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::EvolveBuildRaccoonTalkRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EvolveBuildRaccoonTalkRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_GrantNewDeviceElements_TypeDefinitionIndex = 9154;
-
 	class PluginUIConstants_GrantNewDeviceElements : public ::System::Object
 	{
 	public:

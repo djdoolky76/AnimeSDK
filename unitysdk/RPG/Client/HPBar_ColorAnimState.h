@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HPBar_ColorAnimState_TypeDefinitionIndex = 72467;
-
 	struct alignas(4) HPBar_ColorAnimState
 	{
 		::UnityEngine::Color colorDummy; // 0x10

@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/ParticleSystem_PlaybackState_Collision.h"
 #include "unitysdk/UnityEngine/ParticleSystem_PlaybackState_Emission.h"
 #include "unitysdk/UnityEngine/ParticleSystem_PlaybackState_Force.h"
@@ -12,8 +11,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_PlaybackState_TypeDefinitionIndex = 5211;
-
 	struct alignas(4) ParticleSystem_PlaybackState
 	{
 		::System::Single m_AccumulatedDt; // 0x10

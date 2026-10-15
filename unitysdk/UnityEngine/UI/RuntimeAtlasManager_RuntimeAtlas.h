@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/GraphicsFormat.h"
 #include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_InsertionStatus.h"
-#include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas_Block.h"
-#include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas_ClearCmd.h"
-#include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas_CopyCmd.h"
 #include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas_CopyShader.h"
 #include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0.h"
 #include "unitysdk/UnityEngine/UI/RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass7_0.h"
 #include "unitysdk/UnityEngine/UI/SpriteElement.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class ComputeShader; }
@@ -24,50 +21,41 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::UI { class RuntimeAtlasManager_PackedAtlas; }
 
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_BUILD_OFFSET UNITYSDK_OFFSET(0x1EE765A0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CHECKALIVE_OFFSET UNITYSDK_OFFSET(0x1EE76F10)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1EE75880)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_ERASE_OFFSET UNITYSDK_OFFSET(0x1EE75C10)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_EXECUTECLEARCMDIMPL_OFFSET UNITYSDK_OFFSET(0x1EE77530)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_EXECUTECOPYCMDIMPL_OFFSET UNITYSDK_OFFSET(0x1EE77790)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_EXECUTECOPYCMD_OFFSET UNITYSDK_OFFSET(0x1EE75B80)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_GETVALIDFORMAT_OFFSET UNITYSDK_OFFSET(0x1EE759D0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_GET_ATLASTEX_OFFSET UNITYSDK_OFFSET(0x1EE76590)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_GET_CLEARED_OFFSET UNITYSDK_OFFSET(0x1EE75790)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_INSERT_OFFSET UNITYSDK_OFFSET(0x1EE74590)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_ISPACKABLE_OFFSET UNITYSDK_OFFSET(0x1EE75990)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1EE75020)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_TRYGETSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EE746E0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_TRYINSERT_OFFSET UNITYSDK_OFFSET(0x1EE76AF0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1EE75780)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE77E90)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE737E0)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__INSERT_G__FINDBLOCKSIZE_7_0_OFFSET UNITYSDK_OFFSET(0x1EE76970)
-#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__TRYINSERT_G__SPAWNSECONDLEAF_16_0_OFFSET UNITYSDK_OFFSET(0x1EE78180)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_BUILD_OFFSET UNITYSDK_OFFSET(0x1F53E6E0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F53FFB0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CHECKALIVE_OFFSET UNITYSDK_OFFSET(0x1F53F040)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CONTAINS_OFFSET UNITYSDK_OFFSET(0x1F53D9C0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F53B920)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_ERASE_OFFSET UNITYSDK_OFFSET(0x1F53DD50)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_EXECUTECLEARCMDIMPL_OFFSET UNITYSDK_OFFSET(0x1F53F660)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_EXECUTECOPYCMDIMPL_OFFSET UNITYSDK_OFFSET(0x1F53F8C0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_EXECUTECOPYCMD_OFFSET UNITYSDK_OFFSET(0x1F53DCC0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_GETVALIDFORMAT_OFFSET UNITYSDK_OFFSET(0x1F53DB10)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_GET_ATLASTEX_OFFSET UNITYSDK_OFFSET(0x1F53E6D0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_GET_CLEARED_OFFSET UNITYSDK_OFFSET(0x1F53D8D0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_INSERT_OFFSET UNITYSDK_OFFSET(0x1F53C6D0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_ISPACKABLE_OFFSET UNITYSDK_OFFSET(0x1F53DAD0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F53D160)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_TRYGETSCALEOFFSET_OFFSET UNITYSDK_OFFSET(0x1F53C820)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_TRYINSERT_OFFSET UNITYSDK_OFFSET(0x1F53EC20)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_UPDATEAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1F53D8C0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__INSERT_G__FINDBLOCKSIZE_7_0_OFFSET UNITYSDK_OFFSET(0x1F53EAA0)
+#define UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__TRYINSERT_G__SPAWNSECONDLEAF_16_0_OFFSET UNITYSDK_OFFSET(0x1F5402A0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_TypeDefinitionIndex = 6805;
-
 	class RuntimeAtlasManager_RuntimeAtlas : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>** StaticGet_k_AtlasSizeToDepth()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_RuntimeAtlas_TypeDefinitionIndex)->GetStaticField(0x21DB0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>** StaticGet_m_BaseOffset()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple_2<::System::Int32, ::System::Int32>>**)Il2CppClass::FromTypeDefinitionIndex(RuntimeAtlasManager_RuntimeAtlas_TypeDefinitionIndex)->GetStaticField(0x21DB8);
-		}
 		::UnityEngine::Texture* m_Tex; // 0x10
 		::UnityEngine::UI::RuntimeAtlasManager_PackedAtlas* m_PackedAtlas; // 0x18
 		::UnityEngine::Experimental::Rendering::GraphicsFormat m_TexFormat; // 0x20
+		::System::Byte _padding0[0x4];
 		::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_CopyShader m_CopyShader; // 0x28
 		::UnityEngine::Material* m_CopyMat; // 0x40
 		::UnityEngine::Texture* m_ClearTex; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* m_TrackedTexture; // 0x50
-		::Il2CppArray<::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_Block>* m_Blocks; // 0x58
+		::Il2CppArray<::System::Object*>* m_Blocks; // 0x58
 		::Il2CppArray<::System::Int32>* m_Stride; // 0x60
 		::System::Int32 m_Depth; // 0x68
 		::System::Int32 m_MaxBlockSize; // 0x6C
@@ -76,22 +64,32 @@ namespace UnityEngine::UI
 		::Il2CppArray<::System::Int32>* m_BlockSize; // 0x78
 		::Il2CppArray<::System::Int32>* m_Offset; // 0x80
 		::System::Int32 m_BlockPadding; // 0x88
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Rendering::CommandBuffer* m_CmdBuffer; // 0x90
-		::UnityEngine::Pooled::PooledList_1<::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_CopyCmd>* m_CopyCmds; // 0x98
-		::UnityEngine::Pooled::PooledList_1<::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_ClearCmd>* m_ClearCmds; // 0xA0
-		::System::Collections::Generic::HashSet_1<::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas_CopyCmd>* m_DistinctCmds; // 0xA8
+		::UnityEngine::Pooled::PooledList_1<::System::Object*>* m_CopyCmds; // 0x98
+		::UnityEngine::Pooled::PooledList_1<::System::Object*>* m_ClearCmds; // 0xA0
+		::System::Collections::Generic::HashSet_1<::System::Object*>* m_DistinctCmds; // 0xA8
 		::System::Int32 m_ParamsID; // 0xB0
 		::System::Int32 m_SrcTexID; // 0xB4
 		::System::Int32 m_DstTexID; // 0xB8
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple>** StaticGet_m_BaseOffset()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::ValueTuple>**)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlas")->GetStaticField(0x38E50);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>** StaticGet_k_AtlasSizeToDepth()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RuntimeAtlas")->GetStaticField(0x38E58);
+		}
 
 		::System::Void _ctor(::UnityEngine::Experimental::Rendering::GraphicsFormat a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::ComputeShader* a4, ::UnityEngine::Material* a5, ::UnityEngine::Texture* a6, ::UnityEngine::UI::RuntimeAtlasManager_PackedAtlas* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Int32, ::System::Int32, ::UnityEngine::ComputeShader*, ::UnityEngine::Material*, ::UnityEngine::Texture*, ::UnityEngine::UI::RuntimeAtlasManager_PackedAtlas*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Int32, ::System::Int32, ::UnityEngine::ComputeShader*, ::UnityEngine::Material*, ::UnityEngine::Texture*, ::UnityEngine::UI::RuntimeAtlasManager_PackedAtlas*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::Texture* get_atlasTex()
@@ -124,14 +122,14 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::UI::RuntimeAtlasManager_InsertionStatus(*)(::PVOID, ::UnityEngine::Texture*, ::UnityEngine::Experimental::Rendering::GraphicsFormat))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_INSERT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetScaleOffset(::UnityEngine::UI::SpriteElement& a1, ::UnityEngine::Vector2& a2, ::UnityEngine::Vector2& a3)
+		::System::Boolean TryGetScaleOffset(::UnityEngine::UI::SpriteElement a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement&, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_TRYGETSCALEOFFSET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_TRYGETSCALEOFFSET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Erase(::UnityEngine::UI::SpriteElement& a1)
+		::System::Boolean Erase(::UnityEngine::UI::SpriteElement a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_ERASE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UI::SpriteElement))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_ERASE_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateAvailable(::System::Boolean a1)
@@ -159,9 +157,9 @@ namespace UnityEngine::UI
 			return ((::System::Int32(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_CHECKALIVE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Build(::UnityEngine::Vector2Int a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
+		::System::Void Build(::UnityEngine::Vector2Int a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_BUILD_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2Int, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_BUILD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 TryInsert(::UnityEngine::Texture* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
@@ -174,14 +172,15 @@ namespace UnityEngine::UI
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS_GET_CLEARED_OFFSET))(this);
 		}
 
-		::System::Int32 _Insert_g__FindBlockSize_7_0(::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass7_0& a1)
+		::System::Int32 _Insert_g__FindBlockSize_7_0(::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass7_0 a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass7_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__INSERT_G__FINDBLOCKSIZE_7_0_OFFSET))(this, a1);
+			return ((::System::Int32(*)(::PVOID, ::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass7_0))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__INSERT_G__FINDBLOCKSIZE_7_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _TryInsert_g__SpawnSecondLeaf_16_0(::System::Int32 a1, ::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0& a2)
+		::System::Void _TryInsert_g__SpawnSecondLeaf_16_0(::System::Int32 a1, ::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__TRYINSERT_G__SPAWNSECONDLEAF_16_0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::UI::RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RUNTIMEATLASMANAGER_RUNTIMEATLAS__TRYINSERT_G__SPAWNSECONDLEAF_16_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

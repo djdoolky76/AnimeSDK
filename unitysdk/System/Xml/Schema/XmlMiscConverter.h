@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/XmlBaseConverter.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
@@ -9,24 +8,22 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPEWILDCARDDESTINATION_OFFSET UNITYSDK_OFFSET(0x1E8190A0)
-#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPEWILDCARDSOURCE_OFFSET UNITYSDK_OFFSET(0x1E8194E0)
-#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPE_1_OFFSET UNITYSDK_OFFSET(0x1E8195D0)
-#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1E819170)
-#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x1E8187C0)
-#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E818810)
-#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8187B0)
+#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPEWILDCARDDESTINATION_OFFSET UNITYSDK_OFFSET(0x1EEE1D00)
+#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPEWILDCARDSOURCE_OFFSET UNITYSDK_OFFSET(0x1EEE2140)
+#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPE_1_OFFSET UNITYSDK_OFFSET(0x1EEE2230)
+#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1EEE1DD0)
+#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CREATE_OFFSET UNITYSDK_OFFSET(0x1EEE1420)
+#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE1410)
+#define SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EEE1470)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlMiscConverter_TypeDefinitionIndex = 2227;
-
 	class XmlMiscConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:
 		::System::Void _ctor(::System::Xml::Schema::XmlSchemaType* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLMISCCONVERTER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Schema::XmlSchemaType*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* a1)
@@ -58,5 +55,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLMISCCONVERTER_CHANGETYPEWILDCARDSOURCE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

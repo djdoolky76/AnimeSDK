@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NormalsMode_TypeDefinitionIndex = 44662;
-
 	enum class NormalsMode : ::System::Int32
 	{
 		CalculateIfMissing = 1,

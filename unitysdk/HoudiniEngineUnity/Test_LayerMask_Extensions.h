@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
-
 namespace HoudiniEngineUnity { class Test_LayerMask; }
 
-#define HOUDINIENGINEUNITY_TEST_LAYERMASK_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B0C60)
+#define HOUDINIENGINEUNITY_TEST_LAYERMASK_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B2C90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_LayerMask_Extensions_TypeDefinitionIndex = 39447;
-
 	class Test_LayerMask_Extensions : public ::System::Object
 	{
 	public:
@@ -18,5 +15,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::HoudiniEngineUnity::Test_LayerMask*(*)(::UnityEngine::LayerMask))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_LAYERMASK_EXTENSIONS_TOTESTOBJECT_OFFSET))(a1);
 		}
+
 	};
 }

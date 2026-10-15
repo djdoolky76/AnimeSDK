@@ -1,40 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class JsonEnum; }
+namespace RPG::GameCore { class SetAbilityTagMapping; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETABILITYTAGMAPPING_METHOD_3_248C69013C18F00C_OFFSET UNITYSDK_OFFSET(0x1D4DE230)
-#define RPG_GAMECORE_SETABILITYTAGMAPPING_METHOD_3_A27F0B3DEF9A31A1_OFFSET UNITYSDK_OFFSET(0x1D4DE270)
-#define RPG_GAMECORE_SETABILITYTAGMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DE260)
+#define RPG_GAMECORE_SETABILITYTAGMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA91FD0)
+#define RPG_GAMECORE_SETABILITYTAGMAPPING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA91FE0)
+#define RPG_GAMECORE_SETABILITYTAGMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA91FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAbilityTagMapping_TypeDefinitionIndex = 22459;
-
 	class SetAbilityTagMapping : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::JsonEnum* AbilityTag; // 0x20
 		::RPG::GameCore::DynamicString* AbilityName; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETABILITYTAGMAPPING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETABILITYTAGMAPPING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_248C69013C18F00C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAbilityTagMapping*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetAbilityTagMapping* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAbilityTagMapping*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETABILITYTAGMAPPING_METHOD_3_248C69013C18F00C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetAbilityTagMapping*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETABILITYTAGMAPPING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A27F0B3DEF9A31A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAbilityTagMapping* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetAbilityTagMapping* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAbilityTagMapping*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETABILITYTAGMAPPING_METHOD_3_A27F0B3DEF9A31A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetAbilityTagMapping*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETABILITYTAGMAPPING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSelectEnhanceConditionType_TypeDefinitionIndex = 13494;
-
 	enum class GridFightSelectEnhanceConditionType : ::System::Int32
 	{
 		None = 0,

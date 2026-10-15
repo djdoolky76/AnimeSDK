@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_LIGHTPARAMETER_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x15E410)
+#define RPGTOOLS_TIMELINE_LIGHTPARAMETER_GET_COLOR_OFFSET UNITYSDK_OFFSET(0xF8000)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LightParameter_TypeDefinitionIndex = 48893;
-
 	struct alignas(4) LightParameter
 	{
 		::System::Single intensity; // 0x10
@@ -18,13 +16,12 @@ namespace RPGTools::Timeline
 		::System::Single colorB; // 0x1C
 		::UnityEngine::Quaternion direction; // 0x20
 		::System::Boolean useEulerAngle; // 0x30
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 eulerAngleDirection; // 0x34
-
-		/*
 		::UnityEngine::Color get_color()
 		{
 			return ((::UnityEngine::Color(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIGHTPARAMETER_GET_COLOR_OFFSET))(this);
 		}
-		*/
+
 	};
 }

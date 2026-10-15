@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Text::RegularExpressions { class Capture; }
 namespace System::Text::RegularExpressions { class CaptureCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_GET_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1E9EF3A0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1E9EF390)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1E9EF350)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1E9EF420)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EF300)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B6EA0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_GET_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1F0B6F40)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0B6F30)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F0B6EF0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F0B6FC0)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int CaptureEnumerator_TypeDefinitionIndex = 2505;
-
 	class CaptureEnumerator : public ::System::Object
 	{
 	public:
 		::System::Text::RegularExpressions::CaptureCollection* _rcc; // 0x10
 		::System::Int32 _curindex; // 0x18
-
 		::System::Void _ctor(::System::Text::RegularExpressions::CaptureCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::CaptureCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::CaptureCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean MoveNext()
@@ -45,5 +42,6 @@ namespace System::Text::RegularExpressions
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_CAPTUREENUMERATOR_RESET_OFFSET))(this);
 		}
+
 	};
 }

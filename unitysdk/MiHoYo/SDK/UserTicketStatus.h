@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UserTicketStatus_TypeDefinitionIndex = 7507;
-
 	enum class UserTicketStatus : ::System::Int32
 	{
 		STATUS_NEW = 0,

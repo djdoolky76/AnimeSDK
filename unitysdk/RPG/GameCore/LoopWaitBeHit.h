@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LoopWaitBeHit; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LOOPWAITBEHIT_METHOD_3_04DB4192A6E93664_OFFSET UNITYSDK_OFFSET(0x1D215BE0)
-#define RPG_GAMECORE_LOOPWAITBEHIT_METHOD_3_3DED4D9B3E902128_OFFSET UNITYSDK_OFFSET(0x1D215B90)
-#define RPG_GAMECORE_LOOPWAITBEHIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D215BD0)
+#define RPG_GAMECORE_LOOPWAITBEHIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F66F0)
+#define RPG_GAMECORE_LOOPWAITBEHIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7F6700)
+#define RPG_GAMECORE_LOOPWAITBEHIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F66B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopWaitBeHit_TypeDefinitionIndex = 21881;
-
 	class LoopWaitBeHit : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBEHIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBEHIT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3DED4D9B3E902128(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitBeHit*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitBeHit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitBeHit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBEHIT_METHOD_3_3DED4D9B3E902128_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitBeHit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBEHIT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_04DB4192A6E93664(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitBeHit* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LoopWaitBeHit* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitBeHit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBEHIT_METHOD_3_04DB4192A6E93664_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LoopWaitBeHit*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITBEHIT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MIBMLOEAJII.h"
+class FCOEMCEDLNL;
+class FGMDCIDDILA;
+
+#define FGMDCIDDILA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDEF1D0)
+#define FGMDCIDDILA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDEF1E0)
+#define FGMDCIDDILA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDEF1A0)
+
+	class FGMDCIDDILA : public ::MIBMLOEAJII
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FGMDCIDDILA_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::FGMDCIDDILA* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::FGMDCIDDILA*))((::PBYTE)hIl2Cpp + FGMDCIDDILA_OJNNBEJLDIJ_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::FGMDCIDDILA* a2)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::FGMDCIDDILA*))((::PBYTE)hIl2Cpp + FGMDCIDDILA_MGMEGEDLMAK_OFFSET))(a1, a2);
+		}
+
+	};

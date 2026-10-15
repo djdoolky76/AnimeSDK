@@ -3,18 +3,16 @@
 #include "unitysdk/RPG/GameCore/LoadingStratageType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/TransitionLoadingType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FinishPerformanceMission; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FINISHPERFORMANCEMISSION_METHOD_3_52B7913CCC5DCF7F_OFFSET UNITYSDK_OFFSET(0x1D09B8D0)
-#define RPG_GAMECORE_FINISHPERFORMANCEMISSION_METHOD_3_EFE7E5648A0B15B5_OFFSET UNITYSDK_OFFSET(0x1D09B910)
-#define RPG_GAMECORE_FINISHPERFORMANCEMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D09B900)
+#define RPG_GAMECORE_FINISHPERFORMANCEMISSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9850)
+#define RPG_GAMECORE_FINISHPERFORMANCEMISSION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6A9860)
+#define RPG_GAMECORE_FINISHPERFORMANCEMISSION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A9820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishPerformanceMission_TypeDefinitionIndex = 20853;
-
 	class FinishPerformanceMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,22 +20,23 @@ namespace RPG::GameCore
 		::System::UInt32 MainMissionID; // 0x20
 		::System::Boolean KeepScreenTransferUntilGroupRefresh; // 0x24
 		::System::Boolean UseSpecifiedLoading; // 0x25
+		::System::Byte _padding0[0x2];
 		::RPG::GameCore::LoadingStratageType StratageType; // 0x28
 		::RPG::GameCore::TransitionLoadingType LoadingType; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHPERFORMANCEMISSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHPERFORMANCEMISSION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_52B7913CCC5DCF7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishPerformanceMission*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishPerformanceMission* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishPerformanceMission*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHPERFORMANCEMISSION_METHOD_3_52B7913CCC5DCF7F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishPerformanceMission*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHPERFORMANCEMISSION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EFE7E5648A0B15B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FinishPerformanceMission* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FinishPerformanceMission* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FinishPerformanceMission*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHPERFORMANCEMISSION_METHOD_3_EFE7E5648A0B15B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FinishPerformanceMission*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHPERFORMANCEMISSION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,9 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ITrampolineContext_1_TypeDefinitionIndex = 40699;
-
-	template <typename TEntity>
+	template <typename T>
 	class ITrampolineContext_1
 	{
 	public:

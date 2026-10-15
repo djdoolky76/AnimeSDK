@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class UIQuad; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOQUADEFFECT_DOTICK_OFFSET UNITYSDK_OFFSET(0xD858E10)
-#define RPG_CLIENT_MONOQUADEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD858F90)
-#define RPG_CLIENT_MONOQUADEFFECT_UPDATEPOS_OFFSET UNITYSDK_OFFSET(0xD858EC0)
-#define RPG_CLIENT_MONOQUADEFFECT_UPDATE_OFFSET UNITYSDK_OFFSET(0xD858DB0)
-#define RPG_CLIENT_MONOQUADEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xD859010)
+#define RPG_CLIENT_MONOQUADEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD859A00)
+#define RPG_CLIENT_MONOQUADEFFECT_DOTICK_OFFSET UNITYSDK_OFFSET(0xD859800)
+#define RPG_CLIENT_MONOQUADEFFECT_PLAY_OFFSET UNITYSDK_OFFSET(0xD859980)
+#define RPG_CLIENT_MONOQUADEFFECT_UPDATEPOS_OFFSET UNITYSDK_OFFSET(0xD8598B0)
+#define RPG_CLIENT_MONOQUADEFFECT_UPDATE_OFFSET UNITYSDK_OFFSET(0xD8597A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoQuadEffect_TypeDefinitionIndex = 72519;
-
 	class MonoQuadEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean _ShouldTick; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single _CurTime; // 0x1C
 		::System::Single _StartPercentage; // 0x20
 		::System::Single _EndPercentage; // 0x24
 		::RPG::Client::UIQuad* QuadRef; // 0x28
 		::System::Single TotalTime; // 0x30
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* HightLightPointTfRef; // 0x38
 		::UnityEngine::Transform* RootTransform; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOQUADEFFECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOQUADEFFECT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
@@ -51,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOQUADEFFECT_PLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

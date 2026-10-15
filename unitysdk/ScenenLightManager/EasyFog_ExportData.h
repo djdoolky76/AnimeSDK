@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_4_0C4F666150CF6EB8_CustomColorBlendMode.h"
+#include "unitysdk/PPEHOFBJEHE_CustomColorBlendMode.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/ScenenLightManager/BaseComponentExportData.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client { class EasyFog_ExtraExportData; }
 
-#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE90E240)
+#define SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE963D30)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int EasyFog_ExportData_TypeDefinitionIndex = 49535;
-
 	class EasyFog_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:
@@ -30,9 +27,9 @@ namespace ScenenLightManager
 		::System::Single distortIntensity; // 0x58
 		::System::Single directionalLightIntensity; // 0x5C
 		::UnityEngine::Color customDirectionalLightColor; // 0x60
-		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode directionalLightBlendMode; // 0x70
+		::PPEHOFBJEHE_CustomColorBlendMode directionalLightBlendMode; // 0x70
 		::UnityEngine::Color customAmbientColor; // 0x74
-		::Class_4_0C4F666150CF6EB8_CustomColorBlendMode ambientLightBlendMode; // 0x84
+		::PPEHOFBJEHE_CustomColorBlendMode ambientLightBlendMode; // 0x84
 		::UnityEngine::Color customEmissiveColor; // 0x88
 		::System::Single softParticlesNearFadeDistance; // 0x98
 		::System::Single softParticlesFarFadeDistance; // 0x9C
@@ -40,14 +37,16 @@ namespace ScenenLightManager
 		::System::Single cameraFarFadeDistance; // 0xA4
 		::System::Boolean blenderFogOn; // 0xA8
 		::System::Boolean volumeFogOn; // 0xA9
+		::System::Byte _padding0[0x2];
 		::RPG::CustomRP::CustomLightQualityFilter lightQualityFilter; // 0xAC
 		::System::Boolean overrideRenderQueue; // 0xB0
+		::System::Byte _padding1[0x3];
 		::System::Int32 renderQueue; // 0xB4
 		::System::Boolean useCustomMap; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_EASYFOG_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

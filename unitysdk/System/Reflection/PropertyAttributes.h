@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int PropertyAttributes_TypeDefinitionIndex = 585;
-
 	enum class PropertyAttributes : ::System::Int32
 	{
 		None = 0,

@@ -4,19 +4,17 @@
 #include "unitysdk/RPG/GameCore/NavigateTargetMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvAINavigateTo; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_824DBF1ED57B2245_OFFSET UNITYSDK_OFFSET(0x1CDB82E0)
-#define RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_D17736E5B6275209_OFFSET UNITYSDK_OFFSET(0x1CDB8290)
-#define RPG_GAMECORE_ADVAINAVIGATETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB82D0)
+#define RPG_GAMECORE_ADVAINAVIGATETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38D760)
+#define RPG_GAMECORE_ADVAINAVIGATETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38D770)
+#define RPG_GAMECORE_ADVAINAVIGATETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38D720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvAINavigateTo_TypeDefinitionIndex = 19769;
-
 	class AdvAINavigateTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -25,24 +23,25 @@ namespace RPG::GameCore
 		::RPG::GameCore::CharacterMotionFlag MotionFlag; // 0x24
 		::RPG::GameCore::TargetEvaluator* NavigateTarget; // 0x28
 		::RPG::MVector3 NavigatePosition; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicString* LevelAreaKey; // 0x40
 		::System::Boolean WaitFinish; // 0x48
 		::System::Boolean TurnInPlaceInStart; // 0x49
 		::System::Boolean TurnInPlaceInEnd; // 0x4A
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D17736E5B6275209(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAINavigateTo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvAINavigateTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAINavigateTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_D17736E5B6275209_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvAINavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_824DBF1ED57B2245(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAINavigateTo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvAINavigateTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAINavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_METHOD_3_824DBF1ED57B2245_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvAINavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVAINAVIGATETO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

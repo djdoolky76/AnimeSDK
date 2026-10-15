@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Attribute; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -9,18 +8,16 @@ namespace System::Reflection { class Assembly; }
 namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class ParameterInfo; }
 
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1BD8FC30)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_2_OFFSET UNITYSDK_OFFSET(0x1BD8FC40)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1BD8FC20)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_1_OFFSET UNITYSDK_OFFSET(0x1BD8FAF0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_2_OFFSET UNITYSDK_OFFSET(0x1BD8FB60)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_3_OFFSET UNITYSDK_OFFSET(0x1BD8FBC0)
-#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BD8FA60)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_1_OFFSET UNITYSDK_OFFSET(0x1C29B8C0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_4_OFFSET UNITYSDK_OFFSET(0x1C29B8D0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1C29B8B0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_1_OFFSET UNITYSDK_OFFSET(0x1C29B780)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_4_OFFSET UNITYSDK_OFFSET(0x1C29B7F0)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_5_OFFSET UNITYSDK_OFFSET(0x1C29B850)
+#define SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C29B6F0)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int CustomAttributeExtensions_TypeDefinitionIndex = 537;
-
 	class CustomAttributeExtensions : public ::System::Object
 	{
 	public:
@@ -34,14 +31,14 @@ namespace System::Reflection
 			return ((::System::Attribute*(*)(::System::Reflection::MemberInfo*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Attribute* GetCustomAttribute_2(::System::Reflection::MemberInfo* a1, ::System::Type* a2, ::System::Boolean a3)
+		static ::System::Attribute* GetCustomAttribute_4(::System::Reflection::MemberInfo* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::System::Attribute*(*)(::System::Reflection::MemberInfo*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_2_OFFSET))(a1, a2, a3);
+			return ((::System::Attribute*(*)(::System::Reflection::MemberInfo*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_4_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Attribute* GetCustomAttribute_3(::System::Reflection::ParameterInfo* a1, ::System::Type* a2, ::System::Boolean a3)
+		static ::System::Attribute* GetCustomAttribute_5(::System::Reflection::ParameterInfo* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::System::Attribute*(*)(::System::Reflection::ParameterInfo*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_3_OFFSET))(a1, a2, a3);
+			return ((::System::Attribute*(*)(::System::Reflection::ParameterInfo*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTE_5_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::Assembly* a1, ::System::Type* a2)
@@ -54,9 +51,10 @@ namespace System::Reflection
 			return ((::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*(*)(::System::Reflection::MemberInfo*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes_2(::System::Reflection::MemberInfo* a1, ::System::Type* a2, ::System::Boolean a3)
+		static ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes_4(::System::Reflection::MemberInfo* a1, ::System::Type* a2, ::System::Boolean a3)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*(*)(::System::Reflection::MemberInfo*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_2_OFFSET))(a1, a2, a3);
+			return ((::System::Collections::Generic::IEnumerable_1<::System::Attribute*>*(*)(::System::Reflection::MemberInfo*, ::System::Type*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_CUSTOMATTRIBUTEEXTENSIONS_GETCUSTOMATTRIBUTES_4_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

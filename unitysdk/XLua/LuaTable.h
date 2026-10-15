@@ -1,35 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/XLua/LuaBase.h"
-
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections { class IEnumerable; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace XLua { class LuaEnv; }
+namespace XLua { class LuaTable; }
 
-#define XLUA_LUATABLE_GETKEYS_OFFSET UNITYSDK_OFFSET(0x14B2E3D0)
-#define XLUA_LUATABLE_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x14B2E0C0)
-#define XLUA_LUATABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x14B2E060)
-#define XLUA_LUATABLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x14B2E180)
-#define XLUA_LUATABLE_PUSH_OFFSET UNITYSDK_OFFSET(0x14B29DD0)
-#define XLUA_LUATABLE_SETMETATABLE_OFFSET UNITYSDK_OFFSET(0x14B2E450)
-#define XLUA_LUATABLE_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x14B2E130)
-#define XLUA_LUATABLE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x14B2E070)
-#define XLUA_LUATABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14B2E7C0)
-#define XLUA_LUATABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x14B2E050)
+#define XLUA_LUATABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x14DC4520)
+#define XLUA_LUATABLE_GETKEYS_OFFSET UNITYSDK_OFFSET(0x14DC48A0)
+#define XLUA_LUATABLE_GET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x14DC4590)
+#define XLUA_LUATABLE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x14DC4530)
+#define XLUA_LUATABLE_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x14DC4650)
+#define XLUA_LUATABLE_PUSH_OFFSET UNITYSDK_OFFSET(0x14DC02D0)
+#define XLUA_LUATABLE_SETMETATABLE_OFFSET UNITYSDK_OFFSET(0x14DC4920)
+#define XLUA_LUATABLE_SET_ITEM_1_OFFSET UNITYSDK_OFFSET(0x14DC4600)
+#define XLUA_LUATABLE_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x14DC4540)
+#define XLUA_LUATABLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14DC4C90)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaTable_TypeDefinitionIndex = 50542;
-
 	class LuaTable : public ::XLua::LuaBase
 	{
 	public:
 		::System::Void _ctor(::System::Int32 a1, ::XLua::LuaEnv* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::XLua::LuaEnv*))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Object* get_Item(::System::String* a1)
@@ -76,5 +72,6 @@ namespace XLua
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + XLUA_LUATABLE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

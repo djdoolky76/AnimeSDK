@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierBackRoleDisplayChangeBeforeBattleConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_METHOD_3_7BA8188D055077C6_OFFSET UNITYSDK_OFFSET(0x1D158730)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_METHOD_3_7F33BF6BB0890062_OFFSET UNITYSDK_OFFSET(0x1D158780)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D158770)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D733560)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D733570)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D733520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierBackRoleDisplayChangeBeforeBattleConfig_TypeDefinitionIndex = 19263;
-
 	class GridFightModifierBackRoleDisplayChangeBeforeBattleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7BA8188D055077C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_METHOD_3_7BA8188D055077C6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7F33BF6BB0890062(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_METHOD_3_7F33BF6BB0890062_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierBackRoleDisplayChangeBeforeBattleConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERBACKROLEDISPLAYCHANGEBEFOREBATTLECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

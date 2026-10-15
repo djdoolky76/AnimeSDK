@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvancedFollowType_TypeDefinitionIndex = 24330;
-
 	enum class AdvancedFollowType : ::System::Int32
 	{
 		Pet = 0,

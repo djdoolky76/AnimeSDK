@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::Audio { class WwiseExternalAudioConfig; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE815440)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE815430)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0xE815410)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_METHOD_4_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0xE8155B0)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0xE815420)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8156C0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_CCKGKFBCHAM_OFFSET UNITYSDK_OFFSET(0xE8B2E90)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B2D20)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B2FA0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B2D10)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_GET_ENDTIME_OFFSET UNITYSDK_OFFSET(0xE8B2CF0)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0xE8B2D00)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseExternalAudioClip_TypeDefinitionIndex = 49291;
-
 	class WwiseExternalAudioClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::Audio::WwiseExternalAudioConfig* Config; // 0x18
 		::System::Boolean ExecuteWhenSkip; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::Double _EndTime_k__BackingField; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_CTOR_OFFSET))(this);
 		}
 
 		::System::Double get_EndTime()
@@ -51,9 +48,10 @@ namespace RPGTools::Timeline::Audio
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_4307B2A4B4A12C1A()
+		::System::Void CCKGKFBCHAM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_METHOD_4_4307B2A4B4A12C1A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOCLIP_CCKGKFBCHAM_OFFSET))(this);
 		}
+
 	};
 }

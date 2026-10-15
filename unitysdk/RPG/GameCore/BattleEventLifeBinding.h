@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventLifeBinding_TypeDefinitionIndex = 16350;
-
 	enum class BattleEventLifeBinding : ::System::Int32
 	{
 		None = 0,

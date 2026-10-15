@@ -3,8 +3,6 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int HandleOrientation_TypeDefinitionIndex = 43169;
-
 	enum class HandleOrientation : ::System::Int32
 	{
 		World = 0,

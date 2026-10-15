@@ -1,47 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
-namespace System { class String; }
+namespace RPG::GameCore { class TriggerCustomString; }
 
-#define RPG_GAMECORE_TRIGGERCUSTOMSTRING_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x1D5F2100)
-#define RPG_GAMECORE_TRIGGERCUSTOMSTRING_METHOD_3_27FB5D031377ECC0_OFFSET UNITYSDK_OFFSET(0x1D5F1D90)
-#define RPG_GAMECORE_TRIGGERCUSTOMSTRING_METHOD_3_84236F4B2910CEA0_OFFSET UNITYSDK_OFFSET(0x1D5F1EF0)
-#define RPG_GAMECORE_TRIGGERCUSTOMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F1EE0)
+#define RPG_GAMECORE_TRIGGERCUSTOMSTRING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC45970)
+#define RPG_GAMECORE_TRIGGERCUSTOMSTRING_GET_ISCLIENTONLY_OFFSET UNITYSDK_OFFSET(0x1DC45B90)
+#define RPG_GAMECORE_TRIGGERCUSTOMSTRING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC45980)
+#define RPG_GAMECORE_TRIGGERCUSTOMSTRING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC45820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerCustomString_TypeDefinitionIndex = 23515;
-
 	class TriggerCustomString : public ::RPG::GameCore::TaskConfig
 	{
 	public:
+		::RPG::GameCore::DynamicString* CustomString; // 0x18
 		// static const ::System::String* NORMAL_END_STORY_SIGNAL; // 0x0
 		// static const ::System::String* FORCE_END_STORY_SIGNAL; // 0x0
 		// static const ::System::String* EARLY_OPEN_ENDMASK; // 0x0
 		// static const ::System::String* PERFORMANCE_REPLAY_END; // 0x0
-		::RPG::GameCore::DynamicString* CustomString; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMSTRING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMSTRING_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_27FB5D031377ECC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCustomString*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerCustomString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCustomString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMSTRING_METHOD_3_27FB5D031377ECC0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMSTRING_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_84236F4B2910CEA0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCustomString* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerCustomString* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMSTRING_METHOD_3_84236F4B2910CEA0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerCustomString*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMSTRING_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean get_IsClientOnly()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMSTRING_GET_ISCLIENTONLY_OFFSET))(this);
 		}
+
 	};
 }

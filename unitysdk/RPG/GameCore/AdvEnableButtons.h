@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvEnableButtons; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_68985604AA4A6C88_OFFSET UNITYSDK_OFFSET(0x1CDC69F0)
-#define RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_8AE91ED941698DD1_OFFSET UNITYSDK_OFFSET(0x1CDC6A30)
-#define RPG_GAMECORE_ADVENABLEBUTTONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC6A20)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D39C3B0)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D39C3C0)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D39C380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnableButtons_TypeDefinitionIndex = 20302;
-
 	class AdvEnableButtons : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -21,20 +19,20 @@ namespace RPG::GameCore
 		::System::String* TriggerName; // 0x20
 		::Il2CppArray<::System::String*>* ButtonsByName; // 0x28
 		::System::Boolean IsEnable; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_68985604AA4A6C88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableButtons*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvEnableButtons* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableButtons*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_68985604AA4A6C88_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvEnableButtons*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8AE91ED941698DD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableButtons* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvEnableButtons* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableButtons*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_8AE91ED941698DD1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvEnableButtons*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

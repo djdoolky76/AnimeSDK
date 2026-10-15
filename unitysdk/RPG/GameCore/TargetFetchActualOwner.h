@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchActualOwner; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_1CC8438339E45518_OFFSET UNITYSDK_OFFSET(0x1D5A3970)
-#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_425B29F52379E0E7_OFFSET UNITYSDK_OFFSET(0x1D5A3870)
-#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_724CA4F1246B12A5_OFFSET UNITYSDK_OFFSET(0x1D5A3950)
-#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_ACB94AD031885676_OFFSET UNITYSDK_OFFSET(0x1D5A38F0)
-#define RPG_GAMECORE_TARGETFETCHACTUALOWNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A38E0)
+#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5AA80)
+#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB5AB10)
+#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB5AAF0)
+#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB5AA90)
+#define RPG_GAMECORE_TARGETFETCHACTUALOWNER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB5AA10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchActualOwner_TypeDefinitionIndex = 23691;
-
 	class TargetFetchActualOwner : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_425B29F52379E0E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchActualOwner*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchActualOwner* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchActualOwner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_425B29F52379E0E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchActualOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_ACB94AD031885676(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchActualOwner* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchActualOwner* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchActualOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_ACB94AD031885676_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchActualOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_724CA4F1246B12A5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActualOwner*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActualOwner* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActualOwner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_724CA4F1246B12A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActualOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1CC8438339E45518(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActualOwner* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchActualOwner* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActualOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_METHOD_3_1CC8438339E45518_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchActualOwner*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHACTUALOWNER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

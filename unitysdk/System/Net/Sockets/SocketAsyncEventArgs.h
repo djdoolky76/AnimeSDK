@@ -1,63 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ArraySegment_1.h"
-#include "unitysdk/System/EventArgs.h"
 #include "unitysdk/System/Net/Sockets/SocketAsyncOperation.h"
 #include "unitysdk/System/Net/Sockets/SocketError.h"
-
+#include "unitysdk/System/ArraySegment_1.h"
+#include "unitysdk/System/EventArgs.h"
+namespace System { class EventHandler; }
 namespace System { class Object; }
-namespace System { template <typename T> class EventHandler_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Net { class EndPoint; }
 namespace System::Net::Sockets { class Socket; }
+namespace System::Net::Sockets { class SocketAsyncEventArgs; }
 namespace System::Net::Sockets { class SocketAsyncResult; }
 
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ADD_COMPLETED_OFFSET UNITYSDK_OFFSET(0x1E9C2D80)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1E9C0970)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E9C2EB0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E9C2EA0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E9C2E90)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_ACCEPTSOCKET_OFFSET UNITYSDK_OFFSET(0x1E9C2CD0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_BUFFERLIST_OFFSET UNITYSDK_OFFSET(0x1E9C2CF0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1E9C2D10)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_SOCKETERROR_OFFSET UNITYSDK_OFFSET(0x1E9C2D40)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_USERTOKEN_OFFSET UNITYSDK_OFFSET(0x1E9C2D60)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1E9C2F20)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_REMOVE_COMPLETED_OFFSET UNITYSDK_OFFSET(0x1E9C2DE0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SETLASTOPERATION_OFFSET UNITYSDK_OFFSET(0x1E9BFED0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_ACCEPTSOCKET_OFFSET UNITYSDK_OFFSET(0x1E9C2CE0)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_BYTESTRANSFERRED_OFFSET UNITYSDK_OFFSET(0x1E9C2D00)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_LASTOPERATION_OFFSET UNITYSDK_OFFSET(0x1E9C2D20)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_SENDPACKETSSENDSIZE_OFFSET UNITYSDK_OFFSET(0x1E9C2D30)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_SOCKETERROR_OFFSET UNITYSDK_OFFSET(0x1E9C2D50)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_USERTOKEN_OFFSET UNITYSDK_OFFSET(0x1E9C2D70)
-#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C2E40)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ADD_COMPLETED_OFFSET UNITYSDK_OFFSET(0x1F08ACA0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_COMPLETE_OFFSET UNITYSDK_OFFSET(0x1F088730)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08ADA0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1F08AE10)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F08AE00)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F08ADF0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_ACCEPTSOCKET_OFFSET UNITYSDK_OFFSET(0x1F08ABF0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_BUFFERLIST_OFFSET UNITYSDK_OFFSET(0x1F08AC10)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1F08AC30)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_SOCKETERROR_OFFSET UNITYSDK_OFFSET(0x1F08AC60)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_GET_USERTOKEN_OFFSET UNITYSDK_OFFSET(0x1F08AC80)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F08AE80)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_REMOVE_COMPLETED_OFFSET UNITYSDK_OFFSET(0x1F08AD20)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SETLASTOPERATION_OFFSET UNITYSDK_OFFSET(0x1F087CE0)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_ACCEPTSOCKET_OFFSET UNITYSDK_OFFSET(0x1F08AC00)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_BYTESTRANSFERRED_OFFSET UNITYSDK_OFFSET(0x1F08AC20)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_LASTOPERATION_OFFSET UNITYSDK_OFFSET(0x1F08AC40)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_SENDPACKETSSENDSIZE_OFFSET UNITYSDK_OFFSET(0x1F08AC50)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_SOCKETERROR_OFFSET UNITYSDK_OFFSET(0x1F08AC70)
+#define SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_USERTOKEN_OFFSET UNITYSDK_OFFSET(0x1F08AC90)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketAsyncEventArgs_TypeDefinitionIndex = 2918;
-
 	class SocketAsyncEventArgs : public ::System::EventArgs
 	{
 	public:
-		::System::Net::Sockets::SocketAsyncResult* socket_async_result; // 0x10
+		::System::Net::Sockets::Socket* current_socket; // 0x10
 		::System::Net::EndPoint* remote_ep; // 0x18
-		::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>* m_BufferList; // 0x20
-		::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* Completed; // 0x28
-		::System::Object* _UserToken_k__BackingField; // 0x30
+		::System::Net::Sockets::SocketAsyncResult* socket_async_result; // 0x20
+		::System::Object* _UserToken_k__BackingField; // 0x28
+		::System::Collections::Generic::IList_1<::System::ArraySegment_1<::System::Byte>>* m_BufferList; // 0x30
 		::System::Net::Sockets::Socket* _AcceptSocket_k__BackingField; // 0x38
-		::System::Net::Sockets::Socket* current_socket; // 0x40
-		::System::Net::Sockets::SocketAsyncOperation _LastOperation_k__BackingField; // 0x48
-		::System::Int32 _Count_k__BackingField; // 0x4C
-		::System::Int32 _BytesTransferred_k__BackingField; // 0x50
-		::System::Int32 in_progress; // 0x54
-		::System::Int32 _SendPacketsSendSize_k__BackingField; // 0x58
-		::System::Boolean disposed; // 0x5C
-		::System::Net::Sockets::SocketError _SocketError_k__BackingField; // 0x60
-
+		::System::EventHandler* Completed; // 0x40
+		::System::Int32 _Count_k__BackingField; // 0x48
+		::System::Net::Sockets::SocketError _SocketError_k__BackingField; // 0x4C
+		::System::Net::Sockets::SocketAsyncOperation _LastOperation_k__BackingField; // 0x50
+		::System::Int32 _SendPacketsSendSize_k__BackingField; // 0x54
+		::System::Boolean disposed; // 0x58
+		::System::Byte _padding0[0x3];
+		::System::Int32 _BytesTransferred_k__BackingField; // 0x5C
+		::System::Int32 in_progress; // 0x60
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_CTOR_OFFSET))(this);
 		}
 
 		::System::Net::Sockets::Socket* get_AcceptSocket()
@@ -115,14 +113,14 @@ namespace System::Net::Sockets
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_SET_USERTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void add_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* a1)
+		::System::Void add_Completed(::System::EventHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ADD_COMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ADD_COMPLETED_OFFSET))(this, a1);
 		}
 
-		::System::Void remove_Completed(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* a1)
+		::System::Void remove_Completed(::System::EventHandler* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_REMOVE_COMPLETED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::EventHandler*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_REMOVE_COMPLETED_OFFSET))(this, a1);
 		}
 
 		::System::Void Finalize()
@@ -154,5 +152,6 @@ namespace System::Net::Sockets
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::SocketAsyncEventArgs*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETASYNCEVENTARGS_ONCOMPLETED_OFFSET))(this, a1);
 		}
+
 	};
 }

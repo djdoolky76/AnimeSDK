@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/HttpListenerRequestUriBuilder_EncodingType.h"
 #include "unitysdk/System/Net/HttpListenerRequestUriBuilder_ParsingResult.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -11,61 +11,61 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class Encoding; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDPERCENTENCODEDOCTETTORAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x1E990AF0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDSLASHTOASTERISKONLYPATH_OFFSET UNITYSDK_OFFSET(0x1E98F130)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDOCTETSPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x1E990C10)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDUNICODECODEPOINTVALUEPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x1E9907B0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGCOOKEDPATH_OFFSET UNITYSDK_OFFSET(0x1E98F260)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_1_OFFSET UNITYSDK_OFFSET(0x1E98FC50)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_OFFSET UNITYSDK_OFFSET(0x1E98F550)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1E98F180)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_EMPTYDECODEANDAPPENDRAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x1E990300)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETENCODING_OFFSET UNITYSDK_OFFSET(0x1E98FBE0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETOCTETSASSTRING_OFFSET UNITYSDK_OFFSET(0x1E991220)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETPATH_OFFSET UNITYSDK_OFFSET(0x1E98FA40)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETREQUESTURI_OFFSET UNITYSDK_OFFSET(0x1E98EAB0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1E98FA30)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_PARSERAWPATH_OFFSET UNITYSDK_OFFSET(0x1E990020)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E98EED0)
-#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E98F060)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDPERCENTENCODEDOCTETTORAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x1F059710)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_ADDSLASHTOASTERISKONLYPATH_OFFSET UNITYSDK_OFFSET(0x1F057D50)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDOCTETSPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x1F059830)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_APPENDUNICODECODEPOINTVALUEPERCENTENCODED_OFFSET UNITYSDK_OFFSET(0x1F0593D0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGCOOKEDPATH_OFFSET UNITYSDK_OFFSET(0x1F057E80)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_1_OFFSET UNITYSDK_OFFSET(0x1F058870)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILDREQUESTURIUSINGRAWPATH_OFFSET UNITYSDK_OFFSET(0x1F058170)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0x1F057DA0)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F057B20)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F057C80)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_EMPTYDECODEANDAPPENDRAWOCTETSLIST_OFFSET UNITYSDK_OFFSET(0x1F058F20)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETENCODING_OFFSET UNITYSDK_OFFSET(0x1F058800)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETOCTETSASSTRING_OFFSET UNITYSDK_OFFSET(0x1F059E40)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETPATH_OFFSET UNITYSDK_OFFSET(0x1F058660)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_GETREQUESTURI_OFFSET UNITYSDK_OFFSET(0x1F057700)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1F058650)
+#define SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_PARSERAWPATH_OFFSET UNITYSDK_OFFSET(0x1F058C40)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpListenerRequestUriBuilder_TypeDefinitionIndex = 2734;
-
 	class HttpListenerRequestUriBuilder : public ::System::Object
 	{
 	public:
+		::System::String* cookedUriPath; // 0x10
+		::System::Text::StringBuilder* requestUriString; // 0x18
+		::System::String* rawPath; // 0x20
+		::System::Uri* requestUri; // 0x28
+		::System::String* rawUri; // 0x30
+		::System::Collections::Generic::List_1<::System::Byte>* rawOctets; // 0x38
+		::System::String* cookedUriQuery; // 0x40
+		::System::String* cookedUriHost; // 0x48
+		::System::String* cookedUriScheme; // 0x50
 		static ::System::Text::Encoding** StaticGet_ansiEncoding()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x1BB80);
+			return (::System::Text::Encoding**)UnitySDK::FromName("System.Net", "HttpListenerRequestUriBuilder")->GetStaticField(0x25F10);
 		}
+
 		static ::System::Text::Encoding** StaticGet_utf8Encoding()
 		{
-			return (::System::Text::Encoding**)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x1BB88);
+			return (::System::Text::Encoding**)UnitySDK::FromName("System.Net", "HttpListenerRequestUriBuilder")->GetStaticField(0x25F18);
 		}
+
 		static ::System::Boolean* StaticGet_useCookedRequestUrl()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(HttpListenerRequestUriBuilder_TypeDefinitionIndex)->GetStaticField(0x98A0);
+			return (::System::Boolean*)UnitySDK::FromName("System.Net", "HttpListenerRequestUriBuilder")->GetStaticField(0x8310);
 		}
-		::System::String* cookedUriQuery; // 0x10
-		::System::String* cookedUriPath; // 0x18
-		::System::String* cookedUriScheme; // 0x20
-		::System::Uri* requestUri; // 0x28
-		::System::String* cookedUriHost; // 0x30
-		::System::Text::StringBuilder* requestUriString; // 0x38
-		::System::String* rawPath; // 0x40
-		::System::Collections::Generic::List_1<::System::Byte>* rawOctets; // 0x48
-		::System::String* rawUri; // 0x50
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Uri* GetRequestUri(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5)
@@ -142,5 +142,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERREQUESTURIBUILDER_LOGWARNING_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

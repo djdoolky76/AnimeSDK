@@ -1,17 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_DEVMODE_TypeDefinitionIndex = 47072;
-
 	struct alignas(8) BrowserWin32Helper_DEVMODE
 	{
-		// static const ::System::Int32 CCHDEVICENAME = 0x20; // 0x0
-		// static const ::System::Int32 CCHFORMNAME = 0x20; // 0x0
 		::System::String* dmDeviceName; // 0x10
 		::System::Int16 dmSpecVersion; // 0x18
 		::System::Int16 dmDriverVersion; // 0x1A
@@ -26,8 +20,10 @@ namespace MiHoYo::SDK
 		::System::Int16 dmYResolution; // 0x34
 		::System::Int16 dmTTOption; // 0x36
 		::System::Int16 dmCollate; // 0x38
+		::System::Byte _padding0[0x6];
 		::System::String* dmFormName; // 0x40
 		::System::Int16 dmLogPixels; // 0x48
+		::System::Byte _padding1[0x2];
 		::System::Int32 dmBitsPerPel; // 0x4C
 		::System::Int32 dmPelsWidth; // 0x50
 		::System::Int32 dmPelsHeight; // 0x54
@@ -41,5 +37,7 @@ namespace MiHoYo::SDK
 		::System::Int32 dmReserved2; // 0x74
 		::System::Int32 dmPanningWidth; // 0x78
 		::System::Int32 dmPanningHeight; // 0x7C
+		// static const ::System::Object CCHDEVICENAME; // 0x0
+		// static const ::System::Object CCHFORMNAME; // 0x0
 	};
 }

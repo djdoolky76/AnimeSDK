@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PumanHuntTriggerEscapeEvent; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_METHOD_3_153B5D77CDC1FF87_OFFSET UNITYSDK_OFFSET(0x1D377150)
-#define RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_METHOD_3_F98420EACE63A7EA_OFFSET UNITYSDK_OFFSET(0x1D377220)
-#define RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D377210)
+#define RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95D390)
+#define RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95D3A0)
+#define RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95D2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PumanHuntTriggerEscapeEvent_TypeDefinitionIndex = 19994;
-
 	class PumanHuntTriggerEscapeEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_153B5D77CDC1FF87(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PumanHuntTriggerEscapeEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PumanHuntTriggerEscapeEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PumanHuntTriggerEscapeEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_METHOD_3_153B5D77CDC1FF87_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PumanHuntTriggerEscapeEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F98420EACE63A7EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PumanHuntTriggerEscapeEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PumanHuntTriggerEscapeEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PumanHuntTriggerEscapeEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_METHOD_3_F98420EACE63A7EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PumanHuntTriggerEscapeEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUMANHUNTTRIGGERESCAPEEVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayer_PitchShifterParameterId_TypeDefinitionIndex = 38763;
-
 	enum class CriAtomExPlayer_PitchShifterParameterId : ::System::Int32
 	{
 		Pitch = 0,

@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EnablePerformanceMode; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_6B37B84D069D392E_OFFSET UNITYSDK_OFFSET(0x1D063A40)
-#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_73E85BCE26F406ED_OFFSET UNITYSDK_OFFSET(0x1D063A00)
-#define RPG_GAMECORE_ENABLEPERFORMANCEMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D063A30)
+#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D640250)
+#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D640260)
+#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D640220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnablePerformanceMode_TypeDefinitionIndex = 21334;
-
 	class EnablePerformanceMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Enable; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_73E85BCE26F406ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnablePerformanceMode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnablePerformanceMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnablePerformanceMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_73E85BCE26F406ED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnablePerformanceMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6B37B84D069D392E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnablePerformanceMode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnablePerformanceMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnablePerformanceMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_6B37B84D069D392E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnablePerformanceMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

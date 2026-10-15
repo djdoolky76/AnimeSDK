@@ -3,8 +3,6 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ModifierActionWrapper_TypeDefinitionIndex = 39251;
-
 	enum class HEU_ModifierActionWrapper : ::System::Int32
 	{
 		MULTIPARM_INSERT = 0,

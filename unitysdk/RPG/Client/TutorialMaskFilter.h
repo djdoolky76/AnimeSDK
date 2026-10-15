@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+namespace System { class Nullable; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_TUTORIALMASKFILTER_ADDFILTERAREA_OFFSET UNITYSDK_OFFSET(0xE2FDF40)
-#define RPG_CLIENT_TUTORIALMASKFILTER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE2FDE10)
-#define RPG_CLIENT_TUTORIALMASKFILTER_ENABLEDEBUGDRAW_OFFSET UNITYSDK_OFFSET(0xE301150)
-#define RPG_CLIENT_TUTORIALMASKFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xE300FC0)
-#define RPG_CLIENT_TUTORIALMASKFILTER_REMOVEFILTERAREA_OFFSET UNITYSDK_OFFSET(0xE3010C0)
-#define RPG_CLIENT_TUTORIALMASKFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0xE3011A0)
+#define RPG_CLIENT_TUTORIALMASKFILTER_ADDFILTERAREA_OFFSET UNITYSDK_OFFSET(0xE33CD30)
+#define RPG_CLIENT_TUTORIALMASKFILTER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE33CC00)
+#define RPG_CLIENT_TUTORIALMASKFILTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE33FF30)
+#define RPG_CLIENT_TUTORIALMASKFILTER_ENABLEDEBUGDRAW_OFFSET UNITYSDK_OFFSET(0xE33FEE0)
+#define RPG_CLIENT_TUTORIALMASKFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xE33FD50)
+#define RPG_CLIENT_TUTORIALMASKFILTER_REMOVEFILTERAREA_OFFSET UNITYSDK_OFFSET(0xE33FE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TutorialMaskFilter_TypeDefinitionIndex = 68998;
-
 	class TutorialMaskFilter : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Nullable_1<::UnityEngine::Rect>>* POFJJNJLMBA; // 0x18
+		::System::Collections::Generic::List_1<::System::Nullable*>* POFJJNJLMBA; // 0x18
 		::System::Boolean AJODECOABDD; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALMASKFILTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALMASKFILTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsRaycastLocationValid(::UnityEngine::Vector2 a1, ::UnityEngine::Camera* a2)
@@ -54,5 +50,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TUTORIALMASKFILTER_ENABLEDEBUGDRAW_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,30 +3,29 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CUSTOMRP_MATHEXT_DIV_OFFSET UNITYSDK_OFFSET(0x1C6B1A90)
-#define RPG_CUSTOMRP_MATHEXT_MAX_OFFSET UNITYSDK_OFFSET(0x1C6B1A50)
-#define RPG_CUSTOMRP_MATHEXT_SQRT_OFFSET UNITYSDK_OFFSET(0x1C6B1960)
+#define RPG_CUSTOMRP_MATHEXT_DIV_OFFSET UNITYSDK_OFFSET(0x1CC378B0)
+#define RPG_CUSTOMRP_MATHEXT_MAX_OFFSET UNITYSDK_OFFSET(0x1CC37870)
+#define RPG_CUSTOMRP_MATHEXT_SQRT_OFFSET UNITYSDK_OFFSET(0x1CC37780)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MathExt_TypeDefinitionIndex = 36946;
-
 	class MathExt : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Color Sqrt(::UnityEngine::Color& a1)
+		static ::UnityEngine::Color Sqrt(::UnityEngine::Color a1)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATHEXT_SQRT_OFFSET))(a1);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATHEXT_SQRT_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Color Max(::UnityEngine::Color& a1, ::UnityEngine::Color& a2)
+		static ::UnityEngine::Color Max(::UnityEngine::Color a1, ::UnityEngine::Color a2)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color&, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATHEXT_MAX_OFFSET))(a1, a2);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATHEXT_MAX_OFFSET))(a1, a2);
 		}
 
-		static ::UnityEngine::Color Div(::UnityEngine::Color a1, ::UnityEngine::Color& a2)
+		static ::UnityEngine::Color Div(::UnityEngine::Color a1, ::UnityEngine::Color a2)
 		{
-			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATHEXT_DIV_OFFSET))(a1, a2);
+			return ((::UnityEngine::Color(*)(::UnityEngine::Color, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATHEXT_DIV_OFFSET))(a1, a2);
 		}
+
 	};
 }

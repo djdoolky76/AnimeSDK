@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/BrowserNative_DialogType.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8BE50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8BF40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EF8BE20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8BDB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F654370)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6542D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F654460)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F654340)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_DisplayDialogFunc_TypeDefinitionIndex = 38082;
-
 	class BrowserNative_DisplayDialogFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DialogType a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::IntPtr a5)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE_DISPLAYDIALOGFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

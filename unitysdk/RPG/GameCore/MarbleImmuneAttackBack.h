@@ -2,35 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/MarbleTarget.h"
 #include "unitysdk/RPG/GameCore/MarbleTaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MarbleImmuneAttackBack; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_METHOD_3_D23DFF1608A02CB5_OFFSET UNITYSDK_OFFSET(0x1D234DC0)
-#define RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_METHOD_3_FE3B6A08AA2CF94D_OFFSET UNITYSDK_OFFSET(0x1D234E20)
-#define RPG_GAMECORE_MARBLEIMMUNEATTACKBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D234E10)
+#define RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D83F370)
+#define RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D83F380)
+#define RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D83F320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleImmuneAttackBack_TypeDefinitionIndex = 16682;
-
 	class MarbleImmuneAttackBack : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:
 		::RPG::GameCore::MarbleTarget TargetType; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEIMMUNEATTACKBACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D23DFF1608A02CB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleImmuneAttackBack*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleImmuneAttackBack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleImmuneAttackBack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_METHOD_3_D23DFF1608A02CB5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleImmuneAttackBack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FE3B6A08AA2CF94D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleImmuneAttackBack* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MarbleImmuneAttackBack* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleImmuneAttackBack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_METHOD_3_FE3B6A08AA2CF94D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MarbleImmuneAttackBack*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEIMMUNEATTACKBACK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

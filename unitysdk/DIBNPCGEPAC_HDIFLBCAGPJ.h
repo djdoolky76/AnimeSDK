@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DABGOCJPFBI;
+class DIBNPCGEPAC;
+class DIBNPCGEPAC_NECNAEDALDK;
+class OCOAGBCDNBC;
+
+#define DIBNPCGEPAC_HDIFLBCAGPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA3310)
+#define DIBNPCGEPAC_HDIFLBCAGPJ_ENTER_OFFSET UNITYSDK_OFFSET(0x1DDA9BE0)
+#define DIBNPCGEPAC_HDIFLBCAGPJ_EXIT_OFFSET UNITYSDK_OFFSET(0x1DDAA140)
+#define DIBNPCGEPAC_HDIFLBCAGPJ_TICK_OFFSET UNITYSDK_OFFSET(0x1DDA9BF0)
+
+	class DIBNPCGEPAC_HDIFLBCAGPJ : public ::System::Object
+	{
+	public:
+		::DABGOCJPFBI* NODDCAJHNGO; // 0x10
+		::DIBNPCGEPAC_NECNAEDALDK* HINLDHLJEOG; // 0x18
+		::System::Void _ctor(::OCOAGBCDNBC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OCOAGBCDNBC*))((::PBYTE)hIl2Cpp + DIBNPCGEPAC_HDIFLBCAGPJ_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void Enter(::DIBNPCGEPAC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DIBNPCGEPAC*))((::PBYTE)hIl2Cpp + DIBNPCGEPAC_HDIFLBCAGPJ_ENTER_OFFSET))(this, a1);
+		}
+
+		::System::Void Tick(::DIBNPCGEPAC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DIBNPCGEPAC*))((::PBYTE)hIl2Cpp + DIBNPCGEPAC_HDIFLBCAGPJ_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void Exit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DIBNPCGEPAC_HDIFLBCAGPJ_EXIT_OFFSET))(this);
+		}
+
+	};

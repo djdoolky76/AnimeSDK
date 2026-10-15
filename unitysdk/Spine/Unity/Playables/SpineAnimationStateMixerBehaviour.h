@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/FrameData.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/ScriptPlayable_1.h"
-
+#include "unitysdk/UnityEngine/Playables/FrameData.h"
+#include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace Spine { class AnimationState; }
 namespace Spine { class TrackEntry; }
 namespace Spine::Unity { class IAnimationStateComponent; }
@@ -14,45 +13,44 @@ namespace Spine::Unity { class SkeletonGraphic; }
 namespace Spine::Unity::Playables { class SpineAnimationStateBehaviour; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ADJUSTTRACKENTRYTIMESCALE_OFFSET UNITYSDK_OFFSET(0x1E62AED0)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_GETCUSTOMMIXDURATION_OFFSET UNITYSDK_OFFSET(0x1E62D3F0)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_GETROOTPLAYABLESPEED_OFFSET UNITYSDK_OFFSET(0x1E62D1B0)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_HANDLECLIPEND_OFFSET UNITYSDK_OFFSET(0x1E62AA90)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_HANDLEPAUSE_OFFSET UNITYSDK_OFFSET(0x1E62A7B0)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_HANDLERESUME_OFFSET UNITYSDK_OFFSET(0x1E62AD10)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1E62A780)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1E62ACF0)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1E62AA70)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_PREVIEWEDITMODEPOSE_OFFSET UNITYSDK_OFFSET(0x1E62C1D0)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1E62B070)
-#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E62D500)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ADJUSTTRACKENTRYTIMESCALE_OFFSET UNITYSDK_OFFSET(0x1ECF3020)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF5610)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_GETCUSTOMMIXDURATION_OFFSET UNITYSDK_OFFSET(0x1ECF5500)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_GETROOTPLAYABLESPEED_OFFSET UNITYSDK_OFFSET(0x1ECF52C0)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_HANDLECLIPEND_OFFSET UNITYSDK_OFFSET(0x1ECF2BE0)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_HANDLEPAUSE_OFFSET UNITYSDK_OFFSET(0x1ECF2900)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_HANDLERESUME_OFFSET UNITYSDK_OFFSET(0x1ECF2E60)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x1ECF28D0)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1ECF2E40)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x1ECF2BC0)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_PREVIEWEDITMODEPOSE_OFFSET UNITYSDK_OFFSET(0x1ECF4310)
+#define SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1ECF31C0)
 
 namespace Spine::Unity::Playables
 {
-	inline static constexpr unsigned int SpineAnimationStateMixerBehaviour_TypeDefinitionIndex = 44771;
-
 	class SpineAnimationStateMixerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::Spine::Unity::IAnimationStateComponent* animationStateComponent; // 0x10
-		::Spine::AnimationState* dummyAnimationState; // 0x18
-		::Il2CppArray<::System::Single>* lastInputWeights; // 0x20
+		::Il2CppArray<::System::Single>* lastInputWeights; // 0x10
+		::Spine::TrackEntry* pausedTrackEntry; // 0x18
+		::Il2CppArray<::UnityEngine::Playables::ScriptPlayable_1<::Spine::Unity::Playables::SpineAnimationStateBehaviour*>>* startingClips; // 0x20
 		::Spine::TrackEntry* timelineStartedTrackEntry; // 0x28
-		::Spine::TrackEntry* pausedTrackEntry; // 0x30
-		::Il2CppArray<::UnityEngine::Playables::ScriptPlayable_1<::Spine::Unity::Playables::SpineAnimationStateBehaviour*>>* startingClips; // 0x38
-		::System::Single previousTimeScale; // 0x40
-		::System::Int32 trackIndex; // 0x44
-		::System::Boolean isPaused; // 0x48
-		::System::Boolean lastAnyClipPlaying; // 0x49
+		::Spine::Unity::IAnimationStateComponent* animationStateComponent; // 0x30
+		::Spine::AnimationState* dummyAnimationState; // 0x38
+		::System::Boolean isPaused; // 0x40
+		::System::Boolean lastAnyClipPlaying; // 0x41
+		::System::Byte _padding0[0x2];
+		::System::Single endMixOutDuration; // 0x44
+		::System::Boolean endAtClipEnd; // 0x48
+		::System::Boolean pauseWithDirector; // 0x49
 		::System::Boolean unscaledTime; // 0x4A
-		::System::Boolean pauseWithDirector; // 0x4B
-		::System::Boolean endAtClipEnd; // 0x4C
-		::System::Single endMixOutDuration; // 0x50
-		::System::Single rootPlayableSpeed; // 0x54
-
+		::System::Byte _padding1[0x1];
+		::System::Int32 trackIndex; // 0x4C
+		::System::Single rootPlayableSpeed; // 0x50
+		::System::Single previousTimeScale; // 0x54
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -109,5 +107,6 @@ namespace Spine::Unity::Playables
 		{
 			return ((::System::Single(*)(::PVOID, ::Spine::Unity::Playables::SpineAnimationStateBehaviour*))((::PBYTE)hIl2Cpp + SPINE_UNITY_PLAYABLES_SPINEANIMATIONSTATEMIXERBEHAVIOUR_GETCUSTOMMIXDURATION_OFFSET))(this, a1);
 		}
+
 	};
 }

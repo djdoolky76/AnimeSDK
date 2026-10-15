@@ -3,16 +3,14 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierEventFilterMask_TypeDefinitionIndex = 10490;
-
 	enum class ModifierEventFilterMask : ::System::UInt16
 	{
-		None = 0x0,
-		UseSkillOneMore = 0x1,
-		InAttackPhase = 0x2,
-		SilenceSkill = 0x4,
-		BlockPropertyModify = 0x8,
-		ElationInsertAbility = 0x10,
-		HPShareMortallyWonded = 0x20,
+		None = 0,
+		UseSkillOneMore = 1,
+		InAttackPhase = 2,
+		SilenceSkill = 4,
+		BlockPropertyModify = 8,
+		ElationInsertAbility = 16,
+		HPShareMortallyWonded = 32,
 	};
 }

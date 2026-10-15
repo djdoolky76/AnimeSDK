@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_PerformanceInfo_TypeDefinitionIndex = 38680;
-
 	struct alignas(4) CriAtomEx_PerformanceInfo
 	{
 		::System::UInt32 serverProcessCount; // 0x10

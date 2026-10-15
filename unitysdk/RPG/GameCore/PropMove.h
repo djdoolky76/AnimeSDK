@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropMove; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPMOVE_METHOD_3_19CE7629D310C13D_OFFSET UNITYSDK_OFFSET(0x1D369E20)
-#define RPG_GAMECORE_PROPMOVE_METHOD_3_80A321F6FBA57B0A_OFFSET UNITYSDK_OFFSET(0x1D369EA0)
-#define RPG_GAMECORE_PROPMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D369E70)
+#define RPG_GAMECORE_PROPMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94F3B0)
+#define RPG_GAMECORE_PROPMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94F3E0)
+#define RPG_GAMECORE_PROPMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94F360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropMove_TypeDefinitionIndex = 21717;
-
 	class PropMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -25,22 +23,23 @@ namespace RPG::GameCore
 		::System::Single Duration; // 0x30
 		::RPG::MVector3 DeltaPosition; // 0x34
 		::RPG::MVector3 DeltaRotation; // 0x40
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x50
 		::System::Boolean IsLocalMove; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPMOVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_19CE7629D310C13D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropMove*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPMOVE_METHOD_3_19CE7629D310C13D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPMOVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_80A321F6FBA57B0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropMove* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPMOVE_METHOD_3_80A321F6FBA57B0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPMOVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

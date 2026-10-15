@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative_ZFBSettings_TypeDefinitionIndex = 38099;
-
 	struct alignas(8) BrowserNative_ZFBSettings
 	{
 		::System::Int32 bgR; // 0x10

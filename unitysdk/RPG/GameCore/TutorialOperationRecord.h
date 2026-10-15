@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class RecordOperation; }
+namespace RPG::GameCore { class TutorialOperationRecord; }
 
-#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_METHOD_2_E4D968888D43703E_OFFSET UNITYSDK_OFFSET(0x1D618EF0)
-#define RPG_GAMECORE_TUTORIALOPERATIONRECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D618FE0)
+#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6D240)
+#define RPG_GAMECORE_TUTORIALOPERATIONRECORD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6D150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialOperationRecord_TypeDefinitionIndex = 17991;
-
 	class TutorialOperationRecord : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::RecordOperation*>* OpList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALOPERATIONRECORD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALOPERATIONRECORD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E4D968888D43703E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialOperationRecord*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialOperationRecord* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialOperationRecord*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALOPERATIONRECORD_METHOD_2_E4D968888D43703E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialOperationRecord*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALOPERATIONRECORD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,45 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/Security/Claims/ClaimsIdentity.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Security::Claims { class Claim; }
+namespace System::Security::Claims { class ClaimsIdentity; }
+namespace System::Security::Principal { class GenericIdentity; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_ADDNAMECLAIM_OFFSET UNITYSDK_OFFSET(0x1BBE17E0)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CLONE_OFFSET UNITYSDK_OFFSET(0x1BBE18E0)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1BBE19B0)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_GET_CLAIMS_OFFSET UNITYSDK_OFFSET(0x1BBE1940)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BBE19A0)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1BBE19C0)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBE1880)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBE18B0)
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE1680)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_ADDNAMECLAIM_OFFSET UNITYSDK_OFFSET(0x1C0ED940)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CLONE_OFFSET UNITYSDK_OFFSET(0x1C0EDA40)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0ED9E0)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C0EDA10)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0ED7E0)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1C0EDB10)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_GET_CLAIMS_OFFSET UNITYSDK_OFFSET(0x1C0EDAA0)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1C0EDB00)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1C0EDB20)
 
 namespace System::Security::Principal
 {
-	inline static constexpr unsigned int GenericIdentity_TypeDefinitionIndex = 983;
-
 	class GenericIdentity : public ::System::Security::Claims::ClaimsIdentity
 	{
 	public:
 		::System::String* m_name; // 0x78
 		::System::String* m_type; // 0x80
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY__CTOR_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CTOR_1_OFFSET))(this);
 		}
 
 		::System::Void _ctor_2(::System::Security::Principal::GenericIdentity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Principal::GenericIdentity*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Principal::GenericIdentity*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Security::Claims::ClaimsIdentity* Clone()
@@ -71,5 +69,6 @@ namespace System::Security::Principal
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_PRINCIPAL_GENERICIDENTITY_ADDNAMECLAIM_OFFSET))(this);
 		}
+
 	};
 }

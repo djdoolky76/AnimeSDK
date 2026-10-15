@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8FD480)
-#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8FD470)
-#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8FD5E0)
+#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE952FA0)
+#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE953100)
+#define RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE952F90)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXAnimatorCrossFadeClip_TypeDefinitionIndex = 49116;
-
 	class VFXAnimatorCrossFadeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* StateName; // 0x18
 		::System::Single FadeDuration; // 0x20
 		::System::Int32 Layer; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +33,6 @@ namespace RPGTools::Timeline::VFX
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXANIMATORCROSSFADECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

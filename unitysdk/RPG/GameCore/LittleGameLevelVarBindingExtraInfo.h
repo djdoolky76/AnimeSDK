@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameLevelVarBindingExtraInfo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_METHOD_2_86986A9C1D00BC17_OFFSET UNITYSDK_OFFSET(0x1D203AA0)
-#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_METHOD_2_EBFD4D6438EAFF83_OFFSET UNITYSDK_OFFSET(0x1D2039B0)
-#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D203B00)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E41A0)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7E4140)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E4050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVarBindingExtraInfo_TypeDefinitionIndex = 18671;
-
 	class LittleGameLevelVarBindingExtraInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_EBFD4D6438EAFF83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_METHOD_2_EBFD4D6438EAFF83_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_86986A9C1D00BC17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_METHOD_2_86986A9C1D00BC17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameLevelVarBindingExtraInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARBINDINGEXTRAINFO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchUnitType_TypeDefinitionIndex = 39598;
-
 	enum class TouchUnitType : ::System::Int32
 	{
 		Percent = 0,

@@ -2,22 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { template <typename T1, typename T2, typename T3, typename T4> class Tuple_4; }
-namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
-namespace System { template <typename T1, typename T2> class Tuple_2; }
-
-#define SYSTEM_TUPLE_COMBINEHASHCODES_1_OFFSET UNITYSDK_OFFSET(0x1BC70600)
-#define SYSTEM_TUPLE_COMBINEHASHCODES_2_OFFSET UNITYSDK_OFFSET(0x1BC70620)
-#define SYSTEM_TUPLE_COMBINEHASHCODES_3_OFFSET UNITYSDK_OFFSET(0x1BC70650)
-#define SYSTEM_TUPLE_COMBINEHASHCODES_4_OFFSET UNITYSDK_OFFSET(0x1BC70680)
-#define SYSTEM_TUPLE_COMBINEHASHCODES_5_OFFSET UNITYSDK_OFFSET(0x1BC706C0)
-#define SYSTEM_TUPLE_COMBINEHASHCODES_6_OFFSET UNITYSDK_OFFSET(0x1BC70710)
-#define SYSTEM_TUPLE_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x1BC705F0)
+#define SYSTEM_TUPLE_COMBINEHASHCODES_1_OFFSET UNITYSDK_OFFSET(0x1C17C550)
+#define SYSTEM_TUPLE_COMBINEHASHCODES_2_OFFSET UNITYSDK_OFFSET(0x1C17C570)
+#define SYSTEM_TUPLE_COMBINEHASHCODES_3_OFFSET UNITYSDK_OFFSET(0x1C17C5A0)
+#define SYSTEM_TUPLE_COMBINEHASHCODES_4_OFFSET UNITYSDK_OFFSET(0x1C17C5D0)
+#define SYSTEM_TUPLE_COMBINEHASHCODES_5_OFFSET UNITYSDK_OFFSET(0x1C17C610)
+#define SYSTEM_TUPLE_COMBINEHASHCODES_6_OFFSET UNITYSDK_OFFSET(0x1C17C660)
+#define SYSTEM_TUPLE_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x1C17C540)
 
 namespace System
 {
-	inline static constexpr unsigned int Tuple_TypeDefinitionIndex = 142;
-
 	class Tuple : public ::System::Object
 	{
 	public:
@@ -55,5 +49,6 @@ namespace System
 		{
 			return ((::System::Int32(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TUPLE_COMBINEHASHCODES_6_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
+
 	};
 }

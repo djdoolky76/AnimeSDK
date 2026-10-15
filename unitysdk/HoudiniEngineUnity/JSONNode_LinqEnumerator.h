@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/JSONNode_Enumerator.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class JSONNode; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B4AAA90)
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B4AAAB0)
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B4AA8C0)
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B4AA9C0)
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B4AAB00)
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B4AABD0)
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B4AA920)
-#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AA7F0)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AC820)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B9ACAC0)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B9ACAE0)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9AC8F0)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1B9AC9F0)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1B9ACB30)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B9ACC00)
+#define HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1B9AC950)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSONNode_LinqEnumerator_TypeDefinitionIndex = 39376;
-
 	class JSONNode_LinqEnumerator : public ::System::Object
 	{
 	public:
-		::HoudiniEngineUnity::JSONNode_Enumerator m_Enumerator; // 0x10
-		::HoudiniEngineUnity::JSONNode* m_Node; // 0x58
-
+		::HoudiniEngineUnity::JSONNode* m_Node; // 0x10
+		::HoudiniEngineUnity::JSONNode_Enumerator m_Enumerator; // 0x18
 		::System::Void _ctor(::HoudiniEngineUnity::JSONNode* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::JSONNode*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::HoudiniEngineUnity::JSONNode*> get_Current()
+		::System::Collections::Generic::KeyValuePair* get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::HoudiniEngineUnity::JSONNode*>(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Object* System_Collections_IEnumerator_get_Current()
@@ -53,9 +50,9 @@ namespace HoudiniEngineUnity
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::HoudiniEngineUnity::JSONNode*>>* GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::HoudiniEngineUnity::JSONNode*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -67,5 +64,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_JSONNODE_LINQENUMERATOR_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
+
 	};
 }

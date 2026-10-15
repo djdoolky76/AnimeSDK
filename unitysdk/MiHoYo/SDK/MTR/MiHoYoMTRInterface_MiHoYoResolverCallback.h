@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB21A610)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB21A670)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xB21A600)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xB21A590)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFC1C10)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC1BA0)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFC1C70)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFC1A30)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface_MiHoYoResolverCallback_TypeDefinitionIndex = 47139;
-
 	class MiHoYoMTRInterface_MiHoYoResolverCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK::MTR
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE_MIHOYORESOLVERCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

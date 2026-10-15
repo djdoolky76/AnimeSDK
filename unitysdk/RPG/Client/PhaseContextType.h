@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhaseContextType_TypeDefinitionIndex = 61207;
-
 	enum class PhaseContextType : ::System::Int32
 	{
 		Empty = 0,

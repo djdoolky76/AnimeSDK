@@ -1,19 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/DictionaryEntry.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int DictionaryEnumerator_2_TypeDefinitionIndex = 6579;
-
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class DictionaryEnumerator_2 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _inner; // 0x0
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* _inner; // 0x0
 	};
 }

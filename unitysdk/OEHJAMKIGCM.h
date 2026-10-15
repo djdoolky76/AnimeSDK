@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class BMDKIBJJAPP;
+namespace RPG::GameCore { class TaskContext; }
+
+#define OEHJAMKIGCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2DF90)
+#define OEHJAMKIGCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE2DFC0)
+
+	class OEHJAMKIGCM
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::BMDKIBJJAPP* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::BMDKIBJJAPP*))((::PBYTE)hIl2Cpp + OEHJAMKIGCM_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEHJAMKIGCM_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

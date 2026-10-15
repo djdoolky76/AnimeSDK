@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MonsterData; }
 namespace RPG::GameCore { class ActivityStarFightStageConfigRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GETMONSTERDATA_OFFSET UNITYSDK_OFFSET(0xE0E7580)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xE0E7900)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xE0E7820)
-#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_QUESTLIST_OFFSET UNITYSDK_OFFSET(0xE0E77D0)
-#define RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE0E6920)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE1274A0)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GETMONSTERDATA_OFFSET UNITYSDK_OFFSET(0xE128180)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xE128500)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISUNLOCK_OFFSET UNITYSDK_OFFSET(0xE128420)
+#define RPG_CLIENT_STARFIGHTLEVELDATA_GET_QUESTLIST_OFFSET UNITYSDK_OFFSET(0xE1283D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StarFightLevelData_TypeDefinitionIndex = 67977;
-
 	class StarFightLevelData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ActivityStarFightStageConfigRow* _LevelRow; // 0x10
-
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::MonsterData*>* GetMonsterData()
@@ -45,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STARFIGHTLEVELDATA_GET_ISFINISH_OFFSET))(this);
 		}
+
 	};
 }

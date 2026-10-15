@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionVisualStateRefCntReason_TypeDefinitionIndex = 62266;
-
 	enum class RegionVisualStateRefCntReason : ::System::Int32
 	{
 		OpenDoor = 0,

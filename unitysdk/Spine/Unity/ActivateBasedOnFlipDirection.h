@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace Spine::Unity { class ISkeletonComponent; }
 namespace Spine::Unity { class SkeletonGraphic; }
 namespace Spine::Unity { class SkeletonRenderer; }
@@ -9,17 +8,15 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class HingeJoint2D; }
 namespace UnityEngine { class Transform; }
 
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_COMPENSATEMOVEMENTAFTERFLIPX_OFFSET UNITYSDK_OFFSET(0x1E62FA50)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1E62F6F0)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_HANDLEFLIP_OFFSET UNITYSDK_OFFSET(0x1E62F850)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_RESETJOINTPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1E62F8F0)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_START_OFFSET UNITYSDK_OFFSET(0x1E62F600)
-#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E62FBA0)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_COMPENSATEMOVEMENTAFTERFLIPX_OFFSET UNITYSDK_OFFSET(0x1ECF7B70)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF7CC0)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0x1ECF7810)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_HANDLEFLIP_OFFSET UNITYSDK_OFFSET(0x1ECF7970)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_RESETJOINTPOSITIONS_OFFSET UNITYSDK_OFFSET(0x1ECF7A10)
+#define SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_START_OFFSET UNITYSDK_OFFSET(0x1ECF7720)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int ActivateBasedOnFlipDirection_TypeDefinitionIndex = 43864;
-
 	class ActivateBasedOnFlipDirection : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -31,10 +28,9 @@ namespace Spine::Unity
 		::Il2CppArray<::UnityEngine::HingeJoint2D*>* jointsFlippedX; // 0x40
 		::Spine::Unity::ISkeletonComponent* skeletonComponent; // 0x48
 		::System::Boolean wasFlippedXBefore; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -61,5 +57,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + SPINE_UNITY_ACTIVATEBASEDONFLIPDIRECTION_COMPENSATEMOVEMENTAFTERFLIPX_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int EDebugOCFlag_TypeDefinitionIndex = 36837;
-
 	enum class EDebugOCFlag : ::System::Int32
 	{
 		None = 0,

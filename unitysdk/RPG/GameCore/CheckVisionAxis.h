@@ -2,37 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ConsiderationAxisConfig.h"
 #include "unitysdk/RPG/GameCore/EntityType.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CheckVisionAxis; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHECKVISIONAXIS_METHOD_3_3FBF01CEC2D999E0_OFFSET UNITYSDK_OFFSET(0x1CFA2A50)
-#define RPG_GAMECORE_CHECKVISIONAXIS_METHOD_3_C72160262CE66467_OFFSET UNITYSDK_OFFSET(0x1CFA2A90)
-#define RPG_GAMECORE_CHECKVISIONAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA2A80)
+#define RPG_GAMECORE_CHECKVISIONAXIS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57D6A0)
+#define RPG_GAMECORE_CHECKVISIONAXIS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57D6B0)
+#define RPG_GAMECORE_CHECKVISIONAXIS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57D670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckVisionAxis_TypeDefinitionIndex = 15343;
-
 	class CheckVisionAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:
 		::RPG::GameCore::EntityType TargetType; // 0x10
 		::System::Single VisionDistance; // 0x14
 		::System::Single VisionAngle; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKVISIONAXIS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKVISIONAXIS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3FBF01CEC2D999E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckVisionAxis*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CheckVisionAxis* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckVisionAxis*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKVISIONAXIS_METHOD_3_3FBF01CEC2D999E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CheckVisionAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKVISIONAXIS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C72160262CE66467(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckVisionAxis* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CheckVisionAxis* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckVisionAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKVISIONAXIS_METHOD_3_C72160262CE66467_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CheckVisionAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKVISIONAXIS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

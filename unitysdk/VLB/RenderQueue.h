@@ -3,8 +3,6 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int RenderQueue_TypeDefinitionIndex = 49418;
-
 	enum class RenderQueue : ::System::Int32
 	{
 		Custom = 0,

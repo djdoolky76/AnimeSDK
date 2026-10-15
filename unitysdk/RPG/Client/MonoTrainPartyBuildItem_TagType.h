@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItem_TagType_TypeDefinitionIndex = 68840;
-
 	enum class MonoTrainPartyBuildItem_TagType : ::System::Int32
 	{
 		None = 0,

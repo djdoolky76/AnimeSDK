@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/Reflection/MemberTypes.h"
-
-namespace System { class String; }
-namespace System { class Type; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Reflection { class CustomAttributeData; }
+namespace System::Reflection { class MemberInfo; }
 namespace System::Reflection { class Module; }
 
-#define SYSTEM_REFLECTION_MEMBERINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BD97920)
-#define SYSTEM_REFLECTION_MEMBERINFO_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x1BD977A0)
-#define SYSTEM_REFLECTION_MEMBERINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BD96100)
-#define SYSTEM_REFLECTION_MEMBERINFO_GET_METADATATOKEN_OFFSET UNITYSDK_OFFSET(0x1BD977F0)
-#define SYSTEM_REFLECTION_MEMBERINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x1BD97800)
-#define SYSTEM_REFLECTION_MEMBERINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BD8FED0)
-#define SYSTEM_REFLECTION_MEMBERINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1BD97910)
-#define SYSTEM_REFLECTION_MEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD960D0)
+#define SYSTEM_REFLECTION_MEMBERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A1D60)
+#define SYSTEM_REFLECTION_MEMBERINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C2A3620)
+#define SYSTEM_REFLECTION_MEMBERINFO_GETCUSTOMATTRIBUTESDATA_OFFSET UNITYSDK_OFFSET(0x1C2A34A0)
+#define SYSTEM_REFLECTION_MEMBERINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C2A1D90)
+#define SYSTEM_REFLECTION_MEMBERINFO_GET_METADATATOKEN_OFFSET UNITYSDK_OFFSET(0x1C2A34F0)
+#define SYSTEM_REFLECTION_MEMBERINFO_GET_MODULE_OFFSET UNITYSDK_OFFSET(0x1C2A3500)
+#define SYSTEM_REFLECTION_MEMBERINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C29BB60)
+#define SYSTEM_REFLECTION_MEMBERINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C2A3610)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MemberInfo_TypeDefinitionIndex = 573;
-
 	class MemberInfo : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData()
@@ -64,5 +60,6 @@ namespace System::Reflection
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MEMBERINFO_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

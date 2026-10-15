@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLoadType_TypeDefinitionIndex = 10469;
-
 	enum class PerformanceLoadType : ::System::Int32
 	{
 		ByScreenTransfer = 0,

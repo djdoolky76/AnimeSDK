@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
+namespace RPG { class ReferencePool_RuntimeTypeHandleComparer; }
 
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BF1BEB0)
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BF1BEC0)
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GET_GET_OFFSET UNITYSDK_OFFSET(0x1BF1BC60)
-#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF1BED0)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C428520)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C428500)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C428510)
+#define RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GET_GET_OFFSET UNITYSDK_OFFSET(0x1C4282B0)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ReferencePool_RuntimeTypeHandleComparer_TypeDefinitionIndex = 5620;
-
 	class ReferencePool_RuntimeTypeHandleComparer : public ::System::Object
 	{
 	public:
 		static ::RPG::ReferencePool_RuntimeTypeHandleComparer** StaticGet__instance()
 		{
-			return (::RPG::ReferencePool_RuntimeTypeHandleComparer**)Il2CppClass::FromTypeDefinitionIndex(ReferencePool_RuntimeTypeHandleComparer_TypeDefinitionIndex)->GetStaticField(0x2F0);
+			return (::RPG::ReferencePool_RuntimeTypeHandleComparer**)UnitySDK::FromName("RPG", "RuntimeTypeHandleComparer")->GetStaticField(0x2F0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::RuntimeTypeHandle a1, ::System::RuntimeTypeHandle a2)
@@ -39,5 +38,6 @@ namespace RPG
 		{
 			return ((::RPG::ReferencePool_RuntimeTypeHandleComparer*(*)())((::PBYTE)hIl2Cpp + RPG_REFERENCEPOOL_RUNTIMETYPEHANDLECOMPARER_GET_GET_OFFSET))();
 		}
+
 	};
 }

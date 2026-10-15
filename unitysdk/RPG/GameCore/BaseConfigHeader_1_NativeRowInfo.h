@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseConfigHeader_1_NativeRowInfo_TypeDefinitionIndex = 10817;
-
-	template <typename TKey>
-	struct BaseConfigHeader_1_NativeRowInfo
+	template <typename T>
+	struct alignas(4) BaseConfigHeader_1_NativeRowInfo
 	{
 		::System::Int32 Item1; // 0x0
 		::System::Int32 Item2; // 0x0

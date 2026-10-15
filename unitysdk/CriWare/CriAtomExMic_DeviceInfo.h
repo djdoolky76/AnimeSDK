@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExMic_DeviceInfo_TypeDefinitionIndex = 38745;
-
 	struct alignas(8) CriAtomExMic_DeviceInfo
 	{
 		::System::String* deviceId; // 0x10

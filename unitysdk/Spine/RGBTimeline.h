@@ -3,33 +3,29 @@
 #include "unitysdk/Spine/CurveTimeline.h"
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/MixDirection.h"
-
 namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_RGBTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1E5E61E0)
-#define SPINE_RGBTIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1E5E6140)
-#define SPINE_RGBTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1E5E6150)
-#define SPINE_RGBTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5E6160)
-#define SPINE_RGBTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E5FF0)
+#define SPINE_RGBTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECAE380)
+#define SPINE_RGBTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAE190)
+#define SPINE_RGBTIMELINE_GET_FRAMEENTRIES_OFFSET UNITYSDK_OFFSET(0x1ECAE2E0)
+#define SPINE_RGBTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1ECAE2F0)
+#define SPINE_RGBTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECAE300)
 
 namespace Spine
 {
-	inline static constexpr unsigned int RGBTimeline_TypeDefinitionIndex = 38317;
-
 	class RGBTimeline : public ::Spine::CurveTimeline
 	{
 	public:
-		// static const ::System::Int32 ENTRIES = 0x4; // 0x0
-		// static const ::System::Int32 R = 0x1; // 0x0
-		// static const ::System::Int32 G = 0x2; // 0x0
-		// static const ::System::Int32 B = 0x3; // 0x0
 		::System::Int32 slotIndex; // 0x28
-
+		// static const ::System::Object ENTRIES; // 0x0
+		// static const ::System::Object R; // 0x0
+		// static const ::System::Object G; // 0x0
+		// static const ::System::Object B; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_RGBTIMELINE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SPINE_RGBTIMELINE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Int32 get_FrameEntries()
@@ -51,5 +47,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_RGBTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

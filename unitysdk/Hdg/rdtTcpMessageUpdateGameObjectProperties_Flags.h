@@ -3,8 +3,6 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageUpdateGameObjectProperties_Flags_TypeDefinitionIndex = 47450;
-
 	enum class rdtTcpMessageUpdateGameObjectProperties_Flags : ::System::Int32
 	{
 		UpdateEnabled = 1,

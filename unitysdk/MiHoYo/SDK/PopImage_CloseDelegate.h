@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class PopImageModel; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAA0C70)
-#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAA0CA0)
-#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA9FF80)
-#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA0B80)
+#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFAB0F0)
+#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFAB000)
+#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFAB120)
+#define MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFAA400)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopImage_CloseDelegate_TypeDefinitionIndex = 8213;
-
 	class PopImage_CloseDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::PopImageModel* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_POPIMAGE_CLOSEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

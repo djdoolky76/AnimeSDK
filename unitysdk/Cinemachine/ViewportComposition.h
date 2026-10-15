@@ -1,31 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-#define CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_46D5C4F0EA172C6A_OFFSET UNITYSDK_OFFSET(0x156790)
-#define CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_C21A7AC6282FB0D0_OFFSET UNITYSDK_OFFSET(0x156740)
+#define CINEMACHINE_VIEWPORTCOMPOSITION_FJCOLNKJLBO_OFFSET UNITYSDK_OFFSET(0xF0CC0)
+#define CINEMACHINE_VIEWPORTCOMPOSITION_PGCHGHNMIPH_OFFSET UNITYSDK_OFFSET(0xF0D10)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ViewportComposition_TypeDefinitionIndex = 50061;
-
 	struct alignas(4) ViewportComposition
 	{
 		::System::Single X; // 0x10
 		::System::Single Y; // 0x14
-
-		/*
-		::UnityEngine::Vector2 Method_2_C21A7AC6282FB0D0()
+		::UnityEngine::Vector2 FJCOLNKJLBO()
 		{
-			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_C21A7AC6282FB0D0_OFFSET))(this);
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_VIEWPORTCOMPOSITION_FJCOLNKJLBO_OFFSET))(this);
 		}
-		*/
 
-		/*
-		::System::Void Method_2_46D5C4F0EA172C6A(::UnityEngine::Vector2 a1)
+		::System::Void PGCHGHNMIPH(::UnityEngine::Vector2 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_VIEWPORTCOMPOSITION_METHOD_2_46D5C4F0EA172C6A_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + CINEMACHINE_VIEWPORTCOMPOSITION_PGCHGHNMIPH_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

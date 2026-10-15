@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/AuthenticationSchemes.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Net { class HttpConnection; }
 namespace System::Net { class HttpListener; }
@@ -10,36 +9,33 @@ namespace System::Net { class HttpListenerRequest; }
 namespace System::Net { class HttpListenerResponse; }
 namespace System::Security::Principal { class IPrincipal; }
 
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_CONNECTION_OFFSET UNITYSDK_OFFSET(0x1E98D490)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1E98D470)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_ERRORSTATUS_OFFSET UNITYSDK_OFFSET(0x1E98D450)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_HAVEERROR_OFFSET UNITYSDK_OFFSET(0x1E9865D0)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1E98D4A0)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_RESPONSE_OFFSET UNITYSDK_OFFSET(0x1E98D4B0)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_PARSEAUTHENTICATION_OFFSET UNITYSDK_OFFSET(0x1E98CFB0)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_PARSEBASICAUTHENTICATION_OFFSET UNITYSDK_OFFSET(0x1E98D4C0)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_SET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1E98D480)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT_SET_ERRORSTATUS_OFFSET UNITYSDK_OFFSET(0x1E98D460)
-#define SYSTEM_NET_HTTPLISTENERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E984F30)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F04DA90)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_CONNECTION_OFFSET UNITYSDK_OFFSET(0x1F056030)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1F056010)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_ERRORSTATUS_OFFSET UNITYSDK_OFFSET(0x1F055FF0)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_HAVEERROR_OFFSET UNITYSDK_OFFSET(0x1F04F100)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1F056040)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_GET_RESPONSE_OFFSET UNITYSDK_OFFSET(0x1F056050)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_PARSEAUTHENTICATION_OFFSET UNITYSDK_OFFSET(0x1F055B50)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_PARSEBASICAUTHENTICATION_OFFSET UNITYSDK_OFFSET(0x1F056060)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_SET_ERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1F056020)
+#define SYSTEM_NET_HTTPLISTENERCONTEXT_SET_ERRORSTATUS_OFFSET UNITYSDK_OFFSET(0x1F056000)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpListenerContext_TypeDefinitionIndex = 2851;
-
 	class HttpListenerContext : public ::System::Object
 	{
 	public:
-		::System::Security::Principal::IPrincipal* user; // 0x10
+		::System::Net::HttpConnection* cnc; // 0x10
 		::System::String* error; // 0x18
-		::System::Net::HttpConnection* cnc; // 0x20
+		::System::Security::Principal::IPrincipal* user; // 0x20
 		::System::Net::HttpListenerRequest* request; // 0x28
-		::System::Net::HttpListenerResponse* response; // 0x30
-		::System::Net::HttpListener* Listener; // 0x38
+		::System::Net::HttpListener* Listener; // 0x30
+		::System::Net::HttpListenerResponse* response; // 0x38
 		::System::Int32 err_status; // 0x40
-
 		::System::Void _ctor(::System::Net::HttpConnection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::HttpConnection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERCONTEXT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::HttpConnection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERCONTEXT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_ErrorStatus()
@@ -91,5 +87,6 @@ namespace System::Net
 		{
 			return ((::System::Security::Principal::IPrincipal*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPLISTENERCONTEXT_PARSEBASICAUTHENTICATION_OFFSET))(this, a1);
 		}
+
 	};
 }

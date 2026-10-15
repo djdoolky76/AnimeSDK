@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class StaticListView; }
 namespace RPG::Client { class StaticListViewItem; }
 namespace RPG::Client::PixAir { class PixAirEquipInfoViewModel; }
@@ -9,30 +8,27 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDAF7800)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDAF7E20)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDAF74E0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDAF73A0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__ONNEWTAGITEM_OFFSET UNITYSDK_OFFSET(0xDAF7BC0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__REFRESHDISPLAY_OFFSET UNITYSDK_OFFSET(0xDAF7570)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__UPDATETAGS_OFFSET UNITYSDK_OFFSET(0xDAF7A00)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB40760)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB40140)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB3FE20)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB3FCE0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__ONNEWTAGITEM_OFFSET UNITYSDK_OFFSET(0xDB40500)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__REFRESHDISPLAY_OFFSET UNITYSDK_OFFSET(0xDB3FEB0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__UPDATETAGS_OFFSET UNITYSDK_OFFSET(0xDB40340)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipInfoControl_TypeDefinitionIndex = 78763;
-
 	class PixAirEquipInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Text* _TextName; // 0x38
-		::UnityEngine::UI::Text* _TextSkillDescription; // 0x40
-		::UnityEngine::UI::Text* _TextCoolDown; // 0x48
-		::RPG::Client::StaticListView* _TagListView; // 0x50
-		::UnityEngine::UI::Button* _CloseBtn; // 0x58
-
+		::UnityEngine::UI::Text* _TextName; // 0x40
+		::UnityEngine::UI::Text* _TextSkillDescription; // 0x48
+		::UnityEngine::UI::Text* _TextCoolDown; // 0x50
+		::RPG::Client::StaticListView* _TagListView; // 0x58
+		::UnityEngine::UI::Button* _CloseBtn; // 0x60
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -64,5 +60,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::RPG::Client::PixAir::PixAirEquipInfoViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPINFOCONTROL_GET__VIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

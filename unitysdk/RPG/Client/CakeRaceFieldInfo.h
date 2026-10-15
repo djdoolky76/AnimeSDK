@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CakeRaceFieldData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_CAKERACEFIELDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC9C1300)
-#define RPG_CLIENT_CAKERACEFIELDINFO_GETFIELD_OFFSET UNITYSDK_OFFSET(0xC9A3C70)
-#define RPG_CLIENT_CAKERACEFIELDINFO_GET_FIELDMAP_OFFSET UNITYSDK_OFFSET(0xC9C1570)
-#define RPG_CLIENT_CAKERACEFIELDINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC9C1090)
-#define RPG_CLIENT_CAKERACEFIELDINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xC9C13A0)
-#define RPG_CLIENT_CAKERACEFIELDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC9C15B0)
+#define RPG_CLIENT_CAKERACEFIELDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC90EEF0)
+#define RPG_CLIENT_CAKERACEFIELDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC90EC40)
+#define RPG_CLIENT_CAKERACEFIELDINFO_GETFIELD_OFFSET UNITYSDK_OFFSET(0xC8F6920)
+#define RPG_CLIENT_CAKERACEFIELDINFO_GET_FIELDMAP_OFFSET UNITYSDK_OFFSET(0xC90EEB0)
+#define RPG_CLIENT_CAKERACEFIELDINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC90E9D0)
+#define RPG_CLIENT_CAKERACEFIELDINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xC90ECE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceFieldInfo_TypeDefinitionIndex = 63088;
-
 	class CakeRaceFieldInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::CakeRaceFieldData*>* _FieldMap; // 0x10
 		::System::Boolean _IsInited; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -53,5 +49,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::RPG::Client::CakeRaceFieldData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKERACEFIELDINFO_GET_FIELDMAP_OFFSET))(this);
 		}
+
 	};
 }

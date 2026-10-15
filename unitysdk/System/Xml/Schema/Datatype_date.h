@@ -3,24 +3,23 @@
 #include "unitysdk/System/Xml/Schema/Datatype_dateTimeBase.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7EE380)
-#define SYSTEM_XML_SCHEMA_DATATYPE_DATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E58D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAE5B0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_DATE_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB7060)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_date_TypeDefinitionIndex = 2111;
-
 	class Datatype_date : public ::System::Xml::Schema::Datatype_dateTimeBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATE_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::XmlTypeCode get_TypeCode()
 		{
 			return ((::System::Xml::Schema::XmlTypeCode(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_DATE_GET_TYPECODE_OFFSET))(this);
 		}
+
 	};
 }

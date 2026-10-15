@@ -3,29 +3,25 @@
 #include "unitysdk/Cinemachine/SignalSourceAsset.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_AXISDURATION_OFFSET UNITYSDK_OFFSET(0x16459D50)
-#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_AXISVALUE_OFFSET UNITYSDK_OFFSET(0x16459EC0)
-#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_GETSIGNAL_OFFSET UNITYSDK_OFFSET(0x16459DE0)
-#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_GET_SIGNALDURATION_OFFSET UNITYSDK_OFFSET(0x16459BB0)
-#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x16459F10)
+#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_AXISDURATION_OFFSET UNITYSDK_OFFSET(0x16680A80)
+#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_AXISVALUE_OFFSET UNITYSDK_OFFSET(0x16680BF0)
+#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_CTOR_OFFSET UNITYSDK_OFFSET(0x16680C40)
+#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_GETSIGNAL_OFFSET UNITYSDK_OFFSET(0x16680B10)
+#define CINEMACHINE_CINEMACHINEFIXEDSIGNAL_GET_SIGNALDURATION_OFFSET UNITYSDK_OFFSET(0x166808E0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFixedSignal_TypeDefinitionIndex = 38567;
-
 	class CinemachineFixedSignal : public ::Cinemachine::SignalSourceAsset
 	{
 	public:
 		::UnityEngine::AnimationCurve* m_XCurve; // 0x18
 		::UnityEngine::AnimationCurve* m_YCurve; // 0x20
 		::UnityEngine::AnimationCurve* m_ZCurve; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFIXEDSIGNAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFIXEDSIGNAL_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_SignalDuration()
@@ -38,14 +34,15 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::AnimationCurve*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFIXEDSIGNAL_AXISDURATION_OFFSET))(this, a1);
 		}
 
-		::System::Void GetSignal(::System::Single a1, ::UnityEngine::Vector3& a2, ::UnityEngine::Quaternion& a3)
+		::System::Void GetSignal(::System::Single a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3&, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFIXEDSIGNAL_GETSIGNAL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFIXEDSIGNAL_GETSIGNAL_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Single AxisValue(::UnityEngine::AnimationCurve* a1, ::System::Single a2)
 		{
 			return ((::System::Single(*)(::PVOID, ::UnityEngine::AnimationCurve*, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEFIXEDSIGNAL_AXISVALUE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

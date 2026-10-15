@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int COpenVRContext_TypeDefinitionIndex = 38029;
-
-	struct alignas(8) COpenVRContext
+	struct alignas(4) COpenVRContext
 	{
 		::System::IntPtr m_pVRSystem; // 0x10
 		::System::IntPtr m_pVRChaperone; // 0x18

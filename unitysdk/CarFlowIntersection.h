@@ -2,41 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 class CarFlowIntersectionRuleGroup;
 
-#define CARFLOWINTERSECTION_INIT_OFFSET UNITYSDK_OFFSET(0xDDA45C0)
-#define CARFLOWINTERSECTION_START_OFFSET UNITYSDK_OFFSET(0xDDA4B00)
-#define CARFLOWINTERSECTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xDDA4B40)
-#define CARFLOWINTERSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xDDA4B80)
+#define CARFLOWINTERSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE36F0)
+#define CARFLOWINTERSECTION_INIT_OFFSET UNITYSDK_OFFSET(0xDCE3130)
+#define CARFLOWINTERSECTION_START_OFFSET UNITYSDK_OFFSET(0xDCE3670)
+#define CARFLOWINTERSECTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCE36B0)
 
-inline static constexpr unsigned int CarFlowIntersection_TypeDefinitionIndex = 47528;
-
-class CarFlowIntersection : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::UnityEngine::Vector3 Origin; // 0x18
-	::Il2CppArray<::CarFlowIntersectionRuleGroup*>* Rules; // 0x28
-	::System::Int32 ActiveGroupIndex; // 0x30
-	::System::Single RuleTimeCount; // 0x34
-
-	::System::Void _ctor()
+	class CarFlowIntersection : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION__CTOR_OFFSET))(this);
-	}
+	public:
+		::UnityEngine::Vector3 Origin; // 0x18
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::CarFlowIntersectionRuleGroup*>* Rules; // 0x28
+		::System::Int32 ActiveGroupIndex; // 0x30
+		::System::Single RuleTimeCount; // 0x34
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Init()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION_INIT_OFFSET))(this);
-	}
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION_INIT_OFFSET))(this);
+		}
 
-	::System::Void Start()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION_START_OFFSET))(this);
-	}
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION_START_OFFSET))(this);
+		}
 
-	::System::Void Update()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION_UPDATE_OFFSET))(this);
-	}
-};
+		::System::Void Update()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CARFLOWINTERSECTION_UPDATE_OFFSET))(this);
+		}
+
+	};

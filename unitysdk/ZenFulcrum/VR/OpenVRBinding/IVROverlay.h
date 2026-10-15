@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVROverlay__ClearOverlayTexture; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVROverlay__CloseMessageOverlay; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVROverlay__ComputeOverlayIntersection; }
@@ -86,8 +84,6 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVROverlay__ShowOverlay; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay_TypeDefinitionIndex = 37761;
-
 	struct alignas(8) IVROverlay
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVROverlay__FindOverlay* FindOverlay; // 0x10

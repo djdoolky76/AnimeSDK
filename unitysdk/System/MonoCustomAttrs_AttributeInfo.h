@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class AttributeUsageAttribute; }
 
-#define SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO_GET_INHERITANCELEVEL_OFFSET UNITYSDK_OFFSET(0x1BD73EC0)
-#define SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO_GET_USAGE_OFFSET UNITYSDK_OFFSET(0x1BD73EB0)
-#define SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD72D30)
+#define SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27EAD0)
+#define SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO_GET_INHERITANCELEVEL_OFFSET UNITYSDK_OFFSET(0x1C27FC60)
+#define SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO_GET_USAGE_OFFSET UNITYSDK_OFFSET(0x1C27FC50)
 
 namespace System
 {
-	inline static constexpr unsigned int MonoCustomAttrs_AttributeInfo_TypeDefinitionIndex = 407;
-
 	class MonoCustomAttrs_AttributeInfo : public ::System::Object
 	{
 	public:
 		::System::AttributeUsageAttribute* _usage; // 0x10
 		::System::Int32 _inheritanceLevel; // 0x18
-
 		::System::Void _ctor(::System::AttributeUsageAttribute* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::AttributeUsageAttribute*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::AttributeUsageAttribute*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::AttributeUsageAttribute* get_Usage()
@@ -32,5 +28,6 @@ namespace System
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MONOCUSTOMATTRS_ATTRIBUTEINFO_GET_INHERITANCELEVEL_OFFSET))(this);
 		}
+
 	};
 }

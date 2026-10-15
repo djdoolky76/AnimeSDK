@@ -3,8 +3,6 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSmallWindowMeshUI_MeshUIOutlineType_TypeDefinitionIndex = 48358;
-
 	enum class CRPCameraSmallWindowMeshUI_MeshUIOutlineType : ::System::Int32
 	{
 		Hexagon = 0,

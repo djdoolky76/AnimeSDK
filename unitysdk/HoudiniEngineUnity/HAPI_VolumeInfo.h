@@ -3,13 +3,10 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_StorageType.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_Transform.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_VolumeType.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_VolumeInfo_TypeDefinitionIndex = 39214;
-
-	struct alignas(8) HAPI_VolumeInfo
+	struct alignas(4) HAPI_VolumeInfo
 	{
 		::System::Int32 nameSH; // 0x10
 		::HoudiniEngineUnity::HAPI_VolumeType type; // 0x14
@@ -22,8 +19,10 @@ namespace HoudiniEngineUnity
 		::System::Int32 tupleSize; // 0x30
 		::HoudiniEngineUnity::HAPI_StorageType storage; // 0x34
 		::System::Int32 tileSize; // 0x38
+		::System::Byte _padding0[0x4];
 		::HoudiniEngineUnity::HAPI_Transform transform; // 0x40
 		::System::Boolean hasTaper; // 0x68
+		::System::Byte _padding1[0x3];
 		::System::Single xTaper; // 0x6C
 		::System::Single yTaper; // 0x70
 	};

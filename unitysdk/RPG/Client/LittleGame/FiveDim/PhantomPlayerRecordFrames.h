@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_52A902145F5BE51F_2.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/IMFCNAEANKD.h"
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameFloatData; }
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameQuaternionData; }
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen; }
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames_System_Boolean_AutoGen; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_METHOD_1_5A8144964C1A6642_OFFSET UNITYSDK_OFFSET(0x1C497580)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES__CTOR_OFFSET UNITYSDK_OFFSET(0x1C497960)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA06EC0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_NOFLBFPJFKN_OFFSET UNITYSDK_OFFSET(0x1CA06AE0)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerRecordFrames_TypeDefinitionIndex = 41944;
-
 	class PhantomPlayerRecordFrames : public ::System::Object
 	{
 	public:
@@ -45,15 +42,15 @@ namespace RPG::Client::LittleGame::FiveDim
 		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsUseProp; // 0xC8
 		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsDashBS; // 0xD0
 		::RPG::Client::LittleGame::FiveDim::PhantomPlayerRecordFrames_System_Boolean_AutoGen* IsDashing; // 0xD8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_CTOR_OFFSET))(this);
 		}
 
-		::Struct_2_52A902145F5BE51F_2 Method_1_5A8144964C1A6642(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::IMFCNAEANKD NOFLBFPJFKN(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::Struct_2_52A902145F5BE51F_2(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_METHOD_1_5A8144964C1A6642_OFFSET))(this, a1, a2, a3);
+			return ((::IMFCNAEANKD(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_NOFLBFPJFKN_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

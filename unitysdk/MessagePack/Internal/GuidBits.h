@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Guid.h"
-#include "unitysdk/System/ValueType.h"
+#include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
+#include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 
-#define MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGHIGH_OFFSET UNITYSDK_OFFSET(0x1B6A8E80)
-#define MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGLOW_OFFSET UNITYSDK_OFFSET(0x1B6A8F40)
-#define MESSAGEPACK_INTERNAL_GUIDBITS_PARSE_OFFSET UNITYSDK_OFFSET(0x1B6A9160)
-#define MESSAGEPACK_INTERNAL_GUIDBITS_SWITCHPARSE_OFFSET UNITYSDK_OFFSET(0x1B6A92C0)
-#define MESSAGEPACK_INTERNAL_GUIDBITS_WRITE_OFFSET UNITYSDK_OFFSET(0x3B591B0)
-#define MESSAGEPACK_INTERNAL_GUIDBITS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B59180)
-#define MESSAGEPACK_INTERNAL_GUIDBITS__CTOR_OFFSET UNITYSDK_OFFSET(0x3B59170)
+#define MESSAGEPACK_INTERNAL_GUIDBITS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C0DBA0)
+#define MESSAGEPACK_INTERNAL_GUIDBITS_CTOR_OFFSET UNITYSDK_OFFSET(0x3C0DB90)
+#define MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGHIGH_OFFSET UNITYSDK_OFFSET(0x1BBA7600)
+#define MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGLOW_OFFSET UNITYSDK_OFFSET(0x1BBA76C0)
+#define MESSAGEPACK_INTERNAL_GUIDBITS_PARSE_OFFSET UNITYSDK_OFFSET(0x1BBA78E0)
+#define MESSAGEPACK_INTERNAL_GUIDBITS_SWITCHPARSE_OFFSET UNITYSDK_OFFSET(0x1BBA7A40)
+#define MESSAGEPACK_INTERNAL_GUIDBITS_WRITE_OFFSET UNITYSDK_OFFSET(0x3C0DBD0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int GuidBits_TypeDefinitionIndex = 7240;
-
-	struct alignas(1) GuidBits
+	struct alignas(4) GuidBits
 	{
 		::System::Guid Value; // 0x10
 		::System::Byte Byte0; // 0x10
@@ -34,50 +33,40 @@ namespace MessagePack::Internal
 		::System::Byte Byte13; // 0x1D
 		::System::Byte Byte14; // 0x1E
 		::System::Byte Byte15; // 0x1F
-
-		::System::Void _ctor(::System::Guid& a1)
+		::System::Void _ctor(::System::Guid a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid&))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_CTOR_OFFSET))(this, a1);
 		}
 
-		/*
-		::System::Void _ctor_1(::System::ReadOnlySpan_1<::System::Byte> a1)
+		::System::Void _ctor_1(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_CTOR_1_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
-		static ::System::ReadOnlySpan_1<::System::Byte> GetByteToHexStringHigh()
+		static ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> GetByteToHexStringHigh()
 		{
-			return ((::System::ReadOnlySpan_1<::System::Byte>(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGHIGH_OFFSET))();
+			return ((::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGHIGH_OFFSET))();
 		}
-		*/
 
-		/*
-		static ::System::ReadOnlySpan_1<::System::Byte> GetByteToHexStringLow()
+		static ::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> GetByteToHexStringLow()
 		{
-			return ((::System::ReadOnlySpan_1<::System::Byte>(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGLOW_OFFSET))();
+			return ((::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_GETBYTETOHEXSTRINGLOW_OFFSET))();
 		}
-		*/
 
-		/*
-		static ::System::Byte Parse(::System::ReadOnlySpan_1<::System::Byte> a1, ::System::Int32 a2)
+		static ::System::Byte Parse(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte> a1, ::System::Int32 a2)
 		{
-			return ((::System::Byte(*)(::System::ReadOnlySpan_1<::System::Byte>, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_PARSE_OFFSET))(a1, a2);
+			return ((::System::Byte(*)(::System::ReadOnlySpan_1_075EFA8CFBE0DE9A<::System::Byte>, ::System::Int32))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_PARSE_OFFSET))(a1, a2);
 		}
-		*/
 
 		static ::System::Byte SwitchParse(::System::Byte a1)
 		{
 			return ((::System::Byte(*)(::System::Byte))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_SWITCHPARSE_OFFSET))(a1);
 		}
 
-		/*
-		::System::Void Write(::System::Span_1<::System::Byte> a1)
+		::System::Void Write(::System::Span_1_0C0D59FF8BC7380B<::System::Byte> a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Span_1<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_WRITE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Span_1_0C0D59FF8BC7380B<::System::Byte>))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_GUIDBITS_WRITE_OFFSET))(this, a1);
 		}
-		*/
+
 	};
 }

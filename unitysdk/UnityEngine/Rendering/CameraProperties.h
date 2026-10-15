@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-#include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Rendering/CameraProperties__layerCullDistances_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/Rendering/CameraProperties__m_CameraCullPlanes_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/Rendering/CameraProperties__m_ShadowCullPlanes_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/Rendering/CoreCameraValues.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Plane.h"
 namespace System { class Object; }
 
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BC1020)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BC0FE0)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETCAMERACULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x3BC0FC0)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BC10A0)
-#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETSHADOWCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x3BC0FA0)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C76CB0)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C76C70)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETCAMERACULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x3C76C50)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C76D30)
+#define UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETSHADOWCULLINGPLANE_OFFSET UNITYSDK_OFFSET(0x3C76C30)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraProperties_TypeDefinitionIndex = 4737;
-
 	struct alignas(4) CameraProperties
 	{
 		::UnityEngine::Rect screenRect; // 0x10
@@ -56,25 +53,22 @@ namespace UnityEngine::Rendering
 		::System::Int32 projectionIsOblique; // 0x3E8
 		::System::Int32 isImplicitProjectionMatrix; // 0x3EC
 		::System::Single stableFieldOfView; // 0x3F0
-
-		/*
 		::UnityEngine::Plane GetShadowCullingPlane(::System::Int32 a1)
 		{
 			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETSHADOWCULLINGPLANE_OFFSET))(this, a1);
 		}
-		*/
 
-		/*
 		::UnityEngine::Plane GetCameraCullingPlane(::System::Int32 a1)
 		{
 			return ((::UnityEngine::Plane(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETCAMERACULLINGPLANE_OFFSET))(this, a1);
 		}
-		*/
 
+		/*
 		::System::Boolean Equals(::UnityEngine::Rendering::CameraProperties a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Rendering::CameraProperties))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -85,5 +79,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAPROPERTIES_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/ItemType.h"
 #include "unitysdk/RPG/Client/ParkourGame/MonoParkourItem.h"
-
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xDA294B0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xDA29430)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0xDA294C0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA75690)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xDA75680)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xDA75600)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourItemObstacle_TypeDefinitionIndex = 74044;
-
 	class MonoParkourItemObstacle : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
 	public:
@@ -22,10 +19,9 @@ namespace RPG::Client::ParkourGame
 		::System::Single DecelDuration; // 0xB0
 		::System::Single DelSpeedValue; // 0xB4
 		::System::String* HitAnimState; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnTriggered(::RPG::Client::ParkourGame::MonoParkourCharacter* a1)
@@ -37,5 +33,6 @@ namespace RPG::Client::ParkourGame
 		{
 			return ((::RPG::Client::ParkourGame::ItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLE_GET_ITEMTYPE_OFFSET))(this);
 		}
+
 	};
 }

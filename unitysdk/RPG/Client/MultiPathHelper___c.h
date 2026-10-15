@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DFCB42601400F441.h"
+#include "unitysdk/HNOHHOEPFHC.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_96BF5776DE2FE31B;
+class PEDNMPONAAO;
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MULTIPATHHELPER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD8DCCD0)
-#define RPG_CLIENT_MULTIPATHHELPER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD8DCD00)
-#define RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xD8DCD10)
+#define RPG_CLIENT_MULTIPATHHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8DCD30)
+#define RPG_CLIENT_MULTIPATHHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD8DCD60)
+#define RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xD8DCD70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathHelper___c_TypeDefinitionIndex = 62731;
-
 	class MultiPathHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Class_1_96BF5776DE2FE31B*, ::Enum_3_DFCB42601400F441>** StaticGet___9__13_0()
+		static ::System::Func_2<::PEDNMPONAAO*, ::HNOHHOEPFHC>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::Class_1_96BF5776DE2FE31B*, ::Enum_3_DFCB42601400F441>**)Il2CppClass::FromTypeDefinitionIndex(MultiPathHelper___c_TypeDefinitionIndex)->GetStaticField(0x20B50);
+			return (::System::Func_2<::PEDNMPONAAO*, ::HNOHHOEPFHC>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DD90);
 		}
-		static ::RPG::Client::MultiPathHelper___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::MultiPathHelper___c**)Il2CppClass::FromTypeDefinitionIndex(MultiPathHelper___c_TypeDefinitionIndex)->GetStaticField(0x20B58);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DD98);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHHELPER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHHELPER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHHELPER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHHELPER___C_CTOR_OFFSET))(this);
 		}
 
-		::Enum_3_DFCB42601400F441 _GetMultiPathAvatarTypesByRole_b__13_0(::Class_1_96BF5776DE2FE31B* a1)
+		::HNOHHOEPFHC _GetMultiPathAvatarTypesByRole_b__13_0(::PEDNMPONAAO* a1)
 		{
-			return ((::Enum_3_DFCB42601400F441(*)(::PVOID, ::Class_1_96BF5776DE2FE31B*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET))(this, a1);
+			return ((::HNOHHOEPFHC(*)(::PVOID, ::PEDNMPONAAO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET))(this, a1);
 		}
+
 	};
 }

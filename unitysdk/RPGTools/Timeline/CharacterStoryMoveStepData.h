@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESTEPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE833030)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESTEPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D0E00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStoryMoveStepData_TypeDefinitionIndex = 48472;
-
 	class CharacterStoryMoveStepData : public ::System::Object
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x10
 		::System::String* TargetAreaName; // 0x18
 		::System::String* TargetAnchorName; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESTEPDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTORYMOVESTEPDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

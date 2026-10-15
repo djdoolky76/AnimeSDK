@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int GameState_TypeDefinitionIndex = 41362;
-
 	enum class GameState : ::System::Int32
 	{
 		Awake = 0,

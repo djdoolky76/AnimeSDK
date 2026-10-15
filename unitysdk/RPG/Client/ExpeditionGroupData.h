@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class ExpeditionGroupRow; }
 
-#define RPG_CLIENT_EXPEDITIONGROUPDATA_GETINPROGRESSHARVESTCOUNT_OFFSET UNITYSDK_OFFSET(0xCF060D0)
-#define RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCF06090)
+#define RPG_CLIENT_EXPEDITIONGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCE54E00)
+#define RPG_CLIENT_EXPEDITIONGROUPDATA_GETINPROGRESSHARVESTCOUNT_OFFSET UNITYSDK_OFFSET(0xCE54E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionGroupData_TypeDefinitionIndex = 64024;
-
 	class ExpeditionGroupData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ExpeditionGroupRow* Config; // 0x10
 		::System::UInt32 GroupID; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONGROUPDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONGROUPDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetInProgressHarvestCount()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPEDITIONGROUPDATA_GETINPROGRESSHARVESTCOUNT_OFFSET))(this);
 		}
+
 	};
 }

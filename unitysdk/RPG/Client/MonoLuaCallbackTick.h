@@ -1,33 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace RPG::Client { class MonoLuaCallbackTick; }
+namespace System { class Action; }
 namespace System { class Object; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOLUACALLBACKTICK_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD8473A0)
-#define RPG_CLIENT_MONOLUACALLBACKTICK_GET_OFFSET UNITYSDK_OFFSET(0xD847180)
-#define RPG_CLIENT_MONOLUACALLBACKTICK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD8472B0)
-#define RPG_CLIENT_MONOLUACALLBACKTICK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD847310)
-#define RPG_CLIENT_MONOLUACALLBACKTICK_SETLUACALLBACK_OFFSET UNITYSDK_OFFSET(0xD847250)
-#define RPG_CLIENT_MONOLUACALLBACKTICK_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD847360)
-#define RPG_CLIENT_MONOLUACALLBACKTICK__CTOR_OFFSET UNITYSDK_OFFSET(0xD8473F0)
+#define RPG_CLIENT_MONOLUACALLBACKTICK_CTOR_OFFSET UNITYSDK_OFFSET(0xD847E10)
+#define RPG_CLIENT_MONOLUACALLBACKTICK_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD847DC0)
+#define RPG_CLIENT_MONOLUACALLBACKTICK_GET_OFFSET UNITYSDK_OFFSET(0xD847BA0)
+#define RPG_CLIENT_MONOLUACALLBACKTICK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD847CD0)
+#define RPG_CLIENT_MONOLUACALLBACKTICK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD847D30)
+#define RPG_CLIENT_MONOLUACALLBACKTICK_SETLUACALLBACK_OFFSET UNITYSDK_OFFSET(0xD847C70)
+#define RPG_CLIENT_MONOLUACALLBACKTICK_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD847D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLuaCallbackTick_TypeDefinitionIndex = 68926;
-
 	class MonoLuaCallbackTick : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::System::Action_1<::System::Object*>* _LuaCallback; // 0x18
+		::System::Action* _LuaCallback; // 0x18
 		::XLua::LuaTable* _LuaCallbackParam; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::MonoLuaCallbackTick* Get(::UnityEngine::GameObject* a1)
@@ -35,9 +32,9 @@ namespace RPG::Client
 			return ((::RPG::Client::MonoLuaCallbackTick*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_GET_OFFSET))(a1);
 		}
 
-		::System::Void SetLuaCallback(::System::Action_1<::System::Object*>* a1, ::XLua::LuaTable* a2)
+		::System::Void SetLuaCallback(::System::Action* a1, ::XLua::LuaTable* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_SETLUACALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::XLua::LuaTable*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_SETLUACALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LateUpdate()
@@ -59,5 +56,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLUACALLBACKTICK_DESPAWNED_OFFSET))(this);
 		}
+
 	};
 }

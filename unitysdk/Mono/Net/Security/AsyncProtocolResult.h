@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1E8FA890)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_USERRESULT_OFFSET UNITYSDK_OFFSET(0x1E8FA880)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E8FA860)
-#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FA680)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFC3980)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC37A0)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1EFC39B0)
+#define MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_USERRESULT_OFFSET UNITYSDK_OFFSET(0x1EFC39A0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int AsyncProtocolResult_TypeDefinitionIndex = 2425;
-
 	class AsyncProtocolResult : public ::System::Object
 	{
 	public:
 		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField; // 0x10
 		::System::Int32 _UserResult_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Int32 get_UserResult()
@@ -38,5 +34,6 @@ namespace Mono::Net::Security
 		{
 			return ((::System::Runtime::ExceptionServices::ExceptionDispatchInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_ASYNCPROTOCOLRESULT_GET_ERROR_OFFSET))(this);
 		}
+
 	};
 }

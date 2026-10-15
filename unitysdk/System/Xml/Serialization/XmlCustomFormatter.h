@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Xml::Serialization { class TypeData; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMENUM_OFFSET UNITYSDK_OFFSET(0x1E82EC20)
-#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMXMLNAME_OFFSET UNITYSDK_OFFSET(0x1E83CAD0)
-#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMXMLNCNAME_OFFSET UNITYSDK_OFFSET(0x1E83CB80)
-#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1E83D780)
-#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_TOXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1E83CC30)
-#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E83E0B0)
+#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF06D50)
+#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMENUM_OFFSET UNITYSDK_OFFSET(0x1EEF78A0)
+#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMXMLNAME_OFFSET UNITYSDK_OFFSET(0x1EF05770)
+#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMXMLNCNAME_OFFSET UNITYSDK_OFFSET(0x1EF05820)
+#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1EF06420)
+#define SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_TOXMLSTRING_OFFSET UNITYSDK_OFFSET(0x1EF058D0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlCustomFormatter_TypeDefinitionIndex = 2006;
-
 	class XmlCustomFormatter : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_allTimeFormats()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(XmlCustomFormatter_TypeDefinitionIndex)->GetStaticField(0x1D5B0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Xml.Serialization", "XmlCustomFormatter")->GetStaticField(0x26180);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* FromEnum(::System::Int64 a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::Int64>* a3, ::System::String* a4)
@@ -53,5 +51,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Object*(*)(::System::Xml::Serialization::TypeData*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLCUSTOMFORMATTER_FROMXMLSTRING_OFFSET))(a1, a2);
 		}
+
 	};
 }

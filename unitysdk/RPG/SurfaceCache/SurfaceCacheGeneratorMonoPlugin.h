@@ -1,33 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_681685FAADA1782B_AxisAlignedDirection.h"
-#include "unitysdk/Class_1_681685FAADA1782B_DebugStage.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
+#include "unitysdk/KFIKLIHGCCO_AxisAlignedDirection.h"
+#include "unitysdk/KFIKLIHGCCO_DebugStage.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
-
-class Class_1_681685FAADA1782B_Class_1_A30ACB971D373FD8;
-class Class_1_CEF07D2949A09D64_SurfaceCard;
-class Class_3_8B451D0E4BEA4416;
+class KFIKLIHGCCO_CIBLKPAIHOP;
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_CLEARCARDS_OFFSET UNITYSDK_OFFSET(0xE7EF190)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_CLEARSURFELS_OFFSET UNITYSDK_OFFSET(0xE7EF0E0)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_EXPORTTEXTURES_OFFSET UNITYSDK_OFFSET(0xE7EF220)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GENERATESURFACECARDS_OFFSET UNITYSDK_OFFSET(0xE7EF050)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GENERATESURFELS_OFFSET UNITYSDK_OFFSET(0xE7EEF90)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFACECARDS_OFFSET UNITYSDK_OFFSET(0xE7EF340)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFELSCENE_OFFSET UNITYSDK_OFFSET(0xE7EF2B0)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GET_ISGENERATED_OFFSET UNITYSDK_OFFSET(0xE7EF3E0)
-#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE7EF490)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_CLEARCARDS_OFFSET UNITYSDK_OFFSET(0xE88A3E0)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_CLEARSURFELS_OFFSET UNITYSDK_OFFSET(0xE88A330)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE88A6E0)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_EXPORTTEXTURES_OFFSET UNITYSDK_OFFSET(0xE88A470)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GENERATESURFACECARDS_OFFSET UNITYSDK_OFFSET(0xE88A2A0)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GENERATESURFELS_OFFSET UNITYSDK_OFFSET(0xE88A1E0)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFACECARDS_OFFSET UNITYSDK_OFFSET(0xE88A590)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFELSCENE_OFFSET UNITYSDK_OFFSET(0xE88A500)
+#define RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GET_ISGENERATED_OFFSET UNITYSDK_OFFSET(0xE88A630)
 
 namespace RPG::SurfaceCache
 {
-	inline static constexpr unsigned int SurfaceCacheGeneratorMonoPlugin_TypeDefinitionIndex = 52045;
-
-	class SurfaceCacheGeneratorMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_8B451D0E4BEA4416*>
+	class SurfaceCacheGeneratorMonoPlugin
 	{
 	public:
 		::System::Single voxelSize; // 0x30
@@ -57,24 +52,28 @@ namespace RPG::SurfaceCache
 		::System::Boolean showVoxelSpace; // 0x9A
 		::System::Boolean showSurfels; // 0x9B
 		::System::Boolean showClusters; // 0x9C
+		::System::Byte _padding0[0x3];
 		::System::Single surfelVisualizationSize; // 0xA0
 		::System::Boolean showCardGizmos; // 0xA4
-		::Class_1_681685FAADA1782B_AxisAlignedDirection stepDebugDirection; // 0xA8
-		::Class_1_681685FAADA1782B_DebugStage currentDebugStage; // 0xAC
+		::System::Byte _padding1[0x3];
+		::KFIKLIHGCCO_AxisAlignedDirection stepDebugDirection; // 0xA8
+		::KFIKLIHGCCO_DebugStage currentDebugStage; // 0xAC
 		::System::Boolean debugSpecificVoxel; // 0xB0
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector2Int debugVoxelCoord; // 0xB4
 		::System::Boolean showAllVoxels; // 0xBC
+		::System::Byte _padding3[0x3];
 		::System::Int32 debugVoxelCount; // 0xC0
 		::System::Int32 maxVisualizeRays; // 0xC4
 		::System::Boolean enableClusterPreview; // 0xC8
-		::Class_1_681685FAADA1782B_AxisAlignedDirection previewDirection; // 0xCC
+		::System::Byte _padding4[0x3];
+		::KFIKLIHGCCO_AxisAlignedDirection previewDirection; // 0xCC
 		::System::Boolean showClusterDetails; // 0xD0
 		::System::Boolean showClusterSurfels; // 0xD1
 		::System::Boolean showUnusedSurfels; // 0xD2
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void GenerateSurfels()
@@ -102,19 +101,20 @@ namespace RPG::SurfaceCache
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_EXPORTTEXTURES_OFFSET))(this);
 		}
 
-		::Class_1_681685FAADA1782B_Class_1_A30ACB971D373FD8* GetSurfelScene(::System::Int32 a1)
+		::KFIKLIHGCCO_CIBLKPAIHOP* GetSurfelScene(::System::Int32 a1)
 		{
-			return ((::Class_1_681685FAADA1782B_Class_1_A30ACB971D373FD8*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFELSCENE_OFFSET))(this, a1);
+			return ((::KFIKLIHGCCO_CIBLKPAIHOP*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFELSCENE_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::Class_1_CEF07D2949A09D64_SurfaceCard*>* GetSurfaceCards()
+		::System::Collections::Generic::List_1<::System::Object*>* GetSurfaceCards()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_CEF07D2949A09D64_SurfaceCard*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFACECARDS_OFFSET))(this);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GETSURFACECARDS_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsGenerated()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_SURFACECACHE_SURFACECACHEGENERATORMONOPLUGIN_GET_ISGENERATED_OFFSET))(this);
 		}
+
 	};
 }

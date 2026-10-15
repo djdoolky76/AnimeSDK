@@ -2,12 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SensorBeginTouchEvent.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SensorEndTouchEvent.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SensorEvents_TypeDefinitionIndex = 36063;
-
 	struct alignas(8) B2SensorEvents
 	{
 		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SensorBeginTouchEvent>* beginEvents; // 0x10

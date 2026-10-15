@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TreeInstance_TypeDefinitionIndex = 5325;
-
 	struct alignas(4) TreeInstance
 	{
 		::UnityEngine::Vector3 position; // 0x10

@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TriggerHitTarget; }
 
-#define RPG_GAMECORE_TRIGGERHITTARGET_METHOD_3_1A419D080CA4B90F_OFFSET UNITYSDK_OFFSET(0x1D5FFD20)
-#define RPG_GAMECORE_TRIGGERHITTARGET_METHOD_3_E839FF0A6286676A_OFFSET UNITYSDK_OFFSET(0x1D5FFCD0)
-#define RPG_GAMECORE_TRIGGERHITTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FFD10)
+#define RPG_GAMECORE_TRIGGERHITTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC53AC0)
+#define RPG_GAMECORE_TRIGGERHITTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC53AD0)
+#define RPG_GAMECORE_TRIGGERHITTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC53A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerHitTarget_TypeDefinitionIndex = 19976;
-
 	class TriggerHitTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::AdventureHitConfig* HitConfig; // 0x20
 		::System::Boolean OnlyHitClientTarget; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E839FF0A6286676A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerHitTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerHitTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerHitTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITTARGET_METHOD_3_E839FF0A6286676A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerHitTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1A419D080CA4B90F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerHitTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerHitTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerHitTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITTARGET_METHOD_3_1A419D080CA4B90F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerHitTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

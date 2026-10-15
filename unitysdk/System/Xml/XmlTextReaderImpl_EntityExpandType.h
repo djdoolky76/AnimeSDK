@@ -3,8 +3,6 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_EntityExpandType_TypeDefinitionIndex = 1850;
-
 	enum class XmlTextReaderImpl_EntityExpandType : ::System::Int32
 	{
 		All = 0,

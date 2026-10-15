@@ -2,33 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/CompareOptions.h"
 #include "unitysdk/System/StringComparer.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BC99F40)
-#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BC9A160)
-#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BC9A010)
-#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1BC9A1C0)
-#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BC9A0D0)
-#define SYSTEM_CULTUREAWARECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC99E80)
+#define SYSTEM_CULTUREAWARECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C1A6000)
+#define SYSTEM_CULTUREAWARECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1A5F40)
+#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C1A6220)
+#define SYSTEM_CULTUREAWARECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C1A60D0)
+#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1C1A6280)
+#define SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C1A6190)
 
 namespace System
 {
-	inline static constexpr unsigned int CultureAwareComparer_TypeDefinitionIndex = 333;
-
 	class CultureAwareComparer : public ::System::StringComparer
 	{
 	public:
 		::System::Globalization::CompareInfo* _compareInfo; // 0x10
 		::System::Boolean _ignoreCase; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Globalization::CompareOptions _options; // 0x1C
-
 		::System::Void _ctor(::System::Globalization::CultureInfo* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Globalization::CultureInfo*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Compare(::System::String* a1, ::System::String* a2)
@@ -55,5 +52,6 @@ namespace System
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CULTUREAWARECOMPARER_GETHASHCODE_1_OFFSET))(this);
 		}
+
 	};
 }

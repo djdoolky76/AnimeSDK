@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BCIAMPIIHPF.h"
+
+#define AEBMIFOGFEN_CONFIAMBBBC_OFFSET UNITYSDK_OFFSET(0xB14B1C0)
+#define AEBMIFOGFEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB14B200)
+
+	class AEBMIFOGFEN : public ::BCIAMPIIHPF
+	{
+	public:
+		::System::Int32 LPFFJOGCMPG; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEBMIFOGFEN_CTOR_OFFSET))(this);
+		}
+
+		::System::Void CONFIAMBBBC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEBMIFOGFEN_CONFIAMBBBC_OFFSET))(this);
+		}
+
+	};

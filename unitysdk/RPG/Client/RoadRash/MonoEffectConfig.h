@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoEffectConfig_TypeDefinitionIndex = 75436;
-
 	struct alignas(8) MonoEffectConfig
 	{
 		::System::String* PrefabPath; // 0x10

@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExVoicePool_TimeStretchConfig.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExVoicePool_ExTimeStretchConfig_TypeDefinitionIndex = 38781;
-
 	struct alignas(4) CriAtomExVoicePool_ExTimeStretchConfig
 	{
 		::System::Int32 numDsp; // 0x10

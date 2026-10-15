@@ -3,9 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ILeverSwitchContext_1_TypeDefinitionIndex = 40682;
-
-	template <typename TEntity>
+	template <typename T>
 	class ILeverSwitchContext_1
 	{
 	public:

@@ -3,13 +3,11 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimCustomScreenTransferReason_TypeDefinitionIndex = 41703;
-
 	enum class FiveDimCustomScreenTransferReason : ::System::UInt32
 	{
-		None = 0x0,
-		Default = 0x1,
-		TeleportOrLeave = 0x2,
-		PortalTeleport = 0x4,
+		None = 0,
+		Default = 1,
+		TeleportOrLeave = 2,
+		PortalTeleport = 4,
 	};
 }

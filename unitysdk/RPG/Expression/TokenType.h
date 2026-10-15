@@ -3,8 +3,6 @@
 
 namespace RPG::Expression
 {
-	inline static constexpr unsigned int TokenType_TypeDefinitionIndex = 10362;
-
 	enum class TokenType : ::System::Int32
 	{
 		LeftParen = 0,

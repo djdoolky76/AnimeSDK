@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackDamageType_TypeDefinitionIndex = 10395;
-
 	enum class AttackDamageType : ::System::Int32
 	{
 		Unknow = 0,

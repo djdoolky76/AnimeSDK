@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonAssistData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonFriendSoltData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5A6590)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC5A7860)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__1_OFFSET UNITYSDK_OFFSET(0xC5A7880)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4BE230)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC4BF500)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__1_OFFSET UNITYSDK_OFFSET(0xC4BF520)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonData___c__DisplayClass5_0_TypeDefinitionIndex = 74903;
-
 	class IdleLiveDungeonData___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 uid; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _TryRemoveAssistData_b__0(::RPG::Client::ActivityIdleLive::IdleLiveDungeonAssistData* a1)
@@ -32,5 +28,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDungeonFriendSoltData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONDATA___C__DISPLAYCLASS5_0__TRYREMOVEASSISTDATA_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

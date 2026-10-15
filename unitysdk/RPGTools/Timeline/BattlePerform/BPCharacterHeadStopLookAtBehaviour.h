@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline::BattlePerform { class BPCharacterHeadStopLookAtClip; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE81B520)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE81B540)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE81B530)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE81B670)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B8BE0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8B8A90)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8B8AB0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8B8AA0)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterHeadStopLookAtBehaviour_TypeDefinitionIndex = 49267;
-
 	class BPCharacterHeadStopLookAtBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::BattlePerform::BPCharacterHeadStopLookAtClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::BattlePerform::BPCharacterHeadStopLookAtClip* get_Clip()
@@ -39,5 +35,6 @@ namespace RPGTools::Timeline::BattlePerform
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERHEADSTOPLOOKATBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

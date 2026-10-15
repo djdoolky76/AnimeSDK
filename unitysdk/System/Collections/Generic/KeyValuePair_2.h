@@ -1,17 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System { class String; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int KeyValuePair_2_TypeDefinitionIndex = 1530;
-
-	template <typename TKey, typename TValue>
-	struct KeyValuePair_2
+	template <typename T1, typename T2>
+	struct alignas(8) KeyValuePair_2
 	{
-		TKey key; // 0x0
-		TValue value; // 0x0
+		T1 key; // 0x0
+		T2 value; // 0x0
 	};
 }

@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class TrackExtensionMonoPlugin; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xDE955A0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE5BE0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashJumpData_JumpLink_TypeDefinitionIndex = 75466;
-
 	class MonoRoadRashJumpData_JumpLink : public ::System::Object
 	{
 	public:
@@ -17,10 +14,10 @@ namespace RPG::Client::RoadRash
 		::RPG::Client::TrackExtensionMonoPlugin* ToRoad; // 0x18
 		::System::Single MinLandDistance; // 0x20
 		::System::Single MaxLandDistance; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_JUMPLINK_CTOR_OFFSET))(this);
 		}
+
 	};
 }

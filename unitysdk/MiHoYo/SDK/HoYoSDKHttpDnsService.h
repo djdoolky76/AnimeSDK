@@ -2,60 +2,59 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/HoYoSDKHttpDnsService_LogLevel.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class HoYoSDKHttpDnsService; }
 namespace MiHoYo::SDK { class HoYoSDKHttpDnsService_HttpResult; }
 namespace MiHoYo::SDK { class HoYoSDKNetworkNative_HttpResponse; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_CHECKUSEEXPIREDCACHE_OFFSET UNITYSDK_OFFSET(0xB1FCA40)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_DOHTTPGET_OFFSET UNITYSDK_OFFSET(0xB1FB9A0)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_FINDINCACHE_OFFSET UNITYSDK_OFFSET(0xB1FAAE0)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_GETNOWTIMESTAMPMILLISEC_OFFSET UNITYSDK_OFFSET(0xB1FD3C0)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_GETNOWTIMESTAMPSEC_OFFSET UNITYSDK_OFFSET(0xB1FC170)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB1FD590)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_ISNEEDREFRESHDNS_OFFSET UNITYSDK_OFFSET(0xB1FD010)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PACKDNSURL_OFFSET UNITYSDK_OFFSET(0xB1FB330)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PERSISTENTREFRESHEDDNS_1_OFFSET UNITYSDK_OFFSET(0xB1FCAE0)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PERSISTENTREFRESHEDDNS_OFFSET UNITYSDK_OFFSET(0xB1FC300)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_1_OFFSET UNITYSDK_OFFSET(0xB1FA870)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_OFFSET UNITYSDK_OFFSET(0xB1FA710)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_SETCACHEEXPIREDTIME_OFFSET UNITYSDK_OFFSET(0xB1FA6F0)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB1FD640)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_TECHNICALREPORTEASY_OFFSET UNITYSDK_OFFSET(0xB1FB8B0)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_TECHNICALREPORTHTTPDNSFAILED_OFFSET UNITYSDK_OFFSET(0xB1FD830)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_TECHNICALREPORT_OFFSET UNITYSDK_OFFSET(0xB1FD650)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_UPDATEHTTDNSIP_OFFSET UNITYSDK_OFFSET(0xB1FA700)
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1FD540)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_CHECKUSEEXPIREDCACHE_OFFSET UNITYSDK_OFFSET(0xAFA4140)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA4C40)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_DOHTTPGET_OFFSET UNITYSDK_OFFSET(0xAFA30A0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_FINDINCACHE_OFFSET UNITYSDK_OFFSET(0xAFA21C0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_GETNOWTIMESTAMPMILLISEC_OFFSET UNITYSDK_OFFSET(0xAFA4AC0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_GETNOWTIMESTAMPSEC_OFFSET UNITYSDK_OFFSET(0xAFA3870)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFA4C90)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_ISNEEDREFRESHDNS_OFFSET UNITYSDK_OFFSET(0xAFA4710)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PACKDNSURL_OFFSET UNITYSDK_OFFSET(0xAFA2A10)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PERSISTENTREFRESHEDDNS_1_OFFSET UNITYSDK_OFFSET(0xAFA41E0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PERSISTENTREFRESHEDDNS_OFFSET UNITYSDK_OFFSET(0xAFA3A00)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_1_OFFSET UNITYSDK_OFFSET(0xAFA1F50)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_OFFSET UNITYSDK_OFFSET(0xAFA1DF0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_SETCACHEEXPIREDTIME_OFFSET UNITYSDK_OFFSET(0xAFA1DD0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFA4D40)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_TECHNICALREPORTEASY_OFFSET UNITYSDK_OFFSET(0xAFA2FB0)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_TECHNICALREPORTHTTPDNSFAILED_OFFSET UNITYSDK_OFFSET(0xAFA4F30)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_TECHNICALREPORT_OFFSET UNITYSDK_OFFSET(0xAFA4D50)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_UPDATEHTTDNSIP_OFFSET UNITYSDK_OFFSET(0xAFA1DE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_TypeDefinitionIndex = 46545;
-
 	class HoYoSDKHttpDnsService : public ::System::Object
 	{
 	public:
+		::System::String* m_strCustomDnsUrl; // 0x10
+		::System::String* m_strDnsBatchUrl; // 0x18
+		::System::Int64 m_nCacheExpiredInterval; // 0x20
 		static ::MiHoYo::SDK::HoYoSDKHttpDnsService** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::HoYoSDKHttpDnsService**)Il2CppClass::FromTypeDefinitionIndex(HoYoSDKHttpDnsService_TypeDefinitionIndex)->GetStaticField(0x47D90);
+			return (::MiHoYo::SDK::HoYoSDKHttpDnsService**)UnitySDK::FromName("MiHoYo.SDK", "HoYoSDKHttpDnsService")->GetStaticField(0x223A0);
 		}
+
 		// static const ::System::String* DNS_ACCOUNT_ID; // 0x0
 		// static const ::System::String* DNS_IP; // 0x0
 		// static const ::System::String* DNS_SECRET_KEY; // 0x0
 		// static const ::System::String* DNS_HOST_SPLITTER; // 0x0
 		// static const ::System::String* DNS_SIGN_SPLITTER; // 0x0
-		// static const ::System::Int32 SIGN_MAX_INTERVAL = 0x258; // 0x0
-		// static const ::System::Single DNS_TIMEOUT; // 0x0
+		// static const ::System::Object SIGN_MAX_INTERVAL; // 0x0
+		// static const ::System::Object DNS_TIMEOUT; // 0x0
 		// static const ::System::String* DNS_RESOLVE_PERSISTENT_KEY; // 0x0
-		::System::String* m_strDnsBatchUrl; // 0x10
-		::System::String* m_strCustomDnsUrl; // 0x18
-		::System::Int64 m_nCacheExpiredInterval; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetCacheExpiredTime(::System::Int32 a1)
@@ -68,14 +67,14 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_UPDATEHTTDNSIP_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestHostAddr(::System::String* a1, ::System::Action_1<::System::Collections::Generic::List_1<::System::String*>*>* a2)
+		::System::Void RequestHostAddr(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::Collections::Generic::List_1<::System::String*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void RequestHostAddr_1(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*>* a2)
+		::System::Void RequestHostAddr_1(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_REQUESTHOSTADDR_1_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::HoYoSDKHttpDnsService_HttpResult* DoHttpGet(::System::String* a1, ::System::Single a2)
@@ -88,9 +87,9 @@ namespace MiHoYo::SDK
 			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PACKDNSURL_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::System::String*>* FindInCache(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*& a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*& a3)
+		::System::Collections::Generic::List_1<::System::String*>* FindInCache(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Object* a2, ::System::Object* a3)
 		{
-			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*&, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>*&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_FINDINCACHE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_FINDINCACHE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void PersistentRefreshedDns(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::String*>*>* a1)
@@ -108,9 +107,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_PERSISTENTREFRESHEDDNS_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean IsNeedRefreshDns(::System::String* a1, ::System::String*& a2)
+		::System::Boolean IsNeedRefreshDns(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*&))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_ISNEEDREFRESHDNS_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_ISNEEDREFRESHDNS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int64 GetNowTimestampSec()
@@ -147,5 +146,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::MiHoYo::SDK::HoYoSDKHttpDnsService_LogLevel, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_TECHNICALREPORT_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

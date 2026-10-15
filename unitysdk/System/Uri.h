@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ParsingError.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/UriComponents.h"
 #include "unitysdk/System/UriFormat.h"
 #include "unitysdk/System/UriHostNameType.h"
@@ -11,276 +10,298 @@
 #include "unitysdk/System/UriPartial.h"
 #include "unitysdk/System/Uri_Check.h"
 #include "unitysdk/System/Uri_Flags.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
+namespace System { class Object; }
 namespace System { class String; }
+namespace System { class Uri; }
 namespace System { class UriFormatException; }
 namespace System { class UriParser; }
 namespace System { class Uri_UriInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_URI_ALLOWIDNSTATIC_OFFSET UNITYSDK_OFFSET(0x1EA13B10)
-#define SYSTEM_URI_CALCULATECASEINSENSITIVEHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EA1A720)
-#define SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEANYHOSTIRI_OFFSET UNITYSDK_OFFSET(0x1EA22AE0)
-#define SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEDNSIRI_OFFSET UNITYSDK_OFFSET(0x1EA225D0)
-#define SYSTEM_URI_CHECKAUTHORITYHELPER_OFFSET UNITYSDK_OFFSET(0x1EA1D4B0)
-#define SYSTEM_URI_CHECKCANONICAL_OFFSET UNITYSDK_OFFSET(0x1EA1F040)
-#define SYSTEM_URI_CHECKFORCOLONINFIRSTPATHSEGMENT_OFFSET UNITYSDK_OFFSET(0x1EA1B9F0)
-#define SYSTEM_URI_CHECKFORCONFIGLOAD_OFFSET UNITYSDK_OFFSET(0x1EA24D50)
-#define SYSTEM_URI_CHECKFORESCAPEDUNRESERVED_OFFSET UNITYSDK_OFFSET(0x1EA24F20)
-#define SYSTEM_URI_CHECKFORUNICODE_OFFSET UNITYSDK_OFFSET(0x1EA24E10)
-#define SYSTEM_URI_CHECKKNOWNSCHEMES_OFFSET UNITYSDK_OFFSET(0x1EA21E50)
-#define SYSTEM_URI_CHECKSCHEMENAME_OFFSET UNITYSDK_OFFSET(0x1EA1A340)
-#define SYSTEM_URI_CHECKSCHEMESYNTAX_OFFSET UNITYSDK_OFFSET(0x1EA16E60)
-#define SYSTEM_URI_COMBINEURI_OFFSET UNITYSDK_OFFSET(0x1EA17000)
-#define SYSTEM_URI_COMPRESS_OFFSET UNITYSDK_OFFSET(0x1EA194E0)
-#define SYSTEM_URI_CREATEHELPER_OFFSET UNITYSDK_OFFSET(0x1EA25320)
-#define SYSTEM_URI_CREATEHOSTSTRINGHELPER_OFFSET UNITYSDK_OFFSET(0x1EA1EE00)
-#define SYSTEM_URI_CREATEHOSTSTRING_OFFSET UNITYSDK_OFFSET(0x1EA15510)
-#define SYSTEM_URI_CREATETHISFROMURI_OFFSET UNITYSDK_OFFSET(0x1EA165E0)
-#define SYSTEM_URI_CREATETHIS_OFFSET UNITYSDK_OFFSET(0x1EA15A10)
-#define SYSTEM_URI_CREATEURIINFO_OFFSET UNITYSDK_OFFSET(0x1EA13CD0)
-#define SYSTEM_URI_CREATEURI_OFFSET UNITYSDK_OFFSET(0x1EA15CE0)
-#define SYSTEM_URI_ENSUREHOSTSTRING_OFFSET UNITYSDK_OFFSET(0x1EA154B0)
-#define SYSTEM_URI_ENSUREPARSEREMAINING_OFFSET UNITYSDK_OFFSET(0x1EA143D0)
-#define SYSTEM_URI_ENSUREURIINFO_OFFSET UNITYSDK_OFFSET(0x1EA13CA0)
-#define SYSTEM_URI_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EA1AAE0)
-#define SYSTEM_URI_ESCAPEDATASTRING_OFFSET UNITYSDK_OFFSET(0x1EA26310)
-#define SYSTEM_URI_ESCAPEUNESCAPEIRI_OFFSET UNITYSDK_OFFSET(0x1EA21E30)
-#define SYSTEM_URI_ESCAPEURISTRING_OFFSET UNITYSDK_OFFSET(0x1EA26240)
-#define SYSTEM_URI_FINDENDOFCOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x1EA23130)
-#define SYSTEM_URI_FINDENDOFCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1EA21DA0)
-#define SYSTEM_URI_FROMHEX_OFFSET UNITYSDK_OFFSET(0x1EA1A570)
-#define SYSTEM_URI_GETCANONICALPATH_OFFSET UNITYSDK_OFFSET(0x1EA21440)
-#define SYSTEM_URI_GETCOMBINEDSTRING_OFFSET UNITYSDK_OFFSET(0x1EA16B90)
-#define SYSTEM_URI_GETCOMPONENTSHELPER_OFFSET UNITYSDK_OFFSET(0x1EA1A8A0)
-#define SYSTEM_URI_GETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1EA1F620)
-#define SYSTEM_URI_GETESCAPEDPARTS_OFFSET UNITYSDK_OFFSET(0x1EA1F7D0)
-#define SYSTEM_URI_GETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EA17BB0)
-#define SYSTEM_URI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EA1A5F0)
-#define SYSTEM_URI_GETHOSTVIACUSTOMSYNTAX_OFFSET UNITYSDK_OFFSET(0x1EA1E880)
-#define SYSTEM_URI_GETLEFTPART_OFFSET UNITYSDK_OFFSET(0x1EA1A210)
-#define SYSTEM_URI_GETLOCALPATH_OFFSET UNITYSDK_OFFSET(0x1EA18240)
-#define SYSTEM_URI_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1EA17E50)
-#define SYSTEM_URI_GETPARTS_OFFSET UNITYSDK_OFFSET(0x1EA17FB0)
-#define SYSTEM_URI_GETRELATIVESERIALIZATIONSTRING_OFFSET UNITYSDK_OFFSET(0x1EA255E0)
-#define SYSTEM_URI_GETUNESCAPEDPARTS_OFFSET UNITYSDK_OFFSET(0x1EA199B0)
-#define SYSTEM_URI_GETURIPARTSFROMUSERSTRING_OFFSET UNITYSDK_OFFSET(0x1EA1F900)
-#define SYSTEM_URI_GET_ABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x1EA17FC0)
-#define SYSTEM_URI_GET_ABSOLUTEURI_OFFSET UNITYSDK_OFFSET(0x1EA18110)
-#define SYSTEM_URI_GET_ALLOWIDN_OFFSET UNITYSDK_OFFSET(0x1EA13A70)
-#define SYSTEM_URI_GET_AUTHORITY_OFFSET UNITYSDK_OFFSET(0x1EA18CE0)
-#define SYSTEM_URI_GET_DNSSAFEHOST_OFFSET UNITYSDK_OFFSET(0x1EA19E60)
-#define SYSTEM_URI_GET_FRAGMENT_OFFSET UNITYSDK_OFFSET(0x1EA19C80)
-#define SYSTEM_URI_GET_HASAUTHORITY_OFFSET UNITYSDK_OFFSET(0x1EA243B0)
-#define SYSTEM_URI_GET_HOSTNAMETYPE_OFFSET UNITYSDK_OFFSET(0x1EA18D40)
-#define SYSTEM_URI_GET_HOSTTYPE_OFFSET UNITYSDK_OFFSET(0x1EA139B0)
-#define SYSTEM_URI_GET_HOST_OFFSET UNITYSDK_OFFSET(0x1EA19150)
-#define SYSTEM_URI_GET_INITIALIZELOCK_OFFSET UNITYSDK_OFFSET(0x1EA191D0)
-#define SYSTEM_URI_GET_ISABSOLUTEURI_OFFSET UNITYSDK_OFFSET(0x1EA15CD0)
-#define SYSTEM_URI_GET_ISDEFAULTPORT_OFFSET UNITYSDK_OFFSET(0x1EA18E40)
-#define SYSTEM_URI_GET_ISDOSPATH_OFFSET UNITYSDK_OFFSET(0x1EA13990)
-#define SYSTEM_URI_GET_ISFILE_OFFSET UNITYSDK_OFFSET(0x1EA18F00)
-#define SYSTEM_URI_GET_ISIMPLICITFILE_OFFSET UNITYSDK_OFFSET(0x1EA13970)
-#define SYSTEM_URI_GET_ISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x1EA18F80)
-#define SYSTEM_URI_GET_ISNOTABSOLUTEURI_OFFSET UNITYSDK_OFFSET(0x1EA139D0)
-#define SYSTEM_URI_GET_ISUNCORDOSPATH_OFFSET UNITYSDK_OFFSET(0x1EA13980)
-#define SYSTEM_URI_GET_ISUNCPATH_OFFSET UNITYSDK_OFFSET(0x1EA139A0)
-#define SYSTEM_URI_GET_ISUNC_OFFSET UNITYSDK_OFFSET(0x1EA190D0)
-#define SYSTEM_URI_GET_LOCALPATH_OFFSET UNITYSDK_OFFSET(0x1EA181D0)
-#define SYSTEM_URI_GET_ORIGINALSTRINGSWITCHED_OFFSET UNITYSDK_OFFSET(0x1EA19D90)
-#define SYSTEM_URI_GET_ORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1EA16F30)
-#define SYSTEM_URI_GET_PATHANDQUERY_OFFSET UNITYSDK_OFFSET(0x1EA19010)
-#define SYSTEM_URI_GET_PORT_OFFSET UNITYSDK_OFFSET(0x1EA19AD0)
-#define SYSTEM_URI_GET_PRIVATEABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x1EA18070)
-#define SYSTEM_URI_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x1EA19BC0)
-#define SYSTEM_URI_GET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1EA19D40)
-#define SYSTEM_URI_GET_SECUREDPATHINDEX_OFFSET UNITYSDK_OFFSET(0x1EA13C00)
-#define SYSTEM_URI_GET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1EA139C0)
-#define SYSTEM_URI_GET_USERDRIVENPARSING_OFFSET UNITYSDK_OFFSET(0x1EA13BD0)
-#define SYSTEM_URI_GET_USERESCAPED_OFFSET UNITYSDK_OFFSET(0x1EA1A180)
-#define SYSTEM_URI_GET_USERINFO_OFFSET UNITYSDK_OFFSET(0x1EA1A190)
-#define SYSTEM_URI_INFACT_OFFSET UNITYSDK_OFFSET(0x1EA13C80)
-#define SYSTEM_URI_INITIALIZEURICONFIG_OFFSET UNITYSDK_OFFSET(0x1EA19280)
-#define SYSTEM_URI_INITIALIZEURI_OFFSET UNITYSDK_OFFSET(0x1EA243F0)
-#define SYSTEM_URI_INTERNALESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x1EA1BAD0)
-#define SYSTEM_URI_INTERNALISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1EA258D0)
-#define SYSTEM_URI_IRIPARSINGSTATIC_OFFSET UNITYSDK_OFFSET(0x1EA139E0)
-#define SYSTEM_URI_ISASCIILETTERORDIGIT_OFFSET UNITYSDK_OFFSET(0x1EA1A510)
-#define SYSTEM_URI_ISASCIILETTER_OFFSET UNITYSDK_OFFSET(0x1EA1A500)
-#define SYSTEM_URI_ISBIDICONTROLCHARACTER_OFFSET UNITYSDK_OFFSET(0x1EA243C0)
-#define SYSTEM_URI_ISGENDELIM_OFFSET UNITYSDK_OFFSET(0x1EA1A320)
-#define SYSTEM_URI_ISHEXDIGIT_OFFSET UNITYSDK_OFFSET(0x1EA1A550)
-#define SYSTEM_URI_ISINTRANET_OFFSET UNITYSDK_OFFSET(0x1EA13BC0)
-#define SYSTEM_URI_ISLWS_OFFSET UNITYSDK_OFFSET(0x1EA1D420)
-#define SYSTEM_URI_ISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1EA25820)
-#define SYSTEM_URI_ISWELLFORMEDURISTRING_OFFSET UNITYSDK_OFFSET(0x1EA25F90)
-#define SYSTEM_URI_MAKERELATIVEURI_OFFSET UNITYSDK_OFFSET(0x1EA1B2A0)
-#define SYSTEM_URI_NOTANY_OFFSET UNITYSDK_OFFSET(0x1EA13B00)
-#define SYSTEM_URI_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1EA1AAB0)
-#define SYSTEM_URI_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1EA165A0)
-#define SYSTEM_URI_PARSEMINIMAL_OFFSET UNITYSDK_OFFSET(0x1EA1CCE0)
-#define SYSTEM_URI_PARSEREMAINING_OFFSET UNITYSDK_OFFSET(0x1EA143E0)
-#define SYSTEM_URI_PARSESCHEMECHECKIMPLICITFILE_OFFSET UNITYSDK_OFFSET(0x1EA1C7B0)
-#define SYSTEM_URI_PARSESCHEME_OFFSET UNITYSDK_OFFSET(0x1EA1C720)
-#define SYSTEM_URI_PATHDIFFERENCE_OFFSET UNITYSDK_OFFSET(0x1EA1B670)
-#define SYSTEM_URI_PRIVATEPARSEMINIMALIRI_OFFSET UNITYSDK_OFFSET(0x1EA1E670)
-#define SYSTEM_URI_PRIVATEPARSEMINIMAL_OFFSET UNITYSDK_OFFSET(0x1EA1CD30)
-#define SYSTEM_URI_RECREATEPARTS_OFFSET UNITYSDK_OFFSET(0x1EA20260)
-#define SYSTEM_URI_RESOLVEHELPER_OFFSET UNITYSDK_OFFSET(0x1EA15F00)
-#define SYSTEM_URI_SETUSERDRIVENPARSING_OFFSET UNITYSDK_OFFSET(0x1EA13BE0)
-#define SYSTEM_URI_STATICINFACT_OFFSET UNITYSDK_OFFSET(0x1EA13C90)
-#define SYSTEM_URI_STATICISFILE_OFFSET UNITYSDK_OFFSET(0x1EA191B0)
-#define SYSTEM_URI_STATICNOTANY_OFFSET UNITYSDK_OFFSET(0x1EA13BB0)
-#define SYSTEM_URI_STRIPBIDICONTROLCHARACTER_OFFSET UNITYSDK_OFFSET(0x1EA22FD0)
-#define SYSTEM_URI_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1EA17E40)
-#define SYSTEM_URI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA1A7F0)
-#define SYSTEM_URI_TRYCREATE_OFFSET UNITYSDK_OFFSET(0x1EA1B210)
-#define SYSTEM_URI_UNESCAPEDATASTRING_OFFSET UNITYSDK_OFFSET(0x1EA260D0)
-#define SYSTEM_URI_UNESCAPEONLY_OFFSET UNITYSDK_OFFSET(0x1EA23260)
-#define SYSTEM_URI__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA263F0)
-#define SYSTEM_URI__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EA15BD0)
-#define SYSTEM_URI__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EA15C20)
-#define SYSTEM_URI__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EA16910)
-#define SYSTEM_URI__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1EA17D70)
-#define SYSTEM_URI__CTOR_5_OFFSET UNITYSDK_OFFSET(0x1EA263E0)
-#define SYSTEM_URI__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA159C0)
+#define SYSTEM_URI_ALLOWIDNSTATIC_OFFSET UNITYSDK_OFFSET(0x1F0DB380)
+#define SYSTEM_URI_CALCULATECASEINSENSITIVEHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F0E1F60)
+#define SYSTEM_URI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0EDC50)
+#define SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEANYHOSTIRI_OFFSET UNITYSDK_OFFSET(0x1F0EA310)
+#define SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEDNSIRI_OFFSET UNITYSDK_OFFSET(0x1F0E9E00)
+#define SYSTEM_URI_CHECKAUTHORITYHELPER_OFFSET UNITYSDK_OFFSET(0x1F0E4CE0)
+#define SYSTEM_URI_CHECKCANONICAL_OFFSET UNITYSDK_OFFSET(0x1F0E6870)
+#define SYSTEM_URI_CHECKFORCOLONINFIRSTPATHSEGMENT_OFFSET UNITYSDK_OFFSET(0x1F0E3220)
+#define SYSTEM_URI_CHECKFORCONFIGLOAD_OFFSET UNITYSDK_OFFSET(0x1F0EC580)
+#define SYSTEM_URI_CHECKFORESCAPEDUNRESERVED_OFFSET UNITYSDK_OFFSET(0x1F0EC750)
+#define SYSTEM_URI_CHECKFORUNICODE_OFFSET UNITYSDK_OFFSET(0x1F0EC640)
+#define SYSTEM_URI_CHECKKNOWNSCHEMES_OFFSET UNITYSDK_OFFSET(0x1F0E9680)
+#define SYSTEM_URI_CHECKSCHEMENAME_OFFSET UNITYSDK_OFFSET(0x1F0E1B80)
+#define SYSTEM_URI_CHECKSCHEMESYNTAX_OFFSET UNITYSDK_OFFSET(0x1F0DE6D0)
+#define SYSTEM_URI_COMBINEURI_OFFSET UNITYSDK_OFFSET(0x1F0DE870)
+#define SYSTEM_URI_COMPRESS_OFFSET UNITYSDK_OFFSET(0x1F0E0D50)
+#define SYSTEM_URI_CREATEHELPER_OFFSET UNITYSDK_OFFSET(0x1F0ECB50)
+#define SYSTEM_URI_CREATEHOSTSTRINGHELPER_OFFSET UNITYSDK_OFFSET(0x1F0E6630)
+#define SYSTEM_URI_CREATEHOSTSTRING_OFFSET UNITYSDK_OFFSET(0x1F0DCD80)
+#define SYSTEM_URI_CREATETHISFROMURI_OFFSET UNITYSDK_OFFSET(0x1F0DDE50)
+#define SYSTEM_URI_CREATETHIS_OFFSET UNITYSDK_OFFSET(0x1F0DD280)
+#define SYSTEM_URI_CREATEURIINFO_OFFSET UNITYSDK_OFFSET(0x1F0DB540)
+#define SYSTEM_URI_CREATEURI_OFFSET UNITYSDK_OFFSET(0x1F0DD550)
+#define SYSTEM_URI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0DD440)
+#define SYSTEM_URI_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F0DD490)
+#define SYSTEM_URI_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F0DE180)
+#define SYSTEM_URI_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1F0DF5E0)
+#define SYSTEM_URI_CTOR_5_OFFSET UNITYSDK_OFFSET(0x1F0EDC40)
+#define SYSTEM_URI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0DD230)
+#define SYSTEM_URI_ENSUREHOSTSTRING_OFFSET UNITYSDK_OFFSET(0x1F0DCD20)
+#define SYSTEM_URI_ENSUREPARSEREMAINING_OFFSET UNITYSDK_OFFSET(0x1F0DBC40)
+#define SYSTEM_URI_ENSUREURIINFO_OFFSET UNITYSDK_OFFSET(0x1F0DB510)
+#define SYSTEM_URI_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F0E2320)
+#define SYSTEM_URI_ESCAPEDATASTRING_OFFSET UNITYSDK_OFFSET(0x1F0EDB40)
+#define SYSTEM_URI_ESCAPEUNESCAPEIRI_OFFSET UNITYSDK_OFFSET(0x1F0E9660)
+#define SYSTEM_URI_ESCAPEURISTRING_OFFSET UNITYSDK_OFFSET(0x1F0EDA70)
+#define SYSTEM_URI_FINDENDOFCOMPONENT_1_OFFSET UNITYSDK_OFFSET(0x1F0EA960)
+#define SYSTEM_URI_FINDENDOFCOMPONENT_OFFSET UNITYSDK_OFFSET(0x1F0E95D0)
+#define SYSTEM_URI_FROMHEX_OFFSET UNITYSDK_OFFSET(0x1F0E1DB0)
+#define SYSTEM_URI_GETCANONICALPATH_OFFSET UNITYSDK_OFFSET(0x1F0E8C70)
+#define SYSTEM_URI_GETCOMBINEDSTRING_OFFSET UNITYSDK_OFFSET(0x1F0DE400)
+#define SYSTEM_URI_GETCOMPONENTSHELPER_OFFSET UNITYSDK_OFFSET(0x1F0E20E0)
+#define SYSTEM_URI_GETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1F0E6E50)
+#define SYSTEM_URI_GETESCAPEDPARTS_OFFSET UNITYSDK_OFFSET(0x1F0E7000)
+#define SYSTEM_URI_GETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F0DF420)
+#define SYSTEM_URI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F0E1E30)
+#define SYSTEM_URI_GETHOSTVIACUSTOMSYNTAX_OFFSET UNITYSDK_OFFSET(0x1F0E60B0)
+#define SYSTEM_URI_GETLEFTPART_OFFSET UNITYSDK_OFFSET(0x1F0E1A50)
+#define SYSTEM_URI_GETLOCALPATH_OFFSET UNITYSDK_OFFSET(0x1F0DFAB0)
+#define SYSTEM_URI_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F0DF6C0)
+#define SYSTEM_URI_GETPARTS_OFFSET UNITYSDK_OFFSET(0x1F0DF820)
+#define SYSTEM_URI_GETRELATIVESERIALIZATIONSTRING_OFFSET UNITYSDK_OFFSET(0x1F0ECE10)
+#define SYSTEM_URI_GETUNESCAPEDPARTS_OFFSET UNITYSDK_OFFSET(0x1F0E1220)
+#define SYSTEM_URI_GETURIPARTSFROMUSERSTRING_OFFSET UNITYSDK_OFFSET(0x1F0E7130)
+#define SYSTEM_URI_GET_ABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x1F0DF830)
+#define SYSTEM_URI_GET_ABSOLUTEURI_OFFSET UNITYSDK_OFFSET(0x1F0DF980)
+#define SYSTEM_URI_GET_ALLOWIDN_OFFSET UNITYSDK_OFFSET(0x1F0DB2E0)
+#define SYSTEM_URI_GET_AUTHORITY_OFFSET UNITYSDK_OFFSET(0x1F0E0550)
+#define SYSTEM_URI_GET_DNSSAFEHOST_OFFSET UNITYSDK_OFFSET(0x1F0E16A0)
+#define SYSTEM_URI_GET_FRAGMENT_OFFSET UNITYSDK_OFFSET(0x1F0E14C0)
+#define SYSTEM_URI_GET_HASAUTHORITY_OFFSET UNITYSDK_OFFSET(0x1F0EBBE0)
+#define SYSTEM_URI_GET_HOSTNAMETYPE_OFFSET UNITYSDK_OFFSET(0x1F0E05B0)
+#define SYSTEM_URI_GET_HOSTTYPE_OFFSET UNITYSDK_OFFSET(0x1F0DB220)
+#define SYSTEM_URI_GET_HOST_OFFSET UNITYSDK_OFFSET(0x1F0E09C0)
+#define SYSTEM_URI_GET_INITIALIZELOCK_OFFSET UNITYSDK_OFFSET(0x1F0E0A40)
+#define SYSTEM_URI_GET_ISABSOLUTEURI_OFFSET UNITYSDK_OFFSET(0x1F0DD540)
+#define SYSTEM_URI_GET_ISDEFAULTPORT_OFFSET UNITYSDK_OFFSET(0x1F0E06B0)
+#define SYSTEM_URI_GET_ISDOSPATH_OFFSET UNITYSDK_OFFSET(0x1F0DB200)
+#define SYSTEM_URI_GET_ISFILE_OFFSET UNITYSDK_OFFSET(0x1F0E0770)
+#define SYSTEM_URI_GET_ISIMPLICITFILE_OFFSET UNITYSDK_OFFSET(0x1F0DB1E0)
+#define SYSTEM_URI_GET_ISLOOPBACK_OFFSET UNITYSDK_OFFSET(0x1F0E07F0)
+#define SYSTEM_URI_GET_ISNOTABSOLUTEURI_OFFSET UNITYSDK_OFFSET(0x1F0DB240)
+#define SYSTEM_URI_GET_ISUNCORDOSPATH_OFFSET UNITYSDK_OFFSET(0x1F0DB1F0)
+#define SYSTEM_URI_GET_ISUNCPATH_OFFSET UNITYSDK_OFFSET(0x1F0DB210)
+#define SYSTEM_URI_GET_ISUNC_OFFSET UNITYSDK_OFFSET(0x1F0E0940)
+#define SYSTEM_URI_GET_LOCALPATH_OFFSET UNITYSDK_OFFSET(0x1F0DFA40)
+#define SYSTEM_URI_GET_ORIGINALSTRINGSWITCHED_OFFSET UNITYSDK_OFFSET(0x1F0E15D0)
+#define SYSTEM_URI_GET_ORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1F0DE7A0)
+#define SYSTEM_URI_GET_PATHANDQUERY_OFFSET UNITYSDK_OFFSET(0x1F0E0880)
+#define SYSTEM_URI_GET_PORT_OFFSET UNITYSDK_OFFSET(0x1F0E1340)
+#define SYSTEM_URI_GET_PRIVATEABSOLUTEPATH_OFFSET UNITYSDK_OFFSET(0x1F0DF8E0)
+#define SYSTEM_URI_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x1F0E1400)
+#define SYSTEM_URI_GET_SCHEME_OFFSET UNITYSDK_OFFSET(0x1F0E1580)
+#define SYSTEM_URI_GET_SECUREDPATHINDEX_OFFSET UNITYSDK_OFFSET(0x1F0DB470)
+#define SYSTEM_URI_GET_SYNTAX_OFFSET UNITYSDK_OFFSET(0x1F0DB230)
+#define SYSTEM_URI_GET_USERDRIVENPARSING_OFFSET UNITYSDK_OFFSET(0x1F0DB440)
+#define SYSTEM_URI_GET_USERESCAPED_OFFSET UNITYSDK_OFFSET(0x1F0E19C0)
+#define SYSTEM_URI_GET_USERINFO_OFFSET UNITYSDK_OFFSET(0x1F0E19D0)
+#define SYSTEM_URI_INFACT_OFFSET UNITYSDK_OFFSET(0x1F0DB4F0)
+#define SYSTEM_URI_INITIALIZEURICONFIG_OFFSET UNITYSDK_OFFSET(0x1F0E0AF0)
+#define SYSTEM_URI_INITIALIZEURI_OFFSET UNITYSDK_OFFSET(0x1F0EBC20)
+#define SYSTEM_URI_INTERNALESCAPESTRING_OFFSET UNITYSDK_OFFSET(0x1F0E3300)
+#define SYSTEM_URI_INTERNALISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1F0ED100)
+#define SYSTEM_URI_IRIPARSINGSTATIC_OFFSET UNITYSDK_OFFSET(0x1F0DB250)
+#define SYSTEM_URI_ISASCIILETTERORDIGIT_OFFSET UNITYSDK_OFFSET(0x1F0E1D50)
+#define SYSTEM_URI_ISASCIILETTER_OFFSET UNITYSDK_OFFSET(0x1F0E1D40)
+#define SYSTEM_URI_ISBIDICONTROLCHARACTER_OFFSET UNITYSDK_OFFSET(0x1F0EBBF0)
+#define SYSTEM_URI_ISGENDELIM_OFFSET UNITYSDK_OFFSET(0x1F0E1B60)
+#define SYSTEM_URI_ISHEXDIGIT_OFFSET UNITYSDK_OFFSET(0x1F0E1D90)
+#define SYSTEM_URI_ISINTRANET_OFFSET UNITYSDK_OFFSET(0x1F0DB430)
+#define SYSTEM_URI_ISLWS_OFFSET UNITYSDK_OFFSET(0x1F0E4C50)
+#define SYSTEM_URI_ISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1F0ED050)
+#define SYSTEM_URI_ISWELLFORMEDURISTRING_OFFSET UNITYSDK_OFFSET(0x1F0ED7C0)
+#define SYSTEM_URI_MAKERELATIVEURI_OFFSET UNITYSDK_OFFSET(0x1F0E2AD0)
+#define SYSTEM_URI_NOTANY_OFFSET UNITYSDK_OFFSET(0x1F0DB370)
+#define SYSTEM_URI_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1F0E22F0)
+#define SYSTEM_URI_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1F0DDE10)
+#define SYSTEM_URI_PARSEMINIMAL_OFFSET UNITYSDK_OFFSET(0x1F0E4510)
+#define SYSTEM_URI_PARSEREMAINING_OFFSET UNITYSDK_OFFSET(0x1F0DBC50)
+#define SYSTEM_URI_PARSESCHEMECHECKIMPLICITFILE_OFFSET UNITYSDK_OFFSET(0x1F0E3FE0)
+#define SYSTEM_URI_PARSESCHEME_OFFSET UNITYSDK_OFFSET(0x1F0E3F50)
+#define SYSTEM_URI_PATHDIFFERENCE_OFFSET UNITYSDK_OFFSET(0x1F0E2EA0)
+#define SYSTEM_URI_PRIVATEPARSEMINIMALIRI_OFFSET UNITYSDK_OFFSET(0x1F0E5EA0)
+#define SYSTEM_URI_PRIVATEPARSEMINIMAL_OFFSET UNITYSDK_OFFSET(0x1F0E4560)
+#define SYSTEM_URI_RECREATEPARTS_OFFSET UNITYSDK_OFFSET(0x1F0E7A90)
+#define SYSTEM_URI_RESOLVEHELPER_OFFSET UNITYSDK_OFFSET(0x1F0DD770)
+#define SYSTEM_URI_SETUSERDRIVENPARSING_OFFSET UNITYSDK_OFFSET(0x1F0DB450)
+#define SYSTEM_URI_STATICINFACT_OFFSET UNITYSDK_OFFSET(0x1F0DB500)
+#define SYSTEM_URI_STATICISFILE_OFFSET UNITYSDK_OFFSET(0x1F0E0A20)
+#define SYSTEM_URI_STATICNOTANY_OFFSET UNITYSDK_OFFSET(0x1F0DB420)
+#define SYSTEM_URI_STRIPBIDICONTROLCHARACTER_OFFSET UNITYSDK_OFFSET(0x1F0EA800)
+#define SYSTEM_URI_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F0DF6B0)
+#define SYSTEM_URI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F0E2030)
+#define SYSTEM_URI_TRYCREATE_OFFSET UNITYSDK_OFFSET(0x1F0E2A40)
+#define SYSTEM_URI_UNESCAPEDATASTRING_OFFSET UNITYSDK_OFFSET(0x1F0ED900)
+#define SYSTEM_URI_UNESCAPEONLY_OFFSET UNITYSDK_OFFSET(0x1F0EAA90)
 
 namespace System
 {
-	inline static constexpr unsigned int Uri_TypeDefinitionIndex = 2461;
-
 	class Uri : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_s_initLock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FC0);
-		}
-		static ::System::String** StaticGet_UriSchemeNetPipe()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FC8);
-		}
-		static ::System::String** StaticGet_UriSchemeMailto()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FD0);
-		}
-		static ::System::String** StaticGet_UriSchemeFtp()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FD8);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet__WSchars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FE0);
-		}
-		static ::System::String** StaticGet_SchemeDelimiter()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FE8);
-		}
-		static ::System::String** StaticGet_UriSchemeNews()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FF0);
-		}
-		static ::System::String** StaticGet_UriSchemeHttp()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x9FF8);
-		}
-		static ::Il2CppArray<::System::Char>** StaticGet_HexLowerChars()
-		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA000);
-		}
-		static ::System::String** StaticGet_UriSchemeNetTcp()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA008);
-		}
-		static ::System::String** StaticGet_UriSchemeWss()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA010);
-		}
-		static ::System::String** StaticGet_UriSchemeGopher()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA018);
-		}
-		static ::System::String** StaticGet_UriSchemeFile()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA020);
-		}
-		static ::System::String** StaticGet_UriSchemeNntp()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA028);
-		}
-		static ::System::String** StaticGet_UriSchemeHttps()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA030);
-		}
-		static ::System::String** StaticGet_UriSchemeWs()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0xA038);
-		}
-		static ::System::Boolean* StaticGet_s_IriParsing()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x2330);
-		}
-		static ::System::Boolean* StaticGet_s_ConfigInitializing()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x2331);
-		}
-		static ::System::Boolean* StaticGet_IsWindowsFileSystem()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x2332);
-		}
-		static ::System::UriIdnScope* StaticGet_s_IdnScope()
-		{
-			return (::System::UriIdnScope*)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x2334);
-		}
-		static ::System::Boolean* StaticGet_useDotNetRelativeOrAbsolute()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x2338);
-		}
-		static ::System::Boolean* StaticGet_s_ConfigInitialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Uri_TypeDefinitionIndex)->GetStaticField(0x2339);
-		}
 		::System::String* m_String; // 0x10
 		::System::UriParser* m_Syntax; // 0x18
 		::System::String* m_DnsSafeHost; // 0x20
 		::System::String* m_originalUnicodeString; // 0x28
 		::System::Uri_UriInfo* m_Info; // 0x30
 		::System::Uri_Flags m_Flags; // 0x38
+		::System::Byte _padding0[0x4];
 		::System::Boolean m_iriParsing; // 0x40
+		static ::System::Object** StaticGet_s_initLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB50);
+		}
+
+		static ::System::String** StaticGet_UriSchemeNetPipe()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB58);
+		}
+
+		static ::System::String** StaticGet_UriSchemeMailto()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB60);
+		}
+
+		static ::System::String** StaticGet_UriSchemeFtp()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB68);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet__WSchars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB70);
+		}
+
+		static ::System::String** StaticGet_SchemeDelimiter()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB78);
+		}
+
+		static ::System::String** StaticGet_UriSchemeNews()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB80);
+		}
+
+		static ::System::String** StaticGet_UriSchemeHttp()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB88);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_HexLowerChars()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB90);
+		}
+
+		static ::System::String** StaticGet_UriSchemeNetTcp()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBB98);
+		}
+
+		static ::System::String** StaticGet_UriSchemeWss()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBBA0);
+		}
+
+		static ::System::String** StaticGet_UriSchemeGopher()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBBA8);
+		}
+
+		static ::System::String** StaticGet_UriSchemeFile()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBBB0);
+		}
+
+		static ::System::String** StaticGet_UriSchemeNntp()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBBB8);
+		}
+
+		static ::System::String** StaticGet_UriSchemeHttps()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBBC0);
+		}
+
+		static ::System::String** StaticGet_UriSchemeWs()
+		{
+			return (::System::String**)UnitySDK::FromName("System", "Uri")->GetStaticField(0xBBC8);
+		}
+
+		static ::System::Boolean* StaticGet_s_IriParsing()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "Uri")->GetStaticField(0x28F0);
+		}
+
+		static ::System::Boolean* StaticGet_s_ConfigInitializing()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "Uri")->GetStaticField(0x28F1);
+		}
+
+		static ::System::Boolean* StaticGet_IsWindowsFileSystem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "Uri")->GetStaticField(0x28F2);
+		}
+
+		static ::System::UriIdnScope* StaticGet_s_IdnScope()
+		{
+			return (::System::UriIdnScope*)UnitySDK::FromName("System", "Uri")->GetStaticField(0x28F4);
+		}
+
+		static ::System::Boolean* StaticGet_useDotNetRelativeOrAbsolute()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "Uri")->GetStaticField(0x28F8);
+		}
+
+		static ::System::Boolean* StaticGet_s_ConfigInitialized()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("System", "Uri")->GetStaticField(0x28F9);
+		}
 
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::UriKind a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UriKind))((::PBYTE)hIl2Cpp + SYSTEM_URI__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UriKind))((::PBYTE)hIl2Cpp + SYSTEM_URI_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::Uri* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Uri* a1, ::System::Uri* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URI__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_4(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_URI__CTOR_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_URI_CTOR_4_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_5(::System::Uri_Flags a1, ::System::UriParser* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Uri_Flags, ::System::UriParser*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI__CTOR_5_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Uri_Flags, ::System::UriParser*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CTOR_5_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_URI__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_URI_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_IsImplicitFile()
@@ -393,9 +414,9 @@ namespace System
 			return ((::System::Void(*)(::PVOID, ::System::Uri*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATEURI_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::ParsingError GetCombinedString(::System::Uri* a1, ::System::String* a2, ::System::Boolean a3, ::System::String*& a4)
+		static ::System::ParsingError GetCombinedString(::System::Uri* a1, ::System::String* a2, ::System::Boolean a3, ::System::String* a4)
 		{
-			return ((::System::ParsingError(*)(::System::Uri*, ::System::String*, ::System::Boolean, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_GETCOMBINEDSTRING_OFFSET))(a1, a2, a3, a4);
+			return ((::System::ParsingError(*)(::System::Uri*, ::System::String*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_GETCOMBINEDSTRING_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::UriFormatException* GetException(::System::ParsingError a1)
@@ -608,9 +629,9 @@ namespace System
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_INTERNALESCAPESTRING_OFFSET))(a1);
 		}
 
-		static ::System::ParsingError ParseScheme(::System::String* a1, ::System::Uri_Flags& a2, ::System::UriParser*& a3)
+		static ::System::ParsingError ParseScheme(::System::String* a1, ::System::Uri_Flags a2, ::System::UriParser* a3)
 		{
-			return ((::System::ParsingError(*)(::System::String*, ::System::Uri_Flags&, ::System::UriParser*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_PARSESCHEME_OFFSET))(a1, a2, a3);
+			return ((::System::ParsingError(*)(::System::String*, ::System::Uri_Flags, ::System::UriParser*))((::PBYTE)hIl2Cpp + SYSTEM_URI_PARSESCHEME_OFFSET))(a1, a2, a3);
 		}
 
 		::System::UriFormatException* ParseMinimal()
@@ -638,9 +659,9 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATEHOSTSTRING_OFFSET))(this);
 		}
 
-		static ::System::String* CreateHostStringHelper(::System::String* a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::Uri_Flags& a4, ::System::String*& a5)
+		static ::System::String* CreateHostStringHelper(::System::String* a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::Uri_Flags a4, ::System::String* a5)
 		{
-			return ((::System::String*(*)(::System::String*, ::System::UInt16, ::System::UInt16, ::System::Uri_Flags&, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATEHOSTSTRINGHELPER_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::String*(*)(::System::String*, ::System::UInt16, ::System::UInt16, ::System::Uri_Flags, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATEHOSTSTRINGHELPER_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Void GetHostViaCustomSyntax()
@@ -678,64 +699,64 @@ namespace System
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_URI_PARSEREMAINING_OFFSET))(this);
 		}
 
-		static ::System::UInt16 ParseSchemeCheckImplicitFile(::System::Char* a1, ::System::UInt16 a2, ::System::ParsingError& a3, ::System::Uri_Flags& a4, ::System::UriParser*& a5)
+		static ::System::UInt16 ParseSchemeCheckImplicitFile(::PVOID a1, ::System::UInt16 a2, ::System::ParsingError a3, ::System::Uri_Flags a4, ::System::UriParser* a5)
 		{
-			return ((::System::UInt16(*)(::System::Char*, ::System::UInt16, ::System::ParsingError&, ::System::Uri_Flags&, ::System::UriParser*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_PARSESCHEMECHECKIMPLICITFILE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::UInt16(*)(::PVOID, ::System::UInt16, ::System::ParsingError, ::System::Uri_Flags, ::System::UriParser*))((::PBYTE)hIl2Cpp + SYSTEM_URI_PARSESCHEMECHECKIMPLICITFILE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Boolean CheckKnownSchemes(::System::Int64* a1, ::System::UInt16 a2, ::System::UriParser*& a3)
+		static ::System::Boolean CheckKnownSchemes(::PVOID a1, ::System::UInt16 a2, ::System::UriParser* a3)
 		{
-			return ((::System::Boolean(*)(::System::Int64*, ::System::UInt16, ::System::UriParser*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKKNOWNSCHEMES_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt16, ::System::UriParser*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKKNOWNSCHEMES_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::ParsingError CheckSchemeSyntax(::System::Char* a1, ::System::UInt16 a2, ::System::UriParser*& a3)
+		static ::System::ParsingError CheckSchemeSyntax(::PVOID a1, ::System::UInt16 a2, ::System::UriParser* a3)
 		{
-			return ((::System::ParsingError(*)(::System::Char*, ::System::UInt16, ::System::UriParser*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKSCHEMESYNTAX_OFFSET))(a1, a2, a3);
+			return ((::System::ParsingError(*)(::PVOID, ::System::UInt16, ::System::UriParser*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKSCHEMESYNTAX_OFFSET))(a1, a2, a3);
 		}
 
-		::System::UInt16 CheckAuthorityHelper(::System::Char* a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::ParsingError& a4, ::System::Uri_Flags& a5, ::System::UriParser* a6, ::System::String*& a7)
+		::System::UInt16 CheckAuthorityHelper(::PVOID a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::ParsingError a4, ::System::Uri_Flags a5, ::System::UriParser* a6, ::System::String* a7)
 		{
-			return ((::System::UInt16(*)(::PVOID, ::System::Char*, ::System::UInt16, ::System::UInt16, ::System::ParsingError&, ::System::Uri_Flags&, ::System::UriParser*, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKAUTHORITYHELPER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::UInt16(*)(::PVOID, ::PVOID, ::System::UInt16, ::System::UInt16, ::System::ParsingError, ::System::Uri_Flags, ::System::UriParser*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKAUTHORITYHELPER_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void CheckAuthorityHelperHandleDnsIri(::System::Char* a1, ::System::UInt16 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Boolean a6, ::System::UriParser* a7, ::System::String* a8, ::System::Uri_Flags& a9, ::System::Boolean& a10, ::System::String*& a11, ::System::ParsingError& a12)
+		::System::Void CheckAuthorityHelperHandleDnsIri(::PVOID a1, ::System::UInt16 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Boolean a6, ::System::UriParser* a7, ::System::String* a8, ::System::Uri_Flags a9, ::System::Boolean a10, ::System::String* a11, ::System::ParsingError a12)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::UInt16, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::UriParser*, ::System::String*, ::System::Uri_Flags&, ::System::Boolean&, ::System::String*&, ::System::ParsingError&))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEDNSIRI_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::UInt16, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::UriParser*, ::System::String*, ::System::Uri_Flags, ::System::Boolean, ::System::String*, ::System::ParsingError))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEDNSIRI_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
-		::System::Void CheckAuthorityHelperHandleAnyHostIri(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::UriParser* a6, ::System::Uri_Flags& a7, ::System::String*& a8, ::System::ParsingError& a9)
+		::System::Void CheckAuthorityHelperHandleAnyHostIri(::PVOID a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4, ::System::Boolean a5, ::System::UriParser* a6, ::System::Uri_Flags a7, ::System::String* a8, ::System::ParsingError a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::UriParser*, ::System::Uri_Flags&, ::System::String*&, ::System::ParsingError&))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEANYHOSTIRI_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean, ::System::UriParser*, ::System::Uri_Flags, ::System::String*, ::System::ParsingError))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKAUTHORITYHELPERHANDLEANYHOSTIRI_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		::System::Void FindEndOfComponent(::System::String* a1, ::System::UInt16& a2, ::System::UInt16 a3, ::System::Char a4)
+		::System::Void FindEndOfComponent(::System::String* a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::Char a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt16&, ::System::UInt16, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_FINDENDOFCOMPONENT_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt16, ::System::UInt16, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_FINDENDOFCOMPONENT_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void FindEndOfComponent_1(::System::Char* a1, ::System::UInt16& a2, ::System::UInt16 a3, ::System::Char a4)
+		::System::Void FindEndOfComponent_1(::PVOID a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::Char a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::UInt16&, ::System::UInt16, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_FINDENDOFCOMPONENT_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::UInt16, ::System::UInt16, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_FINDENDOFCOMPONENT_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Uri_Check CheckCanonical(::System::Char* a1, ::System::UInt16& a2, ::System::UInt16 a3, ::System::Char a4)
+		::System::Uri_Check CheckCanonical(::PVOID a1, ::System::UInt16 a2, ::System::UInt16 a3, ::System::Char a4)
 		{
-			return ((::System::Uri_Check(*)(::PVOID, ::System::Char*, ::System::UInt16&, ::System::UInt16, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKCANONICAL_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Uri_Check(*)(::PVOID, ::PVOID, ::System::UInt16, ::System::UInt16, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKCANONICAL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Il2CppArray<::System::Char>* GetCanonicalPath(::Il2CppArray<::System::Char>* a1, ::System::Int32& a2, ::System::UriFormat a3)
+		::Il2CppArray<::System::Char>* GetCanonicalPath(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::UriFormat a3)
 		{
-			return ((::Il2CppArray<::System::Char>*(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32&, ::System::UriFormat))((::PBYTE)hIl2Cpp + SYSTEM_URI_GETCANONICALPATH_OFFSET))(this, a1, a2, a3);
+			return ((::Il2CppArray<::System::Char>*(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::UriFormat))((::PBYTE)hIl2Cpp + SYSTEM_URI_GETCANONICALPATH_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void UnescapeOnly(::System::Char* a1, ::System::Int32 a2, ::System::Int32& a3, ::System::Char a4, ::System::Char a5, ::System::Char a6)
+		static ::System::Void UnescapeOnly(::PVOID a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Char a4, ::System::Char a5, ::System::Char a6)
 		{
-			return ((::System::Void(*)(::System::Char*, ::System::Int32, ::System::Int32&, ::System::Char, ::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_UNESCAPEONLY_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Char, ::System::Char, ::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_UNESCAPEONLY_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::Il2CppArray<::System::Char>* Compress(::Il2CppArray<::System::Char>* a1, ::System::UInt16 a2, ::System::Int32& a3, ::System::UriParser* a4)
+		static ::Il2CppArray<::System::Char>* Compress(::Il2CppArray<::System::Char>* a1, ::System::UInt16 a2, ::System::Int32 a3, ::System::UriParser* a4)
 		{
-			return ((::Il2CppArray<::System::Char>*(*)(::Il2CppArray<::System::Char>*, ::System::UInt16, ::System::Int32&, ::System::UriParser*))((::PBYTE)hIl2Cpp + SYSTEM_URI_COMPRESS_OFFSET))(a1, a2, a3, a4);
+			return ((::Il2CppArray<::System::Char>*(*)(::Il2CppArray<::System::Char>*, ::System::UInt16, ::System::Int32, ::System::UriParser*))((::PBYTE)hIl2Cpp + SYSTEM_URI_COMPRESS_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Int32 CalculateCaseInsensitiveHashCode(::System::String* a1)
@@ -778,9 +799,9 @@ namespace System
 			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_URI_ISBIDICONTROLCHARACTER_OFFSET))(a1);
 		}
 
-		static ::System::String* StripBidiControlCharacter(::System::Char* a1, ::System::Int32 a2, ::System::Int32 a3)
+		static ::System::String* StripBidiControlCharacter(::PVOID a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::String*(*)(::System::Char*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_URI_STRIPBIDICONTROLCHARACTER_OFFSET))(a1, a2, a3);
+			return ((::System::String*(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_URI_STRIPBIDICONTROLCHARACTER_OFFSET))(a1, a2, a3);
 		}
 
 		::System::Void CreateThis(::System::String* a1, ::System::Boolean a2, ::System::UriKind a3)
@@ -788,9 +809,9 @@ namespace System
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::UriKind))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATETHIS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InitializeUri(::System::ParsingError a1, ::System::UriKind a2, ::System::UriFormatException*& a3)
+		::System::Void InitializeUri(::System::ParsingError a1, ::System::UriKind a2, ::System::UriFormatException* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ParsingError, ::System::UriKind, ::System::UriFormatException*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_INITIALIZEURI_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::ParsingError, ::System::UriKind, ::System::UriFormatException*))((::PBYTE)hIl2Cpp + SYSTEM_URI_INITIALIZEURI_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean CheckForConfigLoad(::System::String* a1)
@@ -808,9 +829,9 @@ namespace System
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CHECKFORESCAPEDUNRESERVED_OFFSET))(this, a1);
 		}
 
-		static ::System::Boolean TryCreate(::System::String* a1, ::System::UriKind a2, ::System::Uri*& a3)
+		static ::System::Boolean TryCreate(::System::String* a1, ::System::UriKind a2, ::System::Uri* a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::UriKind, ::System::Uri*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_TRYCREATE_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::UriKind, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URI_TRYCREATE_OFFSET))(a1, a2, a3);
 		}
 
 		::System::String* GetComponents(::System::UriComponents a1, ::System::UriFormat a2)
@@ -853,14 +874,14 @@ namespace System
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::Int32, ::System::Int32, ::System::UriComponents))((::PBYTE)hIl2Cpp + SYSTEM_URI_ESCAPEUNESCAPEIRI_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		static ::System::Uri* CreateHelper(::System::String* a1, ::System::Boolean a2, ::System::UriKind a3, ::System::UriFormatException*& a4)
+		static ::System::Uri* CreateHelper(::System::String* a1, ::System::Boolean a2, ::System::UriKind a3, ::System::UriFormatException* a4)
 		{
-			return ((::System::Uri*(*)(::System::String*, ::System::Boolean, ::System::UriKind, ::System::UriFormatException*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATEHELPER_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Uri*(*)(::System::String*, ::System::Boolean, ::System::UriKind, ::System::UriFormatException*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATEHELPER_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Uri* ResolveHelper(::System::Uri* a1, ::System::Uri* a2, ::System::String*& a3, ::System::Boolean& a4, ::System::UriFormatException*& a5)
+		static ::System::Uri* ResolveHelper(::System::Uri* a1, ::System::Uri* a2, ::System::String* a3, ::System::Boolean a4, ::System::UriFormatException* a5)
 		{
-			return ((::System::Uri*(*)(::System::Uri*, ::System::Uri*, ::System::String*&, ::System::Boolean&, ::System::UriFormatException*&))((::PBYTE)hIl2Cpp + SYSTEM_URI_RESOLVEHELPER_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Uri*(*)(::System::Uri*, ::System::Uri*, ::System::String*, ::System::Boolean, ::System::UriFormatException*))((::PBYTE)hIl2Cpp + SYSTEM_URI_RESOLVEHELPER_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::String* GetRelativeSerializationString(::System::UriFormat a1)
@@ -877,5 +898,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_URI_CREATETHISFROMURI_OFFSET))(this, a1);
 		}
+
 	};
 }

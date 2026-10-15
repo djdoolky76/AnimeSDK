@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CakeRaceCurveType.h"
+#include "unitysdk/RPG/MVector3.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class FloatCurve; }
+
+#define POPHFMPBKJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F7B10)
+
+	class POPHFMPBKJL : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::FloatCurve* NLIFDJHPHLP; // 0x10
+		::System::Single BJMAMHMCOEL; // 0x18
+		::System::Boolean IKNKOCPLCHE; // 0x1C
+		::System::Byte _padding0[0x3];
+		::System::Single FAFCKJNFKCE; // 0x20
+		::System::Single HLMHCCCJFBA; // 0x24
+		::RPG::MVector3 IJHDBLGLCMN; // 0x28
+		::RPG::GameCore::CakeRaceCurveType OJFNNJIGHDB; // 0x34
+		::System::Single IEHPFADHJFD; // 0x38
+		::RPG::MVector3 DLKMKNFJLIK; // 0x3C
+		::RPG::MVector3 GGPBJBIEBII; // 0x48
+		::System::Single MLKAGGJKCGN; // 0x54
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + POPHFMPBKJL_CTOR_OFFSET))(this);
+		}
+
+	};

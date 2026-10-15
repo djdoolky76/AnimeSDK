@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE86D3B0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE86D3A0)
-#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE86D540)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE90B540)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE90B6D0)
+#define RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE90B530)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LiveStreamSmallWindowClip_TypeDefinitionIndex = 48635;
-
 	class LiveStreamSmallWindowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean OpenSmallWindow; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -34,5 +30,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_LIVESTREAMSMALLWINDOWCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

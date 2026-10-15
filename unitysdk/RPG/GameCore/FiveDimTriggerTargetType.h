@@ -3,19 +3,17 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTriggerTargetType_TypeDefinitionIndex = 18426;
-
 	enum class FiveDimTriggerTargetType : ::System::UInt32
 	{
-		None = 0x0,
-		Player = 0x1,
-		Arrow = 0x2,
-		MascotFakePlayer = 0x4,
-		Gecko = 0x8,
-		FloatingSpirit = 0x10,
-		PlayerPhysicsProxy = 0x20,
-		MascotFakePlayerPhysicsProxy = 0x40,
-		CleanerBot = 0x80,
-		DragonDog = 0x100,
+		None = 0,
+		Player = 1,
+		Arrow = 2,
+		MascotFakePlayer = 4,
+		Gecko = 8,
+		FloatingSpirit = 16,
+		PlayerPhysicsProxy = 32,
+		MascotFakePlayerPhysicsProxy = 64,
+		CleanerBot = 128,
+		DragonDog = 256,
 	};
 }

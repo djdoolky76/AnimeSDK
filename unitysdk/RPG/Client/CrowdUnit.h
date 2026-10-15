@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class Effect_GPUCrowdAnimation; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CROWDUNIT_GET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0xCC811F0)
-#define RPG_CLIENT_CROWDUNIT_SET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0xCC81200)
-#define RPG_CLIENT_CROWDUNIT__CTOR_OFFSET UNITYSDK_OFFSET(0xCC81210)
+#define RPG_CLIENT_CROWDUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD47C0)
+#define RPG_CLIENT_CROWDUNIT_GET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0xCBD47A0)
+#define RPG_CLIENT_CROWDUNIT_SET_UNITGROUPIDX_OFFSET UNITYSDK_OFFSET(0xCBD47B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CrowdUnit_TypeDefinitionIndex = 70442;
-
 	class CrowdUnit : public ::System::Object
 	{
 	public:
@@ -25,11 +22,11 @@ namespace RPG::Client
 		::System::Single CurvePhaseOffset; // 0x3C
 		::RPG::Client::Effect_GPUCrowdAnimation* _Owner; // 0x40
 		::System::Int32 _UnitGroupIdx; // 0x48
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* _EditNode; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDUNIT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDUNIT_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_UnitGroupIdx()
@@ -41,5 +38,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDUNIT_SET_UNITGROUPIDX_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,0 +1,15 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace System { class String; }
+
+	struct alignas(8) CCGBBFBJLIE
+	{
+		::System::Int32 CEGOPEIKDLA; // 0x10
+		::System::Int32 KAPFPAKBGOK; // 0x14
+		::System::String* KDIOGNHBJNP; // 0x18
+		::System::String* AHBDPPDIIEM; // 0x20
+		::UnityEngine::Quaternion POHDKIIOAJB; // 0x28
+		::UnityEngine::Vector3 LBJPPLGGBNN; // 0x38
+	};

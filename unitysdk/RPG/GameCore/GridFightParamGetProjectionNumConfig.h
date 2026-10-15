@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightParamGetProjectionNumConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_METHOD_6_081F47479E2B4EFE_OFFSET UNITYSDK_OFFSET(0x1D15DA50)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_METHOD_6_CDADAC9028ADEFE2_OFFSET UNITYSDK_OFFSET(0x1D15DA00)
-#define RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15DA40)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D738830)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D738840)
+#define RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7387F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightParamGetProjectionNumConfig_TypeDefinitionIndex = 19289;
-
 	class GridFightParamGetProjectionNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_CDADAC9028ADEFE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetProjectionNumConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetProjectionNumConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetProjectionNumConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_METHOD_6_CDADAC9028ADEFE2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetProjectionNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_081F47479E2B4EFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightParamGetProjectionNumConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightParamGetProjectionNumConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightParamGetProjectionNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_METHOD_6_081F47479E2B4EFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightParamGetProjectionNumConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPARAMGETPROJECTIONNUMCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

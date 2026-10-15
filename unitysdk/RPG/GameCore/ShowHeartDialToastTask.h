@@ -1,31 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 namespace RPG::GameCore { class ShowHeartDialToast; }
 namespace RPG::GameCore { class TaskContext; }
-namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6F1230)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6F1270)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6F13F0)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE6F1440)
-#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE6F1220)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE74C980)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE74C990)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE74C9D0)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE74CB60)
+#define RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE74CBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHeartDialToastTask_TypeDefinitionIndex = 53530;
-
-	class ShowHeartDialToastTask : public ::Class_1_5F51D4049EA87B7B
+	class ShowHeartDialToastTask : public ::GELIALJDFBL
 	{
 	public:
+		::RPG::GameCore::ShowHeartDialToast* _ConfigRef; // 0x18
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
 		// static const ::System::String* _FADE_OUT_ANIM_PARAM; // 0x0
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
-		::RPG::GameCore::ShowHeartDialToast* _ConfigRef; // 0x20
-
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowHeartDialToast* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowHeartDialToast*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHEARTDIALTOASTTASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowHeartDialToast*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -47,5 +42,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHEARTDIALTOASTTASK_TICK_OFFSET))(this, a1);
 		}
+
 	};
 }

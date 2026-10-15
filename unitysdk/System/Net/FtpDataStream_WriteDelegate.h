@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E97B040)
-#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E97B250)
-#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E97B7C0)
-#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E97B740)
+#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F043BE0)
+#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0442E0)
+#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F043DF0)
+#define SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F044360)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int FtpDataStream_WriteDelegate_TypeDefinitionIndex = 2839;
-
 	class FtpDataStream_WriteDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -37,5 +34,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_NET_FTPDATASTREAM_WRITEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

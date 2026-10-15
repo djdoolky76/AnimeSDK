@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TreasureDungeonBaseGrid.h"
-
 namespace RPG::GameCore { class TreasureDungeonItemConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TREASUREDUNGEONITEMGRID_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xE29EAB0)
-#define RPG_CLIENT_TREASUREDUNGEONITEMGRID_GET_ISBUFF_OFFSET UNITYSDK_OFFSET(0xE29EBD0)
-#define RPG_CLIENT_TREASUREDUNGEONITEMGRID_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0xE29EA50)
-#define RPG_CLIENT_TREASUREDUNGEONITEMGRID__CTOR_OFFSET UNITYSDK_OFFSET(0xE29AFF0)
+#define RPG_CLIENT_TREASUREDUNGEONITEMGRID_CTOR_OFFSET UNITYSDK_OFFSET(0xE324600)
+#define RPG_CLIENT_TREASUREDUNGEONITEMGRID_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xE3243D0)
+#define RPG_CLIENT_TREASUREDUNGEONITEMGRID_GET_ISBUFF_OFFSET UNITYSDK_OFFSET(0xE3244F0)
+#define RPG_CLIENT_TREASUREDUNGEONITEMGRID_GET_ITEMROW_OFFSET UNITYSDK_OFFSET(0xE324370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureDungeonItemGrid_TypeDefinitionIndex = 68186;
-
 	class TreasureDungeonItemGrid : public ::RPG::Client::TreasureDungeonBaseGrid
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEMGRID__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEMGRID_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::TreasureDungeonItemConfigRow* get_ItemRow()
@@ -36,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONITEMGRID_GET_ISBUFF_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,56 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class AccountPlatformPlugin; }
 namespace MiHoYo::SDK { class AccountPlatformPlugin_MessageHandler; }
 namespace MiHoYo::SDK { class AccountPlatformPlugin_Notification; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_CONFIGSYNCWITHNATIVE_OFFSET UNITYSDK_OFFSET(0x1B72B870)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ENABLENATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x1B72B8A0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B72B5C0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0x1B72B890)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B72B860)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ISPLUGINREGISTERED_OFFSET UNITYSDK_OFFSET(0x1B72B820)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ISTASKSREGISTERED_OFFSET UNITYSDK_OFFSET(0x1B72BA10)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ONRECEIVEDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B72BC70)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_REGISTERMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B72B8B0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_REGISTERNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1B72B880)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B72B7E0)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B72BF90)
-#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72B720)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC29B50)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_CONFIGSYNCWITHNATIVE_OFFSET UNITYSDK_OFFSET(0x1BC29430)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC292E0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ENABLENATIVEHANDLE_OFFSET UNITYSDK_OFFSET(0x1BC29460)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC29180)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0x1BC29450)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC29420)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ISPLUGINREGISTERED_OFFSET UNITYSDK_OFFSET(0x1BC293E0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ISTASKSREGISTERED_OFFSET UNITYSDK_OFFSET(0x1BC295D0)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ONRECEIVEDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BC29830)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_REGISTERMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BC29470)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_REGISTERNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1BC29440)
+#define MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BC293A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatformPlugin_TypeDefinitionIndex = 7925;
-
 	class AccountPlatformPlugin : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* m_dicMessageName2Handler; // 0x10
+		::System::Boolean m_bIsRegisteredNotification; // 0x18
 		static ::MiHoYo::SDK::AccountPlatformPlugin** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::AccountPlatformPlugin**)Il2CppClass::FromTypeDefinitionIndex(AccountPlatformPlugin_TypeDefinitionIndex)->GetStaticField(0x3190);
+			return (::MiHoYo::SDK::AccountPlatformPlugin**)UnitySDK::FromName("MiHoYo.SDK", "AccountPlatformPlugin")->GetStaticField(0x2F7A0);
 		}
+
 		static ::System::Boolean* StaticGet_sm_bIsRegistered()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AccountPlatformPlugin_TypeDefinitionIndex)->GetStaticField(0x11B0);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "AccountPlatformPlugin")->GetStaticField(0x9DB0);
 		}
+
 		// static const ::System::String* CHECK_REGISTER_TASK; // 0x0
 		// static const ::System::String* NOTIFICATION_EVENT; // 0x0
 		// static const ::System::String* NOTIFICATION_PARAM; // 0x0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler*>* m_dicMessageName2Handler; // 0x10
-		::System::Boolean m_bIsRegisteredNotification; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_CCTOR_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::AccountPlatformPlugin* get_Instance()
@@ -68,9 +68,9 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ISPLUGINREGISTERED_OFFSET))();
 		}
 
-		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
+		::System::Void Invoke(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void ConfigSyncWithNative(::System::String* a1, ::System::String* a2)
@@ -107,5 +107,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATFORMPLUGIN_ONRECEIVEDMESSAGE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,21 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureAttackDetectShapeConfig; }
 namespace RPG::GameCore { class AdventureHitConfig; }
+namespace RPG::GameCore { class AdventureLoopAttackDetect; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_METHOD_3_6B8EF017C5473A5E_OFFSET UNITYSDK_OFFSET(0x1CDF28B0)
-#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_METHOD_3_7D7E2D5C697AD278_OFFSET UNITYSDK_OFFSET(0x1CDF2970)
-#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF2920)
+#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C8B30)
+#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3C8B80)
+#define RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C8AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureLoopAttackDetect_TypeDefinitionIndex = 19962;
-
 	class AdventureLoopAttackDetect : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -26,22 +25,23 @@ namespace RPG::GameCore
 		::System::Boolean IncludeProps; // 0x38
 		::System::Boolean DelayDirectKill; // 0x39
 		::System::Boolean DelayHitPerform; // 0x3A
+		::System::Byte _padding0[0x5];
 		::RPG::GameCore::DynamicFloat* Duration; // 0x40
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnHit; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURELOOPATTACKDETECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6B8EF017C5473A5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureLoopAttackDetect*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureLoopAttackDetect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureLoopAttackDetect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_METHOD_3_6B8EF017C5473A5E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureLoopAttackDetect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7D7E2D5C697AD278(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureLoopAttackDetect* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureLoopAttackDetect* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureLoopAttackDetect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_METHOD_3_7D7E2D5C697AD278_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureLoopAttackDetect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURELOOPATTACKDETECT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

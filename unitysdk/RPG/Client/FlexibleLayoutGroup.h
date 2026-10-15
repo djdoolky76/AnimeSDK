@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/UI/GridLayoutGroup_RowColumnPair.h"
 #include "unitysdk/UnityEngine/UI/LayoutGroup.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_CALCULATELAYOUTINPUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0xD0A0BD0)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_CALCULATELAYOUTINPUTVERTICAL_OFFSET UNITYSDK_OFFSET(0xD0A1830)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GETGREATESTMINIMUMCHILDWIDTH_OFFSET UNITYSDK_OFFSET(0xD0A0C90)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_RECORDMINCOUNTHORIZONAL_OFFSET UNITYSDK_OFFSET(0xD0A0950)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_RECORDMINCOUNTVERTICAL_OFFSET UNITYSDK_OFFSET(0xD0A0990)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNINDEX_OFFSET UNITYSDK_OFFSET(0xD0A09D0)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNREVERSEINDEX_OFFSET UNITYSDK_OFFSET(0xD0A0A20)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_1D4018D4200358D0_1_OFFSET UNITYSDK_OFFSET(0xD0A0AD0)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xD0A0A70)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0xD0A0B80)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0xD0A0B30)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_4F8E06786E479E28_OFFSET UNITYSDK_OFFSET(0xD0A19D0)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_D66617C59550EB9B_OFFSET UNITYSDK_OFFSET(0xD0A18B0)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_SETLAYOUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0xD0A0D70)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_SETLAYOUTVERTICAL_OFFSET UNITYSDK_OFFSET(0xD0A17B0)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_SETLAYOUT_OFFSET UNITYSDK_OFFSET(0xD0A0DF0)
-#define RPG_CLIENT_FLEXIBLELAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A2440)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_CALCULATELAYOUTINPUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0xD041610)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_CALCULATELAYOUTINPUTVERTICAL_OFFSET UNITYSDK_OFFSET(0xD042440)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xD0430D0)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_DIMCBLMBAAK_OFFSET UNITYSDK_OFFSET(0xD0414B0)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_DNPHABMKIGK_OFFSET UNITYSDK_OFFSET(0xD041570)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GETGREATESTMINIMUMCHILDWIDTH_OFFSET UNITYSDK_OFFSET(0xD0416D0)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_RECORDMINCOUNTHORIZONAL_OFFSET UNITYSDK_OFFSET(0xD041390)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_RECORDMINCOUNTVERTICAL_OFFSET UNITYSDK_OFFSET(0xD0413D0)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNINDEX_OFFSET UNITYSDK_OFFSET(0xD041410)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNREVERSEINDEX_OFFSET UNITYSDK_OFFSET(0xD041460)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_HADMHHMGJEO_OFFSET UNITYSDK_OFFSET(0xD0415C0)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_LJIDACPMHBO_OFFSET UNITYSDK_OFFSET(0xD042660)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_NKAMCNNDHGD_OFFSET UNITYSDK_OFFSET(0xD041510)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_PJBLEGIOGCM_OFFSET UNITYSDK_OFFSET(0xD042540)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_SETLAYOUTHORIZONTAL_OFFSET UNITYSDK_OFFSET(0xD0417B0)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_SETLAYOUTVERTICAL_OFFSET UNITYSDK_OFFSET(0xD042340)
+#define RPG_CLIENT_FLEXIBLELAYOUTGROUP_SETLAYOUT_OFFSET UNITYSDK_OFFSET(0xD0418A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlexibleLayoutGroup_TypeDefinitionIndex = 72460;
-
 	class FlexibleLayoutGroup : public ::UnityEngine::UI::LayoutGroup
 	{
 	public:
@@ -36,16 +33,17 @@ namespace RPG::Client
 		::System::Single MJNOHLADEJJ; // 0x68
 		::System::Boolean ChildForceExpandHeight; // 0x6C
 		::System::Boolean ChildForceExpandWidth; // 0x6D
+		::System::Byte _padding0[0x2];
 		::System::Single Spacing; // 0x70
 		::System::Boolean recordIndex; // 0x74
+		::System::Byte _padding1[0x3];
 		::System::Int32 LFJHNMMIAFG; // 0x78
 		::System::Int32 CHGPHJDOJNH; // 0x7C
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::GridLayoutGroup_RowColumnPair, ::UnityEngine::RectTransform*>* MIBIEJHHCBH; // 0x80
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::GridLayoutGroup_RowColumnPair>* FGFPBCJLMMI; // 0x88
-
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::RectTransform*>* MIBIEJHHCBH; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* FGFPBCJLMMI; // 0x88
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_RecordMinCountHorizonal()
@@ -58,34 +56,34 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_RECORDMINCOUNTVERTICAL_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::GridLayoutGroup_RowColumnPair, ::UnityEngine::RectTransform*>* get_RowColumnIndex()
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::RectTransform*>* get_RowColumnIndex()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::GridLayoutGroup_RowColumnPair, ::UnityEngine::RectTransform*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNINDEX_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::RectTransform*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNINDEX_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::GridLayoutGroup_RowColumnPair>* get_RowColumnReverseIndex()
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* get_RowColumnReverseIndex()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::GridLayoutGroup_RowColumnPair>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNREVERSEINDEX_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_GET_ROWCOLUMNREVERSEINDEX_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_1D4018D4200358D0()
+		::System::Boolean DIMCBLMBAAK()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_1D4018D4200358D0_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_DIMCBLMBAAK_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_1D4018D4200358D0_1()
+		::System::Boolean NKAMCNNDHGD()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_1D4018D4200358D0_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_NKAMCNNDHGD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_391A84BCD9F51317()
+		::System::Boolean DNPHABMKIGK()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_391A84BCD9F51317_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_DNPHABMKIGK_OFFSET))(this);
 		}
 
-		::System::Boolean Method_7_391A84BCD9F51317_1()
+		::System::Boolean HADMHHMGJEO()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_391A84BCD9F51317_1_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_HADMHHMGJEO_OFFSET))(this);
 		}
 
 		::System::Void CalculateLayoutInputHorizontal()
@@ -113,19 +111,20 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_SETLAYOUT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Single Method_7_D66617C59550EB9B(::System::Single a1, ::System::Single a2, ::System::Single a3)
+		::System::Single PJBLEGIOGCM(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_D66617C59550EB9B_OFFSET))(this, a1, a2, a3);
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_PJBLEGIOGCM_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_7_4F8E06786E479E28(::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Int32 a7)
+		::System::Void LJIDACPMHBO(::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* a1, ::System::Single a2, ::System::Single a3, ::System::Single a4, ::System::Single a5, ::System::Single a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_METHOD_7_4F8E06786E479E28_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_LJIDACPMHBO_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Single GetGreatestMinimumChildWidth()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLEXIBLELAYOUTGROUP_GETGREATESTMINIMUMCHILDWIDTH_OFFSET))(this);
 		}
+
 	};
 }

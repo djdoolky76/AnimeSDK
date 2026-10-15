@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-#include "unitysdk/System/ValueTuple_2.h"
-
+#include "unitysdk/System/ValueTuple.h"
 namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnRenderImageHandler; }
 namespace UnityEngine { class RenderTexture; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_GETONRENDERIMAGEASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1EA6F790)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_GETONRENDERIMAGEASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1EA6F6B0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EA6F9D0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_OFFSET UNITYSDK_OFFSET(0x1EA6F7F0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGE_OFFSET UNITYSDK_OFFSET(0x1EA6F630)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6FB50)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F137340)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_GETONRENDERIMAGEASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1F136F90)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_GETONRENDERIMAGEASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1F136EC0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_1_OFFSET UNITYSDK_OFFSET(0x1F1371C0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_OFFSET UNITYSDK_OFFSET(0x1F136FF0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGE_OFFSET UNITYSDK_OFFSET(0x1F136E40)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncRenderImageTrigger_TypeDefinitionIndex = 43004;
-
-	class AsyncRenderImageTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*>>
+	class AsyncRenderImageTrigger
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnRenderImage(::UnityEngine::RenderTexture* a1, ::UnityEngine::RenderTexture* a2)
@@ -42,14 +38,15 @@ namespace Cysharp::Threading::Tasks::Triggers
 			return ((::Cysharp::Threading::Tasks::Triggers::IAsyncOnRenderImageHandler*(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_GETONRENDERIMAGEASYNCHANDLER_1_OFFSET))(this, a1);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*>> OnRenderImageAsync()
+		::Cysharp::Threading::Tasks::UniTask OnRenderImageAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*>>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*>> OnRenderImageAsync_1(::System::Threading::CancellationToken a1)
+		::Cysharp::Threading::Tasks::UniTask OnRenderImageAsync_1(::System::Threading::CancellationToken a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*>>(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_1_OFFSET))(this, a1);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCRENDERIMAGETRIGGER_ONRENDERIMAGEASYNC_1_OFFSET))(this, a1);
 		}
+
 	};
 }

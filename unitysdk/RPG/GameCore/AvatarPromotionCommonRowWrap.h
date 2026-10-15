@@ -2,17 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EAvatarPromotionCommonRowWrap.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class IAvatarPromotionCommonRowWrap; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE517150)
-#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE516ED0)
+#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE5AB250)
+#define RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE5AAFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPromotionCommonRowWrap_TypeDefinitionIndex = 56728;
-
 	class AvatarPromotionCommonRowWrap : public ::System::Object
 	{
 	public:
@@ -25,5 +22,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::GameCore::IAvatarPromotionCommonRowWrap*>*(*)(::RPG::GameCore::EAvatarPromotionCommonRowWrap))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPROMOTIONCOMMONROWWRAP_GETALLWRAPDATA_OFFSET))(a1);
 		}
+
 	};
 }

@@ -3,27 +3,24 @@
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Yoga/YogaMeasureMode.h"
 #include "unitysdk/UnityEngine/Yoga/YogaSize.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Yoga { class YogaNode; }
 
-#define UNITYENGINE_YOGA_MEASUREFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EE01030)
-#define UNITYENGINE_YOGA_MEASUREFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EE01110)
-#define UNITYENGINE_YOGA_MEASUREFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EE00FF0)
-#define UNITYENGINE_YOGA_MEASUREFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE00F00)
+#define UNITYENGINE_YOGA_MEASUREFUNCTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F4CA280)
+#define UNITYENGINE_YOGA_MEASUREFUNCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4CA150)
+#define UNITYENGINE_YOGA_MEASUREFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F4CA360)
+#define UNITYENGINE_YOGA_MEASUREFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F4CA240)
 
 namespace UnityEngine::Yoga
 {
-	inline static constexpr unsigned int MeasureFunction_TypeDefinitionIndex = 5857;
-
 	class MeasureFunction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_MEASUREFUNCTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_MEASUREFUNCTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Yoga::YogaSize Invoke(::UnityEngine::Yoga::YogaNode* a1, ::System::Single a2, ::UnityEngine::Yoga::YogaMeasureMode a3, ::System::Single a4, ::UnityEngine::Yoga::YogaMeasureMode a5)
@@ -40,5 +37,6 @@ namespace UnityEngine::Yoga
 		{
 			return ((::UnityEngine::Yoga::YogaSize(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_YOGA_MEASUREFUNCTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

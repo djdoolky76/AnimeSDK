@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xE80B460)
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE80B480)
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xE80B5C0)
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE80B500)
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xE80B470)
-#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE80B620)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8F30)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xE8A8D70)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8A8D90)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xE8A8ED0)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8A8E10)
+#define RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xE8A8D80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ActiveTimelineBehaviour_TypeDefinitionIndex = 48245;
-
 	class ActiveTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean Active; // 0x10
 		::System::Boolean firstFrame; // 0x11
+		::System::Byte _padding0[0x6];
 		::UnityEngine::GameObject* go; // 0x18
 		::System::Boolean _IsFinished_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsFinished()
@@ -55,5 +52,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVETIMELINEBEHAVIOUR_ONPLAYABLEDESTROY_OFFSET))(this, a1);
 		}
+
 	};
 }

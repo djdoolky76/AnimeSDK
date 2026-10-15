@@ -4,15 +4,14 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnumMaxValueHelper_1_TypeDefinitionIndex = 53918;
-
-	template <typename E>
+	template <typename T>
 	class EnumMaxValueHelper_1 : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_MaxValue()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnumMaxValueHelper_1_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "EnumMaxValueHelper`1")->GetStaticField(0x0);
 		}
+
 	};
 }

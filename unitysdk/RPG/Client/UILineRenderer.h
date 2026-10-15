@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/UILineRenderer_Curve.h"
+#include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
+#include "unitysdk/RPG/Client/UILineRenderer_Curve.h"
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Mesh; }
@@ -16,59 +16,45 @@ namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UILINERENDERER_ADDHEADOUTLINE_OFFSET UNITYSDK_OFFSET(0xE36BFD0)
-#define RPG_CLIENT_UILINERENDERER_ADDTAILOUTLINE_OFFSET UNITYSDK_OFFSET(0xE36D910)
-#define RPG_CLIENT_UILINERENDERER_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE367470)
-#define RPG_CLIENT_UILINERENDERER_GENERATEBEZIERCURVE_1_OFFSET UNITYSDK_OFFSET(0xE366A00)
-#define RPG_CLIENT_UILINERENDERER_GENERATEBEZIERCURVE_OFFSET UNITYSDK_OFFSET(0xE366970)
-#define RPG_CLIENT_UILINERENDERER_GETPRESERVEZCOORDINATE_OFFSET UNITYSDK_OFFSET(0xE36FBB0)
-#define RPG_CLIENT_UILINERENDERER_GETSOURCEMESH_OFFSET UNITYSDK_OFFSET(0xE36F9C0)
-#define RPG_CLIENT_UILINERENDERER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xE365FC0)
-#define RPG_CLIENT_UILINERENDERER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE36F1D0)
-#define RPG_CLIENT_UILINERENDERER_INTERPOLATEPOINTS_OFFSET UNITYSDK_OFFSET(0xE36B910)
-#define RPG_CLIENT_UILINERENDERER_ISUSINGMESHDATA_OFFSET UNITYSDK_OFFSET(0xE36FAB0)
-#define RPG_CLIENT_UILINERENDERER_LOADPOINTSFROMTEXTFILE_OFFSET UNITYSDK_OFFSET(0xE36F4D0)
-#define RPG_CLIENT_UILINERENDERER_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0xE3678F0)
-#define RPG_CLIENT_UILINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE36F480)
-#define RPG_CLIENT_UILINERENDERER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE367BD0)
-#define RPG_CLIENT_UILINERENDERER_POPULATEMESHFROMASSET_OFFSET UNITYSDK_OFFSET(0xE36ACA0)
-#define RPG_CLIENT_UILINERENDERER_REFRESHMESHDATA_OFFSET UNITYSDK_OFFSET(0xE36FC00)
-#define RPG_CLIENT_UILINERENDERER_SETHANDLEPROGRESS_OFFSET UNITYSDK_OFFSET(0xE366340)
-#define RPG_CLIENT_UILINERENDERER_SETLINEPOINTS_1_OFFSET UNITYSDK_OFFSET(0xE367030)
-#define RPG_CLIENT_UILINERENDERER_SETLINEPOINTS_2_OFFSET UNITYSDK_OFFSET(0xE3672A0)
-#define RPG_CLIENT_UILINERENDERER_SETLINEPOINTS_OFFSET UNITYSDK_OFFSET(0xE366E00)
-#define RPG_CLIENT_UILINERENDERER_SETMATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0xE367540)
-#define RPG_CLIENT_UILINERENDERER_SETPOINTDATA_OFFSET UNITYSDK_OFFSET(0xE36BD40)
-#define RPG_CLIENT_UILINERENDERER_SETPRESERVEZCOORDINATE_OFFSET UNITYSDK_OFFSET(0xE36FB00)
-#define RPG_CLIENT_UILINERENDERER_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE366140)
-#define RPG_CLIENT_UILINERENDERER_SETRECTTRANSFORMSIZEDELTA_OFFSET UNITYSDK_OFFSET(0xE367630)
-#define RPG_CLIENT_UILINERENDERER_SETSOURCEMESH_OFFSET UNITYSDK_OFFSET(0xE36F920)
-#define RPG_CLIENT_UILINERENDERER_SETUSEMESHDATA_OFFSET UNITYSDK_OFFSET(0xE36FA10)
-#define RPG_CLIENT_UILINERENDERER_UPDATEBEZIERCURVES_OFFSET UNITYSDK_OFFSET(0xE366740)
-#define RPG_CLIENT_UILINERENDERER_UPDATERECT_1_OFFSET UNITYSDK_OFFSET(0xE366D80)
-#define RPG_CLIENT_UILINERENDERER_UPDATERECT_OFFSET UNITYSDK_OFFSET(0xE3677E0)
-#define RPG_CLIENT_UILINERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE36FF30)
-#define RPG_CLIENT_UILINERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xE36FCA0)
+#define RPG_CLIENT_UILINERENDERER_ADDHEADOUTLINE_OFFSET UNITYSDK_OFFSET(0xE3AE120)
+#define RPG_CLIENT_UILINERENDERER_ADDTAILOUTLINE_OFFSET UNITYSDK_OFFSET(0xE3AFA60)
+#define RPG_CLIENT_UILINERENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3B2080)
+#define RPG_CLIENT_UILINERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xE3B1DF0)
+#define RPG_CLIENT_UILINERENDERER_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE3A9600)
+#define RPG_CLIENT_UILINERENDERER_GENERATEBEZIERCURVE_1_OFFSET UNITYSDK_OFFSET(0xE3A8B90)
+#define RPG_CLIENT_UILINERENDERER_GENERATEBEZIERCURVE_OFFSET UNITYSDK_OFFSET(0xE3A8B00)
+#define RPG_CLIENT_UILINERENDERER_GETPRESERVEZCOORDINATE_OFFSET UNITYSDK_OFFSET(0xE3B1D00)
+#define RPG_CLIENT_UILINERENDERER_GETSOURCEMESH_OFFSET UNITYSDK_OFFSET(0xE3B1B10)
+#define RPG_CLIENT_UILINERENDERER_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0xE3A8150)
+#define RPG_CLIENT_UILINERENDERER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE3B1320)
+#define RPG_CLIENT_UILINERENDERER_INTERPOLATEPOINTS_OFFSET UNITYSDK_OFFSET(0xE3ADA60)
+#define RPG_CLIENT_UILINERENDERER_ISUSINGMESHDATA_OFFSET UNITYSDK_OFFSET(0xE3B1C00)
+#define RPG_CLIENT_UILINERENDERER_LOADPOINTSFROMTEXTFILE_OFFSET UNITYSDK_OFFSET(0xE3B1620)
+#define RPG_CLIENT_UILINERENDERER_ONDIDAPPLYANIMATIONPROPERTIES_OFFSET UNITYSDK_OFFSET(0xE3A9A40)
+#define RPG_CLIENT_UILINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE3B15D0)
+#define RPG_CLIENT_UILINERENDERER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE3A9D20)
+#define RPG_CLIENT_UILINERENDERER_POPULATEMESHFROMASSET_OFFSET UNITYSDK_OFFSET(0xE3ACDF0)
+#define RPG_CLIENT_UILINERENDERER_REFRESHMESHDATA_OFFSET UNITYSDK_OFFSET(0xE3B1D50)
+#define RPG_CLIENT_UILINERENDERER_SETHANDLEPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3A84D0)
+#define RPG_CLIENT_UILINERENDERER_SETLINEPOINTS_1_OFFSET UNITYSDK_OFFSET(0xE3A91C0)
+#define RPG_CLIENT_UILINERENDERER_SETLINEPOINTS_2_OFFSET UNITYSDK_OFFSET(0xE3A9430)
+#define RPG_CLIENT_UILINERENDERER_SETLINEPOINTS_OFFSET UNITYSDK_OFFSET(0xE3A8F90)
+#define RPG_CLIENT_UILINERENDERER_SETMATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0xE3A96D0)
+#define RPG_CLIENT_UILINERENDERER_SETPOINTDATA_OFFSET UNITYSDK_OFFSET(0xE3ADE90)
+#define RPG_CLIENT_UILINERENDERER_SETPRESERVEZCOORDINATE_OFFSET UNITYSDK_OFFSET(0xE3B1C50)
+#define RPG_CLIENT_UILINERENDERER_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3A82D0)
+#define RPG_CLIENT_UILINERENDERER_SETRECTTRANSFORMSIZEDELTA_OFFSET UNITYSDK_OFFSET(0xE3A97C0)
+#define RPG_CLIENT_UILINERENDERER_SETSOURCEMESH_OFFSET UNITYSDK_OFFSET(0xE3B1A70)
+#define RPG_CLIENT_UILINERENDERER_SETUSEMESHDATA_OFFSET UNITYSDK_OFFSET(0xE3B1B60)
+#define RPG_CLIENT_UILINERENDERER_UPDATEBEZIERCURVES_OFFSET UNITYSDK_OFFSET(0xE3A88D0)
+#define RPG_CLIENT_UILINERENDERER_UPDATERECT_1_OFFSET UNITYSDK_OFFSET(0xE3A8F10)
+#define RPG_CLIENT_UILINERENDERER_UPDATERECT_OFFSET UNITYSDK_OFFSET(0xE3A9930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UILineRenderer_TypeDefinitionIndex = 72619;
-
 	class UILineRenderer : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
-		static ::UnityEngine::Vector3* StaticGet_UINormal()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UILineRenderer_TypeDefinitionIndex)->GetStaticField(0x14150);
-		}
-		static ::System::Int32* StaticGet__PercentShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(UILineRenderer_TypeDefinitionIndex)->GetStaticField(0x1415C);
-		}
-		static ::UnityEngine::Vector4* StaticGet_UITangent()
-		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UILineRenderer_TypeDefinitionIndex)->GetStaticField(0x14160);
-		}
 		::UnityEngine::Sprite* sprite; // 0xF0
 		::UnityEngine::Color fillColor; // 0xF8
 		::Il2CppArray<::UnityEngine::Vector2>* inPositionArray; // 0x108
@@ -76,22 +62,27 @@ namespace RPG::Client
 		::UnityEngine::Mesh* sourceMesh; // 0x118
 		::System::Boolean useMeshData; // 0x120
 		::System::Boolean preserveZCoordinate; // 0x121
-		::System::Collections::Generic::List_1<::RPG::Client::UILineRenderer_Curve>* curves; // 0x128
+		::System::Byte _padding0[0x6];
+		::System::Collections::Generic::List_1<::System::Object*>* curves; // 0x128
 		::System::Int32 roundMaxDistance; // 0x130
 		::System::Single roundDistance; // 0x134
 		::System::Boolean roundCap; // 0x138
 		::System::Boolean showHandles; // 0x139
 		::System::Boolean isClosed; // 0x13A
+		::System::Byte _padding1[0x1];
 		::System::Int32 lineWidth; // 0x13C
 		::System::Single antiAliasing; // 0x140
 		::System::Boolean onlyAliasing; // 0x144
+		::System::Byte _padding2[0x3];
 		::System::Single headAliasingOffset; // 0x148
 		::System::Single tailAliasingOffset; // 0x14C
 		::System::Boolean enableVertexOffset; // 0x150
+		::System::Byte _padding3[0x3];
 		::UnityEngine::Vector3 innerVertexOffset; // 0x154
 		::UnityEngine::Vector3 outerVertexOffset; // 0x160
 		::System::Single percent; // 0x16C
 		::System::Boolean autoHandleRotation; // 0x170
+		::System::Byte _padding4[0x7];
 		::UnityEngine::GameObject* handleObj; // 0x178
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2>* outPositionList; // 0x180
 		::Il2CppArray<::UnityEngine::Vector2>* posNormals; // 0x188
@@ -101,15 +92,29 @@ namespace RPG::Client
 		::UnityEngine::Rect rect; // 0x1A8
 		::System::Single length; // 0x1B8
 		::System::Single _lastPercent; // 0x1BC
+		static ::System::Int32* StaticGet__PercentShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "UILineRenderer")->GetStaticField(0xBFD0);
+		}
+
+		static ::UnityEngine::Vector4* StaticGet_UITangent()
+		{
+			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.Client", "UILineRenderer")->GetStaticField(0xBFD4);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_UINormal()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "UILineRenderer")->GetStaticField(0xBFE4);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_CCTOR_OFFSET))();
 		}
 
 		::System::Single get_Length()
@@ -202,14 +207,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_ADDTAILOUTLINE_OFFSET))(this, a1);
 		}
 
-		::System::Void InterpolatePoints(::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::System::Single a5, ::System::Int32 a6)
+		::System::Void InterpolatePoints(::System::Object* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::System::Single a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*&, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_INTERPOLATEPOINTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_INTERPOLATEPOINTS_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SetPointData(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2& a3, ::UnityEngine::Vector2& a4, ::UnityEngine::Vector2& a5, ::UnityEngine::Vector2& a6, ::System::Single& a7)
+		::System::Void SetPointData(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3, ::UnityEngine::Vector2 a4, ::UnityEngine::Vector2 a5, ::UnityEngine::Vector2 a6, ::System::Single a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&, ::UnityEngine::Vector2&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_SETPOINTDATA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_SETPOINTDATA_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::UnityEngine::Texture* get_mainTexture()
@@ -266,5 +271,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UILINERENDERER_REFRESHMESHDATA_OFFSET))(this);
 		}
+
 	};
 }

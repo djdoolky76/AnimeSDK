@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUPDATER_RUNTIMEINIT_OFFSET UNITYSDK_OFFSET(0x1EBF91B0)
-#define UNITYENGINE_RENDERING_DEBUGUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EBF9260)
-#define UNITYENGINE_RENDERING_DEBUGUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF96C0)
+#define UNITYENGINE_RENDERING_DEBUGUPDATER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C1020)
+#define UNITYENGINE_RENDERING_DEBUGUPDATER_RUNTIMEINIT_OFFSET UNITYSDK_OFFSET(0x1F2C0B10)
+#define UNITYENGINE_RENDERING_DEBUGUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F2C0BC0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUpdater_TypeDefinitionIndex = 34882;
-
 	class DebugUpdater : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUPDATER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUPDATER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void RuntimeInit()
@@ -27,5 +25,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_DEBUGUPDATER_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeRewardGotoStatus_TypeDefinitionIndex = 61773;
-
 	enum class LightConeRewardGotoStatus : ::System::Int32
 	{
 		NOT_AVAILABLE = 0,

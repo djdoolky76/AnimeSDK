@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class AvatarPathChangeVirtualCamera; }
 namespace RPG::Client { class AvatarPathChangeVirtualCameraBlendConfig; }
 namespace RPG::GameCore { class EntityManager; }
@@ -12,22 +11,19 @@ namespace RPG::GameCore { class UI3DVirtualCameraComponent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8389B0)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_MOVECAMERA_OFFSET UNITYSDK_OFFSET(0xC8390B0)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC838EF0)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_STARTBLEND_OFFSET UNITYSDK_OFFSET(0xC839300)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CHANGEAVATARIDTOMAN_OFFSET UNITYSDK_OFFSET(0xC839020)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC839740)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__GETENTITYMANAGER_OFFSET UNITYSDK_OFFSET(0xC838CB0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC7068B0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC707640)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_MOVECAMERA_OFFSET UNITYSDK_OFFSET(0xC706FB0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC706DF0)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_STARTBLEND_OFFSET UNITYSDK_OFFSET(0xC707200)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CHANGEAVATARIDTOMAN_OFFSET UNITYSDK_OFFSET(0xC706F20)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__GETENTITYMANAGER_OFFSET UNITYSDK_OFFSET(0xC706BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeCameraController_TypeDefinitionIndex = 71296;
-
 	class AvatarPathChangeCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 _DEFAULT_BLEND_ID = 0x1; // 0x0
 		::System::Collections::Generic::List_1<::RPG::Client::AvatarPathChangeVirtualCamera*>* VirtualCameras; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::AvatarPathChangeVirtualCameraBlendConfig*>* VirtualCameraBlendConfigs; // 0x20
 		::RPG::GameCore::GameWorld* _GameWorld; // 0x28
@@ -35,10 +31,10 @@ namespace RPG::Client
 		::RPG::GameCore::GameEntity* _CameraEntity; // 0x38
 		::RPG::GameCore::UI3DVirtualCameraComponent* _VirtualCameraCmpt; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::UI3DCameraStateBase*>* _AvatarCameraStates; // 0x48
-
+		// static const ::System::Object _DEFAULT_BLEND_ID; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -70,5 +66,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER_STARTBLEND_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

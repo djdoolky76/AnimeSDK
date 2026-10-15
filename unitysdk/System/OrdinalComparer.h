@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/StringComparer.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_ORDINALCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BD82B10)
-#define SYSTEM_ORDINALCOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BD82D30)
-#define SYSTEM_ORDINALCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BD82B60)
-#define SYSTEM_ORDINALCOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1BD82D50)
-#define SYSTEM_ORDINALCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BD82BF0)
-#define SYSTEM_ORDINALCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD82AE0)
+#define SYSTEM_ORDINALCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C28E7C0)
+#define SYSTEM_ORDINALCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C28E790)
+#define SYSTEM_ORDINALCOMPARER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C28E9C0)
+#define SYSTEM_ORDINALCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C28E810)
+#define SYSTEM_ORDINALCOMPARER_GETHASHCODE_1_OFFSET UNITYSDK_OFFSET(0x1C28E9E0)
+#define SYSTEM_ORDINALCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C28E880)
 
 namespace System
 {
-	inline static constexpr unsigned int OrdinalComparer_TypeDefinitionIndex = 334;
-
 	class OrdinalComparer : public ::System::StringComparer
 	{
 	public:
 		::System::Boolean _ignoreCase; // 0x10
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ORDINALCOMPARER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_ORDINALCOMPARER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Int32 Compare(::System::String* a1, ::System::String* a2)
@@ -50,5 +46,6 @@ namespace System
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ORDINALCOMPARER_GETHASHCODE_1_OFFSET))(this);
 		}
+
 	};
 }

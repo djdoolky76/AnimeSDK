@@ -2,35 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterVOType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelPlayVO; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELPLAYVO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D1EBF70)
-#define RPG_GAMECORE_LEVELPLAYVO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1EBF30)
-#define RPG_GAMECORE_LEVELPLAYVO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1EBF60)
+#define RPG_GAMECORE_LEVELPLAYVO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CA970)
+#define RPG_GAMECORE_LEVELPLAYVO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7CA980)
+#define RPG_GAMECORE_LEVELPLAYVO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7CA940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPlayVO_TypeDefinitionIndex = 23129;
-
 	class LevelPlayVO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::CharacterVOType VOType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPlayVO*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPlayVO* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPlayVO*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVO_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVO_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPlayVO* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPlayVO* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVO_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPlayVO*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPLAYVO_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

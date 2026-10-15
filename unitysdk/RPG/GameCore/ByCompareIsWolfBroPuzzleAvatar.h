@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareIsWolfBroPuzzleAvatar; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_217450E1CB534F55_OFFSET UNITYSDK_OFFSET(0x1CECF220)
-#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_4D3ECF3BA9AB9444_OFFSET UNITYSDK_OFFSET(0x1CECF0A0)
-#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_721442199BE8E7DF_OFFSET UNITYSDK_OFFSET(0x1CECF0E0)
-#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_88C53559E8A86D8C_OFFSET UNITYSDK_OFFSET(0x1CECF250)
-#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CECF0D0)
+#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B86F0)
+#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4B8870)
+#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4B8840)
+#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4B8700)
+#define RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4B86C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareIsWolfBroPuzzleAvatar_TypeDefinitionIndex = 21741;
-
 	class ByCompareIsWolfBroPuzzleAvatar : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_4D3ECF3BA9AB9444(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_4D3ECF3BA9AB9444_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_721442199BE8E7DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_721442199BE8E7DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_217450E1CB534F55(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_217450E1CB534F55_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_88C53559E8A86D8C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_METHOD_4_88C53559E8A86D8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsWolfBroPuzzleAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISWOLFBROPUZZLEAVATAR_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

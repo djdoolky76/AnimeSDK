@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Reflection { class MethodBase; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua { class OverloadMethodWrap; }
 
-#define XLUA_DICTIONARYMETHODWRAPCREATOR_CHECKARGS_OFFSET UNITYSDK_OFFSET(0x14B12330)
-#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_ENUMERATORGETCURRENT_OFFSET UNITYSDK_OFFSET(0x14B12CA0)
-#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_ENUMERATORMOVENEXT_OFFSET UNITYSDK_OFFSET(0x14B12930)
-#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x14B125C0)
-#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_KEYVALUEPAIRGETKEY_OFFSET UNITYSDK_OFFSET(0x14B13010)
-#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_KEYVALUEPAIRGETVALUE_OFFSET UNITYSDK_OFFSET(0x14B13380)
-#define XLUA_DICTIONARYMETHODWRAPCREATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x14B12240)
+#define XLUA_DICTIONARYMETHODWRAPCREATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x14DA21D0)
+#define XLUA_DICTIONARYMETHODWRAPCREATOR_CHECKARGS_OFFSET UNITYSDK_OFFSET(0x14DA22C0)
+#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_ENUMERATORGETCURRENT_OFFSET UNITYSDK_OFFSET(0x14DA2C30)
+#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_ENUMERATORMOVENEXT_OFFSET UNITYSDK_OFFSET(0x14DA28C0)
+#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x14DA2550)
+#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_KEYVALUEPAIRGETKEY_OFFSET UNITYSDK_OFFSET(0x14DA2FA0)
+#define XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_KEYVALUEPAIRGETVALUE_OFFSET UNITYSDK_OFFSET(0x14DA3310)
 
 namespace XLua
 {
-	inline static constexpr unsigned int DictionaryMethodWrapCreator_TypeDefinitionIndex = 50557;
-
 	class DictionaryMethodWrapCreator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Type*>>** StaticGet__ValidTypes()
+		static ::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair*>** StaticGet__ValidTypes()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Type*>>**)Il2CppClass::FromTypeDefinitionIndex(DictionaryMethodWrapCreator_TypeDefinitionIndex)->GetStaticField(0x64BE0);
+			return (::System::Collections::Generic::HashSet_1<::System::Collections::Generic::KeyValuePair*>**)UnitySDK::FromName("XLua", "DictionaryMethodWrapCreator")->GetStaticField(0x433B0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_DICTIONARYMETHODWRAPCREATOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_DICTIONARYMETHODWRAPCREATOR_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean CheckArgs(::System::Type* a1)
@@ -63,5 +60,6 @@ namespace XLua
 		{
 			return ((::XLua::OverloadMethodWrap*(*)(::XLua::ObjectTranslator*, ::System::Type*, ::System::Reflection::MethodBase*))((::PBYTE)hIl2Cpp + XLUA_DICTIONARYMETHODWRAPCREATOR_CREATEWRAP_KEYVALUEPAIRGETVALUE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

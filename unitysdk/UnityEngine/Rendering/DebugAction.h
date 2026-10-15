@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugAction_TypeDefinitionIndex = 34845;
-
 	enum class DebugAction : ::System::Int32
 	{
 		EnableDebugMenu = 0,

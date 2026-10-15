@@ -1,63 +1,63 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/UI/ColorMode.h"
 #include "unitysdk/UnityEngine/AdditionalCanvasShaderChannels.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/UI/RampColorExt___c__DisplayClass6_0.h"
 #include "unitysdk/UnityEngine/Color32.h"
 #include "unitysdk/UnityEngine/Rect.h"
-#include "unitysdk/UnityEngine/UI/ColorMode.h"
-#include "unitysdk/UnityEngine/UI/RampColorExt___c__DisplayClass6_0.h"
 #include "unitysdk/UnityEngine/UIVertex.h"
-#include "unitysdk/UnityEngine/Vector2.h"
-
+namespace System { class Nullable; }
 namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class IRampColor; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL0_OFFSET UNITYSDK_OFFSET(0x1EE64B50)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL1_OFFSET UNITYSDK_OFFSET(0x1EE653D0)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL2_OFFSET UNITYSDK_OFFSET(0x1EE66AA0)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET UNITYSDK_OFFSET(0x1EE68920)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLORNOSCALE_OFFSET UNITYSDK_OFFSET(0x1EE69270)
-#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0x1EE42ED0)
-#define UNITYENGINE_UI_RAMPCOLOREXT_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1EE69520)
-#define UNITYENGINE_UI_RAMPCOLOREXT_GETVERTEX_OFFSET UNITYSDK_OFFSET(0x1EE6A240)
-#define UNITYENGINE_UI_RAMPCOLOREXT__APPLYCOLORIMPL2_G__SETCOLOR_6_0_OFFSET UNITYSDK_OFFSET(0x1EE6A4A0)
-#define UNITYENGINE_UI_RAMPCOLOREXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE6A580)
-#define UNITYENGINE_UI_RAMPCOLOREXT__GETCOLOR_G__ROT_3_0_OFFSET UNITYSDK_OFFSET(0x1EE6A1A0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL0_OFFSET UNITYSDK_OFFSET(0x1F52D160)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL1_OFFSET UNITYSDK_OFFSET(0x1F52D9E0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL2_OFFSET UNITYSDK_OFFSET(0x1F52F0B0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET UNITYSDK_OFFSET(0x1F530F30)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLORNOSCALE_OFFSET UNITYSDK_OFFSET(0x1F531880)
+#define UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET UNITYSDK_OFFSET(0x1F50BCA0)
+#define UNITYENGINE_UI_RAMPCOLOREXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F532B90)
+#define UNITYENGINE_UI_RAMPCOLOREXT_GETCOLOR_OFFSET UNITYSDK_OFFSET(0x1F531B30)
+#define UNITYENGINE_UI_RAMPCOLOREXT_GETVERTEX_OFFSET UNITYSDK_OFFSET(0x1F532850)
+#define UNITYENGINE_UI_RAMPCOLOREXT__APPLYCOLORIMPL2_G__SETCOLOR_6_0_OFFSET UNITYSDK_OFFSET(0x1F532AB0)
+#define UNITYENGINE_UI_RAMPCOLOREXT__GETCOLOR_G__ROT_3_0_OFFSET UNITYSDK_OFFSET(0x1F5327B0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RampColorExt_TypeDefinitionIndex = 6795;
-
 	class RampColorExt : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices0()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RampColorExt_TypeDefinitionIndex)->GetStaticField(0x21C50);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices2()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RampColorExt_TypeDefinitionIndex)->GetStaticField(0x21C58);
-		}
 		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_s_Verts()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(RampColorExt_TypeDefinitionIndex)->GetStaticField(0x21C60);
+			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x38030);
 		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices2()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x38038);
+		}
+
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices1()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(RampColorExt_TypeDefinitionIndex)->GetStaticField(0x21C68);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x38040);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_Indices0()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.UI", "RampColorExt")->GetStaticField(0x38048);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_CCTOR_OFFSET))();
 		}
 
-		static ::System::Void ApplyVertexColor(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::UI::VertexHelper* a2, ::System::Nullable_1<::UnityEngine::Rect> a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::AdditionalCanvasShaderChannels a5)
+		static ::System::Void ApplyVertexColor(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::UI::VertexHelper* a2, ::System::Nullable* a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::AdditionalCanvasShaderChannels a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::UI::VertexHelper*, ::System::Nullable_1<::UnityEngine::Rect>, ::UnityEngine::UI::ColorMode, ::UnityEngine::AdditionalCanvasShaderChannels))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::UI::VertexHelper*, ::System::Nullable*, ::UnityEngine::UI::ColorMode, ::UnityEngine::AdditionalCanvasShaderChannels))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLOR_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void ApplyVertexColorNoScale(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::UnityEngine::UI::ColorMode a3, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a4)
@@ -65,9 +65,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::UI::ColorMode, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYVERTEXCOLORNOSCALE_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void ApplyColorSimple(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::System::Nullable_1<::UnityEngine::Rect> a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a5, ::UnityEngine::Pooled::PooledList_1<::System::Int32>* a6)
+		static ::System::Void ApplyColorSimple(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a2, ::System::Nullable* a3, ::UnityEngine::UI::ColorMode a4, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* a5, ::UnityEngine::Pooled::PooledList_1<::System::Int32>* a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::System::Nullable_1<::UnityEngine::Rect>, ::UnityEngine::UI::ColorMode, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::System::Nullable*, ::UnityEngine::UI::ColorMode, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORSIMPLE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::UnityEngine::Color32 GetColor(::UnityEngine::UI::IRampColor* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Rect a3, ::UnityEngine::UI::ColorMode a4)
@@ -90,9 +90,9 @@ namespace UnityEngine::UI
 			return ((::System::Void(*)(::UnityEngine::UI::IRampColor*, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::AdditionalCanvasShaderChannels, ::UnityEngine::Vector2, ::System::Boolean, ::System::Single, ::System::Single, ::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>*, ::UnityEngine::Pooled::PooledList_1<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_APPLYCOLORIMPL2_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
-		static ::UnityEngine::UIVertex GetVertex(::UnityEngine::UIVertex& a1, ::UnityEngine::UIVertex& a2, ::UnityEngine::AdditionalCanvasShaderChannels a3, ::System::Single a4, ::UnityEngine::Color32 a5)
+		static ::UnityEngine::UIVertex GetVertex(::UnityEngine::UIVertex a1, ::UnityEngine::UIVertex a2, ::UnityEngine::AdditionalCanvasShaderChannels a3, ::System::Single a4, ::UnityEngine::Color32 a5)
 		{
-			return ((::UnityEngine::UIVertex(*)(::UnityEngine::UIVertex&, ::UnityEngine::UIVertex&, ::UnityEngine::AdditionalCanvasShaderChannels, ::System::Single, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_GETVERTEX_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::UnityEngine::UIVertex(*)(::UnityEngine::UIVertex, ::UnityEngine::UIVertex, ::UnityEngine::AdditionalCanvasShaderChannels, ::System::Single, ::UnityEngine::Color32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT_GETVERTEX_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		static ::UnityEngine::Vector2 _GetColor_g__rot_3_0(::UnityEngine::Vector2 a1, ::System::Single a2)
@@ -100,9 +100,10 @@ namespace UnityEngine::UI
 			return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT__GETCOLOR_G__ROT_3_0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void _ApplyColorImpl2_g__SetColor_6_0(::System::Int32 a1, ::UnityEngine::Color32 a2, ::UnityEngine::UI::RampColorExt___c__DisplayClass6_0& a3)
+		static ::System::Void _ApplyColorImpl2_g__SetColor_6_0(::System::Int32 a1, ::UnityEngine::Color32 a2, ::UnityEngine::UI::RampColorExt___c__DisplayClass6_0 a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Color32, ::UnityEngine::UI::RampColorExt___c__DisplayClass6_0&))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT__APPLYCOLORIMPL2_G__SETCOLOR_6_0_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::UnityEngine::Color32, ::UnityEngine::UI::RampColorExt___c__DisplayClass6_0))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RAMPCOLOREXT__APPLYCOLORIMPL2_G__SETCOLOR_6_0_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

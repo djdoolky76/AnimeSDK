@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/MinMaxAABB.h"
 #include "unitysdk/UnityEngine/Sphere.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BVHData_TypeDefinitionIndex = 4100;
-
 	struct alignas(8) BVHData
 	{
 		::System::Boolean bLeaf; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single MinLODErrors; // 0x14
 		::System::Single MaxParentLODErrors; // 0x18
 		::System::UInt32 LeafNumClusters; // 0x1C

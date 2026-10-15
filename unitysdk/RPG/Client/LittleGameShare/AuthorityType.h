@@ -3,13 +3,11 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int AuthorityType_TypeDefinitionIndex = 36197;
-
 	enum class AuthorityType : ::System::Byte
 	{
-		None = 0x0,
-		Autonomous = 0x1,
-		ServerAuthority = 0x2,
-		Max = 0x3,
+		None = 0,
+		Autonomous = 1,
+		ServerAuthority = 2,
+		Max = 3,
 	};
 }

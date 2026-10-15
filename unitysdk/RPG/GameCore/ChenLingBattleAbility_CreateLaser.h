@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChenLingBattleAbilityNodeConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
+namespace RPG::GameCore { class ChenLingBattleAbility_CreateLaser; }
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
 namespace RPG::GameCore { class ChenLingBattleLaserSplitConfig; }
 namespace RPG::GameCore { class ChenLingBattleResource_OnHit; }
 namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_11566A2604581A85_OFFSET UNITYSDK_OFFSET(0x1CFA50E0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_A642C14C8CC54C80_OFFSET UNITYSDK_OFFSET(0x1CFA5080)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA50D0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57FCC0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57FCD0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57FC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_CreateLaser_TypeDefinitionIndex = 15571;
-
 	class ChenLingBattleAbility_CreateLaser : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:
@@ -34,20 +32,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::ChenLingBattleTriggerCallback* OnHitCallback; // 0x58
 		::RPG::GameCore::ChenLingBattleLaserSplitConfig* SplitConfig; // 0x60
 		::System::Single Delay; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A642C14C8CC54C80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_A642C14C8CC54C80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_11566A2604581A85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_METHOD_3_11566A2604581A85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChenLingBattleAbility_CreateLaser*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

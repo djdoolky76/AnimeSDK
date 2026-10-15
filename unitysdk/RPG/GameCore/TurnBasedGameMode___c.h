@@ -2,48 +2,49 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE7AFE60)
-#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE7AFE90)
-#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__RESETALLENTITYACTIONDELAY_B__150_0_OFFSET UNITYSDK_OFFSET(0xE7AFEA0)
-#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__RESETENTITYLISTACTIONDELAY_B__151_0_OFFSET UNITYSDK_OFFSET(0xE7AFEE0)
-#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__SETIMMEDIATEACTIONENTITIES_B__580_0_OFFSET UNITYSDK_OFFSET(0xE7AFF20)
+#define RPG_GAMECORE_TURNBASEDGAMEMODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE80E210)
+#define RPG_GAMECORE_TURNBASEDGAMEMODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE80E240)
+#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__RESETALLENTITYACTIONDELAY_B__150_0_OFFSET UNITYSDK_OFFSET(0xE80E250)
+#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__RESETENTITYLISTACTIONDELAY_B__151_0_OFFSET UNITYSDK_OFFSET(0xE80E290)
+#define RPG_GAMECORE_TURNBASEDGAMEMODE___C__SETIMMEDIATEACTIONENTITIES_B__580_0_OFFSET UNITYSDK_OFFSET(0xE80E2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedGameMode___c_TypeDefinitionIndex = 53821;
-
 	class TurnBasedGameMode___c : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::TurnBasedGameMode___c** StaticGet___9()
-		{
-			return (::RPG::GameCore::TurnBasedGameMode___c**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___c_TypeDefinitionIndex)->GetStaticField(0x1C560);
-		}
-		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>** StaticGet___9__151_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___c_TypeDefinitionIndex)->GetStaticField(0x1C568);
-		}
-		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>** StaticGet___9__580_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___c_TypeDefinitionIndex)->GetStaticField(0x1C570);
-		}
 		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>** StaticGet___9__150_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>**)Il2CppClass::FromTypeDefinitionIndex(TurnBasedGameMode___c_TypeDefinitionIndex)->GetStaticField(0x1C578);
+			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6ED60);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6ED68);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>** StaticGet___9__580_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6ED70);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>** StaticGet___9__151_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6ED78);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE___C_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::FixPoint _ResetAllEntityActionDelay_b__150_0(::RPG::GameCore::GameEntity* a1)
@@ -60,5 +61,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDGAMEMODE___C__SETIMMEDIATEACTIONENTITIES_B__580_0_OFFSET))(this, a1);
 		}
+
 	};
 }

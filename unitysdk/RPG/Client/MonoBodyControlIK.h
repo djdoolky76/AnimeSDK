@@ -1,60 +1,61 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MonoBodyControlIK_LimbData.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_42439FF258D2FD77;
+class KPNFBIOLIMA;
 namespace RPG::Client { class AttachPointMapping; }
-namespace RPG::Client { class MonoBodyControlIK_Class_1_B96D9B71B2B5BC28; }
+namespace RPG::Client { class MonoBodyControlIK_JAOHHHGCDLJ; }
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOBODYCONTROLIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xD732190)
-#define RPG_CLIENT_MONOBODYCONTROLIK_POSTSOLVE_OFFSET UNITYSDK_OFFSET(0xD7329C0)
-#define RPG_CLIENT_MONOBODYCONTROLIK_PRESOLVE_OFFSET UNITYSDK_OFFSET(0xD732350)
-#define RPG_CLIENT_MONOBODYCONTROLIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xD7321A0)
-#define RPG_CLIENT_MONOBODYCONTROLIK_REINITIALIZE_OFFSET UNITYSDK_OFFSET(0xD7332B0)
-#define RPG_CLIENT_MONOBODYCONTROLIK_RESETEFFECTORTARGET_OFFSET UNITYSDK_OFFSET(0xD7337A0)
-#define RPG_CLIENT_MONOBODYCONTROLIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xD732100)
-#define RPG_CLIENT_MONOBODYCONTROLIK_SETEFFECTORTARGET_OFFSET UNITYSDK_OFFSET(0xD733400)
-#define RPG_CLIENT_MONOBODYCONTROLIK_SETFORCEUSEEFFECTOR_OFFSET UNITYSDK_OFFSET(0xD733860)
-#define RPG_CLIENT_MONOBODYCONTROLIK_SETSPINENUM_OFFSET UNITYSDK_OFFSET(0xD733380)
-#define RPG_CLIENT_MONOBODYCONTROLIK_SETTIPBONE_OFFSET UNITYSDK_OFFSET(0xD733300)
-#define RPG_CLIENT_MONOBODYCONTROLIK_STOPTRACEEFFECTOR_OFFSET UNITYSDK_OFFSET(0xD733AF0)
-#define RPG_CLIENT_MONOBODYCONTROLIK__CTOR_OFFSET UNITYSDK_OFFSET(0xD733B80)
+#define RPG_CLIENT_MONOBODYCONTROLIK_CTOR_OFFSET UNITYSDK_OFFSET(0xD732F20)
+#define RPG_CLIENT_MONOBODYCONTROLIK_GET_ISPROCESSABLE_OFFSET UNITYSDK_OFFSET(0xD731530)
+#define RPG_CLIENT_MONOBODYCONTROLIK_POSTSOLVE_OFFSET UNITYSDK_OFFSET(0xD731D60)
+#define RPG_CLIENT_MONOBODYCONTROLIK_PRESOLVE_OFFSET UNITYSDK_OFFSET(0xD7316F0)
+#define RPG_CLIENT_MONOBODYCONTROLIK_PROCESS_OFFSET UNITYSDK_OFFSET(0xD731540)
+#define RPG_CLIENT_MONOBODYCONTROLIK_REINITIALIZE_OFFSET UNITYSDK_OFFSET(0xD732650)
+#define RPG_CLIENT_MONOBODYCONTROLIK_RESETEFFECTORTARGET_OFFSET UNITYSDK_OFFSET(0xD732B40)
+#define RPG_CLIENT_MONOBODYCONTROLIK_SAFEINIT_OFFSET UNITYSDK_OFFSET(0xD7314A0)
+#define RPG_CLIENT_MONOBODYCONTROLIK_SETEFFECTORTARGET_OFFSET UNITYSDK_OFFSET(0xD7327A0)
+#define RPG_CLIENT_MONOBODYCONTROLIK_SETFORCEUSEEFFECTOR_OFFSET UNITYSDK_OFFSET(0xD732C00)
+#define RPG_CLIENT_MONOBODYCONTROLIK_SETSPINENUM_OFFSET UNITYSDK_OFFSET(0xD732720)
+#define RPG_CLIENT_MONOBODYCONTROLIK_SETTIPBONE_OFFSET UNITYSDK_OFFSET(0xD7326A0)
+#define RPG_CLIENT_MONOBODYCONTROLIK_STOPTRACEEFFECTOR_OFFSET UNITYSDK_OFFSET(0xD732E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBodyControlIK_TypeDefinitionIndex = 68497;
-
 	class MonoBodyControlIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Transform* Root; // 0x18
 		::UnityEngine::Transform* TipBone; // 0x20
 		::System::UInt32 SpineBoneNum; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* WeightCurve; // 0x30
 		::Il2CppArray<::UnityEngine::Transform*>* Shoulders; // 0x38
 		::System::Single ShoulderRecoverWeight; // 0x40
+		::System::Byte _padding1[0x4];
 		::UnityEngine::Transform* Pelvis; // 0x48
 		::UnityEngine::AnimationCurve* PelvisAngleToForwardMoveCurve; // 0x50
 		::UnityEngine::AnimationCurve* PelvisAngleToRightMoveCurve; // 0x58
-		::Il2CppArray<::RPG::Client::MonoBodyControlIK_LimbData>* Limbs; // 0x60
+		::Il2CppArray<::System::Object*>* Limbs; // 0x60
 		::System::Single FadeInTime; // 0x68
 		::System::Single FadeOutTime; // 0x6C
 		::System::Boolean MBIJMKPPLIO; // 0x70
-		::Class_1_42439FF258D2FD77* MOFKDLANDGM; // 0x78
-		::System::Nullable_1<::UnityEngine::Vector3> AIICNHGGDAF; // 0x80
-		::System::Nullable_1<::UnityEngine::Quaternion> DLPMLCCNGHM; // 0x90
+		::System::Byte _padding2[0x7];
+		::KPNFBIOLIMA* MOFKDLANDGM; // 0x78
+		::System::Nullable* AIICNHGGDAF; // 0x80
+		::System::Byte _padding3[0x8];
+		::System::Nullable* DLPMLCCNGHM; // 0x90
+		::System::Byte _padding4[0x10];
 		::UnityEngine::Transform* PAJFNAGPJKL; // 0xA8
-		::RPG::Client::MonoBodyControlIK_Class_1_B96D9B71B2B5BC28* JFJBCDCILJP; // 0xB0
-
+		::RPG::Client::MonoBodyControlIK_JAOHHHGCDLJ* JFJBCDCILJP; // 0xB0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBODYCONTROLIK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBODYCONTROLIK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SafeInit(::RPG::Client::AttachPointMapping* a1)
@@ -116,5 +117,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBODYCONTROLIK_STOPTRACEEFFECTOR_OFFSET))(this);
 		}
+
 	};
 }

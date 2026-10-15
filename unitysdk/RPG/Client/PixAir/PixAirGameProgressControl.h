@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class MonoSliderAnim; }
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::Client::PixAir { class PixAirGameProgressNodeControl; }
@@ -9,28 +8,25 @@ namespace RPG::Client::PixAir { class PixAirGameProgressViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::UI { class Slider; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB05010)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__CREATENODEITEMCONTROLS_OFFSET UNITYSDK_OFFSET(0xDB05230)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xDB055A0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__DESTROYNODEITEMCONTROLS_OFFSET UNITYSDK_OFFSET(0xDB050C0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB04EF0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB04E30)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB4E0F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB4DB60)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__CREATENODEITEMCONTROLS_OFFSET UNITYSDK_OFFSET(0xDB4DD80)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__DESTROYNODEITEMCONTROLS_OFFSET UNITYSDK_OFFSET(0xDB4DC10)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB4DA40)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB4D980)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameProgressControl_TypeDefinitionIndex = 78753;
-
 	class PixAirGameProgressControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::UnityEngine::UI::Slider* _Slider; // 0x38
-		::RPG::Client::MonoSliderAnim* _MonoSliderAnim; // 0x40
-		::RPG::Client::PrefabLoadMeta* _PrefabLoadMeta; // 0x48
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeControl*>* _NodeControls; // 0x50
-
+		::UnityEngine::UI::Slider* _Slider; // 0x40
+		::RPG::Client::MonoSliderAnim* _MonoSliderAnim; // 0x48
+		::RPG::Client::PrefabLoadMeta* _PrefabLoadMeta; // 0x50
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeControl*>* _NodeControls; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -57,5 +53,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::RPG::Client::PixAir::PixAirGameProgressViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPROGRESSCONTROL_GET__VIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

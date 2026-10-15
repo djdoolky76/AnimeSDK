@@ -3,8 +3,6 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int UnicodeCategory_TypeDefinitionIndex = 781;
-
 	enum class UnicodeCategory : ::System::Int32
 	{
 		UppercaseLetter = 0,

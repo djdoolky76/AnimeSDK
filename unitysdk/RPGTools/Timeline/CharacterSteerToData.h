@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTEERTODATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE82EA60)
+#define RPGTOOLS_TIMELINE_CHARACTERSTEERTODATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CC810)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterSteerToData_TypeDefinitionIndex = 48454;
-
 	class CharacterSteerToData : public ::System::Object
 	{
 	public:
@@ -17,10 +14,10 @@ namespace RPGTools::Timeline
 		::System::String* AnchorName; // 0x18
 		::System::String* AreaName; // 0x20
 		::System::String* TargetCharacterUniqueName; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTEERTODATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTEERTODATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

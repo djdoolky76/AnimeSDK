@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierReplaceSupplyRuleIdConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_METHOD_3_43606B4443601EF0_OFFSET UNITYSDK_OFFSET(0x1D15A710)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_METHOD_3_EB4FFEEF23E130EC_OFFSET UNITYSDK_OFFSET(0x1D15A760)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15A750)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D735540)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D735550)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D735500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierReplaceSupplyRuleIdConfig_TypeDefinitionIndex = 19205;
-
 	class GridFightModifierReplaceSupplyRuleIdConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_43606B4443601EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_METHOD_3_43606B4443601EF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EB4FFEEF23E130EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_METHOD_3_EB4FFEEF23E130EC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierReplaceSupplyRuleIdConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERREPLACESUPPLYRULEIDCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class HoYoSDKNetworkInterface_HttpRequestParams; }
 namespace MiHoYo::SDK { class HoYoSDKNetworkNative_HttpResponse; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB201B60)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB201B90)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xB2017C0)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB201A70)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFA91E0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA90F0)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFA9210)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFA8E40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface_CustomHttpRequestHandler_TypeDefinitionIndex = 46560;
-
 	class HoYoSDKNetworkInterface_CustomHttpRequestHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::MiHoYo::SDK::HoYoSDKNetworkNative_HttpResponse* Invoke(::MiHoYo::SDK::HoYoSDKNetworkInterface_HttpRequestParams* a1)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::MiHoYo::SDK::HoYoSDKNetworkNative_HttpResponse*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOSDKNETWORKINTERFACE_CUSTOMHTTPREQUESTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

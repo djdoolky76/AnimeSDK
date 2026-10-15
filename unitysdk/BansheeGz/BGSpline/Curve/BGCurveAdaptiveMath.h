@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BansheeGz/BGSpline/Curve/BGCurveBaseMath.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveAdaptiveMath_ConfigAdaptive; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_Config; }
@@ -9,34 +8,32 @@ namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 namespace System { class String; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x1C003230)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_INIT_OFFSET UNITYSDK_OFFSET(0x1C002440)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_ISUSEDISTANCETOADJUSTTANGENTS_OFFSET UNITYSDK_OFFSET(0x1C003220)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVECUBICSPLIT_OFFSET UNITYSDK_OFFSET(0x1C003FE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVEQUADRATICSPLIT_OFFSET UNITYSDK_OFFSET(0x1C0047D0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RESET_OFFSET UNITYSDK_OFFSET(0x1C002830)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C004E30)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE16D0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CALCULATESPLITSECTION_OFFSET UNITYSDK_OFFSET(0x1C510400)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4EE990)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_INIT_OFFSET UNITYSDK_OFFSET(0x1C50F610)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_ISUSEDISTANCETOADJUSTTANGENTS_OFFSET UNITYSDK_OFFSET(0x1C5103F0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVECUBICSPLIT_OFFSET UNITYSDK_OFFSET(0x1C5111B0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RECURSIVEQUADRATICSPLIT_OFFSET UNITYSDK_OFFSET(0x1C5119A0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_RESET_OFFSET UNITYSDK_OFFSET(0x1C50FA00)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C512000)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveAdaptiveMath_TypeDefinitionIndex = 35308;
-
 	class BGCurveAdaptiveMath : public ::BansheeGz::BGSpline::Curve::BGCurveBaseMath
 	{
 	public:
-		// static const ::System::Single MinTolerance; // 0x0
-		// static const ::System::Single MaxTolerance; // 0x0
-		// static const ::System::Single DistanceTolerance; // 0x0
-		// static const ::System::Int32 RecursionLimit = 0x18; // 0x0
-		::System::Single toleranceRatio; // 0x78
-		::System::Boolean ignoreSectionChangedCheckOverride; // 0x7C
-		::System::Single toleranceRatioSquared; // 0x80
-		::System::Single tolerance; // 0x84
-
+		::System::Single tolerance; // 0x78
+		::System::Single toleranceRatio; // 0x7C
+		::System::Boolean ignoreSectionChangedCheckOverride; // 0x80
+		::System::Byte _padding0[0x3];
+		::System::Single toleranceRatioSquared; // 0x84
+		// static const ::System::Object MinTolerance; // 0x0
+		// static const ::System::Object MaxTolerance; // 0x0
+		// static const ::System::Object DistanceTolerance; // 0x0
+		// static const ::System::Object RecursionLimit; // 0x0
 		::System::Void _ctor(::BansheeGz::BGSpline::Curve::BGCurve* a1, ::BansheeGz::BGSpline::Curve::BGCurveAdaptiveMath_ConfigAdaptive* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurveAdaptiveMath_ConfigAdaptive*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::BansheeGz::BGSpline::Curve::BGCurve*, ::BansheeGz::BGSpline::Curve::BGCurveAdaptiveMath_ConfigAdaptive*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Init(::BansheeGz::BGSpline::Curve::BGCurveBaseMath_Config* a1)
@@ -73,5 +70,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVEADAPTIVEMATH_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,35 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/EnviromentSystemV2Space/PropertyData_1.h"
-
-class Class_1_EAF7984A8FAD6BE4;
+class GGJFAFONDHN;
 namespace EnviromentSystemV2Space { class PropertyDataBase; }
-namespace UnityEngine { class Gradient; }
 
-#define ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_METHOD_3_87C0E26F1D61379E_OFFSET UNITYSDK_OFFSET(0x15364560)
-#define ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_METHOD_3_E4886687508BA48F_OFFSET UNITYSDK_OFFSET(0x153645D0)
-#define ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x15364690)
+#define ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15653B80)
+#define ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_EIOEKCFAIMG_OFFSET UNITYSDK_OFFSET(0x15653A50)
+#define ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x15653AC0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int GradientPropertyData_TypeDefinitionIndex = 49820;
-
-	class GradientPropertyData : public ::EnviromentSystemV2Space::PropertyData_1<::UnityEngine::Gradient*>
+	class GradientPropertyData
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_87C0E26F1D61379E(::EnviromentSystemV2Space::PropertyDataBase* a1)
+		::System::Boolean EIOEKCFAIMG(::EnviromentSystemV2Space::PropertyDataBase* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystemV2Space::PropertyDataBase*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_METHOD_3_87C0E26F1D61379E_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystemV2Space::PropertyDataBase*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_EIOEKCFAIMG_OFFSET))(this, a1);
 		}
 
-		::Class_1_EAF7984A8FAD6BE4* Method_3_E4886687508BA48F()
+		::GGJFAFONDHN* FCMDLFKMBMH()
 		{
-			return ((::Class_1_EAF7984A8FAD6BE4*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_METHOD_3_E4886687508BA48F_OFFSET))(this);
+			return ((::GGJFAFONDHN*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_GRADIENTPROPERTYDATA_FCMDLFKMBMH_OFFSET))(this);
 		}
+
 	};
 }

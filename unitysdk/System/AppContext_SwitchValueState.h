@@ -3,8 +3,6 @@
 
 namespace System
 {
-	inline static constexpr unsigned int AppContext_SwitchValueState_TypeDefinitionIndex = 155;
-
 	enum class AppContext_SwitchValueState : ::System::Int32
 	{
 		HasFalseValue = 1,

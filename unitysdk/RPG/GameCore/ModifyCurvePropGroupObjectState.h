@@ -2,39 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ECurveObjectLogicState.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class ModifyCurvePropGroupObjectState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_METHOD_3_78CF5A1320174147_OFFSET UNITYSDK_OFFSET(0x1D2AF860)
-#define RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_METHOD_3_E64A80000F85D476_OFFSET UNITYSDK_OFFSET(0x1D2AF820)
-#define RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AF850)
+#define RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D891950)
+#define RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D891960)
+#define RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D891920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyCurvePropGroupObjectState_TypeDefinitionIndex = 22009;
-
 	class ModifyCurvePropGroupObjectState : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicString* UniqueName; // 0x18
 		::System::String* ObjectUniqueName; // 0x20
 		::RPG::GameCore::ECurveObjectLogicState ModifyState; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E64A80000F85D476(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCurvePropGroupObjectState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyCurvePropGroupObjectState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyCurvePropGroupObjectState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_METHOD_3_E64A80000F85D476_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyCurvePropGroupObjectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_78CF5A1320174147(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCurvePropGroupObjectState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyCurvePropGroupObjectState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyCurvePropGroupObjectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_METHOD_3_78CF5A1320174147_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyCurvePropGroupObjectState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCURVEPROPGROUPOBJECTSTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

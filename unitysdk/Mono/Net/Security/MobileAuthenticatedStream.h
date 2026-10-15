@@ -6,8 +6,7 @@
 #include "unitysdk/System/Net/Security/AuthenticatedStream.h"
 #include "unitysdk/System/Security/Authentication/SslProtocols.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-#include "unitysdk/System/ValueTuple_2.h"
-
+#include "unitysdk/System/ValueTuple.h"
 namespace Mono::Net::Security { class AsyncProtocolRequest; }
 namespace Mono::Net::Security { class BufferOffsetSize2; }
 namespace Mono::Net::Security { class BufferOffsetSize; }
@@ -20,99 +19,98 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
+namespace System::Net::Security { class AuthenticatedStream; }
 namespace System::Net::Security { class SslStream; }
 namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Threading::Tasks { class Task; }
-namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_AUTHENTICATEASCLIENT_OFFSET UNITYSDK_OFFSET(0x1E8FD120)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_AUTHENTICATEASSERVER_OFFSET UNITYSDK_OFFSET(0x1E8FD4E0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1E8FD6D0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1E8FDA70)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_CHECKTHROW_OFFSET UNITYSDK_OFFSET(0x1E8FCD70)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E8FF380)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1E8FDA10)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1E8FDC60)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x1E8FF630)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GETIOEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E8FCFD0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GETSSPIEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E8FA690)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_AUTHENTICATEDSTREAM_OFFSET UNITYSDK_OFFSET(0x1E8FD6C0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1E8FF8A0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x1E8FFB90)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1E8FFA00)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_INTERNALLOCALCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1E8FF6C0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1E8FCEF0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1E8FFBA0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1E8FFC30)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1E8FCD60)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_READTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E8FFD10)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1E8FCD50)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_WRITETIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E8FFE30)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INNERREAD_OFFSET UNITYSDK_OFFSET(0x1E8F9960)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INNERWRITE_OFFSET UNITYSDK_OFFSET(0x1E8FA120)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_1_OFFSET UNITYSDK_OFFSET(0x1E8FE500)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_OFFSET UNITYSDK_OFFSET(0x1E8FE430)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALWRITE_1_OFFSET UNITYSDK_OFFSET(0x1E8FE730)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALWRITE_OFFSET UNITYSDK_OFFSET(0x1E8FE670)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSAUTHENTICATION_OFFSET UNITYSDK_OFFSET(0x1E8FD2F0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1E8F8EF0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSREAD_OFFSET UNITYSDK_OFFSET(0x1E8FABF0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSWRITE_OFFSET UNITYSDK_OFFSET(0x1E8FADD0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_READASYNC_OFFSET UNITYSDK_OFFSET(0x1E8FE090)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1E8FDCC0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x1E8FF7B0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E8FA7E0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1E8FF800)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1E8FFCC0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SET_READTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E8FFDA0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SET_WRITETIMEOUT_OFFSET UNITYSDK_OFFSET(0x1E8FFEC0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_STARTOPERATION_OFFSET UNITYSDK_OFFSET(0x1E8FD8C0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_WRITEASYNC_OFFSET UNITYSDK_OFFSET(0x1E8FE260)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1E8FDEA0)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8FFF50)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FCC40)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERWRITE_B__67_0_OFFSET UNITYSDK_OFFSET(0x1E8FFF60)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_AUTHENTICATEASCLIENT_OFFSET UNITYSDK_OFFSET(0x1EFC6220)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_AUTHENTICATEASSERVER_OFFSET UNITYSDK_OFFSET(0x1EFC65C0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1EFC67A0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1EFC6B20)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFC8FA0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_CHECKTHROW_OFFSET UNITYSDK_OFFSET(0x1EFC5E80)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC5D50)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EFC83D0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1EFC6AC0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1EFC6D00)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x1EFC8680)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GETIOEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EFC60D0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GETSSPIEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EFC37B0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_AUTHENTICATEDSTREAM_OFFSET UNITYSDK_OFFSET(0x1EFC6790)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1EFC88F0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x1EFC8BE0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1EFC8A50)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_INTERNALLOCALCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EFC8710)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_ISAUTHENTICATED_OFFSET UNITYSDK_OFFSET(0x1EFC5FF0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1EFC8BF0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1EFC8C80)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1EFC5E70)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_READTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1EFC8D60)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1EFC5E60)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_GET_WRITETIMEOUT_OFFSET UNITYSDK_OFFSET(0x1EFC8E80)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INNERREAD_OFFSET UNITYSDK_OFFSET(0x1EFC2A70)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INNERWRITE_OFFSET UNITYSDK_OFFSET(0x1EFC3250)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_1_OFFSET UNITYSDK_OFFSET(0x1EFC7530)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_OFFSET UNITYSDK_OFFSET(0x1EFC7460)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALWRITE_1_OFFSET UNITYSDK_OFFSET(0x1EFC7770)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALWRITE_OFFSET UNITYSDK_OFFSET(0x1EFC76B0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSAUTHENTICATION_OFFSET UNITYSDK_OFFSET(0x1EFC63E0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSHANDSHAKE_OFFSET UNITYSDK_OFFSET(0x1EFC1F70)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSREAD_OFFSET UNITYSDK_OFFSET(0x1EFC3D00)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSWRITE_OFFSET UNITYSDK_OFFSET(0x1EFC3EE0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_READASYNC_OFFSET UNITYSDK_OFFSET(0x1EFC7100)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1EFC6D60)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x1EFC8800)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SETEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1EFC3900)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1EFC8850)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1EFC8D10)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SET_READTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1EFC8DF0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_SET_WRITETIMEOUT_OFFSET UNITYSDK_OFFSET(0x1EFC8F10)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_STARTOPERATION_OFFSET UNITYSDK_OFFSET(0x1EFC6980)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_WRITEASYNC_OFFSET UNITYSDK_OFFSET(0x1EFC72B0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1EFC6F30)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERWRITE_B__67_0_OFFSET UNITYSDK_OFFSET(0x1EFC8FB0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int MobileAuthenticatedStream_TypeDefinitionIndex = 2436;
-
 	class MobileAuthenticatedStream : public ::System::Net::Security::AuthenticatedStream
 	{
 	public:
-		static ::System::Int32* StaticGet_nextId()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MobileAuthenticatedStream_TypeDefinitionIndex)->GetStaticField(0xCD40);
-		}
+		::Mono::Net::Security::BufferOffsetSize2* writeBuffer; // 0x38
+		::System::Object* ioLock; // 0x40
+		::Mono::Net::Security::MobileTlsContext* xobileTlsContext; // 0x48
+		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* lastException; // 0x50
+		::Mono::Net::Security::AsyncProtocolRequest* asyncHandshakeRequest; // 0x58
+		::Mono::Net::Security::BufferOffsetSize2* readBuffer; // 0x60
+		::Mono::Security::Interface::MonoTlsSettings* _Settings_k__BackingField; // 0x68
+		::System::Net::Security::SslStream* _SslStream_k__BackingField; // 0x70
+		::Mono::Net::Security::AsyncProtocolRequest* asyncWriteRequest; // 0x78
+		::Mono::Security::Interface::MonoTlsProvider* _Provider_k__BackingField; // 0x80
+		::Mono::Net::Security::AsyncProtocolRequest* asyncReadRequest; // 0x88
+		::System::Int32 ID; // 0x90
+		::System::Int32 closeRequested; // 0x94
+		::System::Boolean shutdown; // 0x98
 		static ::System::Int32* StaticGet_uniqueNameInteger()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MobileAuthenticatedStream_TypeDefinitionIndex)->GetStaticField(0xCD44);
+			return (::System::Int32*)UnitySDK::FromName("Mono.Net.Security", "MobileAuthenticatedStream")->GetStaticField(0xBB10);
 		}
-		::System::Net::Security::SslStream* _SslStream_k__BackingField; // 0x38
-		::Mono::Net::Security::AsyncProtocolRequest* asyncHandshakeRequest; // 0x40
-		::Mono::Net::Security::BufferOffsetSize2* writeBuffer; // 0x48
-		::Mono::Net::Security::AsyncProtocolRequest* asyncWriteRequest; // 0x50
-		::Mono::Net::Security::MobileTlsContext* xobileTlsContext; // 0x58
-		::Mono::Net::Security::AsyncProtocolRequest* asyncReadRequest; // 0x60
-		::System::Object* ioLock; // 0x68
-		::Mono::Net::Security::BufferOffsetSize2* readBuffer; // 0x70
-		::Mono::Security::Interface::MonoTlsProvider* _Provider_k__BackingField; // 0x78
-		::System::Runtime::ExceptionServices::ExceptionDispatchInfo* lastException; // 0x80
-		::Mono::Security::Interface::MonoTlsSettings* _Settings_k__BackingField; // 0x88
-		::System::Int32 ID; // 0x90
-		::System::Boolean shutdown; // 0x94
-		::System::Int32 closeRequested; // 0x98
+
+		static ::System::Int32* StaticGet_nextId()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Mono.Net.Security", "MobileAuthenticatedStream")->GetStaticField(0xBB14);
+		}
 
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::Boolean a2, ::System::Net::Security::SslStream* a3, ::Mono::Security::Interface::MonoTlsSettings* a4, ::Mono::Security::Interface::MonoTlsProvider* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Boolean, ::System::Net::Security::SslStream*, ::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Security::Interface::MonoTlsProvider*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Boolean, ::System::Net::Security::SslStream*, ::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Security::Interface::MonoTlsProvider*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_CCTOR_OFFSET))();
 		}
 
 		::Mono::Security::Interface::MonoTlsSettings* get_Settings()
@@ -195,9 +193,9 @@ namespace Mono::Net::Security
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_WRITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Int32>* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
+		::System::Threading::Tasks::Task* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Threading::Tasks::Task* WriteAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
@@ -205,19 +203,19 @@ namespace Mono::Net::Security
 			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_WRITEASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Int32>* StartOperation(::Mono::Net::Security::MobileAuthenticatedStream_OperationType a1, ::Mono::Net::Security::AsyncProtocolRequest* a2, ::System::Threading::CancellationToken a3)
+		::System::Threading::Tasks::Task* StartOperation(::Mono::Net::Security::MobileAuthenticatedStream_OperationType a1, ::Mono::Net::Security::AsyncProtocolRequest* a2, ::System::Threading::CancellationToken a3)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream_OperationType, ::Mono::Net::Security::AsyncProtocolRequest*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_STARTOPERATION_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Mono::Net::Security::MobileAuthenticatedStream_OperationType, ::Mono::Net::Security::AsyncProtocolRequest*, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_STARTOPERATION_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 InternalRead(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean& a4)
+		::System::Int32 InternalRead(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
 		{
-			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Boolean&))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::ValueTuple_2<::System::Int32, ::System::Boolean> InternalRead_1(::Mono::Net::Security::AsyncProtocolRequest* a1, ::Mono::Net::Security::BufferOffsetSize* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Int32 a5)
+		::System::ValueTuple InternalRead_1(::Mono::Net::Security::AsyncProtocolRequest* a1, ::Mono::Net::Security::BufferOffsetSize* a2, ::Il2CppArray<::System::Byte>* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::ValueTuple_2<::System::Int32, ::System::Boolean>(*)(::PVOID, ::Mono::Net::Security::AsyncProtocolRequest*, ::Mono::Net::Security::BufferOffsetSize*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::ValueTuple(*)(::PVOID, ::Mono::Net::Security::AsyncProtocolRequest*, ::Mono::Net::Security::BufferOffsetSize*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALREAD_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean InternalWrite(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -230,9 +228,9 @@ namespace Mono::Net::Security
 			return ((::System::Boolean(*)(::PVOID, ::Mono::Net::Security::AsyncProtocolRequest*, ::Mono::Net::Security::BufferOffsetSize2*, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INTERNALWRITE_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Int32>* InnerRead(::System::Boolean a1, ::System::Int32 a2, ::System::Threading::CancellationToken a3)
+		::System::Threading::Tasks::Task* InnerRead(::System::Boolean a1, ::System::Int32 a2, ::System::Threading::CancellationToken a3)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INNERREAD_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Boolean, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_INNERREAD_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Threading::Tasks::Task* InnerWrite(::System::Boolean a1, ::System::Threading::CancellationToken a2)
@@ -245,14 +243,14 @@ namespace Mono::Net::Security
 			return ((::Mono::Net::Security::AsyncOperationStatus(*)(::PVOID, ::Mono::Net::Security::AsyncOperationStatus))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSHANDSHAKE_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple_2<::System::Int32, ::System::Boolean> ProcessRead(::Mono::Net::Security::BufferOffsetSize* a1)
+		::System::ValueTuple ProcessRead(::Mono::Net::Security::BufferOffsetSize* a1)
 		{
-			return ((::System::ValueTuple_2<::System::Int32, ::System::Boolean>(*)(::PVOID, ::Mono::Net::Security::BufferOffsetSize*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSREAD_OFFSET))(this, a1);
+			return ((::System::ValueTuple(*)(::PVOID, ::Mono::Net::Security::BufferOffsetSize*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSREAD_OFFSET))(this, a1);
 		}
 
-		::System::ValueTuple_2<::System::Int32, ::System::Boolean> ProcessWrite(::Mono::Net::Security::BufferOffsetSize* a1)
+		::System::ValueTuple ProcessWrite(::Mono::Net::Security::BufferOffsetSize* a1)
 		{
-			return ((::System::ValueTuple_2<::System::Int32, ::System::Boolean>(*)(::PVOID, ::Mono::Net::Security::BufferOffsetSize*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSWRITE_OFFSET))(this, a1);
+			return ((::System::ValueTuple(*)(::PVOID, ::Mono::Net::Security::BufferOffsetSize*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM_PROCESSWRITE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsAuthenticated()
@@ -339,5 +337,6 @@ namespace Mono::Net::Security
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM__INNERWRITE_B__67_0_OFFSET))(this);
 		}
+
 	};
 }

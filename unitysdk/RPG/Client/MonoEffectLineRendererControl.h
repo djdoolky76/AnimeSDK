@@ -1,32 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_MONOEFFECTLINERENDERERCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD768F10)
-#define RPG_CLIENT_MONOEFFECTLINERENDERERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD769080)
+#define RPG_CLIENT_MONOEFFECTLINERENDERERCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD7AA630)
+#define RPG_CLIENT_MONOEFFECTLINERENDERERCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7AA4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectLineRendererControl_TypeDefinitionIndex = 68551;
-
 	class MonoEffectLineRendererControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::LineRenderer* Line; // 0x18
 		::UnityEngine::GameObject* SourceObj; // 0x20
 		::UnityEngine::GameObject* TargetObj; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTLINERENDERERCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTLINERENDERERCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Update()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTLINERENDERERCONTROL_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

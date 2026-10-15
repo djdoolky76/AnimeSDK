@@ -5,17 +5,14 @@
 #include "unitysdk/RPG/Client/UltraDistanceGlobalDynamicOffsetMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EA510)
+#define RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET_CTOR_OFFSET UNITYSDK_OFFSET(0xC938C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNamedDynamicOffset_TypeDefinitionIndex = 69690;
-
 	class CameraNamedDynamicOffset : public ::System::Object
 	{
 	public:
@@ -26,6 +23,7 @@ namespace RPG::Client
 		::UnityEngine::Vector3 SelectDarkAimOffset; // 0x3C
 		::RPG::Client::CameraActiveTeam ActiveTeamType; // 0x48
 		::System::Boolean IsUltraDistance; // 0x4C
+		::System::Byte _padding0[0x3];
 		::RPG::Client::UltraDistanceCameraPrority CameraPriority; // 0x50
 		::RPG::Client::UltraDistanceGlobalDynamicOffsetMode UltraDistanceMode; // 0x54
 		::System::Single UltraDistanceBlendDuration; // 0x58
@@ -34,11 +32,12 @@ namespace RPG::Client
 		::UnityEngine::Vector3 UseSkillPerformAimOffsetAtUltraDistance; // 0x6C
 		::RPG::GameCore::VCameraBlend* BlendConfigToReplaceCutAtUltraDistance; // 0x78
 		::System::Boolean HideTeamMembers; // 0x80
+		::System::Byte _padding1[0x7];
 		::RPG::GameCore::GameEntity* Caster; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int AISimulatePhase_TypeDefinitionIndex = 41442;
-
 	enum class AISimulatePhase : ::System::Int32
 	{
 		Think = 0,

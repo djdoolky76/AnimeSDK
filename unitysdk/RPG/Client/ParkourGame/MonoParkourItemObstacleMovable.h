@@ -2,27 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/ItemType.h"
 #include "unitysdk/RPG/Client/ParkourGame/MonoParkourItemObstacle.h"
-
 namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xDA29520)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xDA294D0)
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE__CTOR_OFFSET UNITYSDK_OFFSET(0xDA29530)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA75700)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE_GET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0xDA756F0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE_ONTRIGGERED_OFFSET UNITYSDK_OFFSET(0xDA756A0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourItemObstacleMovable_TypeDefinitionIndex = 74045;
-
 	class MonoParkourItemObstacleMovable : public ::RPG::Client::ParkourGame::MonoParkourItemObstacle
 	{
 	public:
 		::System::Single MoveSpeed; // 0xC0
 		::System::Single MoveStopWaitTime; // 0xC4
 		::System::Single RecoverWaitTime; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnTriggered(::RPG::Client::ParkourGame::MonoParkourCharacter* a1)
@@ -34,5 +30,6 @@ namespace RPG::Client::ParkourGame
 		{
 			return ((::RPG::Client::ParkourGame::ItemType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_MONOPARKOURITEMOBSTACLEMOVABLE_GET_ITEMTYPE_OFFSET))(this);
 		}
+
 	};
 }

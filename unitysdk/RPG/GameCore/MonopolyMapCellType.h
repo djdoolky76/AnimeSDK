@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyMapCellType_TypeDefinitionIndex = 16061;
-
 	enum class MonopolyMapCellType : ::System::Int32
 	{
 		Unknown = 0,

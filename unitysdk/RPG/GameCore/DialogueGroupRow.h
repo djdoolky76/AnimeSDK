@@ -2,41 +2,38 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DialogueGroupType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/System/ValueTuple.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DialogueGroupRow; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D0258B0)
-#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D025B70)
-#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D026650)
-#define RPG_GAMECORE_DIALOGUEGROUPROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D0266B0)
-#define RPG_GAMECORE_DIALOGUEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0266C0)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D602BB0)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D601DA0)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D602060)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D602B40)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D602BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueGroupRow_TypeDefinitionIndex = 13023;
-
 	class DialogueGroupRow : public ::System::Object
 	{
 	public:
-		::System::String* ActPath; // 0x10
-		::Il2CppArray<::System::UInt32>* ConditionIDs; // 0x18
-		::System::String* InteractTitle; // 0x20
+		::System::String* InteractTitle; // 0x10
+		::System::String* ActPath; // 0x18
+		::Il2CppArray<::System::UInt32>* ConditionIDs; // 0x20
 		::RPG::GameCore::JsonEnum* IconType; // 0x28
-		::RPG::GameCore::DialogueGroupType GroupType; // 0x30
-		::System::UInt32 Priority; // 0x34
-		::System::UInt32 GroupID; // 0x38
-
+		::System::UInt32 Priority; // 0x30
+		::System::UInt32 GroupID; // 0x34
+		::RPG::GameCore::DialogueGroupType GroupType; // 0x38
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
+		::System::Void FromTableOffset(::System::ValueTuple a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_FROMTABLEOFFSET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -44,14 +41,15 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DialogueGroupRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::DialogueGroupRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DialogueGroupRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DialogueGroupRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DialogueGroupRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::DialogueGroupRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DialogueGroupRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DialogueGroupRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class AGCPAMNLCGN;
+class JBACCAGFHON;
+class KIIMBJDNGLG;
+class LGHPKEAODPH;
+
+#define KIIMBJDNGLG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB431290)
+#define KIIMBJDNGLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB431340)
+#define KIIMBJDNGLG_DFPAALBLKEM_OFFSET UNITYSDK_OFFSET(0xB431270)
+#define KIIMBJDNGLG_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xB431350)
+#define KIIMBJDNGLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB431390)
+#define KIIMBJDNGLG_DMJLKIOONNG_OFFSET UNITYSDK_OFFSET(0xB431280)
+#define KIIMBJDNGLG_EFHINCFFAJM_OFFSET UNITYSDK_OFFSET(0xB431880)
+#define KIIMBJDNGLG_GHDIJCNKKOM_OFFSET UNITYSDK_OFFSET(0xB4311E0)
+#define KIIMBJDNGLG_KELIEKPJHHC_OFFSET UNITYSDK_OFFSET(0xB4313D0)
+#define KIIMBJDNGLG_PMAFOPCACHL_OFFSET UNITYSDK_OFFSET(0xB431260)
+
+	class KIIMBJDNGLG : public ::System::Object
+	{
+	public:
+		::JBACCAGFHON* PDENFEFCAGN; // 0x10
+		::System::UInt32 CKKEELIMPLB; // 0x18
+		::System::UInt32 JLMOGOAHHID; // 0x1C
+		::System::Int32 HCNCKCKEONB; // 0x20
+		::System::Void _ctor(::JBACCAGFHON* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::JBACCAGFHON*))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_CTOR_OFFSET))(this, a1);
+		}
+
+		::LGHPKEAODPH* GHDIJCNKKOM()
+		{
+			return ((::LGHPKEAODPH*(*)(::PVOID))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_GHDIJCNKKOM_OFFSET))(this);
+		}
+
+		::System::UInt32 PMAFOPCACHL()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_PMAFOPCACHL_OFFSET))(this);
+		}
+
+		::System::UInt32 DFPAALBLKEM()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_DFPAALBLKEM_OFFSET))(this);
+		}
+
+		::System::Int32 DMJLKIOONNG()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_DMJLKIOONNG_OFFSET))(this);
+		}
+
+		static ::KIIMBJDNGLG* BPLPBPMEODA(::JBACCAGFHON* a1)
+		{
+			return ((::KIIMBJDNGLG*(*)(::JBACCAGFHON*))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_BPLPBPMEODA_OFFSET))(a1);
+		}
+
+		::System::Void DIOEAJEHHND()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_DIOEAJEHHND_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Int32 KELIEKPJHHC(::System::UInt32 a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_KELIEKPJHHC_OFFSET))(this, a1);
+		}
+
+		::AGCPAMNLCGN* EFHINCFFAJM(::System::UInt32 a1)
+		{
+			return ((::AGCPAMNLCGN*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KIIMBJDNGLG_EFHINCFFAJM_OFFSET))(this, a1);
+		}
+
+	};

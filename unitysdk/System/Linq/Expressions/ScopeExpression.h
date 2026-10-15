@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/BlockExpression.h"
-
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_GETORMAKEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1E7687A0)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_GET_VARIABLESLIST_OFFSET UNITYSDK_OFFSET(0x1E7687E0)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_REUSEORVALIDATEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1E768720)
-#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7684F0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE31140)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_GETORMAKEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1EE313F0)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_GET_VARIABLESLIST_OFFSET UNITYSDK_OFFSET(0x1EE31430)
+#define SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_REUSEORVALIDATEVARIABLES_OFFSET UNITYSDK_OFFSET(0x1EE31370)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ScopeExpression_TypeDefinitionIndex = 3198;
-
 	class ScopeExpression : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* _variables; // 0x10
-
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* GetOrMakeVariables()
@@ -39,5 +35,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*(*)(::PVOID, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_SCOPEEXPRESSION_REUSEORVALIDATEVARIABLES_OFFSET))(this, a1);
 		}
+
 	};
 }

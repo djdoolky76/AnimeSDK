@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Airship_AirshipDissolveConfig_TypeDefinitionIndex = 59923;
-
 	struct alignas(4) Airship_AirshipDissolveConfig
 	{
 		::System::Single DissolveRange; // 0x10

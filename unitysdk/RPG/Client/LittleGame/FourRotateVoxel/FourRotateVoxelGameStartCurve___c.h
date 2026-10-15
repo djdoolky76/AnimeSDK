@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TriggerEffectCallbackParams.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MonoEffect; }
-namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { class Action; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD510030)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD510070)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C___SOLVELIQUIDEFFECT_B__39_0_OFFSET UNITYSDK_OFFSET(0xD510080)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD466BD0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD466C10)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C___SOLVELIQUIDEFFECT_B__39_0_OFFSET UNITYSDK_OFFSET(0xD466C20)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex = 76366;
-
 	class FourRotateVoxelGameStartCurve___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__39_0()
+		static ::System::Action** StaticGet___9__39_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex)->GetStaticField(0x64030);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x33510);
 		}
-		static ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameStartCurve___c**)Il2CppClass::FromTypeDefinitionIndex(FourRotateVoxelGameStartCurve___c_TypeDefinitionIndex)->GetStaticField(0x64038);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FourRotateVoxel", "<>c")->GetStaticField(0x33518);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __SolveLiquidEffect_b__39_0(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C___SOLVELIQUIDEFFECT_B__39_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

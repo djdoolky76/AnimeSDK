@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebateToastType_TypeDefinitionIndex = 24312;
-
 	enum class DebateToastType : ::System::Int32
 	{
 		Start = 0,

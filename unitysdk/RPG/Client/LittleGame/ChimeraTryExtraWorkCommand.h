@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD4CCE00)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xD4CD230)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND__SHOULDFORCESETTLEGAME_OFFSET UNITYSDK_OFFSET(0xD4CD020)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xD424830)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD424400)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND__SHOULDFORCESETTLEGAME_OFFSET UNITYSDK_OFFSET(0xD424620)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraTryExtraWorkCommand_TypeDefinitionIndex = 76171;
-
 	class ChimeraTryExtraWorkCommand : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Execute(::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a1, ::System::Action* a2)
@@ -30,5 +27,6 @@ namespace RPG::Client::LittleGame
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERATRYEXTRAWORKCOMMAND__SHOULDFORCESETTLEGAME_OFFSET))(this, a1);
 		}
+
 	};
 }

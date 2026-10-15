@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TreeStats_TypeDefinitionIndex = 36114;
-
 	struct alignas(4) B2TreeStats
 	{
 		::System::Int32 nodeVisits; // 0x10

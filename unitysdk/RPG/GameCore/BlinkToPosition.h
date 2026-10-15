@@ -2,37 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BlinkToPosition; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_49F56242224536BA_OFFSET UNITYSDK_OFFSET(0x1CE86310)
-#define RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_4B233C5F3032C138_OFFSET UNITYSDK_OFFSET(0x1CE86270)
-#define RPG_GAMECORE_BLINKTOPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE862D0)
+#define RPG_GAMECORE_BLINKTOPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D46E410)
+#define RPG_GAMECORE_BLINKTOPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D46E450)
+#define RPG_GAMECORE_BLINKTOPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D46E3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlinkToPosition_TypeDefinitionIndex = 22875;
-
 	class BlinkToPosition : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::MVector3 Offset; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B233C5F3032C138(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlinkToPosition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BlinkToPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlinkToPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_4B233C5F3032C138_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BlinkToPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_49F56242224536BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlinkToPosition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BlinkToPosition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlinkToPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_49F56242224536BA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BlinkToPosition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

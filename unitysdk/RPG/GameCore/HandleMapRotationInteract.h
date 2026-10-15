@@ -1,36 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HandleMapRotationInteract; }
+namespace RPG::GameCore { class TaskConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_METHOD_3_6F54998CF4068A30_OFFSET UNITYSDK_OFFSET(0x1D179000)
-#define RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_METHOD_3_F4B8DD1DCC051547_OFFSET UNITYSDK_OFFSET(0x1D179040)
-#define RPG_GAMECORE_HANDLEMAPROTATIONINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D179030)
+#define RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D754360)
+#define RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D754370)
+#define RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D754330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HandleMapRotationInteract_TypeDefinitionIndex = 22055;
-
 	class HandleMapRotationInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* StartInteract; // 0x18
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* EndInteract; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANDLEMAPROTATIONINTERACT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6F54998CF4068A30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HandleMapRotationInteract*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HandleMapRotationInteract* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HandleMapRotationInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_METHOD_3_6F54998CF4068A30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HandleMapRotationInteract*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F4B8DD1DCC051547(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HandleMapRotationInteract* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::HandleMapRotationInteract* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HandleMapRotationInteract*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_METHOD_3_F4B8DD1DCC051547_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HandleMapRotationInteract*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANDLEMAPROTATIONINTERACT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

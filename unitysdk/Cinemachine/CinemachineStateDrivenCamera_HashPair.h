@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStateDrivenCamera_HashPair_TypeDefinitionIndex = 38456;
-
 	struct alignas(4) CinemachineStateDrivenCamera_HashPair
 	{
 		::System::Int32 parentHash; // 0x10

@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/AsyncOperation.h"
 
-#define UNITYENGINE_ASSETBUNDLEINSTANTIATEPREFABREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF9B80)
+#define UNITYENGINE_ASSETBUNDLEINSTANTIATEPREFABREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C1920)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssetBundleInstantiatePrefabRequest_TypeDefinitionIndex = 5760;
-
 	class AssetBundleInstantiatePrefabRequest : public ::UnityEngine::AsyncOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLEINSTANTIATEPREFABREQUEST__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLEINSTANTIATEPREFABREQUEST_CTOR_OFFSET))(this);
 		}
+
 	};
 }

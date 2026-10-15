@@ -1,32 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETANCHOR_OFFSET UNITYSDK_OFFSET(0x1EE6EE40)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETPIVOT_OFFSET UNITYSDK_OFFSET(0x1EE6EC90)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE6F430)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETANCHOR_G__SETANCHORIMPL_0_0_OFFSET UNITYSDK_OFFSET(0x1EE6EE90)
-#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETPIVOT_G__GETRECTREFERENCECORNER_1_0_OFFSET UNITYSDK_OFFSET(0x1EE6F2A0)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F537860)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETANCHOR_OFFSET UNITYSDK_OFFSET(0x1F5372A0)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS_SETPIVOT_OFFSET UNITYSDK_OFFSET(0x1F5370F0)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETANCHOR_G__SETANCHORIMPL_0_0_OFFSET UNITYSDK_OFFSET(0x1F5372F0)
+#define UNITYENGINE_UI_RECTTRANSFORMUTILS__SETPIVOT_G__GETRECTREFERENCECORNER_1_0_OFFSET UNITYSDK_OFFSET(0x1F5376D0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RectTransformUtils_TypeDefinitionIndex = 6801;
-
 	class RectTransformUtils : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_Corners()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(RectTransformUtils_TypeDefinitionIndex)->GetStaticField(0x21D20);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.UI", "RectTransformUtils")->GetStaticField(0x38770);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RECTTRANSFORMUTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RECTTRANSFORMUTILS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void SetAnchor(::UnityEngine::RectTransform* a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Vector2 a3)
@@ -48,5 +45,6 @@ namespace UnityEngine::UI
 		{
 			return ((::UnityEngine::Vector3(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_RECTTRANSFORMUTILS__SETPIVOT_G__GETRECTREFERENCECORNER_1_0_OFFSET))(a1);
 		}
+
 	};
 }

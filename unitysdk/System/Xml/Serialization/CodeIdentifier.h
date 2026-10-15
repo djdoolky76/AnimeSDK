@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Microsoft::CSharp { class CodeDomProvider; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALIDSTART_OFFSET UNITYSDK_OFFSET(0x1E82E5D0)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1E82E540)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEPASCAL_OFFSET UNITYSDK_OFFSET(0x1E82DF60)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEVALID_OFFSET UNITYSDK_OFFSET(0x1E82E100)
-#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E82E650)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEF72D0)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALIDSTART_OFFSET UNITYSDK_OFFSET(0x1EEF7250)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EEF71C0)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEPASCAL_OFFSET UNITYSDK_OFFSET(0x1EEF6BE0)
+#define SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_MAKEVALID_OFFSET UNITYSDK_OFFSET(0x1EEF6D80)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int CodeIdentifier_TypeDefinitionIndex = 1979;
-
 	class CodeIdentifier : public ::System::Object
 	{
 	public:
 		static ::Microsoft::CSharp::CodeDomProvider** StaticGet_csharp()
 		{
-			return (::Microsoft::CSharp::CodeDomProvider**)Il2CppClass::FromTypeDefinitionIndex(CodeIdentifier_TypeDefinitionIndex)->GetStaticField(0x1C6D0);
+			return (::Microsoft::CSharp::CodeDomProvider**)UnitySDK::FromName("System.Xml.Serialization", "CodeIdentifier")->GetStaticField(0x25C60);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* MakePascal(::System::String* a1)
@@ -47,5 +44,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Boolean(*)(::System::Char))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_CODEIDENTIFIER_ISVALID_OFFSET))(a1);
 		}
+
 	};
 }

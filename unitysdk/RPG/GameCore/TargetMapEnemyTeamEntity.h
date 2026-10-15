@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetMapEnemyTeamEntity; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_047A063A133E5510_OFFSET UNITYSDK_OFFSET(0x1D5B4030)
-#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_76FFAA74781EC89A_OFFSET UNITYSDK_OFFSET(0x1D5B4110)
-#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_B57F5E99F35D3015_OFFSET UNITYSDK_OFFSET(0x1D5B40B0)
-#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_F1ECF942793B0B67_OFFSET UNITYSDK_OFFSET(0x1D5B4130)
-#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B40A0)
+#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB6B6B0)
+#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB6B740)
+#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB6B720)
+#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB6B6C0)
+#define RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB6B640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMapEnemyTeamEntity_TypeDefinitionIndex = 23671;
-
 	class TargetMapEnemyTeamEntity : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_047A063A133E5510(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapEnemyTeamEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_047A063A133E5510_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapEnemyTeamEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B57F5E99F35D3015(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMapEnemyTeamEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_B57F5E99F35D3015_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMapEnemyTeamEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_76FFAA74781EC89A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapEnemyTeamEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_76FFAA74781EC89A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapEnemyTeamEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F1ECF942793B0B67(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetMapEnemyTeamEntity* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapEnemyTeamEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_METHOD_3_F1ECF942793B0B67_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetMapEnemyTeamEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMAPENEMYTEAMENTITY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,37 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTaskConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameModifier_AbilityCooldown; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_METHOD_4_083811227F4A5B16_OFFSET UNITYSDK_OFFSET(0x1CD5C020)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_METHOD_4_ECB254136D6AFCCB_OFFSET UNITYSDK_OFFSET(0x1CD5C060)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD5C050)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32F870)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D32F880)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D32F840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_AbilityCooldown_TypeDefinitionIndex = 10287;
-
 	class RoadRashGameModifier_AbilityCooldown : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:
 		::System::String* AbilityName; // 0x18
 		::RPG::GameCore::FixPoint Value; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_083811227F4A5B16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameModifier_AbilityCooldown*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameModifier_AbilityCooldown* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameModifier_AbilityCooldown*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_METHOD_4_083811227F4A5B16_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameModifier_AbilityCooldown*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_ECB254136D6AFCCB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameModifier_AbilityCooldown* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameModifier_AbilityCooldown* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameModifier_AbilityCooldown*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_METHOD_4_ECB254136D6AFCCB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameModifier_AbilityCooldown*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEMODIFIER_ABILITYCOOLDOWN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

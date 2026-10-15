@@ -1,73 +1,73 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class FieldCodec; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Google::Protobuf::WellKnownTypes { class FieldMask; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B3AB540)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CLONE_OFFSET UNITYSDK_OFFSET(0x1B3AB0C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B3AB2A0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B3AB120)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B3AB3C0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B3AACF0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B3AAC90)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_PATHS_OFFSET UNITYSDK_OFFSET(0x1B3AB110)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_ISPATHVALID_OFFSET UNITYSDK_OFFSET(0x1B3ABCD0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B3AB740)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B3AB5E0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B3AAED0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_TODIAGNOSTICSTRING_OFFSET UNITYSDK_OFFSET(0x1B3ABC70)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_TOJSON_OFFSET UNITYSDK_OFFSET(0x1B3AB900)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B3AB430)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B3AB490)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3ABD70)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B3AAF70)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3AAF30)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B8AD390)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8ADBC0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CLONE_OFFSET UNITYSDK_OFFSET(0x1B8ACF10)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B8ACDC0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8ACD80)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B8AD0F0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B8ACF70)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B8AD210)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B8ACB40)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B8ACAE0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_PATHS_OFFSET UNITYSDK_OFFSET(0x1B8ACF60)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_ISPATHVALID_OFFSET UNITYSDK_OFFSET(0x1B8ADB20)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B8AD590)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B8AD430)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B8ACD20)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_TODIAGNOSTICSTRING_OFFSET UNITYSDK_OFFSET(0x1B8ADAC0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_TOJSON_OFFSET UNITYSDK_OFFSET(0x1B8AD750)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B8AD280)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B8AD2E0)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int FieldMask_TypeDefinitionIndex = 5417;
-
 	class FieldMask : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::FieldMask*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::FieldMask*>**)Il2CppClass::FromTypeDefinitionIndex(FieldMask_TypeDefinitionIndex)->GetStaticField(0x16910);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::System::String*>** StaticGet__repeated_paths_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FieldMask_TypeDefinitionIndex)->GetStaticField(0x16918);
-		}
 		::Google::Protobuf::Collections::RepeatedField_1<::System::String*>* paths_; // 0x10
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "FieldMask")->GetStaticField(0x1A4E0);
+		}
+
+		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_paths_codec()
+		{
+			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "FieldMask")->GetStaticField(0x1A4E8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Google::Protobuf::WellKnownTypes::FieldMask* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::FieldMask*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::WellKnownTypes::FieldMask*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::FieldMask*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::WellKnownTypes::FieldMask*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -144,5 +144,6 @@ namespace Google::Protobuf::WellKnownTypes
 		{
 			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK_ISPATHVALID_OFFSET))(a1);
 		}
+
 	};
 }

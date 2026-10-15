@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace RPG::Client { class AssemNPCColliderInfo; }
 
-#define RPG_CLIENT_ASSEMNPCCOLLIDERINFO_GET_DEFAULTINFO_OFFSET UNITYSDK_OFFSET(0xC77CA20)
-#define RPG_CLIENT_ASSEMNPCCOLLIDERINFO_METHOD_1_D8DAA86944AD88A4_OFFSET UNITYSDK_OFFSET(0xC77CAB0)
-#define RPG_CLIENT_ASSEMNPCCOLLIDERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC77CAA0)
+#define RPG_CLIENT_ASSEMNPCCOLLIDERINFO_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0xC69A990)
+#define RPG_CLIENT_ASSEMNPCCOLLIDERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC69A980)
+#define RPG_CLIENT_ASSEMNPCCOLLIDERINFO_GET_DEFAULTINFO_OFFSET UNITYSDK_OFFSET(0xC69A900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPCColliderInfo_TypeDefinitionIndex = 60186;
-
 	class AssemNPCColliderInfo : public ::System::Object
 	{
 	public:
 		::System::Single CenterY; // 0x10
 		::System::Single Height; // 0x14
 		::System::Single Radius; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCOLLIDERINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCOLLIDERINFO_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::AssemNPCColliderInfo* get_DefaultInfo()
@@ -27,9 +25,10 @@ namespace RPG::Client
 			return ((::RPG::Client::AssemNPCColliderInfo*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCOLLIDERINFO_GET_DEFAULTINFO_OFFSET))();
 		}
 
-		::RPG::Client::AssemNPCColliderInfo* Method_1_D8DAA86944AD88A4()
+		::RPG::Client::AssemNPCColliderInfo* AEOIKFNKAAP()
 		{
-			return ((::RPG::Client::AssemNPCColliderInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCOLLIDERINFO_METHOD_1_D8DAA86944AD88A4_OFFSET))(this);
+			return ((::RPG::Client::AssemNPCColliderInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPCCOLLIDERINFO_AEOIKFNKAAP_OFFSET))(this);
 		}
+
 	};
 }

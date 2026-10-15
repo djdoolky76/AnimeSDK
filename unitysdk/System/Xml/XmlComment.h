@@ -2,30 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/XmlCharacterData.h"
 #include "unitysdk/System/Xml/XmlNodeType.h"
-
 namespace System { class String; }
 namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlNode; }
 namespace System::Xml { class XmlWriter; }
 
-#define SYSTEM_XML_XMLCOMMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1E883E50)
-#define SYSTEM_XML_XMLCOMMENT_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1E883E20)
-#define SYSTEM_XML_XMLCOMMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E883E00)
-#define SYSTEM_XML_XMLCOMMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E883E40)
-#define SYSTEM_XML_XMLCOMMENT_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1E883FB0)
-#define SYSTEM_XML_XMLCOMMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E883F00)
-#define SYSTEM_XML_XMLCOMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E883D80)
+#define SYSTEM_XML_XMLCOMMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1EF4CAB0)
+#define SYSTEM_XML_XMLCOMMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4C9E0)
+#define SYSTEM_XML_XMLCOMMENT_GET_LOCALNAME_OFFSET UNITYSDK_OFFSET(0x1EF4CA80)
+#define SYSTEM_XML_XMLCOMMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EF4CA60)
+#define SYSTEM_XML_XMLCOMMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EF4CAA0)
+#define SYSTEM_XML_XMLCOMMENT_WRITECONTENTTO_OFFSET UNITYSDK_OFFSET(0x1EF4CC10)
+#define SYSTEM_XML_XMLCOMMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EF4CB60)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlComment_TypeDefinitionIndex = 1897;
-
 	class XmlComment : public ::System::Xml::XmlCharacterData
 	{
 	public:
 		::System::Void _ctor(::System::String* a1, ::System::Xml::XmlDocument* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCOMMENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Xml::XmlDocument*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCOMMENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Name()
@@ -57,5 +54,6 @@ namespace System::Xml
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlWriter*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLCOMMENT_WRITECONTENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

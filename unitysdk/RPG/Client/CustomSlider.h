@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UI/Slider.h"
-
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_CUSTOMSLIDER_ONDRAGMOVED_OFFSET UNITYSDK_OFFSET(0xCC90340)
-#define RPG_CLIENT_CUSTOMSLIDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCC90250)
-#define RPG_CLIENT_CUSTOMSLIDER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xCC90540)
-#define RPG_CLIENT_CUSTOMSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC90590)
+#define RPG_CLIENT_CUSTOMSLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE3B30)
+#define RPG_CLIENT_CUSTOMSLIDER_ONDRAGMOVED_OFFSET UNITYSDK_OFFSET(0xCBE38E0)
+#define RPG_CLIENT_CUSTOMSLIDER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCBE37F0)
+#define RPG_CLIENT_CUSTOMSLIDER_ONPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0xCBE3AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomSlider_TypeDefinitionIndex = 72449;
-
 	class CustomSlider : public ::UnityEngine::UI::Slider
 	{
 	public:
 		::System::Single _DragSoundTime; // 0x180
 		::System::Single _DragSoundInterval; // 0x184
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -38,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMSLIDER_ONPOINTERDOWN_OFFSET))(this, a1);
 		}
+
 	};
 }

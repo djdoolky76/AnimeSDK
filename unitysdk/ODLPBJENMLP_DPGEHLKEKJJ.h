@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FICJADOJGMF_FHHABLLAPHM.h"
+class ODLPBJENMLP;
+namespace RPG::Client { class WolfBroGunPlayRogueRoadMapConfig; }
+
+#define ODLPBJENMLP_DPGEHLKEKJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDED2B0)
+#define ODLPBJENMLP_DPGEHLKEKJJ_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xBDED900)
+#define ODLPBJENMLP_DPGEHLKEKJJ_DOHMGGCOKKF_OFFSET UNITYSDK_OFFSET(0xBDECF90)
+#define ODLPBJENMLP_DPGEHLKEKJJ_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xBDEDC40)
+#define ODLPBJENMLP_DPGEHLKEKJJ_MCBENJCJHFE_OFFSET UNITYSDK_OFFSET(0xBDED5D0)
+#define ODLPBJENMLP_DPGEHLKEKJJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBDED950)
+#define ODLPBJENMLP_DPGEHLKEKJJ_MJJIEKGOACJ_OFFSET UNITYSDK_OFFSET(0xBDEDAB0)
+#define ODLPBJENMLP_DPGEHLKEKJJ_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0xBDEDBF0)
+
+	class ODLPBJENMLP_DPGEHLKEKJJ : public ::FICJADOJGMF_FHHABLLAPHM
+	{
+	public:
+		::ODLPBJENMLP* LGEGKIKIPOB; // 0x58
+		::System::Single GJNDNLNOHGA; // 0x60
+		::System::Single FJDLJPJHAKG; // 0x64
+		::System::Void _ctor(::ODLPBJENMLP* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::ODLPBJENMLP*))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_CTOR_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::WolfBroGunPlayRogueRoadMapConfig* DOHMGGCOKKF()
+		{
+			return ((::RPG::Client::WolfBroGunPlayRogueRoadMapConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_DOHMGGCOKKF_OFFSET))(this);
+		}
+
+		::System::Boolean MCBENJCJHFE()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_MCBENJCJHFE_OFFSET))(this);
+		}
+
+		::System::Void DAMDMJJKLON()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_DAMDMJJKLON_OFFSET))(this);
+		}
+
+		::System::Void MGFLFCHMGPA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_MGFLFCHMGPA_OFFSET))(this);
+		}
+
+		::System::Void MJJIEKGOACJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_MJJIEKGOACJ_OFFSET))(this);
+		}
+
+		::System::Void PODJJPBKLDC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_PODJJPBKLDC_OFFSET))(this);
+		}
+
+		::System::Void LJOLGCNKIEH(::System::Single a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ODLPBJENMLP_DPGEHLKEKJJ_LJOLGCNKIEH_OFFSET))(this, a1, a2);
+		}
+
+	};

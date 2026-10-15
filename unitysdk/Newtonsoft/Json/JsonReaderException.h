@@ -2,47 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace Newtonsoft::Json { class IJsonLineInfo; }
 namespace Newtonsoft::Json { class JsonReader; }
+namespace Newtonsoft::Json { class JsonReaderException; }
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1BE91CD0)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1BE91D90)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1BE6C320)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_SET_LINENUMBER_OFFSET UNITYSDK_OFFSET(0x1BE91B50)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_SET_LINEPOSITION_OFFSET UNITYSDK_OFFSET(0x1BE91B60)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1BE91B70)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BE91BE0)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BE91C30)
-#define NEWTONSOFT_JSON_JSONREADEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE91B80)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1C39D8E0)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CREATE_2_OFFSET UNITYSDK_OFFSET(0x1C39D9A0)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1C377F20)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C39D7F0)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C39D840)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C39D790)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_SET_LINENUMBER_OFFSET UNITYSDK_OFFSET(0x1C39D760)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_SET_LINEPOSITION_OFFSET UNITYSDK_OFFSET(0x1C39D770)
+#define NEWTONSOFT_JSON_JSONREADEREXCEPTION_SET_PATH_OFFSET UNITYSDK_OFFSET(0x1C39D780)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonReaderException_TypeDefinitionIndex = 9555;
-
 	class JsonReaderException : public ::Newtonsoft::Json::JsonException
 	{
 	public:
 		::System::String* _Path_k__BackingField; // 0x88
 		::System::Int32 _LineNumber_k__BackingField; // 0x90
 		::System::Int32 _LinePosition_k__BackingField; // 0x94
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADEREXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADEREXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADEREXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADEREXCEPTION_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2, ::System::String* a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADEREXCEPTION__CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*, ::System::String*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADEREXCEPTION_CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void set_LineNumber(::System::Int32 a1)
@@ -74,5 +71,6 @@ namespace Newtonsoft::Json
 		{
 			return ((::Newtonsoft::Json::JsonReaderException*(*)(::Newtonsoft::Json::IJsonLineInfo*, ::System::String*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_JSONREADEREXCEPTION_CREATE_2_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

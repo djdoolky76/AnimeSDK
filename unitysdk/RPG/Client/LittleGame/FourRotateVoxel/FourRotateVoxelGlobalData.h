@@ -3,19 +3,16 @@
 #include "unitysdk/RPG/GameCore/FourRotateVoxelAnimalType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGlobalData_FRVCustomMaxEmissionIntensityData; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0xD514630)
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD514870)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_AWAKE_OFFSET UNITYSDK_OFFSET(0xD46B1E0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD46B420)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGlobalData_TypeDefinitionIndex = 76379;
-
 	class FourRotateVoxelGlobalData : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -33,24 +30,26 @@ namespace RPG::Client::LittleGame::FourRotateVoxel
 		::System::Int32 FastUpgradingSignle2DRotateTimes; // 0x50
 		::System::Single FastUpgradingSignle2DShowEffectStartTime; // 0x54
 		::System::Single RevertAll2DFaceDuration; // 0x58
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* RevertAll2DRotateCurve; // 0x60
 		::System::Single RevertAll2DShowEffectDuration; // 0x68
 		::UnityEngine::Color EmissionColor; // 0x6C
 		::System::Single MaxEmissionIntensity; // 0x7C
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData_FRVCustomMaxEmissionIntensityData*>* CustomMaxEmissionIntensityList; // 0x80
+		::System::Collections::Generic::List_1<::System::Object*>* CustomMaxEmissionIntensityList; // 0x80
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FourRotateVoxelAnimalType, ::System::Single>* CustomMaxEmissionIntensityDict; // 0x88
 		::System::Single EmissionIntensityDuration; // 0x90
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* EmissionIntensityCurve; // 0x98
 		::System::Single AfterRewardDelayClose; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGLOBALDATA_AWAKE_OFFSET))(this);
 		}
+
 	};
 }

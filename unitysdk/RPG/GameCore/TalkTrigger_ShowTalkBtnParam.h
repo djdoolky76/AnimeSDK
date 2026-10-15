@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/TalkTrigger_DialogueGroupInfo.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM_RESET_OFFSET UNITYSDK_OFFSET(0xE723AA0)
-#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xE721750)
+#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE77DF30)
+#define RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM_RESET_OFFSET UNITYSDK_OFFSET(0xE7805C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkTrigger_ShowTalkBtnParam_TypeDefinitionIndex = 57687;
-
 	class TalkTrigger_ShowTalkBtnParam : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TalkTrigger_DialogueGroupInfo>* DialogueGroupInfos; // 0x10
+		::Il2CppArray<::System::Object*>* DialogueGroupInfos; // 0x10
 		::System::UInt32 GuestRuntimeID; // 0x18
 		::System::UInt32 HostRuntimeID; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKTRIGGER_SHOWTALKBTNPARAM_RESET_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class FloorCustomValueSnapshot; }
+namespace System { class Object; }
 
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D95C830)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D95C870)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1D95C880)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF40C0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF4100)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DFF4110)
 
 namespace Proto
 {
-	inline static constexpr unsigned int FloorCustomValueSnapshot___c_TypeDefinitionIndex = 25475;
-
 	class FloorCustomValueSnapshot___c : public ::System::Object
 	{
 	public:
-		static ::Proto::FloorCustomValueSnapshot___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Proto::FloorCustomValueSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(FloorCustomValueSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x58EB0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43B40);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CTOR_OFFSET))(this);
 		}
 
 		::Proto::FloorCustomValueSnapshot* __cctor_b__43_0()
 		{
 			return ((::Proto::FloorCustomValueSnapshot*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_FLOORCUSTOMVALUESNAPSHOT___C___CCTOR_B__43_0_OFFSET))(this);
 		}
+
 	};
 }

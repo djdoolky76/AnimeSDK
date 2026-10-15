@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace Mono::Globalization::Unicode
 {
-	inline static constexpr unsigned int SimpleCollator_Escape_TypeDefinitionIndex = 42;
-
 	struct alignas(8) SimpleCollator_Escape
 	{
 		::System::String* Source; // 0x10

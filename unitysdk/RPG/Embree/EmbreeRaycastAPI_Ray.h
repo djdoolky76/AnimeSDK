@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeRaycastAPI_Ray_TypeDefinitionIndex = 47474;
-
 	struct alignas(4) EmbreeRaycastAPI_Ray
 	{
 		::UnityEngine::Vector3 origin; // 0x10

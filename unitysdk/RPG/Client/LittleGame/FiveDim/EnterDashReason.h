@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int EnterDashReason_TypeDefinitionIndex = 41797;
-
 	enum class EnterDashReason : ::System::Int32
 	{
 		SkillBtn = 0,

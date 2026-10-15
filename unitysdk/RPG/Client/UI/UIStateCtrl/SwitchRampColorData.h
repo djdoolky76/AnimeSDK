@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/UI/ColorMode.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE310D90)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE350420)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int SwitchRampColorData_TypeDefinitionIndex = 73963;
-
 	class SwitchRampColorData : public ::System::Object
 	{
 	public:
@@ -24,10 +21,10 @@ namespace RPG::Client::UI::UIStateCtrl
 		::System::Single RampScale; // 0x58
 		::System::Single RampOffset; // 0x5C
 		::UnityEngine::Object* Target; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

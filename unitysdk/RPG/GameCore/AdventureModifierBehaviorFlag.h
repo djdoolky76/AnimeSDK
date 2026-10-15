@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierBehaviorFlag_TypeDefinitionIndex = 17305;
-
 	enum class AdventureModifierBehaviorFlag : ::System::Int32
 	{
 		EnterBattleAdvantage = 0,

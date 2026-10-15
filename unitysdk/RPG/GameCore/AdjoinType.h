@@ -3,12 +3,10 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdjoinType_TypeDefinitionIndex = 24515;
-
 	enum class AdjoinType : ::System::UInt16
 	{
-		Left = 0x1,
-		Right = 0x2,
-		LeftAndRight = 0x3,
+		Left = 1,
+		Right = 2,
+		LeftAndRight = 3,
 	};
 }

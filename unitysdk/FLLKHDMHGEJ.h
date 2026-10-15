@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class FLLKHDMHGEJ : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		NJHPJOFMIPI = 7281,
+		JNIBHGOJJMD = 7270,
+		AAJHAHGNDOF = 7266,
+		BMEPHMNEODG = 7279,
+		NKDCMEJMIKO = 7282,
+		AADOOEEIHII = 7261,
+		AOFOMJNMIIM = 7284,
+		MNFDHGIDPFK = 7256,
+	};

@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class DJMFLECOALG;
+class FNJPHLBBNBC;
+class HCMJGNAPIBD;
+
+#define EBIKLGFODPM_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFB890)
+#define EBIKLGFODPM_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x12CFB8A0)
+
+	class EBIKLGFODPM : public ::System::Object
+	{
+	public:
+		::DJMFLECOALG* NIIPLIOLIBG; // 0x10
+		::HCMJGNAPIBD* IJGJAMAKFLJ; // 0x18
+		::System::Void _ctor(::HCMJGNAPIBD* a1, ::DJMFLECOALG* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::HCMJGNAPIBD*, ::DJMFLECOALG*))((::PBYTE)hIl2Cpp + EBIKLGFODPM_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void LNGKNPJIOML(::FNJPHLBBNBC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FNJPHLBBNBC*))((::PBYTE)hIl2Cpp + EBIKLGFODPM_LNGKNPJIOML_OFFSET))(this, a1);
+		}
+
+	};

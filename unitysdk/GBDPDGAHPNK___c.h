@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GBDPDGAHPNK;
+namespace System { class Object; }
+
+#define GBDPDGAHPNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E429650)
+#define GBDPDGAHPNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E429690)
+#define GBDPDGAHPNK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4296A0)
+
+	class GBDPDGAHPNK___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCD20);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GBDPDGAHPNK___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GBDPDGAHPNK___C_CTOR_OFFSET))(this);
+		}
+
+		::GBDPDGAHPNK* __cctor_b__28_0()
+		{
+			return ((::GBDPDGAHPNK*(*)(::PVOID))((::PBYTE)hIl2Cpp + GBDPDGAHPNK___C___CCTOR_B__28_0_OFFSET))(this);
+		}
+
+	};

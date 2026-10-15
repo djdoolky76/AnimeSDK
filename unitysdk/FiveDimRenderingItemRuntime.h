@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FiveDimRenderingItem.h"
 
-#define FIVEDIMRENDERINGITEMRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1560BF10)
-#define FIVEDIMRENDERINGITEMRUNTIME__ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1560BE90)
-#define FIVEDIMRENDERINGITEMRUNTIME__ONENABLE_OFFSET UNITYSDK_OFFSET(0x1560BED0)
+#define FIVEDIMRENDERINGITEMRUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x15927B70)
+#define FIVEDIMRENDERINGITEMRUNTIME__ONDISABLE_OFFSET UNITYSDK_OFFSET(0x15927AF0)
+#define FIVEDIMRENDERINGITEMRUNTIME__ONENABLE_OFFSET UNITYSDK_OFFSET(0x15927B30)
 
-inline static constexpr unsigned int FiveDimRenderingItemRuntime_TypeDefinitionIndex = 47568;
-
-class FiveDimRenderingItemRuntime : public ::FiveDimRenderingItem
-{
-public:
-	::System::Void _ctor()
+	class FiveDimRenderingItemRuntime : public ::FiveDimRenderingItem
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIVEDIMRENDERINGITEMRUNTIME__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIVEDIMRENDERINGITEMRUNTIME_CTOR_OFFSET))(this);
+		}
 
-	::System::Void _OnDisable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIVEDIMRENDERINGITEMRUNTIME__ONDISABLE_OFFSET))(this);
-	}
+		::System::Void _OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIVEDIMRENDERINGITEMRUNTIME__ONDISABLE_OFFSET))(this);
+		}
 
-	::System::Void _OnEnable()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIVEDIMRENDERINGITEMRUNTIME__ONENABLE_OFFSET))(this);
-	}
-};
+		::System::Void _OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FIVEDIMRENDERINGITEMRUNTIME__ONENABLE_OFFSET))(this);
+		}
+
+	};

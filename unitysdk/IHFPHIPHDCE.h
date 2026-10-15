@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class IHFPHIPHDCE : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		CIGFPGNKCBO = 9860,
+		BJGKLFMLMAF = 9849,
+		FJPOEECMLFM = 9857,
+		CHMEMLHLCMA = 9853,
+		ODHBCNILDOK = 9844,
+		PKLFCJBCOLE = 9852,
+		HOCGMBLBMBD = 9848,
+		FPEMHEADJMF = 9845,
+		EMOAOEIMDDM = 9850,
+		ALPFGCMPNAK = 9856,
+	};

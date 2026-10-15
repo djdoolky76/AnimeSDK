@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class Test_Texture2D; }
 namespace UnityEngine { class Texture2D; }
 
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B4B4C40)
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B4B4C20)
-#define HOUDINIENGINEUNITY_TEST_TEXTURE2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B4C10)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B6C40)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B6C70)
+#define HOUDINIENGINEUNITY_TEST_TEXTURE2D_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9B6C50)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Texture2D_TypeDefinitionIndex = 39457;
-
 	class Test_Texture2D : public ::System::Object
 	{
 	public:
 		::UnityEngine::Texture2D* self; // 0x10
-
 		::System::Void _ctor(::UnityEngine::Texture2D* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TEXTURE2D__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TEXTURE2D_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNull()
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_Texture2D*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TEXTURE2D_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

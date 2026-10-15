@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateLevelParamType_TypeDefinitionIndex = 10526;
-
 	enum class FateLevelParamType : ::System::Int32
 	{
 		Undefine = 0,

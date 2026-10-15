@@ -1,21 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventModifiers.h"
-#include "unitysdk/UnityEngine/UIElements/EventBase_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-namespace UnityEngine { class Event; }
-namespace UnityEngine::UIElements { class IEventHandler; }
-namespace UnityEngine::UIElements { class IMouseEvent; }
-namespace UnityEngine::UIElements { class IPanel; }
 namespace UnityEngine::UIElements { class IPointerEvent; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseEventBase_1_TypeDefinitionIndex = 5951;
-
 	template <typename T>
-	class MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>
+	class MouseEventBase_1
 	{
 	public:
 		::UnityEngine::EventModifiers _modifiers_k__BackingField; // 0x0

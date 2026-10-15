@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingSkillType_TypeDefinitionIndex = 77406;
-
 	enum class ChenLingSkillType : ::System::Int32
 	{
 		Invalid = 0,

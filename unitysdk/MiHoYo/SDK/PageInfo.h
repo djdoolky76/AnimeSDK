@@ -1,92 +1,91 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class PageInfo; }
 namespace MiHoYo::SDK::Protobuf { class CodedInputStream; }
 namespace MiHoYo::SDK::Protobuf { class CodedOutputStream; }
-namespace MiHoYo::SDK::Protobuf { template <typename T> class MessageParser_1; }
+namespace MiHoYo::SDK::Protobuf { class MessageParser; }
 namespace MiHoYo::SDK::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
-namespace MiHoYo::SDK::Protobuf::Collections { template <typename T1, typename T2> class MapField_2_Codec; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PAGEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0xB275670)
-#define MIHOYO_SDK_PAGEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0xB274950)
-#define MIHOYO_SDK_PAGEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xB274E30)
-#define MIHOYO_SDK_PAGEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0xB274DD0)
-#define MIHOYO_SDK_PAGEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB274FB0)
-#define MIHOYO_SDK_PAGEINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB274570)
-#define MIHOYO_SDK_PAGEINFO_GET_EXTRAINFO_OFFSET UNITYSDK_OFFSET(0xB274DC0)
-#define MIHOYO_SDK_PAGEINFO_GET_PAGENAME_OFFSET UNITYSDK_OFFSET(0xB274A50)
-#define MIHOYO_SDK_PAGEINFO_GET_PAGEPATH_OFFSET UNITYSDK_OFFSET(0xB2749A0)
-#define MIHOYO_SDK_PAGEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0xB274510)
-#define MIHOYO_SDK_PAGEINFO_GET_SOURCENAME_OFFSET UNITYSDK_OFFSET(0xB274D10)
-#define MIHOYO_SDK_PAGEINFO_GET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0xB274C60)
-#define MIHOYO_SDK_PAGEINFO_GET_SUBPAGENAME_OFFSET UNITYSDK_OFFSET(0xB274BB0)
-#define MIHOYO_SDK_PAGEINFO_GET_SUBPAGEPATH_OFFSET UNITYSDK_OFFSET(0xB274B00)
-#define MIHOYO_SDK_PAGEINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0xB275B90)
-#define MIHOYO_SDK_PAGEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0xB2758A0)
-#define MIHOYO_SDK_PAGEINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB274750)
-#define MIHOYO_SDK_PAGEINFO_SET_PAGENAME_OFFSET UNITYSDK_OFFSET(0xB274A60)
-#define MIHOYO_SDK_PAGEINFO_SET_PAGEPATH_OFFSET UNITYSDK_OFFSET(0xB2749B0)
-#define MIHOYO_SDK_PAGEINFO_SET_SOURCENAME_OFFSET UNITYSDK_OFFSET(0xB274D20)
-#define MIHOYO_SDK_PAGEINFO_SET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0xB274C70)
-#define MIHOYO_SDK_PAGEINFO_SET_SUBPAGENAME_OFFSET UNITYSDK_OFFSET(0xB274BC0)
-#define MIHOYO_SDK_PAGEINFO_SET_SUBPAGEPATH_OFFSET UNITYSDK_OFFSET(0xB274B10)
-#define MIHOYO_SDK_PAGEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB2752F0)
-#define MIHOYO_SDK_PAGEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0xB275350)
-#define MIHOYO_SDK_PAGEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2760A0)
-#define MIHOYO_SDK_PAGEINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0xB274840)
-#define MIHOYO_SDK_PAGEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB2747B0)
+#define MIHOYO_SDK_PAGEINFO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0xB014510)
+#define MIHOYO_SDK_PAGEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB014F40)
+#define MIHOYO_SDK_PAGEINFO_CLONE_OFFSET UNITYSDK_OFFSET(0xB0137F0)
+#define MIHOYO_SDK_PAGEINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB0136E0)
+#define MIHOYO_SDK_PAGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB013650)
+#define MIHOYO_SDK_PAGEINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xB013CD0)
+#define MIHOYO_SDK_PAGEINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0xB013C70)
+#define MIHOYO_SDK_PAGEINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB013E50)
+#define MIHOYO_SDK_PAGEINFO_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB013410)
+#define MIHOYO_SDK_PAGEINFO_GET_EXTRAINFO_OFFSET UNITYSDK_OFFSET(0xB013C60)
+#define MIHOYO_SDK_PAGEINFO_GET_PAGENAME_OFFSET UNITYSDK_OFFSET(0xB0138F0)
+#define MIHOYO_SDK_PAGEINFO_GET_PAGEPATH_OFFSET UNITYSDK_OFFSET(0xB013840)
+#define MIHOYO_SDK_PAGEINFO_GET_PARSER_OFFSET UNITYSDK_OFFSET(0xB0133B0)
+#define MIHOYO_SDK_PAGEINFO_GET_SOURCENAME_OFFSET UNITYSDK_OFFSET(0xB013BB0)
+#define MIHOYO_SDK_PAGEINFO_GET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0xB013B00)
+#define MIHOYO_SDK_PAGEINFO_GET_SUBPAGENAME_OFFSET UNITYSDK_OFFSET(0xB013A50)
+#define MIHOYO_SDK_PAGEINFO_GET_SUBPAGEPATH_OFFSET UNITYSDK_OFFSET(0xB0139A0)
+#define MIHOYO_SDK_PAGEINFO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0xB014A30)
+#define MIHOYO_SDK_PAGEINFO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0xB014740)
+#define MIHOYO_SDK_PAGEINFO_PB__MIHOYO_SDK_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0xB0135F0)
+#define MIHOYO_SDK_PAGEINFO_SET_PAGENAME_OFFSET UNITYSDK_OFFSET(0xB013900)
+#define MIHOYO_SDK_PAGEINFO_SET_PAGEPATH_OFFSET UNITYSDK_OFFSET(0xB013850)
+#define MIHOYO_SDK_PAGEINFO_SET_SOURCENAME_OFFSET UNITYSDK_OFFSET(0xB013BC0)
+#define MIHOYO_SDK_PAGEINFO_SET_SOURCEPATH_OFFSET UNITYSDK_OFFSET(0xB013B10)
+#define MIHOYO_SDK_PAGEINFO_SET_SUBPAGENAME_OFFSET UNITYSDK_OFFSET(0xB013A60)
+#define MIHOYO_SDK_PAGEINFO_SET_SUBPAGEPATH_OFFSET UNITYSDK_OFFSET(0xB0139B0)
+#define MIHOYO_SDK_PAGEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB014190)
+#define MIHOYO_SDK_PAGEINFO_WRITETO_OFFSET UNITYSDK_OFFSET(0xB0141F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PageInfo_TypeDefinitionIndex = 46824;
-
 	class PageInfo : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::String*>** StaticGet__map_extraInfo_codec()
+		::System::String* sourcePath_; // 0x10
+		::System::String* subPagePath_; // 0x18
+		::System::String* pageName_; // 0x20
+		::System::String* sourceName_; // 0x28
+		::System::String* pagePath_; // 0x30
+		::System::String* subPageName_; // 0x38
+		::MiHoYo::SDK::Protobuf::Collections::MapField_2<::System::String*, ::System::String*>* extraInfo_; // 0x40
+		static ::MiHoYo::SDK::Protobuf::MessageParser** StaticGet__parser()
 		{
-			return (::MiHoYo::SDK::Protobuf::Collections::MapField_2_Codec<::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PageInfo_TypeDefinitionIndex)->GetStaticField(0x552F0);
+			return (::MiHoYo::SDK::Protobuf::MessageParser**)UnitySDK::FromName("MiHoYo.SDK", "PageInfo")->GetStaticField(0x2FFF0);
 		}
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::PageInfo*>** StaticGet__parser()
-		{
-			return (::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::PageInfo*>**)Il2CppClass::FromTypeDefinitionIndex(PageInfo_TypeDefinitionIndex)->GetStaticField(0x552F8);
-		}
-		// static const ::System::Int32 PagePathFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 PageNameFieldNumber = 0x2; // 0x0
-		// static const ::System::Int32 SubPagePathFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 SubPageNameFieldNumber = 0x4; // 0x0
-		// static const ::System::Int32 SourcePathFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 SourceNameFieldNumber = 0x6; // 0x0
-		// static const ::System::Int32 ExtraInfoFieldNumber = 0x7; // 0x0
-		::MiHoYo::SDK::Protobuf::Collections::MapField_2<::System::String*, ::System::String*>* extraInfo_; // 0x10
-		::System::String* pageName_; // 0x18
-		::System::String* pagePath_; // 0x20
-		::System::String* sourcePath_; // 0x28
-		::System::String* sourceName_; // 0x30
-		::System::String* subPagePath_; // 0x38
-		::System::String* subPageName_; // 0x40
 
+		static ::System::Object** StaticGet__map_extraInfo_codec()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "PageInfo")->GetStaticField(0x2FFF8);
+		}
+
+		// static const ::System::Object PagePathFieldNumber; // 0x0
+		// static const ::System::Object PageNameFieldNumber; // 0x0
+		// static const ::System::Object SubPagePathFieldNumber; // 0x0
+		// static const ::System::Object SubPageNameFieldNumber; // 0x0
+		// static const ::System::Object SourcePathFieldNumber; // 0x0
+		// static const ::System::Object SourceNameFieldNumber; // 0x0
+		// static const ::System::Object ExtraInfoFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::MiHoYo::SDK::PageInfo* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PageInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::PageInfo*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO_CCTOR_OFFSET))();
 		}
 
-		static ::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::PageInfo*>* get_Parser()
+		static ::MiHoYo::SDK::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::MiHoYo::SDK::Protobuf::MessageParser_1<::MiHoYo::SDK::PageInfo*>*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO_GET_PARSER_OFFSET))();
+			return ((::MiHoYo::SDK::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO_GET_PARSER_OFFSET))();
 		}
 
 		static ::MiHoYo::SDK::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -208,5 +207,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PAGEINFO_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

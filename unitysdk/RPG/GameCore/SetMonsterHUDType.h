@@ -2,35 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/MonsterHUDType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetMonsterHUDType; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETMONSTERHUDTYPE_METHOD_3_989D6A1BF1F09563_OFFSET UNITYSDK_OFFSET(0x1D507940)
-#define RPG_GAMECORE_SETMONSTERHUDTYPE_METHOD_3_AB4C3F23F74160D8_OFFSET UNITYSDK_OFFSET(0x1D507980)
-#define RPG_GAMECORE_SETMONSTERHUDTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D507970)
+#define RPG_GAMECORE_SETMONSTERHUDTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABBC40)
+#define RPG_GAMECORE_SETMONSTERHUDTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABBC50)
+#define RPG_GAMECORE_SETMONSTERHUDTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABBC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterHUDType_TypeDefinitionIndex = 22510;
-
 	class SetMonsterHUDType : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::MonsterHUDType HUDType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_989D6A1BF1F09563(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHUDType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetMonsterHUDType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHUDType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDTYPE_METHOD_3_989D6A1BF1F09563_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetMonsterHUDType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AB4C3F23F74160D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHUDType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetMonsterHUDType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHUDType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDTYPE_METHOD_3_AB4C3F23F74160D8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetMonsterHUDType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHUDTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

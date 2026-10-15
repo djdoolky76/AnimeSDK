@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvNPCRunAwayPlayer; }
+namespace RPG::GameCore { class TaskConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_METHOD_3_B6EDC67BC2A2750F_OFFSET UNITYSDK_OFFSET(0x1CDCF390)
-#define RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_METHOD_3_E3D4E842D53C31E3_OFFSET UNITYSDK_OFFSET(0x1CDCF430)
-#define RPG_GAMECORE_ADVNPCRUNAWAYPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDCF3F0)
+#define RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A4E00)
+#define RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A4E40)
+#define RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A4DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNPCRunAwayPlayer_TypeDefinitionIndex = 19747;
-
 	class AdvNPCRunAwayPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -26,20 +25,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnEnterRunAway; // 0x38
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnLeaveRunAway; // 0x40
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnFinishRunAway; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCRUNAWAYPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B6EDC67BC2A2750F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNPCRunAwayPlayer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNPCRunAwayPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNPCRunAwayPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_METHOD_3_B6EDC67BC2A2750F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNPCRunAwayPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E3D4E842D53C31E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNPCRunAwayPlayer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNPCRunAwayPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNPCRunAwayPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_METHOD_3_E3D4E842D53C31E3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNPCRunAwayPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCRUNAWAYPLAYER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

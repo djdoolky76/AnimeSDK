@@ -2,39 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0xC989040)
-#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_CLEARBUTTONCONFIG_OFFSET UNITYSDK_OFFSET(0xC989260)
-#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC9892A0)
-#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_SETBUTTONCONFIG_OFFSET UNITYSDK_OFFSET(0xC989200)
-#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO__CTOR_OFFSET UNITYSDK_OFFSET(0xC989970)
-#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO__GETANCHORPOSITION_OFFSET UNITYSDK_OFFSET(0xC989790)
-#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO__GETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xC989500)
+#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8D73F0)
+#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_CLEARBUTTONCONFIG_OFFSET UNITYSDK_OFFSET(0xC8D75E0)
+#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8D7CF0)
+#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC8D7620)
+#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO_SETBUTTONCONFIG_OFFSET UNITYSDK_OFFSET(0xC8D7580)
+#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO__GETANCHORPOSITION_OFFSET UNITYSDK_OFFSET(0xC8D7B10)
+#define RPG_CLIENT_CAKECATCHARRANGEBTNMONO__GETWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xC8D7880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchArrangeBtnMono_TypeDefinitionIndex = 63028;
-
 	class CakeCatchArrangeBtnMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::Int32 BTN_TYPE_GROUND = 0x1; // 0x0
-		// static const ::System::Int32 BTN_TYPE_GROUND_CAT = 0x2; // 0x0
-		// static const ::System::Int32 BTN_TYPE_SHELF = 0x3; // 0x0
-		// static const ::System::Int32 BTN_TYPE_SHELF_CAT = 0x4; // 0x0
 		::UnityEngine::RectTransform* _rectTransform; // 0x18
 		::UnityEngine::RectTransform* _parentRectTransform; // 0x20
 		::System::Boolean _isInitialized; // 0x28
+		::System::Byte _padding0[0x3];
 		::System::Int32 _btnType; // 0x2C
 		::System::Int32 _index; // 0x30
 		::System::Int32 _subIndex; // 0x34
 		::System::Boolean _hasButtonConfig; // 0x38
-
+		// static const ::System::Object BTN_TYPE_GROUND; // 0x0
+		// static const ::System::Object BTN_TYPE_GROUND_CAT; // 0x0
+		// static const ::System::Object BTN_TYPE_SHELF; // 0x0
+		// static const ::System::Object BTN_TYPE_SHELF_CAT; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGEBTNMONO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGEBTNMONO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -66,5 +63,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CAKECATCHARRANGEBTNMONO__GETANCHORPOSITION_OFFSET))(this);
 		}
+
 	};
 }

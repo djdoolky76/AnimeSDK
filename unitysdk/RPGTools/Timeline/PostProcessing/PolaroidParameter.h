@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15F610)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF8FC0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidParameter_TypeDefinitionIndex = 49047;
-
 	struct alignas(4) PolaroidParameter
 	{
 		::System::Boolean PolaroidOverrideState; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single CenterX; // 0x14
 		::System::Single CenterY; // 0x18
 		::System::Single CenterYScale; // 0x1C
@@ -22,10 +20,10 @@ namespace RPGTools::Timeline::PostProcessing
 		::UnityEngine::Color PolaroidColor; // 0x30
 		::System::Single PolaroidScale; // 0x40
 		::System::Single Rotate; // 0x44
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDPARAMETER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDPARAMETER_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

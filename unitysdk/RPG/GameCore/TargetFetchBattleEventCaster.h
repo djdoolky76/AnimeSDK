@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFetchBattleEventCaster; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_2EE6A407800CC36C_OFFSET UNITYSDK_OFFSET(0x1D5A9800)
-#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_334CFFAA2E26C839_OFFSET UNITYSDK_OFFSET(0x1D5A97E0)
-#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_7E7992C0C1CCC1FC_OFFSET UNITYSDK_OFFSET(0x1D5A9780)
-#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_DDDF0CBA17DFD4D1_OFFSET UNITYSDK_OFFSET(0x1D5A9700)
-#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A9770)
+#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB608D0)
+#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB60960)
+#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB60940)
+#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB608E0)
+#define RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB60860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchBattleEventCaster_TypeDefinitionIndex = 23653;
-
 	class TargetFetchBattleEventCaster : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DDDF0CBA17DFD4D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchBattleEventCaster*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchBattleEventCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_DDDF0CBA17DFD4D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7E7992C0C1CCC1FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchBattleEventCaster* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFetchBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_7E7992C0C1CCC1FC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFetchBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_334CFFAA2E26C839(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchBattleEventCaster*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchBattleEventCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_334CFFAA2E26C839_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2EE6A407800CC36C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchBattleEventCaster* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchBattleEventCaster* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_METHOD_4_2EE6A407800CC36C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchBattleEventCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHBATTLEEVENTCASTER_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

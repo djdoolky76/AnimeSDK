@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/InitializeLocalInstruction.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_BOXIFINDEXMATCHES_OFFSET UNITYSDK_OFFSET(0x1E724130)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1E724190)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_RUN_OFFSET UNITYSDK_OFFSET(0x1E723FF0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E723FE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_BOXIFINDEXMATCHES_OFFSET UNITYSDK_OFFSET(0x1EDECDF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDECCA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDECE50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_RUN_OFFSET UNITYSDK_OFFSET(0x1EDECCB0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int InitializeLocalInstruction_MutableValue_TypeDefinitionIndex = 3515;
-
 	class InitializeLocalInstruction_MutableValue : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:
 		::System::Type* _type; // 0x18
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
@@ -40,5 +36,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INITIALIZELOCALINSTRUCTION_MUTABLEVALUE_GET_INSTRUCTIONNAME_OFFSET))(this);
 		}
+
 	};
 }

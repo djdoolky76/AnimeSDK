@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvGroupEnterCombat; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_54559E0023C462EB_OFFSET UNITYSDK_OFFSET(0x1CDCB7F0)
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_B77887AE21F691A2_OFFSET UNITYSDK_OFFSET(0x1CDCB830)
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDCB820)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A1230)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A1240)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A1200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvGroupEnterCombat_TypeDefinitionIndex = 20321;
-
 	class AdvGroupEnterCombat : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::DynamicFloat* InstanceID; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_54559E0023C462EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGroupEnterCombat*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvGroupEnterCombat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGroupEnterCombat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_54559E0023C462EB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvGroupEnterCombat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B77887AE21F691A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGroupEnterCombat* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvGroupEnterCombat* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGroupEnterCombat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_B77887AE21F691A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvGroupEnterCombat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

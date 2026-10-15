@@ -3,24 +3,21 @@
 #include "unitysdk/RPGTools/Timeline/PostProcessing/PostProcessTimelineTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D8A10)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8D82C0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8D8AC0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE92E280)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE92DB30)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE92E330)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int VignetteTimelineTrack_TypeDefinitionIndex = 49086;
-
 	class VignetteTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +29,6 @@ namespace RPGTools::Timeline::PostProcessing
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_VIGNETTETIMELINETRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

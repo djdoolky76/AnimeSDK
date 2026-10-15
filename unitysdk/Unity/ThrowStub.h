@@ -2,12 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ObjectDisposedException.h"
 
-#define UNITY_THROWSTUB_THROWNOTSUPPORTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1E7C7800)
+#define UNITY_THROWSTUB_THROWNOTSUPPORTEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C193C70)
 
 namespace Unity
 {
-	inline static constexpr unsigned int ThrowStub_TypeDefinitionIndex = 3912;
-
 	class ThrowStub : public ::System::ObjectDisposedException
 	{
 	public:
@@ -15,5 +13,6 @@ namespace Unity
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITY_THROWSTUB_THROWNOTSUPPORTEDEXCEPTION_OFFSET))();
 		}
+
 	};
 }

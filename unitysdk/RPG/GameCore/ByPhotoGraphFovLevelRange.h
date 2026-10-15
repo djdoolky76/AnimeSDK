@@ -2,49 +2,47 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphFovLevel.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByPhotoGraphFovLevelRange; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_2FF57240EB188F75_OFFSET UNITYSDK_OFFSET(0x1CF574A0)
-#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_30F9DA37ED1130AC_OFFSET UNITYSDK_OFFSET(0x1CF574E0)
-#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_43E82D25D25D6153_OFFSET UNITYSDK_OFFSET(0x1CF576E0)
-#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_8433860D06B03D9C_OFFSET UNITYSDK_OFFSET(0x1CF57710)
-#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF574D0)
+#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D530E60)
+#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D5310A0)
+#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D531070)
+#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D530E70)
+#define RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D530E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByPhotoGraphFovLevelRange_TypeDefinitionIndex = 21407;
-
 	class ByPhotoGraphFovLevelRange : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::PhotoGraphFovLevel MinLevel; // 0x20
 		::RPG::GameCore::PhotoGraphFovLevel MaxLevel; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2FF57240EB188F75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_2FF57240EB188F75_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_30F9DA37ED1130AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_30F9DA37ED1130AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_43E82D25D25D6153(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_43E82D25D25D6153_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8433860D06B03D9C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByPhotoGraphFovLevelRange* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_METHOD_4_8433860D06B03D9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByPhotoGraphFovLevelRange*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYPHOTOGRAPHFOVLEVELRANGE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

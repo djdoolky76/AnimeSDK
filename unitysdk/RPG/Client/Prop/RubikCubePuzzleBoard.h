@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
 #include "unitysdk/RPG/GameCore/RubikRotDirection.h"
-
 namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::Client::Prop { class RubikCubePuzzleCubeData; }
 namespace RPG::Client::Prop { class RubikCubePuzzleFrameData; }
@@ -10,42 +9,36 @@ namespace RPG::Client::Prop { class RubikCubePuzzleSwitchData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
+namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_CANPUZZLEUNLOAD_OFFSET UNITYSDK_OFFSET(0xDD17A10)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD15CB0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDD16220)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD13650)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDD166E0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_METHOD_6_01CB1782418C6F22_OFFSET UNITYSDK_OFFSET(0xDD16420)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_METHOD_6_3BC8B8F2BB08C1C2_OFFSET UNITYSDK_OFFSET(0xDD16650)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_ONPUZZLECANCEL_OFFSET UNITYSDK_OFFSET(0xDD15240)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_REGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD17650)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_RESETCUBESELECT_OFFSET UNITYSDK_OFFSET(0xDD15290)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD154E0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_ROTATECUBE_OFFSET UNITYSDK_OFFSET(0xDD16730)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_SELECTCUBEGROUP_OFFSET UNITYSDK_OFFSET(0xDD16EF0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD15060)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_UNREGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD17830)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD__CCTOR_OFFSET UNITYSDK_OFFSET(0xDD17AB0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0xDD17A50)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD__GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0xDD15460)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_CANPUZZLEUNLOAD_OFFSET UNITYSDK_OFFSET(0xDD9F8C0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD9F960)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDD9F900)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD9DB60)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_GET_ISCOMPLETE_OFFSET UNITYSDK_OFFSET(0xDD9E0D0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD9BF10)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDD9E590)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_JNPJIEDLIJI_OFFSET UNITYSDK_OFFSET(0xDD9E500)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_KINEOPJLIDD_OFFSET UNITYSDK_OFFSET(0xDD9E2D0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_ONPUZZLECANCEL_OFFSET UNITYSDK_OFFSET(0xDD9D240)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_REGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD9F500)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_RESETCUBESELECT_OFFSET UNITYSDK_OFFSET(0xDD9D290)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_RESETPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD9D4E0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_ROTATECUBE_OFFSET UNITYSDK_OFFSET(0xDD9E5E0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_SELECTCUBEGROUP_OFFSET UNITYSDK_OFFSET(0xDD9EDA0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD9D060)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_UNREGISTERROTATEFINISHCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD9F6E0)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD__GETUNIQUEID_OFFSET UNITYSDK_OFFSET(0xDD9D460)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleBoard_TypeDefinitionIndex = 78346;
-
 	class RubikCubePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
-		static ::System::String** StaticGet__GameKey()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RubikCubePuzzleBoard_TypeDefinitionIndex)->GetStaticField(0x65A40);
-		}
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleCubeData*>* CubeList; // 0x48
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleSwitchData*>* SwitchList; // 0x50
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleFrameData*>* FrameList; // 0x58
@@ -57,15 +50,19 @@ namespace RPG::Client::Prop
 		::UnityEngine::GameObject* ConditionObjAttachPoint_C1; // 0x88
 		::UnityEngine::GameObject* ConditionObjAttachPoint_C2; // 0x90
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* MFMPNOOMDFJ; // 0x98
+		static ::System::String** StaticGet__GameKey()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "RubikCubePuzzleBoard")->GetStaticField(0x5CB60);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_CCTOR_OFFSET))();
 		}
 
 		::System::Void InitPuzzle(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::PropInitPuzzle* a3)
@@ -98,14 +95,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_6_01CB1782418C6F22(::RPG::Client::Prop::RubikCubePuzzleCube* a1)
+		::System::Void KINEOPJLIDD(::RPG::Client::Prop::RubikCubePuzzleCube* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RubikCubePuzzleCube*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_METHOD_6_01CB1782418C6F22_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::RubikCubePuzzleCube*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_KINEOPJLIDD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_6_3BC8B8F2BB08C1C2()
+		::System::Void JNPJIEDLIJI()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_METHOD_6_3BC8B8F2BB08C1C2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_JNPJIEDLIJI_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsComplete()
@@ -128,14 +125,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::RubikRotDirection, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_SELECTCUBEGROUP_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RegisterRotateFinishCallback(::System::String* a1, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a2)
+		::System::Void RegisterRotateFinishCallback(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_REGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UnRegisterRotateFinishCallback(::System::String* a1, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>* a2)
+		::System::Void UnRegisterRotateFinishCallback(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::RPG::Client::Prop::RubikCubePuzzleCube*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD_UNREGISTERROTATEFINISHCALLBACK_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean CanPuzzleUnload()
@@ -147,5 +144,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBOARD__GETUNIQUEID_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Xml { class XmlDocument; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_XMLIMPLEMENTATION_CREATEDOCUMENT_OFFSET UNITYSDK_OFFSET(0x1E8A7070)
-#define SYSTEM_XML_XMLIMPLEMENTATION_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1E8A70C0)
-#define SYSTEM_XML_XMLIMPLEMENTATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E8A7060)
-#define SYSTEM_XML_XMLIMPLEMENTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A6FA0)
+#define SYSTEM_XML_XMLIMPLEMENTATION_CREATEDOCUMENT_OFFSET UNITYSDK_OFFSET(0x1EF6FA50)
+#define SYSTEM_XML_XMLIMPLEMENTATION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EF6FA40)
+#define SYSTEM_XML_XMLIMPLEMENTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6F980)
+#define SYSTEM_XML_XMLIMPLEMENTATION_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1EF6FAA0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlImplementation_TypeDefinitionIndex = 1906;
-
 	class XmlImplementation : public ::System::Object
 	{
 	public:
 		::System::Xml::XmlNameTable* nameTable; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLIMPLEMENTATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLIMPLEMENTATION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Xml::XmlNameTable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLIMPLEMENTATION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLIMPLEMENTATION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlDocument* CreateDocument()
@@ -38,5 +34,6 @@ namespace System::Xml
 		{
 			return ((::System::Xml::XmlNameTable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLIMPLEMENTATION_GET_NAMETABLE_OFFSET))(this);
 		}
+
 	};
 }

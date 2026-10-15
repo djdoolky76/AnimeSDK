@@ -2,29 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace RPG::Client { class QuadricBezier; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_PLAY_OFFSET UNITYSDK_OFFSET(0xDB25220)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_SETPOINTS_OFFSET UNITYSDK_OFFSET(0xDB24C30)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__ASSIGNBYSCREENPOS_OFFSET UNITYSDK_OFFSET(0xDB25160)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__CALCULATERANDOMMIDDLESCREENPOS_OFFSET UNITYSDK_OFFSET(0xDB24F20)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__CTOR_OFFSET UNITYSDK_OFFSET(0xDB255A0)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__GETPLANERECT_OFFSET UNITYSDK_OFFSET(0xDB24E90)
-#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__GETUICAMERA_OFFSET UNITYSDK_OFFSET(0xDB250E0)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_CTOR_OFFSET UNITYSDK_OFFSET(0xDB6DF00)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_PLAY_OFFSET UNITYSDK_OFFSET(0xDB6DB80)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_SETPOINTS_OFFSET UNITYSDK_OFFSET(0xDB6D590)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__ASSIGNBYSCREENPOS_OFFSET UNITYSDK_OFFSET(0xDB6DAC0)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__CALCULATERANDOMMIDDLESCREENPOS_OFFSET UNITYSDK_OFFSET(0xDB6D880)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__GETPLANERECT_OFFSET UNITYSDK_OFFSET(0xDB6D7F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__GETUICAMERA_OFFSET UNITYSDK_OFFSET(0xDB6DA40)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirTrailPointPositioner_TypeDefinitionIndex = 78912;
-
 	class PixAirTrailPointPositioner : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -37,10 +33,9 @@ namespace RPG::Client::PixAir
 		::UnityEngine::Animation* _AnimCmpt; // 0x48
 		::UnityEngine::ParticleSystem* _ParticleSystem; // 0x50
 		::RPG::Client::QuadricBezier* _BezierCurve; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetPoints(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
@@ -48,9 +43,9 @@ namespace RPG::Client::PixAir
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_SETPOINTS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Play(::System::Action* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void Play(::System::Action* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_PLAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER_PLAY_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector2 _CalculateRandomMiddleScreenPos(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)
@@ -72,5 +67,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::UnityEngine::Camera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRTRAILPOINTPOSITIONER__GETUICAMERA_OFFSET))(this);
 		}
+
 	};
 }

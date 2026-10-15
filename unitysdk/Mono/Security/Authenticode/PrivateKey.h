@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace Mono::Security::Authenticode { class PrivateKey; }
 namespace System { class String; }
 namespace System::Security::Cryptography { class RSA; }
 
-#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_CREATEFROMFILE_1_OFFSET UNITYSDK_OFFSET(0x1BB20620)
-#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_CREATEFROMFILE_OFFSET UNITYSDK_OFFSET(0x1BB20610)
-#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_DECODE_OFFSET UNITYSDK_OFFSET(0x1BB1FDE0)
-#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_DERIVEKEY_OFFSET UNITYSDK_OFFSET(0x1BB20370)
-#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_GET_RSA_OFFSET UNITYSDK_OFFSET(0x1BB20360)
-#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB1FD30)
+#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_CREATEFROMFILE_1_OFFSET UNITYSDK_OFFSET(0x1C02CB10)
+#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_CREATEFROMFILE_OFFSET UNITYSDK_OFFSET(0x1C02CB00)
+#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02C220)
+#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_DECODE_OFFSET UNITYSDK_OFFSET(0x1C02C2D0)
+#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_DERIVEKEY_OFFSET UNITYSDK_OFFSET(0x1C02C860)
+#define MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_GET_RSA_OFFSET UNITYSDK_OFFSET(0x1C02C850)
 
 namespace Mono::Security::Authenticode
 {
-	inline static constexpr unsigned int PrivateKey_TypeDefinitionIndex = 2313;
-
 	class PrivateKey : public ::System::Object
 	{
 	public:
 		::System::Security::Cryptography::RSA* rsa; // 0x10
 		::System::Boolean weak; // 0x18
 		::System::Boolean encrypted; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::Int32 keyType; // 0x1C
-
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_PRIVATEKEY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Security::Cryptography::RSA* get_RSA()
@@ -53,5 +51,6 @@ namespace Mono::Security::Authenticode
 		{
 			return ((::Mono::Security::Authenticode::PrivateKey*(*)(::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MONO_SECURITY_AUTHENTICODE_PRIVATEKEY_CREATEFROMFILE_1_OFFSET))(a1, a2);
 		}
+
 	};
 }

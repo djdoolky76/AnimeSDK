@@ -1,45 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ScreenTransferType.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPG::GameCore { class PlayScreenTransfer; }
 namespace RPGTools::Timeline { class PlayScreenTransferBehaviour; }
 namespace RPGTools::Timeline { class ScreenTransferTextBehaviour; }
 namespace System { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_2F1D36D2B56EFA9E_OFFSET UNITYSDK_OFFSET(0xE8BF580)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_416EC8B7F32859DE_OFFSET UNITYSDK_OFFSET(0xE8BF870)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0xE8BFE30)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_80EF3B5D9A572F5D_OFFSET UNITYSDK_OFFSET(0xE8BFC40)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_B8BA6E85AEC72F3E_OFFSET UNITYSDK_OFFSET(0xE8BF9D0)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_DB24A3DBF686F687_OFFSET UNITYSDK_OFFSET(0xE8BF760)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_F94B4ABE3953A8DB_OFFSET UNITYSDK_OFFSET(0xE8BF470)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8BEAB0)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE8BEB30)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xE8BEC60)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8BED00)
-#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BFE80)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_BMIHEGFLGNH_OFFSET UNITYSDK_OFFSET(0xE9155F0)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE915640)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_DENPGLJMLDM_OFFSET UNITYSDK_OFFSET(0xE915400)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_INDDLFBPNNH_OFFSET UNITYSDK_OFFSET(0xE914C30)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_JBACDOFJABC_OFFSET UNITYSDK_OFFSET(0xE915030)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_LCPDJNKDHNJ_OFFSET UNITYSDK_OFFSET(0xE915190)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_MINHKHNPKHN_OFFSET UNITYSDK_OFFSET(0xE914D40)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_NFLLEAKIJAI_OFFSET UNITYSDK_OFFSET(0xE914F20)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE914270)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE9142F0)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xE914420)
+#define RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE9144C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlayScreenTransferMixer_TypeDefinitionIndex = 48676;
-
 	class PlayScreenTransferMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		// static const ::System::Single _BeginWaitTime; // 0x0
 		::RPG::GameCore::PlayScreenTransfer* _TransferData; // 0x10
 		::UnityEngine::Playables::PlayableDirector* _Director; // 0x18
 		::System::Boolean _IsPauseByText; // 0x20
 		::System::Boolean _CanResumeByText; // 0x21
-
+		// static const ::System::Object _BeginWaitTime; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -62,39 +58,40 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_F94B4ABE3953A8DB(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::RPGTools::Timeline::PlayScreenTransferBehaviour* a3, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a4)
+		::System::Void INDDLFBPNNH(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::RPGTools::Timeline::PlayScreenTransferBehaviour* a3, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::RPGTools::Timeline::PlayScreenTransferBehaviour*, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_F94B4ABE3953A8DB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::RPGTools::Timeline::PlayScreenTransferBehaviour*, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_INDDLFBPNNH_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_2_B8BA6E85AEC72F3E(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::RPGTools::Timeline::PlayScreenTransferBehaviour* a3, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a4)
+		::System::Void LCPDJNKDHNJ(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::RPGTools::Timeline::PlayScreenTransferBehaviour* a3, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::RPGTools::Timeline::PlayScreenTransferBehaviour*, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_B8BA6E85AEC72F3E_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::RPGTools::Timeline::PlayScreenTransferBehaviour*, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_LCPDJNKDHNJ_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Method_2_7DD84EAFF333A1E4(::System::Object* a1)
+		::System::Void BMIHEGFLGNH(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_7DD84EAFF333A1E4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_BMIHEGFLGNH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_80EF3B5D9A572F5D(::UnityEngine::Playables::Playable a1, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a2)
+		::System::Void DENPGLJMLDM(::UnityEngine::Playables::Playable a1, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_80EF3B5D9A572F5D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_DENPGLJMLDM_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_2_2F1D36D2B56EFA9E(::UnityEngine::Playables::Playable a1, ::System::Single a2, ::System::Single a3, ::RPG::GameCore::ScreenTransferType a4, ::System::UInt32 a5)
+		::System::Boolean MINHKHNPKHN(::UnityEngine::Playables::Playable a1, ::System::Single a2, ::System::Single a3, ::RPG::GameCore::ScreenTransferType a4, ::System::UInt32 a5)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Playables::Playable, ::System::Single, ::System::Single, ::RPG::GameCore::ScreenTransferType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_2F1D36D2B56EFA9E_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Playables::Playable, ::System::Single, ::System::Single, ::RPG::GameCore::ScreenTransferType, ::System::UInt32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_MINHKHNPKHN_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::GameCore::PlayScreenTransfer* Method_2_DB24A3DBF686F687(::System::Single a1, ::System::Single a2, ::RPG::GameCore::ScreenTransferType a3, ::RPGTools::Timeline::PlayScreenTransferBehaviour* a4, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a5)
+		::RPG::GameCore::PlayScreenTransfer* NFLLEAKIJAI(::System::Single a1, ::System::Single a2, ::RPG::GameCore::ScreenTransferType a3, ::RPGTools::Timeline::PlayScreenTransferBehaviour* a4, ::RPGTools::Timeline::ScreenTransferTextBehaviour* a5)
 		{
-			return ((::RPG::GameCore::PlayScreenTransfer*(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::GameCore::ScreenTransferType, ::RPGTools::Timeline::PlayScreenTransferBehaviour*, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_DB24A3DBF686F687_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::RPG::GameCore::PlayScreenTransfer*(*)(::PVOID, ::System::Single, ::System::Single, ::RPG::GameCore::ScreenTransferType, ::RPGTools::Timeline::PlayScreenTransferBehaviour*, ::RPGTools::Timeline::ScreenTransferTextBehaviour*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_NFLLEAKIJAI_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Method_2_416EC8B7F32859DE(::RPG::GameCore::PlayScreenTransfer* a1)
+		::System::Void JBACDOFJABC(::RPG::GameCore::PlayScreenTransfer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlayScreenTransfer*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_METHOD_2_416EC8B7F32859DE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PlayScreenTransfer*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSCREENTRANSFERMIXER_JBACDOFJABC_OFFSET))(this, a1);
 		}
+
 	};
 }

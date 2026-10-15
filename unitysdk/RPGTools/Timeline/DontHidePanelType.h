@@ -3,8 +3,6 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int DontHidePanelType_TypeDefinitionIndex = 48691;
-
 	enum class DontHidePanelType : ::System::Int32
 	{
 		None = 0,

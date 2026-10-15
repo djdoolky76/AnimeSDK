@@ -1,22 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1_Awaiter.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace Cysharp::Threading::Tasks::Linq { template <typename T> class Reverse_1__Reverse; }
-namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
+#include "unitysdk/Cysharp/Threading/Tasks/CompilerServices/AsyncUniTaskMethodBuilder.h"
+namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Reverse_1__Reverse__MoveNextAsync_d__9_TypeDefinitionIndex = 44411;
-
-	template <typename TSource>
-	struct Reverse_1__Reverse__MoveNextAsync_d__9
+	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
+	struct alignas(8) Reverse_1__Reverse__MoveNextAsync_d__9
 	{
 		::System::Int32 __1__state; // 0x0
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Boolean> __t__builder; // 0x0
-		::Cysharp::Threading::Tasks::Linq::Reverse_1__Reverse<TSource>* __4__this; // 0x0
-		::Cysharp::Threading::Tasks::UniTask_1_Awaiter<::Il2CppArray<TSource>*> __u__1; // 0x0
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x0
+		::System::Object* __4__this; // 0x0
+		::System::Object* __u__1; // 0x0
 	};
 }

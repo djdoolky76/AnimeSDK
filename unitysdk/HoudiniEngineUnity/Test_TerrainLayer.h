@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class Test_TerrainLayer; }
 namespace UnityEngine { class TerrainLayer; }
 
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B4B4050)
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B4B4030)
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B4020)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B6050)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B6080)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9B6060)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TerrainLayer_TypeDefinitionIndex = 39454;
-
 	class Test_TerrainLayer : public ::System::Object
 	{
 	public:
 		::UnityEngine::TerrainLayer* self; // 0x10
-
 		::System::Void _ctor(::UnityEngine::TerrainLayer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::TerrainLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::TerrainLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean IsNull()
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::Test_TerrainLayer*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_TERRAINLAYER_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

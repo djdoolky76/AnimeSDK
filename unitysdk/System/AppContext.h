@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/AppContext_SwitchValueState.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SYSTEM_APPCONTEXT_INITIALIZEDEFAULTSWITCHVALUES_OFFSET UNITYSDK_OFFSET(0x1BB92C10)
-#define SYSTEM_APPCONTEXT_TRYGETSWITCH_OFFSET UNITYSDK_OFFSET(0x1BB92D70)
-#define SYSTEM_APPCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB931D0)
+#define SYSTEM_APPCONTEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C09F230)
+#define SYSTEM_APPCONTEXT_INITIALIZEDEFAULTSWITCHVALUES_OFFSET UNITYSDK_OFFSET(0x1C09EC70)
+#define SYSTEM_APPCONTEXT_TRYGETSWITCH_OFFSET UNITYSDK_OFFSET(0x1C09EDD0)
 
 namespace System
 {
-	inline static constexpr unsigned int AppContext_TypeDefinitionIndex = 154;
-
 	class AppContext : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::AppContext_SwitchValueState>** StaticGet_s_switchMap()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_s_switchMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::AppContext_SwitchValueState>**)Il2CppClass::FromTypeDefinitionIndex(AppContext_TypeDefinitionIndex)->GetStaticField(0x6E60);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("System", "AppContext")->GetStaticField(0xDB20);
 		}
+
 		static ::System::Boolean* StaticGet_s_defaultsInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AppContext_TypeDefinitionIndex)->GetStaticField(0x1EA0);
+			return (::System::Boolean*)UnitySDK::FromName("System", "AppContext")->GetStaticField(0x2DA0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_APPCONTEXT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_APPCONTEXT_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void InitializeDefaultSwitchValues()
@@ -36,9 +34,10 @@ namespace System
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_APPCONTEXT_INITIALIZEDEFAULTSWITCHVALUES_OFFSET))();
 		}
 
-		static ::System::Boolean TryGetSwitch(::System::String* a1, ::System::Boolean& a2)
+		static ::System::Boolean TryGetSwitch(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_APPCONTEXT_TRYGETSWITCH_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_APPCONTEXT_TRYGETSWITCH_OFFSET))(a1, a2);
 		}
+
 	};
 }

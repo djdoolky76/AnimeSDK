@@ -2,21 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/ScenenLightManager/BaseComponentExportData.h"
-#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Rendering/AmbientVolumeType.h"
+#include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 class LocalAmbientVolume_ExtraExportData;
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE910390)
+#define SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE965EC0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LocalAmbientVolume_ExportData_TypeDefinitionIndex = 49530;
-
 	class LocalAmbientVolume_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:
@@ -38,6 +35,7 @@ namespace ScenenLightManager
 		::System::Single EdgeSmooth; // 0x5C
 		::System::String* CharacterLightAsset; // 0x60
 		::System::Boolean UseCustomCharParam; // 0x68
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color LevelSkinLightColor; // 0x6C
 		::UnityEngine::Color LevelSkinShadowColor; // 0x7C
 		::UnityEngine::Color LevelHighLightColor; // 0x8C
@@ -46,10 +44,10 @@ namespace ScenenLightManager
 		::System::Single LevelMid; // 0xB0
 		::System::Single LevelHighLight; // 0xB4
 		::LocalAmbientVolume_ExtraExportData* extraExportData; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LOCALAMBIENTVOLUME_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

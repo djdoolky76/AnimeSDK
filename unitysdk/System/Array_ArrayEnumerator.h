@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Array; }
+namespace System { class Object; }
 
-#define SYSTEM_ARRAY_ARRAYENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1BB9D7C0)
-#define SYSTEM_ARRAY_ARRAYENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BB9D860)
-#define SYSTEM_ARRAY_ARRAYENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BB9D790)
-#define SYSTEM_ARRAY_ARRAYENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BB9D7B0)
-#define SYSTEM_ARRAY_ARRAYENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB9C680)
+#define SYSTEM_ARRAY_ARRAYENUMERATOR_CLONE_OFFSET UNITYSDK_OFFSET(0x1C0A9860)
+#define SYSTEM_ARRAY_ARRAYENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A8720)
+#define SYSTEM_ARRAY_ARRAYENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C0A9900)
+#define SYSTEM_ARRAY_ARRAYENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C0A9830)
+#define SYSTEM_ARRAY_ARRAYENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C0A9850)
 
 namespace System
 {
-	inline static constexpr unsigned int Array_ArrayEnumerator_TypeDefinitionIndex = 137;
-
 	class Array_ArrayEnumerator : public ::System::Object
 	{
 	public:
 		::System::Array* _array; // 0x10
 		::System::Int32 _index; // 0x18
 		::System::Int32 _endIndex; // 0x1C
-
 		::System::Void _ctor(::System::Array* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_ARRAYENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Array*))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_ARRAYENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean MoveNext()
@@ -45,5 +42,6 @@ namespace System
 		{
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ARRAY_ARRAYENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,23 +3,19 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Guid_GuidParseThrowStyle.h"
 #include "unitysdk/System/Guid_ParseFailureKind.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_GUID_GUIDRESULT_GETGUIDPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3B6CDF0)
-#define SYSTEM_GUID_GUIDRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3B6CC60)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3B6CC80)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x3B6CCF0)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_3_OFFSET UNITYSDK_OFFSET(0x3B6CD60)
-#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3B6CC70)
+#define SYSTEM_GUID_GUIDRESULT_GETGUIDPARSEEXCEPTION_OFFSET UNITYSDK_OFFSET(0x3C216C0)
+#define SYSTEM_GUID_GUIDRESULT_INIT_OFFSET UNITYSDK_OFFSET(0x3C21530)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_1_OFFSET UNITYSDK_OFFSET(0x3C21550)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_2_OFFSET UNITYSDK_OFFSET(0x3C215C0)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_3_OFFSET UNITYSDK_OFFSET(0x3C21630)
+#define SYSTEM_GUID_GUIDRESULT_SETFAILURE_OFFSET UNITYSDK_OFFSET(0x3C21540)
 
 namespace System
 {
-	inline static constexpr unsigned int Guid_GuidResult_TypeDefinitionIndex = 271;
-
 	struct alignas(8) Guid_GuidResult
 	{
 		::System::Guid parsedGuid; // 0x10
@@ -29,7 +25,6 @@ namespace System
 		::System::Object* m_failureMessageFormatArgument; // 0x30
 		::System::String* m_failureArgumentName; // 0x38
 		::System::Exception* m_innerException; // 0x40
-
 		::System::Void Init(::System::Guid_GuidParseThrowStyle a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Guid_GuidParseThrowStyle))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_INIT_OFFSET))(this, a1);
@@ -59,5 +54,6 @@ namespace System
 		{
 			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GUID_GUIDRESULT_GETGUIDPARSEEXCEPTION_OFFSET))(this);
 		}
+
 	};
 }

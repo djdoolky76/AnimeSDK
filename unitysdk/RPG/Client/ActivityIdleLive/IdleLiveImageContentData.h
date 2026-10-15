@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDanmuContentData.h"
-
+namespace RPG::Client::ActivityIdleLive { class IdleLiveImageContentData; }
 namespace RPG::GameCore { class IdleLiveImgDanmuRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC5CB5C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC5CB5A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC5CB5B0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC5CB690)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC4E3070)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E3140)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC4E3050)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_SET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC4E3060)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveImageContentData_TypeDefinitionIndex = 75048;
-
 	class IdleLiveImageContentData : public ::RPG::Client::ActivityIdleLive::IdleLiveDanmuContentData
 	{
 	public:
 		::System::String* _ImagePath_k__BackingField; // 0x18
-
 		::System::Void _ctor(::RPG::GameCore::IdleLiveImgDanmuRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveImgDanmuRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveImgDanmuRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_ImagePath()
@@ -38,5 +35,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::RPG::Client::ActivityIdleLive::IdleLiveImageContentData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEIMAGECONTENTDATA_CREATE_OFFSET))(a1);
 		}
+
 	};
 }

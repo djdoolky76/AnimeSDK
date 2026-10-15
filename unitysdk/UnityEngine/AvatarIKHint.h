@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AvatarIKHint_TypeDefinitionIndex = 5687;
-
 	enum class AvatarIKHint : ::System::Int32
 	{
 		LeftKnee = 0,

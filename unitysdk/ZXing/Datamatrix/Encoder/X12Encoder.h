@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/Datamatrix/Encoder/C40Encoder.h"
-
 namespace System::Text { class StringBuilder; }
 namespace ZXing::Datamatrix::Encoder { class EncoderContext; }
 
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x1EFED970)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1EFED7F0)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1EFED7E0)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_HANDLEEOD_OFFSET UNITYSDK_OFFSET(0x1EFEDAA0)
-#define ZXING_DATAMATRIX_ENCODER_X12ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEB8B0)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B3E60)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODECHAR_OFFSET UNITYSDK_OFFSET(0x1F6B5F00)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6B5D80)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_GET_ENCODINGMODE_OFFSET UNITYSDK_OFFSET(0x1F6B5D70)
+#define ZXING_DATAMATRIX_ENCODER_X12ENCODER_HANDLEEOD_OFFSET UNITYSDK_OFFSET(0x1F6B6030)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int X12Encoder_TypeDefinitionIndex = 7011;
-
 	class X12Encoder : public ::ZXing::Datamatrix::Encoder::C40Encoder
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_EncodingMode()
@@ -42,5 +39,6 @@ namespace ZXing::Datamatrix::Encoder
 		{
 			return ((::System::Void(*)(::PVOID, ::ZXing::Datamatrix::Encoder::EncoderContext*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + ZXING_DATAMATRIX_ENCODER_X12ENCODER_HANDLEEOD_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

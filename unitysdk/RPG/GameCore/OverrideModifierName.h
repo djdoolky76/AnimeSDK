@@ -1,26 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class OverrideModifierName; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_C702FB626C48684D_OFFSET UNITYSDK_OFFSET(0x1D3040B0)
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_CA93FE36889FAA5C_OFFSET UNITYSDK_OFFSET(0x1D303FD0)
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1D304050)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E7CC0)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E7D20)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E7C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideModifierName_TypeDefinitionIndex = 23433;
-
 	class OverrideModifierName : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* ModifierName; // 0x18
 		::System::String* OverrideName; // 0x20
 		::System::Boolean IsFullRedirect; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* DynamicValues; // 0x30
 		::RPG::GameCore::DynamicFloat* Chance; // 0x38
 		::RPG::GameCore::DynamicFloat* LifeTime; // 0x40
@@ -34,20 +33,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* MaxLayerDelta; // 0x80
 		::RPG::GameCore::DynamicFloat* LayerAddWhenStackAddedRatio; // 0x88
 		::RPG::GameCore::DynamicFloat* LayerAddWhenStackDelta; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMODIFIERNAME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMODIFIERNAME_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CA93FE36889FAA5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideModifierName*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OverrideModifierName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideModifierName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_CA93FE36889FAA5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OverrideModifierName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMODIFIERNAME_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C702FB626C48684D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideModifierName* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::OverrideModifierName* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideModifierName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMODIFIERNAME_METHOD_3_C702FB626C48684D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OverrideModifierName*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDEMODIFIERNAME_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

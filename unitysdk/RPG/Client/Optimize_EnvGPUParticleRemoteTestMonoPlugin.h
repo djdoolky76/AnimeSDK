@@ -1,22 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class Optimize_EnvGPUParticleRemoteTestBehavior; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_REFRESH_OFFSET UNITYSDK_OFFSET(0xDA0F4A0)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xDA0F550)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA19850)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_REFRESH_OFFSET UNITYSDK_OFFSET(0xDA197A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestMonoPlugin_TypeDefinitionIndex = 70796;
-
-	class Optimize_EnvGPUParticleRemoteTestMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Optimize_EnvGPUParticleRemoteTestBehavior*>
+	class Optimize_EnvGPUParticleRemoteTestMonoPlugin
 	{
 	public:
 		::System::Single intensity; // 0x30
@@ -29,15 +24,15 @@ namespace RPG::Client
 		::System::Single windScale; // 0x64
 		::UnityEngine::Vector3 windNoiseScale; // 0x68
 		::UnityEngine::Vector3 windNoiseTilling; // 0x74
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Refresh()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_REFRESH_OFFSET))(this);
 		}
+
 	};
 }

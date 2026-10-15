@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TutorialClose; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TUTORIALCLOSE_METHOD_3_231A7C29C6D62B00_OFFSET UNITYSDK_OFFSET(0x1D612750)
-#define RPG_GAMECORE_TUTORIALCLOSE_METHOD_3_CA858500375C01BD_OFFSET UNITYSDK_OFFSET(0x1D612820)
-#define RPG_GAMECORE_TUTORIALCLOSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D612810)
+#define RPG_GAMECORE_TUTORIALCLOSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC66A70)
+#define RPG_GAMECORE_TUTORIALCLOSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC66A80)
+#define RPG_GAMECORE_TUTORIALCLOSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC669B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialClose_TypeDefinitionIndex = 24078;
-
 	class TutorialClose : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCLOSE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCLOSE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_231A7C29C6D62B00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialClose*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialClose* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialClose*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCLOSE_METHOD_3_231A7C29C6D62B00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialClose*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCLOSE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_CA858500375C01BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialClose* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialClose* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialClose*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCLOSE_METHOD_3_CA858500375C01BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialClose*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCLOSE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

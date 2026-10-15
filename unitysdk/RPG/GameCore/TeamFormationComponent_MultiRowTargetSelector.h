@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/BEABFKCFPNC.h"
 #include "unitysdk/RPG/GameCore/TeamMemberCountingOption.h"
-#include "unitysdk/Struct_2_2B6684D3E43696AE.h"
 #include "unitysdk/System/Object.h"
-
-class Class_2_BF927CBEA754F6BE;
+class CJEEJFDPPNG;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TeamFormationComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_GETLEFTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE748370)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_GETRIGHTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE7483D0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_PREPARE_OFFSET UNITYSDK_OFFSET(0xE747D10)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_RELEASE_OFFSET UNITYSDK_OFFSET(0xE7485E0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xE7486C0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR__INTERNALGETLEFTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE748430)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR__INTERNALGETRIGHTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE748500)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE78D9E0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_GETLEFTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE7A5E50)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_GETRIGHTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE7A5EB0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_PREPARE_OFFSET UNITYSDK_OFFSET(0xE78AAB0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_RELEASE_OFFSET UNITYSDK_OFFSET(0xE7A60C0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR__INTERNALGETLEFTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE7A5F10)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR__INTERNALGETRIGHTADJOINENTITY_OFFSET UNITYSDK_OFFSET(0xE7A5FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_MultiRowTargetSelector_TypeDefinitionIndex = 57857;
-
 	class TeamFormationComponent_MultiRowTargetSelector : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_2_BF927CBEA754F6BE*>* _row1FormationList; // 0x10
-		::System::Collections::Generic::List_1<::Class_2_BF927CBEA754F6BE*>* _finalFormationList; // 0x18
-		::System::Collections::Generic::List_1<::Class_2_BF927CBEA754F6BE*>* _row0FormationList; // 0x20
-		::System::Int32 _leftIteration; // 0x28
+		::System::Collections::Generic::List_1<::CJEEJFDPPNG*>* _row0FormationList; // 0x10
+		::System::Collections::Generic::List_1<::CJEEJFDPPNG*>* _row1FormationList; // 0x18
+		::System::Collections::Generic::List_1<::CJEEJFDPPNG*>* _finalFormationList; // 0x20
+		::System::Boolean _InverseFlag; // 0x28
+		::System::Boolean _InProcess; // 0x29
+		::System::Byte _padding0[0x2];
 		::System::Int32 _RghtIteration; // 0x2C
-		::Struct_2_2B6684D3E43696AE _MainTargetRowFormationPos; // 0x30
-		::System::Boolean _InverseFlag; // 0x38
-		::System::Boolean _InProcess; // 0x39
-
+		::System::Int32 _leftIteration; // 0x30
+		::BEABFKCFPNC _MainTargetRowFormationPos; // 0x34
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Prepare(::RPG::GameCore::TeamFormationComponent* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::TeamMemberCountingOption a3, ::System::Boolean a4, ::System::Boolean a5)
@@ -67,5 +64,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR_RELEASE_OFFSET))(this);
 		}
+
 	};
 }

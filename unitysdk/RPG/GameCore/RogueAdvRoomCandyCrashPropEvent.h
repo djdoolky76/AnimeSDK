@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class RogueAdvRoomCandyCrashPropEvent; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_METHOD_3_1DF835CD75F8B5C1_OFFSET UNITYSDK_OFFSET(0x1D3BCE70)
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_METHOD_3_AA59DE42D92AC05C_OFFSET UNITYSDK_OFFSET(0x1D3BCE30)
-#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BCE60)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A35F0)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9A3600)
+#define RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9A35C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdvRoomCandyCrashPropEvent_TypeDefinitionIndex = 22035;
-
 	class RogueAdvRoomCandyCrashPropEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::DynamicFloat* CurrentState; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AA59DE42D92AC05C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_METHOD_3_AA59DE42D92AC05C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1DF835CD75F8B5C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_METHOD_3_1DF835CD75F8B5C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueAdvRoomCandyCrashPropEvent*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVROOMCANDYCRASHPROPEVENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

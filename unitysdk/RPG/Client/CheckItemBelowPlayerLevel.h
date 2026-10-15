@@ -2,28 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/NotifyType.h"
 #include "unitysdk/RPG/Client/SyncCheckItemBase.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xCAE7020)
-#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCAE7190)
-#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0xCAE7000)
-#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCAE70E0)
+#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCA35B40)
+#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xCA35B60)
+#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCA35CD0)
+#define RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCA35C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CheckItemBelowPlayerLevel_TypeDefinitionIndex = 60009;
-
 	class CheckItemBelowPlayerLevel : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:
 		::System::UInt32 _TargetPlayerLevel; // 0x10
-
 		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)
@@ -40,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHECKITEMBELOWPLAYERLEVEL_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

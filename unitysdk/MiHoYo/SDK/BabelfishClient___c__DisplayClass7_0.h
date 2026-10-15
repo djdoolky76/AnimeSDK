@@ -1,29 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class BabelfishConfig; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B1AF0)
-#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xB1B2040)
-#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__1_OFFSET UNITYSDK_OFFSET(0xB1B2E30)
+#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF5BED0)
+#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xAF5C420)
+#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__1_OFFSET UNITYSDK_OFFSET(0xAF5D210)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BabelfishClient___c__DisplayClass7_0_TypeDefinitionIndex = 47035;
-
 	class BabelfishClient___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::Int32, ::System::String*>* onError; // 0x10
-		::System::Action_1<::MiHoYo::SDK::BabelfishConfig*>* onSuccess; // 0x18
-
+		::System::Action* onError; // 0x10
+		::System::Action* onSuccess; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _GetConfig_b__0(::System::String* a1)
@@ -35,5 +30,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__1_OFFSET))(this);
 		}
+
 	};
 }

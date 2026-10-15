@@ -1,21 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/BookletElement_1.h"
 #include "unitysdk/UnityEngine/DrivenRectTransformTracker.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectOffset; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookletContainer_1_TypeDefinitionIndex = 72313;
-
-	template <typename TContainerConfig>
-	class BookletContainer_1 : public ::RPG::Client::BookletElement_1<TContainerConfig>
+	template <typename T>
+	class BookletContainer_1
 	{
 	public:
 		::UnityEngine::Transform* Content; // 0x0

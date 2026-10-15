@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_3DA3494D1BA5B564.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
+#include "unitysdk/GCICEGFOCOF.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -14,37 +13,35 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class AnimatorOverrideController; }
 namespace UnityEngine { class RuntimeAnimatorController; }
 
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_BEGINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC7671B0)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_CLEANUPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC765FA0)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ENDBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC767210)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ISINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC767160)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_93E6B8A6D29521ED_OFFSET UNITYSDK_OFFSET(0xC766480)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xC767290)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC765F50)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC766D00)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETREPLACEANIMATORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xC766150)
-#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xC7673B0)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_BEGINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC685260)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_CLEANUPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC684030)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xC685480)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ENDBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC6852E0)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_FIMGDDJOAIB_OFFSET UNITYSDK_OFFSET(0xC685360)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_GNGOBDNNOHH_OFFSET UNITYSDK_OFFSET(0xC684510)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ISINBATCHANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC685210)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC683FE0)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETANIMCLIPOVERRIDE_OFFSET UNITYSDK_OFFSET(0xC684DB0)
+#define RPG_CLIENT_ANIMATOROVERRIDEMANAGER_SETREPLACEANIMATORCONTROLLER_OFFSET UNITYSDK_OFFSET(0xC6841E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorOverrideManager_TypeDefinitionIndex = 68322;
-
 	class AnimatorOverrideManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x18
 		::UnityEngine::RuntimeAnimatorController* MDHBDDNKPPE; // 0x20
-		::System::Collections::Generic::List_1<::Struct_2_3DA3494D1BA5B564>* NALMPCHLJBE; // 0x28
+		::System::Collections::Generic::List_1<::GCICEGFOCOF>* NALMPCHLJBE; // 0x28
 		::System::Boolean PHNHAFGFJLM; // 0x30
+		::System::Byte _padding0[0x7];
 		::UnityEngine::AnimatorOverrideController* KENAPFGJKOM; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* DEFLKIEBJKI; // 0x40
 		::System::Collections::Generic::HashSet_1<::System::String*>* NHJJIPHIPAM; // 0x48
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::AnimationClip*>* NIEFCGPJMOJ; // 0x50
-		::RPG::PoolList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* FMBGCOOGGIK; // 0x58
-
+		::RPG::PoolList_1<::System::Collections::Generic::KeyValuePair*>* FMBGCOOGGIK; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnDestroy()
@@ -82,14 +79,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER_ENDBATCHANIMCLIPOVERRIDE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_97D83E4CB3B11935()
+		::System::Void FIMGDDJOAIB()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_97D83E4CB3B11935_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER_FIMGDDJOAIB_OFFSET))(this);
 		}
 
-		::System::Void Method_5_93E6B8A6D29521ED()
+		::System::Void GNGOBDNNOHH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER_METHOD_5_93E6B8A6D29521ED_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATOROVERRIDEMANAGER_GNGOBDNNOHH_OFFSET))(this);
 		}
+
 	};
 }

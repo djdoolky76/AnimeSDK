@@ -2,37 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetTeamLockTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_287B754919770E7D_OFFSET UNITYSDK_OFFSET(0x1D512910)
-#define RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_7563BADB5738F40A_OFFSET UNITYSDK_OFFSET(0x1D5128D0)
-#define RPG_GAMECORE_SETTEAMLOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D512900)
+#define RPG_GAMECORE_SETTEAMLOCKTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC6FE0)
+#define RPG_GAMECORE_SETTEAMLOCKTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC6FF0)
+#define RPG_GAMECORE_SETTEAMLOCKTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC6FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTeamLockTarget_TypeDefinitionIndex = 22451;
-
 	class SetTeamLockTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TeamType Team; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7563BADB5738F40A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamLockTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetTeamLockTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeamLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_7563BADB5738F40A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetTeamLockTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_287B754919770E7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamLockTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetTeamLockTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeamLockTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_287B754919770E7D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetTeamLockTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

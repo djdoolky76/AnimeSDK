@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC7F20)
-#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC7F50)
-#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAC7F10)
-#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC7EA0)
+#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD2A30)
+#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD29B0)
+#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD2A60)
+#define MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFD2A20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKDelegate_GetDeviceFPDelegate_TypeDefinitionIndex = 7726;
-
 	class SDKDelegate_GetDeviceFPDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SDKDELEGATE_GETDEVICEFPDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

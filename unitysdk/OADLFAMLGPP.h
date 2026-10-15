@@ -1,0 +1,145 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DCMKIHKMBCF.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/StringHash.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class ItemConfig; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
+
+#define OADLFAMLGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1CA30)
+#define OADLFAMLGPP_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBD1C970)
+#define OADLFAMLGPP_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBD1C990)
+#define OADLFAMLGPP_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xBD1C900)
+#define OADLFAMLGPP_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xBD1C910)
+#define OADLFAMLGPP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xBD1C950)
+#define OADLFAMLGPP_GET_PARAM_OFFSET UNITYSDK_OFFSET(0xBD1CA10)
+#define OADLFAMLGPP_GET_RANKABILITY_OFFSET UNITYSDK_OFFSET(0xBD1C9D0)
+#define OADLFAMLGPP_GET_SKILLADDLEVELLIST_OFFSET UNITYSDK_OFFSET(0xBD1C9B0)
+#define OADLFAMLGPP_GET_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBD1C930)
+#define OADLFAMLGPP_GET_UNLOCKCOST_OFFSET UNITYSDK_OFFSET(0xBD1C9F0)
+#define OADLFAMLGPP_SET_DESC_OFFSET UNITYSDK_OFFSET(0xBD1C980)
+#define OADLFAMLGPP_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBD1C9A0)
+#define OADLFAMLGPP_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xBD1C920)
+#define OADLFAMLGPP_SET_NAME_OFFSET UNITYSDK_OFFSET(0xBD1C960)
+#define OADLFAMLGPP_SET_PARAM_OFFSET UNITYSDK_OFFSET(0xBD1CA20)
+#define OADLFAMLGPP_SET_RANKABILITY_OFFSET UNITYSDK_OFFSET(0xBD1C9E0)
+#define OADLFAMLGPP_SET_SKILLADDLEVELLIST_OFFSET UNITYSDK_OFFSET(0xBD1C9C0)
+#define OADLFAMLGPP_SET_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBD1C940)
+#define OADLFAMLGPP_SET_UNLOCKCOST_OFFSET UNITYSDK_OFFSET(0xBD1CA00)
+
+	class OADLFAMLGPP : public ::System::Object
+	{
+	public:
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* _UnlockCost_k__BackingField; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _Param_k__BackingField; // 0x18
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>* _SkillAddLevelList_k__BackingField; // 0x20
+		::System::String* _Desc_k__BackingField; // 0x28
+		::System::String* _Name_k__BackingField; // 0x30
+		::System::String* _IconPath_k__BackingField; // 0x38
+		::Il2CppArray<::System::String*>* _RankAbility_k__BackingField; // 0x40
+		::System::UInt32 _Level_k__BackingField; // 0x48
+		::RPG::GameCore::StringHash _Trigger_k__BackingField; // 0x4C
+		::DCMKIHKMBCF _Identifier_k__BackingField; // 0x50
+		::System::Void _ctor(::DCMKIHKMBCF a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::DCMKIHKMBCF))((::PBYTE)hIl2Cpp + OADLFAMLGPP_CTOR_OFFSET))(this, a1);
+		}
+
+		::DCMKIHKMBCF get_Identifier()
+		{
+			return ((::DCMKIHKMBCF(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_IDENTIFIER_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::Void set_Level(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_LEVEL_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::StringHash get_Trigger()
+		{
+			return ((::RPG::GameCore::StringHash(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_TRIGGER_OFFSET))(this);
+		}
+
+		::System::Void set_Trigger(::RPG::GameCore::StringHash a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_TRIGGER_OFFSET))(this, a1);
+		}
+
+		::System::String* get_Name()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_NAME_OFFSET))(this, a1);
+		}
+
+		::System::String* get_Desc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_DESC_OFFSET))(this);
+		}
+
+		::System::Void set_Desc(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_DESC_OFFSET))(this, a1);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_IconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_ICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>* get_SkillAddLevelList()
+		{
+			return ((::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_SKILLADDLEVELLIST_OFFSET))(this);
+		}
+
+		::System::Void set_SkillAddLevelList(::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_SKILLADDLEVELLIST_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::String*>* get_RankAbility()
+		{
+			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_RANKABILITY_OFFSET))(this);
+		}
+
+		::System::Void set_RankAbility(::Il2CppArray<::System::String*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_RANKABILITY_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* get_UnlockCost()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::ItemConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_UNLOCKCOST_OFFSET))(this);
+		}
+
+		::System::Void set_UnlockCost(::Il2CppArray<::RPG::GameCore::ItemConfig*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_UNLOCKCOST_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::RPG::GameCore::FixPoint>* get_Param()
+		{
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_PARAM_OFFSET))(this);
+		}
+
+		::System::Void set_Param(::Il2CppArray<::RPG::GameCore::FixPoint>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::FixPoint>*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_PARAM_OFFSET))(this, a1);
+		}
+
+	};

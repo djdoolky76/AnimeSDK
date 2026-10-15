@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class OverrideCustomDroneFuncBtn; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_METHOD_3_3D98E941BE56214D_OFFSET UNITYSDK_OFFSET(0x1D3030F0)
-#define RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_METHOD_3_5C1FE8F0AF15DB64_OFFSET UNITYSDK_OFFSET(0x1D3030B0)
-#define RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3030E0)
+#define RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E6D50)
+#define RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E6D60)
+#define RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E6D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideCustomDroneFuncBtn_TypeDefinitionIndex = 21888;
-
 	class OverrideCustomDroneFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -21,20 +19,20 @@ namespace RPG::GameCore
 		::RPG::Client::TextID OverrideBtnName; // 0x20
 		::System::String* OverrideActionCustomString; // 0x30
 		::System::Boolean ResetOverrride; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5C1FE8F0AF15DB64(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideCustomDroneFuncBtn*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::OverrideCustomDroneFuncBtn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideCustomDroneFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_METHOD_3_5C1FE8F0AF15DB64_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OverrideCustomDroneFuncBtn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3D98E941BE56214D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OverrideCustomDroneFuncBtn* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::OverrideCustomDroneFuncBtn* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OverrideCustomDroneFuncBtn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_METHOD_3_3D98E941BE56214D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::OverrideCustomDroneFuncBtn*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OVERRIDECUSTOMDRONEFUNCBTN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

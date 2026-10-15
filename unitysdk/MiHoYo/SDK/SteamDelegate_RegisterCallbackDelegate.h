@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD72E0)
-#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD7310)
-#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAD72D0)
-#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAD7260)
+#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE1C60)
+#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE1BE0)
+#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE1C90)
+#define MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFE1C50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SteamDelegate_RegisterCallbackDelegate_TypeDefinitionIndex = 7642;
-
 	class SteamDelegate_RegisterCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke()
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_STEAMDELEGATE_REGISTERCALLBACKDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

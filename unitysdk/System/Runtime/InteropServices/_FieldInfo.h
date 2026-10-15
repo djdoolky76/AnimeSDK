@@ -3,8 +3,6 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _FieldInfo_TypeDefinitionIndex = 1446;
-
 	class _FieldInfo
 	{
 	public:

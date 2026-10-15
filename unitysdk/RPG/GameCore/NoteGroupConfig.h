@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AutoBubbleConfig; }
 namespace RPG::GameCore { class NoteComboConfig; }
 namespace RPG::GameCore { class NoteConfig; }
+namespace RPG::GameCore { class NoteGroupConfig; }
 
-#define RPG_GAMECORE_NOTEGROUPCONFIG_METHOD_2_388FABFE3C1182FC_OFFSET UNITYSDK_OFFSET(0x1D2F6620)
-#define RPG_GAMECORE_NOTEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F6950)
+#define RPG_GAMECORE_NOTEGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DA360)
+#define RPG_GAMECORE_NOTEGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DA030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NoteGroupConfig_TypeDefinitionIndex = 16754;
-
 	class NoteGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -23,17 +21,18 @@ namespace RPG::GameCore
 		::System::Boolean TutorialScore; // 0x20
 		::System::Boolean IgnoreTutorialLoop; // 0x21
 		::System::Boolean IsEmpty; // 0x22
+		::System::Byte _padding0[0x5];
 		::Il2CppArray<::RPG::GameCore::NoteComboConfig*>* NoteComboList; // 0x28
 		::Il2CppArray<::RPG::GameCore::NoteConfig*>* NoteList; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTEGROUPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTEGROUPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_388FABFE3C1182FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NoteGroupConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::NoteGroupConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NoteGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTEGROUPCONFIG_METHOD_2_388FABFE3C1182FC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NoteGroupConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTEGROUPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -2,32 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DanmuType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_0_16E4307DCC419505_1031;
-class Class_1_849EE5CF9026AE9F;
-class Class_1_B18A907A8E4C5C9C;
+class FJGLDHEOPOF;
+class IONGFDBBCIF;
+class MFLJIEBFMOF;
 namespace RPG::Client { class MonoDanmuItem; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONODANMUSPAWNER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD74B330)
-#define RPG_CLIENT_MONODANMUSPAWNER_DESPAWN_OFFSET UNITYSDK_OFFSET(0xD749D20)
-#define RPG_CLIENT_MONODANMUSPAWNER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD74B670)
-#define RPG_CLIENT_MONODANMUSPAWNER_GET_GIFTROOTRECT_OFFSET UNITYSDK_OFFSET(0xD74A780)
-#define RPG_CLIENT_MONODANMUSPAWNER_GET_IMAGEROOTRECT_OFFSET UNITYSDK_OFFSET(0xD74A710)
-#define RPG_CLIENT_MONODANMUSPAWNER_GET_TEXTROOTRECT_OFFSET UNITYSDK_OFFSET(0xD74A6A0)
-#define RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_2CEAC11AEBDD3C75_OFFSET UNITYSDK_OFFSET(0xD74B6D0)
-#define RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_422422BBCBC8068C_OFFSET UNITYSDK_OFFSET(0xD74B600)
-#define RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xD74B380)
-#define RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_702463A421B5F338_OFFSET UNITYSDK_OFFSET(0xD74B7A0)
-#define RPG_CLIENT_MONODANMUSPAWNER_SPAWN_OFFSET UNITYSDK_OFFSET(0xD74B400)
-#define RPG_CLIENT_MONODANMUSPAWNER__CTOR_OFFSET UNITYSDK_OFFSET(0xD74B850)
+#define RPG_CLIENT_MONODANMUSPAWNER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD74A650)
+#define RPG_CLIENT_MONODANMUSPAWNER_CTOR_OFFSET UNITYSDK_OFFSET(0xD74A970)
+#define RPG_CLIENT_MONODANMUSPAWNER_DESPAWN_OFFSET UNITYSDK_OFFSET(0xD748170)
+#define RPG_CLIENT_MONODANMUSPAWNER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD74A790)
+#define RPG_CLIENT_MONODANMUSPAWNER_GET_GIFTROOTRECT_OFFSET UNITYSDK_OFFSET(0xD749AD0)
+#define RPG_CLIENT_MONODANMUSPAWNER_GET_IMAGEROOTRECT_OFFSET UNITYSDK_OFFSET(0xD749A60)
+#define RPG_CLIENT_MONODANMUSPAWNER_GET_TEXTROOTRECT_OFFSET UNITYSDK_OFFSET(0xD7499F0)
+#define RPG_CLIENT_MONODANMUSPAWNER_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xD74A720)
+#define RPG_CLIENT_MONODANMUSPAWNER_IHOIDNEEMKC_OFFSET UNITYSDK_OFFSET(0xD74A8C0)
+#define RPG_CLIENT_MONODANMUSPAWNER_NBICJBEOFOL_OFFSET UNITYSDK_OFFSET(0xD74A6A0)
+#define RPG_CLIENT_MONODANMUSPAWNER_PKPMMMNOJGG_OFFSET UNITYSDK_OFFSET(0xD74A7F0)
+#define RPG_CLIENT_MONODANMUSPAWNER_SPAWN_OFFSET UNITYSDK_OFFSET(0xD748760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDanmuSpawner_TypeDefinitionIndex = 68914;
-
 	class MonoDanmuSpawner : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -37,12 +34,11 @@ namespace RPG::Client
 		::UnityEngine::Transform* _TextRoot; // 0x30
 		::UnityEngine::Transform* _ImageRoot; // 0x38
 		::UnityEngine::Transform* _GiftRoot; // 0x40
-		::Class_1_B18A907A8E4C5C9C* HGIHOOECGEE; // 0x48
+		::IONGFDBBCIF* HGIHOOECGEE; // 0x48
 		::System::Boolean EMHAACACFOM; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::RectTransform* get_TextRootRect()
@@ -65,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_AWAKE_OFFSET))(this);
 		}
 
-		::RPG::Client::MonoDanmuItem* Spawn(::Class_1_849EE5CF9026AE9F* a1, ::System::Single a2)
+		::RPG::Client::MonoDanmuItem* Spawn(::MFLJIEBFMOF* a1, ::System::Single a2)
 		{
-			return ((::RPG::Client::MonoDanmuItem*(*)(::PVOID, ::Class_1_849EE5CF9026AE9F*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_SPAWN_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::MonoDanmuItem*(*)(::PVOID, ::MFLJIEBFMOF*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_SPAWN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Despawn(::RPG::Client::MonoDanmuItem* a1)
@@ -80,24 +76,25 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_DISPOSE_OFFSET))(this);
 		}
 
-		::Class_0_16E4307DCC419505_1031* Method_5_2CEAC11AEBDD3C75(::RPG::GameCore::DanmuType a1)
+		::FJGLDHEOPOF* PKPMMMNOJGG(::RPG::GameCore::DanmuType a1)
 		{
-			return ((::Class_0_16E4307DCC419505_1031*(*)(::PVOID, ::RPG::GameCore::DanmuType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_2CEAC11AEBDD3C75_OFFSET))(this, a1);
+			return ((::FJGLDHEOPOF*(*)(::PVOID, ::RPG::GameCore::DanmuType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_PKPMMMNOJGG_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_4343F372F34C05BF()
+		::System::Void NBICJBEOFOL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_NBICJBEOFOL_OFFSET))(this);
 		}
 
-		::System::Void Method_5_702463A421B5F338(::System::String* a1, ::UnityEngine::Transform* a2)
+		::System::Void IHOIDNEEMKC(::System::String* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_702463A421B5F338_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_IHOIDNEEMKC_OFFSET))(this, a1, a2);
 		}
 
-		::System::String* Method_5_422422BBCBC8068C(::RPG::GameCore::DanmuType a1)
+		::System::String* IAMCNOAAALI(::RPG::GameCore::DanmuType a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::DanmuType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_METHOD_5_422422BBCBC8068C_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::RPG::GameCore::DanmuType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUSPAWNER_IAMCNOAAALI_OFFSET))(this, a1);
 		}
+
 	};
 }

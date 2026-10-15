@@ -3,8 +3,6 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int OverrideTransform_ControlType_TypeDefinitionIndex = 48981;
-
 	enum class OverrideTransform_ControlType : ::System::Int32
 	{
 		Switch = 0,

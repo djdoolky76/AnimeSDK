@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5F51D4049EA87B7B.h"
-
+#include "unitysdk/GELIALJDFBL.h"
 namespace RPG::GameCore { class StopSerialBells; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE71E800)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE71E840)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE71E8A0)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE71E8F0)
-#define RPG_GAMECORE_STOPSERIALBELLSTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xE71E7F0)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE77AFA0)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE77AFB0)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE77AFF0)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE77B050)
+#define RPG_GAMECORE_STOPSERIALBELLSTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE77B0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopSerialBellsTask_TypeDefinitionIndex = 58884;
-
-	class StopSerialBellsTask : public ::Class_1_5F51D4049EA87B7B
+	class StopSerialBellsTask : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::StopSerialBells* _ConfigRef; // 0x18
 		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
-
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopSerialBells* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopSerialBells*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopSerialBells*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dispose()
@@ -45,5 +41,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLSTASK_TICK_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System::Runtime::CompilerServices { class AsyncMethodBuilderCore_MoveNextRunner; }
@@ -9,31 +7,28 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class SynchronizationContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CREATECONTINUATIONWRAPPER_OFFSET UNITYSDK_OFFSET(0x1BDBA260)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_GETCOMPLETIONACTION_OFFSET UNITYSDK_OFFSET(0x3B6F120)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_OUTPUTASYNCCAUSALITYEVENTS_OFFSET UNITYSDK_OFFSET(0x3B6F130)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_POSTBOXINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x3B6F1E0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2DF79A0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_THROWASYNC_OFFSET UNITYSDK_OFFSET(0x1BDBA4F0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_TRYGETCONTINUATIONTASK_OFFSET UNITYSDK_OFFSET(0x1BDBA970)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_CREATECONTINUATIONWRAPPER_OFFSET UNITYSDK_OFFSET(0x1C2C5EB0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_GETCOMPLETIONACTION_OFFSET UNITYSDK_OFFSET(0x3C23A40)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_OUTPUTASYNCCAUSALITYEVENTS_OFFSET UNITYSDK_OFFSET(0x3C23A50)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_POSTBOXINITIALIZATION_OFFSET UNITYSDK_OFFSET(0x3C23B00)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B80)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_THROWASYNC_OFFSET UNITYSDK_OFFSET(0x1C2C6140)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_TRYGETCONTINUATIONTASK_OFFSET UNITYSDK_OFFSET(0x1C2C65C0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderCore_TypeDefinitionIndex = 1353;
-
 	struct alignas(8) AsyncMethodBuilderCore
 	{
 		::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine; // 0x10
 		::System::Action* m_defaultContextAction; // 0x18
-
 		::System::Void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::CompilerServices::IAsyncStateMachine*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_SETSTATEMACHINE_OFFSET))(this, a1);
 		}
 
-		::System::Action* GetCompletionAction(::System::Threading::Tasks::Task* a1, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*& a2)
+		::System::Action* GetCompletionAction(::System::Threading::Tasks::Task* a1, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner* a2)
 		{
-			return ((::System::Action*(*)(::PVOID, ::System::Threading::Tasks::Task*, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*&))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_GETCOMPLETIONACTION_OFFSET))(this, a1, a2);
+			return ((::System::Action*(*)(::PVOID, ::System::Threading::Tasks::Task*, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_GETCOMPLETIONACTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Action* OutputAsyncCausalityEvents(::System::Threading::Tasks::Task* a1, ::System::Action* a2)
@@ -60,5 +55,6 @@ namespace System::Runtime::CompilerServices
 		{
 			return ((::System::Threading::Tasks::Task*(*)(::System::Action*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_TRYGETCONTINUATIONTASK_OFFSET))(a1);
 		}
+
 	};
 }

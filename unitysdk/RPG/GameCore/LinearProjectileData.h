@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/NewProjectileConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class LinearProjectileData; }
 
-#define RPG_GAMECORE_LINEARPROJECTILEDATA_METHOD_3_9F4138119929FAA3_OFFSET UNITYSDK_OFFSET(0x1D1F4BE0)
-#define RPG_GAMECORE_LINEARPROJECTILEDATA_METHOD_3_FA596D0C7F873DEC_OFFSET UNITYSDK_OFFSET(0x1D1F4CE0)
-#define RPG_GAMECORE_LINEARPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F4C70)
+#define RPG_GAMECORE_LINEARPROJECTILEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D2450)
+#define RPG_GAMECORE_LINEARPROJECTILEDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D24C0)
+#define RPG_GAMECORE_LINEARPROJECTILEDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D23C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LinearProjectileData_TypeDefinitionIndex = 15486;
-
 	class LinearProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* LinearPitchAngle; // 0xB8
 		::System::Single TargetDistanceOffset; // 0xC0
 		::System::Single HitEffectDistanceOffset; // 0xC4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARPROJECTILEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARPROJECTILEDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9F4138119929FAA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LinearProjectileData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LinearProjectileData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LinearProjectileData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARPROJECTILEDATA_METHOD_3_9F4138119929FAA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LinearProjectileData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARPROJECTILEDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FA596D0C7F873DEC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LinearProjectileData* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LinearProjectileData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LinearProjectileData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARPROJECTILEDATA_METHOD_3_FA596D0C7F873DEC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LinearProjectileData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEARPROJECTILEDATA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

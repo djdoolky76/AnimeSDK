@@ -3,8 +3,6 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventLevel_TypeDefinitionIndex = 1712;
-
 	enum class EventLevel : ::System::Int32
 	{
 		LogAlways = 0,

@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class UniversalHotFixTaskConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_B15DA7971D71BC9B_OFFSET UNITYSDK_OFFSET(0x1D6212E0)
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_C219FA2796262EB7_OFFSET UNITYSDK_OFFSET(0x1D620590)
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6238D0)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC77C70)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DC75680)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC74930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 23089;
-
 	class UniversalHotFixTaskConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -28,20 +26,20 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>* BoolParams; // 0x30
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* IntParams; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UInt32>* UIntParams; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_C219FA2796262EB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniversalHotFixTaskConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::UniversalHotFixTaskConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniversalHotFixTaskConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_C219FA2796262EB7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::UniversalHotFixTaskConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_B15DA7971D71BC9B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixTaskConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixTaskConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixTaskConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_B15DA7971D71BC9B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixTaskConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
+
 	};
 }

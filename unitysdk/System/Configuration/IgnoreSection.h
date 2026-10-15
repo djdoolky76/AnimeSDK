@@ -2,30 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationSaveMode.h"
 #include "unitysdk/System/Configuration/ConfigurationSection.h"
-
 namespace System { class String; }
 namespace System::Configuration { class ConfigurationElement; }
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 namespace System::Xml { class XmlReader; }
 
-#define SYSTEM_CONFIGURATION_IGNORESECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1E6C0210)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E6C01D0)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1E6C0250)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1E6C02D0)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_RESET_OFFSET UNITYSDK_OFFSET(0x1E6C0290)
-#define SYSTEM_CONFIGURATION_IGNORESECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1E6C0310)
-#define SYSTEM_CONFIGURATION_IGNORESECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C0190)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED87DD0)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_DESERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1ED87E50)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1ED87E10)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_ISMODIFIED_OFFSET UNITYSDK_OFFSET(0x1ED87E90)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_RESETMODIFIED_OFFSET UNITYSDK_OFFSET(0x1ED87F10)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_RESET_OFFSET UNITYSDK_OFFSET(0x1ED87ED0)
+#define SYSTEM_CONFIGURATION_IGNORESECTION_SERIALIZESECTION_OFFSET UNITYSDK_OFFSET(0x1ED87F50)
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int IgnoreSection_TypeDefinitionIndex = 2342;
-
 	class IgnoreSection : public ::System::Configuration::ConfigurationSection
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Configuration::ConfigurationPropertyCollection* get_Properties()
@@ -57,5 +54,6 @@ namespace System::Configuration
 		{
 			return ((::System::String*(*)(::PVOID, ::System::Configuration::ConfigurationElement*, ::System::String*, ::System::Configuration::ConfigurationSaveMode))((::PBYTE)hIl2Cpp + SYSTEM_CONFIGURATION_IGNORESECTION_SERIALIZESECTION_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

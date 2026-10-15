@@ -2,38 +2,34 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class Object; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BDBBDB0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_GET_WRAPPEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1BDBBDA0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BDBBE80)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BDBBF40)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBBCF0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C2C7B50)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C2C7C10)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C79C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C2C7A80)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_GET_WRAPPEDEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C2C7A70)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int RuntimeWrappedException_TypeDefinitionIndex = 1367;
-
 	class RuntimeWrappedException : public ::System::Exception
 	{
 	public:
 		::System::Object* m_wrappedException; // 0x88
-
 		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION__CTOR_2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_CTOR_2_OFFSET))(this);
 		}
 
 		::System::Object* get_WrappedException()
@@ -45,5 +41,6 @@ namespace System::Runtime::CompilerServices
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_RUNTIMEWRAPPEDEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int AutoUnwrapSettings_Anchor_TypeDefinitionIndex = 43141;
-
 	enum class AutoUnwrapSettings_Anchor : ::System::Int32
 	{
 		UpperLeft = 0,

@@ -4,36 +4,34 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-namespace RPG::Client { class MultiLightEffectMaterialBlock_MBItem; }
 namespace System { class Object; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_GET_EMISSIONSTRENGTH3_OFFSET UNITYSDK_OFFSET(0xD8DB030)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_LATETICK_OFFSET UNITYSDK_OFFSET(0xD8D9DE0)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_METHOD_5_019EFE3898DA3E4C_OFFSET UNITYSDK_OFFSET(0xD8DAB00)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_METHOD_5_828DF204BF1C89BB_OFFSET UNITYSDK_OFFSET(0xD8D9670)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_METHOD_5_ABB1ED6E5E3576C6_OFFSET UNITYSDK_OFFSET(0xD8DA0A0)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD8DAFE0)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD8D9D50)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8D9CC0)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_SET_EMISSIONSTRENGTH3_OFFSET UNITYSDK_OFFSET(0xD8DB040)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_START_OFFSET UNITYSDK_OFFSET(0xD8D93F0)
-#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xD8DB050)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_CEKALFPCCJB_OFFSET UNITYSDK_OFFSET(0xD8D96C0)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD8DB0A0)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_DFHFIOLGHCG_OFFSET UNITYSDK_OFFSET(0xD8DA0F0)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_FKEEFKCCLKO_OFFSET UNITYSDK_OFFSET(0xD8DAB50)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_GET_EMISSIONSTRENGTH3_OFFSET UNITYSDK_OFFSET(0xD8DB080)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_LATETICK_OFFSET UNITYSDK_OFFSET(0xD8D9E30)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD8DB030)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD8D9DA0)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8D9D10)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_SET_EMISSIONSTRENGTH3_OFFSET UNITYSDK_OFFSET(0xD8DB090)
+#define RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_START_OFFSET UNITYSDK_OFFSET(0xD8D9440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiLightEffectMaterialBlock_TypeDefinitionIndex = 70653;
-
 	class MultiLightEffectMaterialBlock : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::RPG::Client::MultiLightEffectMaterialBlock_MBItem*>* MBTargets; // 0x18
+		::Il2CppArray<::System::Object*>* MBTargets; // 0x18
 		::System::Boolean KValueIsOn; // 0x20
+		::System::Byte _padding0[0x3];
 		::RPG::Client::MultiLightEffectMatBlockType DataType; // 0x24
 		::System::Boolean IsSixteenLight; // 0x28
+		::System::Byte _padding1[0x3];
 		::System::Single EmissionTotalStrength; // 0x2C
 		::System::Single EmissionStrength0; // 0x30
 		::System::Single EmissionStrength1; // 0x34
@@ -71,10 +69,9 @@ namespace RPG::Client
 		::UnityEngine::Vector4 VectorData; // 0x180
 		::UnityEngine::MaterialPropertyBlock* DNCLJJLAFKA; // 0x190
 		::System::Boolean ANDBPOGGEAN; // 0x198
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -102,19 +99,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_ONDESTROY_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Object*>* Method_5_828DF204BF1C89BB(::UnityEngine::Material* a1, ::RPG::Client::MultiLightEffectMatBlockType a2)
+		::Il2CppArray<::System::Object*>* CEKALFPCCJB(::UnityEngine::Material* a1, ::RPG::Client::MultiLightEffectMatBlockType a2)
 		{
-			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::UnityEngine::Material*, ::RPG::Client::MultiLightEffectMatBlockType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_METHOD_5_828DF204BF1C89BB_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::System::Object*>*(*)(::PVOID, ::UnityEngine::Material*, ::RPG::Client::MultiLightEffectMatBlockType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_CEKALFPCCJB_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_ABB1ED6E5E3576C6(::UnityEngine::Renderer* a1, ::System::Int32 a2)
+		::System::Void DFHFIOLGHCG(::UnityEngine::Renderer* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_METHOD_5_ABB1ED6E5E3576C6_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_DFHFIOLGHCG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_019EFE3898DA3E4C(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::Il2CppArray<::System::Object*>* a3, ::RPG::Client::MultiLightEffectMatBlockType a4)
+		::System::Void FKEEFKCCLKO(::UnityEngine::Renderer* a1, ::System::Int32 a2, ::Il2CppArray<::System::Object*>* a3, ::RPG::Client::MultiLightEffectMatBlockType a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::Il2CppArray<::System::Object*>*, ::RPG::Client::MultiLightEffectMatBlockType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_METHOD_5_019EFE3898DA3E4C_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Int32, ::Il2CppArray<::System::Object*>*, ::RPG::Client::MultiLightEffectMatBlockType))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_FKEEFKCCLKO_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Single get_EmissionStrength3()
@@ -126,5 +123,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MULTILIGHTEFFECTMATERIALBLOCK_SET_EMISSIONSTRENGTH3_OFFSET))(this, a1);
 		}
+
 	};
 }

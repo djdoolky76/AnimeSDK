@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace RPG::CustomRP { class MaskTypeParameter; }
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
@@ -9,12 +8,10 @@ namespace UnityEngine::Rendering { class TextureParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 namespace UnityEngine::Rendering { class Vector4Parameter; }
 
-#define RPG_CUSTOMRP_RPGLENSDISTORTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D14C0)
+#define RPG_CUSTOMRP_RPGLENSDISTORTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC57A10)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensDistortion_TypeDefinitionIndex = 37133;
-
 	class RPGLensDistortion : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
@@ -32,10 +29,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* StartRadius; // 0x90
 		::UnityEngine::Rendering::FloatParameter* BlendRadius; // 0x98
 		::UnityEngine::Rendering::FloatParameter* Angle; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSDISTORTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSDISTORTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

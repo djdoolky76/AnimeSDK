@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace SRDebugger::UI::Controls { class TableSize; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E697880)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E6978B0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E696FC0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E697790)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED5F210)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5F120)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED5F240)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED5E950)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerTableMemoryBlock_GetTableSize_TypeDefinitionIndex = 37342;
-
 	class ProfilerTableMemoryBlock_GetTableSize : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Collections::Generic::List_1<::SRDebugger::UI::Controls::TableSize*>* a1)
@@ -39,5 +36,6 @@ namespace SRDebugger::UI::Controls
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERTABLEMEMORYBLOCK_GETTABLESIZE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

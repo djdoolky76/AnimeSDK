@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionContentRegionScope_TypeDefinitionIndex = 12574;
-
 	enum class AnniversaryCollectionContentRegionScope : ::System::Int32
 	{
 		DomesticAndOverseas = 0,

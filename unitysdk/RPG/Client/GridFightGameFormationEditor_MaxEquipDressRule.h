@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0xD1B50B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0xD1B5000)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE__CTOR_OFFSET UNITYSDK_OFFSET(0xD1A10A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE_CANDRESS_OFFSET UNITYSDK_OFFSET(0xD155B20)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE_CTOR_OFFSET UNITYSDK_OFFSET(0xD151B00)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE_GET_REASON_OFFSET UNITYSDK_OFFSET(0xD155A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_MaxEquipDressRule_TypeDefinitionIndex = 64701;
-
 	class GridFightGameFormationEditor_MaxEquipDressRule : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::TextID get_Reason()
@@ -30,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightFormationRole*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_MAXEQUIPDRESSRULE_CANDRESS_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTargetSelectorConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameAbilityTargetSelector_SlamTargetConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_METHOD_3_D467909CC58130D6_OFFSET UNITYSDK_OFFSET(0x1CD56AF0)
-#define RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_METHOD_3_D6A322B6D5D4D7AC_OFFSET UNITYSDK_OFFSET(0x1CD56A90)
-#define RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD56AE0)
+#define RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32A300)
+#define RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D32A310)
+#define RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D32A2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbilityTargetSelector_SlamTargetConfig_TypeDefinitionIndex = 10281;
-
 	class RoadRashGameAbilityTargetSelector_SlamTargetConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:
@@ -23,20 +21,20 @@ namespace RPG::Client
 		::System::String* MinRadiusAdditiveAttributeName; // 0x28
 		::System::String* MaxRadiusAdditiveAttributeName; // 0x30
 		::System::String* FanAngleAttributeName; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D6A322B6D5D4D7AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_METHOD_3_D6A322B6D5D4D7AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D467909CC58130D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_METHOD_3_D467909CC58130D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbilityTargetSelector_SlamTargetConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITYTARGETSELECTOR_SLAMTARGETCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

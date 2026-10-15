@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/HeaderVariantInfo.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::Collections { class Hashtable; }
@@ -11,46 +10,44 @@ namespace System::Net { class Cookie; }
 namespace System::Net { class CookieCollection; }
 namespace System::Net { class PathList; }
 
-#define SYSTEM_NET_COOKIECONTAINER_ADDREMOVEDOMAIN_OFFSET UNITYSDK_OFFSET(0x1E95D520)
-#define SYSTEM_NET_COOKIECONTAINER_ADD_OFFSET UNITYSDK_OFFSET(0x1E95D780)
-#define SYSTEM_NET_COOKIECONTAINER_AGECOOKIES_OFFSET UNITYSDK_OFFSET(0x1E95E330)
-#define SYSTEM_NET_COOKIECONTAINER_BUILDCOOKIECOLLECTIONFROMDOMAINMATCHES_OFFSET UNITYSDK_OFFSET(0x1E9660C0)
-#define SYSTEM_NET_COOKIECONTAINER_COOKIECUTTER_OFFSET UNITYSDK_OFFSET(0x1E965170)
-#define SYSTEM_NET_COOKIECONTAINER_EXPIRECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1E9648F0)
-#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET UNITYSDK_OFFSET(0x1E9677D0)
-#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_OFFSET UNITYSDK_OFFSET(0x1E967750)
-#define SYSTEM_NET_COOKIECONTAINER_INTERNALGETCOOKIES_OFFSET UNITYSDK_OFFSET(0x1E965AB0)
-#define SYSTEM_NET_COOKIECONTAINER_ISLOCALDOMAIN_OFFSET UNITYSDK_OFFSET(0x1E964C60)
-#define SYSTEM_NET_COOKIECONTAINER_MERGEUPDATECOLLECTIONS_OFFSET UNITYSDK_OFFSET(0x1E967320)
-#define SYSTEM_NET_COOKIECONTAINER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E967D40)
-#define SYSTEM_NET_COOKIECONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E95D400)
+#define SYSTEM_NET_COOKIECONTAINER_ADDREMOVEDOMAIN_OFFSET UNITYSDK_OFFSET(0x1F026450)
+#define SYSTEM_NET_COOKIECONTAINER_ADD_OFFSET UNITYSDK_OFFSET(0x1F0266B0)
+#define SYSTEM_NET_COOKIECONTAINER_AGECOOKIES_OFFSET UNITYSDK_OFFSET(0x1F027250)
+#define SYSTEM_NET_COOKIECONTAINER_BUILDCOOKIECOLLECTIONFROMDOMAINMATCHES_OFFSET UNITYSDK_OFFSET(0x1F02EFE0)
+#define SYSTEM_NET_COOKIECONTAINER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F030B80)
+#define SYSTEM_NET_COOKIECONTAINER_COOKIECUTTER_OFFSET UNITYSDK_OFFSET(0x1F02E090)
+#define SYSTEM_NET_COOKIECONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F026330)
+#define SYSTEM_NET_COOKIECONTAINER_EXPIRECOLLECTION_OFFSET UNITYSDK_OFFSET(0x1F02D810)
+#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET UNITYSDK_OFFSET(0x1F0306F0)
+#define SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_OFFSET UNITYSDK_OFFSET(0x1F030670)
+#define SYSTEM_NET_COOKIECONTAINER_INTERNALGETCOOKIES_OFFSET UNITYSDK_OFFSET(0x1F02E9D0)
+#define SYSTEM_NET_COOKIECONTAINER_ISLOCALDOMAIN_OFFSET UNITYSDK_OFFSET(0x1F02DB80)
+#define SYSTEM_NET_COOKIECONTAINER_MERGEUPDATECOLLECTIONS_OFFSET UNITYSDK_OFFSET(0x1F030240)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CookieContainer_TypeDefinitionIndex = 2804;
-
 	class CookieContainer : public ::System::Object
 	{
 	public:
+		::System::String* m_fqdnMyDomain; // 0x10
+		::System::Collections::Hashtable* m_domainTable; // 0x18
+		::System::Int32 m_maxCookies; // 0x20
+		::System::Int32 m_count; // 0x24
+		::System::Int32 m_maxCookieSize; // 0x28
+		::System::Int32 m_maxCookiesPerDomain; // 0x2C
 		static ::Il2CppArray<::System::Net::HeaderVariantInfo>** StaticGet_HeaderInfo()
 		{
-			return (::Il2CppArray<::System::Net::HeaderVariantInfo>**)Il2CppClass::FromTypeDefinitionIndex(CookieContainer_TypeDefinitionIndex)->GetStaticField(0x1A300);
+			return (::Il2CppArray<::System::Net::HeaderVariantInfo>**)UnitySDK::FromName("System.Net", "CookieContainer")->GetStaticField(0x24650);
 		}
-		::System::Collections::Hashtable* m_domainTable; // 0x10
-		::System::String* m_fqdnMyDomain; // 0x18
-		::System::Int32 m_maxCookieSize; // 0x20
-		::System::Int32 m_maxCookiesPerDomain; // 0x24
-		::System::Int32 m_count; // 0x28
-		::System::Int32 m_maxCookies; // 0x2C
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_CCTOR_OFFSET))();
 		}
 
 		::System::Void AddRemoveDomain(::System::String* a1, ::System::Net::PathList* a2)
@@ -103,9 +100,10 @@ namespace System::Net
 			return ((::System::String*(*)(::PVOID, ::System::Uri*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_OFFSET))(this, a1);
 		}
 
-		::System::String* GetCookieHeader_1(::System::Uri* a1, ::System::String*& a2)
+		::System::String* GetCookieHeader_1(::System::Uri* a1, ::System::String* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Uri*, ::System::String*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::System::Uri*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_COOKIECONTAINER_GETCOOKIEHEADER_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

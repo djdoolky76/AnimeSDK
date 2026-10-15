@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HoudiniEngineUnity/HAPI_ObjectInfo.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/HoudiniEngineUnity/HAPI_ObjectInfo.h"
 namespace HoudiniEngineUnity { class Test_HAPI_ObjectInfo; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_OBJECTINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4AFB90)
+#define HOUDINIENGINEUNITY_TEST_HAPI_OBJECTINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B1BC0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_ObjectInfo_Extensions_TypeDefinitionIndex = 39402;
-
 	class Test_HAPI_ObjectInfo_Extensions : public ::System::Object
 	{
 	public:
@@ -18,5 +15,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::HoudiniEngineUnity::Test_HAPI_ObjectInfo*(*)(::HoudiniEngineUnity::HAPI_ObjectInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_HAPI_OBJECTINFO_EXTENSIONS_TOTESTOBJECT_OFFSET))(a1);
 		}
+
 	};
 }

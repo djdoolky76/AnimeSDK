@@ -4,25 +4,22 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER_GET_PAMPOSITION_OFFSET UNITYSDK_OFFSET(0xD853F70)
-#define RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER_GET_PAMROTATION_OFFSET UNITYSDK_OFFSET(0xD854050)
-#define RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xD8540B0)
+#define RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD854B70)
+#define RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER_GET_PAMPOSITION_OFFSET UNITYSDK_OFFSET(0xD854A30)
+#define RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER_GET_PAMROTATION_OFFSET UNITYSDK_OFFSET(0xD854B10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPamSkinProcessController_TypeDefinitionIndex = 72768;
-
 	class MonoPamSkinProcessController : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::UInt32 _PROP_GROUP_ID = 0x27; // 0x0
-		// static const ::System::UInt32 _PROP_INSTANCE_ID = 0x493E1; // 0x0
 		::UnityEngine::Vector3 _PostionOffset; // 0x18
 		::UnityEngine::Quaternion _RotationOffset; // 0x24
-
+		// static const ::System::Object _PROP_GROUP_ID; // 0x0
+		// static const ::System::Object _PROP_INSTANCE_ID; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector3 get_PamPosition()
@@ -34,5 +31,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPAMSKINPROCESSCONTROLLER_GET_PAMROTATION_OFFSET))(this);
 		}
+
 	};
 }

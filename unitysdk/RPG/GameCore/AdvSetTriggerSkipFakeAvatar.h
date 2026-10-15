@@ -2,38 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdvSetTriggerSkipFakeAvatarType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvSetTriggerSkipFakeAvatar; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_METHOD_3_123CDBA8AB80A905_OFFSET UNITYSDK_OFFSET(0x1CDDBC20)
-#define RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_METHOD_3_17F58BF9A790CBDB_OFFSET UNITYSDK_OFFSET(0x1CDDBCA0)
-#define RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDBC70)
+#define RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B1600)
+#define RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B1630)
+#define RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B15B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetTriggerSkipFakeAvatar_TypeDefinitionIndex = 20290;
-
 	class AdvSetTriggerSkipFakeAvatar : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::AdvSetTriggerSkipFakeAvatarType TriggerType; // 0x20
 		::System::Boolean IsSkip; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_123CDBA8AB80A905(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_METHOD_3_123CDBA8AB80A905_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_17F58BF9A790CBDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_METHOD_3_17F58BF9A790CBDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetTriggerSkipFakeAvatar*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETTRIGGERSKIPFAKEAVATAR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

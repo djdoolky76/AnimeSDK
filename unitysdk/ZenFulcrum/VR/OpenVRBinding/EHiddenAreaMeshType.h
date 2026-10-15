@@ -3,8 +3,6 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EHiddenAreaMeshType_TypeDefinitionIndex = 37932;
-
 	enum class EHiddenAreaMeshType : ::System::Int32
 	{
 		k_eHiddenAreaMesh_Standard = 0,

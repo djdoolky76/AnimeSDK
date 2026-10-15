@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelAudioTrigger; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D1CA040)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1CA000)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CA030)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A6280)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7A6290)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A6250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioTrigger_TypeDefinitionIndex = 22705;
-
 	class LevelAudioTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* Event; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelAudioTrigger*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelAudioTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudioTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelAudioTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelAudioTrigger* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelAudioTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelAudioTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelAudioTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGER_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

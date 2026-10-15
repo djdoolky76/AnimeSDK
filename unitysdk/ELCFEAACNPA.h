@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/DJJKNHPLHDI.h"
+class FDPALAEIHPB;
+
+#define ELCFEAACNPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA613C0)
+
+	class ELCFEAACNPA : public ::DJJKNHPLHDI
+	{
+	public:
+		::System::Void _ctor(::FDPALAEIHPB* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*))((::PBYTE)hIl2Cpp + ELCFEAACNPA_CTOR_OFFSET))(this, a1);
+		}
+
+	};

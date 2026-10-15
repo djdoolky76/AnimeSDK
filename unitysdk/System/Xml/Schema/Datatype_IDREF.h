@@ -4,20 +4,18 @@
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 #include "unitysdk/System/Xml/XmlTokenizedType.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1E7E9FE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1E7E9FD0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E67C0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAF4A0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB2CC0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB2CB0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_IDREF_TypeDefinitionIndex = 2130;
-
 	class Datatype_IDREF : public ::System::Xml::Schema::Datatype_NCName
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_IDREF__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_IDREF_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Schema::XmlTypeCode get_TypeCode()
@@ -29,5 +27,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Xml::XmlTokenizedType(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_DATATYPE_IDREF_GET_TOKENIZEDTYPE_OFFSET))(this);
 		}
+
 	};
 }

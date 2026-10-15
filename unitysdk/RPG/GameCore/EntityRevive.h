@@ -3,28 +3,24 @@
 #include "unitysdk/RPG/GameCore/AliveState.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
+class NMNGHKMHDOK;
 
-class Class_1_43BD383C98B4C0C5_125;
-
-#define RPG_GAMECORE_ENTITYREVIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE60CA60)
-#define RPG_GAMECORE_ENTITYREVIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE60CA20)
-#define RPG_GAMECORE_ENTITYREVIVE_GET_ISFROMDEATH_OFFSET UNITYSDK_OFFSET(0xE60CAB0)
-#define RPG_GAMECORE_ENTITYREVIVE__CTOR_OFFSET UNITYSDK_OFFSET(0xE60CA10)
+#define RPG_GAMECORE_ENTITYREVIVE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6645F0)
+#define RPG_GAMECORE_ENTITYREVIVE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE664640)
+#define RPG_GAMECORE_ENTITYREVIVE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE664600)
+#define RPG_GAMECORE_ENTITYREVIVE_GET_ISFROMDEATH_OFFSET UNITYSDK_OFFSET(0xE664690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRevive_TypeDefinitionIndex = 56860;
-
 	class EntityRevive : public ::System::Object
 	{
 	public:
-		::Class_1_43BD383C98B4C0C5_125* Param; // 0x10
+		::NMNGHKMHDOK* Param; // 0x10
 		::RPG::GameCore::AliveState FromState; // 0x18
 		::System::UInt32 _EntityRuntimeID; // 0x1C
-
-		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::AliveState a2, ::Class_1_43BD383C98B4C0C5_125* a3)
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::AliveState a2, ::NMNGHKMHDOK* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::AliveState, ::Class_1_43BD383C98B4C0C5_125*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYREVIVE__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::GameCore::AliveState, ::NMNGHKMHDOK*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYREVIVE_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -41,5 +37,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYREVIVE_GET_ISFROMDEATH_OFFSET))(this);
 		}
+
 	};
 }

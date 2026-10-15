@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CinemachineVirtualCameraTemplateConfig; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_METHOD_2_E49704EFF52C4D3C_OFFSET UNITYSDK_OFFSET(0x1CFD72D0)
-#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD74B0)
+#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B30A0)
+#define RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B2EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CinemachineVirtualCameraTemplateConfig_TypeDefinitionIndex = 16269;
-
 	class CinemachineVirtualCameraTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* ConfigTemplateName; // 0x10
 		::System::String* PrefabTemplatePath; // 0x18
 		::System::Boolean IsLocal; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::String* Comment; // 0x28
 		::RPG::GameCore::VCameraBlend* BlendConfig; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E49704EFF52C4D3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_METHOD_2_E49704EFF52C4D3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CinemachineVirtualCameraTemplateConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CINEMACHINEVIRTUALCAMERATEMPLATECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

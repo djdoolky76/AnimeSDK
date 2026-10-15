@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE_GET_CONFIGURATION_OFFSET UNITYSDK_OFFSET(0x1BD8ADF0)
-#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8ADE0)
+#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C296A70)
+#define SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE_GET_CONFIGURATION_OFFSET UNITYSDK_OFFSET(0x1C296A80)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int AssemblyConfigurationAttribute_TypeDefinitionIndex = 546;
-
 	class AssemblyConfigurationAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* m_configuration; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Configuration()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_ASSEMBLYCONFIGURATIONATTRIBUTE_GET_CONFIGURATION_OFFSET))(this);
 		}
+
 	};
 }

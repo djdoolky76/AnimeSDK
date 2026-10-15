@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TeamTowers/BrickControlType.h"
+#include "unitysdk/RPG/Client/TeamTowers/BrickDirectionType.h"
+#include "unitysdk/System/Object.h"
+
+#define NNGPFFCBCFC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA8CE0)
+#define NNGPFFCBCFC_GET_BRICKCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xBCA8C60)
+#define NNGPFFCBCFC_GET_BRICKDIRECTIONMODE_OFFSET UNITYSDK_OFFSET(0xBCA8C80)
+#define NNGPFFCBCFC_GET_KEYBOARDUSEWROTATE_OFFSET UNITYSDK_OFFSET(0xBCA8CC0)
+#define NNGPFFCBCFC_GET_MOBILEUSEBTNROTATE_OFFSET UNITYSDK_OFFSET(0xBCA8CA0)
+#define NNGPFFCBCFC_SET_BRICKCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xBCA8C70)
+#define NNGPFFCBCFC_SET_BRICKDIRECTIONMODE_OFFSET UNITYSDK_OFFSET(0xBCA8C90)
+#define NNGPFFCBCFC_SET_KEYBOARDUSEWROTATE_OFFSET UNITYSDK_OFFSET(0xBCA8CD0)
+#define NNGPFFCBCFC_SET_MOBILEUSEBTNROTATE_OFFSET UNITYSDK_OFFSET(0xBCA8CB0)
+
+	class NNGPFFCBCFC : public ::System::Object
+	{
+	public:
+		::RPG::Client::TeamTowers::BrickControlType _BrickControlMode_k__BackingField; // 0x10
+		::RPG::Client::TeamTowers::BrickDirectionType _BrickDirectionMode_k__BackingField; // 0x14
+		::System::Boolean _MobileUseBtnRotate_k__BackingField; // 0x18
+		::System::Boolean _KeyBoardUseWRotate_k__BackingField; // 0x19
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::TeamTowers::BrickControlType get_BrickControlMode()
+		{
+			return ((::RPG::Client::TeamTowers::BrickControlType(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_GET_BRICKCONTROLMODE_OFFSET))(this);
+		}
+
+		::System::Void set_BrickControlMode(::RPG::Client::TeamTowers::BrickControlType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::BrickControlType))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_SET_BRICKCONTROLMODE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TeamTowers::BrickDirectionType get_BrickDirectionMode()
+		{
+			return ((::RPG::Client::TeamTowers::BrickDirectionType(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_GET_BRICKDIRECTIONMODE_OFFSET))(this);
+		}
+
+		::System::Void set_BrickDirectionMode(::RPG::Client::TeamTowers::BrickDirectionType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::BrickDirectionType))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_SET_BRICKDIRECTIONMODE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_MobileUseBtnRotate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_GET_MOBILEUSEBTNROTATE_OFFSET))(this);
+		}
+
+		::System::Void set_MobileUseBtnRotate(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_SET_MOBILEUSEBTNROTATE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_KeyBoardUseWRotate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_GET_KEYBOARDUSEWROTATE_OFFSET))(this);
+		}
+
+		::System::Void set_KeyBoardUseWRotate(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NNGPFFCBCFC_SET_KEYBOARDUSEWROTATE_OFFSET))(this, a1);
+		}
+
+	};

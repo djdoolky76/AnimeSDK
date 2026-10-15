@@ -1,40 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class AnimatorControlTimelineBehaviour; }
-namespace RPGTools::Timeline { class AnimatorControlTimelineClip_BoolEntry; }
-namespace RPGTools::Timeline { class AnimatorControlTimelineClip_FloatEntry; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE810160)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE810140)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE810150)
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE810320)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8ADA70)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ADC30)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8ADA50)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE8ADA60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlTimelineClip_TypeDefinitionIndex = 48259;
-
 	class AnimatorControlTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::AnimatorControlTimelineBehaviour* template_; // 0x18
 		::System::Boolean useFloatParam; // 0x20
-		::Il2CppArray<::RPGTools::Timeline::AnimatorControlTimelineClip_FloatEntry*>* floatParams; // 0x28
+		::System::Byte _padding0[0x7];
+		::Il2CppArray<::System::Object*>* floatParams; // 0x28
 		::System::Boolean useBoolParam; // 0x30
-		::Il2CppArray<::RPGTools::Timeline::AnimatorControlTimelineClip_BoolEntry*>* boolParams; // 0x38
+		::System::Byte _padding1[0x7];
+		::Il2CppArray<::System::Object*>* boolParams; // 0x38
 		::System::Boolean useTriggerParam; // 0x40
+		::System::Byte _padding2[0x7];
 		::System::String* triggerParam; // 0x48
 		::System::String* toState; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -51,5 +49,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

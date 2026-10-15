@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ECurveMoveDirection_TypeDefinitionIndex = 68517;
-
 	enum class ECurveMoveDirection : ::System::Int32
 	{
 		Positive = 0,

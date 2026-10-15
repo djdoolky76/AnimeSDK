@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class KKJMAOMDCAE_OPIGALIJPOP;
+class OABDFLPEHDO;
 
-class Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B;
-class Class_1_50210DAEB46E0CD5;
-
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD1D0D20)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1___COLLECTEQUIPSANDTRAIT_B__1_OFFSET UNITYSDK_OFFSET(0xD1D0D30)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD170DE0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1___COLLECTEQUIPSANDTRAIT_B__1_OFFSET UNITYSDK_OFFSET(0xD170DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass165_1_TypeDefinitionIndex = 64792;
-
+	template <typename T>
 	class GridFightGameRefData___c__DisplayClass165_1 : public ::System::Object
 	{
 	public:
-		::Class_1_35769E9BC1F47769_Class_1_3E75962FCD9FB58B* role; // 0x10
-
+		::KKJMAOMDCAE_OPIGALIJPOP* role; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __CollectEquipsAndTrait_b__1(::Class_1_50210DAEB46E0CD5* a1)
+		::System::Boolean __CollectEquipsAndTrait_b__1(::OABDFLPEHDO* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_50210DAEB46E0CD5*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1___COLLECTEQUIPSANDTRAIT_B__1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::OABDFLPEHDO*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREFDATA___C__DISPLAYCLASS165_1___COLLECTEQUIPSANDTRAIT_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

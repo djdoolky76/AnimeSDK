@@ -4,8 +4,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EnumInfo_TypeDefinitionIndex = 4321;
-
 	class EnumInfo : public ::System::Object
 	{
 	public:

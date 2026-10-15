@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int GenericParameterAttributes_TypeDefinitionIndex = 562;
-
 	enum class GenericParameterAttributes : ::System::Int32
 	{
 		None = 0,

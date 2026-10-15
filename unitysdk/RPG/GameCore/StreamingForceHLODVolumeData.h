@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ForceBlockType.h"
 #include "unitysdk/RPG/GameCore/StreamingVolumeComponentData.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StreamingForceHLODVolumeData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_6FC8D42AA87FF31A_OFFSET UNITYSDK_OFFSET(0x1D573FC0)
-#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_825C561560251423_OFFSET UNITYSDK_OFFSET(0x1D573930)
-#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_9F594A72A83781F0_OFFSET UNITYSDK_OFFSET(0x1D55F8D0)
-#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_A48A4B1B24ACD222_OFFSET UNITYSDK_OFFSET(0x1D5602F0)
-#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D55F8C0)
+#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB29D00)
+#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB29DB0)
+#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB29C90)
+#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB29D10)
+#define RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB29590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingForceHLODVolumeData_TypeDefinitionIndex = 18898;
-
 	class StreamingForceHLODVolumeData : public ::RPG::GameCore::StreamingVolumeComponentData
 	{
 	public:
 		::RPG::GameCore::ForceBlockType ForceBlockType; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_825C561560251423(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StreamingForceHLODVolumeData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StreamingForceHLODVolumeData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StreamingForceHLODVolumeData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_825C561560251423_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StreamingForceHLODVolumeData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_9F594A72A83781F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StreamingForceHLODVolumeData* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StreamingForceHLODVolumeData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StreamingForceHLODVolumeData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_9F594A72A83781F0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StreamingForceHLODVolumeData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A48A4B1B24ACD222(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StreamingForceHLODVolumeData*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StreamingForceHLODVolumeData* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StreamingForceHLODVolumeData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_A48A4B1B24ACD222_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StreamingForceHLODVolumeData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6FC8D42AA87FF31A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StreamingForceHLODVolumeData* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StreamingForceHLODVolumeData* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StreamingForceHLODVolumeData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_METHOD_4_6FC8D42AA87FF31A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StreamingForceHLODVolumeData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGFORCEHLODVOLUMEDATA_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

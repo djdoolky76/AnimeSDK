@@ -5,7 +5,6 @@
 #include "unitysdk/RPG/GameCore/GraphicQuality.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/DeformationQuality.h"
-
 namespace RPG::Client { class CRPNPCSettings; }
 namespace RPG::Client { class CRPVolumetricFogSettings; }
 namespace RPG::Client { class GrassSettings; }
@@ -13,12 +12,10 @@ namespace RPG::Client { class StreamingFeature; }
 namespace RPG::CustomRP { class ScreenColorCopySettingsData; }
 namespace RPG::CustomRP { class WaterSettingsData; }
 
-#define RPG_CLIENT_CRPENVDETAILSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC97DF90)
+#define RPG_CLIENT_CRPENVDETAILSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CC370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPEnvDetailSettings_TypeDefinitionIndex = 67927;
-
 	class CRPEnvDetailSettings : public ::System::Object
 	{
 	public:
@@ -26,8 +23,10 @@ namespace RPG::Client
 		::RPG::CustomRP::ShaderQuality EnvShaderQuality; // 0x14
 		::System::Boolean LuxGlass; // 0x18
 		::System::Boolean LuxEmission; // 0x19
+		::System::Byte _padding0[0x2];
 		::System::Int32 MasterTextureLimit; // 0x1C
 		::System::Boolean EnableLensFlare; // 0x20
+		::System::Byte _padding1[0x3];
 		::System::Single DecalDistance; // 0x24
 		::System::Single DecalMinScreenSize; // 0x28
 		::System::Single MotionVectorDistanceDefault; // 0x2C
@@ -37,9 +36,12 @@ namespace RPG::Client
 		::System::Single OutlineDistanceStory; // 0x3C
 		::System::Single OutlineDistanceBattle; // 0x40
 		::System::Boolean OutlineCullUseScreenSize; // 0x44
+		::System::Byte _padding2[0x3];
 		::System::Single OutlineMinScreenSize; // 0x48
+		::System::Byte _padding3[0x4];
 		::RPG::Client::CRPNPCSettings* NPCLODSettings; // 0x50
 		::RPG::CustomRP::DownsampleType RTDownsampling; // 0x58
+		::System::Byte _padding4[0x4];
 		::RPG::Client::StreamingFeature* RPGStreamingFeature; // 0x60
 		::RPG::CustomRP::WaterSettingsData* WaterSettings; // 0x68
 		::RPG::CustomRP::ScreenColorCopySettingsData* ScreenColorCopySettings; // 0x70
@@ -49,11 +51,12 @@ namespace RPG::Client
 		::RPG::Client::CRPVolumetricFogSettings* FogSettings; // 0x88
 		::System::Boolean EnableRenderPassSplitInMaliVulkanFollowQuality; // 0x90
 		::System::Boolean NeedSceneTransparentRefraction; // 0x91
+		::System::Byte _padding5[0x2];
 		::UnityEngine::DeformationQuality DeformQuality; // 0x94
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPENVDETAILSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPENVDETAILSETTINGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

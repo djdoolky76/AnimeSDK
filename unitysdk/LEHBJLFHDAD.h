@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/FixVec3.h"
+#include "unitysdk/System/Object.h"
+
+#define LEHBJLFHDAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB653BD0)
+
+	class LEHBJLFHDAD : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::FixVec3 PECPBEOHOJC; // 0x10
+		::System::UInt32 NJGKCPOOHDM; // 0x28
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint LCLKOMCBGJO; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LEHBJLFHDAD_CTOR_OFFSET))(this);
+		}
+
+	};

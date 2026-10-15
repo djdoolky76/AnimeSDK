@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class SetPhainonActionCount; }
 
-#define RPG_GAMECORE_SETPHAINONACTIONCOUNT_METHOD_3_7994A30F7F8DFC8C_OFFSET UNITYSDK_OFFSET(0x1D50A790)
-#define RPG_GAMECORE_SETPHAINONACTIONCOUNT_METHOD_3_A1014443D5BDA5E7_OFFSET UNITYSDK_OFFSET(0x1D50A7D0)
-#define RPG_GAMECORE_SETPHAINONACTIONCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D50A7C0)
+#define RPG_GAMECORE_SETPHAINONACTIONCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABEA90)
+#define RPG_GAMECORE_SETPHAINONACTIONCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABEAA0)
+#define RPG_GAMECORE_SETPHAINONACTIONCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABEA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetPhainonActionCount_TypeDefinitionIndex = 22898;
-
 	class SetPhainonActionCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* Count; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONACTIONCOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONACTIONCOUNT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7994A30F7F8DFC8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPhainonActionCount*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetPhainonActionCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetPhainonActionCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONACTIONCOUNT_METHOD_3_7994A30F7F8DFC8C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetPhainonActionCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONACTIONCOUNT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A1014443D5BDA5E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPhainonActionCount* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetPhainonActionCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetPhainonActionCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONACTIONCOUNT_METHOD_3_A1014443D5BDA5E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetPhainonActionCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONACTIONCOUNT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

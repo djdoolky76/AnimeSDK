@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectTabControl; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectTabsViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL_GET_TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xCA12E60)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL_SET_TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xCA12F10)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCA13A80)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCA13080)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCA12F60)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC962060)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL_GET_TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xC961440)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL_SET_TYPEDDATACONTEXT_OFFSET UNITYSDK_OFFSET(0xC9614F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xC961660)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xC961540)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectTabsControl_TypeDefinitionIndex = 80230;
-
 	class ChallengeTierceStageSelectTabsControl : public ::Sofa::BaseSofaControl
 	{
 	public:
-		::RPG::Client::AnimatorButton* _BtnLeft; // 0x38
-		::RPG::Client::AnimatorButton* _BtnRight; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabControl*>* _Tabs; // 0x48
-
+		::RPG::Client::AnimatorButton* _BtnLeft; // 0x40
+		::RPG::Client::AnimatorButton* _BtnRight; // 0x48
+		::System::Collections::Generic::List_1<::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabControl*>* _Tabs; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabsViewModel* get_TypedDataContext()
@@ -48,5 +44,6 @@ namespace RPG::Client::Challenge::Tierce
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSCONTROL__ONBINDVIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

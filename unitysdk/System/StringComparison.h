@@ -3,8 +3,6 @@
 
 namespace System
 {
-	inline static constexpr unsigned int StringComparison_TypeDefinitionIndex = 425;
-
 	enum class StringComparison : ::System::Int32
 	{
 		CurrentCulture = 0,

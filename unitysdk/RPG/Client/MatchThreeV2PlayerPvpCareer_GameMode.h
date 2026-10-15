@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer_GameMode_TypeDefinitionIndex = 66058;
-
 	enum class MatchThreeV2PlayerPvpCareer_GameMode : ::System::Int32
 	{
 		None = 0,

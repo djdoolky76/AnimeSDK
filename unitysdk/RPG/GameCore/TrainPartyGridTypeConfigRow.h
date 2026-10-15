@@ -3,31 +3,30 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TrainPartyGridType.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyGridTypeConfigRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5DDFD0)
-#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DE1F0)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31BC0)
+#define RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC319A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyGridTypeConfigRow_TypeDefinitionIndex = 15138;
-
 	class TrainPartyGridTypeConfigRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::TrainPartyGridType GridType; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID GridTypeName; // 0x18
 		::RPG::Client::TextID GridTypeTipInfo; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyGridTypeConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyGridTypeConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyGridTypeConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyGridTypeConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYGRIDTYPECONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

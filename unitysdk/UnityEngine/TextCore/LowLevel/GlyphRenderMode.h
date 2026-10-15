@@ -3,8 +3,6 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphRenderMode_TypeDefinitionIndex = 5840;
-
 	enum class GlyphRenderMode : ::System::Int32
 	{
 		SMOOTH_HINTED = 4121,

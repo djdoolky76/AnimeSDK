@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class Delegate; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BD963B0)
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BD963F0)
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BD963A0)
-#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD962B0)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C2A2040)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A1F40)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C2A2080)
+#define SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C2A2030)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int EventInfo_AddEventAdapter_TypeDefinitionIndex = 605;
-
 	class EventInfo_AddEventAdapter : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::Delegate* a2)
@@ -38,5 +35,6 @@ namespace System::Reflection
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EVENTINFO_ADDEVENTADAPTER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

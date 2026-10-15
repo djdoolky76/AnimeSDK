@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_DspBusOutputType_TypeDefinitionIndex = 38730;
-
 	enum class CriAtomExAcf_DspBusOutputType : ::System::Int32
 	{
 		None = 0,

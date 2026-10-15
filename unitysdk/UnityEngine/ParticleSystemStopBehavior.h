@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemStopBehavior_TypeDefinitionIndex = 5261;
-
 	enum class ParticleSystemStopBehavior : ::System::Int32
 	{
 		StopEmittingAndClear = 0,

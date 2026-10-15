@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/Client/TextID.h"
+namespace RPG::Client::Introduce { class IntroduceViewModel; }
 namespace RPG::GameCore { class IntroDataRow; }
 
-#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xD406B90)
-#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xD406B20)
-#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_TRYCREATE_OFFSET UNITYSDK_OFFSET(0xD406A70)
-#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD406C10)
+#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD357530)
+#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xD3574B0)
+#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xD357440)
+#define RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_TRYCREATE_OFFSET UNITYSDK_OFFSET(0xD357390)
 
 namespace RPG::Client::Introduce
 {
-	inline static constexpr unsigned int IntroduceViewModel_TypeDefinitionIndex = 79158;
-
 	class IntroduceViewModel : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::IntroDataRow* _Row; // 0x10
-
 		::System::Void _ctor(::RPG::GameCore::IntroDataRow* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IntroDataRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IntroDataRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID get_Title()
@@ -38,5 +35,6 @@ namespace RPG::Client::Introduce
 		{
 			return ((::RPG::Client::Introduce::IntroduceViewModel*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_INTRODUCE_INTRODUCEVIEWMODEL_TRYCREATE_OFFSET))(a1);
 		}
+
 	};
 }

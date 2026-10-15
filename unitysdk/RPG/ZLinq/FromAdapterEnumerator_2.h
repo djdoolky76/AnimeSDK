@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdapterEnumerator_2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::ZLinq
 {
-	inline static constexpr unsigned int FromAdapterEnumerator_2_TypeDefinitionIndex = 10343;
-
-	template <typename TIndexKey, typename TRow>
-	struct FromAdapterEnumerator_2
+	template <typename T1, typename T2>
+	struct alignas(8) FromAdapterEnumerator_2
 	{
-		::RPG::GameCore::AdapterEnumerator_2<TIndexKey, TRow> _Enumerator; // 0x0
+		::RPG::GameCore::AdapterEnumerator_2<T1, T2> _Enumerator; // 0x0
 	};
 }

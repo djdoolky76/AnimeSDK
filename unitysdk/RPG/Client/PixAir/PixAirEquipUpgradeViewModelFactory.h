@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 namespace RPG::Client::PixAir { class PixAirEquipUpgradeViewModel; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEFORPREVIEW_OFFSET UNITYSDK_OFFSET(0xDAFDEF0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEPREVIEWINSTANCE_OFFSET UNITYSDK_OFFSET(0xDAFDF90)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEFORPREVIEW_OFFSET UNITYSDK_OFFSET(0xDB468F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEPREVIEWINSTANCE_OFFSET UNITYSDK_OFFSET(0xDB46990)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipUpgradeViewModelFactory_TypeDefinitionIndex = 78850;
-
 	class PixAirEquipUpgradeViewModelFactory : public ::System::Object
 	{
 	public:
@@ -24,5 +21,6 @@ namespace RPG::Client::PixAir
 		{
 			return ((::RPG::Client::PixAir::PixAirEquipInstance*(*)(::RPG::Client::PixAir::PixAirEquipInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEPREVIEWINSTANCE_OFFSET))(a1);
 		}
+
 	};
 }

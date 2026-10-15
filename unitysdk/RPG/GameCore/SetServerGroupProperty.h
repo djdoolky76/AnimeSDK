@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetServerGroupProperty; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SETSERVERGROUPPROPERTY_METHOD_3_60F86F947DAC5D9D_OFFSET UNITYSDK_OFFSET(0x1D50C9A0)
-#define RPG_GAMECORE_SETSERVERGROUPPROPERTY_METHOD_3_EC4C29FEE0022790_OFFSET UNITYSDK_OFFSET(0x1D50C9E0)
-#define RPG_GAMECORE_SETSERVERGROUPPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D50C9D0)
+#define RPG_GAMECORE_SETSERVERGROUPPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC0CA0)
+#define RPG_GAMECORE_SETSERVERGROUPPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC0CB0)
+#define RPG_GAMECORE_SETSERVERGROUPPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC0C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetServerGroupProperty_TypeDefinitionIndex = 20489;
-
 	class SetServerGroupProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSERVERGROUPPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSERVERGROUPPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_60F86F947DAC5D9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetServerGroupProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetServerGroupProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetServerGroupProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSERVERGROUPPROPERTY_METHOD_3_60F86F947DAC5D9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetServerGroupProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSERVERGROUPPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EC4C29FEE0022790(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetServerGroupProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetServerGroupProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetServerGroupProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSERVERGROUPPROPERTY_METHOD_3_EC4C29FEE0022790_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetServerGroupProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSERVERGROUPPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

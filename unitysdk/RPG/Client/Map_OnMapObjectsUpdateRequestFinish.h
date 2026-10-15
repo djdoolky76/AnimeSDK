@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class Map_MapObjectsUpdateRequest; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD5D1310)
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD5D1340)
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_INVOKE_OFFSET UNITYSDK_OFFSET(0xD5CF770)
-#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xD5D1220)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xD528D40)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0xD528C50)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xD528D70)
+#define RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_INVOKE_OFFSET UNITYSDK_OFFSET(0xD526880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Map_OnMapObjectsUpdateRequestFinish_TypeDefinitionIndex = 60960;
-
 	class Map_OnMapObjectsUpdateRequestFinish : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::RPG::Client::Map_MapObjectsUpdateRequest* a1)
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAP_ONMAPOBJECTSUPDATEREQUESTFINISH_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

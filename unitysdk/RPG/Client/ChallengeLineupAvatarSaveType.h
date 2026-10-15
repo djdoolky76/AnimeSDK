@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeLineupAvatarSaveType_TypeDefinitionIndex = 63161;
-
 	enum class ChallengeLineupAvatarSaveType : ::System::Int32
 	{
 		Normal = 0,

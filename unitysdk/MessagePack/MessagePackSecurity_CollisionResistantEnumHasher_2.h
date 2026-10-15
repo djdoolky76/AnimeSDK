@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace MessagePack { template <typename T1, typename T2> class MessagePackSecurity_CollisionResistantEnumHasher_2; }
+namespace System { class Object; }
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_CollisionResistantEnumHasher_2_TypeDefinitionIndex = 7157;
-
-	template <typename TEnum, typename TUnderlying>
+	template <typename T1, typename T2>
 	class MessagePackSecurity_CollisionResistantEnumHasher_2 : public ::System::Object
 	{
 	public:
-		static ::MessagePack::MessagePackSecurity_CollisionResistantEnumHasher_2<TEnum, TUnderlying>** StaticGet_Instance()
+		static ::System::Object** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackSecurity_CollisionResistantEnumHasher_2<TEnum, TUnderlying>**)Il2CppClass::FromTypeDefinitionIndex(MessagePackSecurity_CollisionResistantEnumHasher_2_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Object**)UnitySDK::FromName("MessagePack", "CollisionResistantEnumHasher`2")->GetStaticField(0x0);
 		}
+
 	};
 }

@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC89E30)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC89E80)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC89E20)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC89DB0)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C195D30)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C195CB0)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C195D80)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C195D20)
 
 namespace System
 {
-	inline static constexpr unsigned int Console_WindowsConsole_WindowsCancelHandler_TypeDefinitionIndex = 384;
-
 	class Console_WindowsConsole_WindowsCancelHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::System::Int32 a1)
@@ -37,5 +34,6 @@ namespace System
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_CONSOLE_WINDOWSCONSOLE_WINDOWSCANCELHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

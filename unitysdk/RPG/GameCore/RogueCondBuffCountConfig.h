@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueConditionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueCondBuffCountConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_METHOD_6_33FC108B88E63610_OFFSET UNITYSDK_OFFSET(0x1D3CB900)
-#define RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_METHOD_6_D43A46B407847514_OFFSET UNITYSDK_OFFSET(0x1D3CB8B0)
-#define RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CB8F0)
+#define RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B20D0)
+#define RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9B20E0)
+#define RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9B2090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueCondBuffCountConfig_TypeDefinitionIndex = 19564;
-
 	class RogueCondBuffCountConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_D43A46B407847514(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondBuffCountConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueCondBuffCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondBuffCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_METHOD_6_D43A46B407847514_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueCondBuffCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_33FC108B88E63610(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueCondBuffCountConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueCondBuffCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueCondBuffCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_METHOD_6_33FC108B88E63610_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueCondBuffCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUECONDBUFFCOUNTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

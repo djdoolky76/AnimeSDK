@@ -2,29 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
+namespace UnityEngine::Rendering { class MousePositionDebug; }
 
-#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_BUILD_OFFSET UNITYSDK_OFFSET(0x1EBFD210)
-#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1EBFD220)
-#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_GETMOUSECLICKPOSITION_OFFSET UNITYSDK_OFFSET(0x1EBFD260)
-#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_GETMOUSEPOSITION_OFFSET UNITYSDK_OFFSET(0x1EBFD230)
-#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EBFD190)
-#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFD200)
+#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_BUILD_OFFSET UNITYSDK_OFFSET(0x1F2C4B20)
+#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1F2C4B30)
+#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C4B10)
+#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_GETMOUSECLICKPOSITION_OFFSET UNITYSDK_OFFSET(0x1F2C4B70)
+#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_GETMOUSEPOSITION_OFFSET UNITYSDK_OFFSET(0x1F2C4B40)
+#define UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F2C4AA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MousePositionDebug_TypeDefinitionIndex = 34883;
-
 	class MousePositionDebug : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::MousePositionDebug** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::Rendering::MousePositionDebug**)Il2CppClass::FromTypeDefinitionIndex(MousePositionDebug_TypeDefinitionIndex)->GetStaticField(0x60A40);
+			return (::UnityEngine::Rendering::MousePositionDebug**)UnitySDK::FromName("UnityEngine.Rendering", "MousePositionDebug")->GetStaticField(0x48E40);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_CTOR_OFFSET))(this);
 		}
 
 		static ::UnityEngine::Rendering::MousePositionDebug* get_instance()
@@ -51,5 +50,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_MOUSEPOSITIONDEBUG_GETMOUSECLICKPOSITION_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -4,16 +4,14 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace RPG::Client { class TransformPatrolAnimBehavior_PatrolPoint; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xE289C70)
-#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xE286BB0)
+#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT_CTOR_1_OFFSET UNITYSDK_OFFSET(0xE30FAA0)
+#define RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xE30C9E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformPatrolAnimBehavior_PatrolPoint_TypeDefinitionIndex = 70303;
-
 	class TransformPatrolAnimBehavior_PatrolPoint : public ::System::Object
 	{
 	public:
@@ -27,15 +25,15 @@ namespace RPG::Client
 		::UnityEngine::Vector3 RelativeScale; // 0x40
 		::UnityEngine::Vector3 LookAtPosition; // 0x4C
 		::UnityEngine::GameObject* TriggerNode; // 0x58
-
 		::System::Void _ctor(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::RPG::Client::TransformPatrolAnimBehavior_PatrolPoint* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::TransformPatrolAnimBehavior_PatrolPoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TransformPatrolAnimBehavior_PatrolPoint*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMPATROLANIMBEHAVIOR_PATROLPOINT_CTOR_1_OFFSET))(this, a1);
 		}
+
 	};
 }

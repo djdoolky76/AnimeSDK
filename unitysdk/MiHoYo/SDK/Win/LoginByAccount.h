@@ -1,52 +1,82 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class LoginByAccount; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class Toggle; }
 
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B853190)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x1B8564D0)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKCLOSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1B8564F0)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKFORGETPASSWORDBUTTON_OFFSET UNITYSDK_OFFSET(0x1B856530)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKLOGINBUTTON_OFFSET UNITYSDK_OFFSET(0x1B856630)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKPASSWORDCLEARBTN_OFFSET UNITYSDK_OFFSET(0x1B856A50)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKPASSWORDSHOWBTN_OFFSET UNITYSDK_OFFSET(0x1B856950)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKREGISTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1B856510)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKSAVERECORDTOGGLE_OFFSET UNITYSDK_OFFSET(0x1B856900)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKTOGGLE_OFFSET UNITYSDK_OFFSET(0x1B856610)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKUSERAGREEMENTBUTTON_OFFSET UNITYSDK_OFFSET(0x1B856550)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKUSERPRIVACYBUTTON_OFFSET UNITYSDK_OFFSET(0x1B8565B0)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_DISABLEREGISTER_OFFSET UNITYSDK_OFFSET(0x1B855F80)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_HIDE_OFFSET UNITYSDK_OFFSET(0x1B856460)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B856B60)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_ONPASSWORDVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1B856A80)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_SHOW_OFFSET UNITYSDK_OFFSET(0x1B856360)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_START_OFFSET UNITYSDK_OFFSET(0x1B856330)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_UPDATESAVERECORDTIPS_OFFSET UNITYSDK_OFFSET(0x1B855960)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B855030)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_UPDATETOGGLESTATUS_OFFSET UNITYSDK_OFFSET(0x1B856920)
-#define MIHOYO_SDK_WIN_LOGINBYACCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B856BB0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD4D650)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD50FB0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKCLOSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD50FD0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKFORGETPASSWORDBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD51010)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKLOGINBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD51110)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKPASSWORDCLEARBTN_OFFSET UNITYSDK_OFFSET(0x1BD51530)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKPASSWORDSHOWBTN_OFFSET UNITYSDK_OFFSET(0x1BD51430)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKREGISTERBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD50FF0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKSAVERECORDTOGGLE_OFFSET UNITYSDK_OFFSET(0x1BD513E0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKTOGGLE_OFFSET UNITYSDK_OFFSET(0x1BD510F0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKUSERAGREEMENTBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD51030)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CLICKUSERPRIVACYBUTTON_OFFSET UNITYSDK_OFFSET(0x1BD51090)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD516B0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_DISABLEREGISTER_OFFSET UNITYSDK_OFFSET(0x1BD509E0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_GETACCOUNTINPUTFIED_OFFSET UNITYSDK_OFFSET(0x1BD51690)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_GETPASSWORDINPUTFIELD_OFFSET UNITYSDK_OFFSET(0x1BD516A0)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD50F40)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD51640)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_ONPASSWORDVALUECHANGE_OFFSET UNITYSDK_OFFSET(0x1BD51560)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD50E40)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_START_OFFSET UNITYSDK_OFFSET(0x1BD50E10)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_UPDATESAVERECORDTIPS_OFFSET UNITYSDK_OFFSET(0x1BD50310)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD4F900)
+#define MIHOYO_SDK_WIN_LOGINBYACCOUNT_UPDATETOGGLESTATUS_OFFSET UNITYSDK_OFFSET(0x1BD51400)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginByAccount_TypeDefinitionIndex = 9479;
-
 	class LoginByAccount : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::UnityEngine::UI::Button* backButton; // 0x58
+		::UnityEngine::UI::Button* closeButton; // 0x60
+		::UnityEngine::GameObject* testFlagObject; // 0x68
+		::UnityEngine::UI::InputField* accountInput; // 0x70
+		::UnityEngine::UI::InputField* passwordInput; // 0x78
+		::UnityEngine::UI::Button* pwdInputShowBtn; // 0x80
+		::UnityEngine::GameObject* pwdInputShowBtnObject; // 0x88
+		::UnityEngine::UI::Button* pwdInputHideBtn; // 0x90
+		::UnityEngine::GameObject* pwdInputHideBtnObject; // 0x98
+		::UnityEngine::UI::Button* pwdInputClearBtn; // 0xA0
+		::UnityEngine::GameObject* pwdInputClearBtnObject; // 0xA8
+		::UnityEngine::UI::Button* loginButton; // 0xB0
+		::UnityEngine::UI::Button* registerButton; // 0xB8
+		::UnityEngine::UI::Button* forgetPasswordButton; // 0xC0
+		::UnityEngine::UI::Toggle* agreeAllToggle; // 0xC8
+		::UnityEngine::UI::Button* userAgreementButton; // 0xD0
+		::UnityEngine::UI::Button* privacyButton; // 0xD8
+		::UnityEngine::UI::Toggle* saveRecordToggle; // 0xE0
+		::UnityEngine::UI::Text* saveRecordText; // 0xE8
+		::System::Action* OnBack; // 0xF0
+		::System::Action* OnClose; // 0xF8
+		::System::Action* OnRegister; // 0x100
+		::System::Action* OnForgetPwd; // 0x108
+		::System::Action* OnLogin; // 0x110
+		::System::Action* OnUserAgreement; // 0x118
+		::System::Action* OnUserPrivacy; // 0x120
+		::System::Action* OnToggleClicked; // 0x128
+		::System::Action* OnSaveRecordToggleClicked; // 0x130
+		::System::Action* OnNotifyClose; // 0x138
+		::MiHoYo::SDK::AccountModel* account; // 0x140
+		::System::Boolean isPasswordShow; // 0x148
 		static ::MiHoYo::SDK::Win::LoginByAccount** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::LoginByAccount**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccount_TypeDefinitionIndex)->GetStaticField(0x2C500);
+			return (::MiHoYo::SDK::Win::LoginByAccount**)UnitySDK::FromName("MiHoYo.SDK.Win", "LoginByAccount")->GetStaticField(0x218D0);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* BackButtonPath; // 0x0
 		// static const ::System::String* TestEnvTextPath; // 0x0
@@ -71,41 +101,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* UserAgreementBtnTextPath; // 0x0
 		// static const ::System::String* PrivacyPath; // 0x0
 		// static const ::System::String* PrivacyBtnTextPath; // 0x0
-		::UnityEngine::UI::Button* backButton; // 0x58
-		::UnityEngine::UI::Button* closeButton; // 0x60
-		::UnityEngine::GameObject* testFlagObject; // 0x68
-		::UnityEngine::UI::InputField* accountInput; // 0x70
-		::UnityEngine::UI::InputField* passwordInput; // 0x78
-		::UnityEngine::UI::Button* pwdInputShowBtn; // 0x80
-		::UnityEngine::GameObject* pwdInputShowBtnObject; // 0x88
-		::UnityEngine::UI::Button* pwdInputHideBtn; // 0x90
-		::UnityEngine::GameObject* pwdInputHideBtnObject; // 0x98
-		::UnityEngine::UI::Button* pwdInputClearBtn; // 0xA0
-		::UnityEngine::GameObject* pwdInputClearBtnObject; // 0xA8
-		::UnityEngine::UI::Button* loginButton; // 0xB0
-		::UnityEngine::UI::Button* registerButton; // 0xB8
-		::UnityEngine::UI::Button* forgetPasswordButton; // 0xC0
-		::UnityEngine::UI::Toggle* agreeAllToggle; // 0xC8
-		::UnityEngine::UI::Button* userAgreementButton; // 0xD0
-		::UnityEngine::UI::Button* privacyButton; // 0xD8
-		::UnityEngine::UI::Toggle* saveRecordToggle; // 0xE0
-		::UnityEngine::UI::Text* saveRecordText; // 0xE8
-		::System::Action* OnBack; // 0xF0
-		::System::Action* OnClose; // 0xF8
-		::System::Action* OnRegister; // 0x100
-		::System::Action* OnForgetPwd; // 0x108
-		::System::Action_2<::System::String*, ::System::String*>* OnLogin; // 0x110
-		::System::Action* OnUserAgreement; // 0x118
-		::System::Action* OnUserPrivacy; // 0x120
-		::System::Action_1<::System::Boolean>* OnToggleClicked; // 0x128
-		::System::Action_1<::System::Boolean>* OnSaveRecordToggleClicked; // 0x130
-		::System::Action* OnNotifyClose; // 0x138
-		::MiHoYo::SDK::AccountModel* account; // 0x140
-		::System::Boolean isPasswordShow; // 0x148
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -212,5 +210,16 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT_ONDESTROY_OFFSET))(this);
 		}
+
+		::UnityEngine::UI::InputField* GetAccountInputFied()
+		{
+			return ((::UnityEngine::UI::InputField*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT_GETACCOUNTINPUTFIED_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::InputField* GetPasswordInputField()
+		{
+			return ((::UnityEngine::UI::InputField*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYACCOUNT_GETPASSWORDINPUTFIELD_OFFSET))(this);
+		}
+
 	};
 }

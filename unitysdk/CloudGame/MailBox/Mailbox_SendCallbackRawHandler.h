@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace CloudGame::MailBox { class Mailbox_SendCallbackHandler; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B723080)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B7230E0)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B723070)
-#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B722FF0)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC20C80)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC20BF0)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC20CE0)
+#define CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC20C70)
 
 namespace CloudGame::MailBox
 {
-	inline static constexpr unsigned int Mailbox_SendCallbackRawHandler_TypeDefinitionIndex = 7491;
-
 	class Mailbox_SendCallbackRawHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::CloudGame::MailBox::Mailbox_SendCallbackHandler* a1, ::System::Int64 a2)
@@ -38,5 +35,6 @@ namespace CloudGame::MailBox
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CLOUDGAME_MAILBOX_MAILBOX_SENDCALLBACKRAWHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

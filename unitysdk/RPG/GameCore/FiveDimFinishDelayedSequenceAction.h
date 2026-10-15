@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimBaseEventAction.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimFinishDelayedSequenceAction; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_METHOD_3_25A50A8A39AE8675_OFFSET UNITYSDK_OFFSET(0x1D0E5480)
-#define RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_METHOD_3_AF7F56DF2665F738_OFFSET UNITYSDK_OFFSET(0x1D0E53C0)
-#define RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E5470)
+#define RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BDA60)
+#define RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6BDA70)
+#define RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BD9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFinishDelayedSequenceAction_TypeDefinitionIndex = 18487;
-
 	class FiveDimFinishDelayedSequenceAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
 		::System::String* Name; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AF7F56DF2665F738(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_METHOD_3_AF7F56DF2665F738_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_25A50A8A39AE8675(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_METHOD_3_25A50A8A39AE8675_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimFinishDelayedSequenceAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMFINISHDELAYEDSEQUENCEACTION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

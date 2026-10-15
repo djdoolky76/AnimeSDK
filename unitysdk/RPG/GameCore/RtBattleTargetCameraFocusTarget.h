@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetEvaluator.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtBattleTargetCameraFocusTarget; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_1DB9E82778BFD0C0_OFFSET UNITYSDK_OFFSET(0x1D49C2C0)
-#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_2211AD7C90AB7C6C_OFFSET UNITYSDK_OFFSET(0x1D49C260)
-#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_2760E270E7583A81_OFFSET UNITYSDK_OFFSET(0x1D49C1C0)
-#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_D69B50D08B20B0BC_OFFSET UNITYSDK_OFFSET(0x1D49C300)
-#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D49C250)
+#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4F320)
+#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DA4F3D0)
+#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DA4F390)
+#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA4F330)
+#define RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4F290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleTargetCameraFocusTarget_TypeDefinitionIndex = 23969;
-
 	class RtBattleTargetCameraFocusTarget : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_2760E270E7583A81(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_2760E270E7583A81_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2211AD7C90AB7C6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_2211AD7C90AB7C6C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1DB9E82778BFD0C0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_1DB9E82778BFD0C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D69B50D08B20B0BC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtBattleTargetCameraFocusTarget* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_METHOD_4_D69B50D08B20B0BC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtBattleTargetCameraFocusTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTBATTLETARGETCAMERAFOCUSTARGET_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

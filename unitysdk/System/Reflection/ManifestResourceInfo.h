@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/ResourceLocation.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1BD97610)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_REFERENCEDASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1BD97600)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET UNITYSDK_OFFSET(0x1BD97620)
-#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD8AAF0)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C296780)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1C2A3310)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_REFERENCEDASSEMBLY_OFFSET UNITYSDK_OFFSET(0x1C2A3300)
+#define SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET UNITYSDK_OFFSET(0x1C2A3320)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int ManifestResourceInfo_TypeDefinitionIndex = 569;
-
 	class ManifestResourceInfo : public ::System::Object
 	{
 	public:
 		::System::Reflection::Assembly* _containingAssembly; // 0x10
 		::System::String* _containingFileName; // 0x18
 		::System::Reflection::ResourceLocation _resourceLocation; // 0x20
-
 		::System::Void _ctor(::System::Reflection::Assembly* a1, ::System::String* a2, ::System::Reflection::ResourceLocation a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Reflection::Assembly*, ::System::String*, ::System::Reflection::ResourceLocation))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Reflection::Assembly*, ::System::String*, ::System::Reflection::ResourceLocation))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Reflection::Assembly* get_ReferencedAssembly()
@@ -41,5 +37,6 @@ namespace System::Reflection
 		{
 			return ((::System::Reflection::ResourceLocation(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_MANIFESTRESOURCEINFO_GET_RESOURCELOCATION_OFFSET))(this);
 		}
+
 	};
 }

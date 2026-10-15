@@ -3,8 +3,6 @@
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleAttractor_Movement_TypeDefinitionIndex = 43965;
-
 	enum class UIParticleAttractor_Movement : ::System::Int32
 	{
 		Linear = 0,

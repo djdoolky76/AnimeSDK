@@ -1,47 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Decimal.h"
 #include "unitysdk/System/Xml/Schema/FacetsChecker.h"
-
+#include "unitysdk/System/Decimal.h"
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKTOTALANDFRACTIONDIGITS_OFFSET UNITYSDK_OFFSET(0x1E7F04A0)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1E7F88E0)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET UNITYSDK_OFFSET(0x1E7F9640)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET UNITYSDK_OFFSET(0x1E7F96B0)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET UNITYSDK_OFFSET(0x1E7F9720)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1E7F8790)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1E7F93D0)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1E7F9790)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7F9970)
-#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7EDF60)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEC2650)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKTOTALANDFRACTIONDIGITS_OFFSET UNITYSDK_OFFSET(0x1EEB9180)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1EEC15C0)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_2_OFFSET UNITYSDK_OFFSET(0x1EEC2320)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_3_OFFSET UNITYSDK_OFFSET(0x1EEC2390)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_4_OFFSET UNITYSDK_OFFSET(0x1EEC2400)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1EEC1470)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB6C40)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1EEC20B0)
+#define SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1EEC2470)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Numeric10FacetsChecker_TypeDefinitionIndex = 2156;
-
 	class Numeric10FacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:
+		::System::Decimal maxValue; // 0x10
+		::System::Decimal minValue; // 0x20
 		static ::Il2CppArray<::System::Char>** StaticGet_signs()
 		{
-			return (::Il2CppArray<::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(Numeric10FacetsChecker_TypeDefinitionIndex)->GetStaticField(0x19F00);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Xml.Schema", "Numeric10FacetsChecker")->GetStaticField(0x23010);
 		}
-		::System::Decimal minValue; // 0x10
-		::System::Decimal maxValue; // 0x20
 
 		::System::Void _ctor(::System::Decimal a1, ::System::Decimal a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Decimal, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Decimal, ::System::Decimal))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CCTOR_OFFSET))();
 		}
 
 		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
@@ -83,5 +80,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Exception*(*)(::PVOID, ::System::Decimal, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_NUMERIC10FACETSCHECKER_CHECKTOTALANDFRACTIONDIGITS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
+
 	};
 }

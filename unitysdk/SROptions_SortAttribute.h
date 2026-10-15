@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRDebugger/SortAttribute.h"
 
-#define SROPTIONS_SORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xB31F230)
+#define SROPTIONS_SORTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF0A0)
 
-inline static constexpr unsigned int SROptions_SortAttribute_TypeDefinitionIndex = 44787;
-
-class SROptions_SortAttribute : public ::SRDebugger::SortAttribute
-{
-public:
-	::System::Void _ctor(::System::Int32 a1)
+	class SROptions_SortAttribute : public ::SRDebugger::SortAttribute
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SROPTIONS_SORTATTRIBUTE__CTOR_OFFSET))(this, a1);
-	}
-};
+	public:
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SROPTIONS_SORTATTRIBUTE_CTOR_OFFSET))(this, a1);
+		}
+
+	};

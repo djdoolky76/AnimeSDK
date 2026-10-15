@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/CriWare/CriAtomEx3dRegion_Config.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/CriWare/CriAtomEx3dRegion_Config.h"
 
-#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_CREATE_OFFSET UNITYSDK_OFFSET(0x164AD940)
-#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_DESTROY_OFFSET UNITYSDK_OFFSET(0x164ADB00)
-#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_ISDESTROYABLE_OFFSET UNITYSDK_OFFSET(0x164ADD00)
+#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_CREATE_OFFSET UNITYSDK_OFFSET(0x166D4570)
+#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_DESTROY_OFFSET UNITYSDK_OFFSET(0x166D4730)
+#define CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_ISDESTROYABLE_OFFSET UNITYSDK_OFFSET(0x166D4930)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx3dRegion_UnsafeNativeMethods_TypeDefinitionIndex = 38721;
-
 	class CriAtomEx3dRegion_UnsafeNativeMethods : public ::System::Object
 	{
 	public:
-		static ::System::IntPtr criAtomEx3dRegion_Create(::CriWare::CriAtomEx3dRegion_Config& a1, ::System::IntPtr a2, ::System::Int32 a3)
+		static ::System::IntPtr criAtomEx3dRegion_Create(::CriWare::CriAtomEx3dRegion_Config a1, ::System::IntPtr a2, ::System::Int32 a3)
 		{
-			return ((::System::IntPtr(*)(::CriWare::CriAtomEx3dRegion_Config&, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_CREATE_OFFSET))(a1, a2, a3);
+			return ((::System::IntPtr(*)(::CriWare::CriAtomEx3dRegion_Config, ::System::IntPtr, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_CREATE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void criAtomEx3dRegion_Destroy(::System::IntPtr a1)
@@ -28,5 +26,6 @@ namespace CriWare
 		{
 			return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX3DREGION_UNSAFENATIVEMETHODS_CRIATOMEX3DREGION_ISDESTROYABLE_OFFSET))(a1);
 		}
+
 	};
 }

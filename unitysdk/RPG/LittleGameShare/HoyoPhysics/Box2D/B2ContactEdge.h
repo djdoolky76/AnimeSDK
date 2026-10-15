@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactEdge_TypeDefinitionIndex = 35936;
-
 	struct alignas(4) B2ContactEdge
 	{
 		::System::Int32 bodyId; // 0x10

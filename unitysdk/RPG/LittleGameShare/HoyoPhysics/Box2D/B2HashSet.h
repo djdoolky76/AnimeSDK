@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SetItem.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2HashSet_TypeDefinitionIndex = 35996;
-
 	struct alignas(8) B2HashSet
 	{
 		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SetItem>* items; // 0x10

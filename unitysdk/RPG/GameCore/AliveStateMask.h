@@ -3,30 +3,28 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AliveStateMask_TypeDefinitionIndex = 10486;
-
 	enum class AliveStateMask : ::System::UInt16
 	{
-		NoOne = 0x0,
-		Anyone = 0xFFFF,
-		Bit_Alive = 0x1,
-		Bit_Limbo = 0x2,
-		Bit_LimboRevivable = 0x4,
-		Bit_Deathrattle = 0x8,
-		Bit_Dying = 0x10,
-		Bit_Died = 0x20,
-		Bit_WillBeDestroy = 0x40,
-		Bit_Destroyed = 0x80,
-		Bit_OnStage = 0x100,
-		Bit_UnStage = 0x200,
-		Mask_AliveOnly = 0x1,
-		Mask_LimboOnly = 0xE,
-		Mask_DiedButNotDispose = 0x30,
-		Mask_AliveOrLimbo = 0xF,
-		Mask_AliveOrRevivable = 0x5,
-		Mask_LimboOrDead = 0x3E,
-		Mask_NotDestroyed = 0x3F,
-		Mask_AliveStateCheck = 0xFF,
-		Mask_StageCheck = 0x300,
+		NoOne = 0,
+		Anyone = 65535,
+		Bit_Alive = 1,
+		Bit_Limbo = 2,
+		Bit_LimboRevivable = 4,
+		Bit_Deathrattle = 8,
+		Bit_Dying = 16,
+		Bit_Died = 32,
+		Bit_WillBeDestroy = 64,
+		Bit_Destroyed = 128,
+		Bit_OnStage = 256,
+		Bit_UnStage = 512,
+		Mask_AliveOnly = 1,
+		Mask_LimboOnly = 14,
+		Mask_DiedButNotDispose = 48,
+		Mask_AliveOrLimbo = 15,
+		Mask_AliveOrRevivable = 5,
+		Mask_LimboOrDead = 62,
+		Mask_NotDestroyed = 63,
+		Mask_AliveStateCheck = 255,
+		Mask_StageCheck = 768,
 	};
 }

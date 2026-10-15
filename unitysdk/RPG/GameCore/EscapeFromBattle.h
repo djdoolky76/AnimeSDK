@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EscapeFromBattle; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ESCAPEFROMBATTLE_METHOD_3_95012B5D3AAF2314_OFFSET UNITYSDK_OFFSET(0x1D073720)
-#define RPG_GAMECORE_ESCAPEFROMBATTLE_METHOD_3_B5AF68539DC0B62F_OFFSET UNITYSDK_OFFSET(0x1D073760)
-#define RPG_GAMECORE_ESCAPEFROMBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D073750)
+#define RPG_GAMECORE_ESCAPEFROMBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D681780)
+#define RPG_GAMECORE_ESCAPEFROMBATTLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D681790)
+#define RPG_GAMECORE_ESCAPEFROMBATTLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D681750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EscapeFromBattle_TypeDefinitionIndex = 22882;
-
 	class EscapeFromBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean TriggerNpcMonsterEscape; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ESCAPEFROMBATTLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ESCAPEFROMBATTLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_95012B5D3AAF2314(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EscapeFromBattle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EscapeFromBattle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EscapeFromBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ESCAPEFROMBATTLE_METHOD_3_95012B5D3AAF2314_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EscapeFromBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ESCAPEFROMBATTLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B5AF68539DC0B62F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EscapeFromBattle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EscapeFromBattle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EscapeFromBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ESCAPEFROMBATTLE_METHOD_3_B5AF68539DC0B62F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EscapeFromBattle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ESCAPEFROMBATTLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

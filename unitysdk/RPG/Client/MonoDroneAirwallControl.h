@@ -2,43 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD753DE0)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_ISCLOSETPOINT_OFFSET UNITYSDK_OFFSET(0xD754420)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0xD754120)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD753F50)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0xD754660)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD754650)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD795070)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xD795930)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD795920)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_ISCLOSETPOINT_OFFSET UNITYSDK_OFFSET(0xD7956F0)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0xD7953F0)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD795220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDroneAirwallControl_TypeDefinitionIndex = 68549;
-
 	class MonoDroneAirwallControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_LMDKDABEFEH()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDroneAirwallControl_TypeDefinitionIndex)->GetStaticField(0x2670);
-		}
-		static ::System::Int32* StaticGet_ADBBBDDPDGJ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDroneAirwallControl_TypeDefinitionIndex)->GetStaticField(0x2674);
-		}
-		static ::System::Int32* StaticGet_NPPGCBMJHFJ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDroneAirwallControl_TypeDefinitionIndex)->GetStaticField(0x2678);
-		}
-		static ::System::Int32* StaticGet_JKDBJLDGGLP()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDroneAirwallControl_TypeDefinitionIndex)->GetStaticField(0x267C);
-		}
 		::UnityEngine::GameObject* TargetPos; // 0x18
 		::UnityEngine::Renderer* TargetRenderer; // 0x20
 		::UnityEngine::MeshCollider* AirwallCollider; // 0x28
@@ -48,16 +29,36 @@ namespace RPG::Client
 		::System::Single avoidanceMarker; // 0x44
 		::UnityEngine::Collider* BoundingCollider; // 0x48
 		::System::Boolean IAOBBMAFCGK; // 0x50
+		::System::Byte _padding0[0x7];
 		::UnityEngine::MaterialPropertyBlock* KHFINMBNGBE; // 0x58
+		static ::System::Int32* StaticGet_NPPGCBMJHFJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142E0);
+		}
+
+		static ::System::Int32* StaticGet_ADBBBDDPDGJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142E4);
+		}
+
+		static ::System::Int32* StaticGet_LMDKDABEFEH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142E8);
+		}
+
+		static ::System::Int32* StaticGet_JKDBJLDGGLP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142EC);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -70,14 +71,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void UpdateTarget(::UnityEngine::Vector3 a1, ::System::Boolean& a2)
+		::System::Void UpdateTarget(::UnityEngine::Vector3 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATETARGET_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATETARGET_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean IsClosetPoint(::UnityEngine::Vector3 a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODRONEAIRWALLCONTROL_ISCLOSETPOINT_OFFSET))(this, a1);
 		}
+
 	};
 }

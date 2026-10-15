@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleValue_TypeDefinitionIndex = 16647;
-
 	enum class MarbleValue : ::System::Int32
 	{
 		None = 0,
@@ -27,5 +25,10 @@ namespace RPG::GameCore
 		GlobalAttackEnemyTimes = 17,
 		LastMakeDamage = 18,
 		AttackFactor = 19,
+		EnemyCollisionImpulseFactor = 20,
+		AllyCollisionImpulseFactor = 21,
+		AttackFieldTimes = 22,
+		RealAttackFactor = 23,
+		RealDamageFactor = 24,
 	};
 }

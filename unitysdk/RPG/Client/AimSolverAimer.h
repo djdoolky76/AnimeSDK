@@ -2,49 +2,49 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Quaternion.h"
 namespace RPG::Client { template <typename T1, typename T2> class AimEvaluator_2; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC719B30)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xC71C190)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0xC71C150)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0xC71C170)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGET_OFFSET UNITYSDK_OFFSET(0xC71C120)
-#define RPG_CLIENT_AIMSOLVERAIMER_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xC71C100)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1114CAE6C720FB91_OFFSET UNITYSDK_OFFSET(0xC719BA0)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1290EA767C459179_OFFSET UNITYSDK_OFFSET(0xC719CE0)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1BFACD6C7C67841A_OFFSET UNITYSDK_OFFSET(0xC71BA40)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_332D6988D3174828_OFFSET UNITYSDK_OFFSET(0xC71B510)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_472E9805B297BD58_OFFSET UNITYSDK_OFFSET(0xC71A250)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_81A66FB988DFA6AA_OFFSET UNITYSDK_OFFSET(0xC71B840)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_BB8271ED1BDF8503_OFFSET UNITYSDK_OFFSET(0xC71B990)
-#define RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_D737CD2779D51A4E_OFFSET UNITYSDK_OFFSET(0xC7188D0)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xC71C1A0)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0xC71C160)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0xC71C180)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGET_OFFSET UNITYSDK_OFFSET(0xC71C140)
-#define RPG_CLIENT_AIMSOLVERAIMER_SET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xC71C110)
-#define RPG_CLIENT_AIMSOLVERAIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xC71C1B0)
+#define RPG_CLIENT_AIMSOLVERAIMER_BPBJABCGELJ_OFFSET UNITYSDK_OFFSET(0xC639C40)
+#define RPG_CLIENT_AIMSOLVERAIMER_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0xC639A40)
+#define RPG_CLIENT_AIMSOLVERAIMER_COBBLDGLBPC_OFFSET UNITYSDK_OFFSET(0xC638450)
+#define RPG_CLIENT_AIMSOLVERAIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xC63A3B0)
+#define RPG_CLIENT_AIMSOLVERAIMER_EBMEABMNFHC_OFFSET UNITYSDK_OFFSET(0xC639B90)
+#define RPG_CLIENT_AIMSOLVERAIMER_EPBMHKEOKMC_OFFSET UNITYSDK_OFFSET(0xC637EE0)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC637D30)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xC63A390)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0xC63A350)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0xC63A370)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_TARGET_OFFSET UNITYSDK_OFFSET(0xC63A320)
+#define RPG_CLIENT_AIMSOLVERAIMER_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xC63A300)
+#define RPG_CLIENT_AIMSOLVERAIMER_KOHDPDNNKHP_OFFSET UNITYSDK_OFFSET(0xC639710)
+#define RPG_CLIENT_AIMSOLVERAIMER_MEILFKECFAA_OFFSET UNITYSDK_OFFSET(0xC636AD0)
+#define RPG_CLIENT_AIMSOLVERAIMER_OLMCIPPKBFP_OFFSET UNITYSDK_OFFSET(0xC637DA0)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETALPHA_OFFSET UNITYSDK_OFFSET(0xC63A3A0)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETEVALUATOR_OFFSET UNITYSDK_OFFSET(0xC63A360)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGETLIMITHEIGHT_OFFSET UNITYSDK_OFFSET(0xC63A380)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_TARGET_OFFSET UNITYSDK_OFFSET(0xC63A340)
+#define RPG_CLIENT_AIMSOLVERAIMER_SET_WEIGHT_OFFSET UNITYSDK_OFFSET(0xC63A310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimSolverAimer_TypeDefinitionIndex = 68399;
-
 	class AimSolverAimer : public ::System::Object
 	{
 	public:
 		::System::String* Name; // 0x10
 		::UnityEngine::Vector3 Axis; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* AimTransform; // 0x28
 		::System::Boolean AimOnBone; // 0x30
+		::System::Byte _padding1[0x3];
 		::System::Int32 PitchUpLimit; // 0x34
 		::System::Int32 PitchDownLimit; // 0x38
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* WeightCurves; // 0x40
 		::Il2CppArray<::UnityEngine::Transform*>* Bones; // 0x48
 		::System::Single _Weight_k__BackingField; // 0x50
@@ -54,50 +54,49 @@ namespace RPG::Client
 		::UnityEngine::Vector2 _TargetAlpha_k__BackingField; // 0x6C
 		::UnityEngine::Matrix4x4 _AimRelativeMatrix; // 0x74
 		::UnityEngine::Vector3 _ActualTarget; // 0xB4
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_D737CD2779D51A4E()
+		::System::Void MEILFKECFAA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_D737CD2779D51A4E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_MEILFKECFAA_OFFSET))(this);
 		}
 
-		::System::Void Method_1_81A66FB988DFA6AA()
+		::System::Void CIJDJDICMMM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_81A66FB988DFA6AA_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_CIJDJDICMMM_OFFSET))(this);
 		}
 
-		::UnityEngine::Quaternion Method_1_1114CAE6C720FB91(::System::Int32 a1)
+		::UnityEngine::Quaternion OLMCIPPKBFP(::System::Int32 a1)
 		{
-			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1114CAE6C720FB91_OFFSET))(this, a1);
+			return ((::UnityEngine::Quaternion(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_OLMCIPPKBFP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_1290EA767C459179()
+		::System::Void EPBMHKEOKMC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1290EA767C459179_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_EPBMHKEOKMC_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_472E9805B297BD58(::System::String* a1)
+		::System::Boolean COBBLDGLBPC(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_472E9805B297BD58_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_COBBLDGLBPC_OFFSET))(this, a1);
 		}
 
-		::System::Single Method_1_BB8271ED1BDF8503(::System::Int32 a1)
+		::System::Single EBMEABMNFHC(::System::Int32 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_BB8271ED1BDF8503_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_EBMEABMNFHC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_1_332D6988D3174828(::UnityEngine::Vector3& a1, ::UnityEngine::Vector3& a2)
+		::System::Void KOHDPDNNKHP(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_332D6988D3174828_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_KOHDPDNNKHP_OFFSET))(this, a1, a2);
 		}
 
-		static ::UnityEngine::Quaternion Method_1_1BFACD6C7C67841A(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
+		static ::UnityEngine::Quaternion BPBJABCGELJ(::UnityEngine::Transform* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::UnityEngine::Vector3 a4, ::System::Single a5)
 		{
-			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_METHOD_1_1BFACD6C7C67841A_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::UnityEngine::Quaternion(*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_BPBJABCGELJ_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Single get_Weight()
@@ -154,5 +153,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIMSOLVERAIMER_GET_ISVALID_OFFSET))(this);
 		}
+
 	};
 }

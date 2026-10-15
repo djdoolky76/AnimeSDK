@@ -1,56 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 #include "unitysdk/System/SystemException.h"
-
+#include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
 namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_BADIMAGEFORMATEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1BBA4410)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION_GET_FUSIONLOG_OFFSET UNITYSDK_OFFSET(0x1BBA4400)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1BBA3B40)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION_SETMESSAGEFIELD_OFFSET UNITYSDK_OFFSET(0x1BBA3C10)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BBA3CD0)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBA39F0)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BBA3A60)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1BBA3AD0)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1BBA4300)
-#define SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA3950)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0AFA90)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C0AFB00)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C0AFB70)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1C0B03A0)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0AF9F0)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C0B04B0)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_GET_FUSIONLOG_OFFSET UNITYSDK_OFFSET(0x1C0B04A0)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C0AFBE0)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_SETMESSAGEFIELD_OFFSET UNITYSDK_OFFSET(0x1C0AFCB0)
+#define SYSTEM_BADIMAGEFORMATEXCEPTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0AFD70)
 
 namespace System
 {
-	inline static constexpr unsigned int BadImageFormatException_TypeDefinitionIndex = 203;
-
 	class BadImageFormatException : public ::System::SystemException
 	{
 	public:
-		::System::String* _fusionLog; // 0x88
-		::System::String* _fileName; // 0x90
-
+		::System::String* _fileName; // 0x88
+		::System::String* _fusionLog; // 0x90
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1, ::System::Exception* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_4(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION__CTOR_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION_CTOR_4_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* get_Message()
@@ -77,5 +73,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_BADIMAGEFORMATEXCEPTION_GETOBJECTDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -1,62 +1,65 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_997BC107281E8D79;
+class GFNAPELNFIC;
 namespace RPG::Client { class EvolveBuildMixData; }
 namespace RPG::Client { class EvolveBuildScMixData; }
 namespace RPG::GameCore { class EvolveBuildGearEquipInfo; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCEF4A20)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET UNITYSDK_OFFSET(0xCEF4F10)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCEF4A60)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDGEAREQUIPINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xCEF4A70)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATASC_B__8_0_OFFSET UNITYSDK_OFFSET(0xCEF4CC0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xCEF4AA0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET UNITYSDK_OFFSET(0xCEF4EE0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE43610)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE43650)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET UNITYSDK_OFFSET(0xCE43B00)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDGEAREQUIPINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE43660)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATASC_B__8_0_OFFSET UNITYSDK_OFFSET(0xCE438B0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xCE43690)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET UNITYSDK_OFFSET(0xCE43AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c_TypeDefinitionIndex = 63876;
-
 	class EvolveBuildUtils___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::EvolveBuildUtils___c** StaticGet___9()
+		static ::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>** StaticGet___9__18_0()
 		{
-			return (::RPG::Client::EvolveBuildUtils___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66460);
+			return (::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55DF0);
 		}
-		static ::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>** StaticGet___9__7_0()
+
+		static ::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66468);
+			return (::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55DF8);
 		}
-		static ::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>** StaticGet___9__18_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66470);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E00);
 		}
-		static ::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::Class_1_997BC107281E8D79*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66478);
-		}
+
 		static ::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66480);
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E08);
 		}
+
+		static ::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>** StaticGet___9__7_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E10);
+		}
+
 		static ::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildUtils___c_TypeDefinitionIndex)->GetStaticField(0x66488);
+			return (::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E18);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 _GetSortedGearEquipInfo_b__1_0(::RPG::GameCore::EvolveBuildGearEquipInfo* a1)
@@ -74,14 +77,15 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::EvolveBuildScMixData*, ::RPG::Client::EvolveBuildScMixData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATASC_B__8_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean _SlotInfos2GearEquipInfos_b__17_0(::Class_1_997BC107281E8D79* a1)
+		::System::Boolean _SlotInfos2GearEquipInfos_b__17_0(::GFNAPELNFIC* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_997BC107281E8D79*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::GFNAPELNFIC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CountUnlockedSlotNum_b__18_0(::Class_1_997BC107281E8D79* a1)
+		::System::Boolean _CountUnlockedSlotNum_b__18_0(::GFNAPELNFIC* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_997BC107281E8D79*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::GFNAPELNFIC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,41 +3,40 @@
 #include "unitysdk/RPG/GameCore/SkillType.h"
 #include "unitysdk/RPG/GameCore/SkillUIPreShowType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class ToggleSkillPreShow; }
 
-#define RPG_GAMECORE_TOGGLESKILLPRESHOW_METHOD_3_A00ABE02AA907430_OFFSET UNITYSDK_OFFSET(0x1D5D46A0)
-#define RPG_GAMECORE_TOGGLESKILLPRESHOW_METHOD_3_B3DB751D458A8F00_OFFSET UNITYSDK_OFFSET(0x1D5D4660)
-#define RPG_GAMECORE_TOGGLESKILLPRESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D4690)
+#define RPG_GAMECORE_TOGGLESKILLPRESHOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8C330)
+#define RPG_GAMECORE_TOGGLESKILLPRESHOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB8C340)
+#define RPG_GAMECORE_TOGGLESKILLPRESHOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB8C300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToggleSkillPreShow_TypeDefinitionIndex = 23411;
-
 	class ToggleSkillPreShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Enable; // 0x18
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::RPG::GameCore::SkillType>* AllowSkillType; // 0x20
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x28
 		::RPG::GameCore::DynamicFloat* ChangeValue; // 0x30
 		::RPG::GameCore::SkillUIPreShowType PreShowType; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESKILLPRESHOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESKILLPRESHOW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B3DB751D458A8F00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToggleSkillPreShow*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ToggleSkillPreShow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToggleSkillPreShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESKILLPRESHOW_METHOD_3_B3DB751D458A8F00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ToggleSkillPreShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESKILLPRESHOW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A00ABE02AA907430(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToggleSkillPreShow* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ToggleSkillPreShow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToggleSkillPreShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESKILLPRESHOW_METHOD_3_A00ABE02AA907430_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ToggleSkillPreShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOGGLESKILLPRESHOW_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

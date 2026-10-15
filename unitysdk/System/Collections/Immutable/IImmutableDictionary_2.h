@@ -3,9 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int IImmutableDictionary_2_TypeDefinitionIndex = 6582;
-
-	template <typename TKey, typename TValue>
+	template <typename T1, typename T2>
 	class IImmutableDictionary_2
 	{
 	public:

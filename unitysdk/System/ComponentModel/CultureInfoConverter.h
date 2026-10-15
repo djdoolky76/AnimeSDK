@@ -4,8 +4,6 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int CultureInfoConverter_TypeDefinitionIndex = 2572;
-
 	class CultureInfoConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

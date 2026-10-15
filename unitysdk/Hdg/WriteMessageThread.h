@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Hdg/WriteMessageThread_State.h"
 #include "unitysdk/System/Object.h"
-
 namespace Hdg { class rdtTcpMessage; }
 namespace System { class Action; }
 namespace System { class String; }
@@ -12,36 +11,34 @@ namespace System::IO { class Stream; }
 namespace System::Threading { class AutoResetEvent; }
 namespace System::Threading { class Thread; }
 
-#define HDG_WRITEMESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0xB18F0C0)
-#define HDG_WRITEMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xB183090)
-#define HDG_WRITEMESSAGETHREAD_ONIDLE_OFFSET UNITYSDK_OFFSET(0xB18F2E0)
-#define HDG_WRITEMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0xB190080)
-#define HDG_WRITEMESSAGETHREAD_ONWRITING_OFFSET UNITYSDK_OFFSET(0xB18F480)
-#define HDG_WRITEMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0xB1820E0)
-#define HDG_WRITEMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xB18F200)
-#define HDG_WRITEMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0xB1828D0)
+#define HDG_WRITEMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0xAF2F1F0)
+#define HDG_WRITEMESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0xAF2CCF0)
+#define HDG_WRITEMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xAF2F9C0)
+#define HDG_WRITEMESSAGETHREAD_ONIDLE_OFFSET UNITYSDK_OFFSET(0xAF3A220)
+#define HDG_WRITEMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0xAF3AD00)
+#define HDG_WRITEMESSAGETHREAD_ONWRITING_OFFSET UNITYSDK_OFFSET(0xAF3A3C0)
+#define HDG_WRITEMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0xAF2EA30)
+#define HDG_WRITEMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xAF3A140)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int WriteMessageThread_TypeDefinitionIndex = 47407;
-
 	class WriteMessageThread : public ::System::Object
 	{
 	public:
-		::Hdg::rdtTcpMessage* m_currentMessage; // 0x10
-		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x18
-		::System::IO::BinaryWriter* m_writer; // 0x20
+		::System::Threading::Thread* m_thread; // 0x10
+		::System::Collections::Generic::Queue_1<::Hdg::rdtTcpMessage*>* m_messageQueue; // 0x18
+		::System::String* m_name; // 0x20
 		::System::Threading::AutoResetEvent* m_event; // 0x28
 		::System::IO::Stream* m_stream; // 0x30
-		::System::Threading::Thread* m_thread; // 0x38
-		::System::String* m_name; // 0x40
-		::System::Collections::Generic::Queue_1<::Hdg::rdtTcpMessage*>* m_messageQueue; // 0x48
+		::Hdg::rdtTcpMessage* m_currentMessage; // 0x38
+		::System::IO::BinaryWriter* m_writer; // 0x40
+		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x48
 		::System::Boolean m_run; // 0x50
+		::System::Byte _padding0[0x3];
 		::Hdg::WriteMessageThread_State m_state; // 0x54
-
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_WRITEMESSAGETHREAD__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_WRITEMESSAGETHREAD_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_IsConnected()
@@ -78,5 +75,6 @@ namespace Hdg
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDG_WRITEMESSAGETHREAD_ONLOSTCONNECTION_OFFSET))(this);
 		}
+
 	};
 }

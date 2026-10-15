@@ -2,50 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AnimZoneType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureByInAnimZone; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_0D282A738EB08C84_OFFSET UNITYSDK_OFFSET(0x1CDE3BC0)
-#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_4793040AF776D0F9_OFFSET UNITYSDK_OFFSET(0x1CDE3C00)
-#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_6119F52CA8E03A99_OFFSET UNITYSDK_OFFSET(0x1CDE3DD0)
-#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_D77C1ECB56B3939F_OFFSET UNITYSDK_OFFSET(0x1CDE3E00)
-#define RPG_GAMECORE_ADVENTUREBYINANIMZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE3BF0)
+#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B9810)
+#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D3B9A20)
+#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3B99F0)
+#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B9820)
+#define RPG_GAMECORE_ADVENTUREBYINANIMZONE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B97E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByInAnimZone_TypeDefinitionIndex = 19773;
-
 	class AdventureByInAnimZone : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::AnimZoneType TargetAnimZone; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_0D282A738EB08C84(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByInAnimZone*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByInAnimZone* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByInAnimZone*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_0D282A738EB08C84_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByInAnimZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4793040AF776D0F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByInAnimZone* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByInAnimZone* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByInAnimZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_4793040AF776D0F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByInAnimZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6119F52CA8E03A99(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByInAnimZone*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByInAnimZone* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByInAnimZone*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_6119F52CA8E03A99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByInAnimZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D77C1ECB56B3939F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByInAnimZone* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByInAnimZone* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByInAnimZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_METHOD_4_D77C1ECB56B3939F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByInAnimZone*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYINANIMZONE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

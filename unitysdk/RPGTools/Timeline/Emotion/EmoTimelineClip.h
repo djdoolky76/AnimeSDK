@@ -3,22 +3,19 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/EmoTrackType.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
 #include "unitysdk/UnityEngine/Timeline/TimelineClip_ClipExtrapolation.h"
-
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPG::Client { class MonoEmoPlayableGraph; }
 namespace RPGTools::Timeline::Emotion { class PoseData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8531D0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8531C0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE853460)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8F1110)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F13A0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8F1100)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoTimelineClip_TypeDefinitionIndex = 49196;
-
 	class EmoTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
@@ -29,10 +26,9 @@ namespace RPGTools::Timeline::Emotion
 		::System::Double Start; // 0x40
 		::UnityEngine::Timeline::TimelineClip_ClipExtrapolation PostExtrapolation; // 0x48
 		::RPGTools::Timeline::Emotion::EmoTrackType EmoType; // 0x4C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -44,5 +40,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

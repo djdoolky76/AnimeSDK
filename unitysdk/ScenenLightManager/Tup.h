@@ -1,25 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace ScenenLightManager { class Tup; }
+namespace System { class Object; }
 
-#define SCENENLIGHTMANAGER_TUP_EQUALS_OFFSET UNITYSDK_OFFSET(0xE910D50)
-#define SCENENLIGHTMANAGER_TUP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE910DF0)
-#define SCENENLIGHTMANAGER_TUP_METHOD_1_AF094A37CE984E72_OFFSET UNITYSDK_OFFSET(0xE910DD0)
-#define SCENENLIGHTMANAGER_TUP__CTOR_OFFSET UNITYSDK_OFFSET(0xE910D40)
+#define SCENENLIGHTMANAGER_TUP_CTOR_OFFSET UNITYSDK_OFFSET(0xE966870)
+#define SCENENLIGHTMANAGER_TUP_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0xE966900)
+#define SCENENLIGHTMANAGER_TUP_EQUALS_OFFSET UNITYSDK_OFFSET(0xE966880)
+#define SCENENLIGHTMANAGER_TUP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE966920)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int Tup_TypeDefinitionIndex = 49590;
-
 	class Tup : public ::System::Object
 	{
 	public:
 		::System::Int64 sid; // 0x10
 		::System::Int32 id; // 0x18
-
 		::System::Void _ctor(::System::Int64 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TUP__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int64, ::System::Int32))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TUP_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -27,14 +26,15 @@ namespace ScenenLightManager
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TUP_EQUALS_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_1_AF094A37CE984E72(::ScenenLightManager::Tup* a1)
+		::System::Boolean DGCGLNOLDIB(::ScenenLightManager::Tup* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::Tup*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TUP_METHOD_1_AF094A37CE984E72_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::Tup*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TUP_DGCGLNOLDIB_OFFSET))(this, a1);
 		}
 
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_TUP_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

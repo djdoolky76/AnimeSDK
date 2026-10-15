@@ -5,17 +5,16 @@
 #include "unitysdk/RPG/Client/CmdLineRPGQualitySettingsBoolWrapper.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CMDLINEQUALITYSETTINGSMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1E58C660)
+#define RPG_CLIENT_CMDLINEQUALITYSETTINGSMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC406D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CmdLineQualitySettingsModel_TypeDefinitionIndex = 34542;
-
 	class CmdLineQualitySettingsModel : public ::System::Object
 	{
 	public:
 		::System::Int32 FPS; // 0x10
 		::System::Boolean EnableVSync; // 0x14
+		::System::Byte _padding0[0x3];
 		::System::Single RenderScale; // 0x18
 		::RPG::Client::CmdLineGraphicsQuality ResolutionQuality; // 0x1C
 		::RPG::Client::CmdLineGraphicsQuality ShadowQuality; // 0x20
@@ -29,10 +28,10 @@ namespace RPG::Client
 		::System::Int32 MasterTextureLimit; // 0x40
 		::RPG::Client::CmdLineRPGQualitySettingsBoolWrapper EnableSelfShadow; // 0x44
 		::RPG::Client::CmdLineGraphicsQuality DlssQuality; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CMDLINEQUALITYSETTINGSMODEL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CMDLINEQUALITYSETTINGSMODEL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

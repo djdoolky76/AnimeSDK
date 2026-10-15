@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionPanelEnum_TypeDefinitionIndex = 12571;
-
 	enum class AnniversaryCollectionPanelEnum : ::System::Int32
 	{
 		None = 0,

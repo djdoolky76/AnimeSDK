@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MiHoYo/SDK/Console/ConsoleProduct.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleProduct.h"
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F870)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F8D0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B93F860)
-#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93F7F0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3FC20)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3FBA0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3FC80)
+#define MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE3FC10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_ProductsCallback_TypeDefinitionIndex = 7592;
-
 	class ConsoleDelegate_ProductsCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_PRODUCTSCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

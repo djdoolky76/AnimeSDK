@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System::Net::NetworkInformation { class IPGlobalProperties; }
 
-namespace System { class String; }
-
-#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_GETIPGLOBALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E9A4250)
-#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_GET_PLATFORMNEEDSLIBCWORKAROUND_OFFSET UNITYSDK_OFFSET(0x1E9A4240)
-#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_INTERNALGETIPGLOBALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1E9A4650)
-#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A4230)
+#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F06CB20)
+#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_GETIPGLOBALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F06CB40)
+#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_GET_PLATFORMNEEDSLIBCWORKAROUND_OFFSET UNITYSDK_OFFSET(0x1F06CB30)
+#define SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_INTERNALGETIPGLOBALPROPERTIES_OFFSET UNITYSDK_OFFSET(0x1F06CF40)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int IPGlobalProperties_TypeDefinitionIndex = 2928;
-
 	class IPGlobalProperties : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet__PlatformNeedsLibCWorkaround_k__BackingField()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(IPGlobalProperties_TypeDefinitionIndex)->GetStaticField(0x9E00);
+			return (::System::Boolean*)UnitySDK::FromName("System.Net.NetworkInformation", "IPGlobalProperties")->GetStaticField(0x8410);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean get_PlatformNeedsLibCWorkaround()
@@ -40,5 +37,6 @@ namespace System::Net::NetworkInformation
 		{
 			return ((::System::Net::NetworkInformation::IPGlobalProperties*(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_IPGLOBALPROPERTIES_INTERNALGETIPGLOBALPROPERTIES_OFFSET))();
 		}
+
 	};
 }

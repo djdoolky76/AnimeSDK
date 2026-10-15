@@ -1,42 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MonoEffectPluginCharaPropBase.h"
 #include "unitysdk/RPG/Client/TAUtils/OverrideLightModule.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginCharaPropBase.h"
 #include "unitysdk/UnityEngine/Space.h"
-
-namespace RPG::Client { class MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064; }
-namespace System { class String; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
-namespace UnityEngine { class Shader; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_INIT_OFFSET UNITYSDK_OFFSET(0xD7A4830)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7A4890)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7A48E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT__CTOR_OFFSET UNITYSDK_OFFSET(0xD7A49E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0xD7E6A20)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_INIT_OFFSET UNITYSDK_OFFSET(0xD7E6870)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7E68D0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xD7E6920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropOverrideLight_TypeDefinitionIndex = 69939;
-
 	class MonoEffectPluginCharaPropOverrideLight : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:
 		::UnityEngine::Space OverrideLightSpace; // 0x40
 		::System::Boolean OverrideLightFollowRotation; // 0x44
+		::System::Byte _padding0[0x3];
 		::RPG::Client::TAUtils::OverrideLightModule OverrideLightModule; // 0x48
 		::UnityEngine::Material* CJMPDEJJAJL; // 0x198
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
+		::System::Void Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Object*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_INIT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Object*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_INIT_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void UnInit()
@@ -48,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPOVERRIDELIGHT_UPDATEPROPERTY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

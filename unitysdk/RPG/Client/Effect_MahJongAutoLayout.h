@@ -5,48 +5,49 @@
 #include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_2_796E512D7EBA9D90;
+class CIIFBLMIPGP;
+namespace RPG::Client { class Effect_MahJongAutoLayout; }
 namespace RPG::Client { class MonoEffectPluginMahJongItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xCDFAD30)
-#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xCDFAE20)
-#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xCDFAC90)
-#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xCDFAC20)
-#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xCDFAEE0)
-#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xCDFAB10)
-#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0xCDFAEF0)
+#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_AWAKEPLUGIN_OFFSET UNITYSDK_OFFSET(0xCD4B5A0)
+#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_CTOR_OFFSET UNITYSDK_OFFSET(0xCD4B760)
+#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_DESTROYPLUGIN_OFFSET UNITYSDK_OFFSET(0xCD4B690)
+#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xCD4B500)
+#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_ENDOFLATETICK_OFFSET UNITYSDK_OFFSET(0xCD4B490)
+#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xCD4B750)
+#define RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xCD4B380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_MahJongAutoLayout_TypeDefinitionIndex = 69986;
-
 	class Effect_MahJongAutoLayout : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
 		::System::Boolean IsLayoutEnable; // 0x28
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::UnityEngine::Vector3>* PositionOffsetLayouts; // 0x30
 		::Il2CppArray<::UnityEngine::Quaternion>* RotationOffsetLayouts; // 0x38
 		::RPG::Client::EffectLayoutType LayoutType; // 0x40
 		::System::Boolean IsHideLayout; // 0x44
+		::System::Byte _padding1[0x3];
 		::System::Single Scale; // 0x48
+		::System::Byte _padding2[0x4];
 		::RPG::Client::Effect_MahJongAutoLayout* InheriteLayout; // 0x50
 		::UnityEngine::Vector3 CenterOffset; // 0x58
 		::System::Single HighlightDelay; // 0x64
 		::RPG::Client::Effect_MahJongAutoLayout_ItemVisibleMode ItemFollowVisibleMode; // 0x68
 		::System::Boolean NeedFadein; // 0x6C
+		::System::Byte _padding3[0x3];
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginMahJongItem*>* MahJongEffectList; // 0x70
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginMahJongItem*>* NewAddMahJongEffectList; // 0x78
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginMahJongItem*>* RemoveMahJongEffectList; // 0x80
 		::System::Collections::Generic::List_1<::System::String*>* LastLayoutEffectsSnapShot; // 0x88
 		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginMahJongItem*>* MaxMahJongEffectList; // 0x90
-		::Class_2_796E512D7EBA9D90* KADDKEGNCHE; // 0x98
-
+		::CIIFBLMIPGP* KADDKEGNCHE; // 0x98
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetPlugin()
@@ -74,9 +75,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_DESTROYPLUGIN_OFFSET))(this);
 		}
 
-		::Class_2_796E512D7EBA9D90* get_Behavior()
+		::CIIFBLMIPGP* get_Behavior()
 		{
-			return ((::Class_2_796E512D7EBA9D90*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_GET_BEHAVIOR_OFFSET))(this);
+			return ((::CIIFBLMIPGP*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_MAHJONGAUTOLAYOUT_GET_BEHAVIOR_OFFSET))(this);
 		}
+
 	};
 }

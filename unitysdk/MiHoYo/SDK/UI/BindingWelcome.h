@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UI/BindingWelcome_DisplayStage.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI { class BindingWelcome; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
@@ -10,41 +10,25 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_BINDINGWELCOME_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAE6170)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BAE74A0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_CANCELCREATENEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BAE7510)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BAE7520)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_CONFIRMCREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BAE74C0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BAE7500)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_HIDE_OFFSET UNITYSDK_OFFSET(0x1BAE76A0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_ONBINDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BAE7460)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_ONSKIPORCANCELBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BAE74E0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1BAE6BC0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1BAE6EF0)
-#define MIHOYO_SDK_UI_BINDINGWELCOME_SHOW_OFFSET UNITYSDK_OFFSET(0x1BAE7540)
-#define MIHOYO_SDK_UI_BINDINGWELCOME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE7710)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFF15B0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFF2A70)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_CANCELCREATENEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFF2AE0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BFF2AF0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_CONFIRMCREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFF2A90)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFF2AD0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF2CE0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFF2C70)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_ONBINDBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFF2A30)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_ONSKIPORCANCELBTNCLICKED_OFFSET UNITYSDK_OFFSET(0x1BFF2AB0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1BFF2190)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1BFF24C0)
+#define MIHOYO_SDK_UI_BINDINGWELCOME_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFF2B10)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int BindingWelcome_TypeDefinitionIndex = 8345;
-
 	class BindingWelcome : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::BindingWelcome** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::BindingWelcome**)Il2CppClass::FromTypeDefinitionIndex(BindingWelcome_TypeDefinitionIndex)->GetStaticField(0x27890);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* closeBtnPath; // 0x0
-		// static const ::System::String* titlePath; // 0x0
-		// static const ::System::String* contentPath; // 0x0
-		// static const ::System::String* bindBtnPath; // 0x0
-		// static const ::System::String* bindBtnTextPath; // 0x0
-		// static const ::System::String* skipOrCancelBtnPath; // 0x0
-		// static const ::System::String* skipOrCancelBtnTextPath; // 0x0
-		// static const ::System::String* userPanelPath; // 0x0
-		// static const ::System::String* userNicknamePath; // 0x0
 		::UnityEngine::UI::Text* titleText; // 0x58
 		::UnityEngine::UI::Text* contentText; // 0x60
 		::UnityEngine::UI::Text* bindBtnText; // 0x68
@@ -55,14 +39,29 @@ namespace MiHoYo::SDK::UI
 		::UnityEngine::UI::Button* skipOrCancelBtn; // 0x90
 		::UnityEngine::GameObject* userObj; // 0x98
 		::MiHoYo::SDK::UI::BindingWelcome_DisplayStage displayStage; // 0xA0
+		::System::Byte _padding0[0x4];
 		::System::Action* OnBindExistingAccount; // 0xA8
 		::System::Action* OnConfirmCreateAndBindNewAccount; // 0xB0
 		::System::Action* OnCloseBtnClicked; // 0xB8
 		::System::Func_1<::System::String*>* GetUserNickName; // 0xC0
+		static ::MiHoYo::SDK::UI::BindingWelcome** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::BindingWelcome**)UnitySDK::FromName("MiHoYo.SDK.UI", "BindingWelcome")->GetStaticField(0x18440);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* closeBtnPath; // 0x0
+		// static const ::System::String* titlePath; // 0x0
+		// static const ::System::String* contentPath; // 0x0
+		// static const ::System::String* bindBtnPath; // 0x0
+		// static const ::System::String* bindBtnTextPath; // 0x0
+		// static const ::System::String* skipOrCancelBtnPath; // 0x0
+		// static const ::System::String* skipOrCancelBtnTextPath; // 0x0
+		// static const ::System::String* userPanelPath; // 0x0
+		// static const ::System::String* userNicknamePath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGWELCOME__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGWELCOME_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -124,5 +123,6 @@ namespace MiHoYo::SDK::UI
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_BINDINGWELCOME_HIDE_OFFSET))();
 		}
+
 	};
 }

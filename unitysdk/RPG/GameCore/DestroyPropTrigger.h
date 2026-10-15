@@ -1,39 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DestroyPropTrigger; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DESTROYPROPTRIGGER_METHOD_3_158F3463F1147C5C_OFFSET UNITYSDK_OFFSET(0x1D020ED0)
-#define RPG_GAMECORE_DESTROYPROPTRIGGER_METHOD_3_AF52E6EEB6CAF9B6_OFFSET UNITYSDK_OFFSET(0x1D020F50)
-#define RPG_GAMECORE_DESTROYPROPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D020F20)
+#define RPG_GAMECORE_DESTROYPROPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FD410)
+#define RPG_GAMECORE_DESTROYPROPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5FD440)
+#define RPG_GAMECORE_DESTROYPROPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FD3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyPropTrigger_TypeDefinitionIndex = 21337;
-
 	class DestroyPropTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Boolean DoOnExit; // 0x20
+		::System::Byte _padding0[0x7];
 		::System::String* TriggerPath; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYPROPTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYPROPTRIGGER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_158F3463F1147C5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyPropTrigger*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DestroyPropTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyPropTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYPROPTRIGGER_METHOD_3_158F3463F1147C5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DestroyPropTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYPROPTRIGGER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AF52E6EEB6CAF9B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyPropTrigger* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DestroyPropTrigger* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyPropTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYPROPTRIGGER_METHOD_3_AF52E6EEB6CAF9B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DestroyPropTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYPROPTRIGGER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

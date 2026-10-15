@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Random_State_TypeDefinitionIndex = 4248;
-
 	struct alignas(4) Random_State
 	{
 		::System::Int32 s0; // 0x10

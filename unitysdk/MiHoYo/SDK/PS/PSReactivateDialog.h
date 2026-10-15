@@ -1,41 +1,38 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSDialogBase.h"
-
+namespace MiHoYo::SDK::PS { class PSReactivateDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BA60FA0)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BA61960)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BA61930)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BA3B850)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BA61910)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BA3C8A0)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BA3A620)
-#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA61990)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF6B590)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF6BFD0)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF6BFA0)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF6C000)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF452E0)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF6BF80)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_SETINTERACTABLE_OFFSET UNITYSDK_OFFSET(0x1BF46330)
+#define MIHOYO_SDK_PS_PSREACTIVATEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF440B0)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSReactivateDialog_TypeDefinitionIndex = 8877;
-
 	class PSReactivateDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
+		::System::Action* OnReactivateAccount; // 0xB0
+		::System::Action* OnBack; // 0xB8
+		::System::Boolean Interactable; // 0xC0
 		static ::MiHoYo::SDK::PS::PSReactivateDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::PSReactivateDialog**)Il2CppClass::FromTypeDefinitionIndex(PSReactivateDialog_TypeDefinitionIndex)->GetStaticField(0x21C40);
+			return (::MiHoYo::SDK::PS::PSReactivateDialog**)UnitySDK::FromName("MiHoYo.SDK.PS", "PSReactivateDialog")->GetStaticField(0x18100);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* DescTextPath; // 0x0
 		// static const ::System::String* FooterTextPath; // 0x0
-		::System::Action* OnReactivateAccount; // 0xB0
-		::System::Action* OnBack; // 0xB8
-		::System::Boolean Interactable; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSREACTIVATEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSREACTIVATEDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -72,5 +69,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSREACTIVATEDIALOG_CANCELDIALOG_OFFSET))(this);
 		}
+
 	};
 }

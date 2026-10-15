@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
+#include "unitysdk/UnityEngine/Color.h"
 namespace System { class String; }
 
-#define UNITYENGINE_COLOR32_LERP_OFFSET UNITYSDK_OFFSET(0x1ED11390)
-#define UNITYENGINE_COLOR32_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1ED11340)
-#define UNITYENGINE_COLOR32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ED10FD0)
-#define UNITYENGINE_COLOR32_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BB85B0)
-#define UNITYENGINE_COLOR32__CTOR_OFFSET UNITYSDK_OFFSET(0x3BB8590)
+#define UNITYENGINE_COLOR32_CTOR_OFFSET UNITYSDK_OFFSET(0x3C6D9F0)
+#define UNITYENGINE_COLOR32_LERP_OFFSET UNITYSDK_OFFSET(0x1F3D9140)
+#define UNITYENGINE_COLOR32_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1F3D90F0)
+#define UNITYENGINE_COLOR32_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1F3D8D80)
+#define UNITYENGINE_COLOR32_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C6DA10)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Color32_TypeDefinitionIndex = 4217;
-
 	struct alignas(4) Color32
 	{
 		::System::Int32 rgba; // 0x10
@@ -21,10 +18,9 @@ namespace UnityEngine
 		::System::Byte g; // 0x11
 		::System::Byte b; // 0x12
 		::System::Byte a; // 0x13
-
 		::System::Void _ctor(::System::Byte a1, ::System::Byte a2, ::System::Byte a3, ::System::Byte a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR32__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Byte, ::System::Byte, ::System::Byte, ::System::Byte))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR32_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		/*
@@ -41,14 +37,17 @@ namespace UnityEngine
 		}
 		*/
 
+		/*
 		static ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a1, ::UnityEngine::Color32 a2, ::System::Single a3)
 		{
 			return ((::UnityEngine::Color32(*)(::UnityEngine::Color32, ::UnityEngine::Color32, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR32_LERP_OFFSET))(a1, a2, a3);
 		}
+		*/
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLOR32_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace BansheeGz::BGSpline::Curve { class BGCurvePointI; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C0023B0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C002430)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFFD4F0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0022C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C50F580)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C50F490)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C50F600)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C50A710)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurve_IterationCallback_TypeDefinitionIndex = 35306;
-
 	class BGCurve_IterationCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::BansheeGz::BGSpline::Curve::BGCurvePointI* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -38,5 +35,6 @@ namespace BansheeGz::BGSpline::Curve
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_CURVE_BGCURVE_ITERATIONCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

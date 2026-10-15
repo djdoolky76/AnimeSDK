@@ -3,12 +3,13 @@
 #include "unitysdk/RPG/Client/UILayer.h"
 #include "unitysdk/RPG/Client/ViewCacheType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class UIAsyncPrefabLoaderProxy; }
+namespace RPG::Client { class UIPrefabLoader; }
 namespace RPG::Client { class UIPrefabLoader_LoadResult; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
@@ -16,49 +17,46 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class ObjectInstantiateRequest; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIPREFABLOADER_ASYNCLOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3A8400)
-#define RPG_CLIENT_UIPREFABLOADER_ASYNCLOADVIEWPREFAB_OFFSET UNITYSDK_OFFSET(0xE3A7760)
-#define RPG_CLIENT_UIPREFABLOADER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE3A6890)
-#define RPG_CLIENT_UIPREFABLOADER_CREATE_OFFSET UNITYSDK_OFFSET(0xE3A67B0)
-#define RPG_CLIENT_UIPREFABLOADER_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xE3A69F0)
-#define RPG_CLIENT_UIPREFABLOADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE3A6C20)
-#define RPG_CLIENT_UIPREFABLOADER_ENABLECACHE_OFFSET UNITYSDK_OFFSET(0xE3A6840)
-#define RPG_CLIENT_UIPREFABLOADER_INSTANTIATEPREFAB_OFFSET UNITYSDK_OFFSET(0xE3A80D0)
-#define RPG_CLIENT_UIPREFABLOADER_LOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3A8330)
-#define RPG_CLIENT_UIPREFABLOADER_LOADVIEWPREFAB_OFFSET UNITYSDK_OFFSET(0xE3A7060)
-#define RPG_CLIENT_UIPREFABLOADER_RELEASEVIEW_OFFSET UNITYSDK_OFFSET(0xE3A7CA0)
-#define RPG_CLIENT_UIPREFABLOADER_SHOULDRELEASETOCACHE_OFFSET UNITYSDK_OFFSET(0xE3A7C20)
-#define RPG_CLIENT_UIPREFABLOADER_TRYCANCELASYNCLOADOPERATION_OFFSET UNITYSDK_OFFSET(0xE3A8500)
-#define RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFABIMPL_OFFSET UNITYSDK_OFFSET(0xE3A8D30)
-#define RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3A7B10)
-#define RPG_CLIENT_UIPREFABLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A9170)
-#define RPG_CLIENT_UIPREFABLOADER__HANDLELOADRESULT_OFFSET UNITYSDK_OFFSET(0xE3A89A0)
-#define RPG_CLIENT_UIPREFABLOADER__LOADPREFABFROMCACHE_OFFSET UNITYSDK_OFFSET(0xE3A8C20)
-#define RPG_CLIENT_UIPREFABLOADER__LOADPREFABIMPL_OFFSET UNITYSDK_OFFSET(0xE3A86B0)
-#define RPG_CLIENT_UIPREFABLOADER__LOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3A7430)
-#define RPG_CLIENT_UIPREFABLOADER__PUSH2AUTORELEASEOBEJCTS_OFFSET UNITYSDK_OFFSET(0xE3A8280)
-#define RPG_CLIENT_UIPREFABLOADER__PUSH2RETURNCACHEOBJECTS_OFFSET UNITYSDK_OFFSET(0xE3A90C0)
-#define RPG_CLIENT_UIPREFABLOADER__RECYCLECOMPONENTS_OFFSET UNITYSDK_OFFSET(0xE3A7E40)
-#define RPG_CLIENT_UIPREFABLOADER__REUSECOMPONENTS_OFFSET UNITYSDK_OFFSET(0xE3A74D0)
+#define RPG_CLIENT_UIPREFABLOADER_ASYNCLOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3E9860)
+#define RPG_CLIENT_UIPREFABLOADER_ASYNCLOADVIEWPREFAB_OFFSET UNITYSDK_OFFSET(0xE3E8C90)
+#define RPG_CLIENT_UIPREFABLOADER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE3E7DC0)
+#define RPG_CLIENT_UIPREFABLOADER_CREATE_OFFSET UNITYSDK_OFFSET(0xE3E7CE0)
+#define RPG_CLIENT_UIPREFABLOADER_CTOR_OFFSET UNITYSDK_OFFSET(0xE3B3970)
+#define RPG_CLIENT_UIPREFABLOADER_DESTROYGAMEOBJECT_OFFSET UNITYSDK_OFFSET(0xE3E7F20)
+#define RPG_CLIENT_UIPREFABLOADER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE3E8150)
+#define RPG_CLIENT_UIPREFABLOADER_ENABLECACHE_OFFSET UNITYSDK_OFFSET(0xE3E7D70)
+#define RPG_CLIENT_UIPREFABLOADER_INSTANTIATEPREFAB_OFFSET UNITYSDK_OFFSET(0xE3E9600)
+#define RPG_CLIENT_UIPREFABLOADER_LOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3B3AE0)
+#define RPG_CLIENT_UIPREFABLOADER_LOADVIEWPREFAB_OFFSET UNITYSDK_OFFSET(0xE3E8590)
+#define RPG_CLIENT_UIPREFABLOADER_RELEASEVIEW_OFFSET UNITYSDK_OFFSET(0xE3E91D0)
+#define RPG_CLIENT_UIPREFABLOADER_SHOULDRELEASETOCACHE_OFFSET UNITYSDK_OFFSET(0xE3E9150)
+#define RPG_CLIENT_UIPREFABLOADER_TRYCANCELASYNCLOADOPERATION_OFFSET UNITYSDK_OFFSET(0xE3E9960)
+#define RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFABIMPL_OFFSET UNITYSDK_OFFSET(0xE3EA190)
+#define RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3E9040)
+#define RPG_CLIENT_UIPREFABLOADER__HANDLELOADRESULT_OFFSET UNITYSDK_OFFSET(0xE3E9E00)
+#define RPG_CLIENT_UIPREFABLOADER__LOADPREFABFROMCACHE_OFFSET UNITYSDK_OFFSET(0xE3EA080)
+#define RPG_CLIENT_UIPREFABLOADER__LOADPREFABIMPL_OFFSET UNITYSDK_OFFSET(0xE3E9B10)
+#define RPG_CLIENT_UIPREFABLOADER__LOADPREFAB_OFFSET UNITYSDK_OFFSET(0xE3E8960)
+#define RPG_CLIENT_UIPREFABLOADER__PUSH2AUTORELEASEOBEJCTS_OFFSET UNITYSDK_OFFSET(0xE3E97B0)
+#define RPG_CLIENT_UIPREFABLOADER__PUSH2RETURNCACHEOBJECTS_OFFSET UNITYSDK_OFFSET(0xE3EA520)
+#define RPG_CLIENT_UIPREFABLOADER__RECYCLECOMPONENTS_OFFSET UNITYSDK_OFFSET(0xE3E9370)
+#define RPG_CLIENT_UIPREFABLOADER__REUSECOMPONENTS_OFFSET UNITYSDK_OFFSET(0xE3E8A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader_TypeDefinitionIndex = 73000;
-
 	class UIPrefabLoader : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::Object*>* _InstantiatedToAssetMap; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _FromCacheObjects; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _FromCacheObjects; // 0x10
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::Object*>* _InstantiatedToAssetMap; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::IAssetOperation*>* _PathToAssetOperations; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::IAssetOperation*>* _AssetOperations; // 0x28
-		::System::Collections::Generic::List_1<::UnityEngine::ObjectInstantiateRequest*>* _AsyncInsRequests; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _AutoReleaseObejcts; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _AutoReleaseObejcts; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::ObjectInstantiateRequest*>* _AsyncInsRequests; // 0x38
 		::System::Boolean _EnableFromCache; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::UIPrefabLoader* Create()
@@ -91,9 +89,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::RPG::Client::ViewCacheType, ::RPG::Client::UILayer))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER_LOADVIEWPREFAB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::UIAsyncPrefabLoaderProxy* AsyncLoadViewPrefab(::System::String* a1, ::RPG::Client::ViewCacheType a2, ::RPG::Client::UILayer a3, ::System::Action_1<::UnityEngine::GameObject*>* a4)
+		::RPG::Client::UIAsyncPrefabLoaderProxy* AsyncLoadViewPrefab(::System::String* a1, ::RPG::Client::ViewCacheType a2, ::RPG::Client::UILayer a3, ::System::Action* a4)
 		{
-			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::RPG::Client::ViewCacheType, ::RPG::Client::UILayer, ::System::Action_1<::UnityEngine::GameObject*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER_ASYNCLOADVIEWPREFAB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::RPG::Client::ViewCacheType, ::RPG::Client::UILayer, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER_ASYNCLOADVIEWPREFAB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean ShouldReleaseToCache(::UnityEngine::GameObject* a1, ::RPG::Client::ViewCacheType a2, ::RPG::Client::UILayer a3)
@@ -116,9 +114,9 @@ namespace RPG::Client
 			return ((::UnityEngine::GameObject*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER_LOADPREFAB_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::UIAsyncPrefabLoaderProxy* AsyncLoadPrefab(::System::String* a1, ::System::Action_1<::UnityEngine::GameObject*>* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4)
+		::RPG::Client::UIAsyncPrefabLoaderProxy* AsyncLoadPrefab(::System::String* a1, ::System::Action* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4)
 		{
-			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action_1<::UnityEngine::GameObject*>*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER_ASYNCLOADPREFAB_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER_ASYNCLOADPREFAB_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean TryCancelAsyncLoadOperation(::RPG::Client::IAssetOperation* a1)
@@ -136,14 +134,14 @@ namespace RPG::Client
 			return ((::RPG::Client::UIPrefabLoader_LoadResult*(*)(::PVOID, ::System::String*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER__LOADPREFABIMPL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::Client::UIAsyncPrefabLoaderProxy* _AsyncLoadPrefab(::System::String* a1, ::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
+		::RPG::Client::UIAsyncPrefabLoaderProxy* _AsyncLoadPrefab(::System::String* a1, ::System::Action* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6)
 		{
-			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>*, ::UnityEngine::Transform*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFAB_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action*, ::UnityEngine::Transform*, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFAB_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::RPG::Client::UIAsyncPrefabLoaderProxy* _AsyncLoadPrefabImpl(::System::String* a1, ::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4)
+		::RPG::Client::UIAsyncPrefabLoaderProxy* _AsyncLoadPrefabImpl(::System::String* a1, ::System::Action* a2, ::UnityEngine::Transform* a3, ::System::Boolean a4)
 		{
-			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFABIMPL_OFFSET))(this, a1, a2, a3, a4);
+			return ((::RPG::Client::UIAsyncPrefabLoaderProxy*(*)(::PVOID, ::System::String*, ::System::Action*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER__ASYNCLOADPREFABIMPL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::UnityEngine::GameObject* _LoadPrefabFromCache(::System::String* a1, ::UnityEngine::Transform* a2)
@@ -175,5 +173,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER__PUSH2RETURNCACHEOBJECTS_OFFSET))(this, a1);
 		}
+
 	};
 }

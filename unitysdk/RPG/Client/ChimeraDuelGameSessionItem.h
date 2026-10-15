@@ -1,40 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_21C7581DFE99F091_26;
-class Class_1_D17272E82AE804C2_256;
+class DMOJMNKOILL;
+class JJNHIKIGKJC;
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
+namespace RPG::Client { class ChimeraDuelGameSessionItem; }
 namespace RPG::Client { class ChimeraDuelItemData; }
 
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CANAPPLYTO_OFFSET UNITYSDK_OFFSET(0xCBDB040)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_1_OFFSET UNITYSDK_OFFSET(0xCBDAFB0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_2_OFFSET UNITYSDK_OFFSET(0xCBD9D10)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xCBD99D0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xCBDA7A0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xCBDAF90)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xCBDAF80)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM__CTOR_1_OFFSET UNITYSDK_OFFSET(0xCBDB020)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCBDAFA0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CANAPPLYTO_OFFSET UNITYSDK_OFFSET(0xCB2A210)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_1_OFFSET UNITYSDK_OFFSET(0xCB2A190)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_2_OFFSET UNITYSDK_OFFSET(0xCB28F00)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_OFFSET UNITYSDK_OFFSET(0xCB28BD0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CTOR_1_OFFSET UNITYSDK_OFFSET(0xCB2A1F0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCB2A180)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0xCB29980)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xCB2A170)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_GET_UNIQUEID_OFFSET UNITYSDK_OFFSET(0xCB2A160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameSessionItem_TypeDefinitionIndex = 63381;
-
 	class ChimeraDuelGameSessionItem : public ::System::Object
 	{
 	public:
-		::System::UInt32 _UniqueID_k__BackingField; // 0x10
-		::System::UInt32 _ItemID_k__BackingField; // 0x14
-
+		::System::UInt32 _ItemID_k__BackingField; // 0x10
+		::System::UInt32 _UniqueID_k__BackingField; // 0x14
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::RPG::Client::ChimeraDuelGameSessionItem* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionItem*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_UniqueID()
@@ -52,14 +49,14 @@ namespace RPG::Client
 			return ((::RPG::Client::ChimeraDuelItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_GET_ITEMDATA_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ChimeraDuelGameSessionItem* Create(::Class_1_D17272E82AE804C2_256* a1)
+		static ::RPG::Client::ChimeraDuelGameSessionItem* Create(::JJNHIKIGKJC* a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionItem*(*)(::Class_1_D17272E82AE804C2_256*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::ChimeraDuelGameSessionItem*(*)(::JJNHIKIGKJC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ChimeraDuelGameSessionItem* Create_1(::Class_1_21C7581DFE99F091_26* a1)
+		static ::RPG::Client::ChimeraDuelGameSessionItem* Create_1(::DMOJMNKOILL* a1)
 		{
-			return ((::RPG::Client::ChimeraDuelGameSessionItem*(*)(::Class_1_21C7581DFE99F091_26*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_1_OFFSET))(a1);
+			return ((::RPG::Client::ChimeraDuelGameSessionItem*(*)(::DMOJMNKOILL*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CREATE_1_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::ChimeraDuelGameSessionItem* Create_2(::System::UInt32 a1)
@@ -71,5 +68,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ChimeraDuelGameSessionChimera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELGAMESESSIONITEM_CANAPPLYTO_OFFSET))(this, a1);
 		}
+
 	};
 }

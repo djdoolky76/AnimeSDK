@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RenderingGlobalVars_capsuleConst_TypeDefinitionIndex = 36959;
-
 	enum class RenderingGlobalVars_capsuleConst : ::System::Int32
 	{
 		_MAX_CAPSULE_COUNT = 60,

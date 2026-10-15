@@ -3,8 +3,6 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int InputField_EditState_TypeDefinitionIndex = 6738;
-
 	enum class InputField_EditState : ::System::Int32
 	{
 		Continue = 0,

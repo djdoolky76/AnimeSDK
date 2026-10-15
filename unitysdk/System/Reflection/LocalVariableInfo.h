@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_REFLECTION_LOCALVARIABLEINFO_GET_LOCALINDEX_OFFSET UNITYSDK_OFFSET(0x1BD97530)
-#define SYSTEM_REFLECTION_LOCALVARIABLEINFO_GET_LOCALTYPE_OFFSET UNITYSDK_OFFSET(0x1BD97540)
-#define SYSTEM_REFLECTION_LOCALVARIABLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BD97550)
-#define SYSTEM_REFLECTION_LOCALVARIABLEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD97520)
+#define SYSTEM_REFLECTION_LOCALVARIABLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A3220)
+#define SYSTEM_REFLECTION_LOCALVARIABLEINFO_GET_LOCALINDEX_OFFSET UNITYSDK_OFFSET(0x1C2A3230)
+#define SYSTEM_REFLECTION_LOCALVARIABLEINFO_GET_LOCALTYPE_OFFSET UNITYSDK_OFFSET(0x1C2A3240)
+#define SYSTEM_REFLECTION_LOCALVARIABLEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C2A3250)
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int LocalVariableInfo_TypeDefinitionIndex = 608;
-
 	class LocalVariableInfo : public ::System::Object
 	{
 	public:
 		::System::Type* type; // 0x10
 		::System::Boolean is_pinned; // 0x18
+		::System::Byte _padding0[0x1];
 		::System::UInt16 position; // 0x1A
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_LOCALVARIABLEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_LOCALVARIABLEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 get_LocalIndex()
@@ -40,5 +37,6 @@ namespace System::Reflection
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_LOCALVARIABLEINFO_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

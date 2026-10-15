@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EDB1040)
-#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EDB1070)
-#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EDAC810)
-#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDB0FD0)
+#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F4797F0)
+#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F479780)
+#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F479820)
+#define UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F474FC0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_OnParticleEmissionBeginEvent_TypeDefinitionIndex = 5223;
-
 	class ParticleSystem_OnParticleEmissionBeginEvent : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::ParticleSystem* a1)
@@ -38,5 +35,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_ONPARTICLEEMISSIONBEGINEVENT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

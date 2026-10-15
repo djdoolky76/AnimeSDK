@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSDialogBase.h"
-
+namespace MiHoYo::SDK::PS { class PSBindingSuccessDialog; }
 namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BA601C0)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BA5F930)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BA60230)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BA3B620)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BA60210)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BA3A3A0)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x1BA5FF30)
-#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA60260)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BF6A7E0)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF69ED0)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF6A850)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF6A880)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF450B0)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF6A830)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF43E30)
+#define MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_UPDATECOUNTDOWNTIPS_OFFSET UNITYSDK_OFFSET(0x1BF6A550)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSBindingSuccessDialog_TypeDefinitionIndex = 8879;
-
 	class PSBindingSuccessDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
+		::UnityEngine::GameObject* FooterObj; // 0xB0
+		::System::Action* OnConfirmed; // 0xB8
+		::System::Single autoCloseLeftSeconds; // 0xC0
+		::System::Byte _padding0[0x4];
+		::System::String* PSNAccount; // 0xC8
+		::System::String* HoYoAccount; // 0xD0
 		static ::MiHoYo::SDK::PS::PSBindingSuccessDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::PSBindingSuccessDialog**)Il2CppClass::FromTypeDefinitionIndex(PSBindingSuccessDialog_TypeDefinitionIndex)->GetStaticField(0x21C30);
+			return (::MiHoYo::SDK::PS::PSBindingSuccessDialog**)UnitySDK::FromName("MiHoYo.SDK.PS", "PSBindingSuccessDialog")->GetStaticField(0x180F0);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitleTextPath; // 0x0
 		// static const ::System::String* DescTextPath; // 0x0
 		// static const ::System::String* FooterTextPath; // 0x0
-		// static const ::System::Single AUTO_CLOSE_TIMEOUT_IN_SECONDS; // 0x0
-		::UnityEngine::GameObject* FooterObj; // 0xB0
-		::System::Action* OnConfirmed; // 0xB8
-		::System::Single autoCloseLeftSeconds; // 0xC0
-		::System::String* PSNAccount; // 0xC8
-		::System::String* HoYoAccount; // 0xD0
-
+		// static const ::System::Object AUTO_CLOSE_TIMEOUT_IN_SECONDS; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::String* a1, ::System::String* a2)
@@ -77,5 +76,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSBINDINGSUCCESSDIALOG_AUTOCLOSECOUNTDOWN_OFFSET))(this);
 		}
+
 	};
 }

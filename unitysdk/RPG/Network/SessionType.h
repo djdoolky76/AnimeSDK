@@ -3,8 +3,6 @@
 
 namespace RPG::Network
 {
-	inline static constexpr unsigned int SessionType_TypeDefinitionIndex = 42265;
-
 	enum class SessionType : ::System::Int32
 	{
 		Tcp = 0,

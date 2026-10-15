@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class JBCKBPGGDCO;
+namespace System { class Object; }
+
+#define JBCKBPGGDCO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6F4120)
+#define JBCKBPGGDCO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F4150)
+#define JBCKBPGGDCO___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E6F4160)
+
+	class JBCKBPGGDCO___c : public ::System::Object
+	{
+	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C570);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + JBCKBPGGDCO___C_CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JBCKBPGGDCO___C_CTOR_OFFSET))(this);
+		}
+
+		::JBCKBPGGDCO* __cctor_b__53_0()
+		{
+			return ((::JBCKBPGGDCO*(*)(::PVOID))((::PBYTE)hIl2Cpp + JBCKBPGGDCO___C___CCTOR_B__53_0_OFFSET))(this);
+		}
+
+	};

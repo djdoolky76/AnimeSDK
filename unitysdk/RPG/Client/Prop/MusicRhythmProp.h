@@ -2,26 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/MusicRhythmPropType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_MUSICRHYTHMPROP__CTOR_OFFSET UNITYSDK_OFFSET(0xDCA4980)
+#define RPG_CLIENT_PROP_MUSICRHYTHMPROP_CTOR_OFFSET UNITYSDK_OFFSET(0xDD2DBB0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MusicRhythmProp_TypeDefinitionIndex = 77711;
-
 	class MusicRhythmProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::String* UniqueName; // 0x18
 		::System::Boolean PlayerHint; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single HintOffset; // 0x24
 		::RPG::Client::Prop::MusicRhythmPropType PropType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_MUSICRHYTHMPROP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_MUSICRHYTHMPROP_CTOR_OFFSET))(this);
 		}
+
 	};
 }

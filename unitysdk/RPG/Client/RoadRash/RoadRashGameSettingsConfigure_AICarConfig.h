@@ -2,12 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_AICARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDE95D90)
+#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_AICARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE6390)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_AICarConfig_TypeDefinitionIndex = 75486;
-
 	class RoadRashGameSettingsConfigure_AICarConfig : public ::System::Object
 	{
 	public:
@@ -32,10 +30,10 @@ namespace RPG::Client::RoadRash
 		::System::Single MaxSpeedHardCeilingInHighSpeed; // 0x58
 		::System::Single MinAISpeedRatio; // 0x5C
 		::System::Single IndividualDistanceJitterRange; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_AICARCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_AICARCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

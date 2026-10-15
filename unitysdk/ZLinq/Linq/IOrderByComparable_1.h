@@ -1,14 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ReadOnlySpan_1.h"
-
-namespace ZLinq::Linq { class IOrderByComparer; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int IOrderByComparable_1_TypeDefinitionIndex = 6114;
-
-	template <typename TSource>
+	template <typename T>
 	class IOrderByComparable_1
 	{
 	public:

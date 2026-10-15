@@ -1,36 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3B9FB20)
-#define SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B9FAE0)
-#define SYSTEM_NUMERICS_QUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3B9FBC0)
-#define SYSTEM_NUMERICS_QUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B9FBB0)
-#define SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET UNITYSDK_OFFSET(0x25B40)
+#define SYSTEM_NUMERICS_QUATERNION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0)
+#define SYSTEM_NUMERICS_QUATERNION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C54FA0)
+#define SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C54F60)
+#define SYSTEM_NUMERICS_QUATERNION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C55040)
+#define SYSTEM_NUMERICS_QUATERNION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C55030)
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Quaternion_TypeDefinitionIndex = 3858;
-
 	struct alignas(4) Quaternion
 	{
 		::System::Single X; // 0x10
 		::System::Single Y; // 0x14
 		::System::Single Z; // 0x18
 		::System::Single W; // 0x1C
-
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
+		/*
 		::System::Boolean Equals(::System::Numerics::Quaternion a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Numerics::Quaternion))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_EQUALS_OFFSET))(this, a1);
 		}
+		*/
 
 		::System::Boolean Equals_1(::System::Object* a1)
 		{
@@ -46,5 +43,6 @@ namespace System::Numerics
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMERICS_QUATERNION_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

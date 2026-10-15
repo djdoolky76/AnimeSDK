@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightFlowDirector_IFlowState; }
-namespace RPG::Client { class GridFightFlowDirector_IFlowStateEvent; }
+namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_TransitionRule_1_TypeDefinitionIndex = 64667;
-
 	template <typename T>
 	class GridFightFlowDirector_TransitionRule_1 : public ::System::Object
 	{

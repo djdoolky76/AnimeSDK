@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VortexParticlesBehavior_SpawnerState_TypeDefinitionIndex = 70348;
-
 	enum class VortexParticlesBehavior_SpawnerState : ::System::Int32
 	{
 		Playing = 0,

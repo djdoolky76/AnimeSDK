@@ -2,35 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelValueGetter.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SimpleChimeraDuelValueGetter; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_METHOD_3_5E4EB95BD11B1890_OFFSET UNITYSDK_OFFSET(0x1D534D10)
-#define RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_METHOD_3_8961DF48220E919C_OFFSET UNITYSDK_OFFSET(0x1D534BF0)
-#define RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D534D00)
+#define RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE9810)
+#define RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE9820)
+#define RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE9700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleChimeraDuelValueGetter_TypeDefinitionIndex = 15819;
-
 	class SimpleChimeraDuelValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:
 		::RPG::GameCore::FixPoint Value; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8961DF48220E919C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SimpleChimeraDuelValueGetter*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SimpleChimeraDuelValueGetter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SimpleChimeraDuelValueGetter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_METHOD_3_8961DF48220E919C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SimpleChimeraDuelValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5E4EB95BD11B1890(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SimpleChimeraDuelValueGetter* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SimpleChimeraDuelValueGetter* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SimpleChimeraDuelValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_METHOD_3_5E4EB95BD11B1890_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SimpleChimeraDuelValueGetter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SIMPLECHIMERADUELVALUEGETTER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

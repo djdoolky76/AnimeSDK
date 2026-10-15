@@ -2,34 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/HexPuzzleBoardBase.h"
 
-#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0xDBE17A0)
-#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0xDBE1670)
-#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0xDBE1880)
+#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC2C2F0)
+#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_HKDNHLPLDDG_OFFSET UNITYSDK_OFFSET(0xDC2C0E0)
+#define RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_NDNNBDKHCKF_OFFSET UNITYSDK_OFFSET(0xDC2C210)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BlockScreenHexPuzzle_TypeDefinitionIndex = 78130;
-
 	class BlockScreenHexPuzzle : public ::RPG::Client::Prop::HexPuzzleBoardBase
 	{
 	public:
-		// static const ::System::Single HOJJGKCJMDA; // 0x0
 		::System::Boolean FENKBFBBODD; // 0xE8
+		::System::Byte _padding0[0x3];
 		::System::UInt32 LOKEPPMGHOH; // 0xEC
-
+		// static const ::System::Object HOJJGKCJMDA; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_8_F0BD65B017F2AC0B()
+		::System::Void HKDNHLPLDDG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_F0BD65B017F2AC0B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_HKDNHLPLDDG_OFFSET))(this);
 		}
 
-		::System::Void Method_8_E3DE31A03057E055()
+		::System::Void NDNNBDKHCKF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_METHOD_8_E3DE31A03057E055_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKSCREENHEXPUZZLE_NDNNBDKHCKF_OFFSET))(this);
 		}
+
 	};
 }

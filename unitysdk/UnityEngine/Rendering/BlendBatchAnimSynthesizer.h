@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine::Rendering { class BatchAnimation; }
 namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
-#define UNITYENGINE_RENDERING_BLENDBATCHANIMSYNTHESIZER_BLENDSYNTHESIZERSETUPEX_OFFSET UNITYSDK_OFFSET(0x1ED53520)
+#define UNITYENGINE_RENDERING_BLENDBATCHANIMSYNTHESIZER_BLENDSYNTHESIZERSETUPEX_OFFSET UNITYSDK_OFFSET(0x1F41B5E0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BlendBatchAnimSynthesizer_TypeDefinitionIndex = 4788;
-
 	class BlendBatchAnimSynthesizer : public ::System::Object
 	{
 	public:
@@ -18,5 +15,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Void(*)(::UnityEngine::Rendering::BatchAnimation*, ::System::Int32, ::UnityEngine::Rendering::BatchAnimationClip*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_BLENDBATCHANIMSYNTHESIZER_BLENDSYNTHESIZERSETUPEX_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

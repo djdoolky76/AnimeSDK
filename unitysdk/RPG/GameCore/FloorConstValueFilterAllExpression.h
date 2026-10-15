@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FloorConstValueFilterExpression.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FloorConstValueFilterAllExpression; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_METHOD_3_C1710868AB6F29EE_OFFSET UNITYSDK_OFFSET(0x1D10B630)
-#define RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_METHOD_3_C5BD305458CC49AA_OFFSET UNITYSDK_OFFSET(0x1D10B680)
-#define RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10B670)
+#define RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E4D90)
+#define RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6E4DA0)
+#define RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E4D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorConstValueFilterAllExpression_TypeDefinitionIndex = 17211;
-
 	class FloorConstValueFilterAllExpression : public ::RPG::GameCore::FloorConstValueFilterExpression
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C1710868AB6F29EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloorConstValueFilterAllExpression*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FloorConstValueFilterAllExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloorConstValueFilterAllExpression*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_METHOD_3_C1710868AB6F29EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FloorConstValueFilterAllExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C5BD305458CC49AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FloorConstValueFilterAllExpression* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FloorConstValueFilterAllExpression* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FloorConstValueFilterAllExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_METHOD_3_C5BD305458CC49AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FloorConstValueFilterAllExpression*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FLOORCONSTVALUEFILTERALLEXPRESSION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UPLOADER_ONLOGACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB2C7780)
-#define MIHOYO_SDK_UPLOADER_ONLOGACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB2C77B0)
-#define MIHOYO_SDK_UPLOADER_ONLOGACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB2C7770)
-#define MIHOYO_SDK_UPLOADER_ONLOGACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB2C7700)
+#define MIHOYO_SDK_UPLOADER_ONLOGACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB067640)
+#define MIHOYO_SDK_UPLOADER_ONLOGACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xB0675C0)
+#define MIHOYO_SDK_UPLOADER_ONLOGACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB067670)
+#define MIHOYO_SDK_UPLOADER_ONLOGACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB067630)
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int OnLogAction_TypeDefinitionIndex = 47123;
-
 	class OnLogAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_ONLOGACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_ONLOGACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK::Uploader
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UPLOADER_ONLOGACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

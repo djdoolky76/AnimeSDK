@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/RPG/GameCore/CakeRacePickupItemType.h"
 #include "unitysdk/RPG/GameCore/LittleGameConstConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceCatAIConfig; }
 namespace RPG::GameCore { class CakeRaceCatCommonConfig; }
 namespace RPG::GameCore { class CakeRaceCellCommonConfig; }
 namespace RPG::GameCore { class CakeRaceCellConfig; }
+namespace RPG::GameCore { class CakeRaceGameConfig; }
 namespace RPG::GameCore { class CakeRaceGameSceneConfig; }
 namespace RPG::GameCore { class CakeRaceGameSyncConfig; }
 namespace RPG::GameCore { class CakeRaceHalfGravityConfig; }
@@ -20,14 +20,12 @@ namespace RPG::GameCore { class CakeRaceTrapCellConfig; }
 namespace RPG::GameCore { class CakeRaceTutorialConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_BD63F315F5199764_OFFSET UNITYSDK_OFFSET(0x1CF75DE0)
-#define RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_DB075875CDE76E37_OFFSET UNITYSDK_OFFSET(0x1CF75DA0)
-#define RPG_GAMECORE_CAKERACEGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF75DD0)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54F800)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D54F810)
+#define RPG_GAMECORE_CAKERACEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D54F7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceGameConfig_TypeDefinitionIndex = 18182;
-
 	class CakeRaceGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:
@@ -45,22 +43,23 @@ namespace RPG::GameCore
 		::System::UInt32 MaxFightEndDelayTimeMsAfterCatReachEnd; // 0x68
 		::System::UInt32 FightEffectShowBeginDelayMs; // 0x6C
 		::System::UInt32 ReviveOnSameRowMaxNums; // 0x70
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::CakeRaceTutorialConfig* TutorialConfig; // 0x78
 		::RPG::GameCore::CakeRaceSparkleInitConfig* SparkleInitConfig; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DB075875CDE76E37(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceGameConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceGameConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_DB075875CDE76E37_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BD63F315F5199764(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRaceGameConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CakeRaceGameConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRaceGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_METHOD_3_BD63F315F5199764_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CakeRaceGameConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEGAMECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

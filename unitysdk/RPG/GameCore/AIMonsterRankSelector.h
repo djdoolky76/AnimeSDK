@@ -4,37 +4,35 @@
 #include "unitysdk/RPG/GameCore/AISelector.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AIMonsterRankSelector; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_AIMONSTERRANKSELECTOR_METHOD_3_08D433266696ECC3_OFFSET UNITYSDK_OFFSET(0x1CD66CB0)
-#define RPG_GAMECORE_AIMONSTERRANKSELECTOR_METHOD_3_1F0E64C38D8AA19E_OFFSET UNITYSDK_OFFSET(0x1CD66C70)
-#define RPG_GAMECORE_AIMONSTERRANKSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD66CA0)
+#define RPG_GAMECORE_AIMONSTERRANKSELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33A4C0)
+#define RPG_GAMECORE_AIMONSTERRANKSELECTOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D33A4D0)
+#define RPG_GAMECORE_AIMONSTERRANKSELECTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D33A490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIMonsterRankSelector_TypeDefinitionIndex = 15431;
-
 	class AIMonsterRankSelector : public ::RPG::GameCore::AISelector
 	{
 	public:
 		::RPG::GameCore::AICompareStrategy PropertyStrategy; // 0x10
 		::RPG::GameCore::CompareType CompareType; // 0x14
 		::RPG::GameCore::FixPoint CompareValue; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERRANKSELECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERRANKSELECTOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1F0E64C38D8AA19E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIMonsterRankSelector*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AIMonsterRankSelector* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIMonsterRankSelector*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERRANKSELECTOR_METHOD_3_1F0E64C38D8AA19E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AIMonsterRankSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERRANKSELECTOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_08D433266696ECC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIMonsterRankSelector* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AIMonsterRankSelector* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIMonsterRankSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERRANKSELECTOR_METHOD_3_08D433266696ECC3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AIMonsterRankSelector*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIMONSTERRANKSELECTOR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

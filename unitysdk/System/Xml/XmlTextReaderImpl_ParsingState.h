@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System { class Uri; }
 namespace System::IO { class Stream; }
@@ -10,15 +8,13 @@ namespace System::Text { class Decoder; }
 namespace System::Text { class Encoding; }
 namespace System::Xml { class IDtdEntityInfo; }
 
-#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLEAR_OFFSET UNITYSDK_OFFSET(0x3BA4100)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x3BA4160)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_GET_LINENO_OFFSET UNITYSDK_OFFSET(0x3DDB0)
-#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_GET_LINEPOS_OFFSET UNITYSDK_OFFSET(0x3BA4170)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLEAR_OFFSET UNITYSDK_OFFSET(0x3C594B0)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLOSE_OFFSET UNITYSDK_OFFSET(0x3C59510)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_GET_LINENO_OFFSET UNITYSDK_OFFSET(0x3C59520)
+#define SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_GET_LINEPOS_OFFSET UNITYSDK_OFFSET(0x3C59530)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextReaderImpl_ParsingState_TypeDefinitionIndex = 1854;
-
 	struct alignas(8) XmlTextReaderImpl_ParsingState
 	{
 		::Il2CppArray<::System::Char>* chars; // 0x10
@@ -26,6 +22,7 @@ namespace System::Xml
 		::System::Int32 charsUsed; // 0x1C
 		::System::Text::Encoding* encoding; // 0x20
 		::System::Boolean appendMode; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::IO::Stream* stream; // 0x30
 		::System::Text::Decoder* decoder; // 0x38
 		::Il2CppArray<::System::Byte>* bytes; // 0x40
@@ -38,11 +35,11 @@ namespace System::Xml
 		::System::Uri* baseUri; // 0x68
 		::System::Boolean isEof; // 0x70
 		::System::Boolean isStreamEof; // 0x71
+		::System::Byte _padding1[0x6];
 		::System::Xml::IDtdEntityInfo* entity; // 0x78
 		::System::Int32 entityId; // 0x80
 		::System::Boolean eolNormalized; // 0x84
 		::System::Boolean entityResolvedManually; // 0x85
-
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_CLEAR_OFFSET))(this);
@@ -62,5 +59,6 @@ namespace System::Xml
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLTEXTREADERIMPL_PARSINGSTATE_GET_LINEPOS_OFFSET))(this);
 		}
+
 	};
 }

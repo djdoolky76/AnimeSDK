@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CreateNPC; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class NpcEntityInfo; }
 
-#define RPG_GAMECORE_CREATENPC_METHOD_3_283642EFAAAE8C92_OFFSET UNITYSDK_OFFSET(0x1D0083D0)
-#define RPG_GAMECORE_CREATENPC_METHOD_3_D243C2FC950007EB_OFFSET UNITYSDK_OFFSET(0x1D008410)
-#define RPG_GAMECORE_CREATENPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D008400)
+#define RPG_GAMECORE_CREATENPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E3E80)
+#define RPG_GAMECORE_CREATENPC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E3E90)
+#define RPG_GAMECORE_CREATENPC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E3E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateNPC_TypeDefinitionIndex = 21696;
-
 	class CreateNPC : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -23,20 +21,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicString* NPCUniqueName; // 0x28
 		::RPG::GameCore::DynamicString* DefaultIdleStateName; // 0x30
 		::Il2CppArray<::RPG::GameCore::NpcEntityInfo*>* CreateList; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPC__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPC_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_283642EFAAAE8C92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateNPC*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateNPC* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPC_METHOD_3_283642EFAAAE8C92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPC_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D243C2FC950007EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateNPC* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CreateNPC* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPC_METHOD_3_D243C2FC950007EB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CreateNPC*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATENPC_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

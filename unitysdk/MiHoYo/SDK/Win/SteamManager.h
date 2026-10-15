@@ -1,67 +1,65 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
+namespace MiHoYo::SDK::Win { class SteamManager; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define MIHOYO_SDK_WIN_STEAMMANAGER_CHECKCHANNEL_OFFSET UNITYSDK_OFFSET(0x1B8F48B0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_CHECKPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B8F7C70)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_CREATEFAILPAYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B8F8460)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x1B8F6330)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_DEDUCT_OFFSET UNITYSDK_OFFSET(0x1B8F49A0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_GETNICKNAME_OFFSET UNITYSDK_OFFSET(0x1B8F88C0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x1B8F51C0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_GETSTEAMID_OFFSET UNITYSDK_OFFSET(0x1B8F5160)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_GETTICKET_OFFSET UNITYSDK_OFFSET(0x1B8F5190)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_HANDLELOGINFLOWNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1B8F4F10)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1B8F4910)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x1B8F5010)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_ONCREATEORDER_OFFSET UNITYSDK_OFFSET(0x1B8F7EB0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_ONDEDUCT_OFFSET UNITYSDK_OFFSET(0x1B8F4D10)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_ONGETPRODUCTLISTERROR_OFFSET UNITYSDK_OFFSET(0x1B8F5870)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_ONLOGINFAIL_OFFSET UNITYSDK_OFFSET(0x1B8F86F0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_ONPAYCALLBACKCANCEL_OFFSET UNITYSDK_OFFSET(0x1B8F85B0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_ONPAYCALLBACKFAIL_OFFSET UNITYSDK_OFFSET(0x1B8F4ED0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_ONPAYCALLBACKSUCCESS_OFFSET UNITYSDK_OFFSET(0x1B8F4DA0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_PAYTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1B8F7D60)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x1B8F59A0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_SETAPPID_OFFSET UNITYSDK_OFFSET(0x1B8F4940)
-#define MIHOYO_SDK_WIN_STEAMMANAGER_STOPTIMEOUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1B8F4C40)
-#define MIHOYO_SDK_WIN_STEAMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8F88F0)
-#define MIHOYO_SDK_WIN_STEAMMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F48A0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDF76F0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_CHECKCHANNEL_OFFSET UNITYSDK_OFFSET(0x1BDF36B0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_CHECKPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1BDF6A70)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_CREATEFAILPAYCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BDF7260)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_CREATEORDER_OFFSET UNITYSDK_OFFSET(0x1BDF5130)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF36A0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_DEDUCT_OFFSET UNITYSDK_OFFSET(0x1BDF37A0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_GETNICKNAME_OFFSET UNITYSDK_OFFSET(0x1BDF76C0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_GETPRODUCTLIST_OFFSET UNITYSDK_OFFSET(0x1BDF3FC0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_GETSTEAMID_OFFSET UNITYSDK_OFFSET(0x1BDF3F60)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_GETTICKET_OFFSET UNITYSDK_OFFSET(0x1BDF3F90)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_HANDLELOGINFLOWNOTIFICATION_OFFSET UNITYSDK_OFFSET(0x1BDF3D10)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1BDF3710)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_LOGIN_OFFSET UNITYSDK_OFFSET(0x1BDF3E10)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_ONCREATEORDER_OFFSET UNITYSDK_OFFSET(0x1BDF6CB0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_ONDEDUCT_OFFSET UNITYSDK_OFFSET(0x1BDF3B10)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_ONGETPRODUCTLISTERROR_OFFSET UNITYSDK_OFFSET(0x1BDF4670)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_ONLOGINFAIL_OFFSET UNITYSDK_OFFSET(0x1BDF74F0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_ONPAYCALLBACKCANCEL_OFFSET UNITYSDK_OFFSET(0x1BDF73B0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_ONPAYCALLBACKFAIL_OFFSET UNITYSDK_OFFSET(0x1BDF3CD0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_ONPAYCALLBACKSUCCESS_OFFSET UNITYSDK_OFFSET(0x1BDF3BA0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_PAYTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1BDF6B60)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_PAY_OFFSET UNITYSDK_OFFSET(0x1BDF47A0)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_SETAPPID_OFFSET UNITYSDK_OFFSET(0x1BDF3740)
+#define MIHOYO_SDK_WIN_STEAMMANAGER_STOPTIMEOUTCOROUTINE_OFFSET UNITYSDK_OFFSET(0x1BDF3A40)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SteamManager_TypeDefinitionIndex = 9308;
-
 	class SteamManager : public ::System::Object
 	{
 	public:
+		::MiHoYo::SDK::JSONNode* gamePayInfo; // 0x10
+		::System::Action* payCallback; // 0x18
+		::UnityEngine::Coroutine* timeOutCoroutine; // 0x20
+		::System::UInt32 SteamId; // 0x28
 		static ::MiHoYo::SDK::Win::SteamManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::SteamManager**)Il2CppClass::FromTypeDefinitionIndex(SteamManager_TypeDefinitionIndex)->GetStaticField(0x12910);
+			return (::MiHoYo::SDK::Win::SteamManager**)UnitySDK::FromName("MiHoYo.SDK.Win", "SteamManager")->GetStaticField(0xDF40);
 		}
+
 		// static const ::System::String* env_retcode; // 0x0
 		// static const ::System::String* amount_display_key; // 0x0
 		// static const ::System::String* order_num; // 0x0
-		::MiHoYo::SDK::JSONNode* gamePayInfo; // 0x10
-		::System::Action_1<::System::String*>* payCallback; // 0x18
-		::UnityEngine::Coroutine* timeOutCoroutine; // 0x20
-		::System::UInt32 SteamId; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean CheckChannel()
@@ -94,24 +92,24 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_HANDLELOGINFLOWNOTIFICATION_OFFSET))(a1, a2);
 		}
 
-		::System::Void Login(::System::Action_1<::System::String*>* a1)
+		::System::Void Login(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_LOGIN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_LOGIN_OFFSET))(this, a1);
 		}
 
-		::System::Void GetProductList(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void GetProductList(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_GETPRODUCTLIST_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_GETPRODUCTLIST_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnGetProductListError(::System::Action_1<::System::String*>* a1)
+		::System::Void OnGetProductListError(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_ONGETPRODUCTLISTERROR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_ONGETPRODUCTLISTERROR_OFFSET))(this, a1);
 		}
 
-		::System::Void Pay(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void Pay(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_PAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_PAY_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void CreateOrder()
@@ -159,14 +157,14 @@ namespace MiHoYo::SDK::Win
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_ONPAYCALLBACKSUCCESS_OFFSET))(this);
 		}
 
-		::System::Void OnLoginFail(::System::Int32 a1, ::System::String* a2, ::System::Action_1<::System::String*>* a3)
+		::System::Void OnLoginFail(::System::Int32 a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_ONLOGINFAIL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_ONLOGINFAIL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void GetTicket(::System::Action_1<::System::String*>* a1)
+		::System::Void GetTicket(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_GETTICKET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_GETTICKET_OFFSET))(this, a1);
 		}
 
 		::System::String* GetNickName()
@@ -178,5 +176,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER_GETSTEAMID_OFFSET))(this);
 		}
+
 	};
 }

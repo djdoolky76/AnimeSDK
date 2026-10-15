@@ -2,19 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/StableSystemPuzzlePillarStatus.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_INITPILLAR_OFFSET UNITYSDK_OFFSET(0xDD33920)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_REFRESHCOLORSTATUSBYANIM_OFFSET UNITYSDK_OFFSET(0xDD339D0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_SETCOLORSTATUS_OFFSET UNITYSDK_OFFSET(0xDD33A60)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR__CTOR_OFFSET UNITYSDK_OFFSET(0xDD33BA0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_CTOR_OFFSET UNITYSDK_OFFSET(0xDDBC6F0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_INITPILLAR_OFFSET UNITYSDK_OFFSET(0xDDBC470)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_REFRESHCOLORSTATUSBYANIM_OFFSET UNITYSDK_OFFSET(0xDDBC520)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_SETCOLORSTATUS_OFFSET UNITYSDK_OFFSET(0xDDBC5B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzlePillar_TypeDefinitionIndex = 78407;
-
 	class StableSystemPuzzlePillar : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -22,11 +19,11 @@ namespace RPG::Client::Prop
 		::UnityEngine::GameObject* Color1Obj; // 0x20
 		::UnityEngine::GameObject* Color2Obj; // 0x28
 		::RPG::Client::Prop::StableSystemPuzzlePillarStatus ColorStatus; // 0x30
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitPillar()
@@ -43,5 +40,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPILLAR_REFRESHCOLORSTATUSBYANIM_OFFSET))(this);
 		}
+
 	};
 }

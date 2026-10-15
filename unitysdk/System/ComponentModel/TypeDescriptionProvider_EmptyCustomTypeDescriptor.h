@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/CustomTypeDescriptor.h"
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTIONPROVIDER_EMPTYCUSTOMTYPEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1E930FC0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTIONPROVIDER_EMPTYCUSTOMTYPEDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF9D20)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptionProvider_EmptyCustomTypeDescriptor_TypeDefinitionIndex = 2635;
-
 	class TypeDescriptionProvider_EmptyCustomTypeDescriptor : public ::System::ComponentModel::CustomTypeDescriptor
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTIONPROVIDER_EMPTYCUSTOMTYPEDESCRIPTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_TYPEDESCRIPTIONPROVIDER_EMPTYCUSTOMTYPEDESCRIPTOR_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define RPG_CLIENT_TRACKEXTENSIONMONOPLUGIN_GDDBFGDLILA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2B6800)
+
+namespace RPG::Client
+{
+	struct alignas(4) TrackExtensionMonoPlugin_GDDBFGDLILA
+	{
+		::UnityEngine::Vector3 PECPBEOHOJC; // 0x10
+		::UnityEngine::Vector3 HLENMDAPAGH; // 0x1C
+		::UnityEngine::Vector3 NKDECDGECFL; // 0x28
+		::UnityEngine::Vector3 LLKCEKEOIME; // 0x34
+		static ::RPG::Client::TrackExtensionMonoPlugin_GDDBFGDLILA* StaticGet_KPJGDHLENIP()
+		{
+			return (::RPG::Client::TrackExtensionMonoPlugin_GDDBFGDLILA*)UnitySDK::FromName("RPG.Client", "GDDBFGDLILA")->GetStaticField(0x7190);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TRACKEXTENSIONMONOPLUGIN_GDDBFGDLILA_CCTOR_OFFSET))();
+		}
+
+	};
+}

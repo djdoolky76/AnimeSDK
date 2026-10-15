@@ -5,62 +5,59 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+#include "unitysdk/System/ValueTuple.h"
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class AbilityPropertyValue; }
 namespace RPG::GameCore { class BattleEventDataRow; }
+namespace RPG::GameCore { class BattleEventRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEEVENTROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1CE73CC0)
-#define RPG_GAMECORE_BATTLEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CE74270)
-#define RPG_GAMECORE_BATTLEEVENTROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1CE75090)
-#define RPG_GAMECORE_BATTLEEVENTROW_GETRAWCONFIG_OFFSET UNITYSDK_OFFSET(0x1CE75310)
-#define RPG_GAMECORE_BATTLEEVENTROW_GETRAWSKILLIDLIST_OFFSET UNITYSDK_OFFSET(0x1CE75370)
-#define RPG_GAMECORE_BATTLEEVENTROW_GET_BASEPOINT_OFFSET UNITYSDK_OFFSET(0x1CE752B0)
-#define RPG_GAMECORE_BATTLEEVENTROW_GET_BEACTIONBARPREFAB_OFFSET UNITYSDK_OFFSET(0x1CE75250)
-#define RPG_GAMECORE_BATTLEEVENTROW_GET_ISSPRESERVED_OFFSET UNITYSDK_OFFSET(0x1CE753D0)
-#define RPG_GAMECORE_BATTLEEVENTROW_GET_LEVELAREAPREFAB_OFFSET UNITYSDK_OFFSET(0x1CE751F0)
-#define RPG_GAMECORE_BATTLEEVENTROW_GET_NOASSETTOPRELOAD_OFFSET UNITYSDK_OFFSET(0x1CE75430)
-#define RPG_GAMECORE_BATTLEEVENTROW_GET_PREFAB_OFFSET UNITYSDK_OFFSET(0x1CE75140)
-#define RPG_GAMECORE_BATTLEEVENTROW_GET__EXPANDEDDATAROW_OFFSET UNITYSDK_OFFSET(0x1CE751A0)
-#define RPG_GAMECORE_BATTLEEVENTROW_RESET_OFFSET UNITYSDK_OFFSET(0x1CE750F0)
-#define RPG_GAMECORE_BATTLEEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE75130)
+#define RPG_GAMECORE_BATTLEEVENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D45CE00)
+#define RPG_GAMECORE_BATTLEEVENTROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D45B9A0)
+#define RPG_GAMECORE_BATTLEEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D45BF50)
+#define RPG_GAMECORE_BATTLEEVENTROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D45CD70)
+#define RPG_GAMECORE_BATTLEEVENTROW_GETRAWCONFIG_OFFSET UNITYSDK_OFFSET(0x1D45CFE0)
+#define RPG_GAMECORE_BATTLEEVENTROW_GETRAWSKILLIDLIST_OFFSET UNITYSDK_OFFSET(0x1D45D040)
+#define RPG_GAMECORE_BATTLEEVENTROW_GET_BASEPOINT_OFFSET UNITYSDK_OFFSET(0x1D45CF80)
+#define RPG_GAMECORE_BATTLEEVENTROW_GET_BEACTIONBARPREFAB_OFFSET UNITYSDK_OFFSET(0x1D45CF20)
+#define RPG_GAMECORE_BATTLEEVENTROW_GET_ISSPRESERVED_OFFSET UNITYSDK_OFFSET(0x1D45D0A0)
+#define RPG_GAMECORE_BATTLEEVENTROW_GET_LEVELAREAPREFAB_OFFSET UNITYSDK_OFFSET(0x1D45CEC0)
+#define RPG_GAMECORE_BATTLEEVENTROW_GET_NOASSETTOPRELOAD_OFFSET UNITYSDK_OFFSET(0x1D45D100)
+#define RPG_GAMECORE_BATTLEEVENTROW_GET_PREFAB_OFFSET UNITYSDK_OFFSET(0x1D45CE10)
+#define RPG_GAMECORE_BATTLEEVENTROW_GET__EXPANDEDDATAROW_OFFSET UNITYSDK_OFFSET(0x1D45CE70)
+#define RPG_GAMECORE_BATTLEEVENTROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D45CDD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEventRow_TypeDefinitionIndex = 12759;
-
 	class BattleEventRow : public ::System::Object
 	{
 	public:
-		::System::String* HeadIcon; // 0x10
+		::Il2CppArray<::System::String*>* AbilityList; // 0x10
 		::System::String* BattleEventName; // 0x18
-		::Il2CppArray<::RPG::GameCore::AbilityPropertyValue*>* OverrideProperty; // 0x20
-		::Il2CppArray<::System::String*>* AbilityList; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x30
-		::System::String* DescrptionText; // 0x38
+		::System::String* DescrptionText; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
+		::Il2CppArray<::RPG::GameCore::AbilityPropertyValue*>* OverrideProperty; // 0x30
+		::System::String* HeadIcon; // 0x38
 		::System::String* AssetPackName; // 0x40
 		::RPG::GameCore::BattleEventDataRow* _ExpandedDataRowCache; // 0x48
-		::System::UInt32 BattleEventButtonType; // 0x50
-		::System::UInt32 BEActionBarType; // 0x54
-		::RPG::GameCore::FixPoint Speed; // 0x58
-		::RPG::GameCore::BattleEventEntitySubType EventSubType; // 0x60
-		::RPG::GameCore::TeamType Team; // 0x64
-		::RPG::Client::TextID ActionBarDescrptionText; // 0x68
-		::System::Boolean _IsCached; // 0x78
-		::System::Boolean EliteGroup; // 0x79
-		::System::Boolean HardLevel; // 0x7A
-		::System::UInt32 BattleEventID; // 0x7C
-
+		::RPG::GameCore::FixPoint Speed; // 0x50
+		::RPG::Client::TextID ActionBarDescrptionText; // 0x58
+		::System::UInt32 BattleEventButtonType; // 0x68
+		::RPG::GameCore::BattleEventEntitySubType EventSubType; // 0x6C
+		::System::UInt32 BattleEventID; // 0x70
+		::RPG::GameCore::TeamType Team; // 0x74
+		::System::UInt32 BEActionBarType; // 0x78
+		::System::Boolean EliteGroup; // 0x7C
+		::System::Boolean _IsCached; // 0x7D
+		::System::Boolean HardLevel; // 0x7E
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_CTOR_OFFSET))(this);
 		}
 
-		::System::Void FromTableOffset(::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte> a1)
+		::System::Void FromTableOffset(::System::ValueTuple a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Byte>))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_FROMTABLEOFFSET_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_FROMTABLEOFFSET_OFFSET))(this, a1);
 		}
 
 		::System::Void Reset()
@@ -68,14 +65,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_RESET_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinaryWithoutNew(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventRow* a2)
+		static ::System::Void FromBinaryWithoutNew(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleEventRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleEventRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_FROMBINARYWITHOUTNEW_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleEventRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::BattleEventRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleEventRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BattleEventRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_FROMBINARY_OFFSET))(a1, a2);
 		}
 
 		::System::String* get_Prefab()
@@ -122,5 +119,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::BattleEventDataRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEEVENTROW_GET__EXPANDEDDATAROW_OFFSET))(this);
 		}
+
 	};
 }

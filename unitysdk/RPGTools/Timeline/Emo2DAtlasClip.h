@@ -1,32 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Emo2DAtlasConfig.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8401D0)
-#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8401C0)
-#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE840360)
+#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DE380)
+#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DE510)
+#define RPGTOOLS_TIMELINE_EMO2DATLASCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8DE370)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int Emo2DAtlasClip_TypeDefinitionIndex = 48546;
-
 	class Emo2DAtlasClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* CharacterUniqueName; // 0x18
 		::System::Boolean ChangeEyeWithBlinking; // 0x20
+		::System::Byte _padding0[0x3];
 		::RPG::Client::Emo2DAtlasConfig Config; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -38,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

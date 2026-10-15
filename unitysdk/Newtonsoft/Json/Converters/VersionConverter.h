@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonConverter.h"
-
 namespace Newtonsoft::Json { class JsonReader; }
 namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1BE75F70)
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1BE75C30)
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1BE75A20)
-#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE75FB0)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CANCONVERT_OFFSET UNITYSDK_OFFSET(0x1C381C20)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C381C60)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_READJSON_OFFSET UNITYSDK_OFFSET(0x1C3818E0)
+#define NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_WRITEJSON_OFFSET UNITYSDK_OFFSET(0x1C3816D0)
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int VersionConverter_TypeDefinitionIndex = 9764;
-
 	class VersionConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void WriteJson(::Newtonsoft::Json::JsonWriter* a1, ::System::Object* a2, ::Newtonsoft::Json::JsonSerializer* a3)
@@ -39,5 +36,6 @@ namespace Newtonsoft::Json::Converters
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_CONVERTERS_VERSIONCONVERTER_CANCONVERT_OFFSET))(this, a1);
 		}
+
 	};
 }

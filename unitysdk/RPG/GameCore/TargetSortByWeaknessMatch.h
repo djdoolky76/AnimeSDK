@@ -1,50 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TargetSortByWeaknessMatch; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_7580DB8B4A4B40DE_OFFSET UNITYSDK_OFFSET(0x1D5BBFC0)
-#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_EB054EE9DAD10D7E_OFFSET UNITYSDK_OFFSET(0x1D5BC020)
-#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_F1D3434D68917F85_OFFSET UNITYSDK_OFFSET(0x1D5BC190)
-#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_F91A1490DDD7AEE1_OFFSET UNITYSDK_OFFSET(0x1D5BC140)
-#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BC010)
+#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB73660)
+#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB737E0)
+#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB73790)
+#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB73670)
+#define RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB73610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSortByWeaknessMatch_TypeDefinitionIndex = 23718;
-
 	class TargetSortByWeaknessMatch : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* Defenders; // 0x10
 		::System::Boolean MatchFirst; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7580DB8B4A4B40DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByWeaknessMatch*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortByWeaknessMatch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByWeaknessMatch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_7580DB8B4A4B40DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortByWeaknessMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EB054EE9DAD10D7E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByWeaknessMatch* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortByWeaknessMatch* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByWeaknessMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_EB054EE9DAD10D7E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortByWeaknessMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F91A1490DDD7AEE1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByWeaknessMatch*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByWeaknessMatch* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByWeaknessMatch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_F91A1490DDD7AEE1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByWeaknessMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F1D3434D68917F85(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByWeaknessMatch* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByWeaknessMatch* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByWeaknessMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_METHOD_3_F1D3434D68917F85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByWeaknessMatch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYWEAKNESSMATCH_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

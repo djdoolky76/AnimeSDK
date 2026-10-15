@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Google::Protobuf { class ByteString; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCD617B0)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCD61810)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCD617A0)
-#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCD61730)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCCB2810)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCB2790)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCCB2870)
+#define RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCCB2800)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int OnOnGeneralRspDelegate_TypeDefinitionIndex = 75657;
-
 	class OnOnGeneralRspDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::UInt32 a1, ::Google::Protobuf::ByteString* a2)
@@ -38,5 +35,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_ONONGENERALRSPDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

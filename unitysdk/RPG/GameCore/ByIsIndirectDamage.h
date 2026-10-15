@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsIndirectDamage; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_32E32D93404A207A_OFFSET UNITYSDK_OFFSET(0x1CF41E80)
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_3DBB2CEA387AA667_OFFSET UNITYSDK_OFFSET(0x1CF41E50)
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_8C859060DC125E4E_OFFSET UNITYSDK_OFFSET(0x1CF41CD0)
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_FDB08BD1D5BD820D_OFFSET UNITYSDK_OFFSET(0x1CF41D10)
-#define RPG_GAMECORE_BYISINDIRECTDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF41D00)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51B050)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D51B1D0)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D51B1A0)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51B060)
+#define RPG_GAMECORE_BYISINDIRECTDAMAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51B020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsIndirectDamage_TypeDefinitionIndex = 23227;
-
 	class ByIsIndirectDamage : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_8C859060DC125E4E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsIndirectDamage*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsIndirectDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_8C859060DC125E4E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FDB08BD1D5BD820D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_FDB08BD1D5BD820D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3DBB2CEA387AA667(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsIndirectDamage*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsIndirectDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_3DBB2CEA387AA667_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_32E32D93404A207A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsIndirectDamage* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_METHOD_4_32E32D93404A207A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsIndirectDamage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINDIRECTDAMAGE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

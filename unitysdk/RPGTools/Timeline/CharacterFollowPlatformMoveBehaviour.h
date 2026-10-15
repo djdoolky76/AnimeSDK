@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPGTools::Timeline { class CharacterFollowPlatformMoveClip; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE82A660)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE82A680)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE82A670)
-#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE82A750)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C8520)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8C8430)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8C8450)
+#define RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xE8C8440)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFollowPlatformMoveBehaviour_TypeDefinitionIndex = 48416;
-
 	class CharacterFollowPlatformMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::CharacterFollowPlatformMoveClip* _Clip_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::RPGTools::Timeline::CharacterFollowPlatformMoveClip* get_Clip()
@@ -39,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERFOLLOWPLATFORMMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

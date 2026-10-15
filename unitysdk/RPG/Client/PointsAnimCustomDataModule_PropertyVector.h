@@ -3,18 +3,15 @@
 #include "unitysdk/RPG/Client/PointsAnimCustomDataModule_ValueMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace RPG::Client::TAUtils { class Vector4AnimationCurve; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_METHOD_1_12CEF1F3F4C83D6A_OFFSET UNITYSDK_OFFSET(0xDBB64B0)
-#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xDBB69C0)
+#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDC00810)
+#define RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_NFJOCMELAAO_OFFSET UNITYSDK_OFFSET(0xDC00300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PointsAnimCustomDataModule_PropertyVector_TypeDefinitionIndex = 70590;
-
 	class PointsAnimCustomDataModule_PropertyVector : public ::System::Object
 	{
 	public:
@@ -23,17 +20,18 @@ namespace RPG::Client
 		::UnityEngine::Vector4 ConstantValue; // 0x1C
 		::UnityEngine::Vector4 ConstantMin; // 0x2C
 		::UnityEngine::Vector4 ConstantMax; // 0x3C
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* RandomList; // 0x50
 		::RPG::Client::TAUtils::Vector4AnimationCurve* Animation; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector4 Method_1_12CEF1F3F4C83D6A()
+		::UnityEngine::Vector4 NFJOCMELAAO()
 		{
-			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_METHOD_1_12CEF1F3F4C83D6A_OFFSET))(this);
+			return ((::UnityEngine::Vector4(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POINTSANIMCUSTOMDATAMODULE_PROPERTYVECTOR_NFJOCMELAAO_OFFSET))(this);
 		}
+
 	};
 }

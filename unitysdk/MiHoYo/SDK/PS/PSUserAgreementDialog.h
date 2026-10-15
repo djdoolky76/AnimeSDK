@@ -2,30 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSDialogBase.h"
 #include "unitysdk/MiHoYo/SDK/PS/PSUserAgreementDialog_DisplayMode.h"
-
+namespace MiHoYo::SDK::PS { class PSUserAgreementDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BA61A40)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BA630B0)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BA630D0)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BA4E340)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BA63090)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BA4BB70)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BA62C50)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA630F0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BF6C0B0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF6D990)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BF6D9B0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF6D9D0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BF57ED0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BF6D970)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BF55700)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BF6D530)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSUserAgreementDialog_TypeDefinitionIndex = 8886;
-
 	class PSUserAgreementDialog : public ::MiHoYo::SDK::PS::PSDialogBase
 	{
 	public:
+		::MiHoYo::SDK::PS::PSUserAgreementDialog_DisplayMode displayMode; // 0xB0
+		::System::Byte _padding0[0x4];
+		::System::Action* OnUserAgreementClicked; // 0xB8
+		::System::Action* OnPrivacyPolicyClicked; // 0xC0
+		::System::Action* OnChildrenPrivacyClicked; // 0xC8
+		::System::Action* OnAgreementCanceled; // 0xD0
+		::System::Action* OnAgreementAccepted; // 0xD8
 		static ::MiHoYo::SDK::PS::PSUserAgreementDialog** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::PS::PSUserAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(PSUserAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x21F50);
+			return (::MiHoYo::SDK::PS::PSUserAgreementDialog**)UnitySDK::FromName("MiHoYo.SDK.PS", "PSUserAgreementDialog")->GetStaticField(0x18310);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* TitlePath; // 0x0
 		// static const ::System::String* ContentPath; // 0x0
@@ -34,16 +39,9 @@ namespace MiHoYo::SDK::PS
 		// static const ::System::String* childrenPrivacyTextPath; // 0x0
 		// static const ::System::String* ChildrenPrivacyBtnPath; // 0x0
 		// static const ::System::String* TipsTextPath; // 0x0
-		::MiHoYo::SDK::PS::PSUserAgreementDialog_DisplayMode displayMode; // 0xB0
-		::System::Action* OnUserAgreementClicked; // 0xB8
-		::System::Action* OnPrivacyPolicyClicked; // 0xC0
-		::System::Action* OnChildrenPrivacyClicked; // 0xC8
-		::System::Action* OnAgreementCanceled; // 0xD0
-		::System::Action* OnAgreementAccepted; // 0xD8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::MiHoYo::SDK::PS::PSUserAgreementDialog_DisplayMode a1)
@@ -80,5 +78,6 @@ namespace MiHoYo::SDK::PS
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG_CONFIRMDIALOG_OFFSET))(this);
 		}
+
 	};
 }

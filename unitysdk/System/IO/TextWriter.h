@@ -1,94 +1,98 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MarshalByRefObject.h"
-
+namespace System { class Action; }
 namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
-namespace System::Text { class Encoding; }
+namespace System::IO { class TextWriter; }
 
-#define SYSTEM_IO_TEXTWRITER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BD64AD0)
-#define SYSTEM_IO_TEXTWRITER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1BD64BB0)
-#define SYSTEM_IO_TEXTWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BD620D0)
-#define SYSTEM_IO_TEXTWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1BD64C90)
-#define SYSTEM_IO_TEXTWRITER_GET_FORMATPROVIDER_OFFSET UNITYSDK_OFFSET(0x1BD64A40)
-#define SYSTEM_IO_TEXTWRITER_GET_INITIALNEWLINE_OFFSET UNITYSDK_OFFSET(0x1BD648F0)
-#define SYSTEM_IO_TEXTWRITER_SYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1BD64CA0)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_1_OFFSET UNITYSDK_OFFSET(0x1BD65690)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_2_OFFSET UNITYSDK_OFFSET(0x1BD65790)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_3_OFFSET UNITYSDK_OFFSET(0x1BD658A0)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_4_OFFSET UNITYSDK_OFFSET(0x1BD65AF0)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_5_OFFSET UNITYSDK_OFFSET(0x1BD65C20)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_6_OFFSET UNITYSDK_OFFSET(0x1BD65D60)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_7_OFFSET UNITYSDK_OFFSET(0x1BD65EB0)
-#define SYSTEM_IO_TEXTWRITER_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1BD65600)
-#define SYSTEM_IO_TEXTWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1BD64ED0)
-#define SYSTEM_IO_TEXTWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1BD64F70)
-#define SYSTEM_IO_TEXTWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x1BD65170)
-#define SYSTEM_IO_TEXTWRITER_WRITE_4_OFFSET UNITYSDK_OFFSET(0x1BD652A0)
-#define SYSTEM_IO_TEXTWRITER_WRITE_5_OFFSET UNITYSDK_OFFSET(0x1BD65380)
-#define SYSTEM_IO_TEXTWRITER_WRITE_6_OFFSET UNITYSDK_OFFSET(0x1BD654B0)
-#define SYSTEM_IO_TEXTWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1BD64EC0)
-#define SYSTEM_IO_TEXTWRITER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD66050)
-#define SYSTEM_IO_TEXTWRITER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD60FA0)
-#define SYSTEM_IO_TEXTWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD64950)
+#define SYSTEM_IO_TEXTWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C271E10)
+#define SYSTEM_IO_TEXTWRITER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1C270890)
+#define SYSTEM_IO_TEXTWRITER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C26CE10)
+#define SYSTEM_IO_TEXTWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C270710)
+#define SYSTEM_IO_TEXTWRITER_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1C270970)
+#define SYSTEM_IO_TEXTWRITER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C26DF40)
+#define SYSTEM_IO_TEXTWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C270A50)
+#define SYSTEM_IO_TEXTWRITER_GET_FORMATPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C270800)
+#define SYSTEM_IO_TEXTWRITER_GET_INITIALNEWLINE_OFFSET UNITYSDK_OFFSET(0x1C2706B0)
+#define SYSTEM_IO_TEXTWRITER_SYNCHRONIZED_OFFSET UNITYSDK_OFFSET(0x1C270A60)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_1_OFFSET UNITYSDK_OFFSET(0x1C271450)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_2_OFFSET UNITYSDK_OFFSET(0x1C271550)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_3_OFFSET UNITYSDK_OFFSET(0x1C271660)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_4_OFFSET UNITYSDK_OFFSET(0x1C2718B0)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_5_OFFSET UNITYSDK_OFFSET(0x1C2719E0)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_6_OFFSET UNITYSDK_OFFSET(0x1C271B20)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_7_OFFSET UNITYSDK_OFFSET(0x1C271C70)
+#define SYSTEM_IO_TEXTWRITER_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1C2713C0)
+#define SYSTEM_IO_TEXTWRITER_WRITE_1_OFFSET UNITYSDK_OFFSET(0x1C270C90)
+#define SYSTEM_IO_TEXTWRITER_WRITE_2_OFFSET UNITYSDK_OFFSET(0x1C270D30)
+#define SYSTEM_IO_TEXTWRITER_WRITE_3_OFFSET UNITYSDK_OFFSET(0x1C270F30)
+#define SYSTEM_IO_TEXTWRITER_WRITE_4_OFFSET UNITYSDK_OFFSET(0x1C271060)
+#define SYSTEM_IO_TEXTWRITER_WRITE_5_OFFSET UNITYSDK_OFFSET(0x1C271140)
+#define SYSTEM_IO_TEXTWRITER_WRITE_6_OFFSET UNITYSDK_OFFSET(0x1C271270)
+#define SYSTEM_IO_TEXTWRITER_WRITE_OFFSET UNITYSDK_OFFSET(0x1C270C80)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int TextWriter_TypeDefinitionIndex = 701;
-
 	class TextWriter : public ::System::MarshalByRefObject
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet__FlushDelegate()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE10);
-		}
-		static ::System::Action_1<::System::Object*>** StaticGet__WriteCharArrayRangeDelegate()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE18);
-		}
-		static ::System::Action_1<::System::Object*>** StaticGet__WriteCharDelegate()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE20);
-		}
-		static ::System::Action_1<::System::Object*>** StaticGet__WriteLineStringDelegate()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE28);
-		}
-		static ::System::Action_1<::System::Object*>** StaticGet__WriteLineCharDelegate()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE30);
-		}
-		static ::System::Action_1<::System::Object*>** StaticGet__WriteStringDelegate()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE38);
-		}
-		static ::System::IO::TextWriter** StaticGet_Null()
-		{
-			return (::System::IO::TextWriter**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE40);
-		}
-		static ::System::Action_1<::System::Object*>** StaticGet__WriteLineCharArrayRangeDelegate()
-		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TextWriter_TypeDefinitionIndex)->GetStaticField(0xCE48);
-		}
 		::Il2CppArray<::System::Char>* CoreNewLine; // 0x18
 		::System::IFormatProvider* InternalFormatProvider; // 0x20
+		static ::System::Action** StaticGet__FlushDelegate()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x160F0);
+		}
+
+		static ::System::Action** StaticGet__WriteCharArrayRangeDelegate()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x160F8);
+		}
+
+		static ::System::Action** StaticGet__WriteCharDelegate()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16100);
+		}
+
+		static ::System::Action** StaticGet__WriteLineStringDelegate()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16108);
+		}
+
+		static ::System::Action** StaticGet__WriteLineCharDelegate()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16110);
+		}
+
+		static ::System::Action** StaticGet__WriteStringDelegate()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16118);
+		}
+
+		static ::System::IO::TextWriter** StaticGet_Null()
+		{
+			return (::System::IO::TextWriter**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16120);
+		}
+
+		static ::System::Action** StaticGet__WriteLineCharArrayRangeDelegate()
+		{
+			return (::System::Action**)UnitySDK::FromName("System.IO", "TextWriter")->GetStaticField(0x16128);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTWRITER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTWRITER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::IFormatProvider* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTWRITER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTWRITER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTWRITER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTWRITER_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* get_InitialNewLine()
@@ -200,5 +204,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + SYSTEM_IO_TEXTWRITER_WRITELINE_7_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

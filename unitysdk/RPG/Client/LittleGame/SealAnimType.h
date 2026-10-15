@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SealAnimType_TypeDefinitionIndex = 40892;
-
 	enum class SealAnimType : ::System::Int32
 	{
 		OnDead = 0,

@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPanelTemplate_TypeDefinitionIndex = 61786;
-
 	struct alignas(8) ActivityPanelTemplate
 	{
 		::System::Type* PanelDataType; // 0x10

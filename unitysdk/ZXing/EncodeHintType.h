@@ -3,8 +3,6 @@
 
 namespace ZXing
 {
-	inline static constexpr unsigned int EncodeHintType_TypeDefinitionIndex = 6990;
-
 	enum class EncodeHintType : ::System::Int32
 	{
 		WIDTH = 0,

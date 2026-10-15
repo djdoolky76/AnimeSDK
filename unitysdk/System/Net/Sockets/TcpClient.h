@@ -2,54 +2,51 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Sockets/AddressFamily.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net::Sockets { class NetworkStream; }
 namespace System::Net::Sockets { class Socket; }
 
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_BEGINCONNECT_OFFSET UNITYSDK_OFFSET(0x1E9C34D0)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1E9C3660)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1E9C36E0)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E9C3760)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_ENDCONNECT_OFFSET UNITYSDK_OFFSET(0x1E9C34F0)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1E9C3A10)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_GETSTREAM_OFFSET UNITYSDK_OFFSET(0x1E9C3520)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_GET_CLIENT_OFFSET UNITYSDK_OFFSET(0x1E9C3490)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_GET_CONNECTED_OFFSET UNITYSDK_OFFSET(0x1E9C34B0)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1E9C3420)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT_SET_CLIENT_OFFSET UNITYSDK_OFFSET(0x1E9C34A0)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9C3300)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E9C3480)
-#define SYSTEM_NET_SOCKETS_TCPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C3260)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_BEGINCONNECT_OFFSET UNITYSDK_OFFSET(0x1F08B410)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1F08B5A0)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F08B270)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F08B3C0)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08B200)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1F08B620)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F08B6A0)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_ENDCONNECT_OFFSET UNITYSDK_OFFSET(0x1F08B430)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F08B920)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_GETSTREAM_OFFSET UNITYSDK_OFFSET(0x1F08B460)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_GET_CLIENT_OFFSET UNITYSDK_OFFSET(0x1F08B3D0)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_GET_CONNECTED_OFFSET UNITYSDK_OFFSET(0x1F08B3F0)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1F08B370)
+#define SYSTEM_NET_SOCKETS_TCPCLIENT_SET_CLIENT_OFFSET UNITYSDK_OFFSET(0x1F08B3E0)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int TcpClient_TypeDefinitionIndex = 2914;
-
 	class TcpClient : public ::System::Object
 	{
 	public:
 		::System::Net::Sockets::NetworkStream* m_DataStream; // 0x10
 		::System::Net::Sockets::Socket* m_ClientSocket; // 0x18
-		::System::Boolean m_CleanedUp; // 0x20
-		::System::Boolean m_Active; // 0x21
-		::System::Net::Sockets::AddressFamily m_Family; // 0x24
-
+		::System::Net::Sockets::AddressFamily m_Family; // 0x20
+		::System::Boolean m_Active; // 0x24
+		::System::Boolean m_CleanedUp; // 0x25
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPCLIENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPCLIENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Net::Sockets::AddressFamily a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::AddressFamily))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPCLIENT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::AddressFamily))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPCLIENT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Net::Sockets::Socket* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPCLIENT__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::Socket*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPCLIENT_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Net::Sockets::Socket* get_Client()
@@ -106,5 +103,6 @@ namespace System::Net::Sockets
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_TCPCLIENT_INITIALIZE_OFFSET))(this);
 		}
+
 	};
 }

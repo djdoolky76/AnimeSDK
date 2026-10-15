@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Threading/StackCrawlMark.h"
 #include "unitysdk/System/Threading/Tasks/AwaitTaskContinuation.h"
-
+#include "unitysdk/System/Threading/StackCrawlMark.h"
 namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Threading { class ContextCallback; }
@@ -10,37 +9,36 @@ namespace System::Threading { class SendOrPostCallback; }
 namespace System::Threading { class SynchronizationContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_GETPOSTACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC43F50)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_POSTACTION_OFFSET UNITYSDK_OFFSET(0x1BC43E60)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1BC43C30)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC44010)
-#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC43BE0)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C150160)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C14FD40)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_GETPOSTACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C1500A0)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_POSTACTION_OFFSET UNITYSDK_OFFSET(0x1C14FFB0)
+#define SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1C14FD90)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int SynchronizationContextAwaitTaskContinuation_TypeDefinitionIndex = 921;
-
 	class SynchronizationContextAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation
 	{
 	public:
-		static ::System::Threading::ContextCallback** StaticGet_s_postActionCallback()
-		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation_TypeDefinitionIndex)->GetStaticField(0x135F0);
-		}
+		::System::Threading::SynchronizationContext* m_syncContext; // 0x20
 		static ::System::Threading::SendOrPostCallback** StaticGet_s_postCallback()
 		{
-			return (::System::Threading::SendOrPostCallback**)Il2CppClass::FromTypeDefinitionIndex(SynchronizationContextAwaitTaskContinuation_TypeDefinitionIndex)->GetStaticField(0x135F8);
+			return (::System::Threading::SendOrPostCallback**)UnitySDK::FromName("System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation")->GetStaticField(0x20680);
 		}
-		::System::Threading::SynchronizationContext* m_syncContext; // 0x20
 
-		::System::Void _ctor(::System::Threading::SynchronizationContext* a1, ::System::Action* a2, ::System::Boolean a3, ::System::Threading::StackCrawlMark& a4)
+		static ::System::Threading::ContextCallback** StaticGet_s_postActionCallback()
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::SynchronizationContext*, ::System::Action*, ::System::Boolean, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation")->GetStaticField(0x20688);
+		}
+
+		::System::Void _ctor(::System::Threading::SynchronizationContext* a1, ::System::Action* a2, ::System::Boolean a3, ::System::Threading::StackCrawlMark a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Threading::SynchronizationContext*, ::System::Action*, ::System::Boolean, ::System::Threading::StackCrawlMark))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_CCTOR_OFFSET))();
 		}
 
 		::System::Void Run(::System::Threading::Tasks::Task* a1, ::System::Boolean a2)
@@ -57,5 +55,6 @@ namespace System::Threading::Tasks
 		{
 			return ((::System::Threading::ContextCallback*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_SYNCHRONIZATIONCONTEXTAWAITTASKCONTINUATION_GETPOSTACTIONCALLBACK_OFFSET))();
 		}
+
 	};
 }

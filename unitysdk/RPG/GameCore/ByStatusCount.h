@@ -3,22 +3,20 @@
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/EnumStatusType.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByStatusCount; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_0A85B371B0FAC072_OFFSET UNITYSDK_OFFSET(0x1CF5DCE0)
-#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_BD17854D11E1AD7C_OFFSET UNITYSDK_OFFSET(0x1CF5DD20)
-#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_DA9407CFDE88B9E3_OFFSET UNITYSDK_OFFSET(0x1CF5DA20)
-#define RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_DE032D9922A48C70_OFFSET UNITYSDK_OFFSET(0x1CF5DA70)
-#define RPG_GAMECORE_BYSTATUSCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF5DA60)
+#define RPG_GAMECORE_BYSTATUSCOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5373F0)
+#define RPG_GAMECORE_BYSTATUSCOUNT_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D5376B0)
+#define RPG_GAMECORE_BYSTATUSCOUNT_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D537670)
+#define RPG_GAMECORE_BYSTATUSCOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D537400)
+#define RPG_GAMECORE_BYSTATUSCOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5373B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByStatusCount_TypeDefinitionIndex = 22310;
-
 	class ByStatusCount : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
@@ -26,30 +24,30 @@ namespace RPG::GameCore
 		::RPG::GameCore::EnumStatusType StatusType; // 0x28
 		::RPG::GameCore::CompareType CompareType; // 0x2C
 		::RPG::GameCore::DynamicFloat* CompareValue; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DA9407CFDE88B9E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByStatusCount*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByStatusCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByStatusCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_DA9407CFDE88B9E3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DE032D9922A48C70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByStatusCount* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByStatusCount* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_DE032D9922A48C70_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0A85B371B0FAC072(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByStatusCount*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByStatusCount* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByStatusCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_0A85B371B0FAC072_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_BD17854D11E1AD7C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByStatusCount* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByStatusCount* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_METHOD_4_BD17854D11E1AD7C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByStatusCount*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYSTATUSCOUNT_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

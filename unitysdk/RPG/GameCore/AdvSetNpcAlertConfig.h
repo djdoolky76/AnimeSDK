@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvSetNpcAlertConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETNPCALERTCONFIG_METHOD_3_BE9D76154476F829_OFFSET UNITYSDK_OFFSET(0x1CDDAB90)
-#define RPG_GAMECORE_ADVSETNPCALERTCONFIG_METHOD_3_E170A8AF3A92C90A_OFFSET UNITYSDK_OFFSET(0x1CDDAAF0)
-#define RPG_GAMECORE_ADVSETNPCALERTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDAB50)
+#define RPG_GAMECORE_ADVSETNPCALERTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B0630)
+#define RPG_GAMECORE_ADVSETNPCALERTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B0670)
+#define RPG_GAMECORE_ADVSETNPCALERTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B05D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetNpcAlertConfig_TypeDefinitionIndex = 20106;
-
 	class AdvSetNpcAlertConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Boolean AlertSystemEnable; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single AlertLimitMin; // 0x24
 		::System::Single AlertLimitMax; // 0x28
 		::System::Single AlertGuardLimitMin; // 0x2C
@@ -25,20 +24,20 @@ namespace RPG::GameCore
 		::System::Single AlertDeclineSpeed; // 0x34
 		::System::Single AlertDeclineProtectTime; // 0x38
 		::System::Single AlertUIShowDistance; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCALERTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCALERTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E170A8AF3A92C90A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetNpcAlertConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetNpcAlertConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetNpcAlertConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCALERTCONFIG_METHOD_3_E170A8AF3A92C90A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetNpcAlertConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCALERTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_BE9D76154476F829(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetNpcAlertConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvSetNpcAlertConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetNpcAlertConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCALERTCONFIG_METHOD_3_BE9D76154476F829_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvSetNpcAlertConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCALERTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

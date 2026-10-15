@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SDFSectorCoord_TypeDefinitionIndex = 4261;
-
 	struct alignas(4) SDFSectorCoord
 	{
 		::System::Int32 x; // 0x10

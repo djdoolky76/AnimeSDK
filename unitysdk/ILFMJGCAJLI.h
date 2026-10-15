@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class JFJOPDOIKKC;
+namespace RPG::GameCore { class TaskContext; }
+
+#define ILFMJGCAJLI_CTOR_OFFSET UNITYSDK_OFFSET(0x164B0D70)
+#define ILFMJGCAJLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164B0DA0)
+
+	class ILFMJGCAJLI
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::JFJOPDOIKKC* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::JFJOPDOIKKC*))((::PBYTE)hIl2Cpp + ILFMJGCAJLI_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILFMJGCAJLI_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

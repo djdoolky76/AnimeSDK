@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK::InputSystem { class IMouseService; }
+namespace MiHoYo::SDK::InputSystem { class MouseAdapter; }
 
-#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GETMOUSEBUTTONDOWN_OFFSET UNITYSDK_OFFSET(0x1B6DCF90)
-#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GETMOUSEBUTTONUP_OFFSET UNITYSDK_OFFSET(0x1B6DD740)
-#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GETMOUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1B6DD420)
-#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B6DCBA0)
-#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1B6DF600)
-#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B6DF5F0)
-#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DF5E0)
+#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBDD220)
+#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GETMOUSEBUTTONDOWN_OFFSET UNITYSDK_OFFSET(0x1BBDABD0)
+#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GETMOUSEBUTTONUP_OFFSET UNITYSDK_OFFSET(0x1BBDB380)
+#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GETMOUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BBDB060)
+#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BBDA7E0)
+#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1BBDD240)
+#define MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BBDD230)
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int MouseAdapter_TypeDefinitionIndex = 10084;
-
 	class MouseAdapter : public ::System::Object
 	{
 	public:
+		::MiHoYo::SDK::InputSystem::IMouseService* m_service; // 0x10
 		static ::MiHoYo::SDK::InputSystem::MouseAdapter** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::InputSystem::MouseAdapter**)Il2CppClass::FromTypeDefinitionIndex(MouseAdapter_TypeDefinitionIndex)->GetStaticField(0x740);
+			return (::MiHoYo::SDK::InputSystem::MouseAdapter**)UnitySDK::FromName("MiHoYo.SDK.InputSystem", "MouseAdapter")->GetStaticField(0x730);
 		}
-		::MiHoYo::SDK::InputSystem::IMouseService* m_service; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::InputSystem::MouseAdapter* get_Instance()
@@ -59,5 +57,6 @@ namespace MiHoYo::SDK::InputSystem
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::InputSystem::IMouseService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_MOUSEADAPTER_REGISTERSERVICE_OFFSET))(this, a1);
 		}
+
 	};
 }

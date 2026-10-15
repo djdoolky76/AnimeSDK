@@ -2,14 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ChronicleConnectionPointType.h"
 #include "unitysdk/RPG/GameCore/ChronicleLineType.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client { class MissionChronicleSubPathData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SubChronicleConnectionWay_TypeDefinitionIndex = 66141;
-
 	struct alignas(8) SubChronicleConnectionWay
 	{
 		::System::UInt32 ID; // 0x10

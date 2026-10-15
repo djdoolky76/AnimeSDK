@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueParameterConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueParamRogueStyleGiftCountConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_METHOD_6_755621183930E1E7_OFFSET UNITYSDK_OFFSET(0x1D40D670)
-#define RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_METHOD_6_F90193FA2265D263_OFFSET UNITYSDK_OFFSET(0x1D40D620)
-#define RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D40D660)
+#define RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2B360)
+#define RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA2B370)
+#define RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2B320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueParamRogueStyleGiftCountConfig_TypeDefinitionIndex = 19625;
-
 	class RogueParamRogueStyleGiftCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_F90193FA2265D263(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_METHOD_6_F90193FA2265D263_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_755621183930E1E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_METHOD_6_755621183930E1E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueParamRogueStyleGiftCountConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEPARAMROGUESTYLEGIFTCOUNTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

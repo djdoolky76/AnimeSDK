@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define INCONTROL_DEADZONEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B4E7EB0)
-#define INCONTROL_DEADZONEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B4E7F60)
-#define INCONTROL_DEADZONEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B4E7E80)
-#define INCONTROL_DEADZONEFUNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E7E10)
+#define INCONTROL_DEADZONEFUNC_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9E6830)
+#define INCONTROL_DEADZONEFUNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E6790)
+#define INCONTROL_DEADZONEFUNC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B9E68E0)
+#define INCONTROL_DEADZONEFUNC_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9E6800)
 
 namespace InControl
 {
-	inline static constexpr unsigned int DeadZoneFunc_TypeDefinitionIndex = 39520;
-
 	class DeadZoneFunc : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + INCONTROL_DEADZONEFUNC__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + INCONTROL_DEADZONEFUNC_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Vector2 Invoke(::System::Single a1, ::System::Single a2, ::System::Single a3, ::System::Single a4)
@@ -38,5 +35,6 @@ namespace InControl
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + INCONTROL_DEADZONEFUNC_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

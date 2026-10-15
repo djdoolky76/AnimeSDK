@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_CINEMACHINEEMBEDDEDASSETPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x16458D80)
+#define CINEMACHINE_CINEMACHINEEMBEDDEDASSETPROPERTYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1667FAB0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineEmbeddedAssetPropertyAttribute_TypeDefinitionIndex = 38534;
-
 	class CinemachineEmbeddedAssetPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:
 		::System::Boolean WarnIfNull; // 0x10
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEMBEDDEDASSETPROPERTYATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINEEMBEDDEDASSETPROPERTYATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,20 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphValueRecord.h"
 
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHADJUSTMENTRECORD_GET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x5F00)
-#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHADJUSTMENTRECORD_GET_GLYPHVALUERECORD_OFFSET UNITYSDK_OFFSET(0x2E25E80)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHADJUSTMENTRECORD_GET_GLYPHINDEX_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHADJUSTMENTRECORD_GET_GLYPHVALUERECORD_OFFSET UNITYSDK_OFFSET(0xECE50)
 
 namespace UnityEngine::TextCore::LowLevel
 {
-	inline static constexpr unsigned int GlyphAdjustmentRecord_TypeDefinitionIndex = 5836;
-
 	struct alignas(4) GlyphAdjustmentRecord
 	{
 		::System::UInt32 m_GlyphIndex; // 0x10
 		::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord; // 0x14
-
 		::System::UInt32 get_glyphIndex()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHADJUSTMENTRECORD_GET_GLYPHINDEX_OFFSET))(this);
@@ -24,5 +20,6 @@ namespace UnityEngine::TextCore::LowLevel
 		{
 			return ((::UnityEngine::TextCore::LowLevel::GlyphValueRecord(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TEXTCORE_LOWLEVEL_GLYPHADJUSTMENTRECORD_GET_GLYPHVALUERECORD_OFFSET))(this);
 		}
+
 	};
 }

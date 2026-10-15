@@ -1,40 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE814FA0)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE814F80)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE814F90)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_GET_ISPLAYERINVOLVED_OFFSET UNITYSDK_OFFSET(0xE814F60)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_SET_ISPLAYERINVOLVED_OFFSET UNITYSDK_OFFSET(0xE814F70)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE815120)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B2880)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B2A00)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B2860)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xE8B2870)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_GET_ISPLAYERINVOLVED_OFFSET UNITYSDK_OFFSET(0xE8B2840)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_SET_ISPLAYERINVOLVED_OFFSET UNITYSDK_OFFSET(0xE8B2850)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseEventTimelineClip_TypeDefinitionIndex = 49284;
-
 	class WwiseEventTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean DialogueAudio; // 0x18
 		::System::Boolean UseExternalSource; // 0x19
 		::System::Boolean ClearOnSkip; // 0x1A
+		::System::Byte _padding0[0x5];
 		::System::String* EventName; // 0x20
 		::System::String* ExternalSourceName; // 0x28
 		::System::Boolean IsExternalSourceVO; // 0x30
+		::System::Byte _padding1[0x3];
 		::System::UInt32 DialogueStoryID; // 0x34
 		::System::Boolean _IsPlayerInvolved_k__BackingField; // 0x38
+		::System::Byte _padding2[0x7];
 		::System::Double _AudioDuration; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsPlayerInvolved()
@@ -61,5 +60,6 @@ namespace RPGTools::Timeline::Audio
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEVENTTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

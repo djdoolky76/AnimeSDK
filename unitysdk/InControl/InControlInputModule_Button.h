@@ -3,8 +3,6 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlInputModule_Button_TypeDefinitionIndex = 39557;
-
 	enum class InControlInputModule_Button : ::System::Int32
 	{
 		Action1 = 20,

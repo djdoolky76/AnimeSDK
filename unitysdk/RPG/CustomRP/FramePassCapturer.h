@@ -5,53 +5,52 @@
 #include "unitysdk/RPG/CustomRP/FramePassCapturer_CaptureTarget.h"
 #include "unitysdk/RPG/CustomRP/QACaptureData.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/Unity/Collections/NativeArray_1.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_CAPTUREFRAMEANDPARAMS_OFFSET UNITYSDK_OFFSET(0x1C6AC430)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_CAPTUREDDATA_OFFSET UNITYSDK_OFFSET(0x1C6AC3D0)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_CPPCAPTUREDDATA_OFFSET UNITYSDK_OFFSET(0x1C6AC420)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_ISCAPTUREENDED_OFFSET UNITYSDK_OFFSET(0x1C6AC3C0)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_QACAPTUREDDATA_OFFSET UNITYSDK_OFFSET(0x1C6AC3F0)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1C6AC490)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_QACAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0x1C6AC4F0)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__CAPTURECB_OFFSET UNITYSDK_OFFSET(0x1C6AC5A0)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6AC3B0)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6AC710)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__LOADIMAGE_OFFSET UNITYSDK_OFFSET(0x1C6AC630)
-#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__STARTCAPTUREFRAMEANDPARAMS_OFFSET UNITYSDK_OFFSET(0x1C6AC540)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_CAPTUREFRAMEANDPARAMS_OFFSET UNITYSDK_OFFSET(0x1CC321F0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC32170)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC324D0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_CAPTUREDDATA_OFFSET UNITYSDK_OFFSET(0x1CC32190)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_CPPCAPTUREDDATA_OFFSET UNITYSDK_OFFSET(0x1CC321E0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_ISCAPTUREENDED_OFFSET UNITYSDK_OFFSET(0x1CC32180)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_GET_QACAPTUREDDATA_OFFSET UNITYSDK_OFFSET(0x1CC321B0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_QACAPTUREALL_OFFSET UNITYSDK_OFFSET(0x1CC32250)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER_QACAPTUREPARAM_OFFSET UNITYSDK_OFFSET(0x1CC322B0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__CAPTURECB_OFFSET UNITYSDK_OFFSET(0x1CC32360)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__LOADIMAGE_OFFSET UNITYSDK_OFFSET(0x1CC323F0)
+#define RPG_CUSTOMRP_FRAMEPASSCAPTURER__STARTCAPTUREFRAMEANDPARAMS_OFFSET UNITYSDK_OFFSET(0x1CC32300)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FramePassCapturer_TypeDefinitionIndex = 36936;
-
 	class FramePassCapturer : public ::System::Object
 	{
 	public:
-		static ::RPG::CustomRP::FramePassCaptureData* StaticGet__captureData()
-		{
-			return (::RPG::CustomRP::FramePassCaptureData*)Il2CppClass::FromTypeDefinitionIndex(FramePassCapturer_TypeDefinitionIndex)->GetStaticField(0x36CB0);
-		}
-		static ::RPG::CustomRP::QACaptureData* StaticGet__qaCaptureData()
-		{
-			return (::RPG::CustomRP::QACaptureData*)Il2CppClass::FromTypeDefinitionIndex(FramePassCapturer_TypeDefinitionIndex)->GetStaticField(0x36CC8);
-		}
 		static ::RPG::CustomRP::CPPCaptureData* StaticGet__cppCaptureData()
 		{
-			return (::RPG::CustomRP::CPPCaptureData*)Il2CppClass::FromTypeDefinitionIndex(FramePassCapturer_TypeDefinitionIndex)->GetStaticField(0x36CF8);
+			return (::RPG::CustomRP::CPPCaptureData*)UnitySDK::FromName("RPG.CustomRP", "FramePassCapturer")->GetStaticField(0x2FCA0);
+		}
+
+		static ::RPG::CustomRP::FramePassCaptureData* StaticGet__captureData()
+		{
+			return (::RPG::CustomRP::FramePassCaptureData*)UnitySDK::FromName("RPG.CustomRP", "FramePassCapturer")->GetStaticField(0x2FCA8);
+		}
+
+		static ::RPG::CustomRP::QACaptureData* StaticGet__qaCaptureData()
+		{
+			return (::RPG::CustomRP::QACaptureData*)UnitySDK::FromName("RPG.CustomRP", "FramePassCapturer")->GetStaticField(0x2FCC0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean get_IsCaptureEnded()
@@ -94,14 +93,15 @@ namespace RPG::CustomRP
 			return ((::System::Collections::IEnumerator*(*)(::RPG::CustomRP::FramePassCapturer_CaptureTarget, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER__STARTCAPTUREFRAMEANDPARAMS_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void _CaptureCb(::Unity::Collections::NativeArray_1<::System::Byte>& a1, ::System::String* a2)
+		static ::System::Void _CaptureCb(::System::Object* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::Unity::Collections::NativeArray_1<::System::Byte>&, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER__CAPTURECB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER__CAPTURECB_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::Texture2D* _LoadImage(::System::String* a1)
 		{
 			return ((::UnityEngine::Texture2D*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_FRAMEPASSCAPTURER__LOADIMAGE_OFFSET))(a1);
 		}
+
 	};
 }

@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class ChessRogueAeonDiceDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHESSROGUEDICEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCBA2D40)
-#define RPG_CLIENT_CHESSROGUEDICEDATA_GETAEONDICEDATAITEM_OFFSET UNITYSDK_OFFSET(0xCBA2F70)
-#define RPG_CLIENT_CHESSROGUEDICEDATA_GET_CHESSROGUEAEONDICEDATADICT_OFFSET UNITYSDK_OFFSET(0xCBA3030)
-#define RPG_CLIENT_CHESSROGUEDICEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xCBA2B00)
-#define RPG_CLIENT_CHESSROGUEDICEDATA_SET_CHESSROGUEAEONDICEDATADICT_OFFSET UNITYSDK_OFFSET(0xCBA3040)
-#define RPG_CLIENT_CHESSROGUEDICEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA3050)
+#define RPG_CLIENT_CHESSROGUEDICEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCAF2BD0)
+#define RPG_CLIENT_CHESSROGUEDICEDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCAF28C0)
+#define RPG_CLIENT_CHESSROGUEDICEDATA_GETAEONDICEDATAITEM_OFFSET UNITYSDK_OFFSET(0xCAF2AF0)
+#define RPG_CLIENT_CHESSROGUEDICEDATA_GET_CHESSROGUEAEONDICEDATADICT_OFFSET UNITYSDK_OFFSET(0xCAF2BB0)
+#define RPG_CLIENT_CHESSROGUEDICEDATA_INIT_OFFSET UNITYSDK_OFFSET(0xCAF2680)
+#define RPG_CLIENT_CHESSROGUEDICEDATA_SET_CHESSROGUEAEONDICEDATADICT_OFFSET UNITYSDK_OFFSET(0xCAF2BC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueDiceData_TypeDefinitionIndex = 66937;
-
 	class ChessRogueDiceData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChessRogueAeonDiceDataItem*>* _ChessRogueAeonDiceDataDict_k__BackingField; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEDICEDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEDICEDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init()
@@ -50,5 +46,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChessRogueAeonDiceDataItem*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHESSROGUEDICEDATA_SET_CHESSROGUEAEONDICEDATADICT_OFFSET))(this, a1);
 		}
+
 	};
 }

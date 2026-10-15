@@ -1,70 +1,73 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/RPGTools/RUsage.h"
 #include "unitysdk/RPGTools/TaskVmInfo.h"
-#include "unitysdk/System/Object.h"
-
 namespace System { template <typename T> class Func_1; }
-namespace System::Threading::Tasks { template <typename T> class Task_1; }
+namespace System::Threading::Tasks { class Task; }
 
-#define RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZEIMPL_OFFSET UNITYSDK_OFFSET(0xB2E41F0)
-#define RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0xB2E4280)
-#define RPGTOOLS_DEVICEMEMORY_GETAPPMEMORYINKB_OFFSET UNITYSDK_OFFSET(0xB2E4110)
-#define RPGTOOLS_DEVICEMEMORY_GETAPPMEMORY_OFFSET UNITYSDK_OFFSET(0xB2DFBC0)
-#define RPGTOOLS_DEVICEMEMORY_GETCOMPRESSEDMEM_OFFSET UNITYSDK_OFFSET(0xB2E40C0)
-#define RPGTOOLS_DEVICEMEMORY_GETEXTERNALMEM_OFFSET UNITYSDK_OFFSET(0xB2E40A0)
-#define RPGTOOLS_DEVICEMEMORY_GETINTERNALMEM_OFFSET UNITYSDK_OFFSET(0xB2E4090)
-#define RPGTOOLS_DEVICEMEMORY_GETOOMADJ_OFFSET UNITYSDK_OFFSET(0xB2E4300)
-#define RPGTOOLS_DEVICEMEMORY_GETOOMSCOREADJ_OFFSET UNITYSDK_OFFSET(0xB2E4330)
-#define RPGTOOLS_DEVICEMEMORY_GETOOMSCORE_OFFSET UNITYSDK_OFFSET(0xB2E42D0)
-#define RPGTOOLS_DEVICEMEMORY_GETPHYSFOOTPRINTMEM_OFFSET UNITYSDK_OFFSET(0xB2E1AB0)
-#define RPGTOOLS_DEVICEMEMORY_GETPURGEABLEVOLATILEMEM_OFFSET UNITYSDK_OFFSET(0xB2E40D0)
-#define RPGTOOLS_DEVICEMEMORY_GETRESIDENTMEM_OFFSET UNITYSDK_OFFSET(0xB2E40B0)
-#define RPGTOOLS_DEVICEMEMORY_GETRUSAGE_OFFSET UNITYSDK_OFFSET(0xB2E40E0)
-#define RPGTOOLS_DEVICEMEMORY_GETTASKVMINFO_OFFSET UNITYSDK_OFFSET(0xB2E4360)
-#define RPGTOOLS_DEVICEMEMORY_SETGCFREESPACEDIVISOR_OFFSET UNITYSDK_OFFSET(0xB2E41E0)
-#define RPGTOOLS_DEVICEMEMORY_UPDATEIOSVMINFO_OFFSET UNITYSDK_OFFSET(0xB2E41D0)
-#define RPGTOOLS_DEVICEMEMORY__CCTOR_OFFSET UNITYSDK_OFFSET(0xB2E4390)
+#define RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZEIMPL_OFFSET UNITYSDK_OFFSET(0xB0842F0)
+#define RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0xB084380)
+#define RPGTOOLS_DEVICEMEMORY_CCTOR_OFFSET UNITYSDK_OFFSET(0xB084490)
+#define RPGTOOLS_DEVICEMEMORY_GETAPPMEMORYINKB_OFFSET UNITYSDK_OFFSET(0xB084210)
+#define RPGTOOLS_DEVICEMEMORY_GETAPPMEMORY_OFFSET UNITYSDK_OFFSET(0xB07FA70)
+#define RPGTOOLS_DEVICEMEMORY_GETCOMPRESSEDMEM_OFFSET UNITYSDK_OFFSET(0xB0841C0)
+#define RPGTOOLS_DEVICEMEMORY_GETEXTERNALMEM_OFFSET UNITYSDK_OFFSET(0xB0841A0)
+#define RPGTOOLS_DEVICEMEMORY_GETINTERNALMEM_OFFSET UNITYSDK_OFFSET(0xB084190)
+#define RPGTOOLS_DEVICEMEMORY_GETOOMADJ_OFFSET UNITYSDK_OFFSET(0xB084400)
+#define RPGTOOLS_DEVICEMEMORY_GETOOMSCOREADJ_OFFSET UNITYSDK_OFFSET(0xB084430)
+#define RPGTOOLS_DEVICEMEMORY_GETOOMSCORE_OFFSET UNITYSDK_OFFSET(0xB0843D0)
+#define RPGTOOLS_DEVICEMEMORY_GETPHYSFOOTPRINTMEM_OFFSET UNITYSDK_OFFSET(0xB081B40)
+#define RPGTOOLS_DEVICEMEMORY_GETPURGEABLEVOLATILEMEM_OFFSET UNITYSDK_OFFSET(0xB0841D0)
+#define RPGTOOLS_DEVICEMEMORY_GETRESIDENTMEM_OFFSET UNITYSDK_OFFSET(0xB0841B0)
+#define RPGTOOLS_DEVICEMEMORY_GETRUSAGE_OFFSET UNITYSDK_OFFSET(0xB0841E0)
+#define RPGTOOLS_DEVICEMEMORY_GETTASKVMINFO_OFFSET UNITYSDK_OFFSET(0xB084460)
+#define RPGTOOLS_DEVICEMEMORY_SETGCFREESPACEDIVISOR_OFFSET UNITYSDK_OFFSET(0xB0842E0)
+#define RPGTOOLS_DEVICEMEMORY_UPDATEIOSVMINFO_OFFSET UNITYSDK_OFFSET(0xB0842D0)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceMemory_TypeDefinitionIndex = 47387;
-
 	class DeviceMemory : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::Int32>** StaticGet__asyncGetMemoryDelegate()
 		{
-			return (::System::Func_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(DeviceMemory_TypeDefinitionIndex)->GetStaticField(0x5DD30);
+			return (::System::Func_1<::System::Int32>**)UnitySDK::FromName("RPGTools", "DeviceMemory")->GetStaticField(0x39D00);
 		}
+
 		static ::System::Int32* StaticGet_oom_score_adj()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeviceMemory_TypeDefinitionIndex)->GetStaticField(0x13360);
+			return (::System::Int32*)UnitySDK::FromName("RPGTools", "DeviceMemory")->GetStaticField(0xC510);
 		}
-		static ::System::Int32* StaticGet_currentFrame()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeviceMemory_TypeDefinitionIndex)->GetStaticField(0x13364);
-		}
+
 		static ::System::Int32* StaticGet_GetMode()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeviceMemory_TypeDefinitionIndex)->GetStaticField(0x13368);
+			return (::System::Int32*)UnitySDK::FromName("RPGTools", "DeviceMemory")->GetStaticField(0xC514);
 		}
-		static ::System::Int32* StaticGet_oom_score()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeviceMemory_TypeDefinitionIndex)->GetStaticField(0x1336C);
-		}
-		static ::System::Int32* StaticGet_oom_adj()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(DeviceMemory_TypeDefinitionIndex)->GetStaticField(0x13370);
-		}
+
 		static ::System::Boolean* StaticGet_DisableRecordMemory()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DeviceMemory_TypeDefinitionIndex)->GetStaticField(0x13374);
+			return (::System::Boolean*)UnitySDK::FromName("RPGTools", "DeviceMemory")->GetStaticField(0xC518);
+		}
+
+		static ::System::Int32* StaticGet_oom_adj()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools", "DeviceMemory")->GetStaticField(0xC51C);
+		}
+
+		static ::System::Int32* StaticGet_oom_score()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools", "DeviceMemory")->GetStaticField(0xC520);
+		}
+
+		static ::System::Int32* StaticGet_currentFrame()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools", "DeviceMemory")->GetStaticField(0xC524);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int32 GetInternalMem(::System::Int32 a1)
@@ -127,9 +130,9 @@ namespace RPGTools
 			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZEIMPL_OFFSET))();
 		}
 
-		static ::System::Threading::Tasks::Task_1<::System::Int32>* AsyncGetMemorySize()
+		static ::System::Threading::Tasks::Task* AsyncGetMemorySize()
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZE_OFFSET))();
+			return ((::System::Threading::Tasks::Task*(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_ASYNCGETMEMORYSIZE_OFFSET))();
 		}
 
 		static ::System::Int32 GetOomScore(::System::Int32 a1)
@@ -151,5 +154,6 @@ namespace RPGTools
 		{
 			return ((::RPGTools::TaskVmInfo(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + RPGTOOLS_DEVICEMEMORY_GETTASKVMINFO_OFFSET))(a1);
 		}
+
 	};
 }

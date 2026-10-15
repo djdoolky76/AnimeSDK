@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1BB227F0)
-#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_KEY_OFFSET UNITYSDK_OFFSET(0x1BB21380)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_GET_RNG_OFFSET UNITYSDK_OFFSET(0x1C0748D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_IV_OFFSET UNITYSDK_OFFSET(0x1C074920)
+#define MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_KEY_OFFSET UNITYSDK_OFFSET(0x1C070D30)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int KeyBuilder_TypeDefinitionIndex = 2301;
-
 	class KeyBuilder : public ::System::Object
 	{
 	public:
 		static ::System::Security::Cryptography::RandomNumberGenerator** StaticGet_rng()
 		{
-			return (::System::Security::Cryptography::RandomNumberGenerator**)Il2CppClass::FromTypeDefinitionIndex(KeyBuilder_TypeDefinitionIndex)->GetStaticField(0x2BD40);
+			return (::System::Security::Cryptography::RandomNumberGenerator**)UnitySDK::FromName("Mono.Security.Cryptography", "KeyBuilder")->GetStaticField(0xB130);
 		}
 
 		static ::System::Security::Cryptography::RandomNumberGenerator* get_Rng()
@@ -28,5 +26,11 @@ namespace Mono::Security::Cryptography
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_KEY_OFFSET))(a1);
 		}
+
+		static ::Il2CppArray<::System::Byte>* IV(::System::Int32 a1)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_KEYBUILDER_IV_OFFSET))(a1);
+		}
+
 	};
 }

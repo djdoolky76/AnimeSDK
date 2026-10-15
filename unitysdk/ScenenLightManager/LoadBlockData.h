@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace ScenenLightManager { class LoadBlockData; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_LOADBLOCKDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0xE910250)
-#define SCENENLIGHTMANAGER_LOADBLOCKDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE9102F0)
-#define SCENENLIGHTMANAGER_LOADBLOCKDATA_METHOD_1_277FDD755CB452A1_OFFSET UNITYSDK_OFFSET(0xE910200)
-#define SCENENLIGHTMANAGER_LOADBLOCKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE9101F0)
+#define SCENENLIGHTMANAGER_LOADBLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE965D20)
+#define SCENENLIGHTMANAGER_LOADBLOCKDATA_EQUALS_OFFSET UNITYSDK_OFFSET(0xE965D80)
+#define SCENENLIGHTMANAGER_LOADBLOCKDATA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE965E20)
+#define SCENENLIGHTMANAGER_LOADBLOCKDATA_GJMBIPMKLHP_OFFSET UNITYSDK_OFFSET(0xE965D30)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LoadBlockData_TypeDefinitionIndex = 49582;
-
 	class LoadBlockData : public ::System::Object
 	{
 	public:
 		::System::String* name; // 0x10
 		::System::Int32 id; // 0x18
-
 		::System::Void _ctor(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LOADBLOCKDATA__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LOADBLOCKDATA_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean Method_1_277FDD755CB452A1(::ScenenLightManager::LoadBlockData* a1)
+		::System::Boolean GJMBIPMKLHP(::ScenenLightManager::LoadBlockData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LoadBlockData*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LOADBLOCKDATA_METHOD_1_277FDD755CB452A1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::ScenenLightManager::LoadBlockData*))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LOADBLOCKDATA_GJMBIPMKLHP_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -38,5 +36,6 @@ namespace ScenenLightManager
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LOADBLOCKDATA_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

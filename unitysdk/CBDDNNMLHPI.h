@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class ECAGMOOFEAI;
+namespace RPG::GameCore { class TaskContext; }
+
+#define CBDDNNMLHPI_CTOR_OFFSET UNITYSDK_OFFSET(0xC49F4E0)
+#define CBDDNNMLHPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC49F510)
+
+	class CBDDNNMLHPI
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::ECAGMOOFEAI* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::ECAGMOOFEAI*))((::PBYTE)hIl2Cpp + CBDDNNMLHPI_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CBDDNNMLHPI_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

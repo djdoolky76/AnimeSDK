@@ -2,37 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TurnInsertAbilityConditionBase.h"
 #include "unitysdk/RPG/GameCore/TurnInsertAbilityConditionType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class TurnInsertAbilityCondition; }
 
-#define RPG_GAMECORE_TURNINSERTABILITYCONDITION_METHOD_3_244014E57B96B86A_OFFSET UNITYSDK_OFFSET(0x1D6103F0)
-#define RPG_GAMECORE_TURNINSERTABILITYCONDITION_METHOD_3_983FEC11F18F0115_OFFSET UNITYSDK_OFFSET(0x1D6103B0)
-#define RPG_GAMECORE_TURNINSERTABILITYCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6103E0)
+#define RPG_GAMECORE_TURNINSERTABILITYCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC64640)
+#define RPG_GAMECORE_TURNINSERTABILITYCONDITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC64650)
+#define RPG_GAMECORE_TURNINSERTABILITYCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC64610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAbilityCondition_TypeDefinitionIndex = 18036;
-
 	class TurnInsertAbilityCondition : public ::RPG::GameCore::TurnInsertAbilityConditionBase
 	{
 	public:
 		::RPG::GameCore::TurnInsertAbilityConditionType Type; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::DynamicFloat* Count; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTABILITYCONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTABILITYCONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_983FEC11F18F0115(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAbilityCondition*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TurnInsertAbilityCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAbilityCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTABILITYCONDITION_METHOD_3_983FEC11F18F0115_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TurnInsertAbilityCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTABILITYCONDITION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_244014E57B96B86A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAbilityCondition* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TurnInsertAbilityCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAbilityCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTABILITYCONDITION_METHOD_3_244014E57B96B86A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TurnInsertAbilityCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTABILITYCONDITION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

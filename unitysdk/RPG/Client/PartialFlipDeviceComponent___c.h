@@ -2,45 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/System/ValueTuple_4.h"
-
+#include "unitysdk/System/ValueTuple.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xDA429B0)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xDA429F0)
-#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET UNITYSDK_OFFSET(0xDA42A00)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA8EB30)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA8EB70)
+#define RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET UNITYSDK_OFFSET(0xDA8EB80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PartialFlipDeviceComponent___c_TypeDefinitionIndex = 73224;
-
 	class PartialFlipDeviceComponent___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::PartialFlipDeviceComponent___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::PartialFlipDeviceComponent___c**)Il2CppClass::FromTypeDefinitionIndex(PartialFlipDeviceComponent___c_TypeDefinitionIndex)->GetStaticField(0x492F0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11770);
 		}
-		static ::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>** StaticGet___9__39_0()
+
+		static ::System::Func_2<::System::ValueTuple, ::System::ValueTuple>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>, ::System::ValueTuple_2<::System::String*, ::System::String*>>**)Il2CppClass::FromTypeDefinitionIndex(PartialFlipDeviceComponent___c_TypeDefinitionIndex)->GetStaticField(0x492F8);
+			return (::System::Func_2<::System::ValueTuple, ::System::ValueTuple>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11778);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C_CTOR_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::System::String*, ::System::String*> __CollectAffectBlockAndItem_b__39_0(::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType> a1)
+		::System::ValueTuple __CollectAffectBlockAndItem_b__39_0(::System::ValueTuple a1)
 		{
-			return ((::System::ValueTuple_2<::System::String*, ::System::String*>(*)(::PVOID, ::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET))(this, a1);
+			return ((::System::ValueTuple(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARTIALFLIPDEVICECOMPONENT___C___COLLECTAFFECTBLOCKANDITEM_B__39_0_OFFSET))(this, a1);
 		}
+
 	};
 }

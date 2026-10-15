@@ -1,54 +1,55 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Airline.h"
 #include "unitysdk/RPG/Client/Subway/AirlineSubwayWay_DoorSide.h"
-#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/RPG/Client/Airline.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client::Subway { class AirlineSubwayWay_MemberConfig; }
+#include "unitysdk/UnityEngine/Quaternion.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0xE10A290)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_GET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0xE10A270)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SAMPLESTOPPINGDURATION_OFFSET UNITYSDK_OFFSET(0xE10A340)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0xE10A280)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_TRYGETSTOPROTATION_OFFSET UNITYSDK_OFFSET(0xE10A410)
-#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY__CTOR_OFFSET UNITYSDK_OFFSET(0xE10A5D0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0xE14AE10)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_CTOR_OFFSET UNITYSDK_OFFSET(0xE14B150)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_GET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0xE14ADF0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SAMPLESTOPPINGDURATION_OFFSET UNITYSDK_OFFSET(0xE14AEC0)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SET_STOPDISTANCE_OFFSET UNITYSDK_OFFSET(0xE14AE00)
+#define RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_TRYGETSTOPROTATION_OFFSET UNITYSDK_OFFSET(0xE14AF90)
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirlineSubwayWay_TypeDefinitionIndex = 80813;
-
 	class AirlineSubwayWay : public ::RPG::Client::Airline
 	{
 	public:
 		::System::Single stoppingDuration; // 0x30
 		::System::Boolean randomizeStoppingDuration; // 0x34
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector2 stoppingDurationRange; // 0x38
 		::System::Int32 stopIndex; // 0x40
 		::System::Boolean useStopRotation; // 0x44
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Vector3 stopRotation; // 0x48
 		::System::Single stopRotationBlendDistance; // 0x54
 		::UnityEngine::AnimationCurve* enterCurve; // 0x58
 		::System::Single enterDuration; // 0x60
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* exitCurve; // 0x68
 		::System::Single exitDuration; // 0x70
 		::System::Single arrivedDuration; // 0x74
 		::System::Single pedestrianMotionDuration; // 0x78
+		::System::Byte _padding3[0x4];
 		::System::String* subwayStationName; // 0x80
 		::System::String* subwayDoorSignName; // 0x88
 		::RPG::Client::Subway::AirlineSubwayWay_DoorSide OpenDoorSide; // 0x90
+		::System::Byte _padding4[0x4];
 		::System::String* arrivalAudioEvent; // 0x98
 		::System::String* exitAudioEvent; // 0xA0
-		::Il2CppArray<::RPG::Client::Subway::AirlineSubwayWay_MemberConfig*>* memberConfigs; // 0xA8
+		::Il2CppArray<::System::Object*>* memberConfigs; // 0xA8
 		::System::String* FCVName_Waitting; // 0xB0
 		::System::Single _StopDistance_k__BackingField; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_CTOR_OFFSET))(this);
 		}
 
 		::System::Single get_StopDistance()
@@ -71,9 +72,10 @@ namespace RPG::Client::Subway
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_SAMPLESTOPPINGDURATION_OFFSET))(this);
 		}
 
-		::System::Boolean TryGetStopRotation(::System::Single a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion& a3)
+		::System::Boolean TryGetStopRotation(::System::Single a1, ::UnityEngine::Quaternion a2, ::UnityEngine::Quaternion a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion&))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_TRYGETSTOPROTATION_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + RPG_CLIENT_SUBWAY_AIRLINESUBWAYWAY_TRYGETSTOPROTATION_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

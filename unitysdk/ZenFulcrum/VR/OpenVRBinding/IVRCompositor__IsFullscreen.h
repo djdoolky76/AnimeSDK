@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB5FC0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB5FF0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB5FB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB5F40)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67E530)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67E4B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67E560)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F67E520)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__IsFullscreen_TypeDefinitionIndex = 37739;
-
 	class IVRCompositor__IsFullscreen : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__ISFULLSCREEN_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,61 +2,59 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/InteropServices/ExternalException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1E93D2D0)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1E93D560)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GET_NATIVEERRORCODE_OFFSET UNITYSDK_OFFSET(0x1E93D550)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_INITIALIZEERRORMESSAGES_OFFSET UNITYSDK_OFFSET(0x1E93D660)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E93FAD0)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E93D240)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E93D450)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E93D4C0)
-#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E93D160)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0088E0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F005FE0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F006230)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F0062A0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F005EC0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x1F0060B0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1F006340)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GET_NATIVEERRORCODE_OFFSET UNITYSDK_OFFSET(0x1F006330)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_INITIALIZEERRORMESSAGES_OFFSET UNITYSDK_OFFSET(0x1F006440)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int Win32Exception_TypeDefinitionIndex = 2650;
-
 	class Win32Exception : public ::System::Runtime::InteropServices::ExternalException
 	{
 	public:
+		::System::Int32 nativeErrorCode; // 0x88
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>** StaticGet_s_ErrorMessage()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Win32Exception_TypeDefinitionIndex)->GetStaticField(0x34C30);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("System.ComponentModel", "Win32Exception")->GetStaticField(0x3C290);
 		}
+
 		static ::System::Boolean* StaticGet_s_ErrorMessagesInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Win32Exception_TypeDefinitionIndex)->GetStaticField(0xDD40);
+			return (::System::Boolean*)UnitySDK::FromName("System.ComponentModel", "Win32Exception")->GetStaticField(0xCDA0);
 		}
-		::System::Int32 nativeErrorCode; // 0x88
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_3(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_NativeErrorCode()
@@ -78,5 +76,6 @@ namespace System::ComponentModel
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_INITIALIZEERRORMESSAGES_OFFSET))();
 		}
+
 	};
 }

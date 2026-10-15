@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MonoPushDownObject_MotionCurve_TypeDefinitionIndex = 78217;
-
 	struct alignas(8) MonoPushDownObject_MotionCurve
 	{
 		::UnityEngine::AnimationCurve* curve; // 0x10

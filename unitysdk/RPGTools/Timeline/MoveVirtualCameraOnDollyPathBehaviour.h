@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 class MonoDollyCameraController;
 namespace RPGTools::Timeline { class MoveVirtualCameraOnDollyPathConfig; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8BA170)
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8BA420)
-#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BA570)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE90FDD0)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE90F9D0)
+#define RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE90FC80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MoveVirtualCameraOnDollyPathBehaviour_TypeDefinitionIndex = 48277;
-
 	class MoveVirtualCameraOnDollyPathBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPGTools::Timeline::MoveVirtualCameraOnDollyPathConfig* ConfigRef; // 0x10
 		::MonoDollyCameraController* _DollyCtrl; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
@@ -36,5 +32,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_MOVEVIRTUALCAMERAONDOLLYPATHBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

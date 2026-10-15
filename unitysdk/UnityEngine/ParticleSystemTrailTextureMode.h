@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemTrailTextureMode_TypeDefinitionIndex = 5275;
-
 	enum class ParticleSystemTrailTextureMode : ::System::Int32
 	{
 		Stretch = 0,

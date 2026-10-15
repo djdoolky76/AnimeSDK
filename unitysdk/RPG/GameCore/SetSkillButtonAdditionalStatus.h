@@ -3,19 +3,17 @@
 #include "unitysdk/RPG/GameCore/ControlSkillType.h"
 #include "unitysdk/RPG/GameCore/SkillButtonAdditionalStatusType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetSkillButtonAdditionalStatus; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_METHOD_3_CEA490B1DD4C2143_OFFSET UNITYSDK_OFFSET(0x1D50CEE0)
-#define RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_METHOD_3_FB889FDC6EDEE219_OFFSET UNITYSDK_OFFSET(0x1D50CF80)
-#define RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D50CF40)
+#define RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC1210)
+#define RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC1250)
+#define RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC11B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillButtonAdditionalStatus_TypeDefinitionIndex = 23383;
-
 	class SetSkillButtonAdditionalStatus : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -23,23 +21,24 @@ namespace RPG::GameCore
 		::RPG::GameCore::ControlSkillType ControlSkillType; // 0x20
 		::RPG::GameCore::SkillButtonAdditionalStatusType ButtonType; // 0x24
 		::System::Boolean IsActive; // 0x28
+		::System::Byte _padding0[0x7];
 		::System::String* PrefabPath; // 0x30
 		::System::String* AnimStateName; // 0x38
 		::System::Single TransitionDuration; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CEA490B1DD4C2143(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillButtonAdditionalStatus*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSkillButtonAdditionalStatus* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillButtonAdditionalStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_METHOD_3_CEA490B1DD4C2143_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSkillButtonAdditionalStatus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FB889FDC6EDEE219(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillButtonAdditionalStatus* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetSkillButtonAdditionalStatus* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillButtonAdditionalStatus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_METHOD_3_FB889FDC6EDEE219_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetSkillButtonAdditionalStatus*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLBUTTONADDITIONALSTATUS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

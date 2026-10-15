@@ -3,8 +3,6 @@
 
 namespace System::Text
 {
-	inline static constexpr unsigned int NormalizationCheck_TypeDefinitionIndex = 512;
-
 	enum class NormalizationCheck : ::System::Int32
 	{
 		Yes = 0,

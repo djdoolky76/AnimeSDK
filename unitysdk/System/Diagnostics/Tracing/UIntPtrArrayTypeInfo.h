@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Diagnostics/Tracing/EventFieldFormat.h"
-#include "unitysdk/System/Diagnostics/Tracing/TraceLoggingTypeInfo_1.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1BCF7C70)
-#define SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x1BCF7BD0)
-#define SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF7C90)
+#define SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C203CF0)
+#define SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x1C203CD0)
+#define SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x1C203C30)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int UIntPtrArrayTypeInfo_TypeDefinitionIndex = 1638;
-
-	class UIntPtrArrayTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Il2CppArray<::System::UIntPtr>*>
+	class UIntPtrArrayTypeInfo
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Void WriteMetadata(::System::Diagnostics::Tracing::TraceLoggingMetadataCollector* a1, ::System::String* a2, ::System::Diagnostics::Tracing::EventFieldFormat a3)
@@ -28,9 +25,10 @@ namespace System::Diagnostics::Tracing
 			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingMetadataCollector*, ::System::String*, ::System::Diagnostics::Tracing::EventFieldFormat))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_WRITEMETADATA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void WriteData(::System::Diagnostics::Tracing::TraceLoggingDataCollector* a1, ::Il2CppArray<::System::UIntPtr>*& a2)
+		::System::Void WriteData(::System::Diagnostics::Tracing::TraceLoggingDataCollector* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingDataCollector*, ::Il2CppArray<::System::UIntPtr>*&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_WRITEDATA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Diagnostics::Tracing::TraceLoggingDataCollector*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_UINTPTRARRAYTYPEINFO_WRITEDATA_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

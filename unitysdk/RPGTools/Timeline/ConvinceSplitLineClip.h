@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE838F50)
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE838F40)
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8390E0)
+#define RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8D6CD0)
+#define RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D6E60)
+#define RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8D6CC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceSplitLineClip_TypeDefinitionIndex = 48513;
-
 	class ConvinceSplitLineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Single Pos; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -34,5 +30,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCESPLITLINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

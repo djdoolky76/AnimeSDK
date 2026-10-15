@@ -1,27 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3BBA230)
-#define UNITYENGINE_MINMAXAABB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3BBA220)
-#define UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3BBA140)
-#define UNITYENGINE_MINMAXAABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3B7EE00)
-#define UNITYENGINE_MINMAXAABB_GET_EXTENTS_OFFSET UNITYSDK_OFFSET(0x3B80DB0)
-#define UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3BBA3E0)
+#define UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C6FBA0)
+#define UNITYENGINE_MINMAXAABB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C6FB90)
+#define UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C6FAB0)
+#define UNITYENGINE_MINMAXAABB_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3C33BC0)
+#define UNITYENGINE_MINMAXAABB_GET_EXTENTS_OFFSET UNITYSDK_OFFSET(0x3C35B70)
+#define UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C6FD50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MinMaxAABB_TypeDefinitionIndex = 4256;
-
 	struct alignas(4) MinMaxAABB
 	{
 		::UnityEngine::Vector3 m_Min; // 0x10
 		::UnityEngine::Vector3 m_Max; // 0x1C
-
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_GETHASHCODE_OFFSET))(this);
@@ -32,10 +27,12 @@ namespace UnityEngine
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::UnityEngine::MinMaxAABB a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::MinMaxAABB))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
 		::UnityEngine::Vector3 get_center()
 		{
@@ -51,5 +48,6 @@ namespace UnityEngine
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_MINMAXAABB_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

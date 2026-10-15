@@ -4,7 +4,6 @@
 #include "unitysdk/HoudiniEngineUnity/HEU_Task.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_Task_TaskResult.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace HoudiniEngineUnity { class HEU_CookedEventData; }
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace HoudiniEngineUnity { class HEU_ReloadEventData; }
@@ -13,32 +12,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COMPLETETASK_OFFSET UNITYSDK_OFFSET(0x1B3C5E80)
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COOKCOMPLETEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1B3C6010)
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COOKCOMPLETEDCALLBACK_2_OFFSET UNITYSDK_OFFSET(0x1B3C6090)
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COOKCOMPLETEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B3C5FA0)
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK_DOTASK_OFFSET UNITYSDK_OFFSET(0x1B3C5910)
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK_GETTASKSESSION_OFFSET UNITYSDK_OFFSET(0x1B3C5860)
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK_KILLTASK_OFFSET UNITYSDK_OFFSET(0x1B3C5D60)
-#define HOUDINIENGINEUNITY_HEU_ASSETTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3C6110)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COMPLETETASK_OFFSET UNITYSDK_OFFSET(0x1B8C7D40)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COOKCOMPLETEDCALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1B8C7ED0)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COOKCOMPLETEDCALLBACK_2_OFFSET UNITYSDK_OFFSET(0x1B8C7F50)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_COOKCOMPLETEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B8C7E60)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C7FD0)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_DOTASK_OFFSET UNITYSDK_OFFSET(0x1B8C77D0)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_GETTASKSESSION_OFFSET UNITYSDK_OFFSET(0x1B8C7720)
+#define HOUDINIENGINEUNITY_HEU_ASSETTASK_KILLTASK_OFFSET UNITYSDK_OFFSET(0x1B8C7C20)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetTask_TypeDefinitionIndex = 39306;
-
 	class HEU_AssetTask : public ::HoudiniEngineUnity::HEU_Task
 	{
 	public:
-		::HoudiniEngineUnity::HEU_HoudiniAsset* _asset; // 0x30
-		::System::String* _assetPath; // 0x38
-		::System::Boolean _buildResult; // 0x40
-		::System::Int64 _forceSessionID; // 0x48
-		::UnityEngine::Vector3 _position; // 0x50
-		::HoudiniEngineUnity::HEU_AssetTask_BuildType _buildType; // 0x5C
-
+		::System::String* _assetPath; // 0x30
+		::HoudiniEngineUnity::HEU_HoudiniAsset* _asset; // 0x38
+		::System::Int64 _forceSessionID; // 0x40
+		::UnityEngine::Vector3 _position; // 0x48
+		::System::Boolean _buildResult; // 0x54
+		::System::Byte _padding0[0x3];
+		::HoudiniEngineUnity::HEU_AssetTask_BuildType _buildType; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETTASK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETTASK_CTOR_OFFSET))(this);
 		}
 
 		::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession()
@@ -75,5 +72,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_ReloadEventData*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_ASSETTASK_COOKCOMPLETEDCALLBACK_2_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,46 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 class HipplenBuilderStatus;
 class HipplenBuilderTestAsset;
-class HipplenBuilderTestModule_Class_1_3B89F61142059024;
+namespace System { class Object; }
 namespace System { class String; }
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERTESTMODULE_GETTESTSINDAY_OFFSET UNITYSDK_OFFSET(0x15AD1BC0)
-#define HIPPLENBUILDERTESTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15ACFBF0)
-#define HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET UNITYSDK_OFFSET(0x15AD7300)
-#define HIPPLENBUILDERTESTMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADF310)
+#define HIPPLENBUILDERTESTMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF35B0)
+#define HIPPLENBUILDERTESTMODULE_GETTESTSINDAY_OFFSET UNITYSDK_OFFSET(0x15DE5B60)
+#define HIPPLENBUILDERTESTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15DE3A30)
+#define HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET UNITYSDK_OFFSET(0x15DEB4C0)
 
-inline static constexpr unsigned int HipplenBuilderTestModule_TypeDefinitionIndex = 47673;
-
-class HipplenBuilderTestModule : public ::UnityEngine::MonoBehaviour
-{
-public:
-	::HipplenBuilderTestAsset* TestAsset; // 0x18
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::HipplenBuilderTestModule_Class_1_3B89F61142059024*>*>* TestDataDict; // 0x20
-	::System::Collections::Generic::List_1<::System::Int32>* TestDates; // 0x28
-
-	::System::Void _ctor()
+	class HipplenBuilderTestModule : public ::UnityEngine::MonoBehaviour
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE__CTOR_OFFSET))(this);
-	}
+	public:
+		::HipplenBuilderTestAsset* TestAsset; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Object*>*>* TestDataDict; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* TestDates; // 0x28
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_CTOR_OFFSET))(this);
+		}
 
-	::System::Void Init()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_INIT_OFFSET))(this);
-	}
+		::System::Void Init()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_INIT_OFFSET))(this);
+		}
 
-	::System::Collections::Generic::List_1<::HipplenBuilderTestModule_Class_1_3B89F61142059024*>* GetTestsInDay(::System::Int32 a1)
-	{
-		return ((::System::Collections::Generic::List_1<::HipplenBuilderTestModule_Class_1_3B89F61142059024*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_GETTESTSINDAY_OFFSET))(this, a1);
-	}
+		::System::Collections::Generic::List_1<::System::Object*>* GetTestsInDay(::System::Int32 a1)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_GETTESTSINDAY_OFFSET))(this, a1);
+		}
 
-	::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>* TakeTest(::System::Int32 a1, ::HipplenBuilderStatus* a2)
-	{
-		return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Boolean>>*(*)(::PVOID, ::System::Int32, ::HipplenBuilderStatus*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET))(this, a1, a2);
-	}
-};
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>* TakeTest(::System::Int32 a1, ::HipplenBuilderStatus* a2)
+		{
+			return ((::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID, ::System::Int32, ::HipplenBuilderStatus*))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET))(this, a1, a2);
+		}
+
+	};

@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_C9E417278351157F_4;
+class HMBLPJDFEGJ;
+namespace RPG::Client { class HeadFrameInfo; }
 namespace RPG::GameCore { class HeadFrameConfigRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_HEADFRAMEINFO_COPY_OFFSET UNITYSDK_OFFSET(0xD3B0B60)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0xD3B0960)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xD3B09F0)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xD3B0940)
-#define RPG_CLIENT_HEADFRAMEINFO_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xD3B0980)
-#define RPG_CLIENT_HEADFRAMEINFO_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0xD3B0970)
-#define RPG_CLIENT_HEADFRAMEINFO_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0xD3B0950)
-#define RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET UNITYSDK_OFFSET(0xD3B0AD0)
-#define RPG_CLIENT_HEADFRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD3B0C10)
+#define RPG_CLIENT_HEADFRAMEINFO_COPY_OFFSET UNITYSDK_OFFSET(0xD306450)
+#define RPG_CLIENT_HEADFRAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD306500)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0xD306250)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xD3062E0)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_ITEMID_OFFSET UNITYSDK_OFFSET(0xD306230)
+#define RPG_CLIENT_HEADFRAMEINFO_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xD306270)
+#define RPG_CLIENT_HEADFRAMEINFO_SET_EXPIRETIME_OFFSET UNITYSDK_OFFSET(0xD306260)
+#define RPG_CLIENT_HEADFRAMEINFO_SET_ITEMID_OFFSET UNITYSDK_OFFSET(0xD306240)
+#define RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET UNITYSDK_OFFSET(0xD3063C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeadFrameInfo_TypeDefinitionIndex = 65711;
-
 	class HeadFrameInfo : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::HeadFrameConfigRow* _Meta; // 0x10
-		::System::Int64 _ExpireTime_k__BackingField; // 0x18
-		::System::UInt32 _ItemID_k__BackingField; // 0x20
-
+		::System::UInt32 _ItemID_k__BackingField; // 0x18
+		::System::Byte _padding0[0x4];
+		::System::Int64 _ExpireTime_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 get_ItemID()
@@ -62,14 +60,15 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_GET_ISVALID_OFFSET))(this);
 		}
 
-		::System::Void Update(::Class_1_C9E417278351157F_4* a1)
+		::System::Void Update(::HMBLPJDFEGJ* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_C9E417278351157F_4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::HMBLPJDFEGJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_UPDATE_OFFSET))(this, a1);
 		}
 
 		::System::Void Copy(::RPG::Client::HeadFrameInfo* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::HeadFrameInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HEADFRAMEINFO_COPY_OFFSET))(this, a1);
 		}
+
 	};
 }

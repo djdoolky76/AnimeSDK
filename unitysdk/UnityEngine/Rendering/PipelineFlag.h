@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PipelineFlag_TypeDefinitionIndex = 36832;
-
 	enum class PipelineFlag : ::System::Int64
 	{
 		kEnableDepthTexCopy = 1,

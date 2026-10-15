@@ -1,0 +1,10 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class INMMPMDELKE;
+namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameView; }
+
+	struct alignas(8) FAFFMDBPCGJ_GIAOFOIKCKM
+	{
+		::INMMPMDELKE* OFHDAHHPNPJ; // 0x10
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView* IMFEDPHJHMD; // 0x18
+	};

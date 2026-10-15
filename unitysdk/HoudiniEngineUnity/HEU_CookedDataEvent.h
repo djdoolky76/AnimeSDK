@@ -1,21 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-namespace HoudiniEngineUnity { class HEU_CookedEventData; }
-
-#define HOUDINIENGINEUNITY_HEU_COOKEDDATAEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D5230)
+#define HOUDINIENGINEUNITY_HEU_COOKEDDATAEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8D7030)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_CookedDataEvent_TypeDefinitionIndex = 39065;
-
-	class HEU_CookedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_CookedEventData*>
+	class HEU_CookedDataEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_COOKEDDATAEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_COOKEDDATAEVENT_CTOR_OFFSET))(this);
 		}
+
 	};
 }

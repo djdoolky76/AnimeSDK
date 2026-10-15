@@ -4,14 +4,12 @@
 #include "unitysdk/CriWare/CriMana/CodecType.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANA_MOVIEINFO_GET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x164F6C70)
-#define CRIWARE_CRIMANA_MOVIEINFO_SET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x164F79F0)
-#define CRIWARE_CRIMANA_MOVIEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x164F7A00)
+#define CRIWARE_CRIMANA_MOVIEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1671E630)
+#define CRIWARE_CRIMANA_MOVIEINFO_GET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x1671D890)
+#define CRIWARE_CRIMANA_MOVIEINFO_SET_HASALPHA_OFFSET UNITYSDK_OFFSET(0x1671E620)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int MovieInfo_TypeDefinitionIndex = 38913;
-
 	class MovieInfo : public ::System::Object
 	{
 	public:
@@ -31,10 +29,9 @@ namespace CriWare::CriMana
 		::System::UInt32 numSubtitleChannels; // 0x48
 		::System::UInt32 maxSubtitleSize; // 0x4C
 		::System::UInt32 maxChunkSize; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_MOVIEINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_MOVIEINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_hasAlpha()
@@ -46,5 +43,6 @@ namespace CriWare::CriMana
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_MOVIEINFO_SET_HASALPHA_OFFSET))(this, a1);
 		}
+
 	};
 }

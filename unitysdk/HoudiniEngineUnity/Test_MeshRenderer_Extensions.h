@@ -1,19 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace HoudiniEngineUnity { class Test_MeshRenderer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B4B25E0)
-#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B4B2700)
-#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4B25A0)
+#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B4610)
+#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B4730)
+#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B45D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_MeshRenderer_Extensions_TypeDefinitionIndex = 39441;
-
 	class Test_MeshRenderer_Extensions : public ::System::Object
 	{
 	public:
@@ -31,5 +28,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshRenderer*>*(*)(::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_2_OFFSET))(a1);
 		}
+
 	};
 }

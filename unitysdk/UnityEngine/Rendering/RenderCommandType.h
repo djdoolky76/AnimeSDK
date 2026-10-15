@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderCommandType_TypeDefinitionIndex = 34889;
-
 	enum class RenderCommandType : ::System::Int32
 	{
 		kSrpCommand_DrawRenderer = 0,

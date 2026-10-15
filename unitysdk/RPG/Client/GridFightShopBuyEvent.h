@@ -1,35 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class GridFightProjection; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_BUYINDEX_OFFSET UNITYSDK_OFFSET(0xD324550)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_PROJECTION_OFFSET UNITYSDK_OFFSET(0xD324540)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xD324530)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0xD324520)
-#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xD324510)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD27E760)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD27E750)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_BUYINDEX_OFFSET UNITYSDK_OFFSET(0xD27E790)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_PROJECTION_OFFSET UNITYSDK_OFFSET(0xD27E780)
+#define RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xD27E770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightShopBuyEvent_TypeDefinitionIndex = 65295;
-
 	class GridFightShopBuyEvent : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightRole* _Role_k__BackingField; // 0x10
-		::RPG::Client::GridFightProjection* _Projection_k__BackingField; // 0x18
+		::RPG::Client::GridFightProjection* _Projection_k__BackingField; // 0x10
+		::RPG::Client::GridFightRole* _Role_k__BackingField; // 0x18
 		::System::Int32 _BuyIndex_k__BackingField; // 0x20
-
 		::System::Void _ctor(::RPG::Client::GridFightRole* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::RPG::Client::GridFightProjection* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightProjection*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightProjection*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::GridFightRole* get_Role()
@@ -46,5 +42,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPBUYEVENT_GET_BUYINDEX_OFFSET))(this);
 		}
+
 	};
 }

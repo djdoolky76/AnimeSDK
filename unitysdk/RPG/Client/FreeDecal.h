@@ -3,58 +3,58 @@
 #include "unitysdk/RPG/GameCore/DecalType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_D27BF54F25500E5F;
+class NEOCEOCDEAF;
 namespace RPG::Client { class DecalPuzzle; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FREEDECAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD0ACCC0)
-#define RPG_CLIENT_FREEDECAL_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD0AD360)
-#define RPG_CLIENT_FREEDECAL_GET_SPEED_OFFSET UNITYSDK_OFFSET(0xD0AD380)
-#define RPG_CLIENT_FREEDECAL_ISMOVED_OFFSET UNITYSDK_OFFSET(0xD0ACE70)
-#define RPG_CLIENT_FREEDECAL_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0xD0AD010)
-#define RPG_CLIENT_FREEDECAL_SETCHECKLIST_OFFSET UNITYSDK_OFFSET(0xD0ACD10)
-#define RPG_CLIENT_FREEDECAL_SETFINISH_OFFSET UNITYSDK_OFFSET(0xD0AD190)
-#define RPG_CLIENT_FREEDECAL_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD0AD350)
-#define RPG_CLIENT_FREEDECAL_SET_SPEED_OFFSET UNITYSDK_OFFSET(0xD0AD370)
-#define RPG_CLIENT_FREEDECAL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD0ACBC0)
-#define RPG_CLIENT_FREEDECAL__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0AD3E0)
-#define RPG_CLIENT_FREEDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0xD0AD390)
+#define RPG_CLIENT_FREEDECAL_CCTOR_OFFSET UNITYSDK_OFFSET(0xD04E2B0)
+#define RPG_CLIENT_FREEDECAL_CTOR_OFFSET UNITYSDK_OFFSET(0xD04E210)
+#define RPG_CLIENT_FREEDECAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD04DAF0)
+#define RPG_CLIENT_FREEDECAL_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD04E1E0)
+#define RPG_CLIENT_FREEDECAL_GET_SPEED_OFFSET UNITYSDK_OFFSET(0xD04E200)
+#define RPG_CLIENT_FREEDECAL_ISMOVED_OFFSET UNITYSDK_OFFSET(0xD04DCA0)
+#define RPG_CLIENT_FREEDECAL_PLAYFADEIN_OFFSET UNITYSDK_OFFSET(0xD04DE40)
+#define RPG_CLIENT_FREEDECAL_SETCHECKLIST_OFFSET UNITYSDK_OFFSET(0xD04DB40)
+#define RPG_CLIENT_FREEDECAL_SETFINISH_OFFSET UNITYSDK_OFFSET(0xD04DFC0)
+#define RPG_CLIENT_FREEDECAL_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xD04E1D0)
+#define RPG_CLIENT_FREEDECAL_SET_SPEED_OFFSET UNITYSDK_OFFSET(0xD04E1F0)
+#define RPG_CLIENT_FREEDECAL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD04D990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FreeDecal_TypeDefinitionIndex = 68829;
-
 	class FreeDecal : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_EHJFHMEKFDI()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x14AA0);
-		}
-		static ::System::String** StaticGet_INHDCOPAFPF()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeDecal_TypeDefinitionIndex)->GetStaticField(0x14AA8);
-		}
 		::System::Boolean _IsFinish_k__BackingField; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Single _Speed_k__BackingField; // 0x1C
 		::RPG::GameCore::DecalType DecalType; // 0x20
 		::System::UInt32 DecalID; // 0x24
 		::System::Boolean IsInDecalPuzzleRegion; // 0x28
+		::System::Byte _padding1[0x7];
 		::RPG::Client::DecalPuzzle* OwnerDecalPuzzle; // 0x30
 		::Il2CppArray<::UnityEngine::GameObject*>* CheckList; // 0x38
 		::Il2CppArray<::UnityEngine::Vector3>* OriginPosList; // 0x40
-		::Class_1_D27BF54F25500E5F* DHEHFOHPELI; // 0x48
+		::NEOCEOCDEAF* DHEHFOHPELI; // 0x48
+		static ::System::String** StaticGet_EHJFHMEKFDI()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "FreeDecal")->GetStaticField(0x5DF20);
+		}
+
+		static ::System::String** StaticGet_INHDCOPAFPF()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "FreeDecal")->GetStaticField(0x5DF28);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FREEDECAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FREEDECAL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FREEDECAL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_FREEDECAL_CCTOR_OFFSET))();
 		}
 
 		::System::Void Update()
@@ -106,5 +106,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FREEDECAL_GET_SPEED_OFFSET))(this);
 		}
+
 	};
 }

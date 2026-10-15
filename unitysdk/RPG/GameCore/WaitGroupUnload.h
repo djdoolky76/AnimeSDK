@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitGroupUnload; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_WAITGROUPUNLOAD_METHOD_3_35A186A276569CA6_OFFSET UNITYSDK_OFFSET(0x1D6A5240)
-#define RPG_GAMECORE_WAITGROUPUNLOAD_METHOD_3_9A1AD4171DD0F4E5_OFFSET UNITYSDK_OFFSET(0x1D6A5280)
-#define RPG_GAMECORE_WAITGROUPUNLOAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A5270)
+#define RPG_GAMECORE_WAITGROUPUNLOAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9A450)
+#define RPG_GAMECORE_WAITGROUPUNLOAD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9A460)
+#define RPG_GAMECORE_WAITGROUPUNLOAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9A420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGroupUnload_TypeDefinitionIndex = 20984;
-
 	class WaitGroupUnload : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnUnload; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPUNLOAD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPUNLOAD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_35A186A276569CA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGroupUnload*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitGroupUnload* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGroupUnload*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPUNLOAD_METHOD_3_35A186A276569CA6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitGroupUnload*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPUNLOAD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9A1AD4171DD0F4E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGroupUnload* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitGroupUnload* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGroupUnload*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPUNLOAD_METHOD_3_9A1AD4171DD0F4E5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitGroupUnload*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPUNLOAD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

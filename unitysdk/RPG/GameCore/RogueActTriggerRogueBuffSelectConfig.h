@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActTriggerRogueBuffSelectConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_METHOD_6_4204924D0C48EA73_OFFSET UNITYSDK_OFFSET(0x1D3BB790)
-#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_METHOD_6_FC4016487845EEB7_OFFSET UNITYSDK_OFFSET(0x1D3BB7E0)
-#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BB7D0)
+#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A1F60)
+#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9A1F70)
+#define RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9A1F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActTriggerRogueBuffSelectConfig_TypeDefinitionIndex = 19354;
-
 	class RogueActTriggerRogueBuffSelectConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_4204924D0C48EA73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_METHOD_6_4204924D0C48EA73_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_6_FC4016487845EEB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_METHOD_6_FC4016487845EEB7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActTriggerRogueBuffSelectConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTTRIGGERROGUEBUFFSELECTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils_StorageFormatType_TypeDefinitionIndex = 69425;
-
 	enum class PhotoGraphUtils_StorageFormatType : ::System::Int32
 	{
 		None = 0,

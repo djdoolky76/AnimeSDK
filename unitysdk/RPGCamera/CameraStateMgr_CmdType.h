@@ -3,8 +3,6 @@
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateMgr_CmdType_TypeDefinitionIndex = 44809;
-
 	enum class CameraStateMgr_CmdType : ::System::Int32
 	{
 		SPAWN = 0,

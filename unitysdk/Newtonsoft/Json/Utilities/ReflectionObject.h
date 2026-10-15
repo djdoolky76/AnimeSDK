@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Newtonsoft::Json::Serialization { template <typename T> class ObjectConstructor_1; }
 namespace Newtonsoft::Json::Utilities { class ReflectionMember; }
+namespace Newtonsoft::Json::Utilities { class ReflectionObject; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Reflection { class MethodBase; }
 
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1BF06EA0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_CREATE_OFFSET UNITYSDK_OFFSET(0x1BF06E90)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1BF06D50)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1BF06BF0)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1BF06B20)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x1BF06B40)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1BF06B30)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_SET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x1BF06B50)
-#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF06B60)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1C413240)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_CREATE_OFFSET UNITYSDK_OFFSET(0x1C413230)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C412F00)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1C4130F0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1C412F90)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1C412EC0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_GET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x1C412EE0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1C412ED0)
+#define NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_SET_MEMBERS_OFFSET UNITYSDK_OFFSET(0x1C412EF0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ReflectionObject_TypeDefinitionIndex = 9588;
-
 	class ReflectionObject : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IDictionary_2<::System::String*, ::Newtonsoft::Json::Utilities::ReflectionMember*>* _Members_k__BackingField; // 0x10
 		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _Creator_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_CTOR_OFFSET))(this);
 		}
 
 		::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_Creator()
@@ -73,5 +71,6 @@ namespace Newtonsoft::Json::Utilities
 		{
 			return ((::Newtonsoft::Json::Utilities::ReflectionObject*(*)(::System::Type*, ::System::Reflection::MethodBase*, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_UTILITIES_REFLECTIONOBJECT_CREATE_1_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

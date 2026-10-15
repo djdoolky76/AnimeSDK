@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayerOp_TypeDefinitionIndex = 64423;
-
 	enum class GridFightPlayerOp : ::System::Int32
 	{
 		UsedOrb = 0,

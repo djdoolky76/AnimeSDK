@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B78DE90)
-#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B78E1D0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC8CBC0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC8CED0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleButtonImage_TypeDefinitionIndex = 8942;
-
 	class ConsoleButtonImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -18,15 +15,15 @@ namespace MiHoYo::SDK::Console
 		::UnityEngine::Sprite* PS5Sprite; // 0x20
 		::UnityEngine::Sprite* CXSprite; // 0x28
 		::UnityEngine::Sprite* XCloudSprite; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEBUTTONIMAGE_AWAKE_OFFSET))(this);
 		}
+
 	};
 }

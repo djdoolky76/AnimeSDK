@@ -5,34 +5,33 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
-class Class_2_CE49E598720CA72E;
+class ICPHAEHBEMP;
 namespace RPG::Client { class DecalPuzzleRegion; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DECALPUZZLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCC99290)
-#define RPG_CLIENT_DECALPUZZLE_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xCC99560)
-#define RPG_CLIENT_DECALPUZZLE_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xCC994E0)
-#define RPG_CLIENT_DECALPUZZLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCC993E0)
-#define RPG_CLIENT_DECALPUZZLE_RESET_OFFSET UNITYSDK_OFFSET(0xCC99030)
-#define RPG_CLIENT_DECALPUZZLE_SETACTIVE_OFFSET UNITYSDK_OFFSET(0xCC99170)
-#define RPG_CLIENT_DECALPUZZLE_START_OFFSET UNITYSDK_OFFSET(0xCC99480)
-#define RPG_CLIENT_DECALPUZZLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xCC99380)
-#define RPG_CLIENT_DECALPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC99580)
+#define RPG_CLIENT_DECALPUZZLE_AWAKE_OFFSET UNITYSDK_OFFSET(0xCBECDD0)
+#define RPG_CLIENT_DECALPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBED0C0)
+#define RPG_CLIENT_DECALPUZZLE_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xCBED0A0)
+#define RPG_CLIENT_DECALPUZZLE_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xCBED020)
+#define RPG_CLIENT_DECALPUZZLE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCBECF20)
+#define RPG_CLIENT_DECALPUZZLE_RESET_OFFSET UNITYSDK_OFFSET(0xCBECB70)
+#define RPG_CLIENT_DECALPUZZLE_SETACTIVE_OFFSET UNITYSDK_OFFSET(0xCBECCB0)
+#define RPG_CLIENT_DECALPUZZLE_START_OFFSET UNITYSDK_OFFSET(0xCBECFC0)
+#define RPG_CLIENT_DECALPUZZLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xCBECEC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DecalPuzzle_TypeDefinitionIndex = 68620;
-
 	class DecalPuzzle : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::Bounds _ArtBoundFull_k__BackingField; // 0x18
 		::System::Boolean IsActive; // 0x30
+		::System::Byte _padding0[0x7];
 		::System::String* RegionEffectCorrectTrigger; // 0x38
 		::System::String* RegionEffectFadeOutTrigger; // 0x40
 		::System::Single PuzzleFinishPerformDuration; // 0x48
+		::System::Byte _padding1[0x4];
 		::System::String* DecalPuzzle_Terminate_Event; // 0x50
 		::System::String* DecalPuzzle_Finish_Event; // 0x58
 		::System::String* DecalPuzzle_Shot_Wrong_Event; // 0x60
@@ -44,11 +43,10 @@ namespace RPG::Client
 		::UnityEngine::Transform* RegionEffectRoot; // 0x90
 		::UnityEngine::Transform* RegionColliderRoot; // 0x98
 		::Il2CppArray<::RPG::Client::DecalPuzzleRegion*>* TargetRegions; // 0xA0
-		::Class_2_CE49E598720CA72E* Behavior; // 0xA8
-
+		::ICPHAEHBEMP* Behavior; // 0xA8
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -90,5 +88,6 @@ namespace RPG::Client
 		{
 			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DECALPUZZLE_GET_ARTBOUNDFULL_OFFSET))(this);
 		}
+
 	};
 }

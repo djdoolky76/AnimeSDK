@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class MonoTriggerRegion; }
 
-#define RPG_CLIENT_MONOBASETRIGGER_METHOD_5_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD731B80)
-#define RPG_CLIENT_MONOBASETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xD731A30)
-#define RPG_CLIENT_MONOBASETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0xD731BC0)
+#define RPG_CLIENT_MONOBASETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0xD730F60)
+#define RPG_CLIENT_MONOBASETRIGGER_MEJPCPBPMNM_OFFSET UNITYSDK_OFFSET(0xD730F20)
+#define RPG_CLIENT_MONOBASETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xD730DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBaseTrigger_TypeDefinitionIndex = 68871;
-
 	class MonoBaseTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::MonoTriggerRegion* ECBAOBGDJBL; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBASETRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBASETRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Start()
@@ -27,9 +23,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBASETRIGGER_START_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CA373AA1C7054598()
+		::System::Void MEJPCPBPMNM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBASETRIGGER_METHOD_5_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOBASETRIGGER_MEJPCPBPMNM_OFFSET))(this);
 		}
+
 	};
 }

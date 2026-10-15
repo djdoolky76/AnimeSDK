@@ -1,42 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/SynchronizationContext.h"
-
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
+namespace System::Threading { class OSSpecificSynchronizationContext; }
 namespace System::Threading { class SendOrPostCallback; }
+namespace System::Threading { class SynchronizationContext; }
 
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x1BC3D460)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_GETOSCONTEXT_OFFSET UNITYSDK_OFFSET(0x1BC3D450)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_GET_OFFSET UNITYSDK_OFFSET(0x1BC3D420)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONENTRY_OFFSET UNITYSDK_OFFSET(0x1BC3D230)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_POSTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1BC3D5B0)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_POST_OFFSET UNITYSDK_OFFSET(0x1BC3D4D0)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_SEND_OFFSET UNITYSDK_OFFSET(0x1BC3D480)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC3D5F0)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3D400)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1496E0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x1C149550)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1494F0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_GETOSCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C149540)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_GET_OFFSET UNITYSDK_OFFSET(0x1C149510)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_INVOCATIONENTRY_OFFSET UNITYSDK_OFFSET(0x1C149320)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_POSTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C1496A0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_POST_OFFSET UNITYSDK_OFFSET(0x1C1495C0)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_SEND_OFFSET UNITYSDK_OFFSET(0x1C149570)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int OSSpecificSynchronizationContext_TypeDefinitionIndex = 843;
-
 	class OSSpecificSynchronizationContext : public ::System::Threading::SynchronizationContext
 	{
 	public:
+		::System::Object* m_OSSynchronizationContext; // 0x18
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>** StaticGet_s_ContextCache()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>**)Il2CppClass::FromTypeDefinitionIndex(OSSpecificSynchronizationContext_TypeDefinitionIndex)->GetStaticField(0x12E60);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>**)UnitySDK::FromName("System.Threading", "OSSpecificSynchronizationContext")->GetStaticField(0x1FC70);
 		}
-		::System::Object* m_OSSynchronizationContext; // 0x18
 
 		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_CCTOR_OFFSET))();
 		}
 
 		static ::System::Threading::OSSpecificSynchronizationContext* Get()
@@ -73,5 +72,6 @@ namespace System::Threading
 		{
 			return ((::System::Void(*)(::System::Object*, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT_POSTINTERNAL_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

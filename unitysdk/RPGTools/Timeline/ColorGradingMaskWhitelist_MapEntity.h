@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_MapEntity_TypeDefinitionIndex = 48920;
-
 	struct alignas(4) ColorGradingMaskWhitelist_MapEntity
 	{
 		::System::UInt32 GroupID; // 0x10

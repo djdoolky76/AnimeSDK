@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class IRogueTournDifficultyWithDivision; }
 namespace RPG::Client { class RogueTournDivisionData; }
 
-#define RPG_CLIENT_ROGUETOURNDIVISIONDATAEXT_CORRESPONDINGDIFFICULTY_OFFSET UNITYSDK_OFFSET(0xDF4E600)
+#define RPG_CLIENT_ROGUETOURNDIVISIONDATAEXT_CORRESPONDINGDIFFICULTY_OFFSET UNITYSDK_OFFSET(0xDFE4F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDivisionDataExt_TypeDefinitionIndex = 67594;
-
 	class RogueTournDivisionDataExt : public ::System::Object
 	{
 	public:
@@ -18,5 +15,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::IRogueTournDifficultyWithDivision*(*)(::RPG::Client::RogueTournDivisionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNDIVISIONDATAEXT_CORRESPONDINGDIFFICULTY_OFFSET))(a1);
 		}
+
 	};
 }

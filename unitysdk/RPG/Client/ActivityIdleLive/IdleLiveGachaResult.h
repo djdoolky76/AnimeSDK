@@ -1,42 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_F0E9DD085BA6740E_5;
+class NILCAHCBKAI;
+namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResult; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResultAvatarMergeData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResultItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_CREATE_OFFSET UNITYSDK_OFFSET(0xC5BB2A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GETAVATARSTARUPLIST_OFFSET UNITYSDK_OFFSET(0xC5BC170)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GETCOINMERGEDATA_OFFSET UNITYSDK_OFFSET(0xC5BD500)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_AVATARMERGELIST_OFFSET UNITYSDK_OFFSET(0xC5BDB70)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_HASAVATARUPGRADE_OFFSET UNITYSDK_OFFSET(0xC5BBF30)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_HASSTARUP_OFFSET UNITYSDK_OFFSET(0xC5BD930)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_ISUPGRADE_OFFSET UNITYSDK_OFFSET(0xC5BD8F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_ITEMLIST_OFFSET UNITYSDK_OFFSET(0xC5BD7F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xC5BD0E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_CREATE_OFFSET UNITYSDK_OFFSET(0xC4D2FC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xC4D4E00)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GETAVATARSTARUPLIST_OFFSET UNITYSDK_OFFSET(0xC4D3E90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GETCOINMERGEDATA_OFFSET UNITYSDK_OFFSET(0xC4D5220)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_AVATARMERGELIST_OFFSET UNITYSDK_OFFSET(0xC4D5890)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_HASAVATARUPGRADE_OFFSET UNITYSDK_OFFSET(0xC4D3C50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_HASSTARUP_OFFSET UNITYSDK_OFFSET(0xC4D5650)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_ISUPGRADE_OFFSET UNITYSDK_OFFSET(0xC4D5610)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_ITEMLIST_OFFSET UNITYSDK_OFFSET(0xC4D5510)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGachaResult_TypeDefinitionIndex = 74955;
-
 	class IdleLiveGachaResult : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*>* _AvatarMergeList; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultItemData*>* _ItemList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultItemData*>* _ItemList; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*>* _AvatarMergeList; // 0x18
 		::System::Boolean _IsUpgrade; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ActivityIdleLive::IdleLiveGachaResult* Create(::Class_1_F0E9DD085BA6740E_5* a1, ::System::Boolean a2)
+		static ::RPG::Client::ActivityIdleLive::IdleLiveGachaResult* Create(::NILCAHCBKAI* a1, ::System::Boolean a2)
 		{
-			return ((::RPG::Client::ActivityIdleLive::IdleLiveGachaResult*(*)(::Class_1_F0E9DD085BA6740E_5*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_CREATE_OFFSET))(a1, a2);
+			return ((::RPG::Client::ActivityIdleLive::IdleLiveGachaResult*(*)(::NILCAHCBKAI*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_CREATE_OFFSET))(a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::System::UInt32>* GetAvatarStarUpList()
@@ -73,5 +70,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::ActivityIdleLive::IdleLiveGachaResultAvatarMergeData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT_GET_AVATARMERGELIST_OFFSET))(this);
 		}
+
 	};
 }

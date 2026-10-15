@@ -1,38 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LoopGenerator_GroupWeightPair.h"
-#include "unitysdk/RPG/Client/LoopGenerator_SliderTemplate.h"
-#include "unitysdk/System/ValueType.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_METHOD_2_7FBAA229ED524F8E_OFFSET UNITYSDK_OFFSET(0x151C70)
-#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_METHOD_2_89EF21CA0414B145_OFFSET UNITYSDK_OFFSET(0x151C60)
-#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_METHOD_2_C1D3BDE2A17F5C9D_OFFSET UNITYSDK_OFFSET(0x151C50)
+#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_DJPEJOPFANL_OFFSET UNITYSDK_OFFSET(0xEA9A0)
+#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_GFJEPOCNAPC_OFFSET UNITYSDK_OFFSET(0xEA990)
+#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xEA9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerator_GenerateConfig_TypeDefinitionIndex = 72893;
-
 	struct alignas(8) LoopGenerator_GenerateConfig
 	{
 		::System::Single Speed; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::LoopGenerator_GroupWeightPair>* GroupWeightPairs; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::LoopGenerator_SliderTemplate>* SliderTemplates; // 0x20
-
-		::System::Void Method_2_C1D3BDE2A17F5C9D()
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* GroupWeightPairs; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* SliderTemplates; // 0x20
+		::System::Void GFJEPOCNAPC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_METHOD_2_C1D3BDE2A17F5C9D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_GFJEPOCNAPC_OFFSET))(this);
 		}
 
-		::System::Void Method_2_89EF21CA0414B145()
+		::System::Void DJPEJOPFANL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_METHOD_2_89EF21CA0414B145_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_DJPEJOPFANL_OFFSET))(this);
 		}
 
-		::System::Void Method_2_7FBAA229ED524F8E()
+		::System::Void KJMDJMBNCPE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_METHOD_2_7FBAA229ED524F8E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_KJMDJMBNCPE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Exception; }
-namespace System::Collections { class IEnumerator; }
+namespace System { class Object; }
 namespace UnityEngine { class Coroutine; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int Coroutine_1_TypeDefinitionIndex = 36953;
-
 	template <typename T>
 	class Coroutine_1 : public ::System::Object
 	{

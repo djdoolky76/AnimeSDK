@@ -3,12 +3,10 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexAIStrategy_TypeDefinitionIndex = 54547;
-
 	enum class ComplexAIStrategy : ::System::Byte
 	{
-		None = 0x0,
-		DefaultComplexAI = 0x1,
-		StandaloneSkillMap = 0x2,
+		None = 0,
+		DefaultComplexAI = 1,
+		StandaloneSkillMap = 2,
 	};
 }

@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E23B0)
-#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E23A0)
-#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E2540)
+#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE937780)
+#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE937910)
+#define RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE937770)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SetStoryDanmuEnableClip_TypeDefinitionIndex = 48524;
-
 	class SetStoryDanmuEnableClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean IsEnable; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -34,5 +30,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SETSTORYDANMUENABLECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

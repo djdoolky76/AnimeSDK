@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::CustomRP { class AllBloomStage; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x15EB20)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF84D0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomParameter_TypeDefinitionIndex = 49003;
-
 	struct alignas(8) BloomParameter
 	{
 		::System::Single BloomThreshold; // 0x10
@@ -19,10 +15,10 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Single BloomG; // 0x24
 		::System::Single BloomB; // 0x28
 		::System::Boolean overrideState; // 0x2C
-
 		::System::Void _ctor(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMPARAMETER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMPARAMETER_CTOR_OFFSET))(this, a1);
 		}
+
 	};
 }

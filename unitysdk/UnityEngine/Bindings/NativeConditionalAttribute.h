@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_CONDITION_OFFSET UNITYSDK_OFFSET(0x1EDD3AB0)
-#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1EDD3AC0)
-#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD3AD0)
+#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49CD90)
+#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_CONDITION_OFFSET UNITYSDK_OFFSET(0x1F49CD70)
+#define UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1F49CD80)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeConditionalAttribute_TypeDefinitionIndex = 3719;
-
 	class NativeConditionalAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _Condition_k__BackingField; // 0x10
 		::System::Boolean _Enabled_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void set_Condition(::System::String* a1)
@@ -32,5 +28,6 @@ namespace UnityEngine::Bindings
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVECONDITIONALATTRIBUTE_SET_ENABLED_OFFSET))(this, a1);
 		}
+
 	};
 }

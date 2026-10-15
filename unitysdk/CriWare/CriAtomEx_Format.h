@@ -3,19 +3,17 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_Format_TypeDefinitionIndex = 38661;
-
 	enum class CriAtomEx_Format : ::System::UInt32
 	{
-		ADX = 0x1,
-		HCA = 0x3,
-		HCA_MX = 0x4,
-		WAVE = 0x5,
-		RAW_PCM = 0x6,
-		AUDIO_BUFFER = 0x9,
-		HW1 = 0x10001,
-		HW2 = 0x10002,
-		HW3 = 0x10003,
-		MP3 = 0x10003,
+		ADX = 1,
+		HCA = 3,
+		HCA_MX = 4,
+		WAVE = 5,
+		RAW_PCM = 6,
+		AUDIO_BUFFER = 9,
+		HW1 = 65537,
+		HW2 = 65538,
+		HW3 = 65539,
+		MP3 = 65539,
 	};
 }

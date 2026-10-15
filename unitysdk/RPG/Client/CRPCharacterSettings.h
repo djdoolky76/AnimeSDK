@@ -2,12 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CRPCHARACTERSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xC97DF80)
+#define RPG_CLIENT_CRPCHARACTERSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CC360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPCharacterSettings_TypeDefinitionIndex = 67928;
-
 	class CRPCharacterSettings : public ::System::Object
 	{
 	public:
@@ -17,11 +15,12 @@ namespace RPG::Client
 		::System::Boolean EnableSpringBone; // 0x13
 		::System::Boolean EnableEmotionEyeBlink; // 0x14
 		::System::Boolean EnableFootIK; // 0x15
+		::System::Byte _padding0[0x2];
 		::System::Single CharEffectLODVariant; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPCHARACTERSETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CRPCHARACTERSETTINGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

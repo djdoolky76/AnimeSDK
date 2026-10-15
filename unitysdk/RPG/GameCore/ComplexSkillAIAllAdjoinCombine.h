@@ -2,37 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ComplexSkillAIListCombineType.h"
 #include "unitysdk/RPG/GameCore/ComplexSkillAISource.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAIAllAdjoinCombine; }
+namespace RPG::GameCore { class ComplexSkillAISource; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_METHOD_3_2F06D0C02706C6A7_OFFSET UNITYSDK_OFFSET(0x1CFF0B60)
-#define RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_METHOD_3_3E5CFCD750EA9DE9_OFFSET UNITYSDK_OFFSET(0x1CFF0B00)
-#define RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF0B50)
+#define RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CC920)
+#define RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CC930)
+#define RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CC8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIAllAdjoinCombine_TypeDefinitionIndex = 15371;
-
 	class ComplexSkillAIAllAdjoinCombine : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:
 		::System::Int32 AdjoinCount; // 0x10
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::ComplexSkillAISource* Evaluator; // 0x18
 		::RPG::GameCore::ComplexSkillAIListCombineType ListCombineType; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3E5CFCD750EA9DE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_METHOD_3_3E5CFCD750EA9DE9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2F06D0C02706C6A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_METHOD_3_2F06D0C02706C6A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAIAllAdjoinCombine*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIALLADJOINCOMBINE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int Cast_3_TypeDefinitionIndex = 6107;
-
-	template <typename TEnumerator, typename TSource, typename TResult>
-	struct Cast_3
+	template <typename T1, typename T2, typename T3>
+	struct alignas(8) Cast_3
 	{
-		TEnumerator source; // 0x0
+		T1 source; // 0x0
 	};
 }

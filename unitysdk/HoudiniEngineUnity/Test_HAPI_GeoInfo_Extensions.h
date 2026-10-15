@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HoudiniEngineUnity/HAPI_GeoInfo.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/HoudiniEngineUnity/HAPI_GeoInfo.h"
 namespace HoudiniEngineUnity { class Test_HAPI_GeoInfo; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B4AF650)
+#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B1680)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_GeoInfo_Extensions_TypeDefinitionIndex = 39406;
-
 	class Test_HAPI_GeoInfo_Extensions : public ::System::Object
 	{
 	public:
@@ -18,5 +15,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::HoudiniEngineUnity::Test_HAPI_GeoInfo*(*)(::HoudiniEngineUnity::HAPI_GeoInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_EXTENSIONS_TOTESTOBJECT_OFFSET))(a1);
 		}
+
 	};
 }

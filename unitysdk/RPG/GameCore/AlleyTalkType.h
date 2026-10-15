@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyTalkType_TypeDefinitionIndex = 12541;
-
 	enum class AlleyTalkType : ::System::Int32
 	{
 		Default = 0,

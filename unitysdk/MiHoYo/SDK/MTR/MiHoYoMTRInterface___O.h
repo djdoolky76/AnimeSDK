@@ -1,23 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Threading { class ParameterizedThreadStart; }
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface___O_TypeDefinitionIndex = 47147;
-
 	class MiHoYoMTRInterface___O : public ::System::Object
 	{
 	public:
-		static ::System::Threading::ParameterizedThreadStart** StaticGet__0___StopMTRProc()
-		{
-			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___O_TypeDefinitionIndex)->GetStaticField(0x4A010);
-		}
 		static ::System::Threading::ParameterizedThreadStart** StaticGet__1___StopUrlUsageProc()
 		{
-			return (::System::Threading::ParameterizedThreadStart**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___O_TypeDefinitionIndex)->GetStaticField(0x4A018);
+			return (::System::Threading::ParameterizedThreadStart**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>O")->GetStaticField(0x25480);
 		}
+
+		static ::System::Threading::ParameterizedThreadStart** StaticGet__0___StopMTRProc()
+		{
+			return (::System::Threading::ParameterizedThreadStart**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>O")->GetStaticField(0x25488);
+		}
+
 	};
 }

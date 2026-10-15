@@ -2,38 +2,37 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TrainPartyProgressRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5E0BD0)
-#define RPG_GAMECORE_TRAINPARTYPROGRESSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E0F10)
+#define RPG_GAMECORE_TRAINPARTYPROGRESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC348E0)
+#define RPG_GAMECORE_TRAINPARTYPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC345A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyProgressRow_TypeDefinitionIndex = 15136;
-
 	class TrainPartyProgressRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TeamIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* UnlockPassengerList; // 0x18
-		::System::String* PassengerUnlockActPath; // 0x20
-		::System::UInt32 InitialStatExp; // 0x28
-		::RPG::Client::TextID ProgressTitle; // 0x30
-		::System::UInt32 UnlcokRequireArea; // 0x40
-		::System::UInt32 ProgressID; // 0x44
-		::System::UInt32 StatRatio; // 0x48
-		::System::UInt32 CoinRatio; // 0x4C
-
+		::Il2CppArray<::System::UInt32>* UnlockPassengerList; // 0x10
+		::System::String* PassengerUnlockActPath; // 0x18
+		::Il2CppArray<::System::UInt32>* TeamIDList; // 0x20
+		::System::UInt32 UnlcokRequireArea; // 0x28
+		::System::UInt32 CoinRatio; // 0x2C
+		::System::UInt32 StatRatio; // 0x30
+		::System::UInt32 ProgressID; // 0x34
+		::System::UInt32 InitialStatExp; // 0x38
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID ProgressTitle; // 0x40
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPROGRESSROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPROGRESSROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyProgressRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::TrainPartyProgressRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyProgressRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPROGRESSROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TrainPartyProgressRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPROGRESSROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

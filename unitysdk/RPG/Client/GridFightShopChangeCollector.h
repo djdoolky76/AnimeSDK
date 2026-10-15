@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD324600)
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD3245A0)
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD324560)
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xD324650)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD27E890)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD27E840)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD27E7E0)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD27E7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightShopChangeCollector_TypeDefinitionIndex = 64626;
-
 	class GridFightShopChangeCollector : public ::System::Object
 	{
 	public:
 		::System::Boolean IsDirty; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Reset()
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

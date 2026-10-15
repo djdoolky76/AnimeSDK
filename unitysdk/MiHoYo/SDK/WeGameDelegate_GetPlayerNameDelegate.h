@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB113E0)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB11410)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB113D0)
-#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB11360)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C01DDF0)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01DD70)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C01DE20)
+#define MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C01DDE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_GetPlayerNameDelegate_TypeDefinitionIndex = 7663;
-
 	class WeGameDelegate_GetPlayerNameDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* Invoke()
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WEGAMEDELEGATE_GETPLAYERNAMEDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

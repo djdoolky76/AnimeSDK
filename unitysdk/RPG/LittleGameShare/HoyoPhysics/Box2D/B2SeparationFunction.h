@@ -4,12 +4,9 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeProxy.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Sweep.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2Vec2.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SeparationFunction_TypeDefinitionIndex = 36070;
-
 	struct alignas(4) B2SeparationFunction
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeProxy proxyA; // 0x10

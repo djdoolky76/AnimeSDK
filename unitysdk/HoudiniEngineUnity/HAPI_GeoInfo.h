@@ -2,14 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_GeoType.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_GroupType.h"
-#include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_GEOINFO_GETGROUPCOUNTBYTYPE_OFFSET UNITYSDK_OFFSET(0x2FD1370)
+#define HOUDINIENGINEUNITY_HAPI_GEOINFO_GETGROUPCOUNTBYTYPE_OFFSET UNITYSDK_OFFSET(0x304AE40)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_GeoInfo_TypeDefinitionIndex = 39207;
-
 	struct alignas(4) HAPI_GeoInfo
 	{
 		::HoudiniEngineUnity::HAPI_GeoType type; // 0x10
@@ -20,14 +17,15 @@ namespace HoudiniEngineUnity
 		::System::Boolean isDisplayGeo; // 0x1E
 		::System::Boolean hasGeoChanged; // 0x1F
 		::System::Boolean hasMaterialChanged; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 pointGroupCount; // 0x24
 		::System::Int32 primitiveGroupCount; // 0x28
 		::System::Int32 edgeGroupCount; // 0x2C
 		::System::Int32 partCount; // 0x30
-
 		::System::Int32 getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::HoudiniEngineUnity::HAPI_GroupType))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HAPI_GEOINFO_GETGROUPCOUNTBYTYPE_OFFSET))(this, a1);
 		}
+
 	};
 }

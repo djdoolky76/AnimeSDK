@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0xD4B0)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0xD4D0)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_REALBLENDTIME_OFFSET UNITYSDK_OFFSET(0x151A50)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0xD4F0)
-#define RPG_CLIENT_LOOKATTILTDATA_GET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0x14420)
-#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_1885BB151FF7D3C5_OFFSET UNITYSDK_OFFSET(0x151AB0)
-#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_7F6AA98BD4EEC9D6_OFFSET UNITYSDK_OFFSET(0x151AC0)
-#define RPG_CLIENT_LOOKATTILTDATA_METHOD_2_D259C291033FAF75_OFFSET UNITYSDK_OFFSET(0x151B50)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0xD4C0)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0xD4E0)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0xD500)
-#define RPG_CLIENT_LOOKATTILTDATA_SET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0xB7B0)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0x1D00)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0x1D10)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_REALBLENDTIME_OFFSET UNITYSDK_OFFSET(0xEA790)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0x1D20)
+#define RPG_CLIENT_LOOKATTILTDATA_GET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0x94D0)
+#define RPG_CLIENT_LOOKATTILTDATA_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xEA890)
+#define RPG_CLIENT_LOOKATTILTDATA_OMCGAIHFMKF_OFFSET UNITYSDK_OFFSET(0xEA800)
+#define RPG_CLIENT_LOOKATTILTDATA_PKHNGBPDCKG_OFFSET UNITYSDK_OFFSET(0xEA7F0)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTTILT_OFFSET UNITYSDK_OFFSET(0x14EA0)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_CURRENTYTILT_OFFSET UNITYSDK_OFFSET(0xEA770)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_TARGETTILT_OFFSET UNITYSDK_OFFSET(0xEA780)
+#define RPG_CLIENT_LOOKATTILTDATA_SET_TILTCURVE_OFFSET UNITYSDK_OFFSET(0x94E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtTiltData_TypeDefinitionIndex = 68441;
-
 	struct alignas(8) LookAtTiltData
 	{
 		::System::Single _CurrentTilt_k__BackingField; // 0x10
 		::System::Single _CurrentYTilt_k__BackingField; // 0x14
 		::System::Single _TargetTilt_k__BackingField; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* _TiltCurve_k__BackingField; // 0x20
 		::System::Single tiltLimit; // 0x28
 		::System::Single tiltRotateYLimit; // 0x2C
@@ -37,7 +34,6 @@ namespace RPG::Client
 		::System::Single _overrideBlendTime; // 0x48
 		::System::Single _curveTimer; // 0x4C
 		::System::Single _preTiltByCurve; // 0x50
-
 		::System::Single get_CurrentTilt()
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_GET_CURRENTTILT_OFFSET))(this);
@@ -83,19 +79,20 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_GET_REALBLENDTIME_OFFSET))(this);
 		}
 
-		::System::Void Method_2_1885BB151FF7D3C5(::System::Single a1, ::System::Single a2)
+		::System::Void PKHNGBPDCKG(::System::Single a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_METHOD_2_1885BB151FF7D3C5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_PKHNGBPDCKG_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_7F6AA98BD4EEC9D6(::System::Single a1, ::UnityEngine::AnimationCurve* a2, ::System::Single a3)
+		::System::Void OMCGAIHFMKF(::System::Single a1, ::UnityEngine::AnimationCurve* a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::AnimationCurve*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_METHOD_2_7F6AA98BD4EEC9D6_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::AnimationCurve*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_OMCGAIHFMKF_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_2_D259C291033FAF75(::System::Single a1)
+		::System::Void JLANKNHFKCN(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_METHOD_2_D259C291033FAF75_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOKATTILTDATA_JLANKNHFKCN_OFFSET))(this, a1);
 		}
+
 	};
 }

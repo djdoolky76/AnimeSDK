@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace UnityEngine::UI { class ClipperRegistry; }
 namespace UnityEngine::UI { class IClipper; }
 namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_1; }
 
-#define UNITYENGINE_UI_CLIPPERREGISTRY_CULL_OFFSET UNITYSDK_OFFSET(0x1EE1C460)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EE1C3F0)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1EE1D490)
-#define UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1EE1D520)
-#define UNITYENGINE_UI_CLIPPERREGISTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE1D450)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4E6380)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_CULL_OFFSET UNITYSDK_OFFSET(0x1F4E5390)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F4E5320)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_REGISTER_OFFSET UNITYSDK_OFFSET(0x1F4E63C0)
+#define UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1F4E6450)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ClipperRegistry_TypeDefinitionIndex = 6689;
-
 	class ClipperRegistry : public ::System::Object
 	{
 	public:
+		::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* m_Clippers; // 0x10
 		static ::UnityEngine::UI::ClipperRegistry** StaticGet_s_Instance()
 		{
-			return (::UnityEngine::UI::ClipperRegistry**)Il2CppClass::FromTypeDefinitionIndex(ClipperRegistry_TypeDefinitionIndex)->GetStaticField(0x25910);
+			return (::UnityEngine::UI::ClipperRegistry**)UnitySDK::FromName("UnityEngine.UI", "ClipperRegistry")->GetStaticField(0x32CD0);
 		}
-		::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* m_Clippers; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY_CTOR_OFFSET))(this);
 		}
 
 		static ::UnityEngine::UI::ClipperRegistry* get_instance()
@@ -48,5 +46,6 @@ namespace UnityEngine::UI
 		{
 			return ((::System::Void(*)(::UnityEngine::UI::IClipper*))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_CLIPPERREGISTRY_UNREGISTER_OFFSET))(a1);
 		}
+
 	};
 }

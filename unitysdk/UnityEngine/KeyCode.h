@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int KeyCode_TypeDefinitionIndex = 4211;
-
 	enum class KeyCode : ::System::Int32
 	{
 		None = 0,

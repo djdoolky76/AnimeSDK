@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SupportedRenderingFeatures_LightmapMixedBakeModes_TypeDefinitionIndex = 4773;
-
 	enum class SupportedRenderingFeatures_LightmapMixedBakeModes : ::System::Int32
 	{
 		None = 0,

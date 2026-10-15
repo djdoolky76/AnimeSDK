@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SurfaceType_TypeDefinitionIndex = 10786;
-
 	enum class SurfaceType : ::System::Int32
 	{
 		Concrete = 0,

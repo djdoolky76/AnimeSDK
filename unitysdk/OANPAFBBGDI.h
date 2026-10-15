@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/LBAMBIMMJKB.h"
+namespace RPG::Client { class LocalizedText; }
+namespace System { class String; }
+
+#define OANPAFBBGDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2F200)
+#define OANPAFBBGDI_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBD2F110)
+#define OANPAFBBGDI_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBD2F180)
+
+	class OANPAFBBGDI : public ::LBAMBIMMJKB
+	{
+	public:
+		::RPG::Client::LocalizedText* BMKBAMOJHMP; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OANPAFBBGDI_CTOR_OFFSET))(this);
+		}
+
+		::System::String* IAMCNOAAALI()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OANPAFBBGDI_IAMCNOAAALI_OFFSET))(this);
+		}
+
+		::System::Void JCKGONAAIPB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OANPAFBBGDI_JCKGONAAIPB_OFFSET))(this);
+		}
+
+	};

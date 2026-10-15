@@ -1,21 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AvatarRowWrapperExtraParam.h"
 #include "unitysdk/RPG/GameCore/EAvatarCommonRowWrap.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/RPG/GameCore/AvatarRowWrapperExtraParam.h"
 namespace RPG::GameCore { class IAvatarCommonRowWrap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE50FC30)
-#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETAVATARINDEXNAME_OFFSET UNITYSDK_OFFSET(0xE510670)
-#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE50F750)
+#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETALLWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE5A1DA0)
+#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETAVATARINDEXNAME_OFFSET UNITYSDK_OFFSET(0xE5A27F0)
+#define RPG_GAMECORE_AVATARCOMMONROWWRAP_GETWRAPDATA_OFFSET UNITYSDK_OFFSET(0xE5A18C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarCommonRowWrap_TypeDefinitionIndex = 56722;
-
 	class AvatarCommonRowWrap : public ::System::Object
 	{
 	public:
@@ -33,5 +30,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::String*(*)(::RPG::GameCore::IAvatarCommonRowWrap*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARCOMMONROWWRAP_GETAVATARINDEXNAME_OFFSET))(a1, a2);
 		}
+
 	};
 }

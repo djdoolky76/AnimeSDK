@@ -1,42 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD708F30)
-#define RPG_CLIENT_MISSIONMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD708F60)
-#define RPG_CLIENT_MISSIONMODULE___C___INITFUNCENTRYMISSIONANDSUBMISSION_B__127_0_OFFSET UNITYSDK_OFFSET(0xD708FE0)
-#define RPG_CLIENT_MISSIONMODULE___C___INITUNLOCKDATAMAINMISSIONANDSUBMISSION_B__124_0_OFFSET UNITYSDK_OFFSET(0xD708F70)
+#define RPG_CLIENT_MISSIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7081E0)
+#define RPG_CLIENT_MISSIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD708210)
+#define RPG_CLIENT_MISSIONMODULE___C___INITFUNCENTRYMISSIONANDSUBMISSION_B__127_0_OFFSET UNITYSDK_OFFSET(0xD708290)
+#define RPG_CLIENT_MISSIONMODULE___C___INITUNLOCKDATAMAINMISSIONANDSUBMISSION_B__124_0_OFFSET UNITYSDK_OFFSET(0xD708220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c_TypeDefinitionIndex = 66192;
-
 	class MissionModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__124_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x66F60);
-		}
 		static ::System::Action** StaticGet___9__127_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x66F68);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56B80);
 		}
-		static ::RPG::Client::MissionModule___c** StaticGet___9()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::MissionModule___c**)Il2CppClass::FromTypeDefinitionIndex(MissionModule___c_TypeDefinitionIndex)->GetStaticField(0x66F70);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56B88);
+		}
+
+		static ::System::Action** StaticGet___9__124_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56B90);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __InitUnlockDataMainMissionAndSubMission_b__124_0()
@@ -48,5 +48,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C___INITFUNCENTRYMISSIONANDSUBMISSION_B__127_0_OFFSET))(this);
 		}
+
 	};
 }

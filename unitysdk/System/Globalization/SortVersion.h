@@ -5,8 +5,6 @@
 
 namespace System::Globalization
 {
-	inline static constexpr unsigned int SortVersion_TypeDefinitionIndex = 762;
-
 	class SortVersion : public ::System::Object
 	{
 	public:

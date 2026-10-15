@@ -2,20 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_STEAMINITEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA38D00)
+#define MIHOYO_SDK_PC_OS_STEAMINITEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42780)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int SteamInitExtension_TypeDefinitionIndex = 8640;
-
 	class SteamInitExtension : public ::System::Object
 	{
 	public:
 		::System::UInt32 appId; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_STEAMINITEXTENSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_STEAMINITEXTENSION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

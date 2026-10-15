@@ -3,8 +3,6 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatCollectionPageParam_TabType_TypeDefinitionIndex = 75645;
-
 	enum class DiceCombatCollectionPageParam_TabType : ::System::Int32
 	{
 		None = 0,

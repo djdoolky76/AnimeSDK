@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define RPG_CLIENT_PETDIYSTATIC_CCTOR_OFFSET UNITYSDK_OFFSET(0xDACF7E0)
+
+namespace RPG::Client
+{
+	class PetDiyStatic : public ::System::Object
+	{
+	public:
+		static ::System::UInt32* StaticGet_ContentID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "PetDiyStatic")->GetStaticField(0x2580);
+		}
+
+		static ::System::UInt32* StaticGet_PreMissionGotoID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "PetDiyStatic")->GetStaticField(0x2584);
+		}
+
+		static ::System::UInt32* StaticGet_PreMissionID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "PetDiyStatic")->GetStaticField(0x2588);
+		}
+
+		static ::System::UInt32* StaticGet_UnlockTrainDiySubMissionID()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client", "PetDiyStatic")->GetStaticField(0x258C);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PETDIYSTATIC_CCTOR_OFFSET))();
+		}
+
+	};
+}

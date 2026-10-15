@@ -2,15 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorTickMode.h"
 #include "unitysdk/RPG/Client/TAMonoBase.h"
-#include "unitysdk/UnityEngine/Bounds.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAMonoPlugin_1_TypeDefinitionIndex = 70736;
-
-	template <typename TBehavior>
+	template <typename T>
 	class TAMonoPlugin_1 : public ::RPG::Client::TAMonoBase
 	{
 	public:

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiVoiceSelectType_TypeDefinitionIndex = 24271;
-
 	enum class MultiVoiceSelectType : ::System::Int32
 	{
 		Random = 0,

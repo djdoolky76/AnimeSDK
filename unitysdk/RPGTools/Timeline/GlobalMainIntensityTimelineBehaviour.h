@@ -1,23 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE85F9D0)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE85F1F0)
-#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE85FC70)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8FDEB0)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE8FDC10)
+#define RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE8FD590)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int GlobalMainIntensityTimelineBehaviour_TypeDefinitionIndex = 48925;
-
 	class GlobalMainIntensityTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::System::Boolean AutoReset; // 0x10
+		::System::Byte _padding0[0x3];
 		::System::Single TargetInstensity; // 0x14
 		::System::Single TargetFogDensity; // 0x18
 		::System::Single StartDuration; // 0x1C
@@ -25,10 +23,9 @@ namespace RPGTools::Timeline
 		::System::Boolean EnableEffect; // 0x24
 		::System::Boolean _IsEnable; // 0x25
 		::System::Boolean _EnableKeyFrame; // 0x26
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
@@ -40,5 +37,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_GLOBALMAININTENSITYTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,70 +1,70 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_389498C4C2EB2CF2;
+class HDOKNMGIDMB;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class FieldCodec; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace Proto { class UpdateFeatureSwitchScNotify; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1D983D90)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_CLONE_OFFSET UNITYSDK_OFFSET(0x1D983970)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D983AF0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D9839B0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D983C10)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1D983860)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_SWITCHINFOLIST_OFFSET UNITYSDK_OFFSET(0x1D9839A0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1D983ED0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1D983E30)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1D983890)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D983C80)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_WRITETO_OFFSET UNITYSDK_OFFSET(0x1D983CE0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D984090)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D9838E0)
-#define PROTO_UPDATEFEATURESWITCHSCNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D9838A0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E01B8F0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E01BBF0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_CLONE_OFFSET UNITYSDK_OFFSET(0x1E01B4D0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E01B440)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E01B400)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E01B650)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E01B510)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E01B770)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1E01B3C0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_SWITCHINFOLIST_OFFSET UNITYSDK_OFFSET(0x1E01B500)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E01BA30)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E01B990)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E01B3F0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E01B7E0)
+#define PROTO_UPDATEFEATURESWITCHSCNOTIFY_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E01B840)
 
 namespace Proto
 {
-	inline static constexpr unsigned int UpdateFeatureSwitchScNotify_TypeDefinitionIndex = 31456;
-
 	class UpdateFeatureSwitchScNotify : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::UpdateFeatureSwitchScNotify*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::UpdateFeatureSwitchScNotify*>**)Il2CppClass::FromTypeDefinitionIndex(UpdateFeatureSwitchScNotify_TypeDefinitionIndex)->GetStaticField(0xA00);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_389498C4C2EB2CF2*>** StaticGet__repeated_switchInfoList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_389498C4C2EB2CF2*>**)Il2CppClass::FromTypeDefinitionIndex(UpdateFeatureSwitchScNotify_TypeDefinitionIndex)->GetStaticField(0xA08);
-		}
-		// static const ::System::Int32 SwitchInfoListFieldNumber = 0xB; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_389498C4C2EB2CF2*>* switchInfoList_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::HDOKNMGIDMB*>* switchInfoList_; // 0x18
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Proto", "UpdateFeatureSwitchScNotify")->GetStaticField(0x47570);
+		}
 
+		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_switchInfoList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Proto", "UpdateFeatureSwitchScNotify")->GetStaticField(0x47578);
+		}
+
+		// static const ::System::Object SwitchInfoListFieldNumber; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Proto::UpdateFeatureSwitchScNotify* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Proto::UpdateFeatureSwitchScNotify*))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Proto::UpdateFeatureSwitchScNotify*))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Proto::UpdateFeatureSwitchScNotify*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Proto::UpdateFeatureSwitchScNotify*>*(*)())((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_PARSER_OFFSET))();
 		}
 
 		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
@@ -77,9 +77,9 @@ namespace Proto
 			return ((::Proto::UpdateFeatureSwitchScNotify*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_389498C4C2EB2CF2*>* get_SwitchInfoList()
+		::Google::Protobuf::Collections::RepeatedField_1<::HDOKNMGIDMB*>* get_SwitchInfoList()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_389498C4C2EB2CF2*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_SWITCHINFOLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::HDOKNMGIDMB*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_GET_SWITCHINFOLIST_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)
@@ -121,5 +121,6 @@ namespace Proto
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + PROTO_UPDATEFEATURESWITCHSCNOTIFY_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

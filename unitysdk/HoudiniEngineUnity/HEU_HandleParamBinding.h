@@ -2,16 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HoudiniEngineUnity/HEU_HandleParamBinding_HEU_HandleParamType.h"
 #include "unitysdk/System/Object.h"
-
+namespace HoudiniEngineUnity { class HEU_HandleParamBinding; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B403CC0)
-#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B402B70)
+#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING_CTOR_OFFSET UNITYSDK_OFFSET(0x1B904570)
+#define HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9056C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HandleParamBinding_TypeDefinitionIndex = 39231;
-
 	class HEU_HandleParamBinding : public ::System::Object
 	{
 	public:
@@ -19,16 +17,17 @@ namespace HoudiniEngineUnity
 		::System::Int32 _parmID; // 0x14
 		::System::String* _paramName; // 0x18
 		::System::Boolean _bDisabled; // 0x20
+		::System::Byte _padding0[0x7];
 		::Il2CppArray<::System::Boolean>* _boundChannels; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::HoudiniEngineUnity::HEU_HandleParamBinding*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_HANDLEPARAMBINDING_ISEQUIVALENTTO_OFFSET))(this, a1);
 		}
+
 	};
 }

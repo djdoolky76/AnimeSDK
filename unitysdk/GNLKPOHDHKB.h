@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class CKGKLNPPAKB;
+namespace RPG::GameCore { class TaskContext; }
+
+#define GNLKPOHDHKB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B16490)
+#define GNLKPOHDHKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B164C0)
+
+	class GNLKPOHDHKB
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::CKGKLNPPAKB* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::CKGKLNPPAKB*))((::PBYTE)hIl2Cpp + GNLKPOHDHKB_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNLKPOHDHKB_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

@@ -2,37 +2,35 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TargetMuteModifierEventSource; }
 
-#define RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_METHOD_3_29428BCD386F0990_OFFSET UNITYSDK_OFFSET(0x1D5B5B80)
-#define RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_METHOD_3_994A3AB606C92E7F_OFFSET UNITYSDK_OFFSET(0x1D5B5B40)
-#define RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B5B70)
+#define RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB6D180)
+#define RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB6D190)
+#define RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB6D150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetMuteModifierEventSource_TypeDefinitionIndex = 23207;
-
 	class TargetMuteModifierEventSource : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::Il2CppArray<::RPG::GameCore::TurnBasedModifierEvent>* ModifierEvents; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_994A3AB606C92E7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMuteModifierEventSource*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMuteModifierEventSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMuteModifierEventSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_METHOD_3_994A3AB606C92E7F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMuteModifierEventSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_29428BCD386F0990(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetMuteModifierEventSource* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetMuteModifierEventSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetMuteModifierEventSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_METHOD_3_29428BCD386F0990_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetMuteModifierEventSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETMUTEMODIFIEREVENTSOURCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

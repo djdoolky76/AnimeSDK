@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TriggerGroupEvent.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TriggerGroupEventOnDialogEnd; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_METHOD_4_E83714C700F40639_OFFSET UNITYSDK_OFFSET(0x1D5FFAD0)
-#define RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_METHOD_4_F81C3C76A4C7A242_OFFSET UNITYSDK_OFFSET(0x1D5FF9D0)
-#define RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FF9C0)
+#define RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC53770)
+#define RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC53780)
+#define RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC53880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerGroupEventOnDialogEnd_TypeDefinitionIndex = 20861;
-
 	class TriggerGroupEventOnDialogEnd : public ::RPG::GameCore::TriggerGroupEvent
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E83714C700F40639(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerGroupEventOnDialogEnd*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerGroupEventOnDialogEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerGroupEventOnDialogEnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_METHOD_4_E83714C700F40639_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerGroupEventOnDialogEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F81C3C76A4C7A242(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerGroupEventOnDialogEnd* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TriggerGroupEventOnDialogEnd* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerGroupEventOnDialogEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_METHOD_4_F81C3C76A4C7A242_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TriggerGroupEventOnDialogEnd*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGROUPEVENTONDIALOGEND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

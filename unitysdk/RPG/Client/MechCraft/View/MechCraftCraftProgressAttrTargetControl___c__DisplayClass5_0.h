@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MechCraft/MechCraftAttributeType.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple.h"
+class BHHPHPGCODJ;
+
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD62C2E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0__GETTARGETANCHORPOS_B__1_OFFSET UNITYSDK_OFFSET(0xD62C850)
+
+namespace RPG::Client::MechCraft::View
+{
+	class MechCraftCraftProgressAttrTargetControl___c__DisplayClass5_0 : public ::System::Object
+	{
+	public:
+		::RPG::Client::MechCraft::MechCraftAttributeType target; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _GetTargetAnchorPos_b__1(::System::ValueTuple a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::ValueTuple))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSATTRTARGETCONTROL___C__DISPLAYCLASS5_0__GETTARGETANCHORPOS_B__1_OFFSET))(this, a1);
+		}
+
+	};
+}

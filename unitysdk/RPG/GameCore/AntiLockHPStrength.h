@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AntiLockHPStrength_TypeDefinitionIndex = 24481;
-
 	enum class AntiLockHPStrength : ::System::Int32
 	{
 		Normal = 0,

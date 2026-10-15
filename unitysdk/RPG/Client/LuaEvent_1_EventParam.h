@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System { class Action; }
+namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LuaEvent_1_EventParam_TypeDefinitionIndex = 59563;
-
 	template <typename T>
 	class LuaEvent_1_EventParam : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::Object*, T>* Callback; // 0x0
+		::System::Action* Callback; // 0x0
 		::System::Object* Listener; // 0x0
 	};
 }

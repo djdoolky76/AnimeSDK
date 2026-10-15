@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ESwitchHandGestureType_TypeDefinitionIndex = 10512;
-
 	enum class ESwitchHandGestureType : ::System::Int32
 	{
 		Default = 0,

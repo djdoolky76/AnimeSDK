@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AutoLayoutPerformType_TypeDefinitionIndex = 24415;
-
 	enum class AutoLayoutPerformType : ::System::Int32
 	{
 		AddImmediately = 0,

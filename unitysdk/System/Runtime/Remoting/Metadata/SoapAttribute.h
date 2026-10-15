@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_GET_USEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BDEDD60)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_GET_XMLNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1BDEDD70)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1BDEDD80)
-#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDEDD50)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2F99A0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_GET_USEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C2F99B0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_GET_XMLNAMESPACE_OFFSET UNITYSDK_OFFSET(0x1C2F99C0)
+#define SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_SETREFLECTIONOBJECT_OFFSET UNITYSDK_OFFSET(0x1C2F99D0)
 
 namespace System::Runtime::Remoting::Metadata
 {
-	inline static constexpr unsigned int SoapAttribute_TypeDefinitionIndex = 1285;
-
 	class SoapAttribute : public ::System::Attribute
 	{
 	public:
 		::System::Object* ReflectInfo; // 0x10
 		::System::String* ProtXmlNamespace; // 0x18
 		::System::Boolean _useAttribute; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_UseAttribute()
@@ -40,5 +36,6 @@ namespace System::Runtime::Remoting::Metadata
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_METADATA_SOAPATTRIBUTE_SETREFLECTIONOBJECT_OFFSET))(this, a1);
 		}
+
 	};
 }

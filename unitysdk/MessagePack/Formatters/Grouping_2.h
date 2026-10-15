@@ -1,20 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Grouping_2_TypeDefinitionIndex = 7344;
-
-	template <typename TKey, typename TElement>
+	template <typename T1, typename T2>
 	class Grouping_2 : public ::System::Object
 	{
 	public:
-		TKey key; // 0x0
-		::System::Collections::Generic::IEnumerable_1<TElement>* elements; // 0x0
+		T1 key; // 0x0
+		::System::Collections::Generic::IEnumerable_1<T2>* elements; // 0x0
 	};
 }

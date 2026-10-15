@@ -1,25 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/BookletElement_1.h"
-
 namespace RPG::Client { class BookletLuaPanelParam; }
-namespace RPG::GameCore::Booklet { class CustomPageElementConfig; }
 
-#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_INITVIEW_OFFSET UNITYSDK_OFFSET(0xE16C4B0)
-#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_METHOD_7_653F7195DAB048FB_OFFSET UNITYSDK_OFFSET(0xE16C560)
-#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT__BEFOREDESTROY_OFFSET UNITYSDK_OFFSET(0xE16C620)
-#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0xE16C700)
+#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_CMBIMEIDLCK_OFFSET UNITYSDK_OFFSET(0xE1ADFB0)
+#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE1AE150)
+#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_INITVIEW_OFFSET UNITYSDK_OFFSET(0xE1ADF00)
+#define RPG_CLIENT_TAROTBOOKCHARACTERELEMENT__BEFOREDESTROY_OFFSET UNITYSDK_OFFSET(0xE1AE070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookCharacterElement_TypeDefinitionIndex = 72384;
-
-	class TarotBookCharacterElement : public ::RPG::Client::BookletElement_1<::RPG::GameCore::Booklet::CustomPageElementConfig*>
+	class TarotBookCharacterElement
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCHARACTERELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitView()
@@ -32,9 +27,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCHARACTERELEMENT__BEFOREDESTROY_OFFSET))(this);
 		}
 
-		::RPG::Client::BookletLuaPanelParam* Method_7_653F7195DAB048FB()
+		::RPG::Client::BookletLuaPanelParam* CMBIMEIDLCK()
 		{
-			return ((::RPG::Client::BookletLuaPanelParam*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_METHOD_7_653F7195DAB048FB_OFFSET))(this);
+			return ((::RPG::Client::BookletLuaPanelParam*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TAROTBOOKCHARACTERELEMENT_CMBIMEIDLCK_OFFSET))(this);
 		}
+
 	};
 }

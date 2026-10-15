@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Rendering/SDFAtlasLayout.h"
-#include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
+#include "unitysdk/RPG/Rendering/SDFAtlasLayout.h"
+#include "unitysdk/UnityEngine/Bounds.h"
 
-#define RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_508D4DD02D3DB74E_OFFSET UNITYSDK_OFFSET(0xE7E7FC0)
-#define RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_568AE7A1499723FD_OFFSET UNITYSDK_OFFSET(0xE7E7F50)
-#define RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_9B4A2421E38298E7_OFFSET UNITYSDK_OFFSET(0xE7E7ED0)
-#define RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_9BA7B23B5B374828_OFFSET UNITYSDK_OFFSET(0xE7E7E60)
-#define RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_A39E0A664391984C_OFFSET UNITYSDK_OFFSET(0xE7E7D90)
-#define RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_D58849E1895DD394_OFFSET UNITYSDK_OFFSET(0xE7E8AF0)
-#define RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_DFF98536D8B4074F_OFFSET UNITYSDK_OFFSET(0xE7E8D50)
-#define RPG_RENDERING_SDFBOUNDSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE7E8DF0)
+#define RPG_RENDERING_SDFBOUNDSDATA_COAMHPGKHMK_OFFSET UNITYSDK_OFFSET(0xE883220)
+#define RPG_RENDERING_SDFBOUNDSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE884050)
+#define RPG_RENDERING_SDFBOUNDSDATA_GIOALAOEOGE_OFFSET UNITYSDK_OFFSET(0xE883130)
+#define RPG_RENDERING_SDFBOUNDSDATA_HJKBOOMDPJK_OFFSET UNITYSDK_OFFSET(0xE8831B0)
+#define RPG_RENDERING_SDFBOUNDSDATA_JNCOMLPDNHP_OFFSET UNITYSDK_OFFSET(0xE882FF0)
+#define RPG_RENDERING_SDFBOUNDSDATA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xE883D50)
+#define RPG_RENDERING_SDFBOUNDSDATA_MONJLCIHLPE_OFFSET UNITYSDK_OFFSET(0xE8830C0)
+#define RPG_RENDERING_SDFBOUNDSDATA_PKMPIHINGEG_OFFSET UNITYSDK_OFFSET(0xE883FB0)
 
 namespace RPG::Rendering
 {
-	inline static constexpr unsigned int SDFBoundsData_TypeDefinitionIndex = 52090;
-
 	class SDFBoundsData : public ::UnityEngine::ScriptableObject
 	{
 	public:
@@ -33,45 +31,45 @@ namespace RPG::Rendering
 		::System::Int32 tilesPerColumn; // 0x50
 		::System::Int32 atlasWidth; // 0x54
 		::System::Int32 atlasHeight; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Bounds Method_3_A39E0A664391984C()
+		::UnityEngine::Bounds JNCOMLPDNHP()
 		{
-			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_A39E0A664391984C_OFFSET))(this);
+			return ((::UnityEngine::Bounds(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_JNCOMLPDNHP_OFFSET))(this);
 		}
 
-		::RPG::Rendering::SDFAtlasLayout Method_3_9BA7B23B5B374828()
+		::RPG::Rendering::SDFAtlasLayout MONJLCIHLPE()
 		{
-			return ((::RPG::Rendering::SDFAtlasLayout(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_9BA7B23B5B374828_OFFSET))(this);
+			return ((::RPG::Rendering::SDFAtlasLayout(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_MONJLCIHLPE_OFFSET))(this);
 		}
 
-		::System::Void Method_3_9B4A2421E38298E7(::RPG::Rendering::SDFAtlasLayout a1)
+		::System::Void GIOALAOEOGE(::RPG::Rendering::SDFAtlasLayout a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Rendering::SDFAtlasLayout))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_9B4A2421E38298E7_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Rendering::SDFAtlasLayout))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_GIOALAOEOGE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean Method_3_568AE7A1499723FD()
+		::System::Boolean HJKBOOMDPJK()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_568AE7A1499723FD_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_HJKBOOMDPJK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_508D4DD02D3DB74E()
+		::System::Void COAMHPGKHMK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_508D4DD02D3DB74E_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_COAMHPGKHMK_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_D58849E1895DD394()
+		::System::Boolean KKKIONIDKFA()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_D58849E1895DD394_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_KKKIONIDKFA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_3_DFF98536D8B4074F()
+		::System::Boolean PKMPIHINGEG()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_METHOD_3_DFF98536D8B4074F_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_RENDERING_SDFBOUNDSDATA_PKMPIHINGEG_OFFSET))(this);
 		}
+
 	};
 }

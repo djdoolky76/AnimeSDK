@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGPOLAROID__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D8830)
+#define RPG_CUSTOMRP_RPGPOLAROID_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC5ED60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGPolaroid_TypeDefinitionIndex = 37152;
-
 	class RPGPolaroid : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
@@ -24,10 +21,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::ColorParameter* PolaroidColor; // 0x70
 		::UnityEngine::Rendering::FloatParameter* PolaroidScale; // 0x78
 		::UnityEngine::Rendering::FloatParameter* Rotate; // 0x80
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPOLAROID__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGPOLAROID_CTOR_OFFSET))(this);
 		}
+
 	};
 }

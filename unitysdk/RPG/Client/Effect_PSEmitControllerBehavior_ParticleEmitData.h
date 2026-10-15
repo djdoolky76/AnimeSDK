@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PSEmitControllerBehavior_ParticleEmitData_TypeDefinitionIndex = 70481;
-
 	struct alignas(4) Effect_PSEmitControllerBehavior_ParticleEmitData
 	{
 		::UnityEngine::Vector3 Position; // 0x10

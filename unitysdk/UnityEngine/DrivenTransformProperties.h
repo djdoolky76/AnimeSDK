@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DrivenTransformProperties_TypeDefinitionIndex = 4398;
-
 	enum class DrivenTransformProperties : ::System::Int32
 	{
 		None = 0,

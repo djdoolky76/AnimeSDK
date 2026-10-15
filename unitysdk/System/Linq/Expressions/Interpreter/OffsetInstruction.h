@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/Instruction.h"
-
 namespace System { class String; }
+namespace System::Linq::Expressions::Interpreter { class Instruction; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_FIXUP_OFFSET UNITYSDK_OFFSET(0x1E75BE00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E75BF10)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E75C020)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE24C20)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_FIXUP_OFFSET UNITYSDK_OFFSET(0x1EE24A00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE24B10)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int OffsetInstruction_TypeDefinitionIndex = 3320;
-
 	class OffsetInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		::System::Int32 _offset; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Linq::Expressions::Interpreter::Instruction* Fixup(::System::Int32 a1)
@@ -31,5 +28,6 @@ namespace System::Linq::Expressions::Interpreter
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_OFFSETINSTRUCTION_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

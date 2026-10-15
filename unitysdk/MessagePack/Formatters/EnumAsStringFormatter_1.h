@@ -1,17 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/MessagePack/MessagePackReader.h"
-#include "unitysdk/MessagePack/MessagePackWriter.h"
 #include "unitysdk/System/Object.h"
-
-namespace MessagePack { class MessagePackSerializerOptions; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int EnumAsStringFormatter_1_TypeDefinitionIndex = 7375;
-
 	template <typename T>
 	class EnumAsStringFormatter_1 : public ::System::Object
 	{

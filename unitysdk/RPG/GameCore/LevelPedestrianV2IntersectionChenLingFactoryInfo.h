@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LevelPedestrianV2IntersectionInfo.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactoryInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactorySpawnInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingFactoryStateInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_METHOD_3_31AC8FD8A7C473D1_OFFSET UNITYSDK_OFFSET(0x1D1E6EB0)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_METHOD_3_D5335F3C7FB3A09E_OFFSET UNITYSDK_OFFSET(0x1D1E6F00)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E6EF0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C4E20)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7C4E30)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C4DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingFactoryInfo_TypeDefinitionIndex = 17112;
-
 	class LevelPedestrianV2IntersectionChenLingFactoryInfo : public ::RPG::GameCore::LevelPedestrianV2IntersectionInfo
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore
 		::RPG::MVector3 SwitchAnchor; // 0x58
 		::System::Single SwitchAnchorRadius; // 0x64
 		::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactorySpawnInfo* SpawnInfo; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_31AC8FD8A7C473D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_METHOD_3_31AC8FD8A7C473D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D5335F3C7FB3A09E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_METHOD_3_D5335F3C7FB3A09E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPedestrianV2IntersectionChenLingFactoryInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGFACTORYINFO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

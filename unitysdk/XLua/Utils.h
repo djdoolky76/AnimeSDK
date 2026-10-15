@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Reflection/BindingFlags.h"
+#include "unitysdk/System/Object.h"
 #include "unitysdk/XLua/LazyMemberTypes.h"
-
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
@@ -15,73 +15,71 @@ namespace System::Reflection { class PropertyInfo; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua::LuaDLL { class lua_CSFunction; }
 
-#define XLUA_UTILS_ABS_IDX_OFFSET UNITYSDK_OFFSET(0x1517BAD0)
-#define XLUA_UTILS_BEGINCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x1517D5D0)
-#define XLUA_UTILS_BEGINOBJECTREGISTER_1_OFFSET UNITYSDK_OFFSET(0x1517AF50)
-#define XLUA_UTILS_BEGINOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x1517A2F0)
-#define XLUA_UTILS_ENDCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x1517DC80)
-#define XLUA_UTILS_ENDOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x1517BAE0)
-#define XLUA_UTILS_GENENUMCASTFROM_OFFSET UNITYSDK_OFFSET(0x1516FBD0)
-#define XLUA_UTILS_GENFIELDGETTER_OFFSET UNITYSDK_OFFSET(0x1516F270)
-#define XLUA_UTILS_GENFIELDSETTER_OFFSET UNITYSDK_OFFSET(0x1516F370)
-#define XLUA_UTILS_GENITEMGETTER_OFFSET UNITYSDK_OFFSET(0x1516F470)
-#define XLUA_UTILS_GENITEMSETTER_OFFSET UNITYSDK_OFFSET(0x1516F820)
-#define XLUA_UTILS_GETALLTYPES_OFFSET UNITYSDK_OFFSET(0x1516EF10)
-#define XLUA_UTILS_GETEXTENDEDTYPE_OFFSET UNITYSDK_OFFSET(0x1517F9B0)
-#define XLUA_UTILS_GETEXTENSIONMETHODSOF_OFFSET UNITYSDK_OFFSET(0x1516FC50)
-#define XLUA_UTILS_GETINTEGERUSERDATAPROPERTY_OFFSET UNITYSDK_OFFSET(0x15171920)
-#define XLUA_UTILS_GETMAINSTATE_OFFSET UNITYSDK_OFFSET(0x1516ECF0)
-#define XLUA_UTILS_GETPATHOFTYPE_OFFSET UNITYSDK_OFFSET(0x1517E710)
-#define XLUA_UTILS_HASINTEGERUSERDATAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x151717B0)
-#define XLUA_UTILS_ISINBLACKLIST_OFFSET UNITYSDK_OFFSET(0x15180210)
-#define XLUA_UTILS_ISPARAMSMATCH_OFFSET UNITYSDK_OFFSET(0x1517EC60)
-#define XLUA_UTILS_ISPUBLIC_OFFSET UNITYSDK_OFFSET(0x1517FE70)
-#define XLUA_UTILS_ISSTATICPINVOKECSFUNCTION_OFFSET UNITYSDK_OFFSET(0x1517FCA0)
-#define XLUA_UTILS_ISSUPPORTEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1517F200)
-#define XLUA_UTILS_LAZYREFLECTIONCALL_OFFSET UNITYSDK_OFFSET(0x1516D1C0)
-#define XLUA_UTILS_LOADCSTABLE_OFFSET UNITYSDK_OFFSET(0x15176810)
-#define XLUA_UTILS_LOADFIELD_OFFSET UNITYSDK_OFFSET(0x1516EB70)
-#define XLUA_UTILS_LOADUPVALUE_OFFSET UNITYSDK_OFFSET(0x151751F0)
-#define XLUA_UTILS_MAKEGENERICMETHODWITHCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1517F6D0)
-#define XLUA_UTILS_MAKEPRIVATEACCESSIBLE_OFFSET UNITYSDK_OFFSET(0x15175B50)
-#define XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x151719B0)
-#define XLUA_UTILS_REFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x15176C30)
-#define XLUA_UTILS_REGISTERENUMTYPE_OFFSET UNITYSDK_OFFSET(0x151756C0)
-#define XLUA_UTILS_REGISTERFUNC_OFFSET UNITYSDK_OFFSET(0x1517CA30)
-#define XLUA_UTILS_REGISTERLAZYFUNC_OFFSET UNITYSDK_OFFSET(0x1517D2A0)
-#define XLUA_UTILS_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x151759F0)
-#define XLUA_UTILS_REGISTERREFLECTIONFUNC_OFFSET UNITYSDK_OFFSET(0x1517CBE0)
-#define XLUA_UTILS_SETCSTABLE_OFFSET UNITYSDK_OFFSET(0x151798D0)
-#define XLUA_UTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x15180BB0)
-#define XLUA_UTILS__M_REFLECTION_FUNC_OFFSET UNITYSDK_OFFSET(0x1517CF50)
+#define XLUA_UTILS_ABS_IDX_OFFSET UNITYSDK_OFFSET(0x153CE9C0)
+#define XLUA_UTILS_BEGINCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x153D04C0)
+#define XLUA_UTILS_BEGINOBJECTREGISTER_1_OFFSET UNITYSDK_OFFSET(0x153CDE40)
+#define XLUA_UTILS_BEGINOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x153CD1E0)
+#define XLUA_UTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x153D3AA0)
+#define XLUA_UTILS_ENDCLASSREGISTER_OFFSET UNITYSDK_OFFSET(0x153D0B70)
+#define XLUA_UTILS_ENDOBJECTREGISTER_OFFSET UNITYSDK_OFFSET(0x153CE9D0)
+#define XLUA_UTILS_GENENUMCASTFROM_OFFSET UNITYSDK_OFFSET(0x153C2AD0)
+#define XLUA_UTILS_GENFIELDGETTER_OFFSET UNITYSDK_OFFSET(0x153C2170)
+#define XLUA_UTILS_GENFIELDSETTER_OFFSET UNITYSDK_OFFSET(0x153C2270)
+#define XLUA_UTILS_GENITEMGETTER_OFFSET UNITYSDK_OFFSET(0x153C2370)
+#define XLUA_UTILS_GENITEMSETTER_OFFSET UNITYSDK_OFFSET(0x153C2720)
+#define XLUA_UTILS_GETALLTYPES_OFFSET UNITYSDK_OFFSET(0x153C1E10)
+#define XLUA_UTILS_GETEXTENDEDTYPE_OFFSET UNITYSDK_OFFSET(0x153D28A0)
+#define XLUA_UTILS_GETEXTENSIONMETHODSOF_OFFSET UNITYSDK_OFFSET(0x153C2B50)
+#define XLUA_UTILS_GETINTEGERUSERDATAPROPERTY_OFFSET UNITYSDK_OFFSET(0x153C4820)
+#define XLUA_UTILS_GETMAINSTATE_OFFSET UNITYSDK_OFFSET(0x153C1BF0)
+#define XLUA_UTILS_GETPATHOFTYPE_OFFSET UNITYSDK_OFFSET(0x153D1600)
+#define XLUA_UTILS_HASINTEGERUSERDATAATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x153C46B0)
+#define XLUA_UTILS_ISINBLACKLIST_OFFSET UNITYSDK_OFFSET(0x153D3100)
+#define XLUA_UTILS_ISPARAMSMATCH_OFFSET UNITYSDK_OFFSET(0x153D1B50)
+#define XLUA_UTILS_ISPUBLIC_OFFSET UNITYSDK_OFFSET(0x153D2D60)
+#define XLUA_UTILS_ISSTATICPINVOKECSFUNCTION_OFFSET UNITYSDK_OFFSET(0x153D2B90)
+#define XLUA_UTILS_ISSUPPORTEDMETHOD_OFFSET UNITYSDK_OFFSET(0x153D20F0)
+#define XLUA_UTILS_LAZYREFLECTIONCALL_OFFSET UNITYSDK_OFFSET(0x153C00C0)
+#define XLUA_UTILS_LOADCSTABLE_OFFSET UNITYSDK_OFFSET(0x153C96F0)
+#define XLUA_UTILS_LOADFIELD_OFFSET UNITYSDK_OFFSET(0x153C1A70)
+#define XLUA_UTILS_LOADUPVALUE_OFFSET UNITYSDK_OFFSET(0x153C80D0)
+#define XLUA_UTILS_MAKEGENERICMETHODWITHCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x153D25C0)
+#define XLUA_UTILS_MAKEPRIVATEACCESSIBLE_OFFSET UNITYSDK_OFFSET(0x153C8A30)
+#define XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x153C48B0)
+#define XLUA_UTILS_REFLECTIONWRAP_OFFSET UNITYSDK_OFFSET(0x153C9B10)
+#define XLUA_UTILS_REGISTERENUMTYPE_OFFSET UNITYSDK_OFFSET(0x153C85A0)
+#define XLUA_UTILS_REGISTERFUNC_OFFSET UNITYSDK_OFFSET(0x153CF920)
+#define XLUA_UTILS_REGISTERLAZYFUNC_OFFSET UNITYSDK_OFFSET(0x153D0190)
+#define XLUA_UTILS_REGISTEROBJECT_OFFSET UNITYSDK_OFFSET(0x153C88D0)
+#define XLUA_UTILS_REGISTERREFLECTIONFUNC_OFFSET UNITYSDK_OFFSET(0x153CFAD0)
+#define XLUA_UTILS_SETCSTABLE_OFFSET UNITYSDK_OFFSET(0x153CC7C0)
+#define XLUA_UTILS__M_REFLECTION_FUNC_OFFSET UNITYSDK_OFFSET(0x153CFE40)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 50596;
-
 	class Utils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::XLua::LuaDLL::lua_CSFunction*>** StaticGet_funcs()
 		{
-			return (::System::Collections::Generic::List_1<::XLua::LuaDLL::lua_CSFunction*>**)Il2CppClass::FromTypeDefinitionIndex(Utils_TypeDefinitionIndex)->GetStaticField(0x6CD80);
+			return (::System::Collections::Generic::List_1<::XLua::LuaDLL::lua_CSFunction*>**)UnitySDK::FromName("XLua", "Utils")->GetStaticField(0x6EC00);
 		}
-		// static const ::System::Int32 OBJ_META_IDX = 0xFFFFFFFC; // 0x0
-		// static const ::System::Int32 METHOD_IDX = 0xFFFFFFFD; // 0x0
-		// static const ::System::Int32 GETTER_IDX = 0xFFFFFFFE; // 0x0
-		// static const ::System::Int32 SETTER_IDX = 0xFFFFFFFF; // 0x0
-		// static const ::System::Int32 CLS_IDX = 0xFFFFFFFC; // 0x0
-		// static const ::System::Int32 CLS_META_IDX = 0xFFFFFFFD; // 0x0
-		// static const ::System::Int32 CLS_GETTER_IDX = 0xFFFFFFFE; // 0x0
-		// static const ::System::Int32 CLS_SETTER_IDX = 0xFFFFFFFF; // 0x0
+
+		// static const ::System::Object OBJ_META_IDX; // 0x0
+		// static const ::System::Object METHOD_IDX; // 0x0
+		// static const ::System::Object GETTER_IDX; // 0x0
+		// static const ::System::Object SETTER_IDX; // 0x0
+		// static const ::System::Object CLS_IDX; // 0x0
+		// static const ::System::Object CLS_META_IDX; // 0x0
+		// static const ::System::Object CLS_GETTER_IDX; // 0x0
+		// static const ::System::Object CLS_SETTER_IDX; // 0x0
 		// static const ::System::String* LuaIndexsFieldName; // 0x0
 		// static const ::System::String* LuaNewIndexsFieldName; // 0x0
 		// static const ::System::String* LuaClassIndexsFieldName; // 0x0
 		// static const ::System::String* LuaClassNewIndexsFieldName; // 0x0
-
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_UTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + XLUA_UTILS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean LoadField(::System::IntPtr a1, ::System::Int32 a2, ::System::String* a3)
@@ -139,9 +137,9 @@ namespace XLua
 			return ((::System::Reflection::PropertyInfo*(*)(::Il2CppArray<::System::Reflection::PropertyInfo*>*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + XLUA_UTILS_GETINTEGERUSERDATAPROPERTY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void makeReflectionWrap(::System::IntPtr a1, ::System::Type* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::XLua::LuaDLL::lua_CSFunction*& a10, ::XLua::LuaDLL::lua_CSFunction*& a11, ::System::Reflection::BindingFlags a12)
+		static ::System::Void makeReflectionWrap(::System::IntPtr a1, ::System::Type* a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::XLua::LuaDLL::lua_CSFunction* a10, ::XLua::LuaDLL::lua_CSFunction* a11, ::System::Reflection::BindingFlags a12)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::XLua::LuaDLL::lua_CSFunction*&, ::XLua::LuaDLL::lua_CSFunction*&, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+			return ((::System::Void(*)(::System::IntPtr, ::System::Type*, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::XLua::LuaDLL::lua_CSFunction*, ::XLua::LuaDLL::lua_CSFunction*, ::System::Reflection::BindingFlags))((::PBYTE)hIl2Cpp + XLUA_UTILS_MAKEREFLECTIONWRAP_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
 		}
 
 		static ::System::Void loadUpvalue(::System::IntPtr a1, ::System::Type* a2, ::System::String* a3, ::System::Int32 a4)
@@ -269,9 +267,10 @@ namespace XLua
 			return ((::System::Boolean(*)(::System::Type*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISPUBLIC_OFFSET))(a1);
 		}
 
-		static ::System::Void IsInBlackList(::System::Reflection::MemberInfo* a1, ::System::Boolean& a2, ::System::String*& a3)
+		static ::System::Void IsInBlackList(::System::Reflection::MemberInfo* a1, ::System::Boolean a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::System::Reflection::MemberInfo*, ::System::Boolean&, ::System::String*&))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISINBLACKLIST_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Reflection::MemberInfo*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + XLUA_UTILS_ISINBLACKLIST_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

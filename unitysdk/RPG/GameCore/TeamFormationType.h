@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationType_TypeDefinitionIndex = 16398;
-
 	enum class TeamFormationType : ::System::Int32
 	{
 		None = 0,

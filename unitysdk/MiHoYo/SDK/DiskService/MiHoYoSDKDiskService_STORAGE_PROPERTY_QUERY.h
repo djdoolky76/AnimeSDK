@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace MiHoYo::SDK::DiskService
 {
-	inline static constexpr unsigned int MiHoYoSDKDiskService_STORAGE_PROPERTY_QUERY_TypeDefinitionIndex = 47134;
-
 	struct alignas(8) MiHoYoSDKDiskService_STORAGE_PROPERTY_QUERY
 	{
 		::System::UInt32 PropertyId; // 0x10

@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class VideoConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D69A330)
-#define RPG_GAMECORE_VIDEOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D69AD30)
+#define RPG_GAMECORE_VIDEOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8FF20)
+#define RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC8F520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoConfigRow_TypeDefinitionIndex = 15242;
-
 	class VideoConfigRow : public ::System::Object
 	{
 	public:
@@ -19,15 +17,15 @@ namespace RPG::GameCore
 		::System::String* VideoPath; // 0x18
 		::System::UInt32 VideoID; // 0x20
 		::System::Boolean IsPlayerInvolved; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIDEOCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIDEOCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VideoConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::VideoConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VideoConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::VideoConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

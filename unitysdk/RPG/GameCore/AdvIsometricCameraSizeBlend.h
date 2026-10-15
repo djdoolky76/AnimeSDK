@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvIsometricCameraSizeBlend; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_3ACF5845AFAD8B31_OFFSET UNITYSDK_OFFSET(0x1CDCC290)
-#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_AD5641F5D90F322E_OFFSET UNITYSDK_OFFSET(0x1CDCC250)
-#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDCC280)
+#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A1C90)
+#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A1CA0)
+#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A1C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvIsometricCameraSizeBlend_TypeDefinitionIndex = 21967;
-
 	class AdvIsometricCameraSizeBlend : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* SizeCurve; // 0x18
 		::System::Single OrthographicSize; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AD5641F5D90F322E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricCameraSizeBlend*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvIsometricCameraSizeBlend* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricCameraSizeBlend*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_AD5641F5D90F322E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvIsometricCameraSizeBlend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3ACF5845AFAD8B31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricCameraSizeBlend* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvIsometricCameraSizeBlend* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricCameraSizeBlend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_3ACF5845AFAD8B31_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvIsometricCameraSizeBlend*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

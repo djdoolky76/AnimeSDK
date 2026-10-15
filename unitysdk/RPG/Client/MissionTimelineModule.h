@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseModule.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_MISSIONTIMELINEMODULE_GETGROUPSTATE_OFFSET UNITYSDK_OFFSET(0xD717D10)
-#define RPG_CLIENT_MISSIONTIMELINEMODULE_SELECTTIMELINESEG_OFFSET UNITYSDK_OFFSET(0xD717EF0)
-#define RPG_CLIENT_MISSIONTIMELINEMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xD718090)
+#define RPG_CLIENT_MISSIONTIMELINEMODULE_CTOR_OFFSET UNITYSDK_OFFSET(0xD717390)
+#define RPG_CLIENT_MISSIONTIMELINEMODULE_GETGROUPSTATE_OFFSET UNITYSDK_OFFSET(0xD717010)
+#define RPG_CLIENT_MISSIONTIMELINEMODULE_SELECTTIMELINESEG_OFFSET UNITYSDK_OFFSET(0xD7171F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionTimelineModule_TypeDefinitionIndex = 66208;
-
 	class MissionTimelineModule : public ::RPG::Client::BaseModule
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONTIMELINEMODULE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONTIMELINEMODULE_CTOR_OFFSET))(this);
 		}
 
 		::System::UInt32 GetGroupState(::System::UInt32 a1)
@@ -29,5 +26,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONTIMELINEMODULE_SELECTTIMELINESEG_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

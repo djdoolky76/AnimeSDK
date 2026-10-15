@@ -1,12 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Object; }
-
 namespace System::ComponentModel::Design
 {
-	inline static constexpr unsigned int IDictionaryService_TypeDefinitionIndex = 2657;
-
 	class IDictionaryService
 	{
 	public:

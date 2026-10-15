@@ -1,0 +1,32 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/FixVec3.h"
+class ELHMEDAGGPG;
+class KPNOJJNHIFL;
+class LFGIBPHFIMF;
+namespace RPG::GameCore { class EntityManager; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class JsonEnum; }
+namespace RPG::GameCore { class RtCollision2DShapeConfig; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class String; }
+
+#define HEMJJOIDBNE_EHPNGOKGEBI_OFFSET UNITYSDK_OFFSET(0x15C5B340)
+#define HEMJJOIDBNE_OAEAMNGDKCO_OFFSET UNITYSDK_OFFSET(0x15C5B0E0)
+
+	class HEMJJOIDBNE : public ::System::Object
+	{
+	public:
+		static ::RPG::GameCore::GameEntity* OAEAMNGDKCO(::RPG::GameCore::EntityManager* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::FixVec3 a3, ::System::UInt32 a4, ::LFGIBPHFIMF* a5, ::ELHMEDAGGPG* a6, ::KPNOJJNHIFL* a7, ::RPG::GameCore::FixPoint a8, ::Il2CppArray<::RPG::GameCore::JsonEnum*>* a9, ::System::String* a10)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::EntityManager*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixVec3, ::System::UInt32, ::LFGIBPHFIMF*, ::ELHMEDAGGPG*, ::KPNOJJNHIFL*, ::RPG::GameCore::FixPoint, ::Il2CppArray<::RPG::GameCore::JsonEnum*>*, ::System::String*))((::PBYTE)hIl2Cpp + HEMJJOIDBNE_OAEAMNGDKCO_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+		}
+
+		static ::LFGIBPHFIMF* EHPNGOKGEBI(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RtCollision2DShapeConfig* a2, ::RPG::GameCore::FixPoint a3)
+		{
+			return ((::LFGIBPHFIMF*(*)(::RPG::GameCore::TaskContext*, ::RPG::GameCore::RtCollision2DShapeConfig*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + HEMJJOIDBNE_EHPNGOKGEBI_OFFSET))(a1, a2, a3);
+		}
+
+	};

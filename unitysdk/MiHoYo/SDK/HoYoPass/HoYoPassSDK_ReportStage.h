@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_ReportStage_TypeDefinitionIndex = 8249;
-
 	enum class HoYoPassSDK_ReportStage : ::System::Int32
 	{
 		unknownStage = 0,

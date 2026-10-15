@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GameCoreConstKeys; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GAMECORECONSTKEYS_METHOD_2_666EBD62504AAA11_OFFSET UNITYSDK_OFFSET(0x1D12BAD0)
-#define RPG_GAMECORE_GAMECORECONSTKEYS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13B310)
+#define RPG_GAMECORE_GAMECORECONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D712250)
+#define RPG_GAMECORE_GAMECORECONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D705500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConstKeys_TypeDefinitionIndex = 16904;
-
 	class GameCoreConstKeys : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -37,15 +35,15 @@ namespace RPG::GameCore
 		::System::String* AllEnemyDeadButWaveContinue; // 0x88
 		::System::String* StageDeferCreateTrialPlayerKey; // 0x90
 		::System::String* MonsterSummListIDKey; // 0x98
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTKEYS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTKEYS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_666EBD62504AAA11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameCoreConstKeys*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GameCoreConstKeys* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameCoreConstKeys*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTKEYS_METHOD_2_666EBD62504AAA11_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GameCoreConstKeys*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMECORECONSTKEYS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

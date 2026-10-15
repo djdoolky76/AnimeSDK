@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections { class IEnumerator; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+namespace System { class Object; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 6390;
-
 	template <typename T>
 	class RingBuffer_1 : public ::System::Object
 	{

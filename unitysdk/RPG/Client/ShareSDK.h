@@ -1,44 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ShareSource.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_0EF1FE815B5E0EF7;
-class Class_1_6297A5DED5713EE5;
+class EIEMOAANHHO;
+class GHFNPKEGLGN;
 namespace MiHoYo::SDK { class JSONObject; }
 namespace RPG::Client { class PhotoGraphFilterImage; }
 namespace RPG::GameCore { class ShareChannelConfigRow; }
+namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SHARESDK_GETSHARECHANNELLIST_OFFSET UNITYSDK_OFFSET(0xE07CFF0)
-#define RPG_CLIENT_SHARESDK_GET_SHAREFUNCTIONENABLE_OFFSET UNITYSDK_OFFSET(0xE07D540)
-#define RPG_CLIENT_SHARESDK_SHAREBYCHANNELID_OFFSET UNITYSDK_OFFSET(0xE07DAA0)
-#define RPG_CLIENT_SHARESDK_SHAREPHOTO_OFFSET UNITYSDK_OFFSET(0xE07D960)
-#define RPG_CLIENT_SHARESDK_SHARE_OFFSET UNITYSDK_OFFSET(0xE07DDD0)
-#define RPG_CLIENT_SHARESDK__CTOR_OFFSET UNITYSDK_OFFSET(0xE07D470)
-#define RPG_CLIENT_SHARESDK__GETVALIDSHARECHANNELLIST_OFFSET UNITYSDK_OFFSET(0xE07D760)
-#define RPG_CLIENT_SHARESDK__HANDLEHOYOLABPARAMS_OFFSET UNITYSDK_OFFSET(0xE07E3B0)
-#define RPG_CLIENT_SHARESDK__ISCURLANGUAGEVALID_OFFSET UNITYSDK_OFFSET(0xE07ED80)
-#define RPG_CLIENT_SHARESDK__ONSHARENOTIFICATION_OFFSET UNITYSDK_OFFSET(0xE07EB40)
-#define RPG_CLIENT_SHARESDK__SHAREPHOTO_OFFSET UNITYSDK_OFFSET(0xE07E9B0)
+#define RPG_CLIENT_SHARESDK_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B8070)
+#define RPG_CLIENT_SHARESDK_GETSHARECHANNELLIST_OFFSET UNITYSDK_OFFSET(0xE0B7B30)
+#define RPG_CLIENT_SHARESDK_GET_SHAREFUNCTIONENABLE_OFFSET UNITYSDK_OFFSET(0xE0B8140)
+#define RPG_CLIENT_SHARESDK_SHAREBYCHANNELID_OFFSET UNITYSDK_OFFSET(0xE0B86A0)
+#define RPG_CLIENT_SHARESDK_SHAREPHOTO_OFFSET UNITYSDK_OFFSET(0xE0B8560)
+#define RPG_CLIENT_SHARESDK_SHARE_OFFSET UNITYSDK_OFFSET(0xE0B89D0)
+#define RPG_CLIENT_SHARESDK__GETVALIDSHARECHANNELLIST_OFFSET UNITYSDK_OFFSET(0xE0B8360)
+#define RPG_CLIENT_SHARESDK__HANDLEHOYOLABPARAMS_OFFSET UNITYSDK_OFFSET(0xE0B8FB0)
+#define RPG_CLIENT_SHARESDK__ISCURLANGUAGEVALID_OFFSET UNITYSDK_OFFSET(0xE0B9980)
+#define RPG_CLIENT_SHARESDK__ONSHARENOTIFICATION_OFFSET UNITYSDK_OFFSET(0xE0B9740)
+#define RPG_CLIENT_SHARESDK__SHAREPHOTO_OFFSET UNITYSDK_OFFSET(0xE0B95B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShareSDK_TypeDefinitionIndex = 61190;
-
 	class ShareSDK : public ::System::Object
 	{
 	public:
+		::EIEMOAANHHO* _ShareParams; // 0x10
+		::RPG::Client::ShareSource _ShareSource; // 0x18
+		::System::Nullable* _ShareFunctionEnable; // 0x1C
 		// static const ::System::String* _BASE64_PREFIX; // 0x0
-		::Class_1_6297A5DED5713EE5* _ShareParams; // 0x10
-		::System::Nullable_1<::System::Boolean> _ShareFunctionEnable; // 0x18
-		::RPG::Client::ShareSource _ShareSource; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::GameCore::ShareChannelConfigRow*>* GetShareChannelList()
@@ -56,9 +52,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::System::String*>*, ::RPG::Client::ShareSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK_SHAREBYCHANNELID_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Share(::Class_1_6297A5DED5713EE5* a1, ::RPG::Client::ShareSource a2)
+		::System::Void Share(::EIEMOAANHHO* a1, ::RPG::Client::ShareSource a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_6297A5DED5713EE5*, ::RPG::Client::ShareSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK_SHARE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::EIEMOAANHHO*, ::RPG::Client::ShareSource))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK_SHARE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _SharePhoto(::System::UInt32 a1, ::Il2CppArray<::System::Byte>* a2, ::RPG::Client::ShareSource a3)
@@ -71,9 +67,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK__ONSHARENOTIFICATION_OFFSET))(this, a1);
 		}
 
-		::System::Void _HandleHoYoLabParams(::MiHoYo::SDK::JSONObject* a1, ::Class_1_0EF1FE815B5E0EF7* a2)
+		::System::Void _HandleHoYoLabParams(::MiHoYo::SDK::JSONObject* a1, ::GHFNPKEGLGN* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::Class_1_0EF1FE815B5E0EF7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK__HANDLEHOYOLABPARAMS_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::JSONObject*, ::GHFNPKEGLGN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK__HANDLEHOYOLABPARAMS_OFFSET))(this, a1, a2);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::GameCore::ShareChannelConfigRow*>* _GetValidShareChannelList(::Il2CppArray<::System::UInt32>* a1)
@@ -90,5 +86,6 @@ namespace RPG::Client
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SHARESDK_GET_SHAREFUNCTIONENABLE_OFFSET))(this);
 		}
+
 	};
 }

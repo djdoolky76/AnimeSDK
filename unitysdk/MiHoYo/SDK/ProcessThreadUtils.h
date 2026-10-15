@@ -2,12 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PROCESSTHREADUTILS_GETTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x1BA77870)
+#define MIHOYO_SDK_PROCESSTHREADUTILS_GETTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x1BF819D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProcessThreadUtils_TypeDefinitionIndex = 7929;
-
 	class ProcessThreadUtils : public ::System::Object
 	{
 	public:
@@ -15,5 +13,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROCESSTHREADUTILS_GETTHREADCOUNT_OFFSET))(a1);
 		}
+
 	};
 }

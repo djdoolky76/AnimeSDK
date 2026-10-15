@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Delegate; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define IFIX_CORE_UTILS_ISASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x1B4D2200)
-#define IFIX_CORE_UTILS_TRYADAPTERTODELEGATE_OFFSET UNITYSDK_OFFSET(0x1B4D2700)
-#define IFIX_CORE_UTILS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B4D2B90)
+#define IFIX_CORE_UTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9D1560)
+#define IFIX_CORE_UTILS_ISASSIGNABLE_OFFSET UNITYSDK_OFFSET(0x1B9D0BD0)
+#define IFIX_CORE_UTILS_TRYADAPTERTODELEGATE_OFFSET UNITYSDK_OFFSET(0x1B9D10D0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 10069;
-
 	class Utils : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Reflection::MethodInfo*>** StaticGet_delegateAdptCache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Reflection::MethodInfo*>**)Il2CppClass::FromTypeDefinitionIndex(Utils_TypeDefinitionIndex)->GetStaticField(0x680);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("IFix.Core", "Utils")->GetStaticField(0x570);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_CORE_UTILS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + IFIX_CORE_UTILS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Boolean IsAssignable(::System::Reflection::MethodInfo* a1, ::System::Reflection::MethodInfo* a2)
@@ -38,5 +36,6 @@ namespace IFix::Core
 		{
 			return ((::System::Delegate*(*)(::System::Object*, ::System::Type*, ::System::String*))((::PBYTE)hIl2Cpp + IFIX_CORE_UTILS_TRYADAPTERTODELEGATE_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

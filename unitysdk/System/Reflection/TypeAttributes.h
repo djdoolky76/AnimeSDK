@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int TypeAttributes_TypeDefinitionIndex = 590;
-
 	enum class TypeAttributes : ::System::Int32
 	{
 		VisibilityMask = 7,

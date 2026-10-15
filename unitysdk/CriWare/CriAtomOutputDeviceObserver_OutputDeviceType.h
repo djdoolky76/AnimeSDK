@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomOutputDeviceObserver_OutputDeviceType_TypeDefinitionIndex = 38639;
-
 	enum class CriAtomOutputDeviceObserver_OutputDeviceType : ::System::Int32
 	{
 		BuiltinSpeaker = 0,

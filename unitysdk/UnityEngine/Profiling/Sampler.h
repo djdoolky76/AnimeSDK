@@ -1,45 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine::Profiling { class Recorder; }
+namespace UnityEngine::Profiling { class Sampler; }
 
-#define UNITYENGINE_PROFILING_SAMPLER_GETRECORDERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1ED47380)
-#define UNITYENGINE_PROFILING_SAMPLER_GETRECORDER_OFFSET UNITYSDK_OFFSET(0x1ED47310)
-#define UNITYENGINE_PROFILING_SAMPLER_GETSAMPLERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1ED47400)
-#define UNITYENGINE_PROFILING_SAMPLER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1ED47300)
-#define UNITYENGINE_PROFILING_SAMPLER_GET_OFFSET UNITYSDK_OFFSET(0x1ED47390)
-#define UNITYENGINE_PROFILING_SAMPLER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED47410)
-#define UNITYENGINE_PROFILING_SAMPLER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED472F0)
-#define UNITYENGINE_PROFILING_SAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED466B0)
+#define UNITYENGINE_PROFILING_SAMPLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F40F5C0)
+#define UNITYENGINE_PROFILING_SAMPLER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F40F4A0)
+#define UNITYENGINE_PROFILING_SAMPLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F40E860)
+#define UNITYENGINE_PROFILING_SAMPLER_GETRECORDERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F40F530)
+#define UNITYENGINE_PROFILING_SAMPLER_GETRECORDER_OFFSET UNITYSDK_OFFSET(0x1F40F4C0)
+#define UNITYENGINE_PROFILING_SAMPLER_GETSAMPLERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F40F5B0)
+#define UNITYENGINE_PROFILING_SAMPLER_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F40F4B0)
+#define UNITYENGINE_PROFILING_SAMPLER_GET_OFFSET UNITYSDK_OFFSET(0x1F40F540)
 
 namespace UnityEngine::Profiling
 {
-	inline static constexpr unsigned int Sampler_TypeDefinitionIndex = 4514;
-
 	class Sampler : public ::System::Object
 	{
 	public:
+		::System::IntPtr m_Ptr; // 0x10
 		static ::UnityEngine::Profiling::Sampler** StaticGet_s_InvalidSampler()
 		{
-			return (::UnityEngine::Profiling::Sampler**)Il2CppClass::FromTypeDefinitionIndex(Sampler_TypeDefinitionIndex)->GetStaticField(0x11730);
+			return (::UnityEngine::Profiling::Sampler**)UnitySDK::FromName("UnityEngine.Profiling", "Sampler")->GetStaticField(0x12ED0);
 		}
-		::System::IntPtr m_Ptr; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_SAMPLER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_SAMPLER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_SAMPLER__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_SAMPLER_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_SAMPLER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_SAMPLER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean get_isValid()
@@ -66,5 +64,6 @@ namespace UnityEngine::Profiling
 		{
 			return ((::System::IntPtr(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROFILING_SAMPLER_GETSAMPLERINTERNAL_OFFSET))(a1);
 		}
+
 	};
 }

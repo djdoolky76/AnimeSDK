@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInstanceManageBehavior_UpdateType_TypeDefinitionIndex = 70714;
-
 	enum class PropInstanceManageBehavior_UpdateType : ::System::Int32
 	{
 		UpdatePerFrame = 0,

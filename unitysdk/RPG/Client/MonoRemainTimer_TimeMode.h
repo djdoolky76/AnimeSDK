@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRemainTimer_TimeMode_TypeDefinitionIndex = 72522;
-
 	enum class MonoRemainTimer_TimeMode : ::System::Int32
 	{
 		None = 0,

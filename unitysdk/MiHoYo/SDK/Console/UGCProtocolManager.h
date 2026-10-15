@@ -2,64 +2,62 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/UGCProtocolManager_AgreementStatus.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
+namespace MiHoYo::SDK::Console { class UGCProtocolManager; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKCACHESTATUS_OFFSET UNITYSDK_OFFSET(0x1B92A8B0)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKIFSHOWNEEDED_OFFSET UNITYSDK_OFFSET(0x1B929F00)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1B92A930)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_ONRESULTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B92A530)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_OPENAGREEMENTURL_OFFSET UNITYSDK_OFFSET(0x1B92AD70)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_REQUESTAGREEMENTAPPROVE_OFFSET UNITYSDK_OFFSET(0x1B92B370)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_REQUESTAGREEMENTSTATUS_OFFSET UNITYSDK_OFFSET(0x1B92A970)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SETROLE_OFFSET UNITYSDK_OFFSET(0x1B929CF0)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SETTOKEN_OFFSET UNITYSDK_OFFSET(0x1B929EF0)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SHOWAGREEMENTDIALOG_OFFSET UNITYSDK_OFFSET(0x1B92AB40)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B92B600)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B92B560)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_0_OFFSET UNITYSDK_OFFSET(0x1B92B6E0)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_1_OFFSET UNITYSDK_OFFSET(0x1B92B6F0)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_2_OFFSET UNITYSDK_OFFSET(0x1B92B730)
-#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_3_OFFSET UNITYSDK_OFFSET(0x1B92B790)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE2A910)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKCACHESTATUS_OFFSET UNITYSDK_OFFSET(0x1BE29BC0)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKIFSHOWNEEDED_OFFSET UNITYSDK_OFFSET(0x1BE29210)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CLOSE_OFFSET UNITYSDK_OFFSET(0x1BE29C40)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2A870)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_ONRESULTCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BE29840)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_OPENAGREEMENTURL_OFFSET UNITYSDK_OFFSET(0x1BE2A080)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_REQUESTAGREEMENTAPPROVE_OFFSET UNITYSDK_OFFSET(0x1BE2A680)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_REQUESTAGREEMENTSTATUS_OFFSET UNITYSDK_OFFSET(0x1BE29C80)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SETROLE_OFFSET UNITYSDK_OFFSET(0x1BE29000)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SETTOKEN_OFFSET UNITYSDK_OFFSET(0x1BE29200)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SHOWAGREEMENTDIALOG_OFFSET UNITYSDK_OFFSET(0x1BE29E50)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BE2A9F0)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_1_OFFSET UNITYSDK_OFFSET(0x1BE2AA00)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_2_OFFSET UNITYSDK_OFFSET(0x1BE2AA40)
+#define MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_3_OFFSET UNITYSDK_OFFSET(0x1BE2AAA0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int UGCProtocolManager_TypeDefinitionIndex = 8896;
-
 	class UGCProtocolManager : public ::System::Object
 	{
 	public:
+		::System::Diagnostics::Stopwatch* callbackStopwatch; // 0x10
+		::System::Action* agreementCallback; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Headers; // 0x20
+		::System::String* agreementDomain; // 0x28
+		::System::String* ugcToken; // 0x30
+		::System::Diagnostics::Stopwatch* requestStopwatch; // 0x38
+		::System::String* serverId; // 0x40
+		::System::String* roleId; // 0x48
+		::MiHoYo::SDK::Console::UGCProtocolManager_AgreementStatus status; // 0x50
 		static ::MiHoYo::SDK::Console::UGCProtocolManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Console::UGCProtocolManager**)Il2CppClass::FromTypeDefinitionIndex(UGCProtocolManager_TypeDefinitionIndex)->GetStaticField(0xBC20);
+			return (::MiHoYo::SDK::Console::UGCProtocolManager**)UnitySDK::FromName("MiHoYo.SDK.Console", "UGCProtocolManager")->GetStaticField(0xACF0);
 		}
+
 		// static const ::System::String* AGREEMENT_STATUS_PATH; // 0x0
 		// static const ::System::String* AGREEMENT_APPROVE_PATH; // 0x0
 		// static const ::System::String* HEADER_UGC_UID; // 0x0
 		// static const ::System::String* HEADER_UGC_REGION; // 0x0
 		// static const ::System::String* HEADER_UGC_TOKEN; // 0x0
-		::System::Diagnostics::Stopwatch* callbackStopwatch; // 0x10
-		::System::Diagnostics::Stopwatch* requestStopwatch; // 0x18
-		::System::String* agreementDomain; // 0x20
-		::System::String* ugcToken; // 0x28
-		::System::String* roleId; // 0x30
-		::System::String* serverId; // 0x38
-		::System::Action_1<::System::String*>* agreementCallback; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* Headers; // 0x48
-		::MiHoYo::SDK::Console::UGCProtocolManager_AgreementStatus status; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CCTOR_OFFSET))();
 		}
 
 		::System::Void SetRole()
@@ -72,9 +70,9 @@ namespace MiHoYo::SDK::Console
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_SETTOKEN_OFFSET))(this, a1);
 		}
 
-		::System::Void CheckIfShowNeeded(::System::String* a1, ::System::Action_1<::System::String*>* a2)
+		::System::Void CheckIfShowNeeded(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKIFSHOWNEEDED_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER_CHECKIFSHOWNEEDED_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Close()
@@ -131,5 +129,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_UGCPROTOCOLMANAGER__SHOWAGREEMENTDIALOG_B__22_3_OFFSET))(this);
 		}
+
 	};
 }

@@ -4,7 +4,6 @@
 #include "unitysdk/RPG/GameCore/LoopSceneMode.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class AttachMoveObject; }
 namespace RPG::Client { class LoopSceneMoveObject; }
 namespace System { class String; }
@@ -13,32 +12,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LOOPSCENE_ADDATTACHMOVEOBJECT_OFFSET UNITYSDK_OFFSET(0xD591BF0)
-#define RPG_CLIENT_LOOPSCENE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD592220)
-#define RPG_CLIENT_LOOPSCENE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD591E20)
-#define RPG_CLIENT_LOOPSCENE_FINDMOVEOBJECT_OFFSET UNITYSDK_OFFSET(0xD591CD0)
-#define RPG_CLIENT_LOOPSCENE_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xD592350)
-#define RPG_CLIENT_LOOPSCENE_INIT_OFFSET UNITYSDK_OFFSET(0xD591550)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xD592A70)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_283DA224BE06DA9F_1_OFFSET UNITYSDK_OFFSET(0xD592450)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_283DA224BE06DA9F_OFFSET UNITYSDK_OFFSET(0xD592400)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_601EF3E7226D7DC2_OFFSET UNITYSDK_OFFSET(0xD592300)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_A36150C5DCC8409E_OFFSET UNITYSDK_OFFSET(0xD592AE0)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_A6544B958241856F_OFFSET UNITYSDK_OFFSET(0xD5924A0)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_CD28994AFE636FFF_OFFSET UNITYSDK_OFFSET(0xD592B30)
-#define RPG_CLIENT_LOOPSCENE_METHOD_5_CFF8C0A3594A8E50_OFFSET UNITYSDK_OFFSET(0xD592680)
-#define RPG_CLIENT_LOOPSCENE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD592290)
-#define RPG_CLIENT_LOOPSCENE_RESETCAMERA_OFFSET UNITYSDK_OFFSET(0xD591A80)
-#define RPG_CLIENT_LOOPSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0xD592FE0)
+#define RPG_CLIENT_LOOPSCENE_AAIBIHJHDMM_OFFSET UNITYSDK_OFFSET(0xD4E9B10)
+#define RPG_CLIENT_LOOPSCENE_ADDATTACHMOVEOBJECT_OFFSET UNITYSDK_OFFSET(0xD4E8BD0)
+#define RPG_CLIENT_LOOPSCENE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD4E9200)
+#define RPG_CLIENT_LOOPSCENE_BLCOGFNGAPH_OFFSET UNITYSDK_OFFSET(0xD4E9430)
+#define RPG_CLIENT_LOOPSCENE_CTOR_OFFSET UNITYSDK_OFFSET(0xD4E9FC0)
+#define RPG_CLIENT_LOOPSCENE_DGFPGHDBHEO_OFFSET UNITYSDK_OFFSET(0xD4E9AC0)
+#define RPG_CLIENT_LOOPSCENE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD4E8E00)
+#define RPG_CLIENT_LOOPSCENE_FINDMOVEOBJECT_OFFSET UNITYSDK_OFFSET(0xD4E8CB0)
+#define RPG_CLIENT_LOOPSCENE_FIXEDUPDATE_OFFSET UNITYSDK_OFFSET(0xD4E9330)
+#define RPG_CLIENT_LOOPSCENE_INIT_OFFSET UNITYSDK_OFFSET(0xD4E8530)
+#define RPG_CLIENT_LOOPSCENE_IOCLEGCLOPH_OFFSET UNITYSDK_OFFSET(0xD4E9660)
+#define RPG_CLIENT_LOOPSCENE_KPEEIACDGJJ_OFFSET UNITYSDK_OFFSET(0xD4E92E0)
+#define RPG_CLIENT_LOOPSCENE_LAJIKFMMOIN_OFFSET UNITYSDK_OFFSET(0xD4E93E0)
+#define RPG_CLIENT_LOOPSCENE_NAHKLJMAAMF_OFFSET UNITYSDK_OFFSET(0xD4E9480)
+#define RPG_CLIENT_LOOPSCENE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD4E9270)
+#define RPG_CLIENT_LOOPSCENE_OPLNFDGOIGO_OFFSET UNITYSDK_OFFSET(0xD4E9A50)
+#define RPG_CLIENT_LOOPSCENE_RESETCAMERA_OFFSET UNITYSDK_OFFSET(0xD4E8A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopScene_TypeDefinitionIndex = 68832;
-
 	class LoopScene : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::LoopScene_LoginSceneState CurState; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* SceneObj; // 0x20
 		::System::Collections::Generic::List_1<::RPG::Client::AttachMoveObject*>* MoveObjs; // 0x28
 		::System::Single MoveSpeed; // 0x30
@@ -49,16 +47,17 @@ namespace RPG::Client
 		::UnityEngine::Vector3 CameraDir; // 0x44
 		::RPG::GameCore::LoopSceneMode LoopMode; // 0x50
 		::System::Boolean TestMode; // 0x54
+		::System::Byte _padding1[0x3];
 		::System::Single KENILPHIGEO; // 0x58
 		::System::Int32 GONFDFDGNEH; // 0x5C
 		::System::Single GGEDBNJDJNN; // 0x60
+		::System::Byte _padding2[0x4];
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* KNNAHKABMFG; // 0x68
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::LoopSceneMoveObject*>* CLCGGPNDELG; // 0x70
 		::UnityEngine::Transform* ILPDLGIJMNN; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Init(::RPG::GameCore::LoopSceneMode a1, ::System::Int32 a2, ::System::Single a3, ::System::Single a4, ::System::Single a5)
@@ -101,44 +100,45 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_FIXEDUPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_283DA224BE06DA9F()
+		::System::Void LAJIKFMMOIN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_283DA224BE06DA9F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_LAJIKFMMOIN_OFFSET))(this);
 		}
 
-		::System::Void Method_5_2685B6183E614529(::System::Single a1)
+		::System::Void OPLNFDGOIGO(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_2685B6183E614529_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_OPLNFDGOIGO_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_283DA224BE06DA9F_1()
+		::System::Void BLCOGFNGAPH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_283DA224BE06DA9F_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_BLCOGFNGAPH_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A6544B958241856F()
+		::System::Void NAHKLJMAAMF()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_A6544B958241856F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_NAHKLJMAAMF_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CFF8C0A3594A8E50(::System::Single a1)
+		::System::Void IOCLEGCLOPH(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_CFF8C0A3594A8E50_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_IOCLEGCLOPH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_CD28994AFE636FFF()
+		::System::Void AAIBIHJHDMM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_CD28994AFE636FFF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_AAIBIHJHDMM_OFFSET))(this);
 		}
 
-		::System::Single Method_5_A36150C5DCC8409E()
+		::System::Single DGFPGHDBHEO()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_A36150C5DCC8409E_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_DGFPGHDBHEO_OFFSET))(this);
 		}
 
-		::System::Void Method_5_601EF3E7226D7DC2()
+		::System::Void KPEEIACDGJJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_METHOD_5_601EF3E7226D7DC2_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LOOPSCENE_KPEEIACDGJJ_OFFSET))(this);
 		}
+
 	};
 }

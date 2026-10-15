@@ -1,23 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_91130F3B3A18FE6F;
+class OKNPMFIPGGK;
 namespace RPG::Client { class EmsMatCustomDictionay; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD843950)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD843AA0)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD8439F0)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD843A50)
-#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xD843B30)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD844370)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD844550)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD8444C0)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD844410)
+#define RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD844470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLightRandomCoontrol_TypeDefinitionIndex = 70705;
-
 	class MonoLightRandomCoontrol : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -29,12 +26,12 @@ namespace RPG::Client
 		::System::Single emissionMaximumIntensityNight; // 0x3C
 		::System::Single flashPhase; // 0x40
 		::System::Boolean editorSaving; // 0x44
+		::System::Byte _padding0[0x3];
 		::RPG::Client::EmsMatCustomDictionay* EmissionMaterialDic; // 0x48
-		::Class_2_91130F3B3A18FE6F* _Behavior; // 0x50
-
+		::OKNPMFIPGGK* _Behavior; // 0x50
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTRANDOMCOONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -56,5 +53,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOLIGHTRANDOMCOONTROL_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

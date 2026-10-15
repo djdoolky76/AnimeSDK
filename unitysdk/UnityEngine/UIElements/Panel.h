@@ -1,12 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
-#include "unitysdk/UnityEngine/EventInterests.h"
 #include "unitysdk/UnityEngine/UIElements/BaseVisualElementPanel.h"
 #include "unitysdk/UnityEngine/UIElements/ContextType.h"
 #include "unitysdk/UnityEngine/UIElements/VersionChangeType.h"
+#include "unitysdk/UnityEngine/EventInterests.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Event; }
 namespace UnityEngine { class ScriptableObject; }
@@ -16,35 +15,29 @@ namespace UnityEngine::UIElements { class IMGUIContainer; }
 namespace UnityEngine::UIElements { class VisualElement; }
 namespace UnityEngine::UIElements { class VisualTreeUpdater; }
 
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_CONTEXTTYPE_OFFSET UNITYSDK_OFFSET(0x1EDF2990)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_DISPATCHER_OFFSET UNITYSDK_OFFSET(0x1EDF2970)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_FOCUSCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1EDF29A0)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_IMGUICONTAINERSCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDF29C0)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_IMGUIEVENTINTERESTS_OFFSET UNITYSDK_OFFSET(0x1EDF29B0)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_OWNEROBJECT_OFFSET UNITYSDK_OFFSET(0x1EDF2980)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_ROOTIMGUICONTAINER_OFFSET UNITYSDK_OFFSET(0x1EDF29D0)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1EDF29E0)
-#define UNITYENGINE_UIELEMENTS_PANEL_GET_VISUALTREE_OFFSET UNITYSDK_OFFSET(0x1EDE1090)
-#define UNITYENGINE_UIELEMENTS_PANEL_ONVERSIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1EDF3790)
-#define UNITYENGINE_UIELEMENTS_PANEL_PERFORMPICK_OFFSET UNITYSDK_OFFSET(0x1EDF2A60)
-#define UNITYENGINE_UIELEMENTS_PANEL_PICKALL_OFFSET UNITYSDK_OFFSET(0x1EDF29F0)
-#define UNITYENGINE_UIELEMENTS_PANEL_PICK_OFFSET UNITYSDK_OFFSET(0x1EDF0D30)
-#define UNITYENGINE_UIELEMENTS_PANEL_REPAINT_OFFSET UNITYSDK_OFFSET(0x1EDF3570)
-#define UNITYENGINE_UIELEMENTS_PANEL_UPDATEFORREPAINT_OFFSET UNITYSDK_OFFSET(0x1EDF34E0)
-#define UNITYENGINE_UIELEMENTS_PANEL_VALIDATELAYOUT_OFFSET UNITYSDK_OFFSET(0x1EDF31C0)
-#define UNITYENGINE_UIELEMENTS_PANEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDF3960)
+#define UNITYENGINE_UIELEMENTS_PANEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4BCB80)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_CONTEXTTYPE_OFFSET UNITYSDK_OFFSET(0x1F4BBBB0)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_DISPATCHER_OFFSET UNITYSDK_OFFSET(0x1F4BBB90)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_FOCUSCONTROLLER_OFFSET UNITYSDK_OFFSET(0x1F4BBBC0)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_IMGUICONTAINERSCOUNT_OFFSET UNITYSDK_OFFSET(0x1F4BBBE0)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_IMGUIEVENTINTERESTS_OFFSET UNITYSDK_OFFSET(0x1F4BBBD0)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_OWNEROBJECT_OFFSET UNITYSDK_OFFSET(0x1F4BBBA0)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_ROOTIMGUICONTAINER_OFFSET UNITYSDK_OFFSET(0x1F4BBBF0)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1F4BBC00)
+#define UNITYENGINE_UIELEMENTS_PANEL_GET_VISUALTREE_OFFSET UNITYSDK_OFFSET(0x1F4AA2B0)
+#define UNITYENGINE_UIELEMENTS_PANEL_ONVERSIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1F4BC9B0)
+#define UNITYENGINE_UIELEMENTS_PANEL_PERFORMPICK_OFFSET UNITYSDK_OFFSET(0x1F4BBC80)
+#define UNITYENGINE_UIELEMENTS_PANEL_PICKALL_OFFSET UNITYSDK_OFFSET(0x1F4BBC10)
+#define UNITYENGINE_UIELEMENTS_PANEL_PICK_OFFSET UNITYSDK_OFFSET(0x1F4B9F50)
+#define UNITYENGINE_UIELEMENTS_PANEL_REPAINT_OFFSET UNITYSDK_OFFSET(0x1F4BC790)
+#define UNITYENGINE_UIELEMENTS_PANEL_UPDATEFORREPAINT_OFFSET UNITYSDK_OFFSET(0x1F4BC700)
+#define UNITYENGINE_UIELEMENTS_PANEL_VALIDATELAYOUT_OFFSET UNITYSDK_OFFSET(0x1F4BC3E0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int Panel_TypeDefinitionIndex = 5882;
-
 	class Panel : public ::UnityEngine::UIElements::BaseVisualElementPanel
 	{
 	public:
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_MarkerPickAll()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(Panel_TypeDefinitionIndex)->GetStaticField(0x9240);
-		}
 		::UnityEngine::UIElements::VisualElement* m_RootContainer; // 0x30
 		::UnityEngine::UIElements::VisualTreeUpdater* m_VisualTreeUpdater; // 0x38
 		::System::UInt32 m_Version; // 0x40
@@ -53,15 +46,21 @@ namespace UnityEngine::UIElements
 		::UnityEngine::UIElements::EventDispatcher* _dispatcher_k__BackingField; // 0x50
 		::UnityEngine::ScriptableObject* _ownerObject_k__BackingField; // 0x58
 		::UnityEngine::UIElements::ContextType _contextType_k__BackingField; // 0x60
+		::System::Byte _padding0[0x4];
 		::UnityEngine::UIElements::FocusController* _focusController_k__BackingField; // 0x68
 		::UnityEngine::EventInterests _IMGUIEventInterests_k__BackingField; // 0x70
+		::System::Byte _padding1[0x2];
 		::System::Int32 _IMGUIContainersCount_k__BackingField; // 0x74
 		::UnityEngine::UIElements::IMGUIContainer* _rootIMGUIContainer_k__BackingField; // 0x78
 		::System::Boolean m_ValidatingLayout; // 0x80
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_MarkerPickAll()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements", "Panel")->GetStaticField(0x6E10);
+		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_PANEL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_PANEL_CCTOR_OFFSET))();
 		}
 
 		::UnityEngine::UIElements::VisualElement* get_visualTree()
@@ -143,5 +142,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_PANEL_ONVERSIONCHANGED_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

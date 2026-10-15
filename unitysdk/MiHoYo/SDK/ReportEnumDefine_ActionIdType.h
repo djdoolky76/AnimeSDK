@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportEnumDefine_ActionIdType_TypeDefinitionIndex = 46944;
-
 	enum class ReportEnumDefine_ActionIdType : ::System::Int32
 	{
 		game_voice_function = 1050,

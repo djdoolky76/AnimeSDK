@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/JSONNode_Enumerator_Type.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
-#include "unitysdk/System/Collections/Generic/List_1_Enumerator.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
+namespace System { class Object; }
 namespace System { class String; }
+namespace System::Collections::Generic { class KeyValuePair; }
 
-#define MIHOYO_SDK_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x3B5DFB0)
-#define MIHOYO_SDK_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1030)
-#define MIHOYO_SDK_JSONNODE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3B5E010)
-#define MIHOYO_SDK_JSONNODE_ENUMERATOR__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1090)
-#define MIHOYO_SDK_JSONNODE_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1040)
+#define MIHOYO_SDK_JSONNODE_ENUMERATOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1120)
+#define MIHOYO_SDK_JSONNODE_ENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x10D0)
+#define MIHOYO_SDK_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x3C12F10)
+#define MIHOYO_SDK_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x10C0)
+#define MIHOYO_SDK_JSONNODE_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C12F70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 8082;
-
 	struct alignas(8) JSONNode_Enumerator
 	{
 		::MiHoYo::SDK::JSONNode_Enumerator_Type type; // 0x10
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYo::SDK::JSONNode*> m_Object; // 0x18
-		::System::Collections::Generic::List_1_Enumerator<::MiHoYo::SDK::JSONNode*> m_Array; // 0x40
-
-		::System::Void _ctor(::System::Collections::Generic::List_1_Enumerator<::MiHoYo::SDK::JSONNode*> a1)
+		::System::Byte _padding0[0x4];
+		::System::Object* m_Object; // 0x18
+		::System::Byte _padding1[0x20];
+		::System::Object* m_Array; // 0x40
+		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1_Enumerator<::MiHoYo::SDK::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void _ctor_1(::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYo::SDK::JSONNode*> a1)
+		::System::Void _ctor_1(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2_Enumerator<::System::String*, ::MiHoYo::SDK::JSONNode*>))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_IsValid()
@@ -39,16 +36,15 @@ namespace MiHoYo::SDK
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR_GET_ISVALID_OFFSET))(this);
 		}
 
-		/*
-		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYo::SDK::JSONNode*> get_Current()
+		::System::Collections::Generic::KeyValuePair* get_Current()
 		{
-			return ((::System::Collections::Generic::KeyValuePair_2<::System::String*, ::MiHoYo::SDK::JSONNode*>(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET))(this);
+			return ((::System::Collections::Generic::KeyValuePair*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
-		*/
 
 		::System::Boolean MoveNext()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_JSONNODE_ENUMERATOR_MOVENEXT_OFFSET))(this);
 		}
+
 	};
 }

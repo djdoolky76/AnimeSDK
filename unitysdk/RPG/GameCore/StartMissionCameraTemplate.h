@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class StartMissionCameraTemplate; }
 
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_4524C848BB6BF5FC_OFFSET UNITYSDK_OFFSET(0x1D567B50)
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_A0716B1CCF2133D2_OFFSET UNITYSDK_OFFSET(0x1D567970)
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D567A70)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1D2D0)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1D3B0)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1D1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartMissionCameraTemplate_TypeDefinitionIndex = 23535;
-
 	class StartMissionCameraTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -28,20 +26,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* FaceToCameraTarget; // 0x58
 		::RPG::GameCore::DynamicString* CallBackEventName; // 0x60
 		::RPG::GameCore::DynamicFloat* CutToAdventureCamera; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0716B1CCF2133D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartMissionCameraTemplate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartMissionCameraTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartMissionCameraTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_A0716B1CCF2133D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartMissionCameraTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4524C848BB6BF5FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartMissionCameraTemplate* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StartMissionCameraTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartMissionCameraTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_4524C848BB6BF5FC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StartMissionCameraTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

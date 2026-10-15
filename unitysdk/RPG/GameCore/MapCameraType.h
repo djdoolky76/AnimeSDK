@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapCameraType_TypeDefinitionIndex = 16977;
-
 	enum class MapCameraType : ::System::Int32
 	{
 		Base = 0,

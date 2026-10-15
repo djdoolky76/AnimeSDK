@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/PingPong/PingPongView.h"
-
 namespace RPG::Client::LittleGame::PingPong { class PingPongCameraView; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGBOARDVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xD522E30)
+#define RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGBOARDVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD479A80)
 
 namespace RPG::Client::LittleGame::PingPong
 {
-	inline static constexpr unsigned int PingPongBoardView_TypeDefinitionIndex = 76195;
-
 	class PingPongBoardView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{
 	public:
@@ -19,10 +16,10 @@ namespace RPG::Client::LittleGame::PingPong
 		::System::Int32 Column; // 0x48
 		::System::Int32 Row; // 0x4C
 		::System::Int32 MovableRow; // 0x50
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGBOARDVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PINGPONG_PINGPONGBOARDVIEW_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,16 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine::UIElements { class IPointerEvent; }
 namespace UnityEngine::UIElements { class VisualElement; }
 
-#define UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET UNITYSDK_OFFSET(0x1EDE72F0)
+#define UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET UNITYSDK_OFFSET(0x1F4B0510)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerEventsHelper_TypeDefinitionIndex = 5964;
-
 	class PointerEventsHelper : public ::System::Object
 	{
 	public:
@@ -19,5 +16,6 @@ namespace UnityEngine::UIElements
 		{
 			return ((::System::Void(*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IPointerEvent*, ::UnityEngine::Vector2, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_POINTEREVENTSHELPER_SENDOVEROUT_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

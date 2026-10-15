@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimPropMoveConfig.h"
 #include "unitysdk/RPG/MVector2.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimDragonDogMoveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_740575E7F4D0A6C3_OFFSET UNITYSDK_OFFSET(0x1D0E14E0)
-#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_F89D1E9D77C8226F_OFFSET UNITYSDK_OFFSET(0x1D0E1450)
-#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E14B0)
+#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B9DF0)
+#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6B9E20)
+#define RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B9D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDragonDogMoveConfig_TypeDefinitionIndex = 16521;
-
 	class FiveDimDragonDogMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
 	public:
@@ -34,20 +32,20 @@ namespace RPG::GameCore
 		::System::String* OnStopEvent; // 0x90
 		::System::String* OnTurnEvent; // 0x98
 		::System::String* OnHitEvent; // 0xA0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F89D1E9D77C8226F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_F89D1E9D77C8226F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_740575E7F4D0A6C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimDragonDogMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_METHOD_3_740575E7F4D0A6C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimDragonDogMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDRAGONDOGMOVECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

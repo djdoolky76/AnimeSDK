@@ -3,8 +3,6 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _EventInfo_TypeDefinitionIndex = 1444;
-
 	class _EventInfo
 	{
 	public:

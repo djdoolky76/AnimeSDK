@@ -3,35 +3,31 @@
 #include "unitysdk/Spine/CurveTimeline.h"
 #include "unitysdk/Spine/MixBlend.h"
 #include "unitysdk/Spine/MixDirection.h"
-
 namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { class VertexAttachment; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_DEFORMTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1E5D9E50)
-#define SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET UNITYSDK_OFFSET(0x1E5D9C20)
-#define SPINE_DEFORMTIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1E5D98E0)
-#define SPINE_DEFORMTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1E5D98D0)
-#define SPINE_DEFORMTIMELINE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1E5D98F0)
-#define SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1E5D99A0)
-#define SPINE_DEFORMTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1E5D9900)
-#define SPINE_DEFORMTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D96C0)
+#define SPINE_DEFORMTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECA1FF0)
+#define SPINE_DEFORMTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA1860)
+#define SPINE_DEFORMTIMELINE_GETCURVEPERCENT_OFFSET UNITYSDK_OFFSET(0x1ECA1DC0)
+#define SPINE_DEFORMTIMELINE_GET_ATTACHMENT_OFFSET UNITYSDK_OFFSET(0x1ECA1A80)
+#define SPINE_DEFORMTIMELINE_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0x1ECA1A70)
+#define SPINE_DEFORMTIMELINE_GET_VERTICES_OFFSET UNITYSDK_OFFSET(0x1ECA1A90)
+#define SPINE_DEFORMTIMELINE_SETBEZIER_OFFSET UNITYSDK_OFFSET(0x1ECA1B40)
+#define SPINE_DEFORMTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1ECA1AA0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int DeformTimeline_TypeDefinitionIndex = 38322;
-
 	class DeformTimeline : public ::Spine::CurveTimeline
 	{
 	public:
 		::Il2CppArray<::Il2CppArray<::System::Single>*>* vertices; // 0x28
 		::Spine::VertexAttachment* attachment; // 0x30
 		::System::Int32 slotIndex; // 0x38
-
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::Spine::VertexAttachment* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::Spine::VertexAttachment*))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_SlotIndex()
@@ -68,5 +64,6 @@ namespace Spine
 		{
 			return ((::System::Void(*)(::PVOID, ::Spine::Skeleton*, ::System::Single, ::System::Single, ::Spine::ExposedList_1<::Spine::Event*>*, ::System::Single, ::Spine::MixBlend, ::Spine::MixDirection))((::PBYTE)hIl2Cpp + SPINE_DEFORMTIMELINE_APPLY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
+
 	};
 }

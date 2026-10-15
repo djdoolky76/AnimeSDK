@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Security/Cryptography/AsymmetricKeyExchangeDeformatter.h"
-
+namespace System { class Nullable; }
 namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
 namespace System::Security::Cryptography { class RSA; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER_DECRYPTKEYEXCHANGE_OFFSET UNITYSDK_OFFSET(0x1BBC8FB0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER_GET_OVERRIDESDECRYPT_OFFSET UNITYSDK_OFFSET(0x1BBC9290)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC6280)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D2390)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER_DECRYPTKEYEXCHANGE_OFFSET UNITYSDK_OFFSET(0x1C0D50C0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER_GET_OVERRIDESDECRYPT_OFFSET UNITYSDK_OFFSET(0x1C0D53A0)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAPKCS1KeyExchangeDeformatter_TypeDefinitionIndex = 1053;
-
 	class RSAPKCS1KeyExchangeDeformatter : public ::System::Security::Cryptography::AsymmetricKeyExchangeDeformatter
 	{
 	public:
 		::System::Security::Cryptography::RSA* _rsaKey; // 0x10
-		::System::Nullable_1<::System::Boolean> _rsaOverridesDecrypt; // 0x18
-
+		::System::Nullable* _rsaOverridesDecrypt; // 0x18
 		::System::Void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsymmetricAlgorithm*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::AsymmetricAlgorithm*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER_CTOR_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Byte>* DecryptKeyExchange(::Il2CppArray<::System::Byte>* a1)
@@ -34,5 +30,6 @@ namespace System::Security::Cryptography
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1KEYEXCHANGEDEFORMATTER_GET_OVERRIDESDECRYPT_OFFSET))(this);
 		}
+
 	};
 }

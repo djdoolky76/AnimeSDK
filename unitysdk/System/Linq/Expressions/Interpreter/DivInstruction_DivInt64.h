@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Interpreter/DivInstruction.h"
-
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DIVINSTRUCTION_DIVINT64_RUN_OFFSET UNITYSDK_OFFSET(0x1E7192F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DIVINSTRUCTION_DIVINT64__CTOR_OFFSET UNITYSDK_OFFSET(0x1E718D50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DIVINSTRUCTION_DIVINT64_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE1A10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DIVINSTRUCTION_DIVINT64_RUN_OFFSET UNITYSDK_OFFSET(0x1EDE1FB0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int DivInstruction_DivInt64_TypeDefinitionIndex = 3353;
-
 	class DivInstruction_DivInt64 : public ::System::Linq::Expressions::Interpreter::DivInstruction
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DIVINSTRUCTION_DIVINT64__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DIVINSTRUCTION_DIVINT64_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Linq::Expressions::Interpreter::InterpretedFrame*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DIVINSTRUCTION_DIVINT64_RUN_OFFSET))(this, a1);
 		}
+
 	};
 }

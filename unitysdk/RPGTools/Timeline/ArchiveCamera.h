@@ -2,22 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/ArchiveAsset.h"
 
-namespace System { class String; }
-
-#define RPGTOOLS_TIMELINE_ARCHIVECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xE8131B0)
+#define RPGTOOLS_TIMELINE_ARCHIVECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B0A70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveCamera_TypeDefinitionIndex = 48956;
-
 	class ArchiveCamera : public ::RPGTools::Timeline::ArchiveAsset
 	{
 	public:
 		// static const ::System::String* UniqueName; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECAMERA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVECAMERA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

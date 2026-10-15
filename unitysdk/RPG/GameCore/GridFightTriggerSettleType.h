@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTriggerSettleType_TypeDefinitionIndex = 24352;
-
 	enum class GridFightTriggerSettleType : ::System::Int32
 	{
 		GainExp = 0,

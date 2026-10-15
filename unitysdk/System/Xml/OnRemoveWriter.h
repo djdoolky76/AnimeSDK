@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Xml { class XmlRawWriter; }
 
-#define SYSTEM_XML_ONREMOVEWRITER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E7DD090)
-#define SYSTEM_XML_ONREMOVEWRITER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E7DD0C0)
-#define SYSTEM_XML_ONREMOVEWRITER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E7DD080)
-#define SYSTEM_XML_ONREMOVEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DCF90)
+#define SYSTEM_XML_ONREMOVEWRITER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EEA5D70)
+#define SYSTEM_XML_ONREMOVEWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA5C70)
+#define SYSTEM_XML_ONREMOVEWRITER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EEA5DA0)
+#define SYSTEM_XML_ONREMOVEWRITER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EEA5D60)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int OnRemoveWriter_TypeDefinitionIndex = 1815;
-
 	class OnRemoveWriter : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_ONREMOVEWRITER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_ONREMOVEWRITER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Xml::XmlRawWriter* a1)
@@ -38,5 +35,6 @@ namespace System::Xml
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_ONREMOVEWRITER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

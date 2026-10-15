@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Xml/Schema/XmlSchemaForm.h"
-
+#include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1E83B2D0)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_FORM_OFFSET UNITYSDK_OFFSET(0x1E83B2F0)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1E83B300)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1E83B310)
-#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1E83B320)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET UNITYSDK_OFFSET(0x1EF03F50)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_FORM_OFFSET UNITYSDK_OFFSET(0x1EF03F70)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ISNULLABLE_OFFSET UNITYSDK_OFFSET(0x1EF03F80)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_NAMESPACE_OFFSET UNITYSDK_OFFSET(0x1EF03F90)
+#define SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1EF03FA0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlArrayAttribute_TypeDefinitionIndex = 1999;
-
 	class XmlArrayAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* elementName; // 0x10
 		::System::String* ns; // 0x18
 		::System::Boolean isNullable; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Int32 order; // 0x24
 		::System::Xml::Schema::XmlSchemaForm form; // 0x28
-
 		::System::String* get_ElementName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ELEMENTNAME_OFFSET))(this);
@@ -48,5 +45,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLARRAYATTRIBUTE_GET_ORDER_OFFSET))(this);
 		}
+
 	};
 }

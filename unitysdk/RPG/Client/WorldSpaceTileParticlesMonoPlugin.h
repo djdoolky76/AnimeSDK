@@ -1,21 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPG::Client { class WorldSpaceTileParticlesBehavior; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_WORLDSPACETILEPARTICLESMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xE43DD30)
+#define RPG_CLIENT_WORLDSPACETILEPARTICLESMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE485610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorldSpaceTileParticlesMonoPlugin_TypeDefinitionIndex = 70681;
-
-	class WorldSpaceTileParticlesMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::WorldSpaceTileParticlesBehavior*>
+	class WorldSpaceTileParticlesMonoPlugin
 	{
 	public:
 		::UnityEngine::Material* ParticleMaterial; // 0x30
@@ -28,10 +23,10 @@ namespace RPG::Client
 		::UnityEngine::Vector2 FlickerFrequency; // 0x6C
 		::System::Single FogScale; // 0x74
 		::System::Boolean FollowCamera; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESMONOPLUGIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_WORLDSPACETILEPARTICLESMONOPLUGIN_CTOR_OFFSET))(this);
 		}
+
 	};
 }

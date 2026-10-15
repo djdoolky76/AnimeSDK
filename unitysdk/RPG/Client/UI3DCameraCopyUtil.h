@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_COPYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xE312E00)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_OVERRIDEDOFOFENVVOLUME_OFFSET UNITYSDK_OFFSET(0xE313160)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL_SWITCHVOLUMEPROFILE_OFFSET UNITYSDK_OFFSET(0xE313970)
-#define RPG_CLIENT_UI3DCAMERACOPYUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0xE313A90)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_COPYCAMERACONFIG_OFFSET UNITYSDK_OFFSET(0xE352550)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xE3531E0)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_OVERRIDEDOFOFENVVOLUME_OFFSET UNITYSDK_OFFSET(0xE3528B0)
+#define RPG_CLIENT_UI3DCAMERACOPYUTIL_SWITCHVOLUMEPROFILE_OFFSET UNITYSDK_OFFSET(0xE3530C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DCameraCopyUtil_TypeDefinitionIndex = 72914;
-
 	class UI3DCameraCopyUtil : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__DefaultVolumeProfile()
-		{
-			return (::UnityEngine::Rendering::VolumeProfile**)Il2CppClass::FromTypeDefinitionIndex(UI3DCameraCopyUtil_TypeDefinitionIndex)->GetStaticField(0x60780);
-		}
 		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__3DUIInstanceVolumeProfile()
 		{
-			return (::UnityEngine::Rendering::VolumeProfile**)Il2CppClass::FromTypeDefinitionIndex(UI3DCameraCopyUtil_TypeDefinitionIndex)->GetStaticField(0x60788);
+			return (::UnityEngine::Rendering::VolumeProfile**)UnitySDK::FromName("RPG.Client", "UI3DCameraCopyUtil")->GetStaticField(0x2FC30);
+		}
+
+		static ::UnityEngine::Rendering::VolumeProfile** StaticGet__DefaultVolumeProfile()
+		{
+			return (::UnityEngine::Rendering::VolumeProfile**)UnitySDK::FromName("RPG.Client", "UI3DCameraCopyUtil")->GetStaticField(0x2FC38);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DCAMERACOPYUTIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DCAMERACOPYUTIL_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void CopyCameraConfig(::UnityEngine::Camera* a1, ::UnityEngine::Camera* a2)
@@ -46,5 +44,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::UnityEngine::Camera*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DCAMERACOPYUTIL_SWITCHVOLUMEPROFILE_OFFSET))(a1, a2);
 		}
+
 	};
 }

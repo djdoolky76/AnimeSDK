@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_BF7A075734D15E98.h"
+#include "unitysdk/CMPGEAFHHDC.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
-
+namespace RPG::GameCore { class AbilityPreAddModifier; }
 namespace RPG::GameCore { class BaseModifierInstance; }
 
-#define RPG_GAMECORE_ABILITYPREADDMODIFIER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE472230)
-#define RPG_GAMECORE_ABILITYPREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE472360)
-#define RPG_GAMECORE_ABILITYPREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE472280)
-#define RPG_GAMECORE_ABILITYPREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xE4721E0)
-#define RPG_GAMECORE_ABILITYPREADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xE4723B0)
+#define RPG_GAMECORE_ABILITYPREADDMODIFIER_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4BB030)
+#define RPG_GAMECORE_ABILITYPREADDMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE4BB1B0)
+#define RPG_GAMECORE_ABILITYPREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4BB160)
+#define RPG_GAMECORE_ABILITYPREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4BB080)
+#define RPG_GAMECORE_ABILITYPREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xE4BAFE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPreAddModifier_TypeDefinitionIndex = 56768;
-
-	class AbilityPreAddModifier : public ::Class_1_BF7A075734D15E98
+	class AbilityPreAddModifier : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::BaseModifierInstance* ModifierInstance; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYPREADDMODIFIER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYPREADDMODIFIER_CTOR_OFFSET))(this);
 		}
 
 		::RPG::GameCore::AbilityPreAddModifier* Init(::RPG::GameCore::BaseModifierInstance* a1)
@@ -44,5 +41,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYPREADDMODIFIER_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

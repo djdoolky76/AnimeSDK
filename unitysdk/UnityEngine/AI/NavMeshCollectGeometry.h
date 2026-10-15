@@ -3,8 +3,6 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshCollectGeometry_TypeDefinitionIndex = 5653;
-
 	enum class NavMeshCollectGeometry : ::System::Int32
 	{
 		RenderMeshes = 0,

@@ -3,28 +3,26 @@
 #include "unitysdk/LightblockStateEnum.h"
 #include "unitysdk/RPG/Client/OpenWorld/StreamingLightEnum.h"
 #include "unitysdk/System/Object.h"
-
+class VolumeData;
 namespace System { class String; }
 
-#define VOLUMEDATA_METHOD_1_0FEB9A22B18A88E7_OFFSET UNITYSDK_OFFSET(0xE9A2060)
-#define VOLUMEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE9A20F0)
+#define VOLUMEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9F7890)
+#define VOLUMEDATA_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0xE9F7800)
 
-inline static constexpr unsigned int VolumeData_TypeDefinitionIndex = 47856;
-
-class VolumeData : public ::System::Object
-{
-public:
-	::System::String* blockName; // 0x10
-	::RPG::Client::OpenWorld::StreamingLightEnum lightMode; // 0x18
-	::LightblockStateEnum blockState1; // 0x1C
-
-	::System::Void _ctor()
+	class VolumeData : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VOLUMEDATA__CTOR_OFFSET))(this);
-	}
+	public:
+		::System::String* blockName; // 0x10
+		::RPG::Client::OpenWorld::StreamingLightEnum lightMode; // 0x18
+		::LightblockStateEnum blockState1; // 0x1C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + VOLUMEDATA_CTOR_OFFSET))(this);
+		}
 
-	::VolumeData* Method_1_0FEB9A22B18A88E7()
-	{
-		return ((::VolumeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + VOLUMEDATA_METHOD_1_0FEB9A22B18A88E7_OFFSET))(this);
-	}
-};
+		::VolumeData* MJEODHKPKEB()
+		{
+			return ((::VolumeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + VOLUMEDATA_MJEODHKPKEB_OFFSET))(this);
+		}
+
+	};

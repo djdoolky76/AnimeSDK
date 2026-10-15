@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
-class Class_2_9571B284696356E4_TransitionShotData;
+class BLIHJELFEHM_TransitionShotData;
 namespace RPG::Client { class BattleToMazeShotConfig; }
 namespace RPG::Client { class BlendCurveRange; }
 namespace RPG::Client { class CameraDynamicOffset; }
@@ -11,12 +10,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PIPELINECAMERAMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xDAE4B50)
+#define RPG_CLIENT_PIPELINECAMERAMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2D1F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PipelineCameraModuleConfig_TypeDefinitionIndex = 69695;
-
 	class PipelineCameraModuleConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
@@ -25,10 +22,13 @@ namespace RPG::Client
 		::System::Single MeleeSelectDarkAimLerpRatioRight; // 0x20
 		::System::Single RangeSelectDarkAimLerpRatioLeft; // 0x24
 		::System::Single RangeSelectDarkAimLerpRatioRight; // 0x28
+		::System::Byte _padding0[0x4];
 		::RPG::Client::CameraDynamicOffset* DynamicOffsetConfig; // 0x30
 		::System::Single CutShotAngle; // 0x38
+		::System::Byte _padding1[0x4];
 		::System::Collections::Generic::List_1<::RPG::Client::BlendCurveRange*>* BlendRangeList; // 0x40
 		::System::Single ResultShotAnimOffsetLerpRatio; // 0x48
+		::System::Byte _padding2[0x4];
 		::RPG::Client::ShotAnimMovementData* DefaultShotAnimMovementData; // 0x50
 		::UnityEngine::AnimationCurve* AmplitudeAttenuationCurve; // 0x58
 		::System::Single DitherCheckInterval; // 0x60
@@ -36,6 +36,7 @@ namespace RPG::Client
 		::System::Boolean DitherCloseOpen; // 0x68
 		::System::Boolean DitherShowDebug; // 0x69
 		::System::Boolean DitherPerEntityOpen; // 0x6A
+		::System::Byte _padding3[0x1];
 		::System::Single DitherPerEntityKneeHeight; // 0x6C
 		::System::Single DitherPerEntityChinHeight; // 0x70
 		::System::Single DitherPerEntityWidth; // 0x74
@@ -61,8 +62,9 @@ namespace RPG::Client
 		::System::Single InitAxisY; // 0xC8
 		::System::Single InitAxisYMaze; // 0xCC
 		::System::Boolean ForbidBattleTransitionMode; // 0xD0
-		::Class_2_9571B284696356E4_TransitionShotData* LongShot; // 0xD8
-		::Class_2_9571B284696356E4_TransitionShotData* CloseShot; // 0xE0
+		::System::Byte _padding4[0x7];
+		::BLIHJELFEHM_TransitionShotData* LongShot; // 0xD8
+		::BLIHJELFEHM_TransitionShotData* CloseShot; // 0xE0
 		::System::Single FrameBlendDelay; // 0xE8
 		::System::Single FrameBlendWeightStart; // 0xEC
 		::System::Single FrameBlendDuration; // 0xF0
@@ -70,11 +72,12 @@ namespace RPG::Client
 		::System::String* MazeToBattleBlendCurveName; // 0xF8
 		::System::Collections::Generic::List_1<::RPG::Client::BattleToMazeShotConfig*>* BattleToMazeShotList; // 0x100
 		::System::Single BlendToFreelookTime; // 0x108
+		::System::Byte _padding5[0x4];
 		::System::String* BlendToFreelookCurve; // 0x110
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIPELINECAMERAMODULECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIPELINECAMERAMODULECONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

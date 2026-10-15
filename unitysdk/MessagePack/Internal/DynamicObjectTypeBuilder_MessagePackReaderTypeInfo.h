@@ -1,47 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6A85B0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBA6D30)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex = 7260;
-
 	class DynamicObjectTypeBuilder_MessagePackReaderTypeInfo : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_Skip()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x2BEA0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_ReadMapHeader()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x2BEA8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_TryReadNil()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x2BEB0);
-		}
 		static ::System::Reflection::MethodInfo** StaticGet_ReadArrayHeader()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x2BEB8);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26040);
 		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_Skip()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26048);
+		}
+
 		static ::System::Reflection::MethodInfo** StaticGet_ReadBytes()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x2BEC0);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26050);
 		}
+
 		static ::System::Reflection::TypeInfo** StaticGet_TypeInfo()
 		{
-			return (::System::Reflection::TypeInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x2BEC8);
+			return (::System::Reflection::TypeInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26058);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_TryReadNil()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26060);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ReadMapHeader()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26068);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO_CCTOR_OFFSET))();
 		}
+
 	};
 }

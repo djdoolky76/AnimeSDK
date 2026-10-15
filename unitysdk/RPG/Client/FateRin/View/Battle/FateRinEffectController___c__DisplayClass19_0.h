@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::FateRin::View::Battle { class FateRinEffectController; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD02C930)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0___PLAYCOINFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xD02CD10)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFCAAA0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0___PLAYCOINFADEOUT_B__0_OFFSET UNITYSDK_OFFSET(0xCFCAE80)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinEffectController___c__DisplayClass19_0_TypeDefinitionIndex = 79368;
-
 	class FateRinEffectController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
 		::System::Object* owner; // 0x10
 		::RPG::Client::FateRin::View::Battle::FateRinEffectController* __4__this; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __PlayCoinFadeOut_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS19_0___PLAYCOINFADEOUT_B__0_OFFSET))(this);
 		}
+
 	};
 }

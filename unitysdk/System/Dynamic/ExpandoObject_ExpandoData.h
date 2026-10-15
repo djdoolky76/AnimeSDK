@@ -1,47 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Dynamic { class ExpandoClass; }
+namespace System::Dynamic { class ExpandoObject_ExpandoData; }
 
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GETALIGNEDSIZE_OFFSET UNITYSDK_OFFSET(0x1E6C4330)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E6C1710)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1E6C2560)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1E6C42A0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E6C1F60)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_UPDATECLASS_OFFSET UNITYSDK_OFFSET(0x1E6C25A0)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C4340)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E6C4320)
-#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C42B0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED8C100)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED8C0E0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED8C070)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GETALIGNEDSIZE_OFFSET UNITYSDK_OFFSET(0x1ED8C0F0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED89350)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1ED8A1A0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1ED8C060)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED89BA0)
+#define SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_UPDATECLASS_OFFSET UNITYSDK_OFFSET(0x1ED8A1E0)
 
 namespace System::Dynamic
 {
-	inline static constexpr unsigned int ExpandoObject_ExpandoData_TypeDefinitionIndex = 3680;
-
 	class ExpandoObject_ExpandoData : public ::System::Object
 	{
 	public:
-		static ::System::Dynamic::ExpandoObject_ExpandoData** StaticGet_Empty()
-		{
-			return (::System::Dynamic::ExpandoObject_ExpandoData**)Il2CppClass::FromTypeDefinitionIndex(ExpandoObject_ExpandoData_TypeDefinitionIndex)->GetStaticField(0x29B70);
-		}
 		::System::Dynamic::ExpandoClass* Class; // 0x10
 		::Il2CppArray<::System::Object*>* _dataArray; // 0x18
 		::System::Int32 _version; // 0x20
+		static ::System::Dynamic::ExpandoObject_ExpandoData** StaticGet_Empty()
+		{
+			return (::System::Dynamic::ExpandoObject_ExpandoData**)UnitySDK::FromName("System.Dynamic", "ExpandoData")->GetStaticField(0x348A0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Dynamic::ExpandoClass* a1, ::Il2CppArray<::System::Object*>* a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Dynamic::ExpandoClass*, ::Il2CppArray<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Dynamic::ExpandoClass*, ::Il2CppArray<::System::Object*>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_CCTOR_OFFSET))();
 		}
 
 		::System::Object* get_Item(::System::Int32 a1)
@@ -73,5 +72,6 @@ namespace System::Dynamic
 		{
 			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DYNAMIC_EXPANDOOBJECT_EXPANDODATA_GETALIGNEDSIZE_OFFSET))(a1);
 		}
+
 	};
 }

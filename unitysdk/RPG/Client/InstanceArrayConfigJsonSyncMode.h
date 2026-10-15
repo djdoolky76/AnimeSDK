@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InstanceArrayConfigJsonSyncMode_TypeDefinitionIndex = 70818;
-
 	enum class InstanceArrayConfigJsonSyncMode : ::System::Int32
 	{
 		FullOverwrite = 0,

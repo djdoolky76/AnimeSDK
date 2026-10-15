@@ -1,28 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Mono/RuntimeStructs_GenericParamInfo.h"
 #include "unitysdk/System/Reflection/GenericParameterAttributes.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class Type; }
 
-#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GETCONSTRAINTSCOUNT_OFFSET UNITYSDK_OFFSET(0x3B5FD90)
-#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GETCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x3B5FD60)
-#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x3B5FD70)
-#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x3B5FD60)
-#define MONO_RUNTIMEGENERICPARAMINFOHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC610)
+#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GETCONSTRAINTSCOUNT_OFFSET UNITYSDK_OFFSET(0x3C14690)
+#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GETCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x3C14660)
+#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x3C14670)
+#define MONO_RUNTIMEGENERICPARAMINFOHANDLE_GET_CONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x3C14660)
 
 namespace Mono
 {
-	inline static constexpr unsigned int RuntimeGenericParamInfoHandle_TypeDefinitionIndex = 7;
-
 	struct alignas(8) RuntimeGenericParamInfoHandle
 	{
-		::Mono::RuntimeStructs_GenericParamInfo* value; // 0x10
-
+		::PVOID value; // 0x10
 		::System::Void _ctor(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMEGENERICPARAMINFOHANDLE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_RUNTIMEGENERICPARAMINFOHANDLE_CTOR_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Type*>* get_Constraints()
@@ -44,5 +38,6 @@ namespace Mono
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_RUNTIMEGENERICPARAMINFOHANDLE_GETCONSTRAINTSCOUNT_OFFSET))(this);
 		}
+
 	};
 }

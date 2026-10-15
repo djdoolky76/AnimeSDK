@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace Mono::Security { class ASN1_6C67A52C6BBD45E0; }
+namespace System { class String; }
+
+#define MONO_SECURITY_X509_SAFEBAG_32AF8563DC57EE28_CTOR_OFFSET UNITYSDK_OFFSET(0x1C03F860)
+#define MONO_SECURITY_X509_SAFEBAG_32AF8563DC57EE28_GET_ASN1_OFFSET UNITYSDK_OFFSET(0x1C047D50)
+#define MONO_SECURITY_X509_SAFEBAG_32AF8563DC57EE28_GET_BAGOID_OFFSET UNITYSDK_OFFSET(0x1C047D40)
+
+namespace Mono::Security::X509
+{
+	class SafeBag_32AF8563DC57EE28 : public ::System::Object
+	{
+	public:
+		::Mono::Security::ASN1_6C67A52C6BBD45E0* _asn1; // 0x10
+		::System::String* _bagOID; // 0x18
+		::System::Void _ctor(::System::String* a1, ::Mono::Security::ASN1_6C67A52C6BBD45E0* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::Mono::Security::ASN1_6C67A52C6BBD45E0*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_SAFEBAG_32AF8563DC57EE28_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::String* get_BagOID()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_SAFEBAG_32AF8563DC57EE28_GET_BAGOID_OFFSET))(this);
+		}
+
+		::Mono::Security::ASN1_6C67A52C6BBD45E0* get_ASN1()
+		{
+			return ((::Mono::Security::ASN1_6C67A52C6BBD45E0*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_SAFEBAG_32AF8563DC57EE28_GET_ASN1_OFFSET))(this);
+		}
+
+	};
+}

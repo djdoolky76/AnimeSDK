@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-#include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE83E140)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE83DF60)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE83E1F0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8DBEE0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8DBD00)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DBF90)
 
 namespace RPGTools::Timeline::Discussion
 {
-	inline static constexpr unsigned int CameraCompositionTrack_TypeDefinitionIndex = 49240;
-
 	class CameraCompositionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -32,5 +29,6 @@ namespace RPGTools::Timeline::Discussion
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

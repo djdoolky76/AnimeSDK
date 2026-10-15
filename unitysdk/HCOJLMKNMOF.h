@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class ByCompareSpecialAvatarType; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define HCOJLMKNMOF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C2EF60)
+#define HCOJLMKNMOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C2EF90)
+
+	class HCOJLMKNMOF
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + HCOJLMKNMOF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean Evaluate()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + HCOJLMKNMOF_EVALUATE_OFFSET))(this);
+		}
+
+	};

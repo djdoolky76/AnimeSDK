@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int Void_TypeDefinitionIndex = 36952;
-
-	struct alignas(1) Void
+	struct alignas(4) Void
 	{
 	};
 }

@@ -1,47 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/HoudiniEngineUnity/HEU_MaterialData_Source.h"
+#include "unitysdk/HoudiniEngineUnity/HEU_MaterialSourceWrapper.h"
+#include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_ImageInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_MaterialInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_NodeInfo.h"
 #include "unitysdk/HoudiniEngineUnity/HAPI_ParmInfo.h"
-#include "unitysdk/HoudiniEngineUnity/HEU_MaterialData_Source.h"
-#include "unitysdk/HoudiniEngineUnity/HEU_MaterialSourceWrapper.h"
-#include "unitysdk/UnityEngine/ScriptableObject.h"
-
+namespace HoudiniEngineUnity { class HEU_MaterialData; }
 namespace HoudiniEngineUnity { class HEU_SessionBase; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETMATERIALALPHA_OFFSET UNITYSDK_OFFSET(0x1B445990)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETSUPPORTEDFILEFORMAT_OFFSET UNITYSDK_OFFSET(0x1B445DB0)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETTEXTUREFILENAMEFROMMATERIALPARAM_OFFSET UNITYSDK_OFFSET(0x1B444DD0)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GET_MATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1B444410)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GET_MATERIALSOURCE_OFFSET UNITYSDK_OFFSET(0x1B4443F0)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1B4443E0)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B445F90)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_ISEXISTINGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B445CE0)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_ISTRANSPARENTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B444430)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_MATERIALSOURCE_WRAPPERTOINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1B444400)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_MATERIALSOURCE_WRAPPERTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B446240)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_SET_MATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1B444420)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_UPDATEMATERIALFROMHOUDINI_OFFSET UNITYSDK_OFFSET(0x1B421D60)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_USELEGACYSHADERS_OFFSET UNITYSDK_OFFSET(0x1B4445D0)
-#define HOUDINIENGINEUNITY_HEU_MATERIALDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B446250)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9474B0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETMATERIALALPHA_OFFSET UNITYSDK_OFFSET(0x1B946CA0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETSUPPORTEDFILEFORMAT_OFFSET UNITYSDK_OFFSET(0x1B9470C0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETTEXTUREFILENAMEFROMMATERIALPARAM_OFFSET UNITYSDK_OFFSET(0x1B9460E0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GET_MATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1B945720)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GET_MATERIALSOURCE_OFFSET UNITYSDK_OFFSET(0x1B945700)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_GET_MATERIAL_OFFSET UNITYSDK_OFFSET(0x1B9456F0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9471F0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_ISEXISTINGMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B946FF0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_ISTRANSPARENTMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B945740)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_MATERIALSOURCE_WRAPPERTOINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1B945710)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_MATERIALSOURCE_WRAPPERTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B9474A0)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_SET_MATERIALKEY_OFFSET UNITYSDK_OFFSET(0x1B945730)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_UPDATEMATERIALFROMHOUDINI_OFFSET UNITYSDK_OFFSET(0x1B923470)
+#define HOUDINIENGINEUNITY_HEU_MATERIALDATA_USELEGACYSHADERS_OFFSET UNITYSDK_OFFSET(0x1B9458E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_MaterialData_TypeDefinitionIndex = 39281;
-
 	class HEU_MaterialData : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		::UnityEngine::Material* _material; // 0x18
 		::HoudiniEngineUnity::HEU_MaterialData_Source _materialSource; // 0x20
 		::System::Int32 _materialKey; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Material* get_Material()
@@ -89,14 +86,14 @@ namespace HoudiniEngineUnity
 			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA_ISTRANSPARENTMATERIAL_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean GetMaterialAlpha(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* a3, ::System::Single a4, ::System::Single& a5)
+		static ::System::Boolean GetMaterialAlpha(::HoudiniEngineUnity::HEU_SessionBase* a1, ::System::Int32 a2, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>* a3, ::System::Single a4, ::System::Single a5)
 		{
-			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETMATERIALALPHA_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::System::Int32, ::Il2CppArray<::HoudiniEngineUnity::HAPI_ParmInfo>*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETMATERIALALPHA_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::String* GetSupportedFileFormat(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HAPI_ImageInfo& a2)
+		static ::System::String* GetSupportedFileFormat(::HoudiniEngineUnity::HEU_SessionBase* a1, ::HoudiniEngineUnity::HAPI_ImageInfo a2)
 		{
-			return ((::System::String*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_ImageInfo&))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETSUPPORTEDFILEFORMAT_OFFSET))(a1, a2);
+			return ((::System::String*(*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HAPI_ImageInfo))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA_GETSUPPORTEDFILEFORMAT_OFFSET))(a1, a2);
 		}
 
 		::System::Boolean IsEquivalentTo(::HoudiniEngineUnity::HEU_MaterialData* a1)
@@ -113,5 +110,6 @@ namespace HoudiniEngineUnity
 		{
 			return ((::HoudiniEngineUnity::HEU_MaterialSourceWrapper(*)(::HoudiniEngineUnity::HEU_MaterialData_Source))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_MATERIALDATA_MATERIALSOURCE_WRAPPERTOINTERNAL_1_OFFSET))(a1);
 		}
+
 	};
 }

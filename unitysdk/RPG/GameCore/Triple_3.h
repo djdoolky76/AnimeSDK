@@ -4,8 +4,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Triple_3_TypeDefinitionIndex = 55941;
-
 	template <typename T1, typename T2, typename T3>
 	class Triple_3 : public ::System::Object
 	{

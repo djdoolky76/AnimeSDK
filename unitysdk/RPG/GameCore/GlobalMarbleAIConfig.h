@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GlobalMarbleAIConfig; }
 namespace RPG::GameCore { class MarbleLaunchAIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMARBLEAICONFIG_METHOD_2_24AAF11F1284A612_OFFSET UNITYSDK_OFFSET(0x1D12A590)
-#define RPG_GAMECORE_GLOBALMARBLEAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D144E20)
+#define RPG_GAMECORE_GLOBALMARBLEAICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71EC10)
+#define RPG_GAMECORE_GLOBALMARBLEAICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71EAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalMarbleAIConfig_TypeDefinitionIndex = 16720;
-
 	class GlobalMarbleAIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Single PositiveScoreRate; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::MarbleLaunchAIConfig*>* LaunchAIDict; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMARBLEAICONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMARBLEAICONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_24AAF11F1284A612(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalMarbleAIConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GlobalMarbleAIConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalMarbleAIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMARBLEAICONFIG_METHOD_2_24AAF11F1284A612_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GlobalMarbleAIConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMARBLEAICONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

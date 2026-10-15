@@ -2,39 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/Emotion/BaseEmoTimelineTrackV2.h"
 #include "unitysdk/RPGTools/Timeline/Emotion/EmoTrackType.h"
-
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_GET_DEFAULTCLIP_OFFSET UNITYSDK_OFFSET(0xE84EFB0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0xE84F090)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_GET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0xE84EFA0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_METHOD_8_2EF969CA271C0A1B_OFFSET UNITYSDK_OFFSET(0xE84F010)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE84F120)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2__CCTOR_OFFSET UNITYSDK_OFFSET(0xE84F300)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2__CTOR_OFFSET UNITYSDK_OFFSET(0xE84F2F0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_CCAKILLMFNP_OFFSET UNITYSDK_OFFSET(0xE8ED310)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8ED4E0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ED4D0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_GET_DEFAULTCLIP_OFFSET UNITYSDK_OFFSET(0xE8ED2B0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_GET_POSITIONS_OFFSET UNITYSDK_OFFSET(0xE8ED390)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_GET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0xE8ED2A0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8ED420)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBrowTimelineTrackV2_TypeDefinitionIndex = 49207;
-
 	class EmoBrowTimelineTrackV2 : public ::RPGTools::Timeline::Emotion::BaseEmoTimelineTrackV2
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_k_Positions()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(EmoBrowTimelineTrackV2_TypeDefinitionIndex)->GetStaticField(0x33B10);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "EmoBrowTimelineTrackV2")->GetStaticField(0x6FC50);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_CCTOR_OFFSET))();
 		}
 
 		::RPGTools::Timeline::Emotion::EmoTrackType get_TrackType()
@@ -47,9 +44,9 @@ namespace RPGTools::Timeline::Emotion
 			return ((::UnityEngine::AnimationClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_GET_DEFAULTCLIP_OFFSET))(this);
 		}
 
-		::UnityEngine::AvatarMask* Method_8_2EF969CA271C0A1B(::System::Int32 a1)
+		::UnityEngine::AvatarMask* CCAKILLMFNP(::System::Int32 a1)
 		{
-			return ((::UnityEngine::AvatarMask*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_METHOD_8_2EF969CA271C0A1B_OFFSET))(this, a1);
+			return ((::UnityEngine::AvatarMask*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_CCAKILLMFNP_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Int32>* get_Positions()
@@ -61,5 +58,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBROWTIMELINETRACKV2_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

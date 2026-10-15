@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueActPersonaAllRoomCardCastConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueActPersonaAllRoomCardCastResetConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_METHOD_7_999D6DE0A337BB53_OFFSET UNITYSDK_OFFSET(0x1D3B8510)
-#define RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_METHOD_7_A266B1DB17223B8F_OFFSET UNITYSDK_OFFSET(0x1D3B8610)
-#define RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B8500)
+#define RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99EC90)
+#define RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D99ECA0)
+#define RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D99EDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActPersonaAllRoomCardCastResetConfig_TypeDefinitionIndex = 19518;
-
 	class RogueActPersonaAllRoomCardCastResetConfig : public ::RPG::GameCore::RogueActPersonaAllRoomCardCastConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_7_A266B1DB17223B8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_METHOD_7_A266B1DB17223B8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_7_999D6DE0A337BB53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_METHOD_7_999D6DE0A337BB53_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueActPersonaAllRoomCardCastResetConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTPERSONAALLROOMCARDCASTRESETCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

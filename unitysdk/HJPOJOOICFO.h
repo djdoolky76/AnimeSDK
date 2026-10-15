@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class SetTargetUniqueName; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define HJPOJOOICFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D39D40)
+#define HJPOJOOICFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D39D70)
+
+	class HJPOJOOICFO
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTargetUniqueName* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetTargetUniqueName*))((::PBYTE)hIl2Cpp + HJPOJOOICFO_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HJPOJOOICFO_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

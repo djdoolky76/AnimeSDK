@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleHudType_TypeDefinitionIndex = 13937;
-
 	enum class PuzzleHudType : ::System::Int32
 	{
 		None = 0,

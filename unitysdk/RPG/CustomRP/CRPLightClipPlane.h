@@ -4,25 +4,23 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Light; }
 
-#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_GET_LIGHT_OFFSET UNITYSDK_OFFSET(0x1C67D6D0)
-#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1C67CFB0)
-#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_SET_LIGHT_OFFSET UNITYSDK_OFFSET(0x1C67D6E0)
-#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_UPDATELIGHTCLIPPLANES_OFFSET UNITYSDK_OFFSET(0x1C67CFC0)
-#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C67D6F0)
-#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE__SETCLIPPLANELOCALDATA_OFFSET UNITYSDK_OFFSET(0x1C67D270)
+#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC03B50)
+#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_GET_LIGHT_OFFSET UNITYSDK_OFFSET(0x1CC03B30)
+#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CC03410)
+#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_SET_LIGHT_OFFSET UNITYSDK_OFFSET(0x1CC03B40)
+#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_UPDATELIGHTCLIPPLANES_OFFSET UNITYSDK_OFFSET(0x1CC03420)
+#define RPG_CUSTOMRP_CRPLIGHTCLIPPLANE__SETCLIPPLANELOCALDATA_OFFSET UNITYSDK_OFFSET(0x1CC036D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPLightClipPlane_TypeDefinitionIndex = 36990;
-
 	class CRPLightClipPlane : public ::System::Object
 	{
 	public:
 		::System::Int32 numLightClipPlane; // 0x10
+		::System::Byte _padding0[0x4];
 		::UnityEngine::GameObject* clipPlane0; // 0x18
 		::UnityEngine::GameObject* clipPlane1; // 0x20
 		::UnityEngine::GameObject* clipPlane2; // 0x28
@@ -34,10 +32,9 @@ namespace RPG::CustomRP
 		::System::Single clipPlaneFadeDistance2; // 0x50
 		::System::Single clipPlaneFadeDistance3; // 0x54
 		::UnityEngine::Light* _Light; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLIGHTCLIPPLANE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -50,9 +47,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::ClipPlaneType))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_UPDATELIGHTCLIPPLANES_OFFSET))(this, a1);
 		}
 
-		::System::Void _SetClipPlaneLocalData(::System::Int32 a1, ::UnityEngine::GameObject*& a2)
+		::System::Void _SetClipPlaneLocalData(::System::Int32 a1, ::UnityEngine::GameObject* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GameObject*&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLIGHTCLIPPLANE__SETCLIPPLANELOCALDATA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLIGHTCLIPPLANE__SETCLIPPLANELOCALDATA_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Light* get_Light()
@@ -64,5 +61,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Light*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPLIGHTCLIPPLANE_SET_LIGHT_OFFSET))(this, a1);
 		}
+
 	};
 }

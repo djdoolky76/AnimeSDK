@@ -3,8 +3,6 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_CountType_TypeDefinitionIndex = 6598;
-
 	enum class ImmutableHashSet_1_CountType : ::System::Int32
 	{
 		Adjustment = 0,

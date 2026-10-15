@@ -3,8 +3,6 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsrRack_StreamType_TypeDefinitionIndex = 38616;
-
 	enum class CriAtomExAsrRack_StreamType : ::System::Int32
 	{
 		Music = 0,

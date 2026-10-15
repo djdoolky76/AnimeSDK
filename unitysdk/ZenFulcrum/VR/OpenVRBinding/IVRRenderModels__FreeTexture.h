@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBE0A0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBE0F0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBE090)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBE020)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F686610)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F686590)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F686660)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F686600)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__FreeTexture_TypeDefinitionIndex = 37847;
-
 	class IVRRenderModels__FreeTexture : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1)
@@ -37,5 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__FREETEXTURE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

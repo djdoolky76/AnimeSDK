@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::GameCore { class FilePath; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1D099430)
-#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D0993F0)
-#define RPG_GAMECORE_FILEPATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D099440)
-#define RPG_GAMECORE_FILEPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0993E0)
+#define RPG_GAMECORE_FILEPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A7370)
+#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1D6A73C0)
+#define RPG_GAMECORE_FILEPATH_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D6A7380)
+#define RPG_GAMECORE_FILEPATH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D6A73D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FilePath_TypeDefinitionIndex = 10847;
-
 	class FilePath : public ::System::Object
 	{
 	public:
 		::System::String* PathPrivate; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::RPG::GameCore::FilePath* op_Implicit(::System::String* a1)
@@ -37,5 +34,6 @@ namespace RPG::GameCore
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FILEPATH_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

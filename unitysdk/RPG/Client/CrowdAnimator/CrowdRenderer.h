@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/LFMMKIMHFPA.h"
+#include "unitysdk/MAIGDLAGBLF.h"
+#include "unitysdk/OIDGABHGFKB.h"
 #include "unitysdk/RPG/CustomRP/Quality.h"
-#include "unitysdk/Struct_2_7F1F239FF2132566.h"
-#include "unitysdk/Struct_2_8EA4F3900BB8E3E8.h"
-#include "unitysdk/Struct_2_E610E027254D7CE4.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/Jobs/TransformAccessArray.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Plane.h"
-#include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
-class Class_1_8A1B169B056DC41A;
-class Class_1_E70BA5F62D4D16DE;
+#include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
+class GCFPDEHADKC;
+class OEIPELDMAAE;
 namespace RPG::Client::CrowdAnimator { class CrowdInstance; }
 namespace RPG::Client::CrowdAnimator { class CrowdPrototype; }
+namespace RPG::Client::CrowdAnimator { class CrowdRenderer; }
 namespace RPG::Client::CrowdAnimator { class CrowdVariant; }
 namespace System { class Object; }
 namespace System { class String; }
@@ -29,256 +29,300 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCC786C0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_DESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0xCC7C2E0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCC80E80)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xCC764D0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_GET_KEY_OFFSET UNITYSDK_OFFSET(0xCC80E70)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_INIT_OFFSET UNITYSDK_OFFSET(0xCC789D0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCC78AF0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_05903074FA8D7D0E_OFFSET UNITYSDK_OFFSET(0xCC76A30)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_13B7129DF98444A6_OFFSET UNITYSDK_OFFSET(0xCC7C6E0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_1DE37A1C9BB093C9_OFFSET UNITYSDK_OFFSET(0xCC79450)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_27C6DCFD25B0B42F_OFFSET UNITYSDK_OFFSET(0xCC80220)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_2D3038217845E9AA_OFFSET UNITYSDK_OFFSET(0xCC7E3D0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_30E1F2FA8FE17E58_OFFSET UNITYSDK_OFFSET(0xCC77060)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D4EAC64666D4A03_1_OFFSET UNITYSDK_OFFSET(0xCC77D10)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D4EAC64666D4A03_OFFSET UNITYSDK_OFFSET(0xCC77C90)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D510574C32725B5_1_OFFSET UNITYSDK_OFFSET(0xCC77E30)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D510574C32725B5_OFFSET UNITYSDK_OFFSET(0xCC77DB0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3EC104D2C5D0A41D_OFFSET UNITYSDK_OFFSET(0xCC7FAA0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_41E39C0C1C27A76F_OFFSET UNITYSDK_OFFSET(0xCC7E850)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_4390A67BC236F1A0_OFFSET UNITYSDK_OFFSET(0xCC76750)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_5DF574466CCD0CE3_OFFSET UNITYSDK_OFFSET(0xCC80590)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_6092608CF92684DE_OFFSET UNITYSDK_OFFSET(0xCC791F0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_64C8458820107108_OFFSET UNITYSDK_OFFSET(0xCC7E3A0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_7379F6F0451DB9CF_OFFSET UNITYSDK_OFFSET(0xCC796E0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_7CDDB5EC1CD8A779_OFFSET UNITYSDK_OFFSET(0xCC76C60)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_7FE7F893829399D7_OFFSET UNITYSDK_OFFSET(0xCC7F670)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_849D4115D2C23247_OFFSET UNITYSDK_OFFSET(0xCC7A9D0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_952453844D88CADD_OFFSET UNITYSDK_OFFSET(0xCC7E5B0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_BDE24E53855CC612_OFFSET UNITYSDK_OFFSET(0xCC7F080)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0xCC7A6D0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_C73AD0BB5AD2A8C0_OFFSET UNITYSDK_OFFSET(0xCC7E550)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_C7B2B5C12DEFDE68_OFFSET UNITYSDK_OFFSET(0xCC7C480)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_CC32BB23BD684E52_OFFSET UNITYSDK_OFFSET(0xCC78EA0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_CDF7BF2EDC899DE1_OFFSET UNITYSDK_OFFSET(0xCC7DE10)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xCC7EC30)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_D83897E6502B897D_OFFSET UNITYSDK_OFFSET(0xCC7EE40)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_DFDC8B0EF9883FD8_OFFSET UNITYSDK_OFFSET(0xCC7E490)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_E3A452D25792E383_OFFSET UNITYSDK_OFFSET(0xCC7C400)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_F882D1A1214DC5D9_OFFSET UNITYSDK_OFFSET(0xCC7FFA0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCC7AF10)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCC7AE20)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCC78980)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_RELEASE_OFFSET UNITYSDK_OFFSET(0xCC7AFE0)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC81160)
-#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xCC81150)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ACEDJELALGN_OFFSET UNITYSDK_OFFSET(0xCBCC7A0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AHPIPINFEBC_OFFSET UNITYSDK_OFFSET(0xCBCB410)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AMJAKIGCCOL_OFFSET UNITYSDK_OFFSET(0xCBD37D0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AOKFDCIEMKF_OFFSET UNITYSDK_OFFSET(0xCBCC450)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AWAKE_OFFSET UNITYSDK_OFFSET(0xCBCBC70)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBD4710)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CEPGEJIPJPL_OFFSET UNITYSDK_OFFSET(0xCBCA010)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CLDGJLDGFOE_OFFSET UNITYSDK_OFFSET(0xCBCF9B0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD4700)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_DESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0xCBCF890)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_DGHLCFLEJFC_OFFSET UNITYSDK_OFFSET(0xCBCDC80)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EILPKODAIEI_OFFSET UNITYSDK_OFFSET(0xCBD3550)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EMEEMGANDGP_OFFSET UNITYSDK_OFFSET(0xCBCCC90)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCBD4430)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FBNGAFAAOJK_OFFSET UNITYSDK_OFFSET(0xCBD3B40)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FCKDIKELDFN_OFFSET UNITYSDK_OFFSET(0xCBD1B60)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FOJJIIFABAD_OFFSET UNITYSDK_OFFSET(0xCBD23F0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FPOOLEHGLHG_OFFSET UNITYSDK_OFFSET(0xCBC9D30)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xCBC9AB0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_GET_KEY_OFFSET UNITYSDK_OFFSET(0xCBD4420)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_HBPPOOHCKHG_OFFSET UNITYSDK_OFFSET(0xCBCFA30)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_HNEICMGIGFC_OFFSET UNITYSDK_OFFSET(0xCBD2630)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_IAEBAPMFBNC_OFFSET UNITYSDK_OFFSET(0xCBD1B00)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_INIT_OFFSET UNITYSDK_OFFSET(0xCBCBF80)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_JAHLEMHFFOF_OFFSET UNITYSDK_OFFSET(0xCBCCA00)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_JJMEDOHDKBM_OFFSET UNITYSDK_OFFSET(0xCBD1950)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_KCDFCFIJGFE_OFFSET UNITYSDK_OFFSET(0xCBD1980)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCBCC0A0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LDPFAPEFNBA_OFFSET UNITYSDK_OFFSET(0xCBD2C20)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LEKBGPHFICC_OFFSET UNITYSDK_OFFSET(0xCBD13C0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LMCMAFOOAAA_OFFSET UNITYSDK_OFFSET(0xCBCB390)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LOLJDLFOBHO_OFFSET UNITYSDK_OFFSET(0xCBCDF80)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_MGCFALHICEM_OFFSET UNITYSDK_OFFSET(0xCBCB2F0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_MNHJMFIFLOJ_OFFSET UNITYSDK_OFFSET(0xCBCB270)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_NEJNJOFHOHK_OFFSET UNITYSDK_OFFSET(0xCBD21E0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_OFDGDJBOJCF_OFFSET UNITYSDK_OFFSET(0xCBD1E00)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_OHKHOLCFAKO_OFFSET UNITYSDK_OFFSET(0xCBD1A40)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_OIKKKPGAPJD_OFFSET UNITYSDK_OFFSET(0xCBCFC90)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCBCE4C0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCBCE3D0)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCBCBF30)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONLLNGBKKDA_OFFSET UNITYSDK_OFFSET(0xCBD3050)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_PLHNKHICLEF_OFFSET UNITYSDK_OFFSET(0xCBCA640)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_PPMOIFEIFMK_OFFSET UNITYSDK_OFFSET(0xCBCA240)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_RELEASE_OFFSET UNITYSDK_OFFSET(0xCBCE590)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdRenderer_TypeDefinitionIndex = 73617;
-
 	class CrowdRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::Il2CppArray<::Class_1_E70BA5F62D4D16DE*>** StaticGet_MECAEHPHNIE()
-		{
-			return (::Il2CppArray<::Class_1_E70BA5F62D4D16DE*>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F390);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_BFNGNFMEPJO()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F398);
-		}
-		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BGGMKGMCHDA()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector4>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3A0);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_GODCEIKHPLF()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3A8);
-		}
-		static ::UnityEngine::RenderTexture** StaticGet_KCDEFIDFNMB()
-		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3B0);
-		}
-		static ::Il2CppArray<::Struct_2_E610E027254D7CE4>** StaticGet_KALCHLIGCKJ()
-		{
-			return (::Il2CppArray<::Struct_2_E610E027254D7CE4>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3B8);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_JJMEOKDJOGM()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3C0);
-		}
-		static ::UnityEngine::RenderTexture** StaticGet_OLEHMEJMPPI()
-		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3C8);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_EJKNMFNHGNM()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3D0);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_JMAFHECEMLM()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3D8);
-		}
-		static ::UnityEngine::ComputeShader** StaticGet_JDLHPFAKHMD()
-		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3E0);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_CANLEJJHFLB()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3E8);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_BMNACADOALP()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3F0);
-		}
-		static ::RPG::Client::CrowdAnimator::CrowdRenderer** StaticGet_FLMODBLFAGD()
-		{
-			return (::RPG::Client::CrowdAnimator::CrowdRenderer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F3F8);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_ABGAGOMFNAP()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F400);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_MNCAPILLHKN()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F408);
-		}
-		static ::Il2CppArray<::Class_1_8A1B169B056DC41A*>** StaticGet_HGLAMDDFDHD()
-		{
-			return (::Il2CppArray<::Class_1_8A1B169B056DC41A*>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F410);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::System::Int32>** StaticGet_JAEEIJEDBPO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F418);
-		}
-		static ::UnityEngine::ComputeBuffer** StaticGet_JNGOJOFAANB()
-		{
-			return (::UnityEngine::ComputeBuffer**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F420);
-		}
 		static ::UnityEngine::ComputeShader** StaticGet_HBCIMMEMAAH()
 		{
-			return (::UnityEngine::ComputeShader**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F428);
+			return (::UnityEngine::ComputeShader**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CC70);
 		}
-		static ::Il2CppArray<::RPG::Client::CrowdAnimator::CrowdInstance*>** StaticGet_KDBMGJFCDDM()
+
+		static ::Il2CppArray<::LFMMKIMHFPA>** StaticGet_KALCHLIGCKJ()
 		{
-			return (::Il2CppArray<::RPG::Client::CrowdAnimator::CrowdInstance*>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F430);
+			return (::Il2CppArray<::LFMMKIMHFPA>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CC78);
 		}
+
+		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BGGMKGMCHDA()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector4>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CC80);
+		}
+
+		static ::UnityEngine::ComputeShader** StaticGet_JDLHPFAKHMD()
+		{
+			return (::UnityEngine::ComputeShader**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CC88);
+		}
+
+		static ::UnityEngine::RenderTexture** StaticGet_KCDEFIDFNMB()
+		{
+			return (::UnityEngine::RenderTexture**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CC90);
+		}
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_MNCAPILLHKN()
+		{
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CC98);
+		}
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_JMAFHECEMLM()
+		{
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCA0);
+		}
+
+		static ::Il2CppArray<::GCFPDEHADKC*>** StaticGet_HGLAMDDFDHD()
+		{
+			return (::Il2CppArray<::GCFPDEHADKC*>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCA8);
+		}
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_BFNGNFMEPJO()
+		{
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCB0);
+		}
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_ABGAGOMFNAP()
+		{
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCB8);
+		}
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_JNGOJOFAANB()
+		{
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCC0);
+		}
+
 		static ::Il2CppArray<::UnityEngine::Plane>** StaticGet_FIFAJNAGPGI()
 		{
-			return (::Il2CppArray<::UnityEngine::Plane>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F438);
+			return (::Il2CppArray<::UnityEngine::Plane>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCC8);
 		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Texture2D*>** StaticGet_AKBJJNGNNEC()
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_CANLEJJHFLB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Texture2D*>**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F440);
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCD0);
 		}
+
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::System::Int32>** StaticGet_JAEEIJEDBPO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::System::Int32>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCD8);
+		}
+
+		static ::Il2CppArray<::System::UInt32>** StaticGet_GODCEIKHPLF()
+		{
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCE0);
+		}
+
+		static ::Il2CppArray<::System::UInt32>** StaticGet_BMNACADOALP()
+		{
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCE8);
+		}
+
+		static ::Il2CppArray<::OEIPELDMAAE*>** StaticGet_MECAEHPHNIE()
+		{
+			return (::Il2CppArray<::OEIPELDMAAE*>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCF0);
+		}
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_JJMEOKDJOGM()
+		{
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CCF8);
+		}
+
+		static ::Il2CppArray<::RPG::Client::CrowdAnimator::CrowdInstance*>** StaticGet_KDBMGJFCDDM()
+		{
+			return (::Il2CppArray<::RPG::Client::CrowdAnimator::CrowdInstance*>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CD00);
+		}
+
+		static ::UnityEngine::RenderTexture** StaticGet_OLEHMEJMPPI()
+		{
+			return (::UnityEngine::RenderTexture**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CD08);
+		}
+
+		static ::RPG::Client::CrowdAnimator::CrowdRenderer** StaticGet_FLMODBLFAGD()
+		{
+			return (::RPG::Client::CrowdAnimator::CrowdRenderer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CD10);
+		}
+
 		static ::UnityEngine::RenderTexture** StaticGet_KOHFOKGFDGC()
 		{
-			return (::UnityEngine::RenderTexture**)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0x1F448);
+			return (::UnityEngine::RenderTexture**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CD18);
 		}
-		static ::System::Int32* StaticGet_ADAMEECBBHK()
+
+		static ::UnityEngine::ComputeBuffer** StaticGet_EJKNMFNHGNM()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA540);
+			return (::UnityEngine::ComputeBuffer**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CD20);
 		}
-		static ::System::Int32* StaticGet_IIGCPIDDPOC()
+
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Texture2D*>** StaticGet_AKBJJNGNNEC()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA544);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Mesh*, ::UnityEngine::Texture2D*>**)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x1CD28);
 		}
-		static ::Unity::Collections::NativeArray_1<::Struct_2_7F1F239FF2132566>* StaticGet_FAECNGCPLKF()
-		{
-			return (::Unity::Collections::NativeArray_1<::Struct_2_7F1F239FF2132566>*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA548);
-		}
-		static ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>* StaticGet_FHDNCDMGIHA()
-		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA558);
-		}
-		static ::System::Int32* StaticGet_OMHOCLGPCDA()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA568);
-		}
-		static ::System::Int32* StaticGet_EEHLPNGHDHJ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA56C);
-		}
+
 		static ::UnityEngine::Jobs::TransformAccessArray* StaticGet_NHPMMHIJKHK()
 		{
-			return (::UnityEngine::Jobs::TransformAccessArray*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA570);
+			return (::UnityEngine::Jobs::TransformAccessArray*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6800);
 		}
-		static ::System::Boolean* StaticGet_CKHLLBPFKPJ()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA578);
-		}
-		static ::System::Int32* StaticGet_EBJKGILBDML()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA57C);
-		}
-		static ::System::Int32* StaticGet_AGKGFLBMJOJ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA580);
-		}
-		static ::RPG::CustomRP::Quality* StaticGet_RenderQuality()
-		{
-			return (::RPG::CustomRP::Quality*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA584);
-		}
-		static ::System::Int32* StaticGet_JNIBINIBHAO()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA588);
-		}
-		static ::System::Int32* StaticGet_OKPGILGHOIJ()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA58C);
-		}
-		static ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>* StaticGet_BGOPFBBGCND()
-		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA590);
-		}
+
 		static ::System::Int32* StaticGet_OMBHBCJGGNH()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5A0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6808);
 		}
-		static ::System::Int32* StaticGet_GENIJLNADBF()
+
+		static ::System::Int32* StaticGet_EEHLPNGHDHJ()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5A4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x680C);
 		}
+
+		static ::RPG::CustomRP::Quality* StaticGet_RenderQuality()
+		{
+			return (::RPG::CustomRP::Quality*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6810);
+		}
+
+		static ::System::Int32* StaticGet_ADAMEECBBHK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6814);
+		}
+
 		static ::Unity::Collections::NativeArray_1<::System::UInt32>* StaticGet_PLFBPIOBOGI()
 		{
-			return (::Unity::Collections::NativeArray_1<::System::UInt32>*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5A8);
+			return (::Unity::Collections::NativeArray_1<::System::UInt32>*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6818);
 		}
-		static ::System::Boolean* StaticGet_FLHJPMGBEGF()
+
+		static ::System::Int32* StaticGet_AGKGFLBMJOJ()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5B8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6828);
 		}
-		static ::System::Boolean* StaticGet_DebugForceDisable()
+
+		static ::System::Boolean* StaticGet_CKHLLBPFKPJ()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5B9);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x682C);
 		}
+
+		static ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>* StaticGet_BGOPFBBGCND()
+		{
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6830);
+		}
+
+		static ::System::Int32* StaticGet_JNIBINIBHAO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6840);
+		}
+
 		static ::System::Boolean* StaticGet_CAKGIPPNJBC()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5BA);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6844);
 		}
+
+		static ::System::Boolean* StaticGet_DebugForceDisable()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6845);
+		}
+
 		static ::System::Boolean* StaticGet_JCHNGPHKGAG()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5BB);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6846);
 		}
+
+		static ::System::Boolean* StaticGet_FLHJPMGBEGF()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6847);
+		}
+
 		static ::System::Int32* StaticGet_AHBFOCILMFI()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5BC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6848);
 		}
-		static ::Unity::Collections::NativeArray_1<::Struct_2_8EA4F3900BB8E3E8>* StaticGet_NCAHKPOJFEP()
+
+		static ::System::Int32* StaticGet_OKPGILGHOIJ()
 		{
-			return (::Unity::Collections::NativeArray_1<::Struct_2_8EA4F3900BB8E3E8>*)Il2CppClass::FromTypeDefinitionIndex(CrowdRenderer_TypeDefinitionIndex)->GetStaticField(0xA5C0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x684C);
+		}
+
+		static ::System::Int32* StaticGet_OMHOCLGPCDA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6850);
+		}
+
+		static ::System::Int32* StaticGet_GENIJLNADBF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6854);
+		}
+
+		static ::Unity::Collections::NativeArray_1<::MAIGDLAGBLF>* StaticGet_NCAHKPOJFEP()
+		{
+			return (::Unity::Collections::NativeArray_1<::MAIGDLAGBLF>*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6858);
+		}
+
+		static ::System::Int32* StaticGet_EBJKGILBDML()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6868);
+		}
+
+		static ::System::Int32* StaticGet_IIGCPIDDPOC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x686C);
+		}
+
+		static ::Unity::Collections::NativeArray_1<::OIDGABHGFKB>* StaticGet_FAECNGCPLKF()
+		{
+			return (::Unity::Collections::NativeArray_1<::OIDGABHGFKB>*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6870);
+		}
+
+		static ::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>* StaticGet_FHDNCDMGIHA()
+		{
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4>*)UnitySDK::FromName("RPG.Client.CrowdAnimator", "CrowdRenderer")->GetStaticField(0x6880);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -326,164 +370,164 @@ namespace RPG::Client::CrowdAnimator
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_DESTROYINSTANCE_OFFSET))();
 		}
 
-		::Struct_2_8EA4F3900BB8E3E8 Method_5_3D4EAC64666D4A03(::System::Int32 a1)
+		::MAIGDLAGBLF MNHJMFIFLOJ(::System::Int32 a1)
 		{
-			return ((::Struct_2_8EA4F3900BB8E3E8(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D4EAC64666D4A03_OFFSET))(this, a1);
+			return ((::MAIGDLAGBLF(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_MNHJMFIFLOJ_OFFSET))(this, a1);
 		}
 
-		::Struct_2_7F1F239FF2132566 Method_5_3D4EAC64666D4A03_1(::System::Int32 a1)
+		::OIDGABHGFKB MGCFALHICEM(::System::Int32 a1)
 		{
-			return ((::Struct_2_7F1F239FF2132566(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D4EAC64666D4A03_1_OFFSET))(this, a1);
+			return ((::OIDGABHGFKB(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_MGCFALHICEM_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_3D510574C32725B5(::System::Int32 a1, ::Struct_2_8EA4F3900BB8E3E8 a2)
+		::System::Void LMCMAFOOAAA(::System::Int32 a1, ::MAIGDLAGBLF a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Struct_2_8EA4F3900BB8E3E8))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D510574C32725B5_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::MAIGDLAGBLF))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LMCMAFOOAAA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_3D510574C32725B5_1(::System::Int32 a1, ::Struct_2_7F1F239FF2132566 a2)
+		::System::Void AHPIPINFEBC(::System::Int32 a1, ::OIDGABHGFKB a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::Struct_2_7F1F239FF2132566))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3D510574C32725B5_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::OIDGABHGFKB))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AHPIPINFEBC_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_E3A452D25792E383(::System::Int32 a1, ::System::UInt32 a2)
+		::System::Void CLDGJLDGFOE(::System::Int32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_E3A452D25792E383_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CLDGJLDGFOE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_05903074FA8D7D0E(::System::Int32 a1, ::UnityEngine::Vector4 a2)
+		::System::Void CEPGEJIPJPL(::System::Int32 a1, ::UnityEngine::Vector4 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_05903074FA8D7D0E_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector4))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_CEPGEJIPJPL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_5_4390A67BC236F1A0(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
+		::System::Void FPOOLEHGLHG(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_4390A67BC236F1A0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FPOOLEHGLHG_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_7CDDB5EC1CD8A779(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
+		::System::Void PPMOIFEIFMK(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_7CDDB5EC1CD8A779_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_PPMOIFEIFMK_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_30E1F2FA8FE17E58(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
+		::System::Void PLHNKHICLEF(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_30E1F2FA8FE17E58_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_PLHNKHICLEF_OFFSET))(this, a1);
 		}
 
-		static ::UnityEngine::Camera* Method_5_64C8458820107108()
+		static ::UnityEngine::Camera* JJMEDOHDKBM()
 		{
-			return ((::UnityEngine::Camera*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_64C8458820107108_OFFSET))();
+			return ((::UnityEngine::Camera*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_JJMEDOHDKBM_OFFSET))();
 		}
 
-		static ::System::Single Method_5_2D3038217845E9AA()
+		static ::System::Single KCDFCFIJGFE()
 		{
-			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_2D3038217845E9AA_OFFSET))();
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_KCDFCFIJGFE_OFFSET))();
 		}
 
-		static ::System::Int32 Method_5_DFDC8B0EF9883FD8()
+		static ::System::Int32 OHKHOLCFAKO()
 		{
-			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_DFDC8B0EF9883FD8_OFFSET))();
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_OHKHOLCFAKO_OFFSET))();
 		}
 
-		static ::System::Void Method_5_C73AD0BB5AD2A8C0(::System::Object* a1)
+		static ::System::Void IAEBAPMFBNC(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_C73AD0BB5AD2A8C0_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_IAEBAPMFBNC_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_5_CC32BB23BD684E52()
+		static ::System::Void AOKFDCIEMKF()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_CC32BB23BD684E52_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AOKFDCIEMKF_OFFSET))();
 		}
 
-		static ::System::Void Method_5_C638E91FC0D3A13A()
+		static ::System::Void DGHLCFLEJFC()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_C638E91FC0D3A13A_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_DGHLCFLEJFC_OFFSET))();
 		}
 
-		static ::System::Void Method_5_6092608CF92684DE()
+		static ::System::Void ACEDJELALGN()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_6092608CF92684DE_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ACEDJELALGN_OFFSET))();
 		}
 
-		static ::System::Void Method_5_1DE37A1C9BB093C9()
+		static ::System::Void JAHLEMHFFOF()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_1DE37A1C9BB093C9_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_JAHLEMHFFOF_OFFSET))();
 		}
 
-		static ::System::Void Method_5_7379F6F0451DB9CF(::UnityEngine::Rendering::CommandBuffer* a1)
+		static ::System::Void EMEEMGANDGP(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_7379F6F0451DB9CF_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EMEEMGANDGP_OFFSET))(a1);
 		}
 
-		::Class_1_E70BA5F62D4D16DE* Method_5_C7B2B5C12DEFDE68(::RPG::Client::CrowdAnimator::CrowdPrototype* a1, ::RPG::Client::CrowdAnimator::CrowdVariant* a2)
+		::OEIPELDMAAE* HBPPOOHCKHG(::RPG::Client::CrowdAnimator::CrowdPrototype* a1, ::RPG::Client::CrowdAnimator::CrowdVariant* a2)
 		{
-			return ((::Class_1_E70BA5F62D4D16DE*(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdPrototype*, ::RPG::Client::CrowdAnimator::CrowdVariant*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_C7B2B5C12DEFDE68_OFFSET))(this, a1, a2);
+			return ((::OEIPELDMAAE*(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdPrototype*, ::RPG::Client::CrowdAnimator::CrowdVariant*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_HBPPOOHCKHG_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void Method_5_952453844D88CADD(::Class_1_E70BA5F62D4D16DE* a1)
+		static ::System::Void FCKDIKELDFN(::OEIPELDMAAE* a1)
 		{
-			return ((::System::Void(*)(::Class_1_E70BA5F62D4D16DE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_952453844D88CADD_OFFSET))(a1);
+			return ((::System::Void(*)(::OEIPELDMAAE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FCKDIKELDFN_OFFSET))(a1);
 		}
 
-		::System::Void Method_5_CDF7BF2EDC899DE1(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
+		::System::Void LEKBGPHFICC(::RPG::Client::CrowdAnimator::CrowdInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_CDF7BF2EDC899DE1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::CrowdAnimator::CrowdInstance*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LEKBGPHFICC_OFFSET))(this, a1);
 		}
 
-		static ::System::Void Method_5_41E39C0C1C27A76F(::System::Int32 a1)
+		static ::System::Void OFDGDJBOJCF(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_41E39C0C1C27A76F_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_OFDGDJBOJCF_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_5_13B7129DF98444A6(::System::Int32 a1)
+		static ::System::Void OIKKKPGAPJD(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_13B7129DF98444A6_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_OIKKKPGAPJD_OFFSET))(a1);
 		}
 
-		::Class_1_8A1B169B056DC41A* Method_5_D83897E6502B897D(::System::String* a1, ::UnityEngine::Mesh* a2, ::System::Int32 a3, ::UnityEngine::Material* a4, ::RPG::Client::CrowdAnimator::CrowdPrototype* a5, ::Class_1_E70BA5F62D4D16DE* a6)
+		::GCFPDEHADKC* FOJJIIFABAD(::System::String* a1, ::UnityEngine::Mesh* a2, ::System::Int32 a3, ::UnityEngine::Material* a4, ::RPG::Client::CrowdAnimator::CrowdPrototype* a5, ::OEIPELDMAAE* a6)
 		{
-			return ((::Class_1_8A1B169B056DC41A*(*)(::PVOID, ::System::String*, ::UnityEngine::Mesh*, ::System::Int32, ::UnityEngine::Material*, ::RPG::Client::CrowdAnimator::CrowdPrototype*, ::Class_1_E70BA5F62D4D16DE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_D83897E6502B897D_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::GCFPDEHADKC*(*)(::PVOID, ::System::String*, ::UnityEngine::Mesh*, ::System::Int32, ::UnityEngine::Material*, ::RPG::Client::CrowdAnimator::CrowdPrototype*, ::OEIPELDMAAE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FOJJIIFABAD_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void Method_5_3EC104D2C5D0A41D(::Class_1_8A1B169B056DC41A* a1, ::Class_1_E70BA5F62D4D16DE* a2)
+		::System::Void ONLLNGBKKDA(::GCFPDEHADKC* a1, ::OEIPELDMAAE* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_8A1B169B056DC41A*, ::Class_1_E70BA5F62D4D16DE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_3EC104D2C5D0A41D_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::GCFPDEHADKC*, ::OEIPELDMAAE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_ONLLNGBKKDA_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void Method_5_7FE7F893829399D7(::Class_1_8A1B169B056DC41A* a1)
+		static ::System::Void LDPFAPEFNBA(::GCFPDEHADKC* a1)
 		{
-			return ((::System::Void(*)(::Class_1_8A1B169B056DC41A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_7FE7F893829399D7_OFFSET))(a1);
+			return ((::System::Void(*)(::GCFPDEHADKC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LDPFAPEFNBA_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_5_5DF574466CCD0CE3(::System::Int32 a1)
+		static ::System::Void FBNGAFAAOJK(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_5DF574466CCD0CE3_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_FBNGAFAAOJK_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_5_27C6DCFD25B0B42F(::UnityEngine::Mesh* a1)
+		static ::System::Void AMJAKIGCCOL(::UnityEngine::Mesh* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_27C6DCFD25B0B42F_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_AMJAKIGCCOL_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Texture2D* Method_5_BDE24E53855CC612(::RPG::Client::CrowdAnimator::CrowdPrototype* a1, ::UnityEngine::Mesh* a2, ::System::String* a3)
+		static ::UnityEngine::Texture2D* HNEICMGIGFC(::RPG::Client::CrowdAnimator::CrowdPrototype* a1, ::UnityEngine::Mesh* a2, ::System::String* a3)
 		{
-			return ((::UnityEngine::Texture2D*(*)(::RPG::Client::CrowdAnimator::CrowdPrototype*, ::UnityEngine::Mesh*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_BDE24E53855CC612_OFFSET))(a1, a2, a3);
+			return ((::UnityEngine::Texture2D*(*)(::RPG::Client::CrowdAnimator::CrowdPrototype*, ::UnityEngine::Mesh*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_HNEICMGIGFC_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void Method_5_D0BD1377F2594D33()
+		static ::System::Void NEJNJOFHOHK()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_D0BD1377F2594D33_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_NEJNJOFHOHK_OFFSET))();
 		}
 
-		static ::System::Void Method_5_F882D1A1214DC5D9(::Class_1_8A1B169B056DC41A* a1)
+		static ::System::Void EILPKODAIEI(::GCFPDEHADKC* a1)
 		{
-			return ((::System::Void(*)(::Class_1_8A1B169B056DC41A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_F882D1A1214DC5D9_OFFSET))(a1);
+			return ((::System::Void(*)(::GCFPDEHADKC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EILPKODAIEI_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_5_849D4115D2C23247(::UnityEngine::Camera* a1)
+		static ::System::Void LOLJDLFOBHO(::UnityEngine::Camera* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_METHOD_5_849D4115D2C23247_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_LOLJDLFOBHO_OFFSET))(a1);
 		}
 
 		::System::Int32 get_Key()
@@ -491,9 +535,10 @@ namespace RPG::Client::CrowdAnimator
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc& a2)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EXECUTE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc))((::PBYTE)hIl2Cpp + RPG_CLIENT_CROWDANIMATOR_CROWDRENDERER_EXECUTE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriMana/Player_Status.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x165047D0)
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x16504820)
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x165019D0)
-#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x16504760)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1672B3F0)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1672B380)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1672B440)
+#define CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x167285F0)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_StatusChangeCallback_TypeDefinitionIndex = 38924;
-
 	class Player_StatusChangeCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::CriWare::CriMana::Player_Status a1)
@@ -38,5 +35,6 @@ namespace CriWare::CriMana
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + CRIWARE_CRIMANA_PLAYER_STATUSCHANGECALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

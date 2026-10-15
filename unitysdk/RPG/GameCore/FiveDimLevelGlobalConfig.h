@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimLevelGlobalConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class WaterReflectionFoamShaderParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_METHOD_2_661D6E1574E5B2EF_OFFSET UNITYSDK_OFFSET(0x1D0E7DF0)
-#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EE6D0)
+#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C5F40)
+#define RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C0160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelGlobalConfig_TypeDefinitionIndex = 16534;
-
 	class FiveDimLevelGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -22,6 +20,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::HoyoTagContainer* VisibleOnEnterTag; // 0x20
 		::RPG::GameCore::HoyoTagContainer* VisibleAlwaysTag; // 0x28
 		::System::Single EnterExitDitherDuration; // 0x30
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::HoyoTagContainer* EnableWaterReflectionTag; // 0x38
 		::System::String* ContactWaterEffect; // 0x40
 		::Il2CppArray<::RPG::GameCore::WaterReflectionFoamShaderParam*>* FoamParams; // 0x48
@@ -33,15 +32,15 @@ namespace RPG::GameCore
 		::RPG::GameCore::HoyoTagContainer* SpikeTag; // 0x78
 		::RPG::GameCore::HoyoTagContainer* SpikeThinTag; // 0x80
 		::RPG::GameCore::HoyoTagContainer* SpikeDoubleTag; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_661D6E1574E5B2EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLevelGlobalConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimLevelGlobalConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLevelGlobalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_METHOD_2_661D6E1574E5B2EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimLevelGlobalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLEVELGLOBALCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

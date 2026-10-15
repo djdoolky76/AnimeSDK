@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class RogueMagicShowScepterActiveEffect; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define GCHFIHAEIPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1596B4B0)
+#define GCHFIHAEIPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1596B4E0)
+
+	class GCHFIHAEIPI
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueMagicShowScepterActiveEffect* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RogueMagicShowScepterActiveEffect*))((::PBYTE)hIl2Cpp + GCHFIHAEIPI_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCHFIHAEIPI_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

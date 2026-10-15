@@ -1,0 +1,114 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropInteractWhiteListRow; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define OJNGPLLEPIF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D28B660)
+#define OJNGPLLEPIF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D28BBE0)
+#define OJNGPLLEPIF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D28B7D0)
+#define OJNGPLLEPIF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D28B110)
+#define OJNGPLLEPIF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D28B3A0)
+#define OJNGPLLEPIF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D28B870)
+#define OJNGPLLEPIF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D28B8C0)
+#define OJNGPLLEPIF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D28B6A0)
+#define OJNGPLLEPIF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D28B340)
+#define OJNGPLLEPIF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D28B510)
+#define OJNGPLLEPIF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D28B730)
+#define OJNGPLLEPIF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D28B090)
+
+	class OJNGPLLEPIF : public ::System::Object
+	{
+	public:
+		static ::System::Action** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "OJNGPLLEPIF")->GetStaticField(0x38050);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OJNGPLLEPIF")->GetStaticField(0x38058);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PropInteractWhiteListRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PropInteractWhiteListRow*>**)UnitySDK::FromName("", "OJNGPLLEPIF")->GetStaticField(0x38060);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "OJNGPLLEPIF")->GetStaticField(0xBF00);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "OJNGPLLEPIF")->GetStaticField(0xBF01);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OJNGPLLEPIF_CCTOR_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PropInteractWhiteListRow*>* POIJCHCCDMH()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PropInteractWhiteListRow*>*(*)())((::PBYTE)hIl2Cpp + OJNGPLLEPIF_POIJCHCCDMH_OFFSET))();
+		}
+
+		static ::System::Boolean LGELIIPIDEC()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + OJNGPLLEPIF_LGELIIPIDEC_OFFSET))();
+		}
+
+		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PropInteractWhiteListRow*> FPHGMAMDFHE()
+		{
+			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PropInteractWhiteListRow*>(*)())((::PBYTE)hIl2Cpp + OJNGPLLEPIF_FPHGMAMDFHE_OFFSET))();
+		}
+
+		static ::RPG::GameCore::PropInteractWhiteListRow* LMBKNCAIDLC(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::PropInteractWhiteListRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + OJNGPLLEPIF_LMBKNCAIDLC_OFFSET))(a1);
+		}
+
+		static ::System::Boolean ANPPJFBBJFP()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + OJNGPLLEPIF_ANPPJFBBJFP_OFFSET))();
+		}
+
+		static ::System::Void FCMDLFKMBMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OJNGPLLEPIF_FCMDLFKMBMH_OFFSET))();
+		}
+
+		static ::System::Void KACCGMCPAFN()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OJNGPLLEPIF_KACCGMCPAFN_OFFSET))();
+		}
+
+		static ::System::Void PKPJFCDOFML(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + OJNGPLLEPIF_PKPJFCDOFML_OFFSET))(a1);
+		}
+
+		static ::System::Void DDLFGAJGKAO(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + OJNGPLLEPIF_DDLFGAJGKAO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void ICLCFODNNAE(::FCOEMCEDLNL* a1)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + OJNGPLLEPIF_ICLCFODNNAE_OFFSET))(a1);
+		}
+
+		static ::System::Void KAAIFCHAOLA(::RPG::GameCore::PropInteractWhiteListRow* a1)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::PropInteractWhiteListRow*))((::PBYTE)hIl2Cpp + OJNGPLLEPIF_KAAIFCHAOLA_OFFSET))(a1);
+		}
+
+	};

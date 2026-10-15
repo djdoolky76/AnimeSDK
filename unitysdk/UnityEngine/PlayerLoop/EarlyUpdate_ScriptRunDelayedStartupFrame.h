@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_ScriptRunDelayedStartupFrame_TypeDefinitionIndex = 4570;
-
-	struct alignas(1) EarlyUpdate_ScriptRunDelayedStartupFrame
+	struct alignas(4) EarlyUpdate_ScriptRunDelayedStartupFrame
 	{
 	};
 }

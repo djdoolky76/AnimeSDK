@@ -2,23 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/StateCommonIdleTimer.h"
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
-
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATESPECIALIDLETIMER_METHOD_5_00B48D91709955E0_OFFSET UNITYSDK_OFFSET(0xE0F1B60)
-#define RPG_CLIENT_STATESPECIALIDLETIMER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE0F19D0)
-#define RPG_CLIENT_STATESPECIALIDLETIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xE0F1BF0)
+#define RPG_CLIENT_STATESPECIALIDLETIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xE132860)
+#define RPG_CLIENT_STATESPECIALIDLETIMER_LMMKJBBALFC_OFFSET UNITYSDK_OFFSET(0xE1327D0)
+#define RPG_CLIENT_STATESPECIALIDLETIMER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE132640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateSpecialIdleTimer_TypeDefinitionIndex = 68810;
-
 	class StateSpecialIdleTimer : public ::RPG::Client::StateCommonIdleTimer
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
@@ -26,9 +23,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_5_00B48D91709955E0(::UnityEngine::Animator* a1)
+		::System::Boolean LMMKJBBALFC(::UnityEngine::Animator* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER_METHOD_5_00B48D91709955E0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESPECIALIDLETIMER_LMMKJBBALFC_OFFSET))(this, a1);
 		}
+
 	};
 }

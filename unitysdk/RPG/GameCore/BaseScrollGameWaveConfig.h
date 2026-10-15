@@ -1,37 +1,35 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BaseScrollGameWaveConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_METHOD_2_3CFAE03D7B322F96_OFFSET UNITYSDK_OFFSET(0x1CE695F0)
-#define RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_METHOD_2_989A625BC0D54491_OFFSET UNITYSDK_OFFSET(0x1CE697C0)
-#define RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CE697B0)
+#define RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D440360)
+#define RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D440370)
+#define RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4401A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseScrollGameWaveConfig_TypeDefinitionIndex = 18598;
-
 	class BaseScrollGameWaveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Int32 MiddleBlockCout; // 0x10
 		::System::Single StartScrollSpeed; // 0x14
 		::System::Single EndScrollSpeed; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3CFAE03D7B322F96(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseScrollGameWaveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::BaseScrollGameWaveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseScrollGameWaveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_METHOD_2_3CFAE03D7B322F96_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BaseScrollGameWaveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_989A625BC0D54491(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseScrollGameWaveConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::BaseScrollGameWaveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseScrollGameWaveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_METHOD_2_989A625BC0D54491_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::BaseScrollGameWaveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASESCROLLGAMEWAVECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

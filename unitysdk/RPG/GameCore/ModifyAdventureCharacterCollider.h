@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ColliderConfig; }
+namespace RPG::GameCore { class ModifyAdventureCharacterCollider; }
 
-#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_2B003E1D0497C98A_OFFSET UNITYSDK_OFFSET(0x1D2AE660)
-#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_45B0736739235757_OFFSET UNITYSDK_OFFSET(0x1D2AE620)
-#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AE650)
+#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D890700)
+#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D890710)
+#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8906D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAdventureCharacterCollider_TypeDefinitionIndex = 22165;
-
 	class ModifyAdventureCharacterCollider : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean HideSourceCollider; // 0x18
+		::System::Byte _padding0[0x7];
 		::RPG::GameCore::ColliderConfig* TargetConfig; // 0x20
 		::System::Boolean ModifyMainCollider; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_45B0736739235757(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAdventureCharacterCollider*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyAdventureCharacterCollider* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAdventureCharacterCollider*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_45B0736739235757_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyAdventureCharacterCollider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2B003E1D0497C98A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAdventureCharacterCollider* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ModifyAdventureCharacterCollider* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAdventureCharacterCollider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_2B003E1D0497C98A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ModifyAdventureCharacterCollider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

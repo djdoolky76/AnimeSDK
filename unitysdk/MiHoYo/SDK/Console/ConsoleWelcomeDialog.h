@@ -3,45 +3,29 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleWelcomeDialog_DisplayStage.h"
 #include "unitysdk/MiHoYo/SDK/ReportType.h"
-
+namespace MiHoYo::SDK::Console { class ConsoleWelcomeDialog; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B7989E0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B79A2A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1B79A2D0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1B79A340)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1B79A2C0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1B798970)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B799A20)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B7999F0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1B7995F0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1B799A40)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1B798810)
-#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79A370)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC97E00)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BINDEXISTINGACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BC99820)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CANCELDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC99850)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CONFIRMDIALOG_OFFSET UNITYSDK_OFFSET(0x1BC998C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CREATEANDBINDNEWACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BC99840)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC998F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC97D90)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BC98FA0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1BC98F70)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_SHOWBINDMODESELECTION_OFFSET UNITYSDK_OFFSET(0x1BC98B70)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_SHOWNEWACCOUNTPROMPT_OFFSET UNITYSDK_OFFSET(0x1BC98FC0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC97C30)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleWelcomeDialog_TypeDefinitionIndex = 8953;
-
 	class ConsoleWelcomeDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:
-		static ::MiHoYo::SDK::Console::ConsoleWelcomeDialog** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::Console::ConsoleWelcomeDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleWelcomeDialog_TypeDefinitionIndex)->GetStaticField(0xB260);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* TitlePath; // 0x0
-		// static const ::System::String* ContentPath; // 0x0
-		// static const ::System::String* BindExistingAccountBtnPath; // 0x0
-		// static const ::System::String* CreateAndBindNewAccountBtnPath; // 0x0
-		// static const ::System::String* BindButtonTextPath; // 0x0
-		// static const ::System::String* SkipButtonTextPath; // 0x0
-		// static const ::System::String* ConsoleUserNamePath; // 0x0
-		// static const ::System::String* ConsoleUserPanelPath; // 0x0
 		::UnityEngine::UI::Text* titleText; // 0xC0
 		::UnityEngine::UI::Text* contentText; // 0xC8
 		::UnityEngine::UI::Text* bindExistingAccountButtonText; // 0xD0
@@ -55,10 +39,23 @@ namespace MiHoYo::SDK::Console
 		::System::Action* OnCancelBinding; // 0x110
 		::MiHoYo::SDK::ReportType SDKReportType; // 0x118
 		::MiHoYo::SDK::Console::ConsoleWelcomeDialog_DisplayStage displayStage; // 0x11C
+		static ::MiHoYo::SDK::Console::ConsoleWelcomeDialog** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::Console::ConsoleWelcomeDialog**)UnitySDK::FromName("MiHoYo.SDK.Console", "ConsoleWelcomeDialog")->GetStaticField(0x35D70);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* TitlePath; // 0x0
+		// static const ::System::String* ContentPath; // 0x0
+		// static const ::System::String* BindExistingAccountBtnPath; // 0x0
+		// static const ::System::String* CreateAndBindNewAccountBtnPath; // 0x0
+		// static const ::System::String* BindButtonTextPath; // 0x0
+		// static const ::System::String* SkipButtonTextPath; // 0x0
+		// static const ::System::String* ConsoleUserNamePath; // 0x0
+		// static const ::System::String* ConsoleUserPanelPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show()
@@ -115,5 +112,6 @@ namespace MiHoYo::SDK::Console
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_CONFIRMDIALOG_OFFSET))(this);
 		}
+
 	};
 }

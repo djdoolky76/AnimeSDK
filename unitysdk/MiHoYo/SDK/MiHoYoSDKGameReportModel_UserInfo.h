@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_USERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB22D240)
+#define MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_USERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAFCAE30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKGameReportModel_UserInfo_TypeDefinitionIndex = 46802;
-
 	class MiHoYoSDKGameReportModel_UserInfo : public ::System::Object
 	{
 	public:
@@ -18,10 +15,10 @@ namespace MiHoYo::SDK
 		::System::String* account_type; // 0x20
 		::System::String* open_id; // 0x28
 		::System::String* tag; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_USERINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKGAMEREPORTMODEL_USERINFO_CTOR_OFFSET))(this);
 		}
+
 	};
 }

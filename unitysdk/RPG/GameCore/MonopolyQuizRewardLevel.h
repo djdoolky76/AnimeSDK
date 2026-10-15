@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuizRewardLevel_TypeDefinitionIndex = 11977;
-
 	enum class MonopolyQuizRewardLevel : ::System::Int32
 	{
 		None = 0,

@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SwitchRefBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SwitchRefRollShopReward; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_METHOD_3_5FE57A24454483EE_OFFSET UNITYSDK_OFFSET(0x1D58FA50)
-#define RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_METHOD_3_D990F4CB652CDE6B_OFFSET UNITYSDK_OFFSET(0x1D590100)
-#define RPG_GAMECORE_SWITCHREFROLLSHOPREWARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58FA30)
+#define RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB46600)
+#define RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB46620)
+#define RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB46CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchRefRollShopReward_TypeDefinitionIndex = 17335;
-
 	class SwitchRefRollShopReward : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFROLLSHOPREWARD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D990F4CB652CDE6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchRefRollShopReward*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchRefRollShopReward* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchRefRollShopReward*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_METHOD_3_D990F4CB652CDE6B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchRefRollShopReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_5FE57A24454483EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchRefRollShopReward* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchRefRollShopReward* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchRefRollShopReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_METHOD_3_5FE57A24454483EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchRefRollShopReward*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFROLLSHOPREWARD_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

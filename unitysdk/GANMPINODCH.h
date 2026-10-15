@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace RPG::GameCore { class BoomRobotGameplayBoomEnd; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define GANMPINODCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15942DC0)
+#define GANMPINODCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15942DF0)
+
+	class GANMPINODCH
+	{
+	public:
+		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::BoomRobotGameplayBoomEnd* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::BoomRobotGameplayBoomEnd*))((::PBYTE)hIl2Cpp + GANMPINODCH_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void OnTaskBegin()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GANMPINODCH_ONTASKBEGIN_OFFSET))(this);
+		}
+
+	};

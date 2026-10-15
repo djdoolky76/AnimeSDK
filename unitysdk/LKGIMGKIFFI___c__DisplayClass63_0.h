@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace Cinemachine { class CinemachineVirtualCameraBase; }
+namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
+
+#define LKGIMGKIFFI___C__DISPLAYCLASS63_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB747760)
+#define LKGIMGKIFFI___C__DISPLAYCLASS63_0___SETSTACKCAMERAVIEWSACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0xB747770)
+
+	class LKGIMGKIFFI___c__DisplayClass63_0 : public ::System::Object
+	{
+	public:
+		::System::Boolean isActive; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LKGIMGKIFFI___C__DISPLAYCLASS63_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void __SetStackCameraViewsActive_b__0(::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera* a1, ::Cinemachine::CinemachineVirtualCameraBase* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::FiveDim::FiveDimMonoCamera*, ::Cinemachine::CinemachineVirtualCameraBase*))((::PBYTE)hIl2Cpp + LKGIMGKIFFI___C__DISPLAYCLASS63_0___SETSTACKCAMERAVIEWSACTIVE_B__0_OFFSET))(this, a1, a2);
+		}
+
+	};

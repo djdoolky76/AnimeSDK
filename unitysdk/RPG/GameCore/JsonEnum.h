@@ -3,59 +3,59 @@
 #include "unitysdk/RPG/GameCore/JsonEnumCategory.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/AnyType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class JsonEnum; }
 namespace SimpleJSON { class JSONNode; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_JSONENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D1C4B50)
-#define RPG_GAMECORE_JSONENUM_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1D1C3FC0)
-#define RPG_GAMECORE_JSONENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D1C4BB0)
-#define RPG_GAMECORE_JSONENUM_GETJSONENUMVALUE_OFFSET UNITYSDK_OFFSET(0x1D1C4900)
-#define RPG_GAMECORE_JSONENUM_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D1C4C40)
-#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1D1C4D70)
-#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D1C4D50)
-#define RPG_GAMECORE_JSONENUM_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1D1C4CB0)
-#define RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1C4180)
-#define RPG_GAMECORE_JSONENUM_PARSEFROMJSON_OFFSET UNITYSDK_OFFSET(0x1D1C4790)
-#define RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET UNITYSDK_OFFSET(0x1D1C44E0)
-#define RPG_GAMECORE_JSONENUM_TOJSON_JSONENUM_OFFSET UNITYSDK_OFFSET(0x1D1C48C0)
-#define RPG_GAMECORE_JSONENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D1C4B10)
-#define RPG_GAMECORE_JSONENUM__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1C4DB0)
-#define RPG_GAMECORE_JSONENUM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D1C3FA0)
-#define RPG_GAMECORE_JSONENUM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C3F90)
+#define RPG_GAMECORE_JSONENUM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7A0B50)
+#define RPG_GAMECORE_JSONENUM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D79FD40)
+#define RPG_GAMECORE_JSONENUM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79FD30)
+#define RPG_GAMECORE_JSONENUM_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D7A08F0)
+#define RPG_GAMECORE_JSONENUM_FROMSTRING_OFFSET UNITYSDK_OFFSET(0x1D79FD60)
+#define RPG_GAMECORE_JSONENUM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D7A0950)
+#define RPG_GAMECORE_JSONENUM_GETJSONENUMVALUE_OFFSET UNITYSDK_OFFSET(0x1D7A06A0)
+#define RPG_GAMECORE_JSONENUM_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D7A09E0)
+#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1D7A0B10)
+#define RPG_GAMECORE_JSONENUM_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1D7A0AF0)
+#define RPG_GAMECORE_JSONENUM_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1D7A0A50)
+#define RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79FF20)
+#define RPG_GAMECORE_JSONENUM_PARSEFROMJSON_OFFSET UNITYSDK_OFFSET(0x1D7A0530)
+#define RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A0280)
+#define RPG_GAMECORE_JSONENUM_TOJSON_JSONENUM_OFFSET UNITYSDK_OFFSET(0x1D7A0660)
+#define RPG_GAMECORE_JSONENUM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D7A08B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnum_TypeDefinitionIndex = 10853;
-
 	class JsonEnum : public ::System::Object
 	{
 	public:
+		::System::String* JsonValueStr; // 0x10
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonEnum*>** StaticGet_UniqueJsonEnumTable()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonEnum*>**)Il2CppClass::FromTypeDefinitionIndex(JsonEnum_TypeDefinitionIndex)->GetStaticField(0x1AFE0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonEnum*>**)UnitySDK::FromName("RPG.GameCore", "JsonEnum")->GetStaticField(0x2E270);
 		}
+
 		static ::RPG::GameCore::JsonEnum** StaticGet_Empty()
 		{
-			return (::RPG::GameCore::JsonEnum**)Il2CppClass::FromTypeDefinitionIndex(JsonEnum_TypeDefinitionIndex)->GetStaticField(0x1AFE8);
+			return (::RPG::GameCore::JsonEnum**)UnitySDK::FromName("RPG.GameCore", "JsonEnum")->GetStaticField(0x2E278);
 		}
-		::System::String* JsonValueStr; // 0x10
 
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM__CTOR_1_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_CTOR_1_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_CCTOR_OFFSET))();
 		}
 
 		static ::RPG::GameCore::JsonEnum* FromString(::System::String* a1)
@@ -63,14 +63,14 @@ namespace RPG::GameCore
 			return ((::RPG::GameCore::JsonEnum*(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_FROMSTRING_OFFSET))(a1);
 		}
 
-		static ::RPG::GameCore::JsonEnum* ParseFromBinary(::Class_1_7A22A3DBEEDD1F80* a1)
+		static ::RPG::GameCore::JsonEnum* ParseFromBinary(::FCOEMCEDLNL* a1)
 		{
-			return ((::RPG::GameCore::JsonEnum*(*)(::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET))(a1);
+			return ((::RPG::GameCore::JsonEnum*(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_PARSEFROMBINARY_OFFSET))(a1);
 		}
 
-		::System::Void ToBinary(::Class_1_7A22A3DBEEDD1F80* a1)
+		::System::Void ToBinary(::FCOEMCEDLNL* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_7A22A3DBEEDD1F80*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_TOBINARY_OFFSET))(this, a1);
 		}
 
 		static ::RPG::GameCore::JsonEnum* ParseFromJson(::SimpleJSON::JSONNode* a1)
@@ -122,5 +122,6 @@ namespace RPG::GameCore
 		{
 			return ((::UnityEngine::AnyType(*)(::RPG::GameCore::JsonEnum*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_JSONENUM_OP_IMPLICIT_1_OFFSET))(a1);
 		}
+
 	};
 }

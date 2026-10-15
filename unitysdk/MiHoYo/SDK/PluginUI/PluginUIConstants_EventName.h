@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_EventName_TypeDefinitionIndex = 9112;
-
 	class PluginUIConstants_EventName : public ::System::Object
 	{
 	public:

@@ -1,27 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_849EE5CF9026AE9F;
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONODANMUVIEWBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD74B8A0)
-#define RPG_CLIENT_MONODANMUVIEWBASE_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD74B880)
-#define RPG_CLIENT_MONODANMUVIEWBASE_SET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD74B890)
-#define RPG_CLIENT_MONODANMUVIEWBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xD74B970)
+#define RPG_CLIENT_MONODANMUVIEWBASE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD74A9C0)
+#define RPG_CLIENT_MONODANMUVIEWBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xD74AA60)
+#define RPG_CLIENT_MONODANMUVIEWBASE_GET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD74A9A0)
+#define RPG_CLIENT_MONODANMUVIEWBASE_SET_RECTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD74A9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDanmuViewBase_TypeDefinitionIndex = 68915;
-
 	class MonoDanmuViewBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::UnityEngine::RectTransform* _RectTransform_k__BackingField; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUVIEWBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUVIEWBASE_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::RectTransform* get_RectTransform()
@@ -38,5 +33,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONODANMUVIEWBASE_AWAKE_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8169E0)
-#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE816B40)
-#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE816B50)
+#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B42C0)
+#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B4430)
+#define RPGTOOLS_TIMELINE_AUTOBLINKCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8B4420)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AutoBlinkClip_TypeDefinitionIndex = 48324;
-
 	class AutoBlinkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean EnableAutoBlink; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUTOBLINKCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUTOBLINKCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
@@ -34,5 +30,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Timeline::ClipCaps(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUTOBLINKCLIP_GET_CLIPCAPS_OFFSET))(this);
 		}
+
 	};
 }

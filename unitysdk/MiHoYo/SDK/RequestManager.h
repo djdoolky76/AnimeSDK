@@ -1,197 +1,194 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class AgeGateTicketUpdateModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { class NetworkResponseModelEx; }
+namespace MiHoYo::SDK { class RequestManager; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_REQUESTMANAGER_BEFOREVERIFY_OFFSET UNITYSDK_OFFSET(0x1BABEEF0)
-#define MIHOYO_SDK_REQUESTMANAGER_BINDACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BABFEC0)
-#define MIHOYO_SDK_REQUESTMANAGER_BINDTHIRDPARTY_OFFSET UNITYSDK_OFFSET(0x1BABECB0)
-#define MIHOYO_SDK_REQUESTMANAGER_GETCURRENCYANDCOUNTRYBYIP_OFFSET UNITYSDK_OFFSET(0x1BAC11C0)
-#define MIHOYO_SDK_REQUESTMANAGER_GETMAILVERIFYCODE_OFFSET UNITYSDK_OFFSET(0x1BABB7B0)
-#define MIHOYO_SDK_REQUESTMANAGER_GETMOBILEVERIFYCODE_OFFSET UNITYSDK_OFFSET(0x1BABD860)
-#define MIHOYO_SDK_REQUESTMANAGER_GETTICKETBYTOKEN_OFFSET UNITYSDK_OFFSET(0x1BABB310)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1BABCD40)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BABCB20)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYAUTHTICKET_OFFSET UNITYSDK_OFFSET(0x1BABC5E0)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYGUEST_OFFSET UNITYSDK_OFFSET(0x1BABCF60)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYMOBILECODE_OFFSET UNITYSDK_OFFSET(0x1BABDA80)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_1_OFFSET UNITYSDK_OFFSET(0x1BABC330)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_OFFSET UNITYSDK_OFFSET(0x1BABC080)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_1_OFFSET UNITYSDK_OFFSET(0x1BABDED0)
-#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_OFFSET UNITYSDK_OFFSET(0x1BABDD00)
-#define MIHOYO_SDK_REQUESTMANAGER_MOBILECAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BABBC10)
-#define MIHOYO_SDK_REQUESTMANAGER_PING_OFFSET UNITYSDK_OFFSET(0x1BABF390)
-#define MIHOYO_SDK_REQUESTMANAGER_QUERYQRCODE_OFFSET UNITYSDK_OFFSET(0x1BABE9C0)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTABTEST_OFFSET UNITYSDK_OFFSET(0x1BAC0290)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATELOADTICKET_OFFSET UNITYSDK_OFFSET(0x1BAC2160)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPARENTALCONSENTEMAIL_OFFSET UNITYSDK_OFFSET(0x1BAC2C40)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPAYPREORDERVALIDATION_OFFSET UNITYSDK_OFFSET(0x1BAC2F60)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATERESENDEMAIL_OFFSET UNITYSDK_OFFSET(0x1BAC2920)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEUPDATETICKET_OFFSET UNITYSDK_OFFSET(0x1BAC2480)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTBINDEMAILBYCODE_OFFSET UNITYSDK_OFFSET(0x1BABB570)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTGETCROSSTOKENURLBYSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BAC1B90)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTPAYDIALOGABTESTCN_OFFSET UNITYSDK_OFFSET(0x1BAC09A0)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIERV2_OFFSET UNITYSDK_OFFSET(0x1BAC1290)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIER_OFFSET UNITYSDK_OFFSET(0x1BAC0F20)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTQRCODE_OFFSET UNITYSDK_OFFSET(0x1BABE740)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTREDPOINTINFO_OFFSET UNITYSDK_OFFSET(0x1BABFB60)
-#define MIHOYO_SDK_REQUESTMANAGER_REQUESTSENDNOTICEEMAIL_OFFSET UNITYSDK_OFFSET(0x1BAC1790)
-#define MIHOYO_SDK_REQUESTMANAGER_VERIFYMAILCAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BABB9D0)
-#define MIHOYO_SDK_REQUESTMANAGER_VERIFYMOBILECAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BABBE40)
-#define MIHOYO_SDK_REQUESTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BAC3430)
-#define MIHOYO_SDK_REQUESTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAC3420)
+#define MIHOYO_SDK_REQUESTMANAGER_BEFOREVERIFY_OFFSET UNITYSDK_OFFSET(0x1BFC99C0)
+#define MIHOYO_SDK_REQUESTMANAGER_BINDACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFCA990)
+#define MIHOYO_SDK_REQUESTMANAGER_BINDTHIRDPARTY_OFFSET UNITYSDK_OFFSET(0x1BFC9780)
+#define MIHOYO_SDK_REQUESTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFCDF00)
+#define MIHOYO_SDK_REQUESTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFCDEF0)
+#define MIHOYO_SDK_REQUESTMANAGER_GETCURRENCYANDCOUNTRYBYIP_OFFSET UNITYSDK_OFFSET(0x1BFCBC90)
+#define MIHOYO_SDK_REQUESTMANAGER_GETMAILVERIFYCODE_OFFSET UNITYSDK_OFFSET(0x1BFC6280)
+#define MIHOYO_SDK_REQUESTMANAGER_GETMOBILEVERIFYCODE_OFFSET UNITYSDK_OFFSET(0x1BFC8330)
+#define MIHOYO_SDK_REQUESTMANAGER_GETTICKETBYTOKEN_OFFSET UNITYSDK_OFFSET(0x1BFC5DE0)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_1_OFFSET UNITYSDK_OFFSET(0x1BFC7810)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_OFFSET UNITYSDK_OFFSET(0x1BFC75F0)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYAUTHTICKET_OFFSET UNITYSDK_OFFSET(0x1BFC70B0)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYGUEST_OFFSET UNITYSDK_OFFSET(0x1BFC7A30)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYMOBILECODE_OFFSET UNITYSDK_OFFSET(0x1BFC8550)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_1_OFFSET UNITYSDK_OFFSET(0x1BFC6E00)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_OFFSET UNITYSDK_OFFSET(0x1BFC6B50)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_1_OFFSET UNITYSDK_OFFSET(0x1BFC89A0)
+#define MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_OFFSET UNITYSDK_OFFSET(0x1BFC87D0)
+#define MIHOYO_SDK_REQUESTMANAGER_MOBILECAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BFC66E0)
+#define MIHOYO_SDK_REQUESTMANAGER_PING_OFFSET UNITYSDK_OFFSET(0x1BFC9E60)
+#define MIHOYO_SDK_REQUESTMANAGER_QUERYQRCODE_OFFSET UNITYSDK_OFFSET(0x1BFC9490)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTABTEST_OFFSET UNITYSDK_OFFSET(0x1BFCAD60)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATELOADTICKET_OFFSET UNITYSDK_OFFSET(0x1BFCCC30)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPARENTALCONSENTEMAIL_OFFSET UNITYSDK_OFFSET(0x1BFCD710)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPAYPREORDERVALIDATION_OFFSET UNITYSDK_OFFSET(0x1BFCDA30)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATERESENDEMAIL_OFFSET UNITYSDK_OFFSET(0x1BFCD3F0)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEUPDATETICKET_OFFSET UNITYSDK_OFFSET(0x1BFCCF50)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTBINDEMAILBYCODE_OFFSET UNITYSDK_OFFSET(0x1BFC6040)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTGETCROSSTOKENURLBYSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BFCC660)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTPAYDIALOGABTESTCN_OFFSET UNITYSDK_OFFSET(0x1BFCB470)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIERV2_OFFSET UNITYSDK_OFFSET(0x1BFCBD60)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIER_OFFSET UNITYSDK_OFFSET(0x1BFCB9F0)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTQRCODE_OFFSET UNITYSDK_OFFSET(0x1BFC9210)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTREDPOINTINFO_OFFSET UNITYSDK_OFFSET(0x1BFCA630)
+#define MIHOYO_SDK_REQUESTMANAGER_REQUESTSENDNOTICEEMAIL_OFFSET UNITYSDK_OFFSET(0x1BFCC260)
+#define MIHOYO_SDK_REQUESTMANAGER_VERIFYMAILCAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BFC64A0)
+#define MIHOYO_SDK_REQUESTMANAGER_VERIFYMOBILECAPTCHA_OFFSET UNITYSDK_OFFSET(0x1BFC6910)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RequestManager_TypeDefinitionIndex = 8015;
-
 	class RequestManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::RequestManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::RequestManager**)Il2CppClass::FromTypeDefinitionIndex(RequestManager_TypeDefinitionIndex)->GetStaticField(0x2F80);
+			return (::MiHoYo::SDK::RequestManager**)UnitySDK::FromName("MiHoYo.SDK", "RequestManager")->GetStaticField(0x11E20);
 		}
+
 		// static const ::System::String* TICKET; // 0x0
 		// static const ::System::String* X_RPC_APP_ID; // 0x0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_CCTOR_OFFSET))();
 		}
 
-		::System::Void GetTicketByToken(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3, ::System::String* a4)
+		::System::Void GetTicketByToken(::System::String* a1, ::System::String* a2, ::System::Action* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETTICKETBYTOKEN_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETTICKETBYTOKEN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void RequestBindEmailByCode(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void RequestBindEmailByCode(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTBINDEMAILBYCODE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTBINDEMAILBYCODE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void GetMailVerifyCode(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void GetMailVerifyCode(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETMAILVERIFYCODE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETMAILVERIFYCODE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void VerifyMailCaptcha(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void VerifyMailCaptcha(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_VERIFYMAILCAPTCHA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_VERIFYMAILCAPTCHA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void MobileCaptcha(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3, ::System::String* a4)
+		::System::Void MobileCaptcha(::System::String* a1, ::System::String* a2, ::System::Action* a3, ::System::String* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_MOBILECAPTCHA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_MOBILECAPTCHA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void VerifyMobileCaptcha(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void VerifyMobileCaptcha(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_VERIFYMOBILECAPTCHA_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_VERIFYMOBILECAPTCHA_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void LoginByThirdParty(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a5)
+		::System::Void LoginByThirdParty(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4, ::System::Action* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void LoginByThirdParty_1(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a5)
+		::System::Void LoginByThirdParty_1(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Boolean a4, ::System::Action* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_1_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTHIRDPARTY_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void LoginByAuthTicket(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
+		::System::Void LoginByAuthTicket(::System::String* a1, ::System::Action* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYAUTHTICKET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYAUTHTICKET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LoginByAccount(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
+		::System::Void LoginByAccount(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LoginByAccount_1(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3)
+		::System::Void LoginByAccount_1(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYACCOUNT_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LoginByGuest(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1)
+		::System::Void LoginByGuest(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYGUEST_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYGUEST_OFFSET))(this, a1);
 		}
 
-		::System::Void GetMobileVerifyCode(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void GetMobileVerifyCode(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETMOBILEVERIFYCODE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETMOBILEVERIFYCODE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void LoginByMobileCode(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void LoginByMobileCode(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYMOBILECODE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYMOBILECODE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void LoginByToken(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
+		::System::Void LoginByToken(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void LoginByToken_1(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3)
+		::System::Void LoginByToken_1(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_LOGINBYTOKEN_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestQRCode(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1)
+		::System::Void RequestQRCode(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTQRCODE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTQRCODE_OFFSET))(this, a1);
 		}
 
-		::System::Void QueryQRCode(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void QueryQRCode(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_QUERYQRCODE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_QUERYQRCODE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BindThirdParty(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void BindThirdParty(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_BINDTHIRDPARTY_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_BINDTHIRDPARTY_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void BeforeVerify(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a7)
+		::System::Void BeforeVerify(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::Action* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_BEFOREVERIFY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_BEFOREVERIFY_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void Ping(::System::String* a1, ::System::String* a2, ::System::Int64 a3, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a4)
+		::System::Void Ping(::System::String* a1, ::System::String* a2, ::System::Int64 a3, ::System::Action* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int64, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_PING_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Int64, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_PING_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void RequestRedPointInfo(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1, ::System::Action* a2)
+		::System::Void RequestRedPointInfo(::System::Action* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTREDPOINTINFO_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTREDPOINTINFO_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void BindAccount(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a7)
+		::System::Void BindAccount(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::Action* a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_BINDACCOUNT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_BINDACCOUNT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		::System::Void RequestABTest(::System::String* a1, ::System::String* a2, ::System::Collections::Generic::List_1<::System::Int32>* a3, ::System::Int32 a4, ::System::String* a5, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a6)
+		::System::Void RequestABTest(::System::String* a1, ::System::String* a2, ::System::Collections::Generic::List_1<::System::Int32>* a3, ::System::Int32 a4, ::System::String* a5, ::System::Action* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTABTEST_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Collections::Generic::List_1<::System::Int32>*, ::System::Int32, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTABTEST_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void RequestPayDialogABTestCN(::System::String* a1)
@@ -199,54 +196,55 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTPAYDIALOGABTESTCN_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestPriceTier(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2)
+		::System::Void RequestPriceTier(::System::String* a1, ::System::Action* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIER_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIER_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void GetCurrencyAndCountryByIP(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a1)
+		::System::Void GetCurrencyAndCountryByIP(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETCURRENCYANDCOUNTRYBYIP_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_GETCURRENCYANDCOUNTRYBYIP_OFFSET))(this, a1);
 		}
 
-		::System::Void RequestPriceTierV2(::System::String* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3)
+		::System::Void RequestPriceTierV2(::System::String* a1, ::System::String* a2, ::System::Action* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIERV2_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTPRICETIERV2_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestSendNoticeEmail(::MiHoYo::SDK::AccountModel* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
+		::System::Void RequestSendNoticeEmail(::MiHoYo::SDK::AccountModel* a1, ::System::Action* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTSENDNOTICEEMAIL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTSENDNOTICEEMAIL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestGetCrossTokenUrlBySToken(::MiHoYo::SDK::AccountModel* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* a3, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a4)
+		::System::Void RequestGetCrossTokenUrlBySToken(::MiHoYo::SDK::AccountModel* a1, ::System::String* a2, ::System::Action* a3, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTGETCROSSTOKENURLBYSTOKEN_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::String*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTGETCROSSTOKENURLBYSTOKEN_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void RequestAgeGateLoadTicket(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
+		::System::Void RequestAgeGateLoadTicket(::System::String* a1, ::System::Action* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATELOADTICKET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATELOADTICKET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestAgeGateUpdateTicket(::MiHoYo::SDK::AgeGateTicketUpdateModel* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
+		::System::Void RequestAgeGateUpdateTicket(::MiHoYo::SDK::AgeGateTicketUpdateModel* a1, ::System::Action* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AgeGateTicketUpdateModel*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEUPDATETICKET_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AgeGateTicketUpdateModel*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEUPDATETICKET_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestAgeGateResendEmail(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
+		::System::Void RequestAgeGateResendEmail(::System::String* a1, ::System::Action* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATERESENDEMAIL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATERESENDEMAIL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestAgeGateParentalConsentEmail(::System::String* a1, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
+		::System::Void RequestAgeGateParentalConsentEmail(::System::String* a1, ::System::Action* a2, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPARENTALCONSENTEMAIL_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPARENTALCONSENTEMAIL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void RequestAgeGatePayPreOrderValidation(::MiHoYo::SDK::AccountModel* a1, ::System::String* a2, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* a3, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a4)
+		::System::Void RequestAgeGatePayPreOrderValidation(::MiHoYo::SDK::AccountModel* a1, ::System::String* a2, ::System::Action* a3, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::String*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPAYPREORDERVALIDATION_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::AccountModel*, ::System::String*, ::System::Action*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REQUESTMANAGER_REQUESTAGEGATEPAYPREORDERVALIDATION_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

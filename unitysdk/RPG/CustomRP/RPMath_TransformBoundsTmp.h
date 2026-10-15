@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPMath_TransformBoundsTmp_TypeDefinitionIndex = 37199;
-
 	struct alignas(4) RPMath_TransformBoundsTmp
 	{
 		::UnityEngine::Vector3 right; // 0x10

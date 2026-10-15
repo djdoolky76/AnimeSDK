@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleUIPanelType_TypeDefinitionIndex = 24380;
-
 	enum class BattleUIPanelType : ::System::Int32
 	{
 		ActionBarPanel = 0,

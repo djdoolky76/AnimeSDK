@@ -3,8 +3,6 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackPrimitives_DecodeResult_TypeDefinitionIndex = 7119;
-
 	enum class MessagePackPrimitives_DecodeResult : ::System::Int32
 	{
 		Success = 0,

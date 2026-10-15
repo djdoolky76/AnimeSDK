@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXMIC_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x164C8C10)
+#define CRIWARE_CRIATOMEXMIC_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166EF840)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExMic_Config_TypeDefinitionIndex = 38746;
-
 	struct alignas(8) CriAtomExMic_Config
 	{
 		::System::String* deviceId; // 0x10
@@ -18,11 +14,14 @@ namespace CriWare
 		::System::Int32 samplingRate; // 0x20
 		::System::UInt32 frameSize; // 0x24
 		::System::UInt32 bufferingTime; // 0x28
+		::System::Byte _padding0[0x4];
 		::System::IntPtr context; // 0x30
-
+		/*
 		static ::CriWare::CriAtomExMic_Config get_Default()
 		{
 			return ((::CriWare::CriAtomExMic_Config(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXMIC_CONFIG_GET_DEFAULT_OFFSET))();
 		}
+		*/
+
 	};
 }

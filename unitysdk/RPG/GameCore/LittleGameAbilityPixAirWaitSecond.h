@@ -2,35 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTaskConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LittleGameAbilityPixAirWaitSecond; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_METHOD_4_A6E110E574E95AC7_OFFSET UNITYSDK_OFFSET(0x1D1FBD70)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_METHOD_4_F4271103D2C16BD4_OFFSET UNITYSDK_OFFSET(0x1D1FBD30)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FBD60)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DA1E0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DA1F0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DA1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityPixAirWaitSecond_TypeDefinitionIndex = 21155;
-
 	class LittleGameAbilityPixAirWaitSecond : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:
 		::RPG::GameCore::FixPoint WaitTime; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F4271103D2C16BD4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_METHOD_4_F4271103D2C16BD4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A6E110E574E95AC7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_METHOD_4_A6E110E574E95AC7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameAbilityPixAirWaitSecond*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRWAITSECOND_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

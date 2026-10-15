@@ -1,18 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class TravelShipNavigateTo; }
 
-#define RPG_GAMECORE_TRAVELSHIPNAVIGATETO_METHOD_3_97361B6C40905B64_OFFSET UNITYSDK_OFFSET(0x1D5E8BD0)
-#define RPG_GAMECORE_TRAVELSHIPNAVIGATETO_METHOD_3_A72BCFE3EBB727A5_OFFSET UNITYSDK_OFFSET(0x1D5E8C20)
-#define RPG_GAMECORE_TRAVELSHIPNAVIGATETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E8C10)
+#define RPG_GAMECORE_TRAVELSHIPNAVIGATETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3C660)
+#define RPG_GAMECORE_TRAVELSHIPNAVIGATETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC3C670)
+#define RPG_GAMECORE_TRAVELSHIPNAVIGATETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC3C620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelShipNavigateTo_TypeDefinitionIndex = 20737;
-
 	class TravelShipNavigateTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -20,20 +18,20 @@ namespace RPG::GameCore
 		::System::Boolean AutoStart; // 0x20
 		::System::Boolean StopOnArrive; // 0x21
 		::System::Boolean ShowToast; // 0x22
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPNAVIGATETO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPNAVIGATETO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_97361B6C40905B64(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipNavigateTo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TravelShipNavigateTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipNavigateTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPNAVIGATETO_METHOD_3_97361B6C40905B64_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TravelShipNavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPNAVIGATETO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A72BCFE3EBB727A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipNavigateTo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TravelShipNavigateTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipNavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPNAVIGATETO_METHOD_3_A72BCFE3EBB727A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TravelShipNavigateTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPNAVIGATETO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

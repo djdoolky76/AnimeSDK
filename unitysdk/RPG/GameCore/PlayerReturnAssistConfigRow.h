@@ -2,31 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PlayerReturnAssistConfigRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3521A0)
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D352350)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D937670)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9374C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 14377;
-
 	class PlayerReturnAssistConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AssistAvatarList; // 0x10
-		::RPG::Client::TextID TeamDes; // 0x18
-		::System::UInt32 AssistGroupID; // 0x28
-
+		::System::UInt32 AssistGroupID; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID TeamDes; // 0x20
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerReturnAssistConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PlayerReturnAssistConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerReturnAssistConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PlayerReturnAssistConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

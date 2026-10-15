@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB1AFA60)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB1AFA90)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB1AFA50)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION__CTOR_OFFSET UNITYSDK_OFFSET(0xB1AF9E0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF55E10)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_CTOR_OFFSET UNITYSDK_OFFSET(0xAF55D90)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF55E40)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF55E00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative_HoYoSDKNotification_TypeDefinitionIndex = 46540;
-
 	class AccountPlatNative_HoYoSDKNotification : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTPLATNATIVE_HOYOSDKNOTIFICATION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

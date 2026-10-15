@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIDataSecurityService_CookiesItem_TypeDefinitionIndex = 9082;
-
 	enum class PluginUIDataSecurityService_CookiesItem : ::System::Int32
 	{
 		COOKIE = 0,

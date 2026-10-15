@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Type; }
 
-#define SYSTEM_NULLABLE_GETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x1BD752D0)
+#define SYSTEM_NULLABLE_GETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x1C281040)
 
 namespace System
 {
-	inline static constexpr unsigned int Nullable_TypeDefinitionIndex = 412;
-
 	class Nullable : public ::System::Object
 	{
 	public:
@@ -17,5 +14,6 @@ namespace System
 		{
 			return ((::System::Type*(*)(::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_NULLABLE_GETUNDERLYINGTYPE_OFFSET))(a1);
 		}
+
 	};
 }

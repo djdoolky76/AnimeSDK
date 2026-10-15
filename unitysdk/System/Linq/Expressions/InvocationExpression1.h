@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/InvocationExpression.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
+namespace System::Linq::Expressions { class InvocationExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E7641E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E764260)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E764270)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1__CTOR_OFFSET UNITYSDK_OFFSET(0x1E764170)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2CD70)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1EE2CDE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE2CE60)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EE2CE70)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int InvocationExpression1_TypeDefinitionIndex = 3226;
-
 	class InvocationExpression1 : public ::System::Linq::Expressions::InvocationExpression
 	{
 	public:
 		::System::Object* _arg0; // 0x20
-
 		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Type* a2, ::System::Linq::Expressions::Expression* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Linq::Expressions::Expression* GetArgument(::System::Int32 a1)
@@ -39,5 +36,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::InvocationExpression*(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::Il2CppArray<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION1_REWRITE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

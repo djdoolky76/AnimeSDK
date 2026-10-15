@@ -2,38 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/LevelRegionStateCondition.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelRegionStateCustomValueCondition; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D1ED460)
-#define RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1ED9D0)
-#define RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1ED450)
+#define RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CBFC0)
+#define RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7CBFD0)
+#define RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7CC540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionStateCustomValueCondition_TypeDefinitionIndex = 17188;
-
 	class LevelRegionStateCustomValueCondition : public ::RPG::GameCore::LevelRegionStateCondition
 	{
 	public:
 		::System::String* CustomValueName; // 0x10
 		::RPG::GameCore::CompareType Operation; // 0x18
 		::System::Int16 Value; // 0x1C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRegionStateCustomValueCondition*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelRegionStateCustomValueCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateCustomValueCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelRegionStateCustomValueCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRegionStateCustomValueCondition* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelRegionStateCustomValueCondition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRegionStateCustomValueCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelRegionStateCustomValueCondition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELREGIONSTATECUSTOMVALUECONDITION_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

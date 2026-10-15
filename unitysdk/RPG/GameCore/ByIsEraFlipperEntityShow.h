@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsEraFlipperEntityShow; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_09539E47B7C01473_OFFSET UNITYSDK_OFFSET(0x1CF3A080)
-#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_0E47B3B5314C6E30_OFFSET UNITYSDK_OFFSET(0x1CF3A0C0)
-#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_5A564F581C56BA66_OFFSET UNITYSDK_OFFSET(0x1CF3A200)
-#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_AFC1E33811CA24DB_OFFSET UNITYSDK_OFFSET(0x1CF3A230)
-#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF3A0B0)
+#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D512A10)
+#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D512B90)
+#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D512B60)
+#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D512A20)
+#define RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5129E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsEraFlipperEntityShow_TypeDefinitionIndex = 22085;
-
 	class ByIsEraFlipperEntityShow : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_09539E47B7C01473(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsEraFlipperEntityShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_09539E47B7C01473_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsEraFlipperEntityShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0E47B3B5314C6E30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsEraFlipperEntityShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_0E47B3B5314C6E30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsEraFlipperEntityShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5A564F581C56BA66(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEraFlipperEntityShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_5A564F581C56BA66_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEraFlipperEntityShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AFC1E33811CA24DB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsEraFlipperEntityShow* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEraFlipperEntityShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_METHOD_4_AFC1E33811CA24DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsEraFlipperEntityShow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISERAFLIPPERENTITYSHOW_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

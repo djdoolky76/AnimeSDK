@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyCacheDataList_1_TypeDefinitionIndex = 74261;
-
 	template <typename T>
 	class TrainPartyCacheDataList_1 : public ::System::Object
 	{

@@ -1,17 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector4.h"
-
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x1ED5C4D0)
+#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x1F424790)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4807;
-
 	struct alignas(4) ReflectionInfo
 	{
 		::System::Int32 rtInstanceID; // 0x10
@@ -25,10 +21,12 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rect ViewRect; // 0x30
 		::UnityEngine::Vector4 ReflectionST; // 0x40
 		::System::Boolean ReflectionCameraCmdBufferOnly; // 0x50
-
-		static ::System::Void SetReflecitonInfo(::UnityEngine::Camera* a1, ::UnityEngine::Rendering::ReflectionInfo& a2)
+		/*
+		static ::System::Void SetReflecitonInfo(::UnityEngine::Camera* a1, ::UnityEngine::Rendering::ReflectionInfo a2)
 		{
-			return ((::System::Void(*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::ReflectionInfo&))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::ReflectionInfo))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET))(a1, a2);
 		}
+		*/
+
 	};
 }

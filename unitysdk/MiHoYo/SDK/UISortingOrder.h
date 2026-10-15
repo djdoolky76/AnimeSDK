@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UISortingOrder_TypeDefinitionIndex = 8037;
-
 	enum class UISortingOrder : ::System::Int32
 	{
 		Default = 99,

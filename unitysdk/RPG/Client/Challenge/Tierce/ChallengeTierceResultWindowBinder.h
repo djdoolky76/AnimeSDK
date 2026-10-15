@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class MonoInControlButton; }
@@ -19,12 +18,10 @@ namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOWBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xCA04CD0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOWBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xC953270)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceResultWindowBinder_TypeDefinitionIndex = 80215;
-
 	class ChallengeTierceResultWindowBinder : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -63,10 +60,10 @@ namespace RPG::Client::Challenge::Tierce
 		::RPG::Client::AnimatorButton* BtnRewardDetail; // 0x160
 		::System::String* ActionNameContinue; // 0x168
 		::System::String* ActionNameReturn; // 0x170
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOWBINDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOWBINDER_CTOR_OFFSET))(this);
 		}
+
 	};
 }

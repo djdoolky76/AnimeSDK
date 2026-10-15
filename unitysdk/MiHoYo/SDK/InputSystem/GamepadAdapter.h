@@ -2,33 +2,31 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/InputSystem/KeyType.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK::InputSystem { class GamepadAdapter; }
 namespace MiHoYo::SDK::InputSystem { class IGamepadService; }
 
-#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1B6DBE00)
-#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x1B6DC250)
-#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1B6DC020)
-#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B6DBD70)
-#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1B6DC480)
-#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B6DBDF0)
-#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6DBDE0)
+#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD9A20)
+#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GETKEYDOWN_OFFSET UNITYSDK_OFFSET(0x1BBD9A40)
+#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GETKEYUP_OFFSET UNITYSDK_OFFSET(0x1BBD9E90)
+#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GETKEY_OFFSET UNITYSDK_OFFSET(0x1BBD9C60)
+#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BBD99B0)
+#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_REGISTERSERVICE_OFFSET UNITYSDK_OFFSET(0x1BBDA0C0)
+#define MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BBD9A30)
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int GamepadAdapter_TypeDefinitionIndex = 10081;
-
 	class GamepadAdapter : public ::System::Object
 	{
 	public:
+		::MiHoYo::SDK::InputSystem::IGamepadService* m_service; // 0x10
 		static ::MiHoYo::SDK::InputSystem::GamepadAdapter** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::InputSystem::GamepadAdapter**)Il2CppClass::FromTypeDefinitionIndex(GamepadAdapter_TypeDefinitionIndex)->GetStaticField(0x700);
+			return (::MiHoYo::SDK::InputSystem::GamepadAdapter**)UnitySDK::FromName("MiHoYo.SDK.InputSystem", "GamepadAdapter")->GetStaticField(0x6F0);
 		}
-		::MiHoYo::SDK::InputSystem::IGamepadService* m_service; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_CTOR_OFFSET))(this);
 		}
 
 		static ::MiHoYo::SDK::InputSystem::GamepadAdapter* get_Instance()
@@ -60,5 +58,6 @@ namespace MiHoYo::SDK::InputSystem
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::InputSystem::IGamepadService*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_INPUTSYSTEM_GAMEPADADAPTER_REGISTERSERVICE_OFFSET))(this, a1);
 		}
+
 	};
 }

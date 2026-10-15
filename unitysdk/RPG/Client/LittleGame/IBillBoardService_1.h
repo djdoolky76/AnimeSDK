@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class LittleGameBillboardConfig; }
-
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IBillBoardService_1_TypeDefinitionIndex = 41114;
-
-	template <typename TEntity>
+	template <typename T>
 	class IBillBoardService_1
 	{
 	public:

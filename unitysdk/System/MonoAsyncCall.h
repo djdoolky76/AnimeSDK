@@ -1,13 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define SYSTEM_MONOASYNCCALL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD70E80)
+#define SYSTEM_MONOASYNCCALL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27CC20)
 
 namespace System
 {
-	inline static constexpr unsigned int MonoAsyncCall_TypeDefinitionIndex = 405;
-
 	class MonoAsyncCall : public ::System::Object
 	{
 	public:
@@ -17,10 +16,10 @@ namespace System
 		::System::Object* state; // 0x28
 		::System::Object* res; // 0x30
 		::System::Object* out_args; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MONOASYNCCALL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MONOASYNCCALL_CTOR_OFFSET))(this);
 		}
+
 	};
 }

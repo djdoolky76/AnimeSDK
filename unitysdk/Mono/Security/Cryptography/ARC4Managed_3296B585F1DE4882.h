@@ -1,0 +1,120 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Mono/Security/Cryptography/RC4_BBE2E2AECC964004.h"
+namespace System::Security::Cryptography { class ICryptoTransform; }
+
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CHECKINPUT_OFFSET UNITYSDK_OFFSET(0x1C02D920)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CREATEDECRYPTOR_OFFSET UNITYSDK_OFFSET(0x1C02D830)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CREATEENCRYPTOR_OFFSET UNITYSDK_OFFSET(0x1C02D810)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02D160)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C02D330)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1C02D2C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GENERATEIV_OFFSET UNITYSDK_OFFSET(0x1C02D850)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GENERATEKEY_OFFSET UNITYSDK_OFFSET(0x1C02D540)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_CANTRANSFORMMULTIPLEBLOCKS_OFFSET UNITYSDK_OFFSET(0x1C02D8F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_INPUTBLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x1C02D900)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1C02D3F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_OUTPUTBLOCKSIZE_OFFSET UNITYSDK_OFFSET(0x1C02D910)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_INTERNALTRANSFORMBLOCK_OFFSET UNITYSDK_OFFSET(0x1C02DB70)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_KEYSETUP_OFFSET UNITYSDK_OFFSET(0x1C02D700)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_SET_KEY_OFFSET UNITYSDK_OFFSET(0x1C02D5C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_TRANSFORMBLOCK_OFFSET UNITYSDK_OFFSET(0x1C02DA50)
+#define MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_TRANSFORMFINALBLOCK_OFFSET UNITYSDK_OFFSET(0x1C02DD50)
+
+namespace Mono::Security::Cryptography
+{
+	class ARC4Managed_3296B585F1DE4882 : public ::Mono::Security::Cryptography::RC4_BBE2E2AECC964004
+	{
+	public:
+		::Il2CppArray<::System::Byte>* state; // 0x48
+		::Il2CppArray<::System::Byte>* key; // 0x50
+		::System::Byte y; // 0x58
+		::System::Boolean m_disposed; // 0x59
+		::System::Byte x; // 0x5A
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Finalize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_FINALIZE_OFFSET))(this);
+		}
+
+		::System::Void Dispose(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_DISPOSE_OFFSET))(this, a1);
+		}
+
+		::Il2CppArray<::System::Byte>* get_Key()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_KEY_OFFSET))(this);
+		}
+
+		::System::Void set_Key(::Il2CppArray<::System::Byte>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_SET_KEY_OFFSET))(this, a1);
+		}
+
+		::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
+		{
+			return ((::System::Security::Cryptography::ICryptoTransform*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CREATEENCRYPTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
+		{
+			return ((::System::Security::Cryptography::ICryptoTransform*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CREATEDECRYPTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void GenerateIV()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GENERATEIV_OFFSET))(this);
+		}
+
+		::System::Void GenerateKey()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GENERATEKEY_OFFSET))(this);
+		}
+
+		::System::Boolean get_CanTransformMultipleBlocks()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_CANTRANSFORMMULTIPLEBLOCKS_OFFSET))(this);
+		}
+
+		::System::Int32 get_InputBlockSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_INPUTBLOCKSIZE_OFFSET))(this);
+		}
+
+		::System::Int32 get_OutputBlockSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_GET_OUTPUTBLOCKSIZE_OFFSET))(this);
+		}
+
+		::System::Void KeySetup(::Il2CppArray<::System::Byte>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_KEYSETUP_OFFSET))(this, a1);
+		}
+
+		::System::Void CheckInput(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_CHECKINPUT_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Int32 TransformBlock(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4, ::System::Int32 a5)
+		{
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_TRANSFORMBLOCK_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Int32 InternalTransformBlock(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4, ::System::Int32 a5)
+		{
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_INTERNALTRANSFORMBLOCK_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::Il2CppArray<::System::Byte>* TransformFinalBlock(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_ARC4MANAGED_3296B585F1DE4882_TRANSFORMFINALBLOCK_OFFSET))(this, a1, a2, a3);
+		}
+
+	};
+}

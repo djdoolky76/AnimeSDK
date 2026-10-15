@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectHideCameraMode_TypeDefinitionIndex = 70001;
-
 	enum class EffectHideCameraMode : ::System::Int32
 	{
 		None = 0,

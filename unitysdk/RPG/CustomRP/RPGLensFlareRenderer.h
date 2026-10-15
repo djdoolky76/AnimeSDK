@@ -2,7 +2,6 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CRPPostprocessSubPass2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::CustomRP { class LensFlareTarget; }
 namespace RPG::CustomRP { class MaterialLibrary; }
 namespace System { class String; }
@@ -12,41 +11,40 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1C6D1790)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x1C6D3420)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6D3430)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C6D1780)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6D3C40)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D1760)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x1C6D17F0)
-#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x1C6D26B0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC5A190)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC57CB0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC57CE0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_GETDUMMYLENSFLARETEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC59970)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC59980)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC57CD0)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLAREPROB_OFFSET UNITYSDK_OFFSET(0x1CC57D40)
+#define RPG_CUSTOMRP_RPGLENSFLARERENDERER__RENDERLENSFLARE_OFFSET UNITYSDK_OFFSET(0x1CC58C00)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGLensFlareRenderer_TypeDefinitionIndex = 37137;
-
 	class RPGLensFlareRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>** StaticGet_s_LensFlareTargets()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x15760);
-		}
-		static ::System::String** StaticGet__LF_FSD_KEY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPGLensFlareRenderer_TypeDefinitionIndex)->GetStaticField(0x15768);
-		}
 		::UnityEngine::Material* _LensFlareMat; // 0x28
 		::System::Boolean _RTCreated; // 0x30
+		static ::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>** StaticGet_s_LensFlareTargets()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::LensFlareTarget*>**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x330D0);
+		}
+
+		static ::System::String** StaticGet__LF_FSD_KEY()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.CustomRP", "RPGLensFlareRenderer")->GetStaticField(0x330D8);
+		}
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_CCTOR_OFFSET))();
 		}
 
 		::System::Boolean Update()
@@ -78,5 +76,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGLENSFLARERENDERER_INNEREXECUTE_OFFSET))(this, a1);
 		}
+
 	};
 }

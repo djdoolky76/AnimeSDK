@@ -1,0 +1,102 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/KJFIKOKBCCA.h"
+#include "unitysdk/System/Object.h"
+class HIOEAKHGILF;
+class NDDFLGNNMDK;
+class PEEDLCHFAFL;
+namespace Entitas { class ICollector; }
+namespace Entitas { class IComponent; }
+namespace Entitas { class IGroup; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define DPOGHBMIPFF_AKCOOJOALKP_OFFSET UNITYSDK_OFFSET(0x12661780)
+#define DPOGHBMIPFF_BPMHFOOGBAC_OFFSET UNITYSDK_OFFSET(0x12661140)
+#define DPOGHBMIPFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1265FCA0)
+#define DPOGHBMIPFF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x12660CC0)
+#define DPOGHBMIPFF_HBACBDLEIEF_OFFSET UNITYSDK_OFFSET(0x126615A0)
+#define DPOGHBMIPFF_IJDPFNBAFEM_OFFSET UNITYSDK_OFFSET(0x12660F20)
+#define DPOGHBMIPFF_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1265FE80)
+#define DPOGHBMIPFF_KIMICKDLIKK_OFFSET UNITYSDK_OFFSET(0x126604F0)
+#define DPOGHBMIPFF_MANGDBHPHIJ_1_OFFSET UNITYSDK_OFFSET(0x12661660)
+#define DPOGHBMIPFF_MANGDBHPHIJ_OFFSET UNITYSDK_OFFSET(0x126613E0)
+#define DPOGHBMIPFF_PJJKDBGLNJE_OFFSET UNITYSDK_OFFSET(0x12661730)
+#define DPOGHBMIPFF_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x12660790)
+
+	class DPOGHBMIPFF : public ::System::Object
+	{
+	public:
+		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* GFIPFGJPHHI; // 0x18
+		::KJFIKOKBCCA MHLLDAMIPJB; // 0x20
+		::Entitas::ICollector* AEAGCNMOLFD; // 0xB0
+		::KJFIKOKBCCA PBBFPDDIMGA; // 0xB8
+		::NDDFLGNNMDK* FKINCGODJEP; // 0x148
+		::Entitas::IGroup* KNBDGCCIFOO; // 0x150
+		::System::Boolean FAFIKPCPBOF; // 0x158
+		::System::Boolean ABKMPGNDAHO; // 0x159
+		::System::Boolean POKNFELPLJD; // 0x15A
+		// static const ::System::String* FHFBMIENBNP; // 0x0
+		// static const ::System::String* ECFFFAEFODG; // 0x0
+		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::NDDFLGNNMDK*, ::PEEDLCHFAFL*))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void Initialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_INITIALIZE_OFFSET))(this);
+		}
+
+		::System::Void TearDown()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_TEARDOWN_OFFSET))(this);
+		}
+
+		::System::Void Execute()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_EXECUTE_OFFSET))(this);
+		}
+
+		::System::Void KIMICKDLIKK(::HIOEAKHGILF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_KIMICKDLIKK_OFFSET))(this, a1);
+		}
+
+		::System::Void IJDPFNBAFEM(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_IJDPFNBAFEM_OFFSET))(this, a1);
+		}
+
+		::System::Void BPMHFOOGBAC(::Entitas::IGroup* a1, ::HIOEAKHGILF* a2, ::System::Int32 a3, ::Entitas::IComponent* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Entitas::IGroup*, ::HIOEAKHGILF*, ::System::Int32, ::Entitas::IComponent*))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_BPMHFOOGBAC_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void MANGDBHPHIJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_MANGDBHPHIJ_OFFSET))(this);
+		}
+
+		::System::Void MANGDBHPHIJ_1(::HIOEAKHGILF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::HIOEAKHGILF*))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_MANGDBHPHIJ_1_OFFSET))(this, a1);
+		}
+
+		::System::Void HBACBDLEIEF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_HBACBDLEIEF_OFFSET))(this);
+		}
+
+		::System::Void PJJKDBGLNJE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_PJJKDBGLNJE_OFFSET))(this);
+		}
+
+		::System::Void AKCOOJOALKP()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DPOGHBMIPFF_AKCOOJOALKP_OFFSET))(this);
+		}
+
+	};

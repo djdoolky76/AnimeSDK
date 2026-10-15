@@ -2,18 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Reflection/Module.h"
 #include "unitysdk/System/Reflection/TypeAttributes.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection::Emit { class TypeBuilder; }
 
-#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x1BD92AD0)
-#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1BD92A80)
+#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET UNITYSDK_OFFSET(0x1C29E760)
+#define SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_OFFSET UNITYSDK_OFFSET(0x1C29E710)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int ModuleBuilder_TypeDefinitionIndex = 651;
-
 	class ModuleBuilder : public ::System::Reflection::Module
 	{
 	public:
@@ -26,5 +23,6 @@ namespace System::Reflection::Emit
 		{
 			return ((::System::Reflection::Emit::TypeBuilder*(*)(::PVOID, ::System::String*, ::System::Reflection::TypeAttributes, ::System::Type*, ::Il2CppArray<::System::Type*>*))((::PBYTE)hIl2Cpp + SYSTEM_REFLECTION_EMIT_MODULEBUILDER_DEFINETYPE_1_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

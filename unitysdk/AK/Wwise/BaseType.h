@@ -2,35 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AKRESULT.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/WwiseObjectType.h"
-
-class WwiseObjectReference;
 namespace System { class String; }
 
-#define AK_WWISE_BASETYPE_GET_ID_1_OFFSET UNITYSDK_OFFSET(0x1EEA65F0)
-#define AK_WWISE_BASETYPE_GET_ID_OFFSET UNITYSDK_OFFSET(0x1EEA6100)
-#define AK_WWISE_BASETYPE_GET_INVALIDID_OFFSET UNITYSDK_OFFSET(0x1EEA6200)
-#define AK_WWISE_BASETYPE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EEA50E0)
-#define AK_WWISE_BASETYPE_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1EEA6600)
-#define AK_WWISE_BASETYPE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1EEA5050)
-#define AK_WWISE_BASETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EEA6410)
-#define AK_WWISE_BASETYPE_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1EEA6210)
-#define AK_WWISE_BASETYPE_VERIFY_OFFSET UNITYSDK_OFFSET(0x1EEA6400)
-#define AK_WWISE_BASETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA4E40)
+#define AK_WWISE_BASETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F56C9F0)
+#define AK_WWISE_BASETYPE_GET_ID_OFFSET UNITYSDK_OFFSET(0x1F56DCB0)
+#define AK_WWISE_BASETYPE_GET_ID_OFFSET UNITYSDK_OFFSET(0x1F56E1A0)
+#define AK_WWISE_BASETYPE_GET_INVALIDID_OFFSET UNITYSDK_OFFSET(0x1F56DDB0)
+#define AK_WWISE_BASETYPE_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1F56CC90)
+#define AK_WWISE_BASETYPE_GET_VALUEGUID_OFFSET UNITYSDK_OFFSET(0x1F56E1B0)
+#define AK_WWISE_BASETYPE_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F56CC00)
+#define AK_WWISE_BASETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F56DFC0)
+#define AK_WWISE_BASETYPE_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1F56DDC0)
+#define AK_WWISE_BASETYPE_VERIFY_OFFSET UNITYSDK_OFFSET(0x1F56DFB0)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int BaseType_TypeDefinitionIndex = 43787;
-
 	class BaseType : public ::System::Object
 	{
 	public:
 		::System::Int32 idInternal; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Byte>* valueGuidInternal; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASETYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASETYPE_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_Name()
@@ -68,14 +63,15 @@ namespace AK::Wwise
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASETYPE_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Int32 get_ID_1()
+		::System::Int32 get_ID()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASETYPE_GET_ID_1_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASETYPE_GET_ID_OFFSET))(this);
 		}
 
 		::Il2CppArray<::System::Byte>* get_valueGuid()
 		{
 			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AK_WWISE_BASETYPE_GET_VALUEGUID_OFFSET))(this);
 		}
+
 	};
 }

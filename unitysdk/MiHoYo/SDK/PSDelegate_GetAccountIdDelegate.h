@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74F60)
-#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74F90)
-#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA74F50)
-#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA74EE0)
+#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7FA20)
+#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF7F9A0)
+#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7FA50)
+#define MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF7FA10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_GetAccountIdDelegate_TypeDefinitionIndex = 7684;
-
 	class PSDelegate_GetAccountIdDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt64 Invoke()
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::UInt64(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_GETACCOUNTIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

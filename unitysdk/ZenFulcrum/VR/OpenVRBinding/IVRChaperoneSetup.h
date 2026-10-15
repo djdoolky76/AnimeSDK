@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperoneSetup__CommitWorkingCopy; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperoneSetup__ExportLiveToBuffer; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperoneSetup__GetLiveCollisionBoundsInfo; }
@@ -25,8 +23,6 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperoneSetup__SetWorkingSta
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperoneSetup_TypeDefinitionIndex = 37696;
-
 	struct alignas(8) IVRChaperoneSetup
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRChaperoneSetup__CommitWorkingCopy* CommitWorkingCopy; // 0x10

@@ -2,53 +2,54 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/UIAdaptiveDeviceType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class UIAdaptiveConfig; }
 namespace RPG::GameCore { class UIOperationConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 
-#define RPG_CLIENT_UIADAPTER_DORELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE32C060)
-#define RPG_CLIENT_UIADAPTER_GETDEFAULTUIOPERATIONCONFIGS_OFFSET UNITYSDK_OFFSET(0xE32C120)
-#define RPG_CLIENT_UIADAPTER_LOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE32BA00)
-#define RPG_CLIENT_UIADAPTER_RELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE32BF80)
-#define RPG_CLIENT_UIADAPTER_UNLOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE32BF10)
-#define RPG_CLIENT_UIADAPTER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE32C2F0)
-#define RPG_CLIENT_UIADAPTER__GETOPERATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE32C180)
-#define RPG_CLIENT_UIADAPTER__LOADADAPTIVECONFIG_OFFSET UNITYSDK_OFFSET(0xE32BDB0)
+#define RPG_CLIENT_UIADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE36B160)
+#define RPG_CLIENT_UIADAPTER_DORELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36AED0)
+#define RPG_CLIENT_UIADAPTER_GETDEFAULTUIOPERATIONCONFIGS_OFFSET UNITYSDK_OFFSET(0xE36AF90)
+#define RPG_CLIENT_UIADAPTER_LOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36A870)
+#define RPG_CLIENT_UIADAPTER_RELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36ADF0)
+#define RPG_CLIENT_UIADAPTER_UNLOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36AD80)
+#define RPG_CLIENT_UIADAPTER__GETOPERATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE36AFF0)
+#define RPG_CLIENT_UIADAPTER__LOADADAPTIVECONFIG_OFFSET UNITYSDK_OFFSET(0xE36AC20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdapter_TypeDefinitionIndex = 60211;
-
 	class UIAdapter : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::SortedList_2<::RPG::GameCore::UIAdaptiveDeviceType, ::System::String*>** StaticGet__AdaptiveConfigPaths()
 		{
-			return (::System::Collections::Generic::SortedList_2<::RPG::GameCore::UIAdaptiveDeviceType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(UIAdapter_TypeDefinitionIndex)->GetStaticField(0x615B0);
+			return (::System::Collections::Generic::SortedList_2<::RPG::GameCore::UIAdaptiveDeviceType, ::System::String*>**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32470);
 		}
-		static ::RPG::GameCore::UIAdaptiveConfig** StaticGet__AdaptiveConfig()
-		{
-			return (::RPG::GameCore::UIAdaptiveConfig**)Il2CppClass::FromTypeDefinitionIndex(UIAdapter_TypeDefinitionIndex)->GetStaticField(0x615B8);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIOperationConfig*>** StaticGet__PrefabUIOperationConfigDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIOperationConfig*>**)Il2CppClass::FromTypeDefinitionIndex(UIAdapter_TypeDefinitionIndex)->GetStaticField(0x615C0);
-		}
+
 		static ::RPG::GameCore::UIOperationConfig** StaticGet__DefaultUIOperationConfig()
 		{
-			return (::RPG::GameCore::UIOperationConfig**)Il2CppClass::FromTypeDefinitionIndex(UIAdapter_TypeDefinitionIndex)->GetStaticField(0x615C8);
+			return (::RPG::GameCore::UIOperationConfig**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32478);
 		}
+
+		static ::RPG::GameCore::UIAdaptiveConfig** StaticGet__AdaptiveConfig()
+		{
+			return (::RPG::GameCore::UIAdaptiveConfig**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32480);
+		}
+
 		static ::System::String** StaticGet__AdaptiveConfigPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(UIAdapter_TypeDefinitionIndex)->GetStaticField(0x615D0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32488);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIOperationConfig*>** StaticGet__PrefabUIOperationConfigDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIOperationConfig*>**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32490);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADAPTER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADAPTER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void LoadConfig()
@@ -85,5 +86,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::GameCore::UIOperationConfig*(*)(::RPG::GameCore::UIAdaptiveConfig*, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIADAPTER__GETOPERATIONCONFIG_OFFSET))(a1, a2);
 		}
+
 	};
 }

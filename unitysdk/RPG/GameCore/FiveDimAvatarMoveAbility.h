@@ -3,13 +3,11 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAvatarMoveAbility_TypeDefinitionIndex = 16531;
-
 	enum class FiveDimAvatarMoveAbility : ::System::UInt32
 	{
-		None = 0x0,
-		Ladder = 0x1,
-		Slide = 0x2,
-		DropOneSidePass = 0x4,
+		None = 0,
+		Ladder = 1,
+		Slide = 2,
+		DropOneSidePass = 4,
 	};
 }

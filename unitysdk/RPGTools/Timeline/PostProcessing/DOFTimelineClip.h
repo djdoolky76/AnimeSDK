@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/TimelineExposedReference.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline::PostProcessing { class DOFTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8CB260)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8CB250)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8CB3E0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE920590)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE920710)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE920580)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineClip_TypeDefinitionIndex = 49018;
-
 	class DOFTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::RPGTools::Timeline::TimelineExposedReference Character; // 0x18
 		::RPGTools::Timeline::PostProcessing::DOFTimelineBehaviour* Template; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -37,5 +33,6 @@ namespace RPGTools::Timeline::PostProcessing
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

@@ -3,22 +3,19 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_ABILITYSKILLPERFORMFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE472640)
-#define RPG_GAMECORE_ABILITYSKILLPERFORMFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE472600)
-#define RPG_GAMECORE_ABILITYSKILLPERFORMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xE4725F0)
+#define RPG_GAMECORE_ABILITYSKILLPERFORMFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0xE4BB740)
+#define RPG_GAMECORE_ABILITYSKILLPERFORMFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4BB790)
+#define RPG_GAMECORE_ABILITYSKILLPERFORMFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4BB750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilitySkillPerformFinish_TypeDefinitionIndex = 56763;
-
 	class AbilitySkillPerformFinish : public ::System::Object
 	{
 	public:
 		::System::UInt32 _SourceEntityRuntimeID; // 0x10
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSKILLPERFORMFINISH__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSKILLPERFORMFINISH_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 GetSourceRuntimeID()
@@ -30,5 +27,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSKILLPERFORMFINISH_GETEVENTTYPE_OFFSET))(this);
 		}
+
 	};
 }

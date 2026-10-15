@@ -3,8 +3,6 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_Token_TypeDefinitionIndex = 1873;
-
 	enum class XmlWellFormedWriter_Token : ::System::Int32
 	{
 		StartDocument = 0,

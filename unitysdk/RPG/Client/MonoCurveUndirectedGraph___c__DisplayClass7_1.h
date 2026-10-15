@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CurveUndirectedConnection; }
 namespace RPG::Client { class CurveUndirectedEdge; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0xD747490)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__GENERATECURVEEDGES_B__2_OFFSET UNITYSDK_OFFSET(0xD747690)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD746800)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__GENERATECURVEEDGES_B__2_OFFSET UNITYSDK_OFFSET(0xD746A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_1_TypeDefinitionIndex = 68544;
-
+	template <typename T>
 	class MonoCurveUndirectedGraph___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
 		::RPG::Client::CurveUndirectedConnection* connection; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GenerateCurveEdges_b__2(::RPG::Client::CurveUndirectedEdge* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::CurveUndirectedEdge*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__GENERATECURVEEDGES_B__2_OFFSET))(this, a1);
 		}
+
 	};
 }

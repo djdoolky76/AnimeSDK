@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationElementCollection.h"
 
-#define SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E958880)
+#define SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0217E0)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int BypassElementCollection_TypeDefinitionIndex = 3074;
-
 	class BypassElementCollection : public ::System::Configuration::ConfigurationElementCollection
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_ModifyRealNameEmailVerifyActionParam_TypeDefinitionIndex = 47298;
-
 	class UIConstants_ModifyRealNameEmailVerifyActionParam : public ::System::Object
 	{
 	public:

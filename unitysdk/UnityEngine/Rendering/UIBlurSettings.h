@@ -1,14 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int UIBlurSettings_TypeDefinitionIndex = 4837;
-
 	struct alignas(4) UIBlurSettings
 	{
 		::System::Int32 Quality; // 0x10
@@ -30,6 +27,7 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Vector4 BlurPartialParamsB3; // 0xA4
 		::UnityEngine::Vector4 BlurPartialSmooth; // 0xB4
 		::System::Boolean EnableVignette; // 0xC4
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Color VignetteColor; // 0xC8
 		::UnityEngine::Vector2 VignetteCenter; // 0xD8
 		::System::Single VignetteIntensity; // 0xE0

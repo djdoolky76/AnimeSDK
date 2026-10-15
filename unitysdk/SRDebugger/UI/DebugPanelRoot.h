@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-
 namespace SRDebugger::Scripts { class DebuggerTabController; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class CanvasGroup; }
 
-#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSEANDDESTROY_OFFSET UNITYSDK_OFFSET(0x1E697B40)
-#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1E697A00)
-#define SRDEBUGGER_UI_DEBUGPANELROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E697BD0)
+#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSEANDDESTROY_OFFSET UNITYSDK_OFFSET(0x1ED5F500)
+#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1ED5F3C0)
+#define SRDEBUGGER_UI_DEBUGPANELROOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5F590)
 
 namespace SRDebugger::UI
 {
-	inline static constexpr unsigned int DebugPanelRoot_TypeDefinitionIndex = 37290;
-
 	class DebugPanelRoot : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
 		::UnityEngine::Canvas* Canvas; // 0x48
 		::UnityEngine::CanvasGroup* CanvasGroup; // 0x50
 		::SRDebugger::Scripts::DebuggerTabController* TabController; // 0x58
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_DEBUGPANELROOT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_DEBUGPANELROOT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Close()
@@ -35,5 +31,6 @@ namespace SRDebugger::UI
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_DEBUGPANELROOT_CLOSEANDDESTROY_OFFSET))(this);
 		}
+
 	};
 }

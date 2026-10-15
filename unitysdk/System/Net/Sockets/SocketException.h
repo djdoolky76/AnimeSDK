@@ -3,53 +3,49 @@
 #include "unitysdk/System/ComponentModel/Win32Exception.h"
 #include "unitysdk/System/Net/Sockets/SocketError.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System::Net { class EndPoint; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1E9C3180)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1E9C3190)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_GET_SOCKETERRORCODE_OFFSET UNITYSDK_OFFSET(0x1E9C0960)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_WSAGETLASTERROR_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1E9C2FF0)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9C3020)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E9B7380)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1E9B38D0)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x1E9C30C0)
-#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B7CF0)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F08AF80)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F07F820)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F07C010)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_4_OFFSET UNITYSDK_OFFSET(0x1F08B040)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0801D0)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_GET_ERRORCODE_OFFSET UNITYSDK_OFFSET(0x1F08B120)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1F08B130)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_GET_SOCKETERRORCODE_OFFSET UNITYSDK_OFFSET(0x1F088720)
+#define SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_WSAGETLASTERROR_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F08AF50)
 
 namespace System::Net::Sockets
 {
-	inline static constexpr unsigned int SocketException_TypeDefinitionIndex = 2893;
-
 	class SocketException : public ::System::ComponentModel::Win32Exception
 	{
 	public:
 		::System::Net::EndPoint* m_EndPoint; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_2(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_3(::System::Net::Sockets::SocketError a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::SocketError))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_3_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Sockets::SocketError))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_3_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_4(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION__CTOR_4_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_CTOR_4_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Int32 WSAGetLastError_internal()
@@ -71,5 +67,6 @@ namespace System::Net::Sockets
 		{
 			return ((::System::Net::Sockets::SocketError(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_SOCKETS_SOCKETEXCEPTION_GET_SOCKETERRORCODE_OFFSET))(this);
 		}
+
 	};
 }

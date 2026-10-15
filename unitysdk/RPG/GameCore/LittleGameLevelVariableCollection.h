@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameLevelVariable; }
+namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
 
-#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_METHOD_2_F1A4E1C43B42CC04_OFFSET UNITYSDK_OFFSET(0x1D2031C0)
-#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D204850)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E4D60)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E3850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVariableCollection_TypeDefinitionIndex = 18682;
-
 	class LittleGameLevelVariableCollection : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::LittleGameLevelVariable*>* LevelVariables; // 0x10
 		::Il2CppArray<::RPG::GameCore::LittleGameLevelVariable*>* LevelVariablesEntityVarAutoGen; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F1A4E1C43B42CC04(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameLevelVariableCollection*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LittleGameLevelVariableCollection* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameLevelVariableCollection*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_METHOD_2_F1A4E1C43B42CC04_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LittleGameLevelVariableCollection*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELVARIABLECOLLECTION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

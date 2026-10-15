@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MonopolyCheckSwitchMap; }
+namespace RPG::GameCore { class TaskConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_35D5CDD35B031039_OFFSET UNITYSDK_OFFSET(0x1D2BADD0)
-#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_39AB1F8678500EF0_OFFSET UNITYSDK_OFFSET(0x1D2BAD90)
-#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BADC0)
+#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89D020)
+#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D89D030)
+#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D89CFF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCheckSwitchMap_TypeDefinitionIndex = 20694;
-
 	class MonopolyCheckSwitchMap : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -19,20 +18,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerSwitchToSpeWorld; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerSwitchFromSpeWorld; // 0x28
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnTriggerSwitch; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_39AB1F8678500EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyCheckSwitchMap*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MonopolyCheckSwitchMap* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCheckSwitchMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_39AB1F8678500EF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MonopolyCheckSwitchMap*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_35D5CDD35B031039(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyCheckSwitchMap* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::MonopolyCheckSwitchMap* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCheckSwitchMap*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_35D5CDD35B031039_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MonopolyCheckSwitchMap*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

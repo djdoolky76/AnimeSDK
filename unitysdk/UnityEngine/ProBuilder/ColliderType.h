@@ -3,8 +3,6 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ColliderType_TypeDefinitionIndex = 43199;
-
 	enum class ColliderType : ::System::Int32
 	{
 		None = 0,

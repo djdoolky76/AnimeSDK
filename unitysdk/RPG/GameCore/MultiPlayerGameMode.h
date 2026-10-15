@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultiPlayerGameMode_TypeDefinitionIndex = 10559;
-
 	enum class MultiPlayerGameMode : ::System::Int32
 	{
 		NONE = 0,
@@ -15,5 +13,6 @@ namespace RPG::GameCore
 		MARBLE_MAINSUB = 5,
 		DICE_COMBAT = 7,
 		DICE_COMBAT_V2 = 8,
+		MARBLE_COOP_BOSS = 9,
 	};
 }

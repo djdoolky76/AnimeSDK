@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatValueOperation_TypeDefinitionIndex = 15963;
-
 	enum class DiceCombatValueOperation : ::System::Int32
 	{
 		Set = 0,

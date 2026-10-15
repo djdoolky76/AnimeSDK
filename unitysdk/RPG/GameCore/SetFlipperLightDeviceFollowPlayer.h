@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class SetFlipperLightDeviceFollowPlayer; }
 namespace RPG::GameCore { class TargetEvaluator; }
+namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_METHOD_3_45C538982AD96A3B_OFFSET UNITYSDK_OFFSET(0x1D4FE9B0)
-#define RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_METHOD_3_93776CF452FBD835_OFFSET UNITYSDK_OFFSET(0x1D4FE910)
-#define RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4FE970)
+#define RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB2A90)
+#define RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB2AD0)
+#define RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB2A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFlipperLightDeviceFollowPlayer_TypeDefinitionIndex = 22093;
-
 	class SetFlipperLightDeviceFollowPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -27,20 +26,20 @@ namespace RPG::GameCore
 		::RPG::MVector3 FollowOffset; // 0x48
 		::RPG::MVector3 AimOffset; // 0x54
 		::System::Boolean Follow; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_93776CF452FBD835(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_METHOD_3_93776CF452FBD835_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_45C538982AD96A3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_METHOD_3_45C538982AD96A3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SetFlipperLightDeviceFollowPlayer*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLIPPERLIGHTDEVICEFOLLOWPLAYER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/AI/ObstacleAvoidanceType.h"
 #include "unitysdk/UnityEngine/AI/UpdateFlags.h"
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int AsyncAgentCreateParams_TypeDefinitionIndex = 5660;
-
 	struct alignas(4) AsyncAgentCreateParams
 	{
 		::System::Single radius; // 0x10

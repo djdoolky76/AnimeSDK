@@ -2,46 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/UnityEngine/Bindings/CodegenOptions.h"
-
 namespace System { class String; }
 
-#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_SET_CODEGENOPTIONS_OFFSET UNITYSDK_OFFSET(0x1EDD3E40)
-#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_SET_HEADER_OFFSET UNITYSDK_OFFSET(0x1EDD3E20)
-#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_SET_INTERMEDIATESCRIPTINGSTRUCTNAME_OFFSET UNITYSDK_OFFSET(0x1EDD3E30)
-#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EDD3E60)
-#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1EDD3E70)
-#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x1EDD3F40)
-#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD3E50)
+#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F49D120)
+#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F49D130)
+#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F49D200)
+#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D110)
+#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_SET_CODEGENOPTIONS_OFFSET UNITYSDK_OFFSET(0x1F49D100)
+#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_SET_HEADER_OFFSET UNITYSDK_OFFSET(0x1F49D0E0)
+#define UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_SET_INTERMEDIATESCRIPTINGSTRUCTNAME_OFFSET UNITYSDK_OFFSET(0x1F49D0F0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int NativeTypeAttribute_TypeDefinitionIndex = 3728;
-
 	class NativeTypeAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _IntermediateScriptingStructName_k__BackingField; // 0x10
 		::System::String* _Header_k__BackingField; // 0x18
 		::UnityEngine::Bindings::CodegenOptions _CodegenOptions_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::UnityEngine::Bindings::CodegenOptions a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bindings::CodegenOptions))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bindings::CodegenOptions))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_2_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_3(::UnityEngine::Bindings::CodegenOptions a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bindings::CodegenOptions, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE__CTOR_3_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bindings::CodegenOptions, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_CTOR_3_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void set_Header(::System::String* a1)
@@ -58,5 +54,6 @@ namespace UnityEngine::Bindings
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Bindings::CodegenOptions))((::PBYTE)hIl2Cpp + UNITYENGINE_BINDINGS_NATIVETYPEATTRIBUTE_SET_CODEGENOPTIONS_OFFSET))(this, a1);
 		}
+
 	};
 }

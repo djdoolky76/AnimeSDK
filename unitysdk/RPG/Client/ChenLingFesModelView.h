@@ -1,25 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
+class DEBEAKKOHLN;
 
-class Class_1_1342B57709FD7AC5;
-
-#define RPG_CLIENT_CHENLINGFESMODELVIEW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCB82570)
-#define RPG_CLIENT_CHENLINGFESMODELVIEW_SETDITHERALPHA_OFFSET UNITYSDK_OFFSET(0xCB82480)
-#define RPG_CLIENT_CHENLINGFESMODELVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xCB825D0)
+#define RPG_CLIENT_CHENLINGFESMODELVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xCAD1A40)
+#define RPG_CLIENT_CHENLINGFESMODELVIEW_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCAD19E0)
+#define RPG_CLIENT_CHENLINGFESMODELVIEW_SETDITHERALPHA_OFFSET UNITYSDK_OFFSET(0xCAD18F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingFesModelView_TypeDefinitionIndex = 61555;
-
 	class ChenLingFesModelView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_1342B57709FD7AC5* _RendererCache; // 0x18
-
+		::DEBEAKKOHLN* _RendererCache; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODELVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODELVIEW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetDitherAlpha(::System::Single a1)
@@ -31,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFESMODELVIEW_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

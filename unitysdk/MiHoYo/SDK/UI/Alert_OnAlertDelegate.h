@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UI/Alert_AlertResult.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BAE53A0)
-#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BAE5410)
-#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BAE4FA0)
-#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAE5330)
+#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF0700)
+#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF0690)
+#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF0770)
+#define MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BFF0330)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Alert_OnAlertDelegate_TypeDefinitionIndex = 8353;
-
 	class Alert_OnAlertDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::UI::Alert_AlertResult a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK::UI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_ALERT_ONALERTDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

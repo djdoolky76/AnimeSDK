@@ -2,41 +2,41 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdvWaitingEventBase.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitPropStateChangeV2; }
 
-#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_EBC9FED13848E32B_OFFSET UNITYSDK_OFFSET(0x1D6AA490)
-#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_F16B43EC6C064526_OFFSET UNITYSDK_OFFSET(0x1D6AA440)
-#define RPG_GAMECORE_WAITPROPSTATECHANGEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AA480)
+#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9F630)
+#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9F640)
+#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9F5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropStateChangeV2_TypeDefinitionIndex = 20506;
-
 	class WaitPropStateChangeV2 : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
 		::System::UInt32 InstanceID; // 0x20
 		::RPG::GameCore::PropState FromState; // 0x24
 		::System::Boolean FromAnyState; // 0x28
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::PropState ToState; // 0x2C
 		::System::Boolean ToAnyState; // 0x30
+		::System::Byte _padding1[0x7];
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnChange; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F16B43EC6C064526(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropStateChangeV2*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPropStateChangeV2* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropStateChangeV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_F16B43EC6C064526_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPropStateChangeV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EBC9FED13848E32B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropStateChangeV2* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPropStateChangeV2* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropStateChangeV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_EBC9FED13848E32B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPropStateChangeV2*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,36 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK::PluginUI { class IPluginUIService; }
 namespace MiHoYo::SDK::PluginUI { class IPluginUIService_ShowPluginUITask; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2> class Action_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_CLOSEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BA787D0)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_CREATESERVICE_OFFSET UNITYSDK_OFFSET(0x1BA781E0)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_DOCLOSEDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BA786C0)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_DOELEMENTDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BA786E0)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKECLOSEDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BA78550)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKELISTITEMDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BA78600)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x1BA78270)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_REGISTERTASK_OFFSET UNITYSDK_OFFSET(0x1BA78280)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_TRYGETELEMENTACTION_OFFSET UNITYSDK_OFFSET(0x1BA78330)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA78C90)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_CLOSEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BF82940)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_CREATESERVICE_OFFSET UNITYSDK_OFFSET(0x1BF82350)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF82E00)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_DOCLOSEDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BF82830)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_DOELEMENTDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BF82850)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKECLOSEDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BF826C0)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKELISTITEMDEFAULTACTION_OFFSET UNITYSDK_OFFSET(0x1BF82770)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_ONREGISTERTASK_OFFSET UNITYSDK_OFFSET(0x1BF823E0)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_REGISTERTASK_OFFSET UNITYSDK_OFFSET(0x1BF823F0)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_TRYGETELEMENTACTION_OFFSET UNITYSDK_OFFSET(0x1BF824A0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int IPluginUIService_TypeDefinitionIndex = 9089;
-
 	class IPluginUIService : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::PluginUI::IPluginUIService* m_parentService; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void CreateService(::MiHoYo::SDK::PluginUI::IPluginUIService* a1)
@@ -48,19 +44,19 @@ namespace MiHoYo::SDK::PluginUI
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::MiHoYo::SDK::PluginUI::IPluginUIService_ShowPluginUITask*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_REGISTERTASK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* TryGetElementAction(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>* a2, ::System::Boolean a3, ::System::String* a4)
+		::System::Action* TryGetElementAction(::System::String* a1, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* a2, ::System::Boolean a3, ::System::String* a4)
 		{
-			return ((::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*>*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_TRYGETELEMENTACTION_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Action*(*)(::PVOID, ::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>*, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_TRYGETELEMENTACTION_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* MakeListItemDefaultAction(::System::String* a1, ::System::Boolean a2)
+		::System::Action* MakeListItemDefaultAction(::System::String* a1, ::System::Boolean a2)
 		{
-			return ((::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKELISTITEMDEFAULTACTION_OFFSET))(this, a1, a2);
+			return ((::System::Action*(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKELISTITEMDEFAULTACTION_OFFSET))(this, a1, a2);
 		}
 
-		::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>* MakeCloseDefaultAction(::System::String* a1, ::System::String* a2)
+		::System::Action* MakeCloseDefaultAction(::System::String* a1, ::System::String* a2)
 		{
-			return ((::System::Action_2<::System::String*, ::System::Action_1<::System::String*>*>*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKECLOSEDEFAULTACTION_OFFSET))(this, a1, a2);
+			return ((::System::Action*(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_MAKECLOSEDEFAULTACTION_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void DoCloseDefaultAction(::System::String* a1, ::System::String* a2)
@@ -77,5 +73,6 @@ namespace MiHoYo::SDK::PluginUI
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE_DOELEMENTDEFAULTACTION_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionVisibility_TypeDefinitionIndex = 62269;
-
 	enum class RegionVisibility : ::System::Int32
 	{
 		Hidden = 0,

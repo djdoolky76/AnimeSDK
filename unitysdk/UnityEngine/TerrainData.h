@@ -4,108 +4,115 @@
 #include "unitysdk/UnityEngine/TerrainData_BoundaryValueType.h"
 #include "unitysdk/UnityEngine/TreeInstance.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class DetailPrototype; }
 namespace UnityEngine { class Terrain; }
+namespace UnityEngine { class TerrainData; }
 namespace UnityEngine { class TerrainLayer; }
 namespace UnityEngine { class TreePrototype; }
 
-#define UNITYENGINE_TERRAINDATA_GETALPHAMAPRESOLUTIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EDD9190)
-#define UNITYENGINE_TERRAINDATA_GETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1EDD8E90)
-#define UNITYENGINE_TERRAINDATA_GETBOUNDARYVALUE_OFFSET UNITYSDK_OFFSET(0x1EDD8400)
-#define UNITYENGINE_TERRAINDATA_GETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1EDD8640)
-#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EDD91B0)
-#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPLAYERS_OFFSET UNITYSDK_OFFSET(0x1EDD8E80)
-#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8F30)
-#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPWIDTH_OFFSET UNITYSDK_OFFSET(0x1EDD91A0)
-#define UNITYENGINE_TERRAINDATA_GET_DETAILRESOLUTIONPERPATCH_OFFSET UNITYSDK_OFFSET(0x1EDD8D80)
-#define UNITYENGINE_TERRAINDATA_GET_HEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8480)
-#define UNITYENGINE_TERRAINDATA_GET_INTERNALHEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8490)
-#define UNITYENGINE_TERRAINDATA_GET_INTERNAL_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8F40)
-#define UNITYENGINE_TERRAINDATA_GET_SIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EDD8610)
-#define UNITYENGINE_TERRAINDATA_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1EDD6BA0)
-#define UNITYENGINE_TERRAINDATA_GET_TERRAINLAYERS_OFFSET UNITYSDK_OFFSET(0x1EDD83E0)
-#define UNITYENGINE_TERRAINDATA_GET_TREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1EDD8E30)
-#define UNITYENGINE_TERRAINDATA_GET_TREEPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1EDD8E60)
-#define UNITYENGINE_TERRAINDATA_GET_USERS_OFFSET UNITYSDK_OFFSET(0x1EDD5810)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1EDD8470)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_GETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1EDD8F20)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_GETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1EDD8700)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_GETTREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1EDD8E40)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_SETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1EDD9330)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_SETDETAILLAYER_OFFSET UNITYSDK_OFFSET(0x1EDD8E20)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_SETDETAILRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8D70)
-#define UNITYENGINE_TERRAINDATA_INTERNAL_SETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1EDD8980)
-#define UNITYENGINE_TERRAINDATA_REFRESHPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1EDD8D90)
-#define UNITYENGINE_TERRAINDATA_SETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1EDD91C0)
-#define UNITYENGINE_TERRAINDATA_SETDETAILLAYER_OFFSET UNITYSDK_OFFSET(0x1EDD8DB0)
-#define UNITYENGINE_TERRAINDATA_SETDETAILRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8990)
-#define UNITYENGINE_TERRAINDATA_SETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1EDD8710)
-#define UNITYENGINE_TERRAINDATA_SETTREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1EDD8E50)
-#define UNITYENGINE_TERRAINDATA_SET_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8F50)
-#define UNITYENGINE_TERRAINDATA_SET_DETAILPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1EDD8DA0)
-#define UNITYENGINE_TERRAINDATA_SET_HEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD84A0)
-#define UNITYENGINE_TERRAINDATA_SET_INTERNALHEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD8600)
-#define UNITYENGINE_TERRAINDATA_SET_INTERNAL_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1EDD9180)
-#define UNITYENGINE_TERRAINDATA_SET_SIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1EDD8630)
-#define UNITYENGINE_TERRAINDATA_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x1EDD8620)
-#define UNITYENGINE_TERRAINDATA_SET_TERRAINLAYERS_OFFSET UNITYSDK_OFFSET(0x1EDD9340)
-#define UNITYENGINE_TERRAINDATA_SET_TREEPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1EDD8E70)
-#define UNITYENGINE_TERRAINDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDD9350)
-#define UNITYENGINE_TERRAINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD8410)
+#define UNITYENGINE_TERRAINDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4A2610)
+#define UNITYENGINE_TERRAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A16D0)
+#define UNITYENGINE_TERRAINDATA_GETALPHAMAPRESOLUTIONINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F4A2450)
+#define UNITYENGINE_TERRAINDATA_GETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1F4A2150)
+#define UNITYENGINE_TERRAINDATA_GETBOUNDARYVALUE_OFFSET UNITYSDK_OFFSET(0x1F4A16C0)
+#define UNITYENGINE_TERRAINDATA_GETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1F4A1900)
+#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F4A2470)
+#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPLAYERS_OFFSET UNITYSDK_OFFSET(0x1F4A2140)
+#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A21F0)
+#define UNITYENGINE_TERRAINDATA_GET_ALPHAMAPWIDTH_OFFSET UNITYSDK_OFFSET(0x1F4A2460)
+#define UNITYENGINE_TERRAINDATA_GET_DETAILRESOLUTIONPERPATCH_OFFSET UNITYSDK_OFFSET(0x1F4A2040)
+#define UNITYENGINE_TERRAINDATA_GET_HEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A1740)
+#define UNITYENGINE_TERRAINDATA_GET_INTERNALHEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A1750)
+#define UNITYENGINE_TERRAINDATA_GET_INTERNAL_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A2200)
+#define UNITYENGINE_TERRAINDATA_GET_SIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4A18D0)
+#define UNITYENGINE_TERRAINDATA_GET_SIZE_OFFSET UNITYSDK_OFFSET(0x1F49FE60)
+#define UNITYENGINE_TERRAINDATA_GET_TERRAINLAYERS_OFFSET UNITYSDK_OFFSET(0x1F4A16A0)
+#define UNITYENGINE_TERRAINDATA_GET_TREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1F4A20F0)
+#define UNITYENGINE_TERRAINDATA_GET_TREEPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1F4A2120)
+#define UNITYENGINE_TERRAINDATA_GET_USERS_OFFSET UNITYSDK_OFFSET(0x1F49EAD0)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1F4A1730)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_GETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1F4A21E0)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_GETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1F4A19C0)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_GETTREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1F4A2100)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_SETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1F4A25F0)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_SETDETAILLAYER_OFFSET UNITYSDK_OFFSET(0x1F4A20E0)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_SETDETAILRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A2030)
+#define UNITYENGINE_TERRAINDATA_INTERNAL_SETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1F4A1C40)
+#define UNITYENGINE_TERRAINDATA_REFRESHPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1F4A2050)
+#define UNITYENGINE_TERRAINDATA_SETALPHAMAPS_OFFSET UNITYSDK_OFFSET(0x1F4A2480)
+#define UNITYENGINE_TERRAINDATA_SETDETAILLAYER_OFFSET UNITYSDK_OFFSET(0x1F4A2070)
+#define UNITYENGINE_TERRAINDATA_SETDETAILRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A1C50)
+#define UNITYENGINE_TERRAINDATA_SETHEIGHTS_OFFSET UNITYSDK_OFFSET(0x1F4A19D0)
+#define UNITYENGINE_TERRAINDATA_SETTREEINSTANCES_OFFSET UNITYSDK_OFFSET(0x1F4A2110)
+#define UNITYENGINE_TERRAINDATA_SET_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A2210)
+#define UNITYENGINE_TERRAINDATA_SET_DETAILPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1F4A2060)
+#define UNITYENGINE_TERRAINDATA_SET_HEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A1760)
+#define UNITYENGINE_TERRAINDATA_SET_INTERNALHEIGHTMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A18C0)
+#define UNITYENGINE_TERRAINDATA_SET_INTERNAL_ALPHAMAPRESOLUTION_OFFSET UNITYSDK_OFFSET(0x1F4A2440)
+#define UNITYENGINE_TERRAINDATA_SET_SIZE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1F4A18F0)
+#define UNITYENGINE_TERRAINDATA_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x1F4A18E0)
+#define UNITYENGINE_TERRAINDATA_SET_TERRAINLAYERS_OFFSET UNITYSDK_OFFSET(0x1F4A2600)
+#define UNITYENGINE_TERRAINDATA_SET_TREEPROTOTYPES_OFFSET UNITYSDK_OFFSET(0x1F4A2130)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TerrainData_TypeDefinitionIndex = 5326;
-
 	class TerrainData : public ::UnityEngine::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_k_MaximumDetailsPerRes()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1B0);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1B0);
 		}
+
 		static ::System::Int32* StaticGet_k_MaximumAlphamapResolution()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1B4);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1B4);
 		}
+
 		static ::System::Int32* StaticGet_k_MinimumDetailResolutionPerPatch()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1B8);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1B8);
 		}
+
 		static ::System::Int32* StaticGet_k_MaximumResolution()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1BC);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1BC);
 		}
+
 		static ::System::Int32* StaticGet_k_MinimumBaseMapResolution()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1C0);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1C0);
 		}
+
 		static ::System::Int32* StaticGet_k_MinimumAlphamapResolution()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1C4);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1C4);
 		}
+
 		static ::System::Int32* StaticGet_k_MaximumDetailResolutionPerPatch()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1C8);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1C8);
 		}
+
 		static ::System::Int32* StaticGet_k_MaximumBaseMapResolution()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1CC);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1CC);
 		}
+
 		static ::System::Int32* StaticGet_k_MaximumDetailPatchCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TerrainData_TypeDefinitionIndex)->GetStaticField(0x1D0);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine", "TerrainData")->GetStaticField(0x1D0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_CCTOR_OFFSET))();
 		}
 
 		static ::System::Int32 GetBoundaryValue(::UnityEngine::TerrainData_BoundaryValueType a1)
@@ -148,24 +155,24 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SET_SIZE_OFFSET))(this, a1);
 		}
 
-		::Il2CppArray<::System::Single>* GetHeights(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::Object* GetHeights(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GETHEIGHTS_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GETHEIGHTS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Il2CppArray<::System::Single>* Internal_GetHeights(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::Object* Internal_GetHeights(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_GETHEIGHTS_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_GETHEIGHTS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void SetHeights(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Single>* a3)
+		::System::Void SetHeights(::System::Int32 a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SETHEIGHTS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SETHEIGHTS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Internal_SetHeights(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::Il2CppArray<::System::Single>* a5)
+		::System::Void Internal_SetHeights(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_SETHEIGHTS_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_SETHEIGHTS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void SetDetailResolution(::System::Int32 a1, ::System::Int32 a2)
@@ -193,14 +200,14 @@ namespace UnityEngine
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::DetailPrototype*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SET_DETAILPROTOTYPES_OFFSET))(this, a1);
 		}
 
-		::System::Void SetDetailLayer(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Int32>* a4)
+		::System::Void SetDetailLayer(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Object* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SETDETAILLAYER_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SETDETAILLAYER_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::System::Void Internal_SetDetailLayer(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::Il2CppArray<::System::Int32>* a6)
+		::System::Void Internal_SetDetailLayer(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Object* a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_SETDETAILLAYER_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_SETDETAILLAYER_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::Il2CppArray<::UnityEngine::TreeInstance>* get_treeInstances()
@@ -233,14 +240,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GET_ALPHAMAPLAYERS_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Single>* GetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::Object* GetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GETALPHAMAPS_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GETALPHAMAPS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::Il2CppArray<::System::Single>* Internal_GetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
+		::System::Object* Internal_GetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::Il2CppArray<::System::Single>*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_GETALPHAMAPS_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Object*(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_GETALPHAMAPS_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 get_alphamapResolution()
@@ -278,14 +285,14 @@ namespace UnityEngine
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GET_ALPHAMAPHEIGHT_OFFSET))(this);
 		}
 
-		::System::Void SetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::Il2CppArray<::System::Single>* a3)
+		::System::Void SetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SETALPHAMAPS_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SETALPHAMAPS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Internal_SetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::Il2CppArray<::System::Single>* a5)
+		::System::Void Internal_SetAlphamaps(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Object* a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_SETALPHAMAPS_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_INTERNAL_SETALPHAMAPS_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::Il2CppArray<::UnityEngine::TerrainLayer*>* get_terrainLayers()
@@ -303,14 +310,15 @@ namespace UnityEngine
 			return ((::Il2CppArray<::UnityEngine::Terrain*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GET_USERS_OFFSET))(this);
 		}
 
-		::System::Void get_size_Injected(::UnityEngine::Vector3& a1)
+		::System::Void get_size_Injected(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GET_SIZE_INJECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_GET_SIZE_INJECTED_OFFSET))(this, a1);
 		}
 
-		::System::Void set_size_Injected(::UnityEngine::Vector3& a1)
+		::System::Void set_size_Injected(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SET_SIZE_INJECTED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_TERRAINDATA_SET_SIZE_INJECTED_OFFSET))(this, a1);
 		}
+
 	};
 }

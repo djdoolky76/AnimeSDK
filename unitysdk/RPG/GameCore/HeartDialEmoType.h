@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialEmoType_TypeDefinitionIndex = 10502;
-
 	enum class HeartDialEmoType : ::System::Int32
 	{
 		Peace = 0,

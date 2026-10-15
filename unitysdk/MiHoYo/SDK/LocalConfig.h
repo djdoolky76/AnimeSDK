@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class ABTestInfo; }
-namespace MiHoYo::SDK { class AbTestConfig; }
+namespace MiHoYo::SDK { class AbTestConfig_0610364D5D6941F8; }
 namespace MiHoYo::SDK { class AccountPlatConfig; }
 namespace MiHoYo::SDK { class BilibiliConfigModel; }
 namespace MiHoYo::SDK { class ConfigManager_WebViewABTestModel; }
@@ -14,17 +13,16 @@ namespace MiHoYo::SDK { class SteamParametersModel; }
 namespace MiHoYo::SDK { class WatermarkInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B995FB0)
+#define MIHOYO_SDK_LOCALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE95B80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7861;
-
 	class LocalConfig : public ::System::Object
 	{
 	public:
 		::System::String* area; // 0x10
 		::System::Int32 env; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::String* app_id; // 0x20
 		::System::String* app_key; // 0x28
 		::System::String* channel_id; // 0x30
@@ -41,15 +39,17 @@ namespace MiHoYo::SDK
 		::System::Boolean hoyopass_default_config; // 0x7A
 		::System::Boolean use_hoyopass_default_config; // 0x7B
 		::System::Boolean console_passport_config; // 0x7C
+		::System::Byte _padding1[0x3];
 		::System::String* theme; // 0x80
 		::System::Int32 passport_env; // 0x88
+		::System::Byte _padding2[0x4];
 		::System::String* passport_app_id; // 0x90
 		::MiHoYo::SDK::EOSParametersModel* eos_parameters; // 0x98
 		::MiHoYo::SDK::ConfigUrlModel* url; // 0xA0
 		::MiHoYo::SDK::BilibiliConfigModel* bilibili_sdk; // 0xA8
 		::MiHoYo::SDK::WatermarkInfo* watermark; // 0xB0
-		::MiHoYo::SDK::AbTestConfig* abtestOS; // 0xB8
-		::MiHoYo::SDK::AbTestConfig* compliance_abtest; // 0xC0
+		::MiHoYo::SDK::AbTestConfig_0610364D5D6941F8* abtestOS; // 0xB8
+		::MiHoYo::SDK::AbTestConfig_0610364D5D6941F8* compliance_abtest; // 0xC0
 		::MiHoYo::SDK::ABTestInfo* abtestCN; // 0xC8
 		::MiHoYo::SDK::ConfigManager_WebViewABTestModel* webview; // 0xD0
 		::MiHoYo::SDK::AccountPlatConfig* account_platform; // 0xD8
@@ -57,13 +57,14 @@ namespace MiHoYo::SDK
 		::System::Boolean console_detect_pay_xsts_enable; // 0xE1
 		::System::Boolean enable_color_text_fix; // 0xE2
 		::System::Boolean enable_googleplaypc_v2; // 0xE3
+		::System::Byte _padding3[0x4];
 		::MiHoYo::SDK::GooglePlayAbTestConfig* googleplay_abtest; // 0xE8
 		::MiHoYo::SDK::SteamParametersModel* steam_parameters; // 0xF0
 		::System::Boolean enable_device_limit; // 0xF8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LOCALCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LOCALCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

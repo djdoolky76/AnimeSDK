@@ -1,20 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class TutorialGuideHintAdaptConfig; }
 namespace RPG::GameCore { class TutorialGuideTalkListAdaptConfig; }
 namespace RPG::GameCore { class TutorialGuideTextAdaptConfig; }
+namespace RPG::GameCore { class TutorialJsonConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C87CCB58E0C4CAF_OFFSET UNITYSDK_OFFSET(0x1D618600)
-#define RPG_GAMECORE_TUTORIALJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D618A00)
+#define RPG_GAMECORE_TUTORIALJSONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6CC60)
+#define RPG_GAMECORE_TUTORIALJSONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6C860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialJsonConfig_TypeDefinitionIndex = 24118;
-
 	class TutorialJsonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -30,15 +28,15 @@ namespace RPG::GameCore
 		::System::Single WidthHeightEqualCheckThreshold; // 0x58
 		::System::Single ExtraOffsetDelta; // 0x5C
 		::System::Single NodeMoveCheckThreshold; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALJSONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALJSONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3C87CCB58E0C4CAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialJsonConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TutorialJsonConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialJsonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALJSONCONFIG_METHOD_2_3C87CCB58E0C4CAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TutorialJsonConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALJSONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

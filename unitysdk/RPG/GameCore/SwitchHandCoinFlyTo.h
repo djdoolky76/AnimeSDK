@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class SwitchHandCoinFlyTo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_METHOD_3_3BC4B2702BDA83F5_OFFSET UNITYSDK_OFFSET(0x1D58B230)
-#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_METHOD_3_F3F020D342DB7778_OFFSET UNITYSDK_OFFSET(0x1D58B1E0)
-#define RPG_GAMECORE_SWITCHHANDCOINFLYTO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D58B220)
+#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB41FF0)
+#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB42000)
+#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB41FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchHandCoinFlyTo_TypeDefinitionIndex = 20732;
-
 	class SwitchHandCoinFlyTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -22,20 +20,20 @@ namespace RPG::GameCore
 		::System::Single Duration; // 0x28
 		::System::Single MoveSpeed; // 0x2C
 		::System::Boolean KeepAttach; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCOINFLYTO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCOINFLYTO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3F020D342DB7778(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCoinFlyTo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchHandCoinFlyTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCoinFlyTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCOINFLYTO_METHOD_3_F3F020D342DB7778_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchHandCoinFlyTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCOINFLYTO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_3BC4B2702BDA83F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandCoinFlyTo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::SwitchHandCoinFlyTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandCoinFlyTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCOINFLYTO_METHOD_3_3BC4B2702BDA83F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SwitchHandCoinFlyTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDCOINFLYTO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

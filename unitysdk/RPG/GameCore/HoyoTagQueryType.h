@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoyoTagQueryType_TypeDefinitionIndex = 24254;
-
 	enum class HoyoTagQueryType : ::System::Int32
 	{
 		MatchAny = 1,

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageSituationType_TypeDefinitionIndex = 66451;
-
 	enum class MessageSituationType : ::System::Int32
 	{
 		None = 0,

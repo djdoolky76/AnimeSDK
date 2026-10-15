@@ -2,33 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/SwordTraining/SwordTrainingEffectSource.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::SwordTraining { class SwordTrainingRandomEventEffectDisplayDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDMOOD_OFFSET UNITYSDK_OFFSET(0xE1276F0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSKILLPOINT_OFFSET UNITYSDK_OFFSET(0xE127640)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSTATUS_OFFSET UNITYSDK_OFFSET(0xE127850)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_FETCHDISPLAYDATAITEMS_OFFSET UNITYSDK_OFFSET(0xE1279B0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_SUBMOOD_OFFSET UNITYSDK_OFFSET(0xE1277A0)
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE1274F0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDMOOD_OFFSET UNITYSDK_OFFSET(0xE168100)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSKILLPOINT_OFFSET UNITYSDK_OFFSET(0xE168050)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_ADDSTATUS_OFFSET UNITYSDK_OFFSET(0xE168260)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE167F00)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_FETCHDISPLAYDATAITEMS_OFFSET UNITYSDK_OFFSET(0xE1683C0)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_SUBMOOD_OFFSET UNITYSDK_OFFSET(0xE1681B0)
 
 namespace RPG::Client::SwordTraining
 {
-	inline static constexpr unsigned int SwordTrainingRandomEventOptionEffectDisplayData_TypeDefinitionIndex = 74744;
-
 	class SwordTrainingRandomEventOptionEffectDisplayData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem*>* _DisplayItems; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _StatusChangeValueDict; // 0x18
-		::System::Int32 _MoodChangeValue; // 0x20
-		::System::Int32 _SkillPointChangeValue; // 0x24
-
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* _StatusChangeValueDict; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem*>* _DisplayItems; // 0x18
+		::System::Int32 _SkillPointChangeValue; // 0x20
+		::System::Int32 _MoodChangeValue; // 0x24
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_CTOR_OFFSET))(this);
 		}
 
 		::System::Void AddSkillPoint(::System::UInt32 a1, ::RPG::Client::SwordTraining::SwordTrainingEffectSource a2)
@@ -55,5 +51,6 @@ namespace RPG::Client::SwordTraining
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::SwordTraining::SwordTrainingRandomEventEffectDisplayDataItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAINING_SWORDTRAININGRANDOMEVENTOPTIONEFFECTDISPLAYDATA_FETCHDISPLAYDATAITEMS_OFFSET))(this);
 		}
+
 	};
 }

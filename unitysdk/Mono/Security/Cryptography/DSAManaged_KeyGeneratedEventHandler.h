@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class EventArgs; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB68610)
-#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB68650)
-#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB678D0)
-#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB68520)
+#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C074880)
+#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C074790)
+#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C0748C0)
+#define MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C073B40)
 
 namespace Mono::Security::Cryptography
 {
-	inline static constexpr unsigned int DSAManaged_KeyGeneratedEventHandler_TypeDefinitionIndex = 80;
-
 	class DSAManaged_KeyGeneratedEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::EventArgs* a2)
@@ -38,5 +35,6 @@ namespace Mono::Security::Cryptography
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_SECURITY_CRYPTOGRAPHY_DSAMANAGED_KEYGENERATEDEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

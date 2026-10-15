@@ -2,11 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/StageHarmonyDemodulator.h"
 
-inline static constexpr unsigned int StageHarmonyBaseDemodulator_1_TypeDefinitionIndex = 47984;
-
-template <typename TDataType>
-class StageHarmonyBaseDemodulator_1 : public ::StageHarmonyDemodulator
-{
-public:
-	TDataType DebugOuputValue; // 0x0
-};
+	template <typename T>
+	class StageHarmonyBaseDemodulator_1 : public ::StageHarmonyDemodulator
+	{
+	public:
+		T DebugOuputValue; // 0x0
+	};

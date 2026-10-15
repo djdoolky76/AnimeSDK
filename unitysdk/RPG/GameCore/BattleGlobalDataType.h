@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleGlobalDataType_TypeDefinitionIndex = 15416;
-
 	enum class BattleGlobalDataType : ::System::Int32
 	{
 		TeammateAlive = 0,

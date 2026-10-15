@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace RPG::Client { class ChimeraDuelMasterData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCBF5A10)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_LOAD_OFFSET UNITYSDK_OFFSET(0xCBF51D0)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_PLAYFREESTYLE_OFFSET UNITYSDK_OFFSET(0xCBF5970)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CREATEENTITY_OFFSET UNITYSDK_OFFSET(0xCBF5670)
-#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xCBF5B50)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xCB44C70)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB44B30)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_LOAD_OFFSET UNITYSDK_OFFSET(0xCB442B0)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW_PLAYFREESTYLE_OFFSET UNITYSDK_OFFSET(0xCB44A90)
+#define RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CREATEENTITY_OFFSET UNITYSDK_OFFSET(0xCB44790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelVSMasterView_TypeDefinitionIndex = 68611;
-
 	class ChimeraDuelVSMasterView : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::GameCore::GameEntity* _Entity; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Load(::System::UInt32 a1)
@@ -45,5 +41,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERADUELVSMASTERVIEW_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

@@ -13,14 +13,14 @@
 #include "unitysdk/RPG/GameCore/SkillType.h"
 #include "unitysdk/RPG/GameCore/SkillUseType.h"
 #include "unitysdk/RPG/GameCore/TeamFormationType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionDelayPreshowConfig; }
 namespace RPG::GameCore { class ComplexSkillAIConfig; }
 namespace RPG::GameCore { class FakeSkillConfig; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class SkillConditionPreshowConfig; }
+namespace RPG::GameCore { class SkillConfig; }
 namespace RPG::GameCore { class SkillCustomFormationConfig; }
 namespace RPG::GameCore { class SkillCustomReadyConfig; }
 namespace RPG::GameCore { class SkillParamMapping; }
@@ -30,13 +30,11 @@ namespace RPG::GameCore { class UsableConditionConfig; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D537B30)
-#define RPG_GAMECORE_SKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5396D0)
+#define RPG_GAMECORE_SKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEE340)
+#define RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAEC7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillConfig_TypeDefinitionIndex = 17976;
-
 	class SkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -46,9 +44,12 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::JsonEnum*>* Tags; // 0x20
 		::System::Int32 AutoSelectPriority; // 0x28
 		::System::Boolean ActivateAfterRevive; // 0x2C
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::AITargetSelectorType DefaultTargetSelector; // 0x30
 		::System::Boolean AlwaysDoAutoLock; // 0x34
+		::System::Byte _padding1[0x3];
 		::RPG::GameCore::SkillAutoLockType AutoLockType; // 0x38
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::ComplexSkillAIConfig* AutoLockBySource; // 0x40
 		::System::Int32 InitCoolDown; // 0x48
 		::System::Int32 CoolDown; // 0x4C
@@ -62,8 +63,10 @@ namespace RPG::GameCore
 		::System::Boolean UseReadyTransitAnim; // 0x80
 		::System::Boolean SkillNameHUD; // 0x81
 		::System::Boolean CanOverkill; // 0x82
+		::System::Byte _padding3[0x5];
 		::System::String* ReadyAnimState; // 0x88
 		::System::Single ReadyAnimWaitTime; // 0x90
+		::System::Byte _padding4[0x4];
 		::System::String* ReadyEffectPath; // 0x98
 		::RPG::GameCore::VCameraConfig* CameraConfig; // 0xA0
 		::RPG::GameCore::VCameraConfig* CameraConfigAdded; // 0xA8
@@ -74,18 +77,22 @@ namespace RPG::GameCore
 		::System::Boolean UseTwoCameraConfigOnEnterReady; // 0xC9
 		::RPG::GameCore::SkillReadyDisplayOption ReadyDisplayOption; // 0xCA
 		::System::Boolean IsCancelSkill; // 0xCC
+		::System::Byte _padding5[0x3];
 		::RPG::GameCore::TeamFormationType FormationType; // 0xD0
+		::System::Byte _padding6[0x4];
 		::System::String* TeamFormationConfigTemplateName; // 0xD8
 		::RPG::GameCore::SkillCustomFormationConfig* CustomFormationConfig; // 0xE0
 		::System::String* BoostSkill; // 0xE8
 		::System::String* EntryAbility; // 0xF0
 		::System::String* PrepareAbility; // 0xF8
 		::System::Boolean WaitPrepareFinish; // 0x100
+		::System::Byte _padding7[0x7];
 		::Il2CppArray<::RPG::GameCore::SkillParamMapping*>* ParaMapping; // 0x108
 		::RPG::GameCore::FixPoint DelayRatio; // 0x110
 		::Il2CppArray<::RPG::GameCore::SkillConditionPreshowConfig*>* CondPreshowConfigList; // 0x118
 		::RPG::GameCore::ActionDelayPreshowConfig* ActionDelayPreshowConfig; // 0x120
 		::System::Boolean CanTraversalByComplexSkillAIWhenNotInSlot; // 0x128
+		::System::Byte _padding8[0x7];
 		::RPG::GameCore::ComplexSkillAIConfig* ComplexSkillAIPreCheck; // 0x130
 		::RPG::GameCore::ComplexSkillAIConfig* ComplexSkillAI; // 0x138
 		::System::String* AIUltraSkillPriority; // 0x140
@@ -97,35 +104,41 @@ namespace RPG::GameCore
 		::System::Boolean IsSilence; // 0x154
 		::System::Boolean CanUseInInsertAction; // 0x155
 		::System::Boolean AutoCostSpNeed; // 0x156
+		::System::Byte _padding9[0x1];
 		::Il2CppArray<::RPG::GameCore::UsableConditionConfig*>* UsableConditions; // 0x158
 		::RPG::GameCore::PredicateConfig* VisibleCondition; // 0x160
 		::Il2CppArray<::System::String*>* ChildSkillList; // 0x168
 		::System::Boolean AutoStandbyOnSkillFinish; // 0x170
+		::System::Byte _padding10[0x7];
 		::RPG::GameCore::FakeSkillConfig* FakeSkillConfig; // 0x178
 		::System::Boolean IsLinkSkill; // 0x180
 		::System::Boolean IsSkillInsertable; // 0x181
 		::System::Boolean ForceSkillPanelActive; // 0x182
+		::System::Byte _padding11[0x5];
 		::RPG::GameCore::PredicateConfig* InsertCondition; // 0x188
 		::System::Boolean HoverSelectTarget; // 0x190
+		::System::Byte _padding12[0x3];
 		::RPG::GameCore::SkillResPreloadRule PreloadRule; // 0x194
 		::System::Boolean UseInputCache; // 0x198
+		::System::Byte _padding13[0x3];
 		::System::Single InputCacheTime; // 0x19C
 		::RPG::GameCore::BoolEx HasCutin; // 0x1A0
 		::System::Boolean DisableHeadLookAt; // 0x1A4
 		::System::Boolean EqualSplitDamageAndStancePreshow; // 0x1A5
+		::System::Byte _padding14[0x2];
 		::System::String* PendingInsertAbilityPriority; // 0x1A8
 		::RPG::GameCore::SkillUIConfig* UIConfig; // 0x1B0
 		::RPG::GameCore::ChildSkillUILayoutType ChildSkillUILayout; // 0x1B8
 		::RPG::GameCore::SkillActualAttackerType SkillActualAttacker; // 0x1BC
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkillConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::SkillConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkillConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SkillConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

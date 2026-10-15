@@ -3,38 +3,35 @@
 #include "unitysdk/Spine/Unity/SkeletonRootMotionBase.h"
 #include "unitysdk/Spine/Unity/SkeletonRootMotionBase_RootMotionInfo.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace Spine { class AnimationState; }
 namespace Spine { class TrackEntry; }
 namespace UnityEngine { class Canvas; }
 
-#define SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_1_OFFSET UNITYSDK_OFFSET(0x1E661D30)
-#define SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_OFFSET UNITYSDK_OFFSET(0x1E661980)
-#define SPINE_UNITY_SKELETONROOTMOTION_CALCULATEANIMATIONSMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x1E661660)
-#define SPINE_UNITY_SKELETONROOTMOTION_CALCULATEANIMATIONSROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x1E661A70)
-#define SPINE_UNITY_SKELETONROOTMOTION_GETMIXALPHA_OFFSET UNITYSDK_OFFSET(0x1E661E00)
-#define SPINE_UNITY_SKELETONROOTMOTION_GETREMAININGROOTMOTION_OFFSET UNITYSDK_OFFSET(0x1E661180)
-#define SPINE_UNITY_SKELETONROOTMOTION_GETROOTMOTIONINFO_OFFSET UNITYSDK_OFFSET(0x1E6612D0)
-#define SPINE_UNITY_SKELETONROOTMOTION_GET_ADDITIONALSCALE_OFFSET UNITYSDK_OFFSET(0x1E661430)
-#define SPINE_UNITY_SKELETONROOTMOTION_RESET_OFFSET UNITYSDK_OFFSET(0x1E661460)
-#define SPINE_UNITY_SKELETONROOTMOTION_START_OFFSET UNITYSDK_OFFSET(0x1E661480)
-#define SPINE_UNITY_SKELETONROOTMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E661ED0)
+#define SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_1_OFFSET UNITYSDK_OFFSET(0x1ED29B60)
+#define SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_OFFSET UNITYSDK_OFFSET(0x1ED297B0)
+#define SPINE_UNITY_SKELETONROOTMOTION_CALCULATEANIMATIONSMOVEMENTDELTA_OFFSET UNITYSDK_OFFSET(0x1ED29490)
+#define SPINE_UNITY_SKELETONROOTMOTION_CALCULATEANIMATIONSROTATIONDELTA_OFFSET UNITYSDK_OFFSET(0x1ED298A0)
+#define SPINE_UNITY_SKELETONROOTMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED29D00)
+#define SPINE_UNITY_SKELETONROOTMOTION_GETMIXALPHA_OFFSET UNITYSDK_OFFSET(0x1ED29C30)
+#define SPINE_UNITY_SKELETONROOTMOTION_GETREMAININGROOTMOTION_OFFSET UNITYSDK_OFFSET(0x1ED28FB0)
+#define SPINE_UNITY_SKELETONROOTMOTION_GETROOTMOTIONINFO_OFFSET UNITYSDK_OFFSET(0x1ED29100)
+#define SPINE_UNITY_SKELETONROOTMOTION_GET_ADDITIONALSCALE_OFFSET UNITYSDK_OFFSET(0x1ED29260)
+#define SPINE_UNITY_SKELETONROOTMOTION_RESET_OFFSET UNITYSDK_OFFSET(0x1ED29290)
+#define SPINE_UNITY_SKELETONROOTMOTION_START_OFFSET UNITYSDK_OFFSET(0x1ED292B0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRootMotion_TypeDefinitionIndex = 43829;
-
 	class SkeletonRootMotion : public ::Spine::Unity::SkeletonRootMotionBase
 	{
 	public:
-		// static const ::System::Int32 DefaultAnimationTrackFlags = 0xFFFFFFFF; // 0x0
 		::System::Int32 animationTrackFlags; // 0xF0
+		::System::Byte _padding0[0x4];
 		::Spine::AnimationState* animationState; // 0xF8
 		::UnityEngine::Canvas* canvas; // 0x100
-
+		// static const ::System::Object DefaultAnimationTrackFlags; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Vector2 GetRemainingRootMotion(::System::Int32 a1)
@@ -72,19 +69,20 @@ namespace Spine::Unity
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_CALCULATEANIMATIONSROTATIONDELTA_OFFSET))(this);
 		}
 
-		::System::Void ApplyMixAlphaToDelta(::UnityEngine::Vector2& a1, ::Spine::TrackEntry* a2, ::Spine::TrackEntry* a3)
+		::System::Void ApplyMixAlphaToDelta(::UnityEngine::Vector2 a1, ::Spine::TrackEntry* a2, ::Spine::TrackEntry* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&, ::Spine::TrackEntry*, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::Spine::TrackEntry*, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ApplyMixAlphaToDelta_1(::System::Single& a1, ::Spine::TrackEntry* a2, ::Spine::TrackEntry* a3)
+		::System::Void ApplyMixAlphaToDelta_1(::System::Single a1, ::Spine::TrackEntry* a2, ::Spine::TrackEntry* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::Spine::TrackEntry*, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::Spine::TrackEntry*, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_APPLYMIXALPHATODELTA_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void GetMixAlpha(::System::Single& a1, ::Spine::TrackEntry* a2, ::Spine::TrackEntry* a3)
+		::System::Void GetMixAlpha(::System::Single a1, ::Spine::TrackEntry* a2, ::Spine::TrackEntry* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single&, ::Spine::TrackEntry*, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_GETMIXALPHA_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::Spine::TrackEntry*, ::Spine::TrackEntry*))((::PBYTE)hIl2Cpp + SPINE_UNITY_SKELETONROOTMOTION_GETMIXALPHA_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

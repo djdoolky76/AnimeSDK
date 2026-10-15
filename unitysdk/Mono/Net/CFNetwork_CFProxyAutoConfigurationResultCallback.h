@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E8F5800)
-#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E8F5890)
-#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E8F57E0)
-#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F5770)
+#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBE880)
+#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBE7F0)
+#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBE910)
+#define MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBE860)
 
 namespace Mono::Net
 {
-	inline static constexpr unsigned int CFNetwork_CFProxyAutoConfigurationResultCallback_TypeDefinitionIndex = 2419;
-
 	class CFNetwork_CFProxyAutoConfigurationResultCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::IntPtr a1, ::System::IntPtr a2, ::System::IntPtr a3)
@@ -37,5 +34,6 @@ namespace Mono::Net
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_NET_CFNETWORK_CFPROXYAUTOCONFIGURATIONRESULTCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

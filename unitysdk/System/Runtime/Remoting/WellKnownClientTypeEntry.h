@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Runtime/Remoting/TypeEntry.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_GET_APPLICATIONURL_OFFSET UNITYSDK_OFFSET(0x1BE000D0)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1BE000E0)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_GET_OBJECTURL_OFFSET UNITYSDK_OFFSET(0x1BE000F0)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BE00100)
-#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDFFF50)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C30BBB0)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_GET_APPLICATIONURL_OFFSET UNITYSDK_OFFSET(0x1C30BD30)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_GET_OBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1C30BD40)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_GET_OBJECTURL_OFFSET UNITYSDK_OFFSET(0x1C30BD50)
+#define SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C30BD60)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int WellKnownClientTypeEntry_TypeDefinitionIndex = 1229;
-
 	class WellKnownClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry
 	{
 	public:
 		::System::String* app_url; // 0x20
 		::System::String* obj_url; // 0x28
 		::System::Type* obj_type; // 0x30
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::String* get_ApplicationUrl()
@@ -46,5 +42,6 @@ namespace System::Runtime::Remoting
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_WELLKNOWNCLIENTTYPEENTRY_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

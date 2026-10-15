@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumTalkTriggerType_TypeDefinitionIndex = 14145;
-
 	enum class MuseumTalkTriggerType : ::System::Int32
 	{
 		Unknown = 0,

@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB1B9AE0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB1B9BD0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB1B9AA0)
-#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB1B9A30)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAF63EB0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAF63E00)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAF63FA0)
+#define MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAF63E70)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BrowserWin32Helper_WndProcDelegate_TypeDefinitionIndex = 47068;
-
 	class BrowserWin32Helper_WndProcDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::IntPtr Invoke(::System::IntPtr a1, ::System::UInt32 a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::IntPtr a5, ::System::IntPtr a6)
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::IntPtr(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_BROWSERWIN32HELPER_WNDPROCDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

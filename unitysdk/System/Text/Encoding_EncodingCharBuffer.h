@@ -1,43 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Text { class DecoderFallbackBuffer; }
 namespace System::Text { class DecoderNLS; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_ADDCHAR_1_OFFSET UNITYSDK_OFFSET(0x1BC15620)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_ADDCHAR_OFFSET UNITYSDK_OFFSET(0x1BC15580)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_ADJUSTBYTES_OFFSET UNITYSDK_OFFSET(0x1BC15630)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_FALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1BC156D0)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC15680)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GETNEXTBYTE_OFFSET UNITYSDK_OFFSET(0x1BC15650)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GET_BYTESUSED_OFFSET UNITYSDK_OFFSET(0x1BC15670)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1BC15960)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x1BC15640)
-#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC15480)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_ADDCHAR_1_OFFSET UNITYSDK_OFFSET(0x1C121890)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_ADDCHAR_OFFSET UNITYSDK_OFFSET(0x1C1217F0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_ADJUSTBYTES_OFFSET UNITYSDK_OFFSET(0x1C1218A0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1216F0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_FALLBACK_1_OFFSET UNITYSDK_OFFSET(0x1C121940)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1C1218F0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GETNEXTBYTE_OFFSET UNITYSDK_OFFSET(0x1C1218C0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GET_BYTESUSED_OFFSET UNITYSDK_OFFSET(0x1C1218E0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1C121BD0)
+#define SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GET_MOREDATA_OFFSET UNITYSDK_OFFSET(0x1C1218B0)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int Encoding_EncodingCharBuffer_TypeDefinitionIndex = 492;
-
 	class Encoding_EncodingCharBuffer : public ::System::Object
 	{
 	public:
-		::System::Text::DecoderFallbackBuffer* fallbackBuffer; // 0x10
-		::System::Text::Encoding* enc; // 0x18
-		::System::Text::DecoderNLS* decoder; // 0x20
-		::System::Char* charEnd; // 0x28
-		::System::Char* charStart; // 0x30
-		::System::Byte* byteEnd; // 0x38
-		::System::Int32 charCountResult; // 0x40
-		::System::Byte* bytes; // 0x48
-		::System::Char* chars; // 0x50
-		::System::Byte* byteStart; // 0x58
-
-		::System::Void _ctor(::System::Text::Encoding* a1, ::System::Text::DecoderNLS* a2, ::System::Char* a3, ::System::Int32 a4, ::System::Byte* a5, ::System::Int32 a6)
+		::System::Text::Encoding* enc; // 0x10
+		::System::Text::DecoderNLS* decoder; // 0x18
+		::System::Text::DecoderFallbackBuffer* fallbackBuffer; // 0x20
+		::PVOID byteEnd; // 0x28
+		::PVOID bytes; // 0x30
+		::System::Int32 charCountResult; // 0x38
+		::System::Byte _padding0[0x4];
+		::PVOID byteStart; // 0x40
+		::PVOID charEnd; // 0x48
+		::PVOID charStart; // 0x50
+		::PVOID chars; // 0x58
+		::System::Void _ctor(::System::Text::Encoding* a1, ::System::Text::DecoderNLS* a2, ::PVOID a3, ::System::Int32 a4, ::PVOID a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*, ::System::Text::DecoderNLS*, ::System::Char*, ::System::Int32, ::System::Byte*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::Text::Encoding*, ::System::Text::DecoderNLS*, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Boolean AddChar(::System::Char a1, ::System::Int32 a2)
@@ -84,5 +81,6 @@ namespace System::Text
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODING_ENCODINGCHARBUFFER_GET_COUNT_OFFSET))(this);
 		}
+
 	};
 }

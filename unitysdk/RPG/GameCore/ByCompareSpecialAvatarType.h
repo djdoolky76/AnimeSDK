@@ -2,50 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
 #include "unitysdk/RPG/GameCore/SpecialAvatarType.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByCompareSpecialAvatarType; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_810BE6FA90AF7850_OFFSET UNITYSDK_OFFSET(0x1CEFE2F0)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_982D4AF570171AD6_OFFSET UNITYSDK_OFFSET(0x1CEFE4C0)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_A7C81A0410E89300_OFFSET UNITYSDK_OFFSET(0x1CEFE4F0)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_B49F858041B8063D_OFFSET UNITYSDK_OFFSET(0x1CEFE2B0)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFE2E0)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D6BB0)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4D6DC0)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4D6D90)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4D6BC0)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4D6B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareSpecialAvatarType_TypeDefinitionIndex = 23103;
-
 	class ByCompareSpecialAvatarType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::SpecialAvatarType CompareType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B49F858041B8063D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSpecialAvatarType*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSpecialAvatarType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_B49F858041B8063D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_810BE6FA90AF7850(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_810BE6FA90AF7850_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_982D4AF570171AD6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_982D4AF570171AD6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A7C81A0410E89300(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_A7C81A0410E89300_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

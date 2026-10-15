@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_UI3DMAP3DCAMERASETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xE324CD0)
+#define RPG_CLIENT_UI3DMAP3DCAMERASETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xE364050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DMap3DCameraSettings_TypeDefinitionIndex = 72923;
-
 	class UI3DMap3DCameraSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -37,13 +34,14 @@ namespace RPG::Client
 		::System::Single OuterBoundRatio; // 0x78
 		::System::Single RecoverToBoundTime; // 0x7C
 		::System::Boolean CenteringWhenScreenBiggerThanCanvas; // 0x80
+		::System::Byte _padding0[0x3];
 		::System::Single ResetDuration; // 0x84
 		::UnityEngine::AnimationCurve* CenteringCurve; // 0x88
 		::UnityEngine::AnimationCurve* ResetCurve; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DMAP3DCAMERASETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UI3DMAP3DCAMERASETTINGS_CTOR_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Diagnostics
 {
-	inline static constexpr unsigned int ForcedCrashCategory_TypeDefinitionIndex = 4922;
-
 	enum class ForcedCrashCategory : ::System::Int32
 	{
 		AccessViolation = 0,

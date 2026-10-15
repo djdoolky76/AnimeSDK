@@ -2,48 +2,46 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AliveStateMask.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetFilterAliveState; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_34B859CE10C0E24A_OFFSET UNITYSDK_OFFSET(0x1D5AFDF0)
-#define RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_80E5135060B96801_OFFSET UNITYSDK_OFFSET(0x1D5AFCE0)
-#define RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_A09B881C660D7ADA_OFFSET UNITYSDK_OFFSET(0x1D5AFD20)
-#define RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_E32E06B639EF9F9B_OFFSET UNITYSDK_OFFSET(0x1D5AFDC0)
-#define RPG_GAMECORE_TARGETFILTERALIVESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AFD10)
+#define RPG_GAMECORE_TARGETFILTERALIVESTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB67290)
+#define RPG_GAMECORE_TARGETFILTERALIVESTATE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB67370)
+#define RPG_GAMECORE_TARGETFILTERALIVESTATE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB67340)
+#define RPG_GAMECORE_TARGETFILTERALIVESTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB672A0)
+#define RPG_GAMECORE_TARGETFILTERALIVESTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB67260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFilterAliveState_TypeDefinitionIndex = 23630;
-
 	class TargetFilterAliveState : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::RPG::GameCore::AliveStateMask Mask; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_80E5135060B96801(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFilterAliveState*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFilterAliveState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFilterAliveState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_80E5135060B96801_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFilterAliveState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A09B881C660D7ADA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFilterAliveState* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetFilterAliveState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFilterAliveState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_A09B881C660D7ADA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetFilterAliveState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_E32E06B639EF9F9B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFilterAliveState*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFilterAliveState* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFilterAliveState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_E32E06B639EF9F9B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFilterAliveState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_34B859CE10C0E24A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFilterAliveState* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFilterAliveState* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFilterAliveState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_METHOD_3_34B859CE10C0E24A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFilterAliveState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFILTERALIVESTATE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

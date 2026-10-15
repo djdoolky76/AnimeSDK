@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 #include "unitysdk/Cysharp/Threading/Tasks/UniTaskStatus.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/Cysharp/Threading/Tasks/AsyncUnit.h"
 namespace Cysharp::Threading::Tasks { class IUniTaskSource; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1EA7F210)
-#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1EA7ED30)
-#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA7EE70)
-#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1EA7EFA0)
-#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1EA7F0E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7D810)
+#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F144F70)
+#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F146980)
+#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F1464A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F1465E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F146710)
+#define CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F146850)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_AsyncUnitSource_TypeDefinitionIndex = 42747;
-
 	class UniTask_AsyncUnitSource : public ::System::Object
 	{
 	public:
 		::Cysharp::Threading::Tasks::IUniTaskSource* source; // 0x10
-
 		::System::Void _ctor(::Cysharp::Threading::Tasks::IUniTaskSource* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::IUniTaskSource*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Cysharp::Threading::Tasks::IUniTaskSource*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_CTOR_OFFSET))(this, a1);
 		}
 
 		::Cysharp::Threading::Tasks::AsyncUnit GetResult(::System::Int16 a1)
@@ -38,9 +35,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::Cysharp::Threading::Tasks::UniTaskStatus(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_GETSTATUS_OFFSET))(this, a1);
 		}
 
-		::System::Void OnCompleted(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Int16 a3)
+		::System::Void OnCompleted(::System::Action* a1, ::System::Object* a2, ::System::Int16 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_ONCOMPLETED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::Cysharp::Threading::Tasks::UniTaskStatus UnsafeGetStatus()
@@ -52,5 +49,6 @@ namespace Cysharp::Threading::Tasks
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int16))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITASK_ASYNCUNITSOURCE_CYSHARP_THREADING_TASKS_IUNITASKSOURCE_GETRESULT_OFFSET))(this, a1);
 		}
+
 	};
 }

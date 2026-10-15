@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OtherSettings_FastRunSwitchMode_TypeDefinitionIndex = 59509;
-
 	enum class OtherSettings_FastRunSwitchMode : ::System::Int32
 	{
 		ButtonSwitch = 0,

@@ -3,38 +3,38 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_METHOD_1_FD7514C64FB1B043_OFFSET UNITYSDK_OFFSET(0xD7C52B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD7C5480)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD807500)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xD807330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyTransformParam_TypeDefinitionIndex = 70064;
-
 	class MonoEffectPluginProgress_ModifyTransformParam : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* TargetTransform; // 0x10
 		::System::Boolean ModifyPosition; // 0x18
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 PositionOnBegin; // 0x1C
 		::UnityEngine::Vector3 PositionOnEnd; // 0x28
 		::System::Boolean ModifyRotation; // 0x34
+		::System::Byte _padding1[0x3];
 		::UnityEngine::Quaternion RotationOnBegin; // 0x38
 		::UnityEngine::Quaternion RotationOnEnd; // 0x48
 		::System::Boolean ModifyScale; // 0x58
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Vector3 ScaleOnBegin; // 0x5C
 		::UnityEngine::Vector3 ScaleOnEnd; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_FD7514C64FB1B043(::System::Single a1)
+		::System::Void PKADDEPKJFN(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_METHOD_1_FD7514C64FB1B043_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_PKADDEPKJFN_OFFSET))(this, a1);
 		}
+
 	};
 }

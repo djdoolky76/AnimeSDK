@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GameObjectPoolConfigTemplate; }
 namespace RPG::GameCore { class GameObjectPoolGroupConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_METHOD_2_573E27F21737D51D_OFFSET UNITYSDK_OFFSET(0x1D13D9C0)
-#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13DCA0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7178F0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D717610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameObjectPoolConfigTemplate_TypeDefinitionIndex = 18049;
-
 	class GameObjectPoolConfigTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -22,16 +20,17 @@ namespace RPG::GameCore
 		::System::Int32 FrameSpawnMaxTimeIncMs; // 0x18
 		::System::Int32 FrameSpawnMaxTimeLimitMs; // 0x1C
 		::System::Int32 PoolAutoReleaseIntervalMs; // 0x20
+		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::GameObjectPoolGroupConfig*>* GroupConfigs; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_573E27F21737D51D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GameObjectPoolConfigTemplate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GameObjectPoolConfigTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GameObjectPoolConfigTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_METHOD_2_573E27F21737D51D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GameObjectPoolConfigTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEOBJECTPOOLCONFIGTEMPLATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

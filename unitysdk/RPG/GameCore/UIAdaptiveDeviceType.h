@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIAdaptiveDeviceType_TypeDefinitionIndex = 24555;
-
 	enum class UIAdaptiveDeviceType : ::System::Int32
 	{
 		Unknown = 0,

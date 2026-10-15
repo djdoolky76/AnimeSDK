@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/GELIALJDFBL.h"
+class GELIALJDFBL;
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define BNBOAMEBAOE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC7760)
+#define BNBOAMEBAOE_FADEIFNLDDM_OFFSET UNITYSDK_OFFSET(0xBDC7750)
+
+	class BNBOAMEBAOE : public ::GELIALJDFBL
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBOAMEBAOE_CTOR_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IList_1<::GELIALJDFBL*>* FADEIFNLDDM()
+		{
+			return ((::System::Collections::Generic::IList_1<::GELIALJDFBL*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + BNBOAMEBAOE_FADEIFNLDDM_OFFSET))(this);
+		}
+
+	};

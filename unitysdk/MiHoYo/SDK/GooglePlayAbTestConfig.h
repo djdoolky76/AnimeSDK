@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_GOOGLEPLAYABTESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B945470)
+#define MIHOYO_SDK_GOOGLEPLAYABTESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE44E00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GooglePlayAbTestConfig_TypeDefinitionIndex = 7857;
-
 	class GooglePlayAbTestConfig : public ::System::Object
 	{
 	public:
@@ -19,10 +16,10 @@ namespace MiHoYo::SDK
 		::System::String* scene_id; // 0x20
 		::System::String* experiment_id; // 0x28
 		::System::Collections::Generic::List_1<::System::Int32>* enable_envs; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GOOGLEPLAYABTESTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_GOOGLEPLAYABTESTCONFIG_CTOR_OFFSET))(this);
 		}
+
 	};
 }

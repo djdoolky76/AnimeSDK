@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class SharedStatics; }
 namespace System::Security::Util { class Tokenizer_StringMaker; }
 
-#define SYSTEM_SHAREDSTATICS_GETSHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x1BBE35A0)
-#define SYSTEM_SHAREDSTATICS_RELEASESHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x1BBE3B80)
-#define SYSTEM_SHAREDSTATICS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBECCB0)
-#define SYSTEM_SHAREDSTATICS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBECCA0)
+#define SYSTEM_SHAREDSTATICS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0F8E20)
+#define SYSTEM_SHAREDSTATICS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F8E10)
+#define SYSTEM_SHAREDSTATICS_GETSHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x1C0EF700)
+#define SYSTEM_SHAREDSTATICS_RELEASESHAREDSTRINGMAKER_OFFSET UNITYSDK_OFFSET(0x1C0EFCE0)
 
 namespace System
 {
-	inline static constexpr unsigned int SharedStatics_TypeDefinitionIndex = 327;
-
 	class SharedStatics : public ::System::Object
 	{
 	public:
+		::System::Security::Util::Tokenizer_StringMaker* _maker; // 0x10
 		static ::System::SharedStatics** StaticGet__sharedStatics()
 		{
-			return (::System::SharedStatics**)Il2CppClass::FromTypeDefinitionIndex(SharedStatics_TypeDefinitionIndex)->GetStaticField(0xF440);
+			return (::System::SharedStatics**)UnitySDK::FromName("System", "SharedStatics")->GetStaticField(0x1A530);
 		}
-		::System::Security::Util::Tokenizer_StringMaker* _maker; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SHAREDSTATICS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SHAREDSTATICS_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SHAREDSTATICS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_SHAREDSTATICS_CCTOR_OFFSET))();
 		}
 
 		static ::System::Security::Util::Tokenizer_StringMaker* GetSharedStringMaker()
@@ -37,9 +35,10 @@ namespace System
 			return ((::System::Security::Util::Tokenizer_StringMaker*(*)())((::PBYTE)hIl2Cpp + SYSTEM_SHAREDSTATICS_GETSHAREDSTRINGMAKER_OFFSET))();
 		}
 
-		static ::System::Void ReleaseSharedStringMaker(::System::Security::Util::Tokenizer_StringMaker*& a1)
+		static ::System::Void ReleaseSharedStringMaker(::System::Security::Util::Tokenizer_StringMaker* a1)
 		{
-			return ((::System::Void(*)(::System::Security::Util::Tokenizer_StringMaker*&))((::PBYTE)hIl2Cpp + SYSTEM_SHAREDSTATICS_RELEASESHAREDSTRINGMAKER_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Security::Util::Tokenizer_StringMaker*))((::PBYTE)hIl2Cpp + SYSTEM_SHAREDSTATICS_RELEASESHAREDSTRINGMAKER_OFFSET))(a1);
 		}
+
 	};
 }

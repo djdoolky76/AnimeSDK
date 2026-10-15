@@ -2,23 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::GameCore { class LittleGameRadialBlurEffect; }
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_038DE84100911ABE_OFFSET UNITYSDK_OFFSET(0xDE79C30)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_1_OFFSET UNITYSDK_OFFSET(0xDE79D90)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_2_OFFSET UNITYSDK_OFFSET(0xDE79E10)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_3_OFFSET UNITYSDK_OFFSET(0xDE79E90)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_4_OFFSET UNITYSDK_OFFSET(0xDE79F10)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_OFFSET UNITYSDK_OFFSET(0xDE79BB0)
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xDE79F90)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_CHAELJEJKPH_OFFSET UNITYSDK_OFFSET(0xDECA7D0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_CIDDCGGBPIB_OFFSET UNITYSDK_OFFSET(0xDECA750)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xDECA950)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_ENOPKFHOEGM_OFFSET UNITYSDK_OFFSET(0xDECA850)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_HENEAGPOOHG_OFFSET UNITYSDK_OFFSET(0xDECA5F0)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_JOCEIEEOKGG_OFFSET UNITYSDK_OFFSET(0xDECA570)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_PEKNEMKIKLN_OFFSET UNITYSDK_OFFSET(0xDECA8D0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashCameraSettings_TypeDefinitionIndex = 75427;
-
 	class MonoRoadRashCameraSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -27,6 +24,7 @@ namespace RPG::Client::RoadRash
 		::System::Single SpeedToMaxFOV; // 0x20
 		::System::Single MinSpeedToFOV; // 0x24
 		::System::Single MaxSpeedToFOV; // 0x28
+		::System::Byte _padding0[0x4];
 		::UnityEngine::AnimationCurve* SpeedToFOVCurve; // 0x30
 		::System::Single FOVMin; // 0x38
 		::System::Single FOVMax; // 0x3C
@@ -45,12 +43,14 @@ namespace RPG::Client::RoadRash
 		::System::Single SpeedToMaxRigHeight; // 0x78
 		::System::Single MinSpeedToRigHeight; // 0x7C
 		::System::Single MaxSpeedToRigHeight; // 0x80
+		::System::Byte _padding1[0x4];
 		::UnityEngine::AnimationCurve* SpeedToRigHeightCurve; // 0x88
 		::System::Single BlendRigRadiusHalfTime; // 0x90
 		::System::Single SpeedToMinRigRadius; // 0x94
 		::System::Single SpeedToMaxRigRadius; // 0x98
 		::System::Single MinSpeedToRigRadius; // 0x9C
 		::System::Single MaxSpeedToRigRadius; // 0xA0
+		::System::Byte _padding2[0x4];
 		::UnityEngine::AnimationCurve* SpeedToRigRadiusCurve; // 0xA8
 		::System::Int32 HitWallShakeIndex; // 0xB0
 		::System::Single HitWallShakeCooldown; // 0xB4
@@ -65,40 +65,40 @@ namespace RPG::Client::RoadRash
 		::RPG::GameCore::LittleGameRadialBlurEffect* DefaultBlur; // 0xD8
 		::UnityEngine::AnimationCurve* BlurBlendCurve; // 0xE0
 		::System::Single BlurBlendDuration; // 0xE8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_CTOR_OFFSET))(this);
 		}
 
-		::System::String* Method_5_0B34AA51B95C62BE()
+		::System::String* JOCEIEEOKGG()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_JOCEIEEOKGG_OFFSET))(this);
 		}
 
-		::System::String* Method_5_0B34AA51B95C62BE_1()
+		::System::String* CIDDCGGBPIB()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_1_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_CIDDCGGBPIB_OFFSET))(this);
 		}
 
-		::System::String* Method_5_0B34AA51B95C62BE_2()
+		::System::String* CHAELJEJKPH()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_2_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_CHAELJEJKPH_OFFSET))(this);
 		}
 
-		::System::String* Method_5_0B34AA51B95C62BE_3()
+		::System::String* ENOPKFHOEGM()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_3_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_ENOPKFHOEGM_OFFSET))(this);
 		}
 
-		::System::String* Method_5_0B34AA51B95C62BE_4()
+		::System::String* PEKNEMKIKLN()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_0B34AA51B95C62BE_4_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_PEKNEMKIKLN_OFFSET))(this);
 		}
 
-		::System::String* Method_5_038DE84100911ABE(::System::Int32 a1)
+		::System::String* HENEAGPOOHG(::System::Int32 a1)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_METHOD_5_038DE84100911ABE_OFFSET))(this, a1);
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASH_MONOROADRASHCAMERASETTINGS_HENEAGPOOHG_OFFSET))(this, a1);
 		}
+
 	};
 }

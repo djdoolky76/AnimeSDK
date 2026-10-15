@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkGroupType_TypeDefinitionIndex = 61151;
-
 	enum class WorkGroupType : ::System::Int32
 	{
 		Parallel = 0,

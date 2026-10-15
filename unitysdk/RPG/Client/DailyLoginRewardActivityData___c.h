@@ -2,42 +2,42 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityLoginData_RewardStatus.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC94400)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC94440)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0xCC94450)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBE7900)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE7940)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0xCBE7950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 61702;
-
 	class DailyLoginRewardActivityData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::DailyLoginRewardActivityData___c** StaticGet___9()
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::RPG::Client::DailyLoginRewardActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x5BE30);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FDC0);
 		}
-		static ::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>** StaticGet___9__2_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x5BE38);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FDC8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _IsShowNormalRedDot_b__2_0(::RPG::Client::ActivityLoginData_RewardStatus a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::ActivityLoginData_RewardStatus))((::PBYTE)hIl2Cpp + RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET))(this, a1);
 		}
+
 	};
 }

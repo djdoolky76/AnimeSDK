@@ -2,39 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/CRPMainCameraDesc.h"
-
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C698BF0)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1C698BE0)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_RELEASEMASKRT_OFFSET UNITYSDK_OFFSET(0x1C698B10)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C699750)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C698BD0)
-#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB__ENSUREMASKRT_OFFSET UNITYSDK_OFFSET(0x1C699570)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC1F8D0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1ED60)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC1ED80)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1CC1ED70)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_RELEASEMASKRT_OFFSET UNITYSDK_OFFSET(0x1CC1ECA0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB__ENSUREMASKRT_OFFSET UNITYSDK_OFFSET(0x1CC1F6F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingMaskManager_MaskCb_TypeDefinitionIndex = 37083;
-
 	class ColorGradingMaskManager_MaskCb : public ::System::Object
 	{
 	public:
+		::UnityEngine::RenderTexture* _maskRT; // 0x10
 		static ::System::Int32* StaticGet__outputValID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ColorGradingMaskManager_MaskCb_TypeDefinitionIndex)->GetStaticField(0xE010);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "MaskCb")->GetStaticField(0x9D70);
 		}
-		// static const ::System::Boolean _halfRes; // 0x0
-		::UnityEngine::RenderTexture* _maskRT; // 0x10
 
+		// static const ::System::Object _halfRes; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_Key()
@@ -42,9 +39,9 @@ namespace RPG::CustomRP
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_GET_KEY_OFFSET))(this);
 		}
 
-		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc& a2)
+		::System::Void Execute(::UnityEngine::Rendering::CommandBuffer* a1, ::UnityEngine::Rendering::CRPMainCameraDesc a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc&))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_EXECUTE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::CRPMainCameraDesc))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_EXECUTE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _EnsureMaskRT(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
@@ -56,5 +53,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_COLORGRADINGMASKMANAGER_MASKCB_RELEASEMASKRT_OFFSET))(this);
 		}
+
 	};
 }

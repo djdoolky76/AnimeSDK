@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTTASKCONFIG_GET_LEVELGRAPHPATH_OFFSET UNITYSDK_OFFSET(0xD331FF0)
-#define RPG_CLIENT_GRIDFIGHTTASKCONFIG_GET_TASKID_OFFSET UNITYSDK_OFFSET(0xD331FE0)
-#define RPG_CLIENT_GRIDFIGHTTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD331F90)
+#define RPG_CLIENT_GRIDFIGHTTASKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD28B430)
+#define RPG_CLIENT_GRIDFIGHTTASKCONFIG_GET_LEVELGRAPHPATH_OFFSET UNITYSDK_OFFSET(0xD28B490)
+#define RPG_CLIENT_GRIDFIGHTTASKCONFIG_GET_TASKID_OFFSET UNITYSDK_OFFSET(0xD28B480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTaskConfig_TypeDefinitionIndex = 65566;
-
 	class GridFightTaskConfig : public ::System::Object
 	{
 	public:
 		::System::String* _LevelGraphPath_k__BackingField; // 0x10
 		::System::UInt32 _TaskID_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTASKCONFIG__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTASKCONFIG_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TaskID()
@@ -32,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTASKCONFIG_GET_LEVELGRAPHPATH_OFFSET))(this);
 		}
+
 	};
 }

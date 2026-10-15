@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6C40)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6C90)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB6C30)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB6BC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67F1B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67F130)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67F200)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F67F1A0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRCompositor__SuspendRendering_TypeDefinitionIndex = 37750;
-
 	class IVRCompositor__SuspendRendering : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Boolean a1)
@@ -37,5 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCOMPOSITOR__SUSPENDRENDERING_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

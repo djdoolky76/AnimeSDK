@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistantShowCaseType_TypeDefinitionIndex = 12582;
-
 	enum class AssistantShowCaseType : ::System::Int32
 	{
 		Unknown = 0,

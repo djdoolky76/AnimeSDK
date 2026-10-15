@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Text { class StringBuilder; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBEAD0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBEB50)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFBEAB0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBEA40)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F687040)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1F686FB0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F6870C0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F687020)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRRenderModels__GetRenderModelName_TypeDefinitionIndex = 37851;
-
 	class IVRRenderModels__GetRenderModelName : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::System::UInt32 a1, ::System::Text::StringBuilder* a2, ::System::UInt32 a3)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRRENDERMODELS__GETRENDERMODELNAME_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

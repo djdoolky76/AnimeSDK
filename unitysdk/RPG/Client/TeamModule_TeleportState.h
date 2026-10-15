@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamModule_TeleportState_TypeDefinitionIndex = 68123;
-
 	enum class TeamModule_TeleportState : ::System::Int32
 	{
 		None = 0,

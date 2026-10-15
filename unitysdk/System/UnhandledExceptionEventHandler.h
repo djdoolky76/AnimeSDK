@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class UnhandledExceptionEventArgs; }
 
-#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC806B0)
-#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC806F0)
-#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC806A0)
-#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC805B0)
+#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C18C610)
+#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C18C510)
+#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C18C650)
+#define SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C18C600)
 
 namespace System
 {
-	inline static constexpr unsigned int UnhandledExceptionEventHandler_TypeDefinitionIndex = 361;
-
 	class UnhandledExceptionEventHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1, ::System::UnhandledExceptionEventArgs* a2)
@@ -38,5 +35,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_UNHANDLEDEXCEPTIONEVENTHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

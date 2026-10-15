@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class InfiniteWaveModifySummonProgress; }
 
-#define RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_METHOD_3_05AB269B1C61DA92_OFFSET UNITYSDK_OFFSET(0x1D1AB0C0)
-#define RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_METHOD_3_6153CC3C03735139_OFFSET UNITYSDK_OFFSET(0x1D1AB080)
-#define RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1AB0B0)
+#define RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D786DF0)
+#define RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D786E00)
+#define RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D786DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfiniteWaveModifySummonProgress_TypeDefinitionIndex = 22998;
-
 	class InfiniteWaveModifySummonProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* NewPercent; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6153CC3C03735139(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveModifySummonProgress*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::InfiniteWaveModifySummonProgress* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfiniteWaveModifySummonProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_METHOD_3_6153CC3C03735139_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::InfiniteWaveModifySummonProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_05AB269B1C61DA92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InfiniteWaveModifySummonProgress* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::InfiniteWaveModifySummonProgress* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InfiniteWaveModifySummonProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_METHOD_3_05AB269B1C61DA92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::InfiniteWaveModifySummonProgress*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INFINITEWAVEMODIFYSUMMONPROGRESS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillUIPreShowType_TypeDefinitionIndex = 24490;
-
 	enum class SkillUIPreShowType : ::System::Int32
 	{
 		LoseHP = 0,

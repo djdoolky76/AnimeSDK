@@ -2,34 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Linq/XNode.h"
 #include "unitysdk/System/Xml/XmlNodeType.h"
-
 namespace System { class String; }
 namespace System::Xml { class XmlWriter; }
+namespace System::Xml::Linq { class XComment; }
+namespace System::Xml::Linq { class XNode; }
 
-#define SYSTEM_XML_LINQ_XCOMMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1E7BBB90)
-#define SYSTEM_XML_LINQ_XCOMMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E7BBA90)
-#define SYSTEM_XML_LINQ_XCOMMENT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E7BBAA0)
-#define SYSTEM_XML_LINQ_XCOMMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BBAB0)
-#define SYSTEM_XML_LINQ_XCOMMENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7BBA20)
-#define SYSTEM_XML_LINQ_XCOMMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BB9A0)
+#define SYSTEM_XML_LINQ_XCOMMENT_CLONENODE_OFFSET UNITYSDK_OFFSET(0x1EE848B0)
+#define SYSTEM_XML_LINQ_XCOMMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE84740)
+#define SYSTEM_XML_LINQ_XCOMMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE846C0)
+#define SYSTEM_XML_LINQ_XCOMMENT_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EE847B0)
+#define SYSTEM_XML_LINQ_XCOMMENT_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EE847C0)
+#define SYSTEM_XML_LINQ_XCOMMENT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EE847D0)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XComment_TypeDefinitionIndex = 3903;
-
 	class XComment : public ::System::Xml::Linq::XNode
 	{
 	public:
 		::System::String* value; // 0x28
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCOMMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCOMMENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Xml::Linq::XComment* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XComment*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCOMMENT__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::Linq::XComment*))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCOMMENT_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Xml::XmlNodeType get_NodeType()
@@ -51,5 +49,6 @@ namespace System::Xml::Linq
 		{
 			return ((::System::Xml::Linq::XNode*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_LINQ_XCOMMENT_CLONENODE_OFFSET))(this);
 		}
+
 	};
 }

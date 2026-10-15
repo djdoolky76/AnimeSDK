@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define HIPPLENBUILDERTIMEASSET_TIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x15ADF380)
+#define HIPPLENBUILDERTIMEASSET_TIMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF3620)
 
-inline static constexpr unsigned int HipplenBuilderTimeAsset_TimeConfig_TypeDefinitionIndex = 47696;
-
-class HipplenBuilderTimeAsset_TimeConfig : public ::System::Object
-{
-public:
-	::System::String* Desc; // 0x10
-
-	::System::Void _ctor()
+	class HipplenBuilderTimeAsset_TimeConfig : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTIMEASSET_TIMECONFIG__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::System::String* Desc; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERTIMEASSET_TIMECONFIG_CTOR_OFFSET))(this);
+		}
+
+	};

@@ -3,8 +3,6 @@
 
 namespace System::Security::Policy
 {
-	inline static constexpr unsigned int PolicyStatementAttribute_TypeDefinitionIndex = 962;
-
 	enum class PolicyStatementAttribute : ::System::Int32
 	{
 		Nothing = 0,

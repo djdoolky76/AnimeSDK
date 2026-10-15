@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/UnityEngine/Light_EParticleLightEvent.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2C850)
-#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2C8D0)
-#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED2C7B0)
-#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2C7D0)
+#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F3F4370)
+#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F42F0)
+#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F3F43F0)
+#define UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F3F42D0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Light_OnParticleLightEvent_TypeDefinitionIndex = 4146;
-
 	class Light_OnParticleLightEvent : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::Light* a1, ::UnityEngine::Light_EParticleLightEvent a2)
@@ -39,5 +36,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + UNITYENGINE_LIGHT_ONPARTICLELIGHTEVENT_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

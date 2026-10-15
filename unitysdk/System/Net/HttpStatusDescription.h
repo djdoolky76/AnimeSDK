@@ -2,16 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/HttpStatusCode.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_1_OFFSET UNITYSDK_OFFSET(0x1E988C80)
-#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_OFFSET UNITYSDK_OFFSET(0x1E993560)
+#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_1_OFFSET UNITYSDK_OFFSET(0x1F0517B0)
+#define SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_OFFSET UNITYSDK_OFFSET(0x1F05C1B0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpStatusDescription_TypeDefinitionIndex = 2723;
-
 	class HttpStatusDescription : public ::System::Object
 	{
 	public:
@@ -24,5 +21,6 @@ namespace System::Net
 		{
 			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTPSTATUSDESCRIPTION_GET_1_OFFSET))(a1);
 		}
+
 	};
 }

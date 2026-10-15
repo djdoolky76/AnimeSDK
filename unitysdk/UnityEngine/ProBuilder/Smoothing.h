@@ -3,34 +3,30 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ProBuilder/EdgeLookup.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_1_OFFSET UNITYSDK_OFFSET(0x1EBC14D0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_OFFSET UNITYSDK_OFFSET(0x1EBC14C0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_FINDSOFTEDGESRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1EBC28D0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_GETNEXTUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1EBC1430)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_GETUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1EBC11F0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSMOOTH_OFFSET UNITYSDK_OFFSET(0x1EBC14A0)
-#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1EBC2BD0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_1_OFFSET UNITYSDK_OFFSET(0x1F2890F0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_APPLYSMOOTHINGGROUPS_OFFSET UNITYSDK_OFFSET(0x1F2890E0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_FINDSOFTEDGESRECURSIVE_OFFSET UNITYSDK_OFFSET(0x1F28A4F0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_GETNEXTUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1F289050)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_GETUNUSEDSMOOTHINGGROUP_OFFSET UNITYSDK_OFFSET(0x1F288E10)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSMOOTH_OFFSET UNITYSDK_OFFSET(0x1F2890C0)
+#define UNITYENGINE_PROBUILDER_SMOOTHING_ISSOFTEDGE_OFFSET UNITYSDK_OFFSET(0x1F28A7F0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Smoothing_TypeDefinitionIndex = 43245;
-
 	class Smoothing : public ::System::Object
 	{
 	public:
-		// static const ::System::Int32 smoothingGroupNone = 0x0; // 0x0
-		// static const ::System::Int32 smoothRangeMin = 0x1; // 0x0
-		// static const ::System::Int32 smoothRangeMax = 0x18; // 0x0
-		// static const ::System::Int32 hardRangeMin = 0x19; // 0x0
-		// static const ::System::Int32 hardRangeMax = 0x2A; // 0x0
-
+		// static const ::System::Object smoothingGroupNone; // 0x0
+		// static const ::System::Object smoothRangeMin; // 0x0
+		// static const ::System::Object smoothRangeMax; // 0x0
+		// static const ::System::Object hardRangeMin; // 0x0
+		// static const ::System::Object hardRangeMax; // 0x0
 		static ::System::Int32 GetUnusedSmoothingGroup(::UnityEngine::ProBuilder::ProBuilderMesh* a1)
 		{
 			return ((::System::Int32(*)(::UnityEngine::ProBuilder::ProBuilderMesh*))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_GETUNUSEDSMOOTHINGGROUP_OFFSET))(a1);
@@ -65,5 +61,6 @@ namespace UnityEngine::ProBuilder
 		{
 			return ((::System::Boolean(*)(::Il2CppArray<::UnityEngine::Vector3>*, ::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::EdgeLookup, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_SMOOTHING_ISSOFTEDGE_OFFSET))(a1, a2, a3, a4);
 		}
+
 	};
 }

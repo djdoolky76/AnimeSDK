@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class ComplexSkillAIFactorGroup; }
 namespace RPG::GameCore { class SkillExtensionComplexSkillAIConfig; }
+namespace RPG::GameCore { class StandaloneComplexSkillAIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_CCE81DC164485C57_OFFSET UNITYSDK_OFFSET(0x1D564DF0)
-#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D564F40)
+#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1A6D0)
+#define RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1A580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StandaloneComplexSkillAIConfig_TypeDefinitionIndex = 15398;
-
 	class StandaloneComplexSkillAIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::ComplexSkillAIFactorGroup*>* GroupsMap; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::SkillExtensionComplexSkillAIConfig*>* SkillMap; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CCE81DC164485C57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StandaloneComplexSkillAIConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StandaloneComplexSkillAIConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StandaloneComplexSkillAIConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_METHOD_2_CCE81DC164485C57_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StandaloneComplexSkillAIConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STANDALONECOMPLEXSKILLAICONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

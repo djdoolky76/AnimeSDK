@@ -3,8 +3,6 @@
 
 namespace System::IO
 {
-	inline static constexpr unsigned int FileAttributes_TypeDefinitionIndex = 713;
-
 	enum class FileAttributes : ::System::Int32
 	{
 		Archive = 32,

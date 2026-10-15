@@ -3,8 +3,6 @@
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int AppMemoryLevel_TypeDefinitionIndex = 47382;
-
 	enum class AppMemoryLevel : ::System::Int32
 	{
 		Normal = 0,

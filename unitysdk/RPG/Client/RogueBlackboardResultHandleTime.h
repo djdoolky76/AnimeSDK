@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueBlackboardResultHandleTime_TypeDefinitionIndex = 67124;
-
 	enum class RogueBlackboardResultHandleTime : ::System::Int32
 	{
 		PreProcess = 0,

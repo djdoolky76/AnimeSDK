@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/SecurityTunnel_AuthInfo.h"
-#include "unitysdk/MiHoYo/SDK/SecurityTunnel_ServerAddress.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class SecurityTunnel; }
+namespace System { class Object; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB29A870)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__0_OFFSET UNITYSDK_OFFSET(0xB2A6120)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__1_OFFSET UNITYSDK_OFFSET(0xB2A6210)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB039630)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__0_OFFSET UNITYSDK_OFFSET(0xB0487D0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__1_OFFSET UNITYSDK_OFFSET(0xB0488F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass20_0_TypeDefinitionIndex = 46875;
-
 	class SecurityTunnel___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::MiHoYo::SDK::SecurityTunnel_ServerAddress>* addresses; // 0x10
-		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x18
-		::MiHoYo::SDK::SecurityTunnel_AuthInfo info; // 0x20
-
+		::Il2CppArray<::System::Object*>* addresses; // 0x10
+		::MiHoYo::SDK::SecurityTunnel_AuthInfo info; // 0x18
+		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x58
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _TryConnect_b__0()
@@ -35,5 +31,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS20_0__TRYCONNECT_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

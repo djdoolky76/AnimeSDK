@@ -1,53 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/XmlSpace.h"
-
+#include "unitysdk/System/Object.h"
 namespace System { class String; }
 namespace System::Text { class Encoding; }
 namespace System::Xml { class XmlNameTable; }
 namespace System::Xml { class XmlNamespaceManager; }
 
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x1E8B8C50)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_DOCTYPENAME_OFFSET UNITYSDK_OFFSET(0x1E8B8C20)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1E8B8C90)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_HASDTDINFO_OFFSET UNITYSDK_OFFSET(0x1E8B8CA0)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x1E8B8C60)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMESPACEMANAGER_OFFSET UNITYSDK_OFFSET(0x1E8B8C10)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1E8B8C00)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x1E8B8C30)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x1E8B8C40)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLLANG_OFFSET UNITYSDK_OFFSET(0x1E8B8C70)
-#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLSPACE_OFFSET UNITYSDK_OFFSET(0x1E8B8C80)
-#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E8B8910)
-#define SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AE2B0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EF81360)
+#define SYSTEM_XML_XMLPARSERCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF76CA0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_BASEURI_OFFSET UNITYSDK_OFFSET(0x1EF816A0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_DOCTYPENAME_OFFSET UNITYSDK_OFFSET(0x1EF81670)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1EF816E0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_HASDTDINFO_OFFSET UNITYSDK_OFFSET(0x1EF816F0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_INTERNALSUBSET_OFFSET UNITYSDK_OFFSET(0x1EF816B0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMESPACEMANAGER_OFFSET UNITYSDK_OFFSET(0x1EF81660)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_NAMETABLE_OFFSET UNITYSDK_OFFSET(0x1EF81650)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_PUBLICID_OFFSET UNITYSDK_OFFSET(0x1EF81680)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_SYSTEMID_OFFSET UNITYSDK_OFFSET(0x1EF81690)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLLANG_OFFSET UNITYSDK_OFFSET(0x1EF816C0)
+#define SYSTEM_XML_XMLPARSERCONTEXT_GET_XMLSPACE_OFFSET UNITYSDK_OFFSET(0x1EF816D0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlParserContext_TypeDefinitionIndex = 1839;
-
 	class XmlParserContext : public ::System::Object
 	{
 	public:
-		::System::String* _sysId; // 0x10
-		::System::Text::Encoding* _encoding; // 0x18
-		::System::String* _internalSubset; // 0x20
-		::System::Xml::XmlNameTable* _nt; // 0x28
-		::System::String* _docTypeName; // 0x30
-		::System::String* _pubId; // 0x38
-		::System::String* _xmlLang; // 0x40
-		::System::Xml::XmlNamespaceManager* _nsMgr; // 0x48
-		::System::String* _baseURI; // 0x50
+		::System::Text::Encoding* _encoding; // 0x10
+		::System::String* _xmlLang; // 0x18
+		::System::String* _docTypeName; // 0x20
+		::System::String* _baseURI; // 0x28
+		::System::String* _sysId; // 0x30
+		::System::String* _internalSubset; // 0x38
+		::System::Xml::XmlNamespaceManager* _nsMgr; // 0x40
+		::System::String* _pubId; // 0x48
+		::System::Xml::XmlNameTable* _nt; // 0x50
 		::System::Xml::XmlSpace _xmlSpace; // 0x58
-
 		::System::Void _ctor(::System::Xml::XmlNameTable* a1, ::System::Xml::XmlNamespaceManager* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7, ::System::String* a8, ::System::Xml::XmlSpace a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void _ctor_1(::System::Xml::XmlNameTable* a1, ::System::Xml::XmlNamespaceManager* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::String* a6, ::System::String* a7, ::System::String* a8, ::System::Xml::XmlSpace a9, ::System::Text::Encoding* a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::PVOID, ::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::String*, ::System::Xml::XmlSpace, ::System::Text::Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		::System::Xml::XmlNameTable* get_NameTable()
@@ -104,5 +100,6 @@ namespace System::Xml
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_XMLPARSERCONTEXT_GET_HASDTDINFO_OFFSET))(this);
 		}
+
 	};
 }

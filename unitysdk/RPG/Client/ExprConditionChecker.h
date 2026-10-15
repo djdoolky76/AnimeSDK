@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ConditionChecker.h"
-
-class Class_0_16E4307DCC419505_669;
+class PDEFOKILHLE;
+namespace RPG::Client { class ExprConditionChecker; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EXPRCONDITIONCHECKER_CREATE_OFFSET UNITYSDK_OFFSET(0xCF0C540)
-#define RPG_CLIENT_EXPRCONDITIONCHECKER_DOSYNCCHECK_OFFSET UNITYSDK_OFFSET(0xCF0C790)
-#define RPG_CLIENT_EXPRCONDITIONCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0xCF0C5E0)
-#define RPG_CLIENT_EXPRCONDITIONCHECKER__PARSEEXPR_OFFSET UNITYSDK_OFFSET(0xCF0C630)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER_CREATE_OFFSET UNITYSDK_OFFSET(0xCE5B250)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0xCE5B2F0)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER_DOSYNCCHECK_OFFSET UNITYSDK_OFFSET(0xCE5B4A0)
+#define RPG_CLIENT_EXPRCONDITIONCHECKER__PARSEEXPR_OFFSET UNITYSDK_OFFSET(0xCE5B340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExprConditionChecker_TypeDefinitionIndex = 60047;
-
 	class ExprConditionChecker : public ::RPG::Client::ConditionChecker
 	{
 	public:
-		::Class_0_16E4307DCC419505_669* _Expr; // 0x18
-
+		::PDEFOKILHLE* _Expr; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::ExprConditionChecker* Create(::System::String* a1)
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EXPRCONDITIONCHECKER__PARSEEXPR_OFFSET))(this, a1);
 		}
+
 	};
 }

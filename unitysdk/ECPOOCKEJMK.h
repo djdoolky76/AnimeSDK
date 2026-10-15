@@ -1,0 +1,8 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+	struct alignas(4) ECPOOCKEJMK
+	{
+		::System::UInt32 DBALOLNOLGL; // 0x10
+		::System::UInt32 FMJPMFEDIJL; // 0x14
+	};

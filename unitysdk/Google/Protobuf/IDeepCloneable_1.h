@@ -3,8 +3,6 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int IDeepCloneable_1_TypeDefinitionIndex = 5390;
-
 	template <typename T>
 	class IDeepCloneable_1
 	{

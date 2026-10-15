@@ -5,11 +5,11 @@
 #include "unitysdk/TMPro/TMP_Asset.h"
 #include "unitysdk/TMPro/TMP_FontWeightPair.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
-#include "unitysdk/UnityEngine/TextCore/FaceInfo.h"
-#include "unitysdk/UnityEngine/TextCore/GlyphRect.h"
 #include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphPackingMode.h"
 #include "unitysdk/UnityEngine/TextCore/LowLevel/GlyphRenderMode.h"
-
+#include "unitysdk/UnityEngine/TextCore/FaceInfo.h"
+#include "unitysdk/UnityEngine/TextCore/GlyphRect.h"
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
@@ -17,6 +17,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class FaceInfo_Legacy; }
 namespace TMPro { class KerningTable; }
 namespace TMPro { class TMP_Character; }
+namespace TMPro { class TMP_FontAsset; }
 namespace TMPro { class TMP_FontFeatureTable; }
 namespace TMPro { class TMP_Glyph; }
 namespace UnityEngine { class Font; }
@@ -24,174 +25,118 @@ namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::TextCore { class Glyph; }
 
-#define TMPRO_TMP_FONTASSET_ADDCHARACTERTOLOOKUPCACHE_OFFSET UNITYSDK_OFFSET(0x1EC2DD40)
-#define TMPRO_TMP_FONTASSET_ADDSYNTHESIZEDCHARACTERSANDFACEMETRICS_OFFSET UNITYSDK_OFFSET(0x1EC2C920)
-#define TMPRO_TMP_FONTASSET_ADDSYNTHESIZEDCHARACTER_OFFSET UNITYSDK_OFFSET(0x1EC2D9F0)
-#define TMPRO_TMP_FONTASSET_AWAKE_OFFSET UNITYSDK_OFFSET(0x1EC2BE00)
-#define TMPRO_TMP_FONTASSET_CLEARATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1EC34B90)
-#define TMPRO_TMP_FONTASSET_CLEARFONTASSETDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EC34FA0)
-#define TMPRO_TMP_FONTASSET_CLEARFONTASSETDATA_OFFSET UNITYSDK_OFFSET(0x1EC34980)
-#define TMPRO_TMP_FONTASSET_CLEARFONTASSETTABLES_OFFSET UNITYSDK_OFFSET(0x1EC349B0)
-#define TMPRO_TMP_FONTASSET_CREATEFONTASSET_1_OFFSET UNITYSDK_OFFSET(0x1EC2B760)
-#define TMPRO_TMP_FONTASSET_CREATEFONTASSET_OFFSET UNITYSDK_OFFSET(0x1EC2B700)
-#define TMPRO_TMP_FONTASSET_GETCHARACTERSARRAY_OFFSET UNITYSDK_OFFSET(0x1EC30730)
-#define TMPRO_TMP_FONTASSET_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1EC30620)
-#define TMPRO_TMP_FONTASSET_GETGLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1EC30810)
-#define TMPRO_TMP_FONTASSET_GET_ATLASHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC2B5A0)
-#define TMPRO_TMP_FONTASSET_GET_ATLASPADDING_OFFSET UNITYSDK_OFFSET(0x1EC2B5C0)
-#define TMPRO_TMP_FONTASSET_GET_ATLASPOPULATIONMODE_OFFSET UNITYSDK_OFFSET(0x1EC2AFF0)
-#define TMPRO_TMP_FONTASSET_GET_ATLASRENDERMODE_OFFSET UNITYSDK_OFFSET(0x1EC2B5E0)
-#define TMPRO_TMP_FONTASSET_GET_ATLASTEXTURECOUNT_OFFSET UNITYSDK_OFFSET(0x1EC2B4E0)
-#define TMPRO_TMP_FONTASSET_GET_ATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1EC2B4C0)
-#define TMPRO_TMP_FONTASSET_GET_ATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC2B470)
-#define TMPRO_TMP_FONTASSET_GET_ATLASWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC2B580)
-#define TMPRO_TMP_FONTASSET_GET_CHARACTERLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B440)
-#define TMPRO_TMP_FONTASSET_GET_CHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B420)
-#define TMPRO_TMP_FONTASSET_GET_CLEARDYNAMICDATAONBUILD_OFFSET UNITYSDK_OFFSET(0x1EC2B510)
-#define TMPRO_TMP_FONTASSET_GET_CREATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0x1EC2B640)
-#define TMPRO_TMP_FONTASSET_GET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x1EC2B010)
-#define TMPRO_TMP_FONTASSET_GET_FALLBACKFONTASSETTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B620)
-#define TMPRO_TMP_FONTASSET_GET_FONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B600)
-#define TMPRO_TMP_FONTASSET_GET_FONTINFO_OFFSET UNITYSDK_OFFSET(0x1EC2B570)
-#define TMPRO_TMP_FONTASSET_GET_FONTWEIGHTTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B6E0)
-#define TMPRO_TMP_FONTASSET_GET_FREEGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1EC2B550)
-#define TMPRO_TMP_FONTASSET_GET_GLYPHLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B0B0)
-#define TMPRO_TMP_FONTASSET_GET_GLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B090)
-#define TMPRO_TMP_FONTASSET_GET_ISMULTIATLASTEXTURESENABLED_OFFSET UNITYSDK_OFFSET(0x1EC2B4F0)
-#define TMPRO_TMP_FONTASSET_GET_SOURCEFONTFILE_OFFSET UNITYSDK_OFFSET(0x1EC2AFB0)
-#define TMPRO_TMP_FONTASSET_GET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1EC2AFD0)
-#define TMPRO_TMP_FONTASSET_GET_USEDGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1EC2B530)
-#define TMPRO_TMP_FONTASSET_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1EC2AF90)
-#define TMPRO_TMP_FONTASSET_HASCHARACTERS_1_OFFSET UNITYSDK_OFFSET(0x1EC2FAD0)
-#define TMPRO_TMP_FONTASSET_HASCHARACTERS_2_OFFSET UNITYSDK_OFFSET(0x1EC30570)
-#define TMPRO_TMP_FONTASSET_HASCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1EC2F8D0)
-#define TMPRO_TMP_FONTASSET_HASCHARACTER_1_OFFSET UNITYSDK_OFFSET(0x1EC2E400)
-#define TMPRO_TMP_FONTASSET_HASCHARACTER_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1EC2F640)
-#define TMPRO_TMP_FONTASSET_HASCHARACTER_OFFSET UNITYSDK_OFFSET(0x1EC2E3D0)
-#define TMPRO_TMP_FONTASSET_INITIALIZECHARACTERLOOKUPDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1EC2D040)
-#define TMPRO_TMP_FONTASSET_INITIALIZEDICTIONARYLOOKUPTABLES_OFFSET UNITYSDK_OFFSET(0x1EC2C8F0)
-#define TMPRO_TMP_FONTASSET_INITIALIZEGLYPHLOOKUPDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1EC2CCC0)
-#define TMPRO_TMP_FONTASSET_INITIALIZEGLYPHPAIDADJUSTMENTRECORDSLOOKUPDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1EC2D330)
-#define TMPRO_TMP_FONTASSET_READFONTASSETDEFINITION_OFFSET UNITYSDK_OFFSET(0x1EC2B0E0)
-#define TMPRO_TMP_FONTASSET_REGISTERFONTASSETFORATLASTEXTUREUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC30FE0)
-#define TMPRO_TMP_FONTASSET_REGISTERFONTASSETFORFONTFEATUREUPDATE_OFFSET UNITYSDK_OFFSET(0x1EC30930)
-#define TMPRO_TMP_FONTASSET_RENDERCHARACTERTOTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1EC37250)
-#define TMPRO_TMP_FONTASSET_RENDERCHARACTERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC34FC0)
-#define TMPRO_TMP_FONTASSET_SETUPNEWATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC33870)
-#define TMPRO_TMP_FONTASSET_SET_ATLASHEIGHT_OFFSET UNITYSDK_OFFSET(0x1EC2B5B0)
-#define TMPRO_TMP_FONTASSET_SET_ATLASPADDING_OFFSET UNITYSDK_OFFSET(0x1EC2B5D0)
-#define TMPRO_TMP_FONTASSET_SET_ATLASPOPULATIONMODE_OFFSET UNITYSDK_OFFSET(0x1EC2B000)
-#define TMPRO_TMP_FONTASSET_SET_ATLASRENDERMODE_OFFSET UNITYSDK_OFFSET(0x1EC2B5F0)
-#define TMPRO_TMP_FONTASSET_SET_ATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1EC2B4D0)
-#define TMPRO_TMP_FONTASSET_SET_ATLASWIDTH_OFFSET UNITYSDK_OFFSET(0x1EC2B590)
-#define TMPRO_TMP_FONTASSET_SET_CHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B430)
-#define TMPRO_TMP_FONTASSET_SET_CLEARDYNAMICDATAONBUILD_OFFSET UNITYSDK_OFFSET(0x1EC2B520)
-#define TMPRO_TMP_FONTASSET_SET_CREATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0x1EC2B690)
-#define TMPRO_TMP_FONTASSET_SET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x1EC2B050)
-#define TMPRO_TMP_FONTASSET_SET_FALLBACKFONTASSETTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B630)
-#define TMPRO_TMP_FONTASSET_SET_FONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B610)
-#define TMPRO_TMP_FONTASSET_SET_FONTWEIGHTTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B6F0)
-#define TMPRO_TMP_FONTASSET_SET_FREEGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1EC2B560)
-#define TMPRO_TMP_FONTASSET_SET_GLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2B0A0)
-#define TMPRO_TMP_FONTASSET_SET_ISMULTIATLASTEXTURESENABLED_OFFSET UNITYSDK_OFFSET(0x1EC2B500)
-#define TMPRO_TMP_FONTASSET_SET_SOURCEFONTFILE_OFFSET UNITYSDK_OFFSET(0x1EC2AFC0)
-#define TMPRO_TMP_FONTASSET_SET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1EC2AFE0)
-#define TMPRO_TMP_FONTASSET_SET_USEDGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1EC2B540)
-#define TMPRO_TMP_FONTASSET_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1EC2AFA0)
-#define TMPRO_TMP_FONTASSET_SORTALLTABLES_OFFSET UNITYSDK_OFFSET(0x1EC2E390)
-#define TMPRO_TMP_FONTASSET_SORTCHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2DE20)
-#define TMPRO_TMP_FONTASSET_SORTFONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1EC2E0C0)
-#define TMPRO_TMP_FONTASSET_SORTGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1EC2DF70)
-#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EC2EB70)
-#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_1_OFFSET UNITYSDK_OFFSET(0x1EC313D0)
-#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_2_OFFSET UNITYSDK_OFFSET(0x1EC328C0)
-#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_3_OFFSET UNITYSDK_OFFSET(0x1EC328E0)
-#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1EC313B0)
-#define TMPRO_TMP_FONTASSET_TRYADDGLYPHSTOATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1EC313A0)
-#define TMPRO_TMP_FONTASSET_TRYADDGLYPHSTONEWATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC32360)
-#define TMPRO_TMP_FONTASSET_TRYGETCHARACTER_AND_QUEUERENDERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC33AF0)
-#define TMPRO_TMP_FONTASSET_UPDATEATLASTEXTURESFORFONTASSETSINQUEUE_OFFSET UNITYSDK_OFFSET(0x1EC31180)
-#define TMPRO_TMP_FONTASSET_UPDATEATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1EC34310)
-#define TMPRO_TMP_FONTASSET_UPDATEFONTASSETDATA_OFFSET UNITYSDK_OFFSET(0x1EC396B0)
-#define TMPRO_TMP_FONTASSET_UPDATEFONTFEATURESFORFONTASSETSINQUEUE_OFFSET UNITYSDK_OFFSET(0x1EC30AD0)
-#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_1_OFFSET UNITYSDK_OFFSET(0x1EC34630)
-#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_2_OFFSET UNITYSDK_OFFSET(0x1EC34960)
-#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_3_OFFSET UNITYSDK_OFFSET(0x1EC34970)
-#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1EC30CA0)
-#define TMPRO_TMP_FONTASSET_UPGRADEFONTASSET_OFFSET UNITYSDK_OFFSET(0x1EC2BE30)
-#define TMPRO_TMP_FONTASSET_UPGRADEGLYPHADJUSTMENTTABLETOFONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1EC2D580)
-#define TMPRO_TMP_FONTASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC39C10)
-#define TMPRO_TMP_FONTASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC39840)
+#define TMPRO_TMP_FONTASSET_ADDCHARACTERTOLOOKUPCACHE_OFFSET UNITYSDK_OFFSET(0x1F2F5620)
+#define TMPRO_TMP_FONTASSET_ADDSYNTHESIZEDCHARACTERSANDFACEMETRICS_OFFSET UNITYSDK_OFFSET(0x1F2F4200)
+#define TMPRO_TMP_FONTASSET_ADDSYNTHESIZEDCHARACTER_OFFSET UNITYSDK_OFFSET(0x1F2F52D0)
+#define TMPRO_TMP_FONTASSET_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F2F36E0)
+#define TMPRO_TMP_FONTASSET_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F301110)
+#define TMPRO_TMP_FONTASSET_CLEARATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1F2FC1B0)
+#define TMPRO_TMP_FONTASSET_CLEARFONTASSETDATAINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F2FC510)
+#define TMPRO_TMP_FONTASSET_CLEARFONTASSETDATA_OFFSET UNITYSDK_OFFSET(0x1F2FBFD0)
+#define TMPRO_TMP_FONTASSET_CLEARFONTASSETTABLES_OFFSET UNITYSDK_OFFSET(0x1F2FC000)
+#define TMPRO_TMP_FONTASSET_CREATEFONTASSET_1_OFFSET UNITYSDK_OFFSET(0x1F2F3070)
+#define TMPRO_TMP_FONTASSET_CREATEFONTASSET_OFFSET UNITYSDK_OFFSET(0x1F2F3010)
+#define TMPRO_TMP_FONTASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1F300D40)
+#define TMPRO_TMP_FONTASSET_GETCHARACTERSARRAY_OFFSET UNITYSDK_OFFSET(0x1F2F7F60)
+#define TMPRO_TMP_FONTASSET_GETCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1F2F7E50)
+#define TMPRO_TMP_FONTASSET_GETGLYPHINDEX_OFFSET UNITYSDK_OFFSET(0x1F2F8040)
+#define TMPRO_TMP_FONTASSET_GET_ATLASHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F2F2EB0)
+#define TMPRO_TMP_FONTASSET_GET_ATLASPADDING_OFFSET UNITYSDK_OFFSET(0x1F2F2ED0)
+#define TMPRO_TMP_FONTASSET_GET_ATLASPOPULATIONMODE_OFFSET UNITYSDK_OFFSET(0x1F2F2900)
+#define TMPRO_TMP_FONTASSET_GET_ATLASRENDERMODE_OFFSET UNITYSDK_OFFSET(0x1F2F2EF0)
+#define TMPRO_TMP_FONTASSET_GET_ATLASTEXTURECOUNT_OFFSET UNITYSDK_OFFSET(0x1F2F2DF0)
+#define TMPRO_TMP_FONTASSET_GET_ATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1F2F2DD0)
+#define TMPRO_TMP_FONTASSET_GET_ATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F2F2D80)
+#define TMPRO_TMP_FONTASSET_GET_ATLASWIDTH_OFFSET UNITYSDK_OFFSET(0x1F2F2E90)
+#define TMPRO_TMP_FONTASSET_GET_CHARACTERLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2D50)
+#define TMPRO_TMP_FONTASSET_GET_CHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2D30)
+#define TMPRO_TMP_FONTASSET_GET_CLEARDYNAMICDATAONBUILD_OFFSET UNITYSDK_OFFSET(0x1F2F2E20)
+#define TMPRO_TMP_FONTASSET_GET_CREATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F2F2F50)
+#define TMPRO_TMP_FONTASSET_GET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x1F2F2920)
+#define TMPRO_TMP_FONTASSET_GET_FALLBACKFONTASSETTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2F30)
+#define TMPRO_TMP_FONTASSET_GET_FONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2F10)
+#define TMPRO_TMP_FONTASSET_GET_FONTINFO_OFFSET UNITYSDK_OFFSET(0x1F2F2E80)
+#define TMPRO_TMP_FONTASSET_GET_FONTWEIGHTTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2FF0)
+#define TMPRO_TMP_FONTASSET_GET_FREEGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1F2F2E60)
+#define TMPRO_TMP_FONTASSET_GET_GLYPHLOOKUPTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F29C0)
+#define TMPRO_TMP_FONTASSET_GET_GLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F29A0)
+#define TMPRO_TMP_FONTASSET_GET_ISMULTIATLASTEXTURESENABLED_OFFSET UNITYSDK_OFFSET(0x1F2F2E00)
+#define TMPRO_TMP_FONTASSET_GET_SOURCEFONTFILE_OFFSET UNITYSDK_OFFSET(0x1F2F28C0)
+#define TMPRO_TMP_FONTASSET_GET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1F2F28E0)
+#define TMPRO_TMP_FONTASSET_GET_USEDGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1F2F2E40)
+#define TMPRO_TMP_FONTASSET_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1F2F28A0)
+#define TMPRO_TMP_FONTASSET_HASCHARACTERS_1_OFFSET UNITYSDK_OFFSET(0x1F2F7300)
+#define TMPRO_TMP_FONTASSET_HASCHARACTERS_2_OFFSET UNITYSDK_OFFSET(0x1F2F7DA0)
+#define TMPRO_TMP_FONTASSET_HASCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1F2F7150)
+#define TMPRO_TMP_FONTASSET_HASCHARACTER_1_OFFSET UNITYSDK_OFFSET(0x1F2F5CE0)
+#define TMPRO_TMP_FONTASSET_HASCHARACTER_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F2F6EC0)
+#define TMPRO_TMP_FONTASSET_HASCHARACTER_OFFSET UNITYSDK_OFFSET(0x1F2F5CB0)
+#define TMPRO_TMP_FONTASSET_INITIALIZECHARACTERLOOKUPDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1F2F4920)
+#define TMPRO_TMP_FONTASSET_INITIALIZEDICTIONARYLOOKUPTABLES_OFFSET UNITYSDK_OFFSET(0x1F2F41D0)
+#define TMPRO_TMP_FONTASSET_INITIALIZEGLYPHLOOKUPDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1F2F45A0)
+#define TMPRO_TMP_FONTASSET_INITIALIZEGLYPHPAIDADJUSTMENTRECORDSLOOKUPDICTIONARY_OFFSET UNITYSDK_OFFSET(0x1F2F4C10)
+#define TMPRO_TMP_FONTASSET_READFONTASSETDEFINITION_OFFSET UNITYSDK_OFFSET(0x1F2F29F0)
+#define TMPRO_TMP_FONTASSET_REGISTERFONTASSETFORATLASTEXTUREUPDATE_OFFSET UNITYSDK_OFFSET(0x1F2F87D0)
+#define TMPRO_TMP_FONTASSET_REGISTERFONTASSETFORFONTFEATUREUPDATE_OFFSET UNITYSDK_OFFSET(0x1F2F8160)
+#define TMPRO_TMP_FONTASSET_RENDERCHARACTERTOTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1F2FE7E0)
+#define TMPRO_TMP_FONTASSET_RENDERCHARACTERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F2FC530)
+#define TMPRO_TMP_FONTASSET_SETUPNEWATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F2FAF80)
+#define TMPRO_TMP_FONTASSET_SET_ATLASHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F2F2EC0)
+#define TMPRO_TMP_FONTASSET_SET_ATLASPADDING_OFFSET UNITYSDK_OFFSET(0x1F2F2EE0)
+#define TMPRO_TMP_FONTASSET_SET_ATLASPOPULATIONMODE_OFFSET UNITYSDK_OFFSET(0x1F2F2910)
+#define TMPRO_TMP_FONTASSET_SET_ATLASRENDERMODE_OFFSET UNITYSDK_OFFSET(0x1F2F2F00)
+#define TMPRO_TMP_FONTASSET_SET_ATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1F2F2DE0)
+#define TMPRO_TMP_FONTASSET_SET_ATLASWIDTH_OFFSET UNITYSDK_OFFSET(0x1F2F2EA0)
+#define TMPRO_TMP_FONTASSET_SET_CHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2D40)
+#define TMPRO_TMP_FONTASSET_SET_CLEARDYNAMICDATAONBUILD_OFFSET UNITYSDK_OFFSET(0x1F2F2E30)
+#define TMPRO_TMP_FONTASSET_SET_CREATIONSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F2F2FA0)
+#define TMPRO_TMP_FONTASSET_SET_FACEINFO_OFFSET UNITYSDK_OFFSET(0x1F2F2960)
+#define TMPRO_TMP_FONTASSET_SET_FALLBACKFONTASSETTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2F40)
+#define TMPRO_TMP_FONTASSET_SET_FONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1F2F2F20)
+#define TMPRO_TMP_FONTASSET_SET_FONTWEIGHTTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F3000)
+#define TMPRO_TMP_FONTASSET_SET_FREEGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1F2F2E70)
+#define TMPRO_TMP_FONTASSET_SET_GLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F29B0)
+#define TMPRO_TMP_FONTASSET_SET_ISMULTIATLASTEXTURESENABLED_OFFSET UNITYSDK_OFFSET(0x1F2F2E10)
+#define TMPRO_TMP_FONTASSET_SET_SOURCEFONTFILE_OFFSET UNITYSDK_OFFSET(0x1F2F28D0)
+#define TMPRO_TMP_FONTASSET_SET_TEXTASSET_OFFSET UNITYSDK_OFFSET(0x1F2F28F0)
+#define TMPRO_TMP_FONTASSET_SET_USEDGLYPHRECTS_OFFSET UNITYSDK_OFFSET(0x1F2F2E50)
+#define TMPRO_TMP_FONTASSET_SET_VERSION_OFFSET UNITYSDK_OFFSET(0x1F2F28B0)
+#define TMPRO_TMP_FONTASSET_SORTALLTABLES_OFFSET UNITYSDK_OFFSET(0x1F2F5C70)
+#define TMPRO_TMP_FONTASSET_SORTCHARACTERTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F5700)
+#define TMPRO_TMP_FONTASSET_SORTFONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1F2F59A0)
+#define TMPRO_TMP_FONTASSET_SORTGLYPHTABLE_OFFSET UNITYSDK_OFFSET(0x1F2F5850)
+#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F2F6450)
+#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_1_OFFSET UNITYSDK_OFFSET(0x1F2F8BA0)
+#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_2_OFFSET UNITYSDK_OFFSET(0x1F2FA000)
+#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_3_OFFSET UNITYSDK_OFFSET(0x1F2FA020)
+#define TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_OFFSET UNITYSDK_OFFSET(0x1F2F8B80)
+#define TMPRO_TMP_FONTASSET_TRYADDGLYPHSTOATLASTEXTURES_OFFSET UNITYSDK_OFFSET(0x1F2F8B70)
+#define TMPRO_TMP_FONTASSET_TRYADDGLYPHSTONEWATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F2F9AD0)
+#define TMPRO_TMP_FONTASSET_TRYGETCHARACTER_AND_QUEUERENDERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F2FB1E0)
+#define TMPRO_TMP_FONTASSET_UPDATEATLASTEXTURESFORFONTASSETSINQUEUE_OFFSET UNITYSDK_OFFSET(0x1F2F8950)
+#define TMPRO_TMP_FONTASSET_UPDATEATLASTEXTURE_OFFSET UNITYSDK_OFFSET(0x1F2FB9C0)
+#define TMPRO_TMP_FONTASSET_UPDATEFONTASSETDATA_OFFSET UNITYSDK_OFFSET(0x1F300BB0)
+#define TMPRO_TMP_FONTASSET_UPDATEFONTFEATURESFORFONTASSETSINQUEUE_OFFSET UNITYSDK_OFFSET(0x1F2F82E0)
+#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_1_OFFSET UNITYSDK_OFFSET(0x1F2FBCB0)
+#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_2_OFFSET UNITYSDK_OFFSET(0x1F2FBFB0)
+#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_3_OFFSET UNITYSDK_OFFSET(0x1F2FBFC0)
+#define TMPRO_TMP_FONTASSET_UPDATEGLYPHADJUSTMENTRECORDS_OFFSET UNITYSDK_OFFSET(0x1F2F84B0)
+#define TMPRO_TMP_FONTASSET_UPGRADEFONTASSET_OFFSET UNITYSDK_OFFSET(0x1F2F3710)
+#define TMPRO_TMP_FONTASSET_UPGRADEGLYPHADJUSTMENTTABLETOFONTFEATURETABLE_OFFSET UNITYSDK_OFFSET(0x1F2F4E60)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontAsset_TypeDefinitionIndex = 43376;
-
 	class TMP_FontAsset : public ::TMPro::TMP_Asset
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_FontAssets_FontFeaturesUpdateQueueLookup()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x35E0);
-		}
-		static ::Il2CppArray<::System::UInt32>** StaticGet_k_GlyphIndexArray()
-		{
-			return (::Il2CppArray<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x35E8);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_FontAssets_AtlasTexturesUpdateQueueLookup()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x35F0);
-		}
-		static ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>** StaticGet_k_FontAssets_AtlasTexturesUpdateQueue()
-		{
-			return (::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x35F8);
-		}
-		static ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>** StaticGet_k_FontAssets_FontFeaturesUpdateQueue()
-		{
-			return (::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x3600);
-		}
-		static ::System::String** StaticGet_s_DefaultMaterialSuffix()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x3608);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_SearchedFontAssetLookup()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x3610);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_ReadFontAssetDefinitionMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x1310);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_AddSynthesizedCharactersMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x1318);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_TryAddCharacterMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x1320);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_TryAddCharactersMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x1328);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_ClearFontAssetDataMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x1330);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UpdateFontAssetDataMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x1338);
-		}
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UpdateGlyphAdjustmentRecordsMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAsset_TypeDefinitionIndex)->GetStaticField(0x1340);
-		}
 		::System::String* m_Version; // 0x30
 		::System::String* m_SourceFontFileGUID; // 0x38
 		::System::Int32 m_DicInitSizeOffset; // 0x40
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Font* m_SourceFontFile; // 0x48
 		::UnityEngine::TextAsset* m_TextAsset; // 0x50
 		::TMPro::AtlasPopulationMode m_AtlasPopulationMode; // 0x58
+		::System::Byte _padding1[0x4];
 		::UnityEngine::TextCore::FaceInfo m_FaceInfo; // 0x60
 		::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphTable; // 0xC0
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::UnityEngine::TextCore::Glyph*>* m_GlyphLookupDictionary; // 0xC8
@@ -202,6 +147,7 @@ namespace TMPro
 		::System::Int32 m_AtlasTextureIndex; // 0xF0
 		::System::Boolean m_IsMultiAtlasTexturesEnabled; // 0xF4
 		::System::Boolean m_ClearDynamicDataOnBuild; // 0xF5
+		::System::Byte _padding2[0x2];
 		::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* m_UsedGlyphRects; // 0xF8
 		::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* m_FreeGlyphRects; // 0x100
 		::TMPro::FaceInfo_Legacy* m_fontInfo; // 0x108
@@ -225,6 +171,7 @@ namespace TMPro
 		::System::Byte italicStyle; // 0x1C8
 		::System::Byte tabSize; // 0x1C9
 		::System::Boolean IsFontAssetLookupTablesDirty; // 0x1CA
+		::System::Byte _padding3[0x5];
 		::System::Collections::Generic::HashSet_1<::System::Int32>* FallbackSearchQueryLookup; // 0x1D0
 		::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphsToRender; // 0x1D8
 		::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* m_GlyphsRendered; // 0x1E0
@@ -236,15 +183,84 @@ namespace TMPro
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* m_CharactersToAddLookup; // 0x210
 		::System::Collections::Generic::List_1<::System::UInt32>* s_MissingCharacterList; // 0x218
 		::System::Collections::Generic::HashSet_1<::System::UInt32>* m_MissingUnicodesFromFontFile; // 0x220
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_FontAssets_FontFeaturesUpdateQueueLookup()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x58FA0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_FontAssets_AtlasTexturesUpdateQueueLookup()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x58FA8);
+		}
+
+		static ::System::String** StaticGet_s_DefaultMaterialSuffix()
+		{
+			return (::System::String**)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x58FB0);
+		}
+
+		static ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>** StaticGet_k_FontAssets_AtlasTexturesUpdateQueue()
+		{
+			return (::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x58FB8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_SearchedFontAssetLookup()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x58FC0);
+		}
+
+		static ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>** StaticGet_k_FontAssets_FontFeaturesUpdateQueue()
+		{
+			return (::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x58FC8);
+		}
+
+		static ::Il2CppArray<::System::UInt32>** StaticGet_k_GlyphIndexArray()
+		{
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x58FD0);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_ReadFontAssetDefinitionMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x13A80);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_TryAddCharacterMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x13A88);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UpdateGlyphAdjustmentRecordsMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x13A90);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_AddSynthesizedCharactersMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x13A98);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_TryAddCharactersMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x13AA0);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_ClearFontAssetDataMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x13AA8);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_k_UpdateFontAssetDataMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("TMPro", "TMP_FontAsset")->GetStaticField(0x13AB0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_CCTOR_OFFSET))();
 		}
 
 		::System::String* get_version()
@@ -562,14 +578,14 @@ namespace TMPro
 			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_HASCHARACTER_INTERNAL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean HasCharacters(::System::String* a1, ::System::Collections::Generic::List_1<::System::Char>*& a2)
+		::System::Boolean HasCharacters(::System::String* a1, ::System::Object* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Collections::Generic::List_1<::System::Char>*&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_HASCHARACTERS_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_HASCHARACTERS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean HasCharacters_1(::System::String* a1, ::Il2CppArray<::System::UInt32>*& a2, ::System::Boolean a3, ::System::Boolean a4)
+		::System::Boolean HasCharacters_1(::System::String* a1, ::System::Object* a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::Il2CppArray<::System::UInt32>*&, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_HASCHARACTERS_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Object*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_HASCHARACTERS_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Boolean HasCharacters_2(::System::String* a1)
@@ -617,9 +633,9 @@ namespace TMPro
 			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryAddCharacters_1(::Il2CppArray<::System::UInt32>* a1, ::Il2CppArray<::System::UInt32>*& a2, ::System::Boolean a3)
+		::System::Boolean TryAddCharacters_1(::Il2CppArray<::System::UInt32>* a1, ::System::Object* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::Il2CppArray<::System::UInt32>*&, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::UInt32>*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean TryAddCharacters_2(::System::String* a1, ::System::Boolean a2)
@@ -627,19 +643,19 @@ namespace TMPro
 			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_2_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryAddCharacters_3(::System::String* a1, ::System::String*& a2, ::System::Boolean a3)
+		::System::Boolean TryAddCharacters_3(::System::String* a1, ::System::String* a2, ::System::Boolean a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*&, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_3_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERS_3_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean TryAddCharacterInternal(::System::UInt32 a1, ::TMPro::TMP_Character*& a2)
+		::System::Boolean TryAddCharacterInternal(::System::UInt32 a1, ::TMPro::TMP_Character* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_Character*&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERINTERNAL_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_Character*))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYADDCHARACTERINTERNAL_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean TryGetCharacter_and_QueueRenderToTexture(::System::UInt32 a1, ::TMPro::TMP_Character*& a2)
+		::System::Boolean TryGetCharacter_and_QueueRenderToTexture(::System::UInt32 a1, ::TMPro::TMP_Character* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_Character*&))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYGETCHARACTER_AND_QUEUERENDERTOTEXTURE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32, ::TMPro::TMP_Character*))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_TRYGETCHARACTER_AND_QUEUERENDERTOTEXTURE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void TryAddGlyphsToAtlasTextures()
@@ -692,9 +708,9 @@ namespace TMPro
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_CLEARFONTASSETDATAINTERNAL_OFFSET))(this);
 		}
 
-		::System::Void RenderCharacterToTexture(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::Collections::Generic::List_1<::System::UInt32>*& a2, ::System::Collections::Generic::List_1<::System::UInt32>*& a3, ::System::Collections::Generic::List_1<::System::UInt32>*& a4, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a8)
+		::System::Void RenderCharacterToTexture(::System::Collections::Generic::List_1<::System::UInt32>* a1, ::System::Object* a2, ::System::Object* a3, ::System::Object* a4, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode a5, ::System::Int32 a6, ::System::Int32 a7, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Collections::Generic::List_1<::System::UInt32>*&, ::System::Collections::Generic::List_1<::System::UInt32>*&, ::System::Collections::Generic::List_1<::System::UInt32>*&, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::System::Int32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_RENDERCHARACTERTOTEXTURE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Object*, ::System::Object*, ::System::Object*, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::System::Int32, ::System::Int32, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_RENDERCHARACTERTOTEXTURE_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		::System::Void RenderCharacterToTexture_1(::UnityEngine::TextCore::LowLevel::GlyphRenderMode a1, ::System::Int32 a2, ::System::Int32 a3, ::UnityEngine::TextCore::LowLevel::GlyphPackingMode a4)
@@ -726,5 +742,6 @@ namespace TMPro
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_FONTASSET_UPGRADEGLYPHADJUSTMENTTABLETOFONTFEATURETABLE_OFFSET))(this);
 		}
+
 	};
 }

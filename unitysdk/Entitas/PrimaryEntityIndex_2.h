@@ -1,22 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Entitas/AbstractEntityIndex_2.h"
-
-namespace Entitas { class IComponent; }
-namespace Entitas { template <typename T> class IGroup_1; }
-namespace System { class String; }
-namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int PrimaryEntityIndex_2_TypeDefinitionIndex = 9964;
-
-	template <typename TEntity, typename TKey>
-	class PrimaryEntityIndex_2 : public ::Entitas::AbstractEntityIndex_2<TEntity, TKey>
+	template <typename T1, typename T2>
+	class PrimaryEntityIndex_2
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<TKey, TEntity>* _index; // 0x0
+		::System::Collections::Generic::Dictionary_2<T1, T2>* _index; // 0x0
 	};
 }

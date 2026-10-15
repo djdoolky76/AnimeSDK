@@ -1,37 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/OptionTalkInfo.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class DiceCombatOptionTalkInfo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_9E18120ABF9510E2_OFFSET UNITYSDK_OFFSET(0x1D02DF40)
-#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_D29161959348A1DC_OFFSET UNITYSDK_OFFSET(0x1D02DEA0)
-#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02DF00)
+#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D60A430)
+#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D60A470)
+#define RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D60A3D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatOptionTalkInfo_TypeDefinitionIndex = 20609;
-
 	class DiceCombatOptionTalkInfo : public ::RPG::GameCore::OptionTalkInfo
 	{
 	public:
 		::System::Boolean IsShowHardLevel; // 0x68
+		::System::Byte _padding0[0x3];
 		::System::UInt32 StageID; // 0x6C
 		::System::Boolean IsForceShow; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATOPTIONTALKINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D29161959348A1DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatOptionTalkInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatOptionTalkInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatOptionTalkInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_D29161959348A1DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatOptionTalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9E18120ABF9510E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatOptionTalkInfo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatOptionTalkInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatOptionTalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_METHOD_3_9E18120ABF9510E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatOptionTalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATOPTIONTALKINFO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

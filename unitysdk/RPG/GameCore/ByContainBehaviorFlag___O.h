@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/System/Object.h"
-
-template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
+namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByContainBehaviorFlag___O_TypeDefinitionIndex = 22754;
-
 	class ByContainBehaviorFlag___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__0___FromJson()
+		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ByContainBehaviorFlag___O_TypeDefinitionIndex)->GetStaticField(0x10920);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0xDF50);
 		}
+
 	};
 }

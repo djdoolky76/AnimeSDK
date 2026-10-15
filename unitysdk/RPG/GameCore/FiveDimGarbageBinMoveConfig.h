@@ -4,18 +4,16 @@
 #include "unitysdk/RPG/GameCore/FiveDimGarbageBinRollDirection.h"
 #include "unitysdk/RPG/GameCore/FiveDimPropMoveConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimGarbageBinMoveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_1266564C6B4C4426_OFFSET UNITYSDK_OFFSET(0x1D0E89E0)
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_BD5602D064CEE4B8_OFFSET UNITYSDK_OFFSET(0x1D0E8990)
-#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E89D0)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C0A50)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C0A60)
+#define RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C0A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGarbageBinMoveConfig_TypeDefinitionIndex = 16520;
-
 	class FiveDimGarbageBinMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{
 	public:
@@ -26,10 +24,12 @@ namespace RPG::GameCore
 		::RPG::GameCore::FiveDimGarbageBinRollDirection RollDirection; // 0x60
 		::RPG::GameCore::FiveDimGarbageBinOnRollToAnother OnRollToAnother; // 0x64
 		::System::Boolean OverrideJumpParams; // 0x68
+		::System::Byte _padding0[0x3];
 		::System::Single TrampolineJumpHeight; // 0x6C
 		::System::Single FallGravity; // 0x70
 		::System::Single MaxFallSpeed; // 0x74
 		::System::Int32 MaxHitWallCount; // 0x78
+		::System::Byte _padding1[0x4];
 		::System::String* FirstStepOnEvent; // 0x80
 		::System::String* SecondStepOnEvent; // 0x88
 		::System::String* RemovalEvent; // 0x90
@@ -38,20 +38,20 @@ namespace RPG::GameCore
 		::System::String* StepOnEffectPath; // 0xA8
 		::System::String* HitPlayerEffectPath; // 0xB0
 		::System::String* HitWithInvinciblePlayerEffectPath; // 0xB8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BD5602D064CEE4B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGarbageBinMoveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimGarbageBinMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGarbageBinMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_BD5602D064CEE4B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimGarbageBinMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1266564C6B4C4426(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGarbageBinMoveConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimGarbageBinMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGarbageBinMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_METHOD_3_1266564C6B4C4426_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimGarbageBinMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGARBAGEBINMOVECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,61 +1,60 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class AkAudioInterruptionCallbackInfo;
 
-#define AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1EEAD8C0)
-#define AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EEAD6D0)
-#define AKAUDIOINTERRUPTIONCALLBACKINFO_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1EEAD7F0)
-#define AKAUDIOINTERRUPTIONCALLBACKINFO_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1EEAD620)
-#define AKAUDIOINTERRUPTIONCALLBACKINFO_GET_BENTERINTERRUPTION_OFFSET UNITYSDK_OFFSET(0x1EEADAA0)
-#define AKAUDIOINTERRUPTIONCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1EEAD670)
-#define AKAUDIOINTERRUPTIONCALLBACKINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EEADB50)
-#define AKAUDIOINTERRUPTIONCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAD610)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F575700)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5751C0)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1F575470)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F575280)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F5753A0)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5751D0)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_GET_BENTERINTERRUPTION_OFFSET UNITYSDK_OFFSET(0x1F575650)
+#define AKAUDIOINTERRUPTIONCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F575220)
 
-inline static constexpr unsigned int AkAudioInterruptionCallbackInfo_TypeDefinitionIndex = 43524;
-
-class AkAudioInterruptionCallbackInfo : public ::System::Object
-{
-public:
-	::System::IntPtr swigCPtr; // 0x10
-	::System::Boolean swigCMemOwn; // 0x18
-
-	::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+	class AkAudioInterruptionCallbackInfo : public ::System::Object
 	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO__CTOR_OFFSET))(this, a1, a2);
-	}
+	public:
+		::System::IntPtr swigCPtr; // 0x10
+		::System::Boolean swigCMemOwn; // 0x18
+		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_CTOR_OFFSET))(this, a1, a2);
+		}
 
-	::System::Void _ctor_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO__CTOR_1_OFFSET))(this);
-	}
+		::System::Void _ctor_1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_CTOR_1_OFFSET))(this);
+		}
 
-	static ::System::IntPtr getCPtr(::AkAudioInterruptionCallbackInfo* a1)
-	{
-		return ((::System::IntPtr(*)(::AkAudioInterruptionCallbackInfo*))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_GETCPTR_OFFSET))(a1);
-	}
+		static ::System::IntPtr getCPtr(::AkAudioInterruptionCallbackInfo* a1)
+		{
+			return ((::System::IntPtr(*)(::AkAudioInterruptionCallbackInfo*))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_GETCPTR_OFFSET))(a1);
+		}
 
-	::System::Void setCPtr(::System::IntPtr a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_SETCPTR_OFFSET))(this, a1);
-	}
+		::System::Void setCPtr(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_SETCPTR_OFFSET))(this, a1);
+		}
 
-	::System::Void Finalize()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_FINALIZE_OFFSET))(this);
-	}
+		::System::Void Finalize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_FINALIZE_OFFSET))(this);
+		}
 
-	::System::Void Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_OFFSET))(this);
-	}
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_OFFSET))(this);
+		}
 
-	::System::Void Dispose_1(::System::Boolean a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_1_OFFSET))(this, a1);
-	}
+		::System::Void Dispose_1(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_DISPOSE_1_OFFSET))(this, a1);
+		}
 
-	::System::Boolean get_bEnterInterruption()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_GET_BENTERINTERRUPTION_OFFSET))(this);
-	}
-};
+		::System::Boolean get_bEnterInterruption()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AKAUDIOINTERRUPTIONCALLBACKINFO_GET_BENTERINTERRUPTION_OFFSET))(this);
+		}
+
+	};

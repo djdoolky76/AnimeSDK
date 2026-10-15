@@ -1,0 +1,95 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class CAPKINMFNIL;
+class HEJLOAOKDGE;
+class HMGELDJBNLH;
+class KKOJJCIIKAH;
+class MNBCPGLOMIE;
+namespace RPG::Client { class UIController; }
+namespace RPG::Client::Promises { class Promise; }
+
+#define BIOAHMPNJCH_ABPKCIBACLG_OFFSET UNITYSDK_OFFSET(0xB794CB0)
+#define BIOAHMPNJCH_AGCKIBJGHHI_OFFSET UNITYSDK_OFFSET(0xB7947C0)
+#define BIOAHMPNJCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB794580)
+#define BIOAHMPNJCH_EAKBOFBNNDO_OFFSET UNITYSDK_OFFSET(0xB794690)
+#define BIOAHMPNJCH_HGHCGMFLGGH_OFFSET UNITYSDK_OFFSET(0xB794B40)
+#define BIOAHMPNJCH_HPINEOFEGBF_OFFSET UNITYSDK_OFFSET(0xB795380)
+#define BIOAHMPNJCH_IAPJKKJHOBN_OFFSET UNITYSDK_OFFSET(0xB794810)
+#define BIOAHMPNJCH_KDOAJJDBKGH_OFFSET UNITYSDK_OFFSET(0xB794E10)
+#define BIOAHMPNJCH_NNJPPNFPDKI_OFFSET UNITYSDK_OFFSET(0xB794870)
+#define BIOAHMPNJCH_OGPHOPILCFI_OFFSET UNITYSDK_OFFSET(0xB795240)
+#define BIOAHMPNJCH_ONIPNAILHIH_OFFSET UNITYSDK_OFFSET(0xB794590)
+#define BIOAHMPNJCH_PDAIJMDEAAF_OFFSET UNITYSDK_OFFSET(0xB7950E0)
+
+	class BIOAHMPNJCH : public ::System::Object
+	{
+	public:
+		::KKOJJCIIKAH* MHBFNKIFLNN; // 0x10
+		::HEJLOAOKDGE* KAMLEMCONJK; // 0x18
+		::HMGELDJBNLH* OEAKHJGPPEH; // 0x20
+		::System::Boolean ALOFAEJFLKA; // 0x28
+		::System::Boolean OFMFMCDIGCA; // 0x29
+		::System::Byte _padding0[0x2];
+		::System::UInt32 ODJFGIPIJBO; // 0x2C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_CTOR_OFFSET))(this);
+		}
+
+		::System::Void ONIPNAILHIH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_ONIPNAILHIH_OFFSET))(this);
+		}
+
+		::System::Void AGCKIBJGHHI(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_AGCKIBJGHHI_OFFSET))(this, a1);
+		}
+
+		::System::Void IAPJKKJHOBN(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_IAPJKKJHOBN_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::Promises::Promise* EAKBOFBNNDO(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::Promises::Promise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_EAKBOFBNNDO_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::UIController* NNJPPNFPDKI(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::UIController*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_NNJPPNFPDKI_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::UIController* HGHCGMFLGGH(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::UIController*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_HGHCGMFLGGH_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::UIController* ABPKCIBACLG(::System::UInt32 a1, ::MNBCPGLOMIE* a2)
+		{
+			return ((::RPG::Client::UIController*(*)(::PVOID, ::System::UInt32, ::MNBCPGLOMIE*))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_ABPKCIBACLG_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::UIController* KDOAJJDBKGH(::MNBCPGLOMIE* a1)
+		{
+			return ((::RPG::Client::UIController*(*)(::PVOID, ::MNBCPGLOMIE*))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_KDOAJJDBKGH_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::UIController* PDAIJMDEAAF(::CAPKINMFNIL* a1, ::System::Boolean a2)
+		{
+			return ((::RPG::Client::UIController*(*)(::PVOID, ::CAPKINMFNIL*, ::System::Boolean))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_PDAIJMDEAAF_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::UIController* OGPHOPILCFI()
+		{
+			return ((::RPG::Client::UIController*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_OGPHOPILCFI_OFFSET))(this);
+		}
+
+		::RPG::Client::UIController* HPINEOFEGBF()
+		{
+			return ((::RPG::Client::UIController*(*)(::PVOID))((::PBYTE)hIl2Cpp + BIOAHMPNJCH_HPINEOFEGBF_OFFSET))(this);
+		}
+
+	};

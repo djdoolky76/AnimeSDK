@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E6560)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8E6550)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE8E66F0)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE93B9D0)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE93BB60)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE93B9C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SpecialVisionOffClip_TypeDefinitionIndex = 48770;
-
 	class SpecialVisionOffClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Boolean SkipFade; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -34,5 +30,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONOFFCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

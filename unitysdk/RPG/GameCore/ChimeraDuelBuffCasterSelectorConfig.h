@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseChimeraDuelEntitiesSelectorConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ChimeraDuelBuffCasterSelectorConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_METHOD_3_31048B86FB2E6111_OFFSET UNITYSDK_OFFSET(0x1CFC05C0)
-#define RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_METHOD_3_339B613F449DED3C_OFFSET UNITYSDK_OFFSET(0x1CFC0520)
-#define RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC05B0)
+#define RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59B710)
+#define RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59B720)
+#define RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59B680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelBuffCasterSelectorConfig_TypeDefinitionIndex = 15733;
-
 	class ChimeraDuelBuffCasterSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_339B613F449DED3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_METHOD_3_339B613F449DED3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_31048B86FB2E6111(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_METHOD_3_31048B86FB2E6111_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ChimeraDuelBuffCasterSelectorConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELBUFFCASTERSELECTORCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

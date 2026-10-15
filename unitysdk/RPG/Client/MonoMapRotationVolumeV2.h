@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOMAPROTATIONVOLUMEV2__CTOR_OFFSET UNITYSDK_OFFSET(0xD84ADE0)
+#define RPG_CLIENT_MONOMAPROTATIONVOLUMEV2_CTOR_OFFSET UNITYSDK_OFFSET(0xD84B870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMapRotationVolumeV2_TypeDefinitionIndex = 68576;
-
 	class MonoMapRotationVolumeV2 : public ::UnityEngine::MonoBehaviour
 	{
 	public:
@@ -19,12 +16,13 @@ namespace RPG::Client
 		::System::UInt32 PoseSwitcherPropID; // 0x24
 		::System::String* ForbiddenZonePath; // 0x28
 		::System::Single DisableForbiddenZoneDelay; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* PoseSwitcherRootPath; // 0x38
 		::System::Single PoseSwitcherShowDelayTime; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMAPROTATIONVOLUMEV2__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOMAPROTATIONVOLUMEV2_CTOR_OFFSET))(this);
 		}
+
 	};
 }

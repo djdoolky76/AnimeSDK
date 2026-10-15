@@ -1,50 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdventureByIsWeakTypeActive; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_260D80406448540D_OFFSET UNITYSDK_OFFSET(0x1CDE94C0)
-#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_96C208197175503E_OFFSET UNITYSDK_OFFSET(0x1CDE9290)
-#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_A2657AAD4BFA65A7_OFFSET UNITYSDK_OFFSET(0x1CDE92D0)
-#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_F0B5B7EF75253CEB_OFFSET UNITYSDK_OFFSET(0x1CDE9490)
-#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE92C0)
+#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3BF000)
+#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D3BF200)
+#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3BF1D0)
+#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3BF010)
+#define RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3BEFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureByIsWeakTypeActive_TypeDefinitionIndex = 20550;
-
 	class AdventureByIsWeakTypeActive : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* CasterType; // 0x20
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_96C208197175503E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsWeakTypeActive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_96C208197175503E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsWeakTypeActive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A2657AAD4BFA65A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureByIsWeakTypeActive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_A2657AAD4BFA65A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdventureByIsWeakTypeActive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F0B5B7EF75253CEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsWeakTypeActive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_F0B5B7EF75253CEB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsWeakTypeActive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_260D80406448540D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdventureByIsWeakTypeActive* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsWeakTypeActive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_METHOD_4_260D80406448540D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdventureByIsWeakTypeActive*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREBYISWEAKTYPEACTIVE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

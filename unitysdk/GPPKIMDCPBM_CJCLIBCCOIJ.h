@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+	enum class GPPKIMDCPBM_CJCLIBCCOIJ : ::System::Int32
+	{
+		NLCDGIPGFDJ = 0,
+		FIPDBFMPEKH = 10,
+		AHMEECFKBDJ = 6,
+		CBKLDCBEKCH = 11,
+		HMOBMBALLJE = 13,
+		IFOOEPKGGAG = 5,
+		CMPNCFCJCNE = 7,
+		DOMHNBMJGHF = 4,
+		HKAGPIMFPAG = 12,
+		GAJGLONDGMP = 3,
+		IJBAMMMBIOA = 14,
+		EBCGEBEPOJJ = 15,
+		CKBEEBALAEG = 2,
+		LDIGCPKPNBC = 8,
+	};

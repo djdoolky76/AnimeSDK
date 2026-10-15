@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class NetDefineConstValue; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_601BF670998A0249_OFFSET UNITYSDK_OFFSET(0x1D2F2D80)
-#define RPG_GAMECORE_NETDEFINECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F3450)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D5E50)
+#define RPG_GAMECORE_NETDEFINECONSTVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D5780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 18812;
-
 	class NetDefineConstValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -28,20 +26,21 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt16>* PerformanceReplayWhiteList; // 0x38
 		::System::Boolean IsBlockNetworkByPerformanceStandalone; // 0x40
 		::System::Boolean IsBlockNetworkByPerformanceStandaloneError; // 0x41
+		::System::Byte _padding0[0x6];
 		::Il2CppArray<::System::UInt16>* PerformanceStandaloneWhiteList; // 0x48
 		::Il2CppArray<::System::UInt16>* PerformanceStandaloneBlackList; // 0x50
 		::System::Single RefreshRTTInterval; // 0x58
 		::System::Boolean CreateSocketOnSessionConnected; // 0x5C
 		::System::Boolean StopAdventurePhaseWhenDisconnect; // 0x5D
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NETDEFINECONSTVALUE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NETDEFINECONSTVALUE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_601BF670998A0249(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NetDefineConstValue*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::NetDefineConstValue* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NetDefineConstValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NETDEFINECONSTVALUE_METHOD_2_601BF670998A0249_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NetDefineConstValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NETDEFINECONSTVALUE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,52 +1,49 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/GUILayoutEntry.h"
-
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GUILayoutEntry; }
 namespace UnityEngine { class GUILayoutOption; }
 namespace UnityEngine { class GUIStyle; }
 
-#define UNITYENGINE_GUILAYOUTGROUP_ADD_OFFSET UNITYSDK_OFFSET(0x1ED8A8F0)
-#define UNITYENGINE_GUILAYOUTGROUP_APPLYOPTIONS_OFFSET UNITYSDK_OFFSET(0x1ED8E190)
-#define UNITYENGINE_GUILAYOUTGROUP_APPLYSTYLESETTINGS_OFFSET UNITYSDK_OFFSET(0x1ED8F100)
-#define UNITYENGINE_GUILAYOUTGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1ED90FF0)
-#define UNITYENGINE_GUILAYOUTGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1ED8F210)
-#define UNITYENGINE_GUILAYOUTGROUP_GETNEXT_OFFSET UNITYSDK_OFFSET(0x1ED8A990)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINBOTTOM_OFFSET UNITYSDK_OFFSET(0x1ED8EFB0)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINLEFT_OFFSET UNITYSDK_OFFSET(0x1ED8EF80)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINRIGHT_OFFSET UNITYSDK_OFFSET(0x1ED8EF90)
-#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINTOP_OFFSET UNITYSDK_OFFSET(0x1ED8EFA0)
-#define UNITYENGINE_GUILAYOUTGROUP_RESETCURSOR_OFFSET UNITYSDK_OFFSET(0x1ED8F200)
-#define UNITYENGINE_GUILAYOUTGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1ED8FE50)
-#define UNITYENGINE_GUILAYOUTGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1ED91AF0)
-#define UNITYENGINE_GUILAYOUTGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ED92C80)
-#define UNITYENGINE_GUILAYOUTGROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED92FC0)
-#define UNITYENGINE_GUILAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED8EFC0)
+#define UNITYENGINE_GUILAYOUTGROUP_ADD_OFFSET UNITYSDK_OFFSET(0x1F453260)
+#define UNITYENGINE_GUILAYOUTGROUP_APPLYOPTIONS_OFFSET UNITYSDK_OFFSET(0x1F456970)
+#define UNITYENGINE_GUILAYOUTGROUP_APPLYSTYLESETTINGS_OFFSET UNITYSDK_OFFSET(0x1F4578E0)
+#define UNITYENGINE_GUILAYOUTGROUP_CALCHEIGHT_OFFSET UNITYSDK_OFFSET(0x1F4597D0)
+#define UNITYENGINE_GUILAYOUTGROUP_CALCWIDTH_OFFSET UNITYSDK_OFFSET(0x1F4579F0)
+#define UNITYENGINE_GUILAYOUTGROUP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F45B7A0)
+#define UNITYENGINE_GUILAYOUTGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4577A0)
+#define UNITYENGINE_GUILAYOUTGROUP_GETNEXT_OFFSET UNITYSDK_OFFSET(0x1F453300)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINBOTTOM_OFFSET UNITYSDK_OFFSET(0x1F457790)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINLEFT_OFFSET UNITYSDK_OFFSET(0x1F457760)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINRIGHT_OFFSET UNITYSDK_OFFSET(0x1F457770)
+#define UNITYENGINE_GUILAYOUTGROUP_GET_MARGINTOP_OFFSET UNITYSDK_OFFSET(0x1F457780)
+#define UNITYENGINE_GUILAYOUTGROUP_RESETCURSOR_OFFSET UNITYSDK_OFFSET(0x1F4579E0)
+#define UNITYENGINE_GUILAYOUTGROUP_SETHORIZONTAL_OFFSET UNITYSDK_OFFSET(0x1F458630)
+#define UNITYENGINE_GUILAYOUTGROUP_SETVERTICAL_OFFSET UNITYSDK_OFFSET(0x1F45A2D0)
+#define UNITYENGINE_GUILAYOUTGROUP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F45B460)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUILayoutGroup_TypeDefinitionIndex = 5185;
-
 	class GUILayoutGroup : public ::UnityEngine::GUILayoutEntry
 	{
 	public:
-		static ::UnityEngine::GUILayoutEntry** StaticGet_none()
-		{
-			return (::UnityEngine::GUILayoutEntry**)Il2CppClass::FromTypeDefinitionIndex(GUILayoutGroup_TypeDefinitionIndex)->GetStaticField(0x17850);
-		}
 		::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* entries; // 0x48
 		::System::Boolean isVertical; // 0x50
 		::System::Boolean resetCoords; // 0x51
+		::System::Byte _padding0[0x2];
 		::System::Single spacing; // 0x54
 		::System::Boolean sameSize; // 0x58
 		::System::Boolean isWindow; // 0x59
+		::System::Byte _padding1[0x2];
 		::System::Int32 windowID; // 0x5C
 		::System::Int32 m_Cursor; // 0x60
 		::System::Int32 m_StretchableCountX; // 0x64
 		::System::Int32 m_StretchableCountY; // 0x68
 		::System::Boolean m_UserSpecifiedWidth; // 0x6C
 		::System::Boolean m_UserSpecifiedHeight; // 0x6D
+		::System::Byte _padding2[0x2];
 		::System::Single m_ChildMinWidth; // 0x70
 		::System::Single m_ChildMaxWidth; // 0x74
 		::System::Single m_ChildMinHeight; // 0x78
@@ -55,15 +52,19 @@ namespace UnityEngine
 		::System::Int32 m_MarginRight; // 0x84
 		::System::Int32 m_MarginTop; // 0x88
 		::System::Int32 m_MarginBottom; // 0x8C
+		static ::UnityEngine::GUILayoutEntry** StaticGet_none()
+		{
+			return (::UnityEngine::GUILayoutEntry**)UnitySDK::FromName("UnityEngine", "GUILayoutGroup")->GetStaticField(0x13DC0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_CCTOR_OFFSET))();
 		}
 
 		::System::Int32 get_marginLeft()
@@ -135,5 +136,6 @@ namespace UnityEngine
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_GUILAYOUTGROUP_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

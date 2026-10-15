@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FiveDimPropBakedMoveConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimArrowBakedMoveConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_METHOD_3_61C283336651683D_OFFSET UNITYSDK_OFFSET(0x1D0A0E60)
-#define RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_METHOD_3_A48B93AC69DB0F6C_OFFSET UNITYSDK_OFFSET(0x1D0A0E20)
-#define RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A0E50)
+#define RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AEDB0)
+#define RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6AEDC0)
+#define RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AED80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimArrowBakedMoveConfig_TypeDefinitionIndex = 16500;
-
 	class FiveDimArrowBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A48B93AC69DB0F6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimArrowBakedMoveConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimArrowBakedMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimArrowBakedMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_METHOD_3_A48B93AC69DB0F6C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimArrowBakedMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_61C283336651683D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimArrowBakedMoveConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimArrowBakedMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimArrowBakedMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_METHOD_3_61C283336651683D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimArrowBakedMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMARROWBAKEDMOVECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

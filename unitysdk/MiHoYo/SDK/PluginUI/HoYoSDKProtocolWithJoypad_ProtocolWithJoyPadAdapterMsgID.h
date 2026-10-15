@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKProtocolWithJoypad_ProtocolWithJoyPadAdapterMsgID_TypeDefinitionIndex = 47229;
-
 	enum class HoYoSDKProtocolWithJoypad_ProtocolWithJoyPadAdapterMsgID : ::System::Int32
 	{
 		UNKNOWN = -1,

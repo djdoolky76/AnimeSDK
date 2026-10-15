@@ -3,8 +3,6 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialIDValueSeq_TypeDefinitionIndex = 37189;
-
 	enum class MaterialIDValueSeq : ::System::Int32
 	{
 		SpecularColor = 0,

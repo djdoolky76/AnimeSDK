@@ -2,22 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EFCD310)
-#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EFCD000)
-#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCCFC0)
+#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F695500)
+#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F695850)
+#define BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F695540)
 
 namespace BigIntegerLibrary
 {
-	inline static constexpr unsigned int BigInteger_DigitContainer_TypeDefinitionIndex = 6992;
-
 	class BigInteger_DigitContainer : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::Il2CppArray<::System::Int64>*>* digits; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_CTOR_OFFSET))(this);
 		}
 
 		::System::Int64 get_Item(::System::Int32 a1)
@@ -29,5 +26,6 @@ namespace BigIntegerLibrary
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int64))((::PBYTE)hIl2Cpp + BIGINTEGERLIBRARY_BIGINTEGER_DIGITCONTAINER_SET_ITEM_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

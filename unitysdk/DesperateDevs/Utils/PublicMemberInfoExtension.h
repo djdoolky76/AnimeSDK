@@ -1,19 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace DesperateDevs::Utils { class PublicMemberInfo; }
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFOEXTENSION_COPYPUBLICMEMBERVALUES_OFFSET UNITYSDK_OFFSET(0x16511D50)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFOEXTENSION_GETPUBLICMEMBERINFOS_OFFSET UNITYSDK_OFFSET(0x165116B0)
-#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFOEXTENSION_PUBLICMEMBERCLONE_OFFSET UNITYSDK_OFFSET(0x16511D00)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFOEXTENSION_COPYPUBLICMEMBERVALUES_OFFSET UNITYSDK_OFFSET(0x16738A20)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFOEXTENSION_GETPUBLICMEMBERINFOS_OFFSET UNITYSDK_OFFSET(0x16738380)
+#define DESPERATEDEVS_UTILS_PUBLICMEMBERINFOEXTENSION_PUBLICMEMBERCLONE_OFFSET UNITYSDK_OFFSET(0x167389D0)
 
 namespace DesperateDevs::Utils
 {
-	inline static constexpr unsigned int PublicMemberInfoExtension_TypeDefinitionIndex = 7089;
-
 	class PublicMemberInfoExtension : public ::System::Object
 	{
 	public:
@@ -31,5 +29,6 @@ namespace DesperateDevs::Utils
 		{
 			return ((::System::Void(*)(::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + DESPERATEDEVS_UTILS_PUBLICMEMBERINFOEXTENSION_COPYPUBLICMEMBERVALUES_OFFSET))(a1, a2);
 		}
+
 	};
 }

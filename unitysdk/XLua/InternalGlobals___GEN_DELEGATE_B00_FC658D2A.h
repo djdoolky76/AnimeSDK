@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IRogueTournGameLevel; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B1F740)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B1F770)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B1F730)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1F640)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DB5C40)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB5B40)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DB5C70)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DB5C30)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_FC658D2A_TypeDefinitionIndex = 50486;
-
 	class InternalGlobals___GEN_DELEGATE_B00_FC658D2A : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::RPG::Client::IRogueTournGameLevel* a1)
@@ -38,5 +35,6 @@ namespace XLua
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_FC658D2A_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

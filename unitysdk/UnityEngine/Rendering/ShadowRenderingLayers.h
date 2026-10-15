@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowRenderingLayers_TypeDefinitionIndex = 4884;
-
 	struct alignas(4) ShadowRenderingLayers
 	{
 		::System::UInt32 DynamicShadowRenderingLayerMask; // 0x10

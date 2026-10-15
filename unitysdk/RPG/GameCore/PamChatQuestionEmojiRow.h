@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PamChatQuestionEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D308260)
-#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D308390)
+#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EC080)
+#define RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EBF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamChatQuestionEmojiRow_TypeDefinitionIndex = 14210;
-
 	class PamChatQuestionEmojiRow : public ::System::Object
 	{
 	public:
 		::System::String* ImgPath; // 0x10
 		::System::UInt32 ID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PamChatQuestionEmojiRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::PamChatQuestionEmojiRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PamChatQuestionEmojiRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PamChatQuestionEmojiRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAMCHATQUESTIONEMOJIROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

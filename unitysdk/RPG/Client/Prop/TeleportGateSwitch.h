@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_2679F01039F3FC24;
+class KFCMGNCLHMD;
 namespace RPG::Client::Prop { class TeleportGatePuzzleBoard; }
 namespace RPG::GameCore { class PropComponent; }
-namespace System { class String; }
 
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_INITSWITCH_OFFSET UNITYSDK_OFFSET(0xDD3EC60)
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDD3EE70)
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONUSESWITCH_OFFSET UNITYSDK_OFFSET(0xDD3EF00)
-#define RPG_CLIENT_PROP_TELEPORTGATESWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0xDD3EF40)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0xDDC7AA0)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_INITSWITCH_OFFSET UNITYSDK_OFFSET(0xDDC77C0)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDDC79D0)
+#define RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONUSESWITCH_OFFSET UNITYSDK_OFFSET(0xDDC7A60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TeleportGateSwitch_TypeDefinitionIndex = 78434;
-
 	class TeleportGateSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* KDJFACFCOIC; // 0x0
 		::System::Int32 LFPJNINEGHM; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::Client::Prop::TeleportGatePuzzleBoard* CFKHNPGEAJA; // 0x20
 		::RPG::GameCore::PropComponent* NKILIBDMOMC; // 0x28
-		::Class_2_2679F01039F3FC24* BCALOKFAJFH; // 0x30
-
+		::KFCMGNCLHMD* BCALOKFAJFH; // 0x30
+		// static const ::System::String* KDJFACFCOIC; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATESWITCH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATESWITCH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitSwitch(::RPG::Client::Prop::TeleportGatePuzzleBoard* a1, ::RPG::GameCore::PropComponent* a2, ::System::Int32 a3)
@@ -44,5 +40,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_TELEPORTGATESWITCH_ONUSESWITCH_OFFSET))(this);
 		}
+
 	};
 }

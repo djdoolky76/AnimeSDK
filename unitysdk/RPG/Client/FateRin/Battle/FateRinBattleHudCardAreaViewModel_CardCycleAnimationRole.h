@@ -3,8 +3,6 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardCycleAnimationRole_TypeDefinitionIndex = 79562;
-
 	enum class FateRinBattleHudCardAreaViewModel_CardCycleAnimationRole : ::System::Int32
 	{
 		None = 0,

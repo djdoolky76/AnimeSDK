@@ -3,8 +3,6 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryHeaderEnum_TypeDefinitionIndex = 1166;
-
 	enum class BinaryHeaderEnum : ::System::Int32
 	{
 		SerializedStreamHeader = 0,

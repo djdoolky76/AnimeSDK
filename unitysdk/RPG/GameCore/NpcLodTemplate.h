@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/LodTemplate.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class NpcLodTemplate; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_NPCLODTEMPLATE_METHOD_3_0B9A34BA288ECA43_OFFSET UNITYSDK_OFFSET(0x1D2F8950)
-#define RPG_GAMECORE_NPCLODTEMPLATE_METHOD_3_1E4F64B0CC33E8ED_OFFSET UNITYSDK_OFFSET(0x1D2F8900)
-#define RPG_GAMECORE_NPCLODTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F8940)
+#define RPG_GAMECORE_NPCLODTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DC350)
+#define RPG_GAMECORE_NPCLODTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8DC360)
+#define RPG_GAMECORE_NPCLODTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DC310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcLodTemplate_TypeDefinitionIndex = 18883;
-
 	class NpcLodTemplate : public ::RPG::GameCore::LodTemplate
 	{
 	public:
 		::System::Boolean MeshLod; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCLODTEMPLATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCLODTEMPLATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1E4F64B0CC33E8ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcLodTemplate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::NpcLodTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcLodTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCLODTEMPLATE_METHOD_3_1E4F64B0CC33E8ED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NpcLodTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCLODTEMPLATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0B9A34BA288ECA43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcLodTemplate* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::NpcLodTemplate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcLodTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCLODTEMPLATE_METHOD_3_0B9A34BA288ECA43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::NpcLodTemplate*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCLODTEMPLATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

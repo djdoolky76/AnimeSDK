@@ -1,11 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExVoicePool_PitchShifterConfig_TypeDefinitionIndex = 38778;
-
 	struct alignas(4) CriAtomExVoicePool_PitchShifterConfig
 	{
 		::System::Int32 mode; // 0x10

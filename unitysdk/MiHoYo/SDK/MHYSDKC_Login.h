@@ -2,12 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace System { class String; }
-
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Login_TypeDefinitionIndex = 46591;
-
 	class MHYSDKC_Login : public ::System::Object
 	{
 	public:

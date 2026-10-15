@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EDLDHDMLJDH.h"
+#include "unitysdk/RPG/GameCore/AirlockEvent.h"
+#include "unitysdk/RPG/GameCore/TriggerExitReason.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Action; }
+namespace UnityEngine { class Transform; }
+
+#define NJMCHDHCHOL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1B1A0)
+#define NJMCHDHCHOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC1B220)
+#define NJMCHDHCHOL_DOONENTER_OFFSET UNITYSDK_OFFSET(0xBC1B280)
+#define NJMCHDHCHOL_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xBC1B500)
+#define NJMCHDHCHOL_KHILLALHDJC_OFFSET UNITYSDK_OFFSET(0xBC1B370)
+
+	class NJMCHDHCHOL : public ::EDLDHDMLJDH
+	{
+	public:
+		::System::Action* ILEMLGEGLCC; // 0xA0
+		::UnityEngine::Transform* MELOKNOIJPA; // 0xA8
+		::UnityEngine::Transform* MMIPMDKKPNN; // 0xB0
+		::System::Int32 KKPGNHCACEB; // 0xB8
+		::System::Boolean IBMOGFCHNBN; // 0xBC
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::UnityEngine::Transform* a4, ::System::Action* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Int32, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Action*))((::PBYTE)hIl2Cpp + NJMCHDHCHOL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMCHDHCHOL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void DoOnEnter(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + NJMCHDHCHOL_DOONENTER_OFFSET))(this, a1);
+		}
+
+		::System::Void DoOnExit(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TriggerExitReason a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TriggerExitReason))((::PBYTE)hIl2Cpp + NJMCHDHCHOL_DOONEXIT_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean KHILLALHDJC(::UnityEngine::Vector3 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + NJMCHDHCHOL_KHILLALHDJC_OFFSET))(this, a1);
+		}
+
+	};

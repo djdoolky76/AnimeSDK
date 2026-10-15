@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
-
+namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowTextEntryResult; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA277B0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA277A0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA277F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF31230)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF311F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF311E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelShowTextEntryResult_TypeDefinitionIndex = 8551;
-
 	class HoYoChannelShowTextEntryResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
-		// static const ::System::Int32 CHANNEL_CANCELLED = 0xFFFFFFFA; // 0x0
 		::System::String* text; // 0x30
 		::System::Int32 size; // 0x38
-
+		// static const ::System::Object CHANNEL_CANCELLED; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
@@ -33,5 +30,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelShowTextEntryResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELSHOWTEXTENTRYRESULT_FROMJSON_OFFSET))(a1);
 		}
+
 	};
 }

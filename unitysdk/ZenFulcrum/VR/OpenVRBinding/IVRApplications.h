@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRApplications__AddApplicationManifest; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRApplications__CancelApplicationLaunch; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRApplications__GetApplicationAutoLaunch; }
@@ -36,8 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRApplications__SetDefaultAppli
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRApplications_TypeDefinitionIndex = 37655;
-
 	struct alignas(8) IVRApplications
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRApplications__AddApplicationManifest* AddApplicationManifest; // 0x10

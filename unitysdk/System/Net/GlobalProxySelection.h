@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Net { class IWebProxy; }
 
-#define SYSTEM_NET_GLOBALPROXYSELECTION_GETEMPTYWEBPROXY_OFFSET UNITYSDK_OFFSET(0x1E982770)
-#define SYSTEM_NET_GLOBALPROXYSELECTION_GET_SELECT_OFFSET UNITYSDK_OFFSET(0x1E97B9D0)
+#define SYSTEM_NET_GLOBALPROXYSELECTION_GETEMPTYWEBPROXY_OFFSET UNITYSDK_OFFSET(0x1F04B2F0)
+#define SYSTEM_NET_GLOBALPROXYSELECTION_GET_SELECT_OFFSET UNITYSDK_OFFSET(0x1F044570)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int GlobalProxySelection_TypeDefinitionIndex = 2732;
-
 	class GlobalProxySelection : public ::System::Object
 	{
 	public:
@@ -23,5 +20,6 @@ namespace System::Net
 		{
 			return ((::System::Net::IWebProxy*(*)())((::PBYTE)hIl2Cpp + SYSTEM_NET_GLOBALPROXYSELECTION_GETEMPTYWEBPROXY_OFFSET))();
 		}
+
 	};
 }

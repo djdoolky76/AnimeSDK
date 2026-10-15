@@ -1,33 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace SRDebugger { class InfoEntry; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define SRDEBUGGER_INFOENTRY_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1E66ECF0)
-#define SRDEBUGGER_INFOENTRY_CREATE_OFFSET UNITYSDK_OFFSET(0x1E66ECA0)
-#define SRDEBUGGER_INFOENTRY_GET_ISPRIVATE_OFFSET UNITYSDK_OFFSET(0x1E66EC80)
-#define SRDEBUGGER_INFOENTRY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1E66EB50)
-#define SRDEBUGGER_INFOENTRY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E66EB70)
-#define SRDEBUGGER_INFOENTRY_SET_ISPRIVATE_OFFSET UNITYSDK_OFFSET(0x1E66EC90)
-#define SRDEBUGGER_INFOENTRY_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1E66EB60)
-#define SRDEBUGGER_INFOENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1E66ECE0)
+#define SRDEBUGGER_INFOENTRY_CREATE_1_OFFSET UNITYSDK_OFFSET(0x1ED36C50)
+#define SRDEBUGGER_INFOENTRY_CREATE_OFFSET UNITYSDK_OFFSET(0x1ED36C00)
+#define SRDEBUGGER_INFOENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED36C40)
+#define SRDEBUGGER_INFOENTRY_GET_ISPRIVATE_OFFSET UNITYSDK_OFFSET(0x1ED36BE0)
+#define SRDEBUGGER_INFOENTRY_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x1ED36AB0)
+#define SRDEBUGGER_INFOENTRY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1ED36AD0)
+#define SRDEBUGGER_INFOENTRY_SET_ISPRIVATE_OFFSET UNITYSDK_OFFSET(0x1ED36BF0)
+#define SRDEBUGGER_INFOENTRY_SET_TITLE_OFFSET UNITYSDK_OFFSET(0x1ED36AC0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int InfoEntry_TypeDefinitionIndex = 37275;
-
 	class InfoEntry : public ::System::Object
 	{
 	public:
-		::System::Func_1<::System::Object*>* _valueGetter; // 0x10
-		::System::String* _Title_k__BackingField; // 0x18
+		::System::String* _Title_k__BackingField; // 0x10
+		::System::Func_1<::System::Object*>* _valueGetter; // 0x18
 		::System::Boolean _IsPrivate_k__BackingField; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_INFOENTRY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_INFOENTRY_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_Title()
@@ -64,5 +62,6 @@ namespace SRDebugger
 		{
 			return ((::SRDebugger::InfoEntry*(*)(::System::String*, ::System::Object*, ::System::Boolean))((::PBYTE)hIl2Cpp + SRDEBUGGER_INFOENTRY_CREATE_1_OFFSET))(a1, a2, a3);
 		}
+
 	};
 }

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/TimeVal.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int RUsage_TypeDefinitionIndex = 47390;
-
-	struct alignas(8) RUsage
+	struct alignas(4) RUsage
 	{
 		::RPGTools::TimeVal ru_utime; // 0x10
 		::RPGTools::TimeVal ru_stime; // 0x20

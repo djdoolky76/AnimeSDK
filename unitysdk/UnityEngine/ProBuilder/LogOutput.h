@@ -3,8 +3,6 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int LogOutput_TypeDefinitionIndex = 43178;
-
 	enum class LogOutput : ::System::Int32
 	{
 		None = 0,

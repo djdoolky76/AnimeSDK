@@ -1,42 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Action; }
+namespace System { class Object; }
 
-namespace System { template <typename T> class Action_1; }
-
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B99B7F0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CONNECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B99B840)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B99B830)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B4B0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B4F0)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CONNECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1BE9B500)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudPipe___c_TypeDefinitionIndex = 9077;
-
 	class CloudPipe___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet___9__9_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe___c_TypeDefinitionIndex)->GetStaticField(0x173E0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x10B00);
 		}
-		static ::MiHoYo::SDK::MiHoYoCloud::CloudPipe___c** StaticGet___9()
+
+		static ::System::Action** StaticGet___9__9_0()
 		{
-			return (::MiHoYo::SDK::MiHoYoCloud::CloudPipe___c**)Il2CppClass::FromTypeDefinitionIndex(CloudPipe___c_TypeDefinitionIndex)->GetStaticField(0x173E8);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x10B08);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _Connect_b__9_0(::Il2CppArray<::System::Byte>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CONNECT_B__9_0_OFFSET))(this, a1);
 		}
+
 	};
 }

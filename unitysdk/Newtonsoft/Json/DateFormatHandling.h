@@ -3,8 +3,6 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int DateFormatHandling_TypeDefinitionIndex = 9521;
-
 	enum class DateFormatHandling : ::System::Int32
 	{
 		IsoDateFormat = 0,

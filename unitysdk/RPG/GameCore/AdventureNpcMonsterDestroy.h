@@ -2,26 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4EAA60)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETMONSTER_OFFSET UNITYSDK_OFFSET(0xE4EAB00)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4EAAB0)
-#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY__CTOR_OFFSET UNITYSDK_OFFSET(0xE4EAA50)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_CTOR_OFFSET UNITYSDK_OFFSET(0xE57A7B0)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE57A7C0)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETMONSTER_OFFSET UNITYSDK_OFFSET(0xE57A860)
+#define RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE57A810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureNpcMonsterDestroy_TypeDefinitionIndex = 56803;
-
 	class AdventureNpcMonsterDestroy : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* _Monster; // 0x10
-
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::EventType GetEventType()
@@ -38,5 +34,6 @@ namespace RPG::GameCore
 		{
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURENPCMONSTERDESTROY_GETMONSTER_OFFSET))(this);
 		}
+
 	};
 }

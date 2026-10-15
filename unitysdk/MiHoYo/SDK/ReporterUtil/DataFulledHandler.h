@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK::ReporterUtil { class ReporterEvent; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB28F910)
-#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB28F950)
-#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xB28F900)
-#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB28F810)
+#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB02E700)
+#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xB02E600)
+#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB02E740)
+#define MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xB02E6F0)
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int DataFulledHandler_TypeDefinitionIndex = 47111;
-
 	class DataFulledHandler : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::MiHoYo::SDK::ReporterUtil::ReporterEvent* a1, ::System::String* a2)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK::ReporterUtil
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_REPORTERUTIL_DATAFULLEDHANDLER_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

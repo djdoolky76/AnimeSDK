@@ -3,62 +3,61 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/RPG/GameCore/BlockNodeRegionType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_1_53BE720C46D20BF8;
-class Class_1_64EA8B4AB59D91C7_1;
+class HFBBHPCFNOA;
+class LPBNBKGHOGA;
 namespace RPG::GameCore { class BlockNodeConfig; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_BLOCKTAG_AWAKE_OFFSET UNITYSDK_OFFSET(0xC95D6C0)
-#define RPG_CLIENT_BLOCKTAG_DUMP_OFFSET UNITYSDK_OFFSET(0xC95DD90)
-#define RPG_CLIENT_BLOCKTAG_GET_BLOCKBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0xC95DA20)
-#define RPG_CLIENT_BLOCKTAG_GET_BLOCKNAME_OFFSET UNITYSDK_OFFSET(0xC95D760)
-#define RPG_CLIENT_BLOCKTAG_GET_BLOCKNODEREGIONTYPE_OFFSET UNITYSDK_OFFSET(0xC95D7C0)
-#define RPG_CLIENT_BLOCKTAG_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xC95D700)
-#define RPG_CLIENT_BLOCKTAG_GET_PERSISTENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC95D7E0)
-#define RPG_CLIENT_BLOCKTAG_GET_TERRAINALBEDO_OFFSET UNITYSDK_OFFSET(0xC95DA80)
-#define RPG_CLIENT_BLOCKTAG_GET_TERRAINCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xC95DB40)
-#define RPG_CLIENT_BLOCKTAG_GET_TERRAINCOVERAGE_OFFSET UNITYSDK_OFFSET(0xC95DAE0)
-#define RPG_CLIENT_BLOCKTAG_LOAD_OFFSET UNITYSDK_OFFSET(0xC95DBA0)
-#define RPG_CLIENT_BLOCKTAG_SET_BLOCKNODEREGIONTYPE_OFFSET UNITYSDK_OFFSET(0xC95D7D0)
-#define RPG_CLIENT_BLOCKTAG_SET_PERSISTENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC95D890)
-#define RPG_CLIENT_BLOCKTAG__CCTOR_OFFSET UNITYSDK_OFFSET(0xC95DE70)
-#define RPG_CLIENT_BLOCKTAG__CTOR_OFFSET UNITYSDK_OFFSET(0xC95DE20)
+#define RPG_CLIENT_BLOCKTAG_AWAKE_OFFSET UNITYSDK_OFFSET(0xC8ABBF0)
+#define RPG_CLIENT_BLOCKTAG_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8AC3A0)
+#define RPG_CLIENT_BLOCKTAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC8AC350)
+#define RPG_CLIENT_BLOCKTAG_DUMP_OFFSET UNITYSDK_OFFSET(0xC8AC2C0)
+#define RPG_CLIENT_BLOCKTAG_GET_BLOCKBLENDCONFIG_OFFSET UNITYSDK_OFFSET(0xC8ABF50)
+#define RPG_CLIENT_BLOCKTAG_GET_BLOCKNAME_OFFSET UNITYSDK_OFFSET(0xC8ABC90)
+#define RPG_CLIENT_BLOCKTAG_GET_BLOCKNODEREGIONTYPE_OFFSET UNITYSDK_OFFSET(0xC8ABCF0)
+#define RPG_CLIENT_BLOCKTAG_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xC8ABC30)
+#define RPG_CLIENT_BLOCKTAG_GET_PERSISTENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC8ABD10)
+#define RPG_CLIENT_BLOCKTAG_GET_TERRAINALBEDO_OFFSET UNITYSDK_OFFSET(0xC8ABFB0)
+#define RPG_CLIENT_BLOCKTAG_GET_TERRAINCONTROLMODE_OFFSET UNITYSDK_OFFSET(0xC8AC070)
+#define RPG_CLIENT_BLOCKTAG_GET_TERRAINCOVERAGE_OFFSET UNITYSDK_OFFSET(0xC8AC010)
+#define RPG_CLIENT_BLOCKTAG_LOAD_OFFSET UNITYSDK_OFFSET(0xC8AC0D0)
+#define RPG_CLIENT_BLOCKTAG_SET_BLOCKNODEREGIONTYPE_OFFSET UNITYSDK_OFFSET(0xC8ABD00)
+#define RPG_CLIENT_BLOCKTAG_SET_PERSISTENTLEVEL_OFFSET UNITYSDK_OFFSET(0xC8ABDC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlockTag_TypeDefinitionIndex = 69467;
-
 	class BlockTag : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_DefaultTag()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(BlockTag_TypeDefinitionIndex)->GetStaticField(0x12C00);
-		}
 		::System::String* Tag; // 0x18
 		::System::UInt32 IslandID; // 0x20
 		::RPG::GameCore::BlockNodeRegionType GIKBAJNINCI; // 0x24
 		::System::String* StreamingLayerOverride; // 0x28
 		::System::Boolean Independent; // 0x30
+		::System::Byte _padding0[0x7];
 		::UnityEngine::Object* HLODAsset; // 0x38
 		::System::String* HLODPath; // 0x40
 		::System::Boolean PcOnly; // 0x48
 		::System::Boolean RuntimeEnable; // 0x49
 		::System::Boolean IsBetaShield; // 0x4A
+		::System::Byte _padding1[0x1];
 		::RPG::CustomRP::Quality GrassOverrideQuality; // 0x4C
 		::RPG::GameCore::BlockNodeConfig* HDKHHIONPOD; // 0x50
-		::Class_1_53BE720C46D20BF8* HCMIDJCECAF; // 0x58
+		::LPBNBKGHOGA* HCMIDJCECAF; // 0x58
+		static ::System::String** StaticGet_DefaultTag()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "BlockTag")->GetStaticField(0x422B0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_CCTOR_OFFSET))();
 		}
 
 		::System::Void Awake()
@@ -96,9 +95,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_SET_PERSISTENTLEVEL_OFFSET))(this, a1);
 		}
 
-		::Class_1_64EA8B4AB59D91C7_1* get_blockBlendConfig()
+		::HFBBHPCFNOA* get_blockBlendConfig()
 		{
-			return ((::Class_1_64EA8B4AB59D91C7_1*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_GET_BLOCKBLENDCONFIG_OFFSET))(this);
+			return ((::HFBBHPCFNOA*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_GET_BLOCKBLENDCONFIG_OFFSET))(this);
 		}
 
 		::System::Single get_TerrainAlbedo()
@@ -116,14 +115,15 @@ namespace RPG::Client
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_GET_TERRAINCONTROLMODE_OFFSET))(this);
 		}
 
-		::System::Void Load(::RPG::GameCore::BlockNodeConfig* a1, ::Class_1_53BE720C46D20BF8* a2)
+		::System::Void Load(::RPG::GameCore::BlockNodeConfig* a1, ::LPBNBKGHOGA* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BlockNodeConfig*, ::Class_1_53BE720C46D20BF8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_LOAD_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BlockNodeConfig*, ::LPBNBKGHOGA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_LOAD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Dump(::RPG::GameCore::BlockNodeConfig* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BlockNodeConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLOCKTAG_DUMP_OFFSET))(this, a1);
 		}
+
 	};
 }

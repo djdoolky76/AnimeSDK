@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdvWaitingEventBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicStringList; }
 namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitMapPoseSwitcherRemove; }
 
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_181ECC86248BEF6A_OFFSET UNITYSDK_OFFSET(0x1D6A6290)
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_26B6D3C242A20877_OFFSET UNITYSDK_OFFSET(0x1D6A62E0)
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A62D0)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9B4B0)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9B4C0)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9B470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitMapPoseSwitcherRemove_TypeDefinitionIndex = 21018;
-
 	class WaitMapPoseSwitcherRemove : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
 		::RPG::GameCore::DynamicStringList* VolumeInstanceIDs; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnChange; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_181ECC86248BEF6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMapPoseSwitcherRemove*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitMapPoseSwitcherRemove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMapPoseSwitcherRemove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_181ECC86248BEF6A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitMapPoseSwitcherRemove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_26B6D3C242A20877(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMapPoseSwitcherRemove* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitMapPoseSwitcherRemove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMapPoseSwitcherRemove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_26B6D3C242A20877_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitMapPoseSwitcherRemove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E82A8F0)
-#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E82A970)
-#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E82A7A0)
-#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E82A870)
+#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EEF3570)
+#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF34F0)
+#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EEF35F0)
+#define SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EEF3420)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int SecureStringHasher_HashCodeOfStringDelegate_TypeDefinitionIndex = 1827;
-
 	class SecureStringHasher_HashCodeOfStringDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Invoke(::System::String* a1, ::System::Int32 a2, ::System::Int64 a3)
@@ -38,5 +35,6 @@ namespace System::Xml
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SECURESTRINGHASHER_HASHCODEOFSTRINGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

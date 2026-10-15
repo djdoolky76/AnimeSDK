@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfiniteWavePosition_TypeDefinitionIndex = 24449;
-
 	enum class InfiniteWavePosition : ::System::Int32
 	{
 		NextSummon = 0,

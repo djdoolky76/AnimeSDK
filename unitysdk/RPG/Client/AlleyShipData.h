@@ -2,30 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AlleyShipType.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::GameCore { class AlleyPackGoodItemConfig; }
 namespace RPG::GameCore { class AlleyShipRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ALLEYSHIPDATA_GET_PACKGOODITEMCONFIG_OFFSET UNITYSDK_OFFSET(0xC759B90)
-#define RPG_CLIENT_ALLEYSHIPDATA_GET_SHIPID_OFFSET UNITYSDK_OFFSET(0xC759C70)
-#define RPG_CLIENT_ALLEYSHIPDATA_GET_SHIPPROPPATH_OFFSET UNITYSDK_OFFSET(0xC759D10)
-#define RPG_CLIENT_ALLEYSHIPDATA_GET_SHIPTYPE_OFFSET UNITYSDK_OFFSET(0xC759CC0)
-#define RPG_CLIENT_ALLEYSHIPDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC746A80)
+#define RPG_CLIENT_ALLEYSHIPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC677C50)
+#define RPG_CLIENT_ALLEYSHIPDATA_GET_PACKGOODITEMCONFIG_OFFSET UNITYSDK_OFFSET(0xC677CE0)
+#define RPG_CLIENT_ALLEYSHIPDATA_GET_SHIPID_OFFSET UNITYSDK_OFFSET(0xC677DC0)
+#define RPG_CLIENT_ALLEYSHIPDATA_GET_SHIPPROPPATH_OFFSET UNITYSDK_OFFSET(0xC677E60)
+#define RPG_CLIENT_ALLEYSHIPDATA_GET_SHIPTYPE_OFFSET UNITYSDK_OFFSET(0xC677E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyShipData_TypeDefinitionIndex = 62349;
-
 	class AlleyShipData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AlleyShipRow* Row; // 0x10
 		::System::Boolean IsUnlock; // 0x18
-
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSHIPDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSHIPDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::AlleyPackGoodItemConfig* get_PackGoodItemConfig()
@@ -47,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ALLEYSHIPDATA_GET_SHIPPROPPATH_OFFSET))(this);
 		}
+
 	};
 }

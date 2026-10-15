@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class BKPEADLKFGJ;
+class KOAOAKKCCPK_AHOLCAKHGMC;
+namespace System { class Nullable; }
+namespace System { class String; }
+
+#define KOAOAKKCCPK_ABACKOIPNJO_OFFSET UNITYSDK_OFFSET(0xB58FAE0)
+#define KOAOAKKCCPK_CTOR_OFFSET UNITYSDK_OFFSET(0xB58F9E0)
+#define KOAOAKKCCPK_NDHJKKDPGMO_1_OFFSET UNITYSDK_OFFSET(0xB58FB40)
+#define KOAOAKKCCPK_NDHJKKDPGMO_OFFSET UNITYSDK_OFFSET(0xB58FA30)
+
+	class KOAOAKKCCPK : public ::System::Object
+	{
+	public:
+		::KOAOAKKCCPK_AHOLCAKHGMC* JGOCPIOEJNJ; // 0x10
+		::System::Void _ctor(::KOAOAKKCCPK_AHOLCAKHGMC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KOAOAKKCCPK_AHOLCAKHGMC*))((::PBYTE)hIl2Cpp + KOAOAKKCCPK_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void NDHJKKDPGMO(::System::Nullable* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + KOAOAKKCCPK_NDHJKKDPGMO_OFFSET))(this, a1);
+		}
+
+		::System::Void NDHJKKDPGMO_1(::Il2CppArray<::System::String*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + KOAOAKKCCPK_NDHJKKDPGMO_1_OFFSET))(this, a1);
+		}
+
+		::BKPEADLKFGJ* ABACKOIPNJO()
+		{
+			return ((::BKPEADLKFGJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + KOAOAKKCCPK_ABACKOIPNJO_OFFSET))(this);
+		}
+
+	};

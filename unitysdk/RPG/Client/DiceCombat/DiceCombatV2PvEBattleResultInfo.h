@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/DiceCombat/DiceCombatV2BattleResultInfo.h"
-
 namespace Proto { class Item; }
 namespace RPG::Client { class ItemDisplayData; }
+namespace RPG::Client::DiceCombat { class DiceCombatV2PvEBattleResultInfo; }
 namespace RPG::Client::DiceCombat { class DiceCombatV2PvEStage; }
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xCD57AD0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xCD590F0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xCD59100)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCD59110)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xCCA8AF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCCAA140)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_GET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xCCAA120)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xCCAA130)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2PvEBattleResultInfo_TypeDefinitionIndex = 75668;
-
 	class DiceCombatV2PvEBattleResultInfo : public ::RPG::Client::DiceCombat::DiceCombatV2BattleResultInfo
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>* _RewardItems_k__BackingField; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CTOR_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ItemDisplayData*>* get_RewardItems()
@@ -42,5 +39,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::RPG::Client::DiceCombat::DiceCombatV2PvEBattleResultInfo*(*)(::System::Boolean, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::RPG::Client::DiceCombat::DiceCombatV2PvEStage*, ::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*, ::System::Collections::Generic::IEnumerable_1<::Proto::Item*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATV2PVEBATTLERESULTINFO_CREATE_OFFSET))(a1, a2, a3, a4, a5);
 		}
+
 	};
 }

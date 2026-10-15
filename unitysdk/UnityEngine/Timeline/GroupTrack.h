@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
-
+#include "unitysdk/UnityEngine/Playables/PlayableBinding.h"
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::Timeline { class CustomGroupTrackDataBase; }
 
-#define UNITYENGINE_TIMELINE_GROUPTRACK_CANCOMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x1ECC3C90)
-#define UNITYENGINE_TIMELINE_GROUPTRACK_CHECKGROUP_OFFSET UNITYSDK_OFFSET(0x1ECC3CD0)
-#define UNITYENGINE_TIMELINE_GROUPTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1ECC3CA0)
-#define UNITYENGINE_TIMELINE_GROUPTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1ECC3CE0)
-#define UNITYENGINE_TIMELINE_GROUPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC3CF0)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_CANCOMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x1F38B960)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_CHECKGROUP_OFFSET UNITYSDK_OFFSET(0x1F38B9A0)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F38B9C0)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x1F38B970)
+#define UNITYENGINE_TIMELINE_GROUPTRACK_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F38B9B0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int GroupTrack_TypeDefinitionIndex = 37541;
-
 	class GroupTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:
 		::UnityEngine::Timeline::CustomGroupTrackDataBase* customData; // 0xC8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_GROUPTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_GROUPTRACK_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean CanCompileClips()
@@ -45,5 +41,6 @@ namespace UnityEngine::Timeline
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_GROUPTRACK_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

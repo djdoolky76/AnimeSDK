@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class HanuBarNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HANUBARNOTIFYCONFIG_METHOD_2_E2C4C08A95F007AE_OFFSET UNITYSDK_OFFSET(0x1D1791D0)
-#define RPG_GAMECORE_HANUBARNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D179300)
+#define RPG_GAMECORE_HANUBARNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D754630)
+#define RPG_GAMECORE_HANUBARNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D754500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HanuBarNotifyConfig_TypeDefinitionIndex = 16775;
-
 	class HanuBarNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* AttachPoint; // 0x10
 		::System::Single Duration; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANUBARNOTIFYCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANUBARNOTIFYCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E2C4C08A95F007AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HanuBarNotifyConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::HanuBarNotifyConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HanuBarNotifyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANUBARNOTIFYCONFIG_METHOD_2_E2C4C08A95F007AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::HanuBarNotifyConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HANUBARNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

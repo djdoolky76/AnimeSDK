@@ -1,32 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-namespace RPG::Client { class UIPrefabLoader_LoadResult; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace System { class Object; }
 namespace UnityEngine { class BinaryPrefabAsset; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE3A90B0)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__0_OFFSET UNITYSDK_OFFSET(0xE3A9380)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__1_OFFSET UNITYSDK_OFFSET(0xE3A9400)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3EA510)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__0_OFFSET UNITYSDK_OFFSET(0xE3EA670)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__1_OFFSET UNITYSDK_OFFSET(0xE3EA6F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass17_0_TypeDefinitionIndex = 73004;
-
 	class UIPrefabLoader___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* gameObject; // 0x10
-		::System::Action_1<::RPG::Client::UIPrefabLoader_LoadResult*>* callback; // 0x18
-		::UnityEngine::Transform* parent; // 0x20
+		::UnityEngine::Transform* parent; // 0x18
+		::System::Action* callback; // 0x20
 		::System::Boolean active; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void __AsyncLoadPrefabImpl_b__0(::UnityEngine::BinaryPrefabAsset* a1)
@@ -38,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS17_0___ASYNCLOADPREFABIMPL_B__1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 #include "unitysdk/UnityEngine/WrapMode.h"
-
 namespace UnityEngine { class AnimationCurve; }
 
-#define ROOTMOTION_NATIVECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x320C0)
-#define ROOTMOTION_NATIVECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x320B0)
-#define ROOTMOTION_NATIVECURVE_GET_ISCREATED_OFFSET UNITYSDK_OFFSET(0x32030)
-#define ROOTMOTION_NATIVECURVE_INITIALIZEVALUES_OFFSET UNITYSDK_OFFSET(0x32040)
-#define ROOTMOTION_NATIVECURVE_PINGPONG_OFFSET UNITYSDK_OFFSET(0x32140)
-#define ROOTMOTION_NATIVECURVE_REPEAT_OFFSET UNITYSDK_OFFSET(0x320F0)
-#define ROOTMOTION_NATIVECURVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x320A0)
+#define ROOTMOTION_NATIVECURVE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6C0)
+#define ROOTMOTION_NATIVECURVE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE6B0)
+#define ROOTMOTION_NATIVECURVE_GET_ISCREATED_OFFSET UNITYSDK_OFFSET(0xE630)
+#define ROOTMOTION_NATIVECURVE_INITIALIZEVALUES_OFFSET UNITYSDK_OFFSET(0xE640)
+#define ROOTMOTION_NATIVECURVE_PINGPONG_OFFSET UNITYSDK_OFFSET(0xE740)
+#define ROOTMOTION_NATIVECURVE_REPEAT_OFFSET UNITYSDK_OFFSET(0xE6F0)
+#define ROOTMOTION_NATIVECURVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xE6A0)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int NativeCurve_TypeDefinitionIndex = 44838;
-
 	struct alignas(8) NativeCurve
 	{
 		::Unity::Collections::NativeArray_1<::System::Single> values; // 0x10
+		::System::Byte _padding0[0x8];
 		::UnityEngine::WrapMode preWrapMode; // 0x20
 		::UnityEngine::WrapMode postWrapMode; // 0x24
-
 		::System::Boolean get_IsCreated()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_GET_ISCREATED_OFFSET))(this);
@@ -58,5 +54,6 @@ namespace RootMotion
 		{
 			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ROOTMOTION_NATIVECURVE_PINGPONG_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

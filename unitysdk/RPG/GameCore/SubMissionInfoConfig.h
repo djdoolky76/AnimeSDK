@@ -12,30 +12,29 @@
 #include "unitysdk/RPG/GameCore/QuestParaType.h"
 #include "unitysdk/RPG/GameCore/SubmissionLogicType.h"
 #include "unitysdk/RPG/GameCore/SubmissionOptionalTrackMode.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FinishActionConfig; }
 namespace RPG::GameCore { class MissionCustomValueRewardConfig; }
 namespace RPG::GameCore { class MissionItemConfig; }
 namespace RPG::GameCore { class MissionWaypointDataPack; }
+namespace RPG::GameCore { class SubMissionInfoConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57A900)
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1D57BE90)
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET UNITYSDK_OFFSET(0x1D57A8A0)
-#define RPG_GAMECORE_SUBMISSIONINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D57BE80)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB32470)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB30EF0)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1DB32480)
+#define RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET UNITYSDK_OFFSET(0x1DB30E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubMissionInfoConfig_TypeDefinitionIndex = 15301;
-
 	class SubMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::UInt32 ID; // 0x10
 		::System::UInt32 MainMissionID; // 0x14
 		::RPG::GameCore::MissionActivePlaneType MissionActivePlaneType; // 0x18
+		::System::Byte _padding0[0x4];
 		::System::UInt64 SpecifiedPlaneTypeBits; // 0x20
 		::System::String* MissionJsonPath; // 0x28
 		::System::UInt32 SortID; // 0x30
@@ -45,10 +44,13 @@ namespace RPG::GameCore
 		::System::String* AudioEmotionState; // 0x40
 		::System::String* SoundEffectState; // 0x48
 		::System::Boolean IsCanDelete; // 0x50
+		::System::Byte _padding1[0x3];
 		::RPG::GameCore::SubmissionLogicType LogicType; // 0x54
 		::RPG::GameCore::MissionBeginType TakeType; // 0x58
+		::System::Byte _padding2[0x4];
 		::Il2CppArray<::System::UInt32>* TakeParamIntList; // 0x60
 		::System::UInt32 TakePriority; // 0x68
+		::System::Byte _padding3[0x4];
 		::Il2CppArray<::System::String*>* TakeParamStrList; // 0x70
 		::System::UInt32 MazePlaneID; // 0x78
 		::System::UInt32 MazeFloorID; // 0x7C
@@ -64,27 +66,35 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::FinishActionConfig*>* FinishActionList; // 0xB0
 		::System::UInt32 Progress; // 0xB8
 		::System::Boolean IsBackTrack; // 0xBC
+		::System::Byte _padding4[0x3];
 		::RPG::GameCore::FinishWayCheckType CheckType; // 0xC0
 		::System::UInt32 CheckParamInt1; // 0xC4
 		::Il2CppArray<::System::String*>* CustomValueList; // 0xC8
 		::System::Boolean CheckFloor; // 0xD0
+		::System::Byte _padding5[0x3];
 		::System::UInt32 ProcessGroup; // 0xD4
 		::System::UInt32 SubRewardID; // 0xD8
+		::System::Byte _padding6[0x4];
 		::Il2CppArray<::RPG::GameCore::MissionCustomValueRewardConfig*>* CustomValueReward; // 0xE0
 		::Il2CppArray<::System::UInt32>* GroupIDList; // 0xE8
 		::Il2CppArray<::System::UInt32>* RequiredNPCSeriesIDList; // 0xF0
 		::System::Boolean IsShow; // 0xF8
 		::System::Boolean MuteNav; // 0xF9
+		::System::Byte _padding7[0x2];
 		::System::UInt32 ProgressGroup; // 0xFC
 		::System::Boolean IsShowProgress; // 0x100
+		::System::Byte _padding8[0x3];
 		::RPG::GameCore::MissionProgressType MissionProgressType; // 0x104
 		::System::UInt32 IsShowFinishEffect; // 0x108
 		::RPG::GameCore::BeginHintType IsShowStartHint; // 0x10C
 		::RPG::GameCore::MissionWayPointType WayPointType; // 0x110
 		::System::Boolean IsTrackByMessage; // 0x114
+		::System::Byte _padding9[0x3];
 		::System::UInt32 MessageGroupID; // 0x118
 		::System::Boolean IsGotoUIPage; // 0x11C
+		::System::Byte _padding10[0x3];
 		::System::UInt32 GotoID; // 0x120
+		::System::Byte _padding11[0x4];
 		::Il2CppArray<::System::Int32>* GotoParam; // 0x128
 		::System::UInt32 WayPointFloorID; // 0x130
 		::System::UInt32 WayPointGroupID; // 0x134
@@ -93,17 +103,19 @@ namespace RPG::GameCore
 		::System::Int32 WayPointShowRangeMin; // 0x140
 		::System::Single MapWaypointRange; // 0x144
 		::System::Boolean FroceMapHint; // 0x148
+		::System::Byte _padding12[0x7];
 		::Il2CppArray<::System::UInt32>* StoryLineIDList; // 0x150
 		::System::UInt32 StoryLineID; // 0x158
+		::System::Byte _padding13[0x4];
 		::Il2CppArray<::RPG::GameCore::MissionVerseParam>* IgnoreVerseParamList; // 0x160
 		::RPG::GameCore::SubmissionOptionalTrackMode OptionalTrackMode; // 0x168
+		::System::Byte _padding14[0x4];
 		::Il2CppArray<::RPG::GameCore::MissionWaypointDataPack*>* MultiPhaseWaypoint; // 0x170
 		::System::Single OverrideHintMaxDistance; // 0x178
 		::System::Boolean FixTransferRotation; // 0x17C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean IfIgnoreVerseParam(::RPG::GameCore::MissionVerseParam a1)
@@ -111,14 +123,15 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::MissionVerseParam))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_IFIGNOREVERSEPARAM_OFFSET))(this, a1);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SubMissionInfoConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::SubMissionInfoConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SubMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::SubMissionInfoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromJson(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::SubMissionInfoConfig*& a2)
+		static ::System::Void FromJson(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::SubMissionInfoConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::SubMissionInfoConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMJSON_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::SubMissionInfoConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUBMISSIONINFOCONFIG_FROMJSON_OFFSET))(a1, a2);
 		}
+
 	};
 }

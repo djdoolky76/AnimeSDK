@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Xml/Schema/Position.h"
-
+namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 
-#define SYSTEM_XML_SCHEMA_POSITIONS_ADD_OFFSET UNITYSDK_OFFSET(0x1E7F8560)
-#define SYSTEM_XML_SCHEMA_POSITIONS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1E7FA9C0)
-#define SYSTEM_XML_SCHEMA_POSITIONS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E7FCAC0)
-#define SYSTEM_XML_SCHEMA_POSITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FA3E0)
+#define SYSTEM_XML_SCHEMA_POSITIONS_ADD_OFFSET UNITYSDK_OFFSET(0x1EEC1240)
+#define SYSTEM_XML_SCHEMA_POSITIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC30C0)
+#define SYSTEM_XML_SCHEMA_POSITIONS_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1EEC36A0)
+#define SYSTEM_XML_SCHEMA_POSITIONS_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EEC57A0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Positions_TypeDefinitionIndex = 2067;
-
 	class Positions : public ::System::Object
 	{
 	public:
 		::System::Collections::ArrayList* positions; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_POSITIONS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_POSITIONS_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 Add(::System::Int32 a1, ::System::Object* a2)
@@ -38,5 +35,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_POSITIONS_GET_COUNT_OFFSET))(this);
 		}
+
 	};
 }

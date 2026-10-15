@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define MMJEGEJEHHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D35D0)
+#define MMJEGEJEHHB_DCPOKPGGEMH_OFFSET UNITYSDK_OFFSET(0xB9D3550)
+#define MMJEGEJEHHB_FFCPMPCGEDC_OFFSET UNITYSDK_OFFSET(0xB9D3590)
+
+	class MMJEGEJEHHB : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMJEGEJEHHB_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void DCPOKPGGEMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MMJEGEJEHHB_DCPOKPGGEMH_OFFSET))();
+		}
+
+		static ::System::Void FFCPMPCGEDC()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MMJEGEJEHHB_FFCPMPCGEDC_OFFSET))();
+		}
+
+	};

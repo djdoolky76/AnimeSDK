@@ -1,52 +1,52 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace MiHoYo::SDK { class Dispatcher; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_DISPATCHER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB1CE220)
-#define MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0xB1CDFC0)
-#define MIHOYO_SDK_DISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0xB1CDF10)
-#define MIHOYO_SDK_DISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0xB1CE070)
-#define MIHOYO_SDK_DISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB1CE330)
-#define MIHOYO_SDK_DISPATCHER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1CE670)
-#define MIHOYO_SDK_DISPATCHER__CTOR_OFFSET UNITYSDK_OFFSET(0xB1CE660)
+#define MIHOYO_SDK_DISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF78D70)
+#define MIHOYO_SDK_DISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xAF78D60)
+#define MIHOYO_SDK_DISPATCHER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xAF78910)
+#define MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0xAF786B0)
+#define MIHOYO_SDK_DISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0xAF78600)
+#define MIHOYO_SDK_DISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0xAF78760)
+#define MIHOYO_SDK_DISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0xAF78A20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Dispatcher_TypeDefinitionIndex = 46747;
-
 	class Dispatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__actions()
-		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Dispatcher_TypeDefinitionIndex)->GetStaticField(0x43EE0);
-		}
 		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__backlog()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(Dispatcher_TypeDefinitionIndex)->GetStaticField(0x43EE8);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1FF30);
 		}
+
 		static ::MiHoYo::SDK::Dispatcher** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Dispatcher**)Il2CppClass::FromTypeDefinitionIndex(Dispatcher_TypeDefinitionIndex)->GetStaticField(0x43EF0);
+			return (::MiHoYo::SDK::Dispatcher**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1FF38);
 		}
+
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__actions()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1FF40);
+		}
+
 		static ::System::Boolean* StaticGet__queued()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Dispatcher_TypeDefinitionIndex)->GetStaticField(0x10080);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x74B0);
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void RunAsync(::System::Action* a1)
@@ -54,9 +54,9 @@ namespace MiHoYo::SDK
 			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_RUNASYNC_OFFSET))(a1);
 		}
 
-		static ::System::Void RunAsync_1(::System::Action_1<::System::Object*>* a1, ::System::Object* a2)
+		static ::System::Void RunAsync_1(::System::Action* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Action*, ::System::Object*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void RunOnMainThread(::System::Action* a1)
@@ -73,5 +73,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_DISPATCHER_UPDATE_OFFSET))(this);
 		}
+
 	};
 }

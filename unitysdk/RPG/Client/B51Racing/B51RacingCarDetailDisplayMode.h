@@ -3,8 +3,6 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDetailDisplayMode_TypeDefinitionIndex = 80684;
-
 	enum class B51RacingCarDetailDisplayMode : ::System::Int32
 	{
 		Normal = 0,

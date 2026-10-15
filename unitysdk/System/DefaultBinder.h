@@ -3,7 +3,6 @@
 #include "unitysdk/System/Reflection/Binder.h"
 #include "unitysdk/System/Reflection/BindingFlags.h"
 #include "unitysdk/System/Reflection/ParameterModifier.h"
-
 namespace System { class Object; }
 namespace System { class RuntimeType; }
 namespace System { class String; }
@@ -14,43 +13,41 @@ namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class ParameterInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_DEFAULTBINDER_BINDTOFIELD_OFFSET UNITYSDK_OFFSET(0x1BCBBFE0)
-#define SYSTEM_DEFAULTBINDER_BINDTOMETHOD_OFFSET UNITYSDK_OFFSET(0x1BCB7D80)
-#define SYSTEM_DEFAULTBINDER_CANCONVERTPRIMITIVEOBJECTTOTYPE_OFFSET UNITYSDK_OFFSET(0x1BCBB9E0)
-#define SYSTEM_DEFAULTBINDER_CANCONVERTPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x1BCBD650)
-#define SYSTEM_DEFAULTBINDER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1BCBFC80)
-#define SYSTEM_DEFAULTBINDER_COMPAREMETHODSIGANDNAME_OFFSET UNITYSDK_OFFSET(0x1BCC0D70)
-#define SYSTEM_DEFAULTBINDER_CREATEPARAMORDER_OFFSET UNITYSDK_OFFSET(0x1BCBB5E0)
-#define SYSTEM_DEFAULTBINDER_EXACTBINDING_OFFSET UNITYSDK_OFFSET(0x1BCBFFF0)
-#define SYSTEM_DEFAULTBINDER_EXACTPROPERTYBINDING_OFFSET UNITYSDK_OFFSET(0x1BCC08B0)
-#define SYSTEM_DEFAULTBINDER_FINDMOSTDERIVEDNEWSLOTMETH_OFFSET UNITYSDK_OFFSET(0x1BCC05D0)
-#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICFIELD_OFFSET UNITYSDK_OFFSET(0x1BCBC610)
-#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICMETHOD_OFFSET UNITYSDK_OFFSET(0x1BCBBBE0)
-#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICPROPERTY_OFFSET UNITYSDK_OFFSET(0x1BCBF900)
-#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICTYPE_OFFSET UNITYSDK_OFFSET(0x1BCBEC30)
-#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFIC_OFFSET UNITYSDK_OFFSET(0x1BCBF470)
-#define SYSTEM_DEFAULTBINDER_GETHIERARCHYDEPTH_OFFSET UNITYSDK_OFFSET(0x1BCC1030)
-#define SYSTEM_DEFAULTBINDER_REORDERARGUMENTARRAY_OFFSET UNITYSDK_OFFSET(0x1BCBFCE0)
-#define SYSTEM_DEFAULTBINDER_REORDERPARAMS_OFFSET UNITYSDK_OFFSET(0x1BCBBA60)
-#define SYSTEM_DEFAULTBINDER_SELECTMETHOD_OFFSET UNITYSDK_OFFSET(0x1BCBC990)
-#define SYSTEM_DEFAULTBINDER_SELECTPROPERTY_OFFSET UNITYSDK_OFFSET(0x1BCBD950)
-#define SYSTEM_DEFAULTBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC10E0)
+#define SYSTEM_DEFAULTBINDER_BINDTOFIELD_OFFSET UNITYSDK_OFFSET(0x1C1C8070)
+#define SYSTEM_DEFAULTBINDER_BINDTOMETHOD_OFFSET UNITYSDK_OFFSET(0x1C1C3E40)
+#define SYSTEM_DEFAULTBINDER_CANCONVERTPRIMITIVEOBJECTTOTYPE_OFFSET UNITYSDK_OFFSET(0x1C1C7A70)
+#define SYSTEM_DEFAULTBINDER_CANCONVERTPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x1C1C96E0)
+#define SYSTEM_DEFAULTBINDER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1C1CBD10)
+#define SYSTEM_DEFAULTBINDER_COMPAREMETHODSIGANDNAME_OFFSET UNITYSDK_OFFSET(0x1C1CCE00)
+#define SYSTEM_DEFAULTBINDER_CREATEPARAMORDER_OFFSET UNITYSDK_OFFSET(0x1C1C76A0)
+#define SYSTEM_DEFAULTBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CD170)
+#define SYSTEM_DEFAULTBINDER_EXACTBINDING_OFFSET UNITYSDK_OFFSET(0x1C1CC080)
+#define SYSTEM_DEFAULTBINDER_EXACTPROPERTYBINDING_OFFSET UNITYSDK_OFFSET(0x1C1CC940)
+#define SYSTEM_DEFAULTBINDER_FINDMOSTDERIVEDNEWSLOTMETH_OFFSET UNITYSDK_OFFSET(0x1C1CC660)
+#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICFIELD_OFFSET UNITYSDK_OFFSET(0x1C1C86A0)
+#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICMETHOD_OFFSET UNITYSDK_OFFSET(0x1C1C7C70)
+#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICPROPERTY_OFFSET UNITYSDK_OFFSET(0x1C1CB990)
+#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFICTYPE_OFFSET UNITYSDK_OFFSET(0x1C1CACC0)
+#define SYSTEM_DEFAULTBINDER_FINDMOSTSPECIFIC_OFFSET UNITYSDK_OFFSET(0x1C1CB500)
+#define SYSTEM_DEFAULTBINDER_GETHIERARCHYDEPTH_OFFSET UNITYSDK_OFFSET(0x1C1CD0C0)
+#define SYSTEM_DEFAULTBINDER_REORDERARGUMENTARRAY_OFFSET UNITYSDK_OFFSET(0x1C1CBD70)
+#define SYSTEM_DEFAULTBINDER_REORDERPARAMS_OFFSET UNITYSDK_OFFSET(0x1C1C7AF0)
+#define SYSTEM_DEFAULTBINDER_SELECTMETHOD_OFFSET UNITYSDK_OFFSET(0x1C1C8A20)
+#define SYSTEM_DEFAULTBINDER_SELECTPROPERTY_OFFSET UNITYSDK_OFFSET(0x1C1C99E0)
 
 namespace System
 {
-	inline static constexpr unsigned int DefaultBinder_TypeDefinitionIndex = 229;
-
 	class DefaultBinder : public ::System::Reflection::Binder
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER_CTOR_OFFSET))(this);
 		}
 
-		::System::Reflection::MethodBase* BindToMethod(::System::Reflection::BindingFlags a1, ::Il2CppArray<::System::Reflection::MethodBase*>* a2, ::Il2CppArray<::System::Object*>*& a3, ::Il2CppArray<::System::Reflection::ParameterModifier>* a4, ::System::Globalization::CultureInfo* a5, ::Il2CppArray<::System::String*>* a6, ::System::Object*& a7)
+		::System::Reflection::MethodBase* BindToMethod(::System::Reflection::BindingFlags a1, ::Il2CppArray<::System::Reflection::MethodBase*>* a2, ::System::Object* a3, ::Il2CppArray<::System::Reflection::ParameterModifier>* a4, ::System::Globalization::CultureInfo* a5, ::Il2CppArray<::System::String*>* a6, ::System::Object* a7)
 		{
-			return ((::System::Reflection::MethodBase*(*)(::PVOID, ::System::Reflection::BindingFlags, ::Il2CppArray<::System::Reflection::MethodBase*>*, ::Il2CppArray<::System::Object*>*&, ::Il2CppArray<::System::Reflection::ParameterModifier>*, ::System::Globalization::CultureInfo*, ::Il2CppArray<::System::String*>*, ::System::Object*&))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER_BINDTOMETHOD_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Reflection::MethodBase*(*)(::PVOID, ::System::Reflection::BindingFlags, ::Il2CppArray<::System::Reflection::MethodBase*>*, ::System::Object*, ::Il2CppArray<::System::Reflection::ParameterModifier>*, ::System::Globalization::CultureInfo*, ::Il2CppArray<::System::String*>*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER_BINDTOMETHOD_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Reflection::FieldInfo* BindToField(::System::Reflection::BindingFlags a1, ::Il2CppArray<::System::Reflection::FieldInfo*>* a2, ::System::Object* a3, ::System::Globalization::CultureInfo* a4)
@@ -73,9 +70,9 @@ namespace System
 			return ((::System::Object*(*)(::PVOID, ::System::Object*, ::System::Type*, ::System::Globalization::CultureInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER_CHANGETYPE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void ReorderArgumentArray(::Il2CppArray<::System::Object*>*& a1, ::System::Object* a2)
+		::System::Void ReorderArgumentArray(::System::Object* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Object*>*&, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER_REORDERARGUMENTARRAY_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER_REORDERARGUMENTARRAY_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Reflection::MethodBase* ExactBinding(::Il2CppArray<::System::Reflection::MethodBase*>* a1, ::Il2CppArray<::System::Type*>* a2, ::Il2CppArray<::System::Reflection::ParameterModifier>* a3)
@@ -147,5 +144,6 @@ namespace System
 		{
 			return ((::System::Boolean(*)(::System::Object*, ::System::RuntimeType*))((::PBYTE)hIl2Cpp + SYSTEM_DEFAULTBINDER_CANCONVERTPRIMITIVEOBJECTTOTYPE_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MunicipalChatCrowdInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO_METHOD_2_6632583CE1B6EB6E_OFFSET UNITYSDK_OFFSET(0x1D2DED00)
-#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2DEE10)
+#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C1810)
+#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C1700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatCrowdInfo_TypeDefinitionIndex = 16742;
-
 	class MunicipalChatCrowdInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::String* UniqueName; // 0x10
 		::System::String* CrowdUniqueName; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATCROWDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATCROWDINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6632583CE1B6EB6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MunicipalChatCrowdInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::MunicipalChatCrowdInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MunicipalChatCrowdInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATCROWDINFO_METHOD_2_6632583CE1B6EB6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MunicipalChatCrowdInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUNICIPALCHATCROWDINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

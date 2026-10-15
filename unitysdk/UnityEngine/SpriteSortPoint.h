@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpriteSortPoint_TypeDefinitionIndex = 4415;
-
 	enum class SpriteSortPoint : ::System::Int32
 	{
 		Center = 0,

@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperone__AreBoundsVisible; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperone__ForceBoundsVisible; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperone__GetBoundsColor; }
@@ -13,8 +11,6 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperone__SetSceneColor; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperone_TypeDefinitionIndex = 37687;
-
 	struct alignas(8) IVRChaperone
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRChaperone__GetCalibrationState* GetCalibrationState; // 0x10

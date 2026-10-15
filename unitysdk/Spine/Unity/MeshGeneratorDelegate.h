@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Spine/Unity/MeshGeneratorBuffers.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
+#include "unitysdk/Spine/Unity/MeshGeneratorBuffers.h"
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1E647410)
-#define SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1E647480)
-#define SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1E6473D0)
-#define SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E647360)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1ED0F5A0)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0F4F0)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1ED0F610)
+#define SPINE_UNITY_MESHGENERATORDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED0F560)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshGeneratorDelegate_TypeDefinitionIndex = 43887;
-
 	class MeshGeneratorDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::Spine::Unity::MeshGeneratorBuffers a1)
@@ -38,5 +35,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SPINE_UNITY_MESHGENERATORDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

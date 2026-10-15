@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitLuckyKoiInfo_TypeDefinitionIndex = 61487;
-
 	struct alignas(8) ActivityBenefitLuckyKoiInfo
 	{
 		::System::String* UidStr; // 0x10

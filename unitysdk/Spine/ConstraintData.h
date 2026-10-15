@@ -1,31 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define SPINE_CONSTRAINTDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1E5D8DB0)
-#define SPINE_CONSTRAINTDATA_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1E5D8DC0)
-#define SPINE_CONSTRAINTDATA_GET_SKINREQUIRED_OFFSET UNITYSDK_OFFSET(0x1E5D8DE0)
-#define SPINE_CONSTRAINTDATA_SET_ORDER_OFFSET UNITYSDK_OFFSET(0x1E5D8DD0)
-#define SPINE_CONSTRAINTDATA_SET_SKINREQUIRED_OFFSET UNITYSDK_OFFSET(0x1E5D8DF0)
-#define SPINE_CONSTRAINTDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D8E00)
-#define SPINE_CONSTRAINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D8D40)
+#define SPINE_CONSTRAINTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA0EE0)
+#define SPINE_CONSTRAINTDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1ECA0F50)
+#define SPINE_CONSTRAINTDATA_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1ECA0F60)
+#define SPINE_CONSTRAINTDATA_GET_SKINREQUIRED_OFFSET UNITYSDK_OFFSET(0x1ECA0F80)
+#define SPINE_CONSTRAINTDATA_SET_ORDER_OFFSET UNITYSDK_OFFSET(0x1ECA0F70)
+#define SPINE_CONSTRAINTDATA_SET_SKINREQUIRED_OFFSET UNITYSDK_OFFSET(0x1ECA0F90)
+#define SPINE_CONSTRAINTDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ECA0FA0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int ConstraintData_TypeDefinitionIndex = 38370;
-
 	class ConstraintData : public ::System::Object
 	{
 	public:
 		::System::String* name; // 0x10
-		::System::Int32 order; // 0x18
-		::System::Boolean skinRequired; // 0x1C
-
+		::System::Boolean skinRequired; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Int32 order; // 0x1C
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_CONSTRAINTDATA__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SPINE_CONSTRAINTDATA_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Name()
@@ -57,5 +54,6 @@ namespace Spine
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_CONSTRAINTDATA_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

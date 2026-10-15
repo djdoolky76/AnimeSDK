@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightModifierConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightModifierRoleStarUpBeforeBattleBeginConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_METHOD_3_0D2B76F0B4340721_OFFSET UNITYSDK_OFFSET(0x1D15A880)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_METHOD_3_93BD1ADC9FD358FD_OFFSET UNITYSDK_OFFSET(0x1D15A830)
-#define RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D15A870)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D735660)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D735670)
+#define RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D735620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightModifierRoleStarUpBeforeBattleBeginConfig_TypeDefinitionIndex = 19128;
-
 	class GridFightModifierRoleStarUpBeforeBattleBeginConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_93BD1ADC9FD358FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_METHOD_3_93BD1ADC9FD358FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0D2B76F0B4340721(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_METHOD_3_0D2B76F0B4340721_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightModifierRoleStarUpBeforeBattleBeginConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTMODIFIERROLESTARUPBEFOREBATTLEBEGINCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

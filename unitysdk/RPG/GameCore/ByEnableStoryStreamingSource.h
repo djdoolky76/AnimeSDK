@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByEnableStoryStreamingSource; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_024482936D15DA94_OFFSET UNITYSDK_OFFSET(0x1CF19260)
-#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_6F059007F4EF9717_OFFSET UNITYSDK_OFFSET(0x1CF190F0)
-#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_E3349DDDE6C1BE5C_OFFSET UNITYSDK_OFFSET(0x1CF190B0)
-#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_EFD0A768A7A6397D_OFFSET UNITYSDK_OFFSET(0x1CF19230)
-#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF190E0)
+#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4F19B0)
+#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D4F1B30)
+#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D4F1B00)
+#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4F19C0)
+#define RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4F1980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByEnableStoryStreamingSource_TypeDefinitionIndex = 21657;
-
 	class ByEnableStoryStreamingSource : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E3349DDDE6C1BE5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByEnableStoryStreamingSource*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByEnableStoryStreamingSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByEnableStoryStreamingSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_E3349DDDE6C1BE5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByEnableStoryStreamingSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6F059007F4EF9717(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByEnableStoryStreamingSource* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByEnableStoryStreamingSource* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByEnableStoryStreamingSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_6F059007F4EF9717_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByEnableStoryStreamingSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EFD0A768A7A6397D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEnableStoryStreamingSource*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEnableStoryStreamingSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEnableStoryStreamingSource*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_EFD0A768A7A6397D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEnableStoryStreamingSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_024482936D15DA94(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEnableStoryStreamingSource* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByEnableStoryStreamingSource* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEnableStoryStreamingSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_METHOD_4_024482936D15DA94_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByEnableStoryStreamingSource*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYENABLESTORYSTREAMINGSOURCE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

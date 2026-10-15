@@ -3,10 +3,8 @@
 #include "unitysdk/RPG/Client/TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState.h"
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/System/ValueTuple_3.h"
+#include "unitysdk/System/ValueTuple.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class EraFlipperManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HoyoTagContainer; }
@@ -19,59 +17,60 @@ namespace UnityEngine::AI { class NavMeshLink; }
 namespace UnityEngine::AI { class NavMeshObstacle; }
 namespace UnityEngine::AI { class NavMeshSurface; }
 
-#define RPG_CLIENT_ERAFLIPPERUTIL_COMPARECONFIGTAG_OFFSET UNITYSDK_OFFSET(0xCECD170)
-#define RPG_CLIENT_ERAFLIPPERUTIL_COMPAREENTITYERATAG_OFFSET UNITYSDK_OFFSET(0xCECD050)
-#define RPG_CLIENT_ERAFLIPPERUTIL_COMPAREGROUPTAG_OFFSET UNITYSDK_OFFSET(0xCECB0C0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_COMPARETAG_1_OFFSET UNITYSDK_OFFSET(0xCECCE60)
-#define RPG_CLIENT_ERAFLIPPERUTIL_COMPARETAG_OFFSET UNITYSDK_OFFSET(0xCECD1E0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_CURRENTERASTATETOTSCSTATE_OFFSET UNITYSDK_OFFSET(0xCECB570)
-#define RPG_CLIENT_ERAFLIPPERUTIL_FILLFOLLOWINGPLAYERLIGHTCONEINFO_OFFSET UNITYSDK_OFFSET(0xCECC9C0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_FILLPARTIALDEVICEPOINTATINFO_OFFSET UNITYSDK_OFFSET(0xCECC560)
-#define RPG_CLIENT_ERAFLIPPERUTIL_GETFLOORCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xCECC420)
-#define RPG_CLIENT_ERAFLIPPERUTIL_HASANYFOLLOWPLAYERDEVICE_OFFSET UNITYSDK_OFFSET(0xCECC820)
-#define RPG_CLIENT_ERAFLIPPERUTIL_HASFOLLOWPLAYERDEVICE_OFFSET UNITYSDK_OFFSET(0xCECC8F0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISCURRENTREGION_OFFSET UNITYSDK_OFFSET(0xCECD390)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISFLIPSTATESAMEWITHFLOORDEFAULT_OFFSET UNITYSDK_OFFSET(0xCECD2C0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPCOLLIDERACTIVE_OFFSET UNITYSDK_OFFSET(0xCECB5C0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPVISIBLEALWAYS_OFFSET UNITYSDK_OFFSET(0xCECB230)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPVISIBLE_1_OFFSET UNITYSDK_OFFSET(0xCECCEE0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPVISIBLE_OFFSET UNITYSDK_OFFSET(0xCEC91E0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISMAPINFOVISIBLE_OFFSET UNITYSDK_OFFSET(0xCECCB70)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISPARTIALDEVICEACTIVE_OFFSET UNITYSDK_OFFSET(0xCECCAE0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_ISVISIBLEALWAYS_OFFSET UNITYSDK_OFFSET(0xCECCC90)
-#define RPG_CLIENT_ERAFLIPPERUTIL_REVERSESTATE_OFFSET UNITYSDK_OFFSET(0xCEC74A0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_RUNTIMEPARTIALDEVICEPOINTATMAPPINGPROPS_OFFSET UNITYSDK_OFFSET(0xCECC4D0)
-#define RPG_CLIENT_ERAFLIPPERUTIL_SETTARGETNAVANDCOLLIDERSTATE_OFFSET UNITYSDK_OFFSET(0xCECD640)
-#define RPG_CLIENT_ERAFLIPPERUTIL__CCTOR_OFFSET UNITYSDK_OFFSET(0xCECDC10)
+#define RPG_CLIENT_ERAFLIPPERUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE1C640)
+#define RPG_CLIENT_ERAFLIPPERUTIL_COMPARECONFIGTAG_OFFSET UNITYSDK_OFFSET(0xCE1BBA0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_COMPAREENTITYERATAG_OFFSET UNITYSDK_OFFSET(0xCE1BA80)
+#define RPG_CLIENT_ERAFLIPPERUTIL_COMPAREGROUPTAG_OFFSET UNITYSDK_OFFSET(0xCE19BB0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_COMPARETAG_1_OFFSET UNITYSDK_OFFSET(0xCE1B890)
+#define RPG_CLIENT_ERAFLIPPERUTIL_COMPARETAG_OFFSET UNITYSDK_OFFSET(0xCE1BC10)
+#define RPG_CLIENT_ERAFLIPPERUTIL_CURRENTERASTATETOTSCSTATE_OFFSET UNITYSDK_OFFSET(0xCE1A060)
+#define RPG_CLIENT_ERAFLIPPERUTIL_FILLFOLLOWINGPLAYERLIGHTCONEINFO_OFFSET UNITYSDK_OFFSET(0xCE1B3F0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_FILLPARTIALDEVICEPOINTATINFO_OFFSET UNITYSDK_OFFSET(0xCE1B050)
+#define RPG_CLIENT_ERAFLIPPERUTIL_GETFLOORCONFIGPATH_OFFSET UNITYSDK_OFFSET(0xCE1AF10)
+#define RPG_CLIENT_ERAFLIPPERUTIL_HASANYFOLLOWPLAYERDEVICE_OFFSET UNITYSDK_OFFSET(0xCE1B250)
+#define RPG_CLIENT_ERAFLIPPERUTIL_HASFOLLOWPLAYERDEVICE_OFFSET UNITYSDK_OFFSET(0xCE1B320)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISCURRENTREGION_OFFSET UNITYSDK_OFFSET(0xCE1BDC0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISFLIPSTATESAMEWITHFLOORDEFAULT_OFFSET UNITYSDK_OFFSET(0xCE1BCF0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPCOLLIDERACTIVE_OFFSET UNITYSDK_OFFSET(0xCE1A0B0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPVISIBLEALWAYS_OFFSET UNITYSDK_OFFSET(0xCE19D20)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPVISIBLE_1_OFFSET UNITYSDK_OFFSET(0xCE1B910)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISGROUPVISIBLE_OFFSET UNITYSDK_OFFSET(0xCE17C90)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISMAPINFOVISIBLE_OFFSET UNITYSDK_OFFSET(0xCE1B5A0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISPARTIALDEVICEACTIVE_OFFSET UNITYSDK_OFFSET(0xCE1B510)
+#define RPG_CLIENT_ERAFLIPPERUTIL_ISVISIBLEALWAYS_OFFSET UNITYSDK_OFFSET(0xCE1B6C0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_REVERSESTATE_OFFSET UNITYSDK_OFFSET(0xCE15F30)
+#define RPG_CLIENT_ERAFLIPPERUTIL_RUNTIMEPARTIALDEVICEPOINTATMAPPINGPROPS_OFFSET UNITYSDK_OFFSET(0xCE1AFC0)
+#define RPG_CLIENT_ERAFLIPPERUTIL_SETTARGETNAVANDCOLLIDERSTATE_OFFSET UNITYSDK_OFFSET(0xCE1C070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperUtil_TypeDefinitionIndex = 60613;
-
 	class EraFlipperUtil : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshObstacle*>** StaticGet__TempNavMeshObstacleList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshObstacle*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperUtil_TypeDefinitionIndex)->GetStaticField(0x65E50);
-		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet__TempColliderList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperUtil_TypeDefinitionIndex)->GetStaticField(0x65E58);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)UnitySDK::FromName("RPG.Client", "EraFlipperUtil")->GetStaticField(0x508F0);
 		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshSurface*>** StaticGet__TempNavMeshSurfaceList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshSurface*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperUtil_TypeDefinitionIndex)->GetStaticField(0x65E60);
-		}
+
 		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshLink*>** StaticGet__TempNavMeshLinkList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshLink*>**)Il2CppClass::FromTypeDefinitionIndex(EraFlipperUtil_TypeDefinitionIndex)->GetStaticField(0x65E68);
+			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshLink*>**)UnitySDK::FromName("RPG.Client", "EraFlipperUtil")->GetStaticField(0x508F8);
 		}
-		// static const ::System::String* FloorConfigPath; // 0x0
 
+		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshObstacle*>** StaticGet__TempNavMeshObstacleList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshObstacle*>**)UnitySDK::FromName("RPG.Client", "EraFlipperUtil")->GetStaticField(0x50900);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshSurface*>** StaticGet__TempNavMeshSurfaceList()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::AI::NavMeshSurface*>**)UnitySDK::FromName("RPG.Client", "EraFlipperUtil")->GetStaticField(0x50908);
+		}
+
+		// static const ::System::String* FloorConfigPath; // 0x0
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_CCTOR_OFFSET))();
 		}
 
 		static ::System::String* GetFloorConfigPath(::System::UInt32 a1)
@@ -89,14 +88,14 @@ namespace RPG::Client
 			return ((::RPG::Client::TimeSpaceCrisscrossGroupMonoPlugin_TimeSpaceCrisscrossState(*)(::RPG::GameCore::EraStateType))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_CURRENTERASTATETOTSCSTATE_OFFSET))(a1);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* RuntimePartialDevicePointAtMappingProps(::System::UInt32 a1, ::System::UInt32 a2)
+		static ::System::Collections::Generic::List_1<::System::ValueTuple>* RuntimePartialDevicePointAtMappingProps(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_RUNTIMEPARTIALDEVICEPOINTATMAPPINGPROPS_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::ValueTuple>*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_RUNTIMEPARTIALDEVICEPOINTATMAPPINGPROPS_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FillPartialDevicePointAtInfo(::System::UInt32 a1, ::System::UInt32 a2, ::UnityEngine::Vector3& a3, ::System::Single& a4)
+		static ::System::Void FillPartialDevicePointAtInfo(::System::UInt32 a1, ::System::UInt32 a2, ::UnityEngine::Vector3 a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_FILLPARTIALDEVICEPOINTATINFO_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Void(*)(::System::UInt32, ::System::UInt32, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_FILLPARTIALDEVICEPOINTATINFO_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Boolean HasAnyFollowPlayerDevice()
@@ -109,9 +108,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_HASFOLLOWPLAYERDEVICE_OFFSET))();
 		}
 
-		static ::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single> FillFollowingPlayerLightConeInfo()
+		static ::System::ValueTuple FillFollowingPlayerLightConeInfo()
 		{
-			return ((::System::ValueTuple_3<::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single>(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_FILLFOLLOWINGPLAYERLIGHTCONEINFO_OFFSET))();
+			return ((::System::ValueTuple(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_FILLFOLLOWINGPLAYERLIGHTCONEINFO_OFFSET))();
 		}
 
 		static ::System::Boolean IsPartialDeviceActive(::System::UInt32 a1, ::System::UInt32 a2)
@@ -188,5 +187,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ERAFLIPPERUTIL_SETTARGETNAVANDCOLLIDERSTATE_OFFSET))(a1, a2);
 		}
+
 	};
 }

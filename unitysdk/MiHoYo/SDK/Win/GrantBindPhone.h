@@ -2,43 +2,58 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/GrantType.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK::Win { class GrantBindPhone; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B847ED0)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_BACK_OFFSET UNITYSDK_OFFSET(0x1B848F20)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B849260)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_HIDE_OFFSET UNITYSDK_OFFSET(0x1B848EB0)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1B8492D0)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_QUESTION_OFFSET UNITYSDK_OFFSET(0x1B848F40)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B849020)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B849010)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_SHOW_OFFSET UNITYSDK_OFFSET(0x1B848DB0)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1B8491F0)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_START_OFFSET UNITYSDK_OFFSET(0x1B848C60)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1B849050)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1B848AE0)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1B848940)
-#define MIHOYO_SDK_WIN_GRANTBINDPHONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8492F0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BD41D50)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_BACK_OFFSET UNITYSDK_OFFSET(0x1BD42F10)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_COUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD43260)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD432F0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BD42EA0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BD432D0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_QUESTION_OFFSET UNITYSDK_OFFSET(0x1BD42F30)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_REQUESTVERIFYMESSAGE_OFFSET UNITYSDK_OFFSET(0x1BD43010)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_RESETCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD43000)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BD42DA0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_STARTCOUNTDOWN_OFFSET UNITYSDK_OFFSET(0x1BD431E0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_START_OFFSET UNITYSDK_OFFSET(0x1BD42C50)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1BD43040)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_UPDATEREQUESTCODEBUTTONSTATUS_OFFSET UNITYSDK_OFFSET(0x1BD42AD0)
+#define MIHOYO_SDK_WIN_GRANTBINDPHONE_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BD42930)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int GrantBindPhone_TypeDefinitionIndex = 9452;
-
 	class GrantBindPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:
+		::UnityEngine::UI::Button* backButton; // 0x58
+		::UnityEngine::UI::Text* phoneText; // 0x60
+		::UnityEngine::UI::Text* verifyPhoneTipsText; // 0x68
+		::UnityEngine::UI::InputField* verifycodeInput; // 0x70
+		::UnityEngine::UI::Button* requestCodeButton; // 0x78
+		::UnityEngine::UI::Text* requestCodeText; // 0x80
+		::UnityEngine::UI::Button* submitButton; // 0x88
+		::UnityEngine::UI::Button* questionButton; // 0x90
+		::System::Action* OnBack; // 0x98
+		::System::Action* OnGetCode; // 0xA0
+		::System::Action* OnSubmit; // 0xA8
+		::System::Boolean isRequestVerifyCode; // 0xB0
+		::System::Byte _padding0[0x3];
+		::System::Single countDownTime; // 0xB4
+		::System::Boolean retrieveFlag; // 0xB8
+		::System::Byte _padding1[0x7];
+		::MiHoYo::SDK::AccountModel* account; // 0xC0
 		static ::MiHoYo::SDK::Win::GrantBindPhone** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::GrantBindPhone**)Il2CppClass::FromTypeDefinitionIndex(GrantBindPhone_TypeDefinitionIndex)->GetStaticField(0x2B1E0);
+			return (::MiHoYo::SDK::Win::GrantBindPhone**)UnitySDK::FromName("MiHoYo.SDK.Win", "GrantBindPhone")->GetStaticField(0x20210);
 		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* QuestionButtonPath; // 0x0
 		// static const ::System::String* BackButtonPath; // 0x0
@@ -50,25 +65,9 @@ namespace MiHoYo::SDK::Win
 		// static const ::System::String* RequestCodeButtonPath; // 0x0
 		// static const ::System::String* RequestCodeTextPath; // 0x0
 		// static const ::System::String* SubmitButtonPath; // 0x0
-		::UnityEngine::UI::Button* backButton; // 0x58
-		::UnityEngine::UI::Text* phoneText; // 0x60
-		::UnityEngine::UI::Text* verifyPhoneTipsText; // 0x68
-		::UnityEngine::UI::InputField* verifycodeInput; // 0x70
-		::UnityEngine::UI::Button* requestCodeButton; // 0x78
-		::UnityEngine::UI::Text* requestCodeText; // 0x80
-		::UnityEngine::UI::Button* submitButton; // 0x88
-		::UnityEngine::UI::Button* questionButton; // 0x90
-		::System::Action* OnBack; // 0x98
-		::System::Action_1<::MiHoYo::SDK::GrantType>* OnGetCode; // 0xA0
-		::System::Action_1<::System::String*>* OnSubmit; // 0xA8
-		::System::Boolean isRequestVerifyCode; // 0xB0
-		::System::Single countDownTime; // 0xB4
-		::System::Boolean retrieveFlag; // 0xB8
-		::MiHoYo::SDK::AccountModel* account; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GRANTBINDPHONE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GRANTBINDPHONE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -140,5 +139,6 @@ namespace MiHoYo::SDK::Win
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GRANTBINDPHONE_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

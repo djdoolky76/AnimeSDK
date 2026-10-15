@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
-
 namespace EnviromentSystem { class EnviroLocalLightGroupProperty; }
-namespace EnviromentSystem { class EnviroLocalLightGroupProperty_LLGKeyValuePair; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_METHOD_3_AA919A9E63C8C412_OFFSET UNITYSDK_OFFSET(0x15365DD0)
-#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15365C50)
-#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x15366010)
+#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x15655500)
+#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_HMBGPCGKDKG_OFFSET UNITYSDK_OFFSET(0x156552C0)
+#define ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15655140)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int LLGKeyValuePairsScAsset_TypeDefinitionIndex = 49616;
-
 	class LLGKeyValuePairsScAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:
-		::System::Collections::Generic::List_1<::EnviromentSystem::EnviroLocalLightGroupProperty_LLGKeyValuePair*>* values; // 0x18
-
+		::System::Collections::Generic::List_1<::System::Object*>* values; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToString()
@@ -30,9 +26,10 @@ namespace EnviromentSystemV2Space
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_TOSTRING_OFFSET))(this);
 		}
 
-		::System::Void Method_3_AA919A9E63C8C412(::EnviromentSystem::EnviroLocalLightGroupProperty* a1)
+		::System::Void HMBGPCGKDKG(::EnviromentSystem::EnviroLocalLightGroupProperty* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroLocalLightGroupProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_METHOD_3_AA919A9E63C8C412_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroLocalLightGroupProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_LLGKEYVALUEPAIRSSCASSET_HMBGPCGKDKG_OFFSET))(this, a1);
 		}
+
 	};
 }

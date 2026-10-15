@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaControl.h"
-
 namespace RPG::Client { class MonoClickOutsideDetect; }
 namespace RPG::Client { class PrefabLoadMeta; }
 namespace RPG::Client { class UIStateCtrl; }
@@ -9,50 +8,46 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesItemDetailViewModel; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesItemPlaceGridRowControl; }
 namespace RPG::Client::ChenLingFes { class ChenLingFesItemTagControl; }
 namespace System { class Object; }
-namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB6E6C0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL_ONTICK_OFFSET UNITYSDK_OFFSET(0xCB6C5B0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__CHECKANDPLAYVISIBLESWITCH_OFFSET UNITYSDK_OFFSET(0xCB6E380)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xCB70110)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCB6E770)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONCLICKOUTSIDE_OFFSET UNITYSDK_OFFSET(0xCB6E560)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONDATAPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xCB6EDD0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCB6E150)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__REFRESHTEXT_OFFSET UNITYSDK_OFFSET(0xCB6F0F0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__REFRESHVISIBLE_OFFSET UNITYSDK_OFFSET(0xCB6EA10)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__SETUPGRIDS_OFFSET UNITYSDK_OFFSET(0xCB6F3E0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__SETUPRARITY_OFFSET UNITYSDK_OFFSET(0xCB6FE30)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__SETUPTAGS_OFFSET UNITYSDK_OFFSET(0xCB6F950)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCABF5D0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCABDB80)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL_ONTICK_OFFSET UNITYSDK_OFFSET(0xCABBB90)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__CHECKANDPLAYVISIBLESWITCH_OFFSET UNITYSDK_OFFSET(0xCABD840)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xCABDC30)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONCLICKOUTSIDE_OFFSET UNITYSDK_OFFSET(0xCABDA20)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONDATAPROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xCABE290)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xCABD610)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__REFRESHTEXT_OFFSET UNITYSDK_OFFSET(0xCABE5B0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__REFRESHVISIBLE_OFFSET UNITYSDK_OFFSET(0xCABDED0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__SETUPGRIDS_OFFSET UNITYSDK_OFFSET(0xCABE8A0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__SETUPRARITY_OFFSET UNITYSDK_OFFSET(0xCABF2F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__SETUPTAGS_OFFSET UNITYSDK_OFFSET(0xCABEE10)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesItemDetailControl_TypeDefinitionIndex = 80010;
-
 	class ChenLingFesItemDetailControl : public ::Sofa::BaseSofaControl
 	{
 	public:
+		::UnityEngine::UI::Text* _TextName; // 0x40
+		::UnityEngine::UI::Text* _TextDesc; // 0x48
+		::UnityEngine::UI::Image* _ImageIcon; // 0x50
+		::RPG::Client::PrefabLoadMeta* _GridRowLoadMeta; // 0x58
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesItemPlaceGridRowControl*>* _GridRows; // 0x60
+		::RPG::Client::PrefabLoadMeta* _TagLoadMeta; // 0x68
+		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesItemTagControl*>* _Tags; // 0x70
+		::RPG::Client::MonoClickOutsideDetect* _ClickOutsideDetect; // 0x78
+		::UnityEngine::Animation* _AnimSwitch; // 0x80
+		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x88
+		::System::Boolean _ShowVisible; // 0x90
 		// static const ::System::String* PrefabPath; // 0x0
-		::UnityEngine::UI::Text* _TextName; // 0x38
-		::UnityEngine::UI::Text* _TextDesc; // 0x40
-		::UnityEngine::UI::Image* _ImageIcon; // 0x48
-		::RPG::Client::PrefabLoadMeta* _GridRowLoadMeta; // 0x50
-		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesItemPlaceGridRowControl*>* _GridRows; // 0x58
-		::RPG::Client::PrefabLoadMeta* _TagLoadMeta; // 0x60
-		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesItemTagControl*>* _Tags; // 0x68
-		::RPG::Client::MonoClickOutsideDetect* _ClickOutsideDetect; // 0x70
-		::UnityEngine::Animation* _AnimSwitch; // 0x78
-		::RPG::Client::UIStateCtrl* _UIStateCtrl; // 0x80
-		::System::Boolean _ShowVisible; // 0x88
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnInitializeComponent()
@@ -114,5 +109,6 @@ namespace RPG::Client::ChenLingFes
 		{
 			return ((::RPG::Client::ChenLingFes::ChenLingFesItemDetailViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMDETAILCONTROL_GET__VIEWMODEL_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriFsInstallRequest.h"
-
 namespace CriWare { class CriFsRequest_DoneDelegate; }
 namespace CriWare { class CriFsWebInstaller; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164F2F90)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_GETCRC32_OFFSET UNITYSDK_OFFSET(0x164F27E0)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x164F26D0)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x164F29D0)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x164F14A0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x167180C0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16719BB0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_GETCRC32_OFFSET UNITYSDK_OFFSET(0x16719400)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x167192F0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x167195F0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstallRequest_TypeDefinitionIndex = 38816;
-
 	class CriFsWebInstallRequest : public ::CriWare::CriFsInstallRequest
 	{
 	public:
 		::CriWare::CriFsWebInstaller* installer; // 0x50
 		::System::UInt32 crc32; // 0x58
 		::System::Boolean crc32_set; // 0x5C
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::CriWare::CriFsRequest_DoneDelegate* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::CriWare::CriFsRequest_DoneDelegate*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSWEBINSTALLREQUEST__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::CriWare::CriFsRequest_DoneDelegate*))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSWEBINSTALLREQUEST_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Stop()
@@ -33,9 +29,9 @@ namespace CriWare
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSWEBINSTALLREQUEST_STOP_OFFSET))(this);
 		}
 
-		::System::Boolean GetCRC32(::System::UInt32& a1)
+		::System::Boolean GetCRC32(::System::UInt32 a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::UInt32&))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSWEBINSTALLREQUEST_GETCRC32_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSWEBINSTALLREQUEST_GETCRC32_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()
@@ -47,5 +43,6 @@ namespace CriWare
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIFSWEBINSTALLREQUEST_DISPOSE_OFFSET))(this, a1);
 		}
+
 	};
 }

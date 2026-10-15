@@ -3,8 +3,6 @@
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int IMessagePackSerializationCallbackReceiver_TypeDefinitionIndex = 6163;
-
 	class IMessagePackSerializationCallbackReceiver
 	{
 	public:

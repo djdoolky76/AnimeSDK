@@ -3,25 +3,22 @@
 #include "unitysdk/RPG/Client/MonopolyEffectDisplayEnum.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD887000)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xD887020)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xD887010)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xD887030)
-#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xD886FF0)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD887810)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD887820)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xD887840)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xD887830)
+#define RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xD887850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyEffectDisplayDataItem_TypeDefinitionIndex = 66270;
-
 	class MonopolyEffectDisplayDataItem : public ::System::Object
 	{
 	public:
 		::System::UInt32 _Value_k__BackingField; // 0x10
 		::RPG::Client::MonopolyEffectDisplayEnum _Type_k__BackingField; // 0x14
-
 		::System::Void _ctor(::RPG::Client::MonopolyEffectDisplayEnum a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonopolyEffectDisplayEnum, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonopolyEffectDisplayEnum, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::MonopolyEffectDisplayEnum get_Type()
@@ -43,5 +40,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYEFFECTDISPLAYDATAITEM_SET_VALUE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PoolGameObjectInstantiateStrategy_TypeDefinitionIndex = 59526;
-
 	enum class PoolGameObjectInstantiateStrategy : ::System::Int32
 	{
 		FromAsset = 0,

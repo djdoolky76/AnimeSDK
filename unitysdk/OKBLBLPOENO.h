@@ -1,0 +1,122 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class KOFMGCNIMIN;
+class OKBLBLPOENO;
+namespace Google::Protobuf { class CodedInputStream; }
+namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class MessageParser; }
+namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf::Reflection { class MessageDescriptor; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define OKBLBLPOENO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DE8FB50)
+#define OKBLBLPOENO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE8FDD0)
+#define OKBLBLPOENO_CGFNAFJEEKG_OFFSET UNITYSDK_OFFSET(0x1DE8F5B0)
+#define OKBLBLPOENO_CLONE_OFFSET UNITYSDK_OFFSET(0x1DE8F510)
+#define OKBLBLPOENO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DE8F490)
+#define OKBLBLPOENO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8F480)
+#define OKBLBLPOENO_DKPHFOGFAGI_OFFSET UNITYSDK_OFFSET(0x1DE8F5A0)
+#define OKBLBLPOENO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DE8F730)
+#define OKBLBLPOENO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DE8F5C0)
+#define OKBLBLPOENO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DE8FA00)
+#define OKBLBLPOENO_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1DE8F440)
+#define OKBLBLPOENO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DE8FC50)
+#define OKBLBLPOENO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DE8FBB0)
+#define OKBLBLPOENO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DE8F470)
+#define OKBLBLPOENO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE8FA60)
+#define OKBLBLPOENO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE8FAC0)
+
+	class OKBLBLPOENO : public ::System::Object
+	{
+	public:
+		::KOFMGCNIMIN* NLLPBGADLLJ; // 0x10
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
+		static ::Google::Protobuf::MessageParser** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("", "OKBLBLPOENO")->GetStaticField(0x20900);
+		}
+
+		// static const ::System::Object CCMJLMIDGGC; // 0x0
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OKBLBLPOENO_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::OKBLBLPOENO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OKBLBLPOENO*))((::PBYTE)hIl2Cpp + OKBLBLPOENO_CTOR_1_OFFSET))(this, a1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + OKBLBLPOENO_CCTOR_OFFSET))();
+		}
+
+		static ::Google::Protobuf::MessageParser* JJGHOBBFNJD()
+		{
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + OKBLBLPOENO_JJGHOBBFNJD_OFFSET))();
+		}
+
+		::Google::Protobuf::Reflection::MessageDescriptor* pb__Google_Protobuf_IMessage_get_Descriptor()
+		{
+			return ((::Google::Protobuf::Reflection::MessageDescriptor*(*)(::PVOID))((::PBYTE)hIl2Cpp + OKBLBLPOENO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET))(this);
+		}
+
+		::OKBLBLPOENO* Clone()
+		{
+			return ((::OKBLBLPOENO*(*)(::PVOID))((::PBYTE)hIl2Cpp + OKBLBLPOENO_CLONE_OFFSET))(this);
+		}
+
+		::KOFMGCNIMIN* DKPHFOGFAGI()
+		{
+			return ((::KOFMGCNIMIN*(*)(::PVOID))((::PBYTE)hIl2Cpp + OKBLBLPOENO_DKPHFOGFAGI_OFFSET))(this);
+		}
+
+		::System::Void CGFNAFJEEKG(::KOFMGCNIMIN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KOFMGCNIMIN*))((::PBYTE)hIl2Cpp + OKBLBLPOENO_CGFNAFJEEKG_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + OKBLBLPOENO_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::OKBLBLPOENO* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::OKBLBLPOENO*))((::PBYTE)hIl2Cpp + OKBLBLPOENO_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OKBLBLPOENO_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OKBLBLPOENO_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Void WriteTo(::Google::Protobuf::CodedOutputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedOutputStream*))((::PBYTE)hIl2Cpp + OKBLBLPOENO_WRITETO_OFFSET))(this, a1);
+		}
+
+		::System::Int32 CalculateSize()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + OKBLBLPOENO_CALCULATESIZE_OFFSET))(this);
+		}
+
+		::System::Void MergeFrom(::OKBLBLPOENO* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::OKBLBLPOENO*))((::PBYTE)hIl2Cpp + OKBLBLPOENO_MERGEFROM_OFFSET))(this, a1);
+		}
+
+		::System::Void MergeFrom_1(::Google::Protobuf::CodedInputStream* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + OKBLBLPOENO_MERGEFROM_1_OFFSET))(this, a1);
+		}
+
+	};

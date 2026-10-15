@@ -5,42 +5,38 @@
 #include "unitysdk/System/IO/FileShare.h"
 #include "unitysdk/System/IO/FileStream.h"
 #include "unitysdk/System/Net/CloseExState.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net { class FileWebRequest; }
 
-#define SYSTEM_NET_FILEWEBSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1E979380)
-#define SYSTEM_NET_FILEWEBSTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1E979500)
-#define SYSTEM_NET_FILEWEBSTREAM_CHECKERROR_OFFSET UNITYSDK_OFFSET(0x1E979230)
-#define SYSTEM_NET_FILEWEBSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E978F20)
-#define SYSTEM_NET_FILEWEBSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1E979460)
-#define SYSTEM_NET_FILEWEBSTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1E9795E0)
-#define SYSTEM_NET_FILEWEBSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1E979170)
-#define SYSTEM_NET_FILEWEBSTREAM_SYSTEM_NET_ICLOSEEX_CLOSEEX_OFFSET UNITYSDK_OFFSET(0x1E979080)
-#define SYSTEM_NET_FILEWEBSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1E9792C0)
-#define SYSTEM_NET_FILEWEBSTREAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E978650)
-#define SYSTEM_NET_FILEWEBSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E977660)
+#define SYSTEM_NET_FILEWEBSTREAM_BEGINREAD_OFFSET UNITYSDK_OFFSET(0x1F041F10)
+#define SYSTEM_NET_FILEWEBSTREAM_BEGINWRITE_OFFSET UNITYSDK_OFFSET(0x1F042090)
+#define SYSTEM_NET_FILEWEBSTREAM_CHECKERROR_OFFSET UNITYSDK_OFFSET(0x1F041DC0)
+#define SYSTEM_NET_FILEWEBSTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0411E0)
+#define SYSTEM_NET_FILEWEBSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0401F0)
+#define SYSTEM_NET_FILEWEBSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F041AB0)
+#define SYSTEM_NET_FILEWEBSTREAM_ENDREAD_OFFSET UNITYSDK_OFFSET(0x1F041FF0)
+#define SYSTEM_NET_FILEWEBSTREAM_ENDWRITE_OFFSET UNITYSDK_OFFSET(0x1F042170)
+#define SYSTEM_NET_FILEWEBSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1F041D00)
+#define SYSTEM_NET_FILEWEBSTREAM_SYSTEM_NET_ICLOSEEX_CLOSEEX_OFFSET UNITYSDK_OFFSET(0x1F041C10)
+#define SYSTEM_NET_FILEWEBSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1F041E50)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int FileWebStream_TypeDefinitionIndex = 2810;
-
 	class FileWebStream : public ::System::IO::FileStream
 	{
 	public:
 		::System::Net::FileWebRequest* m_request; // 0x68
-
 		::System::Void _ctor(::System::Net::FileWebRequest* a1, ::System::String* a2, ::System::IO::FileMode a3, ::System::IO::FileAccess a4, ::System::IO::FileShare a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::FileWebRequest*, ::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBSTREAM__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Net::FileWebRequest*, ::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBSTREAM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void _ctor_1(::System::Net::FileWebRequest* a1, ::System::String* a2, ::System::IO::FileMode a3, ::System::IO::FileAccess a4, ::System::IO::FileShare a5, ::System::Int32 a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::FileWebRequest*, ::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBSTREAM__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::PVOID, ::System::Net::FileWebRequest*, ::System::String*, ::System::IO::FileMode, ::System::IO::FileAccess, ::System::IO::FileShare, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBSTREAM_CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::System::Void Dispose(::System::Boolean a1)
@@ -87,5 +83,6 @@ namespace System::Net
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_FILEWEBSTREAM_CHECKERROR_OFFSET))(this);
 		}
+
 	};
 }

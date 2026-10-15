@@ -1,0 +1,114 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class BattlePassConfigRow; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define ONECFNCPKLD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D2A0550)
+#define ONECFNCPKLD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2A0AD0)
+#define ONECFNCPKLD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D2A06C0)
+#define ONECFNCPKLD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2A0000)
+#define ONECFNCPKLD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2A0290)
+#define ONECFNCPKLD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D2A0760)
+#define ONECFNCPKLD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D2A07B0)
+#define ONECFNCPKLD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D2A0590)
+#define ONECFNCPKLD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2A0230)
+#define ONECFNCPKLD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2A0400)
+#define ONECFNCPKLD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2A0620)
+#define ONECFNCPKLD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D29FF80)
+
+	class ONECFNCPKLD : public ::System::Object
+	{
+	public:
+		static ::System::Action** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "ONECFNCPKLD")->GetStaticField(0x3A030);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassConfigRow*>**)UnitySDK::FromName("", "ONECFNCPKLD")->GetStaticField(0x3A038);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "ONECFNCPKLD")->GetStaticField(0x3A040);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "ONECFNCPKLD")->GetStaticField(0xC5F0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "ONECFNCPKLD")->GetStaticField(0xC5F1);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ONECFNCPKLD_CCTOR_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassConfigRow*>* POIJCHCCDMH()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassConfigRow*>*(*)())((::PBYTE)hIl2Cpp + ONECFNCPKLD_POIJCHCCDMH_OFFSET))();
+		}
+
+		static ::System::Boolean LGELIIPIDEC()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + ONECFNCPKLD_LGELIIPIDEC_OFFSET))();
+		}
+
+		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassConfigRow*> FPHGMAMDFHE()
+		{
+			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::BattlePassConfigRow*>(*)())((::PBYTE)hIl2Cpp + ONECFNCPKLD_FPHGMAMDFHE_OFFSET))();
+		}
+
+		static ::RPG::GameCore::BattlePassConfigRow* LMBKNCAIDLC(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::BattlePassConfigRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + ONECFNCPKLD_LMBKNCAIDLC_OFFSET))(a1);
+		}
+
+		static ::System::Boolean ANPPJFBBJFP()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + ONECFNCPKLD_ANPPJFBBJFP_OFFSET))();
+		}
+
+		static ::System::Void FCMDLFKMBMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ONECFNCPKLD_FCMDLFKMBMH_OFFSET))();
+		}
+
+		static ::System::Void KACCGMCPAFN()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ONECFNCPKLD_KACCGMCPAFN_OFFSET))();
+		}
+
+		static ::System::Void PKPJFCDOFML(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + ONECFNCPKLD_PKPJFCDOFML_OFFSET))(a1);
+		}
+
+		static ::System::Void DDLFGAJGKAO(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + ONECFNCPKLD_DDLFGAJGKAO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void ICLCFODNNAE(::FCOEMCEDLNL* a1)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + ONECFNCPKLD_ICLCFODNNAE_OFFSET))(a1);
+		}
+
+		static ::System::Void KAAIFCHAOLA(::RPG::GameCore::BattlePassConfigRow* a1)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::BattlePassConfigRow*))((::PBYTE)hIl2Cpp + ONECFNCPKLD_KAAIFCHAOLA_OFFSET))(a1);
+		}
+
+	};

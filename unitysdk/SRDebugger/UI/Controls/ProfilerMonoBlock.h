@@ -1,34 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Slider; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1E6967D0)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_TRIGGERCOLLECTION_OFFSET UNITYSDK_OFFSET(0x1E696D40)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_TRIGGERREFRESH_OFFSET UNITYSDK_OFFSET(0x1E696840)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1E696C80)
-#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x1E696DB0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED5E740)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1ED5E1C0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_TRIGGERCOLLECTION_OFFSET UNITYSDK_OFFSET(0x1ED5E6D0)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_TRIGGERREFRESH_OFFSET UNITYSDK_OFFSET(0x1ED5E230)
+#define SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1ED5E610)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int ProfilerMonoBlock_TypeDefinitionIndex = 37339;
-
 	class ProfilerMonoBlock : public ::SRF::SRMonoBehaviourEx
 	{
 	public:
 		::System::Single _lastRefresh; // 0x48
+		::System::Byte _padding0[0x4];
 		::UnityEngine::UI::Text* CurrentUsedText; // 0x50
 		::UnityEngine::GameObject* NotSupportedMessage; // 0x58
 		::UnityEngine::UI::Slider* Slider; // 0x60
 		::UnityEngine::UI::Text* TotalAllocatedText; // 0x68
 		::System::Boolean _isSupported; // 0x70
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -50,5 +47,6 @@ namespace SRDebugger::UI::Controls
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRDEBUGGER_UI_CONTROLS_PROFILERMONOBLOCK_TRIGGERCOLLECTION_OFFSET))(this);
 		}
+
 	};
 }

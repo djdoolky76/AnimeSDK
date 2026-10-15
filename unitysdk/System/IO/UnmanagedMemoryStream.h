@@ -4,66 +4,62 @@
 #include "unitysdk/System/IO/SeekOrigin.h"
 #include "unitysdk/System/IO/Stream.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace System::Runtime::InteropServices { class SafeBuffer; }
 namespace System::Threading::Tasks { class Task; }
-namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BD5AAB0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x1BD699A0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1BD69960)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x1BD69970)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1BD69980)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CAPACITY_OFFSET UNITYSDK_OFFSET(0x1BD69A80)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1BD69A10)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_POSITIONPOINTER_OFFSET UNITYSDK_OFFSET(0x1BD69C30)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1BD69AF0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1BD69580)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1BD5A790)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1BD69560)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READASYNC_OFFSET UNITYSDK_OFFSET(0x1BD6A150)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READBYTE_OFFSET UNITYSDK_OFFSET(0x1BD6A3F0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1BD69DB0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x1BD6A630)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1BD6A7E0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1BD69B60)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_WRITEASYNC_OFFSET UNITYSDK_OFFSET(0x1BD6AEA0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_WRITEBYTE_OFFSET UNITYSDK_OFFSET(0x1BD6B150)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1BD6A9D0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD698B0)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD69900)
-#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD5A750)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C275670)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C2756C0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2665F0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C266950)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C275760)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1C275720)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CANSEEK_OFFSET UNITYSDK_OFFSET(0x1C275730)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1C275740)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_CAPACITY_OFFSET UNITYSDK_OFFSET(0x1C275840)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x1C2757D0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_POSITIONPOINTER_OFFSET UNITYSDK_OFFSET(0x1C2759F0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1C2758B0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_1_OFFSET UNITYSDK_OFFSET(0x1C275340)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_2_OFFSET UNITYSDK_OFFSET(0x1C266630)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C275320)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READASYNC_OFFSET UNITYSDK_OFFSET(0x1C275F10)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READBYTE_OFFSET UNITYSDK_OFFSET(0x1C2761B0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1C275B70)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_SEEK_OFFSET UNITYSDK_OFFSET(0x1C2763F0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_SETLENGTH_OFFSET UNITYSDK_OFFSET(0x1C2765A0)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1C275920)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_WRITEASYNC_OFFSET UNITYSDK_OFFSET(0x1C276C60)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_WRITEBYTE_OFFSET UNITYSDK_OFFSET(0x1C276F10)
+#define SYSTEM_IO_UNMANAGEDMEMORYSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1C276790)
 
 namespace System::IO
 {
-	inline static constexpr unsigned int UnmanagedMemoryStream_TypeDefinitionIndex = 706;
-
 	class UnmanagedMemoryStream : public ::System::IO::Stream
 	{
 	public:
-		::System::Runtime::InteropServices::SafeBuffer* _buffer; // 0x28
-		::System::Threading::Tasks::Task_1<::System::Int32>* _lastReadTask; // 0x30
-		::System::Boolean _isOpen; // 0x38
-		::System::IO::FileAccess _access; // 0x3C
-		::System::Int64 _length; // 0x40
-		::System::Int64 _position; // 0x48
-		::System::Int64 _offset; // 0x50
-		::System::Byte* _mem; // 0x58
-		::System::Int64 _capacity; // 0x60
-
+		::System::Threading::Tasks::Task* _lastReadTask; // 0x28
+		::System::Runtime::InteropServices::SafeBuffer* _buffer; // 0x30
+		::System::Int64 _position; // 0x38
+		::System::Int64 _capacity; // 0x40
+		::System::IO::FileAccess _access; // 0x48
+		::System::Boolean _isOpen; // 0x4C
+		::System::Byte _padding0[0x3];
+		::PVOID _mem; // 0x50
+		::System::Int64 _offset; // 0x58
+		::System::Int64 _length; // 0x60
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _ctor_1(::System::Byte* a1, ::System::Int64 a2)
+		::System::Void _ctor_1(::PVOID a1, ::System::Int64 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _ctor_2(::System::Byte* a1, ::System::Int64 a2, ::System::Int64 a3, ::System::IO::FileAccess a4, ::System::Boolean a5)
+		::System::Void _ctor_2(::PVOID a1, ::System::Int64 a2, ::System::Int64 a3, ::System::IO::FileAccess a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int64, ::System::Int64, ::System::IO::FileAccess, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM__CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int64, ::System::Int64, ::System::IO::FileAccess, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_CTOR_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void Initialize(::System::Runtime::InteropServices::SafeBuffer* a1, ::System::Int64 a2, ::System::Int64 a3, ::System::IO::FileAccess a4)
@@ -76,9 +72,9 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID, ::System::Runtime::InteropServices::SafeBuffer*, ::System::Int64, ::System::Int64, ::System::IO::FileAccess, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Initialize_2(::System::Byte* a1, ::System::Int64 a2, ::System::Int64 a3, ::System::IO::FileAccess a4, ::System::Boolean a5)
+		::System::Void Initialize_2(::PVOID a1, ::System::Int64 a2, ::System::Int64 a3, ::System::IO::FileAccess a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte*, ::System::Int64, ::System::Int64, ::System::IO::FileAccess, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_2_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int64, ::System::Int64, ::System::IO::FileAccess, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_INITIALIZE_2_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean get_CanRead()
@@ -126,9 +122,9 @@ namespace System::IO
 			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_SET_POSITION_OFFSET))(this, a1);
 		}
 
-		::System::Byte* get_PositionPointer()
+		::PVOID get_PositionPointer()
 		{
-			return ((::System::Byte*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_POSITIONPOINTER_OFFSET))(this);
+			return ((::PVOID(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_GET_POSITIONPOINTER_OFFSET))(this);
 		}
 
 		::System::Int32 Read(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -136,9 +132,9 @@ namespace System::IO
 			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READ_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Threading::Tasks::Task_1<::System::Int32>* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
+		::System::Threading::Tasks::Task* ReadAsync(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Threading::CancellationToken a4)
 		{
-			return ((::System::Threading::Tasks::Task_1<::System::Int32>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_READASYNC_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 ReadByte()
@@ -170,5 +166,6 @@ namespace System::IO
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + SYSTEM_IO_UNMANAGEDMEMORYSTREAM_WRITEBYTE_OFFSET))(this, a1);
 		}
+
 	};
 }

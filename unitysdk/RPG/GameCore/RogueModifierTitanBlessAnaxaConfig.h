@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RogueModifierConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueModifierTitanBlessAnaxaConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_METHOD_3_16BFE63E142C235A_OFFSET UNITYSDK_OFFSET(0x1D3FCC30)
-#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_METHOD_3_66FD4424AA541F1E_OFFSET UNITYSDK_OFFSET(0x1D3FCBE0)
-#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FCC20)
+#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1AA60)
+#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA1AA70)
+#define RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1AA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierTitanBlessAnaxaConfig_TypeDefinitionIndex = 17548;
-
 	class RogueModifierTitanBlessAnaxaConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_66FD4424AA541F1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_METHOD_3_66FD4424AA541F1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_16BFE63E142C235A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_METHOD_3_16BFE63E142C235A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueModifierTitanBlessAnaxaConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMODIFIERTITANBLESSANAXACONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

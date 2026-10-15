@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace RPG::Client { class IRogueTournGameLevelLinear; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14B1E250)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14B1E280)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_INVOKE_OFFSET UNITYSDK_OFFSET(0x14B1E240)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D__CTOR_OFFSET UNITYSDK_OFFSET(0x14B1E150)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x14DB30D0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_CTOR_OFFSET UNITYSDK_OFFSET(0x14DB2FD0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x14DB3100)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_INVOKE_OFFSET UNITYSDK_OFFSET(0x14DB30C0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_B07D395D_TypeDefinitionIndex = 50492;
-
 	class InternalGlobals___GEN_DELEGATE_B00_B07D395D : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::UInt32 Invoke(::RPG::Client::IRogueTournGameLevelLinear* a1)
@@ -38,5 +35,6 @@ namespace XLua
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE_B00_B07D395D_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

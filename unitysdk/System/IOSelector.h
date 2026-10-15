@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class IOSelectorJob; }
 
-#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x1E9506F0)
+#define SYSTEM_IOSELECTOR_ADD_OFFSET UNITYSDK_OFFSET(0x1F019650)
 
 namespace System
 {
-	inline static constexpr unsigned int IOSelector_TypeDefinitionIndex = 2490;
-
 	class IOSelector : public ::System::Object
 	{
 	public:
@@ -17,5 +14,6 @@ namespace System
 		{
 			return ((::System::Void(*)(::System::IntPtr, ::System::IOSelectorJob*))((::PBYTE)hIl2Cpp + SYSTEM_IOSELECTOR_ADD_OFFSET))(a1, a2);
 		}
+
 	};
 }

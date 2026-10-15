@@ -3,25 +3,22 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE84A5F0)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE84A470)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE84A730)
-#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE84A7A0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8E86F0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8E8570)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E88A0)
+#define RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8E8830)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int DiscussionEyeBloomTrack_TypeDefinitionIndex = 49174;
-
 	class DiscussionEyeBloomTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +35,6 @@ namespace RPGTools::Timeline::Emotion
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_DISCUSSIONEYEBLOOMTRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

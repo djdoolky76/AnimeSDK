@@ -2,32 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Expression.h"
 #include "unitysdk/System/Linq/Expressions/ExpressionType.h"
-
 namespace System { class Type; }
+namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ExpressionVisitor; }
+namespace System::Linq::Expressions { class InvocationExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1E764090)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1E763FF0)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1E764040)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1E763FE0)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E763FD0)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E763FC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_REWRITE_OFFSET UNITYSDK_OFFSET(0x1E764120)
-#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E763F50)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1EE2CC90)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2CB50)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1EE2CBF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE2CC40)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EE2CBE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EE2CBD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EE2CBC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EE2CD20)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int InvocationExpression_TypeDefinitionIndex = 3225;
-
 	class InvocationExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
 		::System::Linq::Expressions::Expression* _Expression_k__BackingField; // 0x10
 		::System::Type* _Type_k__BackingField; // 0x18
-
 		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Type* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Type* get_Type()
@@ -64,5 +62,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::InvocationExpression*(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::Il2CppArray<::System::Linq::Expressions::Expression*>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INVOCATIONEXPRESSION_REWRITE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

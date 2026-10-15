@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphBodySizeHeightConfig; }
+namespace RPG::GameCore { class PhotoGraphCommonConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_100CE94BB5D81A94_OFFSET UNITYSDK_OFFSET(0x1D32AE70)
-#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D32B200)
+#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D910390)
+#define RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90FF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphCommonConfig_TypeDefinitionIndex = 18831;
-
 	class PhotoGraphCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -28,15 +26,15 @@ namespace RPG::GameCore
 		::System::UInt32 MaleAvatarID; // 0x40
 		::System::UInt32 FemaleFakeAvatarID; // 0x44
 		::System::UInt32 FemaleAvatarID; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_100CE94BB5D81A94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphCommonConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphCommonConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphCommonConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_METHOD_2_100CE94BB5D81A94_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphCommonConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHCOMMONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

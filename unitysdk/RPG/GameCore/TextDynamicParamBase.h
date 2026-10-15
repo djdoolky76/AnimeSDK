@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TextDynamicParamBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_TEXTDYNAMICPARAMBASE_METHOD_2_11983C0DBACCDDAF_OFFSET UNITYSDK_OFFSET(0x1D5C9E10)
-#define RPG_GAMECORE_TEXTDYNAMICPARAMBASE_METHOD_2_4253B2C90426BB3C_OFFSET UNITYSDK_OFFSET(0x1D5C9A50)
-#define RPG_GAMECORE_TEXTDYNAMICPARAMBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C9E00)
+#define RPG_GAMECORE_TEXTDYNAMICPARAMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB815D0)
+#define RPG_GAMECORE_TEXTDYNAMICPARAMBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB815E0)
+#define RPG_GAMECORE_TEXTDYNAMICPARAMBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB81220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextDynamicParamBase_TypeDefinitionIndex = 16816;
-
 	class TextDynamicParamBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTDYNAMICPARAMBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTDYNAMICPARAMBASE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4253B2C90426BB3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TextDynamicParamBase*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TextDynamicParamBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TextDynamicParamBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTDYNAMICPARAMBASE_METHOD_2_4253B2C90426BB3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TextDynamicParamBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTDYNAMICPARAMBASE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_11983C0DBACCDDAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TextDynamicParamBase* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TextDynamicParamBase* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TextDynamicParamBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTDYNAMICPARAMBASE_METHOD_2_11983C0DBACCDDAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TextDynamicParamBase*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTDYNAMICPARAMBASE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -6,115 +6,125 @@
 #include "unitysdk/RPG/GameCore/AlleyPackAnchorType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_AE54088C838A17D2;
+class IBNAFGFFJLJ;
 namespace RPG::Client { class RPGAnimationEvent; }
+namespace RPG::Client::ActivityAlley { class AlleyPackAnchor; }
 namespace RPG::Client::ActivityAlley { class AlleyPackComponent; }
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_ENABLECOLLIDERTRIGGER_OFFSET UNITYSDK_OFFSET(0xC4B47C0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_ANCHORTRANSFORM_OFFSET UNITYSDK_OFFSET(0xC4B4A60)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_ANCHORWAITINGATTACH_OFFSET UNITYSDK_OFFSET(0xC4B4AB0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_ISAVAILABLETAILANCHOR_OFFSET UNITYSDK_OFFSET(0xC4B4AD0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_PARENTCOMPONENTREF_OFFSET UNITYSDK_OFFSET(0xC4B4A70)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_STATE_OFFSET UNITYSDK_OFFSET(0xC4B4A90)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_VIEWSTATE_OFFSET UNITYSDK_OFFSET(0xC4B5600)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_INIT_OFFSET UNITYSDK_OFFSET(0xC4B4410)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC4B4B40)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_14045882BC5C6CA9_OFFSET UNITYSDK_OFFSET(0xC4B5500)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_295B0FA1282F1A6E_OFFSET UNITYSDK_OFFSET(0xC4B5580)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_8A76897D6A693475_OFFSET UNITYSDK_OFFSET(0xC4B4900)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_A239DF324AF4215D_OFFSET UNITYSDK_OFFSET(0xC4B4ED0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_EDFD49C942C75D6C_OFFSET UNITYSDK_OFFSET(0xC4B45D0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_F0BD65B017F2AC0B_OFFSET UNITYSDK_OFFSET(0xC4B4540)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_ONSELECT_OFFSET UNITYSDK_OFFSET(0xC4B4780)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_REFRESHCOLLIDERTRIGGERSTATE_OFFSET UNITYSDK_OFFSET(0xC4B4880)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SETSELECT_OFFSET UNITYSDK_OFFSET(0xC4B4CF0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xC4B4BB0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_ANCHORWAITINGATTACH_OFFSET UNITYSDK_OFFSET(0xC4B4AC0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_PARENTCOMPONENTREF_OFFSET UNITYSDK_OFFSET(0xC4B4A80)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_STATE_OFFSET UNITYSDK_OFFSET(0xC4B4AA0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_VIEWSTATE_OFFSET UNITYSDK_OFFSET(0xC4B4C90)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_TRYPLAYMATCHANIME_OFFSET UNITYSDK_OFFSET(0xC4B4DF0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4B5620)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B5610)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3BCFA0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0xC3BCF90)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_ELHGCLEMDOH_OFFSET UNITYSDK_OFFSET(0xC3BCE80)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_ENABLECOLLIDERTRIGGER_OFFSET UNITYSDK_OFFSET(0xC3BC140)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_FOLDGAJHFPE_OFFSET UNITYSDK_OFFSET(0xC3BC850)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_ANCHORTRANSFORM_OFFSET UNITYSDK_OFFSET(0xC3BC3E0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_ANCHORWAITINGATTACH_OFFSET UNITYSDK_OFFSET(0xC3BC430)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_ISAVAILABLETAILANCHOR_OFFSET UNITYSDK_OFFSET(0xC3BC450)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_PARENTCOMPONENTREF_OFFSET UNITYSDK_OFFSET(0xC3BC3F0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_STATE_OFFSET UNITYSDK_OFFSET(0xC3BC410)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GET_VIEWSTATE_OFFSET UNITYSDK_OFFSET(0xC3BCF80)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GKKINGFLMNI_OFFSET UNITYSDK_OFFSET(0xC3BC280)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GOGBDOGNGHJ_OFFSET UNITYSDK_OFFSET(0xC3BBF50)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_INIT_OFFSET UNITYSDK_OFFSET(0xC3BBD90)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_JJCODDEKCOC_OFFSET UNITYSDK_OFFSET(0xC3BCF00)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC3BC4C0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_NEAFLEKFANC_OFFSET UNITYSDK_OFFSET(0xC3BBEC0)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_ONSELECT_OFFSET UNITYSDK_OFFSET(0xC3BC100)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_REFRESHCOLLIDERTRIGGERSTATE_OFFSET UNITYSDK_OFFSET(0xC3BC200)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SETSELECT_OFFSET UNITYSDK_OFFSET(0xC3BC670)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SETVISIBLE_OFFSET UNITYSDK_OFFSET(0xC3BC530)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_ANCHORWAITINGATTACH_OFFSET UNITYSDK_OFFSET(0xC3BC440)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_PARENTCOMPONENTREF_OFFSET UNITYSDK_OFFSET(0xC3BC400)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_STATE_OFFSET UNITYSDK_OFFSET(0xC3BC420)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_VIEWSTATE_OFFSET UNITYSDK_OFFSET(0xC3BC610)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_TRYPLAYMATCHANIME_OFFSET UNITYSDK_OFFSET(0xC3BC770)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackAnchor_TypeDefinitionIndex = 73985;
-
 	class AlleyPackAnchor : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_PPKJCJMHLCH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x61E60);
-		}
-		static ::System::String** StaticGet_GIICHHECGGP()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x61E68);
-		}
-		static ::System::String** StaticGet_JPGFDKLOGKA()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x61E70);
-		}
-		static ::System::String** StaticGet_KMOCDILCKJH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x61E78);
-		}
-		static ::System::String** StaticGet_CDKJFNMCCLJ()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x61E80);
-		}
-		static ::System::String** StaticGet_IOPLEMCBCBB()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x61E88);
-		}
-		static ::System::String** StaticGet_EOBIFKHDEAL()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x61E90);
-		}
-		static ::UnityEngine::Vector3* StaticGet_BNACHKAFOPE()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x13FD0);
-		}
-		static ::UnityEngine::Vector3* StaticGet_KIOGIOEDJOI()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x13FDC);
-		}
-		static ::UnityEngine::Vector3* StaticGet_GFFBPOBCNKL()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(AlleyPackAnchor_TypeDefinitionIndex)->GetStaticField(0x13FE8);
-		}
 		::RPG::Client::ActivityAlley::AlleyPackComponent* _ParentComponentRef_k__BackingField; // 0x18
 		::RPG::Client::ActivityAlley::AlleyPackAnchorState _State_k__BackingField; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::Client::ActivityAlley::AlleyPackAnchor* _AnchorWaitingAttach_k__BackingField; // 0x28
 		::RPG::Client::ActivityAlley::AlleyPackAnchor* AdjacentAnchorVertical; // 0x30
 		::RPG::Client::ActivityAlley::AlleyPackAnchor* AdjacentAnchorHorizontal; // 0x38
 		::RPG::GameCore::AlleyPackAnchorType AnchorType; // 0x40
 		::RPG::Client::ActivityAlley::AlleyPackAnchorDirType AnchorUseType; // 0x44
 		::System::UInt32 AnchorIndex; // 0x48
-		::Class_1_AE54088C838A17D2* AnchorData; // 0x50
+		::System::Byte _padding1[0x4];
+		::IBNAFGFFJLJ* AnchorData; // 0x50
 		::UnityEngine::Collider* MLJOMELBBMM; // 0x58
 		::System::Single HJKPJJHCNEP; // 0x60
 		::System::Boolean BIIHFBPFCMN; // 0x64
+		::System::Byte _padding2[0x3];
 		::UnityEngine::Animation* PMOJILOJEPE; // 0x68
 		::RPG::Client::RPGAnimationEvent* DDCODMNKPIP; // 0x70
 		::RPG::Client::ActivityAlley::AlleyPackAnchorViewState MKALMLPKLJD; // 0x78
 		::RPG::Client::ActivityAlley::AlleyPackAnchorViewState KMGNGBLAFMF; // 0x7C
 		::System::Boolean PFOKPFNJJAA; // 0x80
+		static ::System::String** StaticGet_EOBIFKHDEAL()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x114F0);
+		}
+
+		static ::System::String** StaticGet_IOPLEMCBCBB()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x114F8);
+		}
+
+		static ::System::String** StaticGet_GIICHHECGGP()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x11500);
+		}
+
+		static ::System::String** StaticGet_CDKJFNMCCLJ()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x11508);
+		}
+
+		static ::System::String** StaticGet_PPKJCJMHLCH()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x11510);
+		}
+
+		static ::System::String** StaticGet_KMOCDILCKJH()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x11518);
+		}
+
+		static ::System::String** StaticGet_JPGFDKLOGKA()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x11520);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_GFFBPOBCNKL()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x39B0);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_BNACHKAFOPE()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x39BC);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_KIOGIOEDJOI()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.ActivityAlley", "AlleyPackAnchor")->GetStaticField(0x39C8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_CCTOR_OFFSET))();
 		}
 
 		::System::Void Init()
@@ -137,9 +147,9 @@ namespace RPG::Client::ActivityAlley
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_REFRESHCOLLIDERTRIGGERSTATE_OFFSET))(this);
 		}
 
-		::System::Boolean Method_5_8A76897D6A693475()
+		::System::Boolean GKKINGFLMNI()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_8A76897D6A693475_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GKKINGFLMNI_OFFSET))(this);
 		}
 
 		::UnityEngine::Transform* get_AnchorTransform()
@@ -202,29 +212,29 @@ namespace RPG::Client::ActivityAlley
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_TRYPLAYMATCHANIME_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_F0BD65B017F2AC0B()
+		::System::Void NEAFLEKFANC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_F0BD65B017F2AC0B_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_NEAFLEKFANC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_A239DF324AF4215D()
+		::System::Void FOLDGAJHFPE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_A239DF324AF4215D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_FOLDGAJHFPE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EDFD49C942C75D6C()
+		::System::Void GOGBDOGNGHJ()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_EDFD49C942C75D6C_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_GOGBDOGNGHJ_OFFSET))(this);
 		}
 
-		::System::Void Method_5_295B0FA1282F1A6E(::System::String* a1)
+		::System::Void JJCODDEKCOC(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_295B0FA1282F1A6E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_JJCODDEKCOC_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_14045882BC5C6CA9(::System::String* a1)
+		::System::Void ELHGCLEMDOH(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_METHOD_5_14045882BC5C6CA9_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_ELHGCLEMDOH_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::ActivityAlley::AlleyPackAnchorViewState get_ViewState()
@@ -236,5 +246,6 @@ namespace RPG::Client::ActivityAlley
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityAlley::AlleyPackAnchorViewState))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKANCHOR_SET_VIEWSTATE_OFFSET))(this, a1);
 		}
+
 	};
 }

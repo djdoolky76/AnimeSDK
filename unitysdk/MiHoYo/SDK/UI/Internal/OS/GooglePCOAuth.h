@@ -2,51 +2,33 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UI/Confirm_ConfirmResult.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
+namespace MiHoYo::SDK::UI::Internal::OS { class GooglePCOAuth; }
 namespace System { class Action; }
-namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAF8DA0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_BACK_OFFSET UNITYSDK_OFFSET(0x1BAFA4F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CHANGEAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x1BAFA260)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAFA290)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CONTINUEAUTH_OFFSET UNITYSDK_OFFSET(0x1BAFA750)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_FINISHAUTH_OFFSET UNITYSDK_OFFSET(0x1BAFA630)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_HIDE_OFFSET UNITYSDK_OFFSET(0x1BAFA1F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1BAFA440)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1BAFA7E0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_REAUTH_OFFSET UNITYSDK_OFFSET(0x1BAFA6C0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_SETAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x1BAF9BE0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_SHOW_OFFSET UNITYSDK_OFFSET(0x1BAFA020)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1BAFA5A0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BAF9680)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH__CLICKBACKBUTTON_B__33_0_OFFSET UNITYSDK_OFFSET(0x1BAFA840)
-#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFA800)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_AWAKE_OFFSET UNITYSDK_OFFSET(0x1C004B70)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_BACK_OFFSET UNITYSDK_OFFSET(0x1C006470)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CHANGEAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x1C0061E0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CLICKBACKBUTTON_OFFSET UNITYSDK_OFFSET(0x1C006210)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CONTINUEAUTH_OFFSET UNITYSDK_OFFSET(0x1C0066D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C006780)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_FINISHAUTH_OFFSET UNITYSDK_OFFSET(0x1C0065B0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_HIDE_OFFSET UNITYSDK_OFFSET(0x1C006170)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_MEETPROBLEM_OFFSET UNITYSDK_OFFSET(0x1C0063C0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1C006760)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_REAUTH_OFFSET UNITYSDK_OFFSET(0x1C006640)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_SETAUTHSTATUS_OFFSET UNITYSDK_OFFSET(0x1C005B60)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_SHOW_OFFSET UNITYSDK_OFFSET(0x1C005FA0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_SUBMIT_OFFSET UNITYSDK_OFFSET(0x1C006520)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1C005580)
+#define MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH__CLICKBACKBUTTON_B__33_0_OFFSET UNITYSDK_OFFSET(0x1C0067C0)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int GooglePCOAuth_TypeDefinitionIndex = 8388;
-
 	class GooglePCOAuth : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth** StaticGet_Instance()
-		{
-			return (::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth_TypeDefinitionIndex)->GetStaticField(0x28F90);
-		}
-		// static const ::System::String* PrefabName; // 0x0
-		// static const ::System::String* BackButtonPath; // 0x0
-		// static const ::System::String* QuestionButtonPath; // 0x0
-		// static const ::System::String* TitleTextPath; // 0x0
-		// static const ::System::String* DescPath; // 0x0
-		// static const ::System::String* SubmitButtonPath; // 0x0
-		// static const ::System::String* SubmitButtonTextPath; // 0x0
-		// static const ::System::String* CheckButtonPath; // 0x0
-		// static const ::System::String* CheckButtonTextPath; // 0x0
-		// static const ::System::String* ReAuthButtonPath; // 0x0
-		// static const ::System::String* ReAuthButtonTextPath; // 0x0
 		::UnityEngine::UI::Button* backButton; // 0x58
 		::UnityEngine::UI::Button* questionButton; // 0x60
 		::UnityEngine::UI::Button* submitButton; // 0x68
@@ -62,10 +44,25 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		::System::Action* OnCheck; // 0xB8
 		::System::Action* OnMeetProblem; // 0xC0
 		::System::Action* OnReAuth; // 0xC8
+		static ::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth** StaticGet_Instance()
+		{
+			return (::MiHoYo::SDK::UI::Internal::OS::GooglePCOAuth**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "GooglePCOAuth")->GetStaticField(0x18470);
+		}
 
+		// static const ::System::String* PrefabName; // 0x0
+		// static const ::System::String* BackButtonPath; // 0x0
+		// static const ::System::String* QuestionButtonPath; // 0x0
+		// static const ::System::String* TitleTextPath; // 0x0
+		// static const ::System::String* DescPath; // 0x0
+		// static const ::System::String* SubmitButtonPath; // 0x0
+		// static const ::System::String* SubmitButtonTextPath; // 0x0
+		// static const ::System::String* CheckButtonPath; // 0x0
+		// static const ::System::String* CheckButtonTextPath; // 0x0
+		// static const ::System::String* ReAuthButtonPath; // 0x0
+		// static const ::System::String* ReAuthButtonTextPath; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Awake()
@@ -142,5 +139,6 @@ namespace MiHoYo::SDK::UI::Internal::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::UI::Confirm_ConfirmResult))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_INTERNAL_OS_GOOGLEPCOAUTH__CLICKBACKBUTTON_B__33_0_OFFSET))(this, a1);
 		}
+
 	};
 }

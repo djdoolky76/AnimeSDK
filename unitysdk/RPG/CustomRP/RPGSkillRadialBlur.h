@@ -1,17 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
-
 namespace UnityEngine::Rendering { class BoolParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DAEB0)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC61400)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSkillRadialBlur_TypeDefinitionIndex = 37155;
-
 	class RPGSkillRadialBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:
@@ -21,10 +18,10 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* Falloff; // 0x50
 		::UnityEngine::Rendering::BoolParameter* UseRadial; // 0x58
 		::UnityEngine::Rendering::Vector2Parameter* RadialCenter; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGSKILLRADIALBLUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGSKILLRADIALBLUR_CTOR_OFFSET))(this);
 		}
+
 	};
 }

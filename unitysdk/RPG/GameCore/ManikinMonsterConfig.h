@@ -2,17 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 #include "unitysdk/RPG/GameCore/MonsterBodySize.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ManikinMonsterConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D21F430)
-#define RPG_GAMECORE_MANIKINMONSTERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D21F710)
+#define RPG_GAMECORE_MANIKINMONSTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8284E0)
+#define RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8281F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ManikinMonsterConfig_TypeDefinitionIndex = 17284;
-
 	class ManikinMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -21,17 +19,18 @@ namespace RPG::GameCore
 		::System::Single OutlineWidth; // 0x1C
 		::Il2CppArray<::System::String*>* AbilityList; // 0x20
 		::System::Boolean EnableFloor; // 0x28
-		::System::String* ResidentEffectKey; // 0x30
+		::System::Byte _padding0[0x7];
+		::Il2CppArray<::System::String*>* ResidentEffectKey; // 0x30
 		::System::String* ResidentPossessionKey; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ManikinMonsterConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::ManikinMonsterConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ManikinMonsterConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ManikinMonsterConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MANIKINMONSTERCONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnTriggerEnter2DHandler; }
 namespace UnityEngine { class Collider2D; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_GETONTRIGGERENTER2DASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1EA723E0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_GETONTRIGGERENTER2DASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1EA72300)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EA72620)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_OFFSET UNITYSDK_OFFSET(0x1EA72440)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x1EA72290)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA727A0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F139F40)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_GETONTRIGGERENTER2DASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1F139B80)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_GETONTRIGGERENTER2DASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1F139AA0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_1_OFFSET UNITYSDK_OFFSET(0x1F139DC0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_OFFSET UNITYSDK_OFFSET(0x1F139BE0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2D_OFFSET UNITYSDK_OFFSET(0x1F139A30)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerEnter2DTrigger_TypeDefinitionIndex = 43016;
-
-	class AsyncTriggerEnter2DTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::UnityEngine::Collider2D*>
+	class AsyncTriggerEnter2DTrigger
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnTriggerEnter2D(::UnityEngine::Collider2D* a1)
@@ -41,14 +37,15 @@ namespace Cysharp::Threading::Tasks::Triggers
 			return ((::Cysharp::Threading::Tasks::Triggers::IAsyncOnTriggerEnter2DHandler*(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_GETONTRIGGERENTER2DASYNCHANDLER_1_OFFSET))(this, a1);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::Collider2D*> OnTriggerEnter2DAsync()
+		::Cysharp::Threading::Tasks::UniTask OnTriggerEnter2DAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::Collider2D*>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::Collider2D*> OnTriggerEnter2DAsync_1(::System::Threading::CancellationToken a1)
+		::Cysharp::Threading::Tasks::UniTask OnTriggerEnter2DAsync_1(::System::Threading::CancellationToken a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::Collider2D*>(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_1_OFFSET))(this, a1);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCTRIGGERENTER2DTRIGGER_ONTRIGGERENTER2DASYNC_1_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
-
+#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_CE3CD1D1492D0382_OFFSET UNITYSDK_OFFSET(0xE0F20E0)
-#define RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_E60607EEEA67A558_OFFSET UNITYSDK_OFFSET(0xE0F2510)
-#define RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_EEFE3CA8386BEC1A_OFFSET UNITYSDK_OFFSET(0xE0F2430)
-#define RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_F5030600344F3898_OFFSET UNITYSDK_OFFSET(0xE0F2270)
-#define RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0xE0F1D60)
-#define RPG_CLIENT_STATESTANDBYBREAK_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE0F1C00)
-#define RPG_CLIENT_STATESTANDBYBREAK_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xE0F2650)
-#define RPG_CLIENT_STATESTANDBYBREAK_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE0F1DD0)
-#define RPG_CLIENT_STATESTANDBYBREAK__CTOR_OFFSET UNITYSDK_OFFSET(0xE0F2710)
+#define RPG_CLIENT_STATESTANDBYBREAK_BOPEKOOHEHE_OFFSET UNITYSDK_OFFSET(0xE132D50)
+#define RPG_CLIENT_STATESTANDBYBREAK_CTOR_OFFSET UNITYSDK_OFFSET(0xE133380)
+#define RPG_CLIENT_STATESTANDBYBREAK_GAKJLJIBAGL_OFFSET UNITYSDK_OFFSET(0xE133180)
+#define RPG_CLIENT_STATESTANDBYBREAK_JFPDIJMEIKG_OFFSET UNITYSDK_OFFSET(0xE1329D0)
+#define RPG_CLIENT_STATESTANDBYBREAK_MDONFHBHLIE_OFFSET UNITYSDK_OFFSET(0xE132EE0)
+#define RPG_CLIENT_STATESTANDBYBREAK_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE132870)
+#define RPG_CLIENT_STATESTANDBYBREAK_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xE1332C0)
+#define RPG_CLIENT_STATESTANDBYBREAK_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE132A40)
+#define RPG_CLIENT_STATESTANDBYBREAK_PDPDGPHPLID_OFFSET UNITYSDK_OFFSET(0xE1330A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateStandByBreak_TypeDefinitionIndex = 68811;
-
 	class StateStandByBreak : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:
 		::System::Single MinChangeGap; // 0x18
 		::System::Single MaxChangeGap; // 0x1C
 		::System::Single ChangeDuration; // 0x20
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Single>* CannotChangeNormalizedTimeRange; // 0x28
 		::System::Single _GapTimer; // 0x30
 		::System::Single _ChangeTimer; // 0x34
@@ -32,10 +30,9 @@ namespace RPG::Client
 		::System::Single _ChangeTargetValue; // 0x3C
 		::System::Boolean _IsChanging; // 0x40
 		::System::Boolean _EnableBreak; // 0x41
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
@@ -53,29 +50,30 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_4_E60607EEEA67A558(::UnityEngine::Animator* a1, ::System::Single a2, ::System::Single a3)
+		::System::Void GAKJLJIBAGL(::UnityEngine::Animator* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_E60607EEEA67A558_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_GAKJLJIBAGL_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_4_CE3CD1D1492D0382(::UnityEngine::Animator* a1, ::System::Single a2, ::System::Single a3)
+		::System::Void BOPEKOOHEHE(::UnityEngine::Animator* a1, ::System::Single a2, ::System::Single a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_CE3CD1D1492D0382_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_BOPEKOOHEHE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void Method_4_F5030600344F3898(::UnityEngine::Animator* a1, ::System::Single a2)
+		::System::Void MDONFHBHLIE(::UnityEngine::Animator* a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_F5030600344F3898_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_MDONFHBHLIE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Single Method_4_FF7B2911BBACA4A9()
+		::System::Single JFPDIJMEIKG()
 		{
-			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_FF7B2911BBACA4A9_OFFSET))(this);
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_JFPDIJMEIKG_OFFSET))(this);
 		}
 
-		::System::Boolean Method_4_EEFE3CA8386BEC1A(::System::Single a1)
+		::System::Boolean PDPDGPHPLID(::System::Single a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_METHOD_4_EEFE3CA8386BEC1A_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATESTANDBYBREAK_PDPDGPHPLID_OFFSET))(this, a1);
 		}
+
 	};
 }

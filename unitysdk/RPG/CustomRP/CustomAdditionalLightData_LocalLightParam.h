@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomAdditionalLightData_LocalLightParam_TypeDefinitionIndex = 37028;
-
 	struct alignas(4) CustomAdditionalLightData_LocalLightParam
 	{
 		::UnityEngine::Color Color; // 0x10

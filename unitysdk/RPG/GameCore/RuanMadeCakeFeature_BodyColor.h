@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/BMAGJGLPIIF.h"
 #include "unitysdk/RPG/GameCore/RuanMadeCakeFeatureConfig.h"
-#include "unitysdk/Struct_2_331ACDD60B60D2E3.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RuanMadeCakeFeature_BodyColor; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_METHOD_3_A72BF51FAC87BB06_OFFSET UNITYSDK_OFFSET(0x1D4B9460)
-#define RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_METHOD_3_F27B24C66DFE4DB9_OFFSET UNITYSDK_OFFSET(0x1D4B94A0)
-#define RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4B9490)
+#define RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6C730)
+#define RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA6C740)
+#define RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA6D290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RuanMadeCakeFeature_BodyColor_TypeDefinitionIndex = 17267;
-
 	class RuanMadeCakeFeature_BodyColor : public ::RPG::GameCore::RuanMadeCakeFeatureConfig
 	{
 	public:
-		::Il2CppArray<::Struct_2_331ACDD60B60D2E3>* CustomColor; // 0x18
-
+		::Il2CppArray<::BMAGJGLPIIF>* CustomColor; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A72BF51FAC87BB06(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_METHOD_3_A72BF51FAC87BB06_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_F27B24C66DFE4DB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_METHOD_3_F27B24C66DFE4DB9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RuanMadeCakeFeature_BodyColor*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RUANMADECAKEFEATURE_BODYCOLOR_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,17 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RogueDLC1Dot3AdventureRoomProcess; }
+namespace RPG::GameCore { class TaskConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_METHOD_3_ABE89A853DBC5449_OFFSET UNITYSDK_OFFSET(0x1D3CC6C0)
-#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_METHOD_3_DA769E4490658F3F_OFFSET UNITYSDK_OFFSET(0x1D3CC700)
-#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CC6F0)
+#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B2EE0)
+#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9B2EF0)
+#define RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9B2EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomProcess_TypeDefinitionIndex = 22029;
-
 	class RogueDLC1Dot3AdventureRoomProcess : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -20,20 +19,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSettleResponse; // 0x28
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSettleFinish; // 0x30
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnLoginFinished; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ABE89A853DBC5449(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_METHOD_3_ABE89A853DBC5449_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DA769E4490658F3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_METHOD_3_DA769E4490658F3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomProcess*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3ADVENTUREROOMPROCESS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

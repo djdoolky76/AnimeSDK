@@ -1,27 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightRoleWithEquipConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_METHOD_2_AA0A0BB00168C8DC_OFFSET UNITYSDK_OFFSET(0x1D1653A0)
-#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1653E0)
+#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7401D0)
+#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D740190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleWithEquipConfig_TypeDefinitionIndex = 10537;
-
 	class GridFightRoleWithEquipConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_AA0A0BB00168C8DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightRoleWithEquipConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightRoleWithEquipConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightRoleWithEquipConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_METHOD_2_AA0A0BB00168C8DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightRoleWithEquipConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

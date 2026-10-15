@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageIntegerizeCategory_TypeDefinitionIndex = 24355;
-
 	enum class DamageIntegerizeCategory : ::System::Int32
 	{
 		None = 0,

@@ -1,25 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Networking/DownloadHandler.h"
-
 namespace System { class String; }
+namespace UnityEngine::Networking { class DownloadHandlerFile; }
 
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1EE9B560)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EE9B6D0)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1EE9B720)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET UNITYSDK_OFFSET(0x1EE9B570)
-#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE9B620)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F563110)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5631D0)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1F563280)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET UNITYSDK_OFFSET(0x1F5632D0)
+#define UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_INTERNALCREATEVFS_OFFSET UNITYSDK_OFFSET(0x1F563120)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int DownloadHandlerFile_TypeDefinitionIndex = 5355;
-
 	class DownloadHandlerFile : public ::UnityEngine::Networking::DownloadHandler
 	{
 	public:
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_CTOR_OFFSET))(this, a1);
 		}
 
 		static ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerFile* a1, ::System::String* a2, ::System::Boolean a3)
@@ -41,5 +39,6 @@ namespace UnityEngine::Networking
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_DOWNLOADHANDLERFILE_GETTEXT_OFFSET))(this);
 		}
+
 	};
 }

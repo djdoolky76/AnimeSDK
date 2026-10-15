@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class AsyncOperation; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class ResourceRequest; }
 
-#define UNITYENGINE_RESOURCES_FINDOBJECTSOFTYPEALL_OFFSET UNITYSDK_OFFSET(0x1ED62180)
-#define UNITYENGINE_RESOURCES_GETBUILTINRESOURCE_OFFSET UNITYSDK_OFFSET(0x1ED622C0)
-#define UNITYENGINE_RESOURCES_LOADALL_1_OFFSET UNITYSDK_OFFSET(0x1ED62280)
-#define UNITYENGINE_RESOURCES_LOADALL_OFFSET UNITYSDK_OFFSET(0x1ED62270)
-#define UNITYENGINE_RESOURCES_LOADASYNCINTERNAL_OFFSET UNITYSDK_OFFSET(0x1ED62260)
-#define UNITYENGINE_RESOURCES_LOADASYNC_1_OFFSET UNITYSDK_OFFSET(0x1ED62230)
-#define UNITYENGINE_RESOURCES_LOADASYNC_OFFSET UNITYSDK_OFFSET(0x1ED621D0)
-#define UNITYENGINE_RESOURCES_LOAD_1_OFFSET UNITYSDK_OFFSET(0x1ED62160)
-#define UNITYENGINE_RESOURCES_LOAD_OFFSET UNITYSDK_OFFSET(0x1ED62190)
-#define UNITYENGINE_RESOURCES_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x1ED622D0)
-#define UNITYENGINE_RESOURCES_UNLOADUNUSEDASSETS_OFFSET UNITYSDK_OFFSET(0x1ED622E0)
-#define UNITYENGINE_RESOURCES_UNLOADUNUSEDCACHEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1ED622F0)
-#define UNITYENGINE_RESOURCES__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED62300)
+#define UNITYENGINE_RESOURCES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F42A5F0)
+#define UNITYENGINE_RESOURCES_FINDOBJECTSOFTYPEALL_OFFSET UNITYSDK_OFFSET(0x1F42A470)
+#define UNITYENGINE_RESOURCES_GETBUILTINRESOURCE_OFFSET UNITYSDK_OFFSET(0x1F42A5B0)
+#define UNITYENGINE_RESOURCES_LOADALL_1_OFFSET UNITYSDK_OFFSET(0x1F42A570)
+#define UNITYENGINE_RESOURCES_LOADALL_OFFSET UNITYSDK_OFFSET(0x1F42A560)
+#define UNITYENGINE_RESOURCES_LOADASYNCINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F42A550)
+#define UNITYENGINE_RESOURCES_LOADASYNC_2_OFFSET UNITYSDK_OFFSET(0x1F42A520)
+#define UNITYENGINE_RESOURCES_LOADASYNC_OFFSET UNITYSDK_OFFSET(0x1F42A4C0)
+#define UNITYENGINE_RESOURCES_LOAD_2_OFFSET UNITYSDK_OFFSET(0x1F42A450)
+#define UNITYENGINE_RESOURCES_LOAD_OFFSET UNITYSDK_OFFSET(0x1F42A480)
+#define UNITYENGINE_RESOURCES_UNLOADASSET_OFFSET UNITYSDK_OFFSET(0x1F42A5C0)
+#define UNITYENGINE_RESOURCES_UNLOADUNUSEDASSETS_OFFSET UNITYSDK_OFFSET(0x1F42A5D0)
+#define UNITYENGINE_RESOURCES_UNLOADUNUSEDCACHEBUFFERS_OFFSET UNITYSDK_OFFSET(0x1F42A5E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Resources_TypeDefinitionIndex = 4274;
-
 	class Resources : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_CTOR_OFFSET))(this);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Object*>* FindObjectsOfTypeAll(::System::Type* a1)
@@ -44,9 +41,9 @@ namespace UnityEngine
 			return ((::UnityEngine::Object*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOAD_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::Object* Load_1(::System::String* a1, ::System::Type* a2)
+		static ::UnityEngine::Object* Load_2(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOAD_1_OFFSET))(a1, a2);
+			return ((::UnityEngine::Object*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOAD_2_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::ResourceRequest* LoadAsync(::System::String* a1)
@@ -54,9 +51,9 @@ namespace UnityEngine
 			return ((::UnityEngine::ResourceRequest*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOADASYNC_OFFSET))(a1);
 		}
 
-		static ::UnityEngine::ResourceRequest* LoadAsync_1(::System::String* a1, ::System::Type* a2)
+		static ::UnityEngine::ResourceRequest* LoadAsync_2(::System::String* a1, ::System::Type* a2)
 		{
-			return ((::UnityEngine::ResourceRequest*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOADASYNC_1_OFFSET))(a1, a2);
+			return ((::UnityEngine::ResourceRequest*(*)(::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_LOADASYNC_2_OFFSET))(a1, a2);
 		}
 
 		static ::UnityEngine::ResourceRequest* LoadAsyncInternal(::System::String* a1, ::System::Type* a2)
@@ -93,5 +90,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RESOURCES_UNLOADUNUSEDCACHEBUFFERS_OFFSET))();
 		}
+
 	};
 }

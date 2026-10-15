@@ -2,75 +2,76 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
-
-class Class_2_01F4079471966D8C;
+class PKLHDDGKKOC;
+namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0xDCFB950)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_022B0D58A3077BF2_OFFSET UNITYSDK_OFFSET(0xDCFBFB0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0xDCFBF60)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDCFC190)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDCFC080)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETDISTANCELV_OFFSET UNITYSDK_OFFSET(0xDCFB700)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATERATIO_OFFSET UNITYSDK_OFFSET(0xDCFB8F0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATETARGETATCONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0xDCFBB90)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET UNITYSDK_OFFSET(0xDCFB6B0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASUREFIND_OFFSET UNITYSDK_OFFSET(0xDCFB7B0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASURE_OFFSET UNITYSDK_OFFSET(0xDCFBDE0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERDISAPPEAR_OFFSET UNITYSDK_OFFSET(0xDCF9020)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERSCAN_OFFSET UNITYSDK_OFFSET(0xDCFB850)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCFBE30)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM__CCTOR_OFFSET UNITYSDK_OFFSET(0xDCFC2B0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xDCFC2A0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD84B80)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDD84B70)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_INIT_OFFSET UNITYSDK_OFFSET(0xDD84220)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_IPKEKKIJBJL_OFFSET UNITYSDK_OFFSET(0xDD84830)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_LINAFDLFKLM_OFFSET UNITYSDK_OFFSET(0xDD84880)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDD84A60)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDD84950)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETDISTANCELV_OFFSET UNITYSDK_OFFSET(0xDD83FD0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATERATIO_OFFSET UNITYSDK_OFFSET(0xDD841C0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATETARGETATCONSTANTSPEED_OFFSET UNITYSDK_OFFSET(0xDD84460)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET UNITYSDK_OFFSET(0xDD83F80)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASUREFIND_OFFSET UNITYSDK_OFFSET(0xDD84080)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTREASURE_OFFSET UNITYSDK_OFFSET(0xDD846B0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERDISAPPEAR_OFFSET UNITYSDK_OFFSET(0xDD818B0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETTRIGGERSCAN_OFFSET UNITYSDK_OFFSET(0xDD84120)
+#define RPG_CLIENT_PROP_PROBEPUZZLEITEM_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD84700)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ProbePuzzleItem_TypeDefinitionIndex = 78309;
-
 	class ProbePuzzleItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_LNDCCOAHLEN()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65790);
-		}
-		static ::System::String** StaticGet_EFLNDNGCCGN()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x65798);
-		}
-		static ::System::String** StaticGet_GCJJAOGJPFG()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x657A0);
-		}
-		static ::System::String** StaticGet_CJBKIMGOPOK()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ProbePuzzleItem_TypeDefinitionIndex)->GetStaticField(0x657A8);
-		}
 		::System::Single _rotateRatio; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* AIALICECJOJ; // 0x20
-		::Class_2_01F4079471966D8C* NAHOHKAHBPK; // 0x28
-		::System::Action_1<::System::Single>* LNBDGMFCHAP; // 0x30
+		::PKLHDDGKKOC* NAHOHKAHBPK; // 0x28
+		::System::Action* LNBDGMFCHAP; // 0x30
 		::UnityEngine::Quaternion KICIGEMOJKB; // 0x38
 		::UnityEngine::Quaternion LEEFKBFPEHL; // 0x48
 		::System::Single DCNOGDMDJGF; // 0x58
 		::System::Single DJIKPFCFAPO; // 0x5C
+		static ::System::String** StaticGet_EFLNDNGCCGN()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleItem")->GetStaticField(0x5BEC0);
+		}
+
+		static ::System::String** StaticGet_GCJJAOGJPFG()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleItem")->GetStaticField(0x5BEC8);
+		}
+
+		static ::System::String** StaticGet_CJBKIMGOPOK()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleItem")->GetStaticField(0x5BED0);
+		}
+
+		static ::System::String** StaticGet_LNDCCOAHLEN()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleItem")->GetStaticField(0x5BED8);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_CCTOR_OFFSET))();
 		}
 
-		::System::Void Init(::Class_2_01F4079471966D8C* a1)
+		::System::Void Init(::PKLHDDGKKOC* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_2_01F4079471966D8C*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_INIT_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::PKLHDDGKKOC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_INIT_OFFSET))(this, a1);
 		}
 
 		::System::Void SetTreasure(::UnityEngine::Transform* a1)
@@ -108,9 +109,9 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETROTATETARGETATCONSTANTSPEED_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetScanCallBack(::System::Action_1<::System::Single>* a1)
+		::System::Void SetScanCallBack(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Single>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_SETSCANCALLBACK_OFFSET))(this, a1);
 		}
 
 		::System::Void Update()
@@ -118,14 +119,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_UPDATE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_7DD84EAFF333A1E4(::System::Object* a1)
+		::System::Void IPKEKKIJBJL(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_7DD84EAFF333A1E4_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_IPKEKKIJBJL_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_5_022B0D58A3077BF2(::System::Object* a1)
+		::System::Void LINAFDLFKLM(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_METHOD_5_022B0D58A3077BF2_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_LINAFDLFKLM_OFFSET))(this, a1);
 		}
 
 		::System::Void OnEnable()
@@ -137,5 +138,6 @@ namespace RPG::Client::Prop
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_PROBEPUZZLEITEM_ONDISABLE_OFFSET))(this);
 		}
+
 	};
 }

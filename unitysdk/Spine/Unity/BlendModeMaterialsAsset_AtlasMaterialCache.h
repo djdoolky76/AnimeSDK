@@ -1,30 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
 namespace Spine { class AtlasPage; }
 namespace Spine { class AtlasRegion; }
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Material; }
 
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_CLONEATLASREGIONWITHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E638C50)
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E638CB0)
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_GETATLASPAGEWITHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1E638D30)
-#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E638BC0)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_CLONEATLASREGIONWITHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ED00DD0)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED00D40)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ED00E30)
+#define SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_GETATLASPAGEWITHMATERIAL_OFFSET UNITYSDK_OFFSET(0x1ED00EB0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int BlendModeMaterialsAsset_AtlasMaterialCache_TypeDefinitionIndex = 43897;
-
 	class BlendModeMaterialsAsset_AtlasMaterialCache : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::Spine::AtlasPage*, ::UnityEngine::Material*>, ::Spine::AtlasPage*>* cache; // 0x10
-
+		::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair*, ::Spine::AtlasPage*>* cache; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_CTOR_OFFSET))(this);
 		}
 
 		::Spine::AtlasRegion* CloneAtlasRegionWithMaterial(::Spine::AtlasRegion* a1, ::UnityEngine::Material* a2)
@@ -41,5 +37,6 @@ namespace Spine::Unity
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SPINE_UNITY_BLENDMODEMATERIALSASSET_ATLASMATERIALCACHE_DISPOSE_OFFSET))(this);
 		}
+
 	};
 }

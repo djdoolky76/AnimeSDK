@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ComponentModel/Component.h"
-#include "unitysdk/System/Diagnostics/Process_ProcInfo.h"
 #include "unitysdk/System/Diagnostics/Process_State.h"
 #include "unitysdk/System/Diagnostics/Process_StreamReadMode.h"
-
+#include "unitysdk/System/Diagnostics/Process_ProcInfo.h"
 namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 namespace System { class EventHandler; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace System::ComponentModel { class ISynchronizeInvoke; }
 namespace System::Diagnostics { class AsyncStreamReader; }
+namespace System::Diagnostics { class Process; }
 namespace System::Diagnostics { class ProcessInfo; }
 namespace System::Diagnostics { class ProcessModuleCollection; }
 namespace System::Diagnostics { class ProcessStartInfo; }
@@ -20,105 +20,102 @@ namespace System::IO { class StreamWriter; }
 namespace System::Threading { class RegisteredWaitHandle; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_DIAGNOSTICS_PROCESS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1E943550)
-#define SYSTEM_DIAGNOSTICS_PROCESS_COMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1E9432B0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_CREATEPIPE_OFFSET UNITYSDK_OFFSET(0x1E946090)
-#define SYSTEM_DIAGNOSTICS_PROCESS_CREATEPROCESS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1E945FD0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1E943510)
-#define SYSTEM_DIAGNOSTICS_PROCESS_ENSURESTATE_OFFSET UNITYSDK_OFFSET(0x1E942580)
-#define SYSTEM_DIAGNOSTICS_PROCESS_ENSUREWATCHINGFOREXIT_OFFSET UNITYSDK_OFFSET(0x1E943980)
-#define SYSTEM_DIAGNOSTICS_PROCESS_FILLUSERINFO_OFFSET UNITYSDK_OFFSET(0x1E946000)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GETCURRENTPROCESS_OFFSET UNITYSDK_OFFSET(0x1E943D40)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSBYID_1_OFFSET UNITYSDK_OFFSET(0x1E943B70)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSBYID_OFFSET UNITYSDK_OFFSET(0x1E943B60)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSHANDLE_1_OFFSET UNITYSDK_OFFSET(0x1E944170)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1E942720)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1E945F30)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_ASSOCIATED_OFFSET UNITYSDK_OFFSET(0x1E941F10)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x1E942E20)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_HASEXITED_OFFSET UNITYSDK_OFFSET(0x1E941F30)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_ID_OFFSET UNITYSDK_OFFSET(0x1E942F30)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_ISWINDOWS_OFFSET UNITYSDK_OFFSET(0x1E9463C0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_PROCESSNAME_OFFSET UNITYSDK_OFFSET(0x1E945B70)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_STARTINFO_OFFSET UNITYSDK_OFFSET(0x1E942F50)
-#define SYSTEM_DIAGNOSTICS_PROCESS_GET_SYNCHRONIZINGOBJECT_OFFSET UNITYSDK_OFFSET(0x1E9430A0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_ISLOCALMACHINE_OFFSET UNITYSDK_OFFSET(0x1E945F50)
-#define SYSTEM_DIAGNOSTICS_PROCESS_ONEXITED_OFFSET UNITYSDK_OFFSET(0x1E943DD0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_OPENPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1E942E90)
-#define SYSTEM_DIAGNOSTICS_PROCESS_PROCESSNAME_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1E945E60)
-#define SYSTEM_DIAGNOSTICS_PROCESS_PROCESSNAME_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1E945E50)
-#define SYSTEM_DIAGNOSTICS_PROCESS_RAISEONEXITED_OFFSET UNITYSDK_OFFSET(0x1E942D50)
-#define SYSTEM_DIAGNOSTICS_PROCESS_REFRESH_OFFSET UNITYSDK_OFFSET(0x1E943950)
-#define SYSTEM_DIAGNOSTICS_PROCESS_RELEASEPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1E942C10)
-#define SYSTEM_DIAGNOSTICS_PROCESS_SETPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1E944180)
-#define SYSTEM_DIAGNOSTICS_PROCESS_SETPROCESSID_OFFSET UNITYSDK_OFFSET(0x1E9441A0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_SET_STARTINFO_OFFSET UNITYSDK_OFFSET(0x1E943030)
-#define SYSTEM_DIAGNOSTICS_PROCESS_SHELLEXECUTEEX_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1E945FC0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_STARTWITHCREATEPROCESS_OFFSET UNITYSDK_OFFSET(0x1E944560)
-#define SYSTEM_DIAGNOSTICS_PROCESS_STARTWITHSHELLEXECUTEEX_OFFSET UNITYSDK_OFFSET(0x1E944310)
-#define SYSTEM_DIAGNOSTICS_PROCESS_START_1_OFFSET UNITYSDK_OFFSET(0x1E945870)
-#define SYSTEM_DIAGNOSTICS_PROCESS_START_2_OFFSET UNITYSDK_OFFSET(0x1E9458D0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_START_OFFSET UNITYSDK_OFFSET(0x1E9441B0)
-#define SYSTEM_DIAGNOSTICS_PROCESS_STOPWATCHINGFOREXIT_OFFSET UNITYSDK_OFFSET(0x1E943390)
-#define SYSTEM_DIAGNOSTICS_PROCESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9459A0)
-#define SYSTEM_DIAGNOSTICS_PROCESS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E941EB0)
-#define SYSTEM_DIAGNOSTICS_PROCESS__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E945DE0)
-#define SYSTEM_DIAGNOSTICS_PROCESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1E941E60)
+#define SYSTEM_DIAGNOSTICS_PROCESS_CLOSE_OFFSET UNITYSDK_OFFSET(0x1F00C3B0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_COMPLETIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F00C120)
+#define SYSTEM_DIAGNOSTICS_PROCESS_CREATEPIPE_OFFSET UNITYSDK_OFFSET(0x1F00EF60)
+#define SYSTEM_DIAGNOSTICS_PROCESS_CREATEPROCESS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F00EEA0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F00ACE0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F00ECA0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F00AC90)
+#define SYSTEM_DIAGNOSTICS_PROCESS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F00C370)
+#define SYSTEM_DIAGNOSTICS_PROCESS_ENSURESTATE_OFFSET UNITYSDK_OFFSET(0x1F00B3D0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_ENSUREWATCHINGFOREXIT_OFFSET UNITYSDK_OFFSET(0x1F00C7F0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_FILLUSERINFO_OFFSET UNITYSDK_OFFSET(0x1F00EED0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GETCURRENTPROCESS_OFFSET UNITYSDK_OFFSET(0x1F00CBC0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSBYID_1_OFFSET UNITYSDK_OFFSET(0x1F00C9E0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSBYID_OFFSET UNITYSDK_OFFSET(0x1F00C9D0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSHANDLE_1_OFFSET UNITYSDK_OFFSET(0x1F00D000)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1F00B570)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GETPROCESS_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F00EE00)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_ASSOCIATED_OFFSET UNITYSDK_OFFSET(0x1F00AD50)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x1F00BCB0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_HASEXITED_OFFSET UNITYSDK_OFFSET(0x1F00AD70)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_ID_OFFSET UNITYSDK_OFFSET(0x1F00BDC0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_ISWINDOWS_OFFSET UNITYSDK_OFFSET(0x1F00F2A0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_PROCESSNAME_OFFSET UNITYSDK_OFFSET(0x1F00EA10)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_STARTINFO_OFFSET UNITYSDK_OFFSET(0x1F00BDE0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_GET_SYNCHRONIZINGOBJECT_OFFSET UNITYSDK_OFFSET(0x1F00BF30)
+#define SYSTEM_DIAGNOSTICS_PROCESS_ISLOCALMACHINE_OFFSET UNITYSDK_OFFSET(0x1F00EE20)
+#define SYSTEM_DIAGNOSTICS_PROCESS_ONEXITED_OFFSET UNITYSDK_OFFSET(0x1F00CC60)
+#define SYSTEM_DIAGNOSTICS_PROCESS_OPENPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1F00BD20)
+#define SYSTEM_DIAGNOSTICS_PROCESS_PROCESSNAME_INTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1F00ED30)
+#define SYSTEM_DIAGNOSTICS_PROCESS_PROCESSNAME_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F00ED20)
+#define SYSTEM_DIAGNOSTICS_PROCESS_RAISEONEXITED_OFFSET UNITYSDK_OFFSET(0x1F00BBE0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_REFRESH_OFFSET UNITYSDK_OFFSET(0x1F00C7C0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_RELEASEPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1F00BA90)
+#define SYSTEM_DIAGNOSTICS_PROCESS_SETPROCESSHANDLE_OFFSET UNITYSDK_OFFSET(0x1F00D010)
+#define SYSTEM_DIAGNOSTICS_PROCESS_SETPROCESSID_OFFSET UNITYSDK_OFFSET(0x1F00D030)
+#define SYSTEM_DIAGNOSTICS_PROCESS_SET_STARTINFO_OFFSET UNITYSDK_OFFSET(0x1F00BEC0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_SHELLEXECUTEEX_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1F00EE90)
+#define SYSTEM_DIAGNOSTICS_PROCESS_STARTWITHCREATEPROCESS_OFFSET UNITYSDK_OFFSET(0x1F00D3F0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_STARTWITHSHELLEXECUTEEX_OFFSET UNITYSDK_OFFSET(0x1F00D1A0)
+#define SYSTEM_DIAGNOSTICS_PROCESS_START_1_OFFSET UNITYSDK_OFFSET(0x1F00E700)
+#define SYSTEM_DIAGNOSTICS_PROCESS_START_2_OFFSET UNITYSDK_OFFSET(0x1F00E760)
+#define SYSTEM_DIAGNOSTICS_PROCESS_START_OFFSET UNITYSDK_OFFSET(0x1F00D040)
+#define SYSTEM_DIAGNOSTICS_PROCESS_STOPWATCHINGFOREXIT_OFFSET UNITYSDK_OFFSET(0x1F00C200)
+#define SYSTEM_DIAGNOSTICS_PROCESS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F00E840)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int Process_TypeDefinitionIndex = 2546;
-
 	class Process : public ::System::ComponentModel::Component
 	{
 	public:
 		::System::EventHandler* onExited; // 0x28
-		::System::Threading::RegisteredWaitHandle* registeredWaitHandle; // 0x30
-		::System::String* machineName; // 0x38
-		::System::IO::StreamWriter* standardInput; // 0x40
-		::Microsoft::Win32::SafeHandles::SafeProcessHandle* m_processHandle; // 0x48
+		::System::Threading::WaitHandle* waitHandle; // 0x30
+		::System::IO::StreamReader* standardOutput; // 0x38
+		::System::Diagnostics::ProcessModuleCollection* modules; // 0x40
+		::System::Diagnostics::ProcessThreadCollection* threads; // 0x48
 		::System::Diagnostics::ProcessStartInfo* startInfo; // 0x50
-		::System::Diagnostics::ProcessThreadCollection* threads; // 0x58
-		::System::Diagnostics::ProcessModuleCollection* modules; // 0x60
-		::System::IO::StreamReader* standardError; // 0x68
-		::System::Diagnostics::AsyncStreamReader* output; // 0x70
-		::System::String* process_name; // 0x78
-		::System::IO::StreamReader* standardOutput; // 0x80
-		::System::Diagnostics::AsyncStreamReader* error; // 0x88
-		::System::ComponentModel::ISynchronizeInvoke* synchronizingObject; // 0x90
-		::System::Threading::WaitHandle* waitHandle; // 0x98
-		::System::Int32 processId; // 0xA0
-		::System::Boolean disposed; // 0xA4
+		::System::String* machineName; // 0x58
+		::System::IO::StreamReader* standardError; // 0x60
+		::System::ComponentModel::ISynchronizeInvoke* synchronizingObject; // 0x68
+		::System::Diagnostics::AsyncStreamReader* error; // 0x70
+		::System::Threading::RegisteredWaitHandle* registeredWaitHandle; // 0x78
+		::System::Diagnostics::AsyncStreamReader* output; // 0x80
+		::Microsoft::Win32::SafeHandles::SafeProcessHandle* m_processHandle; // 0x88
+		::System::IO::StreamWriter* standardInput; // 0x90
+		::System::String* process_name; // 0x98
+		::System::Int32 exitCode; // 0xA0
+		::System::Boolean raisedOnExited; // 0xA4
 		::System::Boolean haveWorkingSetLimits; // 0xA5
-		::System::Boolean isRemoteMachine; // 0xA6
-		::System::Boolean signaled; // 0xA7
-		::System::Diagnostics::Process_StreamReadMode inputStreamReadMode; // 0xA8
-		::System::Diagnostics::Process_StreamReadMode errorStreamReadMode; // 0xAC
-		::System::Boolean haveProcessId; // 0xB0
-		::System::Boolean havePriorityClass; // 0xB1
-		::System::Boolean haveExitTime; // 0xB2
-		::System::Boolean raisedOnExited; // 0xB3
-		::System::Boolean watchForExit; // 0xB4
-		::System::Boolean watchingForExit; // 0xB5
-		::System::Boolean haveProcessHandle; // 0xB6
-		::System::Boolean exited; // 0xB7
-		::System::Int32 exitCode; // 0xB8
-		::System::Int32 m_processAccess; // 0xBC
-		::System::Diagnostics::Process_StreamReadMode outputStreamReadMode; // 0xC0
-
+		::System::Boolean disposed; // 0xA6
+		::System::Boolean havePriorityClass; // 0xA7
+		::System::Diagnostics::Process_StreamReadMode outputStreamReadMode; // 0xA8
+		::System::Int32 m_processAccess; // 0xAC
+		::System::Int32 processId; // 0xB0
+		::System::Diagnostics::Process_StreamReadMode errorStreamReadMode; // 0xB4
+		::System::Boolean watchForExit; // 0xB8
+		::System::Boolean isRemoteMachine; // 0xB9
+		::System::Boolean haveExitTime; // 0xBA
+		::System::Boolean watchingForExit; // 0xBB
+		::System::Diagnostics::Process_StreamReadMode inputStreamReadMode; // 0xBC
+		::System::Boolean signaled; // 0xC0
+		::System::Boolean haveProcessId; // 0xC1
+		::System::Boolean exited; // 0xC2
+		::System::Boolean haveProcessHandle; // 0xC3
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1, ::System::Boolean a2, ::System::Int32 a3, ::System::Diagnostics::ProcessInfo* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32, ::System::Diagnostics::ProcessInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS__CTOR_1_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Boolean, ::System::Int32, ::System::Diagnostics::ProcessInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_CTOR_1_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_2(::Microsoft::Win32::SafeHandles::SafeProcessHandle* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Microsoft::Win32::SafeHandles::SafeProcessHandle*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_CTOR_2_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean get_Associated()
@@ -286,14 +283,14 @@ namespace System::Diagnostics
 			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_ISLOCALMACHINE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean ShellExecuteEx_internal(::System::Diagnostics::ProcessStartInfo* a1, ::System::Diagnostics::Process_ProcInfo& a2)
+		static ::System::Boolean ShellExecuteEx_internal(::System::Diagnostics::ProcessStartInfo* a1, ::System::Diagnostics::Process_ProcInfo a2)
 		{
-			return ((::System::Boolean(*)(::System::Diagnostics::ProcessStartInfo*, ::System::Diagnostics::Process_ProcInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_SHELLEXECUTEEX_INTERNAL_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::Diagnostics::ProcessStartInfo*, ::System::Diagnostics::Process_ProcInfo))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_SHELLEXECUTEEX_INTERNAL_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean CreateProcess_internal(::System::Diagnostics::ProcessStartInfo* a1, ::System::IntPtr a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::Diagnostics::Process_ProcInfo& a5)
+		static ::System::Boolean CreateProcess_internal(::System::Diagnostics::ProcessStartInfo* a1, ::System::IntPtr a2, ::System::IntPtr a3, ::System::IntPtr a4, ::System::Diagnostics::Process_ProcInfo a5)
 		{
-			return ((::System::Boolean(*)(::System::Diagnostics::ProcessStartInfo*, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::Diagnostics::Process_ProcInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_CREATEPROCESS_INTERNAL_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::Diagnostics::ProcessStartInfo*, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::Diagnostics::Process_ProcInfo))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_CREATEPROCESS_INTERNAL_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
 		::System::Boolean StartWithShellExecuteEx(::System::Diagnostics::ProcessStartInfo* a1)
@@ -301,9 +298,9 @@ namespace System::Diagnostics
 			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::ProcessStartInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_STARTWITHSHELLEXECUTEEX_OFFSET))(this, a1);
 		}
 
-		static ::System::Void CreatePipe(::System::IntPtr& a1, ::System::IntPtr& a2, ::System::Boolean a3)
+		static ::System::Void CreatePipe(::System::IntPtr a1, ::System::IntPtr a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::IntPtr&, ::System::IntPtr&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_CREATEPIPE_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::IntPtr, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_CREATEPIPE_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Boolean get_IsWindows()
@@ -316,14 +313,15 @@ namespace System::Diagnostics
 			return ((::System::Boolean(*)(::PVOID, ::System::Diagnostics::ProcessStartInfo*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_STARTWITHCREATEPROCESS_OFFSET))(this, a1);
 		}
 
-		static ::System::Void FillUserInfo(::System::Diagnostics::ProcessStartInfo* a1, ::System::Diagnostics::Process_ProcInfo& a2)
+		static ::System::Void FillUserInfo(::System::Diagnostics::ProcessStartInfo* a1, ::System::Diagnostics::Process_ProcInfo a2)
 		{
-			return ((::System::Void(*)(::System::Diagnostics::ProcessStartInfo*, ::System::Diagnostics::Process_ProcInfo&))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_FILLUSERINFO_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Diagnostics::ProcessStartInfo*, ::System::Diagnostics::Process_ProcInfo))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_FILLUSERINFO_OFFSET))(a1, a2);
 		}
 
 		::System::Void RaiseOnExited()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_PROCESS_RAISEONEXITED_OFFSET))(this);
 		}
+
 	};
 }

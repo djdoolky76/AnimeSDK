@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class MatchThreeOpponentData; }
 
-#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xD652CB0)
-#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET UNITYSDK_OFFSET(0xD6539A0)
+#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5ACDF0)
+#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET UNITYSDK_OFFSET(0xD5ADAE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeRoyaleLobby___c__DisplayClass3_0_TypeDefinitionIndex = 66114;
-
 	class MatchThreeRoyaleLobby___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
 		::System::UInt32 uid; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean _GetOpponentDataByUID_b__0(::RPG::Client::MatchThreeOpponentData* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MatchThreeOpponentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET))(this, a1);
 		}
+
 	};
 }

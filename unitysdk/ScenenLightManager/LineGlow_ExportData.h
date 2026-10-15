@@ -2,15 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ScenenLightManager/BaseComponentExportData.h"
 #include "unitysdk/UnityEngine/Color.h"
-
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xE9101C0)
+#define SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE965CF0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int LineGlow_ExportData_TypeDefinitionIndex = 49534;
-
 	class LineGlow_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:
@@ -26,10 +23,10 @@ namespace ScenenLightManager
 		::System::Int32 BlendingMode; // 0x40
 		::System::Int32 FarDistanceFade; // 0x44
 		::System::String* CustomMaterialPath; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SCENENLIGHTMANAGER_LINEGLOW_EXPORTDATA_CTOR_OFFSET))(this);
 		}
+
 	};
 }

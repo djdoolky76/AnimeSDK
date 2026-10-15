@@ -4,9 +4,7 @@
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int EnumerableSorter_1_TypeDefinitionIndex = 3179;
-
-	template <typename TElement>
+	template <typename T>
 	class EnumerableSorter_1 : public ::System::Object
 	{
 	public:

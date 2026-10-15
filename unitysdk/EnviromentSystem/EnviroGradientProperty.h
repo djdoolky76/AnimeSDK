@@ -2,139 +2,142 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EnviromentSystem/EnviroProperty.h"
 #include "unitysdk/UnityEngine/Color.h"
-
+namespace EnviromentSystem { class EnviroGradientProperty; }
+namespace EnviromentSystem { class EnviroProperty; }
 namespace EnviromentSystem { class EnviromentProfile; }
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_092CD57850778EFC_OFFSET UNITYSDK_OFFSET(0x1530E9C0)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_228E3444D290BEE7_OFFSET UNITYSDK_OFFSET(0x1530E220)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x1530D590)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_42BA9D7CE19718CB_OFFSET UNITYSDK_OFFSET(0x1530ED70)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_77703FEE4F0E8C39_OFFSET UNITYSDK_OFFSET(0x1530DC40)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_9C79A520038973E2_OFFSET UNITYSDK_OFFSET(0x1530ECC0)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_A68F2DE513D46E04_OFFSET UNITYSDK_OFFSET(0x1530D700)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_AF2CFBAAD2629B3B_OFFSET UNITYSDK_OFFSET(0x1530DC90)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_C580ED84DBCAD8A8_OFFSET UNITYSDK_OFFSET(0x1530DEE0)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x1530EC80)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x1530EDF0)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0x1530E490)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_FF222CAFD529588D_OFFSET UNITYSDK_OFFSET(0x1530E2C0)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1530EE60)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1530D980)
-#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x15305DC0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_BDLHLJCNGKN_OFFSET UNITYSDK_OFFSET(0x155FD510)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_CCTOR_OFFSET UNITYSDK_OFFSET(0x155FD9B0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x155FC4D0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x155F4920)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x155FCE10)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_EAIHBIMFKPE_OFFSET UNITYSDK_OFFSET(0x155FCD70)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_EEPIDFNPIPG_OFFSET UNITYSDK_OFFSET(0x155FD8C0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_EPMCIGOPPHI_OFFSET UNITYSDK_OFFSET(0x155FC250)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_FLPKICBKAKK_OFFSET UNITYSDK_OFFSET(0x155FD810)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_FMDIMGPGIHD_OFFSET UNITYSDK_OFFSET(0x155FC790)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_FOMBNHMBCKN_OFFSET UNITYSDK_OFFSET(0x155FCFE0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_IKOHLHDGFKH_OFFSET UNITYSDK_OFFSET(0x155FD940)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_LGNNAOLPNIP_OFFSET UNITYSDK_OFFSET(0x155FC7E0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_LPCOOHGAICK_OFFSET UNITYSDK_OFFSET(0x155FD7D0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_MMIDCKGBONH_OFFSET UNITYSDK_OFFSET(0x155FC0E0)
+#define ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x155FCA30)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGradientProperty_TypeDefinitionIndex = 50029;
-
 	class EnviroGradientProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet__TmpColorArrayForGradient()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGradientProperty_TypeDefinitionIndex)->GetStaticField(0x64E40);
-		}
-		static ::UnityEngine::Texture2D** StaticGet_EnviroGradientAtlas()
-		{
-			return (::UnityEngine::Texture2D**)Il2CppClass::FromTypeDefinitionIndex(EnviroGradientProperty_TypeDefinitionIndex)->GetStaticField(0x64E48);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_EnviromentGradientAtlasID()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGradientProperty_TypeDefinitionIndex)->GetStaticField(0x64E50);
-		}
-		static ::System::Int32* StaticGet_EnviroGradientAtlasID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGradientProperty_TypeDefinitionIndex)->GetStaticField(0x14B80);
-		}
-		// static const ::System::Int32 Atlas_Height = 0x8; // 0x0
-		// static const ::System::Int32 Atlas_Width = 0x200; // 0x0
 		::UnityEngine::Gradient* m_Value; // 0x48
 		::UnityEngine::Gradient* m_TargetValue; // 0x50
 		::System::Single m_TraisRate; // 0x58
 		::System::Int32 _AtlasID; // 0x5C
 		::System::Boolean m_TransReGen; // 0x60
+		static ::Il2CppArray<::System::String*>** StaticGet_EnviromentGradientAtlasID()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("EnviromentSystem", "EnviroGradientProperty")->GetStaticField(0x57640);
+		}
 
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet__TmpColorArrayForGradient()
+		{
+			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("EnviromentSystem", "EnviroGradientProperty")->GetStaticField(0x57648);
+		}
+
+		static ::UnityEngine::Texture2D** StaticGet_EnviroGradientAtlas()
+		{
+			return (::UnityEngine::Texture2D**)UnitySDK::FromName("EnviromentSystem", "EnviroGradientProperty")->GetStaticField(0x57650);
+		}
+
+		static ::System::Int32* StaticGet_EnviroGradientAtlasID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("EnviromentSystem", "EnviroGradientProperty")->GetStaticField(0x13480);
+		}
+
+		// static const ::System::Object Atlas_Height; // 0x0
+		// static const ::System::Object Atlas_Width; // 0x0
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*, ::System::String*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*, ::System::String*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void _ctor_1(::EnviromentSystem::EnviroGradientProperty* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroGradientProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroGradientProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_CCTOR_OFFSET))();
 		}
 
-		::System::Void Method_2_30D1209326FA87FC()
+		::System::Void MMIDCKGBONH()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_30D1209326FA87FC_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_MMIDCKGBONH_OFFSET))(this);
 		}
 
-		::UnityEngine::Gradient* Method_2_A68F2DE513D46E04()
+		::UnityEngine::Gradient* EPMCIGOPPHI()
 		{
-			return ((::UnityEngine::Gradient*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_A68F2DE513D46E04_OFFSET))(this);
+			return ((::UnityEngine::Gradient*(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_EPMCIGOPPHI_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_77703FEE4F0E8C39(::EnviromentSystem::EnviroProperty* a1)
+		::System::Boolean FMDIMGPGIHD(::EnviromentSystem::EnviroProperty* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_77703FEE4F0E8C39_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_FMDIMGPGIHD_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_AF2CFBAAD2629B3B(::System::Single a1)
+		::System::Void LGNNAOLPNIP(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_AF2CFBAAD2629B3B_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_LGNNAOLPNIP_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_C580ED84DBCAD8A8(::EnviromentSystem::EnviroProperty* a1)
+		::System::Void PPEGOIODAKI(::EnviromentSystem::EnviroProperty* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_C580ED84DBCAD8A8_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_PPEGOIODAKI_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_FF222CAFD529588D()
+		::System::Void DIOEAJEHHND()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_FF222CAFD529588D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_DIOEAJEHHND_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_092CD57850778EFC()
+		static ::System::Void BDLHLJCNGKN()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_092CD57850778EFC_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_BDLHLJCNGKN_OFFSET))();
 		}
 
-		::System::Void Method_2_CA373AA1C7054598()
+		::System::Void LPCOOHGAICK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_LPCOOHGAICK_OFFSET))(this);
 		}
 
-		::System::Void Method_2_CD9F3CEFB366C27A()
+		::System::Void FOMBNHMBCKN()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_CD9F3CEFB366C27A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_FOMBNHMBCKN_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_9C79A520038973E2(::UnityEngine::Gradient* a1, ::UnityEngine::Gradient* a2)
+		::System::Boolean FLPKICBKAKK(::UnityEngine::Gradient* a1, ::UnityEngine::Gradient* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Gradient*, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_9C79A520038973E2_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Gradient*, ::UnityEngine::Gradient*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_FLPKICBKAKK_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_2_42BA9D7CE19718CB(::UnityEngine::Rendering::CommandBuffer* a1)
+		::System::Void EEPIDFNPIPG(::UnityEngine::Rendering::CommandBuffer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_42BA9D7CE19718CB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_EEPIDFNPIPG_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_CA6BDDCC5F7CE11E(::System::Single a1)
+		::System::Void IKOHLHDGFKH(::System::Single a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_CA6BDDCC5F7CE11E_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_IKOHLHDGFKH_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_228E3444D290BEE7()
+		::System::Void EAIHBIMFKPE()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_METHOD_2_228E3444D290BEE7_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGRADIENTPROPERTY_EAIHBIMFKPE_OFFSET))(this);
 		}
+
 	};
 }

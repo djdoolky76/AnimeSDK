@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace System { class String; }
+
+	struct alignas(8) GPMHMDMOOLP
+	{
+		::System::String* CDEEHGCEOKN; // 0x10
+		::System::String* FCDAFMMLHEM; // 0x18
+		::UnityEngine::Vector3 LDDBFJDDNJO; // 0x20
+		::UnityEngine::Quaternion KHOPAMJJINE; // 0x2C
+		::System::Boolean DAMGODKAAKO; // 0x3C
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Vector3 IOAMJMEEHMN; // 0x40
+	};

@@ -1,49 +1,47 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByIsInStoryMode; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_19686E0819704134_OFFSET UNITYSDK_OFFSET(0x1CF414A0)
-#define RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_3548E7C880C5C4F7_OFFSET UNITYSDK_OFFSET(0x1CF416E0)
-#define RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_D571A3C9CA182421_OFFSET UNITYSDK_OFFSET(0x1CF41450)
-#define RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_FDD9B3E6E4EE6D20_OFFSET UNITYSDK_OFFSET(0x1CF416A0)
-#define RPG_GAMECORE_BYISINSTORYMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF41490)
+#define RPG_GAMECORE_BYISINSTORYMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51A7E0)
+#define RPG_GAMECORE_BYISINSTORYMODE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D51AA30)
+#define RPG_GAMECORE_BYISINSTORYMODE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D51A9F0)
+#define RPG_GAMECORE_BYISINSTORYMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D51A7F0)
+#define RPG_GAMECORE_BYISINSTORYMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D51A7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInStoryMode_TypeDefinitionIndex = 20345;
-
 	class ByIsInStoryMode : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::Boolean CheckGlobal; // 0x20
 		::System::Boolean CheckOwnerEntity; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D571A3C9CA182421(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInStoryMode*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsInStoryMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInStoryMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_D571A3C9CA182421_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsInStoryMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_19686E0819704134(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsInStoryMode* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByIsInStoryMode* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsInStoryMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_19686E0819704134_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByIsInStoryMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FDD9B3E6E4EE6D20(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInStoryMode*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInStoryMode* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInStoryMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_FDD9B3E6E4EE6D20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInStoryMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3548E7C880C5C4F7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInStoryMode* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsInStoryMode* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInStoryMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_METHOD_4_3548E7C880C5C4F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsInStoryMode*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISINSTORYMODE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class EIIFPLIFJAI;
+class GEGDGJHCPEK;
+class JAANHJGOINJ;
+class JAANHJGOINJ_DBGHEJKBHCG;
+class KFDKOGMNCEL;
+class KIKLIMIBGNE;
+
+#define NEEGEMFMEAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5B100)
+#define NEEGEMFMEAJ_EPCCCIKOHJI_OFFSET UNITYSDK_OFFSET(0xBB5AFE0)
+#define NEEGEMFMEAJ_GET_BASECONFIGURATOR_OFFSET UNITYSDK_OFFSET(0xBB5B080)
+#define NEEGEMFMEAJ_GET_FATERINCOMPONENTSTEP_OFFSET UNITYSDK_OFFSET(0xBB5B0A0)
+#define NEEGEMFMEAJ_GET_OUTFITCOMPONENTSTEP_OFFSET UNITYSDK_OFFSET(0xBB5B0E0)
+#define NEEGEMFMEAJ_GET_SKINCOMPONENTSTEP_OFFSET UNITYSDK_OFFSET(0xBB5B0C0)
+#define NEEGEMFMEAJ_SET_BASECONFIGURATOR_OFFSET UNITYSDK_OFFSET(0xBB5B090)
+#define NEEGEMFMEAJ_SET_FATERINCOMPONENTSTEP_OFFSET UNITYSDK_OFFSET(0xBB5B0B0)
+#define NEEGEMFMEAJ_SET_OUTFITCOMPONENTSTEP_OFFSET UNITYSDK_OFFSET(0xBB5B0F0)
+#define NEEGEMFMEAJ_SET_SKINCOMPONENTSTEP_OFFSET UNITYSDK_OFFSET(0xBB5B0D0)
+
+	class NEEGEMFMEAJ : public ::System::Object
+	{
+	public:
+		::EIIFPLIFJAI* _SkinComponentStep_k__BackingField; // 0x10
+		::KIKLIMIBGNE* _OutfitComponentStep_k__BackingField; // 0x18
+		::KFDKOGMNCEL* _BaseConfigurator_k__BackingField; // 0x20
+		::GEGDGJHCPEK* _FateRinComponentStep_k__BackingField; // 0x28
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_CTOR_OFFSET))(this);
+		}
+
+		::JAANHJGOINJ_DBGHEJKBHCG* EPCCCIKOHJI(::JAANHJGOINJ* a1)
+		{
+			return ((::JAANHJGOINJ_DBGHEJKBHCG*(*)(::PVOID, ::JAANHJGOINJ*))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_EPCCCIKOHJI_OFFSET))(this, a1);
+		}
+
+		::KFDKOGMNCEL* get_BaseConfigurator()
+		{
+			return ((::KFDKOGMNCEL*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_GET_BASECONFIGURATOR_OFFSET))(this);
+		}
+
+		::System::Void set_BaseConfigurator(::KFDKOGMNCEL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KFDKOGMNCEL*))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_SET_BASECONFIGURATOR_OFFSET))(this, a1);
+		}
+
+		::GEGDGJHCPEK* get_FateRinComponentStep()
+		{
+			return ((::GEGDGJHCPEK*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_GET_FATERINCOMPONENTSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_FateRinComponentStep(::GEGDGJHCPEK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GEGDGJHCPEK*))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_SET_FATERINCOMPONENTSTEP_OFFSET))(this, a1);
+		}
+
+		::EIIFPLIFJAI* get_SkinComponentStep()
+		{
+			return ((::EIIFPLIFJAI*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_GET_SKINCOMPONENTSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_SkinComponentStep(::EIIFPLIFJAI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EIIFPLIFJAI*))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_SET_SKINCOMPONENTSTEP_OFFSET))(this, a1);
+		}
+
+		::KIKLIMIBGNE* get_OutfitComponentStep()
+		{
+			return ((::KIKLIMIBGNE*(*)(::PVOID))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_GET_OUTFITCOMPONENTSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_OutfitComponentStep(::KIKLIMIBGNE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::KIKLIMIBGNE*))((::PBYTE)hIl2Cpp + NEEGEMFMEAJ_SET_OUTFITCOMPONENTSTEP_OFFSET))(this, a1);
+		}
+
+	};

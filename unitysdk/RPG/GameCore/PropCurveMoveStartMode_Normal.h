@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PropCurveMoveStartMode.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PropCurveMoveStartMode_Normal; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_METHOD_3_7F6A5A6847BBACA8_OFFSET UNITYSDK_OFFSET(0x1D362C80)
-#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_METHOD_3_C116D1010E80F525_OFFSET UNITYSDK_OFFSET(0x1D3628D0)
-#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3628C0)
+#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D947E10)
+#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D947E20)
+#define RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9481D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveMoveStartMode_Normal_TypeDefinitionIndex = 20766;
-
 	class PropCurveMoveStartMode_Normal : public ::RPG::GameCore::PropCurveMoveStartMode
 	{
 	public:
 		::System::Boolean Positive; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7F6A5A6847BBACA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMoveStartMode_Normal*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveMoveStartMode_Normal* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMoveStartMode_Normal*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_METHOD_3_7F6A5A6847BBACA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveMoveStartMode_Normal*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C116D1010E80F525(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMoveStartMode_Normal* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveMoveStartMode_Normal* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMoveStartMode_Normal*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_METHOD_3_C116D1010E80F525_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveMoveStartMode_Normal*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTARTMODE_NORMAL_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class TaskConfig; }
+namespace RPG::GameCore { class WaitPhotoGraphConditionResult; }
 
-#define RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_METHOD_3_2A5B9466335EF6D5_OFFSET UNITYSDK_OFFSET(0x1D6A8240)
-#define RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_METHOD_3_C22C9927811BE18C_OFFSET UNITYSDK_OFFSET(0x1D6A8290)
-#define RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A8280)
+#define RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9D430)
+#define RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9D440)
+#define RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9D3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPhotoGraphConditionResult_TypeDefinitionIndex = 21384;
-
 	class WaitPhotoGraphConditionResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -20,20 +19,20 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnSuccess; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnFail; // 0x28
 		::System::Boolean IsLoop; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2A5B9466335EF6D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPhotoGraphConditionResult*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPhotoGraphConditionResult* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPhotoGraphConditionResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_METHOD_3_2A5B9466335EF6D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPhotoGraphConditionResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C22C9927811BE18C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPhotoGraphConditionResult* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::WaitPhotoGraphConditionResult* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPhotoGraphConditionResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_METHOD_3_C22C9927811BE18C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::WaitPhotoGraphConditionResult*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHCONDITIONRESULT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

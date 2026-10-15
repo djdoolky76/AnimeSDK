@@ -1,36 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/MonoEffectPluginTransform_Struct_2_0A482C4B1193FF12.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD7CBAA0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_METHOD_5_283DA224BE06DA9F_OFFSET UNITYSDK_OFFSET(0xD7CBB00)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_METHOD_5_CD9F3CEFB366C27A_OFFSET UNITYSDK_OFFSET(0xD7CBDF0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD7CC3E0)
-#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xD7CC480)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xD80E640)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_JAMNHDBMOPC_OFFSET UNITYSDK_OFFSET(0xD80DFB0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD80DCC0)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD80DC60)
+#define RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD80E5A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginTransform_TypeDefinitionIndex = 70092;
-
 	class MonoEffectPluginTransform : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean HDJOGGDMCIO; // 0x18
+		::System::Byte _padding0[0x7];
 		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* KBFFMAPGMOA; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginTransform_Struct_2_0A482C4B1193FF12>* CJCBDMPLDIE; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* CJCBDMPLDIE; // 0x28
 		::System::Int32 GMBHEONGNFC; // 0x30
 		::System::Int32 EDANMGLAIBN; // 0x34
 		::System::Int32 ELACKDGPNBA; // 0x38
 		::System::Int32 NKNHKBMHHKO; // 0x3C
 		::System::Int32 NELMGHMDNNN; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_CTOR_OFFSET))(this);
 		}
 
 		::System::Void LateUpdate()
@@ -43,14 +40,15 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_ONDISABLE_OFFSET))(this);
 		}
 
-		::System::Void Method_5_283DA224BE06DA9F()
+		::System::Void KPJGDHLENIP()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_METHOD_5_283DA224BE06DA9F_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_KPJGDHLENIP_OFFSET))(this);
 		}
 
-		::System::Void Method_5_CD9F3CEFB366C27A()
+		::System::Void JAMNHDBMOPC()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_METHOD_5_CD9F3CEFB366C27A_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINTRANSFORM_JAMNHDBMOPC_OFFSET))(this);
 		}
+
 	};
 }

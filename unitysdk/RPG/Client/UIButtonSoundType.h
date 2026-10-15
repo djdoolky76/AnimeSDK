@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIButtonSoundType_TypeDefinitionIndex = 59881;
-
 	enum class UIButtonSoundType : ::System::Int32
 	{
 		CommonClick = 0,

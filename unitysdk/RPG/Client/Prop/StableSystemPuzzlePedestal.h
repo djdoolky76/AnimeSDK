@@ -1,8 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_4_454E770F08675E1E;
+class CIKILOOHCGI;
 namespace RPG::Client { class MonoTriggerRegion; }
 namespace RPG::Client::Prop { class StableSystemPuzzlePillarAndPedestal; }
 namespace RPG::GameCore { class GameEntity; }
@@ -12,40 +11,38 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_DISABLETRIGGER_OFFSET UNITYSDK_OFFSET(0xDD33450)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_INITPEDESTAL_OFFSET UNITYSDK_OFFSET(0xDD32AF0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_METHOD_5_7AAD06186762BE3C_OFFSET UNITYSDK_OFFSET(0xDD33100)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_SETCANINTERACTION_OFFSET UNITYSDK_OFFSET(0xDD31B30)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_SETCANSELECTACTIVE_OFFSET UNITYSDK_OFFSET(0xDD33230)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_SETSELECTTYPE_OFFSET UNITYSDK_OFFSET(0xDD31BA0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD332C0)
-#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL__CTOR_OFFSET UNITYSDK_OFFSET(0xDD334A0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDDBBFF0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_DISABLETRIGGER_OFFSET UNITYSDK_OFFSET(0xDDBBFA0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_FKINABCACNK_OFFSET UNITYSDK_OFFSET(0xDDBBC50)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_INITPEDESTAL_OFFSET UNITYSDK_OFFSET(0xDDBB5C0)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_SETCANINTERACTION_OFFSET UNITYSDK_OFFSET(0xDDBA600)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_SETCANSELECTACTIVE_OFFSET UNITYSDK_OFFSET(0xDDBBD80)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_SETSELECTTYPE_OFFSET UNITYSDK_OFFSET(0xDDBA670)
+#define RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_UPDATE_OFFSET UNITYSDK_OFFSET(0xDDBBE10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StableSystemPuzzlePedestal_TypeDefinitionIndex = 78404;
-
 	class StableSystemPuzzlePedestal : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Int32* StaticGet_BNCPBBHOOKB()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(StableSystemPuzzlePedestal_TypeDefinitionIndex)->GetStaticField(0x15020);
-		}
 		::RPG::GameCore::OptionTriggerInfo* SelectOption; // 0x18
 		::RPG::GameCore::OptionTriggerInfo* CancelOption; // 0x20
 		::RPG::GameCore::OptionTriggerInfo* ChangeOption; // 0x28
 		::UnityEngine::GameObject* LockNode; // 0x30
 		::UnityEngine::GameObject* UnlockNode; // 0x38
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x40
-		::Class_4_454E770F08675E1E* GALAHGAJODG; // 0x48
+		::CIKILOOHCGI* GALAHGAJODG; // 0x48
 		::RPG::Client::MonoTriggerRegion* BKNPJHNHIOG; // 0x50
 		::Il2CppArray<::System::Action*>* HJLKNPIFNGI; // 0x58
 		::System::Boolean BAGDGKPJABJ; // 0x60
+		static ::System::Int32* StaticGet_BNCPBBHOOKB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "StableSystemPuzzlePedestal")->GetStaticField(0x14390);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitPedestal(::RPG::GameCore::GameEntity* a1, ::RPG::Client::Prop::StableSystemPuzzlePillarAndPedestal* a2, ::System::Boolean a3)
@@ -78,9 +75,10 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_SETSELECTTYPE_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::MonoTriggerRegion* Method_5_7AAD06186762BE3C(::UnityEngine::Collider* a1)
+		::RPG::Client::MonoTriggerRegion* FKINABCACNK(::UnityEngine::Collider* a1)
 		{
-			return ((::RPG::Client::MonoTriggerRegion*(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_METHOD_5_7AAD06186762BE3C_OFFSET))(this, a1);
+			return ((::RPG::Client::MonoTriggerRegion*(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_STABLESYSTEMPUZZLEPEDESTAL_FKINABCACNK_OFFSET))(this, a1);
 		}
+
 	};
 }

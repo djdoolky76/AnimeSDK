@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StreamingVolumeBlockParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_METHOD_2_5D5A3D691B308399_OFFSET UNITYSDK_OFFSET(0x1D574B50)
-#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D574D90)
+#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2AFD0)
+#define RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB2AD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingVolumeBlockParam_TypeDefinitionIndex = 18892;
-
 	class StreamingVolumeBlockParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -20,15 +18,15 @@ namespace RPG::GameCore
 		::System::Single RangeEnd; // 0x1C
 		::System::Boolean ForceHLOD; // 0x20
 		::System::Boolean ForceHide; // 0x21
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5D5A3D691B308399(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StreamingVolumeBlockParam*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StreamingVolumeBlockParam* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StreamingVolumeBlockParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_METHOD_2_5D5A3D691B308399_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StreamingVolumeBlockParam*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STREAMINGVOLUMEBLOCKPARAM_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

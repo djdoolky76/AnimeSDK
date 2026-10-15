@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class PropInitFarmElement; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_6FA9C10371A10BA7_OFFSET UNITYSDK_OFFSET(0x1D368670)
-#define RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_DE6F7308C8C5F90B_OFFSET UNITYSDK_OFFSET(0x1D3686B0)
-#define RPG_GAMECORE_PROPINITFARMELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3686A0)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94DA60)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94DA70)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94DA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInitFarmElement_TypeDefinitionIndex = 21842;
-
 	class PropInitFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -27,20 +25,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicString* MonsterDieAndDissolveEffectPath; // 0x50
 		::RPG::GameCore::DynamicString* InactiveFarmElementRestartAnimTriggerName; // 0x58
 		::Il2CppArray<::RPG::GameCore::DynamicString*>* InactiveFarmElementFadeOutEffectName; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6FA9C10371A10BA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitFarmElement*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropInitFarmElement* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitFarmElement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_6FA9C10371A10BA7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropInitFarmElement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_DE6F7308C8C5F90B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitFarmElement* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropInitFarmElement* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitFarmElement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_DE6F7308C8C5F90B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropInitFarmElement*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

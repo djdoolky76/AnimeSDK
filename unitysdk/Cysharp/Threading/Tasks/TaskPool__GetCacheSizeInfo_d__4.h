@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2_Enumerator.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
-
+#include "unitysdk/System/ValueTuple.h"
+namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1EA5D620)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EA5D8E0)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EA5D830)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EA5D950)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1EA5D890)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1EA5D840)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EA5D560)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5D540)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EA5D5E0)
-#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1EA5D5D0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_CTOR_OFFSET UNITYSDK_OFFSET(0x1F124EF0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F124FD0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F125290)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F1251E0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F125300)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F125240)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F1251F0)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F124F10)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1F124F90)
+#define CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1F124F80)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TaskPool__GetCacheSizeInfo_d__4_TypeDefinitionIndex = 42635;
-
+	template <typename T1, typename T2, typename T3, typename T4>
 	class TaskPool__GetCacheSizeInfo_d__4 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>* __7__wrap1; // 0x10
-		::System::Collections::Generic::Dictionary_2_Enumerator<::System::Type*, ::System::Func_1<::System::Int32>*> __7__wrap3; // 0x18
-		::System::ValueTuple_2<::System::Type*, ::System::Int32> __2__current; // 0x40
-		::System::Int32 __l__initialThreadId; // 0x50
-		::System::Boolean __7__wrap2; // 0x54
-		::System::Int32 __1__state; // 0x58
-
+		::System::Object* __7__wrap3; // 0x10
+		::System::Byte _padding0[0x20];
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::System::Int32>*>* __7__wrap1; // 0x38
+		::System::ValueTuple __2__current; // 0x40
+		::System::Byte _padding1[0x8];
+		::System::Boolean __7__wrap2; // 0x50
+		::System::Byte _padding2[0x3];
+		::System::Int32 __1__state; // 0x54
+		::System::Int32 __l__initialThreadId; // 0x58
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void System_IDisposable_Dispose()
@@ -60,9 +60,9 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4___M__FINALLY2_OFFSET))(this);
 		}
 
-		::System::ValueTuple_2<::System::Type*, ::System::Int32> System_Collections_Generic_IEnumerator_System_ValueTuple_System_Type_System_Int32___get_Current()
+		::System::ValueTuple System_Collections_Generic_IEnumerator_System_ValueTuple_System_Type_System_Int32___get_Current()
 		{
-			return ((::System::ValueTuple_2<::System::Type*, ::System::Int32>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GET_CURRENT_OFFSET))(this);
+			return ((::System::ValueTuple(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GET_CURRENT_OFFSET))(this);
 		}
 
 		::System::Void System_Collections_IEnumerator_Reset()
@@ -75,14 +75,15 @@ namespace Cysharp::Threading::Tasks
 			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::System::Type*, ::System::Int32>>* System_Collections_Generic_IEnumerable_System_ValueTuple_System_Type_System_Int32___GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>* System_Collections_Generic_IEnumerable_System_ValueTuple_System_Type_System_Int32___GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<::System::Type*, ::System::Int32>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::ValueTuple>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_VALUETUPLE_SYSTEM_TYPE_SYSTEM_INT32___GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
 		{
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TASKPOOL__GETCACHESIZEINFO_D__4_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
+
 	};
 }

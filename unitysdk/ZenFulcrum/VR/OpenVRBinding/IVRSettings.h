@@ -1,7 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRSettings__GetBool; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRSettings__GetFloat; }
 namespace ZenFulcrum::VR::OpenVRBinding { class IVRSettings__GetInt32; }
@@ -17,8 +15,6 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSettings__Sync; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSettings_TypeDefinitionIndex = 37865;
-
 	struct alignas(8) IVRSettings
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRSettings__GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum; // 0x10

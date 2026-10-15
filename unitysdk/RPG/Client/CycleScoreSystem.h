@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class CycleScore; }
 namespace RPG::Client { class CycleScoreService; }
 
-#define RPG_CLIENT_CYCLESCORESYSTEM_GETCURRENTCYCLESCORE_OFFSET UNITYSDK_OFFSET(0xCC92630)
-#define RPG_CLIENT_CYCLESCORESYSTEM_GETSCORESERVICE_OFFSET UNITYSDK_OFFSET(0xCC93930)
-#define RPG_CLIENT_CYCLESCORESYSTEM__CTOR_OFFSET UNITYSDK_OFFSET(0xCC939B0)
+#define RPG_CLIENT_CYCLESCORESYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE6EB0)
+#define RPG_CLIENT_CYCLESCORESYSTEM_GETCURRENTCYCLESCORE_OFFSET UNITYSDK_OFFSET(0xCBE5C20)
+#define RPG_CLIENT_CYCLESCORESYSTEM_GETSCORESERVICE_OFFSET UNITYSDK_OFFSET(0xCBE6E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CycleScoreSystem_TypeDefinitionIndex = 63610;
-
 	class CycleScoreSystem : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORESYSTEM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORESYSTEM_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::CycleScoreService* GetScoreService()
@@ -30,5 +27,6 @@ namespace RPG::Client
 		{
 			return ((::RPG::Client::CycleScore*(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_CYCLESCORESYSTEM_GETCURRENTCYCLESCORE_OFFSET))();
 		}
+
 	};
 }

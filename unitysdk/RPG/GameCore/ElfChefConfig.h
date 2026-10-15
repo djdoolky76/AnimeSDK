@@ -1,34 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ElfChefConfig; }
 namespace RPG::GameCore { class ElfFoodEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_07E04B02BEE1994D_OFFSET UNITYSDK_OFFSET(0x1D057CD0)
-#define RPG_GAMECORE_ELFCHEFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D057EA0)
+#define RPG_GAMECORE_ELFCHEFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D634960)
+#define RPG_GAMECORE_ELFCHEFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D634790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfChefConfig_TypeDefinitionIndex = 18256;
-
 	class ElfChefConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Single CookBaseSpeed; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::RPG::GameCore::ElfFoodEventConfig*>* Events; // 0x18
 		::System::String* PerfectEfffectPath; // 0x20
 		::System::UInt32 MaxWaitCookCount; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFCHEFCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFCHEFCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_07E04B02BEE1994D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfChefConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ElfChefConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfChefConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_07E04B02BEE1994D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ElfChefConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFCHEFCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

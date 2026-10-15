@@ -1,46 +1,45 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RtCollision2DShapeConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RtPointShapeConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_0BC4CFF9F5368561_OFFSET UNITYSDK_OFFSET(0x1D4AF260)
-#define RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_2C7244414219FEF7_OFFSET UNITYSDK_OFFSET(0x1D4A5C80)
-#define RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_582719EFFF7D7506_OFFSET UNITYSDK_OFFSET(0x1D4AF1F0)
-#define RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_8C26653201E78534_OFFSET UNITYSDK_OFFSET(0x1D4A63C0)
-#define RPG_GAMECORE_RTPOINTSHAPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A5C70)
+#define RPG_GAMECORE_RTPOINTSHAPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA59040)
+#define RPG_GAMECORE_RTPOINTSHAPECONFIG_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DA62630)
+#define RPG_GAMECORE_RTPOINTSHAPECONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DA59790)
+#define RPG_GAMECORE_RTPOINTSHAPECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA59050)
+#define RPG_GAMECORE_RTPOINTSHAPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA625C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtPointShapeConfig_TypeDefinitionIndex = 17442;
-
 	class RtPointShapeConfig : public ::RPG::GameCore::RtCollision2DShapeConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_582719EFFF7D7506(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtPointShapeConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtPointShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtPointShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_582719EFFF7D7506_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtPointShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_2C7244414219FEF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtPointShapeConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RtPointShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtPointShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_2C7244414219FEF7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RtPointShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_8C26653201E78534(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtPointShapeConfig*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtPointShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtPointShapeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_8C26653201E78534_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtPointShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0BC4CFF9F5368561(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtPointShapeConfig* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::RtPointShapeConfig* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtPointShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_METHOD_3_0BC4CFF9F5368561_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::RtPointShapeConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTPOINTSHAPECONFIG_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

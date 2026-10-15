@@ -3,8 +3,6 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RuntimePlatform_TypeDefinitionIndex = 4015;
-
 	enum class RuntimePlatform : ::System::Int32
 	{
 		OSXEditor = 0,

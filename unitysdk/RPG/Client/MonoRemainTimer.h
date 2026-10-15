@@ -2,44 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/DateTimePro.h"
 #include "unitysdk/RPG/Client/MonoRemainTimer_TimeMode.h"
-#include "unitysdk/System/TimeSpan.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-namespace System { template <typename T> class Action_1; }
+#include "unitysdk/System/TimeSpan.h"
+namespace System { class Action; }
 namespace UnityEngine { class Transform; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MONOREMAINTIMER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD85B870)
-#define RPG_CLIENT_MONOREMAINTIMER_CLEAR_OFFSET UNITYSDK_OFFSET(0xD85C200)
-#define RPG_CLIENT_MONOREMAINTIMER_FORCEUPDATETIME_OFFSET UNITYSDK_OFFSET(0xD85B650)
-#define RPG_CLIENT_MONOREMAINTIMER_INITTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD85A380)
-#define RPG_CLIENT_MONOREMAINTIMER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD85C1B0)
-#define RPG_CLIENT_MONOREMAINTIMER_SETREAMINTIMEWITHTIMEMODE_OFFSET UNITYSDK_OFFSET(0xD85A830)
-#define RPG_CLIENT_MONOREMAINTIMER_SETREMAINTIMEINSECONDSBYFORMAT_OFFSET UNITYSDK_OFFSET(0xD85ABE0)
-#define RPG_CLIENT_MONOREMAINTIMER_SETREMAINTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0xD85A2F0)
-#define RPG_CLIENT_MONOREMAINTIMER_SETREMAINTIME_OFFSET UNITYSDK_OFFSET(0xD85B920)
-#define RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIMEBYTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xD85B560)
-#define RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIME_OFFSET UNITYSDK_OFFSET(0xD85B4C0)
-#define RPG_CLIENT_MONOREMAINTIMER_SETTRANSFORMACTIVEBYTIMEMODE_OFFSET UNITYSDK_OFFSET(0xD85B1A0)
-#define RPG_CLIENT_MONOREMAINTIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD85B8D0)
-#define RPG_CLIENT_MONOREMAINTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0xD85C250)
-#define RPG_CLIENT_MONOREMAINTIMER__UPDATETIME_OFFSET UNITYSDK_OFFSET(0xD85B6A0)
+#define RPG_CLIENT_MONOREMAINTIMER_AWAKE_OFFSET UNITYSDK_OFFSET(0xD85C010)
+#define RPG_CLIENT_MONOREMAINTIMER_CLEAR_OFFSET UNITYSDK_OFFSET(0xD85C9C0)
+#define RPG_CLIENT_MONOREMAINTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xD85CA10)
+#define RPG_CLIENT_MONOREMAINTIMER_FORCEUPDATETIME_OFFSET UNITYSDK_OFFSET(0xD85BD60)
+#define RPG_CLIENT_MONOREMAINTIMER_INITTRANSFORM_OFFSET UNITYSDK_OFFSET(0xD85AD70)
+#define RPG_CLIENT_MONOREMAINTIMER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD85C970)
+#define RPG_CLIENT_MONOREMAINTIMER_SETREAMINTIMEWITHTIMEMODE_OFFSET UNITYSDK_OFFSET(0xD85AEB0)
+#define RPG_CLIENT_MONOREMAINTIMER_SETREMAINTIMEINSECONDSBYFORMAT_OFFSET UNITYSDK_OFFSET(0xD85B290)
+#define RPG_CLIENT_MONOREMAINTIMER_SETREMAINTIMEINSECONDS_OFFSET UNITYSDK_OFFSET(0xD85ACE0)
+#define RPG_CLIENT_MONOREMAINTIMER_SETREMAINTIME_OFFSET UNITYSDK_OFFSET(0xD85C0C0)
+#define RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIMEBYTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xD85BC40)
+#define RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIME_OFFSET UNITYSDK_OFFSET(0xD85BBA0)
+#define RPG_CLIENT_MONOREMAINTIMER_SETTRANSFORMACTIVEBYTIMEMODE_OFFSET UNITYSDK_OFFSET(0xD85B880)
+#define RPG_CLIENT_MONOREMAINTIMER_UPDATE_OFFSET UNITYSDK_OFFSET(0xD85C070)
+#define RPG_CLIENT_MONOREMAINTIMER__UPDATETIME_OFFSET UNITYSDK_OFFSET(0xD85BDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoRemainTimer_TypeDefinitionIndex = 72521;
-
 	class MonoRemainTimer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::RPG::Client::DateTimePro _targetTime; // 0x18
 		::XLua::LuaTable* _luaTable; // 0x20
-		::System::Action_1<::XLua::LuaTable*>* _timeOutCallBack; // 0x28
+		::System::Action* _timeOutCallBack; // 0x28
 		::System::Boolean _isUpdating; // 0x30
+		::System::Byte _padding0[0x3];
 		::System::Int32 _FormatNum; // 0x34
 		::RPG::Client::MonoRemainTimer_TimeMode _TimeMode; // 0x38
 		::System::Boolean _KeepFullDigits; // 0x3C
 		::System::Boolean _IsTransformInited; // 0x3D
+		::System::Byte _padding1[0x2];
 		::UnityEngine::Transform* _Day; // 0x40
 		::UnityEngine::Transform* _Hour; // 0x48
 		::UnityEngine::Transform* _Minute; // 0x50
@@ -48,10 +47,9 @@ namespace RPG::Client
 		::UnityEngine::Transform* _HourText; // 0x68
 		::UnityEngine::Transform* _MinuteText; // 0x70
 		::UnityEngine::Transform* _SecondText; // 0x78
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetRemainTimeInSeconds(::System::Double a1, ::System::Int32 a2, ::RPG::Client::MonoRemainTimer_TimeMode a3)
@@ -64,14 +62,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER_SETREMAINTIMEINSECONDSBYFORMAT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void SetTargetTime(::RPG::Client::DateTimePro a1, ::System::Action_1<::XLua::LuaTable*>* a2, ::XLua::LuaTable* a3, ::System::Int32 a4, ::RPG::Client::MonoRemainTimer_TimeMode a5, ::System::Boolean a6)
+		::System::Void SetTargetTime(::RPG::Client::DateTimePro a1, ::System::Action* a2, ::XLua::LuaTable* a3, ::System::Int32 a4, ::RPG::Client::MonoRemainTimer_TimeMode a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*, ::System::Int32, ::RPG::Client::MonoRemainTimer_TimeMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIME_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::DateTimePro, ::System::Action*, ::XLua::LuaTable*, ::System::Int32, ::RPG::Client::MonoRemainTimer_TimeMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIME_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void SetTargetTimeByTimeStamp(::System::UInt32 a1, ::System::Action_1<::XLua::LuaTable*>* a2, ::XLua::LuaTable* a3, ::System::Int32 a4, ::RPG::Client::MonoRemainTimer_TimeMode a5, ::System::Boolean a6)
+		::System::Void SetTargetTimeByTimeStamp(::System::UInt32 a1, ::System::Action* a2, ::XLua::LuaTable* a3, ::System::Int32 a4, ::RPG::Client::MonoRemainTimer_TimeMode a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action_1<::XLua::LuaTable*>*, ::XLua::LuaTable*, ::System::Int32, ::RPG::Client::MonoRemainTimer_TimeMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIMEBYTIMESTAMP_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Action*, ::XLua::LuaTable*, ::System::Int32, ::RPG::Client::MonoRemainTimer_TimeMode, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER_SETTARGETTIMEBYTIMESTAMP_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
 		::System::Void ForceUpdateTime()
@@ -123,5 +121,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoRemainTimer_TimeMode))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOREMAINTIMER_SETTRANSFORMACTIVEBYTIMEMODE_OFFSET))(this, a1);
 		}
+
 	};
 }

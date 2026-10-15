@@ -1,15 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/VRControllerAxis_t.h"
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRControllerState_t_TypeDefinitionIndex = 38009;
-
-	struct alignas(8) VRControllerState_t
+	struct alignas(4) VRControllerState_t
 	{
 		::System::UInt32 unPacketNum; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::UInt64 ulButtonPressed; // 0x18
 		::System::UInt64 ulButtonTouched; // 0x20
 		::ZenFulcrum::VR::OpenVRBinding::VRControllerAxis_t rAxis0; // 0x28

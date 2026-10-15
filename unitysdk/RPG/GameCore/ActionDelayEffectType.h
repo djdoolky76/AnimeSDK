@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionDelayEffectType_TypeDefinitionIndex = 24468;
-
 	enum class ActionDelayEffectType : ::System::Int32
 	{
 		ActionDelayChange = 0,

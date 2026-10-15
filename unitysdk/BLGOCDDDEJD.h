@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define BLGOCDDDEJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA6DA50)
+
+	class BLGOCDDDEJD : public ::System::Object
+	{
+	public:
+		::System::Boolean FIFMMCANPIO; // 0x10
+		::System::Boolean EAEOKODMBHD; // 0x11
+		::System::Boolean IBAMGDKKJFI; // 0x12
+		::System::Boolean ADJOCGJOHHB; // 0x13
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLGOCDDDEJD_CTOR_OFFSET))(this);
+		}
+
+	};

@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x3BA6F10)
+#define SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET UNITYSDK_OFFSET(0x3C5C2E0)
 
 namespace System::Net::NetworkInformation::MacOsStructs
 {
-	inline static constexpr unsigned int sockaddr_dl_TypeDefinitionIndex = 2975;
-
 	struct alignas(8) sockaddr_dl
 	{
 		::System::Byte sdl_len; // 0x10
@@ -18,10 +15,10 @@ namespace System::Net::NetworkInformation::MacOsStructs
 		::System::Byte sdl_alen; // 0x16
 		::System::Byte sdl_slen; // 0x17
 		::Il2CppArray<::System::Byte>* sdl_data; // 0x18
-
 		::System::Void Read(::System::IntPtr a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_NET_NETWORKINFORMATION_MACOSSTRUCTS_SOCKADDR_DL_READ_OFFSET))(this, a1);
 		}
+
 	};
 }

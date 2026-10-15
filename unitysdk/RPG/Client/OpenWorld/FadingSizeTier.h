@@ -3,8 +3,6 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingSizeTier_TypeDefinitionIndex = 73844;
-
 	enum class FadingSizeTier : ::System::Int32
 	{
 		Small = 0,

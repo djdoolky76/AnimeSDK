@@ -1,27 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class FateHandbookBuffItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF4CC90)
-#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION_GET_BUFFITEMLIST_OFFSET UNITYSDK_OFFSET(0xCF4D090)
-#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xCF4CC80)
-#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION__GENERATEBUFFHANDBOOKLIST_OFFSET UNITYSDK_OFFSET(0xCF4CD20)
+#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xCE9C620)
+#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE9C630)
+#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION_GET_BUFFITEMLIST_OFFSET UNITYSDK_OFFSET(0xCE9CA30)
+#define RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION__GENERATEBUFFHANDBOOKLIST_OFFSET UNITYSDK_OFFSET(0xCE9C6C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateHandbookBuffCollection_TypeDefinitionIndex = 64130;
-
 	class FateHandbookBuffCollection : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::FateHandbookBuffItem*>* _BuffItemList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Dispose()
@@ -38,5 +34,6 @@ namespace RPG::Client
 		{
 			return ((::System::Collections::Generic::List_1<::RPG::Client::FateHandbookBuffItem*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHANDBOOKBUFFCOLLECTION_GET_BUFFITEMLIST_OFFSET))(this);
 		}
+
 	};
 }

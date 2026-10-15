@@ -3,8 +3,6 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int IKSolverLimb_BendModifier_TypeDefinitionIndex = 44882;
-
 	enum class IKSolverLimb_BendModifier : ::System::Int32
 	{
 		Animation = 0,

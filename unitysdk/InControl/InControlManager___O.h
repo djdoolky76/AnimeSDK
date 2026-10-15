@@ -2,19 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/LogMessage.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlManager___O_TypeDefinitionIndex = 39519;
-
 	class InControlManager___O : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::InControl::LogMessage>** StaticGet__0___LogMessage()
+		static ::System::Action** StaticGet__0___LogMessage()
 		{
-			return (::System::Action_1<::InControl::LogMessage>**)Il2CppClass::FromTypeDefinitionIndex(InControlManager___O_TypeDefinitionIndex)->GetStaticField(0x23E0);
+			return (::System::Action**)UnitySDK::FromName("InControl", "<>O")->GetStaticField(0x57DB0);
 		}
+
 	};
 }

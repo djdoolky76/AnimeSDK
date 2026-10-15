@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BA764B0)
-#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BA76520)
-#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BA764A0)
-#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA76430)
+#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BF80F60)
+#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF80EE0)
+#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BF80FD0)
+#define MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BF80F50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSDelegate_StoreIsEmptyCallback_TypeDefinitionIndex = 7686;
-
 	class PSDelegate_StoreIsEmptyCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::Boolean a2)
@@ -37,5 +34,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PSDELEGATE_STOREISEMPTYCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

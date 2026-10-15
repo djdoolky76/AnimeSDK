@@ -3,7 +3,6 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ProBuilder/Edge.h"
 #include "unitysdk/UnityEngine/ProBuilder/SimpleTuple_2.h"
-
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
@@ -13,27 +12,25 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_BEVELEDGES_OFFSET UNITYSDK_OFFSET(0x1EB3D790)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_GETBRIDGEFACES_OFFSET UNITYSDK_OFFSET(0x1EB41AE0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_GETLEADINGEDGE_OFFSET UNITYSDK_OFFSET(0x1EB43E80)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_SLIDEEDGE_OFFSET UNITYSDK_OFFSET(0x1EB41340)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB43F40)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_BEVELEDGES_OFFSET UNITYSDK_OFFSET(0x1F204E80)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F20B630)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_GETBRIDGEFACES_OFFSET UNITYSDK_OFFSET(0x1F2091D0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_GETLEADINGEDGE_OFFSET UNITYSDK_OFFSET(0x1F20B570)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_SLIDEEDGE_OFFSET UNITYSDK_OFFSET(0x1F208A30)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int Bevel_TypeDefinitionIndex = 43285;
-
 	class Bevel : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_k_BridgeIndexesTri()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Bevel_TypeDefinitionIndex)->GetStaticField(0x5D140);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "Bevel")->GetStaticField(0x54340);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_CCTOR_OFFSET))();
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* BevelEdges(::UnityEngine::ProBuilder::ProBuilderMesh* a1, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* a2, ::System::Single a3)
@@ -55,5 +52,6 @@ namespace UnityEngine::ProBuilder::MeshOperations
 		{
 			return ((::UnityEngine::ProBuilder::Edge(*)(::UnityEngine::ProBuilder::WingedEdge*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_MESHOPERATIONS_BEVEL_GETLEADINGEDGE_OFFSET))(a1, a2);
 		}
+
 	};
 }

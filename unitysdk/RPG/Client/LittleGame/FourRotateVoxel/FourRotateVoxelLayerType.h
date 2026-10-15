@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelLayerType_TypeDefinitionIndex = 41540;
-
 	enum class FourRotateVoxelLayerType : ::System::Int32
 	{
 		Col = 0,

@@ -1,30 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace System::Collections { class IComparer; }
 namespace System::Collections { class IHashCodeProvider; }
 
-#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BBB5340)
-#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BBB55F0)
-#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBB5610)
-#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_GET_COMPARER_OFFSET UNITYSDK_OFFSET(0x1BBB5710)
-#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_GET_HASHCODEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1BBB5720)
-#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBB5330)
+#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C0C13A0)
+#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C1390)
+#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C0C1650)
+#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C0C1670)
+#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_GET_COMPARER_OFFSET UNITYSDK_OFFSET(0x1C0C1770)
+#define SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_GET_HASHCODEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C0C1780)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int CompatibleComparer_TypeDefinitionIndex = 1469;
-
 	class CompatibleComparer : public ::System::Object
 	{
 	public:
 		::System::Collections::IComparer* _comparer; // 0x10
 		::System::Collections::IHashCodeProvider* _hcp; // 0x18
-
 		::System::Void _ctor(::System::Collections::IComparer* a1, ::System::Collections::IHashCodeProvider* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::IComparer*, ::System::Collections::IHashCodeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPATIBLECOMPARER__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Collections::IComparer*, ::System::Collections::IHashCodeProvider*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 Compare(::System::Object* a1, ::System::Object* a2)
@@ -51,5 +48,6 @@ namespace System::Collections
 		{
 			return ((::System::Collections::IHashCodeProvider*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_COMPATIBLECOMPARER_GET_HASHCODEPROVIDER_OFFSET))(this);
 		}
+
 	};
 }

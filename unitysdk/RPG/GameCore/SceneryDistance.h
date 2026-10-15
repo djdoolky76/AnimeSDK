@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SceneryDistance_TypeDefinitionIndex = 16974;
-
 	enum class SceneryDistance : ::System::Int32
 	{
 		Nearby = 0,

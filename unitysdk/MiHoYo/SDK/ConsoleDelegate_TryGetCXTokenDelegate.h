@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace MiHoYo::SDK { class ConsoleDelegate_GetCXTokenCallback; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1B9409E0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1B940A90)
-#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B9409A0)
-#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B940920)
+#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BE40D90)
+#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE40CD0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BE40E40)
+#define MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BE40D50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_TryGetCXTokenDelegate_TypeDefinitionIndex = 7620;
-
 	class ConsoleDelegate_TryGetCXTokenDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1, ::System::Boolean a2, ::System::String* a3, ::System::String* a4, ::System::UInt64 a5, ::MiHoYo::SDK::ConsoleDelegate_GetCXTokenCallback* a6)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLEDELEGATE_TRYGETCXTOKENDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

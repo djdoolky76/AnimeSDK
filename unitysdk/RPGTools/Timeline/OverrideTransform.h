@@ -1,42 +1,40 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/OverrideTransform_ControlType.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-namespace RPGTools::Timeline { class OverrideTransform_Controller; }
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CLEAR_OFFSET UNITYSDK_OFFSET(0xE8BC610)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROL_OFFSET UNITYSDK_OFFSET(0xE8BC240)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_DOSYNC_OFFSET UNITYSDK_OFFSET(0xE8BC6E0)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xE8BC200)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_GET_TIMELINESYNC_OFFSET UNITYSDK_OFFSET(0xE8BC220)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE8BC6A0)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_METHOD_5_276036CDF4BFF5A6_OFFSET UNITYSDK_OFFSET(0xE8BC740)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_METHOD_5_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0xE8BC370)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xE8BC210)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_SET_TIMELINESYNC_OFFSET UNITYSDK_OFFSET(0xE8BC230)
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BC970)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CLEAR_OFFSET UNITYSDK_OFFSET(0xE911E10)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROL_OFFSET UNITYSDK_OFFSET(0xE911A40)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xE912200)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_DOSYNC_OFFSET UNITYSDK_OFFSET(0xE911F70)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xE911A00)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_GET_TIMELINESYNC_OFFSET UNITYSDK_OFFSET(0xE911A20)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_IGHHILFMAOL_OFFSET UNITYSDK_OFFSET(0xE911B70)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE911F30)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_LLBFBLIGNDG_OFFSET UNITYSDK_OFFSET(0xE911FD0)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xE911A10)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_SET_TIMELINESYNC_OFFSET UNITYSDK_OFFSET(0xE911A30)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_TRYBUMPEFFECTIVETIME_OFFSET UNITYSDK_OFFSET(0xE911EA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int OverrideTransform_TypeDefinitionIndex = 48979;
-
 	class OverrideTransform : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Boolean _IsOverride; // 0x18
 		::System::Boolean _IsClear; // 0x19
-		::Il2CppArray<::RPGTools::Timeline::OverrideTransform_Controller*>* _Controllers; // 0x20
+		::System::Byte _padding0[0x6];
+		::Il2CppArray<::System::Object*>* _Controllers; // 0x20
 		::System::String* _CharacterUniqueName_k__BackingField; // 0x28
 		::System::Boolean _TimelineSync_k__BackingField; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CTOR_OFFSET))(this);
 		}
 
 		::System::String* get_CharacterUniqueName()
@@ -59,14 +57,19 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_SET_TIMELINESYNC_OFFSET))(this, a1);
 		}
 
-		::System::Void Control(::RPGTools::Timeline::OverrideTransform_ControlType a1, ::System::Double a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Nullable_1<::UnityEngine::Quaternion> a4)
+		::System::Void Control(::RPGTools::Timeline::OverrideTransform_ControlType a1, ::System::Double a2, ::System::Nullable* a3, ::System::Nullable* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::OverrideTransform_ControlType, ::System::Double, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Nullable_1<::UnityEngine::Quaternion>))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROL_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::OverrideTransform_ControlType, ::System::Double, ::System::Nullable*, ::System::Nullable*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CONTROL_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Clear()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_CLEAR_OFFSET))(this);
+		}
+
+		::System::Boolean TryBumpEffectiveTime(::RPGTools::Timeline::OverrideTransform_ControlType a1, ::System::Double a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::OverrideTransform_ControlType, ::System::Double))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_TRYBUMPEFFECTIVETIME_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void LateUpdate()
@@ -79,14 +82,15 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_DOSYNC_OFFSET))(this);
 		}
 
-		::System::Void Method_5_276036CDF4BFF5A6()
+		::System::Void LLBFBLIGNDG()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_METHOD_5_276036CDF4BFF5A6_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_LLBFBLIGNDG_OFFSET))(this);
 		}
 
-		::System::Void Method_5_EC2B405D0723571D()
+		::System::Void IGHHILFMAOL()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_METHOD_5_EC2B405D0723571D_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_OVERRIDETRANSFORM_IGHHILFMAOL_OFFSET))(this);
 		}
+
 	};
 }

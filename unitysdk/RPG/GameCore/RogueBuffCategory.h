@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBuffCategory_TypeDefinitionIndex = 10580;
-
 	enum class RogueBuffCategory : ::System::Int32
 	{
 		None = 0,

@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/PuzzleBoardBase.h"
-#include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/UnityEngine/Vector2Int.h"
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropInitPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_GET_HASINIT_OFFSET UNITYSDK_OFFSET(0xDBE1600)
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDBE1000)
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_ISPLAYERONBOARD_OFFSET UNITYSDK_OFFSET(0xDBE13A0)
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_METHOD_6_8369B9BE7F06A56A_OFFSET UNITYSDK_OFFSET(0xDBE15B0)
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_METHOD_6_D2F6A7A22BCB944C_OFFSET UNITYSDK_OFFSET(0xDBE1130)
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_METHOD_6_DD31BD6ABA02C7FF_OFFSET UNITYSDK_OFFSET(0xDBE1080)
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_WORLDPOSITIONTOBLOCKPOSITION_OFFSET UNITYSDK_OFFSET(0xDBE1290)
-#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xDBE1660)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_AEFAEDJLDFI_OFFSET UNITYSDK_OFFSET(0xDC2BAF0)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC2C0D0)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_EFKAKDMGBPG_OFFSET UNITYSDK_OFFSET(0xDC2C020)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_GET_HASINIT_OFFSET UNITYSDK_OFFSET(0xDC2C070)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_HACJCIGFOEP_OFFSET UNITYSDK_OFFSET(0xDC2BBA0)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDC2BA70)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_ISPLAYERONBOARD_OFFSET UNITYSDK_OFFSET(0xDC2BE10)
+#define RPG_CLIENT_PROP_BLOCKPUZZLEBASE_WORLDPOSITIONTOBLOCKPOSITION_OFFSET UNITYSDK_OFFSET(0xDC2BD00)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BlockPuzzleBase_TypeDefinitionIndex = 77746;
-
 	class BlockPuzzleBase : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
@@ -30,10 +27,9 @@ namespace RPG::Client::Prop
 		::System::Single BlockSize; // 0x50
 		::UnityEngine::Vector3 InitBlockPosition; // 0x54
 		::UnityEngine::Transform* GMIHCNJFHKC; // 0x60
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InitPuzzle(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::PropInitPuzzle* a3)
@@ -41,14 +37,14 @@ namespace RPG::Client::Prop
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_INITPUZZLE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Vector3 Method_6_DD31BD6ABA02C7FF(::UnityEngine::Vector2Int a1)
+		::UnityEngine::Vector3 AEFAEDJLDFI(::UnityEngine::Vector2Int a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_METHOD_6_DD31BD6ABA02C7FF_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_AEFAEDJLDFI_OFFSET))(this, a1);
 		}
 
-		::UnityEngine::Vector3 Method_6_D2F6A7A22BCB944C(::UnityEngine::Vector2Int a1)
+		::UnityEngine::Vector3 HACJCIGFOEP(::UnityEngine::Vector2Int a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_METHOD_6_D2F6A7A22BCB944C_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_HACJCIGFOEP_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Vector2Int WorldPositionToBlockPosition(::UnityEngine::Vector3 a1)
@@ -61,14 +57,15 @@ namespace RPG::Client::Prop
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_ISPLAYERONBOARD_OFFSET))(this);
 		}
 
-		::System::Boolean Method_6_8369B9BE7F06A56A(::UnityEngine::Vector2Int a1)
+		::System::Boolean EFKAKDMGBPG(::UnityEngine::Vector2Int a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_METHOD_6_8369B9BE7F06A56A_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_EFKAKDMGBPG_OFFSET))(this, a1);
 		}
 
 		::System::Boolean get_HasInit()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_BLOCKPUZZLEBASE_GET_HASINIT_OFFSET))(this);
 		}
+
 	};
 }

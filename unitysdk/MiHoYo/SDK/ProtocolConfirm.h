@@ -1,39 +1,46 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
-
 namespace MiHoYo::SDK { class ILinkImageText; }
+namespace MiHoYo::SDK { class ProtocolConfirm; }
 namespace MiHoYo::SDK { class UIManager; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 
-#define MIHOYO_SDK_PROTOCOLCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BAA4300)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAA4E20)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BAA4E00)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1BAA42D0)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1BAA4DE0)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1BAA4170)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BAA4790)
-#define MIHOYO_SDK_PROTOCOLCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAA4E40)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFAEB30)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x1BFAF790)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BFAF770)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFAF7B0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFAEB00)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1BFAF750)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFAE9A0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BFAF050)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolConfirm_TypeDefinitionIndex = 7982;
-
 	class ProtocolConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ProtocolConfirm_TypeDefinitionIndex)->GetStaticField(0x242C0);
-		}
+		::UnityEngine::UI::Button* refuseButton; // 0x58
+		::UnityEngine::UI::Button* acceptButton; // 0x60
+		::UnityEngine::GameObject* descTextObject; // 0x68
+		::MiHoYo::SDK::ILinkImageText* descText; // 0x70
+		::System::Action* OnAccept; // 0x78
+		::System::Action* OnRefuse; // 0x80
+		::System::Action* OnHrefButtonClicked; // 0x88
+		::System::String* noticeContent; // 0x90
 		static ::MiHoYo::SDK::ProtocolConfirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ProtocolConfirm**)Il2CppClass::FromTypeDefinitionIndex(ProtocolConfirm_TypeDefinitionIndex)->GetStaticField(0x242C8);
+			return (::MiHoYo::SDK::ProtocolConfirm**)UnitySDK::FromName("MiHoYo.SDK", "ProtocolConfirm")->GetStaticField(0x1B600);
 		}
+
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "ProtocolConfirm")->GetStaticField(0x1B608);
+		}
+
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* UserAgreementBtnPath; // 0x0
 		// static const ::System::String* PrivacyBtnPath; // 0x0
@@ -44,18 +51,9 @@ namespace MiHoYo::SDK
 		// static const ::System::String* AcceptBtnTextPath; // 0x0
 		// static const ::System::String* LINK_ID_USERAGREEMENT; // 0x0
 		// static const ::System::String* LINK_ID_PRIVACY; // 0x0
-		::UnityEngine::UI::Button* refuseButton; // 0x58
-		::UnityEngine::UI::Button* acceptButton; // 0x60
-		::UnityEngine::GameObject* descTextObject; // 0x68
-		::MiHoYo::SDK::ILinkImageText* descText; // 0x70
-		::System::Action* OnAccept; // 0x78
-		::System::Action* OnRefuse; // 0x80
-		::System::Action_1<::System::String*>* OnHrefButtonClicked; // 0x88
-		::System::String* noticeContent; // 0x90
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLCONFIRM__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLCONFIRM_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void Show(::System::String* a1)
@@ -92,5 +90,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOCOLCONFIRM_CLICKACCEPTBUTTON_OFFSET))(this);
 		}
+
 	};
 }

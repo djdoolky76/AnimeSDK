@@ -1,30 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageVoxelDataIndex; }
+namespace RPG::GameCore { class StageVoxelMetaData; }
 
-#define RPG_GAMECORE_STAGEVOXELMETADATA_METHOD_2_431A80A56364731E_OFFSET UNITYSDK_OFFSET(0x1D562150)
-#define RPG_GAMECORE_STAGEVOXELMETADATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D562200)
+#define RPG_GAMECORE_STAGEVOXELMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17990)
+#define RPG_GAMECORE_STAGEVOXELMETADATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB178E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVoxelMetaData_TypeDefinitionIndex = 18927;
-
 	class StageVoxelMetaData : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::GameCore::StageVoxelDataIndex* AudioGroundVoxelDataIndex; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELMETADATA__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELMETADATA_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_431A80A56364731E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StageVoxelMetaData*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StageVoxelMetaData* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageVoxelMetaData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELMETADATA_METHOD_2_431A80A56364731E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StageVoxelMetaData*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVOXELMETADATA_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

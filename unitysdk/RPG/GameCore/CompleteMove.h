@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CompleteMove; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_COMPLETEMOVE_METHOD_3_042258C6C818EAED_OFFSET UNITYSDK_OFFSET(0x1CFF0950)
-#define RPG_GAMECORE_COMPLETEMOVE_METHOD_3_21A9ADA309925F5C_OFFSET UNITYSDK_OFFSET(0x1CFF09F0)
-#define RPG_GAMECORE_COMPLETEMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF09B0)
+#define RPG_GAMECORE_COMPLETEMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CC780)
+#define RPG_GAMECORE_COMPLETEMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CC7C0)
+#define RPG_GAMECORE_COMPLETEMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CC720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CompleteMove_TypeDefinitionIndex = 22215;
-
 	class CompleteMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLETEMOVE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLETEMOVE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_042258C6C818EAED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CompleteMove*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CompleteMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CompleteMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLETEMOVE_METHOD_3_042258C6C818EAED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CompleteMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLETEMOVE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_21A9ADA309925F5C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CompleteMove* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CompleteMove* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CompleteMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLETEMOVE_METHOD_3_21A9ADA309925F5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CompleteMove*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLETEMOVE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

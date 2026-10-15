@@ -1,36 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::CustomRP { class IMsgFactory; }
 namespace RPG::CustomRP { class IRPMessage; }
 namespace RPG::CustomRP { class ReadMessageThread; }
 namespace RPG::CustomRP { class WriteMessageThread; }
+namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Net::Sockets { class TcpClient; }
 
-#define RPG_CUSTOMRP_MESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C6A3090)
-#define RPG_CUSTOMRP_MESSAGETHREAD_GET_ISINVALID_OFFSET UNITYSDK_OFFSET(0x1C6A3DA0)
-#define RPG_CUSTOMRP_MESSAGETHREAD_ONCONNECTING_OFFSET UNITYSDK_OFFSET(0x1C6A3B50)
-#define RPG_CUSTOMRP_MESSAGETHREAD_PREPARESTOP_OFFSET UNITYSDK_OFFSET(0x1C6A34E0)
-#define RPG_CUSTOMRP_MESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1C6A3500)
-#define RPG_CUSTOMRP_MESSAGETHREAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1C6A3DE0)
-#define RPG_CUSTOMRP_MESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6A2760)
+#define RPG_CUSTOMRP_MESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC288B0)
+#define RPG_CUSTOMRP_MESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1CC291B0)
+#define RPG_CUSTOMRP_MESSAGETHREAD_GET_ISINVALID_OFFSET UNITYSDK_OFFSET(0x1CC29B60)
+#define RPG_CUSTOMRP_MESSAGETHREAD_ONCONNECTING_OFFSET UNITYSDK_OFFSET(0x1CC298B0)
+#define RPG_CUSTOMRP_MESSAGETHREAD_PREPARESTOP_OFFSET UNITYSDK_OFFSET(0x1CC29240)
+#define RPG_CUSTOMRP_MESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1CC29260)
+#define RPG_CUSTOMRP_MESSAGETHREAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC29BA0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MessageThread_TypeDefinitionIndex = 37221;
-
 	class MessageThread : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::ReadMessageThread* _readThread; // 0x10
-		::RPG::CustomRP::WriteMessageThread* _writeThread; // 0x18
-
+		::RPG::CustomRP::WriteMessageThread* _writeThread; // 0x10
+		::RPG::CustomRP::ReadMessageThread* _readThread; // 0x18
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESSAGETHREAD__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESSAGETHREAD_CTOR_OFFSET))(this);
 		}
 
 		::System::Void PrepareStop()
@@ -38,9 +34,9 @@ namespace RPG::CustomRP
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESSAGETHREAD_PREPARESTOP_OFFSET))(this);
 		}
 
-		::System::Void OnConnecting(::System::String* a1, ::System::Net::Sockets::TcpClient* a2, ::System::Action_1<::RPG::CustomRP::IRPMessage*>* a3, ::RPG::CustomRP::IMsgFactory* a4)
+		::System::Void OnConnecting(::System::String* a1, ::System::Net::Sockets::TcpClient* a2, ::System::Action* a3, ::RPG::CustomRP::IMsgFactory* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::Sockets::TcpClient*, ::System::Action_1<::RPG::CustomRP::IRPMessage*>*, ::RPG::CustomRP::IMsgFactory*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESSAGETHREAD_ONCONNECTING_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Net::Sockets::TcpClient*, ::System::Action*, ::RPG::CustomRP::IMsgFactory*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESSAGETHREAD_ONCONNECTING_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void Update()
@@ -62,5 +58,6 @@ namespace RPG::CustomRP
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MESSAGETHREAD_GET_ISINVALID_OFFSET))(this);
 		}
+
 	};
 }

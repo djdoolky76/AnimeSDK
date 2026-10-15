@@ -1,31 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/Effect_LineRenderer_PointAttr.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
-class Class_2_83A4037BA4BD389C;
+class MIBINCLECCE;
+namespace System { class Object; }
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_EFFECT_LINERENDERER_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDF12C0)
-#define RPG_CLIENT_EFFECT_LINERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCDF1330)
-#define RPG_CLIENT_EFFECT_LINERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCDF1230)
-#define RPG_CLIENT_EFFECT_LINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCDF1160)
-#define RPG_CLIENT_EFFECT_LINERENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF1380)
+#define RPG_CLIENT_EFFECT_LINERENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xCD41BE0)
+#define RPG_CLIENT_EFFECT_LINERENDERER_LATETICK_OFFSET UNITYSDK_OFFSET(0xCD41B20)
+#define RPG_CLIENT_EFFECT_LINERENDERER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCD41B90)
+#define RPG_CLIENT_EFFECT_LINERENDERER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xCD41A90)
+#define RPG_CLIENT_EFFECT_LINERENDERER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD419C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRenderer_TypeDefinitionIndex = 70461;
-
 	class Effect_LineRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Il2CppArray<::RPG::Client::Effect_LineRenderer_PointAttr>* PointAttrs; // 0x18
+		::Il2CppArray<::System::Object*>* PointAttrs; // 0x18
 		::UnityEngine::LineRenderer* LineRenderer; // 0x20
-		::Class_2_83A4037BA4BD389C* KADDKEGNCHE; // 0x28
-
+		::MIBINCLECCE* KADDKEGNCHE; // 0x28
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnEnable()
@@ -47,5 +43,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_LINERENDERER_ONDESTROY_OFFSET))(this);
 		}
+
 	};
 }

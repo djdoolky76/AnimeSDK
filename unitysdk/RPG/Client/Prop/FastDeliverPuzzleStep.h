@@ -3,8 +3,6 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleStep_TypeDefinitionIndex = 78109;
-
 	enum class FastDeliverPuzzleStep : ::System::Int32
 	{
 		AimStep = 0,

@@ -3,19 +3,17 @@
 #include "unitysdk/RPG/GameCore/EWaitFaceToTaskFinishMode.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AdvNpcFaceTo; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCFACETO_METHOD_3_61A32E4441B12701_OFFSET UNITYSDK_OFFSET(0x1CDD02D0)
-#define RPG_GAMECORE_ADVNPCFACETO_METHOD_3_D533B012BBFECA4F_OFFSET UNITYSDK_OFFSET(0x1CDD0280)
-#define RPG_GAMECORE_ADVNPCFACETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD02C0)
+#define RPG_GAMECORE_ADVNPCFACETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A5CD0)
+#define RPG_GAMECORE_ADVNPCFACETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A5CE0)
+#define RPG_GAMECORE_ADVNPCFACETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A5C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFaceTo_TypeDefinitionIndex = 20101;
-
 	class AdvNpcFaceTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -29,21 +27,22 @@ namespace RPG::GameCore
 		::System::Single Duration; // 0x4C
 		::System::Boolean SteerImmediately; // 0x50
 		::System::Boolean FinishImmadiate; // 0x51
+		::System::Byte _padding0[0x2];
 		::RPG::GameCore::EWaitFaceToTaskFinishMode WaitFinishMode; // 0x54
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D533B012BBFECA4F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFaceTo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNpcFaceTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFaceTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_METHOD_3_D533B012BBFECA4F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNpcFaceTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_61A32E4441B12701(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFaceTo* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AdvNpcFaceTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFaceTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_METHOD_3_61A32E4441B12701_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AdvNpcFaceTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETO_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

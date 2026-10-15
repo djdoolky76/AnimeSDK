@@ -1,13 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace RPG::Client::RoadRash { class MonoRoadRashGameRoad; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGameRoad_Link_TypeDefinitionIndex = 75449;
-
 	struct alignas(8) MonoRoadRashGameRoad_Link
 	{
 		::System::UInt32 LinkPointIndex; // 0x10

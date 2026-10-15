@@ -1,16 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETANIMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xD1627C0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETPARTICLESYSTEMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xD162630)
+#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETANIMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xD102BA0)
+#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETPARTICLESYSTEMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xD102A10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectUtils_TypeDefinitionIndex = 64554;
-
 	class GridFightEffectUtils : public ::System::Object
 	{
 	public:
@@ -23,5 +20,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::UnityEngine::Transform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETANIMSPEEDINCHILDREN_OFFSET))(a1, a2);
 		}
+
 	};
 }

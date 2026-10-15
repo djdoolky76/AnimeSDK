@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/NHPNLANLMDB.h"
+#include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
+namespace RPG::GameCore { class GameEntity; }
+
+#define PLKEFLMJAFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC308A70)
+#define PLKEFLMJAFH_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xC308AC0)
+
+	class PLKEFLMJAFH : public ::NHPNLANLMDB
+	{
+	public:
+		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x90
+		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + PLKEFLMJAFH_CTOR_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::AdventureModifierBehaviorFlag get_Flag()
+		{
+			return ((::RPG::GameCore::AdventureModifierBehaviorFlag(*)(::PVOID))((::PBYTE)hIl2Cpp + PLKEFLMJAFH_GET_FLAG_OFFSET))(this);
+		}
+
+	};

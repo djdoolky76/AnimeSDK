@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYENGINE_TRANSFORM_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1ED724E0)
-#define UNITYENGINE_TRANSFORM_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1ED72510)
-#define UNITYENGINE_TRANSFORM_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1ED72540)
-#define UNITYENGINE_TRANSFORM_ENUMERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED722C0)
+#define UNITYENGINE_TRANSFORM_ENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F43A660)
+#define UNITYENGINE_TRANSFORM_ENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F43A880)
+#define UNITYENGINE_TRANSFORM_ENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F43A8B0)
+#define UNITYENGINE_TRANSFORM_ENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F43A8E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Transform_Enumerator_TypeDefinitionIndex = 4406;
-
 	class Transform_Enumerator : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* outer; // 0x10
 		::System::Int32 currentIndex; // 0x18
-
 		::System::Void _ctor(::UnityEngine::Transform* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_TRANSFORM_ENUMERATOR__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + UNITYENGINE_TRANSFORM_ENUMERATOR_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Object* get_Current()
@@ -38,5 +35,6 @@ namespace UnityEngine
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TRANSFORM_ENUMERATOR_RESET_OFFSET))(this);
 		}
+
 	};
 }

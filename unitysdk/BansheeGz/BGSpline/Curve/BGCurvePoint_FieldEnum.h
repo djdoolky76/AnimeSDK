@@ -3,8 +3,6 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurvePoint_FieldEnum_TypeDefinitionIndex = 35328;
-
 	enum class BGCurvePoint_FieldEnum : ::System::Int32
 	{
 		PositionWorld = 0,

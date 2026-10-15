@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachineExtension.h"
 #include "unitysdk/UnityEngine/Vector2.h"
-
+#include "unitysdk/Cinemachine/CameraState.h"
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xDDCA030)
-#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_SETENABLE_OFFSET UNITYSDK_OFFSET(0xDDC9FE0)
-#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION__CTOR_OFFSET UNITYSDK_OFFSET(0xDDCA2B0)
+#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0xDE18480)
+#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xDE18200)
+#define RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_SETENABLE_OFFSET UNITYSDK_OFFSET(0xDE181B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGCinemachineCorrectionExtension_TypeDefinitionIndex = 69666;
-
 	class RPGCinemachineCorrectionExtension : public ::Cinemachine::CinemachineExtension
 	{
 	public:
@@ -22,10 +19,9 @@ namespace RPG::Client
 		::System::Single InitYAxisRatio; // 0x30
 		::System::Boolean MPDAKDBKKJL; // 0x34
 		::System::Boolean MOKNCFJICIC; // 0x35
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SetEnable(::System::Boolean a1)
@@ -33,9 +29,10 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_SETENABLE_OFFSET))(this, a1);
 		}
 
-		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState& a3, ::System::Single a4)
+		::System::Void PostPipelineStageCallback(::Cinemachine::CinemachineVirtualCameraBase* a1, ::Cinemachine::CinemachineCore_Stage a2, ::Cinemachine::CameraState a3, ::System::Single a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::Cinemachine::CinemachineCore_Stage, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_RPGCINEMACHINECORRECTIONEXTENSION_POSTPIPELINESTAGECALLBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
+
 	};
 }

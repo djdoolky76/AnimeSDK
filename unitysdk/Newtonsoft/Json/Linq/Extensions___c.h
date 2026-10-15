@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEA7DF0)
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA7E30)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3B3D30)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B3D70)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int Extensions___c_TypeDefinitionIndex = 9708;
-
 	class Extensions___c : public ::System::Object
 	{
 	public:
-		static ::Newtonsoft::Json::Linq::Extensions___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Newtonsoft::Json::Linq::Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Extensions___c_TypeDefinitionIndex)->GetStaticField(0x3CAB0);
+			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Linq", "<>c")->GetStaticField(0x2DF00);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_EXTENSIONS___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CTOR_OFFSET))(this);
 		}
+
 	};
 }

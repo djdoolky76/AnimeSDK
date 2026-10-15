@@ -1,39 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_276321B6B122C69C_6.h"
+#include "unitysdk/LICGOGNGGID.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class TeamBuild; }
 namespace RPG::Client { class TeamBuildUnit; }
+namespace System { class Object; }
 
-#define RPG_CLIENT_TEAMBUILD_ADDTEAMMATE_OFFSET UNITYSDK_OFFSET(0xE180DE0)
-#define RPG_CLIENT_TEAMBUILD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE181220)
-#define RPG_CLIENT_TEAMBUILD_EQUALS_OFFSET UNITYSDK_OFFSET(0xE180F80)
-#define RPG_CLIENT_TEAMBUILD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE1812D0)
-#define RPG_CLIENT_TEAMBUILD_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xE180D60)
-#define RPG_CLIENT_TEAMBUILD_GET_TARGETAVATARID_OFFSET UNITYSDK_OFFSET(0xE180D70)
-#define RPG_CLIENT_TEAMBUILD_GET_TARGETAVATARPOSITION_OFFSET UNITYSDK_OFFSET(0xE180DB0)
-#define RPG_CLIENT_TEAMBUILD_GET_TEAMMATES_OFFSET UNITYSDK_OFFSET(0xE180DC0)
-#define RPG_CLIENT_TEAMBUILD__CTOR_OFFSET UNITYSDK_OFFSET(0xE180DD0)
+#define RPG_CLIENT_TEAMBUILD_ADDTEAMMATE_OFFSET UNITYSDK_OFFSET(0xE1C34A0)
+#define RPG_CLIENT_TEAMBUILD_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C3490)
+#define RPG_CLIENT_TEAMBUILD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE1C38E0)
+#define RPG_CLIENT_TEAMBUILD_EQUALS_OFFSET UNITYSDK_OFFSET(0xE1C3640)
+#define RPG_CLIENT_TEAMBUILD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE1C3990)
+#define RPG_CLIENT_TEAMBUILD_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xE1C3420)
+#define RPG_CLIENT_TEAMBUILD_GET_TARGETAVATARID_OFFSET UNITYSDK_OFFSET(0xE1C3430)
+#define RPG_CLIENT_TEAMBUILD_GET_TARGETAVATARPOSITION_OFFSET UNITYSDK_OFFSET(0xE1C3470)
+#define RPG_CLIENT_TEAMBUILD_GET_TEAMMATES_OFFSET UNITYSDK_OFFSET(0xE1C3480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuild_TypeDefinitionIndex = 68078;
-
 	class TeamBuild : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::Client::TeamBuildUnit*>* _Teammates_k__BackingField; // 0x10
-		::Struct_2_276321B6B122C69C_6 _Identifier_k__BackingField; // 0x18
-		::System::UInt32 _TargetAvatarPosition_k__BackingField; // 0x20
-
-		::System::Void _ctor(::Struct_2_276321B6B122C69C_6& a1, ::System::UInt32 a2, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>* a3)
+		::System::UInt32 _TargetAvatarPosition_k__BackingField; // 0x18
+		::LICGOGNGGID _Identifier_k__BackingField; // 0x1C
+		::System::Void _ctor(::LICGOGNGGID a1, ::System::UInt32 a2, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Struct_2_276321B6B122C69C_6&, ::System::UInt32, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILD__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::LICGOGNGGID, ::System::UInt32, ::Il2CppArray<::RPG::Client::TeamBuildUnit*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILD_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Struct_2_276321B6B122C69C_6 get_Identifier()
+		::LICGOGNGGID get_Identifier()
 		{
-			return ((::Struct_2_276321B6B122C69C_6(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILD_GET_IDENTIFIER_OFFSET))(this);
+			return ((::LICGOGNGGID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILD_GET_IDENTIFIER_OFFSET))(this);
 		}
 
 		::System::UInt32 get_TargetAvatarID()
@@ -70,5 +68,6 @@ namespace RPG::Client
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMBUILD_GETHASHCODE_OFFSET))(this);
 		}
+
 	};
 }

@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_GroupLoadStatus_TypeDefinitionIndex = 62152;
-
 	enum class RuntimeGroupManager_GroupLoadStatus : ::System::Int32
 	{
 		Unknown = 0,

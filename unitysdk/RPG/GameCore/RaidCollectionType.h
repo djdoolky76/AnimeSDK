@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidCollectionType_TypeDefinitionIndex = 12236;
-
 	enum class RaidCollectionType : ::System::Int32
 	{
 		Unknown = 0,

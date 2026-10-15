@@ -1,24 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class Action; }
-namespace System { template <typename T> class Action_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConfigManager___O_TypeDefinitionIndex = 56692;
-
 	class GameCoreConfigManager___O : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Single>** StaticGet__0____OnConfigLoadingProgressChanged()
-		{
-			return (::System::Action_1<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConfigManager___O_TypeDefinitionIndex)->GetStaticField(0x1E40);
-		}
 		static ::System::Action** StaticGet__1____OnConfigsLoadFinished()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(GameCoreConfigManager___O_TypeDefinitionIndex)->GetStaticField(0x1E48);
+			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5F6D0);
 		}
+
+		static ::System::Action** StaticGet__0____OnConfigLoadingProgressChanged()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5F6D8);
+		}
+
 	};
 }

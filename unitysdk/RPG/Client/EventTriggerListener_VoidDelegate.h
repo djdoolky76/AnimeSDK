@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCECE720)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCECE760)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCECDEB0)
-#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCECE6A0)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCE1D150)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCE1D0D0)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCE1D190)
+#define RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCE1C8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EventTriggerListener_VoidDelegate_TypeDefinitionIndex = 72457;
-
 	class EventTriggerListener_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1, ::UnityEngine::EventSystems::PointerEventData* a2)
@@ -39,5 +36,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EVENTTRIGGERLISTENER_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

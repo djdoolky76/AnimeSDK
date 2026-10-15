@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
-
 namespace System { class String; }
 
-#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1BDB9E50)
-#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB9DE0)
+#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C5A30)
+#define SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1C2C5AA0)
 
 namespace System::Resources
 {
-	inline static constexpr unsigned int SatelliteContractVersionAttribute_TypeDefinitionIndex = 535;
-
 	class SatelliteContractVersionAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* _version; // 0x10
-
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_Version()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RESOURCES_SATELLITECONTRACTVERSIONATTRIBUTE_GET_VERSION_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class LevelPedestrianFlowInfo; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO_METHOD_2_73447E5E24EAEC41_OFFSET UNITYSDK_OFFSET(0x1D1E5810)
-#define RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E5AA0)
+#define RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C36D0)
+#define RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C3440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianFlowInfo_TypeDefinitionIndex = 17087;
-
 	class LevelPedestrianFlowInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -20,16 +18,17 @@ namespace RPG::GameCore
 		::System::UInt32 EndNodeIndex; // 0x1C
 		::System::Boolean StartForward; // 0x20
 		::System::Boolean EndForward; // 0x21
+		::System::Byte _padding0[0x2];
 		::System::Single Weight; // 0x24
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_73447E5E24EAEC41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianFlowInfo*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::LevelPedestrianFlowInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianFlowInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO_METHOD_2_73447E5E24EAEC41_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::LevelPedestrianFlowInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANFLOWINFO_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

@@ -4,28 +4,25 @@
 #include "unitysdk/AkiOSSettings_PlatformAdvancedSettings_Category.h"
 #include "unitysdk/AkiOSSettings_PlatformAdvancedSettings_CategoryOptions.h"
 #include "unitysdk/AkiOSSettings_PlatformAdvancedSettings_Mode.h"
-
 class AkPlatformInitSettings;
 
-#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1EF56EB0)
-#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF56F00)
+#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F61EAB0)
+#define AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61EB00)
 
-inline static constexpr unsigned int AkiOSSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 43711;
-
-class AkiOSSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
-{
-public:
-	::AkiOSSettings_PlatformAdvancedSettings_Category m_AudioSessionCategory; // 0x58
-	::AkiOSSettings_PlatformAdvancedSettings_CategoryOptions m_AudioSessionCategoryOptions; // 0x5C
-	::AkiOSSettings_PlatformAdvancedSettings_Mode m_AudioSessionMode; // 0x60
-
-	::System::Void _ctor()
+	class AkiOSSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS__CTOR_OFFSET))(this);
-	}
+	public:
+		::AkiOSSettings_PlatformAdvancedSettings_Category m_AudioSessionCategory; // 0x58
+		::AkiOSSettings_PlatformAdvancedSettings_CategoryOptions m_AudioSessionCategoryOptions; // 0x5C
+		::AkiOSSettings_PlatformAdvancedSettings_Mode m_AudioSessionMode; // 0x60
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET))(this);
+		}
 
-	::System::Void CopyTo(::AkPlatformInitSettings* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET))(this, a1);
-	}
-};
+		::System::Void CopyTo(::AkPlatformInitSettings* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::AkPlatformInitSettings*))((::PBYTE)hIl2Cpp + AKIOSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET))(this, a1);
+		}
+
+	};

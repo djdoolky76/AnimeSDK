@@ -1,36 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/Console/OS/LoginManager.h"
-
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Action; }
 namespace System { class String; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1B7C2FE0)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETPROTOCOLCHANNEL_OFFSET UNITYSDK_OFFSET(0x1B7C1380)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETUSERUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1B7C2F90)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ISBINDINGACCOUNTSWITCHON_OFFSET UNITYSDK_OFFSET(0x1B7C3270)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x1B7C32D0)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ONCONSOLELOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B7C1390)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_OPENURL_OFFSET UNITYSDK_OFFSET(0x1B7C31E0)
-#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B79A5B0)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC99B30)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET UNITYSDK_OFFSET(0x1BCC2570)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETPROTOCOLCHANNEL_OFFSET UNITYSDK_OFFSET(0x1BCC0910)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GETUSERUNIQUEID_OFFSET UNITYSDK_OFFSET(0x1BCC2520)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ISBINDINGACCOUNTSWITCHON_OFFSET UNITYSDK_OFFSET(0x1BCC2800)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_LOGREPORT_OFFSET UNITYSDK_OFFSET(0x1BCC2860)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ONCONSOLELOGINCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BCC0920)
+#define MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_OPENURL_OFFSET UNITYSDK_OFFSET(0x1BCC2770)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int LoginManagerCX_TypeDefinitionIndex = 9026;
-
 	class LoginManagerCX : public ::MiHoYo::SDK::Console::OS::LoginManager
 	{
 	public:
+		::System::Collections::Generic::List_1<::System::String*>* cachedFriendList; // 0x48
 		// static const ::System::String* CX; // 0x0
 		// static const ::System::String* XTOKEN_URL; // 0x0
-		::System::Collections::Generic::List_1<::System::String*>* cachedFriendList; // 0x48
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 GetProtocolChannel()
@@ -43,9 +38,9 @@ namespace MiHoYo::SDK::Console::OS
 			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_ONCONSOLELOGINCALLBACK_OFFSET))(this, a1);
 		}
 
-		::System::Void GenerateAccessToken(::System::Action_1<::System::String*>* a1, ::System::Boolean a2)
+		::System::Void GenerateAccessToken(::System::Action* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_GENERATEACCESSTOKEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* GetUserUniqueId()
@@ -67,5 +62,6 @@ namespace MiHoYo::SDK::Console::OS
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_LOGINMANAGERCX_LOGREPORT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

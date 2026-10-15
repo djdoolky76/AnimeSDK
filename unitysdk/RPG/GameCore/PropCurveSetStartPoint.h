@@ -2,21 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 #include "unitysdk/RPG/MVector3.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicJson; }
 namespace RPG::GameCore { class DynamicString; }
+namespace RPG::GameCore { class PropCurveSetStartPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_00394310626B1888_OFFSET UNITYSDK_OFFSET(0x1D363350)
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_928AE2AAAD4807EB_OFFSET UNITYSDK_OFFSET(0x1D363280)
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D363300)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D948850)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9488A0)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9487D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveSetStartPoint_TypeDefinitionIndex = 20763;
-
 	class PropCurveSetStartPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:
@@ -33,20 +31,20 @@ namespace RPG::GameCore
 		::System::Boolean UseCurveRotationPitch; // 0x49
 		::System::Boolean WaitFinish; // 0x4A
 		::System::Boolean ForceTick; // 0x4B
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_928AE2AAAD4807EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveSetStartPoint*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveSetStartPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveSetStartPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_928AE2AAAD4807EB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveSetStartPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_00394310626B1888(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveSetStartPoint* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveSetStartPoint* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveSetStartPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_00394310626B1888_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveSetStartPoint*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

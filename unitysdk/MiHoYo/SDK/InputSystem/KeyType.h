@@ -3,8 +3,6 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int KeyType_TypeDefinitionIndex = 10089;
-
 	enum class KeyType : ::System::Int32
 	{
 		None = 0,

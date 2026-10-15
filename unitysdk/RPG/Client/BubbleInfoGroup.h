@@ -1,25 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace RPG::Client { class BubbleInfoGroup; }
 namespace RPG::Client { class IBubbleInfoProvider; }
 
-#define RPG_CLIENT_BUBBLEINFOGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xC97C230)
-#define RPG_CLIENT_BUBBLEINFOGROUP_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0xC97C2A0)
-#define RPG_CLIENT_BUBBLEINFOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xC97C290)
+#define RPG_CLIENT_BUBBLEINFOGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xC8CA5D0)
+#define RPG_CLIENT_BUBBLEINFOGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CA630)
+#define RPG_CLIENT_BUBBLEINFOGROUP_GETBUBBLEINFOPROVIDERLIST_OFFSET UNITYSDK_OFFSET(0xC8CA640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BubbleInfoGroup_TypeDefinitionIndex = 63007;
-
 	class BubbleInfoGroup : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>* _bubbleInfoProviderList; // 0x10
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFOGROUP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFOGROUP_CTOR_OFFSET))(this);
 		}
 
 		static ::RPG::Client::BubbleInfoGroup* Create(::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>* a1)
@@ -31,5 +28,6 @@ namespace RPG::Client
 		{
 			return ((::Il2CppArray<::RPG::Client::IBubbleInfoProvider*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BUBBLEINFOGROUP_GETBUBBLEINFOPROVIDERLIST_OFFSET))(this);
 		}
+
 	};
 }

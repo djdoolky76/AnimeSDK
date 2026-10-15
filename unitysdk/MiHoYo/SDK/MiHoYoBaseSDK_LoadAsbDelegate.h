@@ -1,28 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class AssetBundle; }
 
-#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB21C5F0)
-#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB21C620)
-#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB21C5E0)
-#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB21C570)
+#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFC3CD0)
+#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC3C50)
+#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFC3D00)
+#define MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFC3CC0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoBaseSDK_LoadAsbDelegate_TypeDefinitionIndex = 46709;
-
 	class MiHoYoBaseSDK_LoadAsbDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::AssetBundle* Invoke(::System::String* a1)
@@ -39,5 +36,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::UnityEngine::AssetBundle*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOBASESDK_LOADASBDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

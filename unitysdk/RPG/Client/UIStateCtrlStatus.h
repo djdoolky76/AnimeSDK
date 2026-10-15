@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIStateCtrlStatus_TypeDefinitionIndex = 69080;
-
 	enum class UIStateCtrlStatus : ::System::Int32
 	{
 		None = 0,

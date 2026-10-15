@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0xCD20EE0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCD20EF0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0xCD20ED0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCD20E20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC20D30)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVAILABLE_OFFSET UNITYSDK_OFFSET(0xCC20DF0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVATARINFO_OFFSET UNITYSDK_OFFSET(0xCC20E00)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_ID_OFFSET UNITYSDK_OFFSET(0xCC20DE0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatCollectionCardInfo_TypeDefinitionIndex = 75591;
-
 	class DiceCombatCollectionCardInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _PlayerAvatarInfo; // 0x10
-		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _ConfigAvatarInfo; // 0x18
-		::System::Boolean _Available_k__BackingField; // 0x20
-		::System::UInt32 _ID_k__BackingField; // 0x24
-
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _ConfigAvatarInfo; // 0x10
+		::RPG::Client::DiceCombat::IDiceCombatAvatarInfo* _PlayerAvatarInfo; // 0x18
+		::System::UInt32 _ID_k__BackingField; // 0x20
+		::System::Boolean _Available_k__BackingField; // 0x24
 		::System::Void _ctor(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_ID()
@@ -40,5 +36,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::RPG::Client::DiceCombat::IDiceCombatAvatarInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATCOLLECTIONCARDINFO_GET_AVATARINFO_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+class BABNOKHOBCF;
+class INMMPMDELKE;
+class MNCOPNHONHO;
+namespace System { class String; }
+
+#define NDFNMIOCFBF_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xBB23010)
+#define NDFNMIOCFBF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB22E00)
+#define NDFNMIOCFBF_FCFFMPGKKGN_OFFSET UNITYSDK_OFFSET(0xBB23650)
+#define NDFNMIOCFBF_LAENGGLFBMD_OFFSET UNITYSDK_OFFSET(0xBB23710)
+#define NDFNMIOCFBF__CREATEEMPTYENTITY_OFFSET UNITYSDK_OFFSET(0xBB23050)
+#define NDFNMIOCFBF__GETENTITYBYCONFIGID_OFFSET UNITYSDK_OFFSET(0xBB231F0)
+#define NDFNMIOCFBF__GETENTITYBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBB230B0)
+#define NDFNMIOCFBF__INITDESTRUCTIBLEPROP_OFFSET UNITYSDK_OFFSET(0xBB23250)
+
+	class NDFNMIOCFBF
+	{
+	public:
+		::MNCOPNHONHO* PDENFEFCAGN; // 0x48
+		::BABNOKHOBCF* FKINCGODJEP; // 0x50
+		::System::Void _ctor(::BABNOKHOBCF* a1, ::MNCOPNHONHO* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::BABNOKHOBCF*, ::MNCOPNHONHO*))((::PBYTE)hIl2Cpp + NDFNMIOCFBF_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean BBLMMNLCMGM()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + NDFNMIOCFBF_BBLMMNLCMGM_OFFSET))(this);
+		}
+
+		::INMMPMDELKE* _CreateEmptyEntity(::System::String* a1)
+		{
+			return ((::INMMPMDELKE*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + NDFNMIOCFBF__CREATEEMPTYENTITY_OFFSET))(this, a1);
+		}
+
+		::INMMPMDELKE* _GetEntityByRuntimeID(::System::Int32 a1)
+		{
+			return ((::INMMPMDELKE*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + NDFNMIOCFBF__GETENTITYBYRUNTIMEID_OFFSET))(this, a1);
+		}
+
+		::INMMPMDELKE* _GetEntityByConfigID(::System::UInt32 a1)
+		{
+			return ((::INMMPMDELKE*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NDFNMIOCFBF__GETENTITYBYCONFIGID_OFFSET))(this, a1);
+		}
+
+		::System::Void _InitDestructibleProp(::INMMPMDELKE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*))((::PBYTE)hIl2Cpp + NDFNMIOCFBF__INITDESTRUCTIBLEPROP_OFFSET))(this, a1);
+		}
+
+		::System::Void FCFFMPGKKGN(::INMMPMDELKE* a1, ::INMMPMDELKE* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::INMMPMDELKE*))((::PBYTE)hIl2Cpp + NDFNMIOCFBF_FCFFMPGKKGN_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void LAENGGLFBMD(::INMMPMDELKE* a1, ::INMMPMDELKE* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::INMMPMDELKE*, ::INMMPMDELKE*))((::PBYTE)hIl2Cpp + NDFNMIOCFBF_LAENGGLFBMD_OFFSET))(this, a1, a2);
+		}
+
+	};

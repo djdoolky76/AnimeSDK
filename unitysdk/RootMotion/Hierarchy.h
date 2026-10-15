@@ -1,32 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTMOTION_HIERARCHY_ADDANCESTORS_OFFSET UNITYSDK_OFFSET(0xB318870)
-#define ROOTMOTION_HIERARCHY_CONTAINSCHILD_OFFSET UNITYSDK_OFFSET(0xB318650)
-#define ROOTMOTION_HIERARCHY_CONTAINSDUPLICATE_OFFSET UNITYSDK_OFFSET(0xB316200)
-#define ROOTMOTION_HIERARCHY_GETANCESTOR_OFFSET UNITYSDK_OFFSET(0xB318B70)
-#define ROOTMOTION_HIERARCHY_GETFIRSTCOMMONANCESTORRECURSIVE_OFFSET UNITYSDK_OFFSET(0xB318F40)
-#define ROOTMOTION_HIERARCHY_GETFIRSTCOMMONANCESTOR_1_OFFSET UNITYSDK_OFFSET(0xB318D10)
-#define ROOTMOTION_HIERARCHY_GETFIRSTCOMMONANCESTOR_OFFSET UNITYSDK_OFFSET(0xB318BF0)
-#define ROOTMOTION_HIERARCHY_HIERARCHYISVALID_OFFSET UNITYSDK_OFFSET(0xB318580)
-#define ROOTMOTION_HIERARCHY_ISANCESTOR_OFFSET UNITYSDK_OFFSET(0xB311530)
-#define ROOTMOTION_HIERARCHY_ISCOMMONANCESTOR_OFFSET UNITYSDK_OFFSET(0xB318E00)
-#define ROOTMOTION_HIERARCHY__CTOR_OFFSET UNITYSDK_OFFSET(0xB318FC0)
+#define ROOTMOTION_HIERARCHY_ADDANCESTORS_OFFSET UNITYSDK_OFFSET(0xB0B8F80)
+#define ROOTMOTION_HIERARCHY_CONTAINSCHILD_OFFSET UNITYSDK_OFFSET(0xB0B8D60)
+#define ROOTMOTION_HIERARCHY_CONTAINSDUPLICATE_OFFSET UNITYSDK_OFFSET(0xB0B6900)
+#define ROOTMOTION_HIERARCHY_CTOR_OFFSET UNITYSDK_OFFSET(0xB0B96D0)
+#define ROOTMOTION_HIERARCHY_GETANCESTOR_OFFSET UNITYSDK_OFFSET(0xB0B9280)
+#define ROOTMOTION_HIERARCHY_GETFIRSTCOMMONANCESTORRECURSIVE_OFFSET UNITYSDK_OFFSET(0xB0B9650)
+#define ROOTMOTION_HIERARCHY_GETFIRSTCOMMONANCESTOR_1_OFFSET UNITYSDK_OFFSET(0xB0B9420)
+#define ROOTMOTION_HIERARCHY_GETFIRSTCOMMONANCESTOR_OFFSET UNITYSDK_OFFSET(0xB0B9300)
+#define ROOTMOTION_HIERARCHY_HIERARCHYISVALID_OFFSET UNITYSDK_OFFSET(0xB0B8C90)
+#define ROOTMOTION_HIERARCHY_ISANCESTOR_OFFSET UNITYSDK_OFFSET(0xB0B1C20)
+#define ROOTMOTION_HIERARCHY_ISCOMMONANCESTOR_OFFSET UNITYSDK_OFFSET(0xB0B9510)
 
 namespace RootMotion
 {
-	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 44835;
-
 	class Hierarchy : public ::System::Object
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_HIERARCHY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ROOTMOTION_HIERARCHY_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Boolean HierarchyIsValid(::Il2CppArray<::UnityEngine::Transform*>* a1)
@@ -49,9 +47,9 @@ namespace RootMotion
 			return ((::System::Boolean(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + ROOTMOTION_HIERARCHY_CONTAINSCHILD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AddAncestors(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::Il2CppArray<::UnityEngine::Transform*>*& a3)
+		static ::System::Void AddAncestors(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::System::Object* a3)
 		{
-			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*&))((::PBYTE)hIl2Cpp + ROOTMOTION_HIERARCHY_ADDANCESTORS_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Object*))((::PBYTE)hIl2Cpp + ROOTMOTION_HIERARCHY_ADDANCESTORS_OFFSET))(a1, a2, a3);
 		}
 
 		static ::UnityEngine::Transform* GetAncestor(::UnityEngine::Transform* a1, ::System::Int32 a2)
@@ -78,5 +76,6 @@ namespace RootMotion
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + ROOTMOTION_HIERARCHY_ISCOMMONANCESTOR_OFFSET))(a1, a2);
 		}
+
 	};
 }

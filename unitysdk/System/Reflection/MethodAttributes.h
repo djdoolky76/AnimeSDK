@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MethodAttributes_TypeDefinitionIndex = 576;
-
 	enum class MethodAttributes : ::System::Int32
 	{
 		MemberAccessMask = 7,

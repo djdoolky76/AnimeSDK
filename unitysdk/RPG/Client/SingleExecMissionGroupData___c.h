@@ -1,43 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class SubMissionData; }
+namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET UNITYSDK_OFFSET(0xE0A47F0)
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xE0A47B0)
-#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xE0A47E0)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0E32D0)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0E3300)
+#define RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET UNITYSDK_OFFSET(0xE0E3310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SingleExecMissionGroupData___c_TypeDefinitionIndex = 66240;
-
 	class SingleExecMissionGroupData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::SingleExecMissionGroupData___c** StaticGet___9()
-		{
-			return (::RPG::Client::SingleExecMissionGroupData___c**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x26E60);
-		}
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(SingleExecMissionGroupData___c_TypeDefinitionIndex)->GetStaticField(0x26E68);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F0E0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F0E8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C_CTOR_OFFSET))(this);
 		}
 
 		::System::Int32 _AddSubMission_b__1_0(::RPG::Client::SubMissionData* a1, ::RPG::Client::SubMissionData* a2)
 		{
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::SubMissionData*, ::RPG::Client::SubMissionData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SINGLEEXECMISSIONGROUPDATA___C__ADDSUBMISSION_B__1_0_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

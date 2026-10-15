@@ -1,35 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/MiActionConfigBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActionCheckActionConfig; }
+namespace RPG::GameCore { class MiActionConfigBase; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_METHOD_4_05DF47FB4EA504D1_OFFSET UNITYSDK_OFFSET(0x1CD6F960)
-#define RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_METHOD_4_D0D6C304CFE08799_OFFSET UNITYSDK_OFFSET(0x1CD6F9C0)
-#define RPG_GAMECORE_ACTIONCHECKACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6F9B0)
+#define RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D343D90)
+#define RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D343DA0)
+#define RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D343D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionCheckActionConfig_TypeDefinitionIndex = 16863;
-
 	class ActionCheckActionConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:
 		::RPG::GameCore::MiActionConfigBase* Action; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCHECKACTIONCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_05DF47FB4EA504D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionCheckActionConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActionCheckActionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionCheckActionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_METHOD_4_05DF47FB4EA504D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActionCheckActionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D0D6C304CFE08799(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionCheckActionConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActionCheckActionConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionCheckActionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_METHOD_4_D0D6C304CFE08799_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActionCheckActionConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCHECKACTIONCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

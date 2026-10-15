@@ -1,146 +1,146 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Globalization/TimeSpanStyles.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace System { class IFormatProvider; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_TIMESPAN_ADD_OFFSET UNITYSDK_OFFSET(0x3B63730)
-#define SYSTEM_TIMESPAN_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x3B63860)
-#define SYSTEM_TIMESPAN_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3B637C0)
-#define SYSTEM_TIMESPAN_COMPARE_OFFSET UNITYSDK_OFFSET(0x1BC5CC40)
-#define SYSTEM_TIMESPAN_DURATION_OFFSET UNITYSDK_OFFSET(0x3B63880)
-#define SYSTEM_TIMESPAN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2E7B720)
-#define SYSTEM_TIMESPAN_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x1BC5CEC0)
-#define SYSTEM_TIMESPAN_EQUALS_OFFSET UNITYSDK_OFFSET(0x3B63900)
-#define SYSTEM_TIMESPAN_FROMDAYS_OFFSET UNITYSDK_OFFSET(0x1BC5CD20)
-#define SYSTEM_TIMESPAN_FROMHOURS_OFFSET UNITYSDK_OFFSET(0x1BC5CEE0)
-#define SYSTEM_TIMESPAN_FROMMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1BC5CEF0)
-#define SYSTEM_TIMESPAN_FROMMINUTES_OFFSET UNITYSDK_OFFSET(0x1BC5CF00)
-#define SYSTEM_TIMESPAN_FROMSECONDS_OFFSET UNITYSDK_OFFSET(0x1BC5CF90)
-#define SYSTEM_TIMESPAN_FROMTICKS_OFFSET UNITYSDK_OFFSET(0x1BC5D030)
-#define SYSTEM_TIMESPAN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x15FB60)
-#define SYSTEM_TIMESPAN_GETLEGACYFORMATMODE_OFFSET UNITYSDK_OFFSET(0x1BC5E1A0)
-#define SYSTEM_TIMESPAN_GET_DAYS_OFFSET UNITYSDK_OFFSET(0x3B63550)
-#define SYSTEM_TIMESPAN_GET_HOURS_OFFSET UNITYSDK_OFFSET(0x3B63580)
-#define SYSTEM_TIMESPAN_GET_LEGACYMODE_OFFSET UNITYSDK_OFFSET(0x1BC5DF60)
-#define SYSTEM_TIMESPAN_GET_MILLISECONDS_OFFSET UNITYSDK_OFFSET(0x3B635C0)
-#define SYSTEM_TIMESPAN_GET_MINUTES_OFFSET UNITYSDK_OFFSET(0x3B63610)
-#define SYSTEM_TIMESPAN_GET_SECONDS_OFFSET UNITYSDK_OFFSET(0x3B63660)
-#define SYSTEM_TIMESPAN_GET_TICKS_OFFSET UNITYSDK_OFFSET(0x5AB0)
-#define SYSTEM_TIMESPAN_GET_TOTALDAYS_OFFSET UNITYSDK_OFFSET(0x3B636B0)
-#define SYSTEM_TIMESPAN_GET_TOTALHOURS_OFFSET UNITYSDK_OFFSET(0x3B636C0)
-#define SYSTEM_TIMESPAN_GET_TOTALMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x3B636D0)
-#define SYSTEM_TIMESPAN_GET_TOTALMINUTES_OFFSET UNITYSDK_OFFSET(0x3B63710)
-#define SYSTEM_TIMESPAN_GET_TOTALSECONDS_OFFSET UNITYSDK_OFFSET(0x3B63720)
-#define SYSTEM_TIMESPAN_INTERVAL_OFFSET UNITYSDK_OFFSET(0x1BC5CD30)
-#define SYSTEM_TIMESPAN_LEGACYFORMATMODE_OFFSET UNITYSDK_OFFSET(0x1BC5E190)
-#define SYSTEM_TIMESPAN_NEGATE_OFFSET UNITYSDK_OFFSET(0x3B63920)
-#define SYSTEM_TIMESPAN_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1BC5E0B0)
-#define SYSTEM_TIMESPAN_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1BC5E130)
-#define SYSTEM_TIMESPAN_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1BC5E180)
-#define SYSTEM_TIMESPAN_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1BC5E170)
-#define SYSTEM_TIMESPAN_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1BC5E140)
-#define SYSTEM_TIMESPAN_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1BC5E160)
-#define SYSTEM_TIMESPAN_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1BC5E150)
-#define SYSTEM_TIMESPAN_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1BC5E020)
-#define SYSTEM_TIMESPAN_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1BC5DFA0)
-#define SYSTEM_TIMESPAN_OP_UNARYPLUS_OFFSET UNITYSDK_OFFSET(0x1BC5E0A0)
-#define SYSTEM_TIMESPAN_PARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1BC5D340)
-#define SYSTEM_TIMESPAN_PARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x1BC5D450)
-#define SYSTEM_TIMESPAN_PARSEEXACT_3_OFFSET UNITYSDK_OFFSET(0x1BC5D5E0)
-#define SYSTEM_TIMESPAN_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1BC5D230)
-#define SYSTEM_TIMESPAN_PARSE_1_OFFSET UNITYSDK_OFFSET(0x1BC5D130)
-#define SYSTEM_TIMESPAN_PARSE_OFFSET UNITYSDK_OFFSET(0x1BC5D040)
-#define SYSTEM_TIMESPAN_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x3B639A0)
-#define SYSTEM_TIMESPAN_TIMETOTICKS_OFFSET UNITYSDK_OFFSET(0x1BC5C8C0)
-#define SYSTEM_TIMESPAN_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3B63A70)
-#define SYSTEM_TIMESPAN_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x3B63AB0)
-#define SYSTEM_TIMESPAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3B63A30)
-#define SYSTEM_TIMESPAN_TRYPARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1BC5DA50)
-#define SYSTEM_TIMESPAN_TRYPARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x1BC5DB50)
-#define SYSTEM_TIMESPAN_TRYPARSEEXACT_3_OFFSET UNITYSDK_OFFSET(0x1BC5DCD0)
-#define SYSTEM_TIMESPAN_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1BC5D950)
-#define SYSTEM_TIMESPAN_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1BC5D860)
-#define SYSTEM_TIMESPAN_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1BC5D770)
-#define SYSTEM_TIMESPAN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC5E1B0)
-#define SYSTEM_TIMESPAN__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3B63310)
-#define SYSTEM_TIMESPAN__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3B633A0)
-#define SYSTEM_TIMESPAN__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3B63470)
-#define SYSTEM_TIMESPAN__CTOR_OFFSET UNITYSDK_OFFSET(0xC610)
+#define SYSTEM_TIMESPAN_ADD_OFFSET UNITYSDK_OFFSET(0x3C17FF0)
+#define SYSTEM_TIMESPAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C16A0E0)
+#define SYSTEM_TIMESPAN_COMPARETO_1_OFFSET UNITYSDK_OFFSET(0x3C18120)
+#define SYSTEM_TIMESPAN_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3C18080)
+#define SYSTEM_TIMESPAN_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C168B70)
+#define SYSTEM_TIMESPAN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C17C40)
+#define SYSTEM_TIMESPAN_CTOR_2_OFFSET UNITYSDK_OFFSET(0x3C17CD0)
+#define SYSTEM_TIMESPAN_CTOR_3_OFFSET UNITYSDK_OFFSET(0x3C17D70)
+#define SYSTEM_TIMESPAN_CTOR_OFFSET UNITYSDK_OFFSET(0x94B0)
+#define SYSTEM_TIMESPAN_DURATION_OFFSET UNITYSDK_OFFSET(0x3C18140)
+#define SYSTEM_TIMESPAN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2F098E0)
+#define SYSTEM_TIMESPAN_EQUALS_2_OFFSET UNITYSDK_OFFSET(0x1C168DF0)
+#define SYSTEM_TIMESPAN_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C181C0)
+#define SYSTEM_TIMESPAN_FROMDAYS_OFFSET UNITYSDK_OFFSET(0x1C168C50)
+#define SYSTEM_TIMESPAN_FROMHOURS_OFFSET UNITYSDK_OFFSET(0x1C168E10)
+#define SYSTEM_TIMESPAN_FROMMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x1C168E20)
+#define SYSTEM_TIMESPAN_FROMMINUTES_OFFSET UNITYSDK_OFFSET(0x1C168E30)
+#define SYSTEM_TIMESPAN_FROMSECONDS_OFFSET UNITYSDK_OFFSET(0x1C168EC0)
+#define SYSTEM_TIMESPAN_FROMTICKS_OFFSET UNITYSDK_OFFSET(0x1C168F60)
+#define SYSTEM_TIMESPAN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF9510)
+#define SYSTEM_TIMESPAN_GETLEGACYFORMATMODE_OFFSET UNITYSDK_OFFSET(0x1C16A0D0)
+#define SYSTEM_TIMESPAN_GET_DAYS_OFFSET UNITYSDK_OFFSET(0x3C17E10)
+#define SYSTEM_TIMESPAN_GET_HOURS_OFFSET UNITYSDK_OFFSET(0x3C17E40)
+#define SYSTEM_TIMESPAN_GET_LEGACYMODE_OFFSET UNITYSDK_OFFSET(0x1C169E90)
+#define SYSTEM_TIMESPAN_GET_MILLISECONDS_OFFSET UNITYSDK_OFFSET(0x3C17E80)
+#define SYSTEM_TIMESPAN_GET_MINUTES_OFFSET UNITYSDK_OFFSET(0x3C17ED0)
+#define SYSTEM_TIMESPAN_GET_SECONDS_OFFSET UNITYSDK_OFFSET(0x3C17F20)
+#define SYSTEM_TIMESPAN_GET_TICKS_OFFSET UNITYSDK_OFFSET(0x1D30)
+#define SYSTEM_TIMESPAN_GET_TOTALDAYS_OFFSET UNITYSDK_OFFSET(0x3C17F70)
+#define SYSTEM_TIMESPAN_GET_TOTALHOURS_OFFSET UNITYSDK_OFFSET(0x3C17F80)
+#define SYSTEM_TIMESPAN_GET_TOTALMILLISECONDS_OFFSET UNITYSDK_OFFSET(0x3C17F90)
+#define SYSTEM_TIMESPAN_GET_TOTALMINUTES_OFFSET UNITYSDK_OFFSET(0x3C17FD0)
+#define SYSTEM_TIMESPAN_GET_TOTALSECONDS_OFFSET UNITYSDK_OFFSET(0x3C17FE0)
+#define SYSTEM_TIMESPAN_INTERVAL_OFFSET UNITYSDK_OFFSET(0x1C168C60)
+#define SYSTEM_TIMESPAN_LEGACYFORMATMODE_OFFSET UNITYSDK_OFFSET(0x1C16A0C0)
+#define SYSTEM_TIMESPAN_NEGATE_OFFSET UNITYSDK_OFFSET(0x3C181E0)
+#define SYSTEM_TIMESPAN_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0x1C169FE0)
+#define SYSTEM_TIMESPAN_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C16A060)
+#define SYSTEM_TIMESPAN_OP_GREATERTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1C16A0B0)
+#define SYSTEM_TIMESPAN_OP_GREATERTHAN_OFFSET UNITYSDK_OFFSET(0x1C16A0A0)
+#define SYSTEM_TIMESPAN_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C16A070)
+#define SYSTEM_TIMESPAN_OP_LESSTHANOREQUAL_OFFSET UNITYSDK_OFFSET(0x1C16A090)
+#define SYSTEM_TIMESPAN_OP_LESSTHAN_OFFSET UNITYSDK_OFFSET(0x1C16A080)
+#define SYSTEM_TIMESPAN_OP_SUBTRACTION_OFFSET UNITYSDK_OFFSET(0x1C169F50)
+#define SYSTEM_TIMESPAN_OP_UNARYNEGATION_OFFSET UNITYSDK_OFFSET(0x1C169ED0)
+#define SYSTEM_TIMESPAN_OP_UNARYPLUS_OFFSET UNITYSDK_OFFSET(0x1C169FD0)
+#define SYSTEM_TIMESPAN_PARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1C169270)
+#define SYSTEM_TIMESPAN_PARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x1C169380)
+#define SYSTEM_TIMESPAN_PARSEEXACT_3_OFFSET UNITYSDK_OFFSET(0x1C169510)
+#define SYSTEM_TIMESPAN_PARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1C169160)
+#define SYSTEM_TIMESPAN_PARSE_1_OFFSET UNITYSDK_OFFSET(0x1C169060)
+#define SYSTEM_TIMESPAN_PARSE_OFFSET UNITYSDK_OFFSET(0x1C168F70)
+#define SYSTEM_TIMESPAN_SUBTRACT_OFFSET UNITYSDK_OFFSET(0x3C18260)
+#define SYSTEM_TIMESPAN_TIMETOTICKS_OFFSET UNITYSDK_OFFSET(0x1C168820)
+#define SYSTEM_TIMESPAN_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x3C18330)
+#define SYSTEM_TIMESPAN_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x3C18370)
+#define SYSTEM_TIMESPAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C182F0)
+#define SYSTEM_TIMESPAN_TRYPARSEEXACT_1_OFFSET UNITYSDK_OFFSET(0x1C169980)
+#define SYSTEM_TIMESPAN_TRYPARSEEXACT_2_OFFSET UNITYSDK_OFFSET(0x1C169A80)
+#define SYSTEM_TIMESPAN_TRYPARSEEXACT_3_OFFSET UNITYSDK_OFFSET(0x1C169C00)
+#define SYSTEM_TIMESPAN_TRYPARSEEXACT_OFFSET UNITYSDK_OFFSET(0x1C169880)
+#define SYSTEM_TIMESPAN_TRYPARSE_1_OFFSET UNITYSDK_OFFSET(0x1C169790)
+#define SYSTEM_TIMESPAN_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1C1696A0)
 
 namespace System
 {
-	inline static constexpr unsigned int TimeSpan_TypeDefinitionIndex = 341;
-
-	struct alignas(8) TimeSpan
+	struct alignas(4) TimeSpan
 	{
+		::System::Int64 _ticks; // 0x10
 		static ::System::Boolean* StaticGet__legacyConfigChecked()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TimeSpan_TypeDefinitionIndex)->GetStaticField(0x580);
+			return (::System::Boolean*)UnitySDK::FromName("System", "TimeSpan")->GetStaticField(0x2480);
 		}
+
 		static ::System::Boolean* StaticGet__legacyMode()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TimeSpan_TypeDefinitionIndex)->GetStaticField(0x581);
+			return (::System::Boolean*)UnitySDK::FromName("System", "TimeSpan")->GetStaticField(0x2481);
 		}
+
 		static ::System::TimeSpan* StaticGet_Zero()
 		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(TimeSpan_TypeDefinitionIndex)->GetStaticField(0x588);
+			return (::System::TimeSpan*)UnitySDK::FromName("System", "TimeSpan")->GetStaticField(0x2488);
 		}
+
 		static ::System::TimeSpan* StaticGet_MinValue()
 		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(TimeSpan_TypeDefinitionIndex)->GetStaticField(0x590);
+			return (::System::TimeSpan*)UnitySDK::FromName("System", "TimeSpan")->GetStaticField(0x2490);
 		}
+
 		static ::System::TimeSpan* StaticGet_MaxValue()
 		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(TimeSpan_TypeDefinitionIndex)->GetStaticField(0x598);
+			return (::System::TimeSpan*)UnitySDK::FromName("System", "TimeSpan")->GetStaticField(0x2498);
 		}
-		// static const ::System::Int64 TicksPerMillisecond = 0x2710; // 0x0
-		// static const ::System::Double MillisecondsPerTick; // 0x0
-		// static const ::System::Int64 TicksPerSecond = 0x989680; // 0x0
-		// static const ::System::Double SecondsPerTick; // 0x0
-		// static const ::System::Int64 TicksPerMinute = 0x23C34600; // 0x0
-		// static const ::System::Double MinutesPerTick; // 0x0
-		// static const ::System::Int64 TicksPerHour = 0x861C46800; // 0x0
-		// static const ::System::Double HoursPerTick; // 0x0
-		// static const ::System::Int64 TicksPerDay = 0xC92A69C000; // 0x0
-		// static const ::System::Double DaysPerTick; // 0x0
-		// static const ::System::Int32 MillisPerSecond = 0x3E8; // 0x0
-		// static const ::System::Int32 MillisPerMinute = 0xEA60; // 0x0
-		// static const ::System::Int32 MillisPerHour = 0x36EE80; // 0x0
-		// static const ::System::Int32 MillisPerDay = 0x5265C00; // 0x0
-		// static const ::System::Int64 MaxSeconds = 0xD6BF94D5E5; // 0x0
-		// static const ::System::Int64 MinSeconds = 0xFFFFFF29406B2A1B; // 0x0
-		// static const ::System::Int64 MaxMilliSeconds = 0x346DC5D638865; // 0x0
-		// static const ::System::Int64 MinMilliSeconds = 0xFFFCB923A29C779B; // 0x0
-		// static const ::System::Int64 TicksPerTenthSecond = 0xF4240; // 0x0
-		::System::Int64 _ticks; // 0x10
 
+		// static const ::System::Object TicksPerMillisecond; // 0x0
+		// static const ::System::Object MillisecondsPerTick; // 0x0
+		// static const ::System::Object TicksPerSecond; // 0x0
+		// static const ::System::Object SecondsPerTick; // 0x0
+		// static const ::System::Object TicksPerMinute; // 0x0
+		// static const ::System::Object MinutesPerTick; // 0x0
+		// static const ::System::Object TicksPerHour; // 0x0
+		// static const ::System::Object HoursPerTick; // 0x0
+		// static const ::System::Object TicksPerDay; // 0x0
+		// static const ::System::Object DaysPerTick; // 0x0
+		// static const ::System::Object MillisPerSecond; // 0x0
+		// static const ::System::Object MillisPerMinute; // 0x0
+		// static const ::System::Object MillisPerHour; // 0x0
+		// static const ::System::Object MillisPerDay; // 0x0
+		// static const ::System::Object MaxSeconds; // 0x0
+		// static const ::System::Object MinSeconds; // 0x0
+		// static const ::System::Object MaxMilliSeconds; // 0x0
+		// static const ::System::Object MinMilliSeconds; // 0x0
+		// static const ::System::Object TicksPerTenthSecond; // 0x0
 		::System::Void _ctor(::System::Int64 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN__CTOR_1_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_CTOR_1_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_2(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN__CTOR_2_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_CTOR_2_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_3(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN__CTOR_3_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_CTOR_3_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_CCTOR_OFFSET))();
 		}
 
 		::System::Int64 get_Ticks()
@@ -198,160 +198,214 @@ namespace System
 			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_GET_TOTALSECONDS_OFFSET))(this);
 		}
 
+		/*
 		::System::TimeSpan Add(::System::TimeSpan a1)
 		{
 			return ((::System::TimeSpan(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_ADD_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		static ::System::Int32 Compare(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Int32(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_COMPARE_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::Int32 CompareTo(::System::Object* a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_COMPARETO_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Int32 CompareTo_1(::System::TimeSpan a1)
 		{
 			return ((::System::Int32(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_COMPARETO_1_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan FromDays(::System::Double a1)
 		{
 			return ((::System::TimeSpan(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_FROMDAYS_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::System::TimeSpan Duration()
 		{
 			return ((::System::TimeSpan(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_DURATION_OFFSET))(this);
 		}
+		*/
 
 		::System::Boolean Equals(::System::Object* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_EQUALS_OFFSET))(this, a1);
 		}
 
+		/*
 		::System::Boolean Equals_1(::System::TimeSpan a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_EQUALS_1_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		static ::System::Boolean Equals_2(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Boolean(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_EQUALS_2_OFFSET))(a1, a2);
 		}
+		*/
 
 		::System::Int32 GetHashCode()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_GETHASHCODE_OFFSET))(this);
 		}
 
+		/*
 		static ::System::TimeSpan FromHours(::System::Double a1)
 		{
 			return ((::System::TimeSpan(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_FROMHOURS_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan Interval(::System::Double a1, ::System::Int32 a2)
 		{
 			return ((::System::TimeSpan(*)(::System::Double, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_INTERVAL_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan FromMilliseconds(::System::Double a1)
 		{
 			return ((::System::TimeSpan(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_FROMMILLISECONDS_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan FromMinutes(::System::Double a1)
 		{
 			return ((::System::TimeSpan(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_FROMMINUTES_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::System::TimeSpan Negate()
 		{
 			return ((::System::TimeSpan(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_NEGATE_OFFSET))(this);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan FromSeconds(::System::Double a1)
 		{
 			return ((::System::TimeSpan(*)(::System::Double))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_FROMSECONDS_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		::System::TimeSpan Subtract(::System::TimeSpan a1)
 		{
 			return ((::System::TimeSpan(*)(::PVOID, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_SUBTRACT_OFFSET))(this, a1);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan FromTicks(::System::Int64 a1)
 		{
 			return ((::System::TimeSpan(*)(::System::Int64))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_FROMTICKS_OFFSET))(a1);
 		}
+		*/
 
 		static ::System::Int64 TimeToTicks(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
 			return ((::System::Int64(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TIMETOTICKS_OFFSET))(a1, a2, a3);
 		}
 
+		/*
 		static ::System::TimeSpan Parse(::System::String* a1)
 		{
 			return ((::System::TimeSpan(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_PARSE_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan Parse_1(::System::String* a1, ::System::IFormatProvider* a2)
 		{
 			return ((::System::TimeSpan(*)(::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_PARSE_1_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan ParseExact(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3)
 		{
 			return ((::System::TimeSpan(*)(::System::String*, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_PARSEEXACT_OFFSET))(a1, a2, a3);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan ParseExact_1(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3)
 		{
 			return ((::System::TimeSpan(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_PARSEEXACT_1_OFFSET))(a1, a2, a3);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan ParseExact_2(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4)
 		{
 			return ((::System::TimeSpan(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_PARSEEXACT_2_OFFSET))(a1, a2, a3, a4);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan ParseExact_3(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4)
 		{
 			return ((::System::TimeSpan(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_PARSEEXACT_3_OFFSET))(a1, a2, a3, a4);
 		}
+		*/
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::TimeSpan& a2)
+		/*
+		static ::System::Boolean TryParse(::System::String* a1, ::System::TimeSpan a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSE_OFFSET))(a1, a2);
 		}
+		*/
 
-		static ::System::Boolean TryParse_1(::System::String* a1, ::System::IFormatProvider* a2, ::System::TimeSpan& a3)
+		/*
+		static ::System::Boolean TryParse_1(::System::String* a1, ::System::IFormatProvider* a2, ::System::TimeSpan a3)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::IFormatProvider*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSE_1_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::System::String*, ::System::IFormatProvider*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSE_1_OFFSET))(a1, a2, a3);
 		}
+		*/
 
-		static ::System::Boolean TryParseExact(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::TimeSpan& a4)
+		/*
+		static ::System::Boolean TryParseExact(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::TimeSpan a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_OFFSET))(a1, a2, a3, a4);
 		}
+		*/
 
-		static ::System::Boolean TryParseExact_1(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::TimeSpan& a4)
+		/*
+		static ::System::Boolean TryParseExact_1(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::TimeSpan a4)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_1_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_1_OFFSET))(a1, a2, a3, a4);
 		}
+		*/
 
-		static ::System::Boolean TryParseExact_2(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan& a5)
+		/*
+		static ::System::Boolean TryParseExact_2(::System::String* a1, ::System::String* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_2_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::String*, ::System::String*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_2_OFFSET))(a1, a2, a3, a4, a5);
 		}
+		*/
 
-		static ::System::Boolean TryParseExact_3(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan& a5)
+		/*
+		static ::System::Boolean TryParseExact_3(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::System::IFormatProvider* a3, ::System::Globalization::TimeSpanStyles a4, ::System::TimeSpan a5)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan&))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_3_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Boolean(*)(::System::String*, ::Il2CppArray<::System::String*>*, ::System::IFormatProvider*, ::System::Globalization::TimeSpanStyles, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TRYPARSEEXACT_3_OFFSET))(a1, a2, a3, a4, a5);
 		}
+		*/
 
 		::System::String* ToString()
 		{
@@ -368,55 +422,75 @@ namespace System
 			return ((::System::String*(*)(::PVOID, ::System::String*, ::System::IFormatProvider*))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_TOSTRING_2_OFFSET))(this, a1, a2);
 		}
 
+		/*
 		static ::System::TimeSpan op_UnaryNegation(::System::TimeSpan a1)
 		{
 			return ((::System::TimeSpan(*)(::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_UNARYNEGATION_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan op_Subtraction(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::TimeSpan(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_SUBTRACTION_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan op_UnaryPlus(::System::TimeSpan a1)
 		{
 			return ((::System::TimeSpan(*)(::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_UNARYPLUS_OFFSET))(a1);
 		}
+		*/
 
+		/*
 		static ::System::TimeSpan op_Addition(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::TimeSpan(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_ADDITION_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Equality(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Boolean(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_EQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_Inequality(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Boolean(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_INEQUALITY_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_LessThan(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Boolean(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_LESSTHAN_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_LessThanOrEqual(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Boolean(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_LESSTHANOREQUAL_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_GreaterThan(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Boolean(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_GREATERTHAN_OFFSET))(a1, a2);
 		}
+		*/
 
+		/*
 		static ::System::Boolean op_GreaterThanOrEqual(::System::TimeSpan a1, ::System::TimeSpan a2)
 		{
 			return ((::System::Boolean(*)(::System::TimeSpan, ::System::TimeSpan))((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_OP_GREATERTHANOREQUAL_OFFSET))(a1, a2);
 		}
+		*/
 
 		static ::System::Boolean LegacyFormatMode()
 		{
@@ -432,5 +506,6 @@ namespace System
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + SYSTEM_TIMESPAN_GET_LEGACYMODE_OFFSET))();
 		}
+
 	};
 }

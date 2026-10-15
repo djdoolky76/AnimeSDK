@@ -1,158 +1,163 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LogTag.h"
-#include "unitysdk/Struct_2_E88BE0C6C262BD53.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/GNAKPEMFGFG.h"
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_0_16E4307DCC419505;
-class Class_0_16E4307DCC419505_1;
+class CCFPABPKGGJ;
+class GHCKKGPPHPK;
+namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
-namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class StackTrace; }
 namespace System::Text { class StringBuilder; }
 
-#define RPG_SUPERDEBUG_ASSERTFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1D794DC0)
-#define RPG_SUPERDEBUG_ASSERTFORMAT_OFFSET UNITYSDK_OFFSET(0x1D794C60)
-#define RPG_SUPERDEBUG_ASSERT_1_OFFSET UNITYSDK_OFFSET(0x1D794A40)
-#define RPG_SUPERDEBUG_ASSERT_2_OFFSET UNITYSDK_OFFSET(0x1D794BA0)
-#define RPG_SUPERDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1D794990)
-#define RPG_SUPERDEBUG_DISABLEALLTAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1D795020)
-#define RPG_SUPERDEBUG_DRAWARROW_OFFSET UNITYSDK_OFFSET(0x1D791BD0)
-#define RPG_SUPERDEBUG_DRAWBOX_OFFSET UNITYSDK_OFFSET(0x1D791E20)
-#define RPG_SUPERDEBUG_DRAWCIRCLE_1_OFFSET UNITYSDK_OFFSET(0x1D790810)
-#define RPG_SUPERDEBUG_DRAWCIRCLE_2_OFFSET UNITYSDK_OFFSET(0x1D790840)
-#define RPG_SUPERDEBUG_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1D7907E0)
-#define RPG_SUPERDEBUG_DRAWFANSHAPED_OFFSET UNITYSDK_OFFSET(0x1D790E00)
-#define RPG_SUPERDEBUG_DRAWGRID_OFFSET UNITYSDK_OFFSET(0x1D791660)
-#define RPG_SUPERDEBUG_DRAWLINE_1_OFFSET UNITYSDK_OFFSET(0x1D7903B0)
-#define RPG_SUPERDEBUG_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x1D7902C0)
-#define RPG_SUPERDEBUG_DRAWMINMAXBOX_OFFSET UNITYSDK_OFFSET(0x1D791E30)
-#define RPG_SUPERDEBUG_DRAWPOINT_OFFSET UNITYSDK_OFFSET(0x1D7915C0)
-#define RPG_SUPERDEBUG_DRAWRAY_1_OFFSET UNITYSDK_OFFSET(0x1D790640)
-#define RPG_SUPERDEBUG_DRAWRAY_OFFSET UNITYSDK_OFFSET(0x1D7904F0)
-#define RPG_SUPERDEBUG_DRAWRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1D791E40)
-#define RPG_SUPERDEBUG_DRAWSPHERE_OFFSET UNITYSDK_OFFSET(0x1D791650)
-#define RPG_SUPERDEBUG_ENABLEALLTAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1D794EE0)
-#define RPG_SUPERDEBUG_EXTRACTFORMATTEDSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1D793CA0)
-#define RPG_SUPERDEBUG_EXTRACTSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1D793C30)
-#define RPG_SUPERDEBUG_GETTIMESTAMPSTRING_OFFSET UNITYSDK_OFFSET(0x1D792A60)
-#define RPG_SUPERDEBUG_GET_TAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1D795320)
-#define RPG_SUPERDEBUG_GET_TAGTEXTS_OFFSET UNITYSDK_OFFSET(0x1D795C30)
-#define RPG_SUPERDEBUG_LOGBLUE_OFFSET UNITYSDK_OFFSET(0x1D793B30)
-#define RPG_SUPERDEBUG_LOGCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1D793AD0)
-#define RPG_SUPERDEBUG_LOGCOLOR_OFFSET UNITYSDK_OFFSET(0x1D793AC0)
-#define RPG_SUPERDEBUG_LOGERRORFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1D794850)
-#define RPG_SUPERDEBUG_LOGERRORFORMAT_OFFSET UNITYSDK_OFFSET(0x1D7947B0)
-#define RPG_SUPERDEBUG_LOGERROR_1_OFFSET UNITYSDK_OFFSET(0x1D794710)
-#define RPG_SUPERDEBUG_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1D794670)
-#define RPG_SUPERDEBUG_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1D792810)
-#define RPG_SUPERDEBUG_LOGFATAL_OFFSET UNITYSDK_OFFSET(0x1D7948F0)
-#define RPG_SUPERDEBUG_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1D792500)
-#define RPG_SUPERDEBUG_LOGFORMAT_2_OFFSET UNITYSDK_OFFSET(0x1D792620)
-#define RPG_SUPERDEBUG_LOGFORMAT_3_OFFSET UNITYSDK_OFFSET(0x1D7926F0)
-#define RPG_SUPERDEBUG_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1D792430)
-#define RPG_SUPERDEBUG_LOGGREEN_OFFSET UNITYSDK_OFFSET(0x1D793B20)
-#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1D7934D0)
-#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_2_OFFSET UNITYSDK_OFFSET(0x1D7936E0)
-#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_3_OFFSET UNITYSDK_OFFSET(0x1D7938B0)
-#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_OFFSET UNITYSDK_OFFSET(0x1D793300)
-#define RPG_SUPERDEBUG_LOGPROFILE_1_OFFSET UNITYSDK_OFFSET(0x1D792D10)
-#define RPG_SUPERDEBUG_LOGPROFILE_2_OFFSET UNITYSDK_OFFSET(0x1D792F20)
-#define RPG_SUPERDEBUG_LOGPROFILE_3_OFFSET UNITYSDK_OFFSET(0x1D7930F0)
-#define RPG_SUPERDEBUG_LOGPROFILE_OFFSET UNITYSDK_OFFSET(0x1D792B50)
-#define RPG_SUPERDEBUG_LOGRED_OFFSET UNITYSDK_OFFSET(0x1D793B00)
-#define RPG_SUPERDEBUG_LOGTOAPMDEBUG_OFFSET UNITYSDK_OFFSET(0x1D793C90)
-#define RPG_SUPERDEBUG_LOGTOAPM_OFFSET UNITYSDK_OFFSET(0x1D793B40)
-#define RPG_SUPERDEBUG_LOGVERYIMPORTANTFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1D7900A0)
-#define RPG_SUPERDEBUG_LOGVERYIMPORTANTFORMAT_OFFSET UNITYSDK_OFFSET(0x1D78FE80)
-#define RPG_SUPERDEBUG_LOGVERYIMPORTANT_1_OFFSET UNITYSDK_OFFSET(0x1D78FD00)
-#define RPG_SUPERDEBUG_LOGVERYIMPORTANT_OFFSET UNITYSDK_OFFSET(0x1D78FB80)
-#define RPG_SUPERDEBUG_LOGWARNINGCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1D793AF0)
-#define RPG_SUPERDEBUG_LOGWARNINGCOLOR_OFFSET UNITYSDK_OFFSET(0x1D793AE0)
-#define RPG_SUPERDEBUG_LOGWARNINGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1D7929D0)
-#define RPG_SUPERDEBUG_LOGWARNINGFORMAT_OFFSET UNITYSDK_OFFSET(0x1D792940)
-#define RPG_SUPERDEBUG_LOGWARNINGRED_OFFSET UNITYSDK_OFFSET(0x1D792A50)
-#define RPG_SUPERDEBUG_LOGWARNING_1_OFFSET UNITYSDK_OFFSET(0x1D7928C0)
-#define RPG_SUPERDEBUG_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1D792840)
-#define RPG_SUPERDEBUG_LOGYELLOW_OFFSET UNITYSDK_OFFSET(0x1D793B10)
-#define RPG_SUPERDEBUG_LOG_1_OFFSET UNITYSDK_OFFSET(0x1D792130)
-#define RPG_SUPERDEBUG_LOG_2_OFFSET UNITYSDK_OFFSET(0x1D792250)
-#define RPG_SUPERDEBUG_LOG_3_OFFSET UNITYSDK_OFFSET(0x1D792310)
-#define RPG_SUPERDEBUG_LOG_OFFSET UNITYSDK_OFFSET(0x1D792070)
-#define RPG_SUPERDEBUG_SETLOGINFOSENDER_OFFSET UNITYSDK_OFFSET(0x1D78FB70)
-#define RPG_SUPERDEBUG_SETLUASTACKTRACEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1D794E50)
-#define RPG_SUPERDEBUG_SET_TAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1D795330)
-#define RPG_SUPERDEBUG_SET_TAGTEXTS_OFFSET UNITYSDK_OFFSET(0x1D795C40)
-#define RPG_SUPERDEBUG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D795340)
-#define RPG_SUPERDEBUG__FORMATLOGMESSAGE_1_OFFSET UNITYSDK_OFFSET(0x1D791F10)
-#define RPG_SUPERDEBUG__FORMATLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D791E50)
-#define RPG_SUPERDEBUG__GETLUASTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1D794E60)
-#define RPG_SUPERDEBUG__INITDEFAULTENABLETAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1D795310)
-#define RPG_SUPERDEBUG__INITTAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1D795160)
-#define RPG_SUPERDEBUG__INITTAGTEXTS_OFFSET UNITYSDK_OFFSET(0x1D795960)
-#define RPG_SUPERDEBUG__INITTAGVALUES_OFFSET UNITYSDK_OFFSET(0x1D795360)
+#define RPG_SUPERDEBUG_ASSERTFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1DD98FA0)
+#define RPG_SUPERDEBUG_ASSERTFORMAT_OFFSET UNITYSDK_OFFSET(0x1DD98E40)
+#define RPG_SUPERDEBUG_ASSERT_1_OFFSET UNITYSDK_OFFSET(0x1DD98C20)
+#define RPG_SUPERDEBUG_ASSERT_2_OFFSET UNITYSDK_OFFSET(0x1DD98D80)
+#define RPG_SUPERDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1DD98B70)
+#define RPG_SUPERDEBUG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD99520)
+#define RPG_SUPERDEBUG_DISABLEALLTAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1DD99200)
+#define RPG_SUPERDEBUG_DRAWARROW_OFFSET UNITYSDK_OFFSET(0x1DD95E30)
+#define RPG_SUPERDEBUG_DRAWBOX_OFFSET UNITYSDK_OFFSET(0x1DD96080)
+#define RPG_SUPERDEBUG_DRAWCIRCLE_1_OFFSET UNITYSDK_OFFSET(0x1DD94A70)
+#define RPG_SUPERDEBUG_DRAWCIRCLE_2_OFFSET UNITYSDK_OFFSET(0x1DD94AA0)
+#define RPG_SUPERDEBUG_DRAWCIRCLE_OFFSET UNITYSDK_OFFSET(0x1DD94A40)
+#define RPG_SUPERDEBUG_DRAWFANSHAPED_OFFSET UNITYSDK_OFFSET(0x1DD95060)
+#define RPG_SUPERDEBUG_DRAWGRID_OFFSET UNITYSDK_OFFSET(0x1DD958C0)
+#define RPG_SUPERDEBUG_DRAWLINE_1_OFFSET UNITYSDK_OFFSET(0x1DD94610)
+#define RPG_SUPERDEBUG_DRAWLINE_OFFSET UNITYSDK_OFFSET(0x1DD94520)
+#define RPG_SUPERDEBUG_DRAWMINMAXBOX_OFFSET UNITYSDK_OFFSET(0x1DD96090)
+#define RPG_SUPERDEBUG_DRAWPOINT_OFFSET UNITYSDK_OFFSET(0x1DD95820)
+#define RPG_SUPERDEBUG_DRAWRAY_1_OFFSET UNITYSDK_OFFSET(0x1DD948A0)
+#define RPG_SUPERDEBUG_DRAWRAY_OFFSET UNITYSDK_OFFSET(0x1DD94750)
+#define RPG_SUPERDEBUG_DRAWRECTANGLE_OFFSET UNITYSDK_OFFSET(0x1DD960A0)
+#define RPG_SUPERDEBUG_DRAWSPHERE_OFFSET UNITYSDK_OFFSET(0x1DD958B0)
+#define RPG_SUPERDEBUG_ENABLEALLTAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1DD990C0)
+#define RPG_SUPERDEBUG_EXTRACTFORMATTEDSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1DD97E80)
+#define RPG_SUPERDEBUG_EXTRACTSTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1DD97E10)
+#define RPG_SUPERDEBUG_GETTIMESTAMPSTRING_OFFSET UNITYSDK_OFFSET(0x1DD96C40)
+#define RPG_SUPERDEBUG_GET_TAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1DD99500)
+#define RPG_SUPERDEBUG_GET_TAGTEXTS_OFFSET UNITYSDK_OFFSET(0x1DD99E10)
+#define RPG_SUPERDEBUG_LOGBLUE_OFFSET UNITYSDK_OFFSET(0x1DD97D10)
+#define RPG_SUPERDEBUG_LOGCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1DD97CB0)
+#define RPG_SUPERDEBUG_LOGCOLOR_OFFSET UNITYSDK_OFFSET(0x1DD97CA0)
+#define RPG_SUPERDEBUG_LOGERRORFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1DD98A30)
+#define RPG_SUPERDEBUG_LOGERRORFORMAT_OFFSET UNITYSDK_OFFSET(0x1DD98990)
+#define RPG_SUPERDEBUG_LOGERROR_1_OFFSET UNITYSDK_OFFSET(0x1DD988F0)
+#define RPG_SUPERDEBUG_LOGERROR_OFFSET UNITYSDK_OFFSET(0x1DD98850)
+#define RPG_SUPERDEBUG_LOGEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1DD969F0)
+#define RPG_SUPERDEBUG_LOGFATAL_OFFSET UNITYSDK_OFFSET(0x1DD98AD0)
+#define RPG_SUPERDEBUG_LOGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1DD966E0)
+#define RPG_SUPERDEBUG_LOGFORMAT_2_OFFSET UNITYSDK_OFFSET(0x1DD96800)
+#define RPG_SUPERDEBUG_LOGFORMAT_3_OFFSET UNITYSDK_OFFSET(0x1DD968D0)
+#define RPG_SUPERDEBUG_LOGFORMAT_OFFSET UNITYSDK_OFFSET(0x1DD96610)
+#define RPG_SUPERDEBUG_LOGGREEN_OFFSET UNITYSDK_OFFSET(0x1DD97D00)
+#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1DD976B0)
+#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_2_OFFSET UNITYSDK_OFFSET(0x1DD978C0)
+#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_3_OFFSET UNITYSDK_OFFSET(0x1DD97A90)
+#define RPG_SUPERDEBUG_LOGPROFILEFORMAT_OFFSET UNITYSDK_OFFSET(0x1DD974E0)
+#define RPG_SUPERDEBUG_LOGPROFILE_1_OFFSET UNITYSDK_OFFSET(0x1DD96EF0)
+#define RPG_SUPERDEBUG_LOGPROFILE_2_OFFSET UNITYSDK_OFFSET(0x1DD97100)
+#define RPG_SUPERDEBUG_LOGPROFILE_3_OFFSET UNITYSDK_OFFSET(0x1DD972D0)
+#define RPG_SUPERDEBUG_LOGPROFILE_OFFSET UNITYSDK_OFFSET(0x1DD96D30)
+#define RPG_SUPERDEBUG_LOGRED_OFFSET UNITYSDK_OFFSET(0x1DD97CE0)
+#define RPG_SUPERDEBUG_LOGTOAPMDEBUG_OFFSET UNITYSDK_OFFSET(0x1DD97E70)
+#define RPG_SUPERDEBUG_LOGTOAPM_OFFSET UNITYSDK_OFFSET(0x1DD97D20)
+#define RPG_SUPERDEBUG_LOGVERYIMPORTANTFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1DD94390)
+#define RPG_SUPERDEBUG_LOGVERYIMPORTANTFORMAT_OFFSET UNITYSDK_OFFSET(0x1DD94200)
+#define RPG_SUPERDEBUG_LOGVERYIMPORTANT_1_OFFSET UNITYSDK_OFFSET(0x1DD94080)
+#define RPG_SUPERDEBUG_LOGVERYIMPORTANT_OFFSET UNITYSDK_OFFSET(0x1DD93F00)
+#define RPG_SUPERDEBUG_LOGWARNINGCOLOR_1_OFFSET UNITYSDK_OFFSET(0x1DD97CD0)
+#define RPG_SUPERDEBUG_LOGWARNINGCOLOR_OFFSET UNITYSDK_OFFSET(0x1DD97CC0)
+#define RPG_SUPERDEBUG_LOGWARNINGFORMAT_1_OFFSET UNITYSDK_OFFSET(0x1DD96BB0)
+#define RPG_SUPERDEBUG_LOGWARNINGFORMAT_OFFSET UNITYSDK_OFFSET(0x1DD96B20)
+#define RPG_SUPERDEBUG_LOGWARNINGRED_OFFSET UNITYSDK_OFFSET(0x1DD96C30)
+#define RPG_SUPERDEBUG_LOGWARNING_1_OFFSET UNITYSDK_OFFSET(0x1DD96AA0)
+#define RPG_SUPERDEBUG_LOGWARNING_OFFSET UNITYSDK_OFFSET(0x1DD96A20)
+#define RPG_SUPERDEBUG_LOGYELLOW_OFFSET UNITYSDK_OFFSET(0x1DD97CF0)
+#define RPG_SUPERDEBUG_LOG_1_OFFSET UNITYSDK_OFFSET(0x1DD96310)
+#define RPG_SUPERDEBUG_LOG_2_OFFSET UNITYSDK_OFFSET(0x1DD96430)
+#define RPG_SUPERDEBUG_LOG_3_OFFSET UNITYSDK_OFFSET(0x1DD964F0)
+#define RPG_SUPERDEBUG_LOG_OFFSET UNITYSDK_OFFSET(0x1DD96250)
+#define RPG_SUPERDEBUG_SETLOGINFOSENDER_OFFSET UNITYSDK_OFFSET(0x1DD93EF0)
+#define RPG_SUPERDEBUG_SETLUASTACKTRACEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1DD99030)
+#define RPG_SUPERDEBUG_SET_TAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1DD99510)
+#define RPG_SUPERDEBUG_SET_TAGTEXTS_OFFSET UNITYSDK_OFFSET(0x1DD99E20)
+#define RPG_SUPERDEBUG__FORMATLOGMESSAGE_1_OFFSET UNITYSDK_OFFSET(0x1DD96170)
+#define RPG_SUPERDEBUG__FORMATLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1DD960B0)
+#define RPG_SUPERDEBUG__GETLUASTACKTRACE_OFFSET UNITYSDK_OFFSET(0x1DD99040)
+#define RPG_SUPERDEBUG__INITDEFAULTENABLETAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1DD994F0)
+#define RPG_SUPERDEBUG__INITTAGSWITCHES_OFFSET UNITYSDK_OFFSET(0x1DD99340)
+#define RPG_SUPERDEBUG__INITTAGTEXTS_OFFSET UNITYSDK_OFFSET(0x1DD99B40)
+#define RPG_SUPERDEBUG__INITTAGVALUES_OFFSET UNITYSDK_OFFSET(0x1DD99540)
 
 namespace RPG
 {
-	inline static constexpr unsigned int SuperDebug_TypeDefinitionIndex = 6395;
-
 	class SuperDebug : public ::System::Object
 	{
 	public:
-		static ::Class_0_16E4307DCC419505** StaticGet__LogInfoSender()
+		static ::CCFPABPKGGJ** StaticGet__LogInfoSender()
 		{
-			return (::Class_0_16E4307DCC419505**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x460);
+			return (::CCFPABPKGGJ**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x460);
 		}
+
 		static ::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::Boolean>** StaticGet__TagSwitches_k__BackingField()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x468);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::Boolean>**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x468);
 		}
-		static ::Class_0_16E4307DCC419505_1** StaticGet__LuaStackTraceProvider()
+
+		static ::GHCKKGPPHPK** StaticGet__LuaStackTraceProvider()
 		{
-			return (::Class_0_16E4307DCC419505_1**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x470);
+			return (::GHCKKGPPHPK**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x470);
 		}
+
 		static ::System::Collections::Generic::List_1<::RPG::LogTag>** StaticGet__TagValues()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::LogTag>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x478);
+			return (::System::Collections::Generic::List_1<::RPG::LogTag>**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x478);
 		}
+
 		static ::System::Text::StringBuilder** StaticGet__tmpSbForStackTrace()
 		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x480);
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x480);
 		}
-		static ::System::Action_1<::System::String*>** StaticGet_GameCoreLogSamplerErrorHandler()
+
+		static ::System::Action** StaticGet_GameCoreLogSamplerErrorHandler()
 		{
-			return (::System::Action_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x488);
+			return (::System::Action**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x488);
 		}
-		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet_SendMessageDelg()
+
+		static ::System::Action** StaticGet_SendMessageDelg()
 		{
-			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x490);
+			return (::System::Action**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x490);
 		}
+
 		static ::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::String*>** StaticGet__TagTexts_k__BackingField()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x498);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::String*>**)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x498);
 		}
+
 		static ::System::Boolean* StaticGet_ForbidLogFlag()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SuperDebug_TypeDefinitionIndex)->GetStaticField(0x3C0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG", "SuperDebug")->GetStaticField(0x3C0);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_CCTOR_OFFSET))();
 		}
 
-		static ::System::Void SetLogInfoSender(::Class_0_16E4307DCC419505* a1)
+		static ::System::Void SetLogInfoSender(::CCFPABPKGGJ* a1)
 		{
-			return ((::System::Void(*)(::Class_0_16E4307DCC419505*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_SETLOGINFOSENDER_OFFSET))(a1);
+			return ((::System::Void(*)(::CCFPABPKGGJ*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_SETLOGINFOSENDER_OFFSET))(a1);
 		}
 
 		static ::System::Void LogVeryImportant(::System::String* a1)
@@ -175,34 +180,34 @@ namespace RPG
 			return ((::System::Void(*)(::RPG::LogTag, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGVERYIMPORTANTFORMAT_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void DrawLine(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Color> a3, ::System::Single a4, ::System::Boolean a5)
+		static ::System::Void DrawLine(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void DrawLine_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawLine_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWLINE_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawRay(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable_1<::UnityEngine::Color> a3, ::System::Single a4, ::System::Boolean a5)
+		static ::System::Void DrawRay(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::System::Nullable* a3, ::System::Single a4, ::System::Boolean a5)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_OFFSET))(a1, a2, a3, a4, a5);
 		}
 
-		static ::System::Void DrawRay_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawRay_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_1_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRAY_1_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawCircle(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Nullable_1<::UnityEngine::Vector3> a3, ::System::Int32 a4, ::System::Nullable_1<::UnityEngine::Color> a5, ::System::Single a6, ::System::Boolean a7)
+		static ::System::Void DrawCircle(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Nullable* a3, ::System::Int32 a4, ::System::Nullable* a5, ::System::Single a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::System::Single, ::System::Nullable*, ::System::Int32, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Void DrawCircle_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Nullable_1<::UnityEngine::Vector3> a4, ::System::Int32 a5, ::System::Nullable_1<::UnityEngine::Color> a6, ::System::Single a7, ::System::Boolean a8)
+		static ::System::Void DrawCircle_1(::RPG::LogTag a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Nullable* a4, ::System::Int32 a5, ::System::Nullable* a6, ::System::Single a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::System::Single, ::System::Nullable_1<::UnityEngine::Vector3>, ::System::Int32, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::RPG::LogTag, ::UnityEngine::Vector3, ::System::Single, ::System::Nullable*, ::System::Int32, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWCIRCLE_1_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
 		static ::System::Void DrawCircle_2(::UnityEngine::Vector3 a1, ::System::Single a2, ::UnityEngine::Vector3 a3, ::System::Int32 a4, ::UnityEngine::Color a5, ::System::Single a6, ::System::Boolean a7)
@@ -230,24 +235,24 @@ namespace RPG
 			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWGRID_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void DrawArrow(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::System::Nullable_1<::UnityEngine::Color> a6, ::System::Single a7, ::System::Boolean a8)
+		static ::System::Void DrawArrow(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Single a4, ::System::Single a5, ::System::Nullable* a6, ::System::Single a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWARROW_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWARROW_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8);
 		}
 
-		static ::System::Void DrawBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawMinMaxBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawMinMaxBox(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWMINMAXBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWMINMAXBOX_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void DrawRectangle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Quaternion a3, ::System::Nullable_1<::UnityEngine::Color> a4, ::System::Single a5, ::System::Boolean a6)
+		static ::System::Void DrawRectangle(::UnityEngine::Vector3 a1, ::UnityEngine::Vector2 a2, ::UnityEngine::Quaternion a3, ::System::Nullable* a4, ::System::Single a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector2, ::UnityEngine::Quaternion, ::System::Nullable_1<::UnityEngine::Color>, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRECTANGLE_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Void(*)(::UnityEngine::Vector3, ::UnityEngine::Vector2, ::UnityEngine::Quaternion, ::System::Nullable*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_DRAWRECTANGLE_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
 		static ::System::String* _FormatLogMessage(::RPG::LogTag a1, ::System::String* a2)
@@ -265,9 +270,9 @@ namespace RPG
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOG_OFFSET))(a1);
 		}
 
-		static ::System::Void Log_1(::Struct_2_E88BE0C6C262BD53& a1)
+		static ::System::Void Log_1(::GNAKPEMFGFG a1)
 		{
-			return ((::System::Void(*)(::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOG_1_OFFSET))(a1);
+			return ((::System::Void(*)(::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOG_1_OFFSET))(a1);
 		}
 
 		static ::System::Void Log_2(::RPG::LogTag a1, ::System::String* a2)
@@ -275,9 +280,9 @@ namespace RPG
 			return ((::System::Void(*)(::RPG::LogTag, ::System::String*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOG_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Log_3(::RPG::LogTag a1, ::Struct_2_E88BE0C6C262BD53& a2)
+		static ::System::Void Log_3(::RPG::LogTag a1, ::GNAKPEMFGFG a2)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOG_3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::LogTag, ::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOG_3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void LogFormat(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
@@ -285,9 +290,9 @@ namespace RPG
 			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void LogFormat_1(::Struct_2_E88BE0C6C262BD53& a1)
+		static ::System::Void LogFormat_1(::GNAKPEMFGFG a1)
 		{
-			return ((::System::Void(*)(::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGFORMAT_1_OFFSET))(a1);
+			return ((::System::Void(*)(::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGFORMAT_1_OFFSET))(a1);
 		}
 
 		static ::System::Void LogFormat_2(::RPG::LogTag a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
@@ -295,9 +300,9 @@ namespace RPG
 			return ((::System::Void(*)(::RPG::LogTag, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGFORMAT_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void LogFormat_3(::RPG::LogTag a1, ::Struct_2_E88BE0C6C262BD53& a2)
+		static ::System::Void LogFormat_3(::RPG::LogTag a1, ::GNAKPEMFGFG a2)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGFORMAT_3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::LogTag, ::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGFORMAT_3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void LogException(::System::Exception* a1)
@@ -340,9 +345,9 @@ namespace RPG
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILE_OFFSET))(a1);
 		}
 
-		static ::System::Void LogProfile_1(::Struct_2_E88BE0C6C262BD53& a1)
+		static ::System::Void LogProfile_1(::GNAKPEMFGFG a1)
 		{
-			return ((::System::Void(*)(::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILE_1_OFFSET))(a1);
+			return ((::System::Void(*)(::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILE_1_OFFSET))(a1);
 		}
 
 		static ::System::Void LogProfile_2(::RPG::LogTag a1, ::System::String* a2)
@@ -350,9 +355,9 @@ namespace RPG
 			return ((::System::Void(*)(::RPG::LogTag, ::System::String*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILE_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void LogProfile_3(::RPG::LogTag a1, ::Struct_2_E88BE0C6C262BD53& a2)
+		static ::System::Void LogProfile_3(::RPG::LogTag a1, ::GNAKPEMFGFG a2)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILE_3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::LogTag, ::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILE_3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void LogProfileFormat(::System::String* a1, ::Il2CppArray<::System::Object*>* a2)
@@ -360,9 +365,9 @@ namespace RPG
 			return ((::System::Void(*)(::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILEFORMAT_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void LogProfileFormat_1(::Struct_2_E88BE0C6C262BD53& a1)
+		static ::System::Void LogProfileFormat_1(::GNAKPEMFGFG a1)
 		{
-			return ((::System::Void(*)(::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILEFORMAT_1_OFFSET))(a1);
+			return ((::System::Void(*)(::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILEFORMAT_1_OFFSET))(a1);
 		}
 
 		static ::System::Void LogProfileFormat_2(::RPG::LogTag a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
@@ -370,9 +375,9 @@ namespace RPG
 			return ((::System::Void(*)(::RPG::LogTag, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILEFORMAT_2_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void LogProfileFormat_3(::RPG::LogTag a1, ::Struct_2_E88BE0C6C262BD53& a2)
+		static ::System::Void LogProfileFormat_3(::RPG::LogTag a1, ::GNAKPEMFGFG a2)
 		{
-			return ((::System::Void(*)(::RPG::LogTag, ::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILEFORMAT_3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::LogTag, ::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_LOGPROFILEFORMAT_3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void LogColor(::System::String* a1, ::System::String* a2)
@@ -465,9 +470,9 @@ namespace RPG
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_ASSERT_OFFSET))(a1);
 		}
 
-		static ::System::Void Assert_1(::System::Boolean a1, ::Struct_2_E88BE0C6C262BD53& a2)
+		static ::System::Void Assert_1(::System::Boolean a1, ::GNAKPEMFGFG a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_ASSERT_1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Boolean, ::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_ASSERT_1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Assert_2(::System::Boolean a1, ::System::String* a2)
@@ -475,9 +480,9 @@ namespace RPG
 			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_ASSERT_2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AssertFormat(::System::Boolean a1, ::Struct_2_E88BE0C6C262BD53& a2)
+		static ::System::Void AssertFormat(::System::Boolean a1, ::GNAKPEMFGFG a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::Struct_2_E88BE0C6C262BD53&))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_ASSERTFORMAT_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Boolean, ::GNAKPEMFGFG))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_ASSERTFORMAT_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void AssertFormat_1(::System::Boolean a1, ::System::String* a2, ::Il2CppArray<::System::Object*>* a3)
@@ -485,9 +490,9 @@ namespace RPG
 			return ((::System::Void(*)(::System::Boolean, ::System::String*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_ASSERTFORMAT_1_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetLuaStackTraceProvider(::Class_0_16E4307DCC419505_1* a1)
+		static ::System::Void SetLuaStackTraceProvider(::GHCKKGPPHPK* a1)
 		{
-			return ((::System::Void(*)(::Class_0_16E4307DCC419505_1*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_SETLUASTACKTRACEPROVIDER_OFFSET))(a1);
+			return ((::System::Void(*)(::GHCKKGPPHPK*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_SETLUASTACKTRACEPROVIDER_OFFSET))(a1);
 		}
 
 		static ::System::String* _GetLuaStackTrace()
@@ -544,5 +549,6 @@ namespace RPG
 		{
 			return ((::System::Void(*)(::System::Collections::Generic::Dictionary_2<::RPG::LogTag, ::System::String*>*))((::PBYTE)hIl2Cpp + RPG_SUPERDEBUG_SET_TAGTEXTS_OFFSET))(a1);
 		}
+
 	};
 }

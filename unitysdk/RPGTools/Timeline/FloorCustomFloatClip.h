@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace RPGTools::Timeline { class FCVSimulationParam; }
+namespace RPGTools::Timeline { class FloorCustomFloatClip; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE85D3A0)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE85D390)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_METHOD_4_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xE85D530)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_METHOD_4_C02EF518E1B1D3CF_OFFSET UNITYSDK_OFFSET(0xE85D0F0)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE85D590)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_AEFNNMLANNA_OFFSET UNITYSDK_OFFSET(0xE8FB510)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_CCKGKFBCHAM_OFFSET UNITYSDK_OFFSET(0xE8FB8F0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8FB790)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8FB950)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8FB780)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FloorCustomFloatClip_TypeDefinitionIndex = 48586;
-
 	class FloorCustomFloatClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::String* Name; // 0x18
 		::System::Single Value; // 0x20
 		::System::Boolean RecoverWhenUnLock; // 0x24
+		::System::Byte _padding0[0x3];
 		::RPGTools::Timeline::FCVSimulationParam* Param; // 0x28
 		::System::String* FCVSimulationValue; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -43,14 +41,15 @@ namespace RPGTools::Timeline
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_4_4343F372F34C05BF()
+		::System::Void CCKGKFBCHAM()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_METHOD_4_4343F372F34C05BF_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_CCKGKFBCHAM_OFFSET))(this);
 		}
 
-		::System::Void Method_4_C02EF518E1B1D3CF(::RPGTools::Timeline::FloorCustomFloatClip* a1)
+		::System::Void AEFNNMLANNA(::RPGTools::Timeline::FloorCustomFloatClip* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::FloorCustomFloatClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_METHOD_4_C02EF518E1B1D3CF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPGTools::Timeline::FloorCustomFloatClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMFLOATCLIP_AEFNNMLANNA_OFFSET))(this, a1);
 		}
+
 	};
 }

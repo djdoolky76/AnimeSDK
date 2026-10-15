@@ -2,153 +2,171 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ReasonBool_1.h"
 #include "unitysdk/RPG/GameCore/EAdventureMovementUnavailableReason.h"
-#include "unitysdk/Struct_2_8DF138C61E6ABA58.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_54715B955DC6C855;
-class Class_2_AC9482A075E204C7;
+#include "unitysdk/KKIGPBMNMMB.h"
+class IMBGFBOEJNG;
+class KMEOMKNPNCC;
 namespace RPG::GameCore { class AdventureCharacterController; }
-namespace RPG::GameCore { class AdventureMovementManager_Class_1_1DE6262BF29C2AFD; }
 namespace System { class Action; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class SphereCollider; }
 
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_1ACFAD96F3461A05_OFFSET UNITYSDK_OFFSET(0xE4E5B90)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_2B85C1969225764F_OFFSET UNITYSDK_OFFSET(0xE4E76A0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_32E9F1B64188C279_1_OFFSET UNITYSDK_OFFSET(0xE4E6390)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_32E9F1B64188C279_OFFSET UNITYSDK_OFFSET(0xE4E6270)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_3821EE6201CF74C2_OFFSET UNITYSDK_OFFSET(0xE4E64B0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_3D2B77EBCAE390AB_OFFSET UNITYSDK_OFFSET(0xE4E9BF0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_4E5FD597422054EE_OFFSET UNITYSDK_OFFSET(0xE4E67F0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_5405AE0AEFFFA4F7_OFFSET UNITYSDK_OFFSET(0xE4E6550)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_6240AB5B9521A60B_OFFSET UNITYSDK_OFFSET(0xE4E6B00)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_665AEDC8E03BB561_OFFSET UNITYSDK_OFFSET(0xE4EA3E0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_72B898C7F0E60BF8_OFFSET UNITYSDK_OFFSET(0xE4E6690)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_763B70E1B527E566_OFFSET UNITYSDK_OFFSET(0xE4E5040)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_77A0990B52E748BC_OFFSET UNITYSDK_OFFSET(0xE4EA470)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_9474076E37B9D517_1_OFFSET UNITYSDK_OFFSET(0xE4E6F30)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_9474076E37B9D517_OFFSET UNITYSDK_OFFSET(0xE4E6DF0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xE4E7490)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_99FE0D74C5C97643_OFFSET UNITYSDK_OFFSET(0xE4E5210)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_A6903E39E024EAC0_OFFSET UNITYSDK_OFFSET(0xE4E6720)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_A8DED9C437215EC6_1_OFFSET UNITYSDK_OFFSET(0xE4E6FE0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_A8DED9C437215EC6_OFFSET UNITYSDK_OFFSET(0xE4E6EA0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_B06F516E4459C742_1_OFFSET UNITYSDK_OFFSET(0xE4E7170)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_B06F516E4459C742_OFFSET UNITYSDK_OFFSET(0xE4E8420)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_B67B01502F711D79_OFFSET UNITYSDK_OFFSET(0xE4E5790)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_CE34EA208837238D_1_OFFSET UNITYSDK_OFFSET(0xE4EA410)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_CE34EA208837238D_OFFSET UNITYSDK_OFFSET(0xE4E7070)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_DC2E80477583A303_OFFSET UNITYSDK_OFFSET(0xE4E70D0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_DD01EB4F75B91AF5_OFFSET UNITYSDK_OFFSET(0xE4E7580)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_E6FA84ECDEF620CE_OFFSET UNITYSDK_OFFSET(0xE4E95D0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0xE4E5310)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_FC703982A6F56906_OFFSET UNITYSDK_OFFSET(0xE4E5380)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_FD1A8012013ED9C5_OFFSET UNITYSDK_OFFSET(0xE4EA220)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_ONGAMEPLAY_OFFSET UNITYSDK_OFFSET(0xE4E4AA0)
-#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xE4EA4A0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_ANGJHGHBCKG_OFFSET UNITYSDK_OFFSET(0xE575540)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_BAMLCGAJION_1_OFFSET UNITYSDK_OFFSET(0xE576C20)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_BAMLCGAJION_OFFSET UNITYSDK_OFFSET(0xE576B90)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_BCDDFJMGCAA_OFFSET UNITYSDK_OFFSET(0xE57A1E0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE57A210)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_CEOFOHDBDHC_OFFSET UNITYSDK_OFFSET(0xE578220)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_DCGGMONBLNA_OFFSET UNITYSDK_OFFSET(0xE54CB00)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_DEADPCNDLMC_OFFSET UNITYSDK_OFFSET(0xE577390)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_DKLDBEIPION_OFFSET UNITYSDK_OFFSET(0xE575C90)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_EEONEKKGNLD_OFFSET UNITYSDK_OFFSET(0xE550050)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_ENLECHHDJLO_OFFSET UNITYSDK_OFFSET(0xE576DA0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_EPAPIBEPGOA_OFFSET UNITYSDK_OFFSET(0xE5793D0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_FALFHJAPMKA_OFFSET UNITYSDK_OFFSET(0xE576CF0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_FDPEMOAAAGE_OFFSET UNITYSDK_OFFSET(0xE575880)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_FFGNEJIMBKN_OFFSET UNITYSDK_OFFSET(0xE577480)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_GNPEHHHPNPC_OFFSET UNITYSDK_OFFSET(0xE576A50)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_HGDLCGAHMAF_OFFSET UNITYSDK_OFFSET(0xE5799F0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_HNJKBBEPAPB_OFFSET UNITYSDK_OFFSET(0xE579FF0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_HPLMIGLAOJP_OFFSET UNITYSDK_OFFSET(0xE57A1B0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_IEGPKNHAJIG_OFFSET UNITYSDK_OFFSET(0xE55ED30)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_JCMHHKJHKMD_OFFSET UNITYSDK_OFFSET(0xE576FD0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_KANLLLNLNJH_OFFSET UNITYSDK_OFFSET(0xE55F1F0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_KCDMFMEIEOO_OFFSET UNITYSDK_OFFSET(0xE576E30)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_MAJBJCNFKEI_OFFSET UNITYSDK_OFFSET(0xE5769B0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_MIPJKLPEFAC_OFFSET UNITYSDK_OFFSET(0xE575710)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_MJHJBNHNEAD_OFFSET UNITYSDK_OFFSET(0xE576090)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_OIFIJDGCPAM_OFFSET UNITYSDK_OFFSET(0xE576890)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_OMONIEFEDOF_OFFSET UNITYSDK_OFFSET(0xE576EE0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_ONGAMEPLAY_OFFSET UNITYSDK_OFFSET(0xE574FC0)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_OPDNPLFBCIP_OFFSET UNITYSDK_OFFSET(0xE577070)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_PAGOLNDFABP_OFFSET UNITYSDK_OFFSET(0xE575810)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_PBKMPHKPMPA_OFFSET UNITYSDK_OFFSET(0xE576770)
+#define RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_PMBMIMAIEPA_OFFSET UNITYSDK_OFFSET(0xE576F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMovementManager_TypeDefinitionIndex = 57261;
-
 	class AdventureMovementManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_IDCLCAFPDLN()
+		static ::IMBGFBOEJNG** StaticGet_PMKJHEJEMCN()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x524E0);
+			return (::IMBGFBOEJNG**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D40);
 		}
-		static ::System::Collections::Generic::HashSet_1<::System::Action*>** StaticGet_HIMBONECCJK()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x524E8);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet_OMOAPGNFAEE()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x524F0);
-		}
+
 		static ::System::Collections::Generic::HashSet_1<::System::Action*>** StaticGet_IMHCGKGKDPD()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x524F8);
+			return (::System::Collections::Generic::HashSet_1<::System::Action*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D48);
 		}
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_OKEHGGOFIEO()
+
+		static ::System::Collections::Generic::HashSet_1<::System::Action*>** StaticGet_HIMBONECCJK()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52500);
+			return (::System::Collections::Generic::HashSet_1<::System::Action*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D50);
 		}
-		static ::System::Collections::Generic::List_1<::RPG::GameCore::AdventureMovementManager_Class_1_1DE6262BF29C2AFD*>** StaticGet_JHIMGMGEHHA()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::AdventureMovementManager_Class_1_1DE6262BF29C2AFD*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52508);
-		}
-		static ::Class_2_AC9482A075E204C7** StaticGet_PMKJHEJEMCN()
-		{
-			return (::Class_2_AC9482A075E204C7**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52510);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_CIANLIDPIDL()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52518);
-		}
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_ADLIAAAPCBE()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52520);
-		}
-		static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet_FKKIMNDJMNG()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52528);
-		}
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_HECGDILNKAL()
-		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52530);
-		}
-		static ::System::Collections::Generic::List_1<::Class_1_54715B955DC6C855*>** StaticGet_GBMOBDLENJA()
-		{
-			return (::System::Collections::Generic::List_1<::Class_1_54715B955DC6C855*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52538);
-		}
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_OKFDCIGNHDN()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52540);
-		}
+
 		static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet_DAOHKGFNDIG()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52548);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D58);
 		}
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_CHBMBIHEMAM()
+
+		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_JHIMGMGEHHA()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52550);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D60);
 		}
+
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_OKEHGGOFIEO()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D68);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_IDCLCAFPDLN()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D70);
+		}
+
 		static ::System::Collections::Generic::List_1<::RPG::GameCore::AdventureCharacterController*>** StaticGet_FAAGLFMDABJ()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::AdventureCharacterController*>**)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x52558);
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::AdventureCharacterController*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D78);
 		}
-		static ::UnityEngine::Vector3* StaticGet_AIABECPNABD()
+
+		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_CIANLIDPIDL()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x11460);
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D80);
 		}
-		static ::System::Int32* StaticGet_NOIEMNLMACN()
+
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_ADLIAAAPCBE()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x1146C);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D88);
 		}
-		static ::System::Boolean* StaticGet_PKFKODACMID()
+
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_OKFDCIGNHDN()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x11470);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D90);
 		}
-		static ::System::Boolean* StaticGet_ANFMAGBEJAC()
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet_OMOAPGNFAEE()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x11471);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13D98);
 		}
-		static ::System::Boolean* StaticGet_KEHLLDBEEPD()
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet_FKKIMNDJMNG()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x11472);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13DA0);
 		}
+
+		static ::System::Collections::Generic::List_1<::KMEOMKNPNCC*>** StaticGet_GBMOBDLENJA()
+		{
+			return (::System::Collections::Generic::List_1<::KMEOMKNPNCC*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13DA8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_CHBMBIHEMAM()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13DB0);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet_HECGDILNKAL()
+		{
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x13DB8);
+		}
+
 		static ::RPG::Client::ReasonBool_1<::RPG::GameCore::EAdventureMovementUnavailableReason>* StaticGet_LJONLPEEFML()
 		{
-			return (::RPG::Client::ReasonBool_1<::RPG::GameCore::EAdventureMovementUnavailableReason>*)Il2CppClass::FromTypeDefinitionIndex(AdventureMovementManager_TypeDefinitionIndex)->GetStaticField(0x11478);
+			return (::RPG::Client::ReasonBool_1<::RPG::GameCore::EAdventureMovementUnavailableReason>*)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x4500);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_AIABECPNABD()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x4508);
+		}
+
+		static ::System::Int32* StaticGet_NOIEMNLMACN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x4514);
+		}
+
+		static ::System::Boolean* StaticGet_KEHLLDBEEPD()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x4518);
+		}
+
+		static ::System::Boolean* StaticGet_PKFKODACMID()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x4519);
+		}
+
+		static ::System::Boolean* StaticGet_ANFMAGBEJAC()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AdventureMovementManager")->GetStaticField(0x451A);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_CCTOR_OFFSET))();
 		}
 
 		static ::System::Void OnGamePlay()
@@ -156,159 +174,160 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_ONGAMEPLAY_OFFSET))();
 		}
 
-		static ::System::Void Method_1_763B70E1B527E566()
+		static ::System::Void ANGJHGHBCKG()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_763B70E1B527E566_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_ANGJHGHBCKG_OFFSET))();
 		}
 
-		static ::System::Void Method_1_99FE0D74C5C97643(::RPG::GameCore::EAdventureMovementUnavailableReason a1, ::System::Boolean a2)
+		static ::System::Void MIPJKLPEFAC(::RPG::GameCore::EAdventureMovementUnavailableReason a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::EAdventureMovementUnavailableReason, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_99FE0D74C5C97643_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::GameCore::EAdventureMovementUnavailableReason, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_MIPJKLPEFAC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_1_F8C7231308CD2C82()
+		static ::System::Void PAGOLNDFABP()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_F8C7231308CD2C82_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_PAGOLNDFABP_OFFSET))();
 		}
 
-		static ::System::Void Method_1_FC703982A6F56906(::UnityEngine::SphereCollider* a1)
+		static ::System::Void FDPEMOAAAGE(::UnityEngine::SphereCollider* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::SphereCollider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_FC703982A6F56906_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::SphereCollider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_FDPEMOAAAGE_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_B67B01502F711D79(::UnityEngine::Collider* a1)
+		static ::System::Void DKLDBEIPION(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Void(*)(::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_B67B01502F711D79_OFFSET))(a1);
+			return ((::System::Void(*)(::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_DKLDBEIPION_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_1ACFAD96F3461A05(::UnityEngine::Collider* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Vector3& a5, ::System::Single& a6)
+		static ::System::Boolean MJHJBNHNEAD(::UnityEngine::Collider* a1, ::UnityEngine::Vector3 a2, ::System::Single a3, ::System::Single a4, ::UnityEngine::Vector3 a5, ::System::Single a6)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Collider*, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3&, ::System::Single&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_1ACFAD96F3461A05_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::UnityEngine::Collider*, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_MJHJBNHNEAD_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Boolean Method_1_32E9F1B64188C279(::System::Int32 a1)
+		static ::System::Boolean PBKMPHKPMPA(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_32E9F1B64188C279_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_PBKMPHKPMPA_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_32E9F1B64188C279_1(::System::Int32 a1)
+		static ::System::Boolean OIFIJDGCPAM(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_32E9F1B64188C279_1_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_OIFIJDGCPAM_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_3821EE6201CF74C2(::System::Int32 a1)
+		static ::System::Boolean MAJBJCNFKEI(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_3821EE6201CF74C2_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_MAJBJCNFKEI_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_5405AE0AEFFFA4F7(::System::Int32 a1)
+		static ::System::Boolean GNPEHHHPNPC(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_5405AE0AEFFFA4F7_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_GNPEHHHPNPC_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_72B898C7F0E60BF8(::System::Int32 a1)
+		static ::System::Boolean BAMLCGAJION(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_72B898C7F0E60BF8_OFFSET))(a1);
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_BAMLCGAJION_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_A6903E39E024EAC0(::UnityEngine::Collider* a1)
+		static ::System::Boolean BAMLCGAJION_1(::UnityEngine::Collider* a1)
 		{
-			return ((::System::Boolean(*)(::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_A6903E39E024EAC0_OFFSET))(a1);
+			return ((::System::Boolean(*)(::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_BAMLCGAJION_1_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_4E5FD597422054EE(::RPG::GameCore::AdventureCharacterController* a1)
+		static ::System::Void EEONEKKGNLD(::RPG::GameCore::AdventureCharacterController* a1)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::AdventureCharacterController*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_4E5FD597422054EE_OFFSET))(a1);
+			return ((::System::Void(*)(::RPG::GameCore::AdventureCharacterController*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_EEONEKKGNLD_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_6240AB5B9521A60B(::RPG::GameCore::AdventureCharacterController* a1)
+		static ::System::Void DCGGMONBLNA(::RPG::GameCore::AdventureCharacterController* a1)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::AdventureCharacterController*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_6240AB5B9521A60B_OFFSET))(a1);
+			return ((::System::Void(*)(::RPG::GameCore::AdventureCharacterController*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_DCGGMONBLNA_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_9474076E37B9D517(::System::Action* a1)
+		static ::System::Void FALFHJAPMKA(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_9474076E37B9D517_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_FALFHJAPMKA_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_A8DED9C437215EC6(::System::Action* a1)
+		static ::System::Void ENLECHHDJLO(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_A8DED9C437215EC6_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_ENLECHHDJLO_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_9474076E37B9D517_1(::System::Action* a1)
+		static ::System::Void KCDMFMEIEOO(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_9474076E37B9D517_1_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_KCDMFMEIEOO_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_A8DED9C437215EC6_1(::System::Action* a1)
+		static ::System::Void OMONIEFEDOF(::System::Action* a1)
 		{
-			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_A8DED9C437215EC6_1_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_OMONIEFEDOF_OFFSET))(a1);
 		}
 
-		static ::System::Boolean Method_1_CE34EA208837238D()
+		static ::System::Boolean PMBMIMAIEPA()
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_CE34EA208837238D_OFFSET))();
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_PMBMIMAIEPA_OFFSET))();
 		}
 
-		static ::System::Void Method_1_DC2E80477583A303(::System::Boolean a1)
+		static ::System::Void JCMHHKJHKMD(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_DC2E80477583A303_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_JCMHHKJHKMD_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_9681042564541CD6()
+		static ::System::Void DEADPCNDLMC()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_9681042564541CD6_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_DEADPCNDLMC_OFFSET))();
 		}
 
-		static ::System::Void Method_1_DD01EB4F75B91AF5(::RPG::GameCore::AdventureCharacterController* a1, ::Struct_2_8DF138C61E6ABA58& a2)
+		static ::System::Void IEGPKNHAJIG(::RPG::GameCore::AdventureCharacterController* a1, ::KKIGPBMNMMB a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::AdventureCharacterController*, ::Struct_2_8DF138C61E6ABA58&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_DD01EB4F75B91AF5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::RPG::GameCore::AdventureCharacterController*, ::KKIGPBMNMMB))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_IEGPKNHAJIG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_1_2B85C1969225764F()
+		static ::System::Void FFGNEJIMBKN()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_2B85C1969225764F_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_FFGNEJIMBKN_OFFSET))();
 		}
 
-		static ::System::Void Method_1_B06F516E4459C742()
+		static ::System::Void CEOFOHDBDHC()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_B06F516E4459C742_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_CEOFOHDBDHC_OFFSET))();
 		}
 
-		static ::System::Void Method_1_3D2B77EBCAE390AB()
+		static ::System::Void HGDLCGAHMAF()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_3D2B77EBCAE390AB_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_HGDLCGAHMAF_OFFSET))();
 		}
 
-		static ::System::Void Method_1_FD1A8012013ED9C5(::System::Int32 a1)
+		static ::System::Void HNJKBBEPAPB(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_FD1A8012013ED9C5_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_HNJKBBEPAPB_OFFSET))(a1);
 		}
 
-		static ::System::Void Method_1_E6FA84ECDEF620CE()
+		static ::System::Void EPAPIBEPGOA()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_E6FA84ECDEF620CE_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_EPAPIBEPGOA_OFFSET))();
 		}
 
-		static ::System::Void Method_1_B06F516E4459C742_1()
+		static ::System::Void OPDNPLFBCIP()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_B06F516E4459C742_1_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_OPDNPLFBCIP_OFFSET))();
 		}
 
-		static ::Class_2_AC9482A075E204C7* Method_1_665AEDC8E03BB561()
+		static ::IMBGFBOEJNG* HPLMIGLAOJP()
 		{
-			return ((::Class_2_AC9482A075E204C7*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_665AEDC8E03BB561_OFFSET))();
+			return ((::IMBGFBOEJNG*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_HPLMIGLAOJP_OFFSET))();
 		}
 
-		static ::System::Boolean Method_1_CE34EA208837238D_1()
+		static ::System::Boolean KANLLLNLNJH()
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_CE34EA208837238D_1_OFFSET))();
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_KANLLLNLNJH_OFFSET))();
 		}
 
-		static ::System::Collections::Generic::List_1<::Class_1_54715B955DC6C855*>* Method_1_77A0990B52E748BC()
+		static ::System::Collections::Generic::List_1<::KMEOMKNPNCC*>* BCDDFJMGCAA()
 		{
-			return ((::System::Collections::Generic::List_1<::Class_1_54715B955DC6C855*>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_METHOD_1_77A0990B52E748BC_OFFSET))();
+			return ((::System::Collections::Generic::List_1<::KMEOMKNPNCC*>*(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMOVEMENTMANAGER_BCDDFJMGCAA_OFFSET))();
 		}
+
 	};
 }

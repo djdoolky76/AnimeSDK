@@ -2,27 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MessageContentBlock.h"
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
-
-class Class_1_C086E47345F86771;
+class NDDOMFBJMKE;
+namespace RPG::Client { class ChatMessageExtendData; }
 namespace RPG::Client { class ChatMessagePlanetfesExchangeData; }
+namespace RPG::Client { class MessageContentBlock; }
 
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD6A4C40)
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_PLANETFESDATA_OFFSET UNITYSDK_OFFSET(0xD6A4C90)
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD6A4B70)
-#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xD6A4BC0)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD6A17B0)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD6A1830)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_PLANETFESDATA_OFFSET UNITYSDK_OFFSET(0xD6A18C0)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD6A1760)
+#define RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_RPG_CLIENT_IMESSAGEEXTENDDATAGETTER_GETEXTENDDATA_OFFSET UNITYSDK_OFFSET(0xD6A1880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentPlanetFesExchangeBlock_TypeDefinitionIndex = 63316;
-
 	class MessageContentPlanetFesExchangeBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:
 		::RPG::Client::ChatMessagePlanetfesExchangeData* _PlanetFesData_k__BackingField; // 0x18
-
-		::System::Void _ctor(::Class_1_C086E47345F86771* a1, ::System::UInt32 a2)
+		::System::Void _ctor(::NDDOMFBJMKE* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_C086E47345F86771*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::NDDOMFBJMKE*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::MessageContentBlock_BlockType get_Type()
@@ -35,9 +34,15 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::MessageContentBlock*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_EQUALS_OFFSET))(this, a1);
 		}
 
+		::RPG::Client::ChatMessageExtendData* RPG_Client_IMessageExtendDataGetter_GetExtendData()
+		{
+			return ((::RPG::Client::ChatMessageExtendData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_RPG_CLIENT_IMESSAGEEXTENDDATAGETTER_GETEXTENDDATA_OFFSET))(this);
+		}
+
 		::RPG::Client::ChatMessagePlanetfesExchangeData* get_PlanetFesData()
 		{
 			return ((::RPG::Client::ChatMessagePlanetfesExchangeData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MESSAGECONTENTPLANETFESEXCHANGEBLOCK_GET_PLANETFESDATA_OFFSET))(this);
 		}
+
 	};
 }

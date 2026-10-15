@@ -3,15 +3,13 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraPageState_TypeDefinitionIndex = 63478;
-
 	enum class ChimeraPageState : ::System::UInt32
 	{
-		None = 0x0,
-		Entrance = 0x1,
-		Goals = 0x2,
-		NewMembers = 0x3,
-		Arrangement = 0x4,
-		Evaluation = 0x5,
+		None = 0,
+		Entrance = 1,
+		Goals = 2,
+		NewMembers = 3,
+		Arrangement = 4,
+		Evaluation = 5,
 	};
 }

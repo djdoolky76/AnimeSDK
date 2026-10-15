@@ -1,29 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/FacetsChecker.h"
-
 namespace System { class Exception; }
 namespace System { class Object; }
 namespace System::Collections { class ArrayList; }
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
-#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1E7FD3D0)
-#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1E7FD1F0)
-#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1E7FD560)
-#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1E7FD720)
-#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E54F0)
+#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_CHECKVALUEFACETS_1_OFFSET UNITYSDK_OFFSET(0x1EEC60B0)
+#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_CHECKVALUEFACETS_OFFSET UNITYSDK_OFFSET(0x1EEC5ED0)
+#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAE1D0)
+#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_MATCHENUMERATION_1_OFFSET UNITYSDK_OFFSET(0x1EEC6240)
+#define SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_MATCHENUMERATION_OFFSET UNITYSDK_OFFSET(0x1EEC6400)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int QNameFacetsChecker_TypeDefinitionIndex = 2161;
-
 	class QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_CTOR_OFFSET))(this);
 		}
 
 		::System::Exception* CheckValueFacets(::System::Object* a1, ::System::Xml::Schema::XmlSchemaDatatype* a2)
@@ -45,5 +42,6 @@ namespace System::Xml::Schema
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::Xml::XmlQualifiedName*, ::System::Collections::ArrayList*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_QNAMEFACETSCHECKER_MATCHENUMERATION_1_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

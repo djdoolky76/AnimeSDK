@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmotionID_TypeDefinitionIndex = 10561;
-
 	enum class EmotionID : ::System::Int32
 	{
 		Default = 0,

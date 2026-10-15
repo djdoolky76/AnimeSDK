@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class RotatableRegionAutoDeployPoseSwitcher; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_METHOD_3_01B3DD63ECC3A621_OFFSET UNITYSDK_OFFSET(0x1D494770)
-#define RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_METHOD_3_8845814FD862F7FD_OFFSET UNITYSDK_OFFSET(0x1D494720)
-#define RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D494760)
+#define RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA47520)
+#define RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA47530)
+#define RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA474E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotatableRegionAutoDeployPoseSwitcher_TypeDefinitionIndex = 21017;
-
 	class RotatableRegionAutoDeployPoseSwitcher : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8845814FD862F7FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_METHOD_3_8845814FD862F7FD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_01B3DD63ECC3A621(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_METHOD_3_01B3DD63ECC3A621_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::RotatableRegionAutoDeployPoseSwitcher*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATABLEREGIONAUTODEPLOYPOSESWITCHER_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

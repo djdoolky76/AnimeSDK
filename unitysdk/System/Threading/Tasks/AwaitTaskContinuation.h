@@ -1,60 +1,56 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Threading/StackCrawlMark.h"
 #include "unitysdk/System/Threading/Tasks/TaskContinuation.h"
-
+#include "unitysdk/System/Threading/StackCrawlMark.h"
 namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { class Object; }
-namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CREATETASK_OFFSET UNITYSDK_OFFSET(0x1BC41D60)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_EXECUTEWORKITEMHELPER_OFFSET UNITYSDK_OFFSET(0x1BC420C0)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_GETINVOKEACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC422B0)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_GET_ISVALIDLOCATIONFORINLINING_OFFSET UNITYSDK_OFFSET(0x1BC41F60)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_INVOKEACTION_OFFSET UNITYSDK_OFFSET(0x1BC42270)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC42320)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNORSCHEDULEACTION_OFFSET UNITYSDK_OFFSET(0x1BC42600)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1BC41E50)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1BC42220)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1BC42260)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_THROWASYNCIFNECESSARY_OFFSET UNITYSDK_OFFSET(0x1BC42450)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_UNSAFESCHEDULEACTION_OFFSET UNITYSDK_OFFSET(0x1BC42710)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BC41D20)
-#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC41CE0)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CREATETASK_OFFSET UNITYSDK_OFFSET(0x1C14DE90)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C14DE50)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C14DE10)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_EXECUTEWORKITEMHELPER_OFFSET UNITYSDK_OFFSET(0x1C14E1F0)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_GETINVOKEACTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C14E3E0)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_GET_ISVALIDLOCATIONFORINLINING_OFFSET UNITYSDK_OFFSET(0x1C14E090)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_INVOKEACTION_OFFSET UNITYSDK_OFFSET(0x1C14E3A0)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C14E450)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNORSCHEDULEACTION_OFFSET UNITYSDK_OFFSET(0x1C14E730)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1C14DF80)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1C14E350)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1C14E390)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_THROWASYNCIFNECESSARY_OFFSET UNITYSDK_OFFSET(0x1C14E580)
+#define SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_UNSAFESCHEDULEACTION_OFFSET UNITYSDK_OFFSET(0x1C14E840)
 
 namespace System::Threading::Tasks
 {
-	inline static constexpr unsigned int AwaitTaskContinuation_TypeDefinitionIndex = 925;
-
 	class AwaitTaskContinuation : public ::System::Threading::Tasks::TaskContinuation
 	{
 	public:
+		::System::Threading::ExecutionContext* m_capturedContext; // 0x10
+		::System::Action* m_action; // 0x18
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeActionCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(AwaitTaskContinuation_TypeDefinitionIndex)->GetStaticField(0x13230);
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading.Tasks", "AwaitTaskContinuation")->GetStaticField(0x201E0);
 		}
-		::System::Action* m_action; // 0x10
-		::System::Threading::ExecutionContext* m_capturedContext; // 0x18
 
-		::System::Void _ctor(::System::Action* a1, ::System::Boolean a2, ::System::Threading::StackCrawlMark& a3)
+		::System::Void _ctor(::System::Action* a1, ::System::Boolean a2, ::System::Threading::StackCrawlMark a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean, ::System::Threading::StackCrawlMark&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION__CTOR_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean, ::System::Threading::StackCrawlMark))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CTOR_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void _ctor_1(::System::Action* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION__CTOR_1_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CTOR_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Threading::Tasks::Task* CreateTask(::System::Action_1<::System::Object*>* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3)
+		::System::Threading::Tasks::Task* CreateTask(::System::Action* a1, ::System::Object* a2, ::System::Threading::Tasks::TaskScheduler* a3)
 		{
-			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CREATETASK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Threading::Tasks::Task*(*)(::PVOID, ::System::Action*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_CREATETASK_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void Run(::System::Threading::Tasks::Task* a1, ::System::Boolean a2)
@@ -92,14 +88,14 @@ namespace System::Threading::Tasks
 			return ((::System::Threading::ContextCallback*(*)())((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_GETINVOKEACTIONCALLBACK_OFFSET))();
 		}
 
-		::System::Void RunCallback(::System::Threading::ContextCallback* a1, ::System::Object* a2, ::System::Threading::Tasks::Task*& a3)
+		::System::Void RunCallback(::System::Threading::ContextCallback* a1, ::System::Object* a2, ::System::Threading::Tasks::Task* a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Threading::ContextCallback*, ::System::Object*, ::System::Threading::Tasks::Task*&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNCALLBACK_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Threading::ContextCallback*, ::System::Object*, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNCALLBACK_OFFSET))(this, a1, a2, a3);
 		}
 
-		static ::System::Void RunOrScheduleAction(::System::Action* a1, ::System::Boolean a2, ::System::Threading::Tasks::Task*& a3)
+		static ::System::Void RunOrScheduleAction(::System::Action* a1, ::System::Boolean a2, ::System::Threading::Tasks::Task* a3)
 		{
-			return ((::System::Void(*)(::System::Action*, ::System::Boolean, ::System::Threading::Tasks::Task*&))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNORSCHEDULEACTION_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Action*, ::System::Boolean, ::System::Threading::Tasks::Task*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_RUNORSCHEDULEACTION_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void UnsafeScheduleAction(::System::Action* a1, ::System::Threading::Tasks::Task* a2)
@@ -111,5 +107,6 @@ namespace System::Threading::Tasks
 		{
 			return ((::System::Void(*)(::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_AWAITTASKCONTINUATION_THROWASYNCIFNECESSARY_OFFSET))(a1);
 		}
+
 	};
 }

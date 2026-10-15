@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LockSource_TypeDefinitionIndex = 10312;
-
 	enum class LockSource : ::System::Int32
 	{
 		None = 0,

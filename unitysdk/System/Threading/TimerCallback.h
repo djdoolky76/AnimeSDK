@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define SYSTEM_THREADING_TIMERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BC59A70)
-#define SYSTEM_THREADING_TIMERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BC59AA0)
-#define SYSTEM_THREADING_TIMERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BC58040)
-#define SYSTEM_THREADING_TIMERCALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC59980)
+#define SYSTEM_THREADING_TIMERCALLBACK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C165A00)
+#define SYSTEM_THREADING_TIMERCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C165910)
+#define SYSTEM_THREADING_TIMERCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C165A30)
+#define SYSTEM_THREADING_TIMERCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C163FD0)
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int TimerCallback_TypeDefinitionIndex = 882;
-
 	class TimerCallback : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMERCALLBACK__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMERCALLBACK_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Object* a1)
@@ -37,5 +34,6 @@ namespace System::Threading
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TIMERCALLBACK_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

@@ -2,34 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MemberAccessException.h"
 #include "unitysdk/System/Runtime/Serialization/StreamingContext.h"
-
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_METHODACCESSEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BD70200)
-#define SYSTEM_METHODACCESSEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1BD70270)
-#define SYSTEM_METHODACCESSEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD70160)
+#define SYSTEM_METHODACCESSEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C27BFA0)
+#define SYSTEM_METHODACCESSEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C27C010)
+#define SYSTEM_METHODACCESSEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27BF00)
 
 namespace System
 {
-	inline static constexpr unsigned int MethodAccessException_TypeDefinitionIndex = 297;
-
 	class MethodAccessException : public ::System::MemberAccessException
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_METHODACCESSEXCEPTION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_METHODACCESSEXCEPTION_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_METHODACCESSEXCEPTION__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_METHODACCESSEXCEPTION_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_2(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_METHODACCESSEXCEPTION__CTOR_2_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_METHODACCESSEXCEPTION_CTOR_2_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

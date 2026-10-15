@@ -1,20 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Collider; }
 
-#define UNITYENGINE_CONTACTPOINT_GETCOLLIDERBYINSTANCEID_OFFSET UNITYSDK_OFFSET(0x1EDBAAA0)
-#define UNITYENGINE_CONTACTPOINT_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x25500)
-#define UNITYENGINE_CONTACTPOINT_GET_OTHERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x3BCEC20)
-#define UNITYENGINE_CONTACTPOINT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x254E0)
-#define UNITYENGINE_CONTACTPOINT_GET_SEPARATION_OFFSET UNITYSDK_OFFSET(0x3B7C600)
+#define UNITYENGINE_CONTACTPOINT_GETCOLLIDERBYINSTANCEID_OFFSET UNITYSDK_OFFSET(0x1F483D60)
+#define UNITYENGINE_CONTACTPOINT_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x1690)
+#define UNITYENGINE_CONTACTPOINT_GET_OTHERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x3C84970)
+#define UNITYENGINE_CONTACTPOINT_GET_POINT_OFFSET UNITYSDK_OFFSET(0x1670)
+#define UNITYENGINE_CONTACTPOINT_GET_SEPARATION_OFFSET UNITYSDK_OFFSET(0x3C313E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ContactPoint_TypeDefinitionIndex = 5316;
-
 	struct alignas(4) ContactPoint
 	{
 		::UnityEngine::Vector3 m_Point; // 0x10
@@ -22,7 +18,6 @@ namespace UnityEngine
 		::System::Int32 m_ThisColliderInstanceID; // 0x28
 		::System::Int32 m_OtherColliderInstanceID; // 0x2C
 		::System::Single m_Separation; // 0x30
-
 		::UnityEngine::Vector3 get_point()
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTPOINT_GET_POINT_OFFSET))(this);
@@ -47,5 +42,6 @@ namespace UnityEngine
 		{
 			return ((::UnityEngine::Collider*(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_CONTACTPOINT_GETCOLLIDERBYINSTANCEID_OFFSET))(a1);
 		}
+
 	};
 }

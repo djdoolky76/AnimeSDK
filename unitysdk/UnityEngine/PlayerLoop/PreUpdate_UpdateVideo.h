@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreUpdate_UpdateVideo_TypeDefinitionIndex = 4601;
-
-	struct alignas(1) PreUpdate_UpdateVideo
+	struct alignas(4) PreUpdate_UpdateVideo
 	{
 	};
 }

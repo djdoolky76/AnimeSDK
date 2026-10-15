@@ -1,36 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class AddEntityToTeamFormation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_0C387A365781197D_OFFSET UNITYSDK_OFFSET(0x1CDB16D0)
-#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_831D25ED39BB3FFE_OFFSET UNITYSDK_OFFSET(0x1CDB1690)
-#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB16C0)
+#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D386AC0)
+#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D386AD0)
+#define RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D386A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddEntityToTeamFormation_TypeDefinitionIndex = 22386;
-
 	class AddEntityToTeamFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_831D25ED39BB3FFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddEntityToTeamFormation*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddEntityToTeamFormation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddEntityToTeamFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_831D25ED39BB3FFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddEntityToTeamFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0C387A365781197D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddEntityToTeamFormation* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::AddEntityToTeamFormation* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddEntityToTeamFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_METHOD_3_0C387A365781197D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::AddEntityToTeamFormation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDENTITYTOTEAMFORMATION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

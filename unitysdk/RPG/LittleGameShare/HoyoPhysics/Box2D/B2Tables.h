@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2HashSet.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2HashSet.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEYHAVECAPACITY_OFFSET UNITYSDK_OFFSET(0x1C3151D0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEY_OFFSET UNITYSDK_OFFSET(0x1C3154C0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CLEARSET_OFFSET UNITYSDK_OFFSET(0x1C3150C0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x1C315410)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CREATESET_OFFSET UNITYSDK_OFFSET(0x1C314FC0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2DESTROYSET_OFFSET UNITYSDK_OFFSET(0x1C315070)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2FINDSLOT_OFFSET UNITYSDK_OFFSET(0x1C315160)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETHASHSETBYTES_OFFSET UNITYSDK_OFFSET(0x1C315600)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCAPACITY_OFFSET UNITYSDK_OFFSET(0x1C315650)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCOUNT_OFFSET UNITYSDK_OFFSET(0x1C315640)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GROWTABLE_OFFSET UNITYSDK_OFFSET(0x1C315250)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2KEYHASH_OFFSET UNITYSDK_OFFSET(0x1C315120)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x1C315660)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2_SHAPE_PAIR_KEY_OFFSET UNITYSDK_OFFSET(0x1C314FA0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEYHAVECAPACITY_OFFSET UNITYSDK_OFFSET(0x1C8654B0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEY_OFFSET UNITYSDK_OFFSET(0x1C8657A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CLEARSET_OFFSET UNITYSDK_OFFSET(0x1C8653A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CONTAINSKEY_OFFSET UNITYSDK_OFFSET(0x1C8656F0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CREATESET_OFFSET UNITYSDK_OFFSET(0x1C8652A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2DESTROYSET_OFFSET UNITYSDK_OFFSET(0x1C865350)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2FINDSLOT_OFFSET UNITYSDK_OFFSET(0x1C865440)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETHASHSETBYTES_OFFSET UNITYSDK_OFFSET(0x1C8658E0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCAPACITY_OFFSET UNITYSDK_OFFSET(0x1C865930)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCOUNT_OFFSET UNITYSDK_OFFSET(0x1C865920)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GROWTABLE_OFFSET UNITYSDK_OFFSET(0x1C865530)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2KEYHASH_OFFSET UNITYSDK_OFFSET(0x1C865400)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2REMOVEKEY_OFFSET UNITYSDK_OFFSET(0x1C865940)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2_SHAPE_PAIR_KEY_OFFSET UNITYSDK_OFFSET(0x1C865280)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Tables_TypeDefinitionIndex = 36103;
-
 	class B2Tables : public ::System::Object
 	{
 	public:
@@ -35,14 +33,14 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 			return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CREATESET_OFFSET))(a1);
 		}
 
-		static ::System::Void b2DestroySet(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1)
+		static ::System::Void b2DestroySet(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1)
 		{
-			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2DESTROYSET_OFFSET))(a1);
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2DESTROYSET_OFFSET))(a1);
 		}
 
-		static ::System::Void b2ClearSet(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1)
+		static ::System::Void b2ClearSet(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1)
 		{
-			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CLEARSET_OFFSET))(a1);
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CLEARSET_OFFSET))(a1);
 		}
 
 		static ::System::UInt32 b2KeyHash(::System::UInt64 a1)
@@ -50,49 +48,50 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 			return ((::System::UInt32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2KEYHASH_OFFSET))(a1);
 		}
 
-		static ::System::Int32 b2FindSlot(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1, ::System::UInt64 a2, ::System::UInt32 a3)
+		static ::System::Int32 b2FindSlot(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1, ::System::UInt64 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2FINDSLOT_OFFSET))(a1, a2, a3);
+			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2FINDSLOT_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void b2AddKeyHaveCapacity(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1, ::System::UInt64 a2, ::System::UInt32 a3)
+		static ::System::Void b2AddKeyHaveCapacity(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1, ::System::UInt64 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEYHAVECAPACITY_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet, ::System::UInt64, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEYHAVECAPACITY_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void b2GrowTable(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1)
+		static ::System::Void b2GrowTable(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1)
 		{
-			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GROWTABLE_OFFSET))(a1);
+			return ((::System::Void(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GROWTABLE_OFFSET))(a1);
 		}
 
-		static ::System::Boolean b2ContainsKey(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1, ::System::UInt64 a2)
+		static ::System::Boolean b2ContainsKey(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1, ::System::UInt64 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CONTAINSKEY_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2CONTAINSKEY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Boolean b2AddKey(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1, ::System::UInt64 a2)
+		static ::System::Boolean b2AddKey(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1, ::System::UInt64 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEY_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2ADDKEY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Int32 b2GetHashSetBytes(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1)
+		static ::System::Int32 b2GetHashSetBytes(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1)
 		{
-			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETHASHSETBYTES_OFFSET))(a1);
+			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETHASHSETBYTES_OFFSET))(a1);
 		}
 
-		static ::System::Int32 b2GetSetCount(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1)
+		static ::System::Int32 b2GetSetCount(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1)
 		{
-			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCOUNT_OFFSET))(a1);
+			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCOUNT_OFFSET))(a1);
 		}
 
-		static ::System::Int32 b2GetSetCapacity(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1)
+		static ::System::Int32 b2GetSetCapacity(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1)
 		{
-			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCAPACITY_OFFSET))(a1);
+			return ((::System::Int32(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2GETSETCAPACITY_OFFSET))(a1);
 		}
 
-		static ::System::Boolean b2RemoveKey(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet& a1, ::System::UInt64 a2)
+		static ::System::Boolean b2RemoveKey(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet a1, ::System::UInt64 a2)
 		{
-			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet&, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2REMOVEKEY_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2HashSet, ::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2TABLES_B2REMOVEKEY_OFFSET))(a1, a2);
 		}
+
 	};
 }

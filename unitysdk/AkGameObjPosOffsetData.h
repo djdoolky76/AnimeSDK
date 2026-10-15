@@ -3,17 +3,15 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AKGAMEOBJPOSOFFSETDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1EED0490)
+#define AKGAMEOBJPOSOFFSETDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F598040)
 
-inline static constexpr unsigned int AkGameObjPosOffsetData_TypeDefinitionIndex = 43740;
-
-class AkGameObjPosOffsetData : public ::UnityEngine::ScriptableObject
-{
-public:
-	::UnityEngine::Vector3 positionOffset; // 0x18
-
-	::System::Void _ctor()
+	class AkGameObjPosOffsetData : public ::UnityEngine::ScriptableObject
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKGAMEOBJPOSOFFSETDATA__CTOR_OFFSET))(this);
-	}
-};
+	public:
+		::UnityEngine::Vector3 positionOffset; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKGAMEOBJPOSOFFSETDATA_CTOR_OFFSET))(this);
+		}
+
+	};

@@ -2,27 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Mono/Math/Prime/ConfidenceFactor.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace Mono::Math { class BigInteger; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define MONO_MATH_PRIME_PRIMALITYTEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1BB1C9B0)
-#define MONO_MATH_PRIME_PRIMALITYTEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1BB1CA30)
-#define MONO_MATH_PRIME_PRIMALITYTEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1BB1C8A0)
-#define MONO_MATH_PRIME_PRIMALITYTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB1C8C0)
+#define MONO_MATH_PRIME_PRIMALITYTEST_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C06BE20)
+#define MONO_MATH_PRIME_PRIMALITYTEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1C06BD30)
+#define MONO_MATH_PRIME_PRIMALITYTEST_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C06BEA0)
+#define MONO_MATH_PRIME_PRIMALITYTEST_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C06BD10)
 
 namespace Mono::Math::Prime
 {
-	inline static constexpr unsigned int PrimalityTest_TypeDefinitionIndex = 2319;
-
 	class PrimalityTest : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke(::Mono::Math::BigInteger* a1, ::Mono::Math::Prime::ConfidenceFactor a2)
@@ -39,5 +36,6 @@ namespace Mono::Math::Prime
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MONO_MATH_PRIME_PRIMALITYTEST_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

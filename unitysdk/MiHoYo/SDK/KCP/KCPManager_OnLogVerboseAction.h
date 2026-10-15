@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB20E050)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB20E080)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xB20CB10)
-#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xB20DFE0)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFB55E0)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB5570)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFB5610)
+#define MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFB40A0)
 
 namespace MiHoYo::SDK::KCP
 {
-	inline static constexpr unsigned int KCPManager_OnLogVerboseAction_TypeDefinitionIndex = 47152;
-
 	class KCPManager_OnLogVerboseAction : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::String* a1)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK::KCP
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCP_KCPMANAGER_ONLOGVERBOSEACTION_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

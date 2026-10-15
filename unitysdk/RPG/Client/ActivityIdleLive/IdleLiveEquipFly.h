@@ -2,43 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace RPG::Client { class MonoUILayerOrderAdjuster; }
 namespace RPG::Client { class QuadricBezier; }
 namespace System { class Action; }
 namespace System { class Object; }
-namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC5B5440)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_FLY_OFFSET UNITYSDK_OFFSET(0xC5B4FE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC5B54C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SETCANVAS_OFFSET UNITYSDK_OFFSET(0xC5B53A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC5B5480)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B5740)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_CTOR_OFFSET UNITYSDK_OFFSET(0xC4CD3D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xC4CD040)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_FLY_OFFSET UNITYSDK_OFFSET(0xC4CCBE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_ONCREATE_OFFSET UNITYSDK_OFFSET(0xC4CD0C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SETCANVAS_OFFSET UNITYSDK_OFFSET(0xC4CCFA0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_SPAWNED_OFFSET UNITYSDK_OFFSET(0xC4CD080)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveEquipFly_TypeDefinitionIndex = 74876;
-
 	class IdleLiveEquipFly : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		// static const ::System::String* PNBBLMANKPC; // 0x0
-		// static const ::System::Single HAFLCIGAPFF; // 0x0
 		::System::Single LJEOPKOBAGF; // 0x18
+		::System::Byte _padding0[0x4];
 		::UnityEngine::Transform* KNGEKPKBIDK; // 0x20
 		::UnityEngine::Transform* CEEAKCACHGJ; // 0x28
 		::UnityEngine::Transform* GNPBGAKIAHM; // 0x30
 		::RPG::Client::QuadricBezier* BKHMEKLPNHJ; // 0x38
 		::UnityEngine::Animation* KCOAILOHDND; // 0x40
 		::RPG::Client::MonoUILayerOrderAdjuster* KDHFKGMCKCJ; // 0x48
-
+		// static const ::System::String* PNBBLMANKPC; // 0x0
+		// static const ::System::Object HAFLCIGAPFF; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_CTOR_OFFSET))(this);
 		}
 
 		::System::Void Fly(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3, ::System::Action* a4)
@@ -65,5 +61,6 @@ namespace RPG::Client::ActivityIdleLive
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLY_ONCREATE_OFFSET))(this, a1);
 		}
+
 	};
 }

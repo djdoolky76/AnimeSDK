@@ -1,44 +1,43 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace MiHoYo::SDK { class ImageCache; }
 namespace MiHoYo::SDK { class ImageCache_TextureAvailable; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_IMAGECACHE_ASYNCDOWNLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B97DD30)
-#define MIHOYO_SDK_IMAGECACHE_GETIMAGE_OFFSET UNITYSDK_OFFSET(0x1B97E220)
-#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEKEY_OFFSET UNITYSDK_OFFSET(0x1B97E460)
-#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEPATH_OFFSET UNITYSDK_OFFSET(0x1B97E3F0)
-#define MIHOYO_SDK_IMAGECACHE_IMAGETEXTURECACHEDIR_OFFSET UNITYSDK_OFFSET(0x1B97EA10)
-#define MIHOYO_SDK_IMAGECACHE_ISLOCALCACHEEXISTS_OFFSET UNITYSDK_OFFSET(0x1B97DC20)
-#define MIHOYO_SDK_IMAGECACHE_ONTEXTUREDOWNLOADCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1B97E490)
-#define MIHOYO_SDK_IMAGECACHE_PUTIMAGE_OFFSET UNITYSDK_OFFSET(0x1B97DBC0)
-#define MIHOYO_SDK_IMAGECACHE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B97EAE0)
-#define MIHOYO_SDK_IMAGECACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97DB40)
+#define MIHOYO_SDK_IMAGECACHE_ASYNCDOWNLOADTEXTURE_OFFSET UNITYSDK_OFFSET(0x1BE7D680)
+#define MIHOYO_SDK_IMAGECACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE7E430)
+#define MIHOYO_SDK_IMAGECACHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7D490)
+#define MIHOYO_SDK_IMAGECACHE_GETIMAGE_OFFSET UNITYSDK_OFFSET(0x1BE7DB70)
+#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEKEY_OFFSET UNITYSDK_OFFSET(0x1BE7DDB0)
+#define MIHOYO_SDK_IMAGECACHE_GETLOCALCACHEPATH_OFFSET UNITYSDK_OFFSET(0x1BE7DD40)
+#define MIHOYO_SDK_IMAGECACHE_IMAGETEXTURECACHEDIR_OFFSET UNITYSDK_OFFSET(0x1BE7E360)
+#define MIHOYO_SDK_IMAGECACHE_ISLOCALCACHEEXISTS_OFFSET UNITYSDK_OFFSET(0x1BE7D570)
+#define MIHOYO_SDK_IMAGECACHE_ONTEXTUREDOWNLOADCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1BE7DDE0)
+#define MIHOYO_SDK_IMAGECACHE_PUTIMAGE_OFFSET UNITYSDK_OFFSET(0x1BE7D510)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ImageCache_TypeDefinitionIndex = 7934;
-
 	class ImageCache : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* availableCallbackMap; // 0x10
 		static ::MiHoYo::SDK::ImageCache** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ImageCache**)Il2CppClass::FromTypeDefinitionIndex(ImageCache_TypeDefinitionIndex)->GetStaticField(0x6E20);
+			return (::MiHoYo::SDK::ImageCache**)UnitySDK::FromName("MiHoYo.SDK", "ImageCache")->GetStaticField(0xF360);
 		}
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::ImageCache_TextureAvailable*>* availableCallbackMap; // 0x10
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_CCTOR_OFFSET))();
 		}
 
 		::System::Void PutImage(::System::String* a1)
@@ -80,5 +79,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_IMAGECACHE_ISLOCALCACHEEXISTS_OFFSET))(a1);
 		}
+
 	};
 }

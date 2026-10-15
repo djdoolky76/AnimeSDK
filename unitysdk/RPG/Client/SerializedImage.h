@@ -1,28 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/UI/Image.h"
-
+#include "unitysdk/UnityEngine/Rect.h"
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_SERIALIZEDIMAGE_CULL_OFFSET UNITYSDK_OFFSET(0xE0757C0)
-#define RPG_CLIENT_SERIALIZEDIMAGE_GET_MESH_OFFSET UNITYSDK_OFFSET(0xE075820)
-#define RPG_CLIENT_SERIALIZEDIMAGE_SET_MESH_OFFSET UNITYSDK_OFFSET(0xE075870)
-#define RPG_CLIENT_SERIALIZEDIMAGE_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0xE0756D0)
-#define RPG_CLIENT_SERIALIZEDIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xE0758C0)
+#define RPG_CLIENT_SERIALIZEDIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B03F0)
+#define RPG_CLIENT_SERIALIZEDIMAGE_CULL_OFFSET UNITYSDK_OFFSET(0xE0B02F0)
+#define RPG_CLIENT_SERIALIZEDIMAGE_GET_MESH_OFFSET UNITYSDK_OFFSET(0xE0B0350)
+#define RPG_CLIENT_SERIALIZEDIMAGE_SET_MESH_OFFSET UNITYSDK_OFFSET(0xE0B03A0)
+#define RPG_CLIENT_SERIALIZEDIMAGE_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0xE0B0200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SerializedImage_TypeDefinitionIndex = 72568;
-
 	class SerializedImage : public ::UnityEngine::UI::Image
 	{
 	public:
 		::UnityEngine::Mesh* m_Mesh; // 0x1E8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SERIALIZEDIMAGE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SERIALIZEDIMAGE_CTOR_OFFSET))(this);
 		}
 
 		::System::Void UpdateGeometry()
@@ -44,5 +40,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + RPG_CLIENT_SERIALIZEDIMAGE_SET_MESH_OFFSET))(this, a1);
 		}
+
 	};
 }

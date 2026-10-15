@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Collections/CollectionBase.h"
-
 namespace System::Xml::Serialization { class XmlElementAttribute; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x1E83C230)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1E83E3B0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1E83C5B0)
-#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES__CTOR_OFFSET UNITYSDK_OFFSET(0x1E83BAE0)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_ADD_OFFSET UNITYSDK_OFFSET(0x1EF04ED0)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF04760)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1EF07050)
+#define SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_GET_ORDER_OFFSET UNITYSDK_OFFSET(0x1EF05250)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlElementAttributes_TypeDefinitionIndex = 2008;
-
 	class XmlElementAttributes : public ::System::Collections::CollectionBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_CTOR_OFFSET))(this);
 		}
 
 		::System::Xml::Serialization::XmlElementAttribute* get_Item(::System::Int32 a1)
@@ -35,5 +32,6 @@ namespace System::Xml::Serialization
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLELEMENTATTRIBUTES_GET_ORDER_OFFSET))(this);
 		}
+
 	};
 }

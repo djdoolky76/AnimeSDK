@@ -1,19 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
-namespace System { class Object; }
-namespace System { class String; }
-namespace System { template <typename T> class Pinnable_1; }
+namespace System { template <typename T> class Pinnable_1_55736D7E8D1790E8; }
 
 namespace System
 {
-	inline static constexpr unsigned int ReadOnlySpan_1_TypeDefinitionIndex = 4969;
-
 	template <typename T>
-	struct ReadOnlySpan_1
+	struct alignas(8) ReadOnlySpan_1
 	{
-		::System::Pinnable_1<T>* _pinnable; // 0x0
+		::System::Pinnable_1_55736D7E8D1790E8<T>* _pinnable; // 0x0
 		::System::IntPtr _byteOffset; // 0x0
 		::System::Int32 _length; // 0x0
 	};

@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ParkourGame/EffectConfig.h"
-#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
-
+#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xDA30C20)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xDA30DF0)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xDA30FC0)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xDA30F50)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDA30EE0)
-#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xDA31030)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDA7D2E0)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xDA7CED0)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xDA7D0A0)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEIK_OFFSET UNITYSDK_OFFSET(0xDA7D270)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEMOVE_OFFSET UNITYSDK_OFFSET(0xDA7D200)
+#define RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDA7D190)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int StateParkourAnimEvent_TypeDefinitionIndex = 74127;
-
 	class StateParkourAnimEvent : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:
 		::RPG::Client::ParkourGame::EffectConfig Config; // 0x18
 		::System::Collections::Generic::Queue_1<::System::String*>* _Keys; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
@@ -54,5 +50,6 @@ namespace RPG::Client::ParkourGame
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PARKOURGAME_STATEPARKOURANIMEVENT_ONSTATEIK_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FNLEMEHLPDI_MOBLFLGJMFM.h"
+class FNLEMEHLPDI;
+
+#define FNLEMEHLPDI_OJKLGMLBEHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1587A9A0)
+#define FNLEMEHLPDI_OJKLGMLBEHC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1587EDC0)
+#define FNLEMEHLPDI_OJKLGMLBEHC_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x1587ECE0)
+#define FNLEMEHLPDI_OJKLGMLBEHC_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x1587ED80)
+
+	class FNLEMEHLPDI_OJKLGMLBEHC : public ::FNLEMEHLPDI_MOBLFLGJMFM
+	{
+	public:
+		::System::Void _ctor(::FNLEMEHLPDI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FNLEMEHLPDI*))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_OJKLGMLBEHC_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void KIGBILLGNOH()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_OJKLGMLBEHC_KIGBILLGNOH_OFFSET))(this);
+		}
+
+		::System::Void OPCKNBHNBOA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_OJKLGMLBEHC_OPCKNBHNBOA_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNLEMEHLPDI_OJKLGMLBEHC_DISPOSE_OFFSET))(this);
+		}
+
+	};

@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
 namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBodyControlIK_LimbData_TypeDefinitionIndex = 68498;
-
 	struct alignas(8) MonoBodyControlIK_LimbData
 	{
 		::UnityEngine::Transform* Upper; // 0x10

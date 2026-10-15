@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MonoEffectPluginBase.h"
-
 namespace UnityEngine { class TrailRenderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7BBE70)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7BBBD0)
-#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL__CTOR_OFFSET UNITYSDK_OFFSET(0xD7BBF30)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL_CTOR_OFFSET UNITYSDK_OFFSET(0xD7FDE60)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL_DISPOSEPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7FDDA0)
+#define RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL_RESETPLUGIN_OFFSET UNITYSDK_OFFSET(0xD7FDB00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFiveDimDashTrail_TypeDefinitionIndex = 69990;
-
 	class MonoEffectPluginFiveDimDashTrail : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:
 		::System::UInt32 UnitLengthIndex; // 0x28
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::UnityEngine::TrailRenderer*>* BMADEIDMGAL; // 0x30
 		::Il2CppArray<::System::Single>* JIMIHBOAMMH; // 0x38
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL_CTOR_OFFSET))(this);
 		}
 
 		::System::Void ResetPlugin()
@@ -33,5 +30,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINFIVEDIMDASHTRAIL_DISPOSEPLUGIN_OFFSET))(this);
 		}
+
 	};
 }

@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class PlayerBriefDisplayData; }
+namespace System { template <typename T> class Comparison_1; }
+
+namespace RPG::Client
+{
+	class OnlinePlayRoomFriendInviteContextBase___O : public ::System::Object
+	{
+	public:
+		static ::System::Comparison_1<::RPG::Client::PlayerBriefDisplayData*>** StaticGet__0____CompareOtherFriend()
+		{
+			return (::System::Comparison_1<::RPG::Client::PlayerBriefDisplayData*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x3400);
+		}
+
+	};
+}

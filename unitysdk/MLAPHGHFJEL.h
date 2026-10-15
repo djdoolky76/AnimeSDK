@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/UIController.h"
+class EJJAGEEGEKA;
+class HAFLBPOIAFO;
+namespace RPG::Client { class SimpleText; }
+namespace System { class String; }
+
+#define MLAPHGHFJEL_AGLBICHFNEO_OFFSET UNITYSDK_OFFSET(0xB9A5040)
+#define MLAPHGHFJEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A4E50)
+#define MLAPHGHFJEL_KAJOMOOAKPB_OFFSET UNITYSDK_OFFSET(0xB9A4F20)
+#define MLAPHGHFJEL_ONINCONTROLEXIT_OFFSET UNITYSDK_OFFSET(0xB9A4FA0)
+#define MLAPHGHFJEL_VIEWPREFABPATH_OFFSET UNITYSDK_OFFSET(0xB9A4D40)
+#define MLAPHGHFJEL__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xB9A4D90)
+#define MLAPHGHFJEL__ONEXITPRESTEP_OFFSET UNITYSDK_OFFSET(0xB9A4FE0)
+#define MLAPHGHFJEL__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xB9A4ED0)
+
+	class MLAPHGHFJEL : public ::RPG::Client::UIController
+	{
+	public:
+		::EJJAGEEGEKA* APPIHABBCGK; // 0x190
+		::HAFLBPOIAFO* GOAGFIODJIO; // 0x198
+		::RPG::Client::SimpleText* LOKHAJAMNJN; // 0x1A0
+		::System::Void _ctor(::EJJAGEEGEKA* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EJJAGEEGEKA*))((::PBYTE)hIl2Cpp + MLAPHGHFJEL_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::String* ViewPrefabPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MLAPHGHFJEL_VIEWPREFABPATH_OFFSET))(this);
+		}
+
+		::System::Void _CustomBindView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLAPHGHFJEL__CUSTOMBINDVIEW_OFFSET))(this);
+		}
+
+		::System::Void _SetupView()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLAPHGHFJEL__SETUPVIEW_OFFSET))(this);
+		}
+
+		::System::Void OnInControlExit()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLAPHGHFJEL_ONINCONTROLEXIT_OFFSET))(this);
+		}
+
+		::System::Void _OnExitPreStep()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLAPHGHFJEL__ONEXITPRESTEP_OFFSET))(this);
+		}
+
+		::System::Void KAJOMOOAKPB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLAPHGHFJEL_KAJOMOOAKPB_OFFSET))(this);
+		}
+
+		::System::String* AGLBICHFNEO()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MLAPHGHFJEL_AGLBICHFNEO_OFFSET))(this);
+		}
+
+	};

@@ -1,44 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Object; }
+namespace System { class WeakReference; }
 namespace System { template <typename T> class Predicate_1; }
-namespace System { template <typename T> class WeakReference_1; }
 namespace System::Diagnostics::Tracing { class EtwSession; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCCEE00)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCEE40)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BCCEE50)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAE70)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAEB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C1DAEC0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EtwSession___c_TypeDefinitionIndex = 1702;
-
 	class EtwSession___c : public ::System::Object
 	{
 	public:
-		static ::System::Diagnostics::Tracing::EtwSession___c** StaticGet___9()
+		static ::System::Predicate_1<::System::WeakReference*>** StaticGet___9__2_0()
 		{
-			return (::System::Diagnostics::Tracing::EtwSession___c**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0xBAE0);
+			return (::System::Predicate_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x12160);
 		}
-		static ::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet___9__2_0()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession___c_TypeDefinitionIndex)->GetStaticField(0xBAE8);
+			return (::System::Object**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x12168);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _TrimGlobalList_b__2_0(::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>* a1)
+		::System::Boolean _TrimGlobalList_b__2_0(::System::WeakReference* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::WeakReference*))((::PBYTE)hIl2Cpp + SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET))(this, a1);
 		}
+
 	};
 }

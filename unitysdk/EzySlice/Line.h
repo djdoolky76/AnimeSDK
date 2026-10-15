@@ -1,26 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define EZYSLICE_LINE_GET_DISTSQ_OFFSET UNITYSDK_OFFSET(0x254A0)
-#define EZYSLICE_LINE_GET_DIST_OFFSET UNITYSDK_OFFSET(0x25450)
-#define EZYSLICE_LINE_GET_POSITIONA_OFFSET UNITYSDK_OFFSET(0x254E0)
-#define EZYSLICE_LINE_GET_POSITIONB_OFFSET UNITYSDK_OFFSET(0x25500)
-#define EZYSLICE_LINE__CTOR_OFFSET UNITYSDK_OFFSET(0x25410)
+#define EZYSLICE_LINE_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0)
+#define EZYSLICE_LINE_GET_DISTSQ_OFFSET UNITYSDK_OFFSET(0x1630)
+#define EZYSLICE_LINE_GET_DIST_OFFSET UNITYSDK_OFFSET(0x15E0)
+#define EZYSLICE_LINE_GET_POSITIONA_OFFSET UNITYSDK_OFFSET(0x1670)
+#define EZYSLICE_LINE_GET_POSITIONB_OFFSET UNITYSDK_OFFSET(0x1690)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Line_TypeDefinitionIndex = 47456;
-
 	struct alignas(4) Line
 	{
 		::UnityEngine::Vector3 m_pos_a; // 0x10
 		::UnityEngine::Vector3 m_pos_b; // 0x1C
-
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_LINE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + EZYSLICE_LINE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_dist()
@@ -42,5 +38,6 @@ namespace EzySlice
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + EZYSLICE_LINE_GET_POSITIONB_OFFSET))(this);
 		}
+
 	};
 }

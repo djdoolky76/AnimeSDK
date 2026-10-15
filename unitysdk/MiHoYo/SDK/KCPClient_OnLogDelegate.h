@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB210E60)
-#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB210EC0)
-#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xB210680)
-#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xB210DF0)
+#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xAFB8390)
+#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFB8320)
+#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xAFB83F0)
+#define MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xAFB7BB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KCPClient_OnLogDelegate_TypeDefinitionIndex = 46583;
-
 	class KCPClient_OnLogDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::System::Int32 a1, ::System::String* a2)
@@ -38,5 +35,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KCPCLIENT_ONLOGDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

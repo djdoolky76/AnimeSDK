@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class CHDBFLFJFGH;
+class GKLHNHFCDBL_AEGLMCLGDJA;
+class LKHGIONKMPM;
+class OOLJJHMLHBH;
+
+#define HJDGINDNJEM_BAIHAHCDFEJ_OFFSET UNITYSDK_OFFSET(0x15D0C5C0)
+#define HJDGINDNJEM_GPJOICOEKME_OFFSET UNITYSDK_OFFSET(0x15D0AD50)
+#define HJDGINDNJEM_MHMCNAIODBK_OFFSET UNITYSDK_OFFSET(0x15D0A7D0)
+
+	class HJDGINDNJEM : public ::System::Object
+	{
+	public:
+		static ::System::Void MHMCNAIODBK(::LKHGIONKMPM* a1, ::CHDBFLFJFGH* a2)
+		{
+			return ((::System::Void(*)(::LKHGIONKMPM*, ::CHDBFLFJFGH*))((::PBYTE)hIl2Cpp + HJDGINDNJEM_MHMCNAIODBK_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void GPJOICOEKME(::LKHGIONKMPM* a1, ::OOLJJHMLHBH* a2)
+		{
+			return ((::System::Void(*)(::LKHGIONKMPM*, ::OOLJJHMLHBH*))((::PBYTE)hIl2Cpp + HJDGINDNJEM_GPJOICOEKME_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void BAIHAHCDFEJ(::LKHGIONKMPM* a1, ::GKLHNHFCDBL_AEGLMCLGDJA* a2)
+		{
+			return ((::System::Void(*)(::LKHGIONKMPM*, ::GKLHNHFCDBL_AEGLMCLGDJA*))((::PBYTE)hIl2Cpp + HJDGINDNJEM_BAIHAHCDFEJ_OFFSET))(a1, a2);
+		}
+
+	};

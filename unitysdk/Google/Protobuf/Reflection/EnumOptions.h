@@ -1,88 +1,90 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
+namespace Google::Protobuf { class ExtensionSet; }
+namespace Google::Protobuf { class FieldCodec; }
+namespace Google::Protobuf { class MessageParser; }
 namespace Google::Protobuf { class UnknownFieldSet; }
-namespace Google::Protobuf { template <typename T> class ExtensionSet_1; }
-namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
-namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
+namespace Google::Protobuf::Reflection { class EnumOptions; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Google::Protobuf::Reflection { class UninterpretedOption; }
+namespace System { class Object; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B370330)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1B36D230)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B36FD30)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B36FCD0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B36D810)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x1B36FBD0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B36FC50)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B36F8A0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x1B36FC40)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B36FCC0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B36F840)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B3703F0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B36E0F0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B36FA80)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x1B36FC30)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B36FCB0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B370070)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B3700D0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B370620)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B36FAE0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B36E0A0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1B8720A0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B872390)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CLONE_OFFSET UNITYSDK_OFFSET(0x1B86EFA0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B871850)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0x1B86FE10)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1B871AA0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_EQUALS_OFFSET UNITYSDK_OFFSET(0x1B871A40)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1B86F580)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x1B871940)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B8719C0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B871610)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x1B8719B0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_HASDEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B871A30)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1B8715B0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1B872160)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1B86FE60)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B8717F0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_ALLOWALIAS_OFFSET UNITYSDK_OFFSET(0x1B8719A0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_SET_DEPRECATED_OFFSET UNITYSDK_OFFSET(0x1B871A20)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B871DE0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_WRITETO_OFFSET UNITYSDK_OFFSET(0x1B871E40)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumOptions_TypeDefinitionIndex = 5494;
-
 	class EnumOptions : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>** StaticGet__parser()
+		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
+		::Google::Protobuf::ExtensionSet* _extensions; // 0x20
+		::System::Int32 _hasBits0; // 0x28
+		::System::Boolean deprecated_; // 0x2C
+		::System::Boolean allowAlias_; // 0x2D
+		static ::Google::Protobuf::FieldCodec** StaticGet__repeated_uninterpretedOption_codec()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>**)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0x1E310);
+			return (::Google::Protobuf::FieldCodec**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumOptions")->GetStaticField(0x1C5E0);
 		}
-		static ::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>** StaticGet__repeated_uninterpretedOption_codec()
+
+		static ::Google::Protobuf::MessageParser** StaticGet__parser()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Google::Protobuf::Reflection::UninterpretedOption*>**)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0x1E318);
+			return (::Google::Protobuf::MessageParser**)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumOptions")->GetStaticField(0x1C5E8);
 		}
-		static ::System::Boolean* StaticGet_DeprecatedDefaultValue()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0xA280);
-		}
+
 		static ::System::Boolean* StaticGet_AllowAliasDefaultValue()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(EnumOptions_TypeDefinitionIndex)->GetStaticField(0xA281);
+			return (::System::Boolean*)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumOptions")->GetStaticField(0x6550);
 		}
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Google::Protobuf::Reflection::UninterpretedOption*>* uninterpretedOption_; // 0x18
-		::Google::Protobuf::ExtensionSet_1<::Google::Protobuf::Reflection::EnumOptions*>* _extensions; // 0x20
-		::System::Int32 _hasBits0; // 0x28
-		::System::Boolean allowAlias_; // 0x2C
-		::System::Boolean deprecated_; // 0x2D
+
+		static ::System::Boolean* StaticGet_DeprecatedDefaultValue()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Google.Protobuf.Reflection", "EnumOptions")->GetStaticField(0x6551);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _ctor_1(::Google::Protobuf::Reflection::EnumOptions* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::EnumOptions*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::Reflection::EnumOptions*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_CCTOR_OFFSET))();
 		}
 
-		static ::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>* get_Parser()
+		static ::Google::Protobuf::MessageParser* get_Parser()
 		{
-			return ((::Google::Protobuf::MessageParser_1<::Google::Protobuf::Reflection::EnumOptions*>*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_PARSER_OFFSET))();
+			return ((::Google::Protobuf::MessageParser*(*)())((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_GET_PARSER_OFFSET))();
 		}
 
 		static ::Google::Protobuf::Reflection::MessageDescriptor* get_Descriptor()
@@ -169,5 +171,6 @@ namespace Google::Protobuf::Reflection
 		{
 			return ((::System::Void(*)(::PVOID, ::Google::Protobuf::CodedInputStream*))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMOPTIONS_MERGEFROM_1_OFFSET))(this, a1);
 		}
+
 	};
 }

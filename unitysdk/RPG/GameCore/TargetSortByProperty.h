@@ -2,50 +2,48 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperation.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class TargetSortByProperty; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_09CD14711E267BC5_OFFSET UNITYSDK_OFFSET(0x1D5BB1B0)
-#define RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_1EC32C2A5300E557_OFFSET UNITYSDK_OFFSET(0x1D5BAFF0)
-#define RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_948F53D2102900C0_OFFSET UNITYSDK_OFFSET(0x1D5BAFB0)
-#define RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_D59E7B144A4447FB_OFFSET UNITYSDK_OFFSET(0x1D5BB180)
-#define RPG_GAMECORE_TARGETSORTBYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BAFE0)
+#define RPG_GAMECORE_TARGETSORTBYPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB72630)
+#define RPG_GAMECORE_TARGETSORTBYPROPERTY_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DB72800)
+#define RPG_GAMECORE_TARGETSORTBYPROPERTY_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB727D0)
+#define RPG_GAMECORE_TARGETSORTBYPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB72640)
+#define RPG_GAMECORE_TARGETSORTBYPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB72600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSortByProperty_TypeDefinitionIndex = 23707;
-
 	class TargetSortByProperty : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:
 		::RPG::GameCore::AbilityProperty PropertyType; // 0x10
 		::System::Boolean HighestFirst; // 0x14
 		::System::Boolean AliveOnly; // 0x15
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_948F53D2102900C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByProperty*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortByProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_948F53D2102900C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1EC32C2A5300E557(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetSortByProperty* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::TargetSortByProperty* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetSortByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_1EC32C2A5300E557_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::TargetSortByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D59E7B144A4447FB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByProperty*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByProperty* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_D59E7B144A4447FB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_09CD14711E267BC5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByProperty* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetSortByProperty* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_METHOD_3_09CD14711E267BC5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetSortByProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETSORTBYPROPERTY_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

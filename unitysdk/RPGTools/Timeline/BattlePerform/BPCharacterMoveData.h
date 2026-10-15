@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPGTools/Timeline/CharacterStoryMoveData_MoveStopMode.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+namespace System { class String; }
+
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8B91F0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B91C0)
+
+namespace RPGTools::Timeline::BattlePerform
+{
+	class BPCharacterMoveData : public ::System::Object
+	{
+	public:
+		::System::String* CharacterUniqueName; // 0x10
+		::RPGTools::Timeline::CharacterStoryMoveData_MoveStopMode StopMode; // 0x18
+		::System::Single MotionSpeed; // 0x1C
+		::System::Boolean OverrideMotionAnimStartOffset; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Single MotionAnimStartOffset; // 0x24
+		::System::Boolean OverrideMotionAnimStartTransitionDuration; // 0x28
+		::System::Byte _padding1[0x3];
+		::System::Single MotionAnimStartTransitionDuration; // 0x2C
+		::System::Boolean OverrideMotionAnimStopInfo; // 0x30
+		::System::Byte _padding2[0x3];
+		::System::Single MotionAnimStopOffset; // 0x34
+		::System::Single MotionAnimStopDuration; // 0x38
+		::System::Single MotionAnimStopLoopSpeed; // 0x3C
+		::UnityEngine::Vector3 StartPosition; // 0x40
+		::UnityEngine::Vector3 EndPosition; // 0x4C
+		static ::System::String** StaticGet_JsonPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline.BattlePerform", "BPCharacterMoveData")->GetStaticField(0x6C300);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CCTOR_OFFSET))();
+		}
+
+	};
+}

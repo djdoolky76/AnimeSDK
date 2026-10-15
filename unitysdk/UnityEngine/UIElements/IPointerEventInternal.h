@@ -3,8 +3,6 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IPointerEventInternal_TypeDefinitionIndex = 5971;
-
 	class IPointerEventInternal
 	{
 	public:

@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ComponentConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class CharacterDataComponentConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_METHOD_3_9165BF0F2D71E302_OFFSET UNITYSDK_OFFSET(0x1CF95620)
-#define RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_METHOD_3_E6FA44FF6DB9BF83_OFFSET UNITYSDK_OFFSET(0x1CF95580)
-#define RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF95610)
+#define RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56FC60)
+#define RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56FC70)
+#define RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56FBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterDataComponentConfig_TypeDefinitionIndex = 16391;
-
 	class CharacterDataComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E6FA44FF6DB9BF83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterDataComponentConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterDataComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterDataComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_METHOD_3_E6FA44FF6DB9BF83_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterDataComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_9165BF0F2D71E302(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterDataComponentConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::CharacterDataComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterDataComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_METHOD_3_9165BF0F2D71E302_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::CharacterDataComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERDATACOMPONENTCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

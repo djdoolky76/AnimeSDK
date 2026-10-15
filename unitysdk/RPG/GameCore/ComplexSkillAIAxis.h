@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ConsiderationAxisConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ComplexSkillAIAxis; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_COMPLEXSKILLAIAXIS_METHOD_3_56D3AEF9BC85ECED_OFFSET UNITYSDK_OFFSET(0x1CFF1000)
-#define RPG_GAMECORE_COMPLEXSKILLAIAXIS_METHOD_3_A24344F099036F08_OFFSET UNITYSDK_OFFSET(0x1CFF1080)
-#define RPG_GAMECORE_COMPLEXSKILLAIAXIS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF1070)
+#define RPG_GAMECORE_COMPLEXSKILLAIAXIS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CCE20)
+#define RPG_GAMECORE_COMPLEXSKILLAIAXIS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5CCE30)
+#define RPG_GAMECORE_COMPLEXSKILLAIAXIS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CCDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIAxis_TypeDefinitionIndex = 15345;
-
 	class ComplexSkillAIAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIAXIS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIAXIS_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_56D3AEF9BC85ECED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIAxis*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAIAxis* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIAxis*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIAXIS_METHOD_3_56D3AEF9BC85ECED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAIAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIAXIS_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A24344F099036F08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ComplexSkillAIAxis* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ComplexSkillAIAxis* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ComplexSkillAIAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIAXIS_METHOD_3_A24344F099036F08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ComplexSkillAIAxis*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMPLEXSKILLAIAXIS_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

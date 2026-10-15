@@ -3,55 +3,51 @@
 #include "unitysdk/RPG/GameCore/EraStateType.h"
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/System/ValueTuple_4.h"
+#include "unitysdk/System/ValueTuple.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
-class Class_1_8A6989C352B0F0F0;
+class HPKACEPPPCA;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PropComponent; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLIPDEVICEPOINT_GETPROPSTATE_OFFSET UNITYSDK_OFFSET(0xD0A2FE0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0xD0A2FC0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xD0A37C0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xD0A37A0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0xD0A3920)
-#define RPG_CLIENT_FLIPDEVICEPOINT_GET_UIWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xD0A3860)
-#define RPG_CLIENT_FLIPDEVICEPOINT_MAKESTATIC_OFFSET UNITYSDK_OFFSET(0xD0A3070)
-#define RPG_CLIENT_FLIPDEVICEPOINT_ONSTATECHANGE_OFFSET UNITYSDK_OFFSET(0xD0A30C0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_SET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0xD0A2FD0)
-#define RPG_CLIENT_FLIPDEVICEPOINT_SET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xD0A37B0)
-#define RPG_CLIENT_FLIPDEVICEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A2620)
-#define RPG_CLIENT_FLIPDEVICEPOINT__REFRESHSTREAMINGINSTANCE_OFFSET UNITYSDK_OFFSET(0xD0A3460)
+#define RPG_CLIENT_FLIPDEVICEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xD0432B0)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GETPROPSTATE_OFFSET UNITYSDK_OFFSET(0xD043C70)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0xD043C50)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xD044430)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xD044410)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0xD044590)
+#define RPG_CLIENT_FLIPDEVICEPOINT_GET_UIWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xD0444E0)
+#define RPG_CLIENT_FLIPDEVICEPOINT_MAKESTATIC_OFFSET UNITYSDK_OFFSET(0xD043D00)
+#define RPG_CLIENT_FLIPDEVICEPOINT_ONSTATECHANGE_OFFSET UNITYSDK_OFFSET(0xD043D50)
+#define RPG_CLIENT_FLIPDEVICEPOINT_SET_ADDDISTANCE_OFFSET UNITYSDK_OFFSET(0xD043C60)
+#define RPG_CLIENT_FLIPDEVICEPOINT_SET_PROPCOMPONENT_OFFSET UNITYSDK_OFFSET(0xD044420)
+#define RPG_CLIENT_FLIPDEVICEPOINT__REFRESHSTREAMINGINSTANCE_OFFSET UNITYSDK_OFFSET(0xD0440E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FlipDevicePoint_TypeDefinitionIndex = 73221;
-
 	class FlipDevicePoint : public ::System::Object
 	{
 	public:
+		::System::Collections::Generic::List_1<::System::UInt32>* AffectedGroups; // 0x10
+		::RPG::GameCore::PropComponent* _PropComponent_k__BackingField; // 0x18
+		::RPG::GameCore::GameEntity* UIPointProxyPropEntity; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple>* MappingProps; // 0x28
+		::System::Collections::Generic::List_1<::System::ValueTuple>* AffectedStageItems; // 0x30
+		::RPG::GameCore::GameEntity* GameEntity; // 0x38
+		::System::Single _Radius; // 0x40
+		::System::Single _AddDistance_k__BackingField; // 0x44
+		::UnityEngine::Vector3 _UIPosition; // 0x48
+		::UnityEngine::Vector3 _Position; // 0x54
+		::System::Boolean _IsStatic; // 0x60
 		// static const ::System::String* AddDistanceKey; // 0x0
 		// static const ::System::String* UIPointProxyPropKey; // 0x0
 		// static const ::System::String* AffectedStageItemsKey; // 0x0
 		// static const ::System::String* AffectedGroupsKey; // 0x0
-		::System::Collections::Generic::List_1<::System::UInt32>* AffectedGroups; // 0x10
-		::RPG::GameCore::GameEntity* GameEntity; // 0x18
-		::RPG::GameCore::PropComponent* _PropComponent_k__BackingField; // 0x20
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* MappingProps; // 0x28
-		::RPG::GameCore::GameEntity* UIPointProxyPropEntity; // 0x30
-		::System::Collections::Generic::List_1<::System::ValueTuple_4<::System::String*, ::System::String*, ::System::String*, ::RPG::GameCore::EraStateType>>* AffectedStageItems; // 0x38
-		::System::Single _Radius; // 0x40
-		::UnityEngine::Vector3 _UIPosition; // 0x44
-		::UnityEngine::Vector3 _Position; // 0x50
-		::System::Single _AddDistance_k__BackingField; // 0x5C
-		::System::Boolean _IsStatic; // 0x60
-
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLIPDEVICEPOINT__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLIPDEVICEPOINT_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Single get_AddDistance()
@@ -79,9 +75,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EraStateType, ::RPG::GameCore::PropState, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLIPDEVICEPOINT_ONSTATECHANGE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void _RefreshStreamingInstance(::Class_1_8A6989C352B0F0F0* a1, ::System::Object* a2)
+		::System::Void _RefreshStreamingInstance(::HPKACEPPPCA* a1, ::System::Object* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_8A6989C352B0F0F0*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLIPDEVICEPOINT__REFRESHSTREAMINGINSTANCE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::HPKACEPPPCA*, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLIPDEVICEPOINT__REFRESHSTREAMINGINSTANCE_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::GameCore::PropComponent* get_PropComponent()
@@ -108,5 +104,6 @@ namespace RPG::Client
 		{
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLIPDEVICEPOINT_GET_RADIUS_OFFSET))(this);
 		}
+
 	};
 }

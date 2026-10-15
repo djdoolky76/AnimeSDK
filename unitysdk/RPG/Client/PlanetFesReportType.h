@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesReportType_TypeDefinitionIndex = 66692;
-
 	enum class PlanetFesReportType : ::System::Int32
 	{
 		BusinessDayFinish = 1,

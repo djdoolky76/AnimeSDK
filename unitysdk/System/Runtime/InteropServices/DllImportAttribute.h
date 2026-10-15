@@ -1,43 +1,41 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/InteropServices/CallingConvention.h"
 #include "unitysdk/System/Runtime/InteropServices/CharSet.h"
-
+#include "unitysdk/System/Attribute.h"
+namespace System { class Attribute; }
 namespace System { class String; }
 namespace System::Reflection { class RuntimeMethodInfo; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1BDBCB40)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1BDBCDF0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1BDBCD50)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BDBCDE0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBCD00)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C2C8AB0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C89D0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GETCUSTOMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1C2C8810)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C2C8AC0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_ISDEFINED_OFFSET UNITYSDK_OFFSET(0x1C2C8A20)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int DllImportAttribute_TypeDefinitionIndex = 1421;
-
 	class DllImportAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _val; // 0x10
-		::System::String* EntryPoint; // 0x18
-		::System::Runtime::InteropServices::CharSet CharSet; // 0x20
-		::System::Boolean SetLastError; // 0x24
-		::System::Boolean PreserveSig; // 0x25
-		::System::Boolean ThrowOnUnmappableChar; // 0x26
-		::System::Boolean ExactSpelling; // 0x27
-		::System::Boolean BestFitMapping; // 0x28
+		::System::String* EntryPoint; // 0x10
+		::System::String* _val; // 0x18
+		::System::Boolean SetLastError; // 0x20
+		::System::Boolean ThrowOnUnmappableChar; // 0x21
+		::System::Boolean ExactSpelling; // 0x22
+		::System::Boolean BestFitMapping; // 0x23
+		::System::Boolean PreserveSig; // 0x24
+		::System::Byte _padding0[0x3];
+		::System::Runtime::InteropServices::CharSet CharSet; // 0x28
 		::System::Runtime::InteropServices::CallingConvention CallingConvention; // 0x2C
-
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::Runtime::InteropServices::CharSet a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Runtime::InteropServices::CallingConvention a7, ::System::Boolean a8, ::System::Boolean a9)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Runtime::InteropServices::CharSet, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Runtime::InteropServices::CallingConvention, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Runtime::InteropServices::CharSet, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Runtime::InteropServices::CallingConvention, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		::System::Void _ctor_1(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* a1)
@@ -54,5 +52,6 @@ namespace System::Runtime::InteropServices
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_INTEROPSERVICES_DLLIMPORTATTRIBUTE_GET_VALUE_OFFSET))(this);
 		}
+
 	};
 }

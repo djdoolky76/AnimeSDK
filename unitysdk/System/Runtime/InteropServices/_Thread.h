@@ -3,8 +3,6 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _Thread_TypeDefinitionIndex = 1453;
-
 	class _Thread
 	{
 	public:

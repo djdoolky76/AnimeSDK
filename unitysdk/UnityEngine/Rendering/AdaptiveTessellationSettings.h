@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/AdaptiveTessellationDrawControl.h"
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AdaptiveTessellationSettings_TypeDefinitionIndex = 4859;
-
 	struct alignas(4) AdaptiveTessellationSettings
 	{
 		::System::Boolean ForceDisable; // 0x10
@@ -15,6 +12,7 @@ namespace UnityEngine::Rendering
 		::System::Boolean ForceComplexDicingPattern; // 0x13
 		::System::Boolean ForceWireframe; // 0x14
 		::System::Boolean EnableWaterSSR; // 0x15
+		::System::Byte _padding0[0x2];
 		::UnityEngine::Rendering::AdaptiveTessellationDrawControl DrawControl; // 0x18
 	};
 }

@@ -1,16 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_AssetInfo_TypeDefinitionIndex = 39199;
-
 	struct alignas(4) HAPI_AssetInfo
 	{
 		::System::Int32 nodeId; // 0x10
 		::System::Int32 objectNodeId; // 0x14
 		::System::Boolean hasEverCooked; // 0x18
+		::System::Byte _padding0[0x3];
 		::System::Int32 nameSH; // 0x1C
 		::System::Int32 labelSH; // 0x20
 		::System::Int32 filePathSH; // 0x24

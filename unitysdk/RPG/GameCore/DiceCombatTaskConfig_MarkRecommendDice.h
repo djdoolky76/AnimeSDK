@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/DiceCombatTaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig; }
+namespace RPG::GameCore { class DiceCombatTaskConfig_MarkRecommendDice; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_6126108F28A381DF_OFFSET UNITYSDK_OFFSET(0x1D036170)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_FD7C2F4D18F7659D_OFFSET UNITYSDK_OFFSET(0x1D0361D0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0361C0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D612620)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D612630)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6125D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_MarkRecommendDice_TypeDefinitionIndex = 15981;
-
 	class DiceCombatTaskConfig_MarkRecommendDice : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:
 		::RPG::GameCore::DiceCombatDiceSelectorConfig* Selector; // 0x10
 		::System::String* IconPath; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6126108F28A381DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_6126108F28A381DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_FD7C2F4D18F7659D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_FD7C2F4D18F7659D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

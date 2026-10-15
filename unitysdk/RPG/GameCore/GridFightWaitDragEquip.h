@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightDragOpEquipSelector; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
+namespace RPG::GameCore { class GridFightWaitDragEquip; }
 
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_METHOD_3_1AEA5F294596E65B_OFFSET UNITYSDK_OFFSET(0x1D16EB20)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_METHOD_3_20AE246A6B389530_OFFSET UNITYSDK_OFFSET(0x1D16EAE0)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16EB10)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D749980)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D749990)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D749950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightWaitDragEquip_TypeDefinitionIndex = 19731;
-
 	class GridFightWaitDragEquip : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::GridFightDragOpEquipSelector* Equip; // 0x18
 		::RPG::GameCore::GridFightDragOpRoleSelector* TargetRole; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_20AE246A6B389530(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragEquip*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightWaitDragEquip* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightWaitDragEquip*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_METHOD_3_20AE246A6B389530_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightWaitDragEquip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1AEA5F294596E65B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragEquip* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::GridFightWaitDragEquip* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightWaitDragEquip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_METHOD_3_1AEA5F294596E65B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::GridFightWaitDragEquip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

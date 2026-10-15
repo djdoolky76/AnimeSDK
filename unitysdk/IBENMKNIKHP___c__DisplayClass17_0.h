@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GAHPNAEGACM;
+class IBENMKNIKHP;
+
+#define IBENMKNIKHP___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E2F710)
+#define IBENMKNIKHP___C__DISPLAYCLASS17_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15E30EC0)
+
+	class IBENMKNIKHP___c__DisplayClass17_0 : public ::System::Object
+	{
+	public:
+		::GAHPNAEGACM* detail; // 0x10
+		::IBENMKNIKHP* __4__this; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IBENMKNIKHP___C__DISPLAYCLASS17_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _OnDetailChange_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IBENMKNIKHP___C__DISPLAYCLASS17_0__ONDETAILCHANGE_B__0_OFFSET))(this);
+		}
+
+	};

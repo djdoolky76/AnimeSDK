@@ -3,8 +3,6 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IGroup_TypeDefinitionIndex = 9976;
-
 	class IGroup
 	{
 	public:

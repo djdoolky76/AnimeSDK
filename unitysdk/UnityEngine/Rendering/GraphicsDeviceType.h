@@ -3,8 +3,6 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GraphicsDeviceType_TypeDefinitionIndex = 4705;
-
 	enum class GraphicsDeviceType : ::System::Int32
 	{
 		OpenGL2 = 0,

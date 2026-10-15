@@ -1,18 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Sofa::Core { template <typename T1, typename T2> class ObservableDictionary_2; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventHandler; }
-namespace System::ComponentModel { class PropertyChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridContainer_1_TypeDefinitionIndex = 64889;
-
 	template <typename T>
 	class GridFightGridContainer_1 : public ::System::Object
 	{

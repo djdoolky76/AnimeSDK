@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSimpleProjectileMoveType_TypeDefinitionIndex = 10518;
-
 	enum class FiveDimSimpleProjectileMoveType : ::System::Int32
 	{
 		None = 0,

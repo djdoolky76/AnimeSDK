@@ -1,35 +1,31 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Text { class EncoderFallback; }
 namespace System::Text { class EncoderFallbackBuffer; }
 
-#define SYSTEM_TEXT_ENCODER_CONVERT_1_OFFSET UNITYSDK_OFFSET(0x1BC0B310)
-#define SYSTEM_TEXT_ENCODER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1BC0AEC0)
-#define SYSTEM_TEXT_ENCODER_GETBYTECOUNT_OFFSET UNITYSDK_OFFSET(0x1BC0AAC0)
-#define SYSTEM_TEXT_ENCODER_GETBYTES_OFFSET UNITYSDK_OFFSET(0x1BC0AC70)
-#define SYSTEM_TEXT_ENCODER_GET_FALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1BC0A6D0)
-#define SYSTEM_TEXT_ENCODER_GET_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1BC0A6C0)
-#define SYSTEM_TEXT_ENCODER_GET_INTERNALHASFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1BC0A8D0)
-#define SYSTEM_TEXT_ENCODER_RESET_OFFSET UNITYSDK_OFFSET(0x1BC0A8E0)
-#define SYSTEM_TEXT_ENCODER_SERIALIZEENCODER_OFFSET UNITYSDK_OFFSET(0x1BC0A610)
-#define SYSTEM_TEXT_ENCODER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC0A6B0)
+#define SYSTEM_TEXT_ENCODER_CONVERT_1_OFFSET UNITYSDK_OFFSET(0x1C1174E0)
+#define SYSTEM_TEXT_ENCODER_CONVERT_OFFSET UNITYSDK_OFFSET(0x1C117090)
+#define SYSTEM_TEXT_ENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C116880)
+#define SYSTEM_TEXT_ENCODER_GETBYTECOUNT_1_OFFSET UNITYSDK_OFFSET(0x1C116C90)
+#define SYSTEM_TEXT_ENCODER_GETBYTES_1_OFFSET UNITYSDK_OFFSET(0x1C116E40)
+#define SYSTEM_TEXT_ENCODER_GET_FALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1C1168A0)
+#define SYSTEM_TEXT_ENCODER_GET_FALLBACK_OFFSET UNITYSDK_OFFSET(0x1C116890)
+#define SYSTEM_TEXT_ENCODER_GET_INTERNALHASFALLBACKBUFFER_OFFSET UNITYSDK_OFFSET(0x1C116AA0)
+#define SYSTEM_TEXT_ENCODER_RESET_OFFSET UNITYSDK_OFFSET(0x1C116AB0)
+#define SYSTEM_TEXT_ENCODER_SERIALIZEENCODER_OFFSET UNITYSDK_OFFSET(0x1C1167E0)
 
 namespace System::Text
 {
-	inline static constexpr unsigned int Encoder_TypeDefinitionIndex = 478;
-
 	class Encoder : public ::System::Object
 	{
 	public:
 		::System::Text::EncoderFallback* m_fallback; // 0x10
 		::System::Text::EncoderFallbackBuffer* m_fallbackBuffer; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void SerializeEncoder(::System::Runtime::Serialization::SerializationInfo* a1)
@@ -57,24 +53,25 @@ namespace System::Text
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_RESET_OFFSET))(this);
 		}
 
-		::System::Int32 GetByteCount(::System::Char* a1, ::System::Int32 a2, ::System::Boolean a3)
+		::System::Int32 GetByteCount_1(::PVOID a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTECOUNT_OFFSET))(this, a1, a2, a3);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTECOUNT_1_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Int32 GetBytes(::System::Char* a1, ::System::Int32 a2, ::System::Byte* a3, ::System::Int32 a4, ::System::Boolean a5)
+		::System::Int32 GetBytes_1(::PVOID a1, ::System::Int32 a2, ::PVOID a3, ::System::Int32 a4, ::System::Boolean a5)
 		{
-			return ((::System::Int32(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Byte*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTES_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Int32(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_GETBYTES_1_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Void Convert(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Int32& a8, ::System::Int32& a9, ::System::Boolean& a10)
+		::System::Void Convert(::Il2CppArray<::System::Char>* a1, ::System::Int32 a2, ::System::Int32 a3, ::Il2CppArray<::System::Byte>* a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Boolean a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Boolean a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32&, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_CONVERT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Char>*, ::System::Int32, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_CONVERT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
-		::System::Void Convert_1(::System::Char* a1, ::System::Int32 a2, ::System::Byte* a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Int32& a6, ::System::Int32& a7, ::System::Boolean& a8)
+		::System::Void Convert_1(::PVOID a1, ::System::Int32 a2, ::PVOID a3, ::System::Int32 a4, ::System::Boolean a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Boolean a8)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Char*, ::System::Int32, ::System::Byte*, ::System::Int32, ::System::Boolean, ::System::Int32&, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_CONVERT_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32, ::PVOID, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODER_CONVERT_1_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);
 		}
+
 	};
 }

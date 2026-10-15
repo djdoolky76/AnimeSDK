@@ -3,8 +3,6 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ETrackedPropertyError_TypeDefinitionIndex = 37925;
-
 	enum class ETrackedPropertyError : ::System::Int32
 	{
 		TrackedProp_Success = 0,

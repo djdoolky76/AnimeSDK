@@ -4,8 +4,6 @@
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int MessagePackInitializer_TypeDefinitionIndex = 10128;
-
 	class MessagePackInitializer : public ::System::Object
 	{
 	public:

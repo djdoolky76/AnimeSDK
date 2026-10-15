@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SettingManager_WalkSwitchMode_TypeDefinitionIndex = 68277;
-
 	enum class SettingManager_WalkSwitchMode : ::System::Int32
 	{
 		Default = 0,

@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class CJLCPMDGIBO;
+namespace System { class Action; }
+namespace System::Collections::Generic { template <typename T> class ICollection_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define IFJOADBBGHG_ALFAOMCCAFC_OFFSET UNITYSDK_OFFSET(0x15F1EC10)
+#define IFJOADBBGHG_CAMMAKPPIIC_OFFSET UNITYSDK_OFFSET(0x15F1EA80)
+#define IFJOADBBGHG_CBMBGNCFLJA_OFFSET UNITYSDK_OFFSET(0x15F1E120)
+#define IFJOADBBGHG_CTOR_OFFSET UNITYSDK_OFFSET(0x15F1E0B0)
+#define IFJOADBBGHG_IABODAAEEMI_OFFSET UNITYSDK_OFFSET(0x15F1E5B0)
+#define IFJOADBBGHG_KFDEJDCCAMJ_OFFSET UNITYSDK_OFFSET(0x15F1EAF0)
+#define IFJOADBBGHG_MFKCJIPCEPJ_OFFSET UNITYSDK_OFFSET(0x15F1E0C0)
+
+	class IFJOADBBGHG : public ::System::Object
+	{
+	public:
+		::System::Action* AJLBGIPLGPF; // 0x10
+		::CJLCPMDGIBO* CNPMNHGHKFG; // 0x18
+		::System::Void _ctor(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + IFJOADBBGHG_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Boolean MFKCJIPCEPJ(::CJLCPMDGIBO* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::CJLCPMDGIBO*))((::PBYTE)hIl2Cpp + IFJOADBBGHG_MFKCJIPCEPJ_OFFSET))(this, a1);
+		}
+
+		::System::Void IABODAAEEMI(::System::Collections::Generic::ICollection_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::ICollection_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + IFJOADBBGHG_IABODAAEEMI_OFFSET))(this, a1);
+		}
+
+		::System::Boolean CAMMAKPPIIC(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + IFJOADBBGHG_CAMMAKPPIIC_OFFSET))(this, a1);
+		}
+
+		::System::Void KFDEJDCCAMJ(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + IFJOADBBGHG_KFDEJDCCAMJ_OFFSET))(this, a1);
+		}
+
+		::CJLCPMDGIBO* ALFAOMCCAFC()
+		{
+			return ((::CJLCPMDGIBO*(*)(::PVOID))((::PBYTE)hIl2Cpp + IFJOADBBGHG_ALFAOMCCAFC_OFFSET))(this);
+		}
+
+		::System::Boolean CBMBGNCFLJA(::CJLCPMDGIBO* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::CJLCPMDGIBO*))((::PBYTE)hIl2Cpp + IFJOADBBGHG_CBMBGNCFLJA_OFFSET))(this, a1);
+		}
+
+	};

@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleInitPosition_TypeDefinitionIndex = 11035;
-
 	enum class ChenLingBattleInitPosition : ::System::Int32
 	{
 		Front = 0,

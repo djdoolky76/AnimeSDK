@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropertyModifyFunction_TypeDefinitionIndex = 15467;
-
 	enum class PropertyModifyFunction : ::System::Int32
 	{
 		Unknow = 0,

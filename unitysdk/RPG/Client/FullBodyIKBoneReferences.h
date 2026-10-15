@@ -1,16 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
-
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_METHOD_2_906D8EFA88B137F6_OFFSET UNITYSDK_OFFSET(0x14FD50)
-#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_METHOD_2_99919161C4ADBACD_OFFSET UNITYSDK_OFFSET(0x14FD60)
+#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_EAGCDCPOFEL_OFFSET UNITYSDK_OFFSET(0xE9410)
+#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xE9400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullBodyIKBoneReferences_TypeDefinitionIndex = 68567;
-
 	struct alignas(8) FullBodyIKBoneReferences
 	{
 		::UnityEngine::Transform* root; // 0x10
@@ -29,15 +25,15 @@ namespace RPG::Client
 		::UnityEngine::Transform* rightHand; // 0x78
 		::UnityEngine::Transform* head; // 0x80
 		::Il2CppArray<::UnityEngine::Transform*>* spine; // 0x88
-
-		::System::Boolean Method_2_906D8EFA88B137F6()
+		::System::Boolean KKKIONIDKFA()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODYIKBONEREFERENCES_METHOD_2_906D8EFA88B137F6_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODYIKBONEREFERENCES_KKKIONIDKFA_OFFSET))(this);
 		}
 
-		::System::Boolean Method_2_99919161C4ADBACD(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
+		::System::Boolean EAGCDCPOFEL(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2, ::UnityEngine::Transform* a3)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODYIKBONEREFERENCES_METHOD_2_99919161C4ADBACD_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLBODYIKBONEREFERENCES_EAGCDCPOFEL_OFFSET))(this, a1, a2, a3);
 		}
+
 	};
 }

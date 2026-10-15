@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+class OFAKEFLLHNP;
+
+#define JMODOBCDGMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB273500)
+#define JMODOBCDGMM_GHAKDDNKLGH_OFFSET UNITYSDK_OFFSET(0xB2732A0)
+#define JMODOBCDGMM_HJEMHMNCBIN_OFFSET UNITYSDK_OFFSET(0xB273490)
+#define JMODOBCDGMM_PFIEMGLKFPC_OFFSET UNITYSDK_OFFSET(0xB273360)
+
+	class JMODOBCDGMM : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JMODOBCDGMM_CTOR_OFFSET))(this);
+		}
+
+		static ::OFAKEFLLHNP* GHAKDDNKLGH(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::FixPoint a2)
+		{
+			return ((::OFAKEFLLHNP*(*)(::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JMODOBCDGMM_GHAKDDNKLGH_OFFSET))(a1, a2);
+		}
+
+		static ::OFAKEFLLHNP* PFIEMGLKFPC(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::OFAKEFLLHNP*(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JMODOBCDGMM_PFIEMGLKFPC_OFFSET))(a1);
+		}
+
+		static ::OFAKEFLLHNP* HJEMHMNCBIN(::RPG::GameCore::FixPoint a1)
+		{
+			return ((::OFAKEFLLHNP*(*)(::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JMODOBCDGMM_HJEMHMNCBIN_OFFSET))(a1);
+		}
+
+	};

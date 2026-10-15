@@ -2,56 +2,53 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/MonoChunkStream_State.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Collections { class ArrayList; }
 namespace System::Net { class WebHeaderCollection; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NET_MONOCHUNKSTREAM_GETCHUNKSIZE_OFFSET UNITYSDK_OFFSET(0x1E9A2790)
-#define SYSTEM_NET_MONOCHUNKSTREAM_GET_CHUNKLEFT_OFFSET UNITYSDK_OFFSET(0x1E9A3570)
-#define SYSTEM_NET_MONOCHUNKSTREAM_GET_DATAAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1E9A3380)
-#define SYSTEM_NET_MONOCHUNKSTREAM_GET_WANTMORE_OFFSET UNITYSDK_OFFSET(0x1E9A3360)
-#define SYSTEM_NET_MONOCHUNKSTREAM_INTERNALWRITE_OFFSET UNITYSDK_OFFSET(0x1E9A2680)
-#define SYSTEM_NET_MONOCHUNKSTREAM_READBODY_OFFSET UNITYSDK_OFFSET(0x1E9A2C30)
-#define SYSTEM_NET_MONOCHUNKSTREAM_READCRLF_OFFSET UNITYSDK_OFFSET(0x1E9A2D70)
-#define SYSTEM_NET_MONOCHUNKSTREAM_READFROMCHUNKS_OFFSET UNITYSDK_OFFSET(0x1E9A2200)
-#define SYSTEM_NET_MONOCHUNKSTREAM_READTRAILER_OFFSET UNITYSDK_OFFSET(0x1E9A2EE0)
-#define SYSTEM_NET_MONOCHUNKSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1E9A21F0)
-#define SYSTEM_NET_MONOCHUNKSTREAM_REMOVECHUNKEXTENSION_OFFSET UNITYSDK_OFFSET(0x1E9A35F0)
-#define SYSTEM_NET_MONOCHUNKSTREAM_RESETBUFFER_OFFSET UNITYSDK_OFFSET(0x1E9A20F0)
-#define SYSTEM_NET_MONOCHUNKSTREAM_THROWPROTOCOLVIOLATION_OFFSET UNITYSDK_OFFSET(0x1E9A3590)
-#define SYSTEM_NET_MONOCHUNKSTREAM_WRITEANDREADBACK_OFFSET UNITYSDK_OFFSET(0x1E9A2190)
-#define SYSTEM_NET_MONOCHUNKSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1E9A20D0)
-#define SYSTEM_NET_MONOCHUNKSTREAM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E9A2000)
-#define SYSTEM_NET_MONOCHUNKSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A1EF0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F06A860)
+#define SYSTEM_NET_MONOCHUNKSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F06A760)
+#define SYSTEM_NET_MONOCHUNKSTREAM_GETCHUNKSIZE_OFFSET UNITYSDK_OFFSET(0x1F06AFF0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_GET_CHUNKLEFT_OFFSET UNITYSDK_OFFSET(0x1F06BDD0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_GET_DATAAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1F06BBE0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_GET_WANTMORE_OFFSET UNITYSDK_OFFSET(0x1F06BBC0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_INTERNALWRITE_OFFSET UNITYSDK_OFFSET(0x1F06AEE0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_READBODY_OFFSET UNITYSDK_OFFSET(0x1F06B490)
+#define SYSTEM_NET_MONOCHUNKSTREAM_READCRLF_OFFSET UNITYSDK_OFFSET(0x1F06B5D0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_READFROMCHUNKS_OFFSET UNITYSDK_OFFSET(0x1F06AA60)
+#define SYSTEM_NET_MONOCHUNKSTREAM_READTRAILER_OFFSET UNITYSDK_OFFSET(0x1F06B740)
+#define SYSTEM_NET_MONOCHUNKSTREAM_READ_OFFSET UNITYSDK_OFFSET(0x1F06AA50)
+#define SYSTEM_NET_MONOCHUNKSTREAM_REMOVECHUNKEXTENSION_OFFSET UNITYSDK_OFFSET(0x1F06BE50)
+#define SYSTEM_NET_MONOCHUNKSTREAM_RESETBUFFER_OFFSET UNITYSDK_OFFSET(0x1F06A950)
+#define SYSTEM_NET_MONOCHUNKSTREAM_THROWPROTOCOLVIOLATION_OFFSET UNITYSDK_OFFSET(0x1F06BDF0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_WRITEANDREADBACK_OFFSET UNITYSDK_OFFSET(0x1F06A9F0)
+#define SYSTEM_NET_MONOCHUNKSTREAM_WRITE_OFFSET UNITYSDK_OFFSET(0x1F06A930)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int MonoChunkStream_TypeDefinitionIndex = 2867;
-
 	class MonoChunkStream : public ::System::Object
 	{
 	public:
-		::System::Net::WebHeaderCollection* headers; // 0x10
-		::System::Collections::ArrayList* chunks; // 0x18
-		::System::Text::StringBuilder* saved; // 0x20
-		::System::Int32 totalWritten; // 0x28
-		::System::Int32 trailerState; // 0x2C
+		::System::Collections::ArrayList* chunks; // 0x10
+		::System::Text::StringBuilder* saved; // 0x18
+		::System::Net::WebHeaderCollection* headers; // 0x20
+		::System::Boolean gotit; // 0x28
+		::System::Boolean sawCR; // 0x29
+		::System::Byte _padding0[0x2];
+		::System::Int32 chunkRead; // 0x2C
 		::System::Int32 chunkSize; // 0x30
-		::System::Net::MonoChunkStream_State state; // 0x34
-		::System::Boolean sawCR; // 0x38
-		::System::Boolean gotit; // 0x39
-		::System::Int32 chunkRead; // 0x3C
-
+		::System::Int32 totalWritten; // 0x34
+		::System::Net::MonoChunkStream_State state; // 0x38
+		::System::Int32 trailerState; // 0x3C
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Net::WebHeaderCollection* a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Net::WebHeaderCollection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM__CTOR_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Net::WebHeaderCollection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_CTOR_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void _ctor_1(::System::Net::WebHeaderCollection* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::WebHeaderCollection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::WebHeaderCollection*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_CTOR_1_OFFSET))(this, a1);
 		}
 
 		::System::Void ResetBuffer()
@@ -59,9 +56,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_RESETBUFFER_OFFSET))(this);
 		}
 
-		::System::Void WriteAndReadBack(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32& a4)
+		::System::Void WriteAndReadBack(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_WRITEANDREADBACK_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_WRITEANDREADBACK_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Int32 Read(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -79,9 +76,9 @@ namespace System::Net
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_WRITE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void InternalWrite(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Int32 a3)
+		::System::Void InternalWrite(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_INTERNALWRITE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_INTERNALWRITE_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Boolean get_WantMore()
@@ -99,14 +96,14 @@ namespace System::Net
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_GET_CHUNKLEFT_OFFSET))(this);
 		}
 
-		::System::Net::MonoChunkStream_State ReadBody(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Int32 a3)
+		::System::Net::MonoChunkStream_State ReadBody(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_READBODY_OFFSET))(this, a1, a2, a3);
+			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_READBODY_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Net::MonoChunkStream_State GetChunkSize(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Int32 a3)
+		::System::Net::MonoChunkStream_State GetChunkSize(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_GETCHUNKSIZE_OFFSET))(this, a1, a2, a3);
+			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_GETCHUNKSIZE_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::String* RemoveChunkExtension(::System::String* a1)
@@ -114,19 +111,20 @@ namespace System::Net
 			return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_REMOVECHUNKEXTENSION_OFFSET))(a1);
 		}
 
-		::System::Net::MonoChunkStream_State ReadCRLF(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Int32 a3)
+		::System::Net::MonoChunkStream_State ReadCRLF(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_READCRLF_OFFSET))(this, a1, a2, a3);
+			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_READCRLF_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Net::MonoChunkStream_State ReadTrailer(::Il2CppArray<::System::Byte>* a1, ::System::Int32& a2, ::System::Int32 a3)
+		::System::Net::MonoChunkStream_State ReadTrailer(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_READTRAILER_OFFSET))(this, a1, a2, a3);
+			return ((::System::Net::MonoChunkStream_State(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_READTRAILER_OFFSET))(this, a1, a2, a3);
 		}
 
 		static ::System::Void ThrowProtocolViolation(::System::String* a1)
 		{
 			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_NET_MONOCHUNKSTREAM_THROWPROTOCOLVIOLATION_OFFSET))(a1);
 		}
+
 	};
 }

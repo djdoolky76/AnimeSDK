@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
-#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
-
+#include "unitysdk/UnityEngine/Playables/Playable.h"
+#include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE81CE20)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE81CE10)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xE81CF00)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8BA990)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BAA70)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE8BA980)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPTalkHideClip_TypeDefinitionIndex = 49274;
-
 	class BPTalkHideClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Timeline::ClipCaps get_clipCaps()
@@ -32,5 +29,6 @@ namespace RPGTools::Timeline::BattlePerform
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKHIDECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

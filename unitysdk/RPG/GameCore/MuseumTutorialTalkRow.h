@@ -1,31 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class MuseumTutorialTalkRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D2E8930)
-#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E8A30)
+#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CB3E0)
+#define RPG_GAMECORE_MUSEUMTUTORIALTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8CB2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumTutorialTalkRow_TypeDefinitionIndex = 14149;
-
 	class MuseumTutorialTalkRow : public ::System::Object
 	{
 	public:
 		::System::String* TriggerCustomString; // 0x10
 		::System::UInt32 TriggerMissionID; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMTUTORIALTALKROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMTUTORIALTALKROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuseumTutorialTalkRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::MuseumTutorialTalkRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuseumTutorialTalkRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMTUTORIALTALKROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::MuseumTutorialTalkRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMTUTORIALTALKROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

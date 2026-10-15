@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int SnapshotInterpolateSystem_1_State_TypeDefinitionIndex = 36232;
-
 	enum class SnapshotInterpolateSystem_1_State : ::System::Int32
 	{
 		Init = 0,

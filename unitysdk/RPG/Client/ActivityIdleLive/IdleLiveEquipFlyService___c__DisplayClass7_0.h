@@ -1,28 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
+#include "unitysdk/System/ValueTuple.h"
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5B5B50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__ONALLEQUIPSELECTFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0xC5B6100)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4CD7E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__ONALLEQUIPSELECTFINISHED_B__0_OFFSET UNITYSDK_OFFSET(0xC4CDD90)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass7_0_TypeDefinitionIndex = 74988;
-
 	class IdleLiveEquipFlyService___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::ValueTuple_2<::System::Boolean, ::System::Boolean> spEquipHintData; // 0x10
-
+		::System::ValueTuple spEquipHintData; // 0x10
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _OnAllEquipSelectFinished_b__0()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS7_0__ONALLEQUIPSELECTFINISHED_B__0_OFFSET))(this);
 		}
+
 	};
 }

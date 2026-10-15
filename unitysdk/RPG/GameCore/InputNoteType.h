@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InputNoteType_TypeDefinitionIndex = 16758;
-
 	enum class InputNoteType : ::System::Int32
 	{
 		ShortPress = 0,

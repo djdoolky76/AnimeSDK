@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Rendering/MSAASamples.h"
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphExecuteParams_TypeDefinitionIndex = 34779;
-
 	struct alignas(4) RenderGraphExecuteParams
 	{
 		::System::Int32 renderingWidth; // 0x10

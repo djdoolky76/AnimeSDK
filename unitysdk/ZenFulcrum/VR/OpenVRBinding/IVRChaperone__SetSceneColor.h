@@ -2,26 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 #include "unitysdk/ZenFulcrum/VR/OpenVRBinding/HmdColor_t.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB2E30)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFB2EA0)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFAB480)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB2DC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F67B380)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67B310)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F67B3F0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F6739F0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperone__SetSceneColor_TypeDefinitionIndex = 37692;
-
 	class IVRChaperone__SetSceneColor : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::ZenFulcrum::VR::OpenVRBinding::HmdColor_t a1)
@@ -38,5 +35,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRCHAPERONE__SETSCENECOLOR_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

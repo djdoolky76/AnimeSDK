@@ -3,14 +3,12 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillConditionMask_TypeDefinitionIndex = 17456;
-
 	enum class RtSkillConditionMask : ::System::UInt32
 	{
-		None = 0x0,
-		All = 0x3,
-		SkillReady = 0x1,
-		TargetValid = 0x2,
-		TargetInRange = 0x4,
+		None = 0,
+		All = 3,
+		SkillReady = 1,
+		TargetValid = 2,
+		TargetInRange = 4,
 	};
 }

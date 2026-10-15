@@ -4,17 +4,15 @@
 #include "unitysdk/RPG/GameCore/LittleGameComponentConfig.h"
 #include "unitysdk/RPG/MRect.h"
 #include "unitysdk/RPG/MVector2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimScrollViewConfig; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_METHOD_3_43ECA74DC3C99077_OFFSET UNITYSDK_OFFSET(0x1D0FE6A0)
-#define RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_METHOD_3_7A7DC23F44E44D92_OFFSET UNITYSDK_OFFSET(0x1D0FE6E0)
-#define RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FE6D0)
+#define RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D7E30)
+#define RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6D7E40)
+#define RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D7E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimScrollViewConfig_TypeDefinitionIndex = 18325;
-
 	class FiveDimScrollViewConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
@@ -23,20 +21,20 @@ namespace RPG::GameCore
 		::RPG::MRect SoftRect; // 0x24
 		::RPG::MRect ViewRect; // 0x34
 		::RPG::MVector2 InitScrollValue; // 0x44
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_43ECA74DC3C99077(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimScrollViewConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimScrollViewConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimScrollViewConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_METHOD_3_43ECA74DC3C99077_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimScrollViewConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_7A7DC23F44E44D92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimScrollViewConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimScrollViewConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimScrollViewConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_METHOD_3_7A7DC23F44E44D92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimScrollViewConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSCROLLVIEWCONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

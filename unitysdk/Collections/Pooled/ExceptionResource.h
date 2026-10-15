@@ -3,8 +3,6 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int ExceptionResource_TypeDefinitionIndex = 5129;
-
 	enum class ExceptionResource : ::System::Int32
 	{
 		ArgumentOutOfRange_Index = 0,

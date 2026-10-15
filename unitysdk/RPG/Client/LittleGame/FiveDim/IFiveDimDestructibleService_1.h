@@ -3,8 +3,6 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IFiveDimDestructibleService_1_TypeDefinitionIndex = 41957;
-
 	template <typename T>
 	class IFiveDimDestructibleService_1
 	{

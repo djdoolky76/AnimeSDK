@@ -2,32 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/EnviromentControlPriority.h"
 #include "unitysdk/System/Object.h"
-
-class Class_0_16E4307DCC419505_357;
-class Class_0_16E4307DCC419505_374;
+class COGBNIGPJPO;
+class ODGPPIHLOFF;
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15362110)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x15363C30)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET UNITYSDK_OFFSET(0x15364010)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15651600)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x15653120)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET UNITYSDK_OFFSET(0x15653500)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass56_0_TypeDefinitionIndex = 49897;
-
 	class EnvironmentSystemV2___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_357* targetProfile; // 0x10
-		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x18
-		::System::Action_1<::System::Boolean>* __9__2; // 0x20
-		::Class_0_16E4307DCC419505_374* h; // 0x28
+		::System::Action* __9__2; // 0x10
+		::ODGPPIHLOFF* h; // 0x18
+		::COGBNIGPJPO* targetProfile; // 0x20
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x28
 		::RPG::GameCore::EnviromentControlPriority priority; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0_CTOR_OFFSET))(this);
 		}
 
 		::System::Void _SetActiveProfileAfterAsyncResLoading_b__0(::System::Boolean a1)
@@ -39,5 +35,6 @@ namespace EnviromentSystemV2Space
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET))(this, a1);
 		}
+
 	};
 }

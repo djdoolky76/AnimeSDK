@@ -3,27 +3,25 @@
 
 namespace RPG::Expression
 {
-	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 10347;
-
 	enum class OpCode : ::System::Byte
 	{
-		Constant = 0x0,
-		GetGlobal = 0x1,
-		Add = 0x2,
-		Subtract = 0x3,
-		Multiply = 0x4,
-		Divide = 0x5,
-		Modulo = 0x6,
-		Equal = 0x7,
-		NotEqual = 0x8,
-		Less = 0x9,
-		Greater = 0xA,
-		LessOrEqual = 0xB,
-		GreaterOrEqual = 0xC,
-		TernaryCondition = 0xD,
-		Negative = 0xE,
-		Not = 0xF,
-		Call = 0x10,
-		Return = 0x11,
+		Constant = 0,
+		GetGlobal = 1,
+		Add = 2,
+		Subtract = 3,
+		Multiply = 4,
+		Divide = 5,
+		Modulo = 6,
+		Equal = 7,
+		NotEqual = 8,
+		Less = 9,
+		Greater = 10,
+		LessOrEqual = 11,
+		GreaterOrEqual = 12,
+		TernaryCondition = 13,
+		Negative = 14,
+		Not = 15,
+		Call = 16,
+		Return = 17,
 	};
 }

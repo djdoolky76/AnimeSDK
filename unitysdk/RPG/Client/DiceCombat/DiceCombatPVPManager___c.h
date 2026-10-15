@@ -1,52 +1,53 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Action; }
 namespace System { class Exception; }
+namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
-namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD2E3D0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2E410)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___DOCREATELOBBY_B__9_0_OFFSET UNITYSDK_OFFSET(0xCD2E420)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___JOINLOBBYINTERNAL_B__28_1_OFFSET UNITYSDK_OFFSET(0xCD2E430)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___ONGIVEUP_B__32_0_OFFSET UNITYSDK_OFFSET(0xCD2E4A0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC2E020)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC2E060)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___DOCREATELOBBY_B__9_0_OFFSET UNITYSDK_OFFSET(0xCC2E070)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___JOINLOBBYINTERNAL_B__28_1_OFFSET UNITYSDK_OFFSET(0xCC2E080)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___ONGIVEUP_B__32_0_OFFSET UNITYSDK_OFFSET(0xCC2E0F0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatPVPManager___c_TypeDefinitionIndex = 75661;
-
 	class DiceCombatPVPManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::RPG::Client::Promises::IPromise*>** StaticGet___9__32_0()
 		{
-			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x600F0);
+			return (::System::Func_1<::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x25D90);
 		}
-		static ::RPG::Client::DiceCombat::DiceCombatPVPManager___c** StaticGet___9()
+
+		static ::System::Action** StaticGet___9__28_1()
 		{
-			return (::RPG::Client::DiceCombat::DiceCombatPVPManager___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x600F8);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x25D98);
 		}
+
 		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x60100);
+			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x25DA0);
 		}
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__28_1()
+
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatPVPManager___c_TypeDefinitionIndex)->GetStaticField(0x60108);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x25DA8);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C_CTOR_OFFSET))(this);
 		}
 
 		::RPG::Client::BaseLobby* __DoCreateLobby_b__9_0(::RPG::Client::BaseLobby* a1)
@@ -63,5 +64,6 @@ namespace RPG::Client::DiceCombat
 		{
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DICECOMBAT_DICECOMBATPVPMANAGER___C___ONGIVEUP_B__32_0_OFFSET))(this);
 		}
+
 	};
 }

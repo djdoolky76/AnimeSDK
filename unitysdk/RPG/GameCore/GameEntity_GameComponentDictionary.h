@@ -1,21 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/Dictionary_2.h"
 
-namespace RPG::GameCore { class GameComponentBase; }
-
-#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTDICTIONARY__CTOR_OFFSET UNITYSDK_OFFSET(0xE651EE0)
+#define RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTDICTIONARY_CTOR_OFFSET UNITYSDK_OFFSET(0xE6AA0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntity_GameComponentDictionary_TypeDefinitionIndex = 53770;
-
-	class GameEntity_GameComponentDictionary : public ::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::GameComponentBase*>
+	class GameEntity_GameComponentDictionary
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTDICTIONARY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GAMEENTITY_GAMECOMPONENTDICTIONARY_CTOR_OFFSET))(this);
 		}
+
 	};
 }

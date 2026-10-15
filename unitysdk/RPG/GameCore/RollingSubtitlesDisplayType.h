@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RollingSubtitlesDisplayType_TypeDefinitionIndex = 24549;
-
 	enum class RollingSubtitlesDisplayType : ::System::Int32
 	{
 		fullScreen = 0,

@@ -1,43 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
-
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class Transform; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserCursor; }
 namespace ZenFulcrum::EmbeddedBrowser { class FPSBrowserUI; }
+namespace ZenFulcrum::EmbeddedBrowser { class FPSCursorRenderer; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1EF957D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1EF95700)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_ONGUI_OFFSET UNITYSDK_OFFSET(0x1EF958C0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1EF95C30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETUPBROWSERINPUT_OFFSET UNITYSDK_OFFSET(0x1EF95220)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1EF957E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_START_OFFSET UNITYSDK_OFFSET(0x1EF957F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF95C40)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65E100)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1F65DC90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1F65DBC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_ONGUI_OFFSET UNITYSDK_OFFSET(0x1F65DD80)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETCURSOR_OFFSET UNITYSDK_OFFSET(0x1F65E0F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETUPBROWSERINPUT_OFFSET UNITYSDK_OFFSET(0x1F65D6E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SET_ENABLEINPUT_OFFSET UNITYSDK_OFFSET(0x1F65DCA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_START_OFFSET UNITYSDK_OFFSET(0x1F65DCB0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int FPSCursorRenderer_TypeDefinitionIndex = 38181;
-
 	class FPSCursorRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer** StaticGet__instance()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer**)Il2CppClass::FromTypeDefinitionIndex(FPSCursorRenderer_TypeDefinitionIndex)->GetStaticField(0x57B70);
-		}
 		::System::Single scale; // 0x18
 		::System::Single maxDistance; // 0x1C
 		::UnityEngine::Transform* pointer; // 0x20
 		::System::Boolean _EnableInput_k__BackingField; // 0x28
+		::System::Byte _padding0[0x7];
 		::ZenFulcrum::EmbeddedBrowser::BrowserCursor* baseCursor; // 0x30
 		::ZenFulcrum::EmbeddedBrowser::BrowserCursor* currentCursor; // 0x38
+		static ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer** StaticGet__instance()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "FPSCursorRenderer")->GetStaticField(0x529C0);
+		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_CTOR_OFFSET))(this);
 		}
 
 		static ::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer* get_Instance()
@@ -74,5 +73,6 @@ namespace ZenFulcrum::EmbeddedBrowser
 		{
 			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::BrowserCursor*, ::ZenFulcrum::EmbeddedBrowser::FPSBrowserUI*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_FPSCURSORRENDERER_SETCURSOR_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

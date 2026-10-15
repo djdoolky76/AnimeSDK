@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class GHHJNCOAIJF;
+class GHHJNCOAIJF_KKHGKLOBDFN;
+class IHGIENOHBMJ;
+namespace RPG::Client::Promises { class Promise; }
+namespace System { class Action; }
+namespace System { class Exception; }
+namespace System { class Object; }
+
+#define GHHJNCOAIJF___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A20120)
+#define GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__0_OFFSET UNITYSDK_OFFSET(0x15A20AC0)
+#define GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__1_OFFSET UNITYSDK_OFFSET(0x15A20B50)
+#define GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__2_OFFSET UNITYSDK_OFFSET(0x15A20C30)
+
+	class GHHJNCOAIJF___c__DisplayClass7_0 : public ::System::Object
+	{
+	public:
+		::System::Action* __9__2; // 0x10
+		::GHHJNCOAIJF_KKHGKLOBDFN* retrySendParams; // 0x18
+		::System::Action* sendOnce; // 0x20
+		::RPG::Client::Promises::Promise* promise; // 0x28
+		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x30
+		::GHHJNCOAIJF* __4__this; // 0x38
+		::System::Action* onError; // 0x40
+		::System::UInt32 curRetries; // 0x48
+		::System::UInt32 retries; // 0x4C
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHHJNCOAIJF___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _SendWithRetry_b__0(::System::Exception* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Void _SendWithRetry_b__1(::GHHJNCOAIJF_KKHGKLOBDFN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GHHJNCOAIJF_KKHGKLOBDFN*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__1_OFFSET))(this, a1);
+		}
+
+		::System::Void _SendWithRetry_b__2(::IHGIENOHBMJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IHGIENOHBMJ*))((::PBYTE)hIl2Cpp + GHHJNCOAIJF___C__DISPLAYCLASS7_0__SENDWITHRETRY_B__2_OFFSET))(this, a1);
+		}
+
+	};

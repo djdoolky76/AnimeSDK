@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeConditionLogicType_TypeDefinitionIndex = 16963;
-
 	enum class LevelNavNodeConditionLogicType : ::System::Int32
 	{
 		Or = 0,

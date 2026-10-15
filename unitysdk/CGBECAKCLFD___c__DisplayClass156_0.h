@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
+
+#define CGBECAKCLFD___C__DISPLAYCLASS156_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC81D00)
+#define CGBECAKCLFD___C__DISPLAYCLASS156_0__APPLYSLAMTARGETSPEEDCLAMP_B__0_OFFSET UNITYSDK_OFFSET(0xCC85100)
+
+	class CGBECAKCLFD___c__DisplayClass156_0 : public ::System::Object
+	{
+	public:
+		::System::Int32 priority; // 0x10
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CGBECAKCLFD___C__DISPLAYCLASS156_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean _ApplySlamTargetSpeedClamp_b__0(::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::RoadRash::RoadRashAbilityValueModifer*))((::PBYTE)hIl2Cpp + CGBECAKCLFD___C__DISPLAYCLASS156_0__APPLYSLAMTARGETSPEEDCLAMP_B__0_OFFSET))(this, a1);
+		}
+
+	};

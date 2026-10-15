@@ -1,34 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
-
+#include "unitysdk/System/Guid.h"
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
-namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
-namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
+namespace UnityEngine::Events { class UnityAction; }
+namespace UnityEngine::Events { class UnityEvent; }
 namespace UnityEngine::Networking::PlayerConnection { class MessageEventArgs; }
 namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnectionEvents_ConnectionChangeEvent; }
-namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnectionEvents_MessageTypeSubscribers; }
 
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_ADDANDCREATE_OFFSET UNITYSDK_OFFSET(0x1ED40010)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_INVOKEMESSAGEIDSUBSCRIBERS_OFFSET UNITYSDK_OFFSET(0x1ED40FF0)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_UNREGISTERMANAGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1ED403A0)
-#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ED419B0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_ADDANDCREATE_OFFSET UNITYSDK_OFFSET(0x1F407DC0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F409760)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_INVOKEMESSAGEIDSUBSCRIBERS_OFFSET UNITYSDK_OFFSET(0x1F408DA0)
+#define UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_UNREGISTERMANAGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1F408150)
 
 namespace UnityEngine::Networking::PlayerConnection
 {
-	inline static constexpr unsigned int PlayerEditorConnectionEvents_TypeDefinitionIndex = 4674;
-
 	class PlayerEditorConnectionEvents : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers*>* messageTypeSubscribers; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* messageTypeSubscribers; // 0x10
 		::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* connectionEvent; // 0x18
 		::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_ConnectionChangeEvent* disconnectionEvent; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_CTOR_OFFSET))(this);
 		}
 
 		::System::Void InvokeMessageIdSubscribers(::System::Guid a1, ::Il2CppArray<::System::Byte>* a2, ::System::Int32 a3)
@@ -36,14 +32,15 @@ namespace UnityEngine::Networking::PlayerConnection
 			return ((::System::Void(*)(::PVOID, ::System::Guid, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_INVOKEMESSAGEIDSUBSCRIBERS_OFFSET))(this, a1, a2, a3);
 		}
 
-		::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid a1)
+		::UnityEngine::Events::UnityEvent* AddAndCreate(::System::Guid a1)
 		{
-			return ((::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_ADDANDCREATE_OFFSET))(this, a1);
+			return ((::UnityEngine::Events::UnityEvent*(*)(::PVOID, ::System::Guid))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_ADDANDCREATE_OFFSET))(this, a1);
 		}
 
-		::System::Void UnregisterManagedCallback(::System::Guid a1, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* a2)
+		::System::Void UnregisterManagedCallback(::System::Guid a1, ::UnityEngine::Events::UnityAction* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Guid, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_UNREGISTERMANAGEDCALLBACK_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Guid, ::UnityEngine::Events::UnityAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_NETWORKING_PLAYERCONNECTION_PLAYEREDITORCONNECTIONEVENTS_UNREGISTERMANAGEDCALLBACK_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

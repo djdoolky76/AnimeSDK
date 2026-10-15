@@ -2,31 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class IdleLiveGachaAvatarStarRow; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D19FC60)
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D19FDE0)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77BAE0)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77B960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGachaAvatarStarRow_TypeDefinitionIndex = 11747;
-
 	class IdleLiveGachaAvatarStarRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AvatarPiece; // 0x10
-		::System::UInt32 AvatarStar; // 0x14
+		::System::UInt32 AvatarStar; // 0x10
+		::System::UInt32 AvatarPiece; // 0x14
 		::RPG::GameCore::FixPoint StarAddPower; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IdleLiveGachaAvatarStarRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::IdleLiveGachaAvatarStarRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IdleLiveGachaAvatarStarRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::IdleLiveGachaAvatarStarRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

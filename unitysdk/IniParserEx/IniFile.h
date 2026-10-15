@@ -1,41 +1,39 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 #include "unitysdk/System/Object.h"
-
 namespace IniParserEx { class BaseParser; }
+namespace IniParserEx { class IniFile; }
 namespace IniParserEx { class IniFile_Section; }
 namespace IniParserEx { class Token; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { class KeyValuePair; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define INIPARSEREX_INIFILE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1ECFED80)
-#define INIPARSEREX_INIFILE_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1ECFE8C0)
-#define INIPARSEREX_INIFILE_GET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x1ECFE8B0)
-#define INIPARSEREX_INIFILE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ECFECD0)
-#define INIPARSEREX_INIFILE_GET_SECTIONS_OFFSET UNITYSDK_OFFSET(0x1ECFEE30)
-#define INIPARSEREX_INIFILE_ONNEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1ECFE590)
-#define INIPARSEREX_INIFILE_PARSE_OFFSET UNITYSDK_OFFSET(0x1ECFE980)
-#define INIPARSEREX_INIFILE_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1ECFEDE0)
-#define INIPARSEREX_INIFILE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1ECFEE40)
-#define INIPARSEREX_INIFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFE8D0)
+#define INIPARSEREX_INIFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C6670)
+#define INIPARSEREX_INIFILE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F3C6B20)
+#define INIPARSEREX_INIFILE_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x1F3C6660)
+#define INIPARSEREX_INIFILE_GET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x1F3C6650)
+#define INIPARSEREX_INIFILE_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F3C6A70)
+#define INIPARSEREX_INIFILE_GET_SECTIONS_OFFSET UNITYSDK_OFFSET(0x1F3C6BD0)
+#define INIPARSEREX_INIFILE_ONNEXTTOKEN_OFFSET UNITYSDK_OFFSET(0x1F3C6330)
+#define INIPARSEREX_INIFILE_PARSE_OFFSET UNITYSDK_OFFSET(0x1F3C6720)
+#define INIPARSEREX_INIFILE_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1F3C6B80)
+#define INIPARSEREX_INIFILE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F3C6BE0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int IniFile_TypeDefinitionIndex = 3930;
-
 	class IniFile : public ::System::Object
 	{
 	public:
 		::System::String* _FilePath_k__BackingField; // 0x10
 		::System::String* _Content_k__BackingField; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::IniParserEx::IniFile_Section*>* _Sections_k__BackingField; // 0x20
-
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* _Sections_k__BackingField; // 0x20
 		::System::Void _ctor(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::String* get_FilePath()
@@ -63,9 +61,9 @@ namespace IniParserEx
 			return ((::IniParserEx::IniFile_Section*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_GET_ITEM_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_Section*>>* GetEnumerator()
+		::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>* GetEnumerator()
 		{
-			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::IniParserEx::IniFile_Section*>>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_GETENUMERATOR_OFFSET))(this);
+			return ((::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_GETENUMERATOR_OFFSET))(this);
 		}
 
 		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
@@ -73,14 +71,15 @@ namespace IniParserEx
 			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::IniParserEx::IniFile_Section*>* get_Sections()
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* get_Sections()
 		{
-			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::IniParserEx::IniFile_Section*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_GET_SECTIONS_OFFSET))(this);
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_GET_SECTIONS_OFFSET))(this);
 		}
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + INIPARSEREX_INIFILE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

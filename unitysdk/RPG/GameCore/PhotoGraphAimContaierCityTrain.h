@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PhotoGraphAimContainerTargetBase.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class PhotoGraphAimContaierCityTrain; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_METHOD_3_05381F0761249630_OFFSET UNITYSDK_OFFSET(0x1D3281F0)
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_METHOD_3_EC54420CBD7AF571_OFFSET UNITYSDK_OFFSET(0x1D3282B0)
-#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D328270)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90CFE0)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D90D020)
+#define RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90CF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAimContaierCityTrain_TypeDefinitionIndex = 17321;
-
 	class PhotoGraphAimContaierCityTrain : public ::RPG::GameCore::PhotoGraphAimContainerTargetBase
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_05381F0761249630(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAimContaierCityTrain*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphAimContaierCityTrain* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAimContaierCityTrain*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_METHOD_3_05381F0761249630_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphAimContaierCityTrain*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EC54420CBD7AF571(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphAimContaierCityTrain* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PhotoGraphAimContaierCityTrain* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphAimContaierCityTrain*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_METHOD_3_EC54420CBD7AF571_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PhotoGraphAimContaierCityTrain*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHAIMCONTAIERCITYTRAIN_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

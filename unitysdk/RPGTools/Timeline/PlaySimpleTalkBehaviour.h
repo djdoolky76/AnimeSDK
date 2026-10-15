@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SimpleTalkBlackMaskColor.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/FrameData.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
-#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
-
 namespace RPG::Client { class MonoEmoAnimMouthShapeLayerController; }
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace RPG::Client { class MonoEmoPlayableGraph; }
@@ -13,41 +12,43 @@ namespace RPG::GameCore { class SimpleTalkStyle; }
 namespace System { class String; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE8C1110)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8C08B0)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE8C12A0)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE8C07D0)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8C1420)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE916BE0)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE9168D0)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE916070)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE916A60)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xE915F90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaySimpleTalkBehaviour_TypeDefinitionIndex = 48682;
-
 	class PlaySimpleTalkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
 		::RPG::GameCore::SimpleTalkInfo* ConfigRef; // 0x10
 		::RPG::GameCore::SimpleTalkStyle* StyleRef; // 0x18
 		::System::Boolean KeepDisplay; // 0x20
+		::System::Byte _padding0[0x3];
 		::System::Single Duration; // 0x24
 		::System::Boolean BlackMask; // 0x28
+		::System::Byte _padding1[0x3];
 		::RPG::GameCore::SimpleTalkBlackMaskColor BlackMaskColor; // 0x2C
 		::System::Boolean NeedFadeBlackMask; // 0x30
+		::System::Byte _padding2[0x3];
 		::System::Single BlackMaskFadeDuration; // 0x34
 		::System::Boolean ProtectByVoice; // 0x38
 		::System::Boolean ForceToNextOnProtectEnd; // 0x39
 		::System::Boolean AutoEnd; // 0x3A
+		::System::Byte _padding3[0x5];
 		::System::String* UniqueName; // 0x40
 		::System::Boolean Use3DVoice; // 0x48
 		::System::Boolean UseDiscussionMouthTalk; // 0x49
+		::System::Byte _padding4[0x6];
 		::RPG::Client::MonoEmoAnimMouthShapeLayerController* _MonoEmoAnimMouthShapeLayerController; // 0x50
 		::UnityEngine::Playables::PlayableDirector* _Director; // 0x58
 		::RPG::Client::MonoEmoPlayableGraph* _MonoEmoPlayableGraph; // 0x60
 		::RPG::Client::MonoEmoBlendShapesController* _MonoEmoBlendShapesController; // 0x68
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
 		::System::Void OnPlayableCreate(::UnityEngine::Playables::Playable a1)
@@ -69,5 +70,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
+
 	};
 }

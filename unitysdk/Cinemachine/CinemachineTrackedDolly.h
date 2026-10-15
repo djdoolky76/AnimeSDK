@@ -1,6 +1,5 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cinemachine/CameraState.h"
 #include "unitysdk/Cinemachine/CinemachineComponentBase.h"
 #include "unitysdk/Cinemachine/CinemachineCore_Stage.h"
 #include "unitysdk/Cinemachine/CinemachinePathBase_PositionUnits.h"
@@ -8,21 +7,19 @@
 #include "unitysdk/Cinemachine/CinemachineTrackedDolly_CameraUpMode.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
-
+#include "unitysdk/Cinemachine/CameraState.h"
 namespace Cinemachine { class CinemachinePathBase; }
 
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GETCAMERAORIENTATIONATPATHPOINT_OFFSET UNITYSDK_OFFSET(0x1647DB20)
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x1647C610)
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GET_ANGULARDAMPING_OFFSET UNITYSDK_OFFSET(0x1647C690)
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1647C5C0)
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x1647C600)
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x1647C700)
-#define CINEMACHINE_CINEMACHINETRACKEDDOLLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1647E120)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_CTOR_OFFSET UNITYSDK_OFFSET(0x166A4D10)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GETCAMERAORIENTATIONATPATHPOINT_OFFSET UNITYSDK_OFFSET(0x166A4710)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GETMAXDAMPTIME_OFFSET UNITYSDK_OFFSET(0x166A3200)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GET_ANGULARDAMPING_OFFSET UNITYSDK_OFFSET(0x166A3280)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x166A31B0)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_GET_STAGE_OFFSET UNITYSDK_OFFSET(0x166A31F0)
+#define CINEMACHINE_CINEMACHINETRACKEDDOLLY_MUTATECAMERASTATE_OFFSET UNITYSDK_OFFSET(0x166A32F0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTrackedDolly_TypeDefinitionIndex = 38492;
-
 	class CinemachineTrackedDolly : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:
@@ -41,10 +38,9 @@ namespace Cinemachine
 		::System::Single m_PreviousPathPosition; // 0x98
 		::UnityEngine::Quaternion m_PreviousOrientation; // 0x9C
 		::UnityEngine::Vector3 m_PreviousCameraPosition; // 0xAC
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRACKEDDOLLY__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRACKEDDOLLY_CTOR_OFFSET))(this);
 		}
 
 		::System::Boolean get_IsValid()
@@ -62,9 +58,9 @@ namespace Cinemachine
 			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRACKEDDOLLY_GETMAXDAMPTIME_OFFSET))(this);
 		}
 
-		::System::Void MutateCameraState(::Cinemachine::CameraState& a1, ::System::Single a2)
+		::System::Void MutateCameraState(::Cinemachine::CameraState a1, ::System::Single a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRACKEDDOLLY_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CameraState, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRACKEDDOLLY_MUTATECAMERASTATE_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Quaternion GetCameraOrientationAtPathPoint(::UnityEngine::Quaternion a1, ::UnityEngine::Vector3 a2)
@@ -76,5 +72,6 @@ namespace Cinemachine
 		{
 			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRACKEDDOLLY_GET_ANGULARDAMPING_OFFSET))(this);
 		}
+
 	};
 }

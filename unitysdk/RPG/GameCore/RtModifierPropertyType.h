@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtModifierPropertyType_TypeDefinitionIndex = 24525;
-
 	enum class RtModifierPropertyType : ::System::Int32
 	{
 		Chance = 0,

@@ -1,20 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Mono::Security::Interface { class MonoLocalCertificateSelectionCallback; }
 namespace Mono::Security::Interface { class MonoRemoteCertificateValidationCallback; }
 namespace System::Net::Security { class LocalCertSelectionCallback; }
 namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1E8FB6D0)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOPUBLIC_OFFSET UNITYSDK_OFFSET(0x1E8FB630)
-#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_PUBLICTOMONO_OFFSET UNITYSDK_OFFSET(0x1E9044F0)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOINTERNAL_OFFSET UNITYSDK_OFFSET(0x1EFC47E0)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOPUBLIC_OFFSET UNITYSDK_OFFSET(0x1EFC4740)
+#define MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_PUBLICTOMONO_OFFSET UNITYSDK_OFFSET(0x1EFCD390)
 
 namespace Mono::Net::Security::Private
 {
-	inline static constexpr unsigned int CallbackHelpers_TypeDefinitionIndex = 2448;
-
 	class CallbackHelpers : public ::System::Object
 	{
 	public:
@@ -32,5 +29,6 @@ namespace Mono::Net::Security::Private
 		{
 			return ((::System::Net::Security::LocalCertSelectionCallback*(*)(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_PRIVATE_CALLBACKHELPERS_MONOTOINTERNAL_OFFSET))(a1);
 		}
+
 	};
 }

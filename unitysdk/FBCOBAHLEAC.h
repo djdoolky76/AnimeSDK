@@ -1,0 +1,114 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/CommonIndexKey.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/GameCore/FixEnumerator_2.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class GridFightGuideQuestConfigRow; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define FBCOBAHLEAC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDCA170)
+#define FBCOBAHLEAC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDCA6F0)
+#define FBCOBAHLEAC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CDCA2E0)
+#define FBCOBAHLEAC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CDC9C20)
+#define FBCOBAHLEAC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CDC9EB0)
+#define FBCOBAHLEAC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CDCA380)
+#define FBCOBAHLEAC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CDCA3D0)
+#define FBCOBAHLEAC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CDCA1B0)
+#define FBCOBAHLEAC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CDC9E50)
+#define FBCOBAHLEAC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CDC9FE0)
+#define FBCOBAHLEAC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDCA240)
+#define FBCOBAHLEAC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDC9BA0)
+
+	class FBCOBAHLEAC : public ::System::Object
+	{
+	public:
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FBCOBAHLEAC")->GetStaticField(0xF680);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestConfigRow*>**)UnitySDK::FromName("", "FBCOBAHLEAC")->GetStaticField(0xF688);
+		}
+
+		static ::System::Action** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "FBCOBAHLEAC")->GetStaticField(0xF690);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "FBCOBAHLEAC")->GetStaticField(0x3460);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "FBCOBAHLEAC")->GetStaticField(0x3461);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FBCOBAHLEAC_CCTOR_OFFSET))();
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestConfigRow*>* POIJCHCCDMH()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestConfigRow*>*(*)())((::PBYTE)hIl2Cpp + FBCOBAHLEAC_POIJCHCCDMH_OFFSET))();
+		}
+
+		static ::System::Boolean LGELIIPIDEC()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + FBCOBAHLEAC_LGELIIPIDEC_OFFSET))();
+		}
+
+		static ::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestConfigRow*> FPHGMAMDFHE()
+		{
+			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestConfigRow*>(*)())((::PBYTE)hIl2Cpp + FBCOBAHLEAC_FPHGMAMDFHE_OFFSET))();
+		}
+
+		static ::RPG::GameCore::GridFightGuideQuestConfigRow* LMBKNCAIDLC(::System::UInt32 a1)
+		{
+			return ((::RPG::GameCore::GridFightGuideQuestConfigRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + FBCOBAHLEAC_LMBKNCAIDLC_OFFSET))(a1);
+		}
+
+		static ::System::Boolean ANPPJFBBJFP()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + FBCOBAHLEAC_ANPPJFBBJFP_OFFSET))();
+		}
+
+		static ::System::Void FCMDLFKMBMH()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FBCOBAHLEAC_FCMDLFKMBMH_OFFSET))();
+		}
+
+		static ::System::Void KACCGMCPAFN()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FBCOBAHLEAC_KACCGMCPAFN_OFFSET))();
+		}
+
+		static ::System::Void PKPJFCDOFML(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + FBCOBAHLEAC_PKPJFCDOFML_OFFSET))(a1);
+		}
+
+		static ::System::Void DDLFGAJGKAO(::System::String* a1, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>* a2, ::System::Boolean a3)
+		{
+			return ((::System::Void(*)(::System::String*, ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + FBCOBAHLEAC_DDLFGAJGKAO_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void ICLCFODNNAE(::FCOEMCEDLNL* a1)
+		{
+			return ((::System::Void(*)(::FCOEMCEDLNL*))((::PBYTE)hIl2Cpp + FBCOBAHLEAC_ICLCFODNNAE_OFFSET))(a1);
+		}
+
+		static ::System::Void KAAIFCHAOLA(::RPG::GameCore::GridFightGuideQuestConfigRow* a1)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::GridFightGuideQuestConfigRow*))((::PBYTE)hIl2Cpp + FBCOBAHLEAC_KAAIFCHAOLA_OFFSET))(a1);
+		}
+
+	};

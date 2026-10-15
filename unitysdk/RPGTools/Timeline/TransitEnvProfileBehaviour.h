@@ -1,37 +1,34 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
-
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_METHOD_3_8923446497E3D0C5_OFFSET UNITYSDK_OFFSET(0xE8F78E0)
-#define RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_METHOD_3_DA37DFE3A5BDA9F4_OFFSET UNITYSDK_OFFSET(0xE8F7890)
-#define RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xE8F7F90)
+#define RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE94D2E0)
+#define RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_CNEOAIEPPEO_OFFSET UNITYSDK_OFFSET(0xE94D330)
+#define RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE94D9E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TransitEnvProfileBehaviour_TypeDefinitionIndex = 48867;
-
 	class TransitEnvProfileBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:
 		::System::String* Path; // 0x20
 		::System::Single Duration; // 0x28
 		::System::Boolean UseStoryPriority; // 0x2C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_3_DA37DFE3A5BDA9F4()
+		::System::Void CLJEBKODGHK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_METHOD_3_DA37DFE3A5BDA9F4_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_CLJEBKODGHK_OFFSET))(this);
 		}
 
-		::System::Void Method_3_8923446497E3D0C5()
+		::System::Void CNEOAIEPPEO()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_METHOD_3_8923446497E3D0C5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRANSITENVPROFILEBEHAVIOUR_CNEOAIEPPEO_OFFSET))(this);
 		}
+
 	};
 }

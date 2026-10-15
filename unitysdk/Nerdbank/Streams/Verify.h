@@ -1,15 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 
-#define NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET UNITYSDK_OFFSET(0x1B6DB2D0)
+#define NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET UNITYSDK_OFFSET(0x1BBD8F50)
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Verify_TypeDefinitionIndex = 7104;
-
 	class Verify : public ::System::Object
 	{
 	public:
@@ -17,5 +14,6 @@ namespace Nerdbank::Streams
 		{
 			return ((::System::Void(*)(::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + NERDBANK_STREAMS_VERIFY_OPERATION_OFFSET))(a1, a2);
 		}
+
 	};
 }

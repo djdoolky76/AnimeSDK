@@ -1,52 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/DateTimeOffset.h"
-#include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
-
+namespace System { class Nullable; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Net::Http::Headers { class EntityTagHeaderValue; }
+namespace System::Net::Http::Headers { class RangeConditionHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E78FF20)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7900E0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1E78FE30)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_ENTITYTAG_OFFSET UNITYSDK_OFFSET(0x1E78FE60)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_DATE_OFFSET UNITYSDK_OFFSET(0x1E78FE50)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_ENTITYTAG_OFFSET UNITYSDK_OFFSET(0x1E78FE70)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1E78FE80)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E790530)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1E7901F0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E78FDC0)
-#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1E78FDA0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EE58AB0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE58A90)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EE58C10)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EE58DD0)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_DATE_OFFSET UNITYSDK_OFFSET(0x1EE58B20)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_ENTITYTAG_OFFSET UNITYSDK_OFFSET(0x1EE58B50)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_DATE_OFFSET UNITYSDK_OFFSET(0x1EE58B40)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_ENTITYTAG_OFFSET UNITYSDK_OFFSET(0x1EE58B60)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EE58B70)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EE59220)
+#define SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE58EE0)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int RangeConditionHeaderValue_TypeDefinitionIndex = 3821;
-
 	class RangeConditionHeaderValue : public ::System::Object
 	{
 	public:
 		::System::Net::Http::Headers::EntityTagHeaderValue* _EntityTag_k__BackingField; // 0x10
-		::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField; // 0x18
-
+		::System::Nullable* _Date_k__BackingField; // 0x18
 		::System::Void _ctor(::System::DateTimeOffset a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::DateTimeOffset))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::DateTimeOffset))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void _ctor_1(::System::Net::Http::Headers::EntityTagHeaderValue* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::EntityTagHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE__CTOR_1_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Net::Http::Headers::EntityTagHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_CTOR_1_OFFSET))(this, a1);
 		}
 
-		::System::Nullable_1<::System::DateTimeOffset> get_Date()
+		::System::Nullable* get_Date()
 		{
-			return ((::System::Nullable_1<::System::DateTimeOffset>(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
+			return ((::System::Nullable*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GET_DATE_OFFSET))(this);
 		}
 
-		::System::Void set_Date(::System::Nullable_1<::System::DateTimeOffset> a1)
+		::System::Void set_Date(::System::Nullable* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::DateTimeOffset>))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Nullable*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_SET_DATE_OFFSET))(this, a1);
 		}
 
 		::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag()
@@ -74,14 +72,15 @@ namespace System::Net::Http::Headers
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_GETHASHCODE_OFFSET))(this);
 		}
 
-		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::RangeConditionHeaderValue*& a2)
+		static ::System::Boolean TryParse(::System::String* a1, ::System::Net::Http::Headers::RangeConditionHeaderValue* a2)
 		{
-			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::RangeConditionHeaderValue*&))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::System::String*, ::System::Net::Http::Headers::RangeConditionHeaderValue*))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_TRYPARSE_OFFSET))(a1, a2);
 		}
 
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NET_HTTP_HEADERS_RANGECONDITIONHEADERVALUE_TOSTRING_OFFSET))(this);
 		}
+
 	};
 }

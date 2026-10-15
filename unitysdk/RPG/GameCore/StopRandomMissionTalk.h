@@ -1,33 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class StopRandomMissionTalk; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_STOPRANDOMMISSIONTALK_METHOD_3_34342B6C39D79077_OFFSET UNITYSDK_OFFSET(0x1D5700B0)
-#define RPG_GAMECORE_STOPRANDOMMISSIONTALK_METHOD_3_C68AF448F5F17A1A_OFFSET UNITYSDK_OFFSET(0x1D570180)
-#define RPG_GAMECORE_STOPRANDOMMISSIONTALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D570170)
+#define RPG_GAMECORE_STOPRANDOMMISSIONTALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB25BE0)
+#define RPG_GAMECORE_STOPRANDOMMISSIONTALK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB25BF0)
+#define RPG_GAMECORE_STOPRANDOMMISSIONTALK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB25B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopRandomMissionTalk_TypeDefinitionIndex = 20608;
-
 	class StopRandomMissionTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPRANDOMMISSIONTALK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPRANDOMMISSIONTALK_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_34342B6C39D79077(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopRandomMissionTalk*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::StopRandomMissionTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopRandomMissionTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPRANDOMMISSIONTALK_METHOD_3_34342B6C39D79077_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StopRandomMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPRANDOMMISSIONTALK_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_C68AF448F5F17A1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopRandomMissionTalk* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::StopRandomMissionTalk* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopRandomMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPRANDOMMISSIONTALK_METHOD_3_C68AF448F5F17A1A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::StopRandomMissionTalk*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPRANDOMMISSIONTALK_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

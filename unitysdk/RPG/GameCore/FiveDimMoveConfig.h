@@ -3,22 +3,20 @@
 #include "unitysdk/RPG/GameCore/FiveDimJumpType.h"
 #include "unitysdk/RPG/GameCore/LittleGameEntityMoveConfig.h"
 #include "unitysdk/RPG/MVector2.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimDashBasicConfig; }
 namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
+namespace RPG::GameCore { class FiveDimMoveConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D0F2220)
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0F2030)
-#define RPG_GAMECORE_FIVEDIMMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F2140)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CA1D0)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D6CA2B0)
+#define RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6CA0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMoveConfig_TypeDefinitionIndex = 16484;
-
 	class FiveDimMoveConfig : public ::RPG::GameCore::LittleGameEntityMoveConfig
 	{
 	public:
@@ -77,6 +75,7 @@ namespace RPG::GameCore
 		::System::Single PeakMaxSpeedMultiplier; // 0xF0
 		::RPG::GameCore::FiveDimJumpType JumpPeakEnableType; // 0xF4
 		::System::Single SummonJumpHeight; // 0xF8
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FiveDimDashBasicConfig* DashBasicConfig; // 0x100
 		::RPG::GameCore::FloatCurve* DashSpeedLerpCurve; // 0x108
 		::System::Single DashSpeedLerpDuration; // 0x110
@@ -91,11 +90,14 @@ namespace RPG::GameCore
 		::System::Single DashLongPressMoveDuration; // 0x138
 		::System::Single DashAimNoMoveShowArrowDelay; // 0x13C
 		::System::Single DashToFallAnimMaintainTime; // 0x140
+		::System::Byte _padding1[0x4];
 		::System::String* DashContactInternalEvent; // 0x148
 		::System::Single DashSpikeExtendMaxDist; // 0x150
+		::System::Byte _padding2[0x4];
 		::RPG::GameCore::HoyoTagContainer* DashPassableEntityTags; // 0x158
 		::System::String* DashRotateModelPath; // 0x160
 		::System::Single DashRotateResetDuration; // 0x168
+		::System::Byte _padding3[0x4];
 		::RPG::GameCore::FloatCurve* DashRotateResetCurve; // 0x170
 		::System::Single DashRotateExtraAngle; // 0x178
 		::System::Single DashPushVelocityMax; // 0x17C
@@ -159,6 +161,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::FloatCurve* BeatBackSpeedLerpCurve; // 0x270
 		::System::Single BeatBackSpeedLerpDuration; // 0x278
 		::System::Boolean BeatBackClearJumpEnergy; // 0x27C
+		::System::Byte _padding4[0x3];
 		::System::Single BeatBackInvulnerableDuration; // 0x280
 		::System::Single MusicFallBeatBackDuration; // 0x284
 		::System::Single MascotBeatBackMultiplier; // 0x288
@@ -173,20 +176,20 @@ namespace RPG::GameCore
 		::System::Single ResetPointTolerance; // 0x2AC
 		::Il2CppArray<::System::Single>* BakeUnitLengthList; // 0x2B0
 		::Il2CppArray<::RPG::GameCore::FiveDimMoveBakedConfig*>* BakedConfigs; // 0x2B8
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMoveConfig*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMoveConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARY_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void FromBinaryImpl(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMoveConfig* a2)
+		static ::System::Void FromBinaryImpl(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimMoveConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimMoveConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMOVECONFIG_FROMBINARYIMPL_OFFSET))(a1, a2);
 		}
+
 	};
 }

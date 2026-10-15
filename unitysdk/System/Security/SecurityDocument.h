@@ -1,33 +1,29 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace System { class String; }
 namespace System::Security { class SecurityElement; }
 
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_ADDSTRING_OFFSET UNITYSDK_OFFSET(0x1BBE2F40)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x1BBE3CE0)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_APPENDSTRING_OFFSET UNITYSDK_OFFSET(0x1BBE30F0)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_ENCODEDSTRINGSIZE_OFFSET UNITYSDK_OFFSET(0x1BBE3240)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1BBE3DB0)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_GETROOTELEMENT_OFFSET UNITYSDK_OFFSET(0x1BBE3D90)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1BBE3260)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_GUARANTEESIZE_OFFSET UNITYSDK_OFFSET(0x1BBE2ED0)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT_INTERNALGETELEMENT_OFFSET UNITYSDK_OFFSET(0x1BBE3DD0)
-#define SYSTEM_SECURITY_SECURITYDOCUMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE2EB0)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_ADDSTRING_OFFSET UNITYSDK_OFFSET(0x1C0EF0A0)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x1C0EFE40)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_APPENDSTRING_OFFSET UNITYSDK_OFFSET(0x1C0EF250)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0EF010)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_ENCODEDSTRINGSIZE_OFFSET UNITYSDK_OFFSET(0x1C0EF3A0)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_GETELEMENT_OFFSET UNITYSDK_OFFSET(0x1C0EFF10)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_GETROOTELEMENT_OFFSET UNITYSDK_OFFSET(0x1C0EFEF0)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1C0EF3C0)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_GUARANTEESIZE_OFFSET UNITYSDK_OFFSET(0x1C0EF030)
+#define SYSTEM_SECURITY_SECURITYDOCUMENT_INTERNALGETELEMENT_OFFSET UNITYSDK_OFFSET(0x1C0EFF30)
 
 namespace System::Security
 {
-	inline static constexpr unsigned int SecurityDocument_TypeDefinitionIndex = 941;
-
 	class SecurityDocument : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* m_data; // 0x10
-
 		::System::Void _ctor(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Void GuaranteeSize(::System::Int32 a1)
@@ -35,14 +31,14 @@ namespace System::Security
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_GUARANTEESIZE_OFFSET))(this, a1);
 		}
 
-		::System::Void AddString(::System::String* a1, ::System::Int32& a2)
+		::System::Void AddString(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_ADDSTRING_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_ADDSTRING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AppendString(::System::String* a1, ::System::Int32& a2)
+		::System::Void AppendString(::System::String* a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_APPENDSTRING_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_APPENDSTRING_OFFSET))(this, a1, a2);
 		}
 
 		static ::System::Int32 EncodedStringSize(::System::String* a1)
@@ -50,14 +46,14 @@ namespace System::Security
 			return ((::System::Int32(*)(::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_ENCODEDSTRINGSIZE_OFFSET))(a1);
 		}
 
-		::System::String* GetString(::System::Int32& a1, ::System::Boolean a2)
+		::System::String* GetString(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::System::Int32&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_GETSTRING_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_GETSTRING_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void AddToken(::System::Byte a1, ::System::Int32& a2)
+		::System::Void AddToken(::System::Byte a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Byte, ::System::Int32&))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_ADDTOKEN_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Byte, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_ADDTOKEN_OFFSET))(this, a1, a2);
 		}
 
 		::System::Security::SecurityElement* GetRootElement()
@@ -70,9 +66,10 @@ namespace System::Security
 			return ((::System::Security::SecurityElement*(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_GETELEMENT_OFFSET))(this, a1, a2);
 		}
 
-		::System::Security::SecurityElement* InternalGetElement(::System::Int32& a1, ::System::Boolean a2)
+		::System::Security::SecurityElement* InternalGetElement(::System::Int32 a1, ::System::Boolean a2)
 		{
-			return ((::System::Security::SecurityElement*(*)(::PVOID, ::System::Int32&, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_INTERNALGETELEMENT_OFFSET))(this, a1, a2);
+			return ((::System::Security::SecurityElement*(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_SECURITYDOCUMENT_INTERNALGETELEMENT_OFFSET))(this, a1, a2);
 		}
+
 	};
 }

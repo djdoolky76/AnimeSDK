@@ -1,29 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Cysharp/Threading/Tasks/Triggers/AsyncTriggerBase_1.h"
-#include "unitysdk/Cysharp/Threading/Tasks/UniTask_1.h"
+#include "unitysdk/Cysharp/Threading/Tasks/UniTask.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
-
 namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnDropHandler; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1EA66370)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1EA66290)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_1_OFFSET UNITYSDK_OFFSET(0x1EA665B0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_OFFSET UNITYSDK_OFFSET(0x1EA663D0)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_UNITYENGINE_EVENTSYSTEMS_IDROPHANDLER_ONDROP_OFFSET UNITYSDK_OFFSET(0x1EA66220)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1EA66730)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F12E060)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_1_OFFSET UNITYSDK_OFFSET(0x1F12DCA0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_OFFSET UNITYSDK_OFFSET(0x1F12DBC0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_1_OFFSET UNITYSDK_OFFSET(0x1F12DEE0)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_OFFSET UNITYSDK_OFFSET(0x1F12DD00)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_UNITYENGINE_EVENTSYSTEMS_IDROPHANDLER_ONDROP_OFFSET UNITYSDK_OFFSET(0x1F12DB50)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncDropTrigger_TypeDefinitionIndex = 43042;
-
-	class AsyncDropTrigger : public ::Cysharp::Threading::Tasks::Triggers::AsyncTriggerBase_1<::UnityEngine::EventSystems::PointerEventData*>
+	class AsyncDropTrigger
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_CTOR_OFFSET))(this);
 		}
 
 		::System::Void UnityEngine_EventSystems_IDropHandler_OnDrop(::UnityEngine::EventSystems::PointerEventData* a1)
@@ -41,14 +37,15 @@ namespace Cysharp::Threading::Tasks::Triggers
 			return ((::Cysharp::Threading::Tasks::Triggers::IAsyncOnDropHandler*(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_GETONDROPASYNCHANDLER_1_OFFSET))(this, a1);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::PointerEventData*> OnDropAsync()
+		::Cysharp::Threading::Tasks::UniTask OnDropAsync()
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::PointerEventData*>(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_OFFSET))(this);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_OFFSET))(this);
 		}
 
-		::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::PointerEventData*> OnDropAsync_1(::System::Threading::CancellationToken a1)
+		::Cysharp::Threading::Tasks::UniTask OnDropAsync_1(::System::Threading::CancellationToken a1)
 		{
-			return ((::Cysharp::Threading::Tasks::UniTask_1<::UnityEngine::EventSystems::PointerEventData*>(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_1_OFFSET))(this, a1);
+			return ((::Cysharp::Threading::Tasks::UniTask(*)(::PVOID, ::System::Threading::CancellationToken))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDROPTRIGGER_ONDROPASYNC_1_OFFSET))(this, a1);
 		}
+
 	};
 }

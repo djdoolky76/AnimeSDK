@@ -2,29 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Linq/Expressions/Expression.h"
 #include "unitysdk/System/Linq/Expressions/ExpressionType.h"
-
 namespace System { class Object; }
 namespace System { class Type; }
+namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ExpressionVisitor; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1E6DBFC0)
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1E6DBFA0)
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1E6DBF50)
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1E6DBFB0)
-#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DBEF0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_ACCEPT_OFFSET UNITYSDK_OFFSET(0x1EDA4350)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA4280)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_GET_NODETYPE_OFFSET UNITYSDK_OFFSET(0x1EDA4330)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1EDA42E0)
+#define SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1EDA4340)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ConstantExpression_TypeDefinitionIndex = 3211;
-
 	class ConstantExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:
 		::System::Object* _Value_k__BackingField; // 0x10
-
 		::System::Void _ctor(::System::Object* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Type* get_Type()
@@ -46,5 +43,6 @@ namespace System::Linq::Expressions
 		{
 			return ((::System::Linq::Expressions::Expression*(*)(::PVOID, ::System::Linq::Expressions::ExpressionVisitor*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_CONSTANTEXPRESSION_ACCEPT_OFFSET))(this, a1);
 		}
+
 	};
 }

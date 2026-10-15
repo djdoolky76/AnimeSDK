@@ -1,30 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/Collections/Immutable/ImmutableSortedSet_1_Enumerator.h"
 #include "unitysdk/System/Object.h"
-
-namespace System { class Array; }
-namespace System::Collections { class IEnumerator; }
+namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
-namespace System::Collections::Immutable { template <typename T> class ImmutableSortedSet_1; }
-namespace System::Collections::Immutable { template <typename T> class ImmutableSortedSet_1_Builder; }
-namespace System::Collections::Immutable { template <typename T> class ImmutableSortedSet_1_Node; }
+namespace System::Collections::Immutable { class ImmutableSortedSet; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableSortedSet_1_TypeDefinitionIndex = 6644;
-
 	template <typename T>
 	class ImmutableSortedSet_1 : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Immutable::ImmutableSortedSet_1<T>** StaticGet_Empty()
-		{
-			return (::System::Collections::Immutable::ImmutableSortedSet_1<T>**)Il2CppClass::FromTypeDefinitionIndex(ImmutableSortedSet_1_TypeDefinitionIndex)->GetStaticField(0x0);
-		}
-		::System::Collections::Immutable::ImmutableSortedSet_1_Node<T>* _root; // 0x0
+		::System::Object* _root; // 0x0
 		::System::Collections::Generic::IComparer_1<T>* _comparer; // 0x0
+		static ::System::Collections::Immutable::ImmutableSortedSet** StaticGet_Empty()
+		{
+			return (::System::Collections::Immutable::ImmutableSortedSet**)UnitySDK::FromName("System.Collections.Immutable", "ImmutableSortedSet`1")->GetStaticField(0x0);
+		}
+
 	};
 }

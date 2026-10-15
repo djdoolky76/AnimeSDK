@@ -3,12 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Rendering/CameraEvent.h"
 
-#define UNITYENGINE_RENDERING_CAMERAEVENTUTILS_ISVALID_OFFSET UNITYSDK_OFFSET(0x1ED54480)
+#define UNITYENGINE_RENDERING_CAMERAEVENTUTILS_ISVALID_OFFSET UNITYSDK_OFFSET(0x1F41C560)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraEventUtils_TypeDefinitionIndex = 4698;
-
 	class CameraEventUtils : public ::System::Object
 	{
 	public:
@@ -16,5 +14,6 @@ namespace UnityEngine::Rendering
 		{
 			return ((::System::Boolean(*)(::UnityEngine::Rendering::CameraEvent))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_CAMERAEVENTUTILS_ISVALID_OFFSET))(a1);
 		}
+
 	};
 }

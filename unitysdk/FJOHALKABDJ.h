@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FateRinHouguOwnerType.h"
+#include "unitysdk/System/Object.h"
+
+#define FJOHALKABDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157E2E90)
+#define FJOHALKABDJ_GET_DECKSIZELIMIT_OFFSET UNITYSDK_OFFSET(0x157E2DF0)
+#define FJOHALKABDJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0x157E2DD0)
+#define FJOHALKABDJ_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x157E2DB0)
+#define FJOHALKABDJ_PLOLOEBPKKN_OFFSET UNITYSDK_OFFSET(0x157E2E10)
+#define FJOHALKABDJ_SET_DECKSIZELIMIT_OFFSET UNITYSDK_OFFSET(0x157E2E00)
+#define FJOHALKABDJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0x157E2DE0)
+#define FJOHALKABDJ_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x157E2DC0)
+
+	class FJOHALKABDJ : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::FateRinHouguOwnerType _Type_k__BackingField; // 0x10
+		::System::UInt32 _DeckSizeLimit_k__BackingField; // 0x14
+		::RPG::Client::TextID _Name_k__BackingField; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FJOHALKABDJ_CTOR_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FateRinHouguOwnerType get_Type()
+		{
+			return ((::RPG::GameCore::FateRinHouguOwnerType(*)(::PVOID))((::PBYTE)hIl2Cpp + FJOHALKABDJ_GET_TYPE_OFFSET))(this);
+		}
+
+		::System::Void set_Type(::RPG::GameCore::FateRinHouguOwnerType a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FateRinHouguOwnerType))((::PBYTE)hIl2Cpp + FJOHALKABDJ_SET_TYPE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + FJOHALKABDJ_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Void set_Name(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + FJOHALKABDJ_SET_NAME_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_DeckSizeLimit()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + FJOHALKABDJ_GET_DECKSIZELIMIT_OFFSET))(this);
+		}
+
+		::System::Void set_DeckSizeLimit(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + FJOHALKABDJ_SET_DECKSIZELIMIT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean PLOLOEBPKKN()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FJOHALKABDJ_PLOLOEBPKKN_OFFSET))(this);
+		}
+
+	};

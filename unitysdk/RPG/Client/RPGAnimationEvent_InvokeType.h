@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGAnimationEvent_InvokeType_TypeDefinitionIndex = 72775;
-
 	enum class RPGAnimationEvent_InvokeType : ::System::Int32
 	{
 		RightAway = 1,

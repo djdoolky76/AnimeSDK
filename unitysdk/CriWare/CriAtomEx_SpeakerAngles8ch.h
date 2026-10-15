@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_SPEAKERANGLES8CH_DEFAULT_OFFSET UNITYSDK_OFFSET(0x164AC380)
+#define CRIWARE_CRIATOMEX_SPEAKERANGLES8CH_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166D2FB0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_SpeakerAngles8ch_TypeDefinitionIndex = 38666;
-
 	struct alignas(4) CriAtomEx_SpeakerAngles8ch
 	{
 		::System::Single frontLeft; // 0x10
@@ -18,10 +15,12 @@ namespace CriWare
 		::System::Single surroundRight; // 0x24
 		::System::Single surroundBackLeft; // 0x28
 		::System::Single surroundBackRight; // 0x2C
-
+		/*
 		static ::CriWare::CriAtomEx_SpeakerAngles8ch Default()
 		{
 			return ((::CriWare::CriAtomEx_SpeakerAngles8ch(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEX_SPEAKERANGLES8CH_DEFAULT_OFFSET))();
 		}
+		*/
+
 	};
 }

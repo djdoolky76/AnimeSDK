@@ -3,25 +3,22 @@
 #include "unitysdk/RPGTools/Timeline/CharacterTrack.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
-
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_NPCSCALETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8BB7B0)
-#define RPGTOOLS_TIMELINE_NPCSCALETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8BB630)
-#define RPGTOOLS_TIMELINE_NPCSCALETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE8BB8F0)
-#define RPGTOOLS_TIMELINE_NPCSCALETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xE8BB960)
+#define RPGTOOLS_TIMELINE_NPCSCALETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE911010)
+#define RPGTOOLS_TIMELINE_NPCSCALETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE910E90)
+#define RPGTOOLS_TIMELINE_NPCSCALETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE9111C0)
+#define RPGTOOLS_TIMELINE_NPCSCALETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE911150)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NPCScaleTrack_TypeDefinitionIndex = 48669;
-
 	class NPCScaleTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALETRACK__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALETRACK_CTOR_OFFSET))(this);
 		}
 
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
@@ -38,5 +35,6 @@ namespace RPGTools::Timeline
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALETRACK_ONCREATECLIP_OFFSET))(this, a1);
 		}
+
 	};
 }

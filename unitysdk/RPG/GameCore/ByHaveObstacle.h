@@ -1,50 +1,48 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ByHaveObstacle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_27B2FC9789CFE512_OFFSET UNITYSDK_OFFSET(0x1CF28010)
-#define RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_3A1CE2DF91184804_OFFSET UNITYSDK_OFFSET(0x1CF27E50)
-#define RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_4A240770F08CCC41_OFFSET UNITYSDK_OFFSET(0x1CF27E10)
-#define RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_AD987135B536CB9C_OFFSET UNITYSDK_OFFSET(0x1CF28040)
-#define RPG_GAMECORE_BYHAVEOBSTACLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CF27E40)
+#define RPG_GAMECORE_BYHAVEOBSTACLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D500710)
+#define RPG_GAMECORE_BYHAVEOBSTACLE_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D500910)
+#define RPG_GAMECORE_BYHAVEOBSTACLE_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D5008E0)
+#define RPG_GAMECORE_BYHAVEOBSTACLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D500720)
+#define RPG_GAMECORE_BYHAVEOBSTACLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5006E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHaveObstacle_TypeDefinitionIndex = 19802;
-
 	class ByHaveObstacle : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* From; // 0x20
 		::RPG::GameCore::TargetEvaluator* To; // 0x28
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_4A240770F08CCC41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveObstacle*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHaveObstacle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveObstacle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_4A240770F08CCC41_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHaveObstacle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_3A1CE2DF91184804(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveObstacle* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ByHaveObstacle* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveObstacle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_3A1CE2DF91184804_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ByHaveObstacle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_27B2FC9789CFE512(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveObstacle*& a2)
+		static ::System::Void LJACLBNEEEB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveObstacle* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveObstacle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_27B2FC9789CFE512_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveObstacle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_LJACLBNEEEB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_AD987135B536CB9C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveObstacle* a2)
+		static ::System::Void EOJLPDGNHEK(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveObstacle* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveObstacle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_METHOD_4_AD987135B536CB9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveObstacle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEOBSTACLE_EOJLPDGNHEK_OFFSET))(a1, a2);
 		}
+
 	};
 }

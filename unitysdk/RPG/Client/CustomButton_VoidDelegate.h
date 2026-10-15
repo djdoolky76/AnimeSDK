@@ -1,27 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCC8C950)
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCC8C980)
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCC8C2C0)
-#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC8C8E0)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xCBDFEF0)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDFE80)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xCBDFF20)
+#define RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0xCBDF860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomButton_VoidDelegate_TypeDefinitionIndex = 72447;
-
 	class CustomButton_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Invoke(::UnityEngine::GameObject* a1)
@@ -38,5 +35,6 @@ namespace RPG::Client
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CUSTOMBUTTON_VOIDDELEGATE_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

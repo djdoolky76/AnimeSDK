@@ -2,18 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/BaseLittleGameAbilityTaskConfig.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::Client { class RoadRashGameAbility_Ultimate; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_METHOD_4_7ACA5D6B07D96618_OFFSET UNITYSDK_OFFSET(0x1CD5A940)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_METHOD_4_7BC82568218F9BA3_OFFSET UNITYSDK_OFFSET(0x1CD5A900)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD5A930)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32E150)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D32E160)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D32E120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_Ultimate_TypeDefinitionIndex = 10282;
-
 	class RoadRashGameAbility_Ultimate : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:
@@ -39,20 +37,20 @@ namespace RPG::Client
 		::RPG::GameCore::FixPoint BlurRadius; // 0xB0
 		::RPG::GameCore::FixPoint BlurStart; // 0xB8
 		::RPG::GameCore::FixPoint BlurFeather; // 0xC0
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7BC82568218F9BA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbility_Ultimate*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbility_Ultimate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbility_Ultimate*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_METHOD_4_7BC82568218F9BA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbility_Ultimate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7ACA5D6B07D96618(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::RoadRashGameAbility_Ultimate* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::Client::RoadRashGameAbility_Ultimate* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::RoadRashGameAbility_Ultimate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_METHOD_4_7ACA5D6B07D96618_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::Client::RoadRashGameAbility_Ultimate*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROADRASHGAMEABILITY_ULTIMATE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

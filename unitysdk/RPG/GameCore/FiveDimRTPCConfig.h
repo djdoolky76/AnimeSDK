@@ -1,17 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class FiveDimRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMRTPCCONFIG_METHOD_2_BDD4A582CCB26203_OFFSET UNITYSDK_OFFSET(0x1D0FD6B0)
-#define RPG_GAMECORE_FIVEDIMRTPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FD920)
+#define RPG_GAMECORE_FIVEDIMRTPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D6D10)
+#define RPG_GAMECORE_FIVEDIMRTPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D6AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRTPCConfig_TypeDefinitionIndex = 16537;
-
 	class FiveDimRTPCConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
@@ -22,15 +20,15 @@ namespace RPG::GameCore
 		::System::Single ResetTime; // 0x24
 		::System::String* EventOnLeaveDefault; // 0x28
 		::System::String* EventOnBackToDefault; // 0x30
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRTPCCONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRTPCCONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_BDD4A582CCB26203(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimRTPCConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::FiveDimRTPCConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimRTPCConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRTPCCONFIG_METHOD_2_BDD4A582CCB26203_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::FiveDimRTPCConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMRTPCCONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
+
 	};
 }

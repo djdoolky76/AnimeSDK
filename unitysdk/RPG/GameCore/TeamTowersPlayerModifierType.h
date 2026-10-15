@@ -3,12 +3,10 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersPlayerModifierType_TypeDefinitionIndex = 18736;
-
 	enum class TeamTowersPlayerModifierType : ::System::Byte
 	{
-		None = 0x0,
-		Invincible = 0x1,
-		Fever = 0x2,
+		None = 0,
+		Invincible = 1,
+		Fever = 2,
 	};
 }

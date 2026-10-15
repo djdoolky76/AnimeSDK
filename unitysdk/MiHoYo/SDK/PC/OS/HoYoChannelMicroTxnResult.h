@@ -1,27 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MiHoYo/SDK/PC/OS/HoYoChannelBaseResult.h"
-
+namespace MiHoYo::SDK::PC::OS { class HoYoChannelMicroTxnResult; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BA27350)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BA27340)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA27390)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF30DD0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF30D90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF30D80)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelMicroTxnResult_TypeDefinitionIndex = 8643;
-
 	class HoYoChannelMicroTxnResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{
 	public:
 		::System::UInt32 appId; // 0x30
+		::System::Byte _padding0[0x4];
 		::System::String* orderId; // 0x38
 		::System::Boolean authorized; // 0x40
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_CTOR_OFFSET))(this);
 		}
 
 		::System::String* ToJson()
@@ -33,5 +31,6 @@ namespace MiHoYo::SDK::PC::OS
 		{
 			return ((::MiHoYo::SDK::PC::OS::HoYoChannelMicroTxnResult*(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELMICROTXNRESULT_FROMJSON_OFFSET))(a1);
 		}
+
 	};
 }

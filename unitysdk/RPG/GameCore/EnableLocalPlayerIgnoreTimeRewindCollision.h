@@ -1,35 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EnableLocalPlayerIgnoreTimeRewindCollision; }
 
-class Class_1_7A22A3DBEEDD1F80;
-
-#define RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_METHOD_3_0EB2FC4E3311BC6F_OFFSET UNITYSDK_OFFSET(0x1D063240)
-#define RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_METHOD_3_EBCB2F320D41FE54_OFFSET UNITYSDK_OFFSET(0x1D0631F0)
-#define RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D063230)
+#define RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63FA50)
+#define RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D63FA60)
+#define RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D63FA10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableLocalPlayerIgnoreTimeRewindCollision_TypeDefinitionIndex = 20714;
-
 	class EnableLocalPlayerIgnoreTimeRewindCollision : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean Ignore; // 0x18
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EBCB2F320D41FE54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_METHOD_3_EBCB2F320D41FE54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0EB2FC4E3311BC6F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_METHOD_3_0EB2FC4E3311BC6F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EnableLocalPlayerIgnoreTimeRewindCollision*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLELOCALPLAYERIGNORETIMEREWINDCOLLISION_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

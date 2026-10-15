@@ -4,8 +4,6 @@
 
 namespace System::Security::Authentication::ExtendedProtection
 {
-	inline static constexpr unsigned int ServiceNameCollection_TypeDefinitionIndex = 2670;
-
 	class ServiceNameCollection : public ::System::Collections::ReadOnlyCollectionBase
 	{
 	public:

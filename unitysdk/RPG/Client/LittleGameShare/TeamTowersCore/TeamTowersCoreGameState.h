@@ -3,16 +3,14 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int TeamTowersCoreGameState_TypeDefinitionIndex = 36395;
-
 	enum class TeamTowersCoreGameState : ::System::Byte
 	{
-		None = 0x0,
-		WaitingStart = 0x1,
-		Prepare = 0x2,
-		Gaming = 0x3,
-		Finished = 0x4,
-		WaitingClean = 0x5,
-		Destroyed = 0x6,
+		None = 0,
+		WaitingStart = 1,
+		Prepare = 2,
+		Gaming = 3,
+		Finished = 4,
+		WaitingClean = 5,
+		Destroyed = 6,
 	};
 }

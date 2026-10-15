@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/System/ValueType.h"
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterMotionParamData_TypeDefinitionIndex = 73160;
-
-	struct alignas(8) CharacterMotionParamData
+	struct alignas(4) CharacterMotionParamData
 	{
 		::System::Double WalkSpeed; // 0x10
 		::System::Double RunSpeed; // 0x18

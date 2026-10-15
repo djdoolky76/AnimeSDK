@@ -3,12 +3,10 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int TacticsCardFlowReason_TypeDefinitionIndex = 35822;
-
 	enum class TacticsCardFlowReason : ::System::Byte
 	{
-		ShopPurchase = 0x1,
-		Use = 0x2,
-		Destroy = 0x3,
+		ShopPurchase = 1,
+		Use = 2,
+		Destroy = 3,
 	};
 }

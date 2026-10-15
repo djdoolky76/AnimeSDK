@@ -1,26 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
-
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC3E40)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC3E70)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EFC3E30)
-#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC3DC0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1F68C3B0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F68C330)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F68C3E0)
+#define ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F68C3A0)
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem__IsDisplayOnDesktop_TypeDefinitionIndex = 37602;
-
 	class IVRSystem__IsDisplayOnDesktop : public ::System::MulticastDelegate
 	{
 	public:
 		::System::Void _ctor(::System::Object* a1, ::System::IntPtr a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP__CTOR_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean Invoke()
@@ -37,5 +34,6 @@ namespace ZenFulcrum::VR::OpenVRBinding
 		{
 			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + ZENFULCRUM_VR_OPENVRBINDING_IVRSYSTEM__ISDISPLAYONDESKTOP_ENDINVOKE_OFFSET))(this, a1);
 		}
+
 	};
 }

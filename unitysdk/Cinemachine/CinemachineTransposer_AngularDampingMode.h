@@ -3,8 +3,6 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTransposer_AngularDampingMode_TypeDefinitionIndex = 38497;
-
 	enum class CinemachineTransposer_AngularDampingMode : ::System::Int32
 	{
 		Euler = 0,

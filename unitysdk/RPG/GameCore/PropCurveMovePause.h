@@ -1,38 +1,36 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
+namespace RPG::GameCore { class PropCurveMovePause; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_METHOD_3_330450B032787048_OFFSET UNITYSDK_OFFSET(0x1D3619B0)
-#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_METHOD_3_D2B85BA5E08D255B_OFFSET UNITYSDK_OFFSET(0x1D361A50)
-#define RPG_GAMECORE_PROPCURVEMOVEPAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D361A10)
+#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D946EE0)
+#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D946F20)
+#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D946E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveMovePause_TypeDefinitionIndex = 20771;
-
 	class PropCurveMovePause : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::RPG::GameCore::DynamicFloat* Duration; // 0x20
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVEPAUSE__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVEPAUSE_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_330450B032787048(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMovePause*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveMovePause* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMovePause*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVEPAUSE_METHOD_3_330450B032787048_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveMovePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVEPAUSE_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D2B85BA5E08D255B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMovePause* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::PropCurveMovePause* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMovePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVEPAUSE_METHOD_3_D2B85BA5E08D255B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::PropCurveMovePause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVEPAUSE_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

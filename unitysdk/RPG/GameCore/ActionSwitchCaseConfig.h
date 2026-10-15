@@ -2,19 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/RPG/GameCore/MiActionConfigBase.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class ActionSwitchCaseConfig; }
 namespace RPG::GameCore { class ActionSwitchCaseItemConfig; }
+namespace RPG::GameCore { class MiActionConfigBase; }
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_METHOD_4_7296DA2F4BF8F663_OFFSET UNITYSDK_OFFSET(0x1CD74310)
-#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_METHOD_4_B1776D4BF293C6FF_OFFSET UNITYSDK_OFFSET(0x1CD742A0)
-#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1CD74300)
+#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3486E0)
+#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3486F0)
+#define RPG_GAMECORE_ACTIONSWITCHCASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D348680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionSwitchCaseConfig_TypeDefinitionIndex = 16862;
-
 	class ActionSwitchCaseConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:
@@ -23,20 +22,20 @@ namespace RPG::GameCore
 		::RPG::GameCore::MiActionConfigBase* DefaultAction; // 0x28
 		::RPG::GameCore::CompareType CompareType; // 0x30
 		::System::Boolean WithBreak; // 0x34
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASECONFIG__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASECONFIG_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B1776D4BF293C6FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSwitchCaseConfig*& a2)
+		static ::System::Void OJNNBEJLDIJ(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActionSwitchCaseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSwitchCaseConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASECONFIG_METHOD_4_B1776D4BF293C6FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActionSwitchCaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASECONFIG_OJNNBEJLDIJ_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7296DA2F4BF8F663(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSwitchCaseConfig* a2)
+		static ::System::Void MGMEGEDLMAK(::FCOEMCEDLNL* a1, ::RPG::GameCore::ActionSwitchCaseConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSwitchCaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASECONFIG_METHOD_4_7296DA2F4BF8F663_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::ActionSwitchCaseConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASECONFIG_MGMEGEDLMAK_OFFSET))(a1, a2);
 		}
+
 	};
 }

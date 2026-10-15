@@ -1,92 +1,97 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK { class KibanaBaseModel; }
 namespace MiHoYo::SDK { class KibanaEventModel; }
 namespace MiHoYo::SDK { class KibanaNetworkModel; }
+namespace MiHoYo::SDK { class KibanaReport; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_KIBANAREPORT_CHECKPCCONFIG_OFFSET UNITYSDK_OFFSET(0x1B98A2A0)
-#define MIHOYO_SDK_KIBANAREPORT_CHECKREPORTENABLE_1_OFFSET UNITYSDK_OFFSET(0x1B98A220)
-#define MIHOYO_SDK_KIBANAREPORT_CHECKREPORTENABLE_OFFSET UNITYSDK_OFFSET(0x1B98A190)
-#define MIHOYO_SDK_KIBANAREPORT_DEBUG_OFFSET UNITYSDK_OFFSET(0x1B98B4F0)
-#define MIHOYO_SDK_KIBANAREPORT_ERROR_OFFSET UNITYSDK_OFFSET(0x1B98B890)
-#define MIHOYO_SDK_KIBANAREPORT_FILTERPAYINFO_OFFSET UNITYSDK_OFFSET(0x1B98D580)
-#define MIHOYO_SDK_KIBANAREPORT_INFO_OFFSET UNITYSDK_OFFSET(0x1B98B690)
-#define MIHOYO_SDK_KIBANAREPORT_INITKIBANAFILTER_OFFSET UNITYSDK_OFFSET(0x1B988E70)
-#define MIHOYO_SDK_KIBANAREPORT_INITSUCCESSFILTER_OFFSET UNITYSDK_OFFSET(0x1B989E70)
-#define MIHOYO_SDK_KIBANAREPORT_INVOKEREPORT_OFFSET UNITYSDK_OFFSET(0x1B98B990)
-#define MIHOYO_SDK_KIBANAREPORT_ISWEBVIEWSENSITIVEDATAREPORT_OFFSET UNITYSDK_OFFSET(0x1B98DC20)
-#define MIHOYO_SDK_KIBANAREPORT_REPLACESENSITIVEDATA_1_OFFSET UNITYSDK_OFFSET(0x1B98CCD0)
-#define MIHOYO_SDK_KIBANAREPORT_REPLACESENSITIVEDATA_OFFSET UNITYSDK_OFFSET(0x1B98BF70)
-#define MIHOYO_SDK_KIBANAREPORT_REPORTCACHEDLIST_OFFSET UNITYSDK_OFFSET(0x1B98B1B0)
-#define MIHOYO_SDK_KIBANAREPORT_REPORT_1_OFFSET UNITYSDK_OFFSET(0x1B98C080)
-#define MIHOYO_SDK_KIBANAREPORT_REPORT_2_OFFSET UNITYSDK_OFFSET(0x1B98CD60)
-#define MIHOYO_SDK_KIBANAREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0x1B98B5F0)
-#define MIHOYO_SDK_KIBANAREPORT_SETBASEINFO_OFFSET UNITYSDK_OFFSET(0x1B98A510)
-#define MIHOYO_SDK_KIBANAREPORT_START_OFFSET UNITYSDK_OFFSET(0x1B98AE70)
-#define MIHOYO_SDK_KIBANAREPORT_STOP_OFFSET UNITYSDK_OFFSET(0x1B98B400)
-#define MIHOYO_SDK_KIBANAREPORT_STRINGMASK_OFFSET UNITYSDK_OFFSET(0x1B98DD90)
-#define MIHOYO_SDK_KIBANAREPORT_WARNING_OFFSET UNITYSDK_OFFSET(0x1B98B790)
-#define MIHOYO_SDK_KIBANAREPORT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B98DFF0)
-#define MIHOYO_SDK_KIBANAREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B98DFB0)
+#define MIHOYO_SDK_KIBANAREPORT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE8DB60)
+#define MIHOYO_SDK_KIBANAREPORT_CHECKPCCONFIG_OFFSET UNITYSDK_OFFSET(0x1BE89B60)
+#define MIHOYO_SDK_KIBANAREPORT_CHECKREPORTENABLE_1_OFFSET UNITYSDK_OFFSET(0x1BE89AE0)
+#define MIHOYO_SDK_KIBANAREPORT_CHECKREPORTENABLE_OFFSET UNITYSDK_OFFSET(0x1BE89A50)
+#define MIHOYO_SDK_KIBANAREPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE8DB20)
+#define MIHOYO_SDK_KIBANAREPORT_DEBUG_OFFSET UNITYSDK_OFFSET(0x1BE8A460)
+#define MIHOYO_SDK_KIBANAREPORT_ERROR_OFFSET UNITYSDK_OFFSET(0x1BE8A800)
+#define MIHOYO_SDK_KIBANAREPORT_FILTERPAYINFO_OFFSET UNITYSDK_OFFSET(0x1BE8D0F0)
+#define MIHOYO_SDK_KIBANAREPORT_INFO_OFFSET UNITYSDK_OFFSET(0x1BE8A600)
+#define MIHOYO_SDK_KIBANAREPORT_INITKIBANAFILTER_OFFSET UNITYSDK_OFFSET(0x1BE88730)
+#define MIHOYO_SDK_KIBANAREPORT_INITSUCCESSFILTER_OFFSET UNITYSDK_OFFSET(0x1BE89730)
+#define MIHOYO_SDK_KIBANAREPORT_INVOKEREPORT_OFFSET UNITYSDK_OFFSET(0x1BE8A900)
+#define MIHOYO_SDK_KIBANAREPORT_ISWEBVIEWSENSITIVEDATAREPORT_OFFSET UNITYSDK_OFFSET(0x1BE8D790)
+#define MIHOYO_SDK_KIBANAREPORT_REPLACESENSITIVEDATA_1_OFFSET UNITYSDK_OFFSET(0x1BE8C6F0)
+#define MIHOYO_SDK_KIBANAREPORT_REPLACESENSITIVEDATA_OFFSET UNITYSDK_OFFSET(0x1BE8B840)
+#define MIHOYO_SDK_KIBANAREPORT_REPORTCACHEDLIST_OFFSET UNITYSDK_OFFSET(0x1BE8A120)
+#define MIHOYO_SDK_KIBANAREPORT_REPORT_1_OFFSET UNITYSDK_OFFSET(0x1BE8B950)
+#define MIHOYO_SDK_KIBANAREPORT_REPORT_2_OFFSET UNITYSDK_OFFSET(0x1BE8C780)
+#define MIHOYO_SDK_KIBANAREPORT_REPORT_OFFSET UNITYSDK_OFFSET(0x1BE8A560)
+#define MIHOYO_SDK_KIBANAREPORT_SETBASEINFO_OFFSET UNITYSDK_OFFSET(0x1BE8AEE0)
+#define MIHOYO_SDK_KIBANAREPORT_START_OFFSET UNITYSDK_OFFSET(0x1BE89DD0)
+#define MIHOYO_SDK_KIBANAREPORT_STOP_OFFSET UNITYSDK_OFFSET(0x1BE8A370)
+#define MIHOYO_SDK_KIBANAREPORT_STRINGMASK_OFFSET UNITYSDK_OFFSET(0x1BE8D900)
+#define MIHOYO_SDK_KIBANAREPORT_WARNING_OFFSET UNITYSDK_OFFSET(0x1BE8A700)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaReport_TypeDefinitionIndex = 7928;
-
 	class KibanaReport : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_urlPathFilterList()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x1590);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_skipEventNameList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x1598);
-		}
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_maskUrlFilterList()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x15A0);
-		}
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::KibanaBaseModel*>* reportList; // 0x10
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_keyFilterList()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x15A8);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BA0);
 		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_urlPathFilterList()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BA8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_maskUrlFilterList()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BB0);
+		}
+
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_maskEventFilterList()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x15B0);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BB8);
 		}
+
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_urlPathSuccessFilterList()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x15B8);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BC0);
 		}
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_maskModuleFilterList()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x15C0);
-		}
+
 		static ::MiHoYo::SDK::KibanaReport** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::KibanaReport**)Il2CppClass::FromTypeDefinitionIndex(KibanaReport_TypeDefinitionIndex)->GetStaticField(0x15C8);
+			return (::MiHoYo::SDK::KibanaReport**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BC8);
 		}
-		// static const ::System::Int32 CACHED_MAX_COUNT = 0x14; // 0x0
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::KibanaBaseModel*>* reportList; // 0x10
 
+		static ::Il2CppArray<::System::String*>** StaticGet_skipEventNameList()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BD0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_maskModuleFilterList()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "KibanaReport")->GetStaticField(0x1BD8);
+		}
+
+		// static const ::System::Object CACHED_MAX_COUNT; // 0x0
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORT__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORT_CTOR_OFFSET))(this);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORT__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORT_CCTOR_OFFSET))();
 		}
 
 		::System::Void InitKibanaFilter()
@@ -198,5 +203,6 @@ namespace MiHoYo::SDK
 		{
 			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_KIBANAREPORT_STRINGMASK_OFFSET))(this, a1);
 		}
+
 	};
 }

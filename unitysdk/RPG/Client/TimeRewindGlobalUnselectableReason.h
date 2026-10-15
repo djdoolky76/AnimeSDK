@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindGlobalUnselectableReason_TypeDefinitionIndex = 60928;
-
 	enum class TimeRewindGlobalUnselectableReason : ::System::Int32
 	{
 		QteCatchGhost = 0,

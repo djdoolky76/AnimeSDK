@@ -3,8 +3,6 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRandomAccessStrategy_1_TypeDefinitionIndex = 60097;
-
 	template <typename T>
 	class IRandomAccessStrategy_1
 	{

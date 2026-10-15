@@ -3,37 +3,36 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/EmojiGenderEnum.h"
 #include "unitysdk/System/Object.h"
-
-class Class_1_7A22A3DBEEDD1F80;
+class FCOEMCEDLNL;
+namespace RPG::GameCore { class EmojiConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D05EFA0)
-#define RPG_GAMECORE_EMOJICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0603F0)
+#define RPG_GAMECORE_EMOJICONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63CBC0)
+#define RPG_GAMECORE_EMOJICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D63B750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiConfigRow_TypeDefinitionIndex = 13119;
-
 	class EmojiConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* EmojiPath; // 0x10
 		::RPG::Client::TextID KeyWords; // 0x18
-		::System::UInt32 GenderLink; // 0x28
-		::System::UInt32 SameGroupOrder; // 0x2C
-		::RPG::GameCore::EmojiGenderEnum Gender; // 0x30
-		::System::Boolean IsTrainMembers; // 0x34
-		::System::UInt32 EmojiID; // 0x38
+		::System::UInt32 SameGroupOrder; // 0x28
+		::System::Boolean IsTrainMembers; // 0x2C
+		::System::Byte _padding0[0x3];
+		::System::UInt32 GenderLink; // 0x30
+		::System::UInt32 EmojiID; // 0x34
+		::RPG::GameCore::EmojiGenderEnum Gender; // 0x38
 		::System::UInt32 EmojiGroupID; // 0x3C
-
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EMOJICONFIGROW__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EMOJICONFIGROW_CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EmojiConfigRow*& a2)
+		static ::System::Void FromBinary(::FCOEMCEDLNL* a1, ::RPG::GameCore::EmojiConfigRow* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EmojiConfigRow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EMOJICONFIGROW_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::FCOEMCEDLNL*, ::RPG::GameCore::EmojiConfigRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EMOJICONFIGROW_FROMBINARY_OFFSET))(a1, a2);
 		}
+
 	};
 }

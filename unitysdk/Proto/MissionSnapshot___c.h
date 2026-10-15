@@ -1,38 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-
 namespace Proto { class MissionSnapshot; }
+namespace System { class Object; }
 
-#define PROTO_MISSIONSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D96DF20)
-#define PROTO_MISSIONSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D96DF60)
-#define PROTO_MISSIONSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1D96DF70)
+#define PROTO_MISSIONSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E005AC0)
+#define PROTO_MISSIONSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E005B00)
+#define PROTO_MISSIONSNAPSHOT___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E005B10)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MissionSnapshot___c_TypeDefinitionIndex = 25498;
-
 	class MissionSnapshot___c : public ::System::Object
 	{
 	public:
-		static ::Proto::MissionSnapshot___c** StaticGet___9()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::Proto::MissionSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(MissionSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x5AAA0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43E10);
 		}
 
 		static ::System::Void _cctor()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT___C__CCTOR_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT___C_CCTOR_OFFSET))();
 		}
 
 		::System::Void _ctor()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT___C__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT___C_CTOR_OFFSET))(this);
 		}
 
 		::Proto::MissionSnapshot* __cctor_b__48_0()
 		{
 			return ((::Proto::MissionSnapshot*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_MISSIONSNAPSHOT___C___CCTOR_B__48_0_OFFSET))(this);
 		}
+
 	};
 }

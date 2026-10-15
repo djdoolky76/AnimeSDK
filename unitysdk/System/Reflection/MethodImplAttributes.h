@@ -3,8 +3,6 @@
 
 namespace System::Reflection
 {
-	inline static constexpr unsigned int MethodImplAttributes_TypeDefinitionIndex = 579;
-
 	enum class MethodImplAttributes : ::System::Int32
 	{
 		CodeTypeMask = 3,

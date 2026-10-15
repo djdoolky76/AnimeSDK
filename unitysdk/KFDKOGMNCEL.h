@@ -1,0 +1,205 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+class EIAFIIBFELM;
+class EJPKCFDEDCC;
+class FLEEMEEIKOI;
+class FOOJAKDJPLM;
+class GGHMFMEGIMH;
+class GJAJOEOLIHL;
+class GOGFNPCEPBF;
+class IENIJPJLHNJ;
+class JAANHJGOINJ;
+class JAANHJGOINJ_DBGHEJKBHCG;
+class JPLNMMPKIKC;
+class LFDCNMIAOPN;
+class MOJKHJGDGPJ;
+class PJECFJOCGMD;
+class PMFGGDFFLPE;
+
+#define KFDKOGMNCEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB3955B0)
+#define KFDKOGMNCEL_EPCCCIKOHJI_OFFSET UNITYSDK_OFFSET(0xB3953E0)
+#define KFDKOGMNCEL_GET_COMBATPOWERSTEP_OFFSET UNITYSDK_OFFSET(0xB395380)
+#define KFDKOGMNCEL_GET_DLCEQIPSTEP_OFFSET UNITYSDK_OFFSET(0xB3953A0)
+#define KFDKOGMNCEL_GET_LIGHTCONESTEP_OFFSET UNITYSDK_OFFSET(0xB3952E0)
+#define KFDKOGMNCEL_GET_OUTFITSTEP_OFFSET UNITYSDK_OFFSET(0xB395340)
+#define KFDKOGMNCEL_GET_PRESENTATIONSTEP_OFFSET UNITYSDK_OFFSET(0xB3953C0)
+#define KFDKOGMNCEL_GET_PROPERTYSTEP_OFFSET UNITYSDK_OFFSET(0xB395300)
+#define KFDKOGMNCEL_GET_PROTOTYPESTEP_OFFSET UNITYSDK_OFFSET(0xB395240)
+#define KFDKOGMNCEL_GET_RELICSTEP_OFFSET UNITYSDK_OFFSET(0xB3952C0)
+#define KFDKOGMNCEL_GET_SERVANTSTEP_OFFSET UNITYSDK_OFFSET(0xB395320)
+#define KFDKOGMNCEL_GET_SKILLSTEP_OFFSET UNITYSDK_OFFSET(0xB3952A0)
+#define KFDKOGMNCEL_GET_SKINSTEP_OFFSET UNITYSDK_OFFSET(0xB395360)
+#define KFDKOGMNCEL_GET_STATESTEP_OFFSET UNITYSDK_OFFSET(0xB395260)
+#define KFDKOGMNCEL_GET_TRACETREESTEP_OFFSET UNITYSDK_OFFSET(0xB395280)
+#define KFDKOGMNCEL_SET_COMBATPOWERSTEP_OFFSET UNITYSDK_OFFSET(0xB395390)
+#define KFDKOGMNCEL_SET_DLCEQIPSTEP_OFFSET UNITYSDK_OFFSET(0xB3953B0)
+#define KFDKOGMNCEL_SET_LIGHTCONESTEP_OFFSET UNITYSDK_OFFSET(0xB3952F0)
+#define KFDKOGMNCEL_SET_OUTFITSTEP_OFFSET UNITYSDK_OFFSET(0xB395350)
+#define KFDKOGMNCEL_SET_PRESENTATIONSTEP_OFFSET UNITYSDK_OFFSET(0xB3953D0)
+#define KFDKOGMNCEL_SET_PROPERTYSTEP_OFFSET UNITYSDK_OFFSET(0xB395310)
+#define KFDKOGMNCEL_SET_PROTOTYPESTEP_OFFSET UNITYSDK_OFFSET(0xB395250)
+#define KFDKOGMNCEL_SET_RELICSTEP_OFFSET UNITYSDK_OFFSET(0xB3952D0)
+#define KFDKOGMNCEL_SET_SERVANTSTEP_OFFSET UNITYSDK_OFFSET(0xB395330)
+#define KFDKOGMNCEL_SET_SKILLSTEP_OFFSET UNITYSDK_OFFSET(0xB3952B0)
+#define KFDKOGMNCEL_SET_SKINSTEP_OFFSET UNITYSDK_OFFSET(0xB395370)
+#define KFDKOGMNCEL_SET_STATESTEP_OFFSET UNITYSDK_OFFSET(0xB395270)
+#define KFDKOGMNCEL_SET_TRACETREESTEP_OFFSET UNITYSDK_OFFSET(0xB395290)
+
+	class KFDKOGMNCEL : public ::System::Object
+	{
+	public:
+		::EIAFIIBFELM* _PrototypeStep_k__BackingField; // 0x10
+		::LFDCNMIAOPN* _ServantStep_k__BackingField; // 0x18
+		::IENIJPJLHNJ* _RelicStep_k__BackingField; // 0x20
+		::PJECFJOCGMD* _StateStep_k__BackingField; // 0x28
+		::GGHMFMEGIMH* _SkillStep_k__BackingField; // 0x30
+		::FLEEMEEIKOI* _OutfitStep_k__BackingField; // 0x38
+		::GJAJOEOLIHL* _LightConeStep_k__BackingField; // 0x40
+		::MOJKHJGDGPJ* _DlcEqipStep_k__BackingField; // 0x48
+		::JPLNMMPKIKC* _PresentationStep_k__BackingField; // 0x50
+		::EJPKCFDEDCC* _CombatPowerStep_k__BackingField; // 0x58
+		::PMFGGDFFLPE* _TraceTreeStep_k__BackingField; // 0x60
+		::GOGFNPCEPBF* _PropertyStep_k__BackingField; // 0x68
+		::FOOJAKDJPLM* _SkinStep_k__BackingField; // 0x70
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_CTOR_OFFSET))(this);
+		}
+
+		::EIAFIIBFELM* get_PrototypeStep()
+		{
+			return ((::EIAFIIBFELM*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_PROTOTYPESTEP_OFFSET))(this);
+		}
+
+		::System::Void set_PrototypeStep(::EIAFIIBFELM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EIAFIIBFELM*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_PROTOTYPESTEP_OFFSET))(this, a1);
+		}
+
+		::PJECFJOCGMD* get_StateStep()
+		{
+			return ((::PJECFJOCGMD*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_STATESTEP_OFFSET))(this);
+		}
+
+		::System::Void set_StateStep(::PJECFJOCGMD* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PJECFJOCGMD*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_STATESTEP_OFFSET))(this, a1);
+		}
+
+		::PMFGGDFFLPE* get_TraceTreeStep()
+		{
+			return ((::PMFGGDFFLPE*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_TRACETREESTEP_OFFSET))(this);
+		}
+
+		::System::Void set_TraceTreeStep(::PMFGGDFFLPE* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::PMFGGDFFLPE*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_TRACETREESTEP_OFFSET))(this, a1);
+		}
+
+		::GGHMFMEGIMH* get_SkillStep()
+		{
+			return ((::GGHMFMEGIMH*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_SKILLSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_SkillStep(::GGHMFMEGIMH* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GGHMFMEGIMH*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_SKILLSTEP_OFFSET))(this, a1);
+		}
+
+		::IENIJPJLHNJ* get_RelicStep()
+		{
+			return ((::IENIJPJLHNJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_RELICSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_RelicStep(::IENIJPJLHNJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::IENIJPJLHNJ*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_RELICSTEP_OFFSET))(this, a1);
+		}
+
+		::GJAJOEOLIHL* get_LightConeStep()
+		{
+			return ((::GJAJOEOLIHL*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_LIGHTCONESTEP_OFFSET))(this);
+		}
+
+		::System::Void set_LightConeStep(::GJAJOEOLIHL* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GJAJOEOLIHL*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_LIGHTCONESTEP_OFFSET))(this, a1);
+		}
+
+		::GOGFNPCEPBF* get_PropertyStep()
+		{
+			return ((::GOGFNPCEPBF*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_PROPERTYSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_PropertyStep(::GOGFNPCEPBF* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::GOGFNPCEPBF*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_PROPERTYSTEP_OFFSET))(this, a1);
+		}
+
+		::LFDCNMIAOPN* get_ServantStep()
+		{
+			return ((::LFDCNMIAOPN*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_SERVANTSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_ServantStep(::LFDCNMIAOPN* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LFDCNMIAOPN*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_SERVANTSTEP_OFFSET))(this, a1);
+		}
+
+		::FLEEMEEIKOI* get_OutfitStep()
+		{
+			return ((::FLEEMEEIKOI*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_OUTFITSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_OutfitStep(::FLEEMEEIKOI* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FLEEMEEIKOI*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_OUTFITSTEP_OFFSET))(this, a1);
+		}
+
+		::FOOJAKDJPLM* get_SkinStep()
+		{
+			return ((::FOOJAKDJPLM*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_SKINSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_SkinStep(::FOOJAKDJPLM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::FOOJAKDJPLM*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_SKINSTEP_OFFSET))(this, a1);
+		}
+
+		::EJPKCFDEDCC* get_CombatPowerStep()
+		{
+			return ((::EJPKCFDEDCC*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_COMBATPOWERSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_CombatPowerStep(::EJPKCFDEDCC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::EJPKCFDEDCC*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_COMBATPOWERSTEP_OFFSET))(this, a1);
+		}
+
+		::MOJKHJGDGPJ* get_DlcEqipStep()
+		{
+			return ((::MOJKHJGDGPJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_DLCEQIPSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_DlcEqipStep(::MOJKHJGDGPJ* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MOJKHJGDGPJ*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_DLCEQIPSTEP_OFFSET))(this, a1);
+		}
+
+		::JPLNMMPKIKC* get_PresentationStep()
+		{
+			return ((::JPLNMMPKIKC*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_GET_PRESENTATIONSTEP_OFFSET))(this);
+		}
+
+		::System::Void set_PresentationStep(::JPLNMMPKIKC* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::JPLNMMPKIKC*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_SET_PRESENTATIONSTEP_OFFSET))(this, a1);
+		}
+
+		::JAANHJGOINJ_DBGHEJKBHCG* EPCCCIKOHJI(::JAANHJGOINJ* a1)
+		{
+			return ((::JAANHJGOINJ_DBGHEJKBHCG*(*)(::PVOID, ::JAANHJGOINJ*))((::PBYTE)hIl2Cpp + KFDKOGMNCEL_EPCCCIKOHJI_OFFSET))(this, a1);
+		}
+
+	};

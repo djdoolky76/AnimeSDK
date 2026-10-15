@@ -3,8 +3,6 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleSavedValueType_TypeDefinitionIndex = 13392;
-
 	enum class GridFightRoleSavedValueType : ::System::Int32
 	{
 		Unknow = 0,
